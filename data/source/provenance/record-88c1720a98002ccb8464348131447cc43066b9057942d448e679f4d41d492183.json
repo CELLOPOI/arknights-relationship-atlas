@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 954,
+          "line": 949,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_06_beg.txt",
+          "quote": "[name=\"莫希\"]……\n[name=\"莫希\"]果然是这样吗……\n[name=\"莫希\"]在山崖下被等在那里的希瓦艾什家的魏斯救下之后，我就一直在想。\n[name=\"莫希\"]如果一切都是设计好的一场局，那我在其中，到底是站在什么样的位置上呢。\n[Character(name=\"avg_npc_255_1#6$1\")]\n[name=\"莫希\"]看到您出现在这里，我终于能够确定了……"
+        }
+      ],
+      "description": "莫希明确说被魏斯从山崖下救回，证明双方曾实际接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E79"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "莫希明确说被魏斯从山崖下救回，证明双方曾实际接触。",
+          "status": "supported",
+          "to": "char_198_blackd"
+        },
+        {
+          "evidenceIds": [
+            "E79"
+          ],
+          "from": "char_198_blackd",
+          "reason": "莫希明确说被魏斯从山崖下救回，证明双方曾实际接触。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 954,
+          "kind": "story",
+          "line": 949,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 449,
+          "line": 416,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "quote": "[name=\"魏斯\"]你的手！\n[charslot(slot=\"m\",name=\"avg_199_yak_1#8$1\")]\n[name=\"角峰\"]没什么，只是一点小伤。\n[name=\"角峰\"]原本你就是打算这样做吧？\n[name=\"角峰\"]确实，你说得有道理。老爷还在等着，总不能让老爷等太久。\n[name=\"角峰\"]我很快就能割断绳子！\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#7$1\")]\n[name=\"魏斯\"]角峰大哥……\n[Dialog]\n[charslot]\n[name=\"莫希\"]那个……\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#9$1\")]\n[name=\"魏斯\"]——！\n[name=\"魏斯\"]什么人！\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\")]\n[name=\"莫希\"]我不是敌人。\n[name=\"莫希\"]……抱歉，是不是打扰你们了？\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#5$1\")]\n[name=\"魏斯\"]莫希？\n[name=\"魏斯\"]你不是已经离开谢拉格了吗？\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\")]\n[name=\"莫希\"]关于这件事，之后我会和你们详细说明。\n[name=\"莫希\"]休露丝夫人让我来探查，结果就发现你们都被绑在维多利亚的军营里。\n[charslot(slot=\"m\",name=\"avg_199_yak_1#8$1\")]\n[name=\"角峰\"]其他人呢？\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\")]\n[name=\"莫希\"]其他人我已经都放出来了。\n[name=\"莫希\"]总之，两位先出来吧，维多利亚的士兵已经在银心湖挑起了冲突。\n[name=\"莫希\"]我们需要尽快赶到现场。"
+        }
+      ],
+      "description": "魏斯与莫希直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_198_blackd",
+          "reason": "魏斯直接识别并回应莫希。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "莫希救出并直接招呼魏斯。",
+          "status": "supported",
+          "to": "char_198_blackd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 449,
+          "kind": "story",
+          "line": 416,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "维多利亚军营救援",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_198_blackd|npc_5b6d9a80bb2c7211"
+}

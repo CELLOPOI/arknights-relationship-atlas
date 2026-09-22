@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 553,
+          "line": 532,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_03_end.txt",
+          "quote": "“胡安娜女士！回来！”\n胡安娜听见有人在船尾呼唤她，那是哈维尔。\n[charslot(slot=\"r\",name=\"avg_npc_1581_1#6$1\",focus=\"r\")]\n[name=\"胡安娜\"]……\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_npc_1581_1#6$1\",focus=\"none\")]\n[name=\"哈维尔\"]小子，快点抓住绳梯！带胡安娜一起回来。\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#4$1\",focus=\"l\")]\n[name=\"伊西多\"]血……胡安娜你的伤口崩开了！\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#4$1\",focus=\"none\")]\n[name=\"蒂奇\"]怎么回事！快上来！\n[charslot(slot=\"r\",name=\"avg_npc_1581_1#6$1\",focus=\"r\")]\n她还不能昏迷，她的船员需要她，她要带领船队去往的未来还没有达成。\n她给科鲁兹的承诺还没有兑现。\n[charslot(slot=\"r\",name=\"avg_npc_1581_1#6$1\",focus=\"none\")]\n[name=\"西尔弗\"]别让他们跑了！\n[name=\"习武教士\"]是！\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#5$1\",focus=\"l\")]\n[name=\"伊西多\"]胡安娜女士！\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#5$1\",focus=\"none\")]\n[name=\"哈维尔\"]胡安娜！\n[name=\"蒂奇\"]胡安娜夫人！"
+        }
+      ],
+      "description": "哈维尔指挥伊西多抓绳梯，接回胡安娜。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_293_thorns",
+          "reason": "哈维尔指挥伊西多抓绳梯，接回胡安娜。",
+          "status": "supported",
+          "to": "npc_87fe432572eae97e"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_87fe432572eae97e",
+          "reason": "哈维尔指挥伊西多抓绳梯，接回胡安娜。",
+          "status": "supported",
+          "to": "char_293_thorns"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 553,
+          "kind": "story",
+          "line": 532,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_293_thorns|npc_87fe432572eae97e"
+}

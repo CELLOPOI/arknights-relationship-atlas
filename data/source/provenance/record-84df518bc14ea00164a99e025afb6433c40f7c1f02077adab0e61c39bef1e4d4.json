@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 367,
+          "line": 356,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_yuki_1_1.txt",
+          "quote": "[name=\"白雪\"]  ……这是我个人的行动，与任何人无关。\n[Character(name=\"char_007_closre_1#6\", name2=\"char_118_yuki#3\", focus=1)]\n[name=\"可露希尔\"]  好啦好啦，别紧张，你看我像是把你当成间谍的样子吗？\n[Character(name=\"char_007_closre_1\", name2=\"char_118_yuki#3\", focus=1)]\n[name=\"可露希尔\"]  是文月公主在把你送过来的时候特地和阿米娅通了一次电话。\n[Character(name=\"char_007_closre_1\", name2=\"char_118_yuki#2\", focus=2)]\n[name=\"白雪\"]  ……？\n[Character(name=\"char_007_closre_1\", name2=\"char_118_yuki#2\", focus=1)]\n[name=\"可露希尔\"]  她当时就告诉阿米娅，说她虽然派你来确实没有额外的意图，但她害怕你会做多余的事，所以特地主动提醒我们稍微注意你一下。\n[name=\"可露希尔\"]  还给阿米娅讲了一下你的一些行动模式，所以我就姑且对你多上心一下啦。\n[Character(name=\"char_007_closre_1\", name2=\"char_118_yuki\", focus=2)]\n[name=\"白雪\"]  ……这件事与公主无关。"
+        }
+      ],
+      "description": "可露希尔能叙述文月的来电内容，支持其知晓文月；没有文月知晓可露希尔的证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔能叙述文月的来电内容，支持其知晓文月；没有文月知晓可露希尔的证据。",
+          "status": "supported",
+          "to": "npc_0390092af6e7eaa6"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0390092af6e7eaa6",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_56462f66d428f847.json",
+      "sources": [
+        {
+          "endLine": 367,
+          "kind": "story",
+          "line": 356,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_yuki_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "白雪"
+    }
+  ],
+  "relationship_id": "char_4228_closur|npc_0390092af6e7eaa6"
+}

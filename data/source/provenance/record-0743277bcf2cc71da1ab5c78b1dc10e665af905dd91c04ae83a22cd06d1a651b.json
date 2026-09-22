@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 188,
+          "line": 143,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-03_beg.txt",
+          "quote": "[name=\"达格达\"] 注意后面——\n[Character(name=\"avg_npc_396_1#9$1\")]\n[name=\"达格达\"] 战场上的敌人不会站在你面前任由你挥拳头。\n[Character(name=\"avg_155_tiger_1#1$1\")]\n[name=\"因陀罗\"]这不是还有你吗？\n[Character(name=\"avg_npc_396_1#1$1\")]\n[name=\"达格达\"] 克制一些。比起把敌人揍得鼻青脸肿，我们更优先的任务是救人，然后撤退。\n[Character(name=\"avg_155_tiger_1#6$1\")]\n[name=\"因陀罗\"]知道了。\n[Character(name=\"avg_155_tiger_1#1$1\")]\n[name=\"因陀罗\"]那就拳头挥得更快一点呗。\n[Character(name=\"avg_155_tiger_1#1$1\")]\n[characteraction(name=\"middle\", type=\"move\", xpos=140, fadetime=0.05,block=false)]\n[PlaySound(key=\"$d_avg_punch\",volume=1)]\n[Character(name=\"avg_155_tiger_1#1$1\")]\n[PlaySound(key=\"$d_avg_punch02\", volume=1)]\n[characteraction(name=\"middle\", type=\"move\", xpos=-280, fadetime=0.05,isblock=true)]\n[CameraShake(duration=0.05, ystrength=0, vibrato=0, randomness=90, fadeout=true, block=false)]\n[characteraction(name=\"middle\", type=\"move\", xpos=140, fadetime=0.05,isblock=true)]\n[PlaySound(key=\"$d_avg_punch\", channel=\"B\",delay=0.2,volume=1)]\n[PlaySound(key=\"$d_avg_punch02\", channel=\"C\",delay=0.05,volume=1)]\n[Character(name=\"avg_155_tiger_1#1$1\",fadetime=0.3)]\n[characteraction(name=\"middle\", type=\"move\", xpos=140, fadetime=0.05,isblock=true)]\n[PlaySound(key=\"$d_avg_punch\",volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[playsound(key=\"$d_avg_doorbreak\",volume=0.6)]\n[PlaySound(key=\"$bodyfalldown2\", volume=1)]\n[delay(time=1)]\n[musicvolume(volume=0.2, fadetime=1)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[musicvolume(volume=0.4, fadetime=1)]\n[character(name=\"avg_npc_233_1#4\")]\n[name=\"蔓德拉\"]你是说……他们就是刚刚从我们手里抢人的那伙人？\n[character(name=\"avg_npc_233_1#2\")]\n[name=\"蔓德拉\"]记住他们的样子。\n[character(name=\"avg_npc_233_1#6\")]\n[name=\"蔓德拉\"]不，等等……看看能不能抓一个活的回去。不管伦蒂尼姆里混进来了什么新的势力，领袖都会感兴趣的。"
+        }
+      ],
+      "description": "达格达和因陀罗同一局部战斗，蔓德拉随后辨识这伙抢人者并命抓活口。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_157_dagda",
+          "reason": "达格达和因陀罗同一局部战斗，蔓德拉随后辨识这伙抢人者并命抓活口。",
+          "status": "supported",
+          "to": "npc_cb03e146518e01fb"
+        },
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_cb03e146518e01fb",
+          "reason": "达格达和因陀罗同一局部战斗，蔓德拉随后辨识这伙抢人者并命抓活口。",
+          "status": "supported",
+          "to": "char_157_dagda"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 188,
+          "kind": "story",
+          "line": 143,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_157_dagda|npc_cb03e146518e01fb"
+}

@@ -1,0 +1,102 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 426,
+          "line": 408,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "quote": "[name=\"梁洵\"] ……老鲤？你为什么……\n[character(name=\"avg_322_lmlee_1#4$1\")]\n[name=\"老鲤\"] 梁洵！？呃，还有宁小姐……\n[character(name=\"avg_npc_298_1#1$1\")]\n[name=\"宁小姐\"] ……\n[Character(name=\"avg_npc_297_1#2$1\")]\n[name=\"左乐\"] ……见过宁侍郎。\n[character(name=\"avg_npc_298_1#1$1\")]\n[name=\"宁小姐\"] 虽然有很多事想询问秉烛人，不过似乎不该是现在。\n[character(name=\"avg_1021_kroos2_1#2$1\")]\n[name=\"克洛丝\"] （侍郎！？）\n[character(name=\"avg_322_lmlee_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"老鲤？\"] 请坐，请坐。\n[character(name=\"avg_322_lmlee_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"老鲤？\"] 如此一来，便差不多了吧。\n[character(name=\"avg_npc_295_1#7$1\")]\n[name=\"梁洵\"] ……你要做什么？\n[character(name=\"avg_322_lmlee_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"老鲤？\"] 与各位下一盘棋。"
+        },
+        {
+          "endLine": 986,
+          "line": 973,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "quote": "[name=\"梁洵\"] ……唔。\n[character(name=\"avg_npc_298_1#1$1\")]\n[name=\"宁小姐\"] 你醒了。\n[character(name=\"avg_npc_295_1#2$1\")]\n[name=\"梁洵\"] ……一场白日梦。\n[character(name=\"avg_npc_298_1#6$1\")]\n[name=\"宁小姐\"] 你我知道，这是她们的手段。\n[name=\"宁小姐\"] 那局棋……\n[character(name=\"avg_npc_295_1#7$1\")]\n[name=\"梁洵\"] 毕竟，我们侥幸未输。\n[name=\"梁洵\"] ……只是众人合力，对面却只有一人纹枰，终究是不太光彩。\n[character(name=\"avg_npc_298_1#6$1\")]\n[name=\"宁小姐\"] 光彩……\n[name=\"宁小姐\"] 与他斗，还谈什么光彩不光彩呢。"
+        }
+      ],
+      "description": "真实参与者被术法带入同一棋局，老鲤认出宁小姐；梁宁醒后s18L975至986均保有共同棋局记忆，区别于未经证实的投影。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E61"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "真实参与者被术法带入同一棋局，老鲤认出宁小姐；梁宁醒后s18L975至986均保有共同棋局记忆，区别于未经证实的投影。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "E61"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "真实参与者被术法带入同一棋局，老鲤认出宁小姐；梁宁醒后s18L975至986均保有共同棋局记忆，区别于未经证实的投影。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 426,
+          "kind": "story",
+          "line": 408,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 986,
+          "kind": "story",
+          "line": 973,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 527,
+          "line": 500,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "quote": "[name=\"老鲤\"]……\n[name=\"老鲤\"]顶唔顺啊。\n[Character(name=\"avg_npc_302_1#1$1\")]\n[name=\"挑山人\"]……不该带你来找人。\n[Character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"]不该。\n[Character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"]你不露面？\n[Character(name=\"avg_322_lmlee_1#2$1\")]\n[name=\"老鲤\"]现在露面，不合适吧。\n[Character(name=\"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]他们这你来我往，简直比台上的戏还精彩。\n[name=\"老鲤\"]谁想到这姓梁的……唉，算了。\n[Character(name=\"avg_322_lmlee_1#5$1\")]\n[name=\"老鲤\"]……不，不行，不能算了！\n[name=\"老鲤\"]谁想到这姓梁的，十多年未见，成如今这样！\n[Character(name=\"avg_npc_302_1#1$1\")]\n[name=\"挑山人\"]十多年未见，不稀奇。\n[Character(name=\"avg_322_lmlee_1#5$1\")]\n[name=\"老鲤\"]难顶。\n[Character(name=\"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]好在还有茶可喝，有戏可看。\n[name=\"老鲤\"]这么一来，梁洵啊，你可是又欠我一笔。\n[Dialog]\n[delay(time=1)]\n[Character(name=\"avg_322_lmlee_1#9$1\")]\n[name=\"老鲤\"]唉……\n[name=\"老鲤\"]想找老朋友喝最后一杯酒，到底是难咯。"
+        }
+      ],
+      "description": "老鲤在近旁观察宁辞秋与梁洵。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "老鲤在近旁观察宁辞秋与梁洵。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "本篇未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_579215a80b4f83aa.json",
+      "sources": [
+        {
+          "endLine": 527,
+          "kind": "story",
+          "line": 500,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "未尽篇章"
+    }
+  ],
+  "relationship_id": "char_322_lmlee|npc_906d6f310e0f648e"
+}

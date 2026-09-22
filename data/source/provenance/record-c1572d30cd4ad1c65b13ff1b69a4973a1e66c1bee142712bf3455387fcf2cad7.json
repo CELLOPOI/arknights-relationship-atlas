@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 191,
+          "line": 154,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_beg.txt",
+          "quote": "[name=\"鲁斯\"]蒂奇，你来了，其他的队伍呢？有成功完成目标回来的吗？\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#1$1\",focus=\"m\")]\n[name=\"蒂奇\"]和你们一样，都损失惨重，还有一支队伍至今都没有任何消息。\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#2$1\",focus=\"m\")]\n[name=\"鲁斯\"]……这样下去，我们连打捞队的人手都要凑不齐了。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#1$1\",focus=\"m\")]\n[Delay(time=2)]\n[charslot]\n蒂奇本想说些什么，但她突然在人群中看到伊西多。\n她走上前去，粗暴地将伊西多拽到鲁斯面前。\n[PlaySound(key=\"$d_avg_clothmovement\")]\n[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#3$1\",focus=\"m\")]\n[name=\"鲁斯\"]你怎么跑出来的？\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#10$1\",focus=\"m\")]\n[name=\"伊西多\"]看守不在门口……\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#1$1\",focus=\"m\")]\n[name=\"蒂奇\"]让他跟着一起去。\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#4$1\",focus=\"m\")]\n[name=\"伊西多\"]我？\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#1$1\",focus=\"m\")]\n[name=\"蒂奇\"]对。\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#4$1\",focus=\"m\")]\n[name=\"鲁斯\"]我不同意。\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#3$1\",focus=\"m\")]\n[name=\"伊西多\"]我也不同意，这是你们的事，我不想插手。\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#5$1\",focus=\"m\")]\n[name=\"蒂奇\"]小伙子，这里的规矩是想吃饭就要干活，你既然不想炼金，那就来干些别的。\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#2$1\",focus=\"m\")]\n[name=\"伊西多\"]直接让我离开不行吗？\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#5$1\",focus=\"m\")]\n[name=\"蒂奇\"]想都别想，我们可是很缺人的，你就准备一直在这里干活干到死吧。\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#2$1\",focus=\"m\")]\n[name=\"伊西多\"]……别拽我。\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#5$1\",focus=\"m\")]\n[name=\"蒂奇\"]鲁斯，后天早上，带上他在这里集合，夫人那边我去说。"
+        }
+      ],
+      "description": "二人共同讨论队伍损失与伊西多安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_0a8b187bfc318db9",
+          "reason": "二人共同讨论队伍损失与伊西多安排。",
+          "status": "supported",
+          "to": "npc_d3f3c14a8aa46fa9"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_d3f3c14a8aa46fa9",
+          "reason": "二人共同讨论队伍损失与伊西多安排。",
+          "status": "supported",
+          "to": "npc_0a8b187bfc318db9"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 191,
+          "kind": "story",
+          "line": 154,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "npc_0a8b187bfc318db9|npc_d3f3c14a8aa46fa9"
+}

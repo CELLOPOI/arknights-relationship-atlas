@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 101,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act43side/level_act43side_06_end.txt",
+          "quote": "[name=\"莫伊拉\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#14$2\")]\n[name=\"莫伊拉\"]看来你在格蕾塔女士解散剧组之后给出的各种选择里，选择了侦探，卢西恩先生。\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#1$1\")]\n[name=\"卢西恩\"]不用虚张声势。我知道，你并不害怕我点破它。\n[name=\"卢西恩\"]如果能让更多人知道劳拉坠亡的真相以及剧组成员的所作所为，你甚至会在合适的时机主动暴露自己。\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#14$2\")]\n[name=\"莫伊拉\"]……但不是现在。\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#1$1\")]\n[name=\"卢西恩\"]都结束了，莫伊拉。\n[name=\"卢西恩\"]你一直隐藏得很好，单纯的身份和无辜的外表是很理想的掩护。\n[name=\"卢西恩\"]几乎每次凶案发生时，你都与蒂比在一起，那位场景喷绘师对你很信任，她为你提供了不在场证明……哪怕你曾中途离开。\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#5$1\")]\n[name=\"卢西恩\"]现在想来，剧组发生的每起“意外”，都或多或少与你有关。\n[name=\"卢西恩\"]道尔顿死于被替换的道具刀，原先的道具组长被辞退，你顺理成章接手他的工作，获得了更多作案的机会。\n[name=\"卢西恩\"]第二起“意外”……\n[charslot(slot = \"m\", name = \"avg_npc_1834_1#6$1\")]\n[name=\"格蕾塔\"]——谢莉走入冷库。\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#5$1\")]\n[name=\"卢西恩\"]不，在那之前她已起了杀心，只是未能成功。\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#1$1\")]\n[name=\"卢西恩\"]格蕾塔女士，还记得吗？谢莉小姐曾因陷入幻觉耽误了拍摄。\n[name=\"卢西恩\"]当她僵在原地无法动弹的时候，沉重的货箱从天而降……\n[charslot(slot = \"m\", name = \"avg_npc_1834_1#3$1\")]\n[name=\"格蕾塔\"]你救下了谢莉，莫伊拉仅凭一人之力拉住了货箱的绳索，避免你们受伤……\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#2$1\")]\n[name=\"卢西恩\"]那可不是好心的顺手之劳。\n[name=\"卢西恩\"]当时所有人都被谢莉小姐的行动吸引，极少有人会注意到空中悬吊的货箱……\n[name=\"卢西恩\"]更别提第一时间出现在绳索的另一端。\n[charslot(slot = \"m\", name = \"avg_npc_1834_1#5$1\")]\n[name=\"格蕾塔\"]只有在绳索上做手脚的人，才能做出如此迅速的反应……\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#10$2\")]\n[name=\"莫伊拉\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#1$1\")]\n[name=\"卢西恩\"]也正是这次杀人未遂让“谢莉小姐会被幻觉影响”成为剧组人人皆知的事实，于是你顺水推舟……\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#14$2\")]\n[name=\"莫伊拉\"]我知道她最深的噩梦。\n[name=\"莫伊拉\"]她把我误认成劳拉姐姐，对我吐露了罪恶的秘密……\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#15$2\")]\n[name=\"莫伊拉\"]但直到最后，她都没向姐姐忏悔，反倒开始责怪姐姐的逾矩……她该死。\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#1$1\")]\n[name=\"卢西恩\"]至于玛丽昂和迈克尔……\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#14$2\")]\n[name=\"莫伊拉\"]迈克尔只当我是个任人支使的无辜女孩，他猜不到我才是要向他索命的凶手，连偷偷逃离地块这样性命攸关的事也委托我帮忙。\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#15$2\")]\n[name=\"莫伊拉\"]而玛丽昂甚至认为自己丝毫不需要为当年的事情负责，她更该死！\n[dialog]\n[delay(time=1)]\n[name=\"莫伊拉\"]逃？一个都逃不掉！\n[name=\"莫伊拉\"]你们知道吗，姐姐承受了那么多痛苦与恶意，可她只字不提，只说自己在剧组里收获了多少经验与快乐……\n[name=\"莫伊拉\"]当我忧心自己无法胜任道具师工作时，当我在剧组受到排挤偷偷掉眼泪时……她都会拿自己举例子安慰我，鼓励我……\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#16$2\")]\n[name=\"莫伊拉\"]但直到她过世之后，我才知道，你们提供给她的究竟是哪种待遇！\n[charslot(slot = \"m\", name = \"avg_npc_1834_1#6$1\")]\n[name=\"格蕾塔\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#15$2\")]\n[name=\"莫伊拉\"]格蕾塔，而你现在看着我的眼神里竟然充满了……疑惑？\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#17$2\")]\n[name=\"莫伊拉\"]你难道忘了自己是怎样买通警方和媒体，压下姐姐的死，把意外变成电影中亦真亦假的戏，让她死后都不得安宁的吗！\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#2$1\")]\n[name=\"卢西恩\"]不，莫伊拉。\n[name=\"卢西恩\"]格蕾塔女士并未遗忘自己的所作所为，她只是在怀疑你的真实身份。\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#7$2\")]\n[name=\"莫伊拉\"]身份？剧组的道具师，不起眼的札拉克，犯下累累罪行的复仇者……\n[dialog]\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#1$1\")]\n[delay(time=1.5)]\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#4$1\")]\n[name=\"卢西恩\"]劳拉，并没有妹妹。\n[name=\"卢西恩\"]……她从不存在于你的人生。\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#15$2\")]\n[name=\"莫伊拉\"]你在……说什么？\n[name=\"莫伊拉\"]这又是哪种逼问的手段？\n[charslot(slot = \"m\", name = \"avg_npc_1834_1#6$1\")]\n[name=\"格蕾塔\"]五年前的事故之后，我曾给劳拉的家人发放了一笔抚恤金。\n[name=\"格蕾塔\"]为了保证劳拉的家庭成员，甚至是远亲都不会向外透露她已死的真相，我雇人仔细调查了她的家庭情况。\n[name=\"格蕾塔\"]卢西恩告诉我他推理出的真相后，我一度难以置信，所以再次对照了劳拉的家庭成员名单……\n[name=\"格蕾塔\"]很遗憾……里面并没有“莫伊拉”。\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#16$2\")]\n[name=\"莫伊拉\"]……你撒谎！\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#1$1\")]\n[name=\"卢西恩\"]关于你身上发生的一切，我知道该如何解释。但你需要花时间接受它。\n[charslot(slot = \"m\", name = \"avg_npc_1828_1#2$1\")]\n[name=\"卢西恩\"]放下那把匕首，莫伊拉。\n[name=\"卢西恩\"]它本不该属于你。\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#13$2\")]\n[name=\"莫伊拉\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1831_1#14$2\")]\n[name=\"莫伊拉\"]放下……？"
+        }
+      ],
+      "description": "卢西恩与莫伊拉直接对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_250_phatom",
+          "reason": "卢西恩点名莫伊拉并揭露其行动和身世。",
+          "status": "supported",
+          "to": "npc_d74d51b345271a02"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_d74d51b345271a02",
+          "reason": "莫伊拉称卢西恩先生并直接回应。",
+          "status": "supported",
+          "to": "char_250_phatom"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_3aa057c3830d75c1.json",
+      "sources": [
+        {
+          "endLine": 101,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act43side/level_act43side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "《杜邦夫人之死》剧组事件尾声",
+      "title": "红丝绒"
+    }
+  ],
+  "relationship_id": "char_250_phatom|npc_d74d51b345271a02"
+}

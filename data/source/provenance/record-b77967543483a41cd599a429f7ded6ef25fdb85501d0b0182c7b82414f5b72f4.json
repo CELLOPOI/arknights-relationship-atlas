@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 151,
+          "line": 47,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_04_beg.txt",
+          "quote": "[name=\"艾雅法拉\"]好漂亮的海……\n[character(name=\"avg_npc_190_1#6\",name2=\"avg_npc_206_1#8\",focus=2)]\n[name=\"铸铁\"]确实。\n[name=\"铸铁\"]看来这座城市果然没白来。\n[character(name=\"avg_npc_190_1#6\",name2=\"avg_npc_206_1#8\",focus=2)]\n[name=\"铸铁\"]我们就在这里坐下吧。\n[character(name=\"avg_npc_190_1#4\",name2=\"avg_npc_206_1#1\",focus=1)]\n[name=\"艾雅法拉\"]要不然我还是回去吧，会给这里的其他人添麻烦的……\n[character(name=\"avg_npc_190_1#4\",name2=\"avg_npc_206_1#8\",focus=2)]\n[name=\"铸铁\"]别太在意。这座城市好像不太在乎感染者问题的样子。\n[character(name=\"avg_npc_190_1#4\",name2=\"avg_npc_206_1#7\",focus=2)]\n[name=\"铸铁\"]虽然很明显，这并不是因为他们开明，而是他们不在乎……\n[character(name=\"avg_npc_190_1#4\",name2=\"avg_npc_206_1#1\",focus=2)]\n[name=\"铸铁\"]而且，有苏苏洛跟着，不会有问题的，对吧？\n[character(name=\"avg_npc_199_1#1\")]\n[name=\"苏苏洛\"]嗯。艾雅法拉小姐的病症我心里有数。\n[name=\"苏苏洛\"]其实你与其担心给别人添麻烦，更应该担心的是自己。\n[name=\"苏苏洛\"]你比其他人都要更加久居室内，这不仅对身体不好，对精神卫生也有影响。\n[character(name=\"avg_npc_199_1#6\")]\n[name=\"苏苏洛\"]这也是这一次我作为医生赞成将艾雅法拉小姐你带到这里来的理由。\n[character(name=\"avg_npc_199_1#7\")]\n[name=\"苏苏洛\"]每个人都应该拥有享受阳光的权利。\n[character(name=\"avg_npc_190_1#4\",name2=\"avg_npc_206_1#8\",focus=2)]\n[name=\"铸铁\"]就是。\n[character(name=\"avg_npc_190_1#4\",name2=\"avg_npc_206_1#1\",focus=2)]\n[name=\"铸铁\"]虽然博士那边也是遇到了麻烦，但是隔着屏幕听说他们在度假那叫什么事啊。\n[name=\"铸铁\"]我们艾雅法拉也该有个休假才对。\n[character(name=\"avg_npc_190_1#2\",name2=\"avg_npc_206_1#1\",focus=1)]\n[name=\"艾雅法拉\"]没有，我是自愿做地质研究的，而且要是耽误大家……\n[character(name=\"avg_npc_190_1#2\",name2=\"avg_npc_206_1#8\",focus=2)]\n[name=\"铸铁\"]哎呀，你就别操心了。\n[character(name=\"avg_npc_190_1#2\",name2=\"avg_npc_206_1#7\",focus=2)]\n[name=\"铸铁\"]我们来这边也是有正当理由的，罗德岛想要在这座城市设立办事处，一直没有得到这座城市市长的同意。\n[name=\"铸铁\"]阿米娅让我们来再当一次说客。\n[character(name=\"avg_npc_190_1#4\",name2=\"avg_npc_206_1#8\",focus=2)]\n[name=\"铸铁\"]所以你就安心在这里享受比赛节目吧。\n[character(name=\"avg_npc_190_1#6\",name2=\"avg_npc_206_1#8\",focus=1)]\n[name=\"艾雅法拉\"]嗯，谢谢。\n[character(name=\"avg_npc_190_1#6\",name2=\"avg_npc_206_1#1\",focus=2)]\n[name=\"铸铁\"]对了，红呢？\n[character(name=\"avg_npc_206_1#1\",name2=\"avg_npc_199_1#1\",focus=2)]\n[name=\"苏苏洛\"]她好像不打算出来，一个人不知道哪里去了。\n[character(name=\"avg_npc_206_1#5\",name2=\"avg_npc_199_1#1\",focus=1)]\n[name=\"铸铁\"]好吧，这家伙出任务以来就是这个样子，我也习惯了。\n[dialog]\n[delay(time=0.7)]\n[character(name=\"avg_npc_206_1#1\")]\n[name=\"铸铁\"]哦，快看，来了来了！\n[dialog]\n[character]\n[largebgtween(xFrom=-180,xTo=-720,  duration=1, ease=\"1\", block=true)]\n[delay(time=1)]\n[character(name=\"avg_NPC_017_3\")]\n[name=\"D.D.D.\"]让我们欢迎，鼠胆龙威队！\n[dialog]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$livecrowd\")]\n[character]\n[delay(time=1)]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_1013_spchen_1#2\",name2=\"avg_npc_196_1#5\",fadetime=1.5)]\n[delay(time=2)]\n[character(name=\"avg_1013_spchen_1#2\",name2=\"avg_npc_196_1#5\",focus=1)]\n[name=\"陈\"]……\n[character(name=\"avg_1013_spchen_1#2\",name2=\"avg_npc_196_1#5\",focus=2)]\n[name=\"林雨霞\"]……\n[character(name=\"avg_486_espumo_1#5\")]\n[name=\"埃内斯托\"]啊哈哈。\n[character(name=\"avg_npc_196_1#1\")]\n[name=\"林雨霞\"]还是分头行动？\n[character(name=\"avg_486_espumo_1#1\")]\n[name=\"埃内斯托\"]铁人三项赛程很长，各做各的很容易失去联系。\n[name=\"埃内斯托\"]其他队伍里除了单独分出人来妨碍其他队伍，基本上都是共同行动的。\n[name=\"埃内斯托\"]两位要是没有类似的想法我还是建议一起行动。\n[character(name=\"avg_1013_spchen_1#1\",name2=\"avg_npc_196_1#1\",focus=1)]\n[name=\"陈\"]我没意见。\n[character(name=\"avg_1013_spchen_1#1\",name2=\"avg_npc_196_1#5\",focus=2)]\n[name=\"林雨霞\"]也可以。动手的时候别妨碍我就好。\n[character(name=\"avg_1013_spchen_1#7\",name2=\"avg_npc_196_1#5\",focus=1)]\n[name=\"陈\"]原话奉还。\n[dialog]\n[character]\n[largebgtween(xFrom=-720,xTo=-180,  duration=1, ease=\"1\", block=true)]\n[delay(time=1)]\n[character(name=\"avg_npc_206_1#4\")]\n[name=\"铸铁\"]真是没想到，一开始看电视我还以为看错了，没想到陈也来到了这里。\n[name=\"铸铁\"]看起来她也在度假中，等比赛结束后，我们去和她打个招呼吧。\n[character(name=\"avg_npc_190_1#6\")]\n[name=\"艾雅法拉\"]嗯。\n[character(name=\"avg_npc_206_1#1\")]\n[name=\"铸铁\"]好了，你们先看，我去给你们买点吃的，你们就在这里不要随意走动啊。\n[character(name=\"avg_npc_199_1#7\")]\n[name=\"苏苏洛\"]好。\n[dialog]\n[character]\n[largebgtween(xFrom=-180,xTo=-720,  duration=1, ease=\"1\", block=true)]\n[delay(time=1.5)]\n[character(name=\"avg_NPC_017_3\")]\n[name=\"D.D.D.\"]以上就是所有十六支队伍的介绍。\n[name=\"D.D.D.\"]和第一轮一样，为了让观众们也享受到参与比赛的乐趣，我们为观众们也准备了丰富多彩的投注竞猜项目。\n[name=\"D.D.D.\"]各位观众在官方网站上登录自己的信息后可以为自己赚一笔外快！\n[name=\"D.D.D.\"]具体操作流程请参照官方发布的比赛指南。\n[name=\"D.D.D.\"]第二轮比赛中，我们的嘉宾配置将有所变化。\n[name=\"D.D.D.\"]潘乔先生为了准备第三轮比赛已经先一步前往了游轮上，他将通过视频连线的方式和观众们对话。\n[name=\"D.D.D.\"]那么，参赛选手们已经都来到了预备线上，请坎黛拉女士来为我们拉响第二轮的礼炮吧！"
+        }
+      ],
+      "description": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_180_amgoat",
+          "reason": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+          "status": "supported",
+          "to": "npc_41a9d787ca6c83d0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_41a9d787ca6c83d0",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_180_amgoat"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_a2ee9e247fcb3cb6.json",
+      "sources": [
+        {
+          "endLine": 151,
+          "kind": "story",
+          "line": 47,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "多索雷斯假日"
+    }
+  ],
+  "relationship_id": "char_180_amgoat|npc_41a9d787ca6c83d0"
+}

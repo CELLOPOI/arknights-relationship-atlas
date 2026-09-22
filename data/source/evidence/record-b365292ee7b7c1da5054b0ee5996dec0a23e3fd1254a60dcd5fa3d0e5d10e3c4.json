@@ -1,0 +1,15 @@
+{
+  "id": "import:char_502_nblade|npc_8526d858c3bd0892",
+  "published": true,
+  "quote": "【落叶逐火】\n夜刀：黑角干员，收到请回答，黑角。\n夜刀：......联系不上，信号太差了。\n夜刀：柏生先生......\n夜刀：我执行任务的时候不喜欢带着累赘，要是跟不上前进的速度，麻烦您留在原地，或者原路返回营地。\n柏生义冈：蠢货，我没想要和你们同行。\n夜刀：只要您要去找火龙，就请不要擅自离开我的身边，我必须确保您的安全。\n柏生义冈：你——",
+  "relationship_id": "char_502_nblade|npc_8526d858c3bd0892",
+  "sources": [
+    {
+      "endLine": 21,
+      "kind": "story",
+      "line": 12,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act24side/level_act24side_06_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

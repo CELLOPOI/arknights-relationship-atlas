@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 38,
+          "line": 29,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "quote": "[name=\"弗莱蒙特\"]……她最终还是走到了这一步。\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#12$1\",focus=\"m\")]\n[name=\"弗莱蒙特\"]该说我们的殿下什么好呢？冥顽不灵，还是天赋异禀？算了，不管骂还是夸，这下连众魂都听不见了。\n[name=\"弗莱蒙特\"]维多利亚的事情暂时放一边吧。那边的烂摊子特雷西斯和孽茨雷会收拾的。\n[name=\"弗莱蒙特\"]接下来……哈，瓦瑟领的高塔上塞满了军事委员会的间谍。他们恨不得撺掇羊和猫立刻大干一架，好让他们别关注卡兹戴尔。\n[name=\"弗莱蒙特\"]把你们的线都收收好！记住，我们也很快就要滚蛋了。浮夸羊不会容忍我们继续在她眼皮子底下蹦跶。\n[name=\"弗莱蒙特\"]我早就跟菈玛莲抱怨过，那对兄妹太激进了，迟早会给我们招来数不清的麻烦事！\n[name=\"弗莱蒙特\"]埃芒加德，你在卡兹戴尔的活儿得加紧做了。 \n[name=\"弗莱蒙特\"]要是特雷西斯的计划没完全成功，维多利亚……不，莱塔尼亚和其他核心圈国家的军队会立刻朝卡兹戴尔行进。\n[name=\"弗莱蒙特\"]接收巴别塔留下的遗产，保住那座城市。不能让两百年前的事再来一次。"
+        }
+      ],
+      "description": "弗莱蒙特具体评论二人会处理维多利亚残局。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E167"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "弗莱蒙特具体评论二人会处理维多利亚残局。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_84fdad316566923c",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_732d802fa042a0c2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 38,
+          "kind": "story",
+          "line": 29,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 82,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_1.txt",
+          "quote": "[name=\"弗莱蒙特\"]还是云游回来的裁缝又或是孽茨雷的弃信者。\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#7$1\")]\n[name=\"弗莱蒙特\"]回你们该回的地方，做你们该做的事。"
+        }
+      ],
+      "description": "弗莱蒙特具名谈及孽茨雷，反向无证。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "同场发言、听取或明确叙述支持该方向。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_84fdad316566923c",
+          "reason": "本窗未建立该方向。",
+          "status": "not_established",
+          "to": "npc_732d802fa042a0c2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_42c131bed95e2454.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 82,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "集成战略“萨卡兹的无终奇语”构造的可能未来，不倒推现实时间线",
+      "title": "萨卡兹的无终奇语"
+    }
+  ],
+  "relationship_id": "npc_732d802fa042a0c2|npc_84fdad316566923c"
+}

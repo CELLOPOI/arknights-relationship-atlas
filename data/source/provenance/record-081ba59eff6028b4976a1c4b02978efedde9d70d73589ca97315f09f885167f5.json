@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 44,
+          "line": 35,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_05_beg.txt",
+          "quote": "[name=\"莱蒙德\"]无可奉告！\n[charslot(slot=\"m\",name=\"avg_npc_187\",focus=\"m\")]\n[name=\"惊慌的居民\"]你……！\n[charslot(slot=\"m\",name=\"avg_npc_933_1#1$1\",focus=\"m\")]\n[name=\"费尔南\"]行了，怎么，我们就不能在这附近出现了？你们叽叽歪歪这么多，不就是想说是我们的人放的火吗！\n[name=\"费尔南\"]呸！莱蒙德，我看刚刚咱们就不该来救什么火，给他们全都烧光才好呢！\n[charslot(slot=\"m\",name=\"avg_npc_188\",focus=\"m\")]\n[name=\"焦急的居民\"]你说什么？！\n[charslot(slot=\"m\",name=\"avg_npc_937_1#1$1\",focus=\"m\")]\n[name=\"冷静的居民\"]……这个时节失火之前也不是没有过，或许这就是个巧合。"
+        }
+      ],
+      "description": "费尔南与莱蒙德共同面对居民并直接呼叫对方。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4214_cairn",
+          "reason": "双方直接对话或在连续局部场景中共同参与。",
+          "status": "supported",
+          "to": "npc_7452f6b260385f86"
+        },
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_7452f6b260385f86",
+          "reason": "双方直接对话或在连续局部场景中共同参与。",
+          "status": "supported",
+          "to": "char_4214_cairn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d3659cc008c9f040.json",
+      "sources": [
+        {
+          "endLine": 44,
+          "kind": "story",
+          "line": 35,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "空想花庭事件现实场景",
+      "title": "空想花庭"
+    }
+  ],
+  "relationship_id": "char_4214_cairn|npc_7452f6b260385f86"
+}

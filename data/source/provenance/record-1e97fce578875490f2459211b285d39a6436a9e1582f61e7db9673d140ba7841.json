@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 405,
+          "line": 371,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "quote": "扎罗没有理会大帝的讥讽。\n他只是最后深深看了一眼莱昂图索，然后，他的身影不断模糊，模糊，最终，消散在风中。\n像是他从未存在过。\n[Character(name=\"avg_1028_texas2_1#1$1\")]\n[name=\"德克萨斯\"]谢谢你，老板。\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]谢我就算了。\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]实际上，就算我不出手，也会有人出手。\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]她只是把这场好戏让给了我而已，我说得对吧，美女。\n[character]\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[Character(name=\"avg_npc_691_1#1$1\",fadetime=2)]\n[delay(time=3)]\n[name=\"西西里夫人\"]被称作美女，倒是很久没有过的经历了。\n[Character(name=\"avg_npc_691_1#1$1\")]\n[name=\"西西里夫人\"]如果不介意的话，你可以在叙拉古玩上一段时间。\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]你可以叫我大帝。\n[Character(name=\"avg_npc_691_1#1$1\")]\n[name=\"西西里夫人\"]有趣的名字，你不像那些狼之主，傲慢又无知，叙拉古欢迎你，大帝。\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]我相信，叙拉古会喜欢我的。\n[Character(name=\"avg_427_vigil_1#4$1\")]\n[name=\"莱昂图索\"]西西里夫人——！\n[Character(name=\"avg_npc_691_1#1$1\")]\n[name=\"西西里夫人\"]狼之主之间的游戏落后而又可笑。\n[Character(name=\"avg_npc_691_1#1$1\")]\n[name=\"西西里夫人\"]贝纳尔多的儿子，莱昂图索。\n[Character(name=\"avg_npc_691_1#1$1\")]\n[name=\"西西里夫人\"]你可以放心，他未来也不会再打扰你。\n[Character(name=\"avg_427_vigil_1#5$1\")]\n[name=\"莱昂图索\"]……！"
+        }
+      ],
+      "description": "大帝解决冲突后与西西里交谈，莱昂图索当场接话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "char_427_vigil",
+          "reason": "大帝解决冲突后与西西里交谈，莱昂图索当场接话。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝解决冲突后与西西里交谈，莱昂图索当场接话。",
+          "status": "supported",
+          "to": "char_427_vigil"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 405,
+          "kind": "story",
+          "line": 371,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_427_vigil|npc_2b6410ed62fdecf2"
+}

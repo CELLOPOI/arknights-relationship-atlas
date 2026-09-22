@@ -1,0 +1,63 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 394,
+          "line": 326,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_02_beg.txt",
+          "quote": "[name=\"潘格尼尼\"]……不要拿你刚编的称号来恭维我。\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#9$1\",focus=\"l\")]\n[name=\"能天使\"]潘大师，我知道你的难处啦。\n[name=\"能天使\"]我也只是想请你帮点小忙而已——比如说借借你这里的设备，或者你的专业知识——帮我理解一下拉特兰现在的情况。\n[name=\"能天使\"]毕竟我真的很着急。\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#3$1\",focus=\"l\")]\n[name=\"能天使\"]我的老板说，无论发生什么都不能阻碍企鹅物流完成任务然后办派对！\n[charslot(slot=\"r\",name=\"avg_npc_1781_1#3$1\",focus=\"r\")]\n[name=\"潘格尼尼\"]呃……\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#9$1\",focus=\"l\")]\n[name=\"能天使\"]不需要您亲手做任何事情，这样就不算触犯律法了，对吧？\n[charslot(slot=\"r\",name=\"avg_npc_1781_1#3$1\",focus=\"r\")]\n[name=\"潘格尼尼\"]把你的守护铳从我的收藏上移开，萨科塔小姐。\n[name=\"潘格尼尼\"]尤其是，这把铳还*拉特兰俚语*是我亲手做的——\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#9$1\",focus=\"l\")]\n[name=\"能天使\"]哈哈，你认出来了啊。\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#3$1\",focus=\"l\")]\n[name=\"能天使\"]那你一定知道它的威力有多大吧！\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#3$1\",focus=\"none\")]\n[playsound(key=\"$dooropenquite\", volume=1)]\n[Delay(time=1.5)]\n[name=\"？？？\"]老师，我找保拉医生帮你重新配了一副眼镜！她数落了我好久，说你要是再接着戴之前那副古董眼镜，那简直就是自虐……\n[name=\"？？？\"]快换上试试看吧。呃——\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1779_1#3$2\",duration=1.5)]\n[Delay(time=2)]\n[name=\"？？？\"]老师，这是怎么回事？！这个人是？\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#6$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#3$2\",focus=\"l\")]\n[name=\"能天使\"]呀——这不是当初那个不太会说话的小姑娘嘛！什么时候说话这么利索啦！\n[name=\"能天使\"]你叫什么来着，梵莉姆，梵妮斯，还是梵——\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#11$2\",focus=\"all\")]\n[name=\"能天使&梵里妮\"]——梵里妮！\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#3$1\",focus=\"l\")]\n[name=\"能天使\"]你看，我们的默契还在的嘛！\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#6$2\",focus=\"r\")]\n[name=\"梵里妮\"]啊……我想起来了，小乐姐！你当时来工坊选自己的第一把守护铳……\n[name=\"梵里妮\"]每次店里来客，老师都不让我出去打扰客人……可是那天外面动静真的很大，我实在忍不住好奇……\n[name=\"梵里妮\"]结果还是被老师发现了。我一直在害怕挨骂，其他的事情都记不太清了……对不起，小乐姐！\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#1$1\",focus=\"l\")]\n[name=\"能天使\"]是这样吗？你当时在害怕吗……？\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#4$2\",focus=\"r\")]\n[name=\"梵里妮\"]（点头）\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#1$1\",focus=\"l\")]\n[name=\"能天使\"]奇怪，我以为你当时很开心的。\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#1$2\",focus=\"r\")]\n[name=\"梵里妮\"]对了，小乐姐，你今天来工坊，是为了？\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#9$1\",focus=\"l\")]\n[name=\"能天使\"]（眨眼睛）\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1781_1#3$1\",focus=\"m\")]\n[name=\"潘格尼尼\"]梵妮。\n[name=\"潘格尼尼\"]刚刚第七厅的人来过了，这间工坊已经……\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#9$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#11$2\",focus=\"r\")]\n[name=\"梵里妮\"]我还没有成为正式的制铳师，不算这间工坊的员工，应该不算触犯律法吧。\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#3$1\",focus=\"l\")]\n[Delay(time=2)]\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#11$2\",focus=\"r\")]\n[name=\"梵里妮\"]老师，让我来接待这位客人可以吗？"
+        },
+        {
+          "endLine": 211,
+          "line": 182,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_03_beg.txt",
+          "quote": "[name=\"能天使\"]有困难，那就创造方法；没有困难，那就创造困难！\n[Dialog]\n[Image(image=\"61_i03_4\",block=false,screenadapt=\"coverall\",fadetime=0.5)]\n[Delay(time=1)]\n[name=\"能天使\"]“从不接无聊的订单”——这可是企鹅物流优秀的企业文化！\n[Dialog]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0,g=0, b=0, fadetime=2, block=true)]\n[Subtitle(text=\"“能天使，你的热情和毅力无人能比，但毕竟你总藏不住自己的想法，还是不要过早地惊扰你认识的人，哪怕……”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"61_i03_2\",block=false,screenadapt=\"coverall\",fadetime=0.5)]\n[Delay(time=1)]\n[name=\"能天使\"]哪怕是我老姐，对吧？\n[name=\"能天使\"]那我只会更有动力啦，就算是为了早点见到老姐，也要快点把问题解决！\n[Dialog]\n[PlaySound(key=\"$doorknockquite\", volume=1)]\n[Delay(time=1.5)]\n[name=\"梵里妮\"]小乐姐，该走了。\n[name=\"能天使\"]知道了，梵妮。\n[Dialog]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0,g=0, b=0, fadetime=2, block=true)]\n[Subtitle(text=\"“那位学徒……”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"61_i03_5\",block=false,screenadapt=\"coverall\",fadetime=0.5)]\n[Delay(time=1)]\n[name=\"能天使\"]虽然我和她没见过几次，但唯独在这件事上，我确定她能信得过。\n[name=\"能天使\"]我知道你在担心什么，但……哎呀，我很难向你解释萨科塔之间的联系，总之，放心好了。"
+        }
+      ],
+      "description": "能天使与梵里妮重逢后同行。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L04",
+            "L10"
+          ],
+          "from": "char_103_angel",
+          "reason": "双方当面交谈或具体历史互动明确双向。",
+          "status": "supported",
+          "to": "npc_4cb2a6da97143209"
+        },
+        {
+          "evidenceIds": [
+            "L04",
+            "L10"
+          ],
+          "from": "npc_4cb2a6da97143209",
+          "reason": "双方当面交谈或具体历史互动明确双向。",
+          "status": "supported",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 394,
+          "kind": "story",
+          "line": 326,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 211,
+          "kind": "story",
+          "line": 182,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "万国峰会期间",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_103_angel|npc_4cb2a6da97143209"
+}

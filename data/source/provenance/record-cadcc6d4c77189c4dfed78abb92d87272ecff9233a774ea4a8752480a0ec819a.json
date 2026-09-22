@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 508,
+          "line": 465,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "quote": "[name=\"因陀罗\"]混蛋，怎么都甩不掉！\n[character(name=\"avg_155_tiger_1#9$1\", name2=\"avg_npc_405_1#4$1\", focus=2)]\n[name=\"摩根\"]不……他刚才的速度你们都看见了吧？\n[name=\"摩根\"]他像故意放慢了脚步，硬是……硬是看我们逃了这么久……\n[character(name=\"avg_155_tiger_1#6$1\", name2=\"avg_npc_405_1#4$1\", focus=1)]\n[name=\"因陀罗\"]这是什么变态啊？\n[dialog]\n[character]\n[playsound(key=\"$d_avg_blood\",volume=0.7)]\n[character(name=\"avg_npc_410_1#1$1\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"？？？\"]嗯……听听你们的呼吸声与心跳声。你们终于跑累了吗？\n[character(name=\"avg_npc_407_1#6$2\")]\n[name=\"推进之王\"]这就是……萨卡兹的荣耀吗？\n[name=\"推进之王\"]这根本称不上一场战斗。\n[character(name=\"avg_npc_410_1#5$1\")]\n[name=\"？？？\"]……战斗？\n[name=\"？？？\"]你对我有些误解。\n[name=\"？？？\"]既然“魔王”不在，那么这里就根本没有与我匹配的对手。\n[name=\"？？？\"]你会与一群肉兽谈论荣耀吗？在你明知道狩猎它们只能带来一些感官刺激，最终它们只配作为一道前菜出现在晚餐饭桌上的前提下？\n[character(name=\"avg_npc_407_1#6$2\")]\n[name=\"推进之王\"]你把我们……当成猎物？\n[name=\"推进之王\"]即便你是萨卡兹，这种为了个人喜好而大肆杀戮的行径，也未免太野蛮了……\n[character(name=\"avg_npc_410_1#2$1\")]\n[name=\"？？？\"]不要以你们所理解的文明揣度我。这对我而言是最可怕的污蔑。\n[character(name=\"avg_npc_410_1#8$1\")]\n[name=\"？？？\"]在肮脏的瓦砾把你们砸成肉末之前，试着反抗我吧。\n[name=\"？？？\"]我会借由你们的鲜血记录你们临死前的思绪……所有的恐惧，不甘，愤怒……让它们尽情地涌向我！\n[dialog]\n[Blocker(a=0, r=255, g=0, b=0, fadetime=0, block=true)]\n[playsound(key=\"$d_avg_blood\")]\n[Blocker(a=0.5, r=255, g=0, b=0, fadetime=0.15, block=true)]\n[Blocker(a=0, r=255, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[delay(time=1)]\n[character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]维娜，快过来——\n[character(name=\"avg_npc_407_1#2$2\")]\n[name=\"推进之王\"]不。\n[character(name=\"avg_npc_405_1#5$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"摩根\"]维娜！\n[character(name=\"avg_npc_407_1#1$2\")]\n[name=\"推进之王\"]摩根，你也退下。"
+        }
+      ],
+      "description": "血魔大君当面猎杀撤退队伍，因陀罗、摩根和推进之王连续回应；此前黑影现形为同一追击者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E72"
+          ],
+          "from": "char_155_tiger",
+          "reason": "血魔大君当面猎杀撤退队伍，因陀罗、摩根和推进之王连续回应；此前黑影现形为同一追击者。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [
+            "E72"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "血魔大君当面猎杀撤退队伍，因陀罗、摩根和推进之王连续回应；此前黑影现形为同一追击者。",
+          "status": "supported",
+          "to": "char_155_tiger"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 508,
+          "kind": "story",
+          "line": 465,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 646,
+          "line": 583,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-12_end.txt",
+          "quote": "[name=\"摩根\"]汉娜，看你前面的路！\n[CharacterCutin(widgetID=\"3\", name=\"avg_155_tiger_1#9$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=-300, width=200, block=true)]\n[name=\"因陀罗\"]好吧好吧——！\n[Dialog]\n[CharacterCutin(widgetID=\"3\",fadetime=0.2,block=false)]\n[CharacterCutin(widgetID=\"4\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[Dialog]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#7$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=0, width=200, block=true)]\n[name=\"推进之王\"]让战车尽量抵近法阵的核心，我来搞定那东西！\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[CharacterCutin(widgetID=\"4\", name=\"avg_npc_405_1#4$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"摩根\"]维娜！\n[Dialog]\n[CharacterCutin(widgetID=\"4\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#10$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"推进之王\"]你们还有其他的任务。\n[name=\"推进之王\"]所有人员按照常规部署整队。摩根，汉娜，你们和号角小姐按原计划指挥战车开路。\n[name=\"推进之王\"]希勒少尉、达格达、戴菲恩，麻烦你们指挥地面编队组织防线，拦住那些血魔大君的小虫。\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"3\", name=\"avg_4110_delphn_1#1$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=-300, width=200, block=true)]\n[name=\"戴菲恩\"]放心。\n[Dialog]\n[CharacterCutin(widgetID=\"3\",fadetime=0.1,block=false)]\n[delay(time=0.2)]\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"4\", name=\"avg_npc_1070_1#1$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=0, width=200, block=true)]\n[name=\"希勒少尉\"]收到。\n[Dialog]\n[CharacterCutin(widgetID=\"4\",fadetime=0.1,block=false)]\n[delay(time=0.2)]\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"5\", name=\"avg_npc_396_1#1$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=300, width=200, block=true)]\n[name=\"达格达\"]收到。\n[Dialog]\n[CharacterCutin(widgetID=\"5\",fadetime=0.1,block=false)]\n[delay(time=0.2)]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#10$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"推进之王\"]Misery先生，敌方部队的指挥官交给你了。\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"6\", name=\"avg_npc_235\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=0, width=200, block=true)]\n[name=\"Misery\"]你大胆执行你的计划即可。\n[Dialog]\n[CharacterCutin(widgetID=\"6\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"n\")]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#10$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=-300, width=200, block=true)]\n[name=\"推进之王\"]费斯特，好久不见，寒暄放在之后。我需要自救军帮我布置滑索到法阵上方。\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"r\")]\n[name=\"费斯特\"]没问题！\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"n\")]\n[name=\"推进之王\"]事不宜迟，先把那个奇怪的法阵给解决了再说。\n[name=\"推进之王\"]我的背后就交给各位了。"
+        }
+      ],
+      "description": "明确知晓并应对血魔大君。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "char_155_tiger",
+          "reason": "在部署中明确受命阻挡血魔大君的造物。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "血魔大君不在部署现场。",
+          "status": "not_established",
+          "to": "char_155_tiger"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 646,
+          "kind": "story",
+          "line": 583,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "布伦特伍德进攻",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_155_tiger|npc_aa980d6791c26c93"
+}

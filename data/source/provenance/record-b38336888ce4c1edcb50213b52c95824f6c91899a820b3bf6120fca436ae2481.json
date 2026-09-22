@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 985,
+          "line": 867,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-02_end.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]我明白。\n[charslot]\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"你看见Logos冰冷的侧脸，以及顺应他的话语，服从地自他舌尖显现的咒文。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n但是——你没有看见萨卢斯的恐惧，癫狂，或是，任何一种将死之人的情绪。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n你只看见了，她兴趣盎然。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]喔，这就是如今的女妖之主？“王庭丧钟”？确实了得，这些咒文的精细程度不亚于你的英雄母亲。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]可，你知道吗？\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]这样精巧的符文——精巧的源石技艺，绝非萨卡兹最本初的心态。\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"她在后退。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n她的身后正上方是——\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n一具女妖的雕像。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[delay(time=1)]\n[stopmusic(fadetime=2)]\n[bgeffect(name=\"$eb_dim_openeye\",layer=1)]\n[PlaySound(key=\"$d_avg_land_impact\", volume=0.3)]\n[PlaySound(key=\"$d_avg_enchntrescram_1\", volume=1)]\n[CameraShake(duration=2, xstrength=60, ystrength=60, vibrato=20, randomness=90, fadeout=true, block=false)]\n[delay(time=4)]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]——\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]阿斯卡纶！\n[charslot]\n[dialog]\n[charslot]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"在昏迷的前一秒，你看见阿斯卡纶抱住了阿米娅，而Logos则挡在了你的面前。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n你看到石像复苏。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n你看到赦罪师眯起的眼，你看到她率先敲响丧钟。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[dialog]\n[PlaySound(key=\"$d_sp_ballista\",volume=1.0)]\n[PlaySound(key=\"$d_avg_explosion\", volume=0.9)]\n[PlaySound(key=\"$d_avg_rockfall\")]\n[CameraShake(duration=4, xstrength=40,ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n[delay(time=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=4, block=true)]\n[delay(time=3)]\n[Background(image=\"bg_coldforest\", screenadapt=\"coverall\", block=true)]\n[bgeffect(name=\"$eb_smog\",layer=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]\n[delay(time=1)]\n[Decision(options=\"——！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]博士。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]我们已经离开了洞窟，阿斯卡纶在勘察附近的地形。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]你的右臂桡骨被折断了，我正在为你做最基础的处理。我不是医疗干员，只能做到这个程度。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅的情况怎么样？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]……她还在昏迷。“受困于众魂”，尽管赦罪师表露出类似含义，但……\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]至少，她性命无碍。\n[charslot]\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"你扭过头，卡特斯女孩安静地躺在树下，好像只是睡着了一般。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]我理解阿斯卡纶对你行事的不满，博士。她所担心的，不仅有你的安全。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]但你确实为我们争取了时间，如果不是你的拖延，赦罪师恐怕已经带着阿米娅躲藏进了伦蒂尼姆的高墙之后。\n[dialog]\n[charslot]\n[Decision(options=\"那个赦罪师呢？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]让她逃了。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]土石，鲜血，还有……女妖之啸。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]这就是赦罪师所期望的萨卡兹的模样？执迷于……所谓的血统和巫术？\n[dialog]\n[charslot]\n[Decision(options=\"他们的目标是“魔王”。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"我们必须尽快转告凯尔希和闪灵。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]\n[name=\"Logos\"]……等等。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]\n[name=\"Logos\"]这些氤氲的水汽……\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]\n[name=\"Logos\"]……不可能。博士，小心些。我们未必离开了敌人的陷阱。\n[dialog]\n[charslot]\n[Decision(options=\"怎么了？;很少见你的脸色变化。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]这里……不是维多利亚。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]这里是女妖的河谷。"
+        }
+      ],
+      "description": "双方直接交锋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "双方直接交锋。",
+          "status": "supported",
+          "to": "npc_a3dffd9098ba430b"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_a3dffd9098ba430b",
+          "reason": "双方直接交锋。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 985,
+          "kind": "story",
+          "line": 867,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前行动",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "npc_2a519e8c8e7b4e11|npc_a3dffd9098ba430b"
+}

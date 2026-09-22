@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 400,
+          "line": 383,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st03.txt",
+          "quote": "[name=\"凯尔希\"]卡门阁下，请远离！\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]唔……\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]Mon3tr！\n[Character]\n[Character(name=\"npc_10002\",fadetime=0.5)]\n[PlaySound(key=\"$Mon3tr_n\")]\n[Characteraction(name=\"middle\", type=\"jump\", ypos=-50, power=100,times=1, fadetime=0.3, block=true)]\n[name=\"Mon3tr\"]（不耐烦的低鸣）\n[Character(name=\"char_003_kalts_1#2\")]\n[name=\"凯尔希\"]熔毁。\n[Character(name=\"npc_10002\")]\n[CameraShake(duration=2, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.08, block=true)]\n[name=\"Mon3tr\"]（激昂的咆哮）"
+        }
+      ],
+      "description": "Mon3tr在卡门面前执行救援攻击，卡门直接感知该行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S14"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "Mon3tr在卡门面前执行救援攻击，卡门直接感知该行动。",
+          "status": "supported",
+          "to": "npc_8bb239b319aad399"
+        },
+        {
+          "evidenceIds": [
+            "S14"
+          ],
+          "from": "npc_8bb239b319aad399",
+          "reason": "Mon3tr在卡门面前执行救援攻击，卡门直接感知该行动。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 400,
+          "kind": "story",
+          "line": 383,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_8bb239b319aad399"
+}

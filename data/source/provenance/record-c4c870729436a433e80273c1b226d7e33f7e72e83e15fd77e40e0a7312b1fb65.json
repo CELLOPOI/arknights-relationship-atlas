@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 563,
+          "line": 514,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d5/level_act15d5_st04.txt",
+          "quote": "[name=\"？？？\"]  诗人会描摹星星的词汇，旅人会对夜晚思绪万千，而我，已经想好了哪颗星星该以我的名字命名。\n[Dialog]\n[Character(name=\"char_105_emper\", fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"大帝\"]  晚上好，小姐。\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=2)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"席德佳\"]  ……您、您是？\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=1)]\n[name=\"大帝\"]  哦，我之前可看见你从我的酒吧里出来了。那会我正忙着处理一起小小的意外。\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=2)]\n[name=\"席德佳\"]  呃……可那不是峯驰物流的……\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=1)]\n[name=\"大帝\"]  欧厄尔？那头蠢牛买下来了是不假，但我可还是那里唯一的酒保！酒吧的灵魂就是酒保！我就是它的灵魂！\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=2)]\n[name=\"席德佳\"]  ……\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=1)]\n[playsound(key=\"$d_gen_transmissionget\", volume=0.6)]\n[name=\"大帝\"]  哦……等等，等等。\n[Character(name=\"char_105_emper\")]\n[CameraShake(duration=0.6, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"大帝\"]  什么？是假货？被掉包了？\n[name=\"大帝\"]  那还犹豫什么，炸烂他们的船！对！我说的！什么？当然要带上我，你们要吃独食吗！\n[Character(name=\"char_332_archet#3\")]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"席德佳\"]  （这怎么看都是非法的吧——！？）\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=1)]\n[name=\"大帝\"]  欧厄尔和你说了什么？\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=2)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"席德佳\"]  我怎么会——\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=1)]\n[name=\"大帝\"]  哦，我知道，无非又是借着各种合作项目试着找出一种可能性吧。真辛苦他啊。\n[name=\"大帝\"]  这片大地很精彩，小姑娘。\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=2)]\n[name=\"席德佳\"]  怎么突然——\n[Character(name=\"char_105_emper\", name2=\"char_332_archet#3\", focus=1)]\n[name=\"大帝\"]  但目前的你，缺乏一些开创性。\n[name=\"大帝\"]  没事，我看你挺顺眼的，毕竟保罗·兰登是个好小伙子，我喜欢他放下铳拿起笔的样子！\n[Dialog]\n[Character]\n[PlaySound(key=\"$drift\", volume=0.6)]\n[delay(time=1)]\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]  找到他们了，老板。\n[Character(name=\"char_332_archet#3\")]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"席德佳\"]  等——\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]  事不宜迟！该让他们沉进河底了！"
+        }
+      ],
+      "description": "席德佳与大帝直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_332_archet",
+          "reason": "席德佳与大帝直接交谈。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "席德佳与大帝直接交谈。",
+          "status": "supported",
+          "to": "char_332_archet"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_6fcdbd26f39c21fe.json",
+      "sources": [
+        {
+          "endLine": 563,
+          "kind": "story",
+          "line": 514,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d5/level_act15d5_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段及明确既往互动",
+      "title": "此地之外"
+    }
+  ],
+  "relationship_id": "char_332_archet|npc_2b6410ed62fdecf2"
+}

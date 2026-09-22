@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 194,
+          "line": 188,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "quote": "[name=\"Logos\"]嗯。我只见Scout和Outcast示范过几回，可能动作不够纯熟，所以没起到很好的效果。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"none\")]\n[Decision(options=\"没想到你还有这样的一面。;难不成，其实你很喜欢开玩笑？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#3$1\",focus=\"m\")]\n[name=\"Logos\"]博士，有时候我也会遗憾于我们之间相处的许多记忆消散无踪。"
+        }
+      ],
+      "description": "Logos明确说见二人示范魔术，具体教导场景支持既有相处。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E45"
+          ],
+          "from": "char_4133_logos",
+          "reason": "Logos明确说见二人示范魔术，具体教导场景支持既有相处。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [
+            "E45"
+          ],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "Logos明确说见二人示范魔术，具体教导场景支持既有相处。",
+          "status": "supported",
+          "to": "char_4133_logos"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 194,
+          "kind": "story",
+          "line": 188,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "char_4133_logos|npc_617e6ed434c6e138"
+}

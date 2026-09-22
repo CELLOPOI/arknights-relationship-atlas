@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 389,
+          "line": 369,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_08_beg.txt",
+          "quote": "[name=\"阿斯卡纶\"]奥达，镇里的情况怎么样？\n[dialog]\n[playsound(key=\"$d_gen_transmissionget\", volume=1)]\n[CharacterCutin(widgetID=\"1\", name=\"avg_4131_odda_1#2$2\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=300, width=200, block=true)]\n[delay(time=0.5)]\n[charslot(slot = \"l\", focus=\"n\")]\n[name=\"奥达\"]我们还在追击剩余的佣兵！他们的残部大都躲进了废弃的建筑里，要全部搜出来恐怕得花点时间。\n[charslot(slot = \"l\", name = \"avg_4132_ascln_1#1$1\")]\n[name=\"阿斯卡纶\"]不要冒进，注意时间，别忘了博士的嘱咐。\n[name=\"阿斯卡纶\"]我们的目标是扫清侧翼后，迅速去正面战线会合。\n[charslot(slot = \"l\", focus=\"n\")]\n[name=\"奥达\"]我知道。幸好博士提前有过预案，否则我们真有可能被他们的埋伏给阴了。\n[CharacterCutin(widgetID=\"1\", name=\"avg_4131_odda_1#4$2\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=300, width=200, block=true)]\n[name=\"奥达\"]但……这事透着古怪。这个镇子明显在天灾经过的路径上，这帮雇佣兵为什么要冒险在这个地方埋伏我们？\n[charslot(slot = \"l\", name = \"avg_4132_ascln_1#1$1\")]\n[name=\"阿斯卡纶\"]我还在查。\n[CharacterCutin(widgetID=\"1\", name=\"avg_4131_odda_1#2$2\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=300, width=200, block=true)]\n[charslot(slot = \"l\", focus=\"n\")]\n[name=\"奥达\"]阿斯卡纶小姐，只要找到他们的领袖，说不定就能有线索。\n[charslot(slot = \"l\", name = \"avg_4132_ascln_1#1$1\")]\n[name=\"阿斯卡纶\"]知道。你们注意安全。"
+        }
+      ],
+      "description": "奥达明确感谢博士事先预案避免中埋伏，博士此处未直接认识奥达。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E63"
+          ],
+          "from": "char_4131_odda",
+          "reason": "奥达明确感谢博士事先预案避免中埋伏，博士此处未直接认识奥达。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4131_odda"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 389,
+          "kind": "story",
+          "line": 369,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "char_4131_odda|npc_b99957887950ebfd"
+}

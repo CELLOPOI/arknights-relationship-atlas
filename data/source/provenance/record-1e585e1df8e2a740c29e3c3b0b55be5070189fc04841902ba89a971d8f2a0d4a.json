@@ -1,0 +1,160 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 450,
+          "line": 424,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_st02.txt",
+          "quote": "[name=\"薇尔丽芙\"]就是那个通缉犯阿尔图罗？\n[character(name=\"avg_npc_355_1#3$1\")]\n[name=\"奥伦\"]……费德里科，你和阿尔图罗是什么关系？\n[character(name=\"char_279_excu_4#2\")]\n[name=\"费德里科\"]她是我的远亲。\n[character(name=\"avg_npc_355_1#4$1\")]\n[name=\"奥伦\"]……哈，哈哈哈哈哈！\n[character(name=\"avg_npc_355_1#1$1\")]\n[name=\"奥伦\"]说实在的，费德里科。\n[character(name=\"avg_npc_355_1#4$1\")]\n[name=\"奥伦\"]如果不是我现在站都站不稳，我真的想拉你去喝个酒。\n[character(name=\"char_279_excu_4\")]\n[name=\"费德里科\"]我没有空。\n[character(name=\"avg_npc_355_1#1$1\")]\n[name=\"奥伦\"]你会有的。因为我恰好在几年前……真的见到过那位比安多恩名气还要大得多的通缉犯，阿尔图罗小姐。\n[character(name=\"avg_npc_361_1#3$1\")]\n[name=\"薇尔丽芙\"]……\n[character(name=\"avg_npc_355_1#3$1\")]\n[name=\"奥伦\"]冷静！冷静！薇尔丽芙！！！\n[character(name=\"avg_npc_355_1#3$1\")]\n[name=\"奥伦\"]我不是主动找上阿尔图罗！只是正好碰上！\n[character(name=\"avg_npc_355_1#8$1\")]\n[name=\"奥伦\"]说真的，我自认算见多识广，但那段经历，即使是我也感到毛骨悚然……\n[character(name=\"char_279_excu_4#4\")]\n[name=\"费德里科\"]你在哪里见到她？\n[character(name=\"avg_npc_355_1#8$1\")]\n[name=\"奥伦\"]三年前，在莱塔尼亚。"
+        }
+      ],
+      "description": "费德里科在场听到奥伦对安多恩的具体提及。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_279_excu",
+          "reason": "费德里科在场听到奥伦对安多恩的具体提及。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "本组所读窗口没有反向知晓证据。",
+          "status": "not_established",
+          "to": "char_279_excu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 450,
+          "kind": "story",
+          "line": 424,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 479,
+          "line": 461,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_02_end.txt",
+          "quote": "[name=\"斯普莉雅\"]所以说……那位主教阁下，是为了住在这里的萨卡兹，才给我们增加了这么多工作？\n[charslot(slot = \"m\", name = \"avg_4015_spuria_1#12$1\")]\n[name=\"斯普莉雅\"]我们应该提过可以接他们回拉特兰吧？他这是为了萨卡兹，硬是把这里的所有人留下来忍冻挨饿？为了萨卡兹，扣押拉特兰特使？\n[charslot(slot = \"m\", name = \"avg_1032_excu2_1#1$1\")]\n[name=\"费德里科\"]嗯。\n[charslot(slot = \"m\", name = \"avg_4015_spuria_1#6$1\")]\n[name=\"斯普莉雅\"]……认真的？前头刚走一个大逆不道的安多恩，现在又来一位仁慈博爱的主教阁下？\n[charslot(slot = \"m\", name = \"avg_1032_excu2_1#1$1\")]\n[name=\"费德里科\"]嗯。\n[PlaySound(key=\"$d_avg_whistle\", volume=0.9)]\n[charslot(slot = \"m\", name = \"avg_4015_spuria_1#10$1\")]\n[name=\"斯普莉雅\"]*口哨声*酷哦。\n[charslot(slot = \"m\", name = \"avg_4015_spuria_1#12$1\")]\n[name=\"斯普莉雅\"]虽然我也不太在乎什么世仇，不过他这样是不是脑子坏了？\n[name=\"斯普莉雅\"]那就怪不得连蕾缪安都不能答应这种要求了……萨卡兹才在伦蒂尼姆大闹一场，那几个维多利亚大公爵可都恨得牙痒痒呢。\n[name=\"斯普莉雅\"]在这个时间点，万一和萨卡兹牵扯不清这事传出去，教宗阁下的万国联合计划就完蛋了。\n[charslot(slot = \"m\", name = \"avg_npc_372_1#1$1\")]\n[name=\"里凯莱\"]听起来挺严重的。\n[name=\"里凯莱\"]费德里科，我记得蕾缪安和奥伦的任务是给这里提供支援，并将这座修道院收回拉特兰吧？"
+        }
+      ],
+      "description": "char_279_excu知晓安多恩；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_279_excu",
+          "reason": "三人同处连续谈话并听到安多恩的具体姓名。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "本组候选没有安多恩知晓三人的反向证据。",
+          "status": "not_established",
+          "to": "char_279_excu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d3659cc008c9f040.json",
+      "sources": [
+        {
+          "endLine": 479,
+          "kind": "story",
+          "line": 461,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "修道院调查期间",
+      "title": "空想花庭"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 330,
+          "line": 248,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_08_end.txt",
+          "quote": "[name=\"费德里科\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]别着急，执行者。那支队伍里姑且还有我想杀的人，我答应帮你打的架，不论如何都要打。\n[charslot(slot=\"m\",name=\"avg_245_cello_1#9$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]看起来，他们想做的确实是重塑整座城市。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]如果他们重塑的方式就是把那些异色的投影铺满整座城市，通过结成一支密集的队伍来达成未免效率太低。\n[name=\"费德里科\"]但他们依然在梦境崩毁后的第一时间选择聚集起来……或许他们重塑城市的方式从来都不只是引导异色的投影在城市中蔓延。\n[name=\"费德里科\"]这支队伍理应还有另一种我们所不知的、重塑城市的手段。为此，他们需要抵达一个共同的终点。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#2$2 \",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[multiline(name=\"安多恩\")]咳咳……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#10$2 \",focus=\"m\")]\n[multiline(name=\"安多恩\")]如果，他们想要颠覆整个拉特兰，或许我知晓那支队伍将去往何处——\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$2 \",focus=\"m\")]\n[name=\"安多恩\"]大教堂。\n[name=\"安多恩\"]我与教宗伊万杰利斯塔十一世在那里有过一次谈话，我曾因此得窥一些存在，知晓一些真相。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1 \",focus=\"m\")]\n[name=\"费德里科\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$2 \",focus=\"m\")]\n[name=\"安多恩\"]执行者先生，你无需怀疑……\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1 \",focus=\"m\")]\n[name=\"费德里科\"]我没有怀疑，你的案卷确实是由教宗阁下亲自签名封存。\n[Dialog]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]安多恩，我会带你前往。\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]等等，费德里科——\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]现在全城一片混乱，没有人知道到底发生了什么，我们凭什么相信你？\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]别抢我的话！\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]如果各位顾虑的是权责归属——在场诸位几乎都在某种程度上触犯了律法，作为执行者，我有权对你们实施临时管控。\n[name=\"费德里科\"]如果各位只是因眼前的灾异感到恐慌，无法做出任何有效的判断与行动……\n[name=\"费德里科\"]费德里科·吉亚洛，是历任教宗之外，首位获封的圣徒。\n[name=\"费德里科\"]我并不觉得这个身份有任何特殊的意义，但如果你们需要一个理由，没有比它更合适的了。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$2 \",focus=\"m\")]\n[name=\"安多恩\"]从育婴圣堂到大教堂，那支队伍会最先经过这里。\n[name=\"安多恩\"]歧法——也就是那只怪物，她的共感能力异常强大，启示石塔的钟声也无法帮助你们隔绝其影响。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]帕蒂亚，带着其他寻路者，还有这些离群者离开这里，往相反的方向走。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#10$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]你一个人？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]相信我，兄弟姐妹，这是我当行的路。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]……至少别这么狼狈地去，换身衣服吧。还是说你想一直穿着这件血袍子？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]……我的衣物不多，原本的修士服眼下亦不知在何处。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[PlaySound(key=\"$d_avg_cloakmovement\", volume=1)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]……拿着。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#7$2 \",focus=\"m\")]\n[name=\"安多恩\"]这是……你，一直收着？\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]占不了多少地方。我……我不知道。我只是觉得……这不是那么轻易能丢掉的东西。总之，还给你。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#11$2 \",focus=\"m\")]\n[name=\"安多恩\"]这许多年来，谢谢你，帕蒂亚。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]不过，我们还须设法安置这些刚脱离梦境的孩子……\n[charslot(slot=\"m\",name=\"avg_245_cello_1#1$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]……\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1 \",focus=\"m\")]\n[name=\"费德里科\"]阿尔图罗，你和安多恩都需要特别监管，我需要确保你们在我的视线范围内。\n[charslot(slot=\"m\",name=\"avg_245_cello_1#4$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]我还什么都没说呢，“圣徒”阁下。\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#16$1\",focus=\"m\")]\n[name=\"努艾达\"]或、或许，可以交给我？\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#12$1\",focus=\"m\")]\n[name=\"努艾达\"]我虽然不是萨科塔，也不是拉特兰人，但照顾孩子……还算擅长。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]那么，行动。"
+        },
+        {
+          "endLine": 504,
+          "line": 385,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_09_beg.txt",
+          "quote": "[name=\"阿尔图罗\"]……空无一人的大教堂，真不适应啊。\n[Dialog]\n[charslot]\n[name=\"安多恩\"]请跟上，阿尔图罗小姐。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Background(image=\"26_g2_laterano_cathedralhall\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$3\",duration=0.7)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$3\",focus=\"m\")]\n[name=\"安多恩\"]……就是这里。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#9$1\",focus=\"m\")]\n[name=\"费德里科\"]经文柱？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$3\",focus=\"m\")]\n[name=\"安多恩\"]那两根经文柱中间，雕刻着《圣徒行记》的石板……按照篇目的顺序依次按动圣徒像的光环，然后，推开这面墙壁。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#9$1\",focus=\"m\")]\n[name=\"费德里科\"]我曾多次在这里向教宗阁下汇报公务，却从未发现大教堂内存在这样的机关。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$3\",focus=\"m\")]\n[name=\"安多恩\"]或许是因为你不曾对拉特兰感到怀疑吧。\n[name=\"安多恩\"]希望即将见到的事物，不会动摇两位的信念。\n[charslot(slot=\"m\",name=\"avg_245_cello_1#11$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]是吗？\n[name=\"阿尔图罗\"]那还真是令人期待。\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[PlaySound(key=\"$d_avg_stonegateopen\", volume=1)]\n[charslot]\n[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]\n[delay(time=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[delay(time=1)]\n安多恩曾经跟着教宗由此下行。\n他们将经过诸位圣贤的埋骨地，经过陈列着他们伟业的石碑与圣像，一路穿越拉特兰数千年的岁月，直抵历史尽头。\n但……\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[Background(image=\"61_g5_undergroundcorridor\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[playMusic(key=\"$darkness_03_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#9$3\",focus=\"m\")]\n[name=\"安多恩\"]……\n[Dialog]\n[charslot]\n安多恩怀疑自己的记忆出现了错乱——\n原本的洁白已经不见，整条通道被深重的铁色铺满，显得格外冰冷。\n圣像倒是依旧陈列在两侧，但极不规则的机械块状物从墙壁中生出，吞噬了它们的手臂、眼睛，或者双腿……\n[charslot(slot=\"m\",name=\"avg_245_cello_1#5$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]看来，我们的历史正被魔鬼抚摸着……\n[charslot(slot=\"m\",name=\"avg_245_cello_1#1$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]安多恩先生，感谢你的警告，不然我可能会更惊讶一些。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#9$3\",focus=\"m\")]\n[name=\"安多恩\"]不，这里发生了变化。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#9$3\",focus=\"n\")]\n安多恩紧蹙着眉头，视线尽处，隐隐跳跃着红光——安多恩清楚那是什么。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#9$3\",focus=\"m\")]\n[name=\"安多恩\"]看见那红光了吗？\n[name=\"安多恩\"]它来自我们的终点，但本应继续下行很长一段距离才能看见……\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#4$1\",focus=\"m\")]\n[name=\"费德里科\"]小心。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_gunsingle\", volume=0.9)]\n[CameraShake(duration=1, xstrength=30,ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.7, block=true)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1789_1#1$1\",duration=0.5)]\n[delay(time=0.7)]\n[charslot(slot = \"m\", name = \"avg_npc_1789_1#1$1\",focus=\"m\")]\n[name=\"圣堂巡卫\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1789_1#1$1\",focus=\"n\")]\n头戴斗篷的巡卫突然出现，他在看见费德里科的瞬间开火，没有任何交涉的意愿。\n[charslot(slot = \"m\", name = \"avg_npc_1789_1#1$1\",focus=\"m\")]\n[name=\"圣堂巡卫\"]警告。\n[name=\"圣堂巡卫\"]重复警告，发现入侵者，立即清除。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_emgseaalarm\", volume=1)]\n[delay(time=1.5)]\n[PlaySound(key=\"$d_avg_emgseaalarm\", volume=1)]\n[delay(time=1.5)]\n[PlaySound(key=\"$d_gen_soldiersrun\", volume=0.7)]\n[charslot(slot = \"l\", name = \"avg_npc_1788_1#1$1\",duration=1)]\n[charslot(slot = \"r\", name = \"avg_npc_1788_1#1$1\",duration=1)]\n[delay(time=2)]\n[charslot]\n刺耳的警报声呼啸着，三人的视野里出现了越来越多的巡卫，他们本就模糊的面目隐没在斗篷下，像是鬼魅……\n唯有光环愈发夺目。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#4$1\",focus=\"m\")]\n[name=\"费德里科\"]原本在梦境中守卫育婴圣堂的卫兵却出现在了这里……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#9$3\",focus=\"m\")]\n[name=\"安多恩\"]这恰恰说明……我们来对了地方。\n[Dialog]\n[charslot]\n[charslot(slot = \"l\", name = \"avg_npc_1788_1#1$1\",focus=\"all\")]\n[charslot(slot = \"r\", name = \"avg_npc_1788_1#1$1\",focus=\"all\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$fightgeneral\", volume=0.6)]\n[PlaySound(key=\"$d_avg_punchsp5\",volume=1,delay=0.3)]\n[PlaySound(key=\"$bodyfalldown1\", volume=1,delay=1)]\n[CameraShake(duration=1.7, xstrength=30,ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=1)]\n[charslot(duration=0.7)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#4$1\",focus=\"m\")]\n[name=\"费德里科\"]两位，跟在我身后。"
+        },
+        {
+          "endLine": 587,
+          "line": 486,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_09_end.txt",
+          "quote": "大教堂最深处，迷宫的尽头，最后一扇门向费德里科与安多恩敞开。\n门后，正中央的平台上，冰冷的环形机械矗立着，诡异的红光从内部透出，逐寸扫过房间内每一个角落，伴随着清晰可闻的嗡响……\n那是“运算”的足迹。\n[Dialog]\n[PlaySound(key=\"$d_avg_openftstpwalk\", volume=1, loop=true, channel=\"a\")]\n[StopSound(channel=\"a\", fadetime=2)]\n[charslot(slot=\"l\",name=\"avg_npc_1800_1#7$5\",duration=0.7)]\n[charslot(slot=\"r\",name=\"avg_1032_excu2_1#9$1\",duration=0.7)]\n[delay(time=1.5)]\n[charslot(slot=\"l\",name=\"avg_npc_1800_1#7$5\",focus=\"l\")]\n[name=\"安多恩\"]……\n[charslot(slot=\"r\",name=\"avg_1032_excu2_1#9$1\",focus=\"r\")]\n[name=\"费德里科\"]……\n[name=\"费德里科\"]教宗阁下？\n[Dialog]\n[charslot(duration=0.3)]\n[delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_356_1#2$1\",duration=1)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_356_1#12$1\",focus=\"m\")]\n[name=\"伊万杰利斯塔十一世\"]……\n[Dialog]\n[charslot]\n平台的正下方，老人沉默地站立着。\n他紧闭双眼，法衣上已经积起厚厚的灰尘。费德里科和安多恩的靠近没有引起他的任何反应，他纹丝不动，仿佛一块不视不听的礁石。\n唯有……\n唯有干裂脱皮的嘴唇仍在颤动，他喃喃自语，却发不出哪怕一个音节。\n[charslot(slot=\"m\",name=\"avg_npc_356_1#12$1\",focus=\"m\")]\n[name=\"伊万杰利斯塔十一世\"]…………\n[Dialog]\n[charslot]\n现任教宗，伊万杰利斯塔十一世，在神前沉默。\n[charslot(slot=\"l\",name=\"avg_npc_1800_1#2$5\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_1032_excu2_1#2$1\",focus=\"r\")]\n[name=\"费德里科\"]明显的失语与神经退行症状。初步判断，教宗阁下的体力与神智在接近崩溃的边缘。\n[name=\"费德里科\"]覆盖全城的梦境已经崩毁，为何他仍未清醒？\n[charslot(slot=\"l\",name=\"avg_npc_1800_1#2$5\",focus=\"l\")]\n[name=\"安多恩\"]或许，他怀着与你我相同的目的来到这里。\n[name=\"安多恩\"]只不过，他仍未得到渴求的答案。\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_npc_1800_1#2$5\",focus=\"n\")]\n[PlaySound(key=\"$alarmenter\",volume=0.8)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.5, block=true)]\n[Blocker(a=0, r=1,g=0.2,b=0.2, fadetime=0.7, block=true)]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"第三十一次交互推演失败。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[PlaySound(key=\"$d_avg_scan\", volume=1)]\n[Sticker(id=\"st1\", multi = true, text=\"曾用紧急应对机制，已失效。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n检索适格名单：\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n伊万杰利斯塔十一世……已抹除。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n费德里科·吉亚洛，安多恩·雅迦坦哲罗思……信号稳定。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n判断，具备协助完成转化程序的能力。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_1032_excu2_1#9$1\",focus=\"r\")]\n[name=\"费德里科\"]“适格”？\n[charslot(slot=\"l\",name=\"avg_npc_1800_1#7$5\",focus=\"l\")]\n[name=\"安多恩\"]这和你的圣徒身份有关吗？可我为什么也……\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_npc_1800_1#7$5\",focus=\"n\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"适格者，位处演算模型边缘的特殊个体。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n需作为样本，参与交互推演，验证模型完整性。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_1032_excu2_1#6$1\",focus=\"r\")]\n[name=\"费德里科\"]教宗阁下曾数次与我谈起我的圣徒身份，每次都语焉不详。\n[name=\"费德里科\"]他或许也不清楚圣徒真正的职责。\n[name=\"费德里科\"]但若律法视我们为“适格者”，赋予我们以明确的职责……那么不论是圣徒与否，我们都应在此刻对律法负责。\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_1032_excu2_1#6$1\",focus=\"n\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"交互推演权限，开放。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n底层数据区权限，开放。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\nPCS权限开放，准许接入。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n费德里科·吉亚洛，安多恩·雅迦坦哲罗思。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\nPCS将向你们同步必要前置信息。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n现在，上前。\",block = true)]\n[Sticker(id=\"st1\")]\n[PlaySound(key=\"$d_avg_labamb\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[delay(time=1)]\n机械声在房间内回荡，它稳定、匀速，没有任何情感波动，甚至听不出性别，却又蕴含着难以言喻的威压。\n[charslot(slot=\"l\",name=\"avg_npc_1800_1#2$5\",focus=\"l\")]\n[name=\"安多恩\"]我最终，还是要向祂寻求答案吗……\n[charslot(slot=\"r\",name=\"avg_1032_excu2_1#1$1\",focus=\"r\")]\n[name=\"费德里科\"]或是祂向我们寻求答案，既然我们是“特殊个体”，是祂的“样本”。\n[name=\"费德里科\"]现状评级，未知；风险评级，未知；执行者决定……执行。\n[Dialog]\n[PlaySound(key=\"$d_avg_openftstpwalk\", volume=1, loop=true, channel=\"b\")]\n[StopSound(channel=\"b\", fadetime=2)]\n[charslot(duration=1)]\n[delay(time=1.5)]\n两位萨科塔越过伊万杰利斯塔十一世，并肩走向冰冷的机器，走向那两个闪着光的端口。"
+        }
+      ],
+      "description": "送葬人与安多恩共同调查地下空间。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L25",
+            "L28",
+            "L32"
+          ],
+          "from": "char_279_excu",
+          "reason": "双方直接互动、共同经历或明确追述双方曾直接交流。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        },
+        {
+          "evidenceIds": [
+            "L25",
+            "L28",
+            "L32"
+          ],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "双方直接互动、共同经历或明确追述双方曾直接交流。",
+          "status": "supported",
+          "to": "char_279_excu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 330,
+          "kind": "story",
+          "line": 248,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 504,
+          "kind": "story",
+          "line": 385,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 587,
+          "kind": "story",
+          "line": 486,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_279_excu|npc_5a3183cc75e97ddb"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 308,
+          "line": 294,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "quote": "从爆炸中回过神来，四人发现自己不知何时飘在了有些眼熟的半空之中，并且开始往下坠。\n正下方，竟然是熟悉的婆山镇，而黎正用古怪的眼神看着他们。\n[Dialog]\n[CameraShake(duration=1,xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=true)]\n[name=\"莱欧斯小队\"]啊啊啊啊啊啊，救命——\n[Dialog]\n四人在空中张牙舞爪却束手无策。\n不过，他们马上发现，自己的正下方，并不是地面，而是一口深不见底的井。\n[Dialog]\n[CameraShake(duration=1,xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=true)]\n他们并没有与地面亲密接触，而是直接摔入了井中。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_139#2\",focus=\"m\")]\n[name=\"黎\"]……虽然方法有些粗暴，不过，她这也算是送各位一程了。\n[name=\"黎\"]有缘再会。"
+        }
+      ],
+      "description": "黎识别出把四人粗暴送回画境的具体行动者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_d2dcf202176c69a2",
+          "reason": "黎识别出把四人粗暴送回画境的具体行动者。",
+          "status": "supported",
+          "to": "npc_ec93b1be1e69c694"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "本篇未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_d2dcf202176c69a2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4b8f03fa1aa37d85.json",
+      "sources": [
+        {
+          "endLine": 308,
+          "kind": "story",
+          "line": 294,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示旅程时段",
+      "title": "泰拉饭"
+    }
+  ],
+  "relationship_id": "npc_d2dcf202176c69a2|npc_ec93b1be1e69c694"
+}

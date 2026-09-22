@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 585,
+          "line": 538,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st03.txt",
+          "quote": "[name=\"玛嘉烈\"]  大家都没事吧！\n[Character(name=\"avg_npc_061#5\", name2=\"avg_1014_nearl2_1#7$1\", focus=1)]\n[name=\"玛莉娅\"]  姐姐！我刚把备用电池找出来……唔……这盏灯就不开了吧？感觉撑不了多久……\n[Character(name=\"avg_npc_064_weapon_1#5\")]\n[name=\"佐菲娅\"]  ……看来大家都没事。老弗和科瓦尔去外面查看情况了，一会回来。\n[name=\"佐菲娅\"]  玛恩纳呢？\n[Character(name=\"avg_npc_061#5\", name2=\"avg_npc_064_weapon_1\", focus=1)]\n[name=\"玛莉娅\"]  叔叔待在家里，说是难得可以从工作中解脱出来，想一个人待一会……\n[name=\"玛莉娅\"]  闪灵姐姐和夜莺姐姐呢？\n[Character(name=\"avg_npc_061#5\", name2=\"avg_1014_nearl2_1#1$1\", focus=2)]\n[name=\"玛嘉烈\"]  她们担心博士被无胄盟盯上，已经赶回感染者收容中心了。\n[Character(name=\"avg_npc_061#7\", name2=\"avg_1014_nearl2_1#1$1\", focus=1)]\n[name=\"玛莉娅\"]  ……\n[Character(name=\"avg_npc_061#7\", name2=\"avg_1014_nearl2_1#1$1\", focus=2)]\n[name=\"玛嘉烈\"]  没事的，她们都是很可靠的人。\n[Character(name=\"avg_npc_061#7\", name2=\"avg_1014_nearl2_1#1$1\", focus=1)]\n[name=\"玛莉娅\"]  不……只是……我好像还是不知道姐姐的任何事情……\n[Character(name=\"avg_npc_061#7\", name2=\"avg_1014_nearl2_1#2$1\", focus=2)]\n[name=\"玛嘉烈\"]  抱歉，是我坚持不让你们有任何接触的……我不能把博士他们卷入我自己的事情中来。\n[Character(name=\"avg_npc_061#7\", name2=\"avg_1014_nearl2_1#6$1\", focus=2)]\n[name=\"玛嘉烈\"]  但也许迟早有一天，你们会相逢、相识。也许有一天，玛莉娅，你会登上那艘船。\n[Character(name=\"avg_npc_061#7\", name2=\"avg_1014_nearl2_1#7$1\", focus=2)]\n[name=\"玛嘉烈\"]  理想者的光辉终究会指引所有人，即使他们的前路各不相同，信念迥异，也没有什么能动摇他们心中的意志。\n[Character(name=\"avg_npc_061#4\", name2=\"avg_1014_nearl2_1#7$1\", focus=1)]\n[name=\"玛莉娅\"]  ……就像……\n[Character(name=\"avg_npc_061#4\", name2=\"avg_1014_nearl2_1#6$1\", focus=2)]\n[name=\"玛嘉烈\"]  就像骑士小说里的骑士那样。\n[dialog]\n[PlaySound(key=\"$dooropenquite\", volume=0.6)]\n[character]\n[Character(name=\"avg_npc_120#2\",fadetime=1,block=true)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.6)]\n[delay(time=1)]\n[name=\"老骑士\"]  我回来了！\n[Character(name=\"avg_npc_101#3\")]\n[name=\"老工匠\"]  真的一片漆黑啊……隔壁卖手电筒的今天都要断货了吧……\n[Character(name=\"avg_npc_107\", name2=\"avg_1014_nearl2_1#1$1\", focus=1)]\n[name=\"光头马丁\"]  玛嘉烈，你来了。\n[Character(name=\"avg_npc_120\", name2=\"avg_1014_nearl2_1#1$1\", focus=1)]\n[name=\"老骑士\"]  现在外面是一团乱啦，我看，我们就老老实实待在这里，等着电力恢复如何？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101#2\", focus=2)]\n[name=\"老工匠\"]  就干等着？本来今天是不是也有比赛来着？\n[Character(name=\"avg_npc_101#2\", name2=\"avg_1014_nearl2_1#1$1\", focus=2)]\n[name=\"玛嘉烈\"]  本来是决出第一个八强骑士的日子。\n[Character(name=\"avg_npc_064_weapon_1#5\", name2=\"avg_1014_nearl2_1#1$1\", focus=1)]\n[name=\"佐菲娅\"]  ……你有关注血骑士的动向吗？\n[Character(name=\"avg_npc_064_weapon_1#5\", name2=\"avg_1014_nearl2_1#1$1\", focus=2)]\n[name=\"玛嘉烈\"]  了解过一些……他是这赛季从选拔阶段到特锦赛的无败王者……不仅如此……"
+        }
+      ],
+      "description": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_265_sophia",
+          "reason": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+          "status": "supported",
+          "to": "char_265_sophia"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5af6c879983dcc5a.json",
+      "sources": [
+        {
+          "endLine": 585,
+          "kind": "story",
+          "line": 538,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 291,
+          "line": 132,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_01_beg.txt",
+          "quote": "[Character(name=\"avg_npc_215_1#2\", name2=\"avg_npc_212_1#3\", focus=1)]\n[name=\"烛骑士\"]  当然。耀骑士，玛嘉烈·临光……这个名字我听过很多次了，很美，刚强，又优雅。\n[Character(name=\"avg_npc_215_1#2\", name2=\"avg_npc_212_1\", focus=2)]\n[name=\"发言人麦基\"]  联合会希望您获胜。\n[Character(name=\"avg_npc_215_1#4\", name2=\"avg_npc_212_1\", focus=1)]\n[name=\"烛骑士\"]  嗯……可是……\n[name=\"烛骑士\"]  “烛”和“耀”，我又有什么胜算呢？\n[Character(name=\"avg_npc_215_1#4\", name2=\"avg_npc_212_1#6\", focus=2)]\n[name=\"发言人麦基\"]  别这么说，现在的骑士封号更多考虑的是传播度，与实力无关，德罗斯特女士。\n[name=\"发言人麦基\"]  您很强大。\n[stopmusic(fadetime=2)]\n[dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_sportsbar\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[playMusic(intro=\"$bar_intro\", key=\"$bar_loop\", volume=0.4)]\n[Character(name=\"avg_npc_120#2\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"老骑士\"]  唔——我赢了！！\n[Character(name=\"avg_npc_120#2\", name2=\"avg_npc_101#2\", focus=2)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"老工匠\"]  该死！你耍诈！\n[Character(name=\"avg_npc_120#4\", name2=\"avg_npc_101#2\", focus=1)]\n[name=\"老骑士\"]  啊哈，老弗依旧无比强壮~♪科瓦尔是手下败将~♪\n[Character(name=\"avg_npc_120#4\", name2=\"avg_npc_101#2\", focus=2)]\n[name=\"老工匠\"]  你喊“开始”的时候故意打了个嗝对吧！？\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_101#2\", focus=1)]\n[name=\"光头马丁\"]  别抄那张凳子，科瓦尔，那张不够结实，换一张。\n[Character(name=\"avg_npc_120#4\")]\n[name=\"老骑士\"]  手下败将~♪科瓦尔~♪\n[dialog]\n[Character(name=\"avg_npc_064_weapon_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"佐菲娅\"]  ……玩什么呢？\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_064_weapon_1\", focus=1)]\n[name=\"光头马丁\"]  扳手腕，你拎着的是什么？\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_064_weapon_1\", focus=2)]\n[name=\"佐菲娅\"]  刚买的药……\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_064_weapon_1\", focus=1)]\n[name=\"光头马丁\"]  唔，是给玛恩纳送去的？\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_064_weapon_1#5\", focus=2)]\n[name=\"佐菲娅\"]  ……但他多半是不会理我的吧。再说我也不觉得他会按时换药……\n[name=\"佐菲娅\"]  虽然性格大相径庭，但有些地方，他和那姐妹俩还真像。\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_064_weapon_1#5\", focus=1)]\n[name=\"光头马丁\"]  我听说了，他和玛嘉烈正儿八经地进行了一场决斗，玛嘉烈赢了。\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_101\", focus=2)]\n[name=\"老工匠\"]  说不准这样才能让那个玛恩纳清醒一点……\n[Character(name=\"avg_npc_120#3\", name2=\"avg_npc_101\", focus=1)]\n[name=\"老骑士\"]  啧，我才不觉得那个小子有什么好清醒的，他清醒得很，太清醒了，才变成现在这副鬼样子。\n[Character(name=\"avg_npc_064_weapon_1#6\")]\n[name=\"佐菲娅\"]  玛恩纳他……\n[name=\"佐菲娅\"]  ……不，没什么。\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=0.6)]\n[Character(name=\"avg_npc_061#2\",fadetime=1,block=true)]\n[delay(time=2)]\n[name=\"玛莉娅\"]  各位！啊，佐菲娅姐姐也在。\n[Character(name=\"avg_npc_061#2\", name2=\"avg_npc_064_weapon_1\", focus=2)]\n[name=\"佐菲娅\"]  玛莉娅？你怎么一个人来了？\n[Character(name=\"avg_npc_061#2\", name2=\"avg_npc_064_weapon_1\", focus=1)]\n[name=\"玛莉娅\"]  刚才骑士协会的人来找姐姐，我就自己先过来了……\n[name=\"玛莉娅\"]  像姐姐这样曾被流放过，又重新取回身份的例子似乎不多，有很多法律文件要审查……\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101\", focus=1)]\n[name=\"老骑士\"]  真奇怪，这群人当年拼了命地对玛嘉烈使绊子，现在又这么干脆地承认她了？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101\", focus=2)]\n[name=\"老工匠\"]  有诈吧？\n[Character(name=\"avg_npc_064_weapon_1#2\")]\n[name=\"佐菲娅\"]  之前我就在思考这件事，您二老能不能偶尔说点好话？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_064_weapon_1#2\", focus=1)]\n[name=\"老骑士\"]  这不是担心嘛……\n[Character(name=\"avg_npc_064_weapon_1#2\", name2=\"avg_npc_101\", focus=2)]\n[name=\"老工匠\"]  真有什么问题，大不了我们一起卷铺盖离开卡西米尔，去那个什么……什么德罗岛逛逛。\n[Character(name=\"avg_npc_064_weapon_1\", name2=\"avg_npc_101\", focus=1)]\n[name=\"佐菲娅\"]  ……是罗德岛。\n[Character(name=\"avg_npc_061#2\", name2=\"avg_npc_064_weapon_1#5\", focus=2)]\n[name=\"佐菲娅\"]  玛莉娅，你叔叔他……？\n[Character(name=\"avg_npc_061#2\", name2=\"avg_npc_064_weapon_1#5\", focus=1)]\n[name=\"玛莉娅\"]  啊……玛恩纳叔叔应该还在工作，说不定快下班了……？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_061#2\", focus=1)]\n[name=\"老骑士\"]  耀骑士是不是狠狠教训了那个小子一通？\n[name=\"老骑士\"]  哈，早该这样了，要是临光老爷还在，一定不会看着那小子这么自甘堕落——\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_061#7\", focus=2)]\n[name=\"玛莉娅\"]  ……\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_061#7\", focus=1)]\n[name=\"老骑士\"]  玛莉娅？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_061#7\", focus=2)]\n[name=\"玛莉娅\"]  叔叔输了那场决斗，所以姐姐才能像今天这样重回赛场。现在叔叔已经不会多说什么了。\n[Character(name=\"avg_npc_107#3\", name2=\"avg_npc_061#7\", focus=1)]\n[name=\"光头马丁\"]  嚯，那个玛恩纳会服软……？\n[Character(name=\"avg_npc_107#3\", name2=\"avg_npc_061#2\", focus=2)]\n[name=\"玛莉娅\"]  可是，可是他们两个决斗的时候，叔叔直到最后都没有使用过半点法术……\n[Character(name=\"avg_npc_101#2\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"老工匠\"]  ……啥？玛恩纳在放水？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101#2\", focus=1)]\n[name=\"老骑士\"]  怕是不敢全力以赴，在给自己的失败找退路吧？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_064_weapon_1#2\", focus=2)]\n[name=\"佐菲娅\"]  ……服软，放水，当然不可能，他会是这种性格吗？\n[Character(name=\"avg_npc_064_weapon_1#5\")]\n[name=\"佐菲娅\"]  他……他是在看不起玛嘉烈，他看不起耀骑士。\n[Character(name=\"avg_npc_064_weapon_1#6\")]\n[name=\"佐菲娅\"]  他单纯地不屑施展自己的法术，仅此而已。\n[stopmusic(fadetime=2.5)]\n[dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]\n[Background(image=\"bg_23_G10\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]\n[Character(name=\"avg_npc_123\", name2=\"avg_430_fartth_1\", focus=2)]\n[name=\"查丝汀娜\"]  “灰毫”格蕾纳蒂，你看见索娜了吗？\n[Character(name=\"avg_npc_123#2\", name2=\"avg_430_fartth_1\", focus=1)]\n[name=\"格蕾纳蒂\"]  就在那儿……为什么你只有在叫我的时候要带上封号？\n[Character(name=\"avg_npc_123#2\", name2=\"avg_430_fartth_1#4\", focus=2)]\n[name=\"查丝汀娜\"]  ……我可以改。\n[Character(name=\"avg_npc_123#2\", name2=\"avg_430_fartth_1#2\", focus=2)]\n[name=\"查丝汀娜\"]  如果你不喜欢的话……只是觉得，你给我的印象是这样罢了。\n[Character(name=\"avg_npc_123#3\", name2=\"avg_430_fartth_1#2\", focus=1)]\n[name=\"格蕾纳蒂\"]  ……算了。\n[Character(name=\"avg_npc_123\")]\n[name=\"格蕾纳蒂\"]  索娜！\n[Character(name=\"avg_npc_123#5\", focus=-1)]\n[name=\"索娜\"]  什么——？\n[Character(name=\"avg_npc_123\")]\n[name=\"格蕾纳蒂\"]  过来吧，人都到齐了！\n[Character(name=\"avg_npc_123\", focus=-1)]\n[name=\"索娜\"]  嘿咻——\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.6)]\n[delay(time=0.2)]\n[Character(name=\"avg_npc_123\", name2=\"avg_npc_122\", focus=2)]\n[name=\"索娜\"]  来了来了，你的伤没事了？\n[Character(name=\"avg_npc_123\", name2=\"avg_npc_122\", focus=1)]\n[name=\"格蕾纳蒂\"]  不碍事……这是什么？一个玩偶？\n[Character(name=\"avg_npc_123\", name2=\"avg_npc_122\", focus=2)]\n[name=\"索娜\"]  啊哈哈，我也是个女孩子嘛，喜欢可爱的东西有什么不好？\n[Character(name=\"avg_npc_123#3\", name2=\"avg_npc_122\", focus=1)]\n[name=\"格蕾纳蒂\"]  ……索娜。\n[Character(name=\"avg_npc_123#3\", name2=\"avg_npc_122#3\", focus=2)]\n[name=\"索娜\"]  好啦，我知道，现在没有开玩笑的余地。\n[Character(name=\"avg_npc_123#3\", name2=\"avg_npc_122#3\", focus=2)]\n[name=\"索娜\"]  “工业事故”越来越频繁了，他们在驱赶感染者，在感染者和贫民窟之间散播恐慌。\n[Character(name=\"avg_npc_123\", name2=\"avg_npc_122#2\", focus=1)]\n[name=\"格蕾纳蒂\"]  既然无胄盟已经打算撕破脸皮，感染者们再躲躲藏藏也不是个办法。\n[name=\"格蕾纳蒂\"]  瑟奇亚克告诉了我们一些很有趣的情报，我们得赶紧——\n[Character(name=\"avg_npc_123#5\", name2=\"avg_npc_122#2\", focus=1)]\n[name=\"格蕾纳蒂\"]  ——索娜？\n[Character(name=\"avg_npc_123#5\", name2=\"avg_npc_122#5\", focus=2)]\n[name=\"索娜\"]  嗯？\n[Character(name=\"avg_npc_123\", name2=\"avg_npc_122#5\", focus=1)]\n[name=\"格蕾纳蒂\"]  你有些心不在焉。\n[Character(name=\"avg_npc_123\", name2=\"avg_npc_122#2\", focus=2)]\n[name=\"索娜\"]  ……如果有一天……我们重获自由……\n[name=\"索娜\"]  ……到那时候，你想做什么？\n[Character(name=\"avg_npc_123#3\", name2=\"avg_npc_122#2\", focus=1)]\n[name=\"格蕾纳蒂\"]  到那时候再想也不迟，我们一起想。\n[Character(name=\"avg_npc_123\", name2=\"avg_npc_122#2\", focus=1)]\n[name=\"格蕾纳蒂\"]  今天是怎么了……你怎么突然这么多愁善感？\n[Character(name=\"avg_npc_123\", name2=\"avg_npc_122\", focus=2)]\n[name=\"索娜\"]  啊哈哈，没什么，走吧。"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_265_sophia",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_265_sophia"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 291,
+          "kind": "story",
+          "line": 132,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 306,
+          "line": 289,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_08_beg.txt",
+          "quote": "[name=\"佐菲娅\"]  唔……远牙骑士……重伤！？\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_064_weapon_1#2\", focus=1)]\n[name=\"光头马丁\"]  被卷入骑士粉丝的斗殴中，现在失踪，生死不明。\n[name=\"光头马丁\"]  至少明面上是这么说的……\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_064_weapon_1#2\", focus=2)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"玛莉娅\"]  等等……被卷入斗殴？\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_064_weapon_1#2\", focus=2)]\n[name=\"佐菲娅\"]  这种东西肯定是假的，什么样的粉丝斗殴能让身经百战的骑士“失踪”？\n[delay(time=1)]\n[Character(name=\"avg_npc_064_weapon_1#6\")]\n[name=\"佐菲娅\"]  等等……难道……\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_064_weapon_1#6\", focus=1)]\n[name=\"光头马丁\"]  ……问题是眼下，比赛怎么办？\n[name=\"光头马丁\"]  ……有什么不对劲，佐菲娅，认真考虑一下。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_064_weapon_1#2\", focus=2)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"佐菲娅\"]  玛莉娅必须弃权！来不及了，跟我来——"
+        }
+      ],
+      "description": "二人直接讨论赛事异常。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_265_sophia",
+          "reason": "佐菲娅接续马丁提供的消息并与其讨论。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "马丁直接向佐菲娅说明情况并要求她认真考虑。",
+          "status": "supported",
+          "to": "char_265_sophia"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_89f9ae4a0acf0209.json",
+      "sources": [
+        {
+          "endLine": 306,
+          "kind": "story",
+          "line": 289,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "赛前紧急商议",
+      "title": "玛莉娅·临光"
+    }
+  ],
+  "relationship_id": "char_265_sophia|npc_2a519e8c8e7b4e11"
+}

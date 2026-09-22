@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 291,
+          "line": 288,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st01.txt",
+          "quote": "[name=\"弗莱蒙特\"]咳咳……咳——！\n[name=\"弗莱蒙特\"]别过来！还用不着你！\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=40, randomness=90, fadeout=true, block=false)]\n[name=\"弗莱蒙特\"]*激烈的萨卡兹粗口*……我发誓，今晚不把这几个老东西收拾利索，我就去给曼弗雷德擦鞋！"
+        }
+      ],
+      "description": "弗莱蒙特指名说失败就给曼弗雷德擦鞋，仅支持知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "弗莱蒙特指名说失败就给曼弗雷德擦鞋，仅支持知晓。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_732d802fa042a0c2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_7b6f965ec725fee0.json",
+      "sources": [
+        {
+          "endLine": 291,
+          "kind": "story",
+          "line": 288,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "熔炉“还魂”记"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_732d802fa042a0c2"
+}

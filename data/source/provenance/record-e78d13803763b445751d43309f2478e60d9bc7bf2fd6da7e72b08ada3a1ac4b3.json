@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 75,
+          "line": 9,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st09.txt",
+          "quote": "[name=\"蒂亚戈\"]走快点！\n[Character(name=\"avg_npc_450_1#12$1\")]\n[name=\"极境\"]呃……\n[Character(name=\"avg_npc_451_1#9$1\")]\n[name=\"蒂亚戈\"]……这些，溟痕。它们究竟是什么？\n[Character(name=\"avg_npc_453_1#1$1\")]\n[name=\"负责拷问的教徒\"]尽管微小，形式不同，但这些荧光的生命也是我们同胞的延展。\n[Character(name=\"avg_npc_453_1#1$1\")]\n[name=\"负责拷问的教徒\"]先知曾说，在海洋的某个部分，发光的生命已经充斥了整个海域。它们即是整体，它们为所有同胞塑造生命的摇篮。\n[Character(name=\"avg_npc_453_1#1$1\")]\n[name=\"负责拷问的教徒\"]“溟痕”……只不过是遥远的数千数万海里外的“祂”随波而来的些许意志。哪怕只有一丁点，也确确实实在蚕食陆地。\n[Character(name=\"avg_npc_453_1#1$1\")]\n[name=\"负责拷问的教徒\"]溟痕会将陆地化为另一种海洋。\n[Character(name=\"avg_npc_451_1#1$1\")]\n[name=\"蒂亚戈\"]……是啊。\n[Character(name=\"avg_npc_451_1#1$1\")]\n[name=\"蒂亚戈\"]伊比利亚是你们计划的第一个牺牲品，格兰法洛也是。\n[Character(name=\"avg_npc_450_1#5$1\")]\n[name=\"极境\"]……！\n[Character(name=\"avg_npc_453_1#1$1\")]\n[name=\"负责拷问的教徒\"]……牺牲品？你是不是，用错了词？\n[Character(name=\"avg_npc_451_1#1$1\")]\n[name=\"蒂亚戈\"]没有。\n[Character(name=\"avg_npc_451_1#1$1\")]\n[name=\"蒂亚戈\"]审判庭会夺走这座小镇，看看这些“美丽”的溟痕，它们一样会。\n[Character(name=\"avg_npc_451_1#1$1\")]\n[name=\"蒂亚戈\"]这里不再是我们的家。不再与那段如火的岁月有瓜葛。\n[Character(name=\"avg_npc_453_1#1$1\")]\n[name=\"负责拷问的教徒\"]蒂亚戈，你不该——\n[Character(name=\"avg_npc_451_1#1$1\")]\n[name=\"蒂亚戈\"]乔迪也被带走了……那些逃走的人此刻应该都被惩戒军抓起来了吧。\n[Character(name=\"avg_npc_451_1#7$1\")]\n[name=\"蒂亚戈\"]你们都是凶手。\n[dialog]\n[character]\n[Character(name=\"npc_10002\",fadetime=0.5)]\n[delay(time=1)]\n[PlaySound(key=\"$Mon3tr_n\")]\n[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"Mon3tr\"]——（激动的尖啸）\n[Character(name=\"avg_npc_450_1#5$1\")]\n[name=\"极境\"]Mon3tr——？！\n[Character(name=\"avg_npc_453_1#1$1\")]\n[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"负责拷问的教徒\"]它怎么会在这里？！不可能！它明明在城镇的西边——！\n[Character(name=\"avg_npc_453_1#1$1\")]\n[name=\"负责拷问的教徒\"]你骗了我们，蒂亚戈！\n[Character(name=\"avg_npc_451_1#7$1\")]\n[name=\"蒂亚戈\"]……\n[Character(name=\"avg_npc_453_1#1$1\")]\n[name=\"负责拷问的教徒\"]还有你也是？！\n[dialog]\n[character]\n[Character(name=\"avg_npc_461_1#1$1\",fadetime=1)]\n[delay(time=1)]\n[name=\"冷静的镇民\"]……在成为审判庭的卧底之前，我只是一名格兰法洛工人的女儿。\n[Character(name=\"avg_npc_461_1#1$1\")]\n[name=\"冷静的镇民\"]别小看我们的恨意。忍辱负重，只是为了让你们一同灭亡。\n[Character(name=\"avg_npc_451_1#7$1\")]\n[name=\"蒂亚戈\"]审判庭也好，你们也好，都只是践踏了我们家园的敌人。\n[Character(name=\"avg_npc_451_1#7$1\")]\n[name=\"蒂亚戈\"]来看看毁灭的模样吧，看看我们当年所看见的。\n[Character(name=\"avg_npc_450_1#7$1\")]\n[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"极境\"]蒂亚戈——！躲开！\n[Character(name=\"avg_npc_451_1#6$1\")]\n[name=\"蒂亚戈\"]唔！"
+        }
+      ],
+      "description": "Mon3tr突入蒂亚戈所在近距离战斗，蒂亚戈与极境均直接感知其攻击。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S25"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "Mon3tr突入蒂亚戈所在近距离战斗，蒂亚戈与极境均直接感知其攻击。",
+          "status": "supported",
+          "to": "npc_664144b63a19eb32"
+        },
+        {
+          "evidenceIds": [
+            "S25"
+          ],
+          "from": "npc_664144b63a19eb32",
+          "reason": "Mon3tr突入蒂亚戈所在近距离战斗，蒂亚戈与极境均直接感知其攻击。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 75,
+          "kind": "story",
+          "line": 9,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st09.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_664144b63a19eb32"
+}

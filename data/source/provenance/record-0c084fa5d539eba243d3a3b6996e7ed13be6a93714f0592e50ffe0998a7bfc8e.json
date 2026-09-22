@@ -1,0 +1,190 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 292,
+          "line": 280,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st06.txt",
+          "quote": "[name=\"九\"] 那个商人有自己的办法，我们反而不应该问太多。\n[Character(name=\"avg_npc_327_1#1$1\")]\n[name=\"Guard\"]九！你来了。\n[character(name=\"avg_npc_006\")]\n[name=\"工程术师安德烈\"]行吧，这件事我们听你的。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"] 说起来那个商人，可能需要Guard你带着雷德队长去和他碰一下头。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"] 他说需要我们的人到现场确认一下情况，“对货物的来源有一定的认知”。\n[Character(name=\"avg_npc_327_1#1$1\")]\n[name=\"Guard\"]这个怪人……\n[Character(name=\"avg_npc_327_1#1$1\")]\n[name=\"Guard\"]我明白了。"
+        }
+      ],
+      "description": "九进入机库布置会面任务，Guard回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "九进入机库布置会面任务，Guard回应。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "九进入机库布置会面任务，Guard回应。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_a170fc4ad11dca33.json",
+      "sources": [
+        {
+          "endLine": 292,
+          "kind": "story",
+          "line": 280,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "阴云火花"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 550,
+          "line": 447,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st02.txt",
+          "quote": "[name=\"雷德\"]他们又从城内搜刮出了一批俘虏吗？塔露拉，你的汤。\n[Dialog]\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]谢谢。\n[Dialog]\n[PlaySound(key=\"$d_avg_dishes\", volume=1)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_328_1#1$1\",focus=\"m\")]\n[name=\"雷德\"]有点淡吗？唉，这是我从盐罐里搜刮出的最后一点盐。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]没关系，味道很好。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]呵，“搜刮”？我喜欢这个词。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]一周前他们不会从工厂前面经过，他们的战俘队伍中也没有孩子出现。\n[name=\"塔露拉\"]但现在我们都见到了。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]这半个月里他们简直立志抹除掉所有萨卡兹留下的痕迹。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]刚开始还只是未来得及撤离的士兵，随后是与军队有过交集的平民，最后连土生土长的伦蒂尼姆人也不放过。\n[name=\"塔露拉\"]我本以为你会动手，晖洁。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]……那只会让事情变得更复杂。这里是维多利亚，我必须用更稳妥的办法解决问题。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]可这意味着花费更多的时间，陈。\n[name=\"九\"]几天前我看到一群孩子在纠缠一位可怜的妇人……她不过是与萨卡兹结婚并养育了几个孩子。\n[name=\"九\"]战争前他们这样对感染者，战争后就变成了萨卡兹。这迟早会波及每一个伦蒂尼姆的市民。\n[name=\"九\"]这些受到不公待遇之人最缺的，就是时间。\n[Dialog]\n[charslot]\n九顿了顿，看向一旁的塔露拉。\n但塔露拉显得异常平静，似乎方才在街上，九面对士兵时，感觉到温度的骤然升高只是一场幻觉。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]我以为你刚才真的想要对那些维多利亚人动手。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]只是警告，继续纠缠下去只会引来更大的麻烦。不到迫不得已，在伦蒂尼姆保持低调是明智的。这一点上晖洁的看法并非毫无道理。\n[name=\"塔露拉\"]在工业区的街道上攻击公爵联军，对生活在这里的工人不是好事。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]所以你并不为此愤怒。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]你所经历的，我早已经历过。但至少，萨卡兹的血脉不会像矿石病一样到处传染。\n[name=\"塔露拉\"]我早已经学会控制愤怒，至少，我的愤怒不会留给这些对自己所作所为尚无认知的士兵。\n[name=\"塔露拉\"]这场战争把被压迫者迫害成了压迫者，错不在他们。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]可那些无辜萨卡兹又该将他们的愤怒宣泄给谁？\n[name=\"九\"]记得那个骑着摩托为我们找来物资的萨卡兹商人吗……感染者因为恐惧而杀死了他。\n[name=\"九\"]现在，这份恐惧正随着萨卡兹的逐渐败退迅速蔓延。\n[name=\"九\"]感染者、军人、贵族……甚至对战争毫无概念的普通人，呵，他们都在做自认正确的事。\n[name=\"九\"]你说得对，塔露拉，萨卡兹的血脉不会像矿石病一样到处传染……但仇恨和恐惧会。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]所以你决定了？\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]救下那些萨卡兹？我不觉得这需要犹豫，他们和我们并无差别。\n[name=\"九\"]我只是无法保证能将影响控制在最小范围内，所以我需要你，塔露拉。\n[name=\"九\"]保护好营地里的人，还有那些工人。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]……如果你需要我的火为这些人燃烧，我不会犹豫。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]雷德，你去告诉那些工人我们马上要做的事，愿意加入我们的留下；害怕的，帮助他们离开，带他们去典范军的营地。\n[charslot(slot=\"m\",name=\"avg_npc_328_1#1$1\",focus=\"m\")]\n[name=\"雷德\"]好。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[charslot(duration=1)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]陈。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#6$1\",focus=\"m\")]\n[name=\"陈\"]……\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]你可以现在试着拦下我们所有人，也可以就此离开，当作什么事情都没有发生过。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]救下那些萨卡兹，意味着你们原本的计划要全部改变。\n[name=\"陈\"]甚至，带着他们，没有任何公爵领会容忍你们的停留，九。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]难道现在他们就会容忍我们吗？\n[name=\"九\"]我们是感染者，陈，或许和罗德岛接触得太久了，让你对感染者的真实处境的记忆模糊了。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#6$1\",focus=\"m\")]\n[name=\"陈\"]你们接下来要去哪？\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]这意思是你默许我们行动。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]……\n[name=\"陈\"]就算是俘虏，也不该被这样草率地处决，他们甚至没有正式的军令。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]问题并不在于九他们要去哪，而在于哪需要他们，晖洁。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]我们会找到一个真正属于我们的地方，陈。\n[name=\"九\"]不止感染者……还有所有被剥夺平等生存的权利的人、被奴役的人。\n[name=\"九\"]一个不会存在歧视，也不会存在压迫的地方。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#6$1\",focus=\"m\")]\n[name=\"陈\"]……这很难，难到几乎毫无可能，九，我们都很清楚。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]我当然知道，陈。但这是一个我们都认识的人教会我的，他死了，但至少他为我们留下了些什么。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#2$1\",focus=\"m\")]\n[name=\"陈\"]Guard……\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]总得有人去做，晖洁。\n[name=\"塔露拉\"]这支整合运动的队伍开发自己的药物，借助一切可能去为需要的人提供帮助，并非要索求一份肉眼可及的回报。\n[name=\"塔露拉\"]一种变化正在催生，但它太过脆弱。\n[name=\"塔露拉\"]他们需要一个信念，一个目标。唯有这样，他们才能继续走下去。\n[name=\"塔露拉\"]尽管我无法完全认同九的做法，但我也找不到拒绝去做的理由。\n[name=\"塔露拉\"]晖洁，九一直很欣赏你所追求的“公平”。\n[name=\"塔露拉\"]那你为何不去看看她所追求的东西呢？"
+        }
+      ],
+      "description": "九说明一位已故熟人教会自己理想，陈随即明确其为 Guard。；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "九说明一位已故熟人教会自己理想，陈随即明确其为 Guard。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "Guard未在本组现实场景出场，缺少反向证据。",
+          "status": "not_established",
+          "to": "npc_b554345833235f79"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 550,
+          "kind": "story",
+          "line": 447,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆营地谈话",
+      "title": "我们明日见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 887,
+          "line": 560,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-14_beg.txt",
+          "quote": "[name=\"Guard\"]不行，走，走！\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]你干什么？！你怎么把尸体——\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#3$1\",focus=\"m\")]\n[name=\"Guard\"]这里的源石沉积太严重了，这里到底处理过多少感染者？\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]我……以前——那些年都是在这间房间！\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#3$1\",focus=\"m\")]\n[name=\"Guard\"]源石粉尘已经扬起来了，这里已经没办法再承受一次这么猛烈的崩解了！\n[name=\"Guard\"]立刻让所有人离开这里，立刻！\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Background(image=\"43_g12_breweryinforest_inside\", screenadapt=\"coverall\", block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_416_1#1$1\")]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_416_1#1$1\",focus=\"m\")]\n[name=\"恐惧的难民\"]……什、什么？\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#3$1\",focus=\"m\")]\n[name=\"Guard\"]你听不懂吗？这里的源石环境已经极端不稳定，随时有引发爆炸的可能！\n[charslot(slot=\"m\",name=\"avg_npc_416_1#1$1\",focus=\"m\")]\n[name=\"恐惧的难民\"]离开？去哪？\n[name=\"恐惧的难民\"]外面都是——\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]别废话！\n[name=\"梅斯\"]这些人可是真正的整合运动，他们有一座*维多利亚粗口*的移动城市！\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#3$1\",focus=\"m\")]\n[name=\"Guard\"]跑起来，让所有的人都跑起来！\n[name=\"Guard\"]我已经联络了我们在外围的队伍，他们会接收这里的人！\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]啧，这里的蒸馏器里还有残余的烈酒，如果爆炸，这里会被烧得一干二净！\n[name=\"梅斯\"]那个东西——\n[Dialog]\n[PlaySound(key=\"$rungeneral\", volume=0.7)]\n[charslot(duration=1)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#10$1\",focus=\"m\")]\n[name=\"Guard\"]喂，梅斯，你要去哪儿？\n[Dialog]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[charslot(duration=1)]\n[delay(time=2)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Background(image=\"43_g12_breweryinforest_inside\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=2)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"整合运动打扮的女人正在吃力地操作着工坊最深处的机器。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]你来干什么？\n[name=\"梅斯\"]我正在——唔——帮我扳一下那个操纵杆——\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#6$1\",focus=\"m\")]\n[name=\"Guard\"]你是这个作坊的成员？但你不是感染者！\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]谢谢你没有拆穿我！唔——再用力！\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#6$1\",focus=\"m\")]\n[name=\"Guard\"]你这件整合运动的衣服是哪来的？\n[name=\"Guard\"]这里曾经是整合运动的据点，这里死过很多人——我的耐心不多！\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]我——我什么都没做！\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#6$1\",focus=\"m\")]\n[name=\"Guard\"]每个人都这么说。\n[stopmusic(fadetime=2)]\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]我以前是……这里的操作工，那些整合运动占领了酒厂，他们要人为他们操作这些机器！\n[name=\"梅斯\"]我……只是，那些领主雇来的佣兵突袭了这里，我逃了……我确实不是感染者，我为什么要和那些整合运动一起死在这儿！\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#6$1\",focus=\"m\")]\n[name=\"Guard\"]那你为什么回来？\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]……\n[name=\"梅斯\"]为什么要回来？\n[playMusic(intro=\"$drift_intro\", key=\"$drift_loop\", volume=0.6)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"梅斯\"]因为我无处可去！该死，还能有什么原因，沦落到在私酒厂里卖命的人，还能有什么地方可以去？！\n[name=\"梅斯\"]我没感染，可我有的时候，宁愿自己是个整合运动！他们，他们起码有可以反抗的东西，他们起码有个目标！\n[name=\"梅斯\"]再用力——这操纵杆，卡住了！\n[name=\"梅斯\"]先把这玩意——卸料口的开关打开，曾经在这里的那些整合运动，他们留在这里的原料还剩下不少！\n[name=\"梅斯\"]那医生告诉过我，这是他们尝试了很久的，最廉价的止痛剂配方，只能止痛，但也够了，对吧？\n[name=\"梅斯\"]用这个……我能换个真正的整合运动资格吗？\n[name=\"梅斯\"]我想……我也许可以在你们的移动城市里，分间房子？\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#5$1\",focus=\"m\")]\n[name=\"Guard\"]……\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"移动城市。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[PlaySound(key=\"$d_avg_flapradio\", volume=1)]\n[PlaySound(key=\"$d_avg_drone\", volume=1,delay=1)]\n[CameraShake(duration=1, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=1.5)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我叹了口气，狠狠飞起一脚。这一脚震得我生疼。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"拉杆终于松动。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n机器的运转声传来。巨大的货斗倒向一边，从中纷纷扬扬飞下的，是无数……花瓣。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n她慌忙地捡拾着地上散落的这些草药，小心地收进怀中。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"如果不看我现在正身处的地方，这也许是个……美好的场景。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n就像那座城市。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#1$1\",focus=\"m\")]\n[name=\"Guard\"]我们并没有移动城市。\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]可是，那些整合运动都说——\n[name=\"梅斯\"]可是你们……可……\n[name=\"梅斯\"]……哈哈……也是……\n[name=\"梅斯\"]那可是……移动城市，一座城市，我们……\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"无家可归的人，无处可去的人，这片大地上的感染者正越来越多。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n并不是这种疾病在越发猖獗，只是这片大地正越发残酷。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"大人物们不厌其烦地歌颂我们身处的“现代”，这是前所未有的时代，高速战舰，移动城市，城际网络，工业区——\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我们的时代多么灿烂——\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我们的时代多么可悲。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"“站在一起”。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n感染者们，就能天然地站在一起吗？\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我们和谁站在一起，只是感染者吗？\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n那座……我们理想中的移动城市，有他们的容身之所吗？\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n一座移动城市，足以容纳所有的一切吗？\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_clothmovementsp\",volume=0.8)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#1$1\",focus=\"m\")]\n[name=\"Guard\"]带好这些草药，我们马上离开。\n[name=\"Guard\"]你其实不用申请加入整合运动，只要你愿意和我们并肩作战，你就已经是了。\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]可……我不是感染者。\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#1$1\",focus=\"m\")]\n[name=\"Guard\"]想要反抗的人也未必只有感染者。\n[name=\"Guard\"]还有，我需要你帮助我指认那些杀了那个萨卡兹的人。\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#6$1\",focus=\"m\")]\n[name=\"Guard\"]他们需要受到惩罚。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_sp_ballista\")]\n[playsound(key=\"$d_gen_explo_n\",volume=0.8,delay=0.6)]\n[CameraShake(duration=1.5, xstrength=40,ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#3$1\",focus=\"m\")]\n[name=\"Guard\"]跑起来，快点！\n[Dialog]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[charslot(duration=1)]\n[delay(time=2)]\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"43_g12_breweryinforest_inside\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[bgeffect(name=\"$eb_dust_01\",layer=1)]\n[PlayMusic(intro=\"$calamity_intro\", key=\"$calamity_loop\", volume=0.6)]\n[PlaySound(key=\"$d_avg_erthshkng\",loop=true,channel=\"bgs\",volume=1)]\n[CameraShake(duration=-1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=false, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我们快速穿行在这些巨大的罐体之间，有的地方已经开始崩塌，空气中弥漫着刺鼻的酒味，已经有烟雾从远处飘来。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n这个作坊，维多利亚整合运动的起点，很快就会熊熊燃烧。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1065_1#3$1\",focus=\"m\")]\n[name=\"Guard\"]前面就是出口了，加快速度。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"猛烈的热浪袭来，梅斯没有站稳，怀抱的草药被热风高高卷起。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"char_1011_wizard_1\",focus=\"m\")]\n[name=\"梅斯\"]啊！我的——\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_mechadown\",volume=0.7)]\n[PlaySound(key=\"$d_avg_dropspanner\",volume=0.9,delay=0.5)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.7, block=true)]\n[delay(time=0.5)]\n[Dialog]\n[bgeffect]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[StopSound(channel=\"bgs\", fadetime=2)]\n[CameraShake(duration=0.1, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot]\n[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=0.5)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我们的头顶，传来了金属的断裂声。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Dialog]\n[delay(time=1)]\n[Sticker(id=\"st1\", multi = true, text=\"唉，好吧，我推开她。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n然后，竭尽全力跃起，将那些花瓣归入掌中。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Image(image=\"43_i02\",screenadapt=\"coverall\",fadetime=0,block=true)]\n[Background(image=\"bg_light\",screenadapt=\"coverall\")]\n[delay(time=1)]\n[PlaySound(key=\"$p_skill_explocar\", volume=0.5)]\n[playMusic(intro=\"$distressed_intro\", key=\"$distressed_loop\", volume=0.6)]\n[CameraShake(duration=4, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=3, block=true)]\n[delay(time=2)]\n[charslot]\n[dialog]\n[Sticker(id=\"st1\", multi = true, text=\"崩塌。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n好热。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n太阳在燃烧，我在燃烧。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"那里是出口吗？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n还差一点，只有几步了。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"可他们还在我的背后看着，那些目光……他们在审视我吗？还是在审视我这场微不足道的死亡？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们究竟，对我怀有怎样的期待？\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"我没法儿去想……我没法儿不去想。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n也许，我辜负了他们的死，他们应该希望我的终点更有意义。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n比如，我不知道，倒在圣骏堡皇宫外的阶梯上？反正不是在这里，为一个刚认识的非感染者而死，手中还握着一些破碎的花瓣。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"在这里结束，我怎么能面对他们。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n可我始终需要面对。\",block = true)]\n[Sticker(id=\"st1\")]\n[Dialog]\n[Blocker(a=1, r=0.8, g=0.8, b=0.8, fadetime=3, block=true)]\n[image]\n[delay(time=1)]\n[Blocker(a=0, r=0.8, g=0.8, b=0.8, fadetime=1, block=true)]\n[delay(time=1)]\n[name=\"Guard\"]拿去……收好。\n[name=\"Guard\"]出口就在前面，这次别再撒了，有些花瓣可能……被我捏碎了，把它们给一个叫九的人，她有办法。\n[name=\"Guard\"]别再磨蹭了，快点。\n[Dialog]\n[Blocker(a=1, r=0.8, g=0.8, b=0.8, fadetime=1.5, block=true)]\n[charslot]\n[image]\n[Image(image=\"43_i02\",screenadapt=\"coverall\",fadetime=0,block=true)]\n[delay(time=0.5)]\n[Blocker(a=0, r=0.8, g=0.8, b=0.8, fadetime=3, block=true)]\n[delay(time=1)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"好热。好烫。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我想起了我第一次知道自己得了矿石病的那个下午。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我到底是因为什么而感染？我至今都没弄清楚。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"也许是那次在河水中摔倒，划破我腿的不是砾石，而是活性源石结晶。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n也许是那次在矿坑里，吸入的那些粉尘。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n也许是工厂里那些工业废料，也许。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[image]\n[delay(time=0.5)]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=0.5)]\n[Sticker(id=\"st1\", multi = true, text=\"只是，我回到家的时候，满屋子的烟味还没散去，我的行李已经被整理好，摆在了平常大家一起吃饭的桌子上。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我找到了一片盐碱湖，可是运气不好，可能是我选错了地方，那次没有船。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我至今都感谢，那个在我坐在湖边时，过来和我搭话的罗德岛干员。\",block = true)]\n[Sticker(id=\"st1\")]\n[Dialog]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_devicebeep\", volume=1)]\n[delay(time=1)]\n[name=\"Guard\"]九，雷德，珀茜瓦尔，塔露拉，呃哈……\n[name=\"Guard\"]我不确定你们找到我的时候，我有没有被火烧成灰，但愿这个录音机能留得下来。\n[name=\"Guard\"]你们说——\n[name=\"Guard\"]我们为所有的“感染者”而战吗？\n[name=\"Guard\"]哪怕他们是无耻者，是上位者，甚至……是帝王？\n[name=\"Guard\"]或者说……我们所团结的人，我们希望与之并肩披荆斩棘的人——\n[name=\"Guard\"]只有感染者吗？\n[name=\"Guard\"]只有……他们吗？"
+        }
+      ],
+      "description": "Guard在遗言中直接称呼该同伴；同伴随后明确悼念并讨论Guard。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "Guard在遗言中直接称呼该同伴；同伴随后明确悼念并讨论Guard。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "Guard在遗言中直接称呼该同伴；同伴随后明确悼念并讨论Guard。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 887,
+          "kind": "story",
+          "line": 560,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-14_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "整合运动酒厂事件",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 620,
+          "line": 570,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"阿米娅\"]  你们不能通过这里。\n[name=\"阿米娅\"]  ……塔露拉，你不该踏出那个房间。\n[name=\"阿米娅\"]  他们是——整合运动？他们是来救你的吗？\n[stopsound(channel=\"bse\", fadetime=1)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[delay(time=0.5)]\n[Image]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_bridge\")]\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  ……\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  罗德岛的领袖。用“救”这个字不太贴切，不过也无所谓了。\n[name=\"九\"]  另外，希望你能明白一点，在跟我们走这件事上，她其实没得选。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……不，她得留下。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  乌萨斯和龙门有理由追捕塔露拉。罗德岛当然也有理由扣下她。\n[name=\"九\"]  但塔露拉也必须给整合运动一个交代……给感染者一个交代。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ——那么，为什么你不愿信任罗德岛，等着塔露拉能够给出那个交代呢？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  Guard也是用这样的说辞，让我们信任罗德岛。\n[name=\"九\"]  而陈……龙门的陈警司也说过，她想要创造一个公平的条件，去审判她这样的感染者。\n[name=\"九\"]  可是，什么才是公平呢？\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  切尔诺伯格和龙门，那么多的牺牲，那么多徒劳的死亡，纵使有千百种借口，她都难逃其咎。\n[name=\"九\"]  只允许罗德岛去创造那个未来，等待那个未来，却不允许……遭到最深刻背叛的整合运动，有任何发言吗？\n[name=\"九\"]  罗德岛的领袖，回答我。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  那么，我们可以一起等待。\n[name=\"阿米娅\"]  盾卫们愿意相信，罗德岛的干员们愿意相信……愿意相信我们终有一天能给出一个答案……\n[name=\"阿米娅\"]  而眼下这样——用这样的暴力，从罗德岛的手中夺走她，又如何让人再相信整合运动？\n[name=\"阿米娅\"]  我不想再让感染者们流血，不想再与整合运动为敌，你们又为什么——\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  就算我愿意等，也许还有别人愿意等——但“整合运动”是等不了的。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……什么？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  ……要说的就只有这些了。\n[Character(name=\"char_1002_nsabr_2\",name2=\"avg_npc_043_1#2\",focus=1)]\n[name=\"整合运动士兵\"]  九！快到时间了！不能和她纠缠下去！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  走吧，塔露拉。\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  ……"
+        },
+        {
+          "endLine": 944,
+          "line": 882,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"塔露拉\"]  ……罗德岛。\n[name=\"塔露拉\"]  我并不打算说服任何人，也不打算强迫任何人接受我的想法。\n[name=\"塔露拉\"]  只是，事情未了。\n[name=\"塔露拉\"]  我会等着那一天来临，无论是她说的，还是你说的，我会等着所谓的审判来临。\n[name=\"塔露拉\"]  但是在那之前——\n[Dialog]\n[PlaySound(key=\"$firestorm\", volume=1)] \n[PlaySound(key=\"$b_char_defboost\", volume=0.5, Delay=0.4)]\n[PlaySound(key=\"$firestorm\", volume=1)] \n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, block=false)]\n[Blocker(a=0.3, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.3, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=0.4, b=0.1, afrom=1, rfrom=1, gfrom=0.4, bfrom=0.4, fadetime=0.2, block=true)]\n[Blocker(a=0.1, r=0, g=0, b=0, afrom=0.8, rfrom=1, gfrom=1, bfrom=1, fadetime=0.3, block=true)]\n[Blocker(a=0.1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.3, block=true)]\n[Blocker(a=0.2, r=0.92, g=0.5, b=0.3, fadetime=0.02, block=true)]\n[PlaySound(key=\"$burningloop1\", volume=1, loop=true, channel=\"bgs\")]\n火焰从她的指尖腾起。\n仿佛一堵愤怒的高墙。\n[Character(name=\"npc_10002\")]\n[name=\"Mon3tr\"]  ——（极短的畏缩）！\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  我会活下去。\n[Dialog]\n[delay(time=1)]\n[Character(name=\"char_011_talula_1#3\",focus=-1)]\n[Decision(options=\"阿米娅！;塔露拉！\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"别想碰阿米娅！;除非你杀了我！\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character]\n你挡在了阿米娅的身前。\n高温带来的窒息感让你片刻恍惚，但奔袭的焰苗仍旧绕过了你们二人。\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  ……放心吧，火绕过了她。\n[name=\"塔露拉\"]  你们还会有更长的路要走，但愿……你们的心底没有阴霾。\n[Dialog]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[character(fadetime=0.8)]\n[delay(time=1)]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[Character(name=\"avg_npc_059\",fadetime=1.5,block=true)]\n[delay(time=1.5)]\n[name=\"Guard\"]  时间到了！九！等不了了！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  我知道。\n[name=\"九\"]  那么……后会有期，罗德岛。\n[Dialog]\n[Decision(options=\"等等！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=1)]\n[character(fadetime=1,block=true)]\n[delay(time=2)]\n[Decision(options=\"那是——近地飞行器？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[Character(name=\"char_003_kalts_1#3\",fadetime=1.5,block=true)]\n[delay(time=1.5)]\n[name=\"凯尔希\"]  把它打下来。\n[Character(name=\"npc_10002\")]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"Mon3tr\"]  （尖啸）"
+        }
+      ],
+      "description": "九转述 Guard 的意见，Guard后来直接催促九撤离并得到回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S14",
+            "S17"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [
+            "S14",
+            "S17"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 620,
+          "kind": "story",
+          "line": 570,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 944,
+          "kind": "story",
+          "line": 882,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛突袭",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "npc_8a4ed8ad1c6f8c69|npc_b554345833235f79"
+}

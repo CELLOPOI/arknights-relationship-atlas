@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 114,
+          "line": 44,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st03.txt",
+          "quote": "只消一瞬，风发出声响所需的时间，她就来到了凯尔希的身边。\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"凯尔希\"]辛苦了，歌蕾蒂娅。\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#4\",focus=2)]\n[name=\"歌蕾蒂娅\"]审判庭似乎没有对你做什么，对吧？\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#4\",focus=1)]\n[name=\"凯尔希\"]伊比利亚还没有沉没，这就是他们尚存些微谦卑与警觉的证明。\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]你找到办法了，如我们所约定的那样。\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"凯尔希\"]是的。但是……\n[name=\"凯尔希\"]……如果伊比利亚愿意放下他们所担忧的，那阿戈尔呢？\n[name=\"凯尔希\"]你呢？\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]如果我们别无他路……而短暂的合作能帮助我们回到海洋，我愿意合作。\n[Dialog]\n[Character]\n[playsound(key=\"$d_gen_walk_n\", loop=true, channel=\"bgs\")]\n[Character(name=\"npc_2004_Alty\",fadetime=1)]\n[Delay(time=1)]\n[StopSound(channel=\"bgs\", fadetime=1)]\n[name=\"Alty\"]总算有个像样的阿戈尔人了，对吧？就像浪涛本身，就像海洋的光线与触感。\n[Character(name=\"npc_2004_Alty\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"Alty\"]你好啊，特别的阿戈尔人。我想你已经见过我们的其他成员了。\n[Character(name=\"npc_2004_Alty\",name2=\"avg_474_gladiia_1#3\",focus=2)]\n[name=\"歌蕾蒂娅\"]是的，那么，您也是日落即逝的成员。\n[Character(name=\"npc_2004_Alty\",name2=\"avg_474_gladiia_1#3\",focus=1)]\n[name=\"Alty\"]贝斯手Alty。很高兴见到你。\n[name=\"Alty\"]外面怎么样了？\n[Character(name=\"npc_2004_Alty\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]那些深海教徒倾巢而出，数量不少，但很弱。\n[name=\"歌蕾蒂娅\"]猎人们足以处理所有问题。\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]解决格兰法洛的问题后，审判庭才会与我们合作。\n[Character(name=\"avg_474_gladiia_1#1\")]\n[name=\"歌蕾蒂娅\"]那就让我们立刻开始。\n[Dialog]\n[Character(fadetime=0.5)]\n歌蕾蒂娅提起了她的长槊。\n可几乎与此同时，她感到了某种异样。\n[Character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]……！\n[Character(name=\"avg_474_gladiia_1#2\")]\n[name=\"歌蕾蒂娅\"]……不，这些恐鱼中混杂着……不可能……\n[Dialog]\n[Character(name=\"char_003_kalts_1#1\")]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=0.6)]\n[Delay(time=1)]\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]是我。\n[Character(name=\"char_003_kalts_1#3\",focus=3)]\n[name=\"极境\"]凯尔希医生！他们的目的是——\n[Dialog]\n[PlaySound(key=\"$d_sp_chixiaobadao\",volume=0.4)]\n[PlaySound(key=\"$transmission\",volume=0.5)]\n[PlaySound(key=\"Sound_Beta_2/Player/p_imp/p_imp_funnel_end_h\",delay=1)]\n[Delay(time=2)]\n[Character(name=\"char_003_kalts_1#2\")]\n[name=\"凯尔希\"]……极境？\n[Character(name=\"char_003_kalts_1#2\",name2=\"avg_474_gladiia_1#5\",focus=2)]\n[name=\"歌蕾蒂娅\"]怎么了？\n[Character(name=\"char_003_kalts_1#2\",name2=\"avg_474_gladiia_1#5\",focus=1)]\n[name=\"凯尔希\"]我们的干员遇到了危险。\n[Character(name=\"char_003_kalts_1#2\",name2=\"avg_474_gladiia_1#5\",focus=2)]\n[name=\"歌蕾蒂娅\"]有什么潜藏在这里。\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]……Alty，就像我们说的那样。日落即逝的各位，只要留在岸上就足够。\n[name=\"凯尔希\"]我们会尽快解决问题。\n[Character(name=\"npc_2004_Alty\")]\n[name=\"Alty\"]好啊，我们等你。\n[name=\"Alty\"]如果你们的征途需要一些音乐点缀的话，那我们更乐意效劳。"
+        }
+      ],
+      "description": "歌蕾蒂娅与Alty当面自我介绍并连续交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S34"
+          ],
+          "from": "char_474_glady",
+          "reason": "歌蕾蒂娅与Alty当面自我介绍并连续交谈。",
+          "status": "supported",
+          "to": "npc_c7121f5df30f84f6"
+        },
+        {
+          "evidenceIds": [
+            "S34"
+          ],
+          "from": "npc_c7121f5df30f84f6",
+          "reason": "歌蕾蒂娅与Alty当面自我介绍并连续交谈。",
+          "status": "supported",
+          "to": "char_474_glady"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 114,
+          "kind": "story",
+          "line": 44,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_474_glady|npc_c7121f5df30f84f6"
+}

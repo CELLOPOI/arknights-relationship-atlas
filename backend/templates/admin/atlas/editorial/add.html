@@ -1,0 +1,5 @@
+{% extends "admin/atlas/editorial/base.html" %}
+{% block workspace %}
+{% if baseline_missing %}<p class="notice">尚无正式发布基线。维护者须先完成首次资料核对和初始化发布，再开始后台编辑。</p>
+{% else %}<form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit">创建草稿</button></form>{% endif %}
+{% endblock %}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 385,
+          "line": 252,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_04_end.txt",
+          "quote": "[charslot(slot=\"l\",name=\"avg_194_leto_1#1$1\",focus=\"l\")]\n[name=\"烈夏\"]我跟你讲，我们乌萨斯那平常喝的，可比这烈多了！\n[name=\"烈夏\"]下回你来做客，我请你喝！\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"r\")]\n[name=\"阿克托斯\"]哈哈哈！好啊，一言为定！\n[name=\"阿克托斯\"]喝！来，再多喝点！\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"all\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$clink\")]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_drinkswllw\")]\n[PlaySound(key=\"$d_avg_drinkswllw\",loop=false,channel=\"1\",delay=1)]\n[delay(time=2)]\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"r\")]\n[name=\"阿克托斯\"]好酒啊！\n[charslot(slot=\"l\",name=\"avg_194_leto_1#3$1\",focus=\"l\")]\n[name=\"烈夏\"]不对不对，不是酒，是蜂蜜饮料！\n[name=\"烈夏\"]谢拉格特产高地蜂蜜……嗝，味道确实够赞的。\n[charslot(slot=\"l\",name=\"avg_194_leto_1#1$1\",focus=\"l\")]\n[name=\"烈夏\"]我从列车上就带了几瓶，便宜你了！\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"r\")]\n[name=\"阿克托斯\"]蜂蜜好啊！好，解……嗝，解酒！\n[name=\"阿克托斯\"]味道也好，不错！我阿克托斯承你这份情！来，干了！\n[Dialog]\n[charslot]\n[delay(time=0.2)]\n[charslot(slot=\"l\",name=\"avg_npc_1160_1#6$1\",focus=\"all\")]\n[delay(time=0.3)]\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",posfrom=\"30,0\",posto=\"0,0\",afrom=0,ato=1,duration=0.3)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.4)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=0.8)]\n[charslot(slot=\"l\",name=\"avg_npc_1160_1#6$1\",focus=\"l\")]\n[name=\"老修士\"]——？！\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"r\")]\n[name=\"阿克托斯\"]啊？小丫头，你怎么变得皱巴巴的？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]哈哈哈，大叔，你认错人了！我在这儿呢！\n[Dialog]\n[charslot]\n[delay(time=0.2)]\n[charslot(slot=\"l\",name=\"avg_npc_1160_1#9$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"all\")]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_avg_slap\")]\n[PlaySound(key=\"$d_avg_clothmovementsp\",volume=0.8,delay=0.2)]\n[CameraShake(duration=1, xstrength=20, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=1.2)]\n[charslot(slot=\"l\",name=\"avg_npc_1160_1#9$1\",focus=\"l\")]\n[name=\"老修士\"]撒手……你这不孝子，你给我撒手！\n[Dialog]\n[charslot]\n[delay(time=0.2)]\n[charslot(slot=\"m\",name=\"avg_npc_254_1#3$1\",focus=\"m\")]\n[name=\"阿克托斯\"]你这丫头，怎么手劲这样大，你这是不愿意喝我的酒？\n[charslot(slot=\"m\",name=\"avg_npc_254_1#11$1\",focus=\"m\")]\n[name=\"阿克托斯\"]……\n[charslot(slot=\"m\",name=\"avg_npc_254_1#15$1\",focus=\"m\")]\n[name=\"阿克托斯\"]不行，你等着，我有真正的好、好酒！\n[name=\"阿克托斯\"]你等着！\n[Dialog]\n[PlaySound(key=\"$d_avg_walkfast\", volume=1)]\n[charslot(duration=0.7)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]哎，大叔——\n[charslot(slot=\"m\",name=\"avg_194_leto_1#3$1\",focus=\"m\")]\n[name=\"烈夏\"]都说是你认错人了，哎！\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#6$1\",focus=\"m\")]\n[name=\"老修士\"]他们俩，他们俩这……\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=20, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"老修士\"]古罗，古罗！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#3$1\",focus=\"m\")]\n[name=\"古罗\"]大老爷，我在！\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]这到底是怎么一回事？！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#5$1\",focus=\"m\")]\n[name=\"古罗\"]老爷他本来就喝得有点多了，看到罗莎琳小姐，就邀请她一起喝酒。\n[name=\"古罗\"]这……我哪拦得住这两位啊！\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=20, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"老修士\"]阿克托斯这混账！\n[name=\"老修士\"]他瞧见罗莎琳，真就、真就半点名堂都没瞧出来？！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#5$1\",focus=\"m\")]\n[name=\"古罗\"]那倒也不是。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]别卖关子，快说！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#5$1\",focus=\"m\")]\n[name=\"古罗\"]看到罗莎琳小姐，老爷先说觉得眼熟。\n[name=\"古罗\"]但估计是醉得不轻，我们等了半天，老爷他闷不吭声，硬是什么也没说出来。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]然后呢？！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#5$1\",focus=\"m\")]\n[name=\"古罗\"]然后，罗莎琳小姐大概是想缓和一下气氛，就把她自己带的蜂蜜饮料拿出来请老爷一起喝……\n[name=\"古罗\"]再然后就……就这样了。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#8$1\",focus=\"m\")]\n[name=\"老修士\"]……\n[name=\"老修士\"]阿克托斯都这把年纪了，还没能克服醉蜜这个毛病？\n[charslot(slot=\"m\",name=\"avg_npc_260_1#4$1\",focus=\"m\")]\n[name=\"古罗\"]老爷这醉蜜是天生的，想克服也没法子啊。\n[name=\"古罗\"]真要算，那还是遗传大老爷您……\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]（瞪眼）\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]咳咳。\n[name=\"古罗\"]大老爷，咱们现在怎么办？\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]怎么办，你问我，我能怎么办？\n[name=\"老修士\"]等阿克托斯酒醒吧，你我都能看得出来的事，但凡他头脑清醒点，绝没有认不出的道理。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#13$1\",focus=\"m\")]\n[name=\"老修士\"]看到罗莎琳这孩子，我就想起阿克托斯年轻的时候。\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]我记得那时候，老爷还不像现在这样留着胡须。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]哼，他那是生怕自己看起来不够稳重，才使这些小手段！\n[name=\"老修士\"]当初他若是真够稳重，也不至于……\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]老伯，你终于来了！\n[name=\"烈夏\"]什么不够稳重？什么当初？你们在聊什么？\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#8$1\",focus=\"m\")]\n[name=\"老修士\"]没什么，只是些往事……\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"m\")]\n[name=\"烈夏\"]啧，又打哑谜。\n[name=\"烈夏\"]算了，反正也不关我的事。\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]来，老伯，这个给你。\n[name=\"烈夏\"]我还留了最后一瓶蜂蜜饮料，就等着你呢，一起来喝！\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#11$1\",focus=\"m\")]\n[name=\"老修士\"]……也罢。"
+        }
+      ],
+      "description": "烈夏与古罗在宅邸中相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_194_leto",
+          "reason": "烈夏与古罗在同一房间连续交谈场景中共同参与。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "古罗知道烈夏即罗莎琳并向老家主说明她的行动。",
+          "status": "supported",
+          "to": "char_194_leto"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 385,
+          "kind": "story",
+          "line": 252,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "佩尔罗契宅邸宴饮",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_194_leto|npc_7144babb98dd293d"
+}

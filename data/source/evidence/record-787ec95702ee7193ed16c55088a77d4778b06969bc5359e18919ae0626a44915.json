@@ -1,0 +1,15 @@
+{
+  "id": "import:char_198_blackd|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【风雪过境】\n魏斯：啊，您来得正好，博士。\n选项：\n1：讯使？\n分支条件（原选项编号）：1\n魏斯：多日不见了，博士。这次竟把您也卷到我们当地的琐事中来，实在是过意不去。\n魏斯：但还是得请您再坚持一下，只要等大典结束，希瓦艾什家一定为您正式接风洗尘。\n魏斯：不过眼下有件事也许还需要您帮个忙。\n选项：\n1：我来帮忙安抚这些群众的情绪？\n分支条件（原选项编号）：1\n魏斯：……\n魏斯：博士真是慧眼如炬。",
+  "relationship_id": "char_198_blackd|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 308,
+      "kind": "story",
+      "line": 290,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

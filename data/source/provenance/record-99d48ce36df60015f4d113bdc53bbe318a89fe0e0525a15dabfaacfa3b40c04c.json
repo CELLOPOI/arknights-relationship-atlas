@@ -1,0 +1,188 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 50,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st04.txt",
+          "quote": "[name=\"黑\"]   ……锡兰告诉了我火山的事情了。\n[name=\"黑\"]   所以你不仅篡改了火山监测数据，而且宣称小姐要散布谣言。\n[Character(name=\"avg_npc_023_2#2\",name2=\"char_340_shwaz_2#2\",focus=1)]\n[name=\"克洛宁\"]   因为你我都知道啊。赫尔曼做的那些事，我们都知道！\n[Character]\n[Dialog]\n[name=\"？？？\"]    知道什么的话，就说吧。\n[Character(name=\"avg_npc_024\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"？？？\"]    克洛宁，说下去吧。但你也要把我“因事务出差”的时候，你到底做了些什么，全都说出来。\n[Character(name=\"char_348_ceylon_4#8\")]\n[name=\"锡兰\"]   爸——父亲？！\n[Character(name=\"avg_npc_023_2#2\")]\n[name=\"克洛宁\"]   你怎么在这里？！\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  很意外吗，克洛宁。\n[name=\"赫尔曼\"]  在我明令禁止了从火山中开采黑曜石之后，在市场上依然有新开采的黑曜石流通。\n[name=\"赫尔曼\"]  开采队很多次出现在火山口，却没有人向我报告。\n[name=\"赫尔曼\"]  最终开采的货物经过多次转送，已经被送到了市政厅的废弃仓库。\n[name=\"赫尔曼\"]  在我下令拨款为汐斯塔出现的矿石病患者提供各方面资助后，市里反而出现了各种他们受到的不公待遇的流言。\n[name=\"赫尔曼\"]  这些事情有没有让你意外过？\n[Character(name=\"avg_npc_023_2#2\")]\n[name=\"克洛宁\"]   嘁……\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  这些事情让我意外到愤怒难安！！\n[name=\"赫尔曼\"]  为了找到这些事情的真相，我放出了离开城市的消息，让黑作为我的下属替我在城市调查真相。\n[Dialog]\n[Character]\n[Character(name=\"char_188_helage_1\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"赫拉格\"]  看来，只要调查一下这些记录和相关人员就行了。\n[Character(name=\"char_348_ceylon_4#8\")]\n[name=\"锡兰\"]   赫拉格爷爷，你们也平安无事！\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  真遗憾，克洛宁。"
+        }
+      ],
+      "description": "赫尔曼到场质问克洛宁，黑、锡兰与随后到场的赫拉格参与连续现场对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_348_ceylon",
+          "reason": "赫尔曼到场质问克洛宁，黑、锡兰与随后到场的赫拉格参与连续现场对话。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼到场质问克洛宁，黑、锡兰与随后到场的赫拉格参与连续现场对话。",
+          "status": "supported",
+          "to": "char_348_ceylon"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 50,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 480,
+          "line": 472,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_06_beg.txt",
+          "quote": "[name=\"埃尼斯\"]锡兰医生，有些工人知道你是市长先生的女儿，本来找你看病已经是没办法的事，要是你再去查究竟是谁还在偷挖黑曜石……\n[name=\"埃尼斯\"]他们这样肯定是不对的，但这也会……有点冲突……\n[charslot(slot=\"m\",name=\"avg_348_ceylon_1#9$1\",focus=\"m\")]\n[name=\"锡兰\"]我是我，市长是市长，为什么总要把我和他绑定在一块？\n[name=\"锡兰\"]我这次回来，就是想用自己的知识为汐斯塔做点什么。在这里建立罗德岛办事处，都是靠我自己的努力，和他一点关系都没有！\n[charslot(slot=\"m\",name=\"avg_4106_bryota_1#20$1\",focus=\"m\")]\n[name=\"埃尼斯\"]（锡兰医生，好像很讨厌赫尔曼市长啊……）\n[charslot(slot=\"m\",name=\"avg_180_amgoat_1#11$1\",focus=\"m\")]\n[name=\"阿黛尔\"]（锡兰小姐……和父亲的关系还是不好吗？）"
+        },
+        {
+          "endLine": 329,
+          "line": 322,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_04_beg.txt",
+          "quote": "[name=\"赫尔曼\"]诗怀雅小姐之前到访，没能好好招待，十分遗憾。\n[name=\"赫尔曼\"]不知这几天游览，诗怀雅小姐对新汐斯塔的印象怎么样？\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#6$1\",focus=\"l\")]\n[name=\"诗怀雅\"]很干净，很美观——但总觉得少了些趣味，显得呆板了些。实话实说，我还是更喜欢它原来的样子。\n[charslot(slot=\"r\",name=\"avg_npc_544_1#10$1\",focus=\"r\")]\n[name=\"赫尔曼\"]真巧，我的女儿也说过类似的话。\n[charslot(slot=\"r\",name=\"avg_npc_544_1#9$1\",focus=\"r\")]\n[name=\"赫尔曼\"]但是汐斯塔被迫离开了原来的黄金海岸线，也就注定不能延续原来以旅游业为支柱的经济模式。"
+        }
+      ],
+      "description": "锡兰明确谈及市长父亲，赫尔曼另行谈及女儿的具体评价；两方向都有原文，不仅凭亲属标签补关系。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_348_ceylon",
+          "reason": "锡兰明确谈及市长父亲，赫尔曼另行谈及女儿的具体评价；两方向都有原文，不仅凭亲属标签补关系。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "锡兰明确谈及市长父亲，赫尔曼另行谈及女儿的具体评价；两方向都有原文，不仅凭亲属标签补关系。",
+          "status": "supported",
+          "to": "char_348_ceylon"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 480,
+          "kind": "story",
+          "line": 472,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 329,
+          "kind": "story",
+          "line": 322,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火山旅梦"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 384,
+          "line": 364,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ceylon_1_1.txt",
+          "quote": "[name=\"黑\"]\t老爷，小姐来信了。\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]\t嗯？你都要动身去接她回来了，这封信来得可真够晚的。\n[name=\"赫尔曼\"]\t我猜，那丫头一如既往地没在信里提到我。\n[Character(name=\"char_340_shwaz_2\")]\n[name=\"黑\"]\t……\n[Character]\n黑的视线下意识地又一次扫过她已经记住内容的信件。\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Subtitle(text=\"“……入冬之后的图书馆里似乎有一种靠源石技艺维持的暖炉，坐在里面读书非常惬意。我这个学期的借阅书单已经很长很长了。”\", x=300, y=350, alignment=\"middle\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“……随着和同学熟悉起来，我也得到了很多帮助。以前我寻求治疗矿石病的方法时，并没有想得太深入，但现在这些困惑已经化解了。”\", x=300, y=350, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“是的，我现在知道要如何破解矿石病的奥秘了。相信我，我很快就要找到它啦。”\", x=300, y=350, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“……随信附上一张贺卡，帮我转交给父亲吧。”\", x=300, y=350, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n取出这沓信纸之后的信封是空的，国际信使的发信邮戳证明这封信在落款之后三天才寄出。\n[Character(name=\"char_340_shwaz_2#1\")]\n[name=\"黑\"]\t（小姐一定又被什么东西迷住，把信的事情全忘记了吧。）\n[Character(name=\"char_340_shwaz_2#5\")]\n[name=\"黑\"]\t不，老爷。小姐在信里特地祝您圣诞快乐，她很期待圣诞夜的餐桌。"
+        }
+      ],
+      "description": "父女通过已收到的来信互相明确知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_348_ceylon",
+          "reason": "锡兰寄出给父亲的贺卡。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼明确识别女儿来信并熟悉她的习惯。",
+          "status": "supported",
+          "to": "char_348_ceylon"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3710c1c063c6e7ac.json",
+      "sources": [
+        {
+          "endLine": 384,
+          "kind": "story",
+          "line": 364,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ceylon_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇圣诞前来信时段",
+      "title": "锡兰"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 769,
+          "line": 743,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_2_1.txt",
+          "quote": "[name=\"赫尔曼\"]阿——阿嚏！\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]咦，市长先生，怎么只有您一个人？\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]现在不该是锡兰小姐的生日派对吗？\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]黑那边出了点状况，我女儿先去了她那边。\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]噢……\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]您不过去没关系吗？\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]等我知道的时候，黑已经把事情解决了，锡兰人也在那边了。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]我也只能在这里等她们了。\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]两位小姐没事就好。\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]咦，您手里的是——\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]这是我今天特意去火山脚下采的一束野花。\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]啊，难怪我觉得那么眼熟。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]曾经，我就是用这些花化解了我的婚姻危机。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]今天，希望它们也能化解一些我和女儿之间的隔阂。"
+        }
+      ],
+      "description": "本轮候选证据只确认赫尔曼具体知晓并谈论锡兰。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "char_348_ceylon",
+          "reason": "候选窗未出现锡兰向赫尔曼说话或具体提及赫尔曼，反向在本轮不扩推。",
+          "status": "not_established",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼明确谈及女儿锡兰的生日安排及两人的隔阂。",
+          "status": "supported",
+          "to": "char_348_ceylon"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_52c2552faa23deab.json",
+      "sources": [
+        {
+          "endLine": 769,
+          "kind": "story",
+          "line": 743,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "锡兰生日当天、黑返回汐斯塔后的现实场景",
+      "title": "黑"
+    }
+  ],
+  "relationship_id": "char_348_ceylon|npc_ba4ddfafe7c93381"
+}

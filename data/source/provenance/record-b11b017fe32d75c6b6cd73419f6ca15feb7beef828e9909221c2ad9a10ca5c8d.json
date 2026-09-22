@@ -1,0 +1,220 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 649,
+          "line": 542,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st02.txt",
+          "quote": "[name=\"大帝\"]好了！我的耳朵都要起茧子了！\n[name=\"大帝\"]都闭嘴吧，我已经做好决定了！\n[Dialog]\n[Character]\n[Delay(time=0.51)]\n[PlaySound(key=\"$bullet_loading\", volume=1)]\n[Delay(time=1)]\n子弹上膛的声音响起，大帝举起了配铳对准了笼子里的鼷兽。这只鼷兽即将血溅当场的命运，让所有人的呼吸都变得急促。\n就在大帝扣动扳机前的一刹那，一只小手按住了铳管。\n[Dialog]\n[Character(name=\"avg_lolxh_4067_1#5$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]你不能杀它。\n[Character(name=\"avg_lolxh_4067_1#5$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]你以为可以阻止我吗，小屁孩？或许你有两把刷子，但是你想好之后的结果了吗？\n[name=\"大帝\"]你可是代表老鲤来办事的，你也不想老鲤的招牌砸在你的手里吧？\n[Character(name=\"avg_lolxh_4067_1#5$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]你——\n[Character(name=\"avg_lolxh_4067_1#7$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]......我只是......\n[Character(name=\"avg_lolxh_4067_1#10$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]只能这样做吗？\n[name=\"小黑\"]被迫离开自己的家，四处流浪......没人想要这样吧。\n[name=\"小黑\"]可以再想想别的办法吗？\n[name=\"小黑\"]一直被驱赶，真的很难受......\n[name=\"小黑\"]它们也只是想要一个家啊！\n[Character(name=\"avg_lolxh_4067_1#10$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]你废话说完了吗？\n[PlaySound(key=\"$d_avg_gunload\", volume=1)]\n[name=\"大帝\"]（扬起手铳）\n[Character(name=\"char_101_sora_1#4\", name2=\"char_201_moeshd\", focus=1)]\n[name=\"空\"]老板，我也可以领养——\n[Character(name=\"char_101_sora_1#4\", name2=\"char_201_moeshd\", focus=2)]\n[name=\"可颂\"]嘘，你先别说话。\n[Character(name=\"avg_lolxh_4067_1#5$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]我可以带它走！不许你杀它！！\n[Dialog]\n[Character(name=\"avg_lolxh_4067_1#5$1\", name2=\"char_105_emper\", focus=2)]\n[Delay(time=0.51)]\n[PlaySound(key=\"$d_avg_lighter\", volume=0.6)]\n[Delay(time=1)]\n[musicvolume(volume=0.4, fadetime=1)]\n[name=\"大帝\"]你们都紧张什么？我只是抽根雪茄罢了。\n[Character(name=\"avg_lolxh_4067_1#8$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]......\n[name=\"小黑\"]这东西......其实是打火机？\n[Character(name=\"avg_lolxh_4067_1#8$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]不然呢？蚀刻子弹可是很贵的，浪费在这里太可惜了。\n[name=\"大帝\"]你刚刚说的话，是你的真心话吗？不错，还挺感人的。\n[Character(name=\"avg_lolxh_4067_1#1$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]（脸红）\n[Character(name=\"avg_lolxh_4067_1#1$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]哼，小孩子还是表情多点的好，天天板着一张脸装什么成熟，一点都不好玩。\n[Character(name=\"avg_npc_033\")]\n[name=\"酒保\"]那老板，这只鼷兽......\n[Character(name=\"avg_lolxh_4067_1#1$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]留着吧，归我养了。\n[Character(name=\"avg_lolxh_4067_1#8$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]所以......你一开始就不打算杀它吗？\n[Character(name=\"avg_lolxh_4067_1#8$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]荒唐，你竟然敢揣测我伟大的想法。\n[Character(name=\"avg_lolxh_4067_1#1$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]......\n[name=\"小黑\"]（谁能猜到你在想什么啊！）\n[Character(name=\"avg_npc_033\")]\n[name=\"酒保\"]可是政府马上就要——\n[Character(name=\"avg_lolxh_4067_1#1$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]你看我长了一副怕魏彦吾的模样吗？\n[Character(name=\"avg_npc_033\")]\n[name=\"酒保\"]好吧，您既然这么决定了，我也不好说什么......\n[Character(name=\"avg_lolxh_4067_1#1$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]喂，小屁孩，别傻站着了，提上笼子跟我走。\n[Character(name=\"avg_lolxh_4067_1#1$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]去做什么？\n[Character(name=\"avg_lolxh_4067_1#1$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]少废话。\n[Dialog]\n[Character(name=\"avg_lolxh_4067_1#1$1\", name2=\"char_105_emper\")]\n[Delay(time=0.51)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[Character(fadetime=1)]\n[Delay(time=2)]\n[Character(name=\"char_101_sora_1#1\", name2=\"char_201_moeshd\", focus=2)]\n[name=\"可颂\"]哼哼，果然不出我所料。\n[Character(name=\"char_101_sora_1#1\", name2=\"char_201_moeshd\", focus=1)]\n[name=\"空\"]所以你拦着我，是因为你一早就知道老板根本没打算杀那只鼷兽吗？\n[Character(name=\"char_101_sora_1#1\", name2=\"char_201_moeshd#3\", focus=2)]\n[name=\"可颂\"]当然了，那把铳，哦不，那支打火机还是我推销给老板的。\n[Character(name=\"char_101_sora_1#1\", name2=\"char_201_moeshd#3\", focus=1)]\n[name=\"空\"]所以你是存心要看我和那位小朋友白白紧张的样子吗？\n[Character(name=\"char_101_sora_1#1\", name2=\"char_201_moeshd#3\", focus=2)]\n[name=\"可颂\"]哎呀，你难道就不好奇他那副小酷哥脸破功的样子吗？\n[Character(name=\"char_101_sora_1#5\", name2=\"char_201_moeshd#3\", focus=1)]\n[name=\"空\"]我看你就是坏心眼！\n[Dialog]\n[character]\n[Delay(time=0.51)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[Character(name=\"char_102_texas_1\",fadetime=1,block=true)]\n[Delay(time=1.5)]\n[name=\"德克萨斯\"]刚刚店里发生什么了，怎么飞仔一脸的不高兴？\n[Character(name=\"char_101_sora_1#1\", name2=\"char_201_moeshd#2\", focus=2)]\n[name=\"可颂\"]哈哈，他今天在老板和一个小朋友那里吃瘪了。\n[Character(name=\"char_101_sora_1#1\", name2=\"char_201_moeshd#2\", focus=1)]\n[name=\"空\"]对了，德克萨斯，墙板里的小动物刚刚找到了，是一只鼷兽。\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]猜到了，老板最后怎么决定的？\n[Character(name=\"char_101_sora_1#1\", name2=\"char_201_moeshd#2\", focus=1)]\n[name=\"空\"]飞仔建议处理掉，但是老板他决定领养它作为自己的宠物。"
+        }
+      ],
+      "description": "空与大帝在酒吧共同处理鼷兽并直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_101_sora",
+          "reason": "空与大帝在酒吧共同处理鼷兽并直接交流。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "空与大帝在酒吧共同处理鼷兽并直接交流。",
+          "status": "supported",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_56004ab0da71157f.json",
+      "sources": [
+        {
+          "endLine": 649,
+          "kind": "story",
+          "line": 542,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "好久不见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 195,
+          "line": 168,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_ex03_end.txt",
+          "quote": "[name=\"能天使\"]   老板，这里完工了，要帮我订明天最前排的套票哟！\n[Dialog]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Delay(time=1)]\n[Blocker(a=0, fadetime=1, block=false)]\n[Character(name=\"avg_npc_020\")]\n[name=\"保镖\"]   大帝先生，这、这些人是怎么回事？\n[Character(name=\"avg_npc_020\",name2=\"char_102_texas_1\",focus=2)]\n[name=\"德克萨斯\"]   就当我们是老板……是大帝先生的私人保镖吧。\n[Character(name=\"char_201_moeshd\")]\n[name=\"可颂\"]   虽然我们是个物流公司。\n[Character(name=\"char_103_angel_1\")]\n[name=\"能天使\"]   本来我们的业务扩展就很丰富嘛。之前不是还买了一家爵士乐酒吧？\n[Character(name=\"char_101_sora_1\")]\n[name=\"空\"]   还有那些总是被当成沙包的叙拉古黑帮，不过最近安分得有些诡异。\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]   你以为我们每个月要在龙门打多少次架？\n[name=\"大帝\"]   论斗殴和火并，我们才是行家里手，最顶级的，无人能及。\n[Character]\n[name=\"激动的观众\"]   老子等这一刻好久了！西边的企鹅！你既然敢光明正大地出现，就等死吧！！\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]   ……你们是成立了一个贼喊捉贼协会吗？好吧，反正也和我想的差不太多。\n[name=\"大帝\"]   德克萨斯，动手。\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   明白——啊。\n[Character(name=\"char_101_sora_1\")]\n[name=\"空\"]   ——明白了！我上了！"
+        }
+      ],
+      "description": "企鹅物流成员共同执行大帝护卫任务，现场明确称老板及大帝。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E37"
+          ],
+          "from": "char_101_sora",
+          "reason": "企鹅物流成员共同执行大帝护卫任务，现场明确称老板及大帝。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "E37"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "企鹅物流成员共同执行大帝护卫任务，现场明确称老板及大帝。",
+          "status": "supported",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 195,
+          "kind": "story",
+          "line": 168,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_ex03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 763,
+          "line": 741,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_angel_2_1.txt",
+          "quote": "[name=\"可颂\"]是这间酒吧没错吧？\n[Character(name=\"char_101_sora_1#1\")]\n[name=\"空\"] 没错没错，看，是她们！\n[Character(name=\"avg_103_angel_1#1$1\")]\n[name=\"能天使\"]你们怎么也来了？\n[Character(name=\"char_201_moeshd#2\")]\n[name=\"可颂\"]老板喊我来的。\n[Character(name=\"char_101_sora_1#6\")]\n[name=\"空\"] 老板把那个讨厌的经理解决了，然后我就过来了。\n[Character(name=\"avg_103_angel_1#1$1\")]\n[name=\"能天使\"]老板，难道说……\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]没错，因为今天是个值得纪念的好日子，所以我决定举办派对！\n[Character(name=\"char_201_moeshd#2\")]\n[name=\"可颂\"]纪念什么？\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]当然是纪念能天使的姐姐写信给她了！\n[Character(name=\"char_201_moeshd#3\")]\n[name=\"可颂\"]那不是刚刚才知道的吗！\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]兼为长期外派成员莫斯提马接风洗尘！\n[Character(name=\"char_101_sora_1#1\")]\n[name=\"空\"] 这个好像还不错。"
+        }
+      ],
+      "description": "空受大帝安排来到酒吧并参与大帝主持的连续群体对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_101_sora",
+          "reason": "该干员在同一局部场景中直接与大帝对话或围绕大帝的安排作出明确回应。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝在同一局部场景中直接回应、点名或组织包含该干员的具体活动。",
+          "status": "supported",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_32026640a2b11232.json",
+      "sources": [
+        {
+          "endLine": 763,
+          "kind": "story",
+          "line": 741,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_angel_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "能天使收到姐姐来信当晚的酒吧派对",
+      "title": "能天使"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1127,
+          "line": 1113,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_sora_2_1.txt",
+          "quote": "[name=\"大帝\"]有新的委托，你们两个谁去？\n[charslot(slot=\"m\",name=\"char_101_sora_1#1\",focus=\"m\")]\n[name=\"空\"]我，我去！\n[charslot(slot=\"m\",name=\"char_105_emper#1\",focus=\"m\")]\n[name=\"大帝\"]好，那就交给你了，空。\n[charslot(slot=\"m\",name=\"char_105_emper#1\",focus=\"m\")]\n[name=\"大帝\"]你别又像上次一样在那边给人唱歌唱到忘了。\n[charslot(slot=\"m\",name=\"char_101_sora_1#1\",focus=\"m\")]\n[name=\"空\"]明白！\n[charslot(slot=\"m\",name=\"char_101_sora_1#1\",focus=\"m\")]\n[name=\"空\"]老板，送完这一单之后我可以去录音室练歌吗？\n[charslot(slot=\"m\",name=\"char_105_emper#1\",focus=\"m\")]\n[name=\"大帝\"]准了。\n[charslot(slot=\"m\",name=\"char_101_sora_1#1\",focus=\"m\")]\n[name=\"空\"]谢谢老板！"
+        }
+      ],
+      "description": "空与大帝就新委托和练歌安排直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_101_sora",
+          "reason": "空称大帝为老板并回应其委托。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝具名称呼空并把委托交给她。",
+          "status": "supported",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_f59b132420138e33.json",
+      "sources": [
+        {
+          "endLine": 1127,
+          "kind": "story",
+          "line": 1113,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_sora_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇结尾企鹅物流场景",
+      "title": "空"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 83,
+          "line": 34,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_06_end.txt",
+          "quote": "[name=\"大帝\"]   晚上好，叙拉古的丧家犬，弩弹打完了？可我怎么还活着呢？\n[Character(name=\"avg_npc_028#4\")]\n[name=\"甘比诺\"]   真不愧是大帝，枪林弹雨里还端着酒杯，运气不错。\n[Character(name=\"char_101_sora_1#2\")]\n[name=\"空\"]   ……龙门从来不会纵容真正的厮杀。\n[Character(name=\"char_103_angel_1#7\")]\n[name=\"能天使\"]   不按游戏规则来，可是会被驱逐出局的。\n[Character(name=\"avg_npc_028#4\")]\n[name=\"甘比诺\"]   规则？\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.5)]\n[Character(name=\"avg_npc_031\",name2=\"avg_npc_031\",fadetime=1,block=true)]\n[Delay(time=3)]\n[Character(name=\"avg_npc_028#3\")]\n[name=\"甘比诺\"]   当龙门警察到场的时候，只会看到你们几个支离破碎的尸首，企鹅物流。\n[Character(name=\"char_325_bison_1#4\")]\n[name=\"拜松\"]   ……街道上都是他们的人。\n[Character(name=\"char_325_bison_1#4\",name2=\"char_201_moeshd#3\",focus=2)]\n[name=\"可颂\"]   连后门都堵上了，唉，看来这位先生一直怀恨在心嘛，做得很彻底。\n[Character(name=\"avg_npc_028#3\")]\n[name=\"甘比诺\"]   卡彭那个懦夫太过忌惮鼠王和魏彦吾了，后者兴许值得关注……\n[name=\"甘比诺\"]   至于你和那只装腔作势的老鼠，除了让人作呕的本事一流之外，一文不值。\n[Character(name=\"avg_npc_028#3\",name2=\"char_105_emper\",focus=2)]\n[name=\"大帝\"]   嗯，你是真这么觉得？还是单纯想放狠话？\n[Character(name=\"avg_npc_028#4\",name2=\"char_105_emper\",focus=1)]\n[name=\"甘比诺\"]   诚心实意，“大帝先生”。\n[Character(name=\"char_201_moeshd#3\",name2=\"char_105_emper\",focus=2)]\n[name=\"大帝\"]   可颂，帮我捡瓶酒，我来帮他修理一下大脑皮层。\n[Character(name=\"char_201_moeshd#4\",name2=\"char_105_emper\",focus=1)]\n[name=\"可颂\"]   但是老板，不瞒你说，我们已经砸掉了上百万龙门币的红酒了。\n[Character(name=\"char_201_moeshd#4\",name2=\"char_105_emper\",focus=2)]\n[name=\"大帝\"]   ……那他们的命值多少钱？\n[Character(name=\"char_201_moeshd#4\",name2=\"char_105_emper\",focus=1)]\n[name=\"可颂\"]   怎么看也没这个数吧。\n[Character(name=\"char_201_moeshd#4\",name2=\"char_105_emper\",focus=2)]\n[name=\"大帝\"]   ……\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   要动真格的吗？\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]   怎么会呢。我们一定会恪守和小魏的约定，在龙门之内，不打真架，不闹人命，一切生意上的纠纷，在商言商。\n[name=\"大帝\"]   只是今天我们总计逃亡了五个小时，超出了我日常工作时间的两倍，两倍！\n[name=\"大帝\"]   不仅如此，我们还炸掉了整整一年分的行动补贴！汽车，红酒，还有我的珍藏黑胶！\n[name=\"大帝\"]   现在，在我的酒吧发生了一些预料之内的意外死亡，这总没什么问题吧？嗯？\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   明白了。\n[Character(name=\"char_102_texas_1\",name2=\"avg_npc_028\",focus=2)]\n[name=\"甘比诺\"]   德克萨斯，你的名字就让我感到不快。\n[Character(name=\"char_102_texas_1\",name2=\"avg_npc_028\",focus=1)]\n[name=\"德克萨斯\"]   我不记得自己认识你这样的叙拉古人。但你会再次夹着尾巴逃离龙门。"
+        }
+      ],
+      "description": "空与大帝共同应对酒吧围攻。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_101_sora",
+          "reason": "与大帝明确处于同一局部战斗并共同响应。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝在同一现场与企鹅物流成员协同行动。",
+          "status": "supported",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 83,
+          "kind": "story",
+          "line": 34,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伤心咖啡馆围攻期间",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "char_101_sora|npc_2b6410ed62fdecf2"
+}

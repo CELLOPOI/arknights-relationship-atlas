@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 163,
+          "line": 83,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/a001/level_a001_03_beg.txt",
+          "quote": "[Character(name=\"char_263_skadi#1\",fadetime=1)]\n[Delay(time=2)]\n[name=\"？？？\"]   ……\n[Character(name=\"char_220_grani#1\")]\n[name=\"格拉尼\"]   ……\n[Character(name=\"char_263_skadi#1\")]\n[name=\"？？？\"]   ……\n[Character(name=\"char_220_grani#2\")]\n[name=\"格拉尼\"]   真的是你啊！\n[Character(name=\"char_263_skadi#2\",name2=\"char_220_grani#3\",focus=2)]\n[name=\"格拉尼\"]   斯卡蒂，你是斯卡蒂，没错吧？\n[Character(name=\"char_263_skadi#2\",name2=\"char_220_grani#3\",focus=1)]\n[name=\"斯卡蒂\"]   ——原来滴水村村长是和你在一起？\n[Character(name=\"char_263_skadi#2\",name2=\"char_220_grani#1\",focus=2)]\n[name=\"格拉尼\"]   啊，什么？你认识可萝尔……\n[Character(name=\"char_263_skadi#2\",name2=\"char_220_grani#1\",focus=1)]\n[name=\"斯卡蒂\"]   把她交给我。现在。\n[Character(name=\"avg_npc_010\")]\n[name=\"大鲍勃\"]   格拉尼，她的眼神，不太对啊。\n[Character(name=\"char_220_grani#4\")]\n[name=\"格拉尼\"]   那可不行，我们应该谈——\n[Character(name=\"char_220_grani#1\")]\n[name=\"格拉尼\"]   欸，欸？\n[Dialog]\n[Character]\n[stopmusic]\n[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.5,block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Character(name=\"char_220_grani#1\")]\n[name=\"格拉尼\"]   呜啊！\n[PlayMusic(intro=\"$indust_intro\", key=\"$indust_loop\", volume=0.6, crossfade=1.5)]\n[Character(name=\"char_263_skadi#2\")]\n[name=\"斯卡蒂\"]   这只是警告。\n[Character(name=\"char_220_grani#1\")]\n[name=\"格拉尼\"]   不，可萝尔小姐，鲍勃大叔……\n[Character(name=\"avg_npc_010\",name2=\"char_220_grani#1\",focus=1)]\n[name=\"大鲍勃\"]   她，她怎么会攻击你？\n[name=\"大鲍勃\"]   你不是认识她，她怎么就——\n[Character(name=\"avg_npc_010\",name2=\"char_220_grani#1\",focus=2)]\n[name=\"格拉尼\"]   别问那么多了！快，快跑！\n[Dialog]\n[Character]\n[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.5,block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Character]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]\n[Dialog]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.6)]\n[Blocker(a=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[Character(name=\"char_220_grani#1\")]\n[name=\"格拉尼\"]   哈，哈，她还在追着我们跑吗？？\n[Character(name=\"avg_npc_003\")]\n[name=\"可萝尔\"]   格，格拉尼，我，我跑不动了……\n[Character(name=\"avg_npc_010\")]\n[name=\"大鲍勃\"]   那个女人，真的，是怪物吧？她甚至，都没在喘气啊！\n[Character]\n[Character(name=\"char_263_skadi#2\",fadetime=1)]\n[Delay(time=2)]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[name=\"斯卡蒂\"]   为什么我要陪你们浪费时间？\n[Dialog]\n[Character]\n[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.5,block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Character(name=\"char_220_grani#1\")]\n[name=\"格拉尼\"]   她真的要砍了我，啊不，她要拿可萝尔小姐干什么！\n[Character(name=\"avg_npc_003\")]\n[name=\"可萝尔\"]   她的眼睛，好，好红……格，格拉尼！\n[Character(name=\"char_220_grani#1\")]\n[name=\"格拉尼\"]   不行了不行了，为什么还会有这种事啊！\n[Character(name=\"char_220_grani#5\")]\n[name=\"格拉尼\"]   停！\n[Character(name=\"avg_npc_010\")]\n[name=\"大鲍勃\"]   埋伏！"
+        }
+      ],
+      "description": "斯卡蒂具体认出并索要可萝尔；可萝尔当场看见、逃离并在结尾询问斯卡蒂去向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_263_skadi",
+          "reason": "斯卡蒂具体认出并索要可萝尔；可萝尔当场看见、逃离并在结尾询问斯卡蒂去向。",
+          "status": "supported",
+          "to": "npc_dcc89a718d850933"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_dcc89a718d850933",
+          "reason": "斯卡蒂具体认出并索要可萝尔；可萝尔当场看见、逃离并在结尾询问斯卡蒂去向。",
+          "status": "supported",
+          "to": "char_263_skadi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_09725b475c1bf920.json",
+      "sources": [
+        {
+          "endLine": 163,
+          "kind": "story",
+          "line": 83,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/a001/level_a001_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇塔拉特山森林场景",
+      "title": "骑兵与猎人"
+    }
+  ],
+  "relationship_id": "char_263_skadi|npc_dcc89a718d850933"
+}

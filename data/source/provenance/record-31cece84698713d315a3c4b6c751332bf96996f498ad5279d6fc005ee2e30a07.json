@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 159,
+          "line": 59,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_01_beg.txt",
+          "quote": "[name=\"班主任\"]结城理，对吗？我是你的班主任，{@nickname}，你可以叫我博士。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$4\",focus=\"m\")]\n[name=\"结城理\"]博士……老师？\n[Dialog]\n[charslot]\n[interlude(maskid = \"interlude_dialog_left\", channel = 5, style=3, type = 3, name = \"avg_npc_2380_1#1$1\", icharpos = \"0,0\", offset=\"0,150\")]\n[interlude(channel = 5, type=2, name=\"77_g4_classroom\")]\n[Decision(options=\"不用加“老师”。;叫Dr.{@nickname}也可以。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[interlude(channel = 5, clear = true, block = true)]\n[Delay(time=0.5)]\n[Predicate(references=\"1\")]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$4\",focus=\"m\")]\n[name=\"结城理\"]明白了，博士。\n[Predicate(references=\"2\")]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$4\",focus=\"m\")]\n[name=\"结城理\"]好，Dr.{@nickname}。\n[Dialog]\n[Predicate(references=\"1;2\")]\n[charslot]\n戴着兜帽的教师指向了教室中间第二排的座位。\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]你的座位在那里。\n[name=\"班主任\"]把这几张表拿去填一下，不懂的地方可以问班长——就是阿米娅。\n[charslot(slot=\"m\",name=\"avg_npc_2377_1#5$1\",focus=\"m\")]\n[name=\"班长\"]嗯！\n[charslot(slot=\"m\",name=\"avg_npc_2377_1#4$1\",focus=\"m\")]\n[name=\"班长\"]咦……老师，结城同学刚来，也要填《志愿实践表》吗？\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]如果不填，你们去志愿实践时他就要一个人待在学校了。\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#9$4\",focus=\"m\")]\n[name=\"结城理\"]（好像也不错，可以趁机去找大家。）\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]不去志愿实践也得待在学校，学校现在对你有监护义务。\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#3$4\",focus=\"m\")]\n[name=\"结城理\"]（这位Dr.{@nickname}……知道我在想什么？）\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$1\",focus=\"n\")]\n[charslot]\n[interlude(maskid = \"interlude_dialog_left\", channel = 5, style=3, type = 3, name = \"avg_npc_2380_1#1$1\", icharpos = \"0,0\", offset=\"0,150\")]\n[interlude(channel = 5, type=2, name=\"77_g4_classroom\")]\n[Decision(options=\"对，我看到了。;我不会读心。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[interlude(channel = 5, clear = true, block = true)]\n[Delay(time=0.5)]\n[Predicate(references=\"1\")]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#8$4\",focus=\"m\")]\n[name=\"结城理\"]您看到什么了？\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]看到你的表情了。学生的想法都很好懂，你不用惊讶。对了，对我不必用敬语。\n[Predicate(references=\"2\")]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#5$4\",focus=\"m\")]\n[name=\"结城理\"]……我说出来了吗？\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]没有。学生的想法都很好懂，仅此而已。对了，对我不必用敬语。\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#13$4\",focus=\"m\")]\n[name=\"结城理\"]好。但是，“志愿实践”到底是什么？\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#12$1\",focus=\"m\")]\n[name=\"裘里奥\"]那个，Dr.{@nickname}，理是在国外长大的，不了解拉特兰学校的事，能不能帮忙说明一下……\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]好。结城，你入学就读的是十一年级，也就是预科第一年，要进行第一次志愿实践，为将来的职业选择做准备了。\n[name=\"班主任\"]简单来说，你要在这张表上填三种感兴趣的工作，学校会安排你们到相应岗位实习。\n[name=\"班主任\"]胡乱填写或者填写没有实习条件的工作，六厅系统会调剂到接近的岗位。\n[charslot(slot=\"m\",name=\"avg_npc_2377_1#1$1\",focus=\"m\")]\n[multiline(name=\"班长\")]虽然有时不太明白调剂的依据……去年有位学姐填了“烈火爆炸狂”，结果被分配到了公证所。\n[charslot(slot=\"m\",name=\"avg_npc_2377_1#3$1\",focus=\"m\")]\n[multiline(name=\"班长\")]执行者，应该不是这种定位吧……\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]总之，今天是交表日。你如果想参加志愿实践，现在填完还能赶上。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]这个孩子才刚到拉特兰，还遇到了危险，现在心情还很混乱，一定要立刻决定吗？\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]最好现在就决定。\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#9$4\",focus=\"m\")]\n[name=\"结城理\"]……\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]其实这个问题对你没有那么难吧？我猜，你很清楚自己要做什么事。\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#2$4\",focus=\"m\")]\n[name=\"结城理\"]（我现在要做的事是……首先，要找到同伴。也就是说，需要自由行动的时间……）\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$4\",focus=\"m\")]\n[name=\"结城理\"]嗯，我知道了。\n[name=\"结城理\"]吉阿达小姐，志愿实践的第一项，我可以填“葬礼经纪”吗？\n[name=\"结城理\"]第二项，我想填“在殡仪堂工作的派对设计师”。\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$4\",focus=\"m\")]\n[name=\"结城理\"]（小声）拜托了……如果你们需要我做什么，我也会尽力帮忙的。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#12$1\",focus=\"m\")]\n[name=\"吉阿达\"]……你这家伙，让人有点头疼啊。\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]要填三项，那最后一项你打算填什么？\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$4\",focus=\"m\")]\n[name=\"结城理\"]博士，或者班长，有什么建议吗？\n[charslot(slot=\"m\",name=\"avg_npc_2380_1#1$1\",focus=\"m\")]\n[name=\"班主任\"]填写率最高的工作是甜食礼堂营业员。如果你不想引人注目的话。\n[charslot(slot=\"m\",name=\"avg_npc_2377_1#7$1\",focus=\"m\")]\n[name=\"班长\"]甜食礼堂就是一个类似集市的地方，不过卖的都是甜品。我也填了这个，如果结城同学选这个的话，我们应该可以被安排到一起实习。"
+        }
+      ],
+      "description": "博士接收结城理入班，双方以称谓直接连续交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_4217_makoto",
+          "reason": "博士接收结城理入班，双方以称谓直接连续交谈。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士接收结城理入班，双方以称谓直接连续交谈。",
+          "status": "supported",
+          "to": "char_4217_makoto"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2be69585e5326764.json",
+      "sources": [
+        {
+          "endLine": 159,
+          "kind": "story",
+          "line": 59,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇联动叙事所示时段",
+      "title": "月行水上"
+    }
+  ],
+  "relationship_id": "char_4217_makoto|npc_b99957887950ebfd"
+}

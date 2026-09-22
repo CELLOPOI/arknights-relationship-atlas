@@ -1,0 +1,104 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 986,
+          "line": 977,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st04.txt",
+          "quote": "[name=\"莱伊\"]一开始……是我让这趟车偏离了路线。\n[charslot(slot = \"r\", name = \"avg_230_savage_1#1$1\", focus=\"r\")]\n[name=\"暴行\"]……嗯。我都听阿兰娜说过了。\n[name=\"暴行\"]你想回头吗？\n[charslot(slot = \"l\", name = \"avg_4117_ray_1#9$1\", focus=\"l\")]\n[name=\"莱伊\"]……\n[name=\"莱伊\"]不。\n[name=\"莱伊\"]但我应该自己去……\n[charslot(slot = \"r\", name = \"avg_230_savage_1#8$1\", focus=\"r\")]\n[name=\"暴行\"]那就好。因为现在，就连博士也对你说的那只巨兽产生兴趣了。"
+        },
+        {
+          "endLine": 554,
+          "line": 487,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st03.txt",
+          "quote": "[name=\"阿米娅\"]啊，博士不用这么感伤的……我并不是想起了最后那次事故。\n[charslot(slot = \"l\", name = \"char_002_amiya_1#3\", focus=\"l\")]\n[name=\"阿米娅\"]而且，回到雷姆必拓之前，我就已经好好想过，自己想寻找的究竟是什么了。\n[charslot(slot = \"l\", name = \"char_002_amiya_1#6\", focus=\"l\")]\n[name=\"阿米娅\"]对了，博士，看那边！我记得那个大烟囱，以前……\n[dialog]\n[delay(time=1)]\n[charslot(slot = \"l\", name = \"char_002_amiya_1#1\", focus=\"l\")]\n[name=\"阿米娅\"]呃……\n[charslot(slot = \"r\", name = \"avg_230_savage_1#1$1\", focus=\"r\")]\n[name=\"暴行\"]怎么了，阿米娅？\n[charslot(slot = \"l\", name = \"char_002_amiya_1#3\", focus=\"l\")]\n[name=\"阿米娅\"]……以前我和另外一些小孩子会比赛谁能往里面爬得最深，谁能保持自己的尾巴最干净……\n[dialog]\n[charslot(slot = \"l\", focus=\"n\")]\n[Decision(options=\"这是不是太危险了？;听起来很有趣，我也想试试。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"l\", name = \"char_002_amiya_1#3\", focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_230_savage_1#8$1\", focus=\"n\")]\n[name=\"阿米娅\"]没关系，为了不被家里大人骂，大家都不会爬到特别危险的深度的。\n[charslot(slot = \"r\", name = \"avg_230_savage_1#8$1\", focus=\"r\")]\n[name=\"暴行\"]真是的，好久没听到阿米娅说这种话了。\n[Predicate(references=\"2\")]\n[charslot(slot = \"r\", name = \"avg_230_savage_1#1$1\", focus=\"n\")]\n[charslot(slot = \"l\", name = \"char_002_amiya_1#10\", focus=\"l\")]\n[name=\"阿米娅\"]恐怕不行哦，博士，你没有尾巴呀。\n[charslot(slot = \"r\", name = \"avg_230_savage_1#8$1\", focus=\"r\")]\n[name=\"暴行\"]真是的，好久没听到阿米娅说这种话了。\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"r\", name = \"avg_230_savage_1#8$1\", focus=\"n\")]\n[charslot(slot = \"l\", name = \"char_002_amiya_1#10\", focus=\"l\")]\n[name=\"阿米娅\"]我也不是当时那个七八岁的小孩子了呀！\n[charslot(slot = \"l\", name = \"char_002_amiya_1#3\", focus=\"l\")]\n[name=\"阿米娅\"]……但我终于还是认出了这里。\n[charslot(slot = \"r\", name = \"avg_230_savage_1#9$1\", focus=\"r\")]\n[name=\"暴行\"]这里毕竟是雷姆必拓嘛。\n[name=\"暴行\"]我们搭房子的习惯就是这样。旧房子那么好用，没必要拆掉，想要新屋子，往上加盖就是了。\n[charslot(slot = \"r\", name = \"avg_230_savage_1#8$1\", focus=\"r\")]\n[name=\"暴行\"]所以啊，我们从小就会在长辈那里听到一个说法……\n[charslot(slot = \"l\", name = \"char_002_amiya_1#3\", focus=\"l\")]\n[name=\"阿米娅\"]……“爱冒险的家伙们无论走了多远，回来的时候都一定能认出家。”\n[charslot(slot = \"l\", name = \"char_002_amiya_1#2\", focus=\"l\")]\n[name=\"阿米娅\"]不过，变化的地方也有很多。\n[name=\"阿米娅\"]比如说我们刚刚在这个自治州接触到的感染者管理法，看起来是模仿了莱塔尼亚的法律逻辑和维多利亚的专业术语……\n[dialog]\n[musicvolume(volume=0.2, fadetime=2)]\n[delay(time=1.5)]\n[charslot(slot = \"l\", name = \"char_002_amiya_1#7\", focus=\"l\")]\n[name=\"阿米娅\"]……\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"有人盯着你很久了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]嗯，我注意到了，博士。\n[charslot(slot = \"m\", name = \"avg_4117_ray_1#1$1\")]\n[name=\"莱伊\"]……\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(duration=2, isblock=true)]\n[Decision(options=\"阿米娅，你认识她吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"char_002_amiya_1#1\")]\n[name=\"阿米娅\"]我没有印象……而且，以前在雷姆必拓照顾过我的人，应该都认不出现在的我了。\n[charslot(slot = \"m\", name = \"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]没关系的，博士，我们继续往前走吧。"
+        }
+      ],
+      "description": "两方向分别有独立知晓证据，确认相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_4117_ray",
+          "reason": "暴行当面告诉莱伊博士对她的巨兽线索感兴趣。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士看到莱伊并询问阿米娅是否认识她。",
+          "status": "supported",
+          "to": "char_4117_ray"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_48ccc8ee52875626.json",
+      "sources": [
+        {
+          "endLine": 986,
+          "kind": "story",
+          "line": 977,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 554,
+          "kind": "story",
+          "line": 487,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "《去咧嘴谷》旅途中",
+      "title": "去咧嘴谷"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 496,
+          "line": 487,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-18_end.txt",
+          "quote": "[charslot(slot = \"m\", name = \"avg_4117_ray_1#1$1\", duration=1.5, isblock=true)]\n[Delay(time=0.5)]\n[name=\"莱伊\"]博士说我能在这边帮上忙。\n[charslot(slot = \"m\", name = \"avg_npc_970_1#1$1\")]\n[name=\"工程部干员\"]——莱伊小姐？！\n[charslot(slot = \"m\", name = \"avg_4117_ray_1#1$1\")]\n[name=\"莱伊\"]虽然刚被可露希尔小姐催着过来还有些疑惑，但我刚刚听到了你们的话。\n[charslot(slot = \"m\", name = \"avg_4117_ray_1#7$1\")]\n[name=\"莱伊\"]如果是要检修管道……\n[name=\"莱伊\"]它应该能帮上忙。"
+        }
+      ],
+      "description": "博士曾具体判断并安排莱伊前往工程部协助，莱伊明确转述该安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D38"
+          ],
+          "from": "char_4117_ray",
+          "reason": "博士曾具体判断并安排莱伊前往工程部协助，莱伊明确转述该安排。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D38"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士曾具体判断并安排莱伊前往工程部协助，莱伊明确转述该安排。",
+          "status": "supported",
+          "to": "char_4117_ray"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 496,
+          "kind": "story",
+          "line": 487,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-18_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4117_ray|npc_b99957887950ebfd"
+}

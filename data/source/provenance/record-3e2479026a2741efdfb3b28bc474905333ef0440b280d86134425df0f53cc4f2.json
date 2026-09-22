@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 294,
+          "line": 288,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-07_end.txt",
+          "quote": "[name=\"洛洛\"]不……我有消息要亲口告诉指挥官。\n[Character(name=\"avg_npc_401_1#3$1\",name2=\"avg_4040_rockr_1#1$1\",focus=1)]\n[name=\"克洛维希娅\"]你们难道找到了……\n[Character(name=\"avg_npc_401_1#3$1\",name2=\"avg_4040_rockr_1#10$1\",focus=2)]\n[name=\"洛洛\"]是的，我们得到了戈尔丁女士的消息。她还在北部居民区的学校里，她很安全……\n[name=\"洛洛\"]但他们在两天前的一场聚会中，遭到了萨卡兹的突袭。\n[name=\"洛洛\"]信使女士她……被捕了。"
+        }
+      ],
+      "description": "洛洛明确报告戈尔丁仍在北部学校及其安全状况。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E36"
+          ],
+          "from": "char_4040_rockr",
+          "reason": "洛洛明确报告戈尔丁仍在北部学校及其安全状况。",
+          "status": "supported",
+          "to": "npc_faa340cbad10d05b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_faa340cbad10d05b",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4040_rockr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 294,
+          "kind": "story",
+          "line": 288,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_4040_rockr|npc_faa340cbad10d05b"
+}

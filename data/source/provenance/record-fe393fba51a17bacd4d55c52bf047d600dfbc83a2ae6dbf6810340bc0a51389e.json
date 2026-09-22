@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 275,
+          "line": 267,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_end.txt",
+          "quote": "[name=\"孽茨雷\"]还记得……博卓卡斯替吗？\n[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\")]\n[name=\"“灵幛”\"]记得。\n[name=\"“灵幛”\"]您对他，视如己出。\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]\n[name=\"孽茨雷\"]他是那样天赋卓绝，无疑可以成为卡兹戴尔的英雄。\n[name=\"孽茨雷\"]他本是我最为欣赏的学徒。\n[name=\"孽茨雷\"]可惜他离开了卡兹戴尔，又死在一场异国的阴谋中。\n[name=\"孽茨雷\"]好在，他仍是以战士的面貌死去。他通过战争践行了生的意义，并在死时回归了众魂。"
+        }
+      ],
+      "description": "孽茨雷称博卓卡斯替为最欣赏的学徒，灵幛说明视如己出，明确师生旧交。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E116"
+          ],
+          "from": "npc_84fdad316566923c",
+          "reason": "孽茨雷称博卓卡斯替为最欣赏的学徒，灵幛说明视如己出，明确师生旧交。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "E116"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "孽茨雷称博卓卡斯替为最欣赏的学徒，灵幛说明视如己出，明确师生旧交。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 275,
+          "kind": "story",
+          "line": 267,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "npc_84fdad316566923c|npc_e877f731a67498e3"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 518,
+          "line": 490,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st04.txt",
+          "quote": "[name=\"杜宾\"]行李都准备好了吗？\n[Character(name=\"avgnew_173_slchan_1#1$1\")]\n[name=\"恩希亚\"]杜宾教官！\n[Character(name=\"char_130_doberm_ex#3\")]\n[name=\"杜宾\"]圣女成为了谢拉格实质上的领袖，而恩希欧迪斯则获得了调用谢拉格大部分资源的权力……\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]博士，你应当听从我的忠告。\n[name=\"杜宾\"]幸好，我没有在其他人的口中听到你的名字，看来，至少你们没有被卷入其中。\n[Character(name=\"avgnew_173_slchan_1#5$1\")]\n[name=\"恩希亚\"]呃……\n[Character(name=\"avg_198_blackd_1#2$1\")]\n[name=\"魏斯\"]……\n[Character(name=\"avg_199_yak_1#2$1\")]\n[name=\"角峰\"]……\n[Character(name=\"avg_422_aurora_1#4$1\")]\n[name=\"极光\"]……\n[Character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]……\n[Dialog]\n[Character(name=\"char_130_doberm_ex\",focus=-1)]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]……\n[Character(name=\"char_130_doberm_ex#4\")]\n[name=\"杜宾\"]看来，你们不仅被卷入其中了，恐怕还做了不少事。\n[name=\"杜宾\"]我很期待看到你们的报告。\n[Character(name=\"char_130_doberm_ex#2\")]\n[name=\"杜宾\"]好了，有什么话路上再说，都上车吧，该回罗德岛了。"
+        }
+      ],
+      "description": "崖心杜宾Sharp及其他返程人员同场回应事件。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E111"
+          ],
+          "from": "char_173_slchan",
+          "reason": "崖心杜宾Sharp及其他返程人员同场回应事件。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "E111"
+          ],
+          "from": "char_508_aguard",
+          "reason": "崖心杜宾Sharp及其他返程人员同场回应事件。",
+          "status": "supported",
+          "to": "char_173_slchan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 518,
+          "kind": "story",
+          "line": 490,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_173_slchan|char_508_aguard"
+}

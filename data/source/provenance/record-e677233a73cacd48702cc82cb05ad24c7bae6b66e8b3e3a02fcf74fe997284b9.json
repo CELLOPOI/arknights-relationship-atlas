@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1311,
+          "line": 1301,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"菈塔托丝\"]你是……什么人？\n[Character(name=\"avg_npc_254_1#4$1\")]\n[name=\"阿克托斯\"]你们是……那个博士的……\n[Character(name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]……为什么救我们？\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]解释现状不是我的工作。\n[name=\"Sharp\"]门在那边，外面的人我已经解决了。\n[name=\"Sharp\"]极光，带他们走。\n[character(name=\"avg_422_aurora_1#5$1\")]\n[name=\"极光\"]好的！"
+        }
+      ],
+      "description": "两家主当面问来人身份和救援缘由，Sharp回答并命极光带走。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E71"
+          ],
+          "from": "char_508_aguard",
+          "reason": "两家主当面问来人身份和救援缘由，Sharp回答并命极光带走。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E71"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "两家主当面问来人身份和救援缘由，Sharp回答并命极光带走。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 1311,
+          "kind": "story",
+          "line": 1301,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_508_aguard|npc_e69f1ad171a29fd0"
+}

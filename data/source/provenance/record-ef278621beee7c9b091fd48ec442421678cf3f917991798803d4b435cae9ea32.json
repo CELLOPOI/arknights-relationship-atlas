@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 421,
+          "line": 399,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "quote": "[name=\"休露丝\"]我替你去。\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]休露丝，别闹了。\n[Character(name=\"avg_npc_262_1#2$1\")]\n[name=\"休露丝\"]你先照照镜子看看你现在的样子再说这话吧，菈塔托丝。\n[name=\"休露丝\"]疲惫，苍白，双眼无神。\n[Character(name=\"avg_npc_262_1#6$1\")]\n[name=\"休露丝\"]我怎么可能放心让你以这副样子去救我的丈夫？\n[Character(name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]……\n[Character(name=\"avg_npc_262_1#9$1\")]\n[name=\"休露丝\"]而且我不知道你在那间屋子里和恩希欧迪斯说了什么。\n[Character(name=\"avg_npc_262_1#8$1\")]\n[name=\"休露丝\"]但我可不想看着布朗陶家就这么被你交到恩希欧迪斯手上！\n[Character(name=\"avg_npc_253_1#6$1\")]\n[name=\"菈塔托丝\"]……\n[Character(name=\"avg_npc_262_1#9$1\")]\n[name=\"休露丝\"]瞪我干嘛，想吵架吗？\n[Character(name=\"avg_npc_253_1#10$1\")]\n[name=\"菈塔托丝\"]这一次，你倒是没错。\n[name=\"菈塔托丝\"]……\n[Character(name=\"avg_npc_253_1#1$1\")]\n[name=\"菈塔托丝\"]好吧，罗德岛的博士，休露丝会代表我协助你的计划。"
+        }
+      ],
+      "description": "休露丝当场接下博士计划，菈塔托丝向博士说明其代表参与。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E86"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "休露丝当场接下博士计划，菈塔托丝向博士说明其代表参与。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E86"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "休露丝当场接下博士计划，菈塔托丝向博士说明其代表参与。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 421,
+          "kind": "story",
+          "line": 399,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 524,
+          "line": 461,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "quote": "[name=\"莫希\"]夫人，列车那边已经全部安排好了。\n[name=\"莫希\"]按照您的意思，下一趟抵达银心湖的专车将以最快速度到站。\n[charslot(slot=\"m\",name=\"avg_npc_255_1#5$1\",focus=\"m\")]\n[name=\"莫希\"]但是夫人，您确定您邀请的客人一定在那趟列车上吗？\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]当然，我确定！\n[charslot(slot=\"m\",name=\"avg_npc_255_1#5$1\",focus=\"m\")]\n[name=\"莫希\"]可是，万一我们弄错了……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]不可能！他们一定就在那趟车上！\n[name=\"休露丝\"]莫希，我问你，你知道这三年里为了让全境内信号畅通，我们新修建了多少基站吗？\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",focus=\"m\")]\n[name=\"莫希\"]这……属下不太清楚。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]你刚回来，不清楚也正常，不过这次你可要记好了！\n[name=\"休露丝\"]就那种保证通讯信号的基站，光是我们布朗陶家的领地上，就建了足足五个！\n[charslot(slot=\"m\",name=\"avg_npc_255_1#3$1\",focus=\"m\")]\n[name=\"莫希\"]这么多……？\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\",focus=\"m\")]\n[name=\"休露丝\"]没错！\n[name=\"休露丝\"]我们还特地从罗德岛的博士那里请了专业人士来帮忙，就是为了确保就算在雪山上，也能通讯无阻！\n[name=\"休露丝\"]所以说，理论上只要到了谢拉格境内，就不该有通讯无法接通的情况存在。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]除了……某个特殊的场所。\n[charslot(slot=\"m\",name=\"avg_npc_255_1#3$1\",focus=\"m\")]\n[name=\"莫希\"]特殊场所……？\n[charslot(slot=\"m\",name=\"avg_npc_255_1#5$1\",focus=\"m\")]\n[name=\"莫希\"]……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#10$1\",focus=\"m\")]\n[name=\"休露丝\"]哼哼，猜不到吧，那就是——\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",focus=\"m\")]\n[name=\"莫希\"]夫人难道是指，列车的包厢？\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]……\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",focus=\"m\")]\n[name=\"莫希\"]……\n[name=\"莫希\"]（啊，不好，不该说话的……）\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]哼……你猜对了！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#10$1\",focus=\"m\")]\n[name=\"休露丝\"]就是列车的包厢！而且一定是那趟从圣山脚下开往银心湖的专车包厢！\n[name=\"休露丝\"]那辆列车是我们从维多利亚特别订购的，之后线路上的其他列车，都是以那辆列车为原型仿制……不对，是学习之后我们自己生产的。\n[name=\"休露丝\"]原本的那辆列车，在包厢墙壁中内嵌了能隔绝外界干扰的材料，自然，也能隔绝信号的传输。\n[name=\"休露丝\"]其他的列车则并没有保留这一部分，因为，呃，因为这样造价会更便宜……\n[charslot(slot=\"m\",name=\"avg_npc_255_1#3$1\",focus=\"m\")]\n[name=\"莫希\"]原来如此！\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",focus=\"m\")]\n[name=\"莫希\"]所以，在确定客人已经抵达谢拉格，通讯器却始终无法接通的情况下，就可以判断出，对方一定是身处那辆列车的包厢中了！\n[name=\"莫希\"]不愧是夫人！对列车也如此了解！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#10$1\",focus=\"m\")]\n[name=\"休露丝\"]咳咳，总之！\n[name=\"休露丝\"]现在的谢拉格和几年前可不一样了。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\",focus=\"m\")]\n[name=\"休露丝\"]莫希，我可以不问你这几年都去了哪，也不想追究之前的事，甚至你为什么不回那个诺希斯那里，我都可以不在乎。\n[name=\"休露丝\"]但是你要做我的手下，就要早一点习惯现在的谢拉格才行！\n[name=\"休露丝\"]还有我，别再拿三年前的眼光来看我，听到没？\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",focus=\"m\")]\n[name=\"莫希\"]……是！\n[name=\"莫希\"]属下会努力的！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#10$1\",focus=\"m\")]\n[name=\"休露丝\"]很好！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#4$1\",focus=\"m\")]\n[name=\"休露丝\"]嗯？外面怎么聚了那么多人？\n[name=\"休露丝\"]等等，那边那群人是……"
+        }
+      ],
+      "description": "休露丝知晓并曾向博士求助。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "休露丝明确说明曾从罗德岛博士处请来专业人士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在场，未见反向回应。",
+          "status": "not_established",
+          "to": "npc_be787f1ec784bbc7"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 524,
+          "kind": "story",
+          "line": 461,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "谢拉格通信基站建设期间",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "npc_b99957887950ebfd|npc_be787f1ec784bbc7"
+}

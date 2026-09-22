@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 546,
+          "line": 522,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_02_beg.txt",
+          "quote": "[name=\"卡彭\"]啧……还以为只是个少爷，没想到还挺难对付……\n[Character(name=\"avg_427_vigil_1#7$1\",name2=\"char_empty\")]\n[characteraction(name=\"left\", type=\"move\", xpos=200, fadetime=0,block=false)]\n[name=\"莱昂图索\"]……啧，对方很难缠，卢比奥，退下。\n[Dialog]\n[characteraction(name=\"right\", type=\"move\", xpos=200, fadetime=0,block=false)]\n[Character(name=\"avg_427_vigil_1#7$1\",name2=\"avg_npc_031\",fadetime=0.2)]\n[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=0.3,block=false)]\n[Delay(time=0.2)]\n[playsound(key=\"$knifegore\",volume=0.6)]\n[characteraction(name=\"left\", type=\"move\", xpos=-200, fadetime=0.2,block=false)]\n[Effect(name=\"$e_spark_01_mid\",layer = 1)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$swordtsing4\",volume=0.6)]\n[Delay(time=0.5)]\n[Blocker(a=0.5, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.3, block=true)]\n[PlaySound(key=\"$tactfulboost\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=false)]\n[characteraction(name=\"right\", type=\"shake\", power=10, times=100, fadetime=0.5, block=true)]\n[Delay(time=0.5)]\n[playsound(key=\"$bodyfalldown1\")]\n[Character(name=\"avg_427_vigil_1#7$1\",name2=\"char_empty\",fadetime=0.3)]\n[Delay(time=1)]\n[Character(name=\"avg_427_vigil_1#4$1\",name2=\"char_empty\",focus=1)]\n[name=\"莱昂图索\"]他们明显是冲着我来的！"
+        }
+      ],
+      "description": "卡彭袭击莱昂图索和卢比奥，两人撤退躲避。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_c345198442adc2b7",
+          "reason": "卡彭袭击莱昂图索和卢比奥，两人撤退躲避。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭袭击莱昂图索和卢比奥，两人撤退躲避。",
+          "status": "supported",
+          "to": "npc_c345198442adc2b7"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 546,
+          "kind": "story",
+          "line": 522,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "npc_c345198442adc2b7|npc_e565b7639574735d"
+}

@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 508,
+          "line": 502,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "quote": "[name=\"诺希斯\"]你被人跟踪了。\n[character(name=\"avg_npc_255_1#3$1\")]\n[name=\"莫希\"]……！\n[character(name=\"avg_npc_255_1#7$1\")]\n[name=\"莫希\"]什么！我完全没有……\n[character(name=\"avg_npc_255_1#7$1\",focus=-1)]\n[name=\"诺希斯\"]但对方只有一人，已经追着休露丝给你的人走了。"
+        }
+      ],
+      "description": "诺希斯当面提醒莫希被跟踪。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "诺希斯当面提醒莫希被跟踪。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "诺希斯当面提醒莫希被跟踪。",
+          "status": "supported",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 508,
+          "kind": "story",
+          "line": 502,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1045,
+          "line": 1020,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "quote": "[name=\"恩希欧迪斯\"]确实，休露丝夫人手段高明，令人敬佩。\n[name=\"恩希欧迪斯\"]菈塔托丝，你太小看休露丝夫人了。\n[charslot(slot=\"m\",name=\"avg_npc_253_1#5$1\")]\n[name=\"菈塔托丝\"]……你这是什么意思？\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",duration=1)]\n[Delay(time=2)]\n[name=\"莫希\"]夫人，客人平安到达。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]好！快带人过来！\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]……\n[charslot(slot=\"m\",name=\"avg_npc_255_1#8$1\")]\n[name=\"莫希\"]……\n[name=\"莫希\"]我这就去。\n[Dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#1$1\")]\n[name=\"魏斯\"]老爷！\n[name=\"魏斯\"]客人已经带到了！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]乱说什么？那是我请来的客人！"
+        }
+      ],
+      "description": "诺希斯与莫希明确局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "双方在客人抵达的同一局部现场直接参与汇报与回应。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "双方在客人抵达的同一局部现场直接参与汇报与回应。",
+          "status": "supported",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 1045,
+          "kind": "story",
+          "line": 1020,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "银心湖冲突尾声",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_206_gnosis|npc_5b6d9a80bb2c7211"
+}

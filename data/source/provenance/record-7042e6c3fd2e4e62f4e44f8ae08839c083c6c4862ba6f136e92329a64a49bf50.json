@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 150,
+          "line": 126,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_02_beg.txt",
+          "quote": "[name=\"帕蒂亚\"]给你一句忠告！如果你真的关心塞茜莉亚，就不要把她交给公证所或者教皇厅！不然，你会后悔的！\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_4036_forcer_1#7$1\",name2=\"avg_npc_352_1#1$1\",focus=1)]\n[name=\"艾泽尔\"]……塞茜莉亚，你是不是不想去公证所？\n[character(name=\"avg_4036_forcer_1#7$1\",name2=\"avg_npc_352_1#9$1\",focus=2)]\n[name=\"塞茜莉亚\"]……妈妈说，不可以去……\n[character(name=\"avg_4036_forcer_1#7$1\",name2=\"avg_npc_352_1#4$1\",focus=2)]\n[name=\"塞茜莉亚\"]不过！如果能知道妈妈在哪儿，我愿意……我可以去！\n[name=\"塞茜莉亚\"]妈妈在生病……我很担心……\n[character(name=\"avg_4036_forcer_1#7$1\",name2=\"avg_npc_352_1#4$1\",focus=1)]\n[name=\"艾泽尔\"]……塞茜莉亚，再问你一个问题，刚才的黎博利，你见过她吗？\n[character(name=\"avg_4036_forcer_1#7$1\",name2=\"avg_npc_352_1#9$1\",focus=2)]\n[name=\"塞茜莉亚\"]没有见过。我不喜欢她……\n[character(name=\"avg_4036_forcer_1#7$1\",name2=\"avg_npc_352_1#9$1\",focus=1)]\n[name=\"艾泽尔\"]……塞茜莉亚，我想一下再和你说，好吗？\n[dialog]\n[character]\n[stopmusic(fadetime=2)]\n[Blocker(a=0.4, r=0, g=0, b=0, fadetime=1, block=true)]\n塞茜莉亚的母亲告诉她不能去公证所，不能接近执行者。\n塞茜莉亚的母亲失踪前有执行者出现。\n塞茜莉亚的母亲失踪了。\n塞茜莉亚差点被可疑的黎博利绑架，黎博利的名字可能是“帕蒂亚”。\n帕蒂亚说，塞茜莉亚不能被交给公证所或者教皇厅。"
+        }
+      ],
+      "description": "帕蒂亚现身警告艾泽尔，艾泽尔辨认并记住她。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_4036_forcer",
+          "reason": "帕蒂亚现身警告艾泽尔，艾泽尔辨认并记住她。",
+          "status": "supported",
+          "to": "npc_3c8f43525fff2778"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_3c8f43525fff2778",
+          "reason": "帕蒂亚现身警告艾泽尔，艾泽尔辨认并记住她。",
+          "status": "supported",
+          "to": "char_4036_forcer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 150,
+          "kind": "story",
+          "line": 126,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    }
+  ],
+  "relationship_id": "char_4036_forcer|npc_3c8f43525fff2778"
+}

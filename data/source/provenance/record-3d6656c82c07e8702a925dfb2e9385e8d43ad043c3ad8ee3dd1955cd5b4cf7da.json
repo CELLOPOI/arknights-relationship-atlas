@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 245,
+          "line": 227,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "quote": "[name=\"W\"]  秘钥！再不弄的话就来不及了！不把这个大铁块停下，大家一起完蛋！\n[Character(name=\"avg_npc_046#4\",name2=\"avg_npc_087#3\",focus=2)]\n[name=\"阿米娅\"]  我……我不能相信一个敌人。杀害了我们罗德岛同僚的敌人。\n[Character(name=\"avg_npc_046#4\",name2=\"avg_npc_087#3\",focus=1)]\n[name=\"W\"]  那你要怎么相信我？这样吧，读我的心好了。别人要这么做我会让他们从脚底板开始开花，但现在的话，给你看一两眼也没问题。\n[name=\"W\"]  而且，兔子……你不相信我也没关系。我也不信你。但我相信特蕾西娅的继承人不至于在这时候犯傻！\n[Character(name=\"avg_npc_046#4\",name2=\"avg_npc_087#3\",focus=2)]\n[name=\"阿米娅\"]  ！\n[Character(name=\"avg_npc_046#4\",name2=\"avg_npc_087#3\",focus=1)]\n[name=\"W\"]  如果你肯把东西给我，城市停下以后你杀了我也行。我不会站在那给你杀的，但我可以给你个机会。\n[name=\"W\"]  要知道，大多数人我根本不会给这个机会的！\n[Character(name=\"char_010_chen_1\")]\n[name=\"陈\"]  我无法信任一个杀人狂。\n[Character(name=\"avg_npc_046#4\")]\n[name=\"W\"]  那你应该信不过自己。\n[Character(name=\"char_010_chen_1\")]\n[name=\"陈\"]  的确。\n[Character(name=\"avg_npc_046#4\",name2=\"avg_npc_087#3\",focus=2)]\n[name=\"阿米娅\"]  W，再说一句让我信得过的话。"
+        }
+      ],
+      "description": "W明确说特蕾西娅继承人，阿米娅回应、陈同场质疑；只支持知晓具体名字或人物，不自动建立反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E49"
+          ],
+          "from": "char_010_chen",
+          "reason": "W明确说特蕾西娅继承人，阿米娅回应、陈同场质疑；只支持知晓具体名字或人物，不自动建立反向。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 245,
+          "kind": "story",
+          "line": 227,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_c0e49cc5a9477cf1"
+}

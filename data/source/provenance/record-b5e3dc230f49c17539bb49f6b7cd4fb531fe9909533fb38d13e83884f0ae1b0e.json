@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 319,
+          "line": 283,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-07_end.txt",
+          "quote": "[name=\"洛洛\"]……指挥官。\n[Character(name=\"avg_npc_398_1#1$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"自救军战士\"]洛洛，你怎么来了？你的伤口才刚包扎好！\n[Character(name=\"avg_4040_rockr_1#1$1\")]\n[name=\"洛洛\"]不……我有消息要亲口告诉指挥官。\n[Character(name=\"avg_npc_401_1#3$1\",name2=\"avg_4040_rockr_1#1$1\",focus=1)]\n[name=\"克洛维希娅\"]你们难道找到了……\n[Character(name=\"avg_npc_401_1#3$1\",name2=\"avg_4040_rockr_1#10$1\",focus=2)]\n[name=\"洛洛\"]是的，我们得到了戈尔丁女士的消息。她还在北部居民区的学校里，她很安全……\n[name=\"洛洛\"]但他们在两天前的一场聚会中，遭到了萨卡兹的突袭。\n[name=\"洛洛\"]信使女士她……被捕了。\n[Character(name=\"avg_npc_401_1#6$1\",name2=\"avg_4040_rockr_1#10$1\",focus=1)]\n[name=\"克洛维希娅\"]……\n[Character(name=\"avg_npc_394_1#5$1\")]\n[name=\"阿米娅\"]请等一下——\n[name=\"阿米娅\"]你们说的信使女士，就是委托你们接应罗德岛的那位吗？\n[dialog]\n[character]\n[Decision(options=\"那位帮助罗德岛进入维多利亚的女士。;那位搜集了许多维多利亚情报的女士。;那位凯尔希的老朋友。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_401_1#8$1\")]\n[name=\"克洛维希娅\"]是的……就是她。\n[name=\"克洛维希娅\"]阿米娅，{@nickname}博士，我们的救援计划得提前了。\n[Character(name=\"avg_npc_401_1#1$1\")]\n[name=\"克洛维希娅\"]她对自救军非常重要。她掌握了许多情报，甚至可能影响到我们的撤离行动。\n[Character(name=\"avg_npc_394_1#2$1\")]\n[name=\"阿米娅\"]是的，我能理解……\n[name=\"阿米娅\"]对罗德岛来说，她也是不可或缺的。\n[dialog]\n[character]\n[Decision(options=\"这将是我们第一次合作行动。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_401_1#6$1\")]\n[name=\"克洛维希娅\"]好。我相信罗德岛能帮助我们救回那位被萨卡兹关押的信使——\n[Character(name=\"avg_npc_401_1#6$1\")]\n[name=\"克洛维希娅\"]我们最坚强的战士，最重要的同伴，最信任的朋友，海蒂·汤姆森女士。"
+        }
+      ],
+      "description": "洛洛报告戈尔丁安全、信使被捕时，阿米娅与博士都在场；辨清两人身份不等于听者不知道戈尔丁。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR05"
+          ],
+          "from": "char_002_amiya",
+          "reason": "洛洛报告戈尔丁安全、信使被捕时，阿米娅与博士都在场；辨清两人身份不等于听者不知道戈尔丁。",
+          "status": "supported",
+          "to": "npc_faa340cbad10d05b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_faa340cbad10d05b",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 319,
+          "kind": "story",
+          "line": 283,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_002_amiya|npc_faa340cbad10d05b"
+}

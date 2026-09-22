@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 246,
+          "line": 199,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_01_beg.txt",
+          "quote": "[name=\"玛丽\"]……你是谁？\n[Character(name=\"avg_1027_greyy2_1#1$2\",name2=\"avg_108_silent_1#1$1\",focus=2)]\n[name=\"赫默\"]奥利维亚·赫默，莱茵生命研究员，也是罗德岛制药的合作医疗干员。\n[name=\"赫默\"]这位是我在罗德岛的同事，就职于工程部的格雷伊先生。\n[Character(name=\"avg_1027_greyy2_1#4$2\",name2=\"avg_108_silent_1#1$1\",focus=1)]\n[characteraction(name=\"left\", type=\"jump\" , power=5, times=2, fadetime=0.51,block=true)]\n[name=\"格雷伊\"]您、您好！我是罗德岛的电气工程师……不过我还在实习期！\n[Character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]罗德岛？那又是什么公司？\n[Character(name=\"avg_1027_greyy2_1#5$2\",name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"格雷伊\"]呃……\n[Character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]算了，也不用跟我解释。在特里蒙，短短一天就能有几十家不同名号的新公司冒出来。\n[name=\"玛丽\"]你也算是莱茵生命的对吧？你在你们公司能说得上话吗？\n[Character(name=\"avg_1027_greyy2_1#5$2\",name2=\"avg_108_silent_1#1$1\",focus=2)]\n[name=\"赫默\"]说得上话？女士，我不是很明白您的意思……\n[Character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]行了，我知道你不是什么负责人。\n[name=\"玛丽\"]你一看就是那种……在书堆里泡着的学者，就和里面那几位人质一样。\n[name=\"玛丽\"]你们根本不懂怎么跟那群人打交道。\n[Character(name=\"avg_1027_greyy2_1#5$2\",name2=\"avg_108_silent_1#1$1\",focus=2)]\n[name=\"赫默\"]我听说他们是在基地工作的拓荒队成员……\n[Character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]……拓荒者。\n[name=\"玛丽\"]这么好听的名字，只适合放在广告招牌上。\n[name=\"玛丽\"]而我最清楚他们都是什么人。罪犯、赌徒、没钱治病的感染者……走上荒野的时候，他们已经一无所有。\n[Character(name=\"avg_1027_greyy2_1#1$2\",name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"格雷伊\"]请问……我们可以同他们聊聊吗？\n[Character(name=\"avg_1027_greyy2_1#6$2\",name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"格雷伊\"]您或许注意到了，我和赫默医生都是感染者。我们能理解他们的处境。\n[Character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]莱茵生命，还有那个什么罗德岛都挣了很多钱，是吧？\n[name=\"玛丽\"]你们背后有一家还算有“良心”的企业为你们支付保险账单——这才是关键。\n[name=\"玛丽\"]所以，别说什么你们能互相理解的傻话了。\n[Character(name=\"avg_1027_greyy2_1#5$2\",name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"格雷伊\"]保险账单？是哪个方面的……\n[Character(name=\"avg_1027_greyy2_1#5$2\",name2=\"avg_108_silent_1#1$1\",focus=2)]\n[name=\"赫默\"]……是哥伦比亚针对感染者的特殊政策。\n[name=\"赫默\"]女士，请相信我们——罗德岛是一家致力于解决感染者问题的医药公司。\n[Character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]解决问题？如果我给你一把弩，你能从这里帮我把绑匪们摆平吗？\n[Character(name=\"avg_1027_greyy2_1#5$2\",name2=\"avg_108_silent_1#1$1\",focus=2)]\n[name=\"赫默\"]……我不能。\n[name=\"赫默\"]我是一名医生。\n[Character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]他可以吗？\n[Character(name=\"avg_1027_greyy2_1#4$2\",name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"格雷伊\"]我？不，不行的，我想我们还没到必须战斗的那一步……"
+        }
+      ],
+      "description": "玛丽与赫默在监控站直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_68a1f7893aebd5bc",
+          "reason": "同场直接对话或互相回应",
+          "status": "supported",
+          "to": "char_108_silent"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_108_silent",
+          "reason": "同场直接对话或互相回应",
+          "status": "supported",
+          "to": "npc_68a1f7893aebd5bc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 246,
+          "kind": "story",
+          "line": 199,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "《绿野幻梦》本篇事件期间",
+      "title": "绿野幻梦"
+    }
+  ],
+  "relationship_id": "char_108_silent|npc_68a1f7893aebd5bc"
+}

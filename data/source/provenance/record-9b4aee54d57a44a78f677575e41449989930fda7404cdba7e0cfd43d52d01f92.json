@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 95,
+          "line": 20,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-04_end.txt",
+          "quote": "[name=\"阿米娅\"]我们离研究所很近了。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#7$1\")]\n[name=\"阿米娅\"]可是一路上都好安静……这周围真的有人居住吗？\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]三天前女大公才突然下令，要求中心矿区附近三十公里内的居民在二十四小时内撤离。\n[name=\"阿洛伊泽\"]虽说远北地区本来就地广人稀，但短时间撤离这么大范围内的居民，也绝不是一件容易的事。\n[name=\"阿洛伊泽\"]更何况要在撤离的同时，让所有人保持缄默……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#3$1\")]\n[name=\"阿洛伊泽\"]不过根据传闻，这位女大公对远北一应事务向来拥有绝对的掌控力。还有人说，她在这里的威望甚至超过了……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]陛下在上，我不该失言的。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"她最终愿意放行……;说明她根本不担忧我们进行调查。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]也不尽然。\n[name=\"阿洛伊泽\"]面对来自圣骏堡的近卫军，女大公当然不能在明面上表现出抗拒。\n[name=\"阿洛伊泽\"]客观来讲，这些年来女大公始终扮演着北方集团军与议会之间的润滑剂，使得双方的芥蒂不至于演化为对抗。\n[name=\"阿洛伊泽\"]不得不承认，这需要高明的手段。\n[name=\"阿洛伊泽\"]她收获了双方的信任，但这也决定了她绝不能向任何一方表现出偏倚。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"你并不避讳谈论这些话题。;我以为这在乌萨斯是不能随便谈论的话题。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#13$1\")]\n[name=\"阿洛伊泽\"]哈哈……很惊讶吗？Dr.{@nickname}，你大概对乌萨斯有些误解。\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]我说的这些，不过是在圣骏堡任何一个贵族宴席上都能听到的闲谈。\n[name=\"阿洛伊泽\"]只是，若不能对闲谈中的故事了如指掌，又如何能加入饭桌上的那些讨论呢？\n[name=\"阿洛伊泽\"]当然，闲谈归闲谈，如果有人真的以为凭这些就能掌握某种向上攀爬的方法，并且试图付诸行动的话，就要另当别论了。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"很有意思的观点。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]话说回来，不管女大公是真的没有藏私还是自认为掩盖好了所有踪迹……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#4$1\")]\n[name=\"阿洛伊泽\"]奉命研究变异感染者的研究所里必然会留下些什么。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[playsound(key=\"$d_avg_riot\", loop=true, channel=\"bgs\",volume=0)]\n[SoundVolume(volume=0.1, channel=\"bgs\",fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$1\",duration=1)]\n[delay(time=2)]\n[name=\"阿米娅\"]各位……我好像听到了战斗的声音？\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#10$1\")]\n[name=\"阿米娅\"]前面……是矿工和纠察队？\n[charslot]\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"不能坐视不理。;所有人准备营救。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"char_401_elysm_na_1#8\",duration=0.5)]\n[delay(time=1)]\n[name=\"极境\"]等、等一下！\n[name=\"极境\"]我眼神好一点，我能看清楚！\n[charslot(slot=\"m\",name=\"char_401_elysm_na_1#6\")]\n[name=\"极境\"]那些挨打的人……是纠察队的？\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#11$1\")]\n[name=\"阿洛伊泽\"]……什么？\n[charslot(duration=0.5)]\n顺着极境手指的方向，远远可见两伙人打成一团，你们看到了有些荒唐的一幕——\n一支纠察队正在被人数比他们多出几倍的感染者矿工们追打。\n纠察队手中并不算精良的装备完全没派上用场，矿工们举着的木棍镐头正接连落在他们身上。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#5$1\")]\n[name=\"Mon3tr\"]呃……\n[name=\"Mon3tr\"]博士，这种情况……我们还要去营救吗？\n[charslot]\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"先尽量避免事件升级。;再进一步了解情况。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]"
+        }
+      ],
+      "description": "博士与阿洛伊泽在调查途中直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士与阿洛伊泽在调查途中直接交流。",
+          "status": "supported",
+          "to": "npc_c126ad4de3046272"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_c126ad4de3046272",
+          "reason": "博士与阿洛伊泽在调查途中直接交流。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_ef827cdde49f2fd2.json",
+      "sources": [
+        {
+          "endLine": 95,
+          "kind": "story",
+          "line": 20,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "反常光谱所述时段或明确既往互动",
+      "title": "反常光谱"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 663,
+          "line": 550,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_tr28_end.txt",
+          "quote": "[name=\"可露希尔\"]好了，只要三分钟的时间，ZOOT就能帮我计算出从圣骏堡到泽尔格勒的最佳路线了。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#10$1\",focus=\"m\")]\n[name=\"阿米娅\"]……\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]我保证！不会留下任何痕迹的！\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\",focus=\"m\")]\n[name=\"Mon3tr\"]可是，如果我们只是锁定了这个卫星城的位置，又该怎么进去呢？\n[name=\"Mon3tr\"]直接闯吗？我倒是没问题啦……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$1\",focus=\"m\")]\n[name=\"阿米娅\"]如果石棺在第一集团军手中，那里也一定会有重兵把守，我们不可能直接闯入。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]博士，我在想，我们是不是能趁泽尔格勒收容感染者的机会——\n[Dialog]\n[charslot]\n[Decision(options=\"是Raidian的提醒——;当心，好像有人来了。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"l\",name=\"avg_npc_1730_1#1$1\",duration=1.5)]\n[charslot(slot=\"r\",name=\"avg_npc_1966_1#1$1\",duration=1.5)]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Delay(time=2.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]Raidian小姐……和阿洛伊泽中尉？\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#1$1\",focus=\"m\")]\n[name=\"Raidian\"]正好遇到了她，她说有事要和博士面谈。\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]嗯，好久不见了各位。\n[name=\"阿洛伊泽\"]还有这位我不认识的……血魔小姐？\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]哦，好久没有人提这回事，我都快要忘了自己是血魔了。\n[Dialog]\n[charslot]\n[Decision(options=\"她叫可露希尔。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"是一名很厉害的工程师。;是一名很厉害的网络黑客。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]很荣幸认识您，可露希尔小姐。\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#10$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]很容易看出来，您是一位优秀的……嗯……\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]嗯……？\n[Dialog]\n[charslot]\n阿洛伊泽转向Raidian，开始比划手语。\n“这里是安全的吗？”\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#1$1\",focus=\"m\")]\n[name=\"Raidian\"]我没有检测到来源可疑的电信号，而且，可露希尔小姐也会保证我们谈话的安全。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#13$1\",focus=\"m\")]\n[name=\"可露希尔\"]嗯？我可看不懂手语——\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#2$1\",focus=\"m\")]\n[name=\"Raidian\"]我记得这里用的也是我们自己的线路？\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#9$1\",focus=\"m\")]\n[name=\"可露希尔\"]没错？\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#2$1\",focus=\"m\")]\n[name=\"Raidian\"]（低声）这是否也意味着我们现在的谈话暂时不会受到监听……？\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]啊，这肯定不会。至少有我在这里的时候，不会让这种情况发生。\n[name=\"可露希尔\"]当还在本舰——呃，当还在总部就好，不用客气。\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#3$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]谢谢。那我们还是直接进入正题吧——我们上次交谈的话题停在了石棺的下落上。\n[name=\"阿洛伊泽\"]关于石棺的消息，我这里有一点……不小的进展。\n[Dialog]\n[charslot]\n[Decision(options=\"感谢你愿意和我们分享情报。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#2$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]这也算我承诺过的，是我们合作的一部分。\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#3$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]再者说，如果我再不共享一些情报，按罗德岛的行事风格，这个时候恐怕已经在找各种办法进入泽尔格勒了吧。\n[Dialog]\n[charslot]\n[Decision(options=\"我们会遵守圣骏堡的法律。;我们不会做有违规矩的事。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[PlaySound(key=\"$d_avg_medicalbeep\",channel=\"1\")]\n[Delay(time=1)]\n[stopSound(key=\"$d_avg_medicalbeep\",channel=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#7$1\",focus=\"m\")]\n[name=\"可露希尔\"]啊……！\n[Dialog]\n[charslot]\n终端播报声响起，阿米娅立即循声看去，血魔则是下意识地挡在了电脑屏幕前，年轻的近卫军将这一切看在眼里，却没有多说什么。\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#3$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]好吧……我已经深刻知道建立信任关系有多么困难了。\n[name=\"阿洛伊泽\"]不过我还是衷心建议，罗德岛应该有一个合法的身份行动了……接下来的麻烦会很多。\n[Dialog]\n[charslot]\n[name=\"？？？\"]她说得不错，罗德岛也的确做好了准备。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_188_helage_1#1$1\",duration=1.5)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[Delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#11$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]您是……赫拉托夫将军？\n[charslot(slot=\"m\",name=\"avg_188_helage_1#1$1\",focus=\"m\")]\n[name=\"赫拉格\"]称呼我为赫拉格就好。\n[name=\"赫拉格\"]按照博士的指示，我已尝试并成功接触帝国议会副议长瓦西里·戈尔奇科夫。\n[name=\"赫拉格\"]对圣骏堡而言，罗德岛已经有合法立足的权利。\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#3$1\",focus=\"m\")]\n[multiline(name=\"阿洛伊泽\")]原来是你的主意，我就说怎么会……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#11$1\",focus=\"m\")]\n[multiline(name=\"阿洛伊泽\")]等等，你怎么知道他一定能见到副议长——见到我父亲？\n[Dialog]\n[charslot]\n[Decision(options=\"很简单，因为我们确实能见到。;是赫拉格干员先提出了这个想法。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]看来我还是低估了罗德岛掌握的情报和人脉啊……\n[name=\"阿洛伊泽\"]既然如此，我也不用再顾虑，可以正式向罗德岛发出邀请了。\n[name=\"阿洛伊泽\"]一份来自费奥多尔陛下的邀请。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#5$1\",focus=\"m\")]\n[name=\"阿米娅\"]——？\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\",focus=\"m\")]\n[name=\"阿洛伊泽\"]这就是我这次过来的目的。接下来，我将护送你们前去觐见。"
+        }
+      ],
+      "description": "npc_c126ad4de3046272与博士参与同一会谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_c126ad4de3046272",
+          "reason": "双方直接对话或局部同场明确参与。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方直接对话或局部同场明确参与。",
+          "status": "supported",
+          "to": "npc_c126ad4de3046272"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 663,
+          "kind": "story",
+          "line": 550,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_tr28_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "圣骏堡行动期间",
+      "title": "相变临界"
+    }
+  ],
+  "relationship_id": "npc_b99957887950ebfd|npc_c126ad4de3046272"
+}

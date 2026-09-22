@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 398,
+          "line": 379,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_st02.txt",
+          "quote": "[charslot(slot = \"left\", name = \"avg_4046_ebnhlz_1#8$1\",focus=\"l\")]\n[name=\"黑键\"]力量还在啊。既然你们取走了“尘世之音”，为什么……不杀了我？\n[name=\"黑键\"]“尘世之音”不是钥匙，我对双子女皇没有用了。为什么不像焚烧巫王时代的实验残次品一样，一把火毁掉和我有关的东西？\n[charslot(slot = \"right\", name = \"avg_4011_lessng_1#1$1\",focus=\"r\")]\n[name=\"莱辛\"]因为没有……\n[charslot(slot = \"left\", name = \"avg_4046_ebnhlz_1#4$1\",focus=\"l\")]\n[name=\"黑键\"]……没有必要，对吗？\n[charslot(slot = \"left\", name = \"avg_4046_ebnhlz_1#10$1\",focus=\"l\")]\n[name=\"黑键\"]那我的兄弟呢？他甚至就那样死了。死在……用你们的话说，一个和钳兽放的“闷屁”差不多的蠢计划里。多么难听……多么讽刺！\n[charslot(slot = \"left\", name = \"avg_4046_ebnhlz_1#8$1\",focus=\"l\")]\n[name=\"黑键\"]直到死前，他还在感激……感激与我的相遇，感激他的老师教会他拉琴。\n[name=\"黑键\"]可我们的相遇是被格特鲁德利用的。他思念着的老师还和巫王残党有牵扯。\n[charslot(slot = \"left\", name = \"avg_4046_ebnhlz_1#4$1\",focus=\"l\")]\n[name=\"黑键\"]哈哈，到了此时此刻……你们告诉我，“尘世之音”都成了个误会！\n[name=\"黑键\"]那我们活着，死去，相遇，离别，到底有什么意义？\n[charslot(slot = \"right\", name = \"avg_4011_lessng_1#6$1\",focus=\"r\")]\n[name=\"莱辛\"]好，你想要答案，那我告诉你——\n[charslot(slot = \"right\", name = \"avg_4011_lessng_1#1$1\",focus=\"r\")]\n[name=\"莱辛\"]是的，没有意义。\n[name=\"莱辛\"]抛开乌提卡的姓氏，不是“尘世之音”的宿体，你就只是一个自恋自伤、自暴自弃的花架子。"
+        }
+      ],
+      "description": "莱辛知晓格特鲁德；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_4011_lessng",
+          "reason": "莱辛听到黑键具体提及格特鲁德。",
+          "status": "supported",
+          "to": "npc_7aa857733598126f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_7aa857733598126f",
+          "reason": "候选没有格特鲁德视角或反向识别莱辛。",
+          "status": "not_established",
+          "to": "char_4011_lessng"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_3a60825ada2e8d44.json",
+      "sources": [
+        {
+          "endLine": 398,
+          "kind": "story",
+          "line": 379,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典前的同行途中",
+      "title": "崔林特尔梅之金"
+    }
+  ],
+  "relationship_id": "char_4011_lessng|npc_7aa857733598126f"
+}

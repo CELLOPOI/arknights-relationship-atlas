@@ -1,0 +1,22 @@
+{
+  "id": "import:char_322_lmlee|npc_08bc2cc38b820ef0",
+  "published": true,
+  "quote": "【将进酒】\n克洛丝：之前我就想问了，鲤先生说，梁大人和龙门魏彦吾很像，像在哪儿？\n老鲤：我说过吗？\n克洛丝：说过的。相处下来之后，我是觉得一点都不像……\n老鲤：嗯……\n老鲤：毕竟……都被心上人吃得死死的啊。\n\n【登临意】\n林：要我出手，就是直接去拂魏彦吾的面子。\n林：我也正好在一旁看看，她是怎么办事的。\n老鲤：不愧是林先生，事情到了这个节骨眼，还有余裕下一着试应手。\n林：磨刀不误砍柴工。也是鲤先生值得信赖。\n林：鲤先生最终没能留在近卫局，魏彦吾还常常感慨来着。\n老鲤：就别提了……\n老鲤：魏彦吾啊……从不放过任何一个能派上用场的人。",
+  "relationship_id": "char_322_lmlee|npc_08bc2cc38b820ef0",
+  "sources": [
+    {
+      "endLine": 564,
+      "kind": "story",
+      "line": 556,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st03.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 507,
+      "kind": "story",
+      "line": 498,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_03_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

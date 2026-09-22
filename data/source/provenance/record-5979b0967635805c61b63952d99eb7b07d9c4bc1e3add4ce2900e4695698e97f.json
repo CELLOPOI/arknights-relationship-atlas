@@ -1,0 +1,148 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 50,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st04.txt",
+          "quote": "[name=\"黑\"]   ……锡兰告诉了我火山的事情了。\n[name=\"黑\"]   所以你不仅篡改了火山监测数据，而且宣称小姐要散布谣言。\n[Character(name=\"avg_npc_023_2#2\",name2=\"char_340_shwaz_2#2\",focus=1)]\n[name=\"克洛宁\"]   因为你我都知道啊。赫尔曼做的那些事，我们都知道！\n[Character]\n[Dialog]\n[name=\"？？？\"]    知道什么的话，就说吧。\n[Character(name=\"avg_npc_024\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"？？？\"]    克洛宁，说下去吧。但你也要把我“因事务出差”的时候，你到底做了些什么，全都说出来。\n[Character(name=\"char_348_ceylon_4#8\")]\n[name=\"锡兰\"]   爸——父亲？！\n[Character(name=\"avg_npc_023_2#2\")]\n[name=\"克洛宁\"]   你怎么在这里？！\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  很意外吗，克洛宁。\n[name=\"赫尔曼\"]  在我明令禁止了从火山中开采黑曜石之后，在市场上依然有新开采的黑曜石流通。\n[name=\"赫尔曼\"]  开采队很多次出现在火山口，却没有人向我报告。\n[name=\"赫尔曼\"]  最终开采的货物经过多次转送，已经被送到了市政厅的废弃仓库。\n[name=\"赫尔曼\"]  在我下令拨款为汐斯塔出现的矿石病患者提供各方面资助后，市里反而出现了各种他们受到的不公待遇的流言。\n[name=\"赫尔曼\"]  这些事情有没有让你意外过？\n[Character(name=\"avg_npc_023_2#2\")]\n[name=\"克洛宁\"]   嘁……\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  这些事情让我意外到愤怒难安！！\n[name=\"赫尔曼\"]  为了找到这些事情的真相，我放出了离开城市的消息，让黑作为我的下属替我在城市调查真相。\n[Dialog]\n[Character]\n[Character(name=\"char_188_helage_1\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"赫拉格\"]  看来，只要调查一下这些记录和相关人员就行了。\n[Character(name=\"char_348_ceylon_4#8\")]\n[name=\"锡兰\"]   赫拉格爷爷，你们也平安无事！\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  真遗憾，克洛宁。"
+        }
+      ],
+      "description": "赫尔曼到场质问克洛宁，黑、锡兰与随后到场的赫拉格参与连续现场对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_340_shwaz",
+          "reason": "赫尔曼到场质问克洛宁，黑、锡兰与随后到场的赫拉格参与连续现场对话。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼到场质问克洛宁，黑、锡兰与随后到场的赫拉格参与连续现场对话。",
+          "status": "supported",
+          "to": "char_340_shwaz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 50,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 384,
+          "line": 364,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ceylon_1_1.txt",
+          "quote": "[name=\"黑\"]\t老爷，小姐来信了。\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]\t嗯？你都要动身去接她回来了，这封信来得可真够晚的。\n[name=\"赫尔曼\"]\t我猜，那丫头一如既往地没在信里提到我。\n[Character(name=\"char_340_shwaz_2\")]\n[name=\"黑\"]\t……\n[Character]\n黑的视线下意识地又一次扫过她已经记住内容的信件。\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Subtitle(text=\"“……入冬之后的图书馆里似乎有一种靠源石技艺维持的暖炉，坐在里面读书非常惬意。我这个学期的借阅书单已经很长很长了。”\", x=300, y=350, alignment=\"middle\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“……随着和同学熟悉起来，我也得到了很多帮助。以前我寻求治疗矿石病的方法时，并没有想得太深入，但现在这些困惑已经化解了。”\", x=300, y=350, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“是的，我现在知道要如何破解矿石病的奥秘了。相信我，我很快就要找到它啦。”\", x=300, y=350, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“……随信附上一张贺卡，帮我转交给父亲吧。”\", x=300, y=350, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n取出这沓信纸之后的信封是空的，国际信使的发信邮戳证明这封信在落款之后三天才寄出。\n[Character(name=\"char_340_shwaz_2#1\")]\n[name=\"黑\"]\t（小姐一定又被什么东西迷住，把信的事情全忘记了吧。）\n[Character(name=\"char_340_shwaz_2#5\")]\n[name=\"黑\"]\t不，老爷。小姐在信里特地祝您圣诞快乐，她很期待圣诞夜的餐桌。"
+        }
+      ],
+      "description": "黑与赫尔曼当面交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_340_shwaz",
+          "reason": "黑当面称赫尔曼为老爷并转交来信。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼直接向黑回应并讨论她将接锡兰回来。",
+          "status": "supported",
+          "to": "char_340_shwaz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3710c1c063c6e7ac.json",
+      "sources": [
+        {
+          "endLine": 384,
+          "kind": "story",
+          "line": 364,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ceylon_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇办公室场景",
+      "title": "锡兰"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 241,
+          "line": 218,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_1_1.txt",
+          "quote": "[name=\"赫尔曼\"]  嗯？\n[name=\"赫尔曼\"]  黑，你来了。\n[Character(name=\"char_340_shwaz_2#2\",name2=\"avg_npc_024\",focus=1)]\n[name=\"黑\"]  老爷。\n[Character(name=\"avg_npc_020\",name2=\"avg_npc_024\",focus=1)]\n[name=\"查理\"]  老爷。\n[Character(name=\"avg_npc_020\",name2=\"avg_npc_024\",focus=2)]\n[name=\"赫尔曼\"]  查理，黑跟我说过了，好好干。\n[Character(name=\"avg_npc_020\",name2=\"avg_npc_024\",focus=1)]\n[name=\"查理\"]  是。\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  对了，把我的行程往后推三十分钟。\n[Character(name=\"avg_npc_024\", focus=-1)]\n[name=\"秘书\"]  请问，是有什么事吗？\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  我要和我的前治安局局长聊聊。\n[Character(name=\"avg_npc_024\", focus=-1)]\n[name=\"秘书\"]  这、这位就是吗，我、我明白了。\n[Character(name=\"char_340_shwaz_2#2\",name2=\"avg_npc_024\",focus=2)]\n[name=\"赫尔曼\"]  黑，过来。\n[Character(name=\"char_340_shwaz_2#2\",name2=\"avg_npc_024\",focus=1)]\n[name=\"黑\"]  是。\n[Character(name=\"avg_npc_020\",name2=\"avg_npc_024\",focus=2)]\n[name=\"赫尔曼\"]  查理，既然你来了，你先跟我的秘书回去做些交接吧，这点事他还是办得好的。"
+        },
+        {
+          "endLine": 769,
+          "line": 743,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_2_1.txt",
+          "quote": "[name=\"赫尔曼\"]阿——阿嚏！\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]咦，市长先生，怎么只有您一个人？\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]现在不该是锡兰小姐的生日派对吗？\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]黑那边出了点状况，我女儿先去了她那边。\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]噢……\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]您不过去没关系吗？\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]等我知道的时候，黑已经把事情解决了，锡兰人也在那边了。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]我也只能在这里等她们了。\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]两位小姐没事就好。\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]咦，您手里的是——\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]这是我今天特意去火山脚下采的一束野花。\n[charslot(slot=\"m\",name=\"avg_npc_202\",focus=\"m\")]\n[name=\"服务生\"]啊，难怪我觉得那么眼熟。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]曾经，我就是用这些花化解了我的婚姻危机。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]今天，希望它们也能化解一些我和女儿之间的隔阂。"
+        }
+      ],
+      "description": "黑与赫尔曼长期熟识，本篇多次直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_340_shwaz",
+          "reason": "黑当面称呼赫尔曼并持续回应。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E01",
+            "E03"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼直接叫黑、与她交谈，后续还具体说明黑已解决状况。",
+          "status": "supported",
+          "to": "char_340_shwaz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_52c2552faa23deab.json",
+      "sources": [
+        {
+          "endLine": 241,
+          "kind": "story",
+          "line": 218,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 769,
+          "kind": "story",
+          "line": 743,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑离开汐斯塔前及返回汐斯塔后的现实场景",
+      "title": "黑"
+    }
+  ],
+  "relationship_id": "char_340_shwaz|npc_ba4ddfafe7c93381"
+}

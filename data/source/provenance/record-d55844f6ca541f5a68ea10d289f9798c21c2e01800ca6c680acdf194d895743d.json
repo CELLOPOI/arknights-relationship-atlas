@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 407,
+          "line": 374,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_07_end.txt",
+          "quote": "[name=\"能天使\"]嘿，让我瞧瞧，是谁在这里孤军奋战啊？\n[name=\"德克萨斯\"]……怎么你们都来了。\n[name=\"能天使\"]根据我的观察，叙拉古家族的企业文化应该是——打群架。\n[name=\"能天使\"]而我们企鹅物流的企业文化则是——\n[name=\"空\"]派对？\n[name=\"德克萨斯\"]这个场合，应该是——\n[name=\"德克萨斯\"]从不怕群架，对吧。\n[name=\"能天使\"]完全正确！\n[Dialog]\n[Character]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[character(fadetime=0)]\n[Background(image=\"33_g2_srcalley\",screenadapt=\"showall\")]\n[Image]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]\n[Delay(time=1)]\n[Character(name=\"avg_103_angel_1#1$1\")]\n[name=\"能天使\"]说真的，老爷爷，看在我们是同族的分上，不能放我们一马吗？\n[Character(name=\"avg_201_moeshd_1#11$1\")]\n[name=\"可颂\"]别说蠢话了，能天使。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"？？？\"]……\n[Character(name=\"avg_npc_692_1#2$1\")]\n[name=\"？？？\"]有一定的道理。\n[Character(name=\"avg_npc_692_1#2$1\")]\n[name=\"？？？\"]唉，叙拉古的雨季也确实漫长了些，年轻的时候没有感觉，如今，关节炎也是个烦恼啊。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"？？？\"]年轻人们，争强好胜不是坏事，但也要注意身体健康。\n[Character(name=\"avg_201_moeshd_1#5$1\")]\n[name=\"可颂\"]欸，不是吧？\n[Character(name=\"avg_103_angel_1#10$1\")]\n[name=\"能天使\"]谢啦！"
+        }
+      ],
+      "description": "空与企鹅物流同伴一同加入群战，阿格尼尔随后放行同场年轻人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "char_101_sora",
+          "reason": "空与企鹅物流同伴一同加入群战，阿格尼尔随后放行同场年轻人。",
+          "status": "supported",
+          "to": "npc_686d8dda781355b1"
+        },
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "npc_686d8dda781355b1",
+          "reason": "空与企鹅物流同伴一同加入群战，阿格尼尔随后放行同场年轻人。",
+          "status": "supported",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 407,
+          "kind": "story",
+          "line": 374,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_101_sora|npc_686d8dda781355b1"
+}

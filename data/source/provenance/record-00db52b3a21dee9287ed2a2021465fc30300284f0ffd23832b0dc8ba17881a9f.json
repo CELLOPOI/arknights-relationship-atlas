@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 554,
+          "line": 506,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "quote": "[charslot(slot=\"m\",name=\"char_196_sunbr_1#6\")]\n[name=\"古米\"]唔唔——吃、吃不下了，烈夏姐！\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\")]\n[name=\"烈夏\"]话说回来，凛冬你有什么个人用品要我帮忙一起带着吗？我带了超超大的箱子。\n[charslot(slot=\"m\",name=\"char_115_headbr_9#7\")]\n[name=\"凛冬\"]那把娜塔莉娅送我的吉他带上，省得她到时候又问东问西。\n[name=\"凛冬\"]其他东西先扔家里吧，又不是不回来。\n[charslot(slot=\"m\",name=\"char_195_glassb_2#1\")]\n[name=\"真理\"]烈夏，你刚开始不是说什么都不拿吗？\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\")]\n[name=\"烈夏\"]想起来有些破烂得扔给某个人。我们能顺道去一趟谢拉格吗，索尼娅？\n[charslot(slot=\"m\",name=\"char_115_headbr_9#7\")]\n[name=\"凛冬\"]……行吧，我去给博士申报我们的行程——\n[charslot]\n[name=\"坚定的声音\"]各位，请问，我能和你们一起去乌萨斯行动吗？\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_405_absin_1#1$1\",duration=1.5)]\n[delay(time=2)]\n[name=\"苦艾\"]抱歉，虽然我的提议有点唐突……\n[charslot(slot=\"m\",name=\"avg_405_absin_1#9$1\")]\n[name=\"苦艾\"]但是我……\n[charslot]\n[dialog]\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#8$2\",duration = 1)]\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",duration = 1)]\n[delay(time=1.5)]\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]索尼娅，让卓娅和我们同行吧。\n[name=\"早露\"]这次增援任务会很漫长，我们可以互相照应。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_405_absin_1#4$1\")]\n[name=\"苦艾\"]娜塔莉娅你已经知道了？\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$2\")]\n[name=\"阿米娅\"]我已经和早露小姐沟通过了。\n[charslot(slot=\"m\",name=\"char_115_headbr_9#7\")]\n[name=\"凛冬\"]哈哈，不用担心，卓娅。这又不是我们第一次合作出外勤——\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_2013_cerber_1#1$1\",duration=0.2)]\n[charslot(slot = \"m\",posfrom = \"-200,0\", posto = \"0,0\",duration = 0.5)]\n[delay(time=0.3)]\n[charslot(duration=0.2)]\n[delay(time=0.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"char_195_glassb_2#4\")]\n[name=\"真理\"]刻俄柏，等等，那些饼干还没有完全烤熟！\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$2\")]\n[name=\"阿米娅\"]欸？"
+        }
+      ],
+      "description": "苦艾经阿米娅沟通加入博士批准的外勤队伍。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D06"
+          ],
+          "from": "char_405_absin",
+          "reason": "苦艾经阿米娅沟通加入博士批准的外勤队伍。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D06"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "苦艾经阿米娅沟通加入博士批准的外勤队伍。",
+          "status": "supported",
+          "to": "char_405_absin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 554,
+          "kind": "story",
+          "line": 506,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_405_absin|npc_b99957887950ebfd"
+}

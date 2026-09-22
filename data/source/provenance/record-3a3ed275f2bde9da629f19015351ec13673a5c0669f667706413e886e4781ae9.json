@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 241,
+          "line": 151,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-07_end.txt",
+          "quote": "[name=\"伊内丝\"]他们之中，大部分不怀好意。\n[name=\"伊内丝\"]有两组人已经在筹划行动，他们在准备燃烧瓶。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]我知道。\n[name=\"阿米娅\"]但同时，那些绝望的人也发现了我们，那些躲藏在黑暗中的，已经病得奄奄一息的人们也发现了我们。\n[name=\"阿米娅\"]仅仅是我们在这里，或许已经足够让他们重新燃起一点点希望。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"none\")]\n[Decision(options=\"剧烈的崩塌之后，任何的重建都必须小心翼翼。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#21$1\",focus=\"m\")]\n[name=\"阿米娅\"]是的，博士。\n[name=\"阿米娅\"]我们需要的不是人们对我们的信任，我们需要他们……重新建立对彼此的信任。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]这才是一个社会重新运转的基石。\n[Dialog]\n[charslot]\n[stopmusic(fadetime=1.5)]\n[PlaySound(key=\"$rungeneral\", volume=0.2)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#9$1\",focus=\"m\")]\n[name=\"伊内丝\"]有人正在接近。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#6$2\",focus=\"m\")]\n[name=\"推进之王\"]没关系，我站在这里，我会站在你们身前。\n[name=\"推进之王\"]这是属于我们的街道，我们要把她从混乱与仇恨中夺回来。\n[charslot(slot=\"m\",name=\"avg_npc_396_1#1$1\",focus=\"m\")]\n[name=\"达格达\"]无论是谁，让他们放马过来。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$rungeneral\", volume=0.6)]\n[delay(time=2)]\n[playMusic(intro=\"$tense_intro\", key=\"$tense_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_396_1#7$1\",focus=\"m\")]\n[name=\"达格达\"]小心，要来了。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_396_1#1$1\",action=\"jump\",posfrom=\"-200,0\",posto=\"100,0\",afrom=0,ato=1,duration=0.2)]\n[charslot(slot=\"r\",name=\"avg_npc_863_1#7$2\",action=\"jump\",posfrom=\"300,0\",posto=\"-50,0\",afrom=0,ato=1,duration=0.2,isblock=true)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$knifegore\")]\n[PlaySound(key=\"$swordtsing5\", volume=1,delay=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[charslot(slot = \"l\", action=\"jump\",posfrom=\"100,0\",posto=\"-50,0\",power=5, times=1,afrom=1,ato=1,duration=0.3)]\n[charslot(slot = \"r\", action=\"jump\",posfrom=\"-50,0\",posto=\"30,0\",power=10, times=1,afrom=1,ato=1,duration=0.6,isblock=true)]\n[delay(time=1)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#11$1\",focus=\"m\")]\n[name=\"摩根\"]等等！\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#5$1\",focus=\"m\")]\n[name=\"因陀罗\"]你是——\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_863_1#7$2\",focus=\"m\")]\n[name=\"贝尔德\"]（别这么大惊小怪的，汉娜，小心我真的揍你一顿。）\n[name=\"贝尔德\"]（你们太招摇了，你们想成为所有人的目标吗？）\n[charslot(slot=\"m\",name=\"avg_npc_863_1#1$2\",focus=\"m\")]\n[name=\"贝尔德\"]（快，跟我来。）\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_crowdrun\",channel=\"run\")]\n[StopSound(channel=\"run\", fadetime=1.5)]\n[charslot(slot=\"l\",name=\"avg_npc_416_1#1$1\",posfrom=\"-300,0\",posto=\"0,0\",afrom=0,ato=1,duration=1)]\n[charslot(slot=\"r\",name=\"avg_npc_417_1#1$1\",posfrom=\"300,0\",posto=\"0,0\",afrom=0,ato=1,duration=1)]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_npc_416_1#1$1\",focus=\"l\")]\n[name=\"饥饿的暴徒\"]他们要跑了！\n[charslot(slot=\"r\",name=\"avg_npc_417_1#1$1\",focus=\"r\")]\n[name=\"愤怒的暴徒\"]该死，格拉斯哥帮的人抢了先！\n[charslot(slot=\"l\",name=\"avg_npc_416_1#1$1\",focus=\"l\")]\n[name=\"饥饿的暴徒\"]围住他们！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_exsheath\",volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#9$1\",focus=\"m\")]\n[name=\"伊内丝\"]别挡路。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]伊内丝女士，别对他们动手，暂时不要。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#9$1\",focus=\"m\")]\n[name=\"推进之王\"]他们其中的不少人……我都认识。他们只是被恐惧折磨得发了疯。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]这还不至于让他们以生命做代价。\n[charslot(slot=\"m\",name=\"avg_npc_863_1#1$1\",focus=\"m\")]\n[name=\"贝尔德\"]（走我们以前溜去打桌球的那条小路，门板还在原来的位置。）\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]（好的。）\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]（贝尔德，我们……回家再见。）\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]跟我来！"
+        }
+      ],
+      "description": "同行者与贝尔德在街道会合并共同突围。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_4087_ines",
+          "reason": "二人在同一连续场景中直接交流或明确共同感知。",
+          "status": "supported",
+          "to": "npc_b8a61bfc9821327a"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_b8a61bfc9821327a",
+          "reason": "二人在同一连续场景中直接交流或明确共同感知。",
+          "status": "supported",
+          "to": "char_4087_ines"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 241,
+          "kind": "story",
+          "line": 151,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_4087_ines|npc_b8a61bfc9821327a"
+}

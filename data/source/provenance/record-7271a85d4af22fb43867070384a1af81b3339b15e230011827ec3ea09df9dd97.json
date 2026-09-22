@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 78,
+          "line": 20,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-04_end.txt",
+          "quote": "[name=\"整合运动成员\"]   啊啊……啊啊！好痒，好痒！！\n[name=\"整合运动成员\"]   啊啊？！！\n[name=\"整合运动成员\"]   罗……罗德岛！\n[name=\"整合运动成员\"]   敌人……敌人！！\n[Character(name=\"char_259_Jessica_1#3\")]\n[name=\"杰西卡\"]   什……！怎么……\n[name=\"杰西卡\"]   刚才被打倒的整合运动又站起来了——？\n[Character(name=\"char_1507_Mephisto_1\")]\n[name=\"梅菲斯特\"]   怎么？不行了吗？\n[Character(name=\"char_193_frostl_1\")]\n[name=\"霜叶\"]   光芒，从那个家伙的法杖里……？\n[Character(name=\"char_1507_Mephisto_1\")]\n[name=\"梅菲斯特\"]   我可还没有动手哦。\n[Character(name=\"char_259_Jessica_1\", name2=\"char_219_meteo_1\", focus=1)]\n[name=\"杰西卡\"]   而且……还有更多敌人增援……\n[Character(name=\"char_259_Jessica_1\", name2=\"char_219_meteo_1\", focus=2)]\n[name=\"陨星\"]   可恶……！\n[name=\"陨星\"]   现在，只能依赖这一发弩弹能把敌人的首领……！\n[Character(name=\"char_193_frostl_1\", name2=\"char_219_meteo_1\", focus=1)]\n[name=\"霜叶\"]   不。\n[Character(name=\"char_1507_Mephisto_1\")]\n[name=\"梅菲斯特\"]   哈哈……这种情况下，你们还有讨论的余裕吗？\n[name=\"梅菲斯特\"]   真自信啊。\n[Character(name=\"char_193_frostl_1\", name2=\"char_219_meteo_1\", focus=2)]\n[name=\"陨星\"]   呵，就让这发弩弹教教你……\n[Character(name=\"char_193_frostl_1\", name2=\"char_219_meteo_1\", focus=1)]\n[name=\"霜叶\"]   不，陨星。不行。\n[Character(name=\"char_193_frostl_1\", name2=\"char_219_meteo_1\", focus=2)]\n[name=\"陨星\"]   啧……！为什么！\n[Character(name=\"char_193_frostl_1\", name2=\"char_219_meteo_1\", focus=1)]\n[name=\"霜叶\"]   快撤退。\n[name=\"霜叶\"]   我感受到了……\n[name=\"霜叶\"]   是他们。他们来了。\n[Character(name=\"char_1507_Mephisto_1\")]\n[name=\"梅菲斯特\"]   嗯？不射击吗？\n[name=\"梅菲斯特\"]   真可惜。\n[name=\"梅菲斯特\"]   之后，你们就没机会了哦。\n[Character(name=\"char_219_meteo_1\")]\n[name=\"陨星\"]   他要撤退了？可是——\n[Character(name=\"char_193_frostl_1\")]\n[name=\"霜叶\"]   陨星！射击西侧那栋危楼，快！至少可以分散敌人的注意力！\n[Character(name=\"char_219_meteo_1\")]\n[name=\"陨星\"]   ……只能这样了！没问题！\n[PlaySound(key=\"$d_gen_explo_n\")]\n[CameraShake(duration=1, xstrength=10, ystrength=8, vibrato=30, randomness=90, fadeout=false)]\n[Blocker(a=0.7, r=0.93, g=0.7, b=0.2, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0.93, g=0.75, b=0.32, fadetime=0.2, block=true)]\n[Character(name=\"char_193_frostl_1\", name2=\"char_259_Jessica_1\", focus=1)]\n[name=\"霜叶\"]   杰西卡，跑起来。\n[Character(name=\"char_193_frostl_1\", name2=\"char_259_Jessica_1#3\", focus=2)]\n[name=\"杰西卡\"]   诶？\n[Character(name=\"char_193_frostl_1\", name2=\"char_259_Jessica_1#3\", focus=1)]\n[name=\"霜叶\"]   ……雪怪们来了。\n[Character(name=\"char_193_frostl_1\", name2=\"char_259_Jessica_1#5\", focus=2)]\n[name=\"杰西卡\"]   等……\n[name=\"杰西卡\"]   好、好冷……\n[Character(name=\"char_193_frostl_1\", name2=\"char_259_Jessica_1#5\", focus=1)]\n[name=\"霜叶\"]   ………………走。\n[name=\"霜叶\"]   立刻。"
+        }
+      ],
+      "description": "该干员与梅菲斯特直接交锋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_193_frostl",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "char_193_frostl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b768950f6cb3956f.json",
+      "sources": [
+        {
+          "endLine": 78,
+          "kind": "story",
+          "line": 20,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格侦察战",
+      "title": "急性衰竭"
+    }
+  ],
+  "relationship_id": "char_193_frostl|npc_03efe1bf09e24b53"
+}

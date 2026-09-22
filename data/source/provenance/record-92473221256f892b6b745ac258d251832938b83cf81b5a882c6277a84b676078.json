@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 601,
+          "line": 494,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "quote": "[name=\"第三小队队员\"]  快追，一定要堵住她！联系莫妮克阁下！\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"第三小队队员\"]  该死！你们为什么要来碍事！？\n[Character(name=\"avg_237_gravel_1#3\")]\n[name=\"砾\"]  ……不知道呢。\n[Character(name=\"avg_237_gravel_1#6\")]\n[name=\"砾\"]  也许这就是耀骑士愿意相信罗德岛的理由吧。\n[Character(name=\"avg_npc_216\")]\n[name=\"第三小队成员\"]  啧，我们可不能陪你耗着——\n[Character(name=\"avg_npc_216\", focus=-1)]\n[name=\"莫妮克\"]  说得对。\n[dialog]\n[character]\n[Character(name=\"avg_npc_208_1\",fadetime=1.5,block=true)]\n[delay(time=2)]\n[name=\"莫妮克\"]  我们时间紧迫。而这件事，竟然还直接暴露给了一位征战骑士。\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  ……听你的口气，是要杀我灭口？\n[Character(name=\"avg_npc_208_1#2\")]\n[name=\"莫妮克\"]  唉。\n[name=\"莫妮克\"]  ……似乎从某个时期开始，每当我打算工作的时候，面前都会出现一些不速之客。\n[Character(name=\"avg_237_gravel_1#3\")]\n[name=\"砾\"]  嘻，那真是抱歉，青金大位。\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  我接受了博士的嘱托，从性质上来说，做的可是比工作更重要的事。\n[Character(name=\"avg_237_gravel_1#6\")]\n[name=\"砾\"]  当不了你的对手，阻挠你狙击还是够格的。\n[Character(name=\"avg_npc_208_1#2\")]\n[name=\"莫妮克\"]  罗德岛吗。\n[name=\"莫妮克\"]  没有耀骑士和那个古怪萨卡兹的他们，是否有些过于高看自己了？\n[name=\"莫妮克\"]  即使从这个距离，我也能轻易贯穿那个医生和白金大位——这不是什么难事。\n[Character(name=\"avg_237_gravel_1#2\")]\n[name=\"砾\"]  ……\n[Character(name=\"avg_npc_208_1#3\")]\n[name=\"莫妮克\"]  看来你们的恣意妄为要让牺牲扩大了，骑士。\n[name=\"莫妮克\"]  阻止我？试试看吧。\n[Character(name=\"avg_237_gravel_1#7\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"砾\"]  ——喝！\n[Character(name=\"avg_npc_216\")]\n[name=\"第三小队成员\"]  休想！\n[dialog]\n[character]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.3, block=false)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$swordtsing2\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.6, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"avg_npc_216\")]\n[name=\"第三小队成员\"]  莫妮克阁下！\n[Character(name=\"avg_npc_208_1#5\")]\n[name=\"莫妮克\"]  我知道！你们何时能给我下命令了！？\n[Character(name=\"avg_npc_208_1#2\")]\n[name=\"莫妮克\"]  ……白金。我们不再需要白金了。\n[Character(name=\"avg_npc_208_1#3\")]\n[name=\"莫妮克\"]  连着那个碍事的萨卡兹医生一起去死吧。\n[Character(name=\"avg_237_gravel_1#7\")]\n[name=\"砾\"]  啧！\n[dialog]\n[character]\n骄傲已经不容许她再次失手。\n莫妮克拉满了长弓。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"是谁说，要伤害罗德岛医疗组的成员？\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=800)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=1)]\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_kxstreet\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_208_1#3\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"莫妮克\"]  ——什么？\n[dialog]\n[character]\n箭尖钢铁腐蚀退化，箭杆则缩成了一截带着嫩芽的树枝，轻轻落在她手中。\n远处出现的人影只是遥遥一点，不适感立刻传遍了莫妮克的全身。\n是某种警觉。\n小个子的卡里普尼步幅极小，施法的姿态悠哉又缓慢，与这处战场格格不入。\n[dialog]\n[character]\n[Character(name=\"avg_npc_249_1$1\",fadetime=1.5,block=true)]\n[delay(time=1.5)]\n[name=\"Touch\"]  ……本来只是想着，难得路线靠近本舰，回来探望一下，没想到能撞上这么奇妙的画面。\n[Character(name=\"avg_npc_208_1#3\")]\n[name=\"莫妮克\"]  你是谁？\n[Character(name=\"avg_npc_249_1$1\")]\n[name=\"Touch\"]  没有必要告诉你，无胄盟。\n[name=\"Touch\"]  过度干预任务外的事项有违我的原则，不过方才，你似乎对逃走的罗德岛干员表露出了明确的敌意。\n[Character(name=\"avg_npc_208_1#4\")]\n[name=\"莫妮克\"]  ……\n[Character(name=\"avg_npc_249_1$1\")]\n[name=\"Touch\"]  这可不行，无胄盟。"
+        }
+      ],
+      "description": "莫妮克具体锁定并威胁逃走的萨卡兹医生，即芙蓉；芙蓉已撤离，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_00a043118c878e45",
+          "reason": "莫妮克具体锁定并威胁逃走的萨卡兹医生，即芙蓉；芙蓉已撤离，反向未建立。",
+          "status": "supported",
+          "to": "char_120_hibisc"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_120_hibisc",
+          "reason": "已读候选窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_00a043118c878e45"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_2db98b901e9e88b6.json",
+      "sources": [
+        {
+          "endLine": 601,
+          "kind": "story",
+          "line": 494,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "无胄盟追击现场",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "char_120_hibisc|npc_00a043118c878e45"
+}

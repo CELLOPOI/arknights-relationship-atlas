@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 248,
+          "line": 245,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_03_beg.txt",
+          "quote": "[name=\"克莱门莎\"]……所以，克丽斯腾，那位哥伦比亚科学家，突破了上万年来阻隔层对泰拉的封锁。\n[name=\"克莱门莎\"]一年多以来，那个空洞始终没有完全合拢，在此期间，阿戈尔保持着对宇宙的观测。从结果来看，阻隔层之外还没有出现明显的异象。\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]我曾尝试阻止克丽斯腾，但没有成功。"
+        }
+      ],
+      "description": "克莱门莎单向知晓克丽斯腾及其事迹。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_17db81f47ae22715",
+          "reason": "克莱门莎明确称克丽斯腾为哥伦比亚科学家，并说明其突破阻隔层及后果。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "克丽斯腾未在本篇当前局部场景出场，缺少其接收或识别克莱门莎的依据。",
+          "status": "not_established",
+          "to": "npc_17db81f47ae22715"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 248,
+          "kind": "story",
+          "line": 245,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "阻隔层事件后的阿戈尔观测期",
+      "title": "生路"
+    }
+  ],
+  "relationship_id": "npc_17db81f47ae22715|npc_ebd7747563277517"
+}

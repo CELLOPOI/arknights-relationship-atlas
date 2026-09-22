@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 243,
+          "line": 241,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "quote": "曾经的魔王发现自己正站在一座教堂中央，沐浴着最为圣洁的辉光。\n而头顶光环的萨科塔教宗，正与她“对视”着。\n于河畔偶遇的年轻信使，教堂窗前的平和老者……她记得他，岁月亦无法干扰她的判断。"
+        }
+      ],
+      "description": "虽在远见中观察教宗，但叙述明确她记得过去河畔偶遇的年轻信使；以既往相遇为据，不用未来对视。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E170"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "虽在远见中观察教宗，但叙述明确她记得过去河畔偶遇的年轻信使；以既往相遇为据，不用未来对视。",
+          "status": "supported",
+          "to": "npc_bfbfb9398ba6ef19"
+        },
+        {
+          "evidenceIds": [
+            "E170"
+          ],
+          "from": "npc_bfbfb9398ba6ef19",
+          "reason": "虽在远见中观察教宗，但叙述明确她记得过去河畔偶遇的年轻信使；以既往相遇为据，不用未来对视。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 243,
+          "kind": "story",
+          "line": 241,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 721,
+          "line": 694,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "quote": "[name=\"伊万杰利斯塔十一世\"]光环刹那间的扰动，以及突然的信息洪流……\n[name=\"伊万杰利斯塔十一世\"]它因为某种情况突然感知到了什么。\n[name=\"伊万杰利斯塔十一世\"]“对话”。\n[name=\"伊万杰利斯塔十一世\"]它在……与某种和它相似的存在对话。\n[name=\"伊万杰利斯塔十一世\"]既然它已主动做出选择，恐怕我也应该效仿。它的预示，已非拉特兰一己之力所能承担。\n[name=\"伊万杰利斯塔十一世\"]让我想想……从第一个问题开始吧。\n[name=\"伊万杰利斯塔十一世\"]……你是谁？\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Image]\n[Background]\n[charslot]\n[Subtitle(text=\"“我无法否认，教宗阁下。这是一段漫长的路途。”\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“即使没有困于源石中的众魂万年的呢喃，萨卡兹与这片大地也需要长久的时光来放下仇恨。”\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“那么，名叫阿米娅的孩子，如果我们并没有那么多时间呢？”\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[PlayMusic(key=\"$desolate_loop\", volume=0.6)]\n[Image(image=\"58_mini06\", screenadapt=\"coverall\", xScale=1.1, yScale=1.1, fadetime=3.5)]\n[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, yTo=50, duration=50, block=false)]\n[Delay(time=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=3.5)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1, block=true)]\n[Subtitle(text=\"“如果泰拉已不在它的童年期，而是已经到了无暇轻松谈论未来的时刻——”\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“……特蕾西娅小姐警告过我这种可能。”\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]"
+        }
+      ],
+      "description": "教宗与特蕾西娅曾直接交流过大地危机。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "npc_bfbfb9398ba6ef19",
+          "reason": "教宗明确记得特蕾西娅的警告。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "“特蕾西娅警告过我”证明她曾直接向教宗传达信息。",
+          "status": "supported",
+          "to": "npc_bfbfb9398ba6ef19"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 721,
+          "kind": "story",
+          "line": 694,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "特蕾西娅生前的既往交流",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "npc_bfbfb9398ba6ef19|npc_c0e49cc5a9477cf1"
+}

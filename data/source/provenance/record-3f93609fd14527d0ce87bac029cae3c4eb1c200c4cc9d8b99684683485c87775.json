@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 173,
+          "line": 136,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "quote": "[name=\"Scout\"]那么，殿下，这次的简报就只有这些。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]看来军事委员会笃定我们会收复C8—10区域的村庄和物资，并在那里建立哨站，他们已经落入了圈套。\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]但……有一些军官，开始表露出与曼弗雷德大不相同的军事策略。这很不寻常。\n[name=\"Scout\"]间谍提出，曾看见过食腐者出入军队的营帐。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#3$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]孽茨雷……\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]博士怎么看待这件事？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]博士认为，在萨卡兹的战争之神表露出任何形式的参与意图后，我们的布置会被全盘打乱。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#10$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]你呢？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]……一直以来，诸多强大的王庭成员都更青睐主张反击和暴力的军事委员会，这任谁都心知肚明。\n[name=\"Scout\"]但出于某种约束——甚至可以说是约定俗成的规则——没有任何一个王庭主动参与到内战中来。\n[name=\"Scout\"]若是王庭之主们真的决定在卡兹戴尔与我们开战，那些仍旧没有回归的萨卡兹们，再无法在地图上看见任何巴别塔的标识。\n[name=\"Scout\"]而说点现实的，王庭的加入形成的兵力差距同样令人担忧，支持我们的人，大多并非战士或士兵。\n[name=\"Scout\"]我们的队伍里也有不少人第一次拿起武器。\n[name=\"Scout\"]所以，要说心里话——无论真相是什么，我们的处境都在急转直下。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"n\")]\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#4$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]……我明白了。\n[name=\"特蕾西娅\"]继续观察食腐者王庭的行踪。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]若是孽茨雷真的按捺不住，那么杜卡雷同样会有所动作。\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"n\")]\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]连续三周，“玫瑰河畔并无航船”。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#4$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]玫瑰河畔已经是十分优秀的间谍系统，她们可以骗过任何人，但唯独骗不过自己的君主。"
+        }
+      ],
+      "description": "简报中Scout具体提及曼弗雷德，凯尔希在同一场合具称杜卡雷，Scout紧接着回应情报；支持各自单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR06"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "简报中Scout具体提及曼弗雷德，凯尔希在同一场合具称杜卡雷，Scout紧接着回应情报；支持各自单向知晓。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 173,
+          "kind": "story",
+          "line": 136,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_0957af9bf990438d|npc_aa980d6791c26c93"
+}

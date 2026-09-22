@@ -1,0 +1,22 @@
+{
+  "id": "import:char_206_gnosis|npc_5b6d9a80bb2c7211",
+  "published": true,
+  "quote": "【风雪过境】\n诺希斯：你被人跟踪了。\n莫希：……！\n莫希：什么！我完全没有……\n诺希斯：但对方只有一人，已经追着休露丝给你的人走了。\n\n【银心湖列车】\n恩希欧迪斯：确实，休露丝夫人手段高明，令人敬佩。\n恩希欧迪斯：菈塔托丝，你太小看休露丝夫人了。\n菈塔托丝：……你这是什么意思？\n莫希：夫人，客人平安到达。\n休露丝：好！快带人过来！\n诺希斯：……\n莫希：……\n莫希：我这就去。\n魏斯：老爷！\n魏斯：客人已经带到了！\n休露丝：乱说什么？那是我请来的客人！",
+  "relationship_id": "char_206_gnosis|npc_5b6d9a80bb2c7211",
+  "sources": [
+    {
+      "endLine": 508,
+      "kind": "story",
+      "line": 502,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 1045,
+      "kind": "story",
+      "line": 1020,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

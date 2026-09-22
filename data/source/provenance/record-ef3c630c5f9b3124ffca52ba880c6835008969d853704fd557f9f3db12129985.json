@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 112,
+          "line": 19,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "quote": "[name=\"近卫干员\"]   剩余目标已清除。敌方小队溃退了！\n[name=\"近卫干员\"]   ……Dr.{@nickname}的指挥确实和阿米娅说的一样，让人放心。\n[Character(name=\"char_002_amiya_1#10\")]\n[name=\"阿米娅\"]   是吧，轻轻松松吧？\n[name=\"阿米娅\"]   博士曾经经历的，可不只是这种程度的战斗。\n[Character(fatetime=0.5, block=true)]\n[delay=1]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.8, block=true)]\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动成员\"]   咳……怎么会出现……乌萨斯人以外的阻碍……\n[name=\"整合运动成员\"]   不会……让你们阻挠我们的事业！\n[dialog]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$p_imp_whip_h\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Character(name=\"char_1002_nsabr_2\")]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"？？？\"]   别想得逞！\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   杜，杜宾教官！\n[Character(name=\"char_013_riop\", name2=\"char_130_doberm_ex\", focus=2)]\n[name=\"杜宾\"]   你在发什么呆！差一点，你就要被打成筛子了！\n[Character(name=\"char_013_riop\", name2=\"char_130_doberm_ex\", focus=1)]\n[name=\"近卫干员\"]   对，对不起！\n[Character(name=\"char_013_riop\", name2=\"char_130_doberm_ex\", focus=2)]\n[name=\"杜宾\"]   快！重整队形！\n[Character(name=\"char_013_riop\", name2=\"char_130_doberm_ex\", focus=1)]\n[name=\"近卫干员\"]   是！\n[Character(name=\"char_002_amiya_1#2\")]\n[name=\"阿米娅\"]   杜宾！你来了！\n[Character(name=\"char_002_amiya_1#2\", name2=\"char_130_doberm_ex\", focus=2)]\n[name=\"杜宾\"]   情况紧急。我的小组也遭到了攻击，敌人同样是整合运动。\n[name=\"杜宾\"]   所以我才立刻赶过来跟你们汇合。\n[Character(name=\"char_002_amiya_1#2\", name2=\"char_130_doberm_ex\", focus=1)]\n[name=\"阿米娅\"]   整合运动为什么会攻击我们……？\n[Character(name=\"char_002_amiya_1#2\", name2=\"char_130_doberm_ex\", focus=2)]\n[name=\"杜宾\"]   一个感染者权益组织……本来我觉得他们只是有点盲目激进————\n[name=\"杜宾\"]   ————现在居然开始使用暴力，还是在乌萨斯的城市？真是自寻死路。\n[name=\"杜宾\"]   接下来，这里只会变得更加混乱。\n[name=\"杜宾\"]   阿米娅，我们必须立刻撤离切尔诺伯格。\n[Character(name=\"char_002_amiya_1#1\", name2=\"char_130_doberm_ex\", focus=1)]\n[name=\"阿米娅\"]   好的。我们已经成功救出博士，之后按照计划撤退就可以了。\n[Delay(time=0.5)]\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]    ——这位就是Dr.{@nickname}？\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]   是，是的。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]    Dr.{@nickname}，你可能不认识我，但你认识阿米娅，为了你的安全着想——\n[Character(name=\"char_002_amiya_1\", name2=\"char_130_doberm_ex\", focus=1)]\n[name=\"阿米娅\"]   不不……\n[name=\"阿米娅\"]   唔，杜宾，博士目前的状态并不是很好。\n[name=\"阿米娅\"]   简单地说，博士……失忆了。\n[Character(name=\"char_002_amiya_1\", name2=\"char_130_doberm_ex\", focus=2)]\n[name=\"杜宾\"]    失忆？\n[name=\"杜宾\"]    ……这怎么办？你还准备将指挥权交给这个……\n[Character(name=\"char_002_amiya_1\", name2=\"char_130_doberm_ex\", focus=1)]\n[name=\"阿米娅\"]   博士依然有能力指挥小队。\n[name=\"阿米娅\"]   ……至少，在刚才的战斗中，我已经确认了。\n[Character(name=\"char_002_amiya_1\", name2=\"char_130_doberm_ex\", focus=2)]\n[name=\"杜宾\"]   ……\n[name=\"杜宾\"]   我还是不能这么简单就相信一个陌生人。\n[name=\"杜宾\"]   但我相信你，阿米娅。\n[Character(name=\"char_002_amiya_1\", name2=\"char_130_doberm_ex\", focus=1)]\n[name=\"阿米娅\"]   ……我知道了。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   Dr.{@nickname}， 我是行动组E1组长，杜宾。\n[name=\"杜宾\"]   我们将把你从这座乌萨斯的城市——切尔诺伯格，护送到罗德岛。\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[image(image=\"avg_map_1\")]\n[ImageTween(image=\"avg_map_1\", tiled=true, xScaleTo=1.3, yScaleTo=1.3, xTo=-200, duration=75, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.8, block=true)]\n[name=\"杜宾\"]   身处切尔诺伯格城的核心区废弃设施，现在的我们理应向西撤退。\n[Character(name=\"char_002_amiya_1\", name2=\"char_130_doberm_ex\", focus=1)]\n[ImageTween(image=\"avg_map_1\", tiled=true, xScaleTo=1.8, yScaleTo=1.8, xTo=-200, duration=75, block=false)]\n[name=\"阿米娅\"]   但……和凯尔希医生通讯中断时，我和杜宾教官都需要先带领着各自的小组，去西边的集结地汇合然后确认撤出信号。\n[name=\"阿米娅\"]   按照计划，原本是这样的……\n[name=\"杜宾\"]    如果能这么顺利就好了。\n[name=\"杜宾\"]    今天是我们从石棺救走你的最后机会，Dr.{@nickname}。\n[name=\"杜宾\"]    只是……我总有种不祥的预感。\n[character]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[image]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.8, block=true)]\n[Character(name=\"char_016_medic\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"医疗干员\"]   阿，阿米娅！\n[Character(name=\"char_016_medic\", name2=\"char_002_amiya_1#6\", focus=2)]\n[name=\"阿米娅\"]   怎么了?\n[Character(name=\"char_016_medic\", name2=\"char_002_amiya_1#6\", focus=1)]\n[name=\"医疗干员\"]   是……是来自罗德岛的对话请求！"
+        }
+      ],
+      "description": "切城救援后队伍连续对话，杜宾加入并与博士互相介绍，医疗干员报告通讯请求，真实局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_130_doberm",
+          "reason": "切城救援后队伍连续对话，杜宾加入并与博士互相介绍，医疗干员报告通讯请求，真实局部同场。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "切城救援后队伍连续对话，杜宾加入并与博士互相介绍，医疗干员报告通讯请求，真实局部同场。",
+          "status": "supported",
+          "to": "char_130_doberm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 112,
+          "kind": "story",
+          "line": 19,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 108,
+          "line": 71,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-06_beg.txt",
+          "quote": "[name=\"医疗干员\"]  ……啊？\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]  ……落石？这个时候？\n[Character(name=\"char_014_riope\",name2=\"char_130_doberm_ex\",focus=2)]\n[name=\"杜宾\"]  别停下！优先确保防线！\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]  不对……是砸在建筑物上迸出来的……\n[Character(name=\"char_014_riope\",name2=\"char_130_doberm_ex\",focus=2)]\n[name=\"杜宾\"]  你在说什么——\n[Character(name=\"char_1002_nsabr_2\",name2=\"char_1002_nsabr_2\")]\n[name=\"整合运动成员\"]  来了！来了！\n[name=\"整合运动成员\"]  哈哈……我们感染者的救赎！普通人的末日！\n[name=\"整合运动成员\"]  啊，啊啊——咕！\n[dialog]\n[PlaySound(key=\"$d_gen_explo_n\", channel=2, volume=0.6)]\n[Blocker(a=0.7, r=1, g=0.1, b=0.3, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=30, randomness=90, block=false)]\n[name=\"整合运动成员\"]  啊，啊啊——咕！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  ——\n[name=\"杜宾\"]  他是被什么东西……击倒的？\n[name=\"杜宾\"]  你们有谁……攻击了他？\n[name=\"杜宾\"]  还是说，他是被……\n[PlaySound(key=\"$d_gen_explo_n\", volume=0.4, delay=2)]\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  杜宾！天空……！\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]  ——\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.8, block=true)]\n[name=\"临光\"]  天空陷入了血色——\n[name=\"临光\"]  “沸腾的乌云翻涌在火焰之中……”\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  别惊慌！\n[Character(name=\"char_148_nearl_1#7\")]\n[name=\"临光\"]  保护好自己！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  ……我们还有机会，用行动去拯救自己的生命！"
+        }
+      ],
+      "description": "救援队同场协作并直接回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_130_doberm",
+          "reason": "救援队同场协作并直接回应。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "救援队同场协作并直接回应。",
+          "status": "supported",
+          "to": "char_130_doberm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_f55d04d68de9988e.json",
+      "sources": [
+        {
+          "endLine": 108,
+          "kind": "story",
+          "line": 71,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格撤离期间",
+      "title": "黑暗时代·下"
+    }
+  ],
+  "relationship_id": "char_130_doberm|npc_8a4ed8ad1c6f8c69"
+}

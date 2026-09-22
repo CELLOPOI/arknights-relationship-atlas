@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 208,
+          "line": 206,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "quote": "从病房搬到宿舍那天，尽管我还发着低烧，也没什么力气，照顾过我的医护们还是给我办了一场小小的庆祝会。\n华法琳医生来了，Medic干员来了，照顾过我的实习医生芙蓉来了，连凯尔希医生也短暂地露了一面，尽管很快就又离开了。\n她们说，多亏了博士，新药才得以顺利面世。"
+        }
+      ],
+      "description": "安洁莉娜旁白明确诸医护共同参加宿舍庆祝会，凯尔希短暂出席，实际局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "安洁莉娜旁白明确诸医护共同参加宿舍庆祝会，凯尔希短暂出席，实际局部同场。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "安洁莉娜旁白明确诸医护共同参加宿舍庆祝会，凯尔希短暂出席，实际局部同场。",
+          "status": "supported",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_d41272e19d8ae683.json",
+      "sources": [
+        {
+          "endLine": 208,
+          "kind": "story",
+          "line": 206,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "直到大地变成一颗酸橙所述时段",
+      "title": "直到大地变成一颗酸橙"
+    }
+  ],
+  "relationship_id": "char_120_hibisc|npc_30c8dcf1e7b8383d"
+}

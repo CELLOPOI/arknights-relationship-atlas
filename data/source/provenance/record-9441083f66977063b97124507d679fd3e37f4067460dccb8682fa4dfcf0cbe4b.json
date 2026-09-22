@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 440,
+          "line": 400,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_05_end.txt",
+          "quote": "[name=\"Ace\"]来晚了。\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]……那？\n[playMusic(key=\"$formal_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_1310_1#1$1\")]\n[name=\"Pith\"]不必再从头复述了，Ace是被临时召集的，跟着Mantra行动就行。\n[name=\"Pith\"]继续吧，时不我待。\n[charslot(slot=\"m\",name=\"avg_npc_1309_1#1$1\")]\n[name=\"Ace\"]情况紧急？\n[charslot(slot=\"m\",name=\"avg_npc_1300_1#1$1\")]\n[name=\"Mantra\"]（点头示意）\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]那继续。\n[name=\"Scout\"]在天灾范围内的巴别塔成员共有两千五百余人。医疗人员，感染者平民，俘虏和雇佣兵伤员居多。\n[name=\"Scout\"]天灾的规模也比天灾信使预计的更大。目前预计影响五座哨所，三条战略要道，以及一座废弃城镇改建的临时医疗据点。\n[name=\"Scout\"]他们本已快撤退到天灾边界，但有雇佣兵切断了撤退路线。\n[charslot(slot=\"m\",name=\"avg_npc_1309_1#1$1\")]\n[name=\"Ace\"]把医疗人员、伤员和平民都关在天灾下面等死？\n[name=\"Ace\"]曼弗雷德现在这么疯狂？\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]不像他干的，军事委员会的三小股兵力已经撤离了森林，甚至刻意留了一条峡谷作为人道走廊。\n[charslot(slot=\"m\",name=\"avg_npc_1310_1#1$1\")]\n[name=\"Pith\"]……峭壁上全是军事委员会的术师。一旦发现有武装力量，就直接扑灭在峡谷深处。\n[name=\"Pith\"]无论如何，军事委员会的行踪和目的都没有打算遮掩，都在预计之内。\n[name=\"Pith\"]但这些突然出现，袭击据点的雇佣兵，他们直接炸毁了交通要道和桥梁，还用源石炸药污染了山脉里的数处水源，毫无目的性。\n[charslot(slot=\"m\",name=\"avg_npc_1309_1#1$1\")]\n[name=\"Ace\"]雇主是谁？\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]在查。但根据为数不多的情报推测，他们很可能……无主。\n[name=\"Scout\"]出于某种纯粹的报复，或是被特雷西斯抛弃后的挣扎，以及其他国家的煽动，都有可能。\n[dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#1$1\",duration=1)]\n[delay(time=1.5)]\n[name=\"阿斯卡纶\"]无所谓。他们的领袖，我去问，我去杀。\n[name=\"阿斯卡纶\"]失去领袖，没有目标的雇佣兵就是乌合之众。\n[name=\"阿斯卡纶\"]你们救人，我们在据点会合。\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]那他们就交给你了。\n[name=\"Scout\"]最后转达一句话，殿下说了，这次行动并不是“战役”的一部分。"
+        }
+      ],
+      "description": "Ace、Pith、Scout同在救援会议中，曼弗雷德和特雷西斯被具体提及；听取情报已足以单向知晓，不要求听者重复姓名。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "Ace、Pith、Scout同在救援会议中，曼弗雷德和特雷西斯被具体提及；听取情报已足以单向知晓，不要求听者重复姓名。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_ded4733bcc9da868"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 440,
+          "kind": "story",
+          "line": 400,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_c573b8884914fc60|npc_ded4733bcc9da868"
+}

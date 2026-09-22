@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 408,
+          "line": 400,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_05_end.txt",
+          "quote": "[name=\"Ace\"]来晚了。\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]……那？\n[playMusic(key=\"$formal_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_1310_1#1$1\")]\n[name=\"Pith\"]不必再从头复述了，Ace是被临时召集的，跟着Mantra行动就行。\n[name=\"Pith\"]继续吧，时不我待。\n[charslot(slot=\"m\",name=\"avg_npc_1309_1#1$1\")]\n[name=\"Ace\"]情况紧急？"
+        }
+      ],
+      "description": "Pith称名说明Ace被临时召集，Ace参与会议。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E35"
+          ],
+          "from": "char_509_acast",
+          "reason": "Pith称名说明Ace被临时召集，Ace参与会议。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E35"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "Pith称名说明Ace被临时召集，Ace参与会议。",
+          "status": "supported",
+          "to": "char_509_acast"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 408,
+          "kind": "story",
+          "line": 400,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "char_509_acast|npc_ded4733bcc9da868"
+}

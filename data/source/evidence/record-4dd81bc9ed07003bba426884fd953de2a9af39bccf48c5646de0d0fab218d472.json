@@ -1,0 +1,22 @@
+{
+  "id": "import:char_2015_dusk|npc_d2dcf202176c69a2",
+  "published": true,
+  "quote": "【画中人】\n黎：夕啊。\n夕：嗯。\n黎：你见过多少奇人异事，看过多少沧海桑田……\n黎：你帮我瞧瞧看，你说我……咳咳。\n黎：你说我这辈子……幸福吗？\n\n【泰拉饭】\n夕：……这幅画是不能要了。\n黎：我倒觉得他们很有意思……你不尝尝吗？还有这些山楂。\n夕：……\n黎：尝一口呗？\n夕：……不吃！",
+  "relationship_id": "char_2015_dusk|npc_d2dcf202176c69a2",
+  "sources": [
+    {
+      "endLine": 91,
+      "kind": "story",
+      "line": 87,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16d5/level_act16d5_st03.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 835,
+      "kind": "story",
+      "line": 826,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_05_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

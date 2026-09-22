@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 267,
+          "line": 251,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_phenxi_1_1.txt",
+          "quote": "[name=\"帕特里奇昂\"]你小时候不是这么说的。你要求我训练你，不就是为了成为……\n[Character(name=\"avg_300_phenxi_1#8$1\")]\n[name=\"菲亚梅塔\"]为了成为一个大人，以便知道我到底有多少选择。\n[Character(name=\"avg_npc_358_1#1$1\")]\n[name=\"帕特里奇昂\"]你的选择就是成为莫斯提马的跟班？\n[Character(name=\"avg_300_phenxi_1#1$1\")]\n[name=\"菲亚梅塔\"]在最开始，可能是愧疚让我跟着她，我觉得她的堕天有我一份责任，我担心她会自暴自弃，她会真的堕落。\n[Character(name=\"avg_npc_358_1#1$1\")]\n[name=\"帕特里奇昂\"]那说明你当年还是不够了解她。\n[Character(name=\"avg_300_phenxi_1#9$1\")]\n[name=\"菲亚梅塔\"]是啊，哈哈，那可是莫斯提马……\n[Character(name=\"avg_300_phenxi_1#5$1\")]\n[name=\"菲亚梅塔\"]后来，我在想，安多恩总有一天还会找上她，我只要待在莫斯提马身边，就能让那混蛋付出代价。\n[Character(name=\"avg_npc_358_1#1$1\")]\n[name=\"帕特里奇昂\"]前两天，在万国峰会上，你遇到他了。\n[Character(name=\"avg_300_phenxi_1#6$1\")]\n[name=\"菲亚梅塔\"]还不够，让他跑了，下次我会亲手把他逮住。"
+        }
+      ],
+      "description": "帕特里奇昂明确知晓安多恩及峰会遭遇，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4194_rmixer",
+          "reason": "具体对话、同场或往来叙述支持该方向。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "本窗未建立该方向。",
+          "status": "not_established",
+          "to": "char_4194_rmixer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_bd7c17c5c4f26eeb.json",
+      "sources": [
+        {
+          "endLine": 267,
+          "kind": "story",
+          "line": 251,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_phenxi_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "菲亚梅塔密录的当前谈话与旧日特勤小队回忆",
+      "title": "菲亚梅塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 495,
+          "line": 444,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_02_end.txt",
+          "quote": "[name=\"帕特里奇昂\"]小菲还好吗？\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#1$2\",focus=\"m\")]\n[name=\"蕾缪安\"]莫斯提马在陪着她。\n[name=\"蕾缪安\"]您也知道她的脾气，她要原谅一个人，可没那么简单哦。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]安多恩呢？\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#1$2\",focus=\"m\")]\n[name=\"蕾缪安\"]走了。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]更愤怒的本应是你，蕾缪安，毕竟当年受到了伤害的是你。\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#2$2\",focus=\"m\")]\n[name=\"蕾缪安\"]我从未否认过，阁下。\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#1$2\",focus=\"m\")]\n[name=\"蕾缪安\"]只不过，任何情感都会随着时间的流逝发生改变。\n[name=\"蕾缪安\"]我昏睡的那五年，安多恩在移动修道院服刑，跟随修道院前往这片大地的许多地方，救治离散的同胞，以此赎罪……\n[name=\"蕾缪安\"]最终，他选择回到拉特兰，以一个普通保育员的身份，重新融入这个国家。\n[name=\"蕾缪安\"]如今的拉特兰需要他，我也应该给他机会。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]我很高兴你能这样想……对了，你找我是想说？\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#11$2\",focus=\"m\")]\n[name=\"蕾缪安\"]还是菲亚梅塔的事。您知道的，她当初在学校执意选修了一系列铳械相关的课程。\n[name=\"蕾缪安\"]每天最早到教室，最后离开靶场，没人怀疑过她对铳械的喜爱……虽然她最后还是没能学会用铳。\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#4$2\",focus=\"m\")]\n[name=\"蕾缪安\"]但是刚刚，您把守护铳递给她，又长篇大论说了那番话的时候，她的眼神……\n[name=\"蕾缪安\"]我不清楚那是疑惑还是失落，但我觉得那一定不是纯粹的喜悦。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]是吗……我还以为她很高兴的，至少在安多恩进门之前。\n[name=\"帕特里奇昂\"]到头来我还是搞不清她的感受吗……\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#11$2\",focus=\"m\")]\n[name=\"蕾缪安\"]别说菲亚梅塔，您宣布的事即便对我来说也太突然了。\n[name=\"蕾缪安\"]“‘只有萨科塔才能使用守护铳’……诸如此类的限制将被解除。”您是这么说的。\n[name=\"蕾缪安\"]可长久以来的武装管控工作，明明才刚进行到最关键的阶段。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]你是想说，这两件事听起来完全相悖？\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#11$2\",focus=\"m\")]\n[name=\"蕾缪安\"]我是想问，您是否已经得到了更深刻的启示？\n[name=\"蕾缪安\"]我们的武装管控工作，是否已经被赋予了更进一步的目的？\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]武装管控工作的目的始终如一，一切管控都只是为了未来所有人都能更高效、更广泛地利用铳械。\n[name=\"帕特里奇昂\"]铳械工坊历史悠久，但确实存在诸多缺陷。不论工匠还是顾客，都倾入了太多不必要的精力，试图让每一把铳独一无二。\n[name=\"帕特里奇昂\"]待到米迦莱昂区的制铳圣堂正式投入使用，拉特兰才称得上有资本在必要时为所有国家、所有种族提供武装支持。\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#11$2\",focus=\"m\")]\n[name=\"蕾缪安\"]如果目的始终如一，为什么此时此刻的变化会显得这样突然，甚至……突兀？\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]或许只是因为我们都没那么擅长想象未来。\n[name=\"帕特里奇昂\"]但你猜得没错，牧首确实给予了我更深刻的启示，有关未来。很快，在降生仪式上，所有人都将接受同样的启示。\n[name=\"帕特里奇昂\"]届时，不论是你和小菲，还是拉特兰内外的千百万人，都会理解未来的样貌。\n[name=\"帕特里奇昂\"]你很敏锐，蕾缪安，你也一定能理解，我们当下的第一要务，就是保证降生仪式能顺利举行。\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#8$2\",focus=\"m\")]\n[name=\"蕾缪安\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#5$2\",focus=\"m\")]\n[name=\"蕾缪安\"]那个试图在这种时候制造爆炸的嫌犯，我会继续追查。"
+        }
+      ],
+      "description": "帕特里奇昂与安多恩有家庭聚会邀请与具体会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L06"
+          ],
+          "from": "char_4194_rmixer",
+          "reason": "双方当面交谈或具体历史互动明确双向。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        },
+        {
+          "evidenceIds": [
+            "L06"
+          ],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "双方当面交谈或具体历史互动明确双向。",
+          "status": "supported",
+          "to": "char_4194_rmixer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 495,
+          "kind": "story",
+          "line": 444,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "万国峰会期间",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_4194_rmixer|npc_5a3183cc75e97ddb"
+}

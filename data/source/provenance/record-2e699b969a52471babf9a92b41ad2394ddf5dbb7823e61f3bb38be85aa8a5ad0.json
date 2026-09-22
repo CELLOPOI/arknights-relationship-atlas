@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 270,
+          "line": 161,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "quote": "[charslot(slot=\"m\",focus=\"n\")]\n[dialog]\n[Decision(options=\"凯尔希，他们成功的概率有多大？;凯尔希，我们现在是否具备应对后续意外的条件？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]从我们在内化宇宙中的遭遇来判断，特蕾西娅已经极大程度地掌控了其中的规则。\n[name=\"凯尔希\"]解析规则，重建秩序，和特雷西斯配合夺下最初的源石……我相信，以她的能力而言，这并非天方夜谭。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]有关最初的源石的更详细信息我也无从了解，自然也无法确切地提出有效的应对手段。\n[name=\"凯尔希\"]换而言之，事态发展到当下，我们已经很难依据过往的经验与知识来判断局势。\n[Predicate(references=\"1;2\")]\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]凯尔希医生，难道我们对此束手无策吗？\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]并非如此。如果他们的计划成功，特雷西斯与特蕾西娅所求依旧在我们的认知范围之内，事态不一定会走向最坏的结果。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#4$1\")]\n[name=\"凯尔希\"]但如果他们失败……\n[charslot(slot=\"m\",focus=\"n\")]\n凯尔希看向了你，眼神中充满了担忧。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\")]\n[name=\"凯尔希\"]Dr.{@nickname}，我们必须以最快的速度赶回罗德岛本舰。\n[name=\"凯尔希\"]我们也许还能做最后的尝试来为泰拉争取片刻的喘息时间。\n[charslot]\n[dialog]\n[Decision(options=\"好，先控制住曼弗雷德。;与其担忧未发生的意外，不如排除已有的变数。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[playsound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（兴奋的高鸣）\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]我会护住博士，同时尽可能限制曼弗雷德的活动范围。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]速战速决。小心他手上的“提卡兹之根”。\n[charslot]\n当曼弗雷德手中的“提卡兹之根”刚刚亮起红光时，魔王的法术与阿斯卡纶的锋刃已经逼近到了他的面前。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]该结束了。\n[dialog]\n[charslot]\n[stopmusic(fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\")]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovementsp\")]\n[charslot(slot = \"right\", name = \"avg_4132_ascln_1#4$1\",posfrom = \"200,0\", posto = \"0,0\",duration = 0.5,afrom=0.5,ato=0.5,focus=\"m\")]\n[delay(time=0.6)]\n[CameraShake(duration=0.2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=1,g=1, b=1, fadetime=0.5, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[image(image=\"32_i08_2\",screenadapt=\"coverall\",block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[delay(time=0.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"凯尔希\"]——躲开！\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1,  fadetime=1, block=true)]\n[image]\n[Background(image=\"60_g7_westlobbyundergroundthrone\",screenadapt=\"coverall\")]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[Blocker(a=0, r=0, g=0, b=0,  fadetime=1, block=true)]\n[name=\"曼弗雷德\"]——！\n[charslot]\n[dialog]\n[Blocker(a=0.2, r=0.2, g=0, b=0.5, fadetime=1, block=false)]\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\",afrom=0.5,ato=0,duration=1)]\n[delay(time=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n阿斯卡纶瞬间化作紫色的烟雾，在剑光中散开又重聚。\n阿米娅所编织的屏障护住了你和凯尔希，却也在剑光中变得脆弱。\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=false)]\n[playsound(key=\"$Mon3tr_n\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（愤怒的嘶鸣）\n[name=\"Mon3tr\"]（全力保护）\n[dialog]\n[charslot]\n[playMusic(intro=\"$sacrifice_intro\",key=\"$sacrifice_loop\", volume=0.6)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot = \"m\", focus = \"n\")]\n剑光的主人缓缓从黑暗中走了出来，在微弱的光线下显得格外恐怖。\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]你让自己陷入了愚蠢的境地。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"]……殿下……你……\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]看来孽茨雷履行了与我的约定……\n[name=\"特雷西斯\"]你们来到我面前。很好。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#6$1\")]\n[name=\"阿斯卡纶\"]……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]……\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#2$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n你看到了王座前那个面目平静的人——特雷西斯。\n他绝非你所熟悉的模样。而他的手中，紧紧地握着一枚鲜艳的晶石。\n[charslot]\n[dialog]\n[Decision(options=\"“阿喃那”……;你们成功了。\", values=\"1;2\")]"
+        }
+      ],
+      "description": "Mon3tr与曼弗雷德直接交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "Mon3tr与曼弗雷德直接交战。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "Mon3tr与曼弗雷德直接交战。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 270,
+          "kind": "story",
+          "line": 161,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前战斗或明确既往关系",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_03f95afb5dd17c3f"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "import:npc_090185751b884944|npc_c8a2caad4366c8fa",
+  "published": true,
+  "quote": "【黑角】\n选项：\n1：晚上好，干员查德、干员迪伦、干员巴蒂、干员黑角。\n分支条件（原选项编号）：1\n干员查德：博士你……你居然记得我们全部人的名字？！\n黑角：博士的记性还是这么好啊。\n黑角：要熟悉山一样高的文件，还要一下子记住俺们这么多人的名字，可不大容易。博士，您别累着。\n选项：\n1：这是应该的。\n2：……\n3：PRTS会帮我。\n分支条件（原选项编号）：1 / 2 / 3\n干员巴蒂：博士，我们正准备收摊了，就不打扰您了。\n干员迪伦：嗯，博士，外勤任务见！\n干员迪伦：溜了溜了，查德，你还杵着干什么？",
+  "relationship_id": "npc_090185751b884944|npc_c8a2caad4366c8fa",
+  "sources": [
+    {
+      "endLine": 374,
+      "kind": "story",
+      "line": 360,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

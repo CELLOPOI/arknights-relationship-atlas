@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 601,
+          "line": 578,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_08_beg.txt",
+          "quote": "[name=\"圣徒卡门\"]……\n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_4009_irene_1#1$1\", focus=\"n\")]\n[charslot(slot = \"l\", name = \"avg_npc_1380_1#2$1\", focus=\"l\")]\n[name=\"乔迪\"]老师。\n[charslot(slot = \"r\", name = \"avg_4009_irene_1#7$1\", focus=\"r\")]\n[name=\"艾丽妮\"]圣徒阁下，艾丽妮向您复命。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]不必多说，阿戈尔已经向我们同步了水下发生的一切。\n[name=\"圣徒卡门\"]凯尔希和罗德岛的博士呢？\n[charslot(slot = \"m\", name = \"avg_npc_1380_1#1$1\")]\n[name=\"乔迪\"]还在那座城市里。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_bionicuavs_tech\", volume=1)]\n[delay(time=1.5)]\n[charslot(slot = \"m\", name = \"avg_npc_460_1#1$1\")]\n[name=\"审判庭文员\"]——接通了。\n[charslot(slot = \"m\", name = \"avg_npc_1380_1#5$1\")]\n[name=\"乔迪\"]这、这是？\n[charslot(slot = \"m\", name = \"avg_npc_447_1#6$1\")]\n[name=\"圣徒卡门\"]海面上的实时影像，由阿戈尔的无人机矩阵直接投映在大灯塔的显示系统上。"
+        }
+      ],
+      "description": "圣徒卡门单向知晓并关切博士去向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_8bb239b319aad399",
+          "reason": "圣徒卡门明确询问罗德岛博士的去向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在灯塔场景中，缺少其接收或识别卡门询问的局部依据。",
+          "status": "not_established",
+          "to": "npc_8bb239b319aad399"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 601,
+          "kind": "story",
+          "line": 578,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伊比利亚之眼备战",
+      "title": "生路"
+    }
+  ],
+  "relationship_id": "npc_8bb239b319aad399|npc_b99957887950ebfd"
+}

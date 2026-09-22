@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 178,
+          "line": 165,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_04_beg.txt",
+          "quote": "[name=\"阿赫茉妮\"]唉。\n[Character(name=\"avg_npc_228_1#1\",name2=\"avg_npc_244\",focus=1)]\n[name=\"阿赫茉妮\"]算啦，虽然一不小心中了陷阱……但还是得尽力补救一下。确保她的安全是最优先的。\n[Character(name=\"avg_npc_228_1#1\",name2=\"avg_npc_244\",focus=2)]\n[name=\"深池士兵\"]您是说……\n[Character(name=\"avg_npc_228_1#1\",name2=\"avg_npc_244\",focus=1)]\n[name=\"阿赫茉妮\"]我亲爱的朋友，拉芙希妮。\n[Character(name=\"avg_npc_228_1#1\",name2=\"avg_npc_244\",focus=2)]\n[name=\"深池士兵\"]您确定他们在找的人是她？\n[Character(name=\"avg_npc_228_1#1\",name2=\"avg_npc_244\",focus=1)]\n[name=\"阿赫茉妮\"]你又能确定不是吗？\n[name=\"阿赫茉妮\"]我们没有其他选择。谁让她也是“领袖”呢？我们可不能让她落到其他人……尤其是开斯特公爵手里。\n[Character(name=\"avg_npc_228_1#7\",name2=\"avg_npc_244\",focus=1)]\n[name=\"阿赫茉妮\"]走吧，该去找“校官”了。"
+        }
+      ],
+      "description": "阿赫茉妮具体提及开斯特公爵并判断其威胁。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F20"
+          ],
+          "from": "char_297_hamoni",
+          "reason": "阿赫茉妮具体提及开斯特公爵并判断其威胁。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "本组窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_297_hamoni"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 178,
+          "kind": "story",
+          "line": 165,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    }
+  ],
+  "relationship_id": "char_297_hamoni|npc_8c87697c59975883"
+}

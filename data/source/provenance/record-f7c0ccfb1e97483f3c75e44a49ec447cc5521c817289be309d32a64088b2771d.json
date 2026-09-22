@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 143,
+          "line": 141,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st03.txt",
+          "quote": "喜悦淡去，记忆淡去，耳边的声音淡去。\n特蕾西娅抹除这段自己也无比熟悉的记忆，接着向前走去。\n她看到了一段自己从未在PRTS中看到的记录。"
+        }
+      ],
+      "description": "旁白说明特蕾西娅从未在PRTS看到这段记录，明确她曾检阅PRTS，非与系统互相认识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E57"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "旁白说明特蕾西娅从未在PRTS看到这段记录，明确她曾检阅PRTS，非与系统互相认识。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 143,
+          "kind": "story",
+          "line": 141,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 220,
+          "line": 129,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st06.txt",
+          "quote": "[name=\"可露希尔\"]  唔……PRTS，我觉得你应该也明白。\n[name=\"可露希尔\"]  博士的存在意味着很多事情。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  可以理解。\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  我曾想象过没有博士的巴别塔……呃，或者说是罗德岛，现在会以怎样的方式运行。\n[name=\"可露希尔\"]  你说，我们会怎么样？阿米娅和凯尔希可能会决定绕开乌萨斯，我们碰不上那群整合运动，情况是不是会比现在更好？\n[name=\"可露希尔\"]  也搞不好我们会走投无路，死伤比现在更惨重，大伙被迫宣布解散，然后各自回家——如果还有哪里能称得上是家的话。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  我认为你现在的发言是一种冷幽默。\n[character(name=\"char_007_closre_1#4\")]\n[name=\"可露希尔\"]  别怀疑，我就是在说笑话。\n[name=\"可露希尔\"]  我要是真有这种想法，凯尔希一定第一个把我从罗德岛踢出去！\n[name=\"可露希尔\"]  ……不过说点现实的，博士没在的那几年，我们确实日子过得比现在要艰难得多，不是吗？\n[name=\"可露希尔\"]  只有凯尔希在的那个时候我有多惨你也知道，她整天抓着我干活，好像我们俩都是二十四小时运转的机器一样，完全不考虑休息的！\n[name=\"可露希尔\"]  说真的，我觉得那时候我头发都快掉光了！\n[character(name=\"char_007_closre_1#4\",focus=-1)]\n[name=\"PRTS\"]  实时记录开启。已将上述发言录入数据库。\n[character(name=\"char_007_closre_1#6\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"可露希尔\"]  欸？不、不必！不用什么都录！这个千万不能给凯尔希听到……！\n[name=\"可露希尔\"]  哎……我不是说这样不好，我们都是因愿意追随特蕾西娅的意愿，她的理想，才聚集在这里，这一点原本巴别塔的大家都一样。\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  只是啊……\n[name=\"可露希尔\"]  在特蕾西娅离开我们之后，我们大家都花了大量的时间适应。直到现在，可能还是会有人在迷茫吧。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……\n[name=\"PRTS\"]  我很少听你阐述这样的想法。\n[character(name=\"char_007_closre_1#4\")]\n[name=\"可露希尔\"]  哈哈，你是不是一直以为我是个只会在一旁看着的人？\n[character(name=\"char_007_closre_1#4\",focus=-1)]\n[name=\"PRTS\"]  难道不是这样？\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  唔，你的观察和运算都比人类更客观精准，或许你说的没错。不过，我可以给你说个故事。\n[name=\"可露希尔\"]  你知道最早我在卡兹戴尔，他们来找我时的情形吗？\n[name=\"可露希尔\"]  我都忘了有没有和你说过我的家庭……血魔家庭，听起来就有股衰败腐朽的味儿是不是？\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  萨卡兹中的一个分支。非常古老。\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  非常古老。并且古板。\n[name=\"可露希尔\"]  我在很长一段时间里，都不知道自己有没有血魔的源石技艺方面的天赋。当然就算有也没用，我对这些连一丁点研究的兴趣都没有。\n[name=\"可露希尔\"]  这其实有点……好吧，不是有点，是相当离经叛道。\n[name=\"可露希尔\"]  我只想做我自己喜欢的事情，于是我就好多年没有出过我的小阁楼。\n[name=\"可露希尔\"]  好多次我差点要被家人轰出去，但怎么回事呢，他们到底还是没真的把我赶走。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  你现在说话的语调像是在回味一些亲情。\n[character(name=\"char_007_closre_1#4\")]\n[name=\"可露希尔\"]  大概是吧。当时我是个只能看到自己的小混蛋，现在倒是有那么一点点开始想家了……\n[delay(time=1)]\n[name=\"可露希尔\"]  那时候我和那么几个朋友做了太多大胆又荒唐的事。\n[name=\"可露希尔\"]  我在各种信息数据的角落里留下自己的符号，在一般人认为坚不可摧的机构数据库里嬉闹，宣示自己的存在……\n[name=\"可露希尔\"]  虽然现在看来有点傻，但当时他们喊我“卡兹戴尔信息世界的破坏者”——当然，并没有太多人知道真实的我究竟是谁。\n[character(name=\"char_007_closre_1#4\",focus=-1)]\n[name=\"PRTS\"]  听起来并不是非常正面的称呼。\n[name=\"PRTS\"]  需要我调出卡兹戴尔律法并为你找出适用的条目吗？\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  谢谢，还是不用了。\n[name=\"可露希尔\"]  总之，就在我过着这样的日子的时候，有一天——\n[name=\"可露希尔\"]  没有任何征兆提醒我这天会有什么特别的事情发生，但最特别的事情确实就这么发生了。\n[name=\"可露希尔\"]  有个人拉开了我阁楼的门。我当时把门锁得很死，我都不知道她是怎么做到那样轻柔地就把门打开的。\n[name=\"可露希尔\"]  那是特蕾西娅——我在各种新闻报道上都见过她。没有一个萨卡兹会认错。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  外貌上相似的人是有可能存在的，如果出现和特蕾西娅长相相似的人物……\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  不可能。就算有，我们也不可能认错。\n[name=\"可露希尔\"]  这位大人物突然出现，走进我的阁楼，对我说，她正在寻找一些能够突破传统枷锁的人。她身边还缺一个至关重要的总工程师。\n[name=\"可露希尔\"]  她最开始甚至没和我解释太多，该有的那一套说服的话通通没有。\n[name=\"可露希尔\"]  如果她不是特蕾西娅，搞不好会被当成疯子或者骗子直接被轰出我家的门。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  所以你拒绝了她？\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  不，我答应了。\n[name=\"可露希尔\"]  我答应了。出于一些……永远推着我行动的好奇心。\n[name=\"可露希尔\"]  然后我前往说好的会合地，在那里第一次见到负责来接我的{@nickname}博士。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  我仍然记得你第一次来到这里时的情形。\n[name=\"PRTS\"]  和现在不一样的是，当时面对我的不止是你，Dr.{@nickname}在你身旁。\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  听起来{@nickname}博士像是我们俩见面时在旁守候的监护人。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  有时你会突然沉默，我真的很好奇到底是为什么。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……很多时候，我也并不清楚我保持沉默的原因。\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  算啦。你的系统和程序是个谜，但放心，我会努力搞懂你的。\n[name=\"可露希尔\"]  继续说。在我开始负责罗德岛的工程事务后不久，博士和特蕾西娅来找我，给我看了一样我从没见过的武器。\n[name=\"可露希尔\"]  博士询问我，是否有办法读取里面的固件并恢复它原有的功能。\n[name=\"可露希尔\"]  很难。但我当然成功了。\n[name=\"可露希尔\"]  后来我才知道，博士通过我提供的数据，反向了解到装置的启用机制，甚至将它为我方所用，直接扭转了当时战况上的困难局面。\n[name=\"可露希尔\"]  Ace他们都认为这场战役本来不可能赢，但现实是我们真的赢了。"
+        }
+      ],
+      "description": "PRTS听取可露希尔的招募往事并按名回应特蕾西娅。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C19"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "PRTS听取可露希尔的招募往事并按名回应特蕾西娅。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "本篇候选窗口未见反向知晓或往来证据。",
+          "status": "not_established",
+          "to": "npc_c8a2caad4366c8fa"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 220,
+          "kind": "story",
+          "line": 129,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    }
+  ],
+  "relationship_id": "npc_c0e49cc5a9477cf1|npc_c8a2caad4366c8fa"
+}

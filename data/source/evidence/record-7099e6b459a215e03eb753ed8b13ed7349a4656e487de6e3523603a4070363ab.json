@@ -1,0 +1,15 @@
+{
+  "id": "import:char_199_yak|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【风雪过境】\n魏斯：……\n角峰：……博士。\n角峰：我们两个虽然有身为恩希欧迪斯老爷家臣的立场，但也确实是罗德岛的一员。\n魏斯：在许多事情上……很抱歉。\n角峰：我和讯使不会厚着脸皮奢求原谅，只希望能允许我们未来还能去罗德岛探望恩希亚小姐。\nSharp：……博士，怎么办？\n选项：\n1：你们也不好做，可以理解。\n2：……\n3：我凑巧去佩尔罗契家做客，和你们有什么关系？\n分支条件（原选项编号）：1\nSharp：这件事确实情有可原，我会在报告里阐明。\nSharp：至于上面怎么决定，我就不知道了。\n分支条件（原选项编号）：2\nSharp：博士，我知道你没有责怪他们。\nSharp：但假装没听到并不高明。\n分支条件（原选项编号）：3\nSharp：并且凑巧解决了一些和恩希欧迪斯有关的事件。\nSharp：如果你想这么给事件定性，那么，交给凯尔希医生的报告就要多花点功夫了。\nSharp：我是不会帮你的。\n分支条件（原选项编号）：1 / 2 / 3\n魏斯：……谢谢你们，博士，Sharp队长。\n角峰：谢谢你们。",
+  "relationship_id": "char_199_yak|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 480,
+      "kind": "story",
+      "line": 450,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st04.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

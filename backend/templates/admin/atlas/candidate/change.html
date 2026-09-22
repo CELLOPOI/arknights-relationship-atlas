@@ -1,0 +1,22 @@
+{% extends "admin/atlas/editorial/base.html" %}
+{% block extrastyle %}{{ block.super }}
+<style>
+.candidate-diff { width: 100%; table-layout: fixed; }
+.candidate-diff th:first-child { width: 12%; }
+.candidate-diff pre { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; }
+</style>
+{% endblock %}
+{% block workspace %}
+{% if original.change_set_id %}<p><a href="{% url 'admin:atlas_changeset_change' original.change_set_id %}">返回修订：{{ original.change_set.title }}</a> · {{ original.change_set.get_status_display }}</p>{% endif %}
+<p>基线：{{ original.base_release_id }}；候选版本：{{ original.version }}。保存候选不会修改正式资料。</p>
+<form method="post">{% csrf_token %}{{ form.as_p }}
+{% if sources %}<h2>证据来源</h2><p>逐条填写来源，可保留原文所在行号和版本；未使用的新行留空。</p>
+{{ sources.management_form }}{{ sources.non_form_errors }}
+{% for source_form in sources %}<fieldset class="module aligned"><legend>来源 {{ forloop.counter }}</legend>{{ source_form.as_p }}</fieldset>{% endfor %}{% endif %}
+{% if can_change %}<button type="submit">保存候选</button>{% endif %}
+</form>
+<h2>已保存的差异</h2>
+{% if changes %}<table class="candidate-diff diff"><thead><tr><th>字段</th><th>基线内容</th><th>候选内容</th></tr></thead><tbody>{% for change in changes %}<tr><th>{{ change.label }}</th><td data-label="基线内容"><pre>{{ change.before }}</pre></td><td data-label="候选内容"><pre>{{ change.after }}</pre></td></tr>{% endfor %}</tbody></table>{% else %}<p>暂无已保存的内容变化。</p>{% endif %}
+{% if can_adopt %}<form method="post" action="{% url 'admin:atlas_candidate_adopt' original.pk %}">{% csrf_token %}<input type="hidden" name="version_token" value="{{ original.version }}"><button type="submit">创建修订并加入此候选</button></form>{% endif %}
+{% if can_export and not original.change_set_id %}<form method="post" action="{% url 'admin:atlas_candidate_export' original.pk %}">{% csrf_token %}<input type="hidden" name="version_token" value="{{ original.version }}"><p>导出只含已保存的资料字段和基线清单，不包含私有备注。导出文件不能直接覆盖已发布资料。</p><button type="submit">导出候选备份</button></form>{% endif %}
+{% endblock %}

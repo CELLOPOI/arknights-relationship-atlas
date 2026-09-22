@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 953,
+          "line": 912,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "quote": "[name=\"？？？\"] 我做担保。\n[Character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"] ……麟青砚。\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_npc_039_1\",fadetime=1,block=true)]\n[delay(time=2)]\n[character(name=\"avg_1021_kroos2_1#2$1\")]\n[name=\"克洛丝\"] 惊蛰小姐！\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 久违了，克洛丝。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 你身边的那位是新的干员吗？\n[character(name=\"avgnew_455_nothing_1#11$1\")]\n[name=\"乌有\"] 在、在下乌有，幸会，惊蛰小姐。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 嗯。\n[Character(name=\"avg_npc_297_1#1$1\")]\n[name=\"左乐\"] ……大理寺似乎不应插手司岁台事务。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 只是以天师府传人身份，劝师伯给各方留一丝余地。\n[Character(name=\"avg_npc_297_1#1$1\")]\n[name=\"左乐\"] 难怪宁小姐始终按兵不动……原来是你先去说服了那位白天师。\n[Character(name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"] ……可天师府何时能为此事做主了？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 自然不能。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 只是眼下，司岁台恐怕也不能妄下定夺。\n[Character(name=\"avg_npc_297_1#4$1\")]\n[name=\"左乐\"] 什么？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 太傅已至尚蜀。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 司岁台秉烛人左乐，礼部左侍郎宁辞秋，肃政院副监察御史太合，尚蜀知府梁洵，以及我本人，都须在今夜子时之前，回到梁府。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 等候太傅指令。\n[Character(name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"] ……\n[Character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"] ……遵命。"
+        }
+      ],
+      "description": "太合以麟青砚之名识别惊蛰并响应她传达的指令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E29"
+          ],
+          "from": "char_306_leizi",
+          "reason": "太合以麟青砚之名识别惊蛰并响应她传达的指令。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        },
+        {
+          "evidenceIds": [
+            "E29"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太合以麟青砚之名识别惊蛰并响应她传达的指令。",
+          "status": "supported",
+          "to": "char_306_leizi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 953,
+          "kind": "story",
+          "line": 912,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 185,
+          "line": 179,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_leizi_1_1.txt",
+          "quote": "三人转过一个山角，视野陡然开阔。\n太合与解真顺着麟青砚的视线看过去，悬崖百丈，云雾扼断前路，一棵瘦直的松树傲然挺立，露出积雪也掩藏不住的翠色。\n[charslot(slot=\"m\",name=\"avg_npc_039_1\",focus=\"m\")]\n[name=\"麟青砚\"]一年前，我刚从天师府来到大理寺，虞少卿是我最为敬慕的前辈。\n[name=\"麟青砚\"]他要返乡，我坚持送他一程，他绕路带我来爬了这座山。\n[charslot(slot=\"m\",name=\"avg_npc_041\",focus=\"m\")]\n[name=\"解真\"]难怪你今天来得比我和太合都早。"
+        }
+      ],
+      "description": "太合、解真与麟青砚三人一同登山，当面讨论虞少卿案。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_306_leizi",
+          "reason": "太合、解真与麟青砚三人一同登山，当面讨论虞少卿案。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太合、解真与麟青砚三人一同登山，当面讨论虞少卿案。",
+          "status": "supported",
+          "to": "char_306_leizi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_be0c1b2149c67cd3.json",
+      "sources": [
+        {
+          "endLine": 185,
+          "kind": "story",
+          "line": 179,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_leizi_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "惊蛰所述时段",
+      "title": "惊蛰"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 190,
+          "line": 143,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_beg.txt",
+          "quote": "[name=\"麟青砚\"]我知道你有很多话想说，但是当务之急只有一件。\n[name=\"麟青砚\"]你不是要去见真龙吗，我来帮你。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#8$1\")]\n[name=\"“禁军小教头”\"]麟青砚？你应该在狱中！\n[charslot(slot = \"m\", name = \"avg_npc_1644_1#1$1\")]\n[name=\"麟青砚\"]但我现在站在你面前。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#8$1\")]\n[name=\"“禁军小教头”\"]手下败将，你输给过我一次。这一次，你们两个，都别想走。\n[charslot(slot = \"m\", name = \"avg_npc_1644_1#14$1\")]\n[name=\"麟青砚\"]放心，我也没有打算和你单挑。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1618_1#8$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"解真\"]虽说是我提议要来的……\n[name=\"解真\"]可招惹到的这个对手……不好对付啊。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#7$1\")]\n[name=\"“禁军小教头”\"]还有同伙……\n[name=\"“禁军小教头”\"]是你将她从大狱中带出来的……\n[charslot(slot = \"m\", name = \"avg_npc_1618_1#1$1\")]\n[name=\"解真\"]用了点粗暴手段，但尽可能避免伤及无辜了。\n[name=\"解真\"]债多了不愁，我有那么多罪责难逃，也不差这一桩。等这边事了，我投案服法便是。\n[charslot(slot = \"m\", name = \"avg_npc_1618_1#5$1\")]\n[name=\"解真\"]只是当下，该办的事，该见的人，都需要一个结果。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#7$1\")]\n[name=\"“禁军小教头”\"]肃政院御史，大理寺少卿，协同犯上作乱……我从未见过如此荒唐的场面。\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"？？？\"]既然已经足够荒唐，那便再算我一个吧。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_299_1#6$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"太合\"]小教头，别来无恙。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#6$1\")]\n[name=\"“禁军小教头”\"]太合？！你不是在玉门受了重伤——\n[charslot(slot = \"m\", name = \"avg_npc_299_1#2$1\")]\n[name=\"太合\"]是……伤得有点重了。身上这点功夫，还有没有原来三成都不好说。\n[name=\"太合\"]所以今天，还是希望尽可能不要动手的。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#1$1\")]\n[name=\"“禁军小教头”\"]为什么，连你也要参与进来……\n[charslot(slot = \"m\", name = \"avg_npc_299_1#1$1\")]\n[name=\"太合\"]麟少卿来得突然，我还来不及了解事情全貌。但二位都是我最敬佩的同僚，我也只能以故友身份，劝二位留一丝和谈的余地。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#7$1\")]\n[name=\"“禁军小教头”\"]你们执意要做这般大逆不道之事，还指望我视若不见吗？\n[charslot(slot = \"m\", name = \"avg_npc_299_1#1$1\")]\n[name=\"太合\"]“取忠舍义”……但谁说，这二者只能选其一呢。"
+        }
+      ],
+      "description": "太合以故友身份当面劝麟青砚留下和谈余地。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J11"
+          ],
+          "from": "char_306_leizi",
+          "reason": "太合以故友身份当面劝麟青砚留下和谈余地。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        },
+        {
+          "evidenceIds": [
+            "J11"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太合以故友身份当面劝麟青砚留下和谈余地。",
+          "status": "supported",
+          "to": "char_306_leizi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 190,
+          "kind": "story",
+          "line": 143,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_306_leizi|npc_3fa3fadab4354b64"
+}

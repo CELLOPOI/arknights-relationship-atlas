@@ -1,0 +1,302 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 283,
+          "line": 281,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_crosly_1_1.txt",
+          "quote": "[name=\"柳德米拉\"]塔露拉呢？\n[charslot(slot = \"m\", name = \"avg_npc_328_1$1\")]\n[name=\"雷德\"]……算了，不告诉你估计又要打一场。她也在，九看着她。"
+        }
+      ],
+      "description": "柳德米拉明确知晓塔露拉，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "柳德米拉具名询问塔露拉并回想自己曾观察她。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "塔露拉未在该场景出现，本篇窗口没有其对柳德米拉的独立证据。",
+          "status": "not_established",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_6810d6ab10488a9b.json",
+      "sources": [
+        {
+          "endLine": 283,
+          "kind": "story",
+          "line": 281,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_crosly_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇杂货铺重逢场景",
+      "title": "弑君者"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 92,
+          "line": 69,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-08_end.txt",
+          "quote": "[name=\"弑君者\"]   塔露拉。\n[name=\"弑君者\"]   一切都已安排妥当。\n[Background(screenadapt=\"coverall\", fadetime=0, block=true)]\n[Character(name=\"char_011_talula_1\",fadetime=1)]\n[name=\"塔露拉\"]   ——\n[name=\"塔露拉\"]   该动身了。\n[Character(name=\"char_011_talula_1\", name2=\"char_1502_crowns\", focus=2)]\n[name=\"弑君者\"]   ……\n[Character(name=\"char_011_talula_1\", name2=\"char_1502_crowns\", focus=1)]\n[name=\"塔露拉\"]   ——说。\n[Character(name=\"char_011_talula_1\", name2=\"char_1502_crowns\", focus=2)]\n[name=\"弑君者\"]   进攻龙门对于整合运动，确实有战略性的意义。\n[name=\"弑君者\"]   拿下龙门，整合运动能获得种种优势。\n[name=\"弑君者\"]   但是风险与代价都很高。\n[name=\"弑君者\"]   ——为什么那么执着？\n[Character(name=\"char_011_talula_1\", name2=\"char_1502_crowns\", focus=1)]\n[name=\"塔露拉\"]   ————\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Background(screenadapt=\"coverall\", image=\"bg_lungmen_m\",x=0, y=-20, xScale=1.1, yScale=1.1, fadetime=0)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[backgroundTween(xFrom=0, yFrom=-20, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=17, block=false)]\n[name=\"塔露拉\"]   你看见那座建筑物了吗。\n[name=\"弑君者\"]   我看得见。"
+        }
+      ],
+      "description": "弑君者与塔露拉当面讨论进攻龙门。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "弑君者与塔露拉当面讨论进攻龙门。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "弑君者与塔露拉当面讨论进攻龙门。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_e13e294bac851642.json",
+      "sources": [
+        {
+          "endLine": 92,
+          "kind": "story",
+          "line": 69,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "异卵同生"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 455,
+          "line": 451,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "quote": "[name=\"弑君者\"]  我很弱。所以我要变强。\n[name=\"弑君者\"]  在我要离开叙拉古去乌萨斯给爸报仇的时候，老师拦住了我，说我很弱，做不到。\n[name=\"弑君者\"]  我以为他是在骗我，只是不想我回去报仇，现在我才明白他是对的。\n[name=\"弑君者\"]  我没有塔露拉那种脑子，我也没有老师那种手法，我太弱了。\n[name=\"弑君者\"]  就连我一直以来相信的事业……都被人利用了。你们知道了吧？塔露拉背叛了我们。不管有没有内情，整合运动已经完蛋了。"
+        }
+      ],
+      "description": "弑君者主动批评塔露拉背叛。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E65"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "弑君者主动批评塔露拉背叛。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 455,
+          "kind": "story",
+          "line": 451,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 86,
+          "line": 60,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_05_beg.txt",
+          "quote": "[name=\"柳德米拉\"]现在或许是时候回去了，我想要去看看她。或许她可以再给我一点建议……可以让我变得更强。\n[charslot(slot = \"r\", name = \"char_1002_nsabr_2\",focus=\"r\")]\n[name=\"整合运动成员\"]你的老师，是个什么样的人？\n[charslot(slot = \"l\", name = \"char_1502_crowns\",focus=\"l\")]\n[name=\"柳德米拉\"]她来自一个叙拉古的家族。她是一个强大的战士，也是我见过最有智慧的人……她教会了我许多。\n[charslot(slot = \"r\", name = \"char_1002_nsabr_2\",focus=\"r\")]\n[name=\"整合运动成员\"]叙拉古，那还有好长一段路吧。\n[charslot(slot = \"l\", name = \"char_1502_crowns\",focus=\"l\")]\n[name=\"柳德米拉\"]兄弟，看看雪地上的这堆篝火。曾经，它可以点燃感染者的愤怒，点燃整合运动的理想，烧遍整个乌萨斯。\n[name=\"柳德米拉\"]但是现在，它只够你和我取暖。\n[name=\"柳德米拉\"]听我最后跟你说——忘记塔露拉，忘记切尔诺伯格，忘记龙门，忘记整合运动，忘记我们这些人。选择了离开，就不要再去想了。\n[name=\"柳德米拉\"]甚至，忘掉身上的结晶吧。也许全忘掉了，你就能回家了。\n[charslot(slot = \"r\", name = \"char_1002_nsabr_2\",focus=\"r\")]\n[name=\"整合运动成员\"]唉……\n[name=\"整合运动成员\"]虽然我们都选择了离开，但我一直觉得你和我们是不同的……\n[name=\"整合运动成员\"]你看上去懂很多东西，也读过很多书。有时候我觉得，你和大尉、塔露拉他们才更像一类人。\n[charslot(slot = \"l\", name = \"char_1502_crowns\",focus=\"l\")]\n[name=\"柳德米拉\"]……\n[charslot(slot = \"r\", name = \"char_1002_nsabr_2\",focus=\"r\")]\n[name=\"整合运动成员\"]唉……我的意思是，小时候我的爷爷就常说，读书太多的人，都容易钻牛角尖。\n[name=\"整合运动成员\"]总之……算了，再见，弑君者，祝你好运。你看上去确实需要一些好运。\n[dialog]\n[PlaySound(key=\"$d_avg_snowbootwalk\", volume=1)]\n[charslot(slot = \"r\", name = \"char_1002_nsabr_2\",afrom=1,ato=0,duration=1.5,posfrom = \"0,0\", posto = \"200,0\")]\n[delay(time=2.5)]\n[charslot(slot = \"l\", name = \"char_1502_crowns\",focus=\"l\")]\n[name=\"柳德米拉\"]我们不会再见了，兄弟。"
+        }
+      ],
+      "description": "柳德米拉与塔露拉有明确整合运动时期的持续互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "柳德米拉与塔露拉有明确整合运动时期的持续互动。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "柳德米拉与塔露拉有明确整合运动时期的持续互动。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 86,
+          "kind": "story",
+          "line": 60,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "揭幕者们"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 302,
+          "line": 169,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_06-01.txt",
+          "quote": "[name=\"萨沙\"]  ……\n[name=\"萨沙\"]  没有。\n[name=\"萨沙\"]  但我们可以一起活下去。\n[name=\"伊诺\"]  你要做什么？\n[name=\"萨沙\"]  这是我从矿场偷来的源石，本来想要卖掉换些吃的。\n[name=\"伊诺\"]  萨沙！\n[CameraShake(duration=0.3, xstrength=15, ystrength=10, vibrato=30, randomness=30, fadeout=false)]\n[name=\"萨沙\"]  唔！\n[delay(time=0.5)]\n[name=\"萨沙\"]  这样，我们就都是感染者了。\n[name=\"萨沙\"]  让我们一起活下去。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[name=\"？？？\"]  那些事情？我不会过问。\n[name=\"？？？\"]  你所做的一切都没有理由。你不是为了什么理由才活在大地上的。\n[name=\"？？？\"]  不，你根本不需要谁去拯救……\n[name=\"？？？\"]  选一个你喜欢的名字吧。\n[name=\"？？？\"]  这个？好。\n[name=\"？？？\"]  梅菲斯特……\n[name=\"？？？\"]  梅菲斯特。从今以后，你就是梅菲斯特。你和以前的你再无瓜葛。\n[name=\"？？？\"]  我不相信你。我没有权力相信你。能相信你的从来就只有你自己。\n[name=\"？？？\"]  你的所作所为不能一笔勾销，你会永远背负着你做过的一切，哪怕你忘记了，哪怕你不能理解你做了什么。\n[name=\"？？？\"]  你做的一切，你经历的一切，都该成为你的薪柴。它们要逼迫着你，要你内心的火继续燃烧下去……\n[name=\"？？？\"]  直到整片大地都解放，直到你抛弃所有别人给你的东西，直到你终于理解你自己。\n[name=\"？？？\"]  到那时候，你连这个名字都可以抛弃。是去是留是生是死，你自己选。\n[name=\"？？？\"]  梅菲斯特，我不能改变你的理想。如果你没有，就去找它。我们自己拯救自己。\n[name=\"？？？\"]  我是谁？这不重要。\n[name=\"？？？\"]  想知道怎么叫我？\n[name=\"？？？\"]  ……塔露拉。\n[Dialog]\n[Character(name=\"char_011_talula_1\",fadetime=2,block=true)]\n[delay(time=2)]\n[name=\"塔露拉\"]  我只是个反抗者，一个普通的人。我谁也不是。只是现在，你可以叫我塔露拉。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n而塔露拉没有和我说太多。\n她抱紧了我。在我的背上叩了三下。\n塔露拉相信我。叶莲娜，博卓卡斯替，柳德米拉。他们都相信我。\n我本以为我可以把在那座城市度过的童年抛到脑后。\n只是，事情很快就变了。从那个村庄的事情开始。\n那是一桩惨剧。但为什么这种惨剧会让她变成这样？\n为什么变成这样？\n[Dialog]\n[Background(image=\"bg_windows\", width=1, height=1,screenadapt=\"coverall\")]\n[Dialog]\n[Character]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]  你要我做什么，我就会做什么……\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_011_talula_1\",focus=2)]\n[name=\"塔露拉\"]  没关系的。只要你想做，就去做吧。\n[name=\"塔露拉\"]  我允许了。毕竟你是梅菲斯特。\n[Character(name=\"char_1507_Mephisto_1#2\",name2=\"char_011_talula_1\",focus=1)]\n[name=\"梅菲斯特\"]  可是，你以前说过……\n[Character(name=\"char_1507_Mephisto_1#2\",name2=\"char_011_talula_1\",focus=2)]\n[name=\"塔露拉\"]  那是几年前的事情了。\n[name=\"塔露拉\"]  随着我们事业的进步，有些事情会自然而然地改变。\n[name=\"塔露拉\"]  如果不跟上形势，我们就会被淘汰。\n[name=\"塔露拉\"]  所以，我们和我们的感染者同胞，必须争取一个未来。\n[name=\"塔露拉\"]  所有人都可以为了这个理想牺牲。\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_011_talula_1\",focus=1)]\n[name=\"梅菲斯特\"]  我可以信任你，对吧，领袖？\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_011_talula_1\",focus=2)]\n[name=\"塔露拉\"]  对。因为我是塔露拉。\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_011_talula_1\",focus=1)]\n[name=\"梅菲斯特\"]  我会做到的！\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_011_talula_1\",focus=2)]\n[name=\"塔露拉\"]  你一定会，我相信你。\n[name=\"塔露拉\"]  没有你，我们做不到。你什么都可以做，也什么都可以做到。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]  进来吧。\n[Dialog]\n[Character]\n[Character(name=\"char_1508_Faust_1#1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"浮士德\"]  ……\n[Character(name=\"char_011_talula_1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"塔露拉\"]  你应该全都看见了。\n[Character(name=\"char_011_talula_1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  你是谁？\n[Character(name=\"char_011_talula_1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"塔露拉\"]  当然是塔露拉。\n[Character(name=\"char_011_talula_1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  以前的她……不是你这样。\n[Character(name=\"char_011_talula_1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"塔露拉\"]  塔露拉只是个名字。塔露拉只是塔露拉。\n[name=\"塔露拉\"]  帮助他吧。梅菲斯特需要你的帮助。梅菲斯特需要你去让他有价值。他只信任你我。\n[Character(name=\"char_011_talula_1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  塔露拉绝不会这样，你在利用他对你的信任！\n[Character(name=\"char_011_talula_1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"塔露拉\"]  我们都没有选择的权力。\n[Character(name=\"char_011_talula_1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……\n[Character(name=\"char_011_talula_1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"塔露拉\"]  你会为他做到的。一切。\n[Character]\n[Dialog]\n[Background]\n[name=\"塔露拉\"]  你想不想看着他死？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  你没意识到吗？在路过那个村子之后，塔露拉就完全变了！她彻底变了！\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"梅菲斯特\"]  我知道啊。\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  那为什么还这么做？\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"梅菲斯特\"]  除了你和塔露拉姐姐，我谁也不会信。\n[name=\"梅菲斯特\"]  我也不想选择。\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……\n[Character(name=\"char_1507_Mephisto_1#2\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"梅菲斯特\"]  浮士德，我们去哪？\n[Character(name=\"char_1507_Mephisto_1#2\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……我……\n[Character(name=\"char_1507_Mephisto_1#2\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"梅菲斯特\"]  浮士德，告诉我。我们该怎么办？\n[Character(name=\"char_1507_Mephisto_1#2\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……我们活下去。\n[Character(name=\"char_1507_Mephisto_1#2\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"梅菲斯特\"]  活着难道不痛苦吗？\n[Character(name=\"char_1507_Mephisto_1#2\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  很痛苦。"
+        }
+      ],
+      "description": "弑君者与塔露拉有明确整合运动时期互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "弑君者与塔露拉有明确整合运动时期互动。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "弑君者与塔露拉有明确整合运动时期互动。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 302,
+          "kind": "story",
+          "line": 169,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_06-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 156,
+          "line": 151,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-06_beg.txt",
+          "quote": "[name=\"弑君者\"]  塔露拉。\n[name=\"塔露拉\"]  ……\n[name=\"弑君者\"]  要怎么做？\n[name=\"塔露拉\"]  ————也许他们能自天灾中幸存。\n[name=\"塔露拉\"]  漏网之人，你去处理。\n[name=\"弑君者\"]  是。"
+        }
+      ],
+      "description": "塔露拉直接向弑君者下令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "塔露拉直接向弑君者下令。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "塔露拉直接向弑君者下令。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_f55d04d68de9988e.json",
+      "sources": [
+        {
+          "endLine": 156,
+          "kind": "story",
+          "line": 151,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格撤离期间",
+      "title": "黑暗时代·下"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 720,
+          "line": 579,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-13_beg.txt",
+          "quote": "[name=\"弑君者\"]……都快忘记你们的行事风格了。\n[charslot(slot = \"m\", name = \"avg_npc_328_1#1$1\",focus=\"m\")]\n[name=\"雷德\"]不必在意乌萨斯的士兵。重点是，我并没有看到这里有研究员。\n[charslot(slot = \"m\", name = \"avg_npc_2249_1#3$1\",focus=\"m\")]\n[name=\"西尔卡\"]这种机密场所，集团军一定会布置应急撤离预案，很可能一听到我们的动静，研究员们就先行离开了。\n[charslot(slot=\"m\",name=\"avg_npc_2247_1#1$1\",focus=\"m\")]\n[name=\"塔露拉\"]收集资料和线索。这么短时间，他们不可能把所有证据都带走。\n[name=\"塔露拉\"]各位，我需要你们的帮助。\n[charslot(slot=\"m\",name=\"avg_npc_2225_1#1$1\",focus=\"m\")]\n[name=\"图林\"]好，大家分头行动，有什么发现及时汇报——要抓紧时间了。\n[Dialog]\n[charslot]\n[stopmusic(fadetime=2)]\n矿工队伍集体应允了一声，从原地散开。\n可露希尔远离了人群，她看着刚才发生战斗的地面——焦炭覆盖着焦炭。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#13$1\",focus=\"m\")]\n[name=\"可露希尔\"]（小声）面对她是这种感觉吗？阿米娅……\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#1$1\",focus=\"m\")]\n[name=\"瑭雅\"]可露希尔，你在说什么？\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#2$1\",focus=\"m\")]\n[name=\"可露希尔\"]……啊，不，没什么。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]我们也去帮忙吧，瑭雅。你想知道的秘密很可能就在这里，说不定还有针对那种怪病的特效药呢！\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#9$1\",focus=\"m\")]\n[name=\"瑭雅\"]嗯，要是能对我的妹妹——\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_glass_break\", volume=1)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_2247_1#4$1\",focus=\"m\")]\n[name=\"塔露拉\"]什么？\n[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_1969_1#1$1\",focus=\"m\")]\n[name=\"惊愕的矿工\"]图林、图林，不……\n[charslot(slot=\"m\",name=\"avg_npc_2225_1#9$1\",focus=\"m\")]\n[name=\"图林\"]怎么了？不要着急，慢慢说。\n[charslot(slot=\"m\",name=\"avg_npc_1969_1#1$1\",focus=\"m\")]\n[name=\"惊愕的矿工\"]发发慈悲……我、我……\n[charslot(slot = \"m\", name = \"avg_npc_328_1#1$1\",focus=\"m\")]\n[name=\"雷德\"]……我去看。\n[Dialog]\n[charslot(duration=0.7)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_gen_doorclose\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[charslot]\n[Background(image=\"bg_ibindoor\",screenadapt=\"coverall\", xScale=1.5, yScale=1.5,x=-300)]\n[curtain(direction =2,fillfrom = 0.1,fillto = 0.1, grad=true, fadetime=0.1)]\n[curtain(direction =6,fillfrom = 0.6,fillto = 0.6, grad=true, fadetime=0.1)]\n[Delay(time=0.5)]\n[Blocker(a=0.3, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n雷德从失语的矿工身边走过，推开了他身后的门。\n铁锈的气味扑面而来……有点像血，又像是铁浸了水，又在高温里烤过的那种焦锈味，还混合着别的——\n[name=\"雷德\"]……拿一个手电筒给我。\n[Dialog]\n[playsound(key=\"$d_avg_button\",volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[name=\"雷德\"]……\n[name=\"雷德\"]这？！\n[Dialog]\n[playsound(key=\"$d_avg_waxoildrop\", volume=1)]\n[bgeffect(name=\"$eb_bloodfalling\",layer=2,x=250)] \n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1.5)]\n人们顺着光的方向看去，第一眼看到的是一个巨大的罐子，玻璃的，碎了大半……里面泡着的东西就这么流了出来。\n滴答、滴答……它们淌在地上，和泥土、碎石、干涸的黑色血块糊在一起。\n那是脚趾，指缝里还留着泥污；那是脊骨，或许是一个佝偻的老人；那是——\n一个物体，很轻地一下撞在靴尖上，停住了。\n雷德低下头——发胀、破损，半边脸颊紧贴着地面，粘连着灰白色的胶体，两个幽深的黑色空洞，正直勾勾地对着他。\n他闭上眼睛，没有说话。可他总觉得有什么东西正从洞里往外看他。看他站着，看他喘气，看着他活。\n直到有人呕了出来。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[charslot]\n[bgeffect]\n[Background(image=\"bg_labcorridor\",screenadapt=\"coverall\",block=true)]\n[curtain]\n[Delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#13$1\",focus=\"m\")]\n[name=\"瑭雅\"]……呃……究竟、究竟是什么？！\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#12$1\",focus=\"m\")]\n[name=\"瑭雅\"]……怎么会，呃……\n[charslot(slot=\"m\",name=\"avg_npc_080\",focus=\"m\")]\n[name=\"整合运动成员\"]（哭泣）呜呕……咳、咳咳——\n[name=\"整合运动成员\"]（哭泣）求求你了，雷德，关掉……\n[Dialog]\n[charslot]\n同伴的声音让雷德一怔，握住手电筒的手猛地一颤，强光射向更深的地方……那里，还有更多的罐子。\n有的空了，像被人擦过、洗过、收拾过——连底下的托架都擦得锃亮，反着光。\n有的仍然容纳着什么。\n在那些油状的液体里，闪烁着微光的源石结晶，从破碎的躯壳上长出来，一簇一簇，就像种在沙壤里的灌木。\n[charslot(slot=\"m\",name=\"avg_npc_080\",focus=\"m\")]\n[CameraShake(duration=0.5, xstrength=12, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"整合运动成员\"]（痛哭）混蛋雷德，去你的……我去你的！\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovement_heavy1\", volume=1)]\n[charslot(duration=0.5)]\n[Delay(time=0.7)]\n他嚎哭着去抢夺雷德的手电，用尽力气也掰不开那僵硬麻木的手指，晃动的光圈划过整个研究所。\n其他人围上来，从后面抱住失去理智的同伴，往后拖。拖不动。又上来几个。大家一起拖着一个人，拖得他脚在地上蹭，蹭出两道印子。\n更多的人脱力坐在地上，无声地看着眼前的争斗，任凭泪水摔落。\n[stopmusic(fadetime=2)]\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#13$1\",focus=\"m\")]\n[name=\"瑭雅\"]那……那又是什么……\n[Dialog]\n[charslot]\n神情呆滞的人们转过头，手电筒的光随之落在另一处地方。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#6$1\",focus=\"m\")]\n[name=\"可露希尔\"]杂物？\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#5$1\",focus=\"m\")]\n[name=\"弑君者\"]……或者说，遗物。\n[Dialog]\n[charslot]\n[playMusic(intro=\"$distressed_intro\", key=\"$distressed_loop\", volume=0.6)]\n[focusout(duration=1.5, type=\"bg\", from=0, to=1, block=true)]\n铺盖卷，破碗，啃了一半、硬得像石头的黑面包，甚至还有金制的假牙——它们被堆在一个角落里。\n脚步声在靠近，杂物堆上映着一个女人瘦弱的影子。\n瑭雅跪在杂物堆的前面，双手翻动着这些冰冷的杂物——她看见了，认出了……绝不会认错的那团布。\n曾经裹着孩子的襁褓，红色布料的边角被洗得发白，落着一层薄薄的新灰——\n这是妹妹的。\n她捧着它，像是捧着一个活物，缓缓贴近自己的脸颊。\n空荡荡的襁褓，还残留着洗涤剂与汗水混杂的味道。她把脸埋了进去，肩膀一耸一耸，那团布上逐渐洇湿了一小块。\n[Dialog]\n[PlaySound(key=\"$d_avg_cloakmovement\", volume=1)]\n[name=\"瑭雅\"]……妹妹……我可怜的妮娜、小妮娜……\n[Dialog]\n[charslot]\n瑭雅不停地呼唤妹妹的名字，仿佛这样妮娜就会一直陪在身边。可她的喉头含满了唾液，眼泪滑落在嘴角，只能吐出喑哑的浊音……\n[Dialog]\n[focusout(duration=1.5, type=\"bg\", from=1, to=0, block=true)]\n[Delay(time=1)]\n[name=\"塔露拉\"]……\n塔露拉没有转身，只是攥紧了垂着的双手，攥得整条小臂都在颤动。\n墙上映着她的影子，肩头起起伏伏，像是压着什么极重的东西。\n忽然，肩头沉了下去——一只粗糙有力的手抚上了她的肩膀。"
+        }
+      ],
+      "description": "众人在研究设施局部同场协作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "双方直接对话、明确共同参与，或有具体既往互动。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "双方直接对话、明确共同参与，或有具体既往互动。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 720,
+          "kind": "story",
+          "line": 579,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒行动期间",
+      "title": "相变临界"
+    }
+  ],
+  "relationship_id": "char_1502_crosly|npc_69395c50206899b0"
+}

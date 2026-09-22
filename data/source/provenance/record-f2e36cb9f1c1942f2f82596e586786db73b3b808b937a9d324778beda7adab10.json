@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 780,
+          "line": 775,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_slchan_2_1.txt",
+          "quote": "[name=\"薇尔丽芙\"]那么，我代表拉特兰欢迎你，恩希亚小姐。\n[charslot(slot=\"m\",name=\"avgnew_173_slchan_1#1$1\")]\n[name=\"崖心\"]谢谢。\n[name=\"崖心\"]啊，不过在那之前，我需要先去附近的罗德岛办事处一趟。\n[charslot(slot=\"m\",name=\"avgnew_173_slchan_1#10$1\")]\n[name=\"崖心\"]蒂亚娜的去处得请他们帮我安排，还要请博士给老哥带个口信。"
+        }
+      ],
+      "description": "薇尔丽芙与崖心连续交谈，听到其要请博士带口信，支持获知此人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "薇尔丽芙与崖心连续交谈，听到其要请博士带口信，支持获知此人。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_0ce6ed6bdcaa7258"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_031e68fa4da28aab.json",
+      "sources": [
+        {
+          "endLine": 780,
+          "kind": "story",
+          "line": 775,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_slchan_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "崖心"
+    }
+  ],
+  "relationship_id": "npc_0ce6ed6bdcaa7258|npc_b99957887950ebfd"
+}

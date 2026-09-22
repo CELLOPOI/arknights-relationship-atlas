@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 639,
+          "line": 636,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_malist_1_1.txt",
+          "quote": "[name=\"至简\"]（小声）……啧，这话好难为情，我当时到底是怎么说出口的。\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"m\")]\n[name=\"至简\"]那个，阿芙朵嘉，等回了罗德岛之后你去问博士吧。\n[name=\"至简\"]我要先好好睡上一觉了。"
+        }
+      ],
+      "description": "鸿雪知道至简所指的罗德岛博士；反向未由本篇建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_4055_bgsnow",
+          "reason": "鸿雪听到至简让她回舰后去问博士，能够识别这一具体人物。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本篇已读窗口没有建立博士对鸿雪的反向知晓。",
+          "status": "not_established",
+          "to": "char_4055_bgsnow"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_56b0dd5bc7e9e890.json",
+      "sources": [
+        {
+          "endLine": 639,
+          "kind": "story",
+          "line": 636,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_malist_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "湖畔谈话及其所指的返舰后安排",
+      "title": "至简"
+    }
+  ],
+  "relationship_id": "char_4055_bgsnow|npc_b99957887950ebfd"
+}

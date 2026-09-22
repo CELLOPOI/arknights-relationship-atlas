@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 28,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_02_end.txt",
+          "quote": "[name=\"费尔南\"]哎呀，这就是莱茵生命最年轻的主任，克丽斯腾女士曾经的左膀右臂，生态园和园区工程部的双料负责人——娜斯提主任吗？\n[charslot]\n[charslot(slot = \"r\", name = \"avg_4212_nasti_1#1$1\")]\n[charslot(slot = \"l\", name = \"avg_npc_2037_1#1$1\",isblock=true)]\n[charslot(slot=\"r\", name = \"avg_4212_nasti_1#1$1\",focus=\"r\",isblock=true)]\n[name=\"娜斯提\"]……梅希亚，这就是你说的“后续事宜”？\n[charslot(slot = \"l\", name = \"avg_npc_2037_1#6$1\",focus=\"l\")]\n[name=\"梅希亚\"]呃，是的。讲解员可以帮工程部提高沟通效率，也能加大对莱茵生态园的宣传力度，避免莱茵再次受到预展时的冷遇。\n[charslot(slot=\"r\", name = \"avg_4212_nasti_1#11$1\",focus=\"r\")]\n[name=\"娜斯提\"]……\n[charslot]\n[charslot(slot = \"m\", name = \"avg_4214_cairn_1#3$1\")]\n[name=\"费尔南\"]娜斯提主任，我听说园区上空飘浮的种植单元并未装配螺旋桨，而是利用咒言产生升力？\n[charslot(slot=\"m\", name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]不完全是，不以声音为媒介的咒言需要与机械结合才能维持动力。"
+        }
+      ],
+      "description": "响石以费尔南身份单向谈及克丽斯腾。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_4214_cairn",
+          "reason": "费尔南明确称娜斯提为克丽斯腾女士曾经的左膀右臂。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "克丽斯腾未在场。",
+          "status": "not_established",
+          "to": "char_4214_cairn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 28,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "园区采访",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "char_4214_cairn|npc_ebd7747563277517"
+}

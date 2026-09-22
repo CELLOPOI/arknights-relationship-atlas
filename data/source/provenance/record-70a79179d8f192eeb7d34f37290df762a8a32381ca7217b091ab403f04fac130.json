@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1311,
+          "line": 1301,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"菈塔托丝\"]你是……什么人？\n[Character(name=\"avg_npc_254_1#4$1\")]\n[name=\"阿克托斯\"]你们是……那个博士的……\n[Character(name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]……为什么救我们？\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]解释现状不是我的工作。\n[name=\"Sharp\"]门在那边，外面的人我已经解决了。\n[name=\"Sharp\"]极光，带他们走。\n[character(name=\"avg_422_aurora_1#5$1\")]\n[name=\"极光\"]好的！"
+        }
+      ],
+      "description": "两家主当面问来人身份和救援缘由，Sharp回答并命极光带走。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E70"
+          ],
+          "from": "char_508_aguard",
+          "reason": "两家主当面问来人身份和救援缘由，Sharp回答并命极光带走。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "E70"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "两家主当面问来人身份和救援缘由，Sharp回答并命极光带走。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 1311,
+          "kind": "story",
+          "line": 1301,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 638,
+          "line": 621,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_10_end.txt",
+          "quote": "[name=\"阿尔贝塔\"]啊……！\n[charslot(slot=\"m\",name=\"avg_npc_2006_1#12$1\",focus=\"m\")]\n[name=\"阿尔贝塔\"]这……这是……好多血……\n[charslot(slot=\"m\",name=\"avg_npc_253_1#5$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]……锏！\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]她需要紧急治疗，这里是否有更多的绷带？\n[charslot(slot=\"m\",name=\"avg_npc_253_1#9$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]我……我这就找找！\n[charslot(slot=\"m\",name=\"avg_npc_2006_1#12$1\",focus=\"m\")]\n[name=\"阿尔贝塔\"]锏小姐……怎么会受这么重的伤。\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]她一人拖住了十七个“灰礼帽”的进攻……了不起。\n[name=\"Sharp\"]敌人暂时撤退了，我的小队会接替她保卫这里。\n[charslot(slot=\"m\",name=\"avg_npc_2006_1#12$1\",focus=\"m\")]\n[name=\"阿尔贝塔\"]可是外面还有那么多的维多利亚军队……您要怎么……\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]我会坚持到完成任务为止。"
+        }
+      ],
+      "description": "Sharp与菈塔托丝直接配合救治锏。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N27"
+          ],
+          "from": "char_508_aguard",
+          "reason": "双方在同一局部场景直接互动或具体历史信息明确双向。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "N27"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "双方在同一局部场景直接互动或具体历史信息明确双向。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 638,
+          "kind": "story",
+          "line": 621,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "雪山事件期间",
+      "title": "雪山降临1101"
+    }
+  ],
+  "relationship_id": "char_508_aguard|npc_a43cec0eaa3f04c8"
+}

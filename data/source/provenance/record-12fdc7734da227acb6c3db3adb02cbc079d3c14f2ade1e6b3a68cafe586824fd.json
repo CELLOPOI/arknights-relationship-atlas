@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 427,
+          "line": 397,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-07_end.txt",
+          "quote": "[name=\"优雅的声音\"]不要责怪你的同伴，女士。\n[name=\"优雅的声音\"]也许自他们降生之日起，这片大地便从未对他们承诺过任何未来。当他们抓住了眼前唾手可得的幸福，便彻底失去了直视真相的勇气。\n[name=\"优雅的声音\"]他们不会感谢将他们唤醒的人，只会责怪你为何要惊动他们的美梦。\n[name=\"优雅的声音\"]当未来已经绝望，“短视”，就变成了属于部分人的生存智慧。\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#2$1\",focus=\"m\")]\n[name=\"瑭雅\"]我不会责怪任何人……我知道对他们来说，这并不是近在眼前的危险。\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#7$1\",focus=\"m\")]\n[name=\"瑭雅\"]……等等，你是谁？我从没见过你！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_415_1#1$1\",bstart=0.2,bend=0.5,afrom=0, ato=1,duration=1.5)]\n[delay(time=2)]\n[name=\"优雅的女性\"]别紧张，我也是工人队伍的一员，与他们一同进入了城里。\n[name=\"优雅的女性\"]我本无意打扰你们的生活，此行只是为了……一位老朋友。\n[name=\"优雅的女性\"]她会出现在这里吗？我也不知道……不过，她很少会缺席盛大的场面。\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#7$1\",focus=\"m\")]\n[name=\"瑭雅\"]我不明白你在说什么，如果你没有别的事——\n[charslot(slot=\"m\",name=\"avg_npc_415_1#1$1\",bstart=0.2,bend=0.5,focus=\"m\")]\n[name=\"优雅的女性\"]那就可惜了，毕竟我能理解你在说什么……而且我也知道，你在寻找什么。\n[name=\"优雅的女性\"]而我习惯去做的，就是帮助沉睡的人清醒，让懦弱的人强大。\n[name=\"优雅的女性\"]或许，你我可以互相帮助，只要你愿意。\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#13$1\",focus=\"m\")]\n[name=\"瑭雅\"]？！\n[charslot(slot=\"r\",name=\"avg_npc_415_1#1$1\",posfrom=\"0,0\", posto=\"-200,0\",duration=0)]\n[charslot(slot=\"m\",name=\"avg_npc_415_1#1$1\",bstart=0.2,bend=0.5)]\n[name=\"优雅的女性\"]啊，忘记自我介绍了——\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_415_1#1$1\",bstart=0.2,bend=0.5,afrom=1, ato=0,duration=1.5)]\n[delay(time=2)]\n[name=\"卡谢娜\"]很高兴认识你，瑭雅女士。我是一名老师，你可以叫我……卡谢娜。"
+        }
+      ],
+      "description": "瑭雅与卡谢娜直接交谈并商议合作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_4225_tanya",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "npc_05e9662da0c484f6"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_05e9662da0c484f6",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "char_4225_tanya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 427,
+          "kind": "story",
+          "line": 397,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒事件",
+      "title": "相变临界"
+    }
+  ],
+  "relationship_id": "char_4225_tanya|npc_05e9662da0c484f6"
+}

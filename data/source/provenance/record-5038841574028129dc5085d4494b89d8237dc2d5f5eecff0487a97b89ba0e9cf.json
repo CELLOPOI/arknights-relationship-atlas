@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 363,
+          "line": 350,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "quote": "[name=\"左乐\"]我记得……这些年他一直在负责大荒城的移动地块建设，但是数月前，他还分出功夫去处理了玉门城的修复工作……\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$1\",focus=\"l\")]\n[name=\"左乐\"]绩，他究竟想做什么？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]根据记载，绩、黍二人交好，千年前，二人一同在大荒城耕作。但是不久后，他便离开了大荒城，开始经营生意。\n[name=\"宁辞秋\"]他每隔数十年，都会回到大荒城一次，而他上一次回来已经是六十年前的事了。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#3$1\",focus=\"l\")]\n[multiline(name=\"左乐\")]宁侍郎对于这些记载倒是记得很清楚……\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#4$1\",focus=\"l\")]\n[multiline(name=\"左乐\")]你怀疑他想对大荒城不利？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]需要先查明他当下返回大荒城的目的——这正是我想委托左公子的。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$1\",focus=\"l\")]\n[name=\"左乐\"]礼部与司岁台在处理岁兽问题上向来不合，现在宁侍郎要我来做这种事。"
+        }
+      ],
+      "description": "宁辞秋与左乐具体讨论绩的身份和行为。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "宁辞秋与左乐具体讨论绩的身份和行为。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_906d6f310e0f648e"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 363,
+          "kind": "story",
+          "line": 350,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "npc_6ee68205c0c1758b|npc_906d6f310e0f648e"
+}

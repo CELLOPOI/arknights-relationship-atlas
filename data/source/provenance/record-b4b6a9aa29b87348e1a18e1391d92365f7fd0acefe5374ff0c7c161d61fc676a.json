@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 414,
+          "line": 398,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-16_beg.txt",
+          "quote": "[name=\"塔露拉？\"] 卡特斯人，我不知道你是用什么干扰了我妹妹的思维，也不知道你和萨卡兹有什么肮脏的交易。\n[name=\"塔露拉？\"] 在你背后操控你的阴影与W背后的主使者，是不是同一人？\n[name=\"塔露拉？\"] 不必回答。先得用火焰告诉你……你不该依附萨卡兹，也不该运用它们的力量去羞辱我和我妹妹之间的联系。\n[name=\"塔露拉？\"] 龌龊的行径与罪恶的过往，这些都可以被接受，你的国家依然会以宽大的怀抱接纳你的一切和你的忏悔。\n[name=\"塔露拉？\"] 然而，与众多萨卡兹为伍，与卡兹戴尔沆瀣一气？\n[name=\"塔露拉？\"] ……培养你的人和你都该被永世流放，你们将在荒野上徘徊，口渴却不得水，饥饿却不得食，想活下去却被食腐虫啃噬，想死却无安息之日。\n[Character(name=\"char_010_chen_1\")]\n[name=\"陈\"] ……\n[name=\"陈\"] ……你真是塔露拉？！\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉？\"] 晖洁，如果你想知道真相，就不要再保护你身边那颗恶毒的种子了，她挑拨我们之间的关系，歪曲事实，利用我的记忆去迷惑你……\n[name=\"塔露拉？\"] 卡特斯人，你！博卓卡斯替追寻光明离开了魔窟，而你却走向黑暗……你不配杀他！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"] ……\n[name=\"阿米娅\"] 如果你口中的魔族是我认识的萨卡兹人，如果你说的人类是你这种人。\n[name=\"阿米娅\"] 如果你说的光明是屠杀、撒播痛苦、施加伤害与欺骗，而你说的黑暗是救助、悲悯与为公义而奋斗……\n[name=\"阿米娅\"] 那我甘愿和萨卡兹一同走下去！"
+        }
+      ],
+      "description": "在场听到博卓卡斯替被杀的具体评论，阿米娅直接回应，陈旁听。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E39"
+          ],
+          "from": "char_010_chen",
+          "reason": "在场听到博卓卡斯替被杀的具体评论，阿米娅直接回应，陈旁听。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e877f731a67498e3",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 414,
+          "kind": "story",
+          "line": 398,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-16_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_e877f731a67498e3"
+}

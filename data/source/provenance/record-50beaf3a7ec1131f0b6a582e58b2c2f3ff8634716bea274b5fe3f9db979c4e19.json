@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 143,
+          "line": 139,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation02.txt",
+          "quote": "[name=\"凯尔希\"]但是特蕾西娅和特雷西斯做到的事，让我确信了一点。\n[name=\"凯尔希\"]你对源石的控制并非无可动摇，依然存在一些手段来限制你对于源石的权限。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#1$1\")]\n[name=\"普瑞赛斯\"]你所说的两个人，我的确在源石内部见过他们。\n[name=\"普瑞赛斯\"]他们的努力的确出人意料，是令人惊喜的挣扎。"
+        }
+      ],
+      "description": "普瑞赛斯明确说在源石内部见过这两人；没有两人知晓普瑞赛斯的具体反向行为。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_333d465fd8712924",
+          "reason": "普瑞赛斯明确说在源石内部见过这两人；没有两人知晓普瑞赛斯的具体反向行为。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_333d465fd8712924"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_d2170c6d544786d4.json",
+      "sources": [
+        {
+          "endLine": 143,
+          "kind": "story",
+          "line": 139,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇甲板上呈现的普瑞赛斯意识及其源石塑造形体；不推断原始肉身在场，不跨用两变体的不同事件。",
+      "title": "剧情"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 260,
+          "line": 124,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_15-02.txt",
+          "quote": "[name=\"普瑞赛斯\"]可惜事实是，它们终究会经历绝望。\n[name=\"普瑞赛斯\"]“提卡兹”，你们本不在计划之中，却意外成为了对源石污染最为严重的物种。\n[name=\"普瑞赛斯\"]你站在这里，连我都不得不赞叹你们的勇气。\n[name=\"特雷西斯\"]“意外”……这就是你对我们命运的总结？\n[name=\"特雷西斯\"]你们的确很像，普瑞赛斯。\n[name=\"特雷西斯\"]将被你们肆意玩弄的命运称作希望的馈赠，将绵延万年的苦痛视为理所应当的牺牲。\n[name=\"特雷西斯\"]……但至少，{@nickname}比你更加坦诚。\n[dialog]\n[PlaySound(key=\"$d_avg_swrdgnlght\", volume=1)]\n[PlaySound(key=\"$d_avg_tswordlight\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]\n[StopSound(channel=\"e\", fadetime=6)]\n[charslot]\n[Background]\n[image]\n他的长剑刺破了虚妄，但破碎后的空间——\n[dialog]\n[avgdisplay(id = \"1\", style = \"bgeffect\", name = \"$eb_glow_l\", slot = \"bgover\", x=-425, y=20, layer = 5)]\n[Background(image=\"60_g5_rhodesabyss_c\",screenadapt=\"coverall\")]\n[charslot(slot = \"m\", name = \"avg_npc_1297_1#4$1\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[name=\"特雷西斯\"]……没有变化？\n[charslot]\n特雷西斯闭上了眼，抬起了手中剑。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#1$1\")]\n[name=\"普瑞赛斯\"]你的暴力毫无意义。\n[charslot(slot = \"m\", name = \"avg_npc_1297_1#1$1\")]\n[name=\"特雷西斯\"]如果你并不在乎我们这个可悲的种族是否能抓住自己的命运，那你早该干脆利落地抹除我。\n[name=\"特雷西斯\"]刚刚从长梦中苏醒的幽灵，你仍然很虚弱，对吗？\n[dialog]\n[charslot(duration=0.5)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]\n他毫不犹豫地挥出了手中剑。\n剑光穿过了眼前之人的身体，无声地消失在远方苍白的墙面上。\n[dialog]\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#8$1\", duration=0.5, isblock=true)]\n[name=\"普瑞赛斯\"]我说过，这并无意义。\n[dialog]\n[charslot(duration=0.5)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]\n又是一剑。\n[charslot(slot = \"m\", name = \"avg_npc_1297_1#4$1\")]\n[name=\"特雷西斯\"]我一直有一个疑问——自诩造物主的你们，到底与我们有何异？\n[dialog]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[charslot(slot = \"m\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.05, duration = 0.2)]\n[charslot(duration=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[avgdisplay(id = \"1\")]\n[Background]\n[PlaySound(key=\"$swordtsing3\", volume=1)]\n[Effect(name=\"$e_spark_01_large\",layer=2)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.01, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=false)]\n[Effect(name=\"$e_bladeline_01_large\",x =116.1, y =0,rox =-60.2, roy =145, roz =16, layer = 1)]\n[delay(time=0.4)]\n[PlaySound(key=\"$swordtsing4\", volume=1)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.01, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=false)]\n[Effect(name=\"$e_bladeline_01_large\",x =120.1, y =-103.4,rox =-60.2, roy =145, roz =16,  layer = 1)]\n[delay(time=0.6)]\n[PlaySound(key=\"$swordtsing5\", volume=0.4)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]\n[Effect(name=\"$e_bladeline_01_large\",x =-141.8, y =-211.64,rox =30.5, roy =105.1, roz =39, layer = 1)]\n[Effect(name=\"$e_spark_01_mid\",x =-141.8, y =-211.64,rox =50, roy =100, roz =50, layer = 1)]\n[Effect(name=\"$e_spark_02_mid\",x =-141.8, y =-211.64,rox =100, roy =100, roz =50, layer = 1)]\n[Effect(name=\"$e_spark_01_mid\",x =-141.8, y =-211.64,rox =100, roy =100, roz =50, layer = 1)]\n[PlaySound(key=\"$d_gen_surfacefrozen\", volume=1, loop=true, channel=\"s\")]\n[StopSound(channel=\"s\", fadetime=6)]\n[Background(image=\"60_g5_rhodesabyss_c\",screenadapt=\"coverall\")]\n[avgdisplay(id = \"1\", style = \"bgeffect\", name = \"$eb_glow_l\", slot = \"bgover\", x=-425, y=20, layer = 5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n特雷西斯不再有任何的保留，苍白的墙面已经出现了裂纹。\n[dialog]\n[PlaySound(key=\"$d_avg_sea\", volume=0, loop=true, channel=\"sea\")]\n[SoundVolume(volume=0.4, channel=\"sea\", fadetime=2)]\n[delay(time=2)]\n[charslot(slot = \"m\", name = \"avg_npc_1297_1#1$1\")]\n[name=\"特雷西斯\"]你并非静滞了一切。\n[name=\"特雷西斯\"]你想要拖延时间，又或者只是为了嘲弄一个可悲种族的挣扎……\n[charslot(slot = \"m\", name = \"avg_npc_1297_1#4$1\")]\n[name=\"特雷西斯\"]随便你，普瑞赛斯。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]\n[CameraShake(duration=4, xstrength=5, ystrength=5, vibrato=90, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"e\", fadetime=4)]\n[delay(time=2)]\n特雷西斯再次感受到了涌动的信息浪潮，那是特蕾西娅所编织的高塔破碎后的残余。\n特雷西斯挥出了下一剑。\n[dialog]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_swrdgnlght\", volume=1)]\n[PlaySound(key=\"$d_avg_tswordlight\", volume=1)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]\n[PlaySound(key=\"$d_avg_seawaterinflux\", volume=1)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_seacitysurface\", volume=1)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_mnwtrfll\", volume=0.4, loop=true, channel=\"mn\")]\n金色的海水彻底冲破了苍白的墙壁，疯狂地涌入这片仿佛没有边际的白色空间。\n浪潮迅速吞噬摧毁着目之所及的一切，却唯独被普瑞赛斯的身体挡住，切割……\n就像一道彗星的黑色尾巴，在狂暴的浪涌中留下了最后一块宁静的地块。\n[charslot(slot = \"m\", name = \"avg_npc_1297_1#1$1\")]\n[name=\"特雷西斯\"]你和这枚源石的联系正在减弱，你在消散。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#1$1\")]\n[name=\"普瑞赛斯\"]继续处理这些杂乱的信息会消耗更多的必要能源，这并不值得。\n[dialog]\n[charslot]\n[SoundVolume(volume=1, channel=\"mn\",fadetime=2)]\n[Delay(time=1)]\n浪潮开始向最后一块区域合拢，普瑞赛斯的身体也逐渐被淹没。\n水浪也逐渐漫向了特雷西斯。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#2$1\")]\n[name=\"普瑞赛斯\"]这是你想要的结局吗？\n[name=\"普瑞赛斯\"]萨卡兹的数据已经污染了内化宇宙中的部分区域。虽然那些数据都被删除了，但被改写的架构我暂时也无暇调整。\n[name=\"普瑞赛斯\"]你完全可以用另一种方式“存活”于内化宇宙之中。\n[charslot(slot = \"m\", name = \"avg_npc_1297_1#4$1\")]\n[name=\"特雷西斯\"]存活？\n[name=\"特雷西斯\"]我只为审判神明而来。\n[charslot(slot = \"m\", focus=\"n\")]\n在信息的洪流彻底吞噬特雷西斯前，萨卡兹向造物主挥出了他的最后一剑。"
+        }
+      ],
+      "description": "普瑞赛斯与特雷西斯直接交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D02"
+          ],
+          "from": "npc_333d465fd8712924",
+          "reason": "普瑞赛斯与特雷西斯直接交战。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "D02"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "普瑞赛斯与特雷西斯直接交战。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 260,
+          "kind": "story",
+          "line": 124,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_15-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "npc_333d465fd8712924|npc_c573b8884914fc60"
+}

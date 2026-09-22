@@ -1,0 +1,22 @@
+{
+  "id": "import:char_4045_heidi|npc_1f201a858b188fce",
+  "published": true,
+  "quote": "【破碎日冕】\n克洛维希娅：是的……就是她。\n克洛维希娅：阿米娅，{@nickname}博士，我们的救援计划得提前了。\n克洛维希娅：她对自救军非常重要。她掌握了许多情报，甚至可能影响到我们的撤离行动。\n阿米娅：是的，我能理解……\n阿米娅：对罗德岛来说，她也是不可或缺的。\n选项：\n1：这将是我们第一次合作行动。\n分支条件（原选项编号）：1\n克洛维希娅：好。我相信罗德岛能帮助我们救回那位被萨卡兹关押的信使——\n克洛维希娅：我们最坚强的战士，最重要的同伴，最信任的朋友，海蒂·汤姆森女士。\n\n【海蒂】\n茉莉：……海蒂女士？！您为什么要举起手杖指着我？\n海蒂：不用太紧张，我只想问你一个简单的问题。如果你答对了，我就认为你是值得信任的。\n海蒂：克洛维希娅对你说的第一句话是什么？\n茉莉：欸？……您说的这个名字，我想不起来，抱歉……\n海蒂：没事了，茉莉，谢谢你。\n海蒂：抱歉，之前我说自己被盯梢，只是个试探你的谎言……\n海蒂：现在我相信，你依然如此真诚地爱着学校里的每一个孩子。\n海蒂：以及，你的确对这段时间发生的变化毫不知情。",
+  "relationship_id": "char_4045_heidi|npc_1f201a858b188fce",
+  "sources": [
+    {
+      "endLine": 319,
+      "kind": "story",
+      "line": 305,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-07_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 359,
+      "kind": "story",
+      "line": 347,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_heidi_1_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

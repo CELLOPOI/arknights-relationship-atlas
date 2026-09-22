@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 249,
+          "line": 232,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_pianst_1_1.txt",
+          "quote": "[name=\"芙蓉\"]车尔尼先生。\n[charslot(slot=\"l\",name=\"avg_4047_pianst_1#4$1\",focus=\"l\")]\n[name=\"车尔尼\"]芙蓉，你怎么来了？\n[charslot(slot=\"r\",name=\"avg_1024_hbisc2_1#1$1\",focus=\"r\")]\n[name=\"芙蓉\"]我还以为您身体不舒服。\n[charslot(slot=\"l\",name=\"avg_4047_pianst_1#5$1\",focus=\"l\")]\n[name=\"车尔尼\"]没什么，如你所见，我只是在稍微发泄一下。\n[name=\"车尔尼\"]还在莱塔尼亚的时候，我就经常要见一些这样的贵族。\n[charslot(slot=\"l\",name=\"avg_4047_pianst_1#2$1\",focus=\"l\")]\n[name=\"车尔尼\"]他们通过格特鲁德把自己的孩子送到我的面前，希望我能教授他们的孩子成为一名钢琴大师。\n[name=\"车尔尼\"]我当然可以教，但是，他们之中大部分并不是真的希望自己的孩子成为一个钢琴家。\n[charslot(slot=\"l\",name=\"avg_4047_pianst_1#7$1\",focus=\"l\")]\n[name=\"车尔尼\"]他们希望通过这种方式邀请我为他们演奏，或者和格特鲁德搭上话。\n[name=\"车尔尼\"]而即使是真的希望孩子成材的，也不过是希望他们孩子的音乐技艺能够符合作为贵族的身份。\n[name=\"车尔尼\"]而他们的孩子也大多被他们教育得呆板或者势利。\n[charslot(slot=\"l\",name=\"avg_4047_pianst_1#1$1\",focus=\"l\")]\n[name=\"车尔尼\"]每当遇到这样的组合，我就会无法忍受。\n[name=\"车尔尼\"]还要谢谢你推荐我锻炼身体，它的发泄效果还不错。"
+        }
+      ],
+      "description": "芙蓉当面听到车尔尼对格特鲁德业务联系的具体讲述，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "芙蓉当面听到车尔尼对格特鲁德业务联系的具体讲述，反向未建立。",
+          "status": "supported",
+          "to": "npc_7aa857733598126f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_7aa857733598126f",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2f4374d42e5fd9b0.json",
+      "sources": [
+        {
+          "endLine": 249,
+          "kind": "story",
+          "line": 232,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_pianst_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "车尔尼"
+    }
+  ],
+  "relationship_id": "char_120_hibisc|npc_7aa857733598126f"
+}

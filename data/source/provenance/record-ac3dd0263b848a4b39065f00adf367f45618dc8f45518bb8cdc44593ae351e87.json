@@ -1,0 +1,345 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 168,
+          "line": 121,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-08_end.txt",
+          "quote": "[name=\"萨沙\"]  可是你没有换过名字。\n[Character(name=\"avg_npc_078\")]\n[name=\"塔露拉\"]  因为我不想。\n[Character(name=\"avg_npc_085\")]\n[name=\"萨沙\"]  为什么？这和你刚才说的不一样。\n[Character(name=\"avg_npc_078#2\")]\n[name=\"塔露拉\"]  因为……因为我想成为一个表里如一的人。\n[Character(name=\"avg_npc_085\")]\n[name=\"萨沙\"]  所以你现在想的和做的不是一回事。\n[Character(name=\"avg_npc_084\")]\n[name=\"伊诺\"]  萨沙！\n[Character(name=\"avg_npc_078#2\")]\n[name=\"塔露拉\"]  很可能，没错。\n[name=\"塔露拉\"]  所以我要坚持这个名字。只不过，对于所有人来说，这个名字没有意义。\n[name=\"塔露拉\"]  因为我是谁对于大家来说并不重要。这个名字只对我自己重要。\n[Character(name=\"avg_npc_085\")]\n[name=\"萨沙\"]  那我到底该叫你什么？你这么说，我不知道该怎么叫你了。\n[Character(name=\"avg_npc_078\")]\n[name=\"塔露拉\"]  ——\n[name=\"塔露拉\"]  萨沙，我这么对你说吧。\n[name=\"塔露拉\"]  我只是个反抗者，只是个普通的人。\n[name=\"塔露拉\"]  名字？不重要，任何人都不该记得我的名字，这个名字不该成为符号，也不能有别的力量。它只是我的名字，也只是个名字。\n[name=\"塔露拉\"]  如果你想的话，只是现在，你可以叫我塔露拉。叫这个名字，可以让我回头，但也就只是这样了。\n[Character(name=\"avg_npc_085\")]\n[name=\"萨沙\"]  塔露拉。\n[Character(name=\"avg_npc_078#2\")]\n[name=\"塔露拉\"]  伊诺也可以这么叫。\n[name=\"塔露拉\"]  有些话可能对你们还太早……但我还是想说给你听，萨沙。\n[Character(name=\"avg_npc_085\")]\n[name=\"萨沙\"]  你说吧。\n[Character(name=\"avg_npc_078#2\")]\n[name=\"塔露拉\"]  我希望你叫我塔露拉，是因为把我当做朋友。当做志同道合的朋友。\n[name=\"塔露拉\"]  即使我死了，你也会记得这个名字，但不是因为我在我的一生里做了什么事。\n[name=\"塔露拉\"]  我只希望你记得我与你共处时的那些事。我希望你记得的塔露拉是一个朋友。\n[Character(name=\"avg_npc_085\")]\n[name=\"萨沙\"]  可你在杀坏人。你在和他们战斗。\n[Character(name=\"avg_npc_078\")]\n[name=\"塔露拉\"]  战斗的那个人我不想她有任何名字。因为我们每一个人都在战斗，我们所有人都是斗士。\n[name=\"塔露拉\"]  不要低头跟着斗士的脚步去走。不要！\n[name=\"塔露拉\"]  不是所有人都是爱国者，我们每个人都会犯错。你要抬起头，看他走向哪里，而不是他们有着怎样的头衔，你闭着眼紧跟在身后。\n[name=\"塔露拉\"]  你记得的是你的朋友的名字。是和你朝夕共处的人的名字。\n[name=\"塔露拉\"]  是给你喂特别辣的糖还咬着牙笑的霜星，是给你烧奇奇怪怪的蔬菜杂烩的老师，是绝不会放弃训练你的爱国者。\n[name=\"塔露拉\"]  朋友，而不是斗士。\n[name=\"塔露拉\"]  我们所有斗士都没有名字。\n[Character(name=\"avg_npc_084\")]\n[name=\"伊诺\"]  ……塔露拉姐姐，我不懂。\n[Character(name=\"avg_npc_078\")]\n[name=\"塔露拉\"]  嗯……我希望作为你的朋友，让你信任我，而不是让你因为我的身份信任我。"
+        }
+      ],
+      "description": "塔露拉与萨沙、伊诺直接对话，幼年姓名由演出身份和后续训练叙事对应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "塔露拉与萨沙、伊诺直接对话，幼年姓名由演出身份和后续训练叙事对应。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "塔露拉与萨沙、伊诺直接对话，幼年姓名由演出身份和后续训练叙事对应。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 168,
+          "kind": "story",
+          "line": 121,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 99,
+          "line": 88,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-11_end.txt",
+          "quote": "[name=\"浮士德\"]   对不起……我失手了。\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_1508_Faust_1\",focus=1)]\n[name=\"梅菲斯特\"]  不，不要道歉。是我的错，我太冲动了。\n[name=\"梅菲斯特\"]  能帮我追踪罗德岛他们吗？我会去把情况通报给塔露拉姐姐。\n[name=\"梅菲斯特\"]  她应该也已经压制住了切尔诺伯格的核心指挥塔。\n[name=\"梅菲斯特\"]  ——就让她来决定这些虫子的生死吧。\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_1508_Faust_1\",focus=2)]\n[name=\"浮士德\"]   ……明白了。\n[Character(name=\"char_1507_Mephisto_1#2\",name2=\"char_1508_Faust_1\",focus=1)]\n[name=\"梅菲斯特\"]  小心点，优先保护好自己，好吗？\n[Character(name=\"char_1507_Mephisto_1#1\",name2=\"char_1508_Faust_1\",focus=2)]\n[name=\"浮士德\"]   ……好。"
+        }
+      ],
+      "description": "两人战后互相道歉并商定追踪行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "两人战后互相道歉并商定追踪行动。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "两人战后互相道歉并商定追踪行动。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 99,
+          "kind": "story",
+          "line": 88,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-11_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 121,
+          "line": 10,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "quote": "[name=\"陈\"]  退路已尽。\n[Character(name=\"char_1507_Mephisto_1#3\")]\n[name=\"梅菲斯特\"]  ……你，你！\n[Character]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  你们还想往哪逃？\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  唔。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  放下你的手！\n[name=\"煌\"]  你的把戏已经被我看穿了，长鳞的小子！\n[Dialog]\n[Character(name=\"char_1508_Faust_1#1\")]\n[CameraShake(duration=0.4, xstrength=8, ystrength=6, vibrato=30, randomness=30, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Character(name=\"char_017_homura_3#1\")]\n[playsound(key=\"$p_imp_blunt_h\")]\n[CameraShake(duration=0.4, xstrength=12, ystrength=18, vibrato=30, randomness=30, fadeout=false)]\n[delay(time=1)]\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  我说了，我看穿了。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_017_homura_3#1\",focus=1)]\n[name=\"阿米娅\"]  煌！\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_017_homura_3#1\",focus=2)]\n[name=\"煌\"]  哼，不算什么，这点火力也就和炮仗差不多！\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  你提前防御住了弩弹。\n[name=\"浮士德\"]  你知道他们的位置？\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  那当然，我已经全都找出来了。\n[name=\"煌\"]  阿米娅，后退，我该用那个了！\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_017_homura_3#1\",focus=1)]\n[name=\"阿米娅\"]  知道！我会再一次干扰梅菲斯特的护卫，抓紧时间！\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  这点血是送你们做临别礼物的，整合运动的“幻影弩手”们！\n[name=\"煌\"]  沸腾吧，爆开他们的伪装吧！\n[Character]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.4)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.3, r=1, g=0, b=0, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[Image(image=\"avg_5_8_homura\", fadetime=0.3,screenadapt=\"coverall\",block=true)]\n[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=0, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.15, yScaleTo=1.15,duration=15, block=false)]\n[Blocker(a=0, fadetime=1, block=true)]\n[name=\"浮士德\"]  ——！\n[name=\"浮士德\"]  你泼洒自己的血，用血来点火？\n[name=\"煌\"]  哈，我难道看起来像个术师吗？那种四处纵火的家伙，最多只是些自我意识过剩的门外汉。\n[name=\"煌\"]  抱歉，这是战斗技巧。现身吧射手们，你们无处可藏了！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Image]\n[Blocker(a=0, fadetime=1, block=true)]\n[Character]\n[Character(name=\"avg_npc_016\",fadetime=1,block=true)]\n[name=\"幻影弩手\"]  ……\n[name=\"幻影弩手\"]  浮士德，伪装消失了。\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  命令，撤退。\n[Character(name=\"char_015_lmg\")]\n[name=\"近卫局成员\"]  那些是……怎么回事！整合运动的狙击手是什么时候埋伏在那里的？\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  现在？\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  现在。\n[Character(name=\"char_015_lmg\")]\n[name=\"近卫局成员\"]  数个整合运动的狙击手突然现身，主要分布在近卫局东二楼和南三楼！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  留神脚下，低处可能也有埋伏！\n[Character(name=\"char_015_lmg\")]\n[name=\"近卫局成员\"]  大楼里的古怪之处，也是他们引起的吗？\n[Character]\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  通过空气折射让身形变得透明啊，好手法。\n[name=\"煌\"]  不过你掩盖不了自己的行踪，又或者是动作幅度太大，也会导致这个源石技艺失效。\n[name=\"煌\"]  我说得对吗？\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……你很聪明。\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"煌\"]  是罗德岛情报做得好。你没戏唱了，投降吧。\n[name=\"煌\"]  如果还要打的话，哼，不管有没有你的份，你都得为Ace和Scout抵命，小子。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  浮士德，我们还有弹药。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  撤退。我们已经失去了情报优势。我会狙击他们，你们立刻转移。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  明白。\n[Character(name=\"char_1507_Mephisto_1#4\")]\n[name=\"梅菲斯特\"]  为什么不射击她？浮士德！\n[name=\"梅菲斯特\"]  我的护卫们，快去！四个人，四个人而已……其中只有三个能和你们为敌！\n[name=\"梅菲斯特\"]  战斗！现在就撕碎这些罪人！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  我们三个在Dr.{@nickname}的指挥下，胜过你们所有人！\n[name=\"阿米娅\"]  更何况那些被你伤害了、剥夺了理智的感染者，意识里只剩下你的赘余思绪，不再是活生生的人……！\n[name=\"阿米娅\"]  就连你身边那个带鳞的男孩也未必和你同心，他的思绪里充斥着混乱和悲伤……\n[name=\"阿米娅\"]  梅菲斯特，你才是这战场上孤身一人的那个！\n[Character(name=\"char_1507_Mephisto_1#4\")]\n[name=\"梅菲斯特\"]  ……\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  你读了我的心？\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"阿米娅\"]  我只是感受到了。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  所以你不会知道我在想什么。"
+        }
+      ],
+      "description": "两人协同迎击并相互呼叫。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "两人协同迎击并相互呼叫。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "两人协同迎击并相互呼叫。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 121,
+          "kind": "story",
+          "line": 10,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "靶向药物所述时段",
+      "title": "靶向药物"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 634,
+          "line": 633,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9mini/level_act9mini_st05.txt",
+          "quote": "[name=\"梅菲斯特\"]  ——浮士德。\n[name=\"梅菲斯特\"]  把她那张嘴给我打穿。"
+        }
+      ],
+      "description": "梅菲斯特明确知晓并指挥浮士德，反向在本窗未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "梅菲斯特直接具称浮士德并向其发令。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "短片段没有浮士德回应或已接收命令的独立证据。",
+          "status": "not_established",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_378a23674419b319.json",
+      "sources": [
+        {
+          "endLine": 634,
+          "kind": "story",
+          "line": 633,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9mini/level_act9mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇回忆蒙太奇所示切尔诺伯格时点",
+      "title": "红松林"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 125,
+          "line": 89,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-01_beg.txt",
+          "quote": "[name=\"梅菲斯特\"]  我们就只是个演习对象而已？居然想用这种把戏这种说辞，把我辛苦制造出的恐怖完全掩盖掉？\n[Character(name=\"char_1507_Mephisto_1#3\")]\n[name=\"梅菲斯特\"]  还敢用龙门语播一遍，乌萨斯语播一遍，又播一遍！\n[name=\"梅菲斯特\"]  别被无人机干扰，走，都走！快点，避开主干道！\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  侦查小队三号也没消息了！\n[Character(name=\"char_1002_nsabr_1\")]\n[name=\"整合运动成员\"]  突，突击手的信号都消失了……\n[name=\"整合运动成员\"]  外围保障小队的联络通道在一个接一个地断线！\n[Character(name=\"char_1507_Mephisto_1#3\")]\n[name=\"梅菲斯特\"]  可恨，可恶！\n[name=\"梅菲斯特\"]  这种侮辱……这是对整合运动的羞辱！\n[name=\"梅菲斯特\"]  怎么会这样，怎么会这样？该死的龙门，该死的龙门人！该死的非感染者！\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  （我从没见过他这样，他似乎很不安。）\n[name=\"幻影弩手\"]  （浮士德，我们还有机会撤离吗？）\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"] ……\n[name=\"浮士德\"]  （我给你们创造空间。）\n[name=\"浮士德\"]  （如果对手只有普通警力和龙门近卫局，以及罗德岛，我们一定能安全撤退。）\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  （什么意思？你是说，除了这些还有别的？）\n[Character]\n[name=\"梅菲斯特\"]  烦死了……烦死了！根本说不通！！\n[name=\"梅菲斯特\"]  跟不上我指挥的队伍，我要怎么样才能赢？\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  （有人在监视我们。这座城市里有其它东西。）\n[name=\"浮士德\"]  （做好准备，为了生存。）\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  （明白。）\n[name=\"幻影弩手\"]  （……浮士德。）\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  （嗯？）\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  （我们相信你。）\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  （……）"
+        }
+      ],
+      "description": "梅菲斯特与浮士德长期结伴并直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "梅菲斯特与浮士德长期结伴并直接交流。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "梅菲斯特与浮士德长期结伴并直接交流。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 125,
+          "kind": "story",
+          "line": 89,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 496,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "quote": "[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"罗德岛干员\"]  ……怎么回事！\n[name=\"罗德岛干员\"]  可露希尔，生物处理室13号舱，给我图表！\n[name=\"罗德岛干员\"]  舱室的内部温度急剧升高！能量在外放！\n[name=\"罗德岛干员\"]  等等，它的形态在转化！经过十四小时的处理，为什么还会进入到这一阶段？\n[name=\"罗德岛干员\"]  PRTS，刚才是谁使用了这个舱位？\n[name=\"罗德岛干员\"]  Dr.{@nickname}？我们在龙门攻防战里有干员伤亡吗？这处理的是谁？\n[name=\"罗德岛干员\"]  什么？\n[name=\"罗德岛干员\"]  等等，你慢点说，你说Dr.{@nickname}在舱位里安置了谁？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\", fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  勋爵！\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我在听，博卓卡斯替。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我们温迪戈，自我流放，失去一切。\n[name=\"爱国者\"]  但我们身负，萨卡兹的传统。\n[name=\"爱国者\"]  先祖，塑造我，培育我，注视我。所以，请替我见证。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  博卓卡斯替……\n[name=\"凯尔希\"]  ……我不知道自己够不够格。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我认为你是，最好人选。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  ……\n[name=\"凯尔希\"]  “……我在此担当一位萨卡兹的见证者。博卓卡斯替，卡兹戴尔的温迪戈，一生从未背叛过血肉，也从未愧对亲族。”\n[name=\"凯尔希\"]  “他将把一生留在光芒下的身体里……”\n[name=\"凯尔希\"]  “……而他的精魂，则将回到温迪戈温热的血脉中去。”\n[name=\"凯尔希\"]  这是个诅咒。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  对我，并不是。\n[name=\"爱国者\"]  啊——我感到……我感到，我清晰的视野，开始模糊。\n[name=\"爱国者\"]  谢谢你，勋爵。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我以为你讨厌这些。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  可我，已经老了。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_perimeter\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  不……\n[name=\"幻影弩手\"]  这里是哪里？\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  哈，原来是这样。哈。\n[name=\"幻影弩手\"]  塔露拉真的背叛我们了。\n[name=\"幻影弩手\"]  你以为我们会坐以待毙吗？！\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  你们不是对手。\n[name=\"萨卡兹战士\"]  有来世的话，向我报仇。\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  就因为知道会死，所以就要放弃了吗？\n[name=\"幻影弩手\"]  就这样被你们无故杀了而——\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  别杀他们。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  梅菲斯特……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  魔族人，我会给你们不知疼痛的身躯。让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  我们比你的牧群强大得多。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  我可以把我的生命拿出来和你们分享，你们能真正地永远战斗，不知疲倦地战斗。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……可以。\n[name=\"萨卡兹战士\"]  但他们要出去，也必须由我的同伴看着。现在还不能违背塔露拉的命令。\n[name=\"萨卡兹战士\"]  你们，弩手。出去。\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  梅菲斯特？！\n[name=\"幻影弩手\"]  （为什么他会救我们……？难道塔露拉还有什么阴谋？）\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  不过，你为什么特意要到这里来？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  ……因为我想进去这里。我想知道这里有什么样的秘密。我想知道罗德岛究竟为什么会从这里带走一个人。\n[name=\"梅菲斯特\"]  因为我从录像里看到那个人从这里出来。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  梅菲斯特……？为什么？\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  你们，想听歌吗？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  可是，浮士德队长他说，他说……\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  是啊，是的。我已经不会唱了。\n[name=\"梅菲斯特\"]  嗯，但我可以试试。\n[name=\"梅菲斯特\"]  应该是首摇篮曲吧？不记得是有谁教过我这首曲子……我不记得了。\n[name=\"梅菲斯特\"]  只是有人在我的梦里，一直地哼。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉睡吧，沉睡吧♪\n刺猬玩偶与小熊们……\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  乌萨斯的，感染者，又要走去哪里？\n[name=\"爱国者\"]  晦暗的夜晚，还会遮蔽……多少明星？\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  ……大尉，大尉！\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  最后的命令。\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  大尉……\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  战斗下去。活下去。\n[name=\"爱国者\"]  你们的路，只有你们……自己去走。\n[name=\"爱国者\"]  走了，才有路。\n[name=\"爱国者\"]  我必定要死。只是不知道，是否该是现在。\n[name=\"爱国者\"]  我们的死，究竟能，改变什么？\n[name=\"爱国者\"]  也许这个问题，你们，才能回答。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉进静静的黑色……"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 496,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 10,
+          "line": 6,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-06_beg.txt",
+          "quote": "[name=\"梅菲斯特\"]  是的，他们不知道自己被浮士德跟踪。我从浮士德派回来的斥候那里了解到了一些情报。\n[name=\"梅菲斯特\"]  罗德岛确实被困在中城区的外围了。\n[name=\"梅菲斯特\"]  虽然是些虫子，但他们也可能趁着天灾带来混乱逃跑。\n[name=\"梅菲斯特\"]  以他们对切尔诺伯格现状的了解，说不定会干扰到我们的计划。\n[name=\"梅菲斯特\"]  ——至少，把他们铲除掉没有任何坏处。"
+        }
+      ],
+      "description": "梅菲斯特与浮士德有明确的跟踪、派斥候协作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "梅菲斯特与浮士德有明确的跟踪、派斥候协作。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "梅菲斯特与浮士德有明确的跟踪、派斥候协作。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_f55d04d68de9988e.json",
+      "sources": [
+        {
+          "endLine": 10,
+          "kind": "story",
+          "line": 6,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格撤离期间",
+      "title": "黑暗时代·下"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 364,
+          "line": 351,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-10_end.txt",
+          "quote": "[name=\"梅菲斯特\"]   W成功吸引了龙门和罗德岛的注意，把他们诱进了圈套。\n[name=\"梅菲斯特\"]   是的。他们逃不回去。浮士德和弑君者已经破坏了一处防御——\n[name=\"梅菲斯特\"]   按照你说的，这会是我们进入龙门的突破口。\n[name=\"梅菲斯特\"]   我们将在每一处要害都设下埋伏，用他们的鲜血染红从这里到龙门的整条道路。\n[name=\"梅菲斯特\"]   是的，爱国者也快回到切尔诺伯格了。\n[name=\"梅菲斯特\"]   这样就万无一失了。\n[PlayMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=1, crossfade=1, delay=0.5)]\n[Delay(time=1)]\n[name=\"梅菲斯特\"]   还有什么吩咐吗，塔露拉。\n[Delay(time=1)]\n[name=\"塔露拉\"]  ————\n[Delay(time=1)]\n[name=\"塔露拉\"]   是时候了————\n[name=\"塔露拉\"]   让这腐败的城市，化为灰烬。"
+        }
+      ],
+      "description": "梅菲斯特单向具体知晓浮士德。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "梅菲斯特具体汇报浮士德已破坏防御。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "浮士德不在场，未见反向证据。",
+          "status": "not_established",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b768950f6cb3956f.json",
+      "sources": [
+        {
+          "endLine": 364,
+          "kind": "story",
+          "line": 351,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "进攻龙门前的汇报",
+      "title": "急性衰竭"
+    }
+  ],
+  "relationship_id": "npc_03efe1bf09e24b53|npc_cff4ec0fb14b9ffb"
+}

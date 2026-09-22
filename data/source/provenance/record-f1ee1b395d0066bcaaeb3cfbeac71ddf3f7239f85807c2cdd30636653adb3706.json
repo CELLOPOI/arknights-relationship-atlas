@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 226,
+          "line": 174,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_02_end.txt",
+          "quote": "[name=\"特米米\"]  嗯，毕竟大家都很喜欢祭典呢，也都很喜欢嘉维尔呢！\n[name=\"特米米\"]  啊，嘉维尔，看前面那块板子。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#3\", focus=1)]\n[name=\"嘉维尔\"]  我看看，啧，写的什么破字……哦，就是写的“玛维索提亚”。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#2\", focus=2)]\n[name=\"特米米\"]  我们到了。\n[stopmusic(fadetime=3)]\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_temple_1\",screenadapt=\"coverall\")]\n[playMusic(intro=\"$bat_Imfxingback_intro\", key=\"$bat_Imfxingback_loop\", volume=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[delay(time=2)]\n[Character(name=\"char_187_ccheal_1#2\")]\n[name=\"嘉维尔\"]  咦，这里怎么会有音乐？\n[name=\"嘉维尔\"]  而且这音乐怎么有些耳熟……\n[name=\"嘉维尔\"]  喂，博士，这不是AUS的歌吗！\n[Dialog]\n[PlaySound(key=\"$livecrowd\", volume=0.4, loop=false, channel=\"people\")]\n[Decision(options=\"确实。;……;是吗？\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[name=\"嘉维尔\"]  是吧。\n[name=\"嘉维尔\"]  虽然我不太懂，但是听其他人偶尔放也有印象。\n[Predicate(references=\"2\")]\n[name=\"嘉维尔\"]  博士，别陶醉进去听啊！\n[Predicate(references=\"3\")]\n[name=\"嘉维尔\"]  罗德岛上也有不少这支乐队的粉丝，应该没错。\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_411_tomimi_1\", focus=2)]\n[name=\"特米米\"]  啊，确实是AUS的歌呢。\n[Character(name=\"char_187_ccheal_1#3\", name2=\"char_411_tomimi_1\", focus=1)]\n[name=\"嘉维尔\"]  你怎么也知道AUS？！\n[Character(name=\"char_187_ccheal_1#3\", name2=\"char_411_tomimi_1\", focus=2)]\n[name=\"特米米\"]  大约去年的时候，有一群自称AUS的奇怪外乡人来过这里。\n[name=\"特米米\"]  她们先是在依娜姆的部族那里进行了一次演唱会，这场演唱会过后，很多提亚卡乌都把她们当成“玛维索提亚”的使者来对待了。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1\", focus=1)]\n[name=\"嘉维尔\"]  哈？\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1\", focus=2)]\n[name=\"特米米\"]  然后她们就被请求留在这里进行了相当长一段时间的演出，而且演出的地点基本都是在神庙那里。\n[name=\"特米米\"]  我也有听过一次，确实是很厉害很好听的音乐呢……而且能感觉到很厉害的法术技巧。\n[name=\"特米米\"]  在那之后，许多提亚卡乌就爱上了这种音乐。\n[name=\"特米米\"]  然后有一天，她们就又忽然消失了，大家都说她们是回到先祖的怀抱去了。\n[name=\"特米米\"]  不过我知道她们只是和嘉维尔你一样离开了。\n[name=\"特米米\"]  这里播放的音乐应该是有人把她们离开时留下的叫做“音响”的东西搬过来了，她们离开前，好像还留下了许多她们的唱片。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1\", focus=1)]\n[name=\"嘉维尔\"]  音响？\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1\", focus=2)]\n[name=\"特米米\"]  嗯，因为是需要法术技巧才能使用的东西，所以只有祭祀和巫医们能够使用它们，平时应该都是放在依娜姆的部族里的。\n[Character(name=\"char_187_ccheal_1#5\", name2=\"char_411_tomimi_1\", focus=1)]\n[name=\"嘉维尔\"]  哈哈哈，这支乐队还真是自由。\n[name=\"嘉维尔\"]  而且她们的音乐确实很刺激，我还没进去就已经有些热血沸腾起来了，我开始喜欢上她们了！\n[name=\"嘉维尔\"]  走吧，博士，我们进去一边听音乐，一边享受祭典！"
+        }
+      ],
+      "description": "特米米与博士当面交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "char_411_tomimi",
+          "reason": "特米米与博士当面交流。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "特米米与博士当面交流。",
+          "status": "supported",
+          "to": "char_411_tomimi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 226,
+          "kind": "story",
+          "line": 174,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "密林悍将归来"
+    }
+  ],
+  "relationship_id": "char_411_tomimi|npc_b99957887950ebfd"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 164,
+          "line": 102,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_05_beg.txt",
+          "quote": "[name=\"玛露西尔\"]呼、呼……这附近的墨魉都被处理完了……\n[Dialog]\n[charslot]\n[stopmusic(fadetime=1.5)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_139#2\",duration=1)]\n[Delay(time=2)]\n[name=\"黎\"]辛苦了。\n[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#17$1\",focus=\"m\")]\n[name=\"玛露西尔\"]不会！镇里人愿意收留我们，我们帮忙解决一些麻烦也是应该的。\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#1$1\",focus=\"m\")]\n[name=\"森西\"]老夫还要去田里帮忙种菜，先走一步。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(duration=1)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#1$1\",focus=\"m\")]\n[name=\"齐尔查克\"]森西这家伙，已经完全和镇里人混熟了嘛。\n[charslot(slot=\"m\",name=\"avg_npc_139#2\",focus=\"m\")]\n[name=\"黎\"]齐尔查克小哥不也是，张伯刚才还让我喊你收拾完墨魉就过去喝酒呢。\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#2$1\",focus=\"m\")]\n[name=\"齐尔查克\"]那老伯也太不服输了，喝不过我还非要挑战我……\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(duration=1)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#17$1\",focus=\"m\")]\n[name=\"玛露西尔\"]黎小姐，我今天能去你那里喝茶吗？\n[charslot(slot=\"m\",name=\"avg_npc_139#2\",focus=\"m\")]\n[name=\"黎\"]玛露西尔妹妹有空，我自然是有空的。\n[name=\"黎\"]今天轮到玛露西尔妹妹讲你的冒险故事了，我可是期待得紧。\n[name=\"黎\"]不过……我还记得，你们刚到这里时，说过自己还要去拯救莱欧斯小哥的妹妹。\n[name=\"黎\"]还不出发没关系吗？\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#17$1\",focus=\"m\")]\n[name=\"玛露西尔\"]……嗯，救法琳是我们的目的。\n[name=\"玛露西尔\"]但是——\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#18$1\",focus=\"m\")]\n[name=\"玛露西尔\"]要找到离开的方法毕竟急不得。\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#17$1\",focus=\"m\")]\n[name=\"玛露西尔\"]而且，在这里的生活也很好……\n[name=\"玛露西尔\"]到时候再说吧，你说对吧，莱欧斯？\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#8$1\",focus=\"m\")]\n[name=\"莱欧斯\"]嗯？什么？\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#13$1\",focus=\"m\")]\n[name=\"玛露西尔\"]你又不听我说话！\n[charslot(slot=\"m\",name=\"avg_npc_139#2\",focus=\"m\")]\n[name=\"黎\"]……呵呵，莱欧斯小哥对墨魉的热情如今在镇里也已经是无人不知了。\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#16$1\",focus=\"m\")]\n[name=\"莱欧斯\"]但是这种叫墨魉的史莱姆真的很有趣。\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#18$1\",focus=\"m\")]\n[name=\"莱欧斯\"]它们有自己固定的形状，能明显看出头身和四肢的区别，攻击方式不是包裹敌人的头部，更像是野兽攻击人的方式，而且还会叫！\n[name=\"莱欧斯\"]最特殊的是，我们每次击杀魔物都会留下尸体，但它们什么都不会留下，除了一摊黑色的水。\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#9$1\",focus=\"m\")]\n[name=\"玛露西尔\"]……\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#1$1\",focus=\"m\")]\n[name=\"莱欧斯\"]我昨天把它们的弱点告诉了镇民们，但是镇民们却好像并不是很激动。\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#22$1\",focus=\"m\")]\n[name=\"玛露西尔\"]因为对这种东西着迷的只有你一个啊。\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#8$1\",focus=\"m\")]\n[name=\"莱欧斯\"]……是这样吗？\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#13$1\",focus=\"m\")]\n[name=\"莱欧斯\"]可是连齐尔查克都学会上手反击了，这些镇民却一直学不会。每次看他们对付墨魉都好像根本不知道怎么攻击一样。"
+        }
+      ],
+      "description": "与黎在婆山镇直接同行交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_4144_chilc",
+          "reason": "与黎在婆山镇直接同行交谈。",
+          "status": "supported",
+          "to": "npc_d2dcf202176c69a2"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_d2dcf202176c69a2",
+          "reason": "与黎在婆山镇直接同行交谈。",
+          "status": "supported",
+          "to": "char_4144_chilc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4b8f03fa1aa37d85.json",
+      "sources": [
+        {
+          "endLine": 164,
+          "kind": "story",
+          "line": 102,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示旅程时段",
+      "title": "泰拉饭"
+    }
+  ],
+  "relationship_id": "char_4144_chilc|npc_d2dcf202176c69a2"
+}

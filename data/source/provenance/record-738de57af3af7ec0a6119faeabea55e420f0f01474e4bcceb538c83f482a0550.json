@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 238,
+          "line": 219,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_01_end.txt",
+          "quote": "[name=\"歌蕾蒂娅\"]海嗣针对人类产生的每一次异变，几乎都有阿戈尔的堕落者推波助澜。\n[name=\"歌蕾蒂娅\"]但海嗣毕竟不具备真正的智能。哪怕把实验室里所有的武器原型都投进海嗣巢穴，它们也不会去拆解研究。\n[name=\"歌蕾蒂娅\"]深海教会或许可以引导海嗣进攻一支军队、一座城市，却很难促使它们在短时间内产生剧烈的异变。\n[charslot(slot = \"right\", name = \"avg_npc_1382_1#9$1\",focus=\"r\")]\n[name=\"克莱门莎\"]除非，海嗣不仅收到了深海教徒的信息，还受到了另一只“初生”的影响。\n[charslot(slot = \"left\", name = \"avg_474_gladiia_1#1\",focus=\"l\")]\n[name=\"歌蕾蒂娅\"]看来您已经读过了那份迟来许久的作战报告。\n[name=\"歌蕾蒂娅\"]是的，根据乌尔比安的说法，我们所斩杀的并非唯一的“初生”。\n[charslot(slot = \"right\", name = \"avg_npc_1382_1#9$1\",focus=\"r\")]\n[name=\"克莱门莎\"]歌蕾蒂娅，你们是最早进入“初生”栖所的阿戈尔人，也是最后进入那里的阿戈尔人。\n[name=\"克莱门莎\"]如今，海嗣已经以近乎疯狂的方式封锁了那处遗迹。我们至今仍未找到突破的方式。\n[name=\"克莱门莎\"]而在猎人之中，乌尔比安又是滞留最久的一位，久到足够他见证所谓的“真相”。\n[charslot(slot = \"left\", name = \"avg_474_gladiia_1#5\",focus=\"l\")]\n[name=\"歌蕾蒂娅\"]你们在犹豫是否采信他的说法。\n[charslot(slot = \"right\", name = \"avg_npc_1382_1#2$1\",focus=\"r\")]\n[name=\"克莱门莎\"]……嗯。这可能帮助阿戈尔解开海嗣谜题，也可能引领阿戈尔走向毁灭。\n[name=\"克莱门莎\"]一位凭借海嗣残渣苟延残喘了几个月的猎人居然能保持清醒，一位清醒的猎人居然甘愿与海嗣同行而拒绝回归文明。\n[name=\"克莱门莎\"]乌尔比安身上的疑点还太多，当年那场作战中的疑点还太多。\n[charslot(slot = \"right\", name = \"avg_npc_1382_1#8$1\",focus=\"r\")]\n[name=\"克莱门莎\"]抱歉，歌蕾蒂娅，阿戈尔不得不以一场评议会来迎接猎人们的回归。"
+        }
+      ],
+      "description": "二人就猎人报告与初生问题直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_474_glady",
+          "reason": "歌蕾蒂娅直接回应克莱门莎并讨论作战报告。",
+          "status": "supported",
+          "to": "npc_17db81f47ae22715"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_17db81f47ae22715",
+          "reason": "克莱门莎直接称呼歌蕾蒂娅并说明评议安排。",
+          "status": "supported",
+          "to": "char_474_glady"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 238,
+          "kind": "story",
+          "line": 219,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "猎人回归后的评议前",
+      "title": "生路"
+    }
+  ],
+  "relationship_id": "char_474_glady|npc_17db81f47ae22715"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 153,
+          "line": 140,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "quote": "[name=\"Scout\"]但……有一些军官，开始表露出与曼弗雷德大不相同的军事策略。这很不寻常。\n[name=\"Scout\"]间谍提出，曾看见过食腐者出入军队的营帐。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#3$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]孽茨雷……\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]博士怎么看待这件事？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]博士认为，在萨卡兹的战争之神表露出任何形式的参与意图后，我们的布置会被全盘打乱。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#10$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]你呢？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]……一直以来，诸多强大的王庭成员都更青睐主张反击和暴力的军事委员会，这任谁都心知肚明。\n[name=\"Scout\"]但出于某种约束——甚至可以说是约定俗成的规则——没有任何一个王庭主动参与到内战中来。\n[name=\"Scout\"]若是王庭之主们真的决定在卡兹戴尔与我们开战，那些仍旧没有回归的萨卡兹们，再无法在地图上看见任何巴别塔的标识。"
+        }
+      ],
+      "description": "Scout汇报食腐者进营，殿下称孽茨雷，Scout转述博士对战争之神的判断并回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E46"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout汇报食腐者进营，殿下称孽茨雷，Scout转述博士对战争之神的判断并回应。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_84fdad316566923c",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 153,
+          "kind": "story",
+          "line": 140,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_0957af9bf990438d|npc_84fdad316566923c"
+}

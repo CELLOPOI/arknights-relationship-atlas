@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 255,
+          "line": 206,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_05_end.txt",
+          "quote": "[name=\"娜仁图亚\"]哈，我就喜欢这么爽快的人！\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#1$1\")]\n[name=\"祖拜尔\"]……\n[name=\"祖拜尔\"]我一点也不喜欢睡回这个棺材的感觉。你其实没必要让你的手下特地把它运出来。\n[charslot(slot = \"m\", name = \"avg_4138_narant_1#1$1\")]\n[name=\"娜仁图亚\"]嘘，你别说话……稍微再忍忍，我很快就回来接你。\n[name=\"娜仁图亚\"]你抓紧时间，在今天之内找到你要的那颗宝石。\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#1$1\")]\n[name=\"祖拜尔\"]好，千万别忘了。我还找你有事。\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#1$1\",duration=1)]\n[delay(time=1.5)]\n[playsound(key=\"$d_avg_goldbarhit\")]\n[delay(time=1)]\n[name=\"拉恕尔\"]这是我的报价，你意下如何？\n[charslot(slot = \"m\", name = \"avg_4138_narant_1#1$1\")]\n[name=\"娜仁图亚\"]唔……♪忘不了刀刃上的月牙，少年的真心洗成黄金♪\n[name=\"娜仁图亚\"]真是忘不了……没意见，完全没意见！\n[name=\"娜仁图亚\"]那我就离开啦。\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#1$1\")]\n[name=\"拉恕尔\"]请便。\n[charslot(slot = \"m\", name = \"avg_4138_narant_1#5$1\")]\n[name=\"娜仁图亚\"]（对祖拜尔眨眨眼睛）\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#2$1\")]\n[name=\"祖拜尔\"]（对娜仁图亚眨眨眼睛）\n[charslot(slot = \"m\", name = \"avg_4138_narant_1#1$1\")]\n[name=\"娜仁图亚\"]期待我们的下次合作！\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#7$1\")]\n[name=\"拉恕尔\"]……\n[name=\"拉恕尔\"]我没说还有下次。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"53_g10_grandbazaar_d\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot = \"m\", name = \"avg_4138_narant_1#1$1\",duration=0.5)]\n[delay(time=1)]\n[name=\"娜仁图亚\"]哈，我也没说还有下次。至少短期内绝不会有。\n[charslot(slot = \"m\", name = \"avg_4138_narant_1#7$1\")]\n[name=\"娜仁图亚\"]那个老东西还想指使我给他跑腿？抱歉，永别了！\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#1$1\")]\n[Background(image=\"53_g12_gemexchange\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[name=\"祖拜尔\"]……她应该看懂我的暗示了吧？娜仁图亚，如果她真的是梦魇后人……\n[name=\"祖拜尔\"]有一座宝库正等着她。"
+        }
+      ],
+      "description": "娜仁图亚与祖拜尔直接协作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_4138_narant",
+          "reason": "娜仁图亚与祖拜尔直接协作。",
+          "status": "supported",
+          "to": "npc_3e55517d198677e1"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_3e55517d198677e1",
+          "reason": "娜仁图亚与祖拜尔直接协作。",
+          "status": "supported",
+          "to": "char_4138_narant"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_204b53066b797ab8.json",
+      "sources": [
+        {
+          "endLine": 255,
+          "kind": "story",
+          "line": 206,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "太阳甩在身后事件期间",
+      "title": "太阳甩在身后"
+    }
+  ],
+  "relationship_id": "char_4138_narant|npc_3e55517d198677e1"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 64,
+          "line": 45,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17d0/level_act17d0_01_end.txt",
+          "quote": "[name=\"芙兰卡\"]这附近没有移动城市，没有工厂，没有矿山，怎么会有源石污染。\n[Character(name=\"avg_npc_155_1#1\",name2=\"avg_npc_156_1#1\",focus=2)]\n[name=\"雷蛇\"]有没有可能是天灾导致的？\n[Character(name=\"avg_npc_155_1#1\",name2=\"avg_npc_156_1#1\",focus=1)]\n[name=\"芙兰卡\"]你太小看大自然了。野生动物远比我们熟悉天灾，也比我们更清楚如何回避源石污染。\n[name=\"芙兰卡\"]天灾能摧毁一座城市，但野生动物几乎不会受到影响——\n[name=\"芙兰卡\"]——这片大地的淘汰是无情的，一个物种如果做不到以自己的方式与源石共生，就不可能延续到现在。\n[Character(name=\"avg_npc_166\")]\n[name=\"黑\"]原来如此……我能想象。就像最常见的源石虫那样，体表外壳吸收了所有源石成分，内部的软体部分却完全纯净没有污染。\n[Character(name=\"avg_npc_155_1#1\",name2=\"avg_npc_156_1#1\",focus=2)]\n[name=\"雷蛇\"]说回来，PRTS的记录里有过类似案例吗？\n[Character(name=\"avg_npc_155_1#1\",name2=\"avg_npc_156_1#1\",focus=1)]\n[name=\"芙兰卡\"]没有，就算是哥伦比亚铸铁城的那次泄漏事故也没有出现这种情况。\n[Character(name=\"char_503_rang\")]\n[name=\"巡林者\"]沙地兽是很胆小的生物，源石变异也不该如此剧烈地改变这一点。除非被法术影响，否则它们不会展现出攻击性。\n[name=\"巡林者\"]保持警戒，不要松懈。\n[Character(name=\"avg_npc_166\")]\n[name=\"黑\"]……法术？术师？我只希望这趟远路不要再节外生枝。\n[Character(name=\"char_503_rang\")]\n[name=\"巡林者\"]不用想太多，继续按照原定安排前进。"
+        }
+      ],
+      "description": "雷蛇询问PRTS记录。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_107_liskam",
+          "reason": "雷蛇询问PRTS记录。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_107_liskam"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_7ef9a7e0393495b0.json",
+      "sources": [
+        {
+          "endLine": 64,
+          "kind": "story",
+          "line": 45,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17d0/level_act17d0_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "源石尘行动"
+    }
+  ],
+  "relationship_id": "char_107_liskam|npc_c8a2caad4366c8fa"
+}

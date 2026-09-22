@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 345,
+          "line": 293,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-13_end.txt",
+          "quote": "[name=\"霜星\"]  爸……！\n[Character(name=\"avg_npc_025_1#3\")]\n[name=\"爱国者\"]  叶莲娜！\n[Character(name=\"char_1505_frstar_1#10\")]\n[name=\"霜星\"]  哈，哈……我们……击退他了……和雪怪小队一起……哈……\n[name=\"霜星\"]  我们打退了一个……！不过，他是……自己撤退的吗？\n[name=\"霜星\"]  一共只有……五个人吗？我一个人甚至都没法……保护好小队……\n[Character(name=\"avg_npc_025_1#3\")]\n[name=\"爱国者\"]  做得好，我的女儿。下次你可以做得更好。\n[Character(name=\"char_1505_frstar_1#10\")]\n[name=\"霜星\"]  那一定……！\n[Character(name=\"char_1505_frstar_1#10\")]\n[name=\"霜星\"]  ……这里发生什么了？为什么所有人都……\n[name=\"霜星\"]  塔露拉？盾卫大哥们……怎么了？\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  ……大尉……他们说的那些……\n[Character(name=\"avg_npc_025_1#3\")]\n[name=\"爱国者\"]  在历史中获取虚无缥缈的轨迹，认定未来定与历史相同，认定身份会决定明日一切，也是自大。\n[name=\"爱国者\"]  我愿为她担保。但其他人还一时无法接受。请诸位保守秘密。\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  我们知道！我们当然知道。我们知道塔露拉是怎么样一个人。\n[name=\"盾卫\"]  ……\n[name=\"盾卫\"]  可他们说的是……真的吗？\n[Character(name=\"char_1505_frstar_1#10\")]\n[name=\"霜星\"]  难道……\n[name=\"霜星\"]  ……你们在想什么？你们自己都说了！出身能决定一个人在你们心里——\n[Character(name=\"avg_npc_078#3\")]\n[name=\"塔露拉\"]  是真的。\n[Character(name=\"char_1505_frstar_1#10\")]\n[name=\"霜星\"]  塔露拉……\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  ……\n[Character(name=\"avg_npc_078#3\")]\n[name=\"塔露拉\"]  我的确曾是贵族培养的“接班人”。\n[name=\"塔露拉\"]  我已经回答过了。还有问题吗？\n[Character(name=\"avg_npc_025_1#3\")]\n[name=\"爱国者\"]  领袖。\n[Character(name=\"avg_npc_078\")]\n[name=\"塔露拉\"]  先生，别那么叫我，我说过的。收队吧……浮士德和弩手还有训练过程，你要参加的吧？\n[Character(name=\"avg_npc_025_1#3\")]\n[name=\"爱国者\"]  只要你的品性不让我失望，我会支持你直到最后一刻。\n[Character(name=\"avg_npc_078\")]\n[name=\"塔露拉\"]  嗯。\n[Character(name=\"char_1505_frstar_1#10\")]\n[name=\"霜星\"]  塔露拉……父亲已经支持你了。\n[Character(name=\"char_1505_frstar_1#10\",name2=\"avg_npc_078\",focus=2)]\n[name=\"塔露拉\"]  我不会要你做一样的事的，叶莲娜。\n[Character(name=\"char_1505_frstar_1#10\",name2=\"avg_npc_078\",focus=1)]\n[name=\"霜星\"]  嘁。你不会以为——\n[Character(name=\"char_1505_frstar_1#10\",name2=\"avg_npc_078\",focus=2)]\n[name=\"塔露拉\"]  给我颗糖。\n[Character(name=\"char_1505_frstar_1#10\",name2=\"avg_npc_078\",focus=1)]\n[name=\"霜星\"]  拿着。你居然向我要这个吃。"
+        }
+      ],
+      "description": "三人在内卫退去后真实共同对话，父女相称并谈塔露拉身份。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "npc_e4fe2d3b4e1c0e5b",
+          "reason": "三人在内卫退去后真实共同对话，父女相称并谈塔露拉身份。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "三人在内卫退去后真实共同对话，父女相称并谈塔露拉身份。",
+          "status": "supported",
+          "to": "npc_e4fe2d3b4e1c0e5b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 345,
+          "kind": "story",
+          "line": 293,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-13_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 319,
+          "line": 184,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-13_end.txt",
+          "quote": "[name=\"雪怪1号\"]  打开了！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……！\n[name=\"阿米娅\"]  煌！陨星！\n[Character(name=\"char_219_meteo_1\")]\n[name=\"陨星\"]  ……明白。\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  做好准备。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.8, crossfade=1.5, delay=0.5)]\n[Decision(options=\"你赢了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_1505_frstar_1\")]\n[name=\"霜星\"]  我会输吗？\n[Decision(options=\"你没有给我能赢的选项。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_037\")] \n[name=\"雪怪1号\"]  大姊！\n[name=\"雪怪1号\"]  ……这个人……\n[name=\"雪怪1号\"]  这个人就是罗德岛所说的博士吧。\n[Decision(options=\"要杀要剐悉听尊便！;……;你好。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_1505_frstar_1\")]\n[name=\"霜星\"]  罗德岛的领袖。\n[Character]\n[Dialog]\n[Character(name=\"char_002_amiya_1#7\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"阿米娅\"]  是我。可以叫我阿米娅。\n[Character]\n[name=\"陨星\"]  （她的戒指……戒指在变红？）\n[name=\"煌\"]  ……\n[name=\"陨星\"]  （你不阻止她？）\n[name=\"煌\"]  （我没有理由阻止我们唯一的胜机。）\n[name=\"陨星\"]  煌！\n[name=\"煌\"]  我尊重阿米娅的选择。\n[Dialog]\n[Decision(options=\"阿米娅，不。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  博士！\n[Character(name=\"char_1505_frstar_1\")]\n[name=\"霜星\"]  大熊，罗德岛是不是没有和你们交战？\n[Character]\n[name=\"大熊\"]  没有。\n[Character(name=\"char_1505_frstar_1\")]\n[name=\"霜星\"]  ……那么在这片战场上，我们就不是敌人。\n[Character(name=\"char_002_amiya_1#1\")]\n[name=\"阿米娅\"]  霜星……\n[Character(name=\"char_1505_frstar_1#7\")]\n[name=\"霜星\"]  不是敌人就没有理由厮杀了。\n[name=\"霜星\"]  请回吧，博士。回到你的队伍里去。\n[Character(name=\"avg_npc_037\")] \n[name=\"雪怪1号\"]  ……不愧是大姊。\n[Character(name=\"avg_npc_037\",name2=\"avg_npc_037\",focus=2)] \n[name=\"雪怪小队成员B\"]  需要你夸吗？\n[Character(name=\"char_1505_frstar_1\")]\n[name=\"霜星\"]  安静些。\n[name=\"霜星\"]  小兔子。\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=1)]\n[name=\"阿米娅\"]  呃，我叫阿米娅……\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=2)]\n[name=\"霜星\"]  你们也要前往龙门，对吗？\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=1)]\n[name=\"阿米娅\"]  ……没错。\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=2)]\n[name=\"霜星\"]  那我们迟早会是敌人，小兔子。只是，现在还不是。\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=1)]\n[name=\"阿米娅\"]  霜星，你和你的小队并不像其他整合运动一样嗜杀、混乱。\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=2)]\n[name=\"霜星\"]  别指责我的同胞。你并不清楚他们经历过什么。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1\",focus=1)]\n[name=\"阿米娅\"]  可你也不愿意看着他们这样下去！\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1\",focus=2)]\n[name=\"霜星\"]  ……哦？\n[name=\"霜星\"]  你似乎能看穿我的想法？\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1\",focus=1)]\n[name=\"阿米娅\"]  我不能。但我能隐约感受到你的不安和局促。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1\",focus=2)]\n[name=\"霜星\"]  这些都将在龙门陷落后一扫而空。\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=1)]\n[name=\"阿米娅\"]  罗德岛其实……能够理解你和你的小队。\n[name=\"阿米娅\"]  也许你会反驳，会认为我根本不理解你们……\n[name=\"阿米娅\"]  但霜星小姐，他们经历过什么，我清清楚楚。\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=2)]\n[name=\"霜星\"]  ……幼稚。\n[Decision(options=\"霜星，你身上的衣服，不是你的吧？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_1505_frstar_1\")]\n[name=\"霜星\"]  ……\n[name=\"霜星\"]  没错。这曾经是“爱国者”的斗篷。我把它改织成了外衣。\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=1)]\n[name=\"阿米娅\"]  ……啊……\n[Character(name=\"char_1505_frstar_1\")]\n[name=\"霜星\"]  你是怎么看出来的？\n[name=\"霜星\"]  算了……\n[Character(name=\"char_1505_frstar_1#7\")]\n[name=\"霜星\"]  ……\n[name=\"霜星\"]  每个人都会有自己说不出来的事情吧。\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1#7\",focus=1)]\n[name=\"阿米娅\"]  霜星小姐，罗德岛不想和任何人发生不必要的冲突。\n[Character(name=\"char_002_amiya_1#1\",name2=\"char_1505_frstar_1\",focus=2)]\n[name=\"霜星\"]  又有哪种发生了的冲突是必要的呢？\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1\",focus=1)]\n[name=\"阿米娅\"]  至少我们不想与你的小队作战！\n[name=\"阿米娅\"]  他们都是正直善良的人。伤害他们，或者让他们伤害无辜的人，绝对违背了我们的意愿！\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1\",focus=2)]\n[name=\"霜星\"]  ……那就祈祷我们别再见面吧。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1\",focus=1)]\n[name=\"阿米娅\"]  霜星小姐！\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1#7\",focus=2)]\n[name=\"霜星\"]  我可能也没那么想伤害各位。但如果必要的话，我会把各位全都杀掉。\n[Decision(options=\"你可以来罗德岛。我们可以不再互相战斗。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_1505_frstar_1#8\")]\n[name=\"霜星\"]  那你可以试着打赢我。\n[Character(name=\"char_1505_frstar_1\")]\n[name=\"霜星\"]  如果你战胜了我，我可以考虑一下。\n[name=\"霜星\"]  只不过，我们只要在战场上相见，那就会是敌人。身为敌人，就是会互相残杀，不死不休。\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]  ……\n[Character(name=\"char_1505_frstar_1#7\")]\n[name=\"霜星\"]  对了，这个，给那只小狐狸。\n[Character(name=\"char_193_frostl_1\")]\n[name=\"霜叶\"]  ……什么？\n[Character(name=\"char_193_frostl_1\",name2=\"char_1505_frstar_1\",focus=2)]\n[name=\"霜星\"]  治疗冻伤的特效药。独家秘方。至少能缓解烧灼感和疼痛。\n[name=\"霜星\"]  我研究这东西很久了，刚才那一仗，你打的很不错。\n[name=\"霜星\"]  舍己为人的战士，在我眼里是最强的。"
+        }
+      ],
+      "description": "霜星是爱国者养女和战友。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "npc_e4fe2d3b4e1c0e5b",
+          "reason": "霜星是爱国者养女和战友。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "霜星是爱国者养女和战友。",
+          "status": "supported",
+          "to": "npc_e4fe2d3b4e1c0e5b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 319,
+          "kind": "story",
+          "line": 184,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-13_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 500,
+          "line": 430,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_07-01.txt",
+          "quote": "[name=\"爱国者\"]  ……\n[name=\"爱国者\"]  领袖。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  先生。你的归来让我安心许多。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  客套，不必。这里，刚刚，发生过战斗。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  是我与妄图刺杀我的W。 请放心，我没有大碍。\n[name=\"塔露拉\"]  根据一系列报告，她在占领切尔诺伯格时就已经心生叛意。\n[name=\"塔露拉\"]  她私自放走敌人，策动萨卡兹佣兵的叛乱，谋杀了自己的上司。\n[name=\"塔露拉\"]  她的一系列行为，应该都出自其他政治势力的指使。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  那现在，她在哪？\n[name=\"爱国者\"]  她应该，被审判。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  她引爆了藏在自己身上的爆破物，掉下了核心区。\n[name=\"塔露拉\"]  我会派人去搜查她的尸体，先生不必挂心。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我不用，关心。\n[name=\"爱国者\"]  那她的，萨卡兹雇佣军？\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  我会处理。现在核心城已经稳定航行，我需要立即稳定这股势力。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  ……领袖。为什么，不通知我，会启动核心城？\n[name=\"爱国者\"]  就连通讯，也断了。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  这是无奈之举。乌萨斯随时可能袭击切尔诺伯格，屠杀我们的同胞，我们必须为他们先行攻下龙门。\n[name=\"塔露拉\"]  现在，能源必须全部用来支持核心城的运转，我们没有多余的动力去支持城内外的频道调谐。\n[name=\"塔露拉\"]  天灾残留的源石对城区的干扰强到让我们无法承受。\n[name=\"塔露拉\"]  召回你的通讯用尽了我们最后的备用能源。现在，只有一个地方能提供给我们足够的精炼源石。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  即使，时间紧迫，你也可以，与我们，商量。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  你说的可能是对的。对不起，先生，我应该再多考虑。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  既然，你已经，启动核心城。\n[name=\"爱国者\"]  我这把密钥，又有什么用？\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]  它能够停下这座城市。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  当真，能够停下？\n[name=\"爱国者\"]  很多，事情，一旦启动，就不会停下。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  所以我把这把密钥交给你。由你来决定我们什么时候停下。\n[name=\"塔露拉\"]  我为我的独断指挥向你道歉。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  ……\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  今天的先生似乎比往常更沉闷。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  没有。我，去镇守，核心城。\n[name=\"爱国者\"]  一定有人，会尝试，攻击这里。\n[name=\"爱国者\"]  我拦住他们。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  有劳你了，先生。\n[name=\"塔露拉\"]  弑君者，霜星，以及梅菲斯特和浮士德，还在龙门等着我们去援助。我们不能让任何外来人干扰我们的计划。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  ……塔露拉。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  ……\n[name=\"塔露拉\"]  怎么，我的战士？\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  领袖。\n[name=\"爱国者\"]  无论是，怎样强盛的邪恶，都有它，未至的末日。\n[name=\"爱国者\"]  我，这样坚信。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  没错。我也同样坚信这一点。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  ……别了，领袖。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_025_1\", focus=1)]\n[name=\"塔露拉\"]  去吧，爱国者。"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_e4fe2d3b4e1c0e5b",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "npc_e4fe2d3b4e1c0e5b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 500,
+          "kind": "story",
+          "line": 430,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_07-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    }
+  ],
+  "relationship_id": "npc_e4fe2d3b4e1c0e5b|npc_e877f731a67498e3"
+}

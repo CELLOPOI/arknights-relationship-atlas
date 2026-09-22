@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 184,
+          "line": 176,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_end.txt",
+          "quote": "[name=\"菈玛莲\"]你已经想好了。\n[name=\"哀珐尼尔\"]是的。\n[name=\"哀珐尼尔\"]我会留在罗德岛，与那艘船一起航行于大地。\n[name=\"菈玛莲\"]特蕾西娅……不在了。\n[name=\"菈玛莲\"]巴别塔的理想……\n[name=\"哀珐尼尔\"]……依然在。\n[name=\"哀珐尼尔\"]殿下已选定一位继承人。她尚年幼，眼里却有着熟悉的属于理想者的火焰。\n[name=\"哀珐尼尔\"]而我留在罗德岛，并非只为她一人。\n[name=\"哀珐尼尔\"]殿下的探求与寻觅并没有，也不该就此结束。既然关于萨卡兹未来的答案仍在别处，我便会不断地踏上旅途。"
+        }
+      ],
+      "description": "菈玛莲主动提特蕾西娅已不在，暂只证明知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E114"
+          ],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "菈玛莲主动提特蕾西娅已不在，暂只证明知晓。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_751dc5e345c5cbe2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 184,
+          "kind": "story",
+          "line": 176,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 99,
+          "line": 91,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "quote": "[name=\"女妖\"]……殿下，您看上去比昨日更憔悴了。\n[name=\"女妖\"]注意您自己的身体，有再多个军事委员会——\n[name=\"女妖\"]——我们也不能失去特蕾西娅殿下您。\n[charslot(slot=\"m\",name=\"avg_npc_1297_1#1$1\")]\n[name=\"特雷西斯\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\")]\n[name=\"特蕾西娅\"]菈玛莲……谢谢。\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#7$1\")]\n[name=\"菈玛莲\"]我清楚您为了今天付出了多少努力……也清楚，如今的卡兹戴尔如何看待躲藏在河谷之中的女妖们。"
+        }
+      ],
+      "description": "女妖向殿下问候，特蕾西娅明确称她菈玛莲。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "女妖向殿下问候，特蕾西娅明确称她菈玛莲。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "女妖向殿下问候，特蕾西娅明确称她菈玛莲。",
+          "status": "supported",
+          "to": "npc_751dc5e345c5cbe2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 99,
+          "kind": "story",
+          "line": 91,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_751dc5e345c5cbe2|npc_c0e49cc5a9477cf1"
+}

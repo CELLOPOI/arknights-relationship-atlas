@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 705,
+          "line": 688,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_02_beg.txt",
+          "quote": "[name=\"结城理\"]嗯。我们现在怀疑，暗影和我们一样，是通过那扇神秘的门扉来到拉特兰的。\n[name=\"结城理\"]正如刚才所说，我们不能坐视拉特兰被暗影侵害。但我们毕竟不是拉特兰人，有很多不了解的事……\n[name=\"班主任\"]我了解你的顾虑了。这件事情确实不适合公之于众。\n[name=\"班主任\"]我来想想办法吧。\n[name=\"山岸风花\"]博士，你愿意协助我们的调查？\n[name=\"班主任\"]“协助”你们的调查吗……就当做是这样吧。\n[name=\"班主任\"]不过，从你们的描述来看，拉特兰的情况和你们的世界其实不完全一样，对吧？\n[name=\"天田乾\"]嗯，不太一样。发生异变的区域，虽然氛围很像影时间，但时间流逝是正常的，路人也没有异常的表现。\n[name=\"天田乾\"]而且，从路人对暗影的反应来看，他们似乎察觉不到暗影的存在。即使路人接触到了暗影，好像也没有受到什么明显的伤害……\n[name=\"天田乾\"]……不，“没有受到伤害”这点还不能确定。\n[name=\"班主任\"]你叫天田对吧，由加莉说的“弟弟”应该就是你？不错，思考很严谨。\n[name=\"天田乾\"]啊，是、是我没错……谢谢夸奖。\n[name=\"班主任\"]你们今天也会去调查暗影吗？\n[name=\"结城理\"]嗯，以现在的情形，不能放着不管。\n[name=\"班主任\"]那，仅限今晚，我就和你们一起去吧，看看你们战斗的方式……以及，确认一下“拉特兰人看不见暗影”这件事。\n[name=\"班主任\"]至于拉特兰是否出现了无气力症，之后我也会去确认。\n[name=\"结城理\"]另外，我们还有一名叫做“埃癸斯”的同伴没有找到，我们很想尽快找到她……\n[name=\"班主任\"]我可以帮你们打听。大体上，我赞同你们关于门扉的想法。"
+        }
+      ],
+      "description": "由加莉向博士解释人格面具，博士接收说明并回应调查计划。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "char_4219_yukari",
+          "reason": "由加莉向博士解释人格面具，博士接收说明并回应调查计划。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "由加莉向博士解释人格面具，博士接收说明并回应调查计划。",
+          "status": "supported",
+          "to": "char_4219_yukari"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2be69585e5326764.json",
+      "sources": [
+        {
+          "endLine": 705,
+          "kind": "story",
+          "line": 688,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇联动叙事所示时段",
+      "title": "月行水上"
+    }
+  ],
+  "relationship_id": "char_4219_yukari|npc_b99957887950ebfd"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 435,
+          "line": 423,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_end.txt",
+          "quote": "[name=\"德克萨斯\"]……\n[Character(name=\"avg_103_angel_1#10$1\")]\n[name=\"能天使\"]大家好啊！\n[Character(name=\"avg_npc_699_1#1$1\")]\n[name=\"法庭护卫\"]你是切利尼娜？！为什么你会——\n[Character(name=\"avg_npc_699_1#1$1\")]\n[name=\"法庭护卫\"]而且，我怎么没听说过沃尔西尼还有别的萨科塔……\n[Character(name=\"avg_4065_judge_1#7$1\")]\n[name=\"拉维妮娅\"]你们只需要知道，切利尼娜和她的朋友会站在我们这一边就足够了。\n[Character(name=\"avg_4065_judge_1#7$1\")]\n[name=\"拉维妮娅\"]而且，卢比奥部长给我留下了一些帮手，我联络到了他们。\n[Character(name=\"avg_4065_judge_1#7$1\")]\n[name=\"拉维妮娅\"]他们会为我们提供帮助。"
+        }
+      ],
+      "description": "能天使在法庭听斥罪介绍卢比奥留下的帮手。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E36"
+          ],
+          "from": "char_103_angel",
+          "reason": "能天使在法庭听斥罪介绍卢比奥留下的帮手。",
+          "status": "supported",
+          "to": "npc_c345198442adc2b7"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c345198442adc2b7",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 435,
+          "kind": "story",
+          "line": 423,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_103_angel|npc_c345198442adc2b7"
+}

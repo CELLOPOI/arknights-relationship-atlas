@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 788,
+          "line": 782,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-19_end.txt",
+          "quote": "[name=\"特蕾西娅\"]肩负文明重任的守望者，掌握钥匙的智慧之人，觉醒了意志的天才佣兵，还有纯粹地共情着所有生灵的孩子。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]还有Logos，Mantra，Scout，Ace……无数闪耀的灵魂。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]你们跨越了种族、出身、疾病带来的隔阂，分享着最为诚挚的友谊，与最为坚定的理想。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]你们历经战争的磨难与现实的阻碍，依旧团聚在一起，站在我的身边。"
+        }
+      ],
+      "description": "特蕾西娅回忆具名二人在自己身边共同创立巴别塔的实际相处。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E144"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅回忆具名二人在自己身边共同创立巴别塔的实际相处。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E144"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "特蕾西娅回忆具名二人在自己身边共同创立巴别塔的实际相处。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 788,
+          "kind": "story",
+          "line": 782,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-19_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 129,
+          "line": 84,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st03.txt",
+          "quote": "[name=\"Ace\"]没关系，博士，我会代这家伙多喝上几杯的。\n[name=\"Ace\"]要不是您最后果断地变招突袭，我们恐怕都要落进包围网里。\n[name=\"Ace\"]来，敬您，我们可得好好喝上几杯。\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"博士\"]恐怕我的酒量会让你失望，Ace先生。\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=1, loop=true, channel=\"r\")]\n[StopSound(channel=\"r\", fadetime=1.5)]\n[charslot(slot = \"l\", name = \"avg_npc_050\", posfrom = \"-50,0\", posto = \"-50,0\", duration=1.5, isblock=true)]\n[charslot(slot = \"l\", focus=\"l\")]\n[name=\"可露希尔\"]让一让，让一让，我都要看不见今天的主角了。\n[name=\"可露希尔\"]这么多人，我还是第一次觉得这间指挥室这么小，要不要之后帮你扩建一下啊？外面可还有好多人提着好吃的赶过来呢。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1072_1#1$1\")]\n[name=\"Logos\"]博士，大家都在为您所带来的胜利而欢呼，但您看上去有些……不自在。\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"博士\"]我以为自己遮掩得不错。咳，只是在人群中觉得紧张。\n[dialog]\n[PlaySound(key=\"$bodyfalldown3\", volume=1)]\n[charslot(slot = \"r\", name = \"avg_npc_1311_1#1$1\", posfrom = \"100,0\", posto = \"100,0\", afrom=0, ato=1, duration = 0.2)]\n[charslot(slot = \"r\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.02, duration = 0.2, block=true)]\n[delay(time=0.5)]\n[charslot(slot = \"r\", focus=\"r\")]\n[name=\"Scout\"]嘿，小心，别往前挤了。阿米娅，你还好吗？\n[dialog]\n[charslot(slot = \"l\", name = \"avg_npc_1295_1#8$1\", posfrom = \"-80,0\", posto = \"-80,0\", duration = 0.5, block=true)]\n[charslot(slot = \"l\", focus=\"l\")]\n[name=\"阿米娅\"]我没事！\n[name=\"阿米娅\"]博士！快和我来，我和特蕾西娅小姐为你准备了烤蛋糕！\n[name=\"阿米娅\"]你看，烤箱特别烫，还把我的手指烫了一个泡。\n[dialog]\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"博士\"]谢谢……呃！这没事吗？谁有烫伤膏……\n[dialog]\n[delay(time=1)]\n一声轻轻的咳嗽响起，人群应声向两边散开。\n[dialog]\n[StopSound(channel=\"in\", fadetime=2)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"r\", posfrom = \"100,0\", posto = \"200,0\", afrom=1, ato=0, duration = 1.5)]\n[charslot(slot = \"l\", posfrom = \"-80,0\", posto = \"-200,0\", afrom=1, ato=0, duration = 1.5)]\n[charslot(slot = \"m\", posfrom = \"0,0\", posto = \"-150,0\", afrom=1, ato=0, duration = 1.5)]\n[delay(time=2)]\n[charslot]\n特蕾西娅看到了一个身着白裙的女人擦肩而过，笑着向博士伸出一只手，手上有未愈的针刺伤口。\n那是她自己。"
+        }
+      ],
+      "description": "庆典回忆中Ace敬酒、特蕾西娅实际从人群走向博士；旁白129明确此人为记忆中的她自己。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E55"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "庆典回忆中Ace敬酒、特蕾西娅实际从人群走向博士；旁白129明确此人为记忆中的她自己。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E55"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "庆典回忆中Ace敬酒、特蕾西娅实际从人群走向博士；旁白129明确此人为记忆中的她自己。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 129,
+          "kind": "story",
+          "line": 84,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_c0e49cc5a9477cf1|npc_ded4733bcc9da868"
+}

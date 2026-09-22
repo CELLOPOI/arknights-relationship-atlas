@@ -1,0 +1,216 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 108,
+          "line": 53,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-03_beg.txt",
+          "quote": "[name=\"Mon3tr\"]科谢尼娅·马尔科芙娜·涅留朵娃。\n[charslot(slot = \"m\", name = \"avg_4179_monstr_1#2$1\")]\n[name=\"Mon3tr\"]相比之下，这位研究员的履历要详细得多。在石棺事件发生前，她曾短暂地作为伊利亚的副手在切城研究所工作过，与凯尔希打过交道。\n[name=\"Mon3tr\"]根据我们了解到的最新消息，目前，她正在乌萨斯远北地区，布列斯克下辖的远北中心矿区研究所里工作。\n[name=\"Mon3tr\"]而那里，正是阿尔乔姆临终前寄出的最后几封信件的收件地址。\n[dialog]\n[charslot(slot = \"m\", focus=\"n\")]\n[Decision(options=\"听上去并不是一个十分可靠的线索……;却也是我们唯一的线索。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"我们应该去那座研究所找她。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#10$1\")]\n[name=\"华法琳\"]博士，我必须要提醒你。\n[name=\"华法琳\"]虽然我们已经下定决心要把凯尔希带回来，但我们必须考量每一次任务的风险。\n[name=\"华法琳\"]罗德岛现在经不起多少损失了……\n[dialog]\n[charslot]\n[Decision(options=\"可是……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\", duration=1.5, isblock=true)]\n[Delay(time=0.5)]\n[name=\"Raidian\"]让我去吧。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$1\")]\n[name=\"阿米娅\"]Raidian？\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#2$1\")]\n[name=\"Raidian\"]乌萨斯至今依然是非常危险的地方，并且，这次任务我们掌握的情报十分有限。\n[name=\"Raidian\"]而罗德岛重建工作刚刚起步，很多事务还需要博士和阿米娅参与决策。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$1\")]\n[name=\"阿米娅\"]Raidian，我可以……\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#1$1\")]\n[name=\"Raidian\"]我知道，阿米娅已经是很厉害的大人了，但正因为这样，留守罗德岛这项最重要的任务要交给阿米娅才行。\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\")]\n[name=\"Raidian\"]拉特兰传回的消息同样令人不安，博士势必要去处理。让罗德岛在新家园站稳脚跟，是我们当下最要紧的任务。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$1\")]\n[name=\"阿米娅\"]你说得对……\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#1$1\")]\n[name=\"Raidian\"]如果只是潜入任务，那肯定是Misery的小队更加擅长，但还要收集情报的话，还是我的小队更为专精。\n[name=\"Raidian\"]何况，回乌萨斯行动的话，也没有比我更合适的人选了，对吧？\n[charslot(slot = \"m\", name = \"avg_npc_1723_1#3$1\")]\n[name=\"可露希尔\"]听上去，Raidian的分析还是很有道理的……\n[charslot(slot = \"m\", name = \"avg_npc_1723_1#1$1\")]\n[name=\"可露希尔\"]博士，你决定吧。\n[dialog]\n[charslot]\n[Decision(options=\"这次任务很危险。;一定要注意安全，Raidian。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"罗德岛不能再失去任何人了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#1$1\")]\n[name=\"Raidian\"]当然啦，我们会以流动医疗队的形式谨慎行动的。\n[name=\"Raidian\"]我不在的时候，大家都要照顾好自己哦。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#9$1\")]\n[name=\"阿米娅\"]嗯……\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$1\")]\n[name=\"阿米娅\"]希望每一个人，都能平安回家……"
+        }
+      ],
+      "description": "电弧与博士直接讨论任务安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_4195_radian",
+          "reason": "电弧与博士直接讨论任务安排。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "电弧与博士直接讨论任务安排。",
+          "status": "supported",
+          "to": "char_4195_radian"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_ef827cdde49f2fd2.json",
+      "sources": [
+        {
+          "endLine": 108,
+          "kind": "story",
+          "line": 53,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "反常光谱所述时段或明确既往互动",
+      "title": "反常光谱"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 269,
+          "line": 262,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation01.txt",
+          "quote": "[name=\"煌\"]是我的错觉吗？这里原地产生敌人的速度好像变慢了？\n[charslot(slot=\"m\", name=\"avg_npc_1730_1#3$1\")]\n[name=\"Raidian\"]这里是PRTS的核心系统，从一开始，它就是在读取我们以往面对过的敌人的数据并复制出来。\n[name=\"Raidian\"]但是现在它读取资料库数据的速度变慢了，似乎是受到了一些阻碍……\n[name=\"Raidian\"]看来是博士那边的行动奏效了。\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]抓紧这个机会，一举攻破它。\n[name=\"阿斯卡纶\"]我们要到Abyss深处去……还有人在等着我们。"
+        }
+      ],
+      "description": "Raidian说博士那边行动奏效，煌与阿斯卡纶同场回应，建立对博士的知晓；博士在另一地点。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_4195_radian",
+          "reason": "Raidian说博士那边行动奏效，煌与阿斯卡纶同场回应，建立对博士的知晓；博士在另一地点。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4195_radian"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_d2170c6d544786d4.json",
+      "sources": [
+        {
+          "endLine": 269,
+          "kind": "story",
+          "line": 262,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "剧情所述时段",
+      "title": "剧情"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 67,
+          "line": 16,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_17-02.txt",
+          "quote": "再一次，你拉住了她的手。\n[name=\"凯尔希\"]Dr.{@nickname}……？\n[Dialog]\n[musicvolume(volume=0.6, fadetime=2)]\n[focusout(duration=3.5, type=\"bg\", from=1, to=0, block=true)]\n创生舱中的人缓缓坐起。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_1052_kalts2_1#8$2\",duration=2.5)]\n[charslot(slot=\"l\",name=\"avg_1052_kalts2_1#8$2\",posfrom=\"200,0\",posto=\"200,0\",duration=2.5)]\n[Delay(time=3.5)]\n[charslot(slot=\"m\",name=\"avg_1052_kalts2_1#1$2\",focus=\"m\")]\n[charslot(slot=\"l\",afrom=1,ato=0,duration=2.5)]\n[Delay(time=2.5)]\n[name=\"凯尔希\"]我……\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1037_amiya3_1#13$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_4179_monstr_1#13$1\",focus=\"all\")]\n[name=\"阿米娅/Mon3tr\"]凯尔希医生！/凯尔希！\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#7$1\",focus=\"m\")]\n[name=\"Raidian\"]凯尔希……\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#7$1\",focus=\"m\")]\n[multiline(name=\"可露希尔\")]我成功了？\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#3$1\",focus=\"m\")]\n[multiline(name=\"可露希尔\")]我终于成功了！\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#14$1\",focus=\"m\")]\n[name=\"可露希尔\"]凯尔希，是你吗？你还认得我吗？你一定还认得博士和阿米娅对不对！\n[Dialog]\n[charslot]\n阿米娅克制住自己想要上前拥抱凯尔希的冲动，Mon3tr将利爪深深嵌入泥土里。所有人都紧张地观望，没有人敢轻易相信这样的结果。\n刚刚苏醒之人的目光依次扫过自己身旁的人们，脸上茫然的神情开始变得柔和。\n[charslot(slot=\"m\",name=\"avg_1052_kalts2_1#4$2\",focus=\"m\")]\n[name=\"凯尔希\"]我需要有人回答……我为何，会在这里？\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$1\",focus=\"m\")]\n[name=\"Mon3tr\"]是博士——还有可露希尔！\n[name=\"Mon3tr\"]我们一直在想办法复现双生循环的功能，用空白源石帮你塑造一副身体！\n[name=\"Mon3tr\"]虽然实验一直不成功，但是我们居然在乌萨斯的石棺里发现了AMa-10的原始代码——\n[charslot(slot=\"m\",name=\"avg_1052_kalts2_1#1$2\",focus=\"m\")]\n[name=\"凯尔希\"]……这在理论上几乎是不可能的事。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$1\",focus=\"m\")]\n[name=\"Mon3tr\"]这些都不重要！\n[name=\"Mon3tr\"]你有没有觉得哪里不舒服，或者记忆很混乱？还有你——\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#13$1\",focus=\"m\")]\n[name=\"Mon3tr\"]你还认得出我吗……\n[charslot(slot=\"m\",name=\"avg_1052_kalts2_1#3$2\",focus=\"m\")]\n[name=\"凯尔希\"]……怎么会认不出呢……\n[name=\"凯尔希\"]Mon3tr……\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#9$1\",focus=\"m\")]\n[name=\"Mon3tr\"]我……\n[name=\"Mon3tr\"]我好想你……"
+        }
+      ],
+      "description": "char_4195_radian与博士在凯尔希苏醒现场共同交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_4195_radian",
+          "reason": "双方直接互动或有明确具体既往互动。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方直接互动或有明确具体既往互动。",
+          "status": "supported",
+          "to": "char_4195_radian"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 67,
+          "kind": "story",
+          "line": 16,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_17-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒事件及罗德岛后续",
+      "title": "相变临界"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 55,
+          "line": 37,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/sandboxperm/sandbox_2/sandbox_2_ending_1.txt",
+          "quote": "[name=\"温米\"]现在没有黄油，只有面粉……小火炒熟，加入煮好的蔬菜高汤里搅拌均匀……\n[charslot(slot=\"m\",name=\"avg_4081_warmy_1#11$2\")]\n[name=\"温米\"]唔，香味渐渐地出来了……\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#1$1\",focus=\"m\")]\n[name=\"Raidian\"]在忙什么呢？\n[charslot(slot=\"m\",name=\"avg_4081_warmy_1#1$2\")]\n[name=\"温米\"]Raidian姐姐，你们回来了！\n[charslot(slot=\"m\",name=\"avg_4081_warmy_1#11$2\")]\n[name=\"温米\"]现在食材没有那么多，我想给大家做顿丰盛一点的饭。这是我刚学会的浓汤，博士尝了说很好吃，Raidian姐姐要不要也来尝一尝？\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#1$1\",focus=\"m\")]\n[name=\"Raidian\"]当然好啊。\n[charslot(slot=\"m\",name=\"avg_4081_warmy_1#1$2\")]\n[name=\"温米\"]那今晚我和后勤部一起给大家做饭，让每桌都能吃上新菜~\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#9$1\",focus=\"m\")]\n[name=\"Raidian\"]那我们要怎么感谢辛苦做饭的温米呢？\n[charslot(slot=\"m\",name=\"avg_4081_warmy_1#4$2\")]\n[name=\"温米\"]你们安全回来就是最好的感谢啦！\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#1$1\",focus=\"m\")]\n[name=\"Raidian\"]真是乖孩子。"
+        }
+      ],
+      "description": "Raidian 通过温米的具体讲述知晓博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_4195_radian",
+          "reason": "Raidian 当面听到温米具体说博士试吃并评价浓汤。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在当前场景，未建立博士知晓 Raidian。",
+          "status": "not_established",
+          "to": "char_4195_radian"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0f8dd85e1a9c2527.json",
+      "sources": [
+        {
+          "endLine": 55,
+          "kind": "story",
+          "line": 37,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/sandboxperm/sandbox_2/sandbox_2_ending_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "温米与 Raidian 在新基地走廊交谈时",
+      "title": "重启锚点"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 526,
+          "line": 449,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "quote": "[Decision(options=\"所有人测试通讯设备。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[playMusic(intro=\"$kaltsitteam_intro\", key=\"$kaltsitteam_loop\", volume=0.6)]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[interlude(maskid = \"group_interclude_square_common\", char = \"Raidian\", switch = true, style = 1,offset = \"-200,170\", channel = 3)]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"450,0\", pto=\"-180,50\",name = \"avg_npc_1730_1#1$1\",  duration = 0)]\n[interlude(channel = 3, switch = true)]\n[name=\"Raidian\"]已就位。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Mantra\", switch = true, style = 1,offset = \"200,170\", channel = 4)]\n[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"220,-60\", name = \"avg_npc_1300_1#1$1\", duration = 0)]\n[interlude(channel = 3, switch = false)]\n[name=\"Mantra\"]收到。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Misery\", switch = true, style = 1,offset = \"-200,-120\", channel = 5)]\n[interlude(channel = 5, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"-160,-350\", name = \"avg_npc_235\", duration = 0)]\n[interlude(channel = 4, switch = false)]\n[name=\"Misery\"]在前线等你们。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Logos\", switch = true, style = 1,offset = \"200,-120\", channel = 6)]\n[interlude(channel = 6, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"190,-320\", name = \"avg_4133_logos_1#1$1\", duration = 0)]\n[interlude(channel = 5, switch = false)]\n[name=\"Logos\"]前往集合。\n[dialog]\n[interlude(channel = 3, clear = true)]\n[interlude(channel = 4, clear = true)]\n[interlude(channel = 5, clear = true)]\n[interlude(channel = 6, clear = true)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[interlude(maskid = \"group_interclude_square_common\", char = \"Mechanist\", switch = true, style = 1,offset = \"-200,170\", channel = 3)]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"450,0\", pto=\"-130,-50\", name = \"avg_npc_521_1#1$1\", duration = 0)]\n[interlude(channel = 3, switch = true)]\n[name=\"Mechanist\"]马上到。\n[interlude(maskid = \"group_interclude_square_common\", char = \"迷迭香\", switch = true, style = 1,offset = \"200,170\", channel = 4)]\n[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"240,70\", name = \"avg_391_rosmon_1#1$2\", duration = 0)]\n[interlude(channel = 3, switch = false)]\n[name=\"迷迭香\"]我在，博士。\n[interlude(maskid = \"group_interclude_square_common\", char = \"煌\", switch = true, style = 1,offset = \"-200,-120\", channel = 5)]\n[interlude(channel = 5, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"-175,-300\", name = \"avg_017_huang_1#12$2\", duration = 0)]\n[interlude(channel = 4, switch = false)]\n[name=\"煌\"]好久没一起干架了！\n[interlude(maskid = \"group_interclude_square_common\", char = \"Sharp\", switch = true, style = 1,offset = \"200,-120\", channel = 6)]\n[interlude(channel = 6, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"240,-320\", name = \"avg_npc_252\", duration = 0)]\n[interlude(channel = 5, switch = false)]\n[name=\"Sharp\"]“坏家伙”号已返回本舰，马上集合。\n[dialog]\n[interlude(channel = 3, clear = true)]\n[interlude(channel = 4, clear = true)]\n[interlude(channel = 5, clear = true)]\n[interlude(channel = 6, clear = true)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[interlude(maskid = \"group_interclude_square_common\", char = \"Stormeye\", switch = true, style = 1,offset = \"-200,170\", channel = 3)]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"450,0\", pto=\"-200,-60\", name = \"avg_npc_167\", duration = 0)]\n[interlude(channel = 3, switch = true)]\n[name=\"Stormeye\"]稍等片刻。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Pith\", switch = true, style = 1,offset = \"200,170\", channel = 4)]\n[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"200,10\", name = \"avg_npc_1310_1#1$1\", duration = 0)]\n[interlude(channel = 3, switch = false)]\n[name=\"Pith\"]在。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Touch\", switch = true, style = 1,offset = \"-200,-120\", channel = 5)]\n[interlude(channel = 5, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"-230,-250\", name = \"avg_npc_249_1$1\", duration = 0)]\n[interlude(channel = 4, switch = false)]\n[name=\"Touch\"]正在集合。\n[interlude(maskid = \"group_interclude_square_common\", char = \"阿斯卡纶\", switch = true, style = 1,offset = \"200,-120\", channel = 6)]\n[interlude(channel = 6, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"190,-320\", name = \"avg_4132_ascln_1#1$1\", duration = 0)]\n[interlude(channel = 5, switch = false)]\n[name=\"阿斯卡纶\"]等你。\n[dialog]\n[PlaySound(key=\"$transmission\", volume=1)]\n[interlude(channel = 3, clear = true, tsto=\"0,1\",tsduration=0.5)]\n[interlude(channel = 4, clear = true, tsto=\"0,1\",tsduration=0.5)]\n[interlude(channel = 5, clear = true, tsto=\"0,1\",tsduration=0.5)]\n[interlude(channel = 6, clear = true, tsto=\"0,1\",tsduration=0.5)]\n[delay(time=1.5)]\n[Decision(options=\"各位，目标已同步。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"优先目标——支援凯尔希。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"核心任务——进入Abyss，切断PRTS的核心能源。\", values=\"1\")]"
+        }
+      ],
+      "description": "Raidian具名回应博士的行动命令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D14"
+          ],
+          "from": "char_4195_radian",
+          "reason": "Raidian具名回应博士的行动命令。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D14"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "Raidian具名回应博士的行动命令。",
+          "status": "supported",
+          "to": "char_4195_radian"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 526,
+          "kind": "story",
+          "line": 449,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4195_radian|npc_b99957887950ebfd"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 464,
+          "line": 444,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_beg.txt",
+          "quote": "[name=\"极光\"]我们得先和博士联络一下。\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#1$1\",focus=1)]\n[name=\"Sharp\"]极光。\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#2$1\",focus=2)]\n[name=\"极光\"]嗯？\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#2$1\",focus=1)]\n[name=\"Sharp\"]你很尊敬恩希欧迪斯。\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#9$1\",focus=2)]\n[name=\"极光\"]……是的。没有恩希欧迪斯老爷，我是不可能走出谢拉格，接触外面的一切的。\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#9$1\",focus=1)]\n[name=\"Sharp\"]我可以理解。\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#9$1\",focus=1)]\n[name=\"Sharp\"]但我要你暂时忘了这件事，现在开始，你要将他视为假想敌，能不能做到？\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#9$1\",focus=1)]\n[name=\"Sharp\"]如果觉得做不到，你现在可以回去，我不会责怪你。\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#5$1\",focus=2)]\n[name=\"极光\"]……但我同时也是罗德岛的一员。\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#5$1\",focus=1)]\n[name=\"Sharp\"]记住你现在说的话。\n[character(name=\"avg_npc_252\",name2=\"avg_422_aurora_1#1$1\",focus=2)]\n[name=\"极光\"]是。"
+        }
+      ],
+      "description": "极光与Sharp直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_422_aurora",
+          "reason": "极光与Sharp直接对话。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_508_aguard",
+          "reason": "极光与Sharp直接对话。",
+          "status": "supported",
+          "to": "char_422_aurora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 464,
+          "kind": "story",
+          "line": 444,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_422_aurora|char_508_aguard"
+}

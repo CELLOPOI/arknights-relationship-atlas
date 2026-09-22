@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 831,
+          "line": 824,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_beg.txt",
+          "quote": "[name=\"槐琥\"]最近玉门城里风波不断，都是这个人主使的？\n[name=\"仇白\"]让她兴风作浪了这些天，也该到此为止了。\n[name=\"仇白\"]都小心点，她的源石技艺，很古怪。\n[name=\"林雨霞\"]爸和魏长官联手都没有留住她，这个人不知道还有多少歪门邪道。\n[name=\"陈\"]所以说，这个满嘴胡话的女人，就是刺杀魏彦吾的人？\n[name=\"林雨霞\"]怕了？\n[name=\"陈\"]笑话。\n[name=\"陈\"]正好在这里解决了她，回去可以好好嘲笑魏彦吾。"
+        }
+      ],
+      "description": "槐琥在交战场景听林雨霞和陈讨论魏彦吾受袭，获知具体人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E76"
+          ],
+          "from": "char_243_waaifu",
+          "reason": "槐琥在交战场景听林雨霞和陈讨论魏彦吾受袭，获知具体人。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_243_waaifu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 831,
+          "kind": "story",
+          "line": 824,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_243_waaifu|npc_08bc2cc38b820ef0"
+}

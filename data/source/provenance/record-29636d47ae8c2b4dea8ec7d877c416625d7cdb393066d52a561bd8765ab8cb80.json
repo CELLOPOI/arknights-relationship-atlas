@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 486,
+          "line": 446,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_07_end.txt",
+          "quote": "[name=\"大祭司\"]噢，在你们为了嘉维尔吵得不可开交的时候，只有我这把老骨头和这些机器人在认真寻找着地图。\n[name=\"大祭司\"]并且，我从刚才就发现了，这面书架上的书，和游记根本没有关系。\n[name=\"大祭司\"]所以，我就去了书架的另一面找了找，一下子就找到了。\n[name=\"大祭司\"]是这个没错吧？\n[Dialog]\n[Character(name=\"avg_4055_bgsnow_1#1$1\")]\n[PlaySound(key=\"$d_avg_paper2\")]\n[Delay(time=2)]\n[Character(name=\"avg_4055_bgsnow_1#10$1\")]\n[name=\"阿芙朵嘉\"]没错。\n[Character(name=\"char_416_zumama_1#4\")]\n[name=\"森蚺\"]……\n[Character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]……\n[playMusic(intro=\"$holiday_intro\",key=\"$holiday_loop\", volume=0.4)]\n[Character(name=\"avg_npc_576_1#1$1\",name2=\"avg_npc_576_1#1$1\")]\n[name=\"奇怪的机械\"]阿芙朵嘉，笨蛋，阿芙朵嘉。\n[Character(name=\"avg_4055_bgsnow_1#3$1\")]\n[name=\"阿芙朵嘉\"]……好啦，我知道错啦，对不起！\n[Character(name=\"avg_4055_bgsnow_1#8$1\")]\n[name=\"阿芙朵嘉\"]这样可以了吧！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.7)]\n[Character(name=\"avg_npc_566_1#1$1\",fadetime=0.5)]\n[characteraction(name=\"middle\", type=\"move\", xpos=200, fadetime=0, block=false)]\n[characteraction(name=\"middle\", type=\"move\", xpos=-200, fadetime=1.5, block=true)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_566_1#4$1\")]\n[name=\"克罗绮·砖石\"]啊，阿芙朵嘉，太好了，你还在这里。\n[Character(name=\"avg_npc_566_1#1$1\")]\n[name=\"克罗绮·砖石\"]耶奇大师刚才发来了通讯，他提议现在就在广场举行全体大会，其他代表都已经同意了，问问你的意见。\n[Character(name=\"avg_4055_bgsnow_1#1$1\")]\n[name=\"阿芙朵嘉\"]……\n[name=\"阿芙朵嘉\"]谢谢你，祖玛玛。\n[Character(name=\"avg_4055_bgsnow_1#6$1\")]\n[name=\"阿芙朵嘉\"]我虽然还是没有完全接受，但或许——我确实可以尝试一下。\n[Character(name=\"char_416_zumama_1#5\")]\n[name=\"森蚺\"]嗯。\n[Character(name=\"avg_4055_bgsnow_1#10$1\")]\n[name=\"阿芙朵嘉\"]克罗绮，告诉耶奇大师，就说，我没有问题，并且，我会来说服际崖城的居民们。"
+        }
+      ],
+      "description": "图书馆找图众人仍在原地，克罗绮到来传达耶奇大师的会议提议；大祭司、森蚺得知具体人物，不跨回另一处会议推双向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "图书馆找图众人仍在原地，克罗绮到来传达耶奇大师的会议提议；大祭司、森蚺得知具体人物，不跨回另一处会议推双向。",
+          "status": "supported",
+          "to": "npc_3b2937f62c55f178"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3b2937f62c55f178",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_ec93b1be1e69c694"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 486,
+          "kind": "story",
+          "line": 446,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "理想城：长夏狂欢季"
+    }
+  ],
+  "relationship_id": "npc_3b2937f62c55f178|npc_ec93b1be1e69c694"
+}

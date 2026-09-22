@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 80,
+          "line": 61,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "quote": "[name=\"诺希斯\"]你确定？\n[Character(name=\"avg_206_gnosis_1#4$1\",name2=\"avg_npc_255_1#1$1\",focus=2)]\n[name=\"莫希\"]是的，阿克托斯在领地内集结了大量士兵，但是，这支队伍的领导者是那位博士，而不是阿克托斯。\n[Character(name=\"avg_206_gnosis_1#7$1\",name2=\"avg_npc_255_1#1$1\",focus=1)]\n[name=\"诺希斯\"]阿克托斯人呢？\n[Character(name=\"avg_206_gnosis_1#7$1\",name2=\"avg_npc_255_1#6$1\",focus=2)]\n[name=\"莫希\"]不清楚……根据眼线的回报，在将这支队伍的指挥权正式交给博士后，他就不知所踪了。\n[Character(name=\"avg_206_gnosis_1#7$1\",name2=\"avg_npc_255_1#6$1\",focus=1)]\n[name=\"诺希斯\"]……那个博士的队伍是诱饵？不，不会这么简单。\n[name=\"诺希斯\"]规模呢？\n[Character(name=\"avg_206_gnosis_1#7$1\",name2=\"avg_npc_255_1#1$1\",focus=2)]\n[name=\"莫希\"]佩尔罗契领地响应阿克托斯号召的家族和您想象的差不多，以此估算的话——阿克托斯应该不可能再集结起另外一支同样规模的队伍。\n[Character(name=\"avg_206_gnosis_1#2$1\",name2=\"avg_npc_255_1#1$1\",focus=1)]\n[name=\"诺希斯\"]但是他不可能待在后方，有另一支队伍的可能性很大。\n[Character(name=\"avg_206_gnosis_1#2$1\",name2=\"avg_npc_255_1#1$1\",focus=2)]\n[name=\"莫希\"]佩尔罗契家的战士本来就很擅长在山野中行动，这确实不是没有可能。\n[Character(name=\"avg_206_gnosis_1#7$1\",name2=\"avg_npc_255_1#1$1\",focus=1)]\n[name=\"诺希斯\"]但是，无论是诱饵还是主力，这支队伍都不能放任不理。\n[name=\"诺希斯\"]让魏斯传令，命战士们在山下集结，等候命令。\n[name=\"诺希斯\"]然后派人去盯着大部队，你主要负责去找出阿克托斯的踪迹。"
+        }
+      ],
+      "description": "灵知回应博士领军的情报并分析他的目的。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E91"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "灵知回应博士领军的情报并分析他的目的。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 80,
+          "kind": "story",
+          "line": 61,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 61,
+          "line": 42,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "quote": "[name=\"锏\"]诺希斯是这么说的。你觉得呢，恩希欧迪斯？\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#2$1\")]\n[name=\"恩希欧迪斯\"]我可没有随手把几十米高的巨像切割开的实力。\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#1$1\")]\n[name=\"锏\"]是啊。\n[name=\"锏\"]你只是邀请那个博士过来，差点让对方坏了计划而已。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#2$1\")]\n[name=\"恩希欧迪斯\"]……\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#6$1\")]\n[name=\"诺希斯\"]……唉。\n[name=\"诺希斯\"]我不想听你们毫无意义地互相攻击。\n[name=\"诺希斯\"]负责维持秩序的山雪鬼……\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#1$1\")]\n[name=\"锏\"]他们会提前到湖心岛。\n[name=\"锏\"]负责招待维多利亚人，还有那些商人。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#9$1\")]\n[name=\"恩希欧迪斯\"]诺希斯，你太过紧张了。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]我们已经做好了能做的所有准备，现在剩下的，只有等待。\n[name=\"恩希欧迪斯\"]锏，诺希斯，再等等。"
+        }
+      ],
+      "description": "诺希斯知晓博士参与恩希欧迪斯的安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "诺希斯在场听取锏谈论博士及其影响。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在场。",
+          "status": "not_established",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 61,
+          "kind": "story",
+          "line": 42,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典部署期间",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_206_gnosis|npc_b99957887950ebfd"
+}

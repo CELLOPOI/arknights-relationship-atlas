@@ -1,0 +1,201 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 310,
+          "line": 283,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "quote": "[name=\"Outcast\"]稀客，博士。\n[name=\"Outcast\"]有时间坐下喝一杯吗？今晚所有的酒都算在我的账上。\n[Dialog]\n[charslot]\n[Decision(options=\"好热闹。;这么多人？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\",focus=\"m\")]\n[name=\"Touch\"]你忘了吗博士，今天举办的是Outcast的退休仪式。\n[charslot(slot = \"m\", name = \"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]敬我们尊敬的老前辈。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$clink\")]\n[PlaySound(key=\"$clink\", loop=false, channel=\"1\",delay=0.04)]\n[PlaySound(key=\"$clink\", loop=false, channel=\"2\",delay=0.06)]\n[PlaySound(key=\"$clink\", loop=false, channel=\"3\",delay=0.08)]\n[Delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_npc_245_1#6\",focus=\"m\")]\n[name=\"Outcast\"]够了Sharp，你也没比我小多少。\n[Dialog]\n[charslot]\n[Decision(options=\"感谢你对罗德岛的付出，Outcast。;退休快乐。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Dialog]\n[charslot(slot = \"m\", name = \"avg_npc_095\",focus=\"m\")]\n[name=\"Pith\"]我们会记得你的事迹和精湛的射术的，敬你。\n[charslot(slot = \"m\", name = \"char_017_homura_3#10\",focus=\"m\")]\n[name=\"煌\"]Outcast也要走了……"
+        },
+        {
+          "endLine": 395,
+          "line": 387,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "quote": "[name=\"凯尔希\"]你还记得他们每个人，你真切地为他们的遭遇感到遗憾。\n[name=\"凯尔希\"]否则你不会看到这些画面。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]你现在心情如何，博士？\n[name=\"凯尔希\"]欣慰，困惑还是愤怒？\n[Predicate(references=\"3\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]这些都是你的潜意识中你所期待的画面。"
+        },
+        {
+          "endLine": 515,
+          "line": 506,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "quote": "[name=\"凯尔希\"]这并非幻境，或是梦境。某种意义上讲，这一切同样是真实存在的。\n[name=\"凯尔希\"]存在于你的想象中，是你过去遇到过的人与事，按你最期待的样子发展出的幻景。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"n\")]\n[Decision(options=\"这是对我们经历过的一切的玷污。;你为什么还能这么冷静？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]\n[name=\"凯尔希\"]这些画面于我的触动并不弱于你，博士。\n[name=\"凯尔希\"]但是归根结底，这些还是由你自己创造的画面。\n[name=\"凯尔希\"]是源石，按你潜意识深处的期待和想要弥补某些遗憾的想法，“复制”出的景象。"
+        }
+      ],
+      "description": "这里只取现实博士对眼前具名熟悉人物的辨认；凯尔希在387–395及506–515明确这些是他过去认识之人的记忆所生成的期待画面。虚构人物的回应不支持反向，也不承认退休/存活等虚构情节。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E188"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "这里只取现实博士对眼前具名熟悉人物的辨认；凯尔希在387–395及506–515明确这些是他过去认识之人的记忆所生成的期待画面。虚构人物的回应不支持反向，也不承认退休/存活等虚构情节。",
+          "status": "supported",
+          "to": "char_510_amedic"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_510_amedic",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 310,
+          "kind": "story",
+          "line": 283,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 395,
+          "kind": "story",
+          "line": 387,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 515,
+          "kind": "story",
+          "line": 506,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 854,
+          "line": 796,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "quote": "[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_204_platnm_1\")]\n[name=\"白金\"]  ……遭到青金的追击，不代表我就失去了无胄盟的立场……也许我还会受命于董事会……\n[name=\"白金\"]  你不会不明白，为什么……\n[dialog]\n[Decision(options=\"我相信这会是双赢的结果。;……;只是巧合罢了。\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_204_platnm_1#5\")]\n[name=\"白金\"]  ……\n[Character(name=\"char_120_hibisc_1\",name2=\"char_204_platnm_1#5\", focus=1)]\n[name=\"芙蓉\"]  哎呀！大家都帮你到这一步了，坦率地道个谢不就好了吗！\n[Character(name=\"char_120_hibisc_1\",name2=\"char_204_platnm_1#7\", focus=2)]\n[name=\"白金\"]  ……\n[Character(name=\"char_204_platnm_1#7\")]\n[name=\"白金\"]  谢、谢谢，博士……\n[dialog]\n[character]\n[Character(name=\"avg_237_gravel_1#5\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"砾\"]  呼……\n[name=\"砾\"]  您可真是给我出了个难题呀，博士。\n[Character(name=\"avg_npc_249_1$1\",name2=\"avg_237_gravel_1#5\", focus=1)]\n[name=\"Touch\"]  放轻松，札拉克，这样治疗会更有效。\n[Character(name=\"avg_npc_249_1$1\",name2=\"avg_237_gravel_1#3\", focus=2)]\n[name=\"砾\"]  谢谢……\n[delay(time=0.5)]\n[dialog]\n[Character(name=\"char_120_hibisc_1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"芙蓉\"]  砾小姐！你怎么会和Touch老师在一起呀！？\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  ……凑巧吧。\n[name=\"砾\"]  不好意思，能让我坐下聊吗？\n[Character(name=\"char_120_hibisc_1\")]\n[name=\"芙蓉\"]  请便！啊，Touch老师也……\n[Character(name=\"avg_npc_249_1$1\")]\n[name=\"Touch\"]  ……不必，只是找阿米娅汇报一下工作。\n[dialog]\n[character]\n[Decision(options=\"辛苦了，二位。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  对付青金本人，真的很辛苦呢。\n[Character(name=\"avg_237_gravel_1#3\",name2=\"char_204_platnm_1\", focus=1)]\n[name=\"砾\"]  不过，还算是有些成果，对吧。\n[Character(name=\"avg_237_gravel_1#3\",name2=\"char_204_platnm_1#7\", focus=2)]\n[name=\"白金\"]  ……\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  您可欠了我一个大大的人情哦，呵呵。\n[dialog]\n[Decision(options=\"该回罗德岛了。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  看来您和白金已经达成共识了呢。\n[Character(name=\"avg_237_gravel_1#6\")]\n[name=\"砾\"]  明明前一刻还是敌人，后一秒就能握手言谈。\n[name=\"砾\"]  真是神奇。\n[Character(name=\"avg_237_gravel_1#2\")]\n[name=\"砾\"]  嗯，我也该休息一会了……"
+        }
+      ],
+      "description": "博士向砾与Touch致意，Touch在场并说明将向阿米娅汇报。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_510_amedic",
+          "reason": "博士向砾与Touch致意，Touch在场并说明将向阿米娅汇报。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士向砾与Touch致意，Touch在场并说明将向阿米娅汇报。",
+          "status": "supported",
+          "to": "char_510_amedic"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_2db98b901e9e88b6.json",
+      "sources": [
+        {
+          "endLine": 854,
+          "kind": "story",
+          "line": 796,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "救援结束后的罗德岛场景",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 678,
+          "line": 665,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+          "quote": "[name=\"华法琳\"]啊……\n[charslot(slot=\"l\",name=\"avg_npc_249_1$1\",focus=\"l\")]\n[name=\"Touch\"]少见你这样毛手毛脚的，走神了？\n[charslot(slot = \"r\", name = \"avg_171_bldsk_1#1$1\",focus=\"r\")]\n[name=\"华法琳\"]嗯……我在担心，去了乌萨斯的大家。\n[name=\"华法琳\"]一直等一个悬而未决的结果，一点也不好受。\n[charslot(slot=\"l\",name=\"avg_npc_249_1$1\",focus=\"l\")]\n[name=\"Touch\"]你可从来没有当着博士的面表现出这种情绪。\n[charslot(slot = \"r\", name = \"avg_171_bldsk_1#1$1\",focus=\"r\")]\n[name=\"华法琳\"]不想影响士气，不代表不在意。\n[charslot(slot = \"r\", name = \"avg_171_bldsk_1#8$1\",focus=\"r\")]\n[name=\"华法琳\"]等你年纪和我一样大的时候，就知道这种分别是什么滋味了。\n[charslot(slot=\"l\",name=\"avg_npc_249_1$1\",focus=\"l\")]\n[name=\"Touch\"]这可不是个好的祝福……"
+        }
+      ],
+      "description": "Touch明确谈到博士并说明华法琳在博士面前的表现，证明既往相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_510_amedic",
+          "reason": "双方直接互动或有明确具体既往互动。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方直接互动或有明确具体既往互动。",
+          "status": "supported",
+          "to": "char_510_amedic"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 678,
+          "kind": "story",
+          "line": 665,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒事件及罗德岛后续",
+      "title": "相变临界"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 431,
+          "line": 378,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "quote": "[name=\"Pith\"]你们的确准备了许多，但可惜应对源石技艺的手段还是捉襟见肘。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_1300_1#1$1\",duration=1)]\n[Delay(time=2)]\n[name=\"Mantra\"]……\n[charslot(slot=\"m\",name=\"avg_npc_008\")]\n[name=\"袭击者\"]不、不对，不该是你们——\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"“嘘，连你的心脏都已经沉默了。”\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot(slot =\"m\", action=\"shake\", power=10, times=100, duration=0.5)]\n[Delay(time=1)]\n[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$bodyfalldown2\",volume=0.5)]\n[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"0,-60\",duration = 0.5)]\n[charslot(duration=0.5)]\n[Delay(time=1.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_249_1$1\",duration=0.5)]\n[Delay(time=1)]\n[name=\"Touch\"]伤员我来处理，不过月见夜又变得过于亢奋了。\n[name=\"Touch\"]梓兰，又得辛苦你了。\n[charslot(slot=\"m\",name=\"char_278_orchid_1#1\")]\n[name=\"梓兰\"]我会处理好他的。\n[charslot(slot=\"m\",name=\"avg_npc_095\")]\n[name=\"Pith\"]博士猜得对，有人泄露了我们行动的消息。\n[charslot(slot=\"m\",name=\"avg_npc_1300_1#1$1\")]\n[name=\"Mantra\"]快速解决吧，尽快将这艘备用开采舰拖动到最近的移动城市修补能源舱室。\n[name=\"Mantra\"]然后迅速赶回本舰，避免所有意外。\n[charslot(slot=\"m\",name=\"avg_281_popka_1#10$2\")]\n[name=\"泡普卡\"]Pith女、女士，为什么来增援的是你们？\n[name=\"泡普卡\"]之前PRTS通知的是Misery先生呀……\n[stopmusic(fadetime=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_095\")]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]\n[Background(image=\"bg_rhodescom\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[playMusic(intro=\"$ponder_intro\",key=\"$ponder_loop\", volume=0.6)]\n[name=\"Pith\"]直觉？\n[name=\"Pith\"]临出发前突然更改计划，我担心……\n[dialog]\n[charslot(slot = \"m\", focus=\"n\")]\n[Decision(options=\"我信任你们。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"Misery，Stormeye，Sharp他们另有安排。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_095\")]\n[name=\"Pith\"]需要同步到PRTS上告知同事吗？"
+        }
+      ],
+      "description": "Touch与博士直接商议任务。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D16"
+          ],
+          "from": "char_510_amedic",
+          "reason": "Touch与博士直接商议任务。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D16"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "Touch与博士直接商议任务。",
+          "status": "supported",
+          "to": "char_510_amedic"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 431,
+          "kind": "story",
+          "line": 378,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_510_amedic|npc_b99957887950ebfd"
+}

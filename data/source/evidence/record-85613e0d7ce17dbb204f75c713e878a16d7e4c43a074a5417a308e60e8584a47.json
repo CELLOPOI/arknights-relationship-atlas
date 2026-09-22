@@ -1,0 +1,15 @@
+{
+  "id": "import:char_002_amiya|npc_cb03e146518e01fb",
+  "published": true,
+  "quote": "【破碎日冕】\n阿米娅：术师……\n阿米娅：博士，我想起来了。\n阿米娅：根据Misery的消息和风笛的报告，她就是伦蒂尼姆这支深池部队的头目。\n阿米娅：……也是小丘郡事件的始作俑者之一。\n阿米娅：罗德岛并不打算把Outcast的牺牲完全怪罪在她一个人头上，但不光Misery和风笛，我们许多干员都对她抱有强烈的敌意。\n选项：\n1：蔓德拉。\n分支条件（原选项编号）：1\n阿米娅：风笛说，她很难缠。\n阿米娅：我们可以在这里和深池作战，救回托马斯先生，甚至排除蔓德拉这个对之后的行动有重大威胁的劲敌。",
+  "relationship_id": "char_002_amiya|npc_cb03e146518e01fb",
+  "sources": [
+    {
+      "endLine": 59,
+      "kind": "story",
+      "line": 43,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-02_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

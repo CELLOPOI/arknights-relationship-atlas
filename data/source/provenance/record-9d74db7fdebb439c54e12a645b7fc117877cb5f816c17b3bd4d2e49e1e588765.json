@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 140,
+          "line": 97,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_06_end.txt",
+          "quote": "[Character(name=\"char_213_mostma_1#4\")]\n[name=\"莫斯提马\"]   ……嗯？\n[name=\"莫斯提马\"]   真是意料之外呢，你也是被叫过来的？\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_035\",fadetime=2,block=true)]\n[Delay(time=2)]\n[name=\"？？？\"]   算是吧。不过能从商务酒会脱身的感觉也不错。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]   唔，这些黑手党的小打小闹，值得这么兴师动众的吗？\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=1)]\n[name=\"？？？\"]   不值得。而且我只是想从麻烦的社交里脱身，找个机会喘口气罢了。\n[name=\"？？？\"]   可颂为她的锤子定制了新的配件。能天使让我帮忙保养她的守护铳。总之，还有很多事情要做。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]   嗯，也许我也得麻烦你一下。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=1)]\n[name=\"？？？\"]   没关系。除了本职工作，为同事们处理这些杂务，也是我的职责。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]   这把法杖，能帮我保管一下吗？\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=1)]\n[name=\"？？？\"]   白色的这把。你明白这其中的含义吧。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]   至少今晚，就让我轻松一点吧，只是一场狂欢而已。\n[name=\"莫斯提马\"]   我总不能真的带着它跳进舞会现场，那会失控的。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=1)]\n[name=\"？？？\"]   我知道了。交给我吧，这也是工作。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1#3\",focus=2)]\n[name=\"莫斯提马\"]   呵呵，说来说去，不还是工作嘛，你也真是辛苦。\n[name=\"莫斯提马\"]   结束之后要不要去喝一杯？我请客好了。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1#3\",focus=1)]\n[name=\"？？？\"]   十分赞同。同事之间的酒会比无趣的应酬要好得多。\n[name=\"？？？\"]   但很可惜，看这动静，也许大地的尽头很难保全。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]   ……那么，你是刚回来龙门？对今晚的事情知道多少？\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=1)]\n[name=\"？？？\"]   全部。这次狂欢的来龙去脉并不复杂，一切情报昭然若揭。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]   你不打算去帮个忙？\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=1)]\n[name=\"？？？\"]   我拒绝。体力劳动就交给年轻气盛的孩子们吧，我就保管着你们几个人的货物，喝一杯茶，等着事情结束好了。\n[name=\"？？？\"]   好了。既然鼠王已经在等着你，那就玩得开心一点。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]   ——你也是，伊斯。\n[name=\"莫斯提马\"]   难得的安魂夜，就不要这么辛苦地工作了。"
+        }
+      ],
+      "description": "伊斯知晓鼠王的当夜安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_73d003a400c804ca",
+          "reason": "伊斯明确知道鼠王正在等待莫斯提马。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "鼠王未在场，也没有回应伊斯。",
+          "status": "not_established",
+          "to": "npc_73d003a400c804ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 140,
+          "kind": "story",
+          "line": 97,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安魂夜酒吧外",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "npc_73d003a400c804ca|npc_83e2c28380c1c6fb"
+}

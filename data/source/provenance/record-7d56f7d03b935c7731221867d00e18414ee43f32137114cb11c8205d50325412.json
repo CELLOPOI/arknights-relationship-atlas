@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 771,
+          "line": 707,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-18_end.txt",
+          "quote": "[name=\"阿米娅\"]……不。\n[name=\"阿米娅\"]我留在最后，等所有人都离开。\n[charslot(slot = \"m\", name = \"char_401_elysm_na_1#6\")]\n[name=\"极境\"]等一下……有新的情况！\n[name=\"极境\"]西边好像有载具正在向我们加速驶来，但那不是我们的载具——好像是卡车！\n[name=\"极境\"]他们直接开上了冰面！\n[charslot(slot = \"m\", focus=\"n\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"-450,20\", pto=\"-435,20\", name = \"avg_npc_1730_1#6$1\", duration = 0)]\n[name=\"Raidian\"]全体戒备——\n[dialog]\n[StopSound(channel=\"sn\", fadetime=2)]\n[interlude(channel = 3, switch = false)]\n[PlaySound(key=\"$transmission\", volume=1)]\n[interlude(maskid = \"group_interclude_square_common\", char = \"Mon3tr\", switch = true, style = 1,offset = \"450,125\", channel = 4)]\n[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"455,-20\", pto=\"455,-20\", name = \"avg_4179_monstr_1#10$1\", duration = 0)]\n[Delay(time=0.5)]\n[name=\"Mon3tr\"]Raidian！这东西终于派上用场了，是我们！我和博士，还有科谢尼娅——\n[dialog]\n[charslot(slot = \"m\", focus=\"n\")]\n[interlude(channel = 3, switch = false)]\n[interlude(channel = 4, switch = false)]\n[Decision(options=\"还有柳德米拉。;还有干员弑君者。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"罗德岛……;准备集合。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[musicvolume(volume=0.2, fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[interlude(channel = 4, clear = true)]\n[interlude(channel = 3, clear = true)]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[PlaySound(key=\"$rungeneral\", volume=1, loop=true, channel=\"r\")]\n[StopSound(channel=\"r\", fadetime=1)]\n[charslot(slot = \"m\", name = \"avg_4179_monstr_1#12$1\", posfrom=\"-200,0\", posto=\"0,0\", duration=0.5, isblock=true)]\n[Delay(time=0.5)]\n[name=\"Mon3tr\"]阿米娅！\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$4\")]\n[name=\"阿米娅\"]博士！Mon3tr！你们怎么——\n[name=\"阿米娅\"]而且干员弑君者……？\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_1502_crosly_1#1$1\", duration=1.5, isblock=true)]\n[Delay(time=0.5)]\n[name=\"弑君者\"]赶路的时候没时间闲聊，我也有很多问题要问。\n[name=\"弑君者\"]但现在，先上车。\n[dialog]\n[charslot]\n[Decision(options=\"托卡车互助会的福。;之后告诉你。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"大家都还好吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_4204_mantra_1#8$1\")]\n[name=\"Mantra\"]不会让你失望。\n[dialog]\n[charslot]\n[PlaySound(key=\"$transmission\", volume=1)]\n[Delay(time=1.5)]\n[name=\"Raidian\"]还好。叙旧可以留到之后，我们必须尽快撤离了。\n[dialog]\n[Decision(options=\"对。总之，干员Mon3tr，干员弑君者……;以及{@nickname}，归队。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]"
+        }
+      ],
+      "description": "弑君者与博士一同抵达并在会合点直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "弑君者与博士一同抵达并在会合点直接交流。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "弑君者与博士一同抵达并在会合点直接交流。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_ef827cdde49f2fd2.json",
+      "sources": [
+        {
+          "endLine": 771,
+          "kind": "story",
+          "line": 707,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-18_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "反常光谱所述时段或明确既往互动",
+      "title": "反常光谱"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 65,
+          "line": 59,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_crosly_1_1.txt",
+          "quote": "[name=\"阿米娅\"]弑君者小姐，抱歉。不让你前往乌萨斯，不只是凯尔希医生的意思，也是我和博士的共同判断。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]你对乌萨斯的想法掺杂了太多的个人因素，我不能让这些因素干扰罗德岛在乌萨斯的行动。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]但我向你保证，只要凯尔希医生返回——\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#7$1\",focus=\"m\")]\n[name=\"弑君者\"]……够了！"
+        }
+      ],
+      "description": "弑君者收到针对博士的具体转述，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "弑君者在场接收阿米娅关于博士共同判断的具体转述。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗没有博士对弑君者的独立提及。",
+          "status": "not_established",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_6810d6ab10488a9b.json",
+      "sources": [
+        {
+          "endLine": 65,
+          "kind": "story",
+          "line": 59,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_crosly_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇罗德岛谈话场景",
+      "title": "弑君者"
+    }
+  ],
+  "relationship_id": "char_1502_crosly|npc_b99957887950ebfd"
+}

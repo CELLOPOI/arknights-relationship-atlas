@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 244,
+          "line": 223,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_06_end.txt",
+          "quote": "[name=\"林雨霞\"]那是否也能让我问一个问题——为什么？\n[charslot(slot=\"r\",name=\"avg_npc_789_1#10$1\",focus=\"r\")]\n[name=\"孟铁衣\"]特使想必已经有答案了吧。\n[charslot(slot=\"l\",name=\"avg_4080_lin_1#6$1\",focus=\"l\")]\n[name=\"林雨霞\"]你对平祟侯有怨，就要引一场天灾，毁掉整座玉门城？\n[charslot(slot=\"r\",name=\"avg_npc_789_1#10$1\",focus=\"r\")]\n[name=\"孟铁衣\"]我们和左宣辽，不只是一同出生入死的交情。“怨”这个字，太轻了点。\n[name=\"孟铁衣\"]左宣辽，也将我们看得太轻了点。\n[charslot(slot=\"r\",name=\"avg_npc_789_1#1$1\",focus=\"r\")]\n[name=\"孟铁衣\"]林特使，是龙门人。\n[charslot(slot=\"l\",name=\"avg_4080_lin_1#1$1\",focus=\"l\")]\n[name=\"林雨霞\"]是。\n[charslot(slot=\"r\",name=\"avg_npc_789_1#1$1\",focus=\"r\")]\n[name=\"孟铁衣\"]听说是个好地方，很繁华，只可惜，从来没去过。\n[charslot(slot=\"r\",name=\"avg_npc_789_1#10$1\",focus=\"r\")]\n[name=\"孟铁衣\"]玉门你也看到了，常年穿行在大漠。冒着天灾送回军情急报，在茫茫沙海连续独行几个日夜寻找水源……你肯定没有经历过。\n[name=\"孟铁衣\"]戍守边疆，保家卫国，这些事情，总要有人做。\n[name=\"孟铁衣\"]玉门的军人和百姓，绝大多数都不是本地人，我们离开家乡，扎根在这儿，也从没怨过。\n[charslot(slot=\"r\",name=\"avg_npc_789_1#5$1\",focus=\"r\")]\n[name=\"孟铁衣\"]左宣辽不该忘了，玉门成为大炎最坚固的屏障，不是他一个人的功劳，他有什么资格赶这些为玉门流过血的人走？！\n[charslot(slot=\"l\",name=\"avg_4080_lin_1#1$1\",focus=\"l\")]\n[name=\"林雨霞\"]你大概是误会了平祟侯。"
+        }
+      ],
+      "description": "林雨霞与孟铁衣具名讨论左宣辽，明确知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E68"
+          ],
+          "from": "char_4080_lin",
+          "reason": "林雨霞与孟铁衣具名讨论左宣辽，明确知晓。",
+          "status": "supported",
+          "to": "npc_8ce7f1257163071b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8ce7f1257163071b",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4080_lin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 244,
+          "kind": "story",
+          "line": 223,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_4080_lin|npc_8ce7f1257163071b"
+}

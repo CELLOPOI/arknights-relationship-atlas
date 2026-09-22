@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 202,
+          "line": 142,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "quote": "[name=\"杜遥夜\"]孟叔，我去追！\n[charslot(slot=\"l\",name=\"avg_npc_789_1#5$1\",focus=\"l\")]\n[name=\"孟铁衣\"]遥夜，先赶紧看看那几位战士怎么样了。\n[charslot(slot=\"r\",name=\"avg_npc_296_1#1$1\",focus=\"r\")]\n[name=\"杜遥夜\"]……好。\n[dialog]\n[Dialog]\n[stopmusic(fadetime=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[charslot]\n[delay(time=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.4)]\n[Delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_npc_296_1#1$1\",focus=\"l\")]\n[charslot(slot=\"l\",name=\"avg_npc_789_1#10$1\",focus=\"l\")]\n[name=\"孟铁衣\"]贼人下手很歹毒，姑娘有没有事？\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#12$1\",focus=\"m\")]\n[name=\"林雨霞\"]……\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#8$1\",focus=\"m\")]\n[name=\"林雨霞\"]他们还伤不到我。\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_789_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_296_1#1$1\",focus=\"r\")]\n[name=\"杜遥夜\"]几个军士受了伤，但没有性命之忧，只是晕过去了。\n[charslot(slot=\"r\",name=\"avg_npc_296_1#1$1\",focus=\"r\")]\n[name=\"杜遥夜\"]居然敢在城里光明正大地找官军的麻烦，真不晓得这帮人是什么来历。\n[charslot(slot=\"r\",name=\"avg_npc_296_1#9$1\",focus=\"r\")]\n[name=\"杜遥夜\"]孟叔，你为什么不让我追出去抓一个回来审审？\n[charslot(slot=\"l\",name=\"avg_npc_789_1#10$1\",focus=\"l\")]\n[name=\"孟铁衣\"]还不清楚敌人底细……遥夜，别总那么莽撞。\n[name=\"孟铁衣\"]看打扮，姑娘不是玉门人，又有玉门守军保护，想必不是普通人。不知道这伙贼人为了什么要找你的麻烦？\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#2$1\",focus=\"m\")]\n[name=\"林雨霞\"]官家事，别多问。\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_789_1#10$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_296_1#5$1\",focus=\"r\")]\n[name=\"杜遥夜\"]你这个人……！\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#1$1\",focus=\"m\")]\n[name=\"林雨霞\"]你们是什么人？又为什么出现在这里？\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_789_1#10$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_296_1#1$1\",focus=\"l\")]\n[name=\"孟铁衣\"]孟铁衣，在城南开了一家铸剑坊。这位是刚从尚蜀来的杜遥夜……\n[charslot(slot=\"r\",name=\"avg_npc_296_1#2$1\",focus=\"r\")]\n[name=\"杜遥夜\"]玉门第一家物流公司“行裕物流”的老板。\n[charslot(slot=\"l\",name=\"avg_npc_789_1#10$1\",focus=\"l\")]\n[name=\"孟铁衣\"]我们准备到城门口接人。\n[charslot(slot=\"r\",name=\"avg_npc_296_1#2$1\",focus=\"r\")]\n[name=\"杜遥夜\"]我从尚蜀带来的两个兄弟第一次走玉门的镖，还是护送天灾信使这样的大活儿，当然要迎接了。\n[charslot(slot=\"r\",name=\"avg_npc_296_1#1$1\",focus=\"r\")]\n[name=\"杜遥夜\"]孟叔，算时间他们该回来了……\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#6$1\",focus=\"m\")]\n[name=\"林雨霞\"]天灾信使……\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#1$1\",focus=\"m\")]\n[name=\"林雨霞\"]我想，你们不用去了。"
+        }
+      ],
+      "description": "杜遥夜参与救援，林雨霞直接询问其身份。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "char_4080_lin",
+          "reason": "杜遥夜参与救援，林雨霞直接询问其身份。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        },
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "杜遥夜参与救援，林雨霞直接询问其身份。",
+          "status": "supported",
+          "to": "char_4080_lin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 202,
+          "kind": "story",
+          "line": 142,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_4080_lin|npc_ebce98658cbda852"
+}

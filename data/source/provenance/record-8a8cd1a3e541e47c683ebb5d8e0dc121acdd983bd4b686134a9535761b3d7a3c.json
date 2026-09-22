@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 105,
+          "line": 99,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "quote": "[name=\"曼弗雷德\"]请不要再同我开玩笑了，阁下。\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯？\"]哦？你又进步了嘛，这次我们只说了五句话，你就发现了我们不是特雷西斯。\n[character(name=\"avg_npc_404_1#9$1\")]\n[name=\"曼弗雷德\"]阁下……虽然殿下不会同你计较，但如果你这副样子被赦罪师的人看见，他们一定会再次向殿下申请，限制你的行动。\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯？\"]好吧好吧，你说的对，军事委员会不能有两个发号施令的人——"
+        }
+      ],
+      "description": "变形者伪装特雷西斯、称军事委员会不能两人发令，直接明确了解所冒充者；不推本人在场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E63"
+          ],
+          "from": "npc_d47c240cb2990691",
+          "reason": "变形者伪装特雷西斯、称军事委员会不能两人发令，直接明确了解所冒充者；不推本人在场。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_d47c240cb2990691"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 105,
+          "kind": "story",
+          "line": 99,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_c573b8884914fc60|npc_d47c240cb2990691"
+}

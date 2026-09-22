@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 336,
+          "line": 330,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_07_beg.txt",
+          "quote": "[name=\"鲁斯\"]执裁官阁下，请再考虑下，那样罗盘恐怕也会毁掉！\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#1$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]罗盘不是你需要考虑的事情。\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#1$1\",focus=\"m\")]\n[name=\"哈维尔\"]我在盐漠上航行了几十年，我知道该如何逼停一艘盐船。至少让我试一试……很多人不必白白死去。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#7$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]……你没有太多机会可以浪费，哈维尔先生。"
+        }
+      ],
+      "description": "鲁斯当面请执裁官考虑罗盘，执裁官回答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "npc_0a8b187bfc318db9",
+          "reason": "鲁斯当面请执裁官考虑罗盘，执裁官回答。",
+          "status": "supported",
+          "to": "npc_22ce8e53c56ebcb9"
+        },
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "npc_22ce8e53c56ebcb9",
+          "reason": "鲁斯当面请执裁官考虑罗盘，执裁官回答。",
+          "status": "supported",
+          "to": "npc_0a8b187bfc318db9"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 336,
+          "kind": "story",
+          "line": 330,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "npc_0a8b187bfc318db9|npc_22ce8e53c56ebcb9"
+}

@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 386,
+          "line": 338,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "quote": "[name=\"角峰\"]老爷！\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=1)]\n[name=\"恩希欧迪斯\"]情况怎么样？\n[Character(name=\"avg_199_yak_1#6$1\")]\n[name=\"角峰\"]都解决了。有人受了点伤，但没什么大碍。\n[name=\"角峰\"]魏斯那边刚刚传了消息——\n[Character(name=\"avg_199_yak_1#4$1\")]\n[name=\"角峰\"]Sharp先生，你怎么会在这里……？\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=2)]\n[name=\"Sharp\"]任务。\n[Character(name=\"avg_199_yak_1#4$1\")]\n[name=\"角峰\"]是博士的吩咐？难道博士竟预料到会有这样的事发生……？\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=2)]\n[name=\"Sharp\"]……\n[name=\"Sharp\"]你是怎么认出我的？\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=1)]\n[name=\"恩希欧迪斯\"]这不是难事。\n[name=\"恩希欧迪斯\"]我说过。我对存在本身就能破坏局面的战士，非常了解。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]恩希欧迪斯！\n[name=\"阿克托斯\"]你怎么样，刺客人呢？！\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=2)]\n[name=\"Sharp\"]……\n[dialog]\n[PlaySound(key=\"$d_avg_snowbootwalk\", volume=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=300, fadetime=2,block=false)]\n[character(name=\"avg_172_svrash_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=2)]\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]阿克托斯，你会赶来实在出乎我的意料，这是否是希瓦艾什与佩尔罗契重归于好的征兆？\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]呸！我来，与你没有半点关系！\n[name=\"阿克托斯\"]我不过是要将胆敢在耶拉冈德的祭典上作乱的卑鄙小人亲手揪出！让他付出应有的代价！\n[Character(name=\"avg_172_svrash_1#7$1\")]\n[name=\"恩希欧迪斯\"]你确实是耶拉冈德最虔诚的信徒，阿克托斯。\n[name=\"恩希欧迪斯\"]不过，恐怕你来迟了。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]你这是什么意思？你恩希欧迪斯没道理会放走区区一个刺客，人到底被你藏哪里去了？\n[name=\"阿克托斯\"]等等，这片悬崖……难道？！\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]就是你想的那样，阿克托斯。我的部下会去搜索对方的踪迹。\n[name=\"恩希欧迪斯\"]继续狩猎吧。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]地上有血，你受伤了？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]小伤而已。\n[Character(name=\"avg_199_yak_1#6$1\")]\n[name=\"角峰\"]老爷，你的伤得立刻处理！\n[name=\"角峰\"]至少……至少要先止血！"
+        }
+      ],
+      "description": "刺杀后角峰认出Sharp，阿克托斯到场，与银灰和两人共同交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E48"
+          ],
+          "from": "char_199_yak",
+          "reason": "刺杀后角峰认出Sharp，阿克托斯到场，与银灰和两人共同交谈。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E48"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "刺杀后角峰认出Sharp，阿克托斯到场，与银灰和两人共同交谈。",
+          "status": "supported",
+          "to": "char_199_yak"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 386,
+          "kind": "story",
+          "line": 338,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 259,
+          "line": 206,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st02.txt",
+          "quote": "[name=\"阿克托斯\"]刚才葬礼上，就该好好告慰菈塔托丝，把他们拎出来直接毙了！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]阿克托斯……我也和你一样，想为姐姐复仇，但目前还有套出情报的可能，不能任着性子动手。\n[charslot(slot=\"m\",name=\"avg_199_yak_1#6$1\",focus=\"m\")]\n[name=\"角峰\"]休露丝大人说得没错，还是由——\n[Dialog]\n[charslot]\n[delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_268\",duration=1)]\n[delay(time=2)]\n[Dialog]\n[charslot]\n[name=\"布朗陶佣人\"]三位大人，抱歉打扰了，这位蔓珠院派来的修士有要事商议。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]……上一次“蔓珠院派来的人”导致阿克托斯和恩希亚遭到刺杀。\n[name=\"休露丝\"]我应该如何确认你的身份，修士？\n[charslot(slot=\"m\",name=\"avg_npc_268\",focus=\"m\")]\n[name=\"蔓珠院使者\"]不必多虑，阿克托斯大人认得我。\n[charslot(slot=\"m\",name=\"avg_npc_254_1#1$1\",focus=\"m\")]\n[name=\"阿克托斯\"]不错，休露丝，这位确实是蔓珠院的弗雷修士。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#5$1\",focus=\"m\")]\n[name=\"休露丝\"]那么，修士有什么事情要与我们商量呢？\n[charslot(slot=\"m\",name=\"avg_npc_268\",focus=\"m\")]\n[name=\"蔓珠院使者\"]我为维多利亚间谍而来。\n[charslot(slot=\"m\",name=\"avg_199_yak_1#4$1\",focus=\"m\")]\n[name=\"角峰\"]？！\n[charslot(slot=\"m\",name=\"avg_npc_268\",focus=\"m\")]\n[name=\"蔓珠院使者\"]蔓珠院认为，这些人关系重大，单单交由三大家族哪一方处置都会遭到非议，难以服众。\n[name=\"蔓珠院使者\"]所以，间谍应该由蔓珠院暂为看管，酌情安排审讯，到时候蔓珠院将知会各位，共同参与。\n[charslot(slot=\"m\",name=\"avg_npc_254_1#7$1\",focus=\"m\")]\n[name=\"阿克托斯\"]我不同意，迟早都要杀，有什么可拖延的？\n[charslot(slot=\"m\",name=\"avg_199_yak_1#6$1\",focus=\"m\")]\n[name=\"角峰\"]修士，你不能这么做，三族议会已经决定由希瓦艾什负责维多利亚事务了。\n[charslot(slot=\"m\",name=\"avg_npc_268\",focus=\"m\")]\n[name=\"蔓珠院使者\"]三族议会也已决定归权还政，还需要我提醒你吗？\n[charslot(slot=\"m\",name=\"avg_199_yak_1#7$1\",focus=\"m\")]\n[name=\"角峰\"]如今圣女大人还在进行圣巡，蔓珠院不能代她决定！\n[charslot(slot=\"m\",name=\"avg_npc_268\",focus=\"m\")]\n[name=\"蔓珠院使者\"]恩希欧迪斯大人向来对我们阳奉阴违，这时候倒想起圣女大人来了？\n[name=\"蔓珠院使者\"]谢拉格人都该清楚，历史上圣女大人与蔓珠院始终同心同德，这是古今一辙、写进经书的事实。\n[name=\"蔓珠院使者\"]过往圣女大人不在时，也是由蔓珠院代行职责。\n[name=\"蔓珠院使者\"]请转告恩希欧迪斯大人，不管在任何时候，都不要妄想自己能独揽大权。\n[charslot(slot=\"m\",name=\"avg_199_yak_1#6$1\",focus=\"m\")]\n[name=\"角峰\"]修士——\n[charslot(slot=\"m\",name=\"avg_npc_262_1#5$1\",focus=\"m\")]\n[name=\"休露丝\"]角峰先生，不要激动。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\",focus=\"m\")]\n[name=\"休露丝\"]布朗陶家同意履行要求，烦请修士明日差人前来，将间谍押送蔓珠院。\n[charslot(slot=\"m\",name=\"avg_npc_254_1#4$1\",focus=\"m\")]\n[name=\"阿克托斯\"]休露丝？\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\",focus=\"m\")]\n[name=\"休露丝\"]我理解你们二位的善意，但现在比以往更需要放下三方争执……蔓珠院能够从中协调，再好不过了。"
+        }
+      ],
+      "description": "角峰与阿克托斯当面交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N14"
+          ],
+          "from": "char_199_yak",
+          "reason": "角峰与阿克托斯同处会谈并直接回应对方。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "N14"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "角峰与阿克托斯同处会谈并直接回应对方。",
+          "status": "supported",
+          "to": "char_199_yak"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 259,
+          "kind": "story",
+          "line": 206,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "菈塔托丝葬礼后",
+      "title": "雪山降临1101"
+    }
+  ],
+  "relationship_id": "char_199_yak|npc_e69f1ad171a29fd0"
+}

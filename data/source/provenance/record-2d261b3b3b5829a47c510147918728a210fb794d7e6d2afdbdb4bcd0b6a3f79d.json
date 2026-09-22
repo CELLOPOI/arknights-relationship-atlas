@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 273,
+          "line": 261,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_beg.txt",
+          "quote": "[name=\"杜遥夜\"]那个菲林大叔，就是你嘴里那个不靠谱的老爹吧？\n[name=\"杜遥夜\"]不愧是父女，你和你爹还真是挺像的。\n[charslot(slot = \"left\", name = \"avg_243_waaifu_1#7$1\",focus=\"l\")]\n[name=\"槐琥\"]哪里像？\n[charslot(slot = \"right\", name = \"avg_npc_296_1#2$1\",focus=\"r\")]\n[name=\"杜遥夜\"]开打前的气势。\n[name=\"杜遥夜\"]好家伙，像是要把人吃了。\n[charslot(slot = \"left\", name = \"avg_243_waaifu_1#9$1\",focus=\"l\")]\n[name=\"槐琥\"]哼……\n[charslot(slot = \"right\", name = \"avg_npc_296_1#8$1\",focus=\"r\")]\n[name=\"杜遥夜\"]不过传闻那位宗师的武功高到了匪夷所思的地步，这几年已经很少真的出手了。更夸张的说法是，天下近半数的武功是他发明的。\n[name=\"杜遥夜\"]听说你爹昨晚还打败了那个坏女人？\n[name=\"杜遥夜\"]那你猜猜，谁能赢？"
+        }
+      ],
+      "description": "杜遥夜具体谈正在比武的宗师武功，明确知晓重岳。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E60"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "杜遥夜具体谈正在比武的宗师武功，明确知晓重岳。",
+          "status": "supported",
+          "to": "char_2024_chyue"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_2024_chyue",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_ebce98658cbda852"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 273,
+          "kind": "story",
+          "line": 261,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_2024_chyue|npc_ebce98658cbda852"
+}

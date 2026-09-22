@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 214,
+          "line": 185,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_03_beg.txt",
+          "quote": "[name=\"风笛\"]……\n[Character(name=\"avg_npc_662_1#1$1\",name2=\"avg_222_bpipe_1#7\",focus=1)]\n[name=\"陈\"]你还在想苇草的事情？\n[name=\"陈\"]她之前借我们的通信装置，当着我们的面联系了罗德岛。取物资的事情也很顺利。种种迹象表明，她不像是骗了我们。\n[Character(name=\"avg_npc_662_1#1$1\",name2=\"avg_222_bpipe_1#1\",focus=2)]\n[name=\"风笛\"]哈哈，倒不是说怀疑啦，我只是有点担心……她真的恢复过来了吗？\n[name=\"风笛\"]就算是瓦伊凡，她的生命力也让我觉得有点吃惊……一开始我们没认出对方的时候，她挥过来的那一下，把我手都震疼了。\n[name=\"风笛\"]不过这也算是好事吧，我只是总觉得，她还有很多心事。明明是她自己想做的事情，她却显得很痛苦。\n[Character(name=\"avg_npc_662_1#1$1\",name2=\"avg_222_bpipe_1#7\",focus=2)]\n[name=\"风笛\"]还有……\n[Character(name=\"avg_npc_662_1#6$1\",name2=\"avg_222_bpipe_1#7\",focus=1)]\n[name=\"陈\"]还有什么？\n[Character(name=\"avg_npc_662_1#6$1\",name2=\"avg_222_bpipe_1#7\",focus=2)]\n[name=\"风笛\"]她的战斗方式总让我觉得有些熟悉。\n[name=\"风笛\"]当时在小丘郡，Outcast把她带回来之前，我是不是就见过她？\n[Dialog]\n[Character(fadetime=0)]\n[playsound(key=\"$d_avg_shallowswalk\",volume=0.7, loop=true, channel=\"walksp\")]\n[Character(name=\"avg_1020_reed2_1#6$1\",fadetime=1,block=true)]\n[Delay(time=1)]\n[StopSound(channel=\"walksp\", fadetime=1)]\n[name=\"苇草\"]……\n[Character(name=\"avg_222_bpipe_1#8\")]\n[name=\"风笛\"]哎哎，苇草你来啦！正好，我和陈陈正在说……\n[Character(name=\"avg_npc_662_1#1$1\")]\n[name=\"陈\"]……我们在说接下来该往哪里走。这条路刚好能通往最近的聚落。\n[Character(name=\"avg_1020_reed2_1#1$1\")]\n[name=\"苇草\"]不，这个方向，不能再走了……我去告诉其他人，停下来。\n[Character(name=\"avg_222_bpipe_1#1\")]\n[multiline(name=\"风笛\")]你是说……"
+        }
+      ],
+      "description": "陈在场接收风笛对Outcast的具体提及。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F03"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈在场接收风笛对Outcast的具体提及。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "本组窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 214,
+          "kind": "story",
+          "line": 185,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_617e6ed434c6e138"
+}

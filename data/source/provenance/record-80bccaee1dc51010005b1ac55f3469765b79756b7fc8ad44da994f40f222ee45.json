@@ -1,0 +1,103 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 477,
+          "line": 467,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_01_end.txt",
+          "quote": "[name=\"德米特里\"]身手还可以，但是，无论是你，甘比诺，还是你那八年前就去了龙门的朋友，卡彭，你们都还不够。\n[Character(name=\"avg_npc_690_1#1$1\",name2=\"avg_npc_542_1#4$1\",focus=2)]\n[name=\"甘比诺\"]狼崽子，不要太把自己当回事了！\n[Character(name=\"avg_npc_690_1#1$1\",name2=\"avg_npc_542_1#4$1\",focus=1)]\n[name=\"德米特里\"]你和传闻中一样，总是分不清自己该坚持什么，又不该坚持什么。\n[name=\"德米特里\"]最后的西西里人就是这样失去西西里夫人庇护的，不是吗？\n[name=\"德米特里\"]如今的西西里人，除了守着自己那点可怜的荣耀，还能做什么？\n[Character(name=\"avg_npc_690_1#1$1\",name2=\"avg_npc_542_1#1$1\",focus=2)]\n[name=\"甘比诺\"]……\n[Character(name=\"avg_npc_690_1#8$1\",name2=\"avg_npc_542_1#1$1\",focus=1)]\n[name=\"德米特里\"]听着，甘比诺，我对你和卡彭回到叙拉古来做什么没兴趣，我也对你们背后的人究竟是谁不感兴趣。"
+        }
+      ],
+      "description": "德米特里向甘比诺具体评论卡彭的经历和行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E35"
+          ],
+          "from": "char_4037_demetr",
+          "reason": "德米特里向甘比诺具体评论卡彭的经历和行动。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e565b7639574735d",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4037_demetr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 477,
+          "kind": "story",
+          "line": 467,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 655,
+          "line": 638,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20mini/level_act20mini_st01.txt",
+          "quote": "[name=\"莱昂图索\"]……好。\n[name=\"莱昂图索\"]我会安排。\n[charslot(slot = \"m\", name = \"avg_npc_176\",focus=\"m\")]\n[name=\"沙雷\"]市政厅的警察前来还需要时间？不用劳烦了，正好我雇佣了安保，不如就让他们“护送”贝洛内先生回家。\n[Dialog]\n[charslot(duration=0.5)]\n[delay(time=1)]\n[Image(image=\"071_mini01\",screenadapt=\"coverall\", xScale=1.4, yScale=1.4, x=200, y=-100,fadetime=1.5,block=true)]\n[delay(time=1)]\n先前莱昂图索看着红发鲁珀的脸，企图从对方的脸上看出些什么。\n玻璃杯坠地时，德米特里消散的笑容，此时又若有若无地回到了他的脸上。\n可那只是笑容。莱昂图索一时间不知道该将之解读为“我不会令你为难”“我相信你会解决”，还是“这些我都早有安排”。\n[Dialog]\n[delay(time=0.7)]\n[Image(image=\"071_mini01\",screenadapt=\"coverall\", fadetime=0.7,block=true)]\n[delay(time=0.5)]\n他还没想明白，德米特里便被卡彭和甘比诺一左一右架着走向剧场的出口，与自己擦肩而过，目光在极短的一瞬中相交，然后错开了。\n记者们的闪光灯的灯光在德米特里脸上不住地闪动。"
+        },
+        {
+          "endLine": 690,
+          "line": 672,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20mini/level_act20mini_st01.txt",
+          "quote": "[name=\"卡彭\"]你刚刚说的那叫什么话。\n[name=\"卡彭\"]“贝洛内先生，刚才冒犯了，我们没箍疼您吧？”\n[name=\"卡彭\"]我憋笑差点儿把自己憋死。\n[charslot(slot=\"r\",name=\"avg_npc_542_1#1$1\",focus=\"r\")]\n[name=\"甘比诺\"]他现在到底是萨卢佐家族在新沃尔西尼的实质掌权人，贝洛内家新的家主，对他尊重一点，总不是什么坏事。\n[name=\"甘比诺\"]更何况他刚刚还给了我们一笔小费——就“小费”而言，这数目倒是挺大的。\n[charslot(slot = \"l\", name = \"avg_npc_541_1#2$1\",focus=\"l\")]\n[name=\"卡彭\"]一个家族的首领，还不是照样被外来的资本家算计了。\n[charslot(slot=\"r\",name=\"avg_npc_542_1#6$1\",focus=\"r\")]\n[name=\"甘比诺\"]你觉得是卡西米尔人使诈？\n[name=\"甘比诺\"]我怎么觉得是调酒的故意让自己陷入现在这种局面？你想想我们刚出来的时候，他那副轻松自在的样子。\n[name=\"甘比诺\"]这些家族出身的人，天天最擅长也最习惯的，不就是这种算计来算计去。\n[charslot(slot = \"l\", name = \"avg_npc_541_1#1$1\",focus=\"l\")]\n[name=\"卡彭\"]谁知道呢，我不在乎。\n[name=\"卡彭\"]这里是新沃尔西尼，不是西西里城，你我也早就见识过家族的首领会陨落得有多可笑。\n[charslot(slot=\"r\",name=\"avg_npc_542_1#6$1\",focus=\"r\")]\n[name=\"甘比诺\"]哎，你说，我们押送德米特里的时候，在会场里拍照的那些记者，能不能拍到我背后的出租车公司宣传标语？\n[charslot(slot = \"l\", name = \"avg_npc_541_1#9$1\",focus=\"l\")]\n[name=\"卡彭\"]要不你明早买份报纸看看。"
+        }
+      ],
+      "description": "卡彭直接参与押送德米特里，并在事后谈论这次押送。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4037_demetr",
+          "reason": "德米特里被卡彭实际架着押送，直接身体互动支持其知晓押送者。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        },
+        {
+          "evidenceIds": [
+            "E01",
+            "E02"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭执行对德米特里的押送，并在事后明确称呼“贝洛内先生”。",
+          "status": "supported",
+          "to": "char_4037_demetr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_42229304a8826cf6.json",
+      "sources": [
+        {
+          "endLine": 655,
+          "kind": "story",
+          "line": 638,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20mini/level_act20mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 690,
+          "kind": "story",
+          "line": 672,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20mini/level_act20mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "新沃尔西尼红酒锦标赛当晚",
+      "title": "十字路口"
+    }
+  ],
+  "relationship_id": "char_4037_demetr|npc_e565b7639574735d"
+}

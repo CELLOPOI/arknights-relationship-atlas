@@ -1,0 +1,22 @@
+{
+  "id": "import:npc_732d802fa042a0c2|npc_751dc5e345c5cbe2",
+  "published": true,
+  "quote": "【慈悲灯塔】\n弗莱蒙特：我早就跟菈玛莲抱怨过，那对兄妹太激进了，迟早会给我们招来数不清的麻烦事！\n\n【巴别塔】\n菈玛莲：弗莱蒙特，久居莱塔尼亚的巫妖。看来现在的“誊录”是他了。\n特蕾西娅：看来巫妖们在莱塔尼亚运用法术的风格发生了些变化。唔，他的神情似乎非常激动。\n特蕾西娅：……\n特蕾西娅：……可为什么光有影像，却没有任何声音？\n菈玛莲：……呵呵。\n菈玛莲：那位巫妖特使暗示过我，他实在很苦恼如何润色老师的措辞……我也没想到他干脆抹去了声音。\n菈玛莲：总之，弗莱蒙特表达了巫妖们的歉意。他们仍然醉心知识，实在无法分心长途跋涉来相聚。\n菈玛莲：但倘若卡兹戴尔需要他们的知识，巫妖很乐意为他们选中的人敞开圣殿之门。\n菈玛莲：……当然，我想以殿下的能耐，也能从影像里看出弗莱蒙特的态度才是。看来他还是对激烈的变革过敏。",
+  "relationship_id": "npc_732d802fa042a0c2|npc_751dc5e345c5cbe2",
+  "sources": [
+    {
+      "endLine": 35,
+      "kind": "story",
+      "line": 35,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 132,
+      "kind": "story",
+      "line": 124,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

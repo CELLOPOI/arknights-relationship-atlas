@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 430,
+          "line": 398,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_end.txt",
+          "quote": "[name=\"斯第奇·画布\"]……卡奇。\n[Character(name=\"avg_npc_567_1#1$1\")]\n[name=\"卡奇·叙光\"]接下来就是要动真格的了，我们公平竞争，各凭本事吧。\n[Character(name=\"avg_npc_567_1#1$1\")]\n[name=\"卡奇·叙光\"]不介意的话，握个手？\n[Character(name=\"avg_4054_malist_1#1$1\")]\n[name=\"斯第奇·画布\"]……好吧，出于对另一位际崖城公民最基本的尊重。\n[Character(name=\"avg_npc_571_1#2$1\")]\n[name=\"极境\"] 我说，你们是不是其实关系蛮好的？\n[Character(name=\"avg_4054_malist_1#6$1\")]\n[name=\"斯第奇·画布\"]你用哪只眼睛看出来的？\n[stopmusic(fadetime=1)]\n[Dialog]\n[character]\n[Character(name=\"char_empty\")]\n[characteraction(name=\"middle\", type=\"move\", xpos=-500, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[characteraction(name=\"middle\", type=\"move\", xpos=50, fadetime=0.5, block=false)]\n[delay(time=0.7)]\n[characteraction(name=\"middle\", type=\"move\", xpos=475, fadetime=1, block=false)]\n[Character(name=\"avg_npc_566_1#1$1\",fadetime=0.7)]\n[delay(time=1.5)]\n[playmusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.4)]\n[Character(name=\"avg_npc_566_1#1$1\")]\n[name=\"克罗绮·砖石\"]接下来就是要动真格的了！\n[Character(name=\"avg_4054_malist_1#6$1\",fadetime=0)]\n[name=\"斯第奇·画布\"]……克罗绮什么时候又喝上了？\n[Character(name=\"avg_npc_566_1#9$1\")]\n[name=\"克罗绮·砖石\"]预热的预热，前奏的前奏，际崖城大竞技系列第一季！\n[Character(name=\"avg_npc_566_1#3$1\")]\n[name=\"克罗绮·砖石\"]恰卡恰卡恰卡恰卡——咚咚！游泳大赛！\n[Character(name=\"avg_npc_566_1#9$1\")]\n[name=\"克罗绮·砖石\"]几位，有没有兴趣？"
+        }
+      ],
+      "description": "克罗绮来到极境和至简面前邀请参加游泳比赛。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "char_401_elysm",
+          "reason": "克罗绮来到极境和至简面前邀请参加游泳比赛。",
+          "status": "supported",
+          "to": "npc_e6ff84ea498826b3"
+        },
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "npc_e6ff84ea498826b3",
+          "reason": "克罗绮来到极境和至简面前邀请参加游泳比赛。",
+          "status": "supported",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 430,
+          "kind": "story",
+          "line": 398,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_e6ff84ea498826b3"
+}

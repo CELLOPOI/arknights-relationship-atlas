@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 80,
+          "line": 38,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_06_beg.txt",
+          "quote": "[name=\"W\"]  真可怜啊，他本可以不用活得这么疲惫。\n[Character(name=\"avg_npc_052\")]\n[name=\"伊内丝\"]  也许我们都该见见他。\n[name=\"伊内丝\"]  他给人留下的感觉，超过了“战士”这个范畴。\n[name=\"伊内丝\"]  你啊，不是总喜欢想很多吗？比起干想，不如去找他那种人聊聊。\n[name=\"伊内丝\"]  我们也许都能从他身上学到不少。\n[Character(name=\"avg_npc_047\")]\n[name=\"赫德雷\"]  你们说的是……\n[Character]\n[Dialog]\n[Delay(time=1)]\n[name=\"？？？\"]  打扰，我想，单独见见你们。\n[Character(name=\"avg_npc_046#2\")]\n[name=\"W\"]  ……真是说来就来，你赶好的吗？\n[Character(name=\"avg_npc_047\")]\n[name=\"赫德雷\"]  您是……\n[Character]\n[Dialog]\n[Character(name=\"avg_npc_025_1\",fadetime=1,block=true)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[delay(time=1)]\n[name=\"？？？\"]  我，是谁，暂且，不重要。\n[name=\"？？？\"]  现在，我并非，以领袖的名义，来见你们，请放心。\n[name=\"？？？\"]  我只是想，来听一听……\n[name=\"？？？\"]  同胞，和家乡，发生的事情。\n[name=\"？？？\"]  我知道，在卡兹戴尔，发生了，许多事情。\n[name=\"？？？\"]  我，有所耳闻，却不知详情。\n[Character(name=\"avg_npc_025_1\", name2=\"avg_npc_046#2\", focus=2)]\n[name=\"W\"]  你只是个乌萨斯人。\n[Character(name=\"avg_npc_025_1\")]\n[name=\"？？？\"]  这两者，并不冲突。\n[name=\"？？？\"]  血脉，从未改变。黑暗，根深蒂固。\n[name=\"？？？\"]  我虽从未在意，但也都，无法动摇。\n[Character(name=\"avg_npc_025_1\", name2=\"avg_npc_046#2\", focus=2)]\n[name=\"W\"]  那么就算你知道了，又打算做什么？\n[name=\"W\"]  都已经是很久以前的事情了——\n[Character(name=\"avg_npc_025_1\")]\n[name=\"？？？\"]  不会，做什么，也不能，做什么。\n[name=\"？？？\"]  只是，在很久以前，我见过，特蕾西娅。\n[Character(name=\"avg_npc_025_1\", name2=\"avg_npc_046#2\", focus=2)]\n[name=\"W\"]  ——嚯。\n[Character(name=\"avg_npc_025_1\")]\n[name=\"？？？\"]  你们的反应，我明白。她也在你们这，留下了痕迹。毕竟，你们也是，萨卡兹。"
+        }
+      ],
+      "description": "爱国者到三人近前交流时伊内丝同在，补回本篇已经发生的局部共处。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "char_4087_ines",
+          "reason": "爱国者到三人近前交流时伊内丝同在，补回本篇已经发生的局部共处。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "爱国者到三人近前交流时伊内丝同在，补回本篇已经发生的局部共处。",
+          "status": "supported",
+          "to": "char_4087_ines"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 80,
+          "kind": "story",
+          "line": 38,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "生于黑夜"
+    }
+  ],
+  "relationship_id": "char_4087_ines|npc_e877f731a67498e3"
+}

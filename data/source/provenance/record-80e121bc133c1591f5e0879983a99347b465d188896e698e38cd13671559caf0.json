@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 43,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_05_end.txt",
+          "quote": "[name=\"宴\"]  然后，我就把靠近我的那些人全都打了一顿。\n[name=\"宴\"]  后来，又有更多的人来，我就又把他们打了一顿。\n[name=\"宴\"]  打到最后，他们不知道为什么就对我毕恭毕敬的了。\n[Character(name=\"char_337_utage_1\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  哦，我懂了，他们可能把你当成新奇的动物了，毕竟我们这里没有长你这样的人。\n[Character(name=\"char_337_utage_1\", name2=\"avg_npc_075\", focus=1)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[name=\"宴\"]  哈？！我这样青春可爱的美少女哪里像动物了！\n[Character(name=\"char_337_utage_1\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  呃，老实说，从阿达克利斯的角度来看，你可能确实像个怪胎。\n[name=\"依娜姆\"]  而且我看到跟随你的这群人里，有巨木部族的族长，问了他一下，他说，现在你才是巨木部族的族长。\n[Character(name=\"char_337_utage_1\", name2=\"avg_npc_075\", focus=1)]\n[name=\"宴\"]  诶？\n[Character(name=\"char_337_utage_1\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  也就是说，你把一支部族的族长打败了，他们认为你是新的族长，所以才会跟着你。\n[Character(name=\"char_337_utage_1\", name2=\"avg_npc_075\", focus=1)]\n[name=\"宴\"]  诶？他们明明听不懂我说话，这也行？！我还以为他们只是好玩才跟着我的……\n[Character(name=\"char_337_utage_1\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  在这里，你只要够强大，就可以。\n[Character(name=\"char_337_utage_1\", name2=\"avg_npc_075\", focus=1)]\n[name=\"宴\"]  这可怎么办啊，博士……\n[Decision(options=\"你自己解决。;……;不如你就留在这里当族长好了。\",values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_337_utage_1\")]\n[name=\"宴\"]  呜呜呜，博士好绝情！\n[Predicate(references=\"2\")]\n[Character(name=\"char_337_utage_1\")]\n[name=\"宴\"]  呜呜，博士不要用那种眼神看我嘛。\n[name=\"宴\"]  我又不是故意的……\n[Predicate(references=\"3\")]\n[Character(name=\"char_337_utage_1\")]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[name=\"宴\"]  诶，我才不要！我才不要过没电视没空调的生活！\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  算了，至少找到了你和可颂，现在就剩下煌了。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_337_utage_1\", focus=2)]\n[name=\"宴\"]  煌大姐应该不会有事吧，想象不出她出事的样子诶。\n[Character(name=\"char_201_moeshd\")]\n[name=\"可颂\"]  是啊。对了，博士，接下来我们要去干什么，去神庙参加嘉维尔说的祭典吗？\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  哦，对，忘了你们不知道，博士，你来解释一下吧。"
+        }
+      ],
+      "description": "宴与博士直接交谈并同行。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "char_337_utage",
+          "reason": "宴与博士直接交谈并同行。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "宴与博士直接交谈并同行。",
+          "status": "supported",
+          "to": "char_337_utage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 43,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "密林悍将归来"
+    }
+  ],
+  "relationship_id": "char_337_utage|npc_b99957887950ebfd"
+}

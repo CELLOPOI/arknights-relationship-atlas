@@ -1,0 +1,210 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 202,
+          "line": 135,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "quote": "[name=\"阿米娅\"]好吧，司机小姐，我们可以带你们走一段。\n[name=\"阿米娅\"]穿过这片战区后，你们就彻底离开维多利亚吧。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_054\",posfrom=\"-200,0\",posto=\"-200,0\",focus=\"l\")]\n[charslot(slot=\"m\", name = \"avg_npc_1338_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_932_1#1$1\",posfrom=\"200,0\",posto=\"200,0\",focus=\"l\")]\n[name=\"“矿工”\"]谢谢你们。\n[charslot(slot=\"m\", name = \"avg_npc_1338_1#1$1\",focus=\"m\")]\n[name=\"“司机”\"]感谢……这辆载具还能载你们一程。\n[charslot(slot=\"r\",name=\"avg_npc_932_1#1$1\",posfrom=\"200,0\",posto=\"200,0\",focus=\"r\")]\n[name=\"“老财”\"]哎哟，这这这，魔王大人这样仁义，我真的是不知道怎么报答您了——\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#2$1\",focus=\"m\")]\n[name=\"Logos\"]硬币。\n[charslot(slot=\"m\",name=\"avg_npc_932_1#1$1\",focus=\"m\")]\n[name=\"“老财”\"]啊？\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]我交予你的硬币。\n[charslot(slot=\"m\",name=\"avg_npc_932_1#1$1\",focus=\"m\")]\n[name=\"“老财”\"]我都忘了，哈哈，幸好没丢。来，给您！\n[name=\"“老财”\"]我知道错了！为女妖大人服务应当是我的荣幸，我怎敢再收您的好处？\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"none\")]\n[Decision(options=\"你好像吓到他了。;你很想要回自己的硬币。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#2$1\",focus=\"m\")]\n[name=\"Logos\"]希望我在你心中并非如此吝啬的形象。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]我需要确保，他们还是“他们”本人。\n[name=\"Logos\"]不必紧张，我无恶意。\n[Dialog]\n[charslot]\nLogos动了动手指，躺在掌心的硬币瞬间消失了，转眼间，硬币又出现在了老财的手里。\n老财盯了会那只往常一抬起来就地动山摇的手，看了看自己手中的硬币，又瞅了瞅女妖一本正经的面容，颇有些不知所措。\n[charslot(slot=\"m\",name=\"avg_npc_932_1#1$1\",focus=\"m\")]\n[name=\"“老财”\"]这、这是变魔术？\n[name=\"“老财”\"]……哈哈，这可太精彩了，女妖大人还真是多才多艺！\n[name=\"“老财”\"]我……那个，我去帮司机发动车子！\n[Dialog]\n[playsound(key=\"$rungeneral\",volume=1,channel=1)]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"none\")]\n[Decision(options=\"很有意思的表演。;表演似乎没能起到效果。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]嗯。我只见Scout和Outcast示范过几回，可能动作不够纯熟，所以没起到很好的效果。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"none\")]\n[Decision(options=\"没想到你还有这样的一面。;难不成，其实你很喜欢开玩笑？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#3$1\",focus=\"m\")]\n[name=\"Logos\"]博士，有时候我也会遗憾于我们之间相处的许多记忆消散无踪。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#3$1\",focus=\"none\")]\n[Decision(options=\"我们很少聊起往事……;总是找不到恰当的时机聊这些。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#4$1\",focus=\"m\")]\n[name=\"Logos\"]倘若我们之后有时间闲谈叙旧，或许您也会对自己过去的逸闻感到惊喜。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]现在，我们出发吧。"
+        }
+      ],
+      "description": "阿米娅与同行者交涉结束后仍在原地，Logos在出发前谈及两名示范者；仅支持同场听闻。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E47"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅与同行者交涉结束后仍在原地，Logos在出发前谈及两名示范者；仅支持同场听闻。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 202,
+          "kind": "story",
+          "line": 135,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 51,
+          "line": 49,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-02_end.txt",
+          "quote": "[name=\"阿米娅\"] ……也是小丘郡事件的始作俑者之一。\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 罗德岛并不打算把Outcast的牺牲完全怪罪在她一个人头上，但不光Misery和风笛，我们许多干员都对她抱有强烈的敌意。"
+        }
+      ],
+      "description": "阿米娅明确讨论Outcast的牺牲及其责任。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅明确讨论Outcast的牺牲及其责任。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 51,
+          "kind": "story",
+          "line": 49,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 496,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "quote": "[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"罗德岛干员\"]  ……怎么回事！\n[name=\"罗德岛干员\"]  可露希尔，生物处理室13号舱，给我图表！\n[name=\"罗德岛干员\"]  舱室的内部温度急剧升高！能量在外放！\n[name=\"罗德岛干员\"]  等等，它的形态在转化！经过十四小时的处理，为什么还会进入到这一阶段？\n[name=\"罗德岛干员\"]  PRTS，刚才是谁使用了这个舱位？\n[name=\"罗德岛干员\"]  Dr.{@nickname}？我们在龙门攻防战里有干员伤亡吗？这处理的是谁？\n[name=\"罗德岛干员\"]  什么？\n[name=\"罗德岛干员\"]  等等，你慢点说，你说Dr.{@nickname}在舱位里安置了谁？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\", fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  勋爵！\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我在听，博卓卡斯替。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我们温迪戈，自我流放，失去一切。\n[name=\"爱国者\"]  但我们身负，萨卡兹的传统。\n[name=\"爱国者\"]  先祖，塑造我，培育我，注视我。所以，请替我见证。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  博卓卡斯替……\n[name=\"凯尔希\"]  ……我不知道自己够不够格。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我认为你是，最好人选。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  ……\n[name=\"凯尔希\"]  “……我在此担当一位萨卡兹的见证者。博卓卡斯替，卡兹戴尔的温迪戈，一生从未背叛过血肉，也从未愧对亲族。”\n[name=\"凯尔希\"]  “他将把一生留在光芒下的身体里……”\n[name=\"凯尔希\"]  “……而他的精魂，则将回到温迪戈温热的血脉中去。”\n[name=\"凯尔希\"]  这是个诅咒。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  对我，并不是。\n[name=\"爱国者\"]  啊——我感到……我感到，我清晰的视野，开始模糊。\n[name=\"爱国者\"]  谢谢你，勋爵。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我以为你讨厌这些。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  可我，已经老了。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_perimeter\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  不……\n[name=\"幻影弩手\"]  这里是哪里？\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  哈，原来是这样。哈。\n[name=\"幻影弩手\"]  塔露拉真的背叛我们了。\n[name=\"幻影弩手\"]  你以为我们会坐以待毙吗？！\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  你们不是对手。\n[name=\"萨卡兹战士\"]  有来世的话，向我报仇。\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  就因为知道会死，所以就要放弃了吗？\n[name=\"幻影弩手\"]  就这样被你们无故杀了而——\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  别杀他们。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  梅菲斯特……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  魔族人，我会给你们不知疼痛的身躯。让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  我们比你的牧群强大得多。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  我可以把我的生命拿出来和你们分享，你们能真正地永远战斗，不知疲倦地战斗。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……可以。\n[name=\"萨卡兹战士\"]  但他们要出去，也必须由我的同伴看着。现在还不能违背塔露拉的命令。\n[name=\"萨卡兹战士\"]  你们，弩手。出去。\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  梅菲斯特？！\n[name=\"幻影弩手\"]  （为什么他会救我们……？难道塔露拉还有什么阴谋？）\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  不过，你为什么特意要到这里来？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  ……因为我想进去这里。我想知道这里有什么样的秘密。我想知道罗德岛究竟为什么会从这里带走一个人。\n[name=\"梅菲斯特\"]  因为我从录像里看到那个人从这里出来。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  梅菲斯特……？为什么？\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  你们，想听歌吗？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  可是，浮士德队长他说，他说……\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  是啊，是的。我已经不会唱了。\n[name=\"梅菲斯特\"]  嗯，但我可以试试。\n[name=\"梅菲斯特\"]  应该是首摇篮曲吧？不记得是有谁教过我这首曲子……我不记得了。\n[name=\"梅菲斯特\"]  只是有人在我的梦里，一直地哼。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉睡吧，沉睡吧♪\n刺猬玩偶与小熊们……\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  乌萨斯的，感染者，又要走去哪里？\n[name=\"爱国者\"]  晦暗的夜晚，还会遮蔽……多少明星？\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  ……大尉，大尉！\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  最后的命令。\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  大尉……\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  战斗下去。活下去。\n[name=\"爱国者\"]  你们的路，只有你们……自己去走。\n[name=\"爱国者\"]  走了，才有路。\n[name=\"爱国者\"]  我必定要死。只是不知道，是否该是现在。\n[name=\"爱国者\"]  我们的死，究竟能，改变什么？\n[name=\"爱国者\"]  也许这个问题，你们，才能回答。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉进静静的黑色……"
+        }
+      ],
+      "description": "确认前者单向知晓后者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_002_amiya",
+          "reason": "前者在已读场景中具体提及、观察或接收后者信息。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 496,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 76,
+          "line": 54,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_cello_1_1.txt",
+          "quote": "[Background(image=\"bg_wild_a\",screenadapt=\"showall\",fadetime=1.5)]\n[charslot(slot=\"m\",name=\"char_012_misa_1\",duration=1.5)]\n[Delay(time=2.5)]\n[Background(image=\"bg_cher_6\",screenadapt=\"showall\",fadetime=1.5)]\n[charslot(slot=\"m\",name=\"char_1505_frstar_1#3\",duration=1.5)]\n[Delay(time=2.5)]\n[Background(image=\"bg_chercen_1\",screenadapt=\"showall\",fadetime=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_025_1\",duration=1.5)]\n[Delay(time=2.5)]\n[Background(image=\"21_G6_decisivebattlealley_n\",screenadapt=\"showall\",fadetime=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_245_1\",duration=1.5)]\n[Delay(time=2.5)]\n[Background(image=\"37_g3_fogblockadestreet_d\",screenadapt=\"showall\",fadetime=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_863_1#1$1\",duration=1.5)]\n[Delay(time=2.5)]\n[Background(image=\"34_g11_hispdwarshipdeck\",screenadapt=\"coverall\",fadetime=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_868_1#7$1\",duration=1)]\n[Delay(time=2.5)]\n[playsound(key=\"$d_avg_cellodoubth\")]\n[Background(image=\"27_g26_dusk_wild\",screenadapt=\"showall\",fadetime=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",duration=1.5)]\n[Delay(time=3)]\n阿米娅没有移动，但星光和浪涛主动拥抱了她，在万千迷离的景象里，无数熟悉的身影与她交错。"
+        }
+      ],
+      "description": "阿米娅对 Outcast 的记忆显示其明确熟悉 Outcast，反向未由本窗建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_002_amiya",
+          "reason": "琴声引出的情感深处幻景将该人物明确呈现为阿米娅熟悉的身影。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "该人物仅在阿米娅幻景中出现，本窗没有其对阿米娅的独立方向。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_b6187cff8bf63345.json",
+      "sources": [
+        {
+          "endLine": 76,
+          "kind": "story",
+          "line": 54,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_cello_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "塑心琴声触发的阿米娅既往记忆",
+      "title": "塑心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 159,
+          "line": 135,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "quote": "[name=\"阿米娅\"]下午好，薇洛小姐……还是应该叫你干员琴柳？\n[name=\"琴柳\"]啊……阿米娅小姐！\n[name=\"阿米娅\"]请和大家一样叫我阿米娅吧。\n[name=\"琴柳\"]真是不好意思……阿米娅这么忙，还要抽时间来见我。前两天体检的时候，亚叶小姐说你一天只休息五个小时……\n[name=\"阿米娅\"]亚叶姐姐总是很担心我的身体。不过没关系，我最近的健康状况很不错，而且我也一直很想再见见你。\n[name=\"琴柳\"]……这里就是Outcast以前的办公室？\n[name=\"阿米娅\"]嗯。其实她并没有在这里待很久，出事前两个月，我们刚刚说服她接受了岗位调动。\n[name=\"琴柳\"]她和我说过，在来小丘郡之前，她已经差不多半退休了……\n[name=\"阿米娅\"]但她依然坚持申请去执行这次任务。\n[name=\"琴柳\"]我时常回想她在那几天说的每一句话……我相信她早就做好了面对一切的准备。\n[name=\"阿米娅\"]Outcast确实是这样的人。\n[name=\"阿米娅\"]即便是在精英干员中，Outcast的性格都称得上特别——她总能轻松地做出一些普通人眼里很艰难的决定。\n[name=\"琴柳\"]是啊，她说……她曾经因为一次战争中的失败调停，放弃了教会里很高的职位。\n[name=\"阿米娅\"]唔……离开拉特兰教会的部分确有其事，但是失败的调停？\n[name=\"阿米娅\"]我不记得Outcast的档案里有这项记载，反而，这听起来很像Misery的一件往事。\n[name=\"琴柳\"]……\n[name=\"琴柳\"]哈……哈哈……不知道为什么，这很像她会做的事。\n[name=\"阿米娅\"]可能有些人会因此觉得Outcast不够真诚……\n[name=\"琴柳\"]不，即便你告诉我，她说的并不全是实话，她仍是我见过最真诚的人。\n[name=\"阿米娅\"]你真的这么想？嗯……我并不是很意外，毕竟Outcast看人的眼光从不出错。\n[name=\"琴柳\"]阿米娅，我理解你的时间很宝贵……但你愿不愿意再多跟我说一些她的故事？\n[name=\"阿米娅\"]当然。\n[name=\"阿米娅\"]只是，这故事会很长——\n[name=\"琴柳\"]只要你有空，我随时想听。\n[name=\"阿米娅\"]好啊，我相信……去伦蒂尼姆的路上，我们会有很多时间的。"
+        }
+      ],
+      "description": "阿米娅明确知道 Outcast，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S07"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅具体追述 Outcast 的性格和往事。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "Outcast已牺牲，本窗无反向证据。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 159,
+          "kind": "story",
+          "line": 135,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "Outcast牺牲后追忆",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "char_002_amiya|npc_617e6ed434c6e138"
+}

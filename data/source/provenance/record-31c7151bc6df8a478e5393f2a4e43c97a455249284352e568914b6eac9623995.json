@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 215,
+          "line": 209,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "quote": "[name=\"仇白\"]越来越热了……\n[name=\"仇白\"]昨晚有人行刺魏彦吾，把玉门军营弄得桃花乱飞，泥臭熏天。那个刺客，应该也是你。\n[name=\"仇白\"]所到之处，气候如此反常，这是源石技艺，还是别的什么把戏？\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]……\n[charslot(slot=\"m\",name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"]截杀信使，抢夺天灾数据未果，便接连行刺朝廷要员。"
+        }
+      ],
+      "description": "仇白直指眼前人是刺杀魏彦吾的刺客，知道具体魏彦吾。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "char_4082_qiubai",
+          "reason": "仇白直指眼前人是刺杀魏彦吾的刺客，知道具体魏彦吾。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4082_qiubai"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 215,
+          "kind": "story",
+          "line": 209,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_4082_qiubai|npc_08bc2cc38b820ef0"
+}

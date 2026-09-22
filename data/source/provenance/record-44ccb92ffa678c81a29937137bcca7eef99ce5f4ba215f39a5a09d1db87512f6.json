@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 241,
+          "line": 194,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st05.txt",
+          "quote": "[name=\"霜叶\"]  ？ \n[Character(name=\"char_193_frostl_1#6\")]\n[name=\"霜叶\"]  ……\n[name=\"霜叶\"]  有什么事？\n[Character(name=\"char_144_red_7#7\")]\n[CameraShake(duration=0.3, xstrength=5, ystrength=3, vibrato=30, randomness=90, fadeout=true, block=true)]\n[name=\"红\"]  ！\n[Character(name=\"char_193_frostl_1#3\")]\n[name=\"霜叶\"]  你这样行动，一般干员会被吓到的。\n[Character(name=\"char_144_red_7#6\")]\n[name=\"红\"]  我只是在走路。\n[Character(name=\"char_193_frostl_1#3\")]\n[name=\"霜叶\"]  一般干员是不会在墙面上走路的。\n[Character(name=\"char_144_red_7#4\")]\n[name=\"红\"]  ？\n[Character(name=\"char_193_frostl_1#5\")]\n[name=\"霜叶\"]  算了。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"char_193_frostl_1\",name2=\"char_144_red_7\",focus=1)]\n[name=\"霜叶\"]  你手上拿的是……\n[Character(name=\"char_193_frostl_1\",name2=\"char_144_red_7\",focus=2)]\n[name=\"红\"]  是作业。\n[name=\"红\"]  麻烦。但凯尔希说，这要听博士的。红没得选。\n[name=\"红\"]  这里你懂吗？这个词汇。红不理解。\n[Character(name=\"char_193_frostl_1#6\",name2=\"char_144_red_7\",focus=1)]\n[name=\"霜叶\"]  你居然会……居然会问我问题。\n[Character(name=\"char_193_frostl_1#6\",name2=\"char_144_red_7\",focus=2)]\n[name=\"红\"]  你不会吗？\n[Character(name=\"char_193_frostl_1#3\",name2=\"char_144_red_7\",focus=1)]\n[name=\"霜叶\"]  我试试好了，就先让我看看吧。\n[name=\"霜叶\"]  这个词，嗯，也不是很难理解。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=0, fadetime=1, block=true)]\n[Character(name=\"char_193_frostl_1\")]\n[name=\"霜叶\"]  ……大概就是这样。\n[name=\"霜叶\"]  这样说，能懂吗？我怕我讲得不好。\n[Character(name=\"char_193_frostl_1\",name2=\"char_144_red_7\",focus=2)]\n[name=\"红\"]  可以。很清楚。\n[Character(name=\"char_193_frostl_1\",name2=\"char_144_red_7\",focus=1)]\n[name=\"霜叶\"]  那就好。\n[name=\"霜叶\"]  不过，你其实也可以直接问博士？博士的解答，肯定比我的更准确。\n[Character(name=\"char_193_frostl_1\",name2=\"char_144_red_7\",focus=2)]\n[name=\"红\"]  也可以。但红觉得和霜叶说话轻松。"
+        }
+      ],
+      "description": "红单向具体知晓博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_144_red",
+          "reason": "红说凯尔希要求作业要听博士安排。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在场，未见反向证据。",
+          "status": "not_established",
+          "to": "char_144_red"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 241,
+          "kind": "story",
+          "line": 194,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛课后作业时段",
+      "title": "战地秘闻"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 52,
+          "line": 46,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_15-03.txt",
+          "quote": "红依旧抱有期望。\n她远远藏在暗处，口袋里依旧装着保存她乳牙的袋子。\n红本想在凯尔希回来时偷偷塞进她的口袋，但回来的是另一个人。\n[charslot(slot = \"m\", name = \"char_144_red_7#4\")]\n[name=\"红\"]……\n[charslot]\n她期待今天听到凯尔希的消息，她知道博士和Mon3tr一直在秘密研究些什么。"
+        }
+      ],
+      "description": "红明确知道博士与Mon3tr在秘密进行研究。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D39"
+          ],
+          "from": "char_144_red",
+          "reason": "红明确知道博士与Mon3tr在秘密进行研究。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_144_red"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 52,
+          "kind": "story",
+          "line": 46,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_15-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_144_red|npc_b99957887950ebfd"
+}

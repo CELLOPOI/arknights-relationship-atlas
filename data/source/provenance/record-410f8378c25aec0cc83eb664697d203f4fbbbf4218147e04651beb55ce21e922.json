@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 149,
+          "line": 36,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-12_end.txt",
+          "quote": "[name=\"监察司\"]  磨磨蹭蹭的……花了那么长时间。\n[Character(name=\"avg_npc_041\")]\n[name=\"？？？\"]  我觉得做得很不错。一天之内就消灭了龙门城内的全部整合运动，我可以给最高分。\n[Character(name=\"avg_npc_040\")]\n[name=\"？？？\"]  魏彦吾了不得。\n[Character(name=\"avg_npc_041\")]\n[name=\"？？？\"]  太合，你有没有听过那个传闻？\n[Character(name=\"avg_npc_039_1\",name2=\"avg_npc_041\",focus=1)]\n[name=\"监察司\"]  你是说魏彦吾的身世？\n[Character(name=\"avg_npc_040\")]\n[name=\"太合\"]  勿论上事。\n[Character(name=\"avg_npc_039_1\",name2=\"avg_npc_041\",focus=2)]\n[name=\"？？？\"]  抱歉。不过，那些黑蓑的身手与当今禁军相比，何如？\n[Character(name=\"avg_npc_039_1\",name2=\"avg_npc_041\",focus=1)]\n[name=\"监察司\"]  哼，你也太高估他们了。他们的确有过人之处不假……\n[Character(name=\"avg_npc_040\")]\n[name=\"太合\"]  当心！\n[Character]\n[name=\"？？？\"]  你们这些混账！！\n[Character(name=\"avg_npc_039_1\")]\n[name=\"监察司\"]  ——感染者？\n[Dialog]\n[Character(name=\"char_017_homura_3#6\")] \n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=1)]\n[Character(name=\"avg_npc_041\")]\n[name=\"？？？\"]  嘶。\n[Character(name=\"char_017_homura_3#6\",name2=\"avg_npc_041\",focus=1)] \n[name=\"煌\"]  ——绞合线？！\n[Character(name=\"char_017_homura_3#6\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  你并不想真的杀我，对吗？你本来能用法术的。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=1)] \n[name=\"煌\"]  我听说用线做武器的男人，无一例外全是心理变态。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  确实总有人这么说……\n[Character(name=\"avg_npc_039_1\")]\n[name=\"监察司\"]  感染者，别妨害公务。小心我把你一并处理了。\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  没有身份识别码的武装人员在战场上遭到杀害，这种事根本怨不得人吧？\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  我们同样可以指证你与这些整合运动有所勾连。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_010_chen_1#1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"陈\"]  你们还没有调查我合作伙伴的权限。\n[Character(name=\"avg_npc_041\",name2=\"char_010_chen_1#1\",focus=1)] \n[name=\"？？？\"]  但我们已经知道有一艘属于“感染者对策专家”的舰船停在龙门泊区，陈警司。这也是这位煌小姐尚未收到伤害的唯一理由。\n[Character(name=\"avg_npc_041\",name2=\"char_010_chen_1#5\",focus=2)] \n[name=\"陈\"]  那诸位还要看到什么时候？还要再给龙门人的出生入死打几次分？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"监察司\"]  说话放尊重点。龙门风险控制能力的评估，本来就是因为重视你们才做的。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  那真抱歉，我换种说法吧。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  我们这场闹剧，三位看得尽兴不？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"监察司\"]  嘁。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  煌，收手吧，这三位贵人不是你我该伺候的，穿雨披的那些也确实不是他们的同行人。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  抱歉，煌小姐。希望我刚刚没有让你产生不快。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=1)] \n[name=\"煌\"]  ……你挺有礼貌的。但我很讨厌你说话的语气。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  你的炎腔味道很正。\n[name=\"？？？\"]  你的确继承了你父亲不少东西。只不过，现在的你只是个感染者，路很难走，也很短。\n[Character(name=\"char_017_homura_3#6\",name2=\"avg_npc_041\",focus=1)] \n[name=\"煌\"]  ……你……？\n[Character(name=\"avg_npc_040\")]\n[name=\"太合\"]  走。\n[Character(name=\"avg_npc_041\")]\n[name=\"？？？\"]  那么再会，煌小姐，陈警司。\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_017_homura_3#6\")] \n[name=\"煌\"]  等一下！你刚才说我爸什么！\n[name=\"煌\"]  站住！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  煌！\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  ……\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  不要忘了任务！\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  我知道。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"阿米娅\"]  陈长官。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我们没发现敌人指挥官的踪迹。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"阿米娅\"]  哪一位？\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我们只知道梅菲斯特。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"阿米娅\"]  接下来的追击，就由我们罗德岛来完成。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  不用太冒进。这场战役实质上已经结束了。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"阿米娅\"]  但他犯下的暴行……必须要被偿还。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  交给你们了。\n[name=\"陈\"]  那么我们就各自出发吧。我还有件必须要去亲眼验证的事。\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  等等，近卫局的。\n[Character(name=\"char_010_chen_1#1\",name2=\"char_017_homura_3#5\",focus=1)]\n[name=\"陈\"]  有什么事？\n[Character(name=\"char_010_chen_1#1\",name2=\"char_017_homura_3#4\",focus=2)]\n[name=\"煌\"]  ……刚才谢谢你了。\n[name=\"煌\"]  没别的。\n[Character(name=\"char_010_chen_1#1\",name2=\"char_017_homura_3#4\",focus=1)]\n[name=\"陈\"]  呵，彼此彼此。"
+        }
+      ],
+      "description": "阿米娅与解真现场直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅与解真现场直接交谈。",
+          "status": "supported",
+          "to": "npc_05b673f5674dabd7"
+        },
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "npc_05b673f5674dabd7",
+          "reason": "阿米娅与解真现场直接交谈。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 149,
+          "kind": "story",
+          "line": 36,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    }
+  ],
+  "relationship_id": "char_002_amiya|npc_05b673f5674dabd7"
+}

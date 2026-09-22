@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 65,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_helage_1_1.txt",
+          "quote": "[name=\"临光\"]  赫拉格先生，我听说Scout先生最后的遗物，是经由你手回到了罗德岛。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1\", focus=1)]\n[name=\"赫拉格\"]  你想说，这是罗德岛普遍的品性？\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1\", focus=2)]\n[name=\"临光\"]  我不能如此断论。我想每一位干员，哪怕是我，与Scout先生所抱有的觉悟都有区别。\n[name=\"临光\"]  但每一位干员——此时此刻，愿意为感染者，为罗德岛而战的每一个人，都不会畏惧战斗。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1\", focus=1)]\n[name=\"赫拉格\"]  人总是为了不同的理由而战。\n[name=\"赫拉格\"]  ……所以当他们被许以一个过于宏大，甚至能吻合一切诉求的壮美愿景时，他们会迷失在洪流里。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1#4\", focus=2)]\n[name=\"临光\"]  您是说整合运动？\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1#4\", focus=1)]\n[name=\"赫拉格\"]  ……都是一样的。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1#3\", focus=2)]\n[name=\"临光\"]  赫拉格先生，前往那座城的干员们，都心怀信念，不曾动摇片刻。\n[name=\"临光\"]  我选择相信那个信念，他们的信念。\n[name=\"临光\"]  这是罗德岛干员的义务，以及，感谢您愿意费力带回Scout先生最后的通讯设备，当时切尔诺伯格的局势应该十分凶险。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1#3\", focus=1)]\n[name=\"赫拉格\"]  ……可惜，我与那位战士未曾谋面。\n[name=\"赫拉格\"]  他的牺牲足以让战士动容。这使我相信他的意志至今仍有迹可循。"
+        }
+      ],
+      "description": "临光单向知晓Scout。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_148_nearl",
+          "reason": "临光具称Scout并讨论其遗物、觉悟和最后通讯设备。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout未在场，本篇未显示其知晓临光。",
+          "status": "not_established",
+          "to": "char_148_nearl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_e4a0f8282715fde0.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 65,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_helage_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇舰桥谈话时",
+      "title": "赫拉格"
+    }
+  ],
+  "relationship_id": "char_148_nearl|npc_0957af9bf990438d"
+}

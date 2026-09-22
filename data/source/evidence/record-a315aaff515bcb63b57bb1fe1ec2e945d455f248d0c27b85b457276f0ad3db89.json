@@ -1,0 +1,14 @@
+{
+  "id": "import:char_219_meteo|char_350_surtr",
+  "published": true,
+  "quote": "陨星：史尔特尔！\n史尔特尔：啊，多亏了陨星你帮我定好了位，这样也方便我从里面打破岩层出来。\n陨星：你做了什么！干嘛要自己一个人深入危险的地方！\n史尔特尔：我这不是，进去做探查吗。\n史尔特尔：顺便，我找到了内部塌方的原因，是因为在矿井下面有源石虫巢穴，里面有一个巨大的空洞。\n史尔特尔：挖掘导致了下方支撑压力扩大，于是整个塌方掉了。\n史尔特尔：为了解决问题，我已经把下面源石虫巢穴全毁，并且利用塌方把整个空洞都封了起来。",
+  "relationship_id": "char_219_meteo|char_350_surtr",
+  "sources": [
+    {
+      "endLine": 428,
+      "kind": "story",
+      "line": 416,
+      "source": "activities/act13d0/level_act13d0_st01.txt"
+    }
+  ]
+}

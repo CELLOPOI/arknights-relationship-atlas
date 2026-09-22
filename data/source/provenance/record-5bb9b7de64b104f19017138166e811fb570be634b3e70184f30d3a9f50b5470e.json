@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 83,
+          "line": 57,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st03.txt",
+          "quote": "[name=\"宁小姐\"] ……太合先生，左乐先生。幸会。\n[Character(name=\"avg_npc_297_1#1$1\", name2=\"avg_npc_299_1#1$1\", focus=1)]\n[name=\"左乐\"] 宁小姐，幸会。\n[Character(name=\"avg_npc_297_1#1$1\", name2=\"avg_npc_299_1#1$1\", focus=2)]\n[name=\"太合\"] 见过宁侍郎。\n[character(name=\"avg_npc_295_1#5$1\")]\n[name=\"梁洵\"] ……\n[character(name=\"avg_npc_298_1#9$1\")]\n[name=\"宁小姐\"] 尚蜀之行，未能礼待，失了礼数。\n[character(name=\"avg_npc_297_1#7$1\")]\n[name=\"左乐\"] 不请自来，多有打扰，冒犯在先。\n[character(name=\"avg_npc_298_1#10$1\")]\n[name=\"宁小姐\"] 左公子是承父命而来，代表司岁台处理酒盏与灰齐山两案，雷厉风行。\n[character(name=\"avg_npc_297_1#5$1\")]\n[name=\"左乐\"] 宁小姐慧眼如炬。\n[character(name=\"avg_npc_297_1#10$1\")]\n[name=\"左乐\"] 而梁先生举动，旨在破局，更是令人钦佩。\n[character(name=\"avg_npc_298_1#6$1\")]\n[name=\"宁小姐\"] ……若非司岁台激进，梁大人想必不至于如此举动。\n[character(name=\"avg_npc_295_1#7$1\")]\n[name=\"梁洵\"] 梁某人问心无愧，想必肃政院得知此事后，自有公道。\n[character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"] 我已草拟奏呈，大可开诚布公，绝无偏颇。\n[character(name=\"avg_npc_295_1#10$1\")]\n[name=\"梁洵\"] ……如太合先生所说，“取忠舍义”。\n[character(name=\"avg_npc_299_1#2$1\")]\n[name=\"太合\"] 不错。"
+        }
+      ],
+      "description": "太合当面称宁侍郎，两人与左乐梁洵共同交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E51"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太合当面称宁侍郎，两人与左乐梁洵共同交谈。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "E51"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "太合当面称宁侍郎，两人与左乐梁洵共同交谈。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 83,
+          "kind": "story",
+          "line": 57,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 527,
+          "line": 500,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "quote": "[name=\"老鲤\"]……\n[name=\"老鲤\"]顶唔顺啊。\n[Character(name=\"avg_npc_302_1#1$1\")]\n[name=\"挑山人\"]……不该带你来找人。\n[Character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"]不该。\n[Character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"]你不露面？\n[Character(name=\"avg_322_lmlee_1#2$1\")]\n[name=\"老鲤\"]现在露面，不合适吧。\n[Character(name=\"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]他们这你来我往，简直比台上的戏还精彩。\n[name=\"老鲤\"]谁想到这姓梁的……唉，算了。\n[Character(name=\"avg_322_lmlee_1#5$1\")]\n[name=\"老鲤\"]……不，不行，不能算了！\n[name=\"老鲤\"]谁想到这姓梁的，十多年未见，成如今这样！\n[Character(name=\"avg_npc_302_1#1$1\")]\n[name=\"挑山人\"]十多年未见，不稀奇。\n[Character(name=\"avg_322_lmlee_1#5$1\")]\n[name=\"老鲤\"]难顶。\n[Character(name=\"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]好在还有茶可喝，有戏可看。\n[name=\"老鲤\"]这么一来，梁洵啊，你可是又欠我一笔。\n[Dialog]\n[delay(time=1)]\n[Character(name=\"avg_322_lmlee_1#9$1\")]\n[name=\"老鲤\"]唉……\n[name=\"老鲤\"]想找老朋友喝最后一杯酒，到底是难咯。"
+        }
+      ],
+      "description": "太合在近旁具体观察宁辞秋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太合在近旁具体观察宁辞秋。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "本篇未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_3fa3fadab4354b64"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_579215a80b4f83aa.json",
+      "sources": [
+        {
+          "endLine": 527,
+          "kind": "story",
+          "line": 500,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "未尽篇章"
+    }
+  ],
+  "relationship_id": "npc_3fa3fadab4354b64|npc_906d6f310e0f648e"
+}

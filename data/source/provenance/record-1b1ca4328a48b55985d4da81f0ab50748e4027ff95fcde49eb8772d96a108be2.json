@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 73,
+          "line": 64,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_ex06_end.txt",
+          "quote": "[name=\"Alty\"]   你知道阿戈尔人的敌人是什么吗？\n[name=\"Alty\"]   或者，你其实知道我的身份吧？\n[Character(name=\"char_003_kalts_1#2\",name2=\"npc_10002\",focus=2)]\n[name=\"Mon3tr\"]  ！！\n[Character(name=\"char_003_kalts_1#2\",name2=\"npc_10002\",focus=1)]\n[name=\"凯尔希\"]   Mon3tr，停下！\n[Character(name=\"char_003_kalts_1#2\",name2=\"npc_10002\",focus=1)]\n[name=\"凯尔希\"]  你很年轻。\n[Character(name=\"npc_2004_Alty\")]\n[name=\"Alty\"]   是的，我们很年轻，我们没有经历过那些悲伤的事情，所以我们还在这，还可以说话，还可以唱歌。"
+        }
+      ],
+      "description": "Alty提身份时Mon3tr直接警觉，凯尔希当场喝止；真实共同在场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E40"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "Alty提身份时Mon3tr直接警觉，凯尔希当场喝止；真实共同在场。",
+          "status": "supported",
+          "to": "npc_c7121f5df30f84f6"
+        },
+        {
+          "evidenceIds": [
+            "E40"
+          ],
+          "from": "npc_c7121f5df30f84f6",
+          "reason": "Alty提身份时Mon3tr直接警觉，凯尔希当场喝止；真实共同在场。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 73,
+          "kind": "story",
+          "line": 64,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_ex06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_c7121f5df30f84f6"
+}

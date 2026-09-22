@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 151,
+          "line": 23,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st04.txt",
+          "quote": "[name=\"乌尔比安\"]这是阿戈尔人之间的事。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"大审判官\"]只要你身在伊比利亚的国土上，律法便注视着你，我亦然。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]哼……\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"大审判官\"]你与那三名深海猎人有什么联系？\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]你打伤过斯卡蒂，奇怪，她一定是打算避战的。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"大审判官\"]……\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]她的血是特殊的，比我们所有人都特殊。希望你小心擦拭过你的武器了。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=1)]。\n[name=\"大审判官\"]提问的是我。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]决定是否回答的人是我。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"大审判官\"]卡门阁下允许自由行动的猎人，似乎仅限于在盐风城之战中表明立场的阿戈尔人。\n[Dialog]\n[Character]\n[CameraShake(duration=0.5, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_sp_chixiaobadao\", volume=0.7,delay=0.1)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.7)]\n[delay(time=1.5)]\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]……嗯，碰得到她，看来不全是偶然。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"大审判官\"]她并不弱。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]……弱？\n[name=\"乌尔比安\"]不知轻重的评价。她只是对陆地感到生疏，欠缺变通的手段。\n[Dialog]\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\")]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_sp_chixiaobadao\", volume=1)]\n[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.03, block=false)]\n[characteraction(name=\"left\", type=\"move\", xpos=300, fadetime=0.5,block=false)]\n[characteraction(name=\"right\", type=\"move\", xpos=50, fadetime=0.1,block=false)]\n[CameraShake(duration=1, ystrength=4, vibrato=3, randomness=90, fadeout=false, block=false)]\n[delay(time=1)]\n[characteraction(name=\"right\", type=\"jump\", xpos=-80, power=7, times=2, fadetime=0.5, block=true)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$e_skill_skulsrsword\", volume=0.5)]\n[characteraction(name=\"left\", type=\"jump\", xpos=-400, power=5, times=1, fadetime=0.3,block=true)]\n[dialog]\n[Delay(time=1)]\n[Character]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.03,block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[Character(name=\"char_empty\",name2=\"avg_npc_445_1#1$1\")]\n[Character(name=\"avg_4009_irene_1#1$1\",blackstart=0.3,blackend=0.7,name2=\"avg_npc_445_1#1$1\")]\n[playsound(key=\"$d_avg_bldwhoosh\")]\n[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=0,block=true)]\n[characteraction(name=\"left\", type=\"move\", xpos=600, fadetime=0,block=true)]\n[characteraction(name=\"left\", type=\"move\", xpos=-200, fadetime=0.3,block=true)]\n[Delay(time=0.6)]\n[Character(name=\"avg_4009_irene_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"？？？\"]不要动，阿戈尔人。\n[Character]\n[Dialog]\n[Character(name=\"avg_4009_irene_1#7$1\",fadetime=1)]\n[Delay(time=1)]\n[name=\"审判官艾丽妮\"]请配合长官的调查，深海猎人与审判庭缔结了契约，你的一举一动都在破坏我们建立的合作关系。\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]……合作？\n[Character(name=\"avg_4009_irene_1#7$1\")]\n[name=\"审判官艾丽妮\"]请三思。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]审判官，伊比利亚有多少你这样的战士？\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"大审判官\"]与你无关。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]够不够三千人？\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"大审判官\"]……\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]那伊比利亚还不够格。\n[Dialog]\n[stopmusic(fadetime=3)]\n[CameraShake(duration=0.5, xstrength=18, ystrength=16, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"avg_npc_183#1\",name2=\"char_empty\",fadetime=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"avg_npc_183#2\",name2=\"char_empty\",focus=1)]\n[name=\"大审判官\"]别想走！\n[Dialog]\n[Character]\n[playMusic(intro=\"$suspenseful_intro\", key=\"$suspenseful_loop\",fadetime=2, volume=0.4)]\n[Character(name=\"avg_npc_457_1#1$1\",fadetime=0.5)]\n[name=\"恐鱼\"]（尖锐的摩擦声）\n[Character(name=\"avg_npc_183#2\")]\n[name=\"大审判官\"]什么？从哪里……\n[Dialog]\n[CameraShake(duration=0.3, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]\n[Blocker(a=0.3, r=0.6, g=0, b=0, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.03, block=false)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_183#2\",name2=\"avg_4009_irene_1#4$1\",focus=2)]\n[name=\"审判官艾丽妮\"]长官！您没事吧？\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#4$1\",focus=1)]\n[name=\"大审判官\"]我没事，那个阿戈尔人……\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#4$1\",focus=2)]\n[name=\"审判官艾丽妮\"]是我的失责！\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#4$1\",focus=1)]\n[name=\"大审判官\"]他本可趁机取下我的手臂，却选择了逃走。\n[Dialog]\n[Character]\n[CameraShake(duration=1, xstrength=5, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$d_avg_fish_howl\",volume=0.5)]\n[Character(name=\"avg_npc_457_1#1$1\",name2=\"avg_npc_457_1#1$1\",fadetime=1)]\n[Delay(time=1.5)]\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#7$1\",focus=1)]\n[name=\"大审判官\"]看来我们还无暇追击。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#7$1\",focus=2)]\n[name=\"审判官艾丽妮\"]是城镇的方向！它们躲藏在泥土里！\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#7$1\",focus=1)]\n[name=\"大审判官\"]不。\n[name=\"大审判官\"]整片土地都遭到了污染。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#2$1\",focus=2)]\n[name=\"审判官艾丽妮\"]怎、怎么会？\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#2$1\",focus=1)]\n[name=\"大审判官\"]看清那些灰色的土地，弥漫着险恶的气息的土地。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#7$1\",focus=2)]\n[name=\"审判官艾丽妮\"]是！\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#7$1\",focus=1)]\n[name=\"大审判官\"]格兰法洛并非遭受深海教会的渗透，而是已经沦陷。\n[name=\"大审判官\"]准备迎战。尽早确认卡门阁下的安危。"
+        }
+      ],
+      "description": "乌尔比安与达里奥正面对峙并交手。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S16"
+          ],
+          "from": "char_4145_ulpia",
+          "reason": "乌尔比安与达里奥正面对峙并交手。",
+          "status": "supported",
+          "to": "npc_dcd9165b3a65e04d"
+        },
+        {
+          "evidenceIds": [
+            "S16"
+          ],
+          "from": "npc_dcd9165b3a65e04d",
+          "reason": "乌尔比安与达里奥正面对峙并交手。",
+          "status": "supported",
+          "to": "char_4145_ulpia"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 151,
+          "kind": "story",
+          "line": 23,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_4145_ulpia|npc_dcd9165b3a65e04d"
+}

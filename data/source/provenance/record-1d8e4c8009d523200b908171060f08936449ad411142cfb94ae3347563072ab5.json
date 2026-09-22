@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 129,
+          "line": 80,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_06_end.txt",
+          "quote": "[name=\"极境\"]阿芙朵嘉小姐的意思是，因为杜林的升降梯大多是面向工业设计的，所以十分坚固。\n[name=\"极境\"]我和特米米一起下来的时候也注意到了这一点，那座升降梯大概能很轻松地容纳几十个人吧。\n[name=\"极境\"]所以嘉维尔你的提议确实是可行的。\n[name=\"极境\"]是吧，耶奇大师。\n[Character(name=\"avg_npc_564_1#5$1\")]\n[name=\"耶奇·地心\"]对对。\n[name=\"耶奇·地心\"]超方便大升降梯一号最初确实是因为不知道哪个无聊的家伙发现了上面的矿脉，经过表决后设计的。\n[Character(name=\"avg_npc_564_1#9$1\")]\n[name=\"耶奇·地心\"]只是后来我们发现了更近的矿脉，于是就放着不管了。\n[Character(name=\"avg_1026_gvial2_1#5$1\")]\n[name=\"嘉维尔\"]哦，难怪，我听人说过那个山洞好像是被开采过的，该不会那个洞本身都是你们杜林挖通的吧？\n[Character(name=\"avg_npc_564_1#1$1\")]\n[name=\"耶奇·地心\"]那就不知道了，有可能吧。\n[Character(name=\"avg_4055_bgsnow_1#9$1\")]\n[name=\"阿芙朵嘉\"]而且，为了应对可能出现的情况，杜林人在设计升降梯时，本来就会挖更多的空间，方便未来进行扩建。\n[Character(name=\"avg_npc_571_1#10$1\")]\n[name=\"极境\"]也就是说，如果要最合理地运用剩下的时间，我们确实应该对升降梯进行扩建，让杜林们前往地面。\n[Character(name=\"avg_1026_gvial2_1#3$1\")]\n[name=\"嘉维尔\"]哦，那你直接这么说不就完了。\n[Character(name=\"avg_4055_bgsnow_1#8$1\")]\n[name=\"阿芙朵嘉\"]如果你只是知道怎么做，却不知道为什么这么做，那总有一天会遇到障碍的。\n[Character(name=\"avg_1026_gvial2_1#10$1\")]\n[name=\"嘉维尔\"]我知道啊。\n[Dialog]\n[Character(name=\"avg_4055_bgsnow_1#8$1\",name2=\"char_empty\")]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.7)]\n[Character(name=\"avg_4055_bgsnow_1#8$1\",name2=\"avg_1026_gvial2_1#10$1\",fadetime=0.5)]\n[characteraction(name=\"right\", type=\"move\", xpos=200, fadetime=0, block=true)]\n[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=1.5, block=true)]\n[Delay(time=2)]\n[Character(name=\"avg_4055_bgsnow_1#8$1\",name2=\"avg_1026_gvial2_1#9$1\",focus=2)]\n[name=\"嘉维尔\"]但我是医生，阿芙朵嘉。\n[Character(name=\"avg_4055_bgsnow_1#8$1\",name2=\"avg_1026_gvial2_1#1$1\",focus=2)]\n[name=\"嘉维尔\"]而且，你不是知道得很清楚吗？\n[name=\"嘉维尔\"]我难道不能信任你吗？\n[Character(name=\"avg_4055_bgsnow_1#8$1\",name2=\"avg_1026_gvial2_1#1$1\",focus=1)]\n[name=\"阿芙朵嘉\"]我怎么不知道我们的关系什么时候这么好了。\n[Character(name=\"avg_4055_bgsnow_1#8$1\",name2=\"avg_1026_gvial2_1#10$1\",focus=2)]\n[name=\"嘉维尔\"]我觉得我们已经是好朋友了。\n[Character(name=\"avg_4055_bgsnow_1#6$1\",name2=\"avg_1026_gvial2_1#10$1\",focus=1)]\n[name=\"阿芙朵嘉\"]……\n[Character(name=\"avg_npc_564_1#2$1\")]\n[name=\"耶奇·地心\"]总而言之，我同意嘉维尔的提议。\n[Character(name=\"avg_npc_564_1#1$1\")]\n[name=\"耶奇·地心\"]剩下的细节就交给你们讨论好了，我要继续勘测了。\n[Character(name=\"avg_npc_564_1#1$1\",name2=\"avg_npc_571_1#1$1\",focus=2)]\n[name=\"极境\"]耶奇大师，我来帮你吧，我的源石技艺能够传递信息，一旦你这里有结果我也能第一时间通知大家。\n[Character(name=\"avg_npc_564_1#1$1\",name2=\"avg_npc_571_1#1$1\",focus=1)]\n[name=\"耶奇·地心\"]行。"
+        }
+      ],
+      "description": "极境向耶奇询问升降梯设计并主动协助勘测，后者同意。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "char_401_elysm",
+          "reason": "极境向耶奇询问升降梯设计并主动协助勘测，后者同意。",
+          "status": "supported",
+          "to": "npc_3b2937f62c55f178"
+        },
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "npc_3b2937f62c55f178",
+          "reason": "极境向耶奇询问升降梯设计并主动协助勘测，后者同意。",
+          "status": "supported",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 129,
+          "kind": "story",
+          "line": 80,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_3b2937f62c55f178"
+}

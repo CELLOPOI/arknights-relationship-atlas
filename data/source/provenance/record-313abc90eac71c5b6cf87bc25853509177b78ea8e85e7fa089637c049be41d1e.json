@@ -1,0 +1,145 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 416,
+          "line": 394,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_pianst_1_1.txt",
+          "quote": "[name=\"芙蓉\"]车尔尼先生，您什么时候这么好学了？\n[charslot(slot=\"r\",name=\"avg_4047_pianst_1#8$1\",focus=\"r\")]\n[name=\"车尔尼\"]不，我是来学习怎么上课的。\n[charslot(slot=\"r\",name=\"avg_4047_pianst_1#7$1\",focus=\"r\")]\n[name=\"车尔尼\"]我发现，这是一个大麻烦。\n[name=\"车尔尼\"]我本以为，指导学生就像指导黑键和白垩那样，并没有那么困难。\n[charslot(slot=\"r\",name=\"avg_4047_pianst_1#2$1\",focus=\"r\")]\n[name=\"车尔尼\"]只要他们能够跟上我的演奏，只要他们能够体会一场演奏中的奥妙，他们的水平自然能够进步——\n[charslot(slot=\"r\",name=\"avg_4047_pianst_1#7$1\",focus=\"r\")]\n[name=\"车尔尼\"]但我错了。\n[name=\"车尔尼\"]其实许多人并不能做到这一点。\n[charslot(slot=\"l\",name=\"avg_1024_hbisc2_1#11$1\",focus=\"l\")]\n[name=\"芙蓉\"]……我觉得，这应该是很正常的事情。\n[charslot(slot=\"r\",name=\"avg_4047_pianst_1#1$1\",focus=\"r\")]\n[name=\"车尔尼\"]我不否认这一点。\n[name=\"车尔尼\"]但是，这对我来说就成了一个难题。\n[charslot(slot=\"r\",name=\"avg_4047_pianst_1#2$1\",focus=\"r\")]\n[name=\"车尔尼\"]当他们向我提出一个又一个的问题时，我不知道该怎么去回答他们。\n[charslot(slot=\"r\",name=\"avg_4047_pianst_1#7$1\",focus=\"r\")]\n[name=\"车尔尼\"]那些问题，我甚至觉得不应该被问出来。\n[name=\"车尔尼\"]对我来说，问出那些问题就意味着，他们从一开始就没有入门，就没有理解音乐。\n[charslot(slot=\"l\",name=\"avg_1024_hbisc2_1#11$1\",focus=\"l\")]\n[name=\"芙蓉\"]呃，所以您来这里上课，是为了学习怎么教别人学习？"
+        }
+      ],
+      "description": "芙蓉当面听到车尔尼对白垩的具体教学往事，反向未在本段建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P02"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "芙蓉当面听到车尔尼对白垩的具体教学往事，反向未在本段建立。",
+          "status": "supported",
+          "to": "npc_aa6cc928c88a19e2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa6cc928c88a19e2",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2f4374d42e5fd9b0.json",
+      "sources": [
+        {
+          "endLine": 416,
+          "kind": "story",
+          "line": 394,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_pianst_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "车尔尼"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 291,
+          "line": 279,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ebnhlz_1_1.txt",
+          "quote": "[name=\"芙蓉\"]……别忘了白垩对你说过的话。\n[Character(name=\"avg_4046_ebnhlz_1#13$1\",name2=\"avg_1024_hbisc2_1#4$1\",focus=1)]\n[name=\"黑键\"]？！\n[Character(name=\"avg_4046_ebnhlz_1#13$1\",name2=\"avg_1024_hbisc2_1#7$1\",focus=2)]\n[name=\"芙蓉\"]他那么声嘶力竭地——\n[Character(name=\"avg_4046_ebnhlz_1#13$1\",name2=\"avg_1024_hbisc2_1#2$1\",focus=2)]\n[name=\"芙蓉\"]你不该忘了他的嘱咐。\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]\n[Character(name=\"avg_4046_ebnhlz_1#6$1\")]\n[name=\"黑键\"]不，我没忘……我怎么可能忘？！\n[StopMusic(fadetime=2)]\n[Character(name=\"avg_1024_hbisc2_1#4$1\")]\n[name=\"芙蓉\"]那就……试着像他说的那样做，好不好？"
+        }
+      ],
+      "description": "芙蓉知晓并引用白垩临终嘱咐；没有白垩对芙蓉的反向证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "芙蓉知晓并引用白垩临终嘱咐；没有白垩对芙蓉的反向证据。",
+          "status": "supported",
+          "to": "npc_aa6cc928c88a19e2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa6cc928c88a19e2",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_da779f1204d8d0ff.json",
+      "sources": [
+        {
+          "endLine": 291,
+          "kind": "story",
+          "line": 279,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ebnhlz_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑键所述时段",
+      "title": "黑键"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 224,
+          "line": 203,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_02_beg.txt",
+          "quote": "[name=\"芙蓉\"]异常好转的病例，分布范围比我预计的还要广啊……\n[characteraction(name=\"middle\", type=\"move\", xpos=200, fadetime=1.5, block=true)]\n[Dialog]\n[character(fadetime=1.5)]\n[delay(time=1.5)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.4)]\n[Character(name=\"avg_1024_hbisc2_1#7$1\", name2=\"avg_npc_490_1#1$1\",fadetime=0.7)]\n[Characteraction(name=\"left\", type=\"jump\", xpos=100, power=16, times=2, fadetime=0.8, block=true)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Characteraction(name=\"right\", type=\"jump\", xpos=50, power=15, times=2, fadetime=0.5, block=true)]\n[dialog]\n[Delay(time=1)]\n[Characteraction(name=\"left\", type=\"move\", xpos=-100, power=16, times=2, fadetime=0.8, block=true)]\n[Characteraction(name=\"right\", type=\"move\", xpos=-50, power=15, times=2, fadetime=0.8, block=true)]\n[Character(name=\"avg_1024_hbisc2_1#4$1\",name2=\"avg_npc_490_1#1$1\",focus=1)]\n[name=\"芙蓉\"] 抱歉！\n[Character(name=\"avg_1024_hbisc2_1#4$1\",name2=\"avg_npc_490_1#1$1\",focus=2)]\n[name=\"？？？\"] 没关系。我才应该道歉，只顾着欣赏这座壮丽的建筑，却打扰了您的乐思。\n[Character(name=\"avg_1024_hbisc2_1#3$1\",name2=\"avg_npc_490_1#1$1\",focus=1)]\n[name=\"芙蓉\"]……乐思？\n[Character(name=\"avg_1024_hbisc2_1#3$1\",name2=\"avg_npc_490_1#1$1\",focus=2)]\n[name=\"？？？\"] 再见了。"
+        },
+        {
+          "endLine": 1097,
+          "line": 1060,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_08_beg.txt",
+          "quote": "[name=\"黑键\"]结束了……白垩，你做到了！\n[Dialog]\n[character]\n[delay(time=0.51)]\n[name=\"白垩\"]不，还有，要做的事呢……\n[Character(name=\"avg_4046_ebnhlz_1#4$2\")]\n[name=\"黑键\"]白垩，你怎么了——你的身体？！\n[Dialog]\n[PlayMusic(intro=\"$sacrifice_intro\", key=\"$sacrifice_loop\", volume=0.4)]\n[Character(name=\"avg_npc_483_1#3$1\",fadetime=1)]\n[delay(time=1.5)]\n[name=\"白垩\"]黑键，我们去外面吧。\n[name=\"白垩\"]车尔尼先生，请和芙蓉小姐一起去疏散群众吧，让他们跑得越远越好。\n[Character(name=\"avg_4047_pianst_1#4$1\")]\n[name=\"车尔尼\"]你——\n[character(name=\"avg_1024_hbisc2_1#3$1\")]\n[name=\"芙蓉\"]白垩，你的身体……\n[character(name=\"avg_npc_483_1#3$1\")]\n[name=\"白垩\"]抱歉，车尔尼先生，芙蓉小姐。\n[name=\"白垩\"]我有许多话想和你们说，但看起来，现在不是时候。\n[name=\"白垩\"]带我去吧，黑键，趁我还能压制自己。\n[character(name=\"avg_npc_483_1#1$1\")]\n[name=\"白垩\"]我脑海里的旋律……越来越响了……\n[character(name=\"avg_npc_483_1#4$1\")]\n[name=\"白垩\"]两段旋律在……拉锯，在我的脑子里……\n[name=\"白垩\"]快，黑键，带我出去。\n[name=\"白垩\"]音乐厅在同时强化那两段旋律，我已经快要撑不住了……\n[Character(name=\"avg_4046_ebnhlz_1#6$2\")]\n[name=\"黑键\"]我知道了！\n[Character(name=\"avg_4047_pianst_1#5$1\")]\n[name=\"车尔尼\"]黑键，你……\n[Character(name=\"avg_4046_ebnhlz_1#1$2\")]\n[name=\"黑键\"]白垩就交给我。\n[character(name=\"avg_1024_hbisc2_1#4$1\")]\n[name=\"芙蓉\"]但是——\n[Character(name=\"avg_4046_ebnhlz_1#13$2\")]\n[name=\"黑键\"]我说，白垩就交给我！\n[name=\"黑键\"]芙蓉，你和车尔尼先生快去疏散人群！"
+        }
+      ],
+      "description": "芙蓉与白垩有两次直接互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01",
+            "E05"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "芙蓉先与白垩偶遇，后在舞台危机中叫出白垩。",
+          "status": "supported",
+          "to": "npc_aa6cc928c88a19e2"
+        },
+        {
+          "evidenceIds": [
+            "E01",
+            "E05"
+          ],
+          "from": "npc_aa6cc928c88a19e2",
+          "reason": "白垩在两场均直接回应芙蓉。",
+          "status": "supported",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9c4c498e9c50a10e.json",
+      "sources": [
+        {
+          "endLine": 224,
+          "kind": "story",
+          "line": 203,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 1097,
+          "kind": "story",
+          "line": 1060,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "音乐厅外偶遇及音乐会危机场景",
+      "title": "尘影余音"
+    }
+  ],
+  "relationship_id": "char_120_hibisc|npc_aa6cc928c88a19e2"
+}

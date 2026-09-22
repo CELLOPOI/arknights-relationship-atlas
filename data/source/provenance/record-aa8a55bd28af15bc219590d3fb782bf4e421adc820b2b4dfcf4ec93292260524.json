@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 292,
+          "line": 278,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_closur_1_1.txt",
+          "quote": "[name=\"可露希尔\"]（揉太阳穴）那看来就不是一件事了。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]我们可是事先说好了的，别的事情都归我，医疗部的事情你去管。\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#7$1\")]\n[name=\"华法琳\"]我知道，但医疗部现在的医疗用品储备，包括抗矿石病药物的生产，都出现了问题。\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#7$1\")]\n[name=\"华法琳\"]医疗用品还好说，药品原料毕竟是大宗商品……\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]明白。生产设备没出问题吧？\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#1$1\")]\n[name=\"华法琳\"]倒是没有，就是没原料，运转不起来。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#4$1\",focus=\"m\")]\n[name=\"可露希尔\"]让我看看……这个可以去卡西米尔采购，这个……开斯特公爵领应该有生产，得找个谈判专家去谈。这个……呃……\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#4$1\",focus=\"m\")]\n[name=\"可露希尔\"]这个的产地……呃，莱塔尼亚北部……好远！近一点的小产区……塔拉？"
+        }
+      ],
+      "description": "可露希尔与华法琳讨论开斯特公爵领的原料生产，明确以领主称号指代具体公爵；无反向证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_171_bldsk",
+          "reason": "可露希尔与华法琳讨论开斯特公爵领的原料生产，明确以领主称号指代具体公爵；无反向证据。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_171_bldsk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_393fffc71aa90cef.json",
+      "sources": [
+        {
+          "endLine": 292,
+          "kind": "story",
+          "line": 278,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_closur_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "可露希尔所述时段",
+      "title": "可露希尔"
+    }
+  ],
+  "relationship_id": "char_171_bldsk|npc_8c87697c59975883"
+}

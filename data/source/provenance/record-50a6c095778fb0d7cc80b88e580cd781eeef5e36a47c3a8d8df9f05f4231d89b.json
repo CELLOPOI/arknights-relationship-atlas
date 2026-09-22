@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 283,
+          "line": 246,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_04_end.txt",
+          "quote": "[name=\"娜斯提\"]我的起点无关紧要。我的血统不够纯正，也并未经历过什么伟大的事件。\n[name=\"娜斯提\"]如今我只是一名工程师，生活在哥伦比亚，做我想做的事。\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]咳……哈哈……你在哥伦比亚……找到家园了吗？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#7$1\")]\n[name=\"娜斯提\"]……\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]你呢？\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]啊……一晃就那么多年过去了啊。\n[name=\"锡人\"]我听说，这两百年间，那两位年轻人……特雷西斯和特蕾西娅终于把卡兹戴尔建成了移动城市。\n[name=\"锡人\"]也不知道现在的卡兹戴尔是什么样子。\n[name=\"锡人\"]街道是不是还是那么拥挤，城墙上是不是还披挂着千年前的旗帜，不死不灭的熔炉核心，是不是还是那么滚烫？\n[name=\"锡人\"]……\n[name=\"锡人\"]愿意再为我点支烟吗，孩子？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]这一点点火星，留不住魂灵的余温。\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]我知道。我只是……还想再多留一会，多问你几个问题。\n[name=\"锡人\"]在克丽斯腾的梦想中，你看到了什么？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#2$1\")]\n[name=\"娜斯提\"]……未来。\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]她竟然允诺了你……改变萨卡兹的命运？你相信她能做到这一万年来都没人做到的事？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]不，她只是让我看见了一种可能性。\n[name=\"娜斯提\"]一种……来自我自己的可能性。\n[charslot(slot=\"m\",name=\"avg_npc_536_1#10$1\")]\n[name=\"霍尔海雅\"]工程师女士，麻烦问问我的好上司，临终遗言都交代完了吗？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#7$1\")]\n[name=\"娜斯提\"]火快灭了。\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]时间在我这种老家伙身上走得总是太快。\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]最后一个问题，由我提问。\n[name=\"娜斯提\"]来自过去的古老之人，既然你见证过那么多座卡兹戴尔的毁灭，那你必然也曾思考过，寻觅过——\n[charslot(slot=\"m\",name=\"avg_npc_891_1#5$1\")]\n[name=\"娜斯提\"]（萨卡兹语）哪里才是萨卡兹的应许之地？"
+        }
+      ],
+      "description": "锡人具体知晓克丽斯腾。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C13"
+          ],
+          "from": "char_4151_tinman",
+          "reason": "锡人向娜斯提具体谈到克丽斯腾及其道路。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "克丽斯腾不在场，未显示反向。",
+          "status": "not_established",
+          "to": "char_4151_tinman"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 283,
+          "kind": "story",
+          "line": 246,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "锡人与娜斯提谈话时",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 205,
+          "line": 192,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_06_beg.txt",
+          "quote": "[name=\"娜斯提\"]你我还在缆车上，说明事情还有可谈的余地，对吧？\n[charslot(slot = \"right\", name = \"avg_4151_tinman_1#1$1\",focus=\"r\")]\n[name=\"锡人\"]嗯哼？\n[charslot(slot = \"left\", name = \"avg_4212_nasti_1#1$1\",focus=\"l\")]\n[name=\"娜斯提\"]听证会必须召开，一切都必须有个交代，但也只是一个交代而已……\n[name=\"娜斯提\"]全哥伦比亚都知道，两年前的“地平弧光计划”，克丽斯腾窃取了国防部的投资，莱茵生命并未完全参与……但我确实是她的共犯。\n[charslot(slot = \"right\", name = \"avg_4151_tinman_1#5$1\",focus=\"r\")]\n[name=\"锡人\"]危及整个园区的罪责，由一家公司承担，还是由个人承担，性质截然不同。娜斯提，你愿意为莱茵生命牺牲到这个地步？\n[charslot(slot = \"left\", name = \"avg_4212_nasti_1#2$1\",focus=\"l\")]\n[name=\"娜斯提\"]牺牲？我和克丽斯腾都不喜欢这个词。\n[name=\"娜斯提\"]凡事都有代价，这是卡兹戴尔和河谷的生活教会我的道理。我不可能心甘情愿地充当梅兰德计划中的替罪者。\n[charslot(slot = \"right\", name = \"avg_4151_tinman_1#1$1\",focus=\"r\")]\n[name=\"锡人\"]……\n[name=\"锡人\"]我不会为难莱茵的其他人。"
+        }
+      ],
+      "description": "锡人在调查中明确知晓克丽斯腾相关事件。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_4151_tinman",
+          "reason": "锡人听取娜斯提关于克丽斯腾与共犯罪责的说明，并直接回应责任归属。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "克丽斯腾未在场，也没有锡人的相关证据。",
+          "status": "not_established",
+          "to": "char_4151_tinman"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 205,
+          "kind": "story",
+          "line": 192,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "园区听证会前",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "char_4151_tinman|npc_ebd7747563277517"
+}

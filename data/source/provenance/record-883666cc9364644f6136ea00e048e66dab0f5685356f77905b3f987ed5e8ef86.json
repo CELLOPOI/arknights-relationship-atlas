@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 105,
+          "line": 90,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "quote": "[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  通过空气折射让身形变得透明啊，好手法。\n[name=\"煌\"]  不过你掩盖不了自己的行踪，又或者是动作幅度太大，也会导致这个源石技艺失效。\n[name=\"煌\"]  我说得对吗？\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……你很聪明。\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"煌\"]  是罗德岛情报做得好。你没戏唱了，投降吧。\n[name=\"煌\"]  如果还要打的话，哼，不管有没有你的份，你都得为Ace和Scout抵命，小子。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  浮士德，我们还有弹药。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  撤退。我们已经失去了情报优势。我会狙击他们，你们立刻转移。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  明白。\n[Character(name=\"char_1507_Mephisto_1#4\")]"
+        }
+      ],
+      "description": "煌当面要求敌人为Ace和Scout抵命，梅菲斯特、浮士德在同一交锋听取；不能推死者反向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "煌当面要求敌人为Ace和Scout抵命，梅菲斯特、浮士德在同一交锋听取；不能推死者反向知晓。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 105,
+          "kind": "story",
+          "line": 90,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "靶向药物所述时段",
+      "title": "靶向药物"
+    }
+  ],
+  "relationship_id": "npc_03efe1bf09e24b53|npc_0957af9bf990438d"
+}

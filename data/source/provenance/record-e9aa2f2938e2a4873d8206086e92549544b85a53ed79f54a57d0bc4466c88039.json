@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 835,
+          "line": 804,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-17_beg.txt",
+          "quote": "[name=\"Raidian\"]别乔克……\n[charslot(slot = \"m\", name = \"avg_4207_branch_1#5$1\")]\n[name=\"别乔克\"]可如果，闭嘴，也还是会死呢？\n[name=\"别乔克\"]这些矿区，我们听到的……他们，都死了？但只有，我们，知道。\n[name=\"别乔克\"]在我们也被，“闭嘴”，之前，难道不该，让更多人，知道吗？\n[name=\"别乔克\"]他们，杀不光，所有人。\n[name=\"别乔克\"]对不对？\n[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]\n[name=\"阿洛伊泽\"]你说得有道理，但我们现在对外发信的话，就是在明晃晃地向离我们近在咫尺的集团军暴露位置……\n[name=\"阿洛伊泽\"]我们……\n[charslot]\n阿洛伊泽止住了话语，那些出于理性的考量，此刻无论如何也说不出口。\n[dialog]\n[PlaySound(key=\"$d_avg_openftstpwalk\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_4204_mantra_1#4$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"Mantra\"]别乔克说得没错。\n[name=\"Mantra\"]我们绝不能让这里发生的一切被悄无声息地掩埋。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]\n[name=\"阿米娅\"]Mantra女士，您刚刚才经历过一场恶战。\n[charslot(slot = \"m\", name = \"avg_4204_mantra_1#1$1\")]\n[name=\"Mantra\"]这是我的职责所在。不必担心，阿米娅。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#3$1\")]\n[name=\"阿米娅\"]可我不能不担忧……\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]\n[name=\"阿米娅\"]您本不愿再度来到这片位于北方的土地，不愿暴露自己的源石技艺。这背后一定有些缘由，无论是您不愿他人知晓的过往，还是……\n[name=\"阿米娅\"]罗德岛不会让任何干员承受原本不必承受的代价。我不知道您曾经在这里经历过什么，但我明白，克服它需要极大的勇气。\n[charslot(slot = \"m\", name = \"avg_4204_mantra_1#4$1\")]\n[name=\"Mantra\"]谢谢你的理解，阿米娅。但现在……我不再需要对它讳莫如深，因为我已将它抛在身后。\n[name=\"Mantra\"]现在，我们公开发生在这里的惨剧，向所有人拆穿他们的阴谋。\n[charslot(slot = \"m\", name = \"avg_4207_branch_1#5$1\")]\n[name=\"别乔克\"]好……好的！"
+        }
+      ],
+      "description": "折桠与阿洛伊泽共同讨论行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "char_4207_branch",
+          "reason": "折桠与阿洛伊泽共同讨论行动。",
+          "status": "supported",
+          "to": "npc_c126ad4de3046272"
+        },
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "npc_c126ad4de3046272",
+          "reason": "折桠与阿洛伊泽共同讨论行动。",
+          "status": "supported",
+          "to": "char_4207_branch"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_ef827cdde49f2fd2.json",
+      "sources": [
+        {
+          "endLine": 835,
+          "kind": "story",
+          "line": 804,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-17_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "反常光谱所述时段或明确既往互动",
+      "title": "反常光谱"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 443,
+          "line": 379,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_tr28_end.txt",
+          "quote": "[name=\"别乔克\"]您看……受伤的，关节……这样，固定住，就不会痛了。\n[charslot(slot=\"m\",name=\"avg_npc_094\",focus=\"m\")]\n[name=\"憔悴的感染者\"]谢谢你“小枝条”，我感觉好多了！\n[charslot(slot=\"m\",name=\"avg_4207_branch_1#2$1\",focus=\"m\")]\n[name=\"别乔克\"]这是，我和罗德岛的医生，学会的。\n[charslot(slot=\"m\",name=\"avg_npc_094\",focus=\"m\")]\n[name=\"憔悴的感染者\"]说起来，这圣骏堡可真不一样，取暖都可以用这种火炉啊。难怪那些住在城里的老爷们一点都不怕冬天。\n[name=\"憔悴的感染者\"]“小枝条”，我们真的能一直在这里住下去吗？\n[charslot(slot=\"m\",name=\"avg_4207_branch_1#4$1\",focus=\"m\")]\n[name=\"别乔克\"]没……关系。Raidian姐姐说，会保护我们。\n[charslot(slot=\"m\",name=\"avg_4207_branch_1#2$1\",focus=\"m\")]\n[name=\"别乔克\"]现在，我们也，不怕。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_snowbootwalk\",volume=1)]\n[Delay(time=2.5)]\n[name=\"？？？\"]真要命，这里还是这么冷……\n[name=\"？？？\"]就不能多烧一点柴吗——抱歉，我的意思是说，如果你们还缺柴火的话，我可以帮忙。\n[charslot(slot=\"m\",name=\"avg_npc_094\",focus=\"m\")]\n[name=\"憔悴的感染者\"]那人是……近卫军？这里为什么会有近卫军？\n[charslot(slot=\"m\",name=\"avg_4207_branch_1#7$1\",focus=\"m\")]\n[name=\"别乔克\"]您……您……别怕！\n[charslot(slot=\"m\",name=\"avg_4207_branch_1#10$1\",focus=\"m\")]\n[name=\"别乔克\"]这位……小姐，帮助过，我们……您不记得了吗？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\",duration=1.5)]\n[PlaySound(key=\"$d_avg_snowbootwalk\",volume=1)]\n[Delay(time=2.5)]\n[name=\"阿洛伊泽\"]谢谢你，“小枝条”，谢谢你愿意替我说话，也谢谢你还记得我。\n[name=\"阿洛伊泽\"]唉……明明是一起逃命出来的交情，现在有点让人伤心啊。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#1$1\",duration=1.5)]\n[PlaySound(key=\"$d_avg_snowbootwalk\",volume=1)]\n[Delay(time=2.5)]\n[name=\"Raidian\"]那只能怪你这身衣服太过显眼了，“中士”小姐。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_1730_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1966_1#1$1\",focus=\"r\")]\n[name=\"阿洛伊泽\"]真是对不起，我也不是那种有空为每一趟行程更换行头的老爷。在圣骏堡别的地方，我还是要靠这套衣服当通行证的。\n[name=\"阿洛伊泽\"]有段时间没来问候了，这里都还顺利吗？药物还够用吗？\n[charslot(slot=\"l\",name=\"avg_npc_1730_1#2$1\",focus=\"l\")]\n[name=\"Raidian\"]嗯，其他物资还勉强说得过去，可是你也知道，想在圣骏堡搞到治矿石病的药物几乎是不可能的事，从总部调运又太遥远。\n[charslot(slot=\"r\",name=\"avg_npc_1966_1#3$1\",focus=\"r\")]\n[name=\"阿洛伊泽\"]如果不是源石矿脉的事，圣骏堡的矿石病药物产线建设本来应该已经排上日程了。\n[name=\"阿洛伊泽\"]谁能想到……\n[charslot(slot=\"l\",name=\"avg_npc_1730_1#1$1\",focus=\"l\")]\n[name=\"Raidian\"]不管怎么说，还是感谢你提供这样一片容身之处。\n[charslot(slot=\"r\",name=\"avg_npc_1966_1#2$1\",focus=\"r\")]\n[name=\"阿洛伊泽\"]毕竟是我承诺过的事。而且也不过是家族里闲置的一处工厂，甚至没办法让所有人都到室内待着……这里实在是太冷了。\n[charslot(slot=\"r\",name=\"avg_npc_1966_1#3$1\",focus=\"r\")]\n[name=\"阿洛伊泽\"]虽然为收容感染者补齐了手续，但是最近还是尽量不要在城内四处走动。\n[name=\"阿洛伊泽\"]很遗憾……现阶段我也没有办法为你们提供更好的条件。\n[charslot(slot=\"l\",name=\"avg_npc_1730_1#3$1\",focus=\"l\")]\n[name=\"Raidian\"]我知道，他们之所以能被允许留在圣骏堡，是因为他们目前还是那场惨剧关键的人证……尽管那场审判至今都没有到来。\n[name=\"Raidian\"]这并不改变他们在这个国家没有容身之处的事实。\n[charslot(slot=\"r\",name=\"avg_npc_1966_1#2$1\",focus=\"r\")]\n[name=\"阿洛伊泽\"]……也许很快，就会改变的。\n[charslot(slot=\"l\",name=\"avg_npc_1730_1#3$1\",focus=\"l\")]\n[name=\"Raidian\"]抱歉，你刚刚说什么了吗？\n[charslot(slot=\"r\",name=\"avg_npc_1966_1#1$1\",focus=\"r\")]\n[name=\"阿洛伊泽\"]不……这件事之后再说吧，我今天来是有别的事要找罗德岛。\n[name=\"阿洛伊泽\"]你们那位“博士”，现在在哪里？"
+        }
+      ],
+      "description": "别乔克与阿洛伊泽直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4207_branch",
+          "reason": "双方直接对话或局部同场明确参与。",
+          "status": "supported",
+          "to": "npc_c126ad4de3046272"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_c126ad4de3046272",
+          "reason": "双方直接对话或局部同场明确参与。",
+          "status": "supported",
+          "to": "char_4207_branch"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 443,
+          "kind": "story",
+          "line": 379,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_tr28_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "圣骏堡行动期间",
+      "title": "相变临界"
+    }
+  ],
+  "relationship_id": "char_4207_branch|npc_c126ad4de3046272"
+}

@@ -1,0 +1,173 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 142,
+          "line": 136,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_platnm_1_1.txt",
+          "quote": "[name=\"罗伊\"] 玻利瓦尔度假胜地。温度适宜服务又好，比北面的小木屋可舒服多了。\n[Character(name=\"char_204_platnm_1#2\")]\n[name=\"白金\"] 罗伊……耀骑士之后，是你吗？\n[Character(name=\"avg_npc_209_1#4\")]\n[name=\"罗伊\"] 别这样，说得好像我很烦人一样。\n[Character(name=\"avg_npc_209_1#4\")]\n[name=\"罗伊\"] 我们的关系也没那么差吧，小白金？"
+        }
+      ],
+      "description": "白金梦中认出罗伊；只证明白金知道具体人物，梦中罗伊回应不能证明反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_204_platnm",
+          "reason": "白金梦中认出罗伊；只证明白金知道具体人物，梦中罗伊回应不能证明反向。",
+          "status": "supported",
+          "to": "npc_5b3693e67197379a"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_5b3693e67197379a",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_204_platnm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_c5d6c2290ababa1b.json",
+      "sources": [
+        {
+          "endLine": 142,
+          "kind": "story",
+          "line": 136,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_platnm_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "白金"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 392,
+          "line": 346,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9mini/level_act9mini_st07.txt",
+          "quote": "[name=\"“青金”\"]  小天马，我在找白金，你有看到他吗？\n[character(name=\"char_204_platnm_1\")]\n[name=\"欣特莱雅\"]  师父出任务了，青金阁下。\n[Character(name=\"avg_npc_209_1\",blackstart=0.2,blackend=0.7)]\n[name=\"“青金”\"]  是吗，哈哈。\n[name=\"“青金”\"]  是什么任务？\n[character(name=\"char_204_platnm_1\")]\n[name=\"欣特莱雅\"]  他没有告诉我。\n[Character(name=\"avg_npc_209_1\",blackstart=0.2,blackend=0.7)]\n[name=\"“青金”\"]  那他有告诉过你，他对这次的目标抱有疑问吗？\n[character(name=\"char_204_platnm_1#7\")]\n[name=\"欣特莱雅\"]  没有，阁下，但我能察觉到一点。\n[Character(name=\"avg_npc_209_1\",blackstart=0.2,blackend=0.7)]\n[name=\"“青金”\"]  ……\n[name=\"“青金”\"]  你很诚实，小天马。\n[name=\"“青金”\"]  嗯，既然你愿意和我分享白金的秘密，那我也来告诉你一件事吧。\n[name=\"“青金”\"]  “白金”已经死了，死在他叛逃的路上。\n[character(name=\"char_204_platnm_1#6\")]\n[name=\"欣特莱雅\"]  ！\n[name=\"欣特莱雅\"]  ……\n我知道他对他的上一个目标有些——动情。\n但为了她付出生命，还是出乎了我的意料。\n[Character(name=\"avg_npc_209_1\",blackstart=0.2,blackend=0.7)]\n[name=\"“青金”\"]  现在这个位置突然空出来，不仅是我，玄铁们和商业联合会的董事都会很困扰的。\n[name=\"“青金”\"]  要不这样吧，小天马。\n[name=\"“青金”\"]  你来当白金，怎么样？\n[character(name=\"char_204_platnm_1#2\")]\n一时间，我都不知道怎样回答他。\n如果回答是，青金会不会抬手杀了我？如果回答不是，我是不是也活不了？\n我只能呆在那里，嘴中掉出些迟滞的字句。\n[character(name=\"char_204_platnm_1#5\")]\n真的，我没有勇气回答这个问题。\n就算我是白金的学徒，有可能接他的班，可他手下的学徒又不只有我一个。\n况且白金刚刚叛变，让他的学徒成为新白金，于情于理都不合适啊？\n还有那几位老资历的无胄盟成员，论技术，论指挥能力，哪位不比我强？\n为什么是我？\n为什么会是我？\n看着我呆滞的样子，青金一边笑，一边把象征着“白金”的徽章塞在了我手里。\n[Character(name=\"avg_npc_209_1\",blackstart=0.2,blackend=0.7)]\n[name=\"“青金”\"]  你不说，我就算你默许了。\n[name=\"“青金”\"]  新工作要好好干哦，小白金。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=1.5)]\n[delay(time=2)]\n[character(name=\"char_204_platnm_1#7\")]\n说完，他离开了现场，只留下成为白金的欣特莱雅，和一位倒地的骑士。"
+        }
+      ],
+      "description": "欣特莱雅与罗伊当面交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_204_platnm",
+          "reason": "欣特莱雅直接回答青金并接受徽章。",
+          "status": "supported",
+          "to": "npc_5b3693e67197379a"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_5b3693e67197379a",
+          "reason": "罗伊主动找欣特莱雅、询问并任命她。",
+          "status": "supported",
+          "to": "char_204_platnm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_378a23674419b319.json",
+      "sources": [
+        {
+          "endLine": 392,
+          "kind": "story",
+          "line": 346,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9mini/level_act9mini_st07.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇欣特莱雅获任白金时",
+      "title": "红松林"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 54,
+          "line": 18,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "quote": "[name=\"莫妮克\"]  第三小队所有人跟我一起行动。\n[name=\"莫妮克\"]  欣特莱雅想去哪里，她说了不算。\n[name=\"莫妮克\"]  ……留住她，无论生死。\n[Character(name=\"avg_npc_216\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"第三小队队员\"]  是！\n[Character(name=\"avg_npc_216\", name2=\"avg_npc_208_1#3\", focus=2)]\n[name=\"莫妮克\"]  绝对不要让……无关人员察觉到这件事。\n[Character(name=\"avg_npc_216\", name2=\"avg_npc_208_1\", focus=2)]\n[name=\"莫妮克\"]  行动开始。\n[dialog]\n[PlaySound(key=\"$d_gen_soldiersrun\", volume=0.6)]\n[characteraction(name=\"left\", type=\"move\", xpos=-300, fadetime=2,block=false)]\n[character(name=\"char_empty\",name2=\"avg_npc_208_1\",fadetime=0.5)]\n[delay(time=2)]\n[Character(name=\"avg_npc_208_1#2\")]\n[name=\"莫妮克\"]  ……\n[name=\"莫妮克\"]  这是你自己的选择。\n[name=\"莫妮克\"]  欣特莱雅。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_23_G10\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2.5, block=true)]\n[Character(name=\"char_empty\")]\n[PlaySound(key=\"$rungeneral\", volume=0.5)]\n[characteraction(name=\"middle\", type=\"move\", xpos=200, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[characteraction(name=\"middle\", type=\"move\", xpos=-200, fadetime=1, block=false)]\n[Character(name=\"char_204_platnm_1#2\",fadetime=0.7)]\n[delay(time=2)]\n[name=\"白金\"]  呼……\n[Character(name=\"char_204_platnm_1\")]\n[name=\"白金\"]  如果罗伊阁下在的话，我怕是半点机会都没吧……\n[name=\"白金\"]  两位青金少一位，只是逃走的话，还算是……有些把握……\n[Character(name=\"char_204_platnm_1#3\")]\n[name=\"白金\"]  呵……\n[name=\"白金\"]  谁能想到无胄盟的白金大位，有一天会躲在监正会控制下的零号地块里呢……"
+        }
+      ],
+      "description": "白金具体称罗伊阁下，并判断若罗伊在场自己无处可逃。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_204_platnm",
+          "reason": "白金具体称罗伊阁下，并判断若罗伊在场自己无处可逃。",
+          "status": "supported",
+          "to": "npc_5b3693e67197379a"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_5b3693e67197379a",
+          "reason": "已读候选窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_204_platnm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_2db98b901e9e88b6.json",
+      "sources": [
+        {
+          "endLine": 54,
+          "kind": "story",
+          "line": 18,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "白金逃亡期间",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 399,
+          "line": 336,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st01.txt",
+          "quote": "[Character(name=\"avg_430_fartth_1#2\", name2=\"avg_npc_122\", focus=2)]\n[name=\"索娜\"]  不过，她还是救了我这么一个感染者，哪怕明知道有人在盯着她。\n[Character(name=\"avg_430_fartth_1\", name2=\"avg_npc_122\", focus=1)]\n[name=\"查丝汀娜\"]  ……嗯。\n[Character(name=\"avg_430_fartth_1#2\", name2=\"avg_npc_122\", focus=1)]\n[name=\"查丝汀娜\"]  也许她真的是那个耀骑士。那些……那些感染者们想象出来的耀骑士。\n[Character(name=\"avg_430_fartth_1#2\", name2=\"avg_npc_122#6\", focus=2)]\n[name=\"索娜\"]  这是什么话——别说这个了，你救下的那位可怜人怎么样了？那个老父亲？\n[Character(name=\"avg_430_fartth_1\", name2=\"avg_npc_122#6\", focus=1)]\n[name=\"查丝汀娜\"]  他——\n[Character(name=\"avg_430_fartth_1\", name2=\"avg_npc_122#6\", focus=-1)]\n[name=\"？？？\"]  你问我怎么样？\n[delay(time=0.6)]\n[dialog]\n[character]\n[Character(name=\"avg_npc_103nc_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"塑料骑士\"]  ……箭在弦上，感染者。\n[name=\"塑料骑士\"]  我要让那帮低贱的凶手付出代价。\n[dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]\n[Background(image=\"bg_23_G09\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_210_1\")]\n[name=\"年长的骑士\"]  阿米娅女士，还有罗德岛的博士，请进吧，这里就是各位的住房。\n[name=\"年长的骑士\"]  二位的套房在楼上，参与医疗项目的各位医生则在十二层休息。\n[dialog]\n[Character(name=\"char_002_amiya_1#3\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"阿米娅\"]  谢谢您，阁下。\n[Character(name=\"avg_npc_210_1#2\", name2=\"char_002_amiya_1#3\", focus=1)]\n[name=\"年长的骑士\"]  呵呵……不用这么拘谨，阿米娅女士。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#3\", focus=1)]\n[name=\"年长的骑士\"]  没想到罗德岛的领导人，会是这么一位年轻可爱的卡特斯姑娘，真是年轻有为。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#6\", focus=2)]\n[name=\"阿米娅\"]  没、没有的事……\n[dialog]\n[Decision(options=\"罗德岛确实离不开阿米娅。;阿米娅一直很努力。\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_002_amiya_1#11\")]\n[CameraShake(duration=0.5, xstrength=10, ystrength=10, vibrato=15, randomness=60, fadeout=true, block=false)]\n[name=\"阿米娅\"]  博、博士……\n[Character(name=\"avg_npc_210_1#6\", name2=\"char_002_amiya_1#11\", focus=1)]\n[name=\"年长的骑士\"]  哈哈，害羞了？\n[name=\"年长的骑士\"]  多可爱的孩子，如果我有个孙女，也差不多你这般大吧。\n[Character(name=\"avg_npc_210_1#6\", name2=\"char_002_amiya_1#11\", focus=2)]\n[name=\"阿米娅\"]  啊……\n[Character(name=\"avg_npc_210_1#3\", name2=\"char_002_amiya_1#11\", focus=1)]\n[name=\"年长的骑士\"]  哎呀哎呀，脸都红了。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#11\", focus=1)]\n[name=\"年长的骑士\"]  不过，还是很抱歉，考虑到各位的特殊身份，我们没法安排统一的会面。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#3\", focus=2)]\n[name=\"阿米娅\"]  嗯……没关系的，我们能理解。\n[Character(name=\"avg_npc_210_1#2\")]\n[name=\"年长的骑士\"]  所以……“砾”。\n[dialog]\n[Character(name=\"avg_237_gravel_1#2\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"塞诺蜜\"]  请吩咐。\n[Character(name=\"avg_237_gravel_1#2\", name2=\"avg_npc_210_1\", focus=2)]\n[name=\"年长的骑士\"]  这位是四阶征战骑士，叫她“砾”吧，也是一位年轻有为的青年骑士……\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  ……您好。"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_204_platnm",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_5b3693e67197379a"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_5b3693e67197379a",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_204_platnm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 399,
+          "kind": "story",
+          "line": 336,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "char_204_platnm|npc_5b3693e67197379a"
+}

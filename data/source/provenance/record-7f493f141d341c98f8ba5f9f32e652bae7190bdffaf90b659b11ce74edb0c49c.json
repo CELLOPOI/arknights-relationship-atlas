@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 487,
+          "line": 458,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st10.txt",
+          "quote": "[name=\"最后的骑士\"]（沙哑的呢喃）罗辛——南特——\n[dialog]\n[character(fadetime=0)]\n[Character(name=\"avg_npc_463_1#1$1\",fadetime=1)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_horse\", volume=1)]\n[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"罗辛南特\"]（嘶鸣）\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]巨浪将至，我们等待，我们去外面等待，武器，撕扯——我们走！\n[Character(name=\"avg_npc_463_1#1$1\")]\n[PlaySound(key=\"$d_avg_horse\", volume=1)]\n[name=\"罗辛南特\"]（呼应的嘶鸣）\n[character(fadetime=0)]\n[Character(name=\"avg_474_gladiia_1#5\")]\n远处传来海嗣的低鸣。歌蕾蒂娅微微皱眉。\n只是一个陆地人，鲁莽地接触大海，赢得了永恒的失心疯，这并不难理解。\n那么另一只服从于他的海嗣？\n但歌蕾蒂娅并没有细想。因为某种令人厌恶的预感正在刺激她的神经——\n——让她脖颈发痒。\n[Character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]在上面发生了什么？\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]这艘船在海上漂了六十多年。\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]如果它们不愿意见到这艘船，或者，它们执意要毁掉这艘船，把船上的人都当做敌人，那么“愚人号”早就沉没了。\n[Character(name=\"avg_474_gladiia_1#1\")]\n[name=\"歌蕾蒂娅\"]……所以它们接纳了它。\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]它们将这艘船视作了环境的一部分。无论出于什么目的，它们一定允许这艘船存在于它们的海面上。"
+        }
+      ],
+      "description": "歌蕾蒂娅知晓最后骑士的坐骑罗辛南特。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S28"
+          ],
+          "from": "char_474_glady",
+          "reason": "歌蕾蒂娅直接观察并思考服从最后骑士的罗辛南特。",
+          "status": "supported",
+          "to": "npc_714a30cf8b57140b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_714a30cf8b57140b",
+          "reason": "罗辛南特只回应最后骑士，未显示识别歌蕾蒂娅。",
+          "status": "not_established",
+          "to": "char_474_glady"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 487,
+          "kind": "story",
+          "line": 458,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st10.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号内追逐期间",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_474_glady|npc_714a30cf8b57140b"
+}

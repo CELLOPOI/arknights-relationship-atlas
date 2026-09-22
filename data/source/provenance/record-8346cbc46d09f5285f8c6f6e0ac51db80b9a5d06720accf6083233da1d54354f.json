@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 44,
+          "line": 25,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_beg.txt",
+          "quote": "[name=\"德米特里\"]醒醒！\n[Character(name=\"avg_427_vigil_1#2$1\")]\n[name=\"莱昂图索\"]嘶——\n[Character(name=\"avg_427_vigil_1#2$1\")]\n[name=\"莱昂图索\"]德米特……\n[Character(name=\"avg_npc_690_1#5$1\")]\n[name=\"德米特里\"]你怎么会倒在这里？首领呢？你们被袭击了吗？\n[Character(name=\"avg_427_vigil_1#7$1\")]\n[name=\"莱昂图索\"]不……是父亲他……\n[Character(name=\"avg_427_vigil_1#4$1\")]\n[name=\"莱昂图索\"]对了，父亲，父亲他人呢？！\n[Character(name=\"avg_npc_690_1#7$1\")]\n[name=\"德米特里\"]没人知道首领的行踪……而且，刚才在广播里，卢比奥把我们和萨卢佐联手的事情捅了出去。\n[Character(name=\"avg_npc_690_1#7$1\")]\n[name=\"德米特里\"]他还污蔑我们两家要联手夺城对付西西里夫人，现在，所有家族都在盯着我们。\n[dialog]\n[character]\n没有家族的叙拉古，会变得更好吗？\n[Character(name=\"avg_427_vigil_1#7$1\")]\n[name=\"莱昂图索\"]这也不算污蔑，不是吗？"
+        }
+      ],
+      "description": "德米特里向莱昂图索提到卢比奥广播。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4037_demetr",
+          "reason": "德米特里向莱昂图索提到卢比奥广播。",
+          "status": "supported",
+          "to": "npc_c345198442adc2b7"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c345198442adc2b7",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4037_demetr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 44,
+          "kind": "story",
+          "line": 25,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_4037_demetr|npc_c345198442adc2b7"
+}

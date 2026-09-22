@@ -1,0 +1,15 @@
+{
+  "id": "import:char_615_acspec|npc_03f95afb5dd17c3f",
+  "published": true,
+  "quote": "【破碎日冕】\n曼弗雷德：我没有想错，卡特斯。\n曼弗雷德：——你很危险。\n曼弗雷德：你的力量，你的言辞……虽然无法撼动我们最坚强的战士，但的确会给我们的敌人带去希望的幻象。我不想让他们挣扎更久了。\n曼弗雷德：你只能在这里停下来。我不会再让你进入这座城市——\n阿米娅：而我会踏碎你的牢笼！\n？？？：这恐怕还称不上什么牢笼。\n阿米娅：嗯……？\n曼弗雷德：有人在改变我法术的能量密度？\n曼弗雷德：等等，又是你……\nMisery：博士，我是不是来得有点迟？\nMisery：要在伦蒂尼姆的城墙内部找到一条通路……就算是我，也很困难。\nMisery：好在我找到了几位出色的帮手。\n选项：\n1：辛苦你了，Misery。\n分支条件（原选项编号）：1\n选项：\n1：阿米娅，我们换个战场。\n2：可露希尔，无人机定位。\n3：费斯特，滑索。\n分支条件（原选项编号）：1 / 2 / 3\n选项：\n1：现在，我们跳下去。",
+  "relationship_id": "char_615_acspec|npc_03f95afb5dd17c3f",
+  "sources": [
+    {
+      "endLine": 538,
+      "kind": "story",
+      "line": 508,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

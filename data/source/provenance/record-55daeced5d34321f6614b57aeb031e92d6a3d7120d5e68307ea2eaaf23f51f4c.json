@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 544,
+          "line": 521,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "quote": "[name=\"锏\"]我记得你的代号，Sharp。\n[Dialog]\n[Character]\n[Delay(time=0.51)]\n[stopsound(channel=\"wind\",fadetime=1)]\n[playsound(key=\"$d_avg_cloakmovement\",volume=1)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_252\",fadetime=1.5)]\n[Delay(time=2)]\n[name=\"Sharp\"]幸亏博士随身携带了好几套这样的兜帽。\n[Delay(time=2)]\n[playMusic(intro=\"$kjerag_n_intro\", key=\"$kjerag_n_loop\", volume=0.7)]\n[Character(name=\"avg_npc_257_1#2$1\")]\n[name=\"锏\"]原来如此，也就是说，即使是这支大部队，也是真真假假——吗？\n[Character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]确切地讲，这一计，是纯粹为你准备的。\n[name=\"Sharp\"]你这样能够用力量凌驾于几乎所有计谋的人，他不得不谨慎对待。\n[Character(name=\"avg_npc_257_1#1$1\")]\n[name=\"锏\"]我不是恩希欧迪斯，敌人的赞美和尊重，对我来说没有什么价值。\n[name=\"锏\"]对我来说，敌人，应当全都躺在地上。\n[Character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]那么，我们这一整支队伍都是你的对手，你也可以高兴一点。\n[Character(name=\"avg_npc_257_1#3$1\")]\n[name=\"锏\"]你们之中，也只有你算得上我的对手。"
+        }
+      ],
+      "description": "锏直接识破Sharp身份，两人交谈并对战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E107"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "锏直接识破Sharp身份，两人交谈并对战。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "E107"
+          ],
+          "from": "char_508_aguard",
+          "reason": "锏直接识破Sharp身份，两人交谈并对战。",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 544,
+          "kind": "story",
+          "line": 521,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 686,
+          "line": 670,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "quote": "[name=\"锏\"]咳，你是……\n[name=\"锏\"]Sharp？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]少说点话，你现在伤重。\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"none\")]\n[name=\"锏\"]博士让你来的？\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]博士和银灰先生一直有联络。听说谢拉格发生了天灾，博士猜到你们会遇到麻烦。\n[name=\"Sharp\"]虽然现在实在腾不开手，但博士答应过，只要谢拉格有难，不会坐视不理。\n[name=\"Sharp\"]我已经通知罗德岛增援，他们随后赶到。\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"none\")]\n[name=\"锏\"]……\n[name=\"锏\"]恩希欧迪斯呢？\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]不用担心，相信银灰先生已对局面有所掌控。\n[name=\"Sharp\"]坚持住，锏，最艰难的时候你已经挺过去了。"
+        }
+      ],
+      "description": "Sharp亲自营救锏。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N23"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "双方在同一局部场景直接互动或具体历史信息明确双向。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "N23"
+          ],
+          "from": "char_508_aguard",
+          "reason": "双方在同一局部场景直接互动或具体历史信息明确双向。",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 686,
+          "kind": "story",
+          "line": 670,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "雪山事件期间",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 888,
+          "line": 875,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "quote": "[name=\"锏\"]没想到你也来了。\n[charslot(slot=\"r\",name=\"avg_npc_252\",focus=\"r\")]\n[name=\"Sharp\"]保护博士是我的工作。\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#8$1\",focus=\"l\")]\n[name=\"锏\"]还是这一套。\n[name=\"锏\"]比划一下？\n[charslot(slot=\"r\",name=\"avg_npc_252\",focus=\"r\")]\n[name=\"Sharp\"]……\n[name=\"Sharp\"]等你养好伤。\n[name=\"Sharp\"]如果那时候我还在谢拉格，可以找个下班之后的时间。\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#8$1\",focus=\"l\")]\n[name=\"锏\"]行。\n[name=\"锏\"]你们那比你能打的人有多少？\n[name=\"锏\"]要是够多，我直接去你们那转转，也行。"
+        }
+      ],
+      "description": "锏与Sharp直接相识并曾交手。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "锏直接向Sharp邀战。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp回应并约定伤愈后比试。",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 888,
+          "kind": "story",
+          "line": 875,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典尾声",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_4116_blkkgt|char_508_aguard"
+}

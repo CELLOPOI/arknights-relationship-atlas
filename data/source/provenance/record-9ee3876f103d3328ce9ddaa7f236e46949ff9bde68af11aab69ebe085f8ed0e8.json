@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 188,
+          "line": 165,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "quote": "[name=\"红豆\"]  博士他们现在好像很需要帮忙，我正要赶过去！既然碰上了，你也别愣着，我们一起——\n[Character(name=\"char_293_thorns_1\",name2=\"char_290_vigna\",focus=1)]\n[name=\"棘刺\"]  博士那里不必我去。\n[Character(name=\"char_293_thorns_1\",name2=\"char_290_vigna\",focus=2)]\n[name=\"红豆\"]  欸，为什么？\n[Character(name=\"char_293_thorns_1\",name2=\"char_290_vigna\",focus=1)]\n[name=\"棘刺\"]  这次有那个乌萨斯的老人跟着，他们不会有事。\n[name=\"棘刺\"]  ……不对，应该这么说。\n[name=\"棘刺\"]  我没有收到直接的联络，就说明没有这个必要。\n[name=\"棘刺\"]  我想博士应该已经对接下来的安排有了一定的把握，那个人不会让干员和自己陷入危险。\n[name=\"棘刺\"]  在得到具体的指示之前，我没必要参与你们的行动。\n[name=\"棘刺\"]  不要太小看博士，擅自行动，反而有可能破坏那个人的计划。\n[name=\"棘刺\"]  这些是我的推测，还有什么问题吗。\n[Character(name=\"char_293_thorns_1\",name2=\"char_290_vigna\",focus=2)]\n[name=\"红豆\"]  ……\n[name=\"红豆\"]  没了。\n[name=\"红豆\"]  问题没了，不过我有了一个新的发现。\n[Character(name=\"char_293_thorns_1\",name2=\"char_290_vigna\",focus=1)]\n[name=\"棘刺\"]  ？\n[Character(name=\"char_293_thorns_1\",name2=\"char_290_vigna\",focus=2)]\n[name=\"红豆\"]  我和你这人，绝对合不来！帮个忙而已哪需要想那么多啊！\n[Character(name=\"char_290_vigna\")]\n[name=\"红豆\"]  哎呀不和你说了，反正博士喊我帮忙，却没喊你，对吧？\n[name=\"红豆\"]  行了，那你就留在这儿继续听演唱吧，我得赶紧走了。"
+        }
+      ],
+      "description": "红豆明确报告博士喊自己帮忙，支持双方实际联络。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "char_290_vigna",
+          "reason": "红豆明确报告博士喊自己帮忙，支持双方实际联络。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "红豆明确报告博士喊自己帮忙，支持双方实际联络。",
+          "status": "supported",
+          "to": "char_290_vigna"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 188,
+          "kind": "story",
+          "line": 165,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_290_vigna|npc_b99957887950ebfd"
+}

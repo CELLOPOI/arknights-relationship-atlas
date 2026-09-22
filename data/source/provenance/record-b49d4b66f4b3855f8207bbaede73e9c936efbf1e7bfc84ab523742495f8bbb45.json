@@ -1,0 +1,218 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 343,
+          "line": 316,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "quote": "[name=\"森蚺\"]因为他们答应我，一拿到酿酒工具就派他们协会的技工来，帮我用杜林科技调试机器人……\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_1026_gvial2_1#8$1\",focus=2)]\n[name=\"嘉维尔\"]死心吧。\n[Character(name=\"char_416_zumama_1#3\",name2=\"avg_1026_gvial2_1#8$1\",focus=1)]\n[name=\"森蚺\"]唔……\n[Character(name=\"char_416_zumama_1#3\",name2=\"avg_1026_gvial2_1#8$1\",focus=2)]\n[name=\"嘉维尔\"]不过，他们连你都动员起来了，这我可真没想到。\n[name=\"嘉维尔\"]他们还找谁了？\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_1026_gvial2_1#8$1\",focus=1)]\n[name=\"森蚺\"]让我想想……\n[name=\"森蚺\"]他们去找过特米米，但是被轰出来了。\n[name=\"森蚺\"]耶奇·地心长老和际崖城的其他人他们也去找过。\n[name=\"森蚺\"]他们自己说的，除了阿芙朵嘉之外，其他人的态度都有些松动，至少是……暧昧。\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_1026_gvial2_1#6$1\",focus=2)]\n[name=\"嘉维尔\"]暧昧？\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#6$1\",focus=1)]\n[name=\"森蚺\"]据说，就连一开始厉行禁酒的耶奇长老自己，现在也已经有点被他们说动了。毕竟我们也见识过际崖城里的酒有多畅销。\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#4$1\",focus=2)]\n[name=\"嘉维尔\"]这样下去绝对不行！\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#8$1\",focus=2)]\n[name=\"嘉维尔\"]看来一味地跟这些家伙纠缠下去已经不是个办法了。他们自己颁布的禁酒令，当然也可以自己推翻。\n[name=\"嘉维尔\"]真走到那一步，杜林聚落离建成怕是就遥遥无期了……我可不想等依娜姆回来之后，给她展示全阿卡胡拉独一无二的烂尾建筑群！\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#8$1\",focus=1)]\n[name=\"森蚺\"]……哇。\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#2$1\",focus=2)]\n[name=\"嘉维尔\"]你肯定也不想那样吧？\n[Character(name=\"char_416_zumama_1#5\",name2=\"avg_1026_gvial2_1#2$1\",focus=1)]\n[name=\"森蚺\"]我倒是无所谓……不过我听你的。"
+        }
+      ],
+      "description": "森蚺在与嘉维尔商议聚落时明确知晓依娜姆将归来；反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_416_zumama",
+          "reason": "森蚺参与的对话明确把依娜姆视为将回来验收聚落的具体人物。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "已读窗口未建立依娜姆对森蚺的具体知晓。",
+          "status": "not_established",
+          "to": "char_416_zumama"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_442d4ba2a3a71a0d.json",
+      "sources": [
+        {
+          "endLine": 343,
+          "kind": "story",
+          "line": 316,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "依娜姆外出、杜林聚落建设期间",
+      "title": "百炼嘉维尔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 670,
+          "line": 632,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flint_1_1.txt",
+          "quote": "[name=\"布洛卡\"]有道理。\n[Character(name=\"char_349_chiave#2\")]\n[name=\"贾维\"]有、有道理……\n[Dialog]\n[Character]\n[delay(time=0.51)]\n[PlaySound(key=\"$d_avg_machine_revolve\",volume=1)]\n[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Delay(time=1.5)]\n[Character(name=\"char_415_flint_1\")]\n[name=\"燧石\"]等等。\n[name=\"燧石\"]……\n[name=\"燧石\"]你们有没有，听到什么声音？\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Background(image=\"bg_jungle_1\",screenadapt=\"showall\")]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[name=\"依娜姆\"]呼，终于上来了。\n[name=\"森蚺\"]别感慨了，我们得快做准备。\n[Dialog]\n[Character(name=\"char_416_zumama_1\",name2=\"avg_npc_075\",fadetime=1,block=true)]\n[Delay(time=2.5)] \n[Character(name=\"char_416_zumama_1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]嗯？这里怎么堆着这么多机械？\n[Character(name=\"char_415_flint_1\")]\n[name=\"燧石\"]这是……\n[Character(name=\"char_416_zumama_1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]哎呀，克玛尔，真高兴能见到你。\n[name=\"依娜姆\"]看你的表情，嗯，至少不像是有坏事的样子。\n[Character(name=\"char_415_flint_1#5\")]\n[name=\"燧石\"]……确实不算是坏事。\n[Character(name=\"char_416_zumama_1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]那就好，看来你已经把那些人都打发走了？我就觉得交给你一定没问题。\n[name=\"依娜姆\"]之后还有不少事要请你帮忙，不过目前……\n[name=\"依娜姆\"]先麻烦各位帮我们一起收拾一片村庄出来吧，我们阿卡胡拉，很快就有一大群来自地底的客人光临了。"
+        }
+      ],
+      "description": "布洛卡、贾维和燧石谈话后听见动静，依娜姆与森蚺来到同一村庄并请各位一起帮忙，场景连续。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "char_416_zumama",
+          "reason": "布洛卡、贾维和燧石谈话后听见动静，依娜姆与森蚺来到同一村庄并请各位一起帮忙，场景连续。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "布洛卡、贾维和燧石谈话后听见动静，依娜姆与森蚺来到同一村庄并请各位一起帮忙，场景连续。",
+          "status": "supported",
+          "to": "char_416_zumama"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_9e81d286a8a5d2d6.json",
+      "sources": [
+        {
+          "endLine": 670,
+          "kind": "story",
+          "line": 632,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flint_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "燧石所述时段",
+      "title": "燧石"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 66,
+          "line": 38,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_05_end.txt",
+          "quote": "[name=\"依娜姆\"]祖玛玛，你果然在这里。\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]依娜姆？你怎么来了？\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]这些源石勘测设备不是要运送到对岸么，我正好没事做，就帮忙运过来了。\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]谢了。\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]为什么是你来谢我……你还真把自己当成这群机器人的一员了。\n[Character(name=\"char_416_zumama_1#5\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]嗯，难得能交到这么多的好朋友。\n[Character(name=\"avg_npc_576_1#1$1\",name2=\"avg_npc_576_1#1$1\")]\n[name=\"奇怪的机械\"]祖玛玛，祖玛玛，好朋友！\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]而且，我其实一直想要帮Lancet-2大姐找到适合的相亲对象。\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]……如果我没记错的话，Lancet-2是当时跟罗德岛一起来的机器人吧？\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]嗯，她现在是我的姐姐。\n[name=\"森蚺\"]我的技术还没有办法做到造出Lancet-2大姐那样智能的机器人，所以就想在这群机器人中找一找。\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]结果怎么样？\n[Character(name=\"char_416_zumama_1#5\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]它们很善良，不过感觉都不是大姐会喜欢的类型。\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]大姐似乎比较中意博士那样比较知性的，这点比较伤脑筋。\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]……\n[name=\"依娜姆\"]算了，提亚卡乌里奇奇怪怪的家伙也不止你一个。"
+        }
+      ],
+      "description": "两人当面交谈运送设备和机器人择偶。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E29"
+          ],
+          "from": "char_416_zumama",
+          "reason": "两人当面交谈运送设备和机器人择偶。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "E29"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "两人当面交谈运送设备和机器人择偶。",
+          "status": "supported",
+          "to": "char_416_zumama"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 66,
+          "kind": "story",
+          "line": 38,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 88,
+          "line": 15,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_zumama_1_1.txt",
+          "quote": "[name=\"依娜姆\"]祖玛玛，你回来啦。\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#3$1\")]\n[name=\"森蚺\"]我看到你的信了。不过，帕夏发现了杜林人的事，这种情况不是该让嘉维尔回来解决吗？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]倒也没那么严重，至少现在没那么严重了。\n[name=\"依娜姆\"]我带着杜林人酿的好酒去了趟宫廷，总算打消了那几个探子给帕夏灌输的疑心，他现在只觉得阿卡胡拉多了一帮又能喝又会酿的酒鬼。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\")]\n[name=\"大祭司\"]那事情不就解决了吗？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]大祭司，你也回来了啊。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\")]\n[name=\"大祭司\"]我哪次被炸飞之后没回来的？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]你又被炸飞了？\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#1$1\")]\n[name=\"森蚺\"]大祭司爷爷，先别打岔，好吗？\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#3$1\")]\n[name=\"大祭司\"]听见了吗？依娜姆，别打岔！事情不是解决了吗？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]不是你自己先离题的吗？\n[name=\"依娜姆\"]……算了。\n[name=\"依娜姆\"]帕夏喝了酒确实高兴得不行，可高兴之余大笔一挥，让阿卡胡拉“搞搞建设，别总像个无人区似的，给整个行省丢脸”。\n[name=\"依娜姆\"]杜林人现在正忙着修他们自己的新聚落，一点时间都挤不出来，我只能把你们叫回来搞设计了。怎么样，感觉好办吗？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#3$1\")]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]祖玛玛？\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#3$1\")]\n[name=\"森蚺\"]湖边那些形状很漂亮的钢架……\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]哦，湖边那座钢架沙堡啊。\n[name=\"依娜姆\"]那个是上次斯第奇回来建的新际崖城模型，杜林人都很喜欢，他们现在正按这个建他们的新聚落呢。\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#11$1\")]\n[name=\"森蚺\"]……好厉害。\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]确实厉害，所以，作为他们的邻居，我们就更需要你了。\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#1$1\")]\n[name=\"森蚺\"]提亚卡乌们怎么说？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]除了“要大！”和“要高！”之外，没什么特别的意见。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"left\", name = \"avg_npc_566_1#8$1\",duration = 1)]\n[charslot(slot = \"right\", name = \"avg_npc_569_1#8$1\",duration = 1)]\n[delay(time=1.5)]\n[charslot(slot = \"right\", name = \"avg_npc_569_1#8$1\",focus=\"r\")]\n[name=\"黛柯绮·银币\"]要大的和要高的还打了一架。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#4$1\")]\n[name=\"森蚺\"]结果呢？\n[charslot]\n[charslot(slot = \"right\", name = \"avg_npc_569_1#8$1\",focus=\"l\")]\n[charslot(slot = \"left\", name = \"avg_npc_566_1#8$1\",focus=\"l\")]\n[name=\"克罗绮·砖石\"]没打出结果。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]所以说，祖玛玛，提亚卡乌的聚落能不能和杜林人的一较高下，可就全看你了。\n[name=\"依娜姆\"]你在罗德岛上也学了不少新东西吧？自从去了罗德岛，你的眼神就不一样了。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\")]\n[name=\"大祭司\"]我呢？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]你？你像现在这样就挺好的啊，有心情了来帮帮大家，没心情的时候，大家也没指望你做什么嘛。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#4$1\")]\n[name=\"大祭司\"]小姑娘，你听听她说的是什么话！\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#4$1\")]\n[charslot(slot = \"m\", action=\"jump\",power=30,times=1,duration = 0.3)]\n[name=\"大祭司\"]小姑娘？祖玛玛？森蚺干员？\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#3$1\")]\n森蚺一个字也没听见。\n她直勾勾地盯着湖边的“新际崖城”，不知道是在欣赏、在消化心中的震撼、在心里盘算如何“一较高下”，还是兼而有之。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#4$1\")]\n[name=\"大祭司\"]哼，不指望就不指望，那这次我可一点都不管了！你们就自己搞去吧，搞砸了可别来问我！"
+        }
+      ],
+      "description": "五人在瀑布边共同讨论聚落建设，属于实际局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_416_zumama",
+          "reason": "五人在瀑布边共同讨论聚落建设，属于实际局部同场。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "五人在瀑布边共同讨论聚落建设，属于实际局部同场。",
+          "status": "supported",
+          "to": "char_416_zumama"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_543f56d0a4680e7b.json",
+      "sources": [
+        {
+          "endLine": 88,
+          "kind": "story",
+          "line": 15,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_zumama_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇候选窗所示时段",
+      "title": "森蚺"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 330,
+          "line": 307,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_09_end.txt",
+          "quote": "[name=\"大祭司\"]  倒不如说我一直很奇怪，传统只是将人们聚集到一起的仪式。\n[name=\"大祭司\"]  但是当一个传统延续了几十年，你们就会莫名其妙认为它是不可侵犯的，不可打破的。\n[name=\"大祭司\"]  实际上完全不会有这样的事！\n[name=\"大祭司\"]  所以当你说出要轰掉神庙时我是举双手双脚还有尾巴赞成的！\n[name=\"大祭司\"]  噢，不对，举双手双脚我就不能举尾巴了……嗯？或许我可以趴着？让我来试试！\n[Character(name=\"avg_npc_074\",name2=\"char_416_zumama_1\",focus=2)]\n[name=\"森蚺\"]  ……我明白了。\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  你到底有几岁啊。\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]  年龄？忘了。\n[name=\"大祭司\"]  而且这是你们用来记录时间的方式，与我无关！虽然我只是已经忘了我是什么时候诞生的！\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  好吧……不过，不管怎么说，还是得有一个人来做大酋长啊。\n[Character(name=\"char_187_ccheal_1\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  喂，我听说嘉维尔要和祖玛玛再打一场，打完了？\n[Character(name=\"char_187_ccheal_1#2\", name2=\"avg_npc_075\", focus=1)]\n[name=\"嘉维尔\"]  嗯？\n[Character(name=\"char_187_ccheal_1#2\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  嘉维尔，你看我干什么？\n[Character(name=\"char_187_ccheal_1#5\", name2=\"avg_npc_075\", focus=1)]\n[name=\"嘉维尔\"]  依娜姆，你对当大酋长有没有兴趣？\n[Character(name=\"char_187_ccheal_1#5\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  啊？"
+        }
+      ],
+      "description": "森蚺与依娜姆在战后现场直接会合，且此前有找书委托。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "char_416_zumama",
+          "reason": "森蚺与依娜姆在战后现场直接会合，且此前有找书委托。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "森蚺与依娜姆在战后现场直接会合，且此前有找书委托。",
+          "status": "supported",
+          "to": "char_416_zumama"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 330,
+          "kind": "story",
+          "line": 307,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "密林悍将归来"
+    }
+  ],
+  "relationship_id": "char_416_zumama|npc_e04ed917f7bcbf85"
+}

@@ -1,0 +1,75 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 541,
+          "line": 526,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act41side/level_act41side_st03.txt",
+          "quote": "[name=\"“歌唱家”\"]涅梅丝拖的是空棺材？！拉芙希妮从第一次杀死你时就在盘算如何上演“红龙复生”？\n[name=\"“歌唱家”\"]你说谎！你——\n[name=\"“歌唱家”\"]对了，还有威灵顿，是威灵顿良心发现，撤去了包围的军队！\n[charslot(slot=\"m\",name=\"avg_450_necras_1#7$2\",focus=\"m\")]\n[name=\"爱布拉娜\"]唉，你也真的是不死心。\n[charslot(slot=\"m\",name=\"avg_450_necras_1#15$2\",focus=\"m\")]\n[name=\"爱布拉娜\"]你真的要跟铁公爵阁下谈论良知吗？\n[charslot(slot=\"m\",name=\"avg_npc_1698_1#4$1\",focus=\"m\")]\n[name=\"“歌唱家”\"]你向他承诺过，你的谋划有益而无害！\n[charslot(slot=\"m\",name=\"avg_450_necras_1#15$2\",focus=\"m\")]\n[name=\"爱布拉娜\"]我只是在“加斯特里尔”号上向他承诺，只要拉芙希妮愿意回归，我就能扭转塔拉的航向。\n[name=\"爱布拉娜\"]喷吐死火的红龙，充斥死者的鬼魂部队，双手沾满鲜血的深池……一切都将沉入黑暗，而塔拉人会团结在唯一的红龙之下。\n[name=\"爱布拉娜\"]当然，公爵阁下并不知道纳斯尔纱的人注定会死，但我知道。\n[charslot(slot=\"m\",name=\"avg_450_necras_1#13$2\",focus=\"m\")]\n[name=\"爱布拉娜\"]用一城注定死去的人，换取一个稳如磐石的塔拉，难道不是有益而无害？\n[name=\"爱布拉娜\"]只可惜，公爵阁下实在不喜欢拉芙希妮的性格，否则这件事可能还要更顺利一些。"
+        },
+        {
+          "endLine": 398,
+          "line": 381,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act41side/level_act41side_st03.txt",
+          "quote": "[name=\"涅梅丝\"]您一直不说话，是紧张了吗？\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#9$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]不，我只是在想，只在书中出现的那些描写，原来我们真的可以将其付诸现实。\n[name=\"拉芙希妮\"]春季结束的那天，人们熄灭家中所有的火，聚集到一处再把火焰点起，在五月盛宴，在篝火的烟雾和灰烬的飘拂中……\n[name=\"拉芙希妮\"]迎接新季节、新生活的到来。\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#9$1\",focus=\"n\")]\n[name=\"提醒的声音\"]拉芙希妮殿下，点火仪式会在几分钟之后开始——\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#1$1\",focus=\"l\")]\n[name=\"涅梅丝\"]好的，辛苦你，我们知道了。\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#9$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]也许我只是等这一刻太久了。这感觉并不比做梦更加真实。\n[name=\"拉芙希妮\"]涅梅丝，其实现在我很想唱歌。但在纳斯尔纱那时，你们已经代我唱过，所以……这次，就让我手中的火去唱吧。\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#6$1\",focus=\"l\")]\n[name=\"涅梅丝\"]对了，拉芙希妮殿下，还有一件事……关于爱布拉娜殿下——\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#6$1\",focus=\"n\")]\n[name=\"提醒的声音\"]拉芙希妮殿下，时间到了！\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#1$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]抱歉，涅梅丝，我们可以等仪式结束后再说。"
+        },
+        {
+          "endLine": 514,
+          "line": 475,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act41side/level_act41side_st03.txt",
+          "quote": "[name=\"拉芙希妮\"]终于……呼……\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#9$1\",focus=\"l\")]\n[name=\"涅梅丝\"]您做得很好，真的很好。\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#9$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]多谢。\n[name=\"拉芙希妮\"]对了，你在仪式前想说的爱布拉娜的事，究竟是什么？\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#6$1\",focus=\"l\")]\n[multiline(name=\"涅梅丝\")]她的遗体还是没有找到。如果她真的尚未殒命，我担心总有一天……\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#10$1\",focus=\"l\")]\n[multiline(name=\"涅梅丝\")]关于红龙的复活，会诞生一个完全不同的故事。\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#1$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]什么样的故事？红龙的复活不是一条红龙死而复生的奇迹，而是两条红龙之间发生的一场刺杀？\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#10$1\",focus=\"l\")]\n[name=\"涅梅丝\"]甚至比这更糟。\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#1$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]我明白了，你害怕爱布拉娜回来，将整个故事渲染成一场从头到尾由我发起的阴谋。\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#10$1\",focus=\"l\")]\n[name=\"涅梅丝\"]而我们并非无懈可击。\n[name=\"涅梅丝\"]我们都知道，那天晚上，您第一次杀死她之后，她的尸体就已经消失不见，我拖动的并非她的遗骸，只是一具空棺……\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#13$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]我知道。\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#12$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]我还知道，是我用她枪里的最后一点余火点燃了那具棺椁。\n[name=\"拉芙希妮\"]是我出城去找威灵顿，把我们的计划和盘托出，以此换取他的继续观望，让他推迟派军队进城。\n[name=\"拉芙希妮\"]是我主动走进人们还给爱布拉娜的火焰，用生命的火将死火湮灭、替换……最终从明亮的火中走出。\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#13$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]在纳斯尔纱堡垒的阳台上，我们不是已经计算清楚了吗？\n[name=\"拉芙希妮\"]爱布拉娜留下的是一个必死的残局，这个残局只能用一场奇迹来拯救。\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#8$1\",focus=\"l\")]\n[name=\"涅梅丝\"]一场……我们自导自演的奇迹。\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#12$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]此时此刻，我倒宁愿把守灵人的归来视为奇迹。\n[name=\"拉芙希妮\"]如果不是爱布拉娜唤醒了那位“放逐王”，如果不是布莉吉终于把那份跨越数百年的口信传到了守灵人的营地，如果不是莫兰的劝说……\n[name=\"拉芙希妮\"]只凭我们两个，奇迹是不会发生的。\n[charslot(slot=\"l\",name=\"avg_npc_1692_1#1$1\",focus=\"l\")]\n[name=\"涅梅丝\"]……\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#1$1\",focus=\"r\")]\n[name=\"拉芙希妮\"]事已至此，我们又有什么好怕的呢？\n[name=\"拉芙希妮\"]爱布拉娜堵死了所有能让我远离王座的路，那么，我只能在接下来的时日里，将自己奉献给塔拉……\n[name=\"拉芙希妮\"]同时坦然地等待不知何时才会到来的审判。"
+        }
+      ],
+      "description": "涅梅丝与苇草具体讨论爱布拉娜；爱布拉娜听见歌唱家具名谈及涅梅丝。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_450_necras",
+          "reason": "直接对话、局部同场或具体提及支持该方向。",
+          "status": "supported",
+          "to": "npc_9f709ed5b394a4de"
+        },
+        {
+          "evidenceIds": [
+            "E06",
+            "E07"
+          ],
+          "from": "npc_9f709ed5b394a4de",
+          "reason": "直接对话、局部同场或具体提及支持该方向。",
+          "status": "supported",
+          "to": "char_450_necras"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_dddfbe68db72b808.json",
+      "sources": [
+        {
+          "endLine": 541,
+          "kind": "story",
+          "line": 526,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act41side/level_act41side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 398,
+          "kind": "story",
+          "line": 381,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act41side/level_act41side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 514,
+          "kind": "story",
+          "line": 475,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act41side/level_act41side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "塔拉战后及五朔节场景",
+      "title": "挽歌燃烧殆尽"
+    }
+  ],
+  "relationship_id": "char_450_necras|npc_9f709ed5b394a4de"
+}

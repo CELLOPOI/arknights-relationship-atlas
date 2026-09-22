@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 247,
+          "line": 191,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st03.txt",
+          "quote": "[name=\"“灰礼帽”\"]……是，菈塔托丝并没有死，她们一行三人已经进入蔓珠院的北门。\n[name=\"“灰礼帽”\"]逃亡的记者也在，那位大名鼎鼎的黑骑士在保护她们。\n[name=\"“灰礼帽”\"]公爵阁下有何指示？\n[name=\"“灰礼帽”\"]……等等。\n[name=\"“灰礼帽”\"]……你是说，公爵阁下，要亲自来谢拉格？\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[playsound(key=\"$d_avg_paper2\")]\n[Delay(time=2)]\n[Sticker(id=\"st1\", multi = true, text=\"致喀兰贸易总部\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n与喀兰贸易前董事长、我的族女伊丽莎白之子——恩希欧迪斯·希瓦艾什\", x=380,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n及所有谢拉格人民\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n这是为诉说喀兰贸易与恩希欧迪斯的逆行倒施，而写的一封公开信。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n我以此信正式发布抗议，抗议维多利亚与谢拉格共同遭受的、本可避免的所有不平之事。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n……\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"45_g11_karlanheadquarters\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1161_1#1$1\",duration=1.5)]\n[Delay(time=2.5)]\n[name=\"喀兰贸易员工\"]总裁！正好您在这儿！\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_1161_1#1$1\",focus=\"l\")]\n[name=\"诺希斯\"]怎么了？慢慢说。\n[charslot(slot=\"r\",name=\"avg_npc_1161_1#1$1\",focus=\"r\")]\n[name=\"喀兰贸易员工\"]这，这是开斯特公爵送来的信函，内容已经在民间传开了。\n[name=\"喀兰贸易员工\"]都是关于谢拉格的……尤其在说，在说喀兰贸易。\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#1$1\",focus=\"l\")]\n[name=\"诺希斯\"]她说什么了？\n[charslot(slot=\"r\",name=\"avg_npc_1161_1#1$1\",focus=\"r\")]\n[name=\"喀兰贸易员工\"]说我们不守信义，还有恩希欧迪斯——\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#1$1\",focus=\"l\")]\n[name=\"诺希斯\"]把信给我。\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#1$1\",focus=\"l\")]\n[PlaySound(key=\"$d_avg_paper2\", volume=1)]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#7$1\",focus=\"l\")]\n[name=\"诺希斯\"]……\n[name=\"诺希斯\"]通知所有董事会成员，立即在总部会合。\n[name=\"诺希斯\"]让所有人，保持冷静……\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]"
+        }
+      ],
+      "description": "灵知明确收到公爵信函。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N22"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "诺希斯收到并阅读开斯特公爵的信函。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "本窗未见公爵具体获知诺希斯。",
+          "status": "not_established",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 247,
+          "kind": "story",
+          "line": 191,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "喀兰总部收信",
+      "title": "雪山降临1101"
+    }
+  ],
+  "relationship_id": "char_206_gnosis|npc_8c87697c59975883"
+}

@@ -1,0 +1,171 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 34,
+          "line": 21,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lin_1_1.txt",
+          "quote": "[name=\"星熊\"]局长，这么兴师动众，会不会起反效果？\n[name=\"星熊\"]鼠王宣布让林小姐继承衣钵以来，已经过了半个月了，贫民窟没发生什么事情。\n[charslot(slot=\"m\",name=\"char_308_swire_1#5\",focus=\"m\")]\n[name=\"诗怀雅\"]但是，那只臭老鼠也失踪了半个月了。\n[charslot(slot=\"m\",name=\"char_308_swire_1#5\",focus=\"m\")]\n[name=\"诗怀雅\"]贫民窟的话事人新旧交替，什么都没发生，你信吗？\n[charslot(slot=\"m\",name=\"char_308_swire_1#5\",focus=\"m\")]\n[name=\"诗怀雅\"]瘦子张、师爷李、鬼眼……这些被鼠王压了这么多年的老滑头们什么都不做，你信吗？\n[charslot(slot=\"m\",name=\"char_308_swire_1#5\",focus=\"m\")]\n[name=\"诗怀雅\"]今天，瘦子张把臭老鼠手下的人带走了，她不可能不行动。\n[charslot]\n[name=\"星熊\"]……林小姐应该能摆平。\n[charslot(slot=\"m\",name=\"char_308_swire_1#5\",focus=\"m\")]\n[name=\"诗怀雅\"]但我不需要她来摆平。贫民窟是龙门的一部分。"
+        }
+      ],
+      "description": "诗怀雅明确知晓鼠王，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_308_swire",
+          "reason": "诗怀雅讨论鼠王失踪及其旧部，指向具体人物。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "已读窗口未显示鼠王知晓诗怀雅。",
+          "status": "not_established",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_0df7105697ab69fb.json",
+      "sources": [
+        {
+          "endLine": 34,
+          "kind": "story",
+          "line": 21,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lin_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇近卫局部署时",
+      "title": "林"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 122,
+          "line": 52,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-08_beg.txt",
+          "quote": "[name=\"？？？\"]  现在我想清楚了，龙门就拜托你了。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  什么？我不理解你的意思。\n[Character]\n[name=\"？？？\"]  现在的我，早已经不再属于这里。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  Only-1！\n[Character]\n[name=\"？？？\"]  我会带一些龙门的感染者走。近卫局没法保护他们，这座城市不在乎他们。\n[name=\"？？？\"]  或者说，即使你是这么想的，这座城市也并不如你所愿。\n[Character(name=\"char_010_chen_1#2\")]\n[name=\"陈\"]  九！服从命令！\n[Character]\n[name=\"九\"]  ……三年前起，我就不属于近卫局了。\n[name=\"九\"]  再说，原本，理应是我命令你。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  九……！\n[Character]\n[name=\"九\"]  你说的特殊部队，我似乎已经看见过了。\n[name=\"九\"]  我还是把龙门想象得太好了。再见，陈。\n[name=\"九\"]  对了，别去检查排水系统。\n[playsound(key=\"$transmission\", volume=0.4)]\n[delay(time=1)]\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  ……\n[name=\"陈\"]  我声音是不是太大了？\n[Character]\n[name=\"诗怀雅\"]  那确实特别大，我感觉一条街都听见了。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  怎么也没你的嗓门大。\n[Character]\n[name=\"诗怀雅\"]  哎，阿陈，你过来。\n[Character(name=\"char_010_chen_1#1\")]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[name=\"陈\"]  ……\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  坐啊。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  Miss诗怀雅居然不顾形象、不怕裙子脏，就这样子蹲坐在街边？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  无所谓啦！你怎么觉得我会在意那种事的！\n[name=\"诗怀雅\"]  ……我准备再给那只下水道老鼠打个电话。\n[name=\"诗怀雅\"]  虽然我没怎么来过这里，但我觉得特殊部队一定在做可怕的事。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  你见过贫民区的林吗？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  我见过。是个很和善的老人，比我爷爷好多了。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  ……他可是“鼠王”。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  这几个人不都这样。但他真的是个好人。\n[name=\"诗怀雅\"]  我只是没想到雨霞她会变成现在这个样子。明明以前是个又胆小又腼腆的孩子，经常躲在你背后来着。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我倒觉得她没有变。她只是……担负起了责任。也许并不该属于她的责任。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  就算你这么提醒她，也没用。我们已经被架在火上烤了。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  她和她父亲的事情，我也没有头绪。只不过，她不会是那种冷血的人。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  所以我想再打个电话。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  ……\n[name=\"陈\"]  也许刚才的消息可以帮到我们。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  怎么说的？\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  一支有着特殊能力的整合运动力量进入了贫民区，他们甚至能指挥现在的整合运动。"
+        }
+      ],
+      "description": "诗怀雅明确知道鼠王及其贫民区身份。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C14"
+          ],
+          "from": "char_308_swire",
+          "reason": "诗怀雅明确知道鼠王及其贫民区身份。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 122,
+          "kind": "story",
+          "line": 52,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 282,
+          "line": 122,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_07-03.txt",
+          "quote": "[name=\"梅菲斯特\"]  咳咳，呼。\n[name=\"梅菲斯特\"]  ……\n[name=\"梅菲斯特\"]  真是难听的歌。可恶。\n[name=\"梅菲斯特\"]  可恶！\n[name=\"梅菲斯特\"]  为什么霜星就唱的那么好？我果然……还是没法唱好。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_042\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"迷迭香\"]  下雪了……\n[name=\"迷迭香\"]  这个爷爷他……\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ……\n[name=\"凯尔希\"]  全身结晶化超过百分之六十。即便是萨卡兹这种生物，也不可能再挪动分毫了。\n[name=\"凯尔希\"]  他的意识已经逸散……然而，金铁般的意志却继续贯彻了下去，传递给了身躯。\n[name=\"凯尔希\"]  ……博卓卡斯替。\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]  仇恨。悔恨。憎恨……\n[name=\"阿米娅\"]  这些都消失了。\n[name=\"阿米娅\"]  最后的最后，是愤怒。\n[name=\"阿米娅\"]  对霜星遭遇的不甘。对塔露拉行径的敌视，对乌萨斯和卡兹戴尔无穷的怀念……\n[name=\"阿米娅\"]  炽烈不灭的愤怒。为一切不公遭遇和身边死去的人的愤怒……对会去捉弄所有人的命运的愤怒。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  事实上，反抗命运，等于反抗一切。正是一切促成了所谓“命运”这个概念。\n[name=\"凯尔希\"]  博卓卡斯替的怒火，正对着整片大地。\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]  ……这一整片不公的大地。\n[name=\"阿米娅\"]  ……爱国者先生……\n[Character(name=\"char_002_amiya_1#4\", name2=\"avg_npc_058\", focus=2)]\n[name=\"盾卫\"]  手拿开。\n[name=\"盾卫\"]  你，卡特斯感染者。\n[name=\"盾卫\"]  ……大尉未竟的事业，我们替他完成。\n[Character(name=\"avg_npc_042\", name2=\"avg_npc_058\", focus=1)]\n[name=\"迷迭香\"]  ……已经够了。\n[name=\"迷迭香\"]  你们想让他的死毫无价值？\n[name=\"迷迭香\"]  他一点都不想你们死，他是要你们自己去发掘道路。\n[name=\"迷迭香\"]  他为了让你们活下去，选择孤独地死……！\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  谁说死的会是我们？\n[name=\"盾卫\"]  而且我们听见了。\n[name=\"盾卫\"]  ……卡特斯人。你是未来一切的祸源。\n[name=\"盾卫\"]  那些古老预言，无不实现。\n[Decision(options=\"但霜星已经选择相信我们！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"盾卫\"]  ……但……\n[name=\"盾卫\"]  霜星她……连大尉都……\n[Decision(options=\"他当然不能直接相信霜星的评判！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"只有他忽视自己女儿的评价……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"他才不是盲目的！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"他做出的判断……才是公正的！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"而你们却选择相信一个预言？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"盾卫\"]  ……不，我们不是相信预言。\n[name=\"盾卫\"]  我们是相信大尉。\n[Decision(options=\"……霜星的糖是辣味。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"盾卫\"]  ……什么？！\n[name=\"盾卫\"]  叶莲娜她……把糖给你尝了？\n[Decision(options=\"我信任她，她也信任我。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"如果你们真想取谁性命……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"至少自己先亲眼看过！;别跟着别人走！;得凭自己的意志坚持到最后。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[name=\"盾卫\"]  ……\n[name=\"盾卫\"]  不。\n[name=\"盾卫\"]  罗德岛的，你有些话，我们能理解。但有些我们不会同意。\n[name=\"盾卫\"]  我们追随大尉一生，也不是完全是追随他这个人。\n[name=\"盾卫\"]  如果——如果哪一天，你身边的卡特斯女孩真的也成为塔露拉的这般暴君……\n[name=\"盾卫\"]  我们会送你们上路。\n[name=\"盾卫\"]  大尉反抗的所有人……所有奴役者，所有恶王，所有压迫他人者，所有造成灾难者，都逃不过。\n[name=\"盾卫\"]  大尉想过。大尉知道天灾杀死的切尔诺伯格人，大尉知道枉死的感染者战士，大尉知道不明就里牺牲的整合运动。\n[name=\"盾卫\"]  他悔恨，但他终归无法逃开。现在的我们不一样了。我们只属于大尉和他的信念，而不是什么整合运动。\n[name=\"盾卫\"]  我们日后就是“盾”。不只是感染者之盾。我们是受奴役者之盾。\n[name=\"盾卫\"]  我们会监视你，卡特斯人。只要你有一点差错，我们绝不会放过你。\n[name=\"盾卫\"]  这些预言……就让它成为秘密。\n[name=\"盾卫\"]  因为在这之前，还有一个暴君在指挥塔等着我们。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ……导致各位与我们开战，造成一系列惨剧的人，正是整合运动的领袖，塔露拉。\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  我们去重整队伍。我们要告诉游击队这个消息。\n[name=\"盾卫\"]  至于你们……你们愿意的话，就继续执行你们的任务。\n[name=\"盾卫\"]  雪花……\n[name=\"盾卫\"]  这场大雪……是叶莲娜来接走大尉了吗……？\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ……\n[name=\"凯尔希\"]  阿米娅，别太放在心上。\n[name=\"凯尔希\"]  萨卡兹人长时间接触源石，他们的一些生体记忆会和源石晶体混合，不断地在大地上流传，在萨卡兹人体内累积。\n[name=\"凯尔希\"]  有的时候，一些一直传递着源石结晶的种群会将一些信息规划到一起。\n[name=\"凯尔希\"]  在不断使用法术的过程中，这些信息阴差阳错地，被通过各种方式呈现出来。\n[name=\"凯尔希\"]  它们大多数无意义，而少数则是过时的信息。预言并无可参考性。\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]  但它也会直接对人产生影响。\n[name=\"阿米娅\"]  其中一个原因就是……这一切让听到预言的人，向预言的方向发展了，是不是？\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ……\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]  我分不清那是暗示……还是真的将结果带到了现在。我不清楚。只是……\n[name=\"阿米娅\"]  他本可以杀我。\n[name=\"阿米娅\"]  但他想起……他想起……\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]\n[Background(image=\"bg_snow_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_025_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"爱国者\"]  那我现在就杀了她。\n[Character]\n[Dialog]\n[Character(name=\"char_1505_frstar_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"霜星\"]  不，你怎么能认定她就是坏人？\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  她是科西切传承！她必将如那条老黑蛇般，毒杀我们所有人！\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"霜星\"]  不对，你这老顽固……才不。\n[name=\"霜星\"]  即使她最后一定会变成那样，我们也不可能杀了现在的她。\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  ……\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"霜星\"]  因为现在的她不是什么科西切什么，哎，我听不懂你说这些。那是谁啊？她只是塔露拉。\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  ……你从哪里学来这些？你的斗争心会因此变得杂乱。\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"霜星\"]  什么杂乱……啥呀，老顽固，纯粹斗争心什么的，你要真是，我没可能遇上你。\n[name=\"霜星\"]  那样，我们也没办法像现在这样坐在火边喝汤了。\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  你才……16岁。\n[name=\"爱国者\"]  汤冷了吗？\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"霜星\"]  一直是冷的。这样才好些。\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  ……\n[name=\"爱国者\"]  我听你一回。\n[Character(name=\"char_1505_frstar_1\")]\n[name=\"霜星\"]  不对。父亲，才不对。\n[name=\"霜星\"]  如果你觉得对，那你……无论以后发生什么，都应该觉得它对。\n[name=\"霜星\"]  因为，如果塔露拉出了事情，那是她和她身边人的问题。\n[name=\"霜星\"]  但现在才是真实的。对不对，父亲？\n[name=\"霜星\"]  无论未来是什么样，现在的我就只是我，你也只是你。\n[name=\"霜星\"]  我们想得再多，今天的你我还是你我。会变的只是我们，下决定的也是我们。\n[name=\"霜星\"]  我们和她一起走走看吧，就试试。\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  ……你以后会是个伟大的领袖。\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"霜星\"]  我不想做什么领袖。我只想和你，和兄弟姐妹，和叔叔阿姨们，好好活着。\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  我会记住。\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"霜星\"]  会记住吗？\n[Character(name=\"char_1505_frstar_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  我不会忘。"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_308_swire",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 282,
+          "kind": "story",
+          "line": 122,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_07-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 92,
+          "line": 47,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_02_end.txt",
+          "quote": "[name=\"D.D.D.\"]这一回终于看清楚了，林女侠居然能够将玻璃转化为武器，这真是令人意想不到的能力！\n[name=\"D.D.D.\"]没想到林女侠不光武艺高超，还有这般精彩的源石技艺！\n[dialog]\n[character]\n[delay(time=1)]\n[character(name=\"avg_npc_203_1#4\",name2=\"avg_npc_197_1#7\",focus=1)]\n[name=\"星熊\"]哎，不过Missy，林小姐这是什么能力？\n[character(name=\"avg_npc_203_1#4\",name2=\"avg_npc_197_1#7\",focus=2)]\n[name=\"诗怀雅\"]和鼠王一样，其实她也是在操纵沙子，只是方向不太一样。\n[name=\"诗怀雅\"]她从小能随随便便地把沙子变成玻璃什么的，我经常问她要来玩。\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#7\",focus=1)]\n[name=\"星熊\"]噢，懂了，确实，玻璃也是用沙子做的。\n[name=\"星熊\"]哎，我听说鼠王可以用沙子搞出沙尘暴，林小姐行不行啊？\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#5\",focus=2)]\n[name=\"诗怀雅\"]不知道，不过我猜她就算会，也不会喜欢那么做。\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#5\",focus=1)]\n[name=\"星熊\"]也是，林小姐看起来不像是喜欢大开大合的类型。\n[dialog]\n[character]\n[delay(time=1)]\n[character(name=\"avg_NPC_017_3\")]\n[name=\"D.D.D.\"]林女侠那防不胜防的源石技艺，配合陈女侠精准的铳法，还有埃内斯托先生的补漏，一次完美的视觉盛宴！\n[name=\"D.D.D.\"]如何，潘乔先生，您认为这次的胜利会属于这支队伍吗？\n[character(name=\"avg_npc_192_1#1\")]\n[name=\"潘乔\"]这支队伍个人能力很强，不过配合还欠缺火候。\n[character(name=\"avg_NPC_017_3\")]\n[name=\"D.D.D.\"]原来如此，确实，在这样的比赛中，如果过分强调个人能力，可是会被其他人盯上然后排除掉的。\n[name=\"D.D.D.\"]历史一再地向我们证明，只有团结才能够取得最后的胜利！\n[dialog]\n[character]\n[delay(time=1)]\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#7\",focus=1)]\n[name=\"星熊\"]这个老头眼光很尖啊，一眼就看出来老陈和林小姐现在最大的问题。\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#1\",focus=2)]\n[name=\"诗怀雅\"]确实，这两个人，老陈么，跟你搭档惯了至少知道配合，不过她完全不知道林雨霞是怎么打的，自己又用的不是最拿手的剑，束手束脚的。\n[name=\"诗怀雅\"]至于林雨霞，这个女人就根本不知道配合这两个字是怎么写的。\n[name=\"诗怀雅\"]我看好几次她差点把老陈也伤到了，全靠老陈反应够快闪了过去。\n[name=\"诗怀雅\"]笑死我了，不知道的还以为她们俩配合无间呢。\n[name=\"诗怀雅\"]那个叫埃内斯托的倒也聪明，根本没往两个人身边靠。\n[name=\"诗怀雅\"]不然啊，他有几条命都不够用。\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#1\",focus=1)]\n[name=\"星熊\"]不错啊，Missy，观察力越来越好了，我还以为我要给你讲解一下呢。\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#5\",focus=2)]\n[name=\"诗怀雅\"]为了接过陈晖洁的位置我也是很努力的好不好。\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#5\",focus=1)]\n[name=\"星熊\"]我可从没怀疑过这一点，只是没想到Missy你的进步这么快，真不错。"
+        }
+      ],
+      "description": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_308_swire",
+          "reason": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_a2ee9e247fcb3cb6.json",
+      "sources": [
+        {
+          "endLine": 92,
+          "kind": "story",
+          "line": 47,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "多索雷斯假日"
+    }
+  ],
+  "relationship_id": "char_308_swire|npc_83e2c28380c1c6fb"
+}

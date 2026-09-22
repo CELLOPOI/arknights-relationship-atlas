@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 336,
+          "line": 313,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_07_beg.txt",
+          "quote": "[name=\"安纳斯塔西奥\"]我看到他们的帆了。\n[name=\"安纳斯塔西奥\"]加速，追上它。\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#1$1\",focus=\"m\")]\n[name=\"哈维尔\"]我不建议现在就提速。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#9$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]为什么？\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#1$1\",focus=\"m\")]\n[name=\"哈维尔\"]按照他们现在的航向来看，如果我们加速追赶，只会把他们逼进骸礁峡谷。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#1$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]那又如何？\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#10$1\",focus=\"m\")]\n[name=\"哈维尔\"]那不是人能去的地方！他们可能会死在里面，可我们也进不去！\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#2$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]无妨。\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#9$1\",focus=\"m\")]\n[name=\"哈维尔\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1590_1#6$1\",focus=\"m\")]\n[name=\"鲁斯\"]执裁官阁下，请再考虑下，那样罗盘恐怕也会毁掉！\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#1$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]罗盘不是你需要考虑的事情。\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#1$1\",focus=\"m\")]\n[name=\"哈维尔\"]我在盐漠上航行了几十年，我知道该如何逼停一艘盐船。至少让我试一试……很多人不必白白死去。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#7$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]……你没有太多机会可以浪费，哈维尔先生。"
+        }
+      ],
+      "description": "哈维尔反对提速，执裁官当面回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "npc_22ce8e53c56ebcb9",
+          "reason": "哈维尔反对提速，执裁官当面回应。",
+          "status": "supported",
+          "to": "npc_87fe432572eae97e"
+        },
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "npc_87fe432572eae97e",
+          "reason": "哈维尔反对提速，执裁官当面回应。",
+          "status": "supported",
+          "to": "npc_22ce8e53c56ebcb9"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 336,
+          "kind": "story",
+          "line": 313,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "npc_22ce8e53c56ebcb9|npc_87fe432572eae97e"
+}

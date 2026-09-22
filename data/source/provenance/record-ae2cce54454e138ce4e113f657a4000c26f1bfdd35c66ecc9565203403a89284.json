@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 736,
+          "line": 729,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_end.txt",
+          "quote": "[name=\"鲁斯\"]你小子怎么抱着一块炭在啃？\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#3$1\",focus=\"m\")]\n[name=\"伊西多\"]因为我饿了。\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#1$1\",focus=\"m\")]\n[name=\"鲁斯\"]把手里的东西扔了，跟我走。\n[name=\"鲁斯\"]加入捕鳞船之前，你要学的东西还多得很。\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#4$1\",focus=\"m\")]\n[name=\"伊西多\"]捕鳞船，什么捕鳞船？"
+        }
+      ],
+      "description": "鲁斯要求伊西多扔掉焦面包并跟自己学习。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_293_thorns",
+          "reason": "鲁斯要求伊西多扔掉焦面包并跟自己学习。",
+          "status": "supported",
+          "to": "npc_0a8b187bfc318db9"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_0a8b187bfc318db9",
+          "reason": "鲁斯要求伊西多扔掉焦面包并跟自己学习。",
+          "status": "supported",
+          "to": "char_293_thorns"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 736,
+          "kind": "story",
+          "line": 729,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_293_thorns|npc_0a8b187bfc318db9"
+}

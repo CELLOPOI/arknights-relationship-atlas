@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 471,
+          "line": 460,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_st03.txt",
+          "quote": "[name=\"小贾斯汀\"]所以我才在塞雷娅与杰克逊达成一致后，再来找您。\n[name=\"小贾斯汀\"]连续经历了在玻利瓦尔的失势、“地平弧光计划”的失败，还有“螺旋桨天堂”的事故之后，国防部在马克·麦克斯总统那边的信誉……\n[name=\"小贾斯汀\"]我就不去引用那些刻薄的谚语了，先生。\n[name=\"？？？\"]……\n[name=\"小贾斯汀\"]我不清楚家里的那帮科学家具体在鼓捣些什么，但我清楚他们会创造出的价值。这一点，想必您也不会质疑。\n[name=\"小贾斯汀\"]我是个商人，我得为莱茵争取尽可能多的利益。\n[name=\"？？？\"]听起来，我没有拒绝的理由。\n[name=\"小贾斯汀\"]荣幸之至。\n[name=\"？？？\"]小贾斯汀，说实话，布莱克引荐你的时候，我多少是有点瞧不上你这样的家伙的……\n[name=\"小贾斯汀\"]哈哈哈，先生，还记得吗？我刚刚向您分享了我那还算有趣的人生经历……\n[name=\"小贾斯汀\"]您只需要瞧得上命运。至于您对握住它脉搏的那个人持何种态度——\n[name=\"小贾斯汀\"]往往不由您做主。"
+        }
+      ],
+      "description": "小贾斯汀明确知晓布莱克曾为自己作引荐。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_702a534ce16015aa",
+          "reason": "小贾斯汀听到并接续回应对方关于布莱克引荐他的说明。",
+          "status": "supported",
+          "to": "npc_9d5d29c1bb701a7f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_9d5d29c1bb701a7f",
+          "reason": "布莱克未在场，缺少其接收当前会谈的局部证据。",
+          "status": "not_established",
+          "to": "npc_702a534ce16015aa"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 471,
+          "kind": "story",
+          "line": 460,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "国防部会谈",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "npc_702a534ce16015aa|npc_9d5d29c1bb701a7f"
+}

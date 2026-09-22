@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 165,
+          "line": 143,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "quote": "[name=\"老鲤\"]“山海众”，不是人人都知道的名字。\n[name=\"老鲤\"]也不能怪谁疏忽，当时只知道戒备外敌，并不知道暗处还有敌人想对玉门不利。\n[name=\"老鲤\"]镖客、拳师、武器工匠……这些玉门武人常与守军并肩作战，当年在玉门城内也算往来自由。山海众恰恰利用了这一点。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#6$1\")]\n[name=\"老鲤\"]城中缺少防备，各方面反应都慢了一步。虽然最终阻止了山海众破坏城市核心动力源的计划，但还是承受了不少伤亡。\n[name=\"老鲤\"]打那之后……\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#1$1\")]\n[name=\"林雨霞\"]应该是亡兽补牢，为时不晚。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#2$1\")]\n[name=\"老鲤\"]不如说，“矫枉过正”？\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]打那之后，平祟侯开始对城中管理进行改制。一应事务不再依赖江湖人士，人员流动也多了不少限制。\n[name=\"老鲤\"]还留在此地的人，有的投身军伍，有的收起刀，安心过普通百姓的日子。也许随便哪家客栈后厨的掌勺，当年就是名震一方的刀客。\n[name=\"老鲤\"]二十年啊……够一个城市变几番面貌。\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#1$1\")]\n[name=\"林雨霞\"]爸也老是说，龙门总有一天，不会再有下城区，也不再需要鼠王。\n[name=\"林雨霞\"]如果有一天，这座城市不用永远在荒野上巡航，城中自然也无需人人带刀。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]时代终归会变的，有人想推一把，有人想拉一把。到最后，所有人都会被抛在后面。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]我听到的就是这样一段往事，也不知道能帮到雨霞姑娘多少。\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#1$1\")]\n[name=\"林雨霞\"]……帮到了很多。"
+        }
+      ],
+      "description": "老鲤向林雨霞详细讲述平祟侯治理玉门的措施，知道具体左宣辽。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E73"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "老鲤向林雨霞详细讲述平祟侯治理玉门的措施，知道具体左宣辽。",
+          "status": "supported",
+          "to": "npc_8ce7f1257163071b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8ce7f1257163071b",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 165,
+          "kind": "story",
+          "line": 143,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_322_lmlee|npc_8ce7f1257163071b"
+}

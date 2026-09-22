@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 149,
+          "line": 36,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-12_end.txt",
+          "quote": "[name=\"监察司\"]  磨磨蹭蹭的……花了那么长时间。\n[Character(name=\"avg_npc_041\")]\n[name=\"？？？\"]  我觉得做得很不错。一天之内就消灭了龙门城内的全部整合运动，我可以给最高分。\n[Character(name=\"avg_npc_040\")]\n[name=\"？？？\"]  魏彦吾了不得。\n[Character(name=\"avg_npc_041\")]\n[name=\"？？？\"]  太合，你有没有听过那个传闻？\n[Character(name=\"avg_npc_039_1\",name2=\"avg_npc_041\",focus=1)]\n[name=\"监察司\"]  你是说魏彦吾的身世？\n[Character(name=\"avg_npc_040\")]\n[name=\"太合\"]  勿论上事。\n[Character(name=\"avg_npc_039_1\",name2=\"avg_npc_041\",focus=2)]\n[name=\"？？？\"]  抱歉。不过，那些黑蓑的身手与当今禁军相比，何如？\n[Character(name=\"avg_npc_039_1\",name2=\"avg_npc_041\",focus=1)]\n[name=\"监察司\"]  哼，你也太高估他们了。他们的确有过人之处不假……\n[Character(name=\"avg_npc_040\")]\n[name=\"太合\"]  当心！\n[Character]\n[name=\"？？？\"]  你们这些混账！！\n[Character(name=\"avg_npc_039_1\")]\n[name=\"监察司\"]  ——感染者？\n[Dialog]\n[Character(name=\"char_017_homura_3#6\")] \n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=1)]\n[Character(name=\"avg_npc_041\")]\n[name=\"？？？\"]  嘶。\n[Character(name=\"char_017_homura_3#6\",name2=\"avg_npc_041\",focus=1)] \n[name=\"煌\"]  ——绞合线？！\n[Character(name=\"char_017_homura_3#6\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  你并不想真的杀我，对吗？你本来能用法术的。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=1)] \n[name=\"煌\"]  我听说用线做武器的男人，无一例外全是心理变态。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  确实总有人这么说……\n[Character(name=\"avg_npc_039_1\")]\n[name=\"监察司\"]  感染者，别妨害公务。小心我把你一并处理了。\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  没有身份识别码的武装人员在战场上遭到杀害，这种事根本怨不得人吧？\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  我们同样可以指证你与这些整合运动有所勾连。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_010_chen_1#1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"陈\"]  你们还没有调查我合作伙伴的权限。\n[Character(name=\"avg_npc_041\",name2=\"char_010_chen_1#1\",focus=1)] \n[name=\"？？？\"]  但我们已经知道有一艘属于“感染者对策专家”的舰船停在龙门泊区，陈警司。这也是这位煌小姐尚未收到伤害的唯一理由。\n[Character(name=\"avg_npc_041\",name2=\"char_010_chen_1#5\",focus=2)] \n[name=\"陈\"]  那诸位还要看到什么时候？还要再给龙门人的出生入死打几次分？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"监察司\"]  说话放尊重点。龙门风险控制能力的评估，本来就是因为重视你们才做的。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  那真抱歉，我换种说法吧。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  我们这场闹剧，三位看得尽兴不？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"监察司\"]  嘁。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  煌，收手吧，这三位贵人不是你我该伺候的，穿雨披的那些也确实不是他们的同行人。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  抱歉，煌小姐。希望我刚刚没有让你产生不快。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=1)] \n[name=\"煌\"]  ……你挺有礼貌的。但我很讨厌你说话的语气。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_041\",focus=2)] \n[name=\"？？？\"]  你的炎腔味道很正。\n[name=\"？？？\"]  你的确继承了你父亲不少东西。只不过，现在的你只是个感染者，路很难走，也很短。\n[Character(name=\"char_017_homura_3#6\",name2=\"avg_npc_041\",focus=1)] \n[name=\"煌\"]  ……你……？\n[Character(name=\"avg_npc_040\")]\n[name=\"太合\"]  走。\n[Character(name=\"avg_npc_041\")]\n[name=\"？？？\"]  那么再会，煌小姐，陈警司。\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_017_homura_3#6\")] \n[name=\"煌\"]  等一下！你刚才说我爸什么！\n[name=\"煌\"]  站住！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  煌！\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  ……\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  不要忘了任务！\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  我知道。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"阿米娅\"]  陈长官。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我们没发现敌人指挥官的踪迹。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"阿米娅\"]  哪一位？\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我们只知道梅菲斯特。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"阿米娅\"]  接下来的追击，就由我们罗德岛来完成。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  不用太冒进。这场战役实质上已经结束了。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"阿米娅\"]  但他犯下的暴行……必须要被偿还。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  交给你们了。\n[name=\"陈\"]  那么我们就各自出发吧。我还有件必须要去亲眼验证的事。\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  等等，近卫局的。\n[Character(name=\"char_010_chen_1#1\",name2=\"char_017_homura_3#5\",focus=1)]\n[name=\"陈\"]  有什么事？\n[Character(name=\"char_010_chen_1#1\",name2=\"char_017_homura_3#4\",focus=2)]\n[name=\"煌\"]  ……刚才谢谢你了。\n[name=\"煌\"]  没别的。\n[Character(name=\"char_010_chen_1#1\",name2=\"char_017_homura_3#4\",focus=1)]\n[name=\"陈\"]  呵，彼此彼此。"
+        }
+      ],
+      "description": "煌与太合现场交手。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "char_017_huang",
+          "reason": "煌与太合现场交手。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        },
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "煌与太合现场交手。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 149,
+          "kind": "story",
+          "line": 36,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 190,
+          "line": 143,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_beg.txt",
+          "quote": "[name=\"麟青砚\"]我知道你有很多话想说，但是当务之急只有一件。\n[name=\"麟青砚\"]你不是要去见真龙吗，我来帮你。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#8$1\")]\n[name=\"“禁军小教头”\"]麟青砚？你应该在狱中！\n[charslot(slot = \"m\", name = \"avg_npc_1644_1#1$1\")]\n[name=\"麟青砚\"]但我现在站在你面前。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#8$1\")]\n[name=\"“禁军小教头”\"]手下败将，你输给过我一次。这一次，你们两个，都别想走。\n[charslot(slot = \"m\", name = \"avg_npc_1644_1#14$1\")]\n[name=\"麟青砚\"]放心，我也没有打算和你单挑。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1618_1#8$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"解真\"]虽说是我提议要来的……\n[name=\"解真\"]可招惹到的这个对手……不好对付啊。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#7$1\")]\n[name=\"“禁军小教头”\"]还有同伙……\n[name=\"“禁军小教头”\"]是你将她从大狱中带出来的……\n[charslot(slot = \"m\", name = \"avg_npc_1618_1#1$1\")]\n[name=\"解真\"]用了点粗暴手段，但尽可能避免伤及无辜了。\n[name=\"解真\"]债多了不愁，我有那么多罪责难逃，也不差这一桩。等这边事了，我投案服法便是。\n[charslot(slot = \"m\", name = \"avg_npc_1618_1#5$1\")]\n[name=\"解真\"]只是当下，该办的事，该见的人，都需要一个结果。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#7$1\")]\n[name=\"“禁军小教头”\"]肃政院御史，大理寺少卿，协同犯上作乱……我从未见过如此荒唐的场面。\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"？？？\"]既然已经足够荒唐，那便再算我一个吧。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_299_1#6$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"太合\"]小教头，别来无恙。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#6$1\")]\n[name=\"“禁军小教头”\"]太合？！你不是在玉门受了重伤——\n[charslot(slot = \"m\", name = \"avg_npc_299_1#2$1\")]\n[name=\"太合\"]是……伤得有点重了。身上这点功夫，还有没有原来三成都不好说。\n[name=\"太合\"]所以今天，还是希望尽可能不要动手的。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#1$1\")]\n[name=\"“禁军小教头”\"]为什么，连你也要参与进来……\n[charslot(slot = \"m\", name = \"avg_npc_299_1#1$1\")]\n[name=\"太合\"]麟少卿来得突然，我还来不及了解事情全貌。但二位都是我最敬佩的同僚，我也只能以故友身份，劝二位留一丝和谈的余地。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#7$1\")]\n[name=\"“禁军小教头”\"]你们执意要做这般大逆不道之事，还指望我视若不见吗？\n[charslot(slot = \"m\", name = \"avg_npc_299_1#1$1\")]\n[name=\"太合\"]“取忠舍义”……但谁说，这二者只能选其一呢。"
+        }
+      ],
+      "description": "太合加入麟青砚与煌的禁城行动并共同面对小教头。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J11"
+          ],
+          "from": "char_017_huang",
+          "reason": "太合加入麟青砚与煌的禁城行动并共同面对小教头。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        },
+        {
+          "evidenceIds": [
+            "J11"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太合加入麟青砚与煌的禁城行动并共同面对小教头。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 190,
+          "kind": "story",
+          "line": 143,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_017_huang|npc_3fa3fadab4354b64"
+}

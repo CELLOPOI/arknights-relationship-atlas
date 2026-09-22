@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 234,
+          "line": 178,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16d5/level_act16d5_10_beg.txt",
+          "quote": "[name=\"林\"]嗯，够利落……\n[CameraShake(duration=0.5, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"avg_npc_034#4\",name2=\"char_455_nothing_1#3\",focus=2)]\n[name=\"乌有\"]林先生……得罪。\n[Character(name=\"avg_npc_034#4\",name2=\"char_455_nothing_1#3\",focus=1)]\n[name=\"林\"]起来，是我让你做的，不用跪。\n[name=\"林\"]……你在龙门待五年。五年之后，我把你送回勾吴城，之后的事，你自己打算。\n[Character(name=\"avg_npc_034#4\",name2=\"char_455_nothing_1#3\",focus=2)]\n[name=\"乌有\"]——！\n[Character(name=\"avg_npc_034#4\",name2=\"char_455_nothing_1#3\",focus=1)]\n[name=\"林\"]走吧。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[Character]\n[Delay(time=3)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1.5)]\n[Character]\n[name=\"灰尾成员\"]乌有哥，你真要走？\n[Character(name=\"char_455_nothing_1#6\")]\n[name=\"乌有\"]……\n[Character]\n[name=\"灰尾成员\"]待在龙门挺好的。不是吗？\n[Character(name=\"char_455_nothing_1#6\")]\n[name=\"乌有\"]该做的事，还是要做。\n[Character]\n[name=\"灰尾成员\"]看来我们是留不住你了……这最后一杯酒？\n[Character(name=\"char_455_nothing_1#5\")]\n[name=\"乌有\"]余着。如果我还能活着回来，我们继续喝这杯酒。\n[name=\"乌有\"]到那会，我就不用顶着个假名了。\n[Character]\n[name=\"灰尾成员\"]——好！\n[name=\"灰尾成员\"]等你回来！\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Delay(time=0.6)]\n[PlayMusic(intro=\"$bar_intro\", key=\"$bar_loop\", volume=0.4)]\n[Background(image=\"bg_lungmen_d\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1.5)]\n[Character(name=\"avg_npc_034#4\")]\n[name=\"林\"]你真的回来了，这我倒是没有料到……\n[Character(name=\"char_455_nothing_1#4\")]\n[name=\"乌有\"]欸，话不能这么说，您对我有恩，我怎么能拍拍屁股走人呢？\n[Character(name=\"avg_npc_034#4\")]\n[name=\"林\"]呵。总是一副油腔滑调的样子，第一次见面的时候，你可紧张得要死。\n[Character(name=\"char_455_nothing_1#4\")]\n[name=\"乌有\"]哈、哈哈，林先生，打人不打脸，揭人不揭短嘛。\n[Character(name=\"avg_npc_034#4\")]\n[name=\"林\"]之后有什么打算？\n[Character(name=\"char_455_nothing_1#6\")]\n[name=\"乌有\"]……事虽了，但毕竟得罪了那么多人，想再在家乡待下去也不现实。\n[Character(name=\"avg_npc_034#4\")]\n[name=\"林\"]我有个门面可以盘给你，市中心，价不便宜。"
+        }
+      ],
+      "description": "乌有与鼠王直接交谈",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_455_nothin",
+          "reason": "乌有与鼠王直接交谈",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "乌有与鼠王直接交谈",
+          "status": "supported",
+          "to": "char_455_nothin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_6de2864568ae8369.json",
+      "sources": [
+        {
+          "endLine": 234,
+          "kind": "story",
+          "line": 178,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16d5/level_act16d5_10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇对应现实或画中连续场景",
+      "title": "画中人"
+    }
+  ],
+  "relationship_id": "char_455_nothin|npc_83e2c28380c1c6fb"
+}

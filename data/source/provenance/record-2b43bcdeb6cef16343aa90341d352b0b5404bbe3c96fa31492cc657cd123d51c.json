@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 188,
+          "line": 77,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_07_end.txt",
+          "quote": "[name=\"维恩\"]呼……哈……我们，我们是不是逃出来了？\n[Character(name=\"avg_npc_662_1#1$1\")]\n[name=\"陈\"]嗯，后面看不到追兵了。\n[name=\"陈\"]先停下来检查一下受伤的情况吧，及时处理。\n[Character(name=\"avg_1020_reed2_1#2$1\")]\n[name=\"苇草\"]我们……失去了几名伙伴。\n[Character(name=\"avg_npc_662_1#7$1\")]\n[name=\"陈\"]在这里等等吧，烟雾里有人被冲散了，也许还躲在树林里。\n[Character(name=\"avg_npc_662_1#1$1\")]\n[name=\"陈\"]之前你跟他们说好的前进方向是这边，如果他们还记得，应该会找过来。\n[Character(name=\"avg_1020_reed2_1#1$1\")]\n[name=\"苇草\"]嗯，我们只稍微停留一会儿。天就要亮了，我不会耽误你们的行程。\n[name=\"苇草\"]其他人也可以放下武器，暂时休息……\n[stopmusic(fadetime=1.5)]\n[Character(name=\"avg_1020_reed2_1#1$1\",focus=-1)]\n[name=\"风笛\"]……\n[Character(name=\"avg_1020_reed2_1#6$1\")]\n[name=\"苇草\"]……风笛？\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovement\",volume=0.7)]\n[Image(image=\"34_i06\", xScale=1.2, yScale=1.2,fadetime=0.2)]\n[background]\n[ImageTween(xFrom=200, yFrom=0, xTo=-100, yTo=-100, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1.2, yScaleTo=1.2, duration=0.3, block=false)]\n[Delay(time=0.3)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=0.7)]\n[PlayMusic(intro=\"$distressed_intro\", key=\"$distressed_loop\", volume=0.4)]\n[name=\"风笛\"]“苇草”。\n[name=\"风笛\"]所以你就是小丘郡的那个术师。\n[name=\"风笛\"]你就是那场火的操纵者。我认识你的法术，你让整条街道变成了灰烬。\n[name=\"风笛\"]你让Outcast为救你而死。\n[name=\"风笛\"]……你就是深池的“领袖”，是吗？\n[name=\"苇草\"]……\n[Dialog]\n[Delay(time=1)]\n所有人全都在看着她，在等一个回答。\n这个问题，她从过去到现在听过许多次。每次听到的时候，她都需要拼命遏制自己摇头的欲望。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character]\n[charslot]\n[musicvolume(volume=0.2, fadetime=1)]\n[delay(time=-0.4)]\n[Image(image=\"34_i02\",screenadapt=\"coverall\",block=true)]\n[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n可她想起了干草垛的触感和晚风的味道。\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Image(image=\"34_i01\",screenadapt=\"coverall\",block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n她想起帐篷前跃动的篝火，和枪尖上的火截然不同。\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[image]\n[Background(image=\"bg_coldforest\",screenadapt=\"showall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[bgeffect(name=\"$eb_dim_closeeye\",layer=1)]\n[bgeffect]\n她想起远处还未完全消散的浓烟，那一声声呼喊仿佛仍有回声。\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[background]\n[Delay(time=1)]\n[Subtitle(text=\"这一次，她不再想摇头。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[dialog]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]\n[Dialog]\n[Image(image=\"34_i06\", xScale=1.1, yScale=1.1,fadetime=1,x=-30,y=-30)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[ImageTween(xFrom=-30, yFrom=-30, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=0.85, yScaleTo=0.85, duration=20, block=false)]\n[Delay(time=4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[musicvolume(volume=0.4, fadetime=1)]\n[Delay(time=1)]\n[name=\"苇草\"]我是。\n[name=\"苇草\"]在小丘郡的时候，我想以死永远摆脱我的身份，所以源石炮弹落下时我没有躲开。\n[name=\"苇草\"]罗德岛救起我之后，我试图为自己的命运扳回什么，所以我踏上这趟旅程，试图抚平一些深池的暴力留下的伤痕。\n[multiline(name=\"苇草\")]但此刻，对于你的这个问题，我只会回答，\n[multiline(name=\"苇草\")]我是。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2,block=true)]\n[Character]\n[image]\n[Delay(time=0.5)]\n[Background(image=\"34_g4_swamp_n\",screenadapt=\"coverall\")]\n[Delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_222_bpipe_1#5\",name2=\"avg_1020_reed2_1#1$1\",focus=1)]\n[name=\"风笛\"]那些死去的人……因深池而死的人。“塔拉人”。\n[name=\"风笛\"]深池……欺骗他们了，不是吗？\n[Character(name=\"avg_222_bpipe_1#5\",name2=\"avg_1020_reed2_1#1$1\",focus=2)]\n[name=\"苇草\"]……过去我会说，那些人的生命，不过是深池之火的燃料。\n[name=\"苇草\"]为了大局，为了全体塔拉人能起身反抗身上的不公，这把火必须烧得很旺很旺。\n[Character(name=\"avg_222_bpipe_1#5\",name2=\"avg_1020_reed2_1#12$1\",focus=2)]\n[name=\"苇草\"]但那些话……在我被Outcast救下，在我重新走过这些路之后，我没有办法再说出口。\n[name=\"苇草\"]实际上，总有一些死亡，原本是可以避免的。\n[name=\"苇草\"]我不能说，所有的死难者，他们都是为深池的大业而牺牲的……塔拉人是一个又一个活着的，活生生的人。\n[name=\"苇草\"]我记得深池犯的错……尤其是我亲手犯下的那些。我不会去掩盖这些丑陋的伤痕。\n[Character(name=\"avg_222_bpipe_1#7\",name2=\"avg_1020_reed2_1#12$1\",focus=1)]\n[name=\"风笛\"]还有……“赤铁近卫队”。\n[name=\"风笛\"]今晚想带走你的深池士兵，是威灵顿公爵的人。\n[name=\"风笛\"]你们……是公爵的私兵？\n[Character(name=\"avg_222_bpipe_1#7\",name2=\"avg_1020_reed2_1#12$1\",focus=2)]\n[name=\"苇草\"]不，深池的背后并没有……也不该有任何势力。\n[name=\"苇草\"]如果有，那就是……所有想要安宁的家乡，想在自己的土地上自由行走的塔拉人。\n[Character(name=\"avg_222_bpipe_1#7\",name2=\"avg_1020_reed2_1#12$1\",focus=1)]\n[name=\"风笛\"]可是你很怕深池。\n[name=\"风笛\"]要是深池真的如你所说，是为了保护塔拉人而战，那你在害怕什么？"
+        }
+      ],
+      "description": "Outcast曾亲自救下苇草，构成具体既往互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F14"
+          ],
+          "from": "char_261_sddrag",
+          "reason": "Outcast曾亲自救下苇草，构成具体既往互动。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [
+            "F14"
+          ],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "Outcast曾亲自救下苇草，构成具体既往互动。",
+          "status": "supported",
+          "to": "char_261_sddrag"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 188,
+          "kind": "story",
+          "line": 77,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    }
+  ],
+  "relationship_id": "char_261_sddrag|npc_617e6ed434c6e138"
+}

@@ -1,0 +1,216 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 149,
+          "line": 122,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "quote": "[name=\"阿米娅\"]   PRTS……？\n[Character(name=\"char_002_amiya_1#1\", focus=-1)]\n[name=\"PRTS\"]   应急神经连接请求被意外触发了。\n[name=\"PRTS\"]   罗德岛号方面也受到干扰，只有神经连接可以勉强进行。\n[name=\"PRTS\"]   无法用电波通讯联系到尚未回到罗德岛的凯尔希。\n[name=\"PRTS\"]   已经确认过阿米娅您的安全，那么我的任务就已经完成了。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   这东西……\n[name=\"杜宾\"]   现在真的是时候吗？\n[Character(name=\"char_002_amiya_1#1\", focus=-1)]\n[name=\"PRTS\"]   不需要使用您的神经连接操作罗德岛的话，我将在稍后断开连接。\n[name=\"PRTS\"]   如果打扰到了您的派对，万分抱歉。\n[Character(name=\"char_002_amiya_1#5\", focus=1)]\n[name=\"阿米娅\"]   不不！别挂断……我需要你帮个忙。\n[name=\"阿米娅\"]   杜宾，博士需要这些帮助。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   了解了，抓紧时间。\n[Character(name=\"char_002_amiya_1#5\", focus=1)]\n[name=\"阿米娅\"]   博士，PRTS也是我们的……同伴，它会指导你下一步的动作。\n[name=\"阿米娅\"]   虽然时间很紧张，但现在，我要为你重新连接至罗德岛的后勤系统。\n[name=\"阿米娅\"]   这样在我们作战的时候，你也能利用它为我们取得优势。 \n[name=\"阿米娅\"]   可能会很难习惯，和说话不太一样，但只要好好使用，就一定能使整个救援作战更加顺利，所以请你……\n[name=\"阿米娅\"]   ……相信我吧。按你想要的那样，按你熟悉的那样……\n[name=\"阿米娅\"]   PRTS……开始吧。\n[Character(name=\"char_002_amiya_1#1\", focus=-1)]\n[name=\"PRTS\"]   需要确认管理员身份，请选择识别方式。\n[Character(name=\"char_002_amiya_1#2\", focus=1)]\n[name=\"阿米娅\"]   啊，博士……请你说句话。"
+        }
+      ],
+      "description": "阿米娅与PRTS通过神经连接直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅与PRTS通过神经连接直接交谈。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "阿米娅与PRTS通过神经连接直接交谈。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 149,
+          "kind": "story",
+          "line": 122,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 517,
+          "line": 488,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "quote": "[Decision(options=\"摩根小队，去东侧入口。;自救军三队分头骚扰北门与西南门。;可露希尔继续负责侦察和支援。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_405_1#1$1\")]\n[name=\"摩根\"]好的，博士。达格达，我们走。\n[Predicate(references=\"2\")]\n[Character(name=\"avg_npc_398_1#1$1\")]\n[name=\"自救军战士\"]收到。行动！\n[Predicate(references=\"3\")]\n[Character(name=\"avg_npc_411_1#7$1\")]\n[name=\"可露希尔\"]没问题，交给我吧。\n[Predicate(references=\"1;2;3\")]\n[dialog]\n[Character]\n[Decision(options=\"阿米娅，给其他人发信号。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_402_1#4$1\")]\n[name=\"费斯特\"]其他人？罗德岛还有人在地面上吗？\n[Character(name=\"avg_npc_394_1#1$1\")]\n[name=\"阿米娅\"]是的，费斯特先生。等他们收到信号，他们会知道今晚我们在这里有行动。\n[name=\"阿米娅\"]您能看到他们的位置吗，博士？应该还不能吧？距离还不够近。\n[Character(name=\"avg_npc_402_1#4$1\")]\n[name=\"费斯特\"]你不是说他们不在附近？呃，博士难道有什么特别的源石技艺？\n[dialog]\n[Character]\n[Decision(options=\"不是，是PRTS在帮我。;是的，我能透视。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_402_1#11$1\")]\n[name=\"费斯特\"]什么……什么神奇的技术？\n[Character(name=\"avg_npc_402_1#7$1\")]\n[name=\"费斯特\"]博士，等回去以后，你可一定要好好跟我说一说。"
+        }
+      ],
+      "description": "博士可选答复明确说明PRTS帮助定位；阿米娅正参与这段对话，可露希尔仍在近前执行侦察任务，未见离场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR06"
+          ],
+          "from": "char_002_amiya",
+          "reason": "博士可选答复明确说明PRTS帮助定位；阿米娅正参与这段对话，可露希尔仍在近前执行侦察任务，未见离场。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 517,
+          "kind": "story",
+          "line": 488,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 240,
+          "line": 167,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-03_beg.txt",
+          "quote": "[name=\"凯尔希\"]  Dr.{@nickname}。\n[name=\"凯尔希\"]  我们没有尽释前嫌这个选项，道德不能使我们这样的人变成更好的人。\n[Character(name=\"char_003_kalts_1\", name2=\"char_002_amiya_1#7\", focus=2)]\n[name=\"阿米娅\"]  医生。\n[Character(name=\"char_003_kalts_1\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"凯尔希\"]  我没有拒绝你提议的意思，阿米娅。\n[name=\"凯尔希\"]  只是，纯粹善意的宽恕，以及放弃自己愤怒的权力，只是让我们变得无限软弱。\n[name=\"凯尔希\"]  我会一直保留这种权力。\n[name=\"凯尔希\"]  不过现在，我会搁置我的偏见，我们先去解决核心城这件事。\n[name=\"凯尔希\"]  彻底地解决它。\n[Decision(options=\"阿米娅，我站在你这边。;……;凯尔希，合作愉快。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  嗯……嗯。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  不不，没有！我不是觉得不好啦！其实是我……我有点，唔，我还有点反应不过来。\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  ……我相信博士会在最关键的时刻协助我。\n[name=\"阿米娅\"]  只不过，以前的我想着的，是让博士来指导我，在这些最困难的时候，做到那些我办不到的事……\n[name=\"阿米娅\"]  我也会变得更勇敢，只要博士在我身边。以前我就是这么想的。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  阿米娅。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  啊，唔……医生，我没事。我知道的，我现在已经不会那么依靠别人了。\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  但是博士，只是对博士……我原本真的是这么想的。\n[name=\"阿米娅\"]  现在，博士，我们是肩并着肩了。从和你重逢开始，我就一直想找个机会，告诉博士，告诉博士……\n[name=\"阿米娅\"]  我长大了。我已经不用博士，凯尔希医生和……唔……遮风挡雨。\n[Character(name=\"char_003_kalts_1#2\")]\n[name=\"凯尔希\"]  ……\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  我会用成绩回应博士的信任。一定。\n[name=\"阿米娅\"]  欸！肩并肩是形容啊，不可以说我矮！我还在长个子！……唔！！我很快就会长得和博士长得一样高了，肯定！\n[name=\"阿米娅\"]  ……我只是很高兴，博士。嗯。只是……很高兴。\n[Predicate(references=\"2\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ……\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  ……\n[Character]\n[name=\"PRTS\"]  我感觉这里冷场了。需要我把指挥室的温度调高一些吗？\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  博士想保留自己的观点，并没有任何问题。\n[name=\"阿米娅\"]  我也不希望强迫博士把想法说出来……\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  我知道的，我们……我们每个人都有自己的空间。\n[name=\"阿米娅\"]  只是，博士，哪怕只是给我一点点帮助……\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  阿米娅。没必要示弱。\n[name=\"凯尔希\"]  Dr.{@nickname}有擅长的事，也有不擅长的事。能力需要自行复苏的时间，Dr.{@nickname}也会在正确的时候做出正确的选择。\n[name=\"凯尔希\"]  这个人不会忘记从苏醒直至现在发生在自己面前的一切。\n[name=\"凯尔希\"]  ——如果我真的可以这么期待。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  凯尔希医生，这么说也太伤人了……！\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  博士不爱说话，只是博士不愿说多余的话。博士会直接抓住问题的核心，是吧？\n[Predicate(references=\"3\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ——\n[name=\"凯尔希\"]  如果你愿意的话。\n[name=\"凯尔希\"]  我没想过你会这么爽快地答应，甚至有理由怀疑你在语句里设下了什么陷阱。\n[name=\"凯尔希\"]  ……但又何妨呢？\n[name=\"凯尔希\"]  Dr.{@nickname}。合作愉快。\n[Decision(options=\"我们有什么计划？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  啊，嗯……！\n[name=\"阿米娅\"]  唔，博士是想问哪方面的计划呢？\n[Decision(options=\"首先要有进核心城的办法。;怎么去？;要直接走到塔露拉面前说“你好”，对不对。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  罗德岛确实有属于罗德岛的方法。\n[name=\"凯尔希\"]  请对照报告书。我会解释计划的每个部分。\n[name=\"凯尔希\"]  4小时后，我们将在切尔诺伯格核心城的必经之路附近引发一场小规模的沙暴。"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_002_amiya",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 240,
+          "kind": "story",
+          "line": 167,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 378,
+          "line": 320,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st02.txt",
+          "quote": "[dialog]\n[Decision(options=\"我们还有一个选择。;既然没法撤退也不想停下，我们还能做什么呢？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]博士，你是想说，我们继续前进？\n[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"中控人员\"]不行，能见度太低了！\n[name=\"中控人员\"]就算有辅助驾驶，我也找不到路，我们萨尔贡人都知道，像这样一头扎进沙暴就是找死！\n[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]卡玛尔先生，你的顾虑我能理解。\n[name=\"阿米娅\"]但是，我相信博士。\n[character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]Dr.{@nickname}，你有把握带领罗德岛驶过天灾区吗？\n[dialog]\n[Decision(options=\"我需要地灵继续测算气旋实时坐标。;有。;我需要PRTS帮我计算地表源石能量波形。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]好，请大家一起配合博士。\n[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"中控人员\"]用这么短的时间算出一条安全的路线，这听起来有点像开玩笑。\n[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]博士的话，一定可以。\n[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"中控人员\"]我倒是听说过博士的厉害……可是开船不同于战地指挥啊！\n[Character(name=\"char_013_riop\",name2=\"avg_npc_012\",focus=2)]\n[name=\"领航员B\"]我也没什么把握……当然，我并不怀疑博士的能力，只是这种实时计算的方法，我闻所未闻……\n[dialog]\n[Character(name=\"char_183_skgoat_1\")]\n[delay(time=1)]\n[name=\"地灵\"]……说不定真能行得通。\n[Character(name=\"char_183_skgoat_1\",name2=\"avg_npc_012\",focus=2)]\n[name=\"领航员B\"]地灵小姐，你能看懂博士飞快写出来的这些公式？\n[Character(name=\"char_183_skgoat_1\",name2=\"avg_npc_012\",focus=1)]\n[name=\"地灵\"]看不懂。\n[name=\"地灵\"]不过我觉得有些熟悉。\n[name=\"地灵\"]对了……类似的公式，我前两天听一位新来的天才后辈提起过，只是博士写的要复杂且富有变化得多。\n[dialog]\n[Decision(options=\"路线给领航员了。;需要即时变向的话还请中控人员配合。;阿米娅，准备好了。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]那我们就要前进了！\n[dialog]\n[Decision(options=\"我辅助你进行指挥。;交给我吧。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Predicate(references=\"1\")]\n[name=\"阿米娅\"]不，博士，这样效率太低了。\n[name=\"阿米娅\"]罗德岛眼下的情况只需要一名指挥官。\n[Predicate(references=\"2\")]\n[name=\"阿米娅\"]好的，博士，请再往前走一些，到我的位置上来。\n[Predicate(references=\"1;2\")]\n[character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]Dr.{@nickname}，从看到你出现在舰桥上的那一刻起，我就相信情况一定会有转机。\n[name=\"阿米娅\"]舰桥上的各位请注意——\n[name=\"阿米娅\"]从现在开始，罗德岛本舰的指挥权将完全移交给Dr.{@nickname}！\n[dialog]\n[Decision(options=\"通知可露希尔，各舱室进入节能模式！;集中供能给引擎！\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_012\")]\n[name=\"领航员B\"]是，博士！"
+        }
+      ],
+      "description": "阿米娅在舰桥听取博士需要PRTS计算的方案并明确组织众人配合。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅在舰桥听取博士需要PRTS计算的方案并明确组织众人配合。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本篇候选窗口未见反向知晓或往来证据。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 378,
+          "kind": "story",
+          "line": 320,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 340,
+          "line": 289,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "quote": "[name=\"可露希尔\"]阿米娅，似乎小车们的状态已经暂时恢复正常了。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#1$3\", focus=\"r\")]\n[name=\"阿米娅\"]弗里斯顿先生的状态如何？\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#9$1\", duration = 0)]\n[name=\"可露希尔\"]呃，除了有点生我的气，其他都还挺好的。\n[name=\"可露希尔\"]嘿嘿，多亏他想到能借助他的核心代码直接覆写与PRTS相关的底层代码，否则还真挺棘手的。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#6$3\", focus=\"r\")]\n[name=\"阿米娅\"]……可露希尔小姐，如今我们拥有的PRTS权限已经全部失效？\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]\n[name=\"可露希尔\"]恐怕是这样。\n[name=\"可露希尔\"]PRTS主动屏蔽了我们所有人对其的访问，如今它的所有运行都在黑箱中完成。\n[name=\"可露希尔\"]虽然凯尔希在试图争夺其控制权，但我担心她也没法坚持太久。\n[dialog]\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = false)]\n[Decision(options=\"强制切断PRTS的核心能源。;强制启动备用系统争夺本舰控制权。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[interlude(channel = 3, switch = true)]\n[name=\"可露希尔\"]强制切断核心能源意味着我们必须直接进入Abyss内部，这一计划的风险很大。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#8$3\", focus=\"r\")]\n[name=\"阿米娅\"]那我会保护博士。\n[name=\"阿米娅\"]而且，我们并非孤身作战，精英干员们都站在我们的身后。\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#6$3\", focus=\"r\")]\n[name=\"阿米娅\"]我不会放弃博士，也不会放弃罗德岛。\n[dialog]\n[Predicate(references=\"2\")]\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]\n[name=\"可露希尔\"]我的ZOOT系统并不能完全做到与PRTS争夺控制权。\n[name=\"可露希尔\"]我与凯尔希进行过此种情况的演算。\n[name=\"可露希尔\"]若是借助本舰的能源动力强行启动，短时间内或许它能够拿回某些非核心区域的控制权……\n[name=\"可露希尔\"]但每次的结果都是过载启动后它的核心元件直接损毁。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#8$3\", focus=\"r\")]\n[name=\"阿米娅\"]可露希尔小姐，你早就有判断了，对吧？\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#9$1\", duration = 0)]\n[name=\"可露希尔\"]哈哈，我可以直接开干。\n[name=\"可露希尔\"]我能造出一个，就一定能造出第二个。\n[dialog]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = false)]\n[Decision(options=\"做两手准备吧。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"突入Abyss的同时启用备用指挥系统。\", values=\"1\")]\n[Predicate(references=\"1\")]"
+        }
+      ],
+      "description": "阿米娅直接参与对PRTS失控的处置。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D12"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅直接参与对PRTS失控的处置。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "D12"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "阿米娅直接参与对PRTS失控的处置。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 340,
+          "kind": "story",
+          "line": 289,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_002_amiya|npc_c8a2caad4366c8fa"
+}

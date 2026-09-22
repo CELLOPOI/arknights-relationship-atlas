@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 76,
+          "line": 42,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_06_beg.txt",
+          "quote": "[name=\"伊内丝\"]  你啊，不是总喜欢想很多吗？比起干想，不如去找他那种人聊聊。\n[name=\"伊内丝\"]  我们也许都能从他身上学到不少。\n[Character(name=\"avg_npc_047\")]\n[name=\"赫德雷\"]  你们说的是……\n[Character]\n[Dialog]\n[Delay(time=1)]\n[name=\"？？？\"]  打扰，我想，单独见见你们。\n[Character(name=\"avg_npc_046#2\")]\n[name=\"W\"]  ……真是说来就来，你赶好的吗？\n[Character(name=\"avg_npc_047\")]\n[name=\"赫德雷\"]  您是……\n[Character]\n[Dialog]\n[Character(name=\"avg_npc_025_1\",fadetime=1,block=true)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[delay(time=1)]\n[name=\"？？？\"]  我，是谁，暂且，不重要。\n[name=\"？？？\"]  现在，我并非，以领袖的名义，来见你们，请放心。\n[name=\"？？？\"]  我只是想，来听一听……\n[name=\"？？？\"]  同胞，和家乡，发生的事情。\n[name=\"？？？\"]  我知道，在卡兹戴尔，发生了，许多事情。\n[name=\"？？？\"]  我，有所耳闻，却不知详情。\n[Character(name=\"avg_npc_025_1\", name2=\"avg_npc_046#2\", focus=2)]\n[name=\"W\"]  你只是个乌萨斯人。\n[Character(name=\"avg_npc_025_1\")]\n[name=\"？？？\"]  这两者，并不冲突。\n[name=\"？？？\"]  血脉，从未改变。黑暗，根深蒂固。\n[name=\"？？？\"]  我虽从未在意，但也都，无法动摇。\n[Character(name=\"avg_npc_025_1\", name2=\"avg_npc_046#2\", focus=2)]\n[name=\"W\"]  那么就算你知道了，又打算做什么？\n[name=\"W\"]  都已经是很久以前的事情了——\n[Character(name=\"avg_npc_025_1\")]\n[name=\"？？？\"]  不会，做什么，也不能，做什么。\n[name=\"？？？\"]  只是，在很久以前，我见过，特蕾西娅。"
+        }
+      ],
+      "description": "爱国者来到三位萨卡兹身边，赫德雷与W参与连续交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "爱国者来到三位萨卡兹身边，赫德雷与W参与连续交流。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "爱国者来到三位萨卡兹身边，赫德雷与W参与连续交流。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 76,
+          "kind": "story",
+          "line": 42,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生于黑夜所述时段",
+      "title": "生于黑夜"
+    }
+  ],
+  "relationship_id": "char_4088_hodrer|npc_e877f731a67498e3"
+}

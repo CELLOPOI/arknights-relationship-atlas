@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 341,
+          "line": 311,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_03_beg.txt",
+          "quote": "[name=\"杜小姐\"]  ——呵！\n[delay(time=1)]\n[Character(name=\"avg_1021_kroos2_1#7$1\",name2=\"avg_npc_296_1#5$1\", focus=1)]\n[name=\"克洛丝\"]  唔。身手还不赖嘛。\n[Character(name=\"avg_1021_kroos2_1#7$1\",name2=\"avg_npc_296_1#6$1\", focus=2)]\n[name=\"杜小姐\"]  ……根本就没碰着你，别装蒜。\n[Character(name=\"avg_1021_kroos2_1#10$1\",name2=\"avg_npc_296_1#6$1\", focus=1)]\n[name=\"克洛丝\"]  怎么动起手来就和变了个人一样……小乌有也有这种感觉，你们大炎人都这样？\n[Character(name=\"avg_1021_kroos2_1#10$1\",name2=\"avg_npc_296_1#1$1\", focus=2)]\n[name=\"杜小姐\"]  我只是不想伤人。\n[Character(name=\"avg_1021_kroos2_1#8$1\",name2=\"avg_npc_296_1#1$1\", focus=1)]\n[name=\"克洛丝\"]  在你眼里，我们不是偷了东西的贼吗，对待小偷而言，是不是太温柔了点？\n[Character(name=\"avg_1021_kroos2_1#8$1\",name2=\"avg_npc_296_1#7$1\", focus=2)]\n[name=\"杜小姐\"]  少贫。\n[Character(name=\"avg_1021_kroos2_1#9$1\",name2=\"avg_npc_296_1#7$1\", focus=1)]\n[name=\"克洛丝\"]  这次不上当了啊。\n[Character(name=\"avg_1021_kroos2_1#9$1\",name2=\"avg_npc_296_1#8$1\", focus=2)]\n[name=\"杜小姐\"]  呵……那咱们互相都坦诚一些，如何？\n[Character(name=\"avg_1021_kroos2_1#11$1\",name2=\"avg_npc_296_1#8$1\", focus=1)]\n[name=\"克洛丝\"]  好啊，我不反对。但提前说好哦，我可没有替鲤先生发言。\n[Character(name=\"avg_1021_kroos2_1#11$1\",name2=\"avg_npc_296_1#1$1\", focus=2)]\n[name=\"杜小姐\"]  无所谓，你和那个神棍似的蓬头小哥，都不是省油的灯。早点把话说开，对大家都好。\n[name=\"杜小姐\"]  你说你是做什么的？\n[Character(name=\"avg_1021_kroos2_1#9$1\",name2=\"avg_npc_296_1#1$1\", focus=1)]\n[name=\"克洛丝\"]  罗德岛行动干员，代号克洛丝。\n[Character(name=\"avg_1021_kroos2_1#9$1\",name2=\"avg_npc_296_1#1$1\", focus=2)]\n[name=\"杜小姐\"]  ……那个叫乌有的也是代号咯？\n[Character(name=\"avg_1021_kroos2_1#8$1\",name2=\"avg_npc_296_1#1$1\", focus=1)]\n[name=\"克洛丝\"]  差不多吧。虽然还没正式入职呢。\n[Character(name=\"avg_1021_kroos2_1#8$1\",name2=\"avg_npc_296_1#6$1\", focus=2)]\n[name=\"杜小姐\"]  隐姓埋名，笑里藏刀，你们这些人真是够装腔作势的。"
+        }
+      ],
+      "description": "双方直接交手并交换身份。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E57"
+          ],
+          "from": "char_124_kroos",
+          "reason": "双方直接交手并交换身份。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        },
+        {
+          "evidenceIds": [
+            "E57"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "双方直接交手并交换身份。",
+          "status": "supported",
+          "to": "char_124_kroos"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 341,
+          "kind": "story",
+          "line": 311,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_124_kroos|npc_ebce98658cbda852"
+}

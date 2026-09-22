@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 120,
+          "line": 77,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_07_end.txt",
+          "quote": "[name=\"莫斯提马\"]   真是乱成一锅粥啊。\n[Character(name=\"char_213_mostma_1#2\",name2=\"char_325_bison_1#2\",focus=2)]\n[name=\"拜松\"]   是啊——欸！？莫斯提马小姐？\n[Character(name=\"char_213_mostma_1#3\",name2=\"char_325_bison_1#2\",focus=1)]\n[name=\"莫斯提马\"]   但是看你们还挺有活力的。\n[Character(name=\"char_213_mostma_1#3\",name2=\"char_102_texas_1\",focus=2)]\n[name=\"德克萨斯\"]   ……你什么时候来的？\n[Character(name=\"char_213_mostma_1#2\",name2=\"char_102_texas_1\",focus=1)]\n[name=\"莫斯提马\"]   老板喊我来的嘛。\n[Dialog]\n[Character]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"avg_npc_027#2\")]\n[name=\"卡彭\"]   嘁，是那个奇怪的萨科塔人。\n[Character(name=\"avg_npc_028#3\")]\n[name=\"甘比诺\"]   给我滚开！\n[dialog]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"char_213_mostma_1#3\")]\n[PlaySound(key=\"$p_skill_blacktimewand_shot\", volume=0.9)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[delay(time=1)]\n[Character(name=\"avg_npc_028#3\")]\n[name=\"甘比诺\"]   ——\n[Character(name=\"char_213_mostma_1#3\")]\n[name=\"莫斯提马\"]   好了好了，冷静一点。\n[name=\"莫斯提马\"]   在这里打赢了又能有什么结果？各退一步吧。\n[Character(name=\"avg_npc_031\")]\n[name=\"黑帮A\"]   她把首领给挡住了！？\n[name=\"黑帮B\"]   不对！那是法杖！首领小心！她是个术师！\n[Character(name=\"avg_npc_027#4\")]\n[name=\"卡彭\"]   ……看来没有和她正面作战是正确的选择……喂，先不要靠近他们！\n[Character(name=\"avg_npc_028#2\")]\n[name=\"甘比诺\"]   ……我从没见过你这样的萨科塔，不，你是萨卡兹？你到底是什么？\n[Character(name=\"avg_npc_028#2\",name2=\"char_213_mostma_1#3\",focus=2)]\n[name=\"莫斯提马\"]   普通的信使啊，不然呢？"
+        }
+      ],
+      "description": "莫斯提马与卡彭直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_213_mostma",
+          "reason": "莫斯提马直接介入卡彭所在战斗。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭认出并评价莫斯提马。",
+          "status": "supported",
+          "to": "char_213_mostma"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 120,
+          "kind": "story",
+          "line": 77,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "最终混战期间",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "char_213_mostma|npc_e565b7639574735d"
+}

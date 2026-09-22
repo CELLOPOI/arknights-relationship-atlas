@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 92,
+          "line": 36,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_09_beg.txt",
+          "quote": "[name=\"大祭司\"]别激动，多利。这个乐手也没胡说，在叙拉古的传说里，羊确实就是这么个形象。\n[name=\"大祭司\"]你要实在气不过，就从羊花车蹦到他头上踩几脚，反正今天晚上发生什么都没人会觉得稀奇。\n[name=\"多利\"]我只是曾经喜欢被那些狼追着跑，在叙拉古的那阵子，和他们捉迷藏算是我为数不多的乐趣……\n[name=\"多利\"]结果叙拉古人却以为我“害怕”那些狼？真是人言可畏。\n[name=\"大帝\"]这个成语可不是这么用的。\n[name=\"多利\"]你在说风凉话吗？\n[name=\"多利\"]大帝，你在叙拉古人的认知里是什么样的？\n[name=\"大帝\"]大嘴巴，告诉他黑袍歌唱家的伟大事迹！\n[name=\"大祭司\"]呃……从前有个家族领袖非常讨厌音乐，他禁止了音乐在他的城市出现，直到许多年后一位黑袍企鹅歌手到来。\n[name=\"大祭司\"]歌手在广场上自顾自唱歌，市民们对音乐没有概念，他们只觉得吵闹，所以想要把歌手抓起来交给家族领袖处罚。\n[name=\"大祭司\"]可歌手非常灵活，再精壮的小伙子也抓不住他……\n[name=\"大祭司\"]歌声不停，越来越多的人加入抓捕的队伍，渐渐，歌手与市民的搏斗变成了一场所有人都卷入其中的舞蹈。\n[name=\"大祭司\"]歌手就这么唱了三天三夜，直到怒不可遏的家族领袖亲自来抓他。可家族领袖一出门就被狂欢的人潮淹没，再也没有人见过他——\n[name=\"多利\"]为什么听起来像是聪明又正义的大英雄，可大帝明明不如我有智慧。\n[name=\"大帝\"]这不是智慧，是态度。是潘格温伯爵对音乐的态度，自由与抗争！多利，我送你的签名专辑你是不是都没有听？\n[name=\"多利\"]……\n[name=\"大祭司\"]走吧，别挡住后面人的路。\n[dialog]\n[PlaySound(key=\"$d_avg_cheer_street\", volume=1)]\n[PlaySound(key=\"$d_avg_carnival_crown\", volume=0, loop=true, channel=\"carn\")]\n[SoundVolume(volume=0.5, channel=\"carn\",fadetime=2)]\n[Image(image=\"56_i10_2\", screenadapt=\"coverall\", xScale=1.75, yScale=1.75, y=200, fadetime=2)]\n[ImageTween(xScaleFrom=1.75, yScaleFrom=1.75, xScaleTo=1.7, yScaleTo=1.7, duration=10, block=false)]\n[delay(time=2)]\n[name=\"乐手\"]（兴奋地吹奏）\n[name=\"杂耍艺人\"]（兴奋地表演火舞）\n[name=\"乐手\"]（更卖力地吹奏）\n[name=\"杂耍艺人\"]（不服输地炫技）\n[dialog]\n[Image(image=\"56_i10_2\", screenadapt=\"coverall\", xScale=1.75, yScale=1.75, y=-270, fadetime=3)]\n[ImageTween(xFrom=470, xTo=400, duration=20, block=false)]\n[name=\"路人A\"]阿基莱，我的阿基莱呢？\n[name=\"路人B\"]唉，女士，您才发现自己和陌生人并肩走了半个小时吗？\n[name=\"路人A\"]啊，我认得你的声音，你是之前特尔尼城的那个法官！对不起，是莱卡家族的人逼迫我做伪证——\n[name=\"路人B\"]（敲了敲面具）那都是过去的事了。女士，您违反了狂欢节的规则。\n[name=\"路人B\"]看看身边，大家都戴上了面具，今夜，无所谓身份、贫富、种族，忘却过往的仇恨……请我喝杯啤酒吧，为新沃尔西尼举杯！\n[dialog]\n[SoundVolume(volume=1, channel=\"carn\",fadetime=2)]\n[Image(image=\"56_i10_2\", screenadapt=\"coverall\", xScale=1.15, yScale=1.15, fadetime=2)]\n[ImageTween(xScaleFrom=1.15, yScaleFrom=1.15, xScaleTo=1, yScaleTo=1, duration=30, block=false)]\n[delay(time=2)]\n人群从三位兽主的身边经过，多利的分身往来穿梭，所有人都看得见它们，但无人大惊小怪。\n身处狂欢的洪流之中，没有一朵浪花称得上异样。\n十多辆巨型花车前后相连，狼、羊、企鹅、猫、狗……传说中散落大地各处的野兽们齐聚在同一个城市，引领着人群向前。\n传统戏剧表演和即兴演出挤满了街道，乐手与杂耍艺人像是比赛般炫技，食品车车主不得不一次次提高音量来兜售啤酒、披萨和冰淇淋。\n[name=\"多利\"]这里比喷薄的火山还要热闹。\n[name=\"大祭司\"]总比之前的狂欢节要好，连肥仔都不喜欢那样的派对。\n[name=\"大帝\"]我不会把所有混黑帮的戴着面具杀来杀去搞得整个城市都血淋淋的行为称为“派对”，别侮辱这个词。\n[name=\"大帝\"]一棵树上结不出两种果子，叙拉古人和那些狼真的太像了。\n[name=\"大帝\"]几千上万年前，我们嫌那些只知道厮杀的狼太蠢，每次开派对都不带他们，结果他们自己鼓捣出了所谓的狼主游戏。\n[name=\"大帝\"]不过好在叙拉古人总算有了点长进，知道生活中有比杀人和抢地盘更值得庆祝的事情。\n[name=\"大帝\"]至于那群一根筋的狼——\n[name=\"大祭司\"]肥仔，我们感受到的“不对劲”，他们肯定也感受到了……\n[name=\"大祭司\"]有些事还是得找他们商量，谁让我们是“同胞”呢。\n[name=\"大祭司\"]我已经见过他们里面没那么蠢的了，但在那无聊的游戏结束前，他们是听不进去任何话的。\n[name=\"大帝\"]按炎国话说，暂时先“入乡随俗”吧。\n[name=\"大帝\"]别辜负派对！叙拉古人最好安排了些更有趣的节目！"
+        }
+      ],
+      "description": "大帝与大祭司在游行中直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C13"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝与大祭司在游行中直接交谈。",
+          "status": "supported",
+          "to": "npc_ec93b1be1e69c694"
+        },
+        {
+          "evidenceIds": [
+            "C13"
+          ],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "大帝与大祭司在游行中直接交谈。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 92,
+          "kind": "story",
+          "line": 36,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "揭幕者们"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 249,
+          "line": 101,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_08_beg.txt",
+          "quote": "[name=\"嘉维尔\"]  哦，我记得啊，萨尔贡的移动城市正好开过了我们这里附近嘛，从那天之后你就变得怪怪的了。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1\", focus=2)]\n[name=\"森蚺\"]  我反而觉得不可思议，嘉维尔。\n[name=\"森蚺\"]  看到那样的东西，难道不会觉得惊讶吗？不会觉得震撼吗？不会觉得自己渺小吗？\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1\", focus=1)]\n[name=\"嘉维尔\"]  你问我那天的感受，那确实是觉得“哇，好大啊”，可是那和我有什么关系？\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1\", focus=2)]\n[name=\"森蚺\"]  你总是这样，嘉维尔。\n[name=\"森蚺\"]  在那天之后，我就对和你打架失去了兴趣。\n[name=\"森蚺\"]  我拜托依娜姆帮我寻找和机械有关的书籍，开始学习萨尔贡语和机械知识。\n[name=\"森蚺\"]  然后我遇到了大祭司，我们两个人开始一起制造大丑。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1\", focus=1)]\n[name=\"嘉维尔\"]  这我知道啊，我不是还去找过你。\n[name=\"嘉维尔\"]  嗯？这么说来，那边那只怪家伙就是你的隐形朋友？\n[Dialog]\n[Character]\n[ShowItem(image=\"item_act13_1\", fadetime=0.1)]\n[CameraShake(duration=1.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"大祭司\"]  没错！\n[Character]\n[name=\"宴\"]  哇，什么时候到我身边来的！？\n[Dialog]\n[Character]\n[HideItem(fadetime=1,block=true)]\n[Character(name=\"char_201_moeshd_summer\",name2=\"avg_npc_074\",focus=1)]\n[name=\"可颂\"]  总觉得跟大帝老板一样……\n[Character(name=\"char_201_moeshd_summer\",name2=\"avg_npc_074\",focus=2)]\n[name=\"大祭司\"]  大帝？你是说那只企鹅吗？\n[Character(name=\"char_201_moeshd_summer\",name2=\"avg_npc_074\",focus=1)]\n[name=\"可颂\"]  是的，咦，你认识老板吗？\n[Character(name=\"char_201_moeshd_summer\",name2=\"avg_npc_074\",focus=2)]\n[name=\"大祭司\"]  认识认识，当然认识，虽然我们大概有几十年没见面了，咦，是几十年吗？还是几百年？算了，反正你身上确实有那家伙的气味。\n[Character(name=\"char_337_utage_summer_1#3\")]\n[name=\"宴\"]  几百年是怎么回事啊……\n[Character(name=\"char_201_moeshd_summer\",name2=\"avg_npc_074\",focus=1)]\n[name=\"可颂\"]  诶诶诶，没想到老板在这里还有朋友！\n[Character(name=\"char_187_ccheal_1#3\")]\n[name=\"嘉维尔\"]  原来你真的存在啊，我一直以为是祖玛玛脑子出问题了出现了幻觉，在罗德岛的时候我还专门研究过类似的病症咧。\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]  噢，你不知道，嘉维尔，小时候你来找祖玛玛的时候，我一直在旁边看着！\n[Character]\n[name=\"大祭司\"]  就像这样！\n[Character(name=\"char_187_ccheal_1#2\")]\n[name=\"嘉维尔\"]  消失了！\n[Character]\n[Dialog]\n[Character(name=\"avg_npc_074\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"大祭司\"]  哈哈哈，我平时是不会出现在你们的面前的，但是现在要驾驶大丑，所以就没办法啦！\n[name=\"大祭司\"]  不过跟小家伙们一起造机器还是挺有趣的！\n[Character(name=\"char_337_utage_summer_1#3\")]\n[name=\"宴\"]  说到大丑，你不去驾驶真的没关系吗？我看要撞到房子了诶。\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]  啊？啊，我忘了！那等会儿聊！\n[Dialog]\n[Character(fadetime=1,block=true)]\n[delay(time=1)]\n[Character(name=\"char_337_utage_summer_1\")]\n[name=\"宴\"]  呜哇，真的一下子又回到驾驶席了，好厉害啊。\n[Character(name=\"char_201_moeshd_summer\")]\n[name=\"可颂\"]  果然和老板一样……\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1\", focus=2)]\n[name=\"森蚺\"]  ……\n[Character(name=\"char_187_ccheal_1#3\", name2=\"char_416_zumama_1\", focus=1)]\n[name=\"嘉维尔\"]  哦，差点忘了你还在说话。不过老实说，祖玛玛，反正最后都要打一架，你说这些真的有必要吗？\n[Character(name=\"char_187_ccheal_1#3\", name2=\"char_416_zumama_1#2\", focus=2)]\n[name=\"森蚺\"]  有。\n[name=\"森蚺\"]  这些话是说给你听的，也是说给我自己听的。\n[name=\"森蚺\"]  你知道吗，嘉维尔，对我来说，你是最大的阻碍。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1#2\", focus=1)]\n[name=\"嘉维尔\"]  啊？是吗？\n[Character(name=\"char_416_zumama_1#2\")]\n[name=\"森蚺\"]  确切地说，不是你，而是你这样的人。\n[name=\"森蚺\"]  我曾经试图想要说服许多人去了解机器的魅力，但是最终，他们中有绝大多数都不感兴趣。\n[name=\"森蚺\"]  因为有你这样厉害的人在给他们做榜样。\n[name=\"森蚺\"]  你这样的存在告诉他们，在这里，能打就能够获得想要的东西。\n[name=\"森蚺\"]  你的强大，堵死了前进的道路。\n[name=\"森蚺\"]  所以我下定决心，我要打破人们的这种想法，我要用更强的力量，摧毁你建立起的这种对自身力量的盲目崇拜。\n[Character(name=\"char_337_utage_summer_1\")]\n[name=\"宴\"]  诶，博士，我觉得她说的蛮有道理的啊，你觉得呢？\n[Decision(options=\"确实。;……;机器不错。\",values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  博士，你到底是帮哪边的啊！\n[Predicate(references=\"2\")]\n[Character(name=\"char_201_moeshd_summer\")]\n[name=\"可颂\"]  虽然确实有道理，但是又好像有哪里不对……\n[Predicate(references=\"3\")]\n[Character(name=\"char_017_homura_summer\")]\n[name=\"煌\"]  对啊，那个大家伙酷诶！\n[Predicate(references=\"1;2;3\")]\n[stopmusic(fadetime=2)]\n[Character(name=\"char_187_ccheal_1#3\")]\n[name=\"嘉维尔\"]  不过老实说，我也快要被你说服了。\n[name=\"嘉维尔\"]  但是我也没想做大家的榜样啊，我只代表我自己，我觉得拳头可以解决一切，关别人什么事。\n[Character(name=\"char_187_ccheal_1#3\", name2=\"char_416_zumama_1#2\", focus=2)]\n[name=\"森蚺\"]  我知道，这不怪你。\n[name=\"森蚺\"]  但是，我依然决心打败你，嘉维尔，用这大丑的力量。\n[playMusic(intro=\"$bat_ironguy_intro\", key=\"$bat_ironguy_loop\", volume=0.4)]\n[Character(name=\"char_416_zumama_1#2\")]\n[name=\"森蚺\"]  所有人听好了！\n[name=\"森蚺\"]  下面，大丑将和嘉维尔重新进行一次决斗。\n[name=\"森蚺\"]  这场战斗将真正决定谁才是真正的大酋长！\n[name=\"森蚺\"]  大祭司，要战斗了！\n[Character]\n[name=\"大祭司\"]  噢，没问题！\n[Character(name=\"char_416_zumama_1#2\")]\n[name=\"森蚺\"]  嘉维尔，准备好了吗！让你的同伴一起上也没关系！\n[Character(name=\"char_187_ccheal_1#5\")]\n[name=\"嘉维尔\"]  我都已经等不及了！\n[name=\"嘉维尔\"]  你们别来插手，这一战，我要亲手打倒这个大家伙！\n[name=\"嘉维尔\"]  来吧！\n[Character]\n[name=\"大祭司\"]  先试试正常功率！\n[name=\"大祭司\"]  我射！\n[Dialog]\n[playsound(key=\"$e_skill_skulsrshot\", volume=0.5)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=50, randomness=90, fadeout=true, block=true)]\n[playsound(key=\"$e_skill_skulsrshot\", volume=0.5)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=50, randomness=90, fadeout=true, block=true)]\n[delay(time=1)]\n[Character(name=\"char_187_ccheal_1#3\")]\n[name=\"嘉维尔\"]  嘿，别以为能炸到我第二次！\n[Character]\n[name=\"大祭司\"]  噢，不愧是嘉维尔，出色的反应神经！但是没关系，尝尝我的巨大铁拳！\n[Character(name=\"char_187_ccheal_1#5\")]\n[name=\"嘉维尔\"]  拼力气？我喜欢！\n[Dialog]\n[CameraShake(duration=1.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[delay(time=1)]\n[Character(name=\"char_2013_cerber_1\")]\n[name=\"刻俄柏\"]  嘉维尔，好厉害！\n[Character(name=\"char_201_moeshd_summer\")]\n[name=\"可颂\"]  嘉维尔太厉害了！居然一个人扛住了这个大家伙的铁拳！\n[Character(name=\"char_337_utage_summer_1#3\")]\n[name=\"宴\"]  虽然我体检时就有过这样的疑问了，她为什么会是医疗干员啊？\n[Character]\n[name=\"大祭司\"]  ……虽然是敌人，但我都要忍不住为你喝彩了！\n[name=\"大祭司\"]  但是但是，这还没有完呢！为了应付这种情况，大丑可是有功率全开的模式的！\n[name=\"大祭司\"]  我按！\n[Character(name=\"char_187_ccheal_1#2\")]\n[name=\"嘉维尔\"]  什么？！\n[Character(name=\"char_337_utage_summer_1#4\")]\n[name=\"宴\"]  那个大家伙的力气好像变得更大了！\n[Character(name=\"char_017_homura_summer\")]\n[name=\"煌\"]  嘉维尔的力量被比下去了？！"
+        }
+      ],
+      "description": "大祭司明确称认识大帝且多年未见，证明既往互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大祭司明确称认识大帝且多年未见，证明既往互动。",
+          "status": "supported",
+          "to": "npc_ec93b1be1e69c694"
+        },
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "大祭司明确称认识大帝且多年未见，证明既往互动。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 249,
+          "kind": "story",
+          "line": 101,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "密林悍将归来"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 103,
+          "line": 97,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17d7/level_act17d7_entry.txt",
+          "quote": "[name=\"老牌音乐人\"]   嗨，我都不知道原来你们关系这么好的吗？但是能不能不要无视我？\n[characteraction(name=\"right\", type=\"jump\", xpos=0, power=40, times=3, fadetime=1,block=false)]\n[name=\"老牌音乐人\"]   这儿，我在这儿！\n[name=\"老牌音乐人\"]   怎么都没人尊重一下老前辈，尖叫和掌声都在哪儿？我发的专辑难道销量都是假的？我可是白金唱片制作人！\n[name=\"老牌音乐人\"]   嘿，小伙子们，搭把手，托我一把。\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]   所以，这群杂牌军就是你们安排的意外惊喜？我有没有理解错，确定不是什么整蛊环节？"
+        }
+      ],
+      "description": "大帝与化名参赛的大祭司同台互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝面对包括老牌音乐人在内的挑战者回应。",
+          "status": "supported",
+          "to": "npc_ec93b1be1e69c694"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "大祭司以老牌音乐人身份直接要求大帝注意自己。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_12fb2d8a4f83dfd8.json",
+      "sources": [
+        {
+          "endLine": 103,
+          "kind": "story",
+          "line": 97,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17d7/level_act17d7_entry.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "说唱挑战赛登台场景",
+      "title": "泰拉 说唱之夜！"
+    }
+  ],
+  "relationship_id": "npc_2b6410ed62fdecf2|npc_ec93b1be1e69c694"
+}

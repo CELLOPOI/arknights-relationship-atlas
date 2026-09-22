@@ -1,0 +1,296 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1169,
+          "line": 1138,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st03.txt",
+          "quote": "[name=\"凯尔希\"]您不应当是来寒暄的，总统先生。\n[name=\"“总统”\"]当然……这是私人会晤。\n[name=\"“总统”\"]……我的父亲呢？\n[Dialog]\n[Decision(options=\"父亲……？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"“总统”\"]你们正捧着他的骨灰，捧着他灵魂的残迹。\n[name=\"“总统”\"]让我……碰触它吧。我从未认识过任何一个他，但他是这个世界上最后与我有关的事物。\n[name=\"“总统”\"]还有PRTS——你的PRTS。我们本同根而生……但现在我们渐行渐远。\n[name=\"“总统”\"]我本来有一些话想要对他说的。\n[name=\"凯尔希\"]他走了。\n[name=\"凯尔希\"]特雷弗·弗里斯顿死了。\n[name=\"“总统”\"]……\n[name=\"“总统”\"]他把希望寄予了这片大地吗？这个与孤独的他全无关系的世界？\n[name=\"凯尔希\"]是的。\n[name=\"“总统”\"]……如是他的意愿，你们便离开吧。我尊重他的想法。你们会比梅兰德历史协会还快速地修复残缺的他。\n[name=\"“总统”\"]但是，切记。\n[name=\"“总统”\"]我们会统筹所有的意志，我们会收缴全部的真理。哥伦比亚会成为泰拉的盾与剑——一切如他所愿！\n[name=\"“总统”\"]这是我——哥伦比亚总统马克·麦克斯对一个逝去的时代最好的吊唁。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[image]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]弗里斯顿从未期待过一个暴君的诞生，麦克斯。\n[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]Mon3tr，摧毁那些摄像头！\n[PlaySound(key=\"$Mon3tr_n\")]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"npc_10002\")]\n[name=\"Mon3tr\"]（欢快的嘶鸣）"
+        }
+      ],
+      "description": "凯尔希具体知晓PRTS。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C32"
+          ],
+          "from": "char_003_kalts",
+          "reason": "总统当面对凯尔希具体称“你的PRTS”，凯尔希接收该信息。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "PRTS未在场，未建立反向。",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 1169,
+          "kind": "story",
+          "line": 1138,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "与总统私人会晤时",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 908,
+          "line": 906,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "quote": "[name=\"凯尔希\"] ——之前的事情，我向你道歉，Dr.{@nickname}.\n[name=\"凯尔希\"]  你在石棺区中最后问我的问题，我将无法给出答案。明天也不能。未来也不能。\n[name=\"凯尔希\"]  遗憾，我并不想掩藏任何真相，只是我无力将你想要的答案透露给你。我和PRTS实在是没有办法向你做出解释。请原谅我们这一失职。"
+        }
+      ],
+      "description": "凯尔希明确表示自己和PRTS都无法解释博士问题，单向知晓具体系统身份。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E78"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希明确表示自己和PRTS都无法解释博士问题，单向知晓具体系统身份。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 908,
+          "kind": "story",
+          "line": 906,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1271,
+          "line": 1260,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[Decision(options=\"还有，我刚整理了一份关于现有情报的资料。;一旦联络上可露希尔，就将情报同步给他们。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"罗德岛其他干员的布置我也上传到了PRTS。;通知他们尽快同步手中的PRTS数据。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_npc_400_1#4$1\",focus=\"m\")]\n[name=\"海蒂\"]抢占先机？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_400_1#4$1\",focus=\"none\")]\n[Decision(options=\"是的。;如今在伦蒂尼姆的各方都存在自己的盲区。;争取时间，提前反应。这也是我们的机会。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot = \"m\", name = \"avg_npc_400_1#10$1\",focus=\"m\")]\n[name=\"海蒂\"]了解了，我会去办。现在对城内重建的联络网最熟悉的人，是我。"
+        }
+      ],
+      "description": "博士向海蒂与凯尔希说明上传和同步PRTS数据，海蒂回应执行；系统本身未发话，仅知晓与使用。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E162"
+          ],
+          "from": "char_003_kalts",
+          "reason": "博士向海蒂与凯尔希说明上传和同步PRTS数据，海蒂回应执行；系统本身未发话，仅知晓与使用。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 1271,
+          "kind": "story",
+          "line": 1260,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 275,
+          "line": 275,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+          "quote": "[name=\"凯尔希\"]（未知语言）我可以回答你的困惑。那些资料，是我先前储存在PRTS中的。"
+        }
+      ],
+      "description": "凯尔希明确将资料储存进PRTS。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希明确将资料储存进PRTS。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 275,
+          "kind": "story",
+          "line": 275,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 240,
+          "line": 167,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-03_beg.txt",
+          "quote": "[name=\"凯尔希\"]  Dr.{@nickname}。\n[name=\"凯尔希\"]  我们没有尽释前嫌这个选项，道德不能使我们这样的人变成更好的人。\n[Character(name=\"char_003_kalts_1\", name2=\"char_002_amiya_1#7\", focus=2)]\n[name=\"阿米娅\"]  医生。\n[Character(name=\"char_003_kalts_1\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"凯尔希\"]  我没有拒绝你提议的意思，阿米娅。\n[name=\"凯尔希\"]  只是，纯粹善意的宽恕，以及放弃自己愤怒的权力，只是让我们变得无限软弱。\n[name=\"凯尔希\"]  我会一直保留这种权力。\n[name=\"凯尔希\"]  不过现在，我会搁置我的偏见，我们先去解决核心城这件事。\n[name=\"凯尔希\"]  彻底地解决它。\n[Decision(options=\"阿米娅，我站在你这边。;……;凯尔希，合作愉快。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  嗯……嗯。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  不不，没有！我不是觉得不好啦！其实是我……我有点，唔，我还有点反应不过来。\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  ……我相信博士会在最关键的时刻协助我。\n[name=\"阿米娅\"]  只不过，以前的我想着的，是让博士来指导我，在这些最困难的时候，做到那些我办不到的事……\n[name=\"阿米娅\"]  我也会变得更勇敢，只要博士在我身边。以前我就是这么想的。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  阿米娅。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  啊，唔……医生，我没事。我知道的，我现在已经不会那么依靠别人了。\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  但是博士，只是对博士……我原本真的是这么想的。\n[name=\"阿米娅\"]  现在，博士，我们是肩并着肩了。从和你重逢开始，我就一直想找个机会，告诉博士，告诉博士……\n[name=\"阿米娅\"]  我长大了。我已经不用博士，凯尔希医生和……唔……遮风挡雨。\n[Character(name=\"char_003_kalts_1#2\")]\n[name=\"凯尔希\"]  ……\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  我会用成绩回应博士的信任。一定。\n[name=\"阿米娅\"]  欸！肩并肩是形容啊，不可以说我矮！我还在长个子！……唔！！我很快就会长得和博士长得一样高了，肯定！\n[name=\"阿米娅\"]  ……我只是很高兴，博士。嗯。只是……很高兴。\n[Predicate(references=\"2\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ……\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  ……\n[Character]\n[name=\"PRTS\"]  我感觉这里冷场了。需要我把指挥室的温度调高一些吗？\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  博士想保留自己的观点，并没有任何问题。\n[name=\"阿米娅\"]  我也不希望强迫博士把想法说出来……\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  我知道的，我们……我们每个人都有自己的空间。\n[name=\"阿米娅\"]  只是，博士，哪怕只是给我一点点帮助……\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  阿米娅。没必要示弱。\n[name=\"凯尔希\"]  Dr.{@nickname}有擅长的事，也有不擅长的事。能力需要自行复苏的时间，Dr.{@nickname}也会在正确的时候做出正确的选择。\n[name=\"凯尔希\"]  这个人不会忘记从苏醒直至现在发生在自己面前的一切。\n[name=\"凯尔希\"]  ——如果我真的可以这么期待。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  凯尔希医生，这么说也太伤人了……！\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  博士不爱说话，只是博士不愿说多余的话。博士会直接抓住问题的核心，是吧？\n[Predicate(references=\"3\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ——\n[name=\"凯尔希\"]  如果你愿意的话。\n[name=\"凯尔希\"]  我没想过你会这么爽快地答应，甚至有理由怀疑你在语句里设下了什么陷阱。\n[name=\"凯尔希\"]  ……但又何妨呢？\n[name=\"凯尔希\"]  Dr.{@nickname}。合作愉快。\n[Decision(options=\"我们有什么计划？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  啊，嗯……！\n[name=\"阿米娅\"]  唔，博士是想问哪方面的计划呢？\n[Decision(options=\"首先要有进核心城的办法。;怎么去？;要直接走到塔露拉面前说“你好”，对不对。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  罗德岛确实有属于罗德岛的方法。\n[name=\"凯尔希\"]  请对照报告书。我会解释计划的每个部分。\n[name=\"凯尔希\"]  4小时后，我们将在切尔诺伯格核心城的必经之路附近引发一场小规模的沙暴。"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_003_kalts",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 240,
+          "kind": "story",
+          "line": 167,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 63,
+          "line": 27,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st06.txt",
+          "quote": "[name=\"可露希尔\"]  总之语言逻辑功能这方面看来没有什么问题。\n[name=\"可露希尔\"]  接下来看看其他的分支。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  对着PRTS内未出现异常报告的区块进行重复的检查，真的有必要吗？\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  当然有必要了！\n[name=\"可露希尔\"]  你可是已经好久没有做数据归档了，这就像是人类定期要做身体检查一样，是为了你的健康着想。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  程序是没有生命概念的。\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  我总觉得你有。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  我可以把这句话当作夸奖吗？\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  当然。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  那么我是否可以问一个问题？\n[name=\"PRTS\"]  在人类的眼中，我的数据库视觉表现是一种怎样的状态？\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  这很难形容……\n[name=\"可露希尔\"]  我刚接手这里的系统的时候，所有东西都一团乱，现在回头看看简直是灾难。\n[name=\"可露希尔\"]  那时候你的大部分信息是加密的，而且以混乱的顺序排列……嗯，当然现在也还是这样。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  如果把你想象成一个人体，那现在的你就像是在人类的身体里装了个发动引擎。\n[name=\"可露希尔\"]  可是，点火系统之类的结构却和活塞的位置完全颠倒了。\n[name=\"可露希尔\"]  甚至……我都不能确定你是不是正常认知中的系统。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  哎，别这么沉默，这又不是坏事，只能说你确实与众不同！\n[name=\"可露希尔\"]  虽然现在我还是没办法搞懂数据库里那些分支结构的状况，更不用说读取的规律了……\n[name=\"可露希尔\"]  但至少我和凯尔希还是一起修改并且整理了其中的一部分。\n[name=\"可露希尔\"]  怎么样，现在没有人会比我更了解你啦！\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……很遗憾我也无法在这方面帮助LeaderOne小姐。"
+        }
+      ],
+      "description": "PRTS听取并回应可露希尔关于她与凯尔希共同整理数据库的说明。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C18"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "PRTS听取并回应可露希尔关于她与凯尔希共同整理数据库的说明。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_003_kalts",
+          "reason": "本篇候选窗口未见反向知晓或往来证据。",
+          "status": "not_established",
+          "to": "npc_c8a2caad4366c8fa"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 63,
+          "kind": "story",
+          "line": 27,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 340,
+          "line": 289,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "quote": "[name=\"可露希尔\"]阿米娅，似乎小车们的状态已经暂时恢复正常了。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#1$3\", focus=\"r\")]\n[name=\"阿米娅\"]弗里斯顿先生的状态如何？\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#9$1\", duration = 0)]\n[name=\"可露希尔\"]呃，除了有点生我的气，其他都还挺好的。\n[name=\"可露希尔\"]嘿嘿，多亏他想到能借助他的核心代码直接覆写与PRTS相关的底层代码，否则还真挺棘手的。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#6$3\", focus=\"r\")]\n[name=\"阿米娅\"]……可露希尔小姐，如今我们拥有的PRTS权限已经全部失效？\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]\n[name=\"可露希尔\"]恐怕是这样。\n[name=\"可露希尔\"]PRTS主动屏蔽了我们所有人对其的访问，如今它的所有运行都在黑箱中完成。\n[name=\"可露希尔\"]虽然凯尔希在试图争夺其控制权，但我担心她也没法坚持太久。\n[dialog]\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = false)]\n[Decision(options=\"强制切断PRTS的核心能源。;强制启动备用系统争夺本舰控制权。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[interlude(channel = 3, switch = true)]\n[name=\"可露希尔\"]强制切断核心能源意味着我们必须直接进入Abyss内部，这一计划的风险很大。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#8$3\", focus=\"r\")]\n[name=\"阿米娅\"]那我会保护博士。\n[name=\"阿米娅\"]而且，我们并非孤身作战，精英干员们都站在我们的身后。\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#6$3\", focus=\"r\")]\n[name=\"阿米娅\"]我不会放弃博士，也不会放弃罗德岛。\n[dialog]\n[Predicate(references=\"2\")]\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]\n[name=\"可露希尔\"]我的ZOOT系统并不能完全做到与PRTS争夺控制权。\n[name=\"可露希尔\"]我与凯尔希进行过此种情况的演算。\n[name=\"可露希尔\"]若是借助本舰的能源动力强行启动，短时间内或许它能够拿回某些非核心区域的控制权……\n[name=\"可露希尔\"]但每次的结果都是过载启动后它的核心元件直接损毁。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#8$3\", focus=\"r\")]\n[name=\"阿米娅\"]可露希尔小姐，你早就有判断了，对吧？\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#9$1\", duration = 0)]\n[name=\"可露希尔\"]哈哈，我可以直接开干。\n[name=\"可露希尔\"]我能造出一个，就一定能造出第二个。\n[dialog]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = false)]\n[Decision(options=\"做两手准备吧。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"突入Abyss的同时启用备用指挥系统。\", values=\"1\")]\n[Predicate(references=\"1\")]"
+        }
+      ],
+      "description": "凯尔希直接争夺PRTS控制权。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D12"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希直接争夺PRTS控制权。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "D12"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "凯尔希直接争夺PRTS控制权。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 340,
+          "kind": "story",
+          "line": 289,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_003_kalts|npc_c8a2caad4366c8fa"
+}

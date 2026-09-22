@@ -1,0 +1,177 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 28,
+          "line": 25,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_waaifu_1_1.txt",
+          "quote": "[name=\"槐天裴\"]忌追手，忌冲身。看清楚我的动作，注意自己的架构！站起来！\n[name=\"槐琥\"]知道了，阿爸！\n[name=\"槐天裴\"]练武时要叫师父！\n[name=\"槐琥\"]是！"
+        }
+      ],
+      "description": "父女兼师徒关系。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_243_waaifu",
+          "reason": "当面称阿爸。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "当面指导其武艺。",
+          "status": "supported",
+          "to": "char_243_waaifu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_531650b9399ab503.json",
+      "sources": [
+        {
+          "endLine": 28,
+          "kind": "story",
+          "line": 25,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_waaifu_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇回忆及后续追寻",
+      "title": "槐琥"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 145,
+          "line": 115,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_end.txt",
+          "quote": "刀比刚才交手时更快，槐琥只觉得瑟瑟秋风扑面而来，根本没法做出什么反应。\n[PlaySound(key=\"$d_avg_punchsp2\")]\n自己的面前突然多了一堵墙，或者说，一堵墙般宽阔厚实的背。\n槐琥看着眼前的背影，已经十几年没有见过，但还是和记忆里的模样重叠起来。\n重逢比想象的要更快，也更猝不及防。\n[Dialog]\n[playMusic(key=\"$m_avg_riversnow_loop\", volume=0.6)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\",bstart=0.3,bend=0.9,focus=\"m\",isCopy=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n[delay(time=1)]\n[charslot(slot = \"l\", name = \"avg_npc_785_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\",isCopy=true)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\",bstart=0,bend=0,duration=3,focus=\"m\")]\n[delay(time=3.5)]\n[name=\"槐天裴\"]鲤说的麻烦事，就是这个人？\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_786_1#6$2\")]\n[name=\"山海众首领\"]又是你？\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]我说这几天睡觉怎么总不踏实，原来是要撞见不愿意见的人。\n[charslot(slot = \"m\", focus=\"n\")]\n槐天裴侧过头，向身后扫了一眼。\n动作很轻很快，但槐琥看得很清楚。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]在和那位宗师比武之前，原本不想和别人动手。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#3$1\")]\n[name=\"槐天裴\"]唉……今天破戒也罢！\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\")]\n[name=\"槐天裴\"]喂，我见你也有点功夫，但欺负晚辈算什么本事？\n[CameraShake(duration=0.3,xstrength=35,ystrength=30,vibrato=30,randomness=90,fadeout=true,block=false)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#5$1\")]\n[name=\"槐天裴\"]要真是手痒，我来陪你过两招！"
+        }
+      ],
+      "description": "槐天裴替女儿挡刀，父女彼此认出，直接接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E55"
+          ],
+          "from": "char_243_waaifu",
+          "reason": "槐天裴替女儿挡刀，父女彼此认出，直接接触。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E55"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "槐天裴替女儿挡刀，父女彼此认出，直接接触。",
+          "status": "supported",
+          "to": "char_243_waaifu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 145,
+          "kind": "story",
+          "line": 115,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 824,
+          "line": 782,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "quote": "[name=\"云青萍\"]槐先生的武功，看上去又精进了……\n大巧不工，大道至简，道理任谁都明白。\n可又有几人能做到在这样生死相搏的时刻无为无我，没有招式章法，只有一拳一脚，在最精准的时刻防守、进攻。\n他已经将武融进四肢百骸。\n三十合过去了，槐天裴依然站立着，他依然没有落败！\n他脚下的山岩已经被拳锋脚劲犁出两道深深的沟壑。\n可他已无路可进，再出一拳，便是跌坠山崖。\n槐天裴依旧没有半分要退却的样子。\n[name=\"麟青砚\"]不好……这样下去，那人还是有危险！\n可是这样的决斗，还有谁能插手？\n[Dialog]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[image]\n[bgeffect]\n[Background(image=\"63_mini04_mountaintop\",screenadapt=\"coverall\")]\n[Delay(time=2)]\n[Blocker(a=0.3, r=0,g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\n[stopmusic(fadetime=2)]\n[playsound(key=\"$rungeneral\")]\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#7$1\",duration=2)]\n[Delay(time=2.5)]\n[name=\"槐琥\"]阿爸！！\n[charslot(slot=\"m\",name=\"avg_npc_785_1#6$1\",focus=\"m\")]\n[name=\"槐天裴\"]——！\n[Dialog]\n[charslot]\n一声呼喊，还是让搏命战斗的那个男人愣了神。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#6$1\",focus=\"m\")]\n[name=\"槐天裴\"]你是……\n[name=\"槐天裴\"]我……\n[name=\"槐天裴\"]……我想起来了。\n[Dialog]\n[Blocker(a=0.5, r=0,g=0, b=0, fadetime=2, block=true)]\n[playMusic(intro=\"$loneliness_intro\",key=\"$loneliness_loop\", volume=0.6)]\n[Subtitle(text=\"我想起来了。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我与一人，还有四十年之约。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我交出了那把剑，因为我割舍不下……\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我想起来了。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我还有一个女儿，我还要护她周全……\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我的名字是……槐天裴。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]"
+        }
+      ],
+      "description": "槐琥与槐天裴父女双方确认相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_243_waaifu",
+          "reason": "槐琥叫父亲。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "槐天裴因女儿呼喊恢复记忆并确认要护她。",
+          "status": "supported",
+          "to": "char_243_waaifu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 824,
+          "kind": "story",
+          "line": 782,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "邙山决斗场景",
+      "title": "镜中集"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 349,
+          "line": 276,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_st03.txt",
+          "quote": "[name=\"槐琥\"]鲤叔……\n[name=\"槐琥\"]阿爸他……会在这里吗？\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#1$1\", focus=\"r\")]\n[name=\"老鲤\"]跟着能打听到的消息，只能找到这里来了。\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#6$1\", focus=\"r\")]\n[name=\"老鲤\"]唉……和他分别这么多年来，我倒头一回希望关于他的传闻是假的。\n[name=\"老鲤\"]可是那个传闻中打遍武林，甚至多次故意伤人的武疯子，也实在没法想象会有第二个人了……\n[charslot(slot = \"l\", name = \"avg_243_waaifu_1#6$1\", focus=\"l\")]\n[name=\"槐琥\"]阿爸，为什么会变成那样……\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#6$1\", focus=\"r\")]\n[name=\"老鲤\"]不知道……\n[name=\"老鲤\"]他是这世上第一等的痴人，可越是痴人，心智越不该被动摇的。\n[dialog]\n[PlaySound(key=\"$d_avg_punch02\",volume=0.3)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_punch\",volume=0.5)]\n[delay(time=1.5)]\n[charslot(slot = \"l\", name = \"avg_243_waaifu_1#7$1\", focus=\"l\")]\n[name=\"槐琥\"]这个声音？！\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#4$1\", focus=\"r\")]\n[name=\"老鲤\"]——！\n[dialog]\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#7$1\", focus=\"r\")]\n[name=\"老鲤\"]槐琥……一会见到他，千万要小心。\n[name=\"老鲤\"]或许现在只有你能叫醒他。\n[charslot(slot = \"l\", name = \"avg_243_waaifu_1#1$1\", focus=\"l\")]\n[name=\"槐琥\"]嗯……\n[name=\"槐琥\"]鲤叔……我们走吧。\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[charslot(slot = \"l\", afrom=1, ato=0, duration=1)]\n[delay(time=2)]\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#2$1\", focus=\"r\")]\n[name=\"老鲤\"]唉……\n[name=\"老鲤\"]（难道那把剑，真的是劫数……？）\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#8$1\", focus=\"r\")]\n[name=\"老鲤\"]（梁洵啊梁洵……要是槐天裴有个三长两短，这笔账就只能记在你的头上了。）\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_cave_5\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n隔着尚远的一段距离，山洞深处，隐约可见一个魁梧的身影。\n沉重的拳头不住地砸在岩壁上，在上面留下了点点梅花似的血斑。每一拳落下，都震得整座洞穴摇摇晃晃。\n来人这才意识到，这个“山洞”，竟是被此人一拳一拳打出来的。\n[name=\"疯癫的喃语\"]四十年……天下第一……我何时……\n[dialog]\n[PlaySound(key=\"$d_avg_punch02\",volume=1)]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=0.3, loop=true, channel=\"e\")]\n[CameraShake(duration=2, xstrength=3, ystrength=3, vibrato=90, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"e\", fadetime=2)]\n[delay(time=2)]\n[name=\"疯癫的喃语\"]剑……不可给人……丢了……还是丢了！\n[dialog]\n[PlaySound(key=\"$d_avg_punchsp5\",volume=1)]\n[Effect(name=\"$e_sandfall_01\",layer = 1)]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]\n[CameraShake(duration=3, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"e\", fadetime=3)]\n[PlaySound(key=\"$d_avg_rockfall\", volume=1)]\n[delay(time=2)]\n[name=\"疯癫的喃语\"]女儿……不许伤害我的女儿！\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=1, loop=true, channel=\"r\")]\n[StopSound(channel=\"r\", fadetime=1)]\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#2$1\", duration=1, isblock=true)]\n[Delay(time=0.5)]\n[name=\"槐琥\"]阿爸……？\n[name=\"槐琥\"]阿爸……醒一醒……\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#6$1\")]\n[name=\"槐琥\"]阿爸！"
+        }
+      ],
+      "description": "槐琥当面呼唤父亲，槐天裴认出女儿并喊出保护她。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J16"
+          ],
+          "from": "char_243_waaifu",
+          "reason": "槐琥当面呼唤父亲，槐天裴认出女儿并喊出保护她。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "J16"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "槐琥当面呼唤父亲，槐天裴认出女儿并喊出保护她。",
+          "status": "supported",
+          "to": "char_243_waaifu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 349,
+          "kind": "story",
+          "line": 276,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_243_waaifu|npc_2a2f1f3b7bd9ed61"
+}

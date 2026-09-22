@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 607,
+          "line": 588,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st01.txt",
+          "quote": "[name=\"极境\"]……已经这个点了。\n[name=\"极境\"]看来今天也不会来了。我还想着只要在这座小镇上唯一显眼的建筑里待着，就迟早会遇到她们呢……\n[Character(name=\"avg_npc_450_1#1$1\")]\n[name=\"极境\"]不过在驻点的生活也太无聊了，早知道就从罗德岛多带些闲书——\n[Dialog]\n[stopmusic(fadetime=1)]\n[Character(name=\"avg_npc_450_1#5$1\")]\n[PlaySound(key=\"$doorclosequite\")]\n[PlaySound(key=\"$dooropenquite\",delay=0.2)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=0.6)]\n[Character(name=\"npc_2004_Alty\")]\n[name=\"Alty\"]——拉特兰礼拜堂！在海边还保留得如此完整，真不可思议！嗯，可是这儿的风格还真是截然不同啊。\n[name=\"Alty\"]毕竟拉特兰的礼拜堂只要有拉特兰人在，那可都是能即兴演出的，这里也太死气沉沉啦……嗯？\n[Character(name=\"avg_npc_450_1#5$1\")]\n[name=\"极境\"]啊——\n[Character(name=\"char_empty\",name2=\"npc_2004_Alty\")]\n[CameraShake(duration=0.3, xstrength=10, ystrength=10, vibrato=20, randomness=90, fadeout=true, block=false)]\n[Character(name=\"avg_npc_450_1#6$1\",name2=\"npc_2004_Alty\",focus=1,fadetime=0.5)]\n[name=\"极境\"]——Alty小姐？！"
+        }
+      ],
+      "description": "极境与Alty在海边持续直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S08"
+          ],
+          "from": "char_401_elysm",
+          "reason": "极境与Alty在海边持续直接对话。",
+          "status": "supported",
+          "to": "npc_c7121f5df30f84f6"
+        },
+        {
+          "evidenceIds": [
+            "S08"
+          ],
+          "from": "npc_c7121f5df30f84f6",
+          "reason": "极境与Alty在海边持续直接对话。",
+          "status": "supported",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 607,
+          "kind": "story",
+          "line": 588,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_c7121f5df30f84f6"
+}

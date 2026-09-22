@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 42,
+          "line": 27,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_helage_1_1.txt",
+          "quote": "[name=\"？？？\"]  担心领袖的心是好的，这是罗德岛向心力的证明。但是否要勉强自己，又是另一码事。\n[name=\"？？？\"]  你甚至都站不稳了，年轻人。别对你的同伴隐瞒伤势，我看得一清二楚。\n[Character(name=\"avg_npc_012\")]\n[name=\"罗德岛干员\"]  啊？你……赫拉格先生？\n[Character(name=\"char_148_nearl_1#6\", name2=\"avg_npc_012\", focus=1)]\n[name=\"临光\"]  赫拉格先生说得对，我们迟早会需要你的，但不是现在。\n[name=\"临光\"]  养好伤之后，我们再并肩作战。\n[Character(name=\"char_148_nearl_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"罗德岛干员\"]  ……嘿。我一个无名小卒，凭什么能和耀骑士并肩作战，这可太抬举我啦。\n[Character(name=\"char_188_helage_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"罗德岛干员\"]  ——不过，赫拉格先生，现在情况特殊，您还是该待在舰内的……\n[Character(name=\"char_188_helage_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"赫拉格\"]  这我当然明白。奈音和其他孩子还在接受检查，等结束后我自会去安顿好他们。\n[Character(name=\"char_188_helage_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"罗德岛干员\"]  如果是这样的话……好吧，真要有什么情况，带我这个伤员，也只会拖后腿吧。\n[name=\"罗德岛干员\"]  那我先撤了，二位保重。"
+        }
+      ],
+      "description": "赫拉格与苦根当面交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_188_helage",
+          "reason": "赫拉格看出苦根伤势并直接劝诫。",
+          "status": "supported",
+          "to": "npc_e3878a71089209c5"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "苦根认出并具称赫拉格先生，与其直接交谈。",
+          "status": "supported",
+          "to": "char_188_helage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_e4a0f8282715fde0.json",
+      "sources": [
+        {
+          "endLine": 42,
+          "kind": "story",
+          "line": 27,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_helage_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇罗德岛舰桥场景",
+      "title": "赫拉格"
+    }
+  ],
+  "relationship_id": "char_188_helage|npc_e3878a71089209c5"
+}

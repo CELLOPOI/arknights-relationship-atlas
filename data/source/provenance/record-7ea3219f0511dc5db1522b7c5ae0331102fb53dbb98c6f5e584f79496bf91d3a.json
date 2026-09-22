@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 563,
+          "line": 561,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "quote": "[name=\"特蕾西娅\"]我把事情都交代给菈玛莲了。\n[charslot(slot = \"left\", name = \"avg_003_kalts_1#1$1\",focus=\"l\")]\n[name=\"凯尔希\"]遗憾，从结果来看，女妖之主并不是文书工作的合适人选。"
+        }
+      ],
+      "description": "凯尔希明确评价受托工作的女妖之主菈玛莲。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希明确评价受托工作的女妖之主菈玛莲。",
+          "status": "supported",
+          "to": "npc_751dc5e345c5cbe2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 563,
+          "kind": "story",
+          "line": 561,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "char_003_kalts|npc_751dc5e345c5cbe2"
+}

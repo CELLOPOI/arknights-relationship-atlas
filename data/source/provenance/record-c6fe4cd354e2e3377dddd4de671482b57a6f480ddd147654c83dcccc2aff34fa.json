@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 75,
+          "line": 67,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_strong_1_1.txt",
+          "quote": "[name=\"鼠王\"] 呵呵，这几天好像都是你在出摊啊，老董他人呢？\n[character(name=\"avg_272_strong_1#1$1\")]\n[name=\"孑\"] 最近天冷，董阿伯腿痛，我多帮帮他。\n[name=\"孑\"] 大爷，您认识董阿伯？\n[character(name=\"avg_npc_034\")]\n[name=\"鼠王\"] 龙门最好的鳞丸师傅，我当然认识。\n[name=\"鼠王\"] 正巧路过，就照顾一下他的生意吧，给我来一份，也让我尝尝你学到了他几分手艺。\n[character(name=\"avg_272_strong_1#4$1\")]\n[name=\"孑\"] 好嘞，您稍等。"
+        }
+      ],
+      "description": "鼠王与孑在鳞丸摊直接交谈，双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_272_strong",
+          "reason": "孑回应鼠王的询问与点单。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "鼠王主动询问孑并评价其手艺。",
+          "status": "supported",
+          "to": "char_272_strong"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4aa774fa4dbae69d.json",
+      "sources": [
+        {
+          "endLine": 75,
+          "kind": "story",
+          "line": 67,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_strong_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孑干员密录《将错就错》的大年夜鳞丸摊场景",
+      "title": "孑"
+    }
+  ],
+  "relationship_id": "char_272_strong|npc_83e2c28380c1c6fb"
+}

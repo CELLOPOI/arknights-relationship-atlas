@@ -1,0 +1,22 @@
+{
+  "id": "import:char_003_kalts|npc_f1a37f4fb62f9ae9",
+  "published": true,
+  "quote": "【火蓝之心】\nAlty：Frost她啊，从小就只对音乐和食物这两样东西感兴趣。就连休息对她来说都是浪费时间。\n凯尔希：这位朋友你可以等到我们真正会面了再介绍给我。\nAlty：对不起，我的老毛病又犯了……\n\n【愚人号】\n凯尔希：Frost，请允许我表达我的谢意。你帮了乔迪，也帮了猎人们。\nFrost：没什么，只是体能训练。能改变浪尖方向的，不只是那些不听话的坏孩子。\nFrost：下次，记得来捧场。\n凯尔希：我会的。\nFrost：那么，我得去找Aya她们了。\nFrost：只是出个门，就不见了。\nFrost：（略感不满的独奏）\nFrost：对了。凯尔希……\nFrost：我们已经来了，我们总不能白来一趟。等你做好准备，我们随时可以醒来。\nFrost：Aya会这么说的。\n凯尔希：……感谢你们。我们迟早会真正建立起合作关系。\nFrost：（表别离的独奏）",
+  "relationship_id": "char_003_kalts|npc_f1a37f4fb62f9ae9",
+  "sources": [
+    {
+      "endLine": 84,
+      "kind": "story",
+      "line": 80,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_ex06_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 480,
+      "kind": "story",
+      "line": 458,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st12.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

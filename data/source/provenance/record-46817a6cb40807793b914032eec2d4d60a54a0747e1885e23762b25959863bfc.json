@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 99,
+          "line": 83,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/sandboxperm/sandbox_1/sandbox_1_ending_3.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_215_mantic_1#10$1\",focus=\"m\")]\n[name=\"狮蝎\"]……时间过得真快……一转眼，又要去新的地方了。\n[charslot(slot=\"m\",name=\"char_416_zumama_1#5\",focus=\"m\")]\n[name=\"森蚺\"]不过有同伴在身边，一起去哪里都一样。\n[charslot(slot=\"m\",name=\"char_416_zumama_1#5\",focus=\"m\")]\n[name=\"森蚺\"]或许之后，等事情告一段落，我可以带着你们回到我的家乡——阿卡胡拉丛林看看。\n[charslot(slot=\"m\",name=\"char_416_zumama_1#5\",focus=\"m\")]\n[name=\"森蚺\"]虽然也是一片树林，但那里更平静些……\n[charslot(slot=\"m\",name=\"avg_215_mantic_1#3$1\",focus=\"m\")]\n[name=\"狮蝎\"]我、我想去看……大家在一起……很好的，我很喜欢。\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_074\",focus=\"r\")]\n[charslot(slot=\"l\",name=\"char_416_zumama_1#5\",focus=\"r\")]\n[name=\"大祭司\"]  请别人到自己家之前，你要记得先收拾收拾屋子里那些铁皮零件。\n[charslot(slot=\"l\",name=\"char_416_zumama_1#4\",focus=\"l\")]\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"森蚺\"]知道啦知道啦，你怎么越来越唠叨了。"
+        }
+      ],
+      "description": "狮蝎与大祭司随同行队伍在离别场景中局部共处。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_215_mantic",
+          "reason": "狮蝎在场时大祭司进入并发言，局部同场支持她识别大祭司。",
+          "status": "supported",
+          "to": "npc_ec93b1be1e69c694"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "大祭司当着同行队伍出现并发言，局部同场支持其知晓在场的狮蝎。",
+          "status": "supported",
+          "to": "char_215_mantic"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_55e258086adfa18a.json",
+      "sources": [
+        {
+          "endLine": 99,
+          "kind": "story",
+          "line": 83,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/sandboxperm/sandbox_1/sandbox_1_ending_3.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "沙洲驻留结束、众人启程前",
+      "title": "沙洲遗闻"
+    }
+  ],
+  "relationship_id": "char_215_mantic|npc_ec93b1be1e69c694"
+}

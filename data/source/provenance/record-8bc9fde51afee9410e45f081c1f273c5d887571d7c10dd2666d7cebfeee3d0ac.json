@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 134,
+          "line": 25,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_08_end.txt",
+          "quote": "[name=\"椿\"]……差点就划到书架了。  \n[charslot(slot = \"M\", name = \"avg_npc_2127_1#1$1\",focus=\"m\")]\n[name=\"椿\"]我不是武痴，没有观览赤霄剑招的兴趣。你这一剑若是真使出来，倒可惜了天镜阁这许多书。  \n[charslot(slot = \"L\", name = \"avg_1050_chen3_1#11$2\", focus=\"l\")]\n[name=\"陈\"]可你也没有把握从我这里夺走信物。  \n[charslot(slot = \"M\", name = \"avg_npc_2127_1#1$1\",focus=\"m\")]\n[name=\"椿\"]是吗？  \n[dialog]\n[charslot]\n直到这时，精灵才第一次认真挥动手中的玉笏与枯枝。\n[dialog]\n[playsound(key=\"$d_avg_singleblunt\")]  \n[delay(time=0.3)]\n[playsound(key=\"$d_avg_twohandedblunt\")]  \n[Effect(name=\"$e_sandfall_01\",layer = 1)]\n无数枯槁的藤蔓从地面涌动而出，虬结成一双又一双巨手的形状。  \n[dialog]\n[playsound(key=\"$d_avg_groundcrack_tree\")]  \n[delay(time=1)]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"M\", name = \"avg_npc_1871_1#9$1\",focus=\"m\")]\n[delay(time=0.8)]\n[name=\"莫佚\"]该死，她怎么这么难对付，你们司岁台的头儿难道是靠拳脚选出来的？  \n[charslot(slot = \"M\", name = \"avg_npc_1871_1#9$1\",focus=\"m\")]\n[name=\"莫佚\"]那书怎么背的来着……想起来了——好得很，正好现在又是秋天…… \n[charslot(slot = \"M\", name = \"avg_npc_1871_1#3$1\",focus=\"m\")]\n[multiline(name=\"莫佚\")]“金曰从革”，\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#4$1\")]\n[multiline(name=\"莫佚\")]敕！\n[multiline]\n[dialog]\n[charslot]\n[playsound(key=\"$d_avg_magic_1\")]  \n[Blocker(a=1, r=255, g=255, b=50, fadetime=0.3, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[charslot(slot = \"M\", name = \"avg_npc_2127_1#10$1\",focus=\"m\")]\n[name=\"椿\"]……想不到区区盗匪，涉猎倒还算广。  \n[charslot(slot=\"m\",name=\"avg_npc_1871_1#9$1\")]\n[name=\"莫佚\"]哼，论及阴阳五行之术，你这数典忘祖的家伙还未必比得过我。  \n[charslot(slot=\"m\",name=\"avg_npc_1871_1#9$1\")]\n[name=\"莫佚\"]左乐，陈晖洁，该你们了！  \n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_clothmovement_heavy2\", volume=1)]\n[charslot(slot = \"m\",name = \"avg_4121_zuole_1#1$1\")]\n[charslot(slot = \"m\",name = \"avg_4121_zuole_1#1$1\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.05, duration = 0.2)]\n[charslot(slot = \"m\", afrom = 1, ato = 0, duration =0.3, block=true)]\n[Delay(time=0.5)]\n[charslot]\n左乐上前，直扑椿的位置，意在扰乱她的应对。  \n[dialog]\n[PlaySound(key=\"$d_avg_ftrub\", volume=0.8)]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\",posfrom=\"0,0\",posto=\"80,0\",afrom=1,ato=0,duration=0.2)]\n[Delay(time=0.5)]\n陈晖洁向后，拉开距离，只等抓住破绽再全力施为。  \n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_dagger\", volume=0.8)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n莫佚居中，一道又一道利刃似的秋风从她周身转出，与那些藤蔓的手掌不断纠缠。  \n而司岁台监正仍是面带着淡漠与怅然，立在原地，仿佛眼前只不过是一场她懒得再看下去的闹剧……\n[dialog]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\",posfrom=\"0,0\",posto=\"50,0\",duration=0.8, isblock=true)]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\",afrom=1, ato=1, posfrom=\"50,0\",posto=\"100,0\",duration=0.8, isblock=false)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_smashtable\", volume=0.3)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[charslot(slot=\"m\",focus=\"n\",block=true)]\n直到陈晖洁一退再退，一直退到那扇紧闭的大门边上。  \n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#4$1\")]\n[name=\"莫佚\"]该死……要顶不住了！  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_4121_zuole_1#4$1\",posfrom=\"0,0\",posto=\"-150,0\",duration=0.3, isblock=true)]\n[delay(time=0.3)]\n[charslot(slot = \"m\", name = \"avg_4121_zuole_1#5$1\")]\n[name=\"左乐\"]陈姐姐！  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#10$2\")]\n[name=\"陈\"]赤霄……！  \n[dialog]\n[PlaySound(key=\"$d_sp_chixiaobadao\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#6$2\")]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.3, block=true)]\n[Subtitle(text=\"<color=#d41f1f>云裂——  </color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$d_sp_chixiaobadao\", volume=1)]\n[PlaySound(key=\"$d_avg_breezetree\", volume=0.8)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[delay(time=0.2)]\n[charslot]\n凌厉的剑气借着秋风将藤蔓一扫而空，精灵的眼中闪过了仅此一瞬的惊诧。  \n[dialog]\n[PlaySound(key=\"$d_avg_hiddenweapon_fast\", volume=1)]\n[delay(time=0.1)]\n[PlaySound(key=\"$d_avg_hiddenweapon_fast\", volume=0.8)]\n[delay(time=0.4)]\n[PlaySound(key=\"$d_avg_hiddenweapon_hitshield\", volume=1)]\n但紧接着，反而是从藤蔓上飞散的锋利枯叶朝三人飞去。  \n[PlaySound(key=\"$d_avg_tearfabric\", volume=1)]\n莫佚忙不迭施术抵挡，枯叶仍然划破了三人的衣裳和包裹……"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "char_010_chen",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_f3a46713520eb64b"
+        },
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "npc_f3a46713520eb64b",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 134,
+          "kind": "story",
+          "line": 25,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_f3a46713520eb64b"
+}

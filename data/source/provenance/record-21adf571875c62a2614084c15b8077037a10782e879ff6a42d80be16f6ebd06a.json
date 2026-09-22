@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 791,
+          "line": 752,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_st01.txt",
+          "quote": "[name=\"欧厄尔\"]市长先生这样繁忙，还有空来陪我喝一杯咖啡，我也该感到荣幸了。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#3$1\",focus=\"m\")]\n[name=\"赫尔曼\"]再忙碌的日程，我也习惯给自己留出一些安静思考的时间。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]倒是欧厄尔先生，最近也不见得能清闲。\n[charslot(slot=\"m\",name=\"avg_npc_539_1#9$1\",focus=\"m\")]\n[name=\"欧厄尔\"]峯驰物流与汐斯塔合作项目的执行经理是我的儿子，名义上连我也不能随意干涉他的决定。\n[name=\"欧厄尔\"]市长先生不必有什么顾虑，将他当作一个正常的合作伙伴就好。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#3$1\",focus=\"m\")]\n[name=\"赫尔曼\"]这是当然。\n[charslot(slot=\"m\",name=\"avg_npc_539_1#1$1\",focus=\"m\")]\n[name=\"欧厄尔\"]时至今日，赫尔曼市长是否会后悔选择了这条路？\n[charslot(slot=\"m\",name=\"avg_npc_544_1#3$1\",focus=\"m\")]\n[name=\"赫尔曼\"]回顾汐斯塔的历史，无论是维多利亚或是哥伦比亚，都曾想将汐斯塔纳入自己的版图。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]如果当初汐斯塔选择投入任何一方的怀抱，都会获得远胜现在的安定，甚至远胜现在的繁荣，但一定不会是汐斯塔现在的样子。\n[charslot(slot=\"m\",name=\"avg_npc_539_1#9$1\",focus=\"m\")]\n[name=\"欧厄尔\"]市长先生应该是以现在的汐斯塔为骄傲的。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]你看，新汐斯塔离过去的旧址，有一百公里的距离，站在这里向东边望去能看到的也只有那座火山的一点山峰。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#8$1\",focus=\"m\")]\n[name=\"赫尔曼\"]如果有一张地图可以囊括整片大地，这一百公里，恐怕也只有手指宽的一条线，甚至还要再短一些。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#1$1\",focus=\"m\")]\n[name=\"赫尔曼\"]但是我们有可能、有希望将分散在大地各处的国家与城邦联系起来。峯驰物流提出的那个未来让我愿意相信。\n[charslot(slot=\"m\",name=\"avg_npc_539_1#1$1\",focus=\"m\")]\n[name=\"欧厄尔\"]但我们都清楚，这注定是一条艰难的路——现在或许就是汐斯塔需要渡过的一个难关。\n[charslot(slot=\"m\",name=\"avg_npc_539_1#7$1\",focus=\"m\")]\n[name=\"欧厄尔\"]往年的夏天，汐斯塔的街道上应该已经挤满了来自各个国家的游客，随意哪个角落都能听到音乐会的喧闹。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#9$1\",focus=\"m\")]\n[name=\"赫尔曼\"]欧厄尔先生，您知道“汐斯塔”这个名字的本意吗？\n[charslot(slot=\"m\",name=\"avg_npc_539_1#1$1\",focus=\"m\")]\n[name=\"欧厄尔\"]伊比利亚语“午睡”的意思。\n[charslot(slot=\"m\",name=\"avg_npc_539_1#9$1\",focus=\"m\")]\n[name=\"欧厄尔\"]当时的哥伦比亚人想要与伊比利亚共谋发展，虽然过程不太如人意，但总算还是在这里安了家。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#9$1\",focus=\"m\")]\n[name=\"赫尔曼\"]是啊。拓荒者们来到遥远的南方，想在这里建立最初的家园。\n[name=\"赫尔曼\"]当时的工人们会在天还未亮时起身劳作，而在中午阳光最强烈的时候，人们会度过一个相对漫长的午休。\n[name=\"赫尔曼\"]直到傍晚来临，人们才会重新走出房间，迎着海风品一杯咖啡，再准备开始晚上的生活。\n[charslot(slot=\"m\",name=\"avg_npc_544_1#10$1\",focus=\"m\")]\n[name=\"赫尔曼\"]我想这座城市，也只是短暂地睡着了。当它醒来的时候，一定会迎来最美的晚霞。"
+        }
+      ],
+      "description": "二人当面喝咖啡讨论城市合作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "二人当面喝咖啡讨论城市合作。",
+          "status": "supported",
+          "to": "npc_e75c29c5060c7ab8"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_e75c29c5060c7ab8",
+          "reason": "二人当面喝咖啡讨论城市合作。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 791,
+          "kind": "story",
+          "line": 752,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 546,
+          "line": 404,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st05.txt",
+          "quote": "[name=\"店主A\"]您好~特色炭烤沙虫腿！小店马上要搬迁了，以后可能就出新菜单了，这是能吃到的最后几天啦！\n[Character(name=\"char_325_bison_1#1\")]\n[name=\"拜松\"]这、这是什么！\n[Character(name=\"char_325_bison_1#2\")]\n[name=\"拜松\"]沙虫……腿？！\n[character(name=\"avg_npc_539_1#3$1\")]\n[name=\"欧厄尔\"]怎么咋咋呼呼的？\n[character(name=\"avg_npc_539_1#5$1\")]\n[name=\"欧厄尔\"]……市长先生，汐斯塔除了风景一绝，食物也是与众不同啊。\n[Character(name=\"avg_npc_544_1#9$1\")]\n[name=\"赫尔曼\"]啊，之前黑曜石节的时候，有个小姑娘在这里卖了这种烧烤。\n[Character(name=\"avg_npc_544_1#10$1\")]\n[name=\"赫尔曼\"]大家吃着都觉得不错，现在似乎已经是一种流行小吃了。\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=1)]\n[name=\"店主A\"]（欸，这是市长吗？）\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=2)]\n[name=\"店主B\"]（你问我，我见过市长真人吗？我每天见的人和你不一样啊？）\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=1)]\n[name=\"店主A\"]（我们要不要……？）\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=2)]\n[name=\"店主B\"]（我觉得我们还是正常点吧……）\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=2)]\n[name=\"店主B\"]哈哈哈哈，这几位客人要尝尝吗？\n[Character(name=\"char_325_bison_1#2\")]\n[name=\"拜松\"]啊……\n[character(name=\"avg_npc_539_1#3$1\")]\n[name=\"欧厄尔\"]啊……\n[character(name=\"avg_npc_539_1#5$1\")]\n[name=\"欧厄尔\"]……还是算了吧？\n[character(name=\"avg_npc_539_1#3$1\")]\n[name=\"欧厄尔\"]不过市长先生……那边一直转的设施是？\n[Character(name=\"avg_npc_544_1#5$1\")]\n[name=\"赫尔曼\"]那个吗？是“旋转驮兽”。\n[Character(name=\"avg_npc_544_1#8$1\")]\n[name=\"赫尔曼\"]它也是黑曜石节上突然兴起的一个设施，不知道出于什么原因，那几天每天都有大批大批的人一直来玩。\n[character(name=\"avg_npc_539_1#7$1\")]\n[name=\"欧厄尔\"]这样啊。\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=1)]\n[name=\"店主A\"]几位都是外地人吧？\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=1)]\n[name=\"店主A\"]送您一根，尝尝看吧！要是觉得好吃了再来买！\n[Character(name=\"char_325_bison_1#3\")]\n[name=\"拜松\"]喔，谢谢您。那我再买一根吧，给您钱。\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=1)]\n[name=\"店主A\"]小伙子好有礼貌，长得也挺可爱的嘛。\n[Character(name=\"char_325_bison_1#3\")]\n[name=\"拜松\"]欸？……谢谢您。\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=2)]\n[name=\"店主B\"]？\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=2)]\n[name=\"店主B\"]我还在旁边呢。\n[character(name=\"avg_npc_022\",name2=\"avg_npc_021\",focus=1)]\n[name=\"店主A\"]哈哈~\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[stopmusic(fadetime=1)]\n[Character]\n[Background(image=\"bg_beach_1\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[playMusic(intro=\"$warm_intro\", key=\"$warm_loop\", volume=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_222\")]\n[name=\"秘书\"]市长先生，欧厄尔先生，这里请。\n[Character(name=\"avg_npc_544_1#1$1\", name2=\"avg_npc_539_1#1$1\", focus=1)]\n[name=\"赫尔曼\"]看着海景用餐，在汐斯塔是一件颇受游客喜欢的事，这里的风景最好。\n[Character(name=\"avg_npc_544_1#1$1\", name2=\"avg_npc_539_1#1$1\", focus=1)]\n[name=\"赫尔曼\"]在搬迁后，汐斯塔也会继续保留这方面的特色，即便到了移动城市上，也不会失去它原本就有的东西。\n[Character(name=\"avg_npc_544_1#1$1\", name2=\"avg_npc_539_1#9$1\", focus=2)]\n[name=\"欧厄尔\"] 自然不会失去，市长先生思考得很周全。\n[dialog]\n[character]\n[name=\"服务生\"] 您的菜上齐了，请慢用。\n[Character(name=\"avg_npc_544_1#1$1\", name2=\"avg_npc_539_1#9$1\", focus=2)]\n[name=\"欧厄尔\"] 唔，美景配美食，生鳞片别有一番滋味。市长先生，方才我听到，那两个店主在讨论搬迁以后要出什么新菜单。\n[Character(name=\"avg_npc_544_1#1$1\", name2=\"avg_npc_539_1#9$1\", focus=2)]\n[name=\"欧厄尔\"] 做小商贩也有很多事情要考虑啊。\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#9$1\", focus=1)]\n[name=\"赫尔曼\"]沙滩上还有一些娱乐设施没有撤走，欧厄尔先生可以让自己的儿子去体验体验。\n[Character(name=\"char_325_bison_1#3\")]\n[name=\"拜松\"]谢谢市长先生。我在这里继续陪着就好。\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#9$1\", focus=1)]\n[name=\"赫尔曼\"]欧厄尔先生的儿子似乎年纪并不大，倒是很稳重。寻常这个年纪的孩子，早就拉着自己的家长要去买门票了。\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#10$1\", focus=2)]\n[name=\"欧厄尔\"] 哈哈哈，他啊，我是想让他继承峯驰物流，或者看他自己的打算。\n[Character(name=\"avg_npc_544_1#9$1\", name2=\"avg_npc_539_1#10$1\", focus=1)]\n[name=\"赫尔曼\"]看来欧厄尔先生是早有计划，对他从小培养。\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#10$1\", focus=1)]\n[name=\"赫尔曼\"]目光长远。\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#4$1\", focus=2)]\n[name=\"欧厄尔\"] 哪里，您也能看出来，他现在还嫩着呢。\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#9$1\", focus=2)]\n[name=\"欧厄尔\"] 而且只是现在看着稳重罢了，他小时候，没少让我操心。\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#9$1\", focus=1)]\n[name=\"赫尔曼\"]欧厄尔先生谦虚了。\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#5$1\", focus=2)]\n[name=\"欧厄尔\"] 市长先生，这可真就不是谦虚了，我相信为人父都可能有过类似的经历，您不要笑话我接下来要说的事——\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#5$1\", focus=2)]\n[name=\"欧厄尔\"] 他四岁那阵，他们学校举办了个什么亲子节，我去参加了。\n[Character(name=\"avg_npc_544_1#10$1\", name2=\"avg_npc_539_1#7$1\", focus=2)]\n[name=\"欧厄尔\"] 去了以后发现是亲子拔河比赛，他母亲身体不好，是我上去拔河……\n[Character(name=\"avg_npc_544_1#1$1\", name2=\"avg_npc_539_1#7$1\", focus=1)]\n[name=\"赫尔曼\"]欧厄尔先生拔河，应该没人能赢得过吧？\n[Character(name=\"avg_npc_544_1#1$1\", name2=\"avg_npc_539_1#10$1\", focus=2)]\n[name=\"欧厄尔\"] ……对，这方面是没人能赢得过，我们很快就得了第一。\n[Character(name=\"avg_npc_544_1#1$1\", name2=\"avg_npc_539_1#5$1\", focus=2)]\n[name=\"欧厄尔\"] 但坏就坏在那个时候小朋友们都还不懂事，见我们赢了，他们也想赢，一股脑地跑过来抓着我的腿叫“爸爸”，想让我帮他们拔河。\n[Character(name=\"avg_npc_544_1#5$1\", name2=\"avg_npc_539_1#5$1\", focus=1)]\n[name=\"赫尔曼\"]咳咳……\n[Character(name=\"avg_npc_544_1#5$1\", name2=\"avg_npc_539_1#5$1\", focus=1)]\n[name=\"赫尔曼\"]您夫人……？\n[Character(name=\"avg_npc_544_1#5$1\", name2=\"avg_npc_539_1#7$1\", focus=2)]\n[name=\"欧厄尔\"] 身体的缘故，当时不在场。\n[Character(name=\"avg_npc_544_1#9$1\", name2=\"avg_npc_539_1#7$1\", focus=1)]\n[name=\"赫尔曼\"]那还好。\n[Character(name=\"avg_npc_544_1#9$1\", name2=\"avg_npc_539_1#11$1\", focus=2)]\n[name=\"欧厄尔\"] 但这小子大度得很！直接把我推出去了，说老师教他要学会分享。\n[Character(name=\"avg_npc_544_1#9$1\", name2=\"avg_npc_539_1#11$1\", focus=2)]\n[name=\"欧厄尔\"] 我都不敢说话。\n[Character(name=\"char_325_bison_1#4\")]\n[name=\"拜松\"]……爸！\n[Character(name=\"avg_npc_544_1#9$1\", name2=\"avg_npc_539_1#10$1\", focus=2)]\n[name=\"欧厄尔\"] 哈哈哈！\n[Character(name=\"avg_npc_544_1#9$1\", name2=\"avg_npc_539_1#9$1\", focus=2)]\n[name=\"欧厄尔\"] 之前市长先生提过，您是有两个女儿？\n[Character(name=\"avg_npc_544_1#9$1\", name2=\"avg_npc_539_1#9$1\", focus=1)]\n[name=\"赫尔曼\"]嗯……\n[Character(name=\"avg_npc_544_1#9$1\", name2=\"avg_npc_539_1#9$1\", focus=1)]\n[name=\"赫尔曼\"]两个女儿……\n[dialog]\n[character]\n赫尔曼将后背轻靠在了椅背上。\n[Character(name=\"avg_npc_544_1#3$1\", name2=\"avg_npc_539_1#9$1\", focus=1)]\n[name=\"赫尔曼\"]一个让我省心，一个一点都不让我省心。\n[Character(name=\"avg_npc_544_1#2$1\", name2=\"avg_npc_539_1#9$1\", focus=1)]\n[name=\"赫尔曼\"]咳，或者说，两个都不太让我省心。\n[Character(name=\"avg_npc_544_1#2$1\", name2=\"avg_npc_539_1#9$1\", focus=2)]\n[name=\"欧厄尔\"] 哈哈哈，没有想到，市长先生对待孩子竟然是这样的性格。\n[Character(name=\"avg_npc_544_1#3$1\", name2=\"avg_npc_539_1#9$1\", focus=1)]\n[name=\"赫尔曼\"]早些年，那个不让我省心的还在维多利亚上大学的时候，几乎从来没有邀请我去看过她。\n[Character(name=\"avg_npc_544_1#1$1\", name2=\"avg_npc_539_1#9$1\", focus=1)]\n[name=\"赫尔曼\"]只有一次，我抽出时间去了她的学校，想和老师谈谈她的近况。"
+        }
+      ],
+      "description": "赫尔曼接待欧厄尔并长谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼接待欧厄尔并长谈。",
+          "status": "supported",
+          "to": "npc_e75c29c5060c7ab8"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_e75c29c5060c7ab8",
+          "reason": "赫尔曼接待欧厄尔并长谈。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_579215a80b4f83aa.json",
+      "sources": [
+        {
+          "endLine": 546,
+          "kind": "story",
+          "line": 404,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "未尽篇章"
+    }
+  ],
+  "relationship_id": "npc_ba4ddfafe7c93381|npc_e75c29c5060c7ab8"
+}

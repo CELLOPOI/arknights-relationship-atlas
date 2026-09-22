@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1037,
+          "line": 997,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st03.txt",
+          "quote": "[name=\"鼠王\"]人走了吗？\n[character(name=\"avg_npc_033\")]\n[name=\"手下\"]走了。我们的人一直跟着他，直到他出城。这次他没有任何企图变装的迹象。\n[character(name=\"avg_npc_034#1\")]\n[name=\"鼠王\"]好。\n[name=\"鼠王\"]我和那个人刚才的对话，你都听见了吧。\n[character(name=\"avg_npc_033\")]\n[name=\"手下\"]是的。\n[character(name=\"avg_npc_034#1\")]\n[name=\"鼠王\"]吩咐下去，最近一段时间，多关心一下那群叙拉古黑帮。\n[character(name=\"avg_npc_033\")]\n[name=\"手下\"]是。\n[character(name=\"avg_npc_034#1\")]\n[name=\"鼠王\"]那两匹孤狼呢，一个有大帝那家伙看着，我不担心。至于另一个，你们这段时间多加留意，直到她离开龙门。\n[character(name=\"avg_npc_033\")]\n[name=\"手下\"]是。\n[name=\"手下\"]假如她一直不离开，那该怎么办？\n[Dialog]\n[character(name=\"avg_npc_034#1\")]\n[Delay(time=1)]\n[Stopmusic(fadetime=3)]\n[character(name=\"avg_npc_034#11\")]\n[name=\"鼠王\"]……\n[name=\"鼠王\"]…………\n[name=\"鼠王\"]………………\n[character(name=\"avg_npc_034#3\")]\n[playMusic(intro=\"$bar_intro\", key=\"$bar_loop\", volume=0.4)]\n[name=\"鼠王\"]今天是星期五吧。\n[character(name=\"avg_npc_033\")]\n[name=\"手下\"]倒是没错，但……您的意思是？\n[character(name=\"avg_npc_034#1\")]\n[name=\"鼠王\"]我记得你们有好多人都说今天是……是什么星期五来着？现在年轻人的话我越来越听不懂了。\n[name=\"鼠王\"]总之，冰城酒店今天是不是全场七折？\n[character(name=\"avg_npc_033\")]\n[name=\"手下\"]呃——我去问问。\n[character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]如果七折，就给我在今天晚上订一个双人位。\n[character(name=\"avg_npc_033\")]\n[name=\"手下\"]双人位……我明白了！马上去办！\n[character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]别这么紧张，只是和老朋友吃个饭而已。"
+        }
+      ],
+      "description": "鼠王明确知道大帝及其照看对象。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "鼠王明确知道大帝及其照看对象。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "本篇未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_83e2c28380c1c6fb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_579215a80b4f83aa.json",
+      "sources": [
+        {
+          "endLine": 1037,
+          "kind": "story",
+          "line": 997,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "未尽篇章"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 94,
+          "line": 83,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17d7/level_act17d7_entry.txt",
+          "quote": "[name=\"大帝\"]   啧，脱靶。抱歉，没打中是我的失误。\n[name=\"大帝\"]   哇哦，怎么回事，你用这种口气说话让我犯恶心。\n[name=\"大帝\"]   是谁把臭老鼠放上台的？说唱界新人？我怎么没听过最近有这么个让人火大的新人。\n[Character(name=\"avg_npc_030\")]\n[name=\"主持人\"]   大帝先生很久没关注过业界了吧？\n[name=\"主持人\"]   最近出现了不少有才华的歌手，其中一些已经拥有一定规模的支持者，实力不可小觑。\n[name=\"主持人\"]   这位“沙炫风”先生就是新人里最有人气的一位了。\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]   这名字土得让我感觉自己在掉毛。\n[Character(name=\"avg_npc_034#3\")]\n[name=\"“沙炫风”\"]   是吗？我倒是觉得还不错。\n[name=\"“沙炫风”\"]   就让我沙炫风a.k.a.MC.舸瑞来让你明白人不可貌相，也不要随意取笑别人的名字。"
+        }
+      ],
+      "description": "大帝与化名参赛的鼠王直接交锋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝直接质问新登台的鼠王。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "鼠王以“沙炫风”身份向大帝回应并挑战。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_12fb2d8a4f83dfd8.json",
+      "sources": [
+        {
+          "endLine": 94,
+          "kind": "story",
+          "line": 83,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17d7/level_act17d7_entry.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "说唱挑战赛登台场景",
+      "title": "泰拉 说唱之夜！"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 217,
+          "line": 201,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_09_end.txt",
+          "quote": "[name=\"大帝\"]   ——\n[Character]\n[name=\"？？？\"]   ……真吵啊。\n[stopmusic(fadetime=2)]\n[Character(name=\"avg_npc_034\")]\n[name=\"鼠王\"]   今天是安魂节，大帝先生，你的噪音连死人都能吵醒。\n[Character(name=\"char_105_emper\",name2=\"avg_npc_034\",focus=1)]\n[name=\"大帝\"]   什——！？\n[PlaySound(key=\"$knifegore\", volume=0.9)]\n[Character(name=\"char_105_emper\")]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[name=\"大帝\"]   你是，什么时候……在我身后……\n[Character(name=\"char_105_emper\",name2=\"avg_npc_034#7\",focus=2)]\n[name=\"鼠王\"]   晚安，大帝先生，安魂节快乐。\n[PlayMusic(intro=\"$kingmouse_intro\", key=\"$kingmouse_loop\", volume=0.8, crossfade=1.5)]\n[Character(name=\"char_105_emper\",name2=\"avg_npc_034#7\",focus=1)]\n[name=\"大帝\"]   ……臭老鼠，你给我……记住……"
+        }
+      ],
+      "description": "鼠王与大帝直接相识并交锋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "鼠王直接称呼并袭击大帝。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝认出鼠王并直接回应。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 217,
+          "kind": "story",
+          "line": 201,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安魂夜演出现场",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "npc_2b6410ed62fdecf2|npc_83e2c28380c1c6fb"
+}

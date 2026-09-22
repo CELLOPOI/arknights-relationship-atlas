@@ -1,0 +1,26 @@
+{
+  "id": "import:char_4195_radian|char_508_aguard",
+  "published": true,
+  "quote": "Sharp：你的速度没有你夸口的那么快，Stormeye。\nStormeye：地形变动太大，耽误了些时间。\nStormeye：幸好有凯尔希医生和Raidian重建了通讯，否则难说还会遇到什么。\nStormeye：你在通讯里提到了Whitesmith？\nSharp：……\nSharp：前一秒她还远远地招呼我到她的炉火前喝酒跳舞，但下一秒她就消失不见，只留下了一堆被源石污染的机械从锻炉里爬出来攻击我。\nStormeye：幻觉？\n\nRaidian\n电磁通讯场已建立。\nMantra的声音也在你的心中响起——\nMantra\n需要协助，只需心中一念。我们都在。\nStormeye\n替我掩护侧翼怎么样，Sharp？\nSharp\n那你最好把弓拿稳了。\n\n通讯频道：【机密】\n可露希尔：开采模块运输和安装的行动简报已同步至你们的终端，对接人记录已经在系统中抹除。\n可露希尔：注意安全，早去早回。\nMisery：我代Stormeye和Sharp回复，任务已收到。\nMechanist：医疗中心核心组件的运输任务已完成，Raidian和Logos正在交接任务。\nMechanist：我的小队已经准备着手安装，同时对矿区进行矿脉勘测，你们也可以考虑接回各个办事处的病人了。\n可露希尔：好。早一天建成，我们被发现的风险就少一分，我们就能更安全一些。",
+  "relationship_id": "char_4195_radian|char_508_aguard",
+  "sources": [
+    {
+      "endLine": 599,
+      "kind": "story",
+      "line": 588,
+      "source": "obt/main/level_main_15-10_end.txt"
+    },
+    {
+      "endLine": 655,
+      "kind": "story",
+      "line": 638,
+      "source": "obt/main/level_main_15-14_end.txt"
+    },
+    {
+      "endLine": 22,
+      "kind": "story",
+      "line": 12,
+      "source": "obt/sandboxperm/sandbox_2/battleavg/dialog_sandbox_2_main3_1_op.txt"
+    }
+  ]
+}

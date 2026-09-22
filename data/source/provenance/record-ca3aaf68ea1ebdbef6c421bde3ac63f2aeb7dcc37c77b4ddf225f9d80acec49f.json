@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 499,
+          "line": 497,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_beg.txt",
+          "quote": "[name=\"雅儿\"]先把刀放下啦！是罗德岛的博士让我来找你们的。\n[character(name=\"avg_npc_252\",name2=\"avg_npc_250_1#1$1\",focus=2)]\n[name=\"雅儿\"]博士有话让我带给你们。"
+        }
+      ],
+      "description": "雅儿明确说博士托她带口信。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4013_kjera",
+          "reason": "雅儿明确说博士托她带口信。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "雅儿明确说博士托她带口信。",
+          "status": "supported",
+          "to": "char_4013_kjera"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 499,
+          "kind": "story",
+          "line": 497,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_4013_kjera|npc_b99957887950ebfd"
+}

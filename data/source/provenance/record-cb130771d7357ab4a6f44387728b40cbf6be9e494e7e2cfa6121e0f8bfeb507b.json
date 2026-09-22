@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 147,
+          "line": 136,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "quote": "[name=\"Scout\"]那么，殿下，这次的简报就只有这些。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]看来军事委员会笃定我们会收复C8—10区域的村庄和物资，并在那里建立哨站，他们已经落入了圈套。\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]但……有一些军官，开始表露出与曼弗雷德大不相同的军事策略。这很不寻常。\n[name=\"Scout\"]间谍提出，曾看见过食腐者出入军队的营帐。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#3$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]孽茨雷……\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]博士怎么看待这件事？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]博士认为，在萨卡兹的战争之神表露出任何形式的参与意图后，我们的布置会被全盘打乱。"
+        }
+      ],
+      "description": "Scout明确区分其他军官和曼弗雷德的军事策略。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E38"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout明确区分其他军官和曼弗雷德的军事策略。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 147,
+          "kind": "story",
+          "line": 136,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_0957af9bf990438d"
+}

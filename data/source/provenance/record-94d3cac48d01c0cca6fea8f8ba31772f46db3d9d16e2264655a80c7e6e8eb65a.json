@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 470,
+          "line": 426,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_malist_1_1.txt",
+          "quote": "[name=\"耶奇·地心\"]斯第奇，你看，这湖就是这样。我是想不出该在这建点什么，你的假期也不剩多少了，好好休息休息，下次再说吧。\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"m\")]\n[name=\"至简\"]可我已经有想法了。\n[charslot(slot=\"m\",name=\"avg_4055_bgsnow_1#6$1\",focus=\"m\")]\n[name=\"鸿雪\"]真的？你要在这建什么？\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"m\")]\n[name=\"至简\"]新际崖城。\n[charslot(slot=\"m\",name=\"avg_npc_566_1#10$1\",focus=\"m\")]\n[name=\"克罗绮·砖石\"]斯第奇，你来之前喝酒了？\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#8$1\",focus=\"m\")]\n[name=\"至简\"]怎么会。产能问题一时半会解决不了，但笨蛋市民朋友们的审美必须要纠正。\n[charslot(slot=\"m\",name=\"avg_npc_569_1#5$1\",focus=\"m\")]\n[name=\"黛柯绮·银币\"]唔，你是说要建一座新际崖城的模型。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#1$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]时间这么仓促，你打算用什么来做模型？我回去帮你筹措材料，召集一些工匠……\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#8$1\",focus=\"m\")]\n[name=\"至简\"]不用，我可以直接用沙堡来建。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_564_1#5$1\",focus=\"m\")]\n[delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_564_1#6$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]该不会刚才那两个笨蛋打架的时候，你一直在打瞌睡吧。\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"m\")]\n[name=\"至简\"]湖水的水位和波浪先不论，这里确实很适合堆沙堡。\n[name=\"至简\"]耶奇大师，你不是总说我的假期没多少时间了嘛。既然时间不够，那建些不需要大动干戈的东西，不是正好吗？\n[charslot(slot=\"m\",name=\"avg_npc_564_1#1$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]明知道沙堡很快就会被水冲走？\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#8$1\",focus=\"m\")]\n[name=\"至简\"]是啊。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#6$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]……斯第奇，你到底是成长了还是出什么事了？我感觉自己都快不认识你了。\n[charslot(slot=\"m\",name=\"avg_4055_bgsnow_1#10$1\",focus=\"m\")]\n[name=\"鸿雪\"]耶奇大师，让他做吧。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#5$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]阿芙朵嘉？\n[charslot(slot=\"m\",name=\"avg_4055_bgsnow_1#10$1\",focus=\"m\")]\n[name=\"鸿雪\"]斯第奇没出什么事，就是最近心态发生了一些变化。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#5$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]真的？\n[charslot(slot=\"m\",name=\"avg_4055_bgsnow_1#10$1\",focus=\"m\")]\n[name=\"鸿雪\"]真的。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#1$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]……看在阿芙朵嘉的面子上，我姑且相信你一回。斯第奇，你说话可得算数。\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#8$1\",focus=\"m\")]\n[name=\"至简\"]那当然。"
+        }
+      ],
+      "description": "湖畔模型讨论中五人实际局部同场，NPC 相关端点均有具名发言；不扩至场外人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_aca999454e1f5740",
+          "reason": "湖畔模型讨论中五人实际局部同场，NPC 相关端点均有具名发言；不扩至场外人物。",
+          "status": "supported",
+          "to": "char_4055_bgsnow"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4055_bgsnow",
+          "reason": "湖畔模型讨论中五人实际局部同场，NPC 相关端点均有具名发言；不扩至场外人物。",
+          "status": "supported",
+          "to": "npc_aca999454e1f5740"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_56b0dd5bc7e9e890.json",
+      "sources": [
+        {
+          "endLine": 470,
+          "kind": "story",
+          "line": 426,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_malist_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "至简"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 64,
+          "line": 58,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_08_beg.txt",
+          "quote": "[name=\"耶奇·地心\"]为什么我演讲就没有这么受欢迎？\n[Character(name=\"avg_npc_569_1#1$1\")]\n[name=\"黛柯绮·银币\"]因为除了您的最长记录之外，其他由您主持的会议，也没有短到哪里去。\n[Character(name=\"avg_npc_564_1#1$1\")]\n[name=\"耶奇·地心\"]臭丫头，别以为我不知道，每次你都是第一个睡着的。\n[Character(name=\"avg_npc_569_1#1$1\")]\n[name=\"黛柯绮·银币\"]今天我可不会睡，今天的阿芙朵嘉，和平时不太一样，她到底想说些什么？"
+        }
+      ],
+      "description": "黛柯绮明确评价当天阿芙朵嘉演讲不同寻常，反向只见远处演讲，未证识别听众个体。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E38"
+          ],
+          "from": "npc_aca999454e1f5740",
+          "reason": "黛柯绮明确评价当天阿芙朵嘉演讲不同寻常，反向只见远处演讲，未证识别听众个体。",
+          "status": "supported",
+          "to": "char_4055_bgsnow"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_4055_bgsnow",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_aca999454e1f5740"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 64,
+          "kind": "story",
+          "line": 58,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 601,
+          "line": 595,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_bgsnow_1_1.txt",
+          "quote": "[name=\"黛柯绮·银币\"]阿芙朵嘉，你又来啦。\n[Character(name=\"avg_4055_bgsnow_1#10$1\",name2=\"avg_npc_569_1#8$1\",focus=1)]\n[name=\"阿芙朵嘉\"]嗯，我想找一些杜林人之间流行的杂志，看看怎样的广告语比较能吸引大家。\n[Character(name=\"avg_4055_bgsnow_1#10$1\",name2=\"avg_npc_569_1#8$1\",focus=2)]\n[name=\"黛柯绮·银币\"]这种书就在门口的书架上，不会有错的。毕竟每天都会被很多人翻看嘛！\n[Character(name=\"avg_4055_bgsnow_1#10$1\",name2=\"avg_npc_569_1#8$1\",focus=1)]\n[name=\"阿芙朵嘉\"]多谢。"
+        }
+      ],
+      "description": "双方在图书馆直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4055_bgsnow",
+          "reason": "阿芙朵嘉回应黛柯绮的招呼并向其求助。",
+          "status": "supported",
+          "to": "npc_aca999454e1f5740"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_aca999454e1f5740",
+          "reason": "黛柯绮叫出阿芙朵嘉并回应其请求。",
+          "status": "supported",
+          "to": "char_4055_bgsnow"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9de7cdc8a58a744e.json",
+      "sources": [
+        {
+          "endLine": 601,
+          "kind": "story",
+          "line": 595,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_bgsnow_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "干员密录“墨迹已落”图书馆场景",
+      "title": "鸿雪"
+    }
+  ],
+  "relationship_id": "char_4055_bgsnow|npc_aca999454e1f5740"
+}

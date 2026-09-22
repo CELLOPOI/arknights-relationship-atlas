@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 107,
+          "line": 107,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_st01.txt",
+          "quote": "[name=\"梅尔\"]诶，我只在演讲上看过总辖的样子，没想到总辖也是这样的人啊。"
+        }
+      ],
+      "description": "",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "本活动未找到该方向的具体人物知晓、信息接收或实际局部同场依据；不表示此人从来不认识对方。",
+          "status": "not_established_in_batch",
+          "to": "char_242_otter"
+        },
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_242_otter",
+          "reason": "梅尔只在演讲上看过总辖。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 107,
+          "kind": "story",
+          "line": 107,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "酒吧谈话时报告的早前观看经历。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_242_otter|npc_ebd7747563277517"
+}

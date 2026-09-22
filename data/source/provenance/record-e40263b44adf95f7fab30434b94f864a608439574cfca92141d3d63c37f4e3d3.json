@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 103,
+          "line": 81,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gdglow_1_1.txt",
+          "quote": "[name=\"苦根\"]不行了，我也吃到头痛了。这十色桶真够大的。\n[charslot(slot = \"left\", name = \"avg_377_gdglow_1#10$1\",focus=\"l\")]\n[name=\"苏茜\"]嘿嘿……\n[charslot(slot = \"right\", name = \"avg_npc_012\",focus=\"r\")]\n[name=\"苦根\"]好啦，都确认是真的了，你就别翻来覆去看那张奖券啦。\n[name=\"苦根\"]正好洗发水厂说他们财务下个月才回来，得到那时候再兑奖，你趁这段时间好好规划下这笔钱该怎么花。\n[charslot(slot = \"left\", name = \"avg_377_gdglow_1#3$1\",focus=\"l\")]\n[name=\"苏茜\"]首先把一半寄回家，一万镑应该足够家里换一个更大更漂亮的房子了，剩下的钱可以用来做点生意……\n[charslot(slot = \"left\", name = \"avg_377_gdglow_1#2$1\",focus=\"l\")]\n[name=\"苏茜\"]然后，呃……给罗德岛买一大堆理发设备？就连给斑点先生理发也能在十分钟内解决战斗的那种？\n[charslot(slot = \"right\", name = \"avg_npc_012\",focus=\"r\")]\n[name=\"苦根\"]——噗！\n[name=\"苦根\"]还是多想想自己的生活吧。一万镑对一家公司来说不多，对一个人来说，足够让生活天翻地覆了。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[PlaySound(key=\"$d_avg_telephonering\")]\n[delay(time=2)]\n[charslot(slot = \"right\", name = \"avg_npc_012\",focus=\"r\")]\n[name=\"苦根\"]啧，车队到了啊……\n[name=\"苦根\"]苏茜，忘了跟你说，我马上要出差一段时间，差不多也是下个月回来，到时候我们一起去把奖领了。\n[name=\"苦根\"]你接下来去哪？车队说不定能捎你一程。\n[charslot(slot = \"left\", name = \"avg_377_gdglow_1#1$1\",focus=\"l\")]\n[name=\"苏茜\"]我想去看看吉姆斯先生他们……或许，找家酒吧？"
+        }
+      ],
+      "description": "苦根与苏茜是已相识的同事/友人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "直接称呼苏茜",
+          "status": "supported",
+          "to": "char_377_gdglow"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_377_gdglow",
+          "reason": "同场回应",
+          "status": "supported",
+          "to": "npc_e3878a71089209c5"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_f9a2bea7b0286410.json",
+      "sources": [
+        {
+          "endLine": 103,
+          "kind": "story",
+          "line": 81,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gdglow_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "《纯属意外》本篇",
+      "title": "澄闪"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 105,
+          "line": 93,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_quercu_2_1.txt",
+          "quote": "[name=\"苦根\"]苏茜来找你了。\n[name=\"苦根\"]我先走了。\n[Dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"l\",name=\"avg_377_gdglow_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_492_quercu_1#9$1\",focus=\"r\")]\n[name=\"夏栎\"]小苏茜，我不是让你先好好休息吗？\n[name=\"夏栎\"]我这儿……\n[name=\"夏栎\"]我自己忙得过来，没什么需要帮忙的。\n[charslot(slot=\"l\",name=\"avg_377_gdglow_1#1$1\",focus=\"l\")]\n[name=\"澄闪\"]……"
+        }
+      ],
+      "description": "苦根知道到访者苏茜即澄闪；反向未由本篇建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "苦根明确识别并通报苏茜到访。",
+          "status": "supported",
+          "to": "char_377_gdglow"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_377_gdglow",
+          "reason": "苦根在澄闪开始发言前离开，已读窗口未建立澄闪反向知晓。",
+          "status": "not_established",
+          "to": "npc_e3878a71089209c5"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_e552167ef6e5d137.json",
+      "sources": [
+        {
+          "endLine": 105,
+          "kind": "story",
+          "line": 93,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_quercu_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生命的萌芽开篇高多汀据点场景",
+      "title": "夏栎"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 985,
+          "line": 941,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st01.txt",
+          "quote": "[name=\"苦根\"] 上午好，苏茜小姐。\n[character(name=\"avg_377_gdglow_1#4$1\")]\n[name=\"苏茜\"] 啊！苦根先生！我之前没看到……\n[name=\"苏茜\"] 咦？现在几点？\n[character(name=\"avg_377_gdglow_1#12$1\")]\n[name=\"苏茜\"] 啊，不好意思苦根先生，今天歇业，您有什么事吗？\n[character(name=\"avg_npc_012\")]\n[name=\"苦根\"] 夏栎你还没给苏茜小姐说吗？\n[Character(name=\"avg_377_gdglow_1#12$1\", name2=\"avg_492_quercu_1#4$1\", focus=2)]\n[name=\"夏栎\"] 啊，确实没说过。\n[Character(name=\"avg_377_gdglow_1#12$1\", name2=\"avg_492_quercu_1#4$1\", focus=1)]\n[name=\"苏茜\"] ？\n[Character(name=\"avg_377_gdglow_1#12$1\", name2=\"avg_492_quercu_1#7$1\", focus=2)]\n[name=\"夏栎\"] 他就是这家店的房东，我之前忘记告诉你了。\n[Character(name=\"avg_377_gdglow_1#4$1\", name2=\"avg_492_quercu_1#7$1\", focus=1)]\n[name=\"苏茜\"] 哎？\n[name=\"苏茜\"] 哎？？？\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"苏茜\"] 苦根先生是房东？？那前几个店长都是和苦根先生签的合同？？\n[character(name=\"avg_npc_012\")]\n[name=\"苦根\"] 是这样，这个说来话长了……总之，这家店其实是罗德岛的资产。\n[name=\"苦根\"] 具体的情况我已经听夏栎说了，苏茜小姐想要买下这家店是吗？\n[name=\"苦根\"] 那么容我问一句，您接下来打算进行怎样的业务呢？\n[Character(name=\"avg_377_gdglow_1#4$1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"苏茜\"] 业务？\n[Character(name=\"avg_377_gdglow_1#7$1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"苏茜\"] 啊！业务！\n[Character(name=\"avg_377_gdglow_1#5$1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"苏茜\"] ……\n[name=\"苏茜\"] 我……我的父亲是一个理发师。\n[Character(name=\"avg_377_gdglow_1#6$1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"苏茜\"] 小时候，他经常说……我们不应该因为生活窘迫而改变面对生活的态度。\n[Character(name=\"avg_377_gdglow_1#1$1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"苏茜\"] 理发看起来是一件小事，但是愿意打理自己的人，他一定是一个依然相信生活的人……\n[name=\"苏茜\"] 所以我在想……\n[Character(name=\"avg_377_gdglow_1#3$1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"苏茜\"] 在感染者社区开一家理发店……也挺好的。\n[Character(name=\"avg_377_gdglow_1#3$1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"苦根\"] 理发啊……帮感染者们理发吗？\n[name=\"苦根\"] 听起来很不错啊。\n[name=\"苦根\"] 那么就这样定了！合同签署一会儿会有人来负责的。\n[Character(name=\"avg_377_gdglow_1#7$1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"苏茜\"] 欸？这样就结束了？\n[Character(name=\"avg_377_gdglow_1#7$1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"苦根\"] 我们已经很熟悉了不是吗，苏茜小姐你没问题的。"
+        }
+      ],
+      "description": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_377_gdglow",
+          "reason": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+          "status": "supported",
+          "to": "npc_e3878a71089209c5"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+          "status": "supported",
+          "to": "char_377_gdglow"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_a170fc4ad11dca33.json",
+      "sources": [
+        {
+          "endLine": 985,
+          "kind": "story",
+          "line": 941,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "阴云火花"
+    }
+  ],
+  "relationship_id": "char_377_gdglow|npc_e3878a71089209c5"
+}

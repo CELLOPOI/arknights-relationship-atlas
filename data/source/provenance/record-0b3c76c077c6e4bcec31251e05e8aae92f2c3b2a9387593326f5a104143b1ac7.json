@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 469,
+          "line": 385,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-11_end.txt",
+          "quote": "夜莺落到了地面上。\n极致的光芒自她的法杖中、身体里释放。\n巨大的囚笼显现，反过来将奎萨图什塔的身躯捕捉。\n[name=\"奎萨图什塔\"]唔——！\n[name=\"奎萨图什塔\"]明明灵魂完全在我手中，这囚笼为何——\n[name=\"夜莺\"]我有名字的。\n[name=\"夜莺\"]我叫丽兹，是你的敌人。\n[Dialog]\n[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Effect(name=\"$e_magic_shield_01\",layer = 1)]\n[Effect(name=\"$e_magic_lightning_01\",layer = 2)]\n[playsound(key=\"$d_avg_magic_5\",volume=1)]\n[Delay(time=1)]\n[name=\"夜莺\"]奎萨图什塔，我阻止你……是因为你说的每一句话，我都不同意。\n[Dialog]\n[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Effect(name=\"$e_magic_shield_01\",layer = 1)]\n[Effect(name=\"$e_magic_lightning_01\",layer = 2)]\n[playsound(key=\"$d_avg_magic_5\",volume=1)]\n[Delay(time=1)]\n[name=\"奎萨图什塔\"]你……\n[dialog]\n[stopmusic(fadetime=1.5)]\n[playsound(key=\"$d_avg_magic_5\",volume=1)]\n[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1,g=1, b=1, fadetime=1, block=true)]\n[charslot]\n[Image]\n[Background(image=\"50_g7_confessariusaltar_on\",screenadapt=\"coverall\")]\n[charslot(slot=\"m\",name=\"avg_179_cgbird_1#6$1\")]\n[delay(time=2)]\n[PlayMusic(intro=\"$kazimierz2_1_intro\", key=\"$kazimierz2_1_loop\", volume=0.6)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]\n[name=\"夜莺\"]闪灵、临光……\n[Dialog]\n[charslot]\n闪灵握紧了剑。\n玛嘉烈掷出了剑枪，枪尖正中奎萨图什塔手中旋转的荆棘冠冕。\n三人毫无差错地领悟了彼此心中所想。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_654_1#8$1\",focus=\"m\")]\n[name=\"奎萨图什塔\"]——！\n[Dialog]\n[Delay(time=0.5)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Effect(name=\"$e_bladeline_01_large\",x =-34.7, y =39.1,rox =69.5, roy =-30.3, roz =-126.6, layer = 1)]\n[Effect(name=\"$e_bladeline_01_large\",x =-26.7, y =36.2,rox =51.3, roy =-21.6, roz =156.4, layer = 1)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[charslot]\n在晨昏再度被掌控之前，抓住那一线灵魂之火闪烁的微光。\n绵长血色的唯一一道裂缝，的确就在眼前。\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\")]\n[name=\"闪灵\"]我找到了，你灵魂的本质。\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#4$1\")]\n[name=\"闪灵\"]——\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_654_1#8$1\",focus=\"m\")]\n[Delay(time=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Effect(name=\"$e_bladeline_01_large\",x =47.5, y =-103.3,rox =103.1, roy =-16.7, roz =-96.6, layer = 1)]\n[Blocker(a=1, r=255, g=0, b=0, fadetime=0.03, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_654_1#8$1\",focus=\"m\")]\n[name=\"奎萨图什塔\"]……\n[name=\"奎萨图什塔\"]奎萨辛娜……你……\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\",focus=\"m\")]\n[name=\"闪灵\"]这副身躯会变成什么样……我并不担心。\n[name=\"闪灵\"]如果我的意志会被血脉掌控，那丽兹和临光会替此刻的我，对我下达判决。\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#4$1\",focus=\"m\")]\n[name=\"闪灵\"]但我决不会成为你的傀儡。\n[name=\"闪灵\"]我不会替你去征服，去统治。\n[name=\"闪灵\"]至死……我都一定是自由的。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#8$1\",focus=\"m\")]\n[name=\"奎萨图什塔\"]自由？\n[name=\"奎萨图什塔\"]那就试试看吧。\n[name=\"奎萨图什塔\"]奎萨辛娜，我们不会轻易分离。"
+        }
+      ],
+      "description": "三使徒与奎萨图什塔共同交战、直接对话；玛嘉烈即临光在叙事中被夜莺叫名。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E119"
+          ],
+          "from": "char_147_shining",
+          "reason": "三使徒与奎萨图什塔共同交战、直接对话；玛嘉烈即临光在叙事中被夜莺叫名。",
+          "status": "supported",
+          "to": "npc_2d30a11ec7e30f39"
+        },
+        {
+          "evidenceIds": [
+            "E119"
+          ],
+          "from": "npc_2d30a11ec7e30f39",
+          "reason": "三使徒与奎萨图什塔共同交战、直接对话；玛嘉烈即临光在叙事中被夜莺叫名。",
+          "status": "supported",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 469,
+          "kind": "story",
+          "line": 385,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-11_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 308,
+          "line": 155,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-02.txt",
+          "quote": "[name=\"闪灵\"]丽兹……？\n[stopmusic(fadetime=2)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"闪灵看到了那棵树上停歇着一只黑色的羽兽，它虚弱地蜷缩在枯枝圈出的王冠之上。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n它回望着闪灵，鸣管中震颤出的哀鸣充满律动——\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"*古老的萨卡兹语*。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"枯枝的王冠中飘落下一支黑羽。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n小小的黑羽，遮挡了所有人的眼睛。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[name=\"？？？\"]你引我至此。\n[name=\"？？？\"]而我来接你回家，丽兹。\n[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]Mon3tr！\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]\n[CameraShake(duration=2, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[name=\"Mon3tr\"]（高昂的嘶鸣）\n[charslot]\n[dialog]\n[name=\"？？？\"]回去。\n[dialog]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$p_imp_whip_h\", volume=1)]\n[PlaySound(key=\"$d_avg_land_impact\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[delay(time=1)]\n[name=\"？？？\"]结构真脆弱，看来特雷西斯的剑比想象中还要锋利。\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_654_1#1$1\",focus=\"m\",duration=2)]\n[delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_179_cgbird_1#2$1\",focus=\"m\")]\n[name=\"夜莺\"]闪灵，小心！\n[charslot(slot=\"m\",name=\"avg_147_shining_1#5$1\",focus=\"m\")]\n[name=\"闪灵\"]丽兹，没事，他伤不到我。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#3$1\",focus=\"m\")]\n[name=\"赦罪师\"]你退步了。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#3$1\",focus=\"m\")]\n[name=\"赦罪师\"]这样会让我很头疼，将你的肉体重新调回巅峰的状态会占用很多的实验时间。\n[charslot(slot=\"m\",name=\"avg_147_shining_1#4$1\",focus=\"m\")]\n[name=\"闪灵\"]你竟然愿意离开你那污秽的巢穴……\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"那只黑色的羽兽停歇在了赦罪师手中的枯枝之上。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n丰盛的羽毛覆盖在健硕的躯干上，闪耀着光泽。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n它转瞬便于腐败中重生。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_147_shining_1#5$1\",focus=\"m\")]\n[name=\"闪灵\"]看来有什么事情令你也感到焦急。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#1$1\",focus=\"m\")]\n[name=\"赦罪师\"]我们已经来到了那扇大门之前。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#1$1\",focus=\"m\")]\n[name=\"赦罪师\"]哪怕尚只是轻叩大门，就已经大大加快了我们实验的进度。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#1$1\",focus=\"m\")]\n[name=\"赦罪师\"]最后的仪式你必须出席——\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]Mon3tr，熔毁！\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]\n[CameraShake(duration=2, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$Mon3tr_n\")]\n[name=\"Mon3tr\"]（愤怒的嘶吼）\n[charslot(slot=\"m\",name=\"avg_npc_654_1#2$1\",focus=\"m\")]\n[name=\"赦罪师\"]五分钟就足够，萨卢斯，用生命阻止她。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#2$1\",focus=\"m\")]\n[name=\"赦罪师\"]别让他们打扰我。\n[charslot]\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_653_1#2$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[name=\"萨卢斯\"]当然，首领。\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]\n[dialog]\n[CameraShake(duration=5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$e_skill_ignite_cast\", volume=0.6)]\n[PlaySound(key=\"$p_skill_chimera\", volume=1)]\n[Effect(name=\"$e_amiya_atk_01\", layer = 1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]\n[Delay(time=1)]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"黑色的绸缎垂下。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n嘶吼的怪物被层层束缚，可供它挣扎的空间越来越小。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]\n[CameraShake(duration=2, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[name=\"Mon3tr\"]（痛苦的嘶吼）\n[charslot(slot=\"m\",name=\"avg_147_shining_1#6$1\",focus=\"m\")]\n[name=\"闪灵\"]……黑色的法术？\n[charslot(slot=\"m\",name=\"avg_147_shining_1#4$1\",focus=\"m\")]\n[name=\"闪灵\"]那是……阿米娅的？你们把阿米娅怎么了？！\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]……不。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]你们没有打败阿米娅。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#2$1\",focus=\"m\")]\n[name=\"萨卢斯\"]我本可以将魔王无恙地献给首领，可惜。\n[name=\"萨卢斯\"]不过没关系，只是看见，也足够让赝品更进一步。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#6$1\",focus=\"m\")]\n[name=\"萨卢斯\"]所以，小怪物，不要妄图打扰首领，你现在得陪我去其他地方老实待着！\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]\n[PlaySound(key=\"$char_Mon3tr\")]\n[name=\"Mon3tr\"]（愤怒的哀鸣）\n[dialog]\n[charslot(duration=1)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"char_003_kalts_1#3\",focus=\"m\")]\n[name=\"凯尔希\"]Mon3tr！\n[charslot(slot=\"m\",name=\"avg_147_shining_1#5$1\",focus=\"m\")]\n[name=\"闪灵\"]凯尔希医生，你还不能乱动。\n[charslot(slot=\"m\",name=\"avg_147_shining_1#4$1\",focus=\"m\")]\n[name=\"闪灵\"]我说过，你我再见面只会是在战场上。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#8$1\",focus=\"m\")]\n[name=\"赦罪师\"]哦？那为何此刻还要隐藏自己的剑？\n[charslot(slot=\"m\",name=\"avg_npc_654_1#8$1\",focus=\"m\")]\n[name=\"赦罪师\"]你离家时，曾立誓断绝家族的血统，我无时无刻不期盼你回归家族履行誓言。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#3$1\",focus=\"m\")]\n[name=\"赦罪师\"]我给了你时间，你却一次次让我失望。\n[charslot(slot=\"m\",name=\"avg_npc_654_1#3$1\",focus=\"m\")]\n[name=\"赦罪师\"]本来，我们该诞下下一个我。那将是近百年来，最空灵的血脉。\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$p_imp_whip_h\", volume=1)]\n[PlaySound(key=\"$d_avg_land_impact\")]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_179_cgbird_1#2$1\",focus=\"m\")]\n[name=\"夜莺\"]唔……！\n[dialog]\n[charslot(slot=\"m\",name=\"avg_147_shining_1#5$1\",focus=\"m\")]\n[PlaySound(key=\"$swordtsing4\")]\n[PlaySound(key=\"$d_avg_land_impact\")]\n[CameraShake(duration=1, xstrength=10, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_654_1#3$1\",focus=\"m\")]\n[name=\"赦罪师\"]……唔。"
+        }
+      ],
+      "description": "双方在安全屋袭击中直接对峙或交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_147_shining",
+          "reason": "双方在安全屋袭击中直接对峙或交战。",
+          "status": "supported",
+          "to": "npc_2d30a11ec7e30f39"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_2d30a11ec7e30f39",
+          "reason": "双方在安全屋袭击中直接对峙或交战。",
+          "status": "supported",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 308,
+          "kind": "story",
+          "line": 155,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安全屋袭击",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 345,
+          "line": 282,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "quote": "[name=\"萨卢斯\"]你不会不明白的。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……\n[Image(image=\"32_i05\", fadetime=1, xScale=1.1, yScale=1.1)]\n[ImageTween(image=\"32_i05\", fadetime=0.5, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=20)]\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]你很清楚。也正因如此，你才会回应我的邀请，不是吗？\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]从源石入手，开辟通向“魔王”真相的道路，我们得到了更清晰的结论。\n[name=\"赦罪师\"]她只是一个古旧的牢笼，如有必要，我们甚至可以编织一个新的……\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]够了。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]——\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]唉。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]即使是当年，你趁乱打伤同僚，带走那个女人的时候，我也没见你真正愤怒过。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]看来也不需要问这些年你经历了什么啦。总而言之呢……\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]……你似乎把那些外人看得比家人还重要。\n萨卢斯将杯中的白水一饮而尽。\n她没有喝酒。她不喜欢喝酒。特别不喜欢在工作时喝酒。\n她的影子在光下摇曳。今天本不是工作的日子。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]你们不是我的家人。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]我说得还不够清楚吗？\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]足够清楚了。\n[character(fadetime=0)]\n[image(fadetime=1)]\n[delay(time=1)]\n[stopmusic(fadetime=1)]\n闪灵没有看一口未动的餐食，也没有看坐在一旁的其他两名赦罪师。\n[PlaySound(key=\"$d_avg_chairrub\", volume=1)]\n她只是抱着自己的剑站了起来。\n[PlayMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……你们派来监视丽兹的士兵，我已经请他们全部离开了。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]也不必再给我寄什么邀请函。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]下次再见面……应该是在战场上。\n[Character(name=\"avg_npc_653_1#6$1\")]\n[name=\"萨卢斯\"]“请他们全部离开了”。\n[Character(name=\"avg_npc_653_1#6$1\")]\n[name=\"萨卢斯\"]闪灵呀……你真的打算这么一走了之？\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]我们无话可说了。\n[Character(name=\"avg_npc_653_1#2$1\")]\n[name=\"萨卢斯\"]如果我说……我不想你走呢？\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]你拦不住我。\n[Character(name=\"avg_npc_653_1#10$1\")]\n[name=\"萨卢斯\"]只是拉着你多说几句话嘛，这点事情我还是做得到的。\n[Character(name=\"avg_npc_653_1#8$1\")]\n[name=\"萨卢斯\"]不行吗？\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……\n[dialog]\n[character]\n赦罪师的首领无言地品着酒。"
+        }
+      ],
+      "description": "双方在家族聚餐中直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_147_shining",
+          "reason": "双方在家族聚餐中直接对话。",
+          "status": "supported",
+          "to": "npc_2d30a11ec7e30f39"
+        },
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_2d30a11ec7e30f39",
+          "reason": "双方在家族聚餐中直接对话。",
+          "status": "supported",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 345,
+          "kind": "story",
+          "line": 282,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前或明确旧事",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_147_shining|npc_2d30a11ec7e30f39"
+}

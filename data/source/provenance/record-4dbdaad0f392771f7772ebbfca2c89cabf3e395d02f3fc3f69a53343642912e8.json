@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 853,
+          "line": 847,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_beg.txt",
+          "quote": "[name=\"槐琥\"]  ……鲤叔。\n[Character(name=\"char_243_waaifu_1\",name2=\"avg_322_lmlee_1#4$1\", focus=2)]\n[name=\"老鲤\"]  嗯？\n[Character(name=\"char_243_waaifu_1\",name2=\"avg_322_lmlee_1#4$1\", focus=1)]\n[name=\"槐琥\"]  你要去找梁叔，对吧？\n[Character(name=\"char_243_waaifu_1\",name2=\"avg_322_lmlee_1#8$1\", focus=2)]\n[name=\"老鲤\"]  ……是啊。唉，真不想跑这趟远门……"
+        }
+      ],
+      "description": "槐琥向老鲤问是否去找梁叔。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_243_waaifu",
+          "reason": "槐琥向老鲤问是否去找梁叔。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3e28dece98b601de",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_243_waaifu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 853,
+          "kind": "story",
+          "line": 847,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 441,
+          "line": 419,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "quote": "[name=\"槐琥\"]就算我自己也可以生活得很好，但他离家出走的时候，我还没有成年，他已经违法了！\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#10$1\",focus=\"r\")]\n[name=\"老鲤\"]说的没错。所以等我们找到他的时候，应该直接将他扭送近卫局。\n[charslot(slot=\"l\",name=\"avg_243_waaifu_1#5$1\",focus=\"l\")]\n[name=\"槐琥\"]……\n[charslot(slot=\"l\",name=\"avg_243_waaifu_1#6$1\",focus=\"l\")]\n[name=\"槐琥\"]鲤叔，你说他真的在这玉门城吗？\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#9$1\",focus=\"r\")]\n[name=\"老鲤\"]传闻一年前有人在玉门见过他的踪迹，这是你梁叔给的消息。我也只有信他。\n[charslot(slot=\"l\",name=\"avg_243_waaifu_1#5$1\",focus=\"l\")]\n[name=\"槐琥\"]如果他真的在玉门，应该已经在城门口的擂台榜上看见我的名字了。或者这么多年，哪怕路过龙门，也能来顺便看我一眼……\n[charslot(slot=\"l\",name=\"avg_243_waaifu_1#6$1\",focus=\"l\")]\n[name=\"槐琥\"]他到底是不想找我，还是有意避着我？\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#2$1\",focus=\"r\")]\n[name=\"老鲤\"]一个父亲对孩子到底是怀着怎样的心思，我可真答不上来。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#1$1\",focus=\"r\")]\n[name=\"老鲤\"]但血浓于水，这点是无论如何不会改变的。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#1$1\",focus=\"r\")]\n[name=\"老鲤\"]我一直都相信，你们父女总会见面的。问题就在于，见了面后，你们能不能找到各自想要的答案。\n[charslot(slot=\"l\",name=\"avg_243_waaifu_1#5$1\",focus=\"l\")]\n[name=\"槐琥\"]其实……到现在我都不确定，自己到底有没有准备好见他。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#1$1\",focus=\"r\")]\n[name=\"老鲤\"]那不如想想，假如现在走出去，和他在门口大街上撞个正着，你打算怎么办？"
+        }
+      ],
+      "description": "老鲤当面告诉槐琥，父亲在玉门的消息来自她的梁叔；具体来源已传达，足以建立槐琥对梁洵的单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR07"
+          ],
+          "from": "char_243_waaifu",
+          "reason": "老鲤当面告诉槐琥，父亲在玉门的消息来自她的梁叔；具体来源已传达，足以建立槐琥对梁洵的单向知晓。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3e28dece98b601de",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_243_waaifu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 441,
+          "kind": "story",
+          "line": 419,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_243_waaifu|npc_3e28dece98b601de"
+}

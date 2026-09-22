@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 431,
+          "line": 378,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "quote": "[name=\"Pith\"]你们的确准备了许多，但可惜应对源石技艺的手段还是捉襟见肘。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_1300_1#1$1\",duration=1)]\n[Delay(time=2)]\n[name=\"Mantra\"]……\n[charslot(slot=\"m\",name=\"avg_npc_008\")]\n[name=\"袭击者\"]不、不对，不该是你们——\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"“嘘，连你的心脏都已经沉默了。”\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot(slot =\"m\", action=\"shake\", power=10, times=100, duration=0.5)]\n[Delay(time=1)]\n[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$bodyfalldown2\",volume=0.5)]\n[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"0,-60\",duration = 0.5)]\n[charslot(duration=0.5)]\n[Delay(time=1.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_249_1$1\",duration=0.5)]\n[Delay(time=1)]\n[name=\"Touch\"]伤员我来处理，不过月见夜又变得过于亢奋了。\n[name=\"Touch\"]梓兰，又得辛苦你了。\n[charslot(slot=\"m\",name=\"char_278_orchid_1#1\")]\n[name=\"梓兰\"]我会处理好他的。\n[charslot(slot=\"m\",name=\"avg_npc_095\")]\n[name=\"Pith\"]博士猜得对，有人泄露了我们行动的消息。\n[charslot(slot=\"m\",name=\"avg_npc_1300_1#1$1\")]\n[name=\"Mantra\"]快速解决吧，尽快将这艘备用开采舰拖动到最近的移动城市修补能源舱室。\n[name=\"Mantra\"]然后迅速赶回本舰，避免所有意外。\n[charslot(slot=\"m\",name=\"avg_281_popka_1#10$2\")]\n[name=\"泡普卡\"]Pith女、女士，为什么来增援的是你们？\n[name=\"泡普卡\"]之前PRTS通知的是Misery先生呀……\n[stopmusic(fadetime=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_095\")]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]\n[Background(image=\"bg_rhodescom\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[playMusic(intro=\"$ponder_intro\",key=\"$ponder_loop\", volume=0.6)]\n[name=\"Pith\"]直觉？\n[name=\"Pith\"]临出发前突然更改计划，我担心……\n[dialog]\n[charslot(slot = \"m\", focus=\"n\")]\n[Decision(options=\"我信任你们。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"Misery，Stormeye，Sharp他们另有安排。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_095\")]\n[name=\"Pith\"]需要同步到PRTS上告知同事吗？"
+        }
+      ],
+      "description": "泡普卡直接向Pith询问增援安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D16"
+          ],
+          "from": "char_281_popka",
+          "reason": "泡普卡直接向Pith询问增援安排。",
+          "status": "supported",
+          "to": "char_509_acast"
+        },
+        {
+          "evidenceIds": [
+            "D16"
+          ],
+          "from": "char_509_acast",
+          "reason": "泡普卡直接向Pith询问增援安排。",
+          "status": "supported",
+          "to": "char_281_popka"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 431,
+          "kind": "story",
+          "line": 378,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_281_popka|char_509_acast"
+}

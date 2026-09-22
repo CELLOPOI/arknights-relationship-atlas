@@ -1,0 +1,175 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 788,
+          "line": 782,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-19_end.txt",
+          "quote": "[name=\"特蕾西娅\"]肩负文明重任的守望者，掌握钥匙的智慧之人，觉醒了意志的天才佣兵，还有纯粹地共情着所有生灵的孩子。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]还有Logos，Mantra，Scout，Ace……无数闪耀的灵魂。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]你们跨越了种族、出身、疾病带来的隔阂，分享着最为诚挚的友谊，与最为坚定的理想。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]你们历经战争的磨难与现实的阻碍，依旧团聚在一起，站在我的身边。"
+        }
+      ],
+      "description": "特蕾西娅回忆具名二人在自己身边共同创立巴别塔的实际相处。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E143"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅回忆具名二人在自己身边共同创立巴别塔的实际相处。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "E143"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "特蕾西娅回忆具名二人在自己身边共同创立巴别塔的实际相处。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 788,
+          "kind": "story",
+          "line": 782,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-19_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 207,
+          "line": 199,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_end.txt",
+          "quote": "[name=\"W\"]  啊啊，所以特蕾西娅有说什么吗？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……如果你只是想被殿下称赞的话，你可以自己试着去邀个功看看。\n[name=\"Scout\"]  前提是你能躲开凯尔希女士。\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  那还是算了吧，那个该死的女人很少离开特蕾西娅半步，嘁，真烦人啊。\n[name=\"W\"]  那他们现在在哪里？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  你明知道还要去？"
+        }
+      ],
+      "description": "Scout熟知对方的具体动向并向W转述，不从代传消息推出反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout熟知对方的具体动向并向W转述，不从代传消息推出反向。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 207,
+          "kind": "story",
+          "line": 199,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生于黑夜所述时段",
+      "title": "生于黑夜"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 164,
+          "line": 136,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "quote": "[name=\"Scout\"]那么，殿下，这次的简报就只有这些。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]看来军事委员会笃定我们会收复C8—10区域的村庄和物资，并在那里建立哨站，他们已经落入了圈套。\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]但……有一些军官，开始表露出与曼弗雷德大不相同的军事策略。这很不寻常。\n[name=\"Scout\"]间谍提出，曾看见过食腐者出入军队的营帐。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#3$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]孽茨雷……\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]博士怎么看待这件事？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]博士认为，在萨卡兹的战争之神表露出任何形式的参与意图后，我们的布置会被全盘打乱。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#10$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]你呢？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]……一直以来，诸多强大的王庭成员都更青睐主张反击和暴力的军事委员会，这任谁都心知肚明。\n[name=\"Scout\"]但出于某种约束——甚至可以说是约定俗成的规则——没有任何一个王庭主动参与到内战中来。\n[name=\"Scout\"]若是王庭之主们真的决定在卡兹戴尔与我们开战，那些仍旧没有回归的萨卡兹们，再无法在地图上看见任何巴别塔的标识。\n[name=\"Scout\"]而说点现实的，王庭的加入形成的兵力差距同样令人担忧，支持我们的人，大多并非战士或士兵。\n[name=\"Scout\"]我们的队伍里也有不少人第一次拿起武器。\n[name=\"Scout\"]所以，要说心里话——无论真相是什么，我们的处境都在急转直下。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"n\")]\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#4$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]……我明白了。\n[name=\"特蕾西娅\"]继续观察食腐者王庭的行踪。"
+        }
+      ],
+      "description": "Scout向特蕾西娅当面汇报，殿下问其判断并下令继续观察。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E44"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout向特蕾西娅当面汇报，殿下问其判断并下令继续观察。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [
+            "E44"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "Scout向特蕾西娅当面汇报，殿下问其判断并下令继续观察。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 164,
+          "kind": "story",
+          "line": 136,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 125,
+          "line": 29,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st04.txt",
+          "quote": "[name=\"特蕾西娅\"]Scout，辛苦了。\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]只是一次侦查任务，我应该做的。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]嗯……凯尔希和博士在哪里？\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]……会议室，有什么情况吗？\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]我们在军事委员会的间谍已经传回了情报。他们并不打算给我们任何喘息的余地。\n[name=\"特蕾西娅\"]……很遗憾。\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]间谍……是指那位血魔亲王吗？殿下，我认为她所信仰的只有大君，并不可信。\n[name=\"Scout\"]他们大都是牟取自身利益的投机者，若非形势所迫，她甚至不会参与战争……\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]当然，我明白你的疑虑，Scout。\n[name=\"特蕾西娅\"]不过至少现在，她是不会对我撒谎的。她还没有那个勇气。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Background(image=\"bg_rhodescom\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_056\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"特蕾西娅\"]凯尔希？博士？你们在忙吗？\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]……殿下。会议已经结束了吗？\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]……嗯，并不是什么愉快的结果。\n[name=\"特蕾西娅\"]我打扰你们的工作了吗？对了，难得在午餐之前就开完了会议，凯尔希，想不想和我一起吃午饭？\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]……时间还很早。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]嗯？啊……似乎确实早了一些。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]不，只是和平时相比，你来得太早了。\n[name=\"凯尔希\"]很难想象议长室里坐着的那些人会这么轻松就放你出来，除非，那个结果糟糕到不需要讨论。\n[name=\"凯尔希\"]哪怕是这样，你来得还是……太早了些。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"] 是啊……但我们对现状……早有预料，不是吗？\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]所以，交谈并不顺畅。并且我猜情况更糟，几乎到了一触即发的地步。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]发生什么了？\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]军事委员会获得了更大的支持，我们在卡兹戴尔的信息渠道在不断减少。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]巴别塔很可能会在这个秋天遭到一次围剿。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]一些萨卡兹背叛了我们，这是意料之内的事情。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]……但巴别塔还没有彻底做好准备。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]抱歉，凯尔希。看起来，我们没有机会坚持到那一天了。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]那食腐者之王和其余王庭成员的态度……\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]只不过是提出更加苛刻的要求，放心吧，凯尔希，他们只是针对我。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]但是……我们已经没有更多的余裕去对付更多的质疑。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]特蕾西娅。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]怎么了，博士？啊……对了，我还没正式征求过意见，这样贸然发出指令太失礼了。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]博士，看来我们必须离卡兹戴尔更远一些。这会是一次全面的转移，或者说，撤退。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]你有什么别的意见吗？\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]也许这是唯一的选择。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]……可能的话，我也想给予所有人更多的选择。但现在没有时间了。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]军事委员会的想法过分激进和直接，我坚持反对他们的理念。但为了阻止卡兹戴尔发生无谓的牺牲，我们唯有暂时离开。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]我相信——至今相信，我们仍共用同一心脏，同一血脉。但是相融的血脉也会暂时分开，不知道什么时候才会再次合流。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]至少现在，分开是损伤最少的选择。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]每个萨卡兹人都有跟随自己信念的渴望。我能感受到你的理想，也会有众多萨卡兹人追随你。\n[name=\"博士\"]但我不会帮你做出选择，我只会见证。\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]……\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]嗯，这是目前最好的安排了，Dr.{@nickname}。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]好了，事不宜迟，二位也赶快收拾行李准备出发吧！\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]能带走多少东西？\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]很遗憾，并不多。许多设施都可能要遗弃，阿斯卡纶会为我们拖延时间。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]已经足够了，特蕾西娅，不用派更多的人手来帮助我们，我会带着博士和你安全会合。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]那么就和之前预演的方案一样，凯尔希，负责人稍后就到。"
+        }
+      ],
+      "description": "特蕾西娅与Scout直接讨论侦查情报。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅与Scout直接讨论侦查情报。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "特蕾西娅与Scout直接讨论侦查情报。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 125,
+          "kind": "story",
+          "line": 29,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    }
+  ],
+  "relationship_id": "npc_0957af9bf990438d|npc_c0e49cc5a9477cf1"
+}

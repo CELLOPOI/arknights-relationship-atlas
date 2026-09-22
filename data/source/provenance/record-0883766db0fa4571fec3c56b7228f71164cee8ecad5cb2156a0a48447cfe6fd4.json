@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 29,
+          "line": 13,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-11_end.txt",
+          "quote": "[name=\"临光\"]  谢谢你刚才的援助，临光不会忘记这份恩情。\n[Character(name=\"char_014_riope\", name2=\"char_148_nearl_1\", focus=1)]\n[name=\"Ace\"]    请别这么说。我可没资格让耀骑士还我人情。\n[name=\"Ace\"]    说说刚才那个狙击手吧，临光。\n[Character(name=\"char_014_riope\", name2=\"char_148_nearl_1\", focus=2)]\n[name=\"临光\"]  好。\n[name=\"临光\"]  除却那把弩炮巨大的威力——\n[name=\"临光\"]  我认为……他可能预设了其他火力点，以及自动射击器械。\n[name=\"临光\"]  我遭到了交叉火力的射击……我们却只观测到了一个狙击手。\n[Character(name=\"char_014_riope\", name2=\"char_148_nearl_1\", focus=1)]\n[name=\"Ace\"]    我也有同样感觉。\n[name=\"Ace\"]    第一发弹药和第二发弹药爆炸的时间点虽然非常接近，实际上却有着有相当微妙的时差。\n[name=\"Ace\"]    那并不是连射弩弦的功劳。至少，我发动火力压制时，对抗的，并不是第一位狙击手。\n[Character(name=\"char_014_riope\", name2=\"char_148_nearl_1\", focus=2)]\n[name=\"临光\"]   ——你意识到了什么，Ace？\n[Character(name=\"char_014_riope\", name2=\"char_148_nearl_1\", focus=1)]\n[name=\"Ace\"]    说不准。如果敌人不是飞速地移动……就是同时存在于许多地方。"
+        }
+      ],
+      "description": "临光直接感谢Ace掩护，两人讨论狙击手。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "char_148_nearl",
+          "reason": "临光直接感谢Ace掩护，两人讨论狙击手。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "临光直接感谢Ace掩护，两人讨论狙击手。",
+          "status": "supported",
+          "to": "char_148_nearl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 29,
+          "kind": "story",
+          "line": 13,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-11_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 43,
+          "line": 8,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-08_beg.txt",
+          "quote": "[name=\"临光\"]   阿米娅，带博士离开。\n[name=\"临光\"]   ……立刻！\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]   不行！我不能……\n[Character(name=\"char_002_amiya_1#4\", name2=\"char_148_nearl_1#3\", focus=2)]\n[name=\"临光\"]   你也感觉到了！她……再这样下去，整个救援队都会葬送在这里！\n[name=\"临光\"]   那个塔露拉……\n[name=\"临光\"]   她是活生生的怪物！阿米娅！\n[Character(name=\"char_002_amiya_1#7\", name2=\"char_148_nearl_1#3\", focus=1)]\n[name=\"阿米娅\"]   我们一起战斗的话，不会有问题的！\n[Character(name=\"char_002_amiya_1#7\", name2=\"char_148_nearl_1#3\", focus=2)]\n[name=\"临光\"]   那博士呢？你能保证博士的安全吗？\n[Character(name=\"char_002_amiya_1#4\", name2=\"char_148_nearl_1#3\", focus=1)]\n[name=\"阿米娅\"]   ……唔……\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]   E4小队，我们留在这里断后！\n[name=\"临光\"]   一定要让阿米娅和Dr.{@nickname}，以及各个医疗小组安全撤离！\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]   不，交给我和我的小队吧。\n[Character(name=\"char_014_riope\",name2=\"char_148_nearl_1#3\",focus=2)]\n[name=\"临光\"]   Ace！现在难道是说这种话的时候吗！\n[Character(name=\"char_014_riope\",name2=\"char_148_nearl_1#3\",focus=1)]\n[name=\"Ace\"]   我很冷静。\n[Character(name=\"char_014_riope\",name2=\"char_148_nearl_1#3\",focus=2)]\n[name=\"临光\"]   你难道没看到吗，她周围的东西，都在融化！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   我不会留下你们独自战斗的。\n[name=\"阿米娅\"]   罗德岛……绝不会丢下你们的！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   阿米娅，时间宝贵！你必须撤退！\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]   ——你应该信任我们。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   我不能看着罗德岛的任何一个人牺牲！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   想想任务目标，想想我们的目的！"
+        }
+      ],
+      "description": "临光与Ace直接争论由谁断后。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_148_nearl",
+          "reason": "临光与Ace直接争论由谁断后。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "临光与Ace直接争论由谁断后。",
+          "status": "supported",
+          "to": "char_148_nearl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_f55d04d68de9988e.json",
+      "sources": [
+        {
+          "endLine": 43,
+          "kind": "story",
+          "line": 8,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格撤离期间",
+      "title": "黑暗时代·下"
+    }
+  ],
+  "relationship_id": "char_148_nearl|npc_ded4733bcc9da868"
+}

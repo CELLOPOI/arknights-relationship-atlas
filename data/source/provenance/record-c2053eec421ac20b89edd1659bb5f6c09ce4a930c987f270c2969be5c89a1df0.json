@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 140,
+          "line": 108,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "quote": "[name=\"医疗干员\"]   阿，阿米娅！\n[Character(name=\"char_016_medic\", name2=\"char_002_amiya_1#6\", focus=2)]\n[name=\"阿米娅\"]   怎么了?\n[Character(name=\"char_016_medic\", name2=\"char_002_amiya_1#6\", focus=1)]\n[name=\"医疗干员\"]   是……是来自罗德岛的对话请求！\n[Character(name=\"char_002_amiya_1#6\", focus=-1)]\n[name=\"阿米娅\"]   通讯接上了吗！难道说，是凯尔希医……\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"char_002_amiya_1#6\", focus=-1)]\n[name=\"？？？\"]   很抱歉，并不是。\n[image(image=\"bg_2_call\")]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.8, block=true)]\n[Character(name=\"char_002_amiya_1#1\", focus=1)]\n[name=\"阿米娅\"]   PRTS……？\n[Character(name=\"char_002_amiya_1#1\", focus=-1)]\n[name=\"PRTS\"]   应急神经连接请求被意外触发了。\n[name=\"PRTS\"]   罗德岛号方面也受到干扰，只有神经连接可以勉强进行。\n[name=\"PRTS\"]   无法用电波通讯联系到尚未回到罗德岛的凯尔希。\n[name=\"PRTS\"]   已经确认过阿米娅您的安全，那么我的任务就已经完成了。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   这东西……\n[name=\"杜宾\"]   现在真的是时候吗？\n[Character(name=\"char_002_amiya_1#1\", focus=-1)]\n[name=\"PRTS\"]   不需要使用您的神经连接操作罗德岛的话，我将在稍后断开连接。\n[name=\"PRTS\"]   如果打扰到了您的派对，万分抱歉。\n[Character(name=\"char_002_amiya_1#5\", focus=1)]\n[name=\"阿米娅\"]   不不！别挂断……我需要你帮个忙。\n[name=\"阿米娅\"]   杜宾，博士需要这些帮助。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   了解了，抓紧时间。\n[Character(name=\"char_002_amiya_1#5\", focus=1)]\n[name=\"阿米娅\"]   博士，PRTS也是我们的……同伴，它会指导你下一步的动作。"
+        }
+      ],
+      "description": "医疗干员接入通讯，杜宾在阿米娅与PRTS通信时回应；可获知PRTS，但未证明系统识别二人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "医疗干员接入通讯，杜宾在阿米娅与PRTS通信时回应；可获知PRTS，但未证明系统识别二人。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_30c8dcf1e7b8383d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 140,
+          "kind": "story",
+          "line": 108,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    }
+  ],
+  "relationship_id": "npc_30c8dcf1e7b8383d|npc_c8a2caad4366c8fa"
+}

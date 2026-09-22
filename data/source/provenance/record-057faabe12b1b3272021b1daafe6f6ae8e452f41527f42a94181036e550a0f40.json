@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 190,
+          "line": 113,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_01_end.txt",
+          "quote": "[name=\"雷蛇\"]女士，抱歉让您久等了，希望我们来得没有太晚。\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#9$1\")]\n[name=\"西尔维娅\"]您……您好，没关系的，完全不晚。\n[charslot(slot = \"m\", name = \"avg_107_liskam_1#9$1\")]\n[name=\"雷蛇\"]请问您怎么称呼？\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#9$1\")] \n[name=\"西尔维娅\"]你们可以叫我、我……\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#2$1\", action=\"shake\", afrom=1 , ato=1, power=3, times=30, duration=0.3)]\n[name=\"西尔维娅\"]阿嚏——！\n[charslot(slot = \"m\", name = \"avg_107_liskam_1#7$1\")]\n[name=\"雷蛇\"]女士，您究竟在这里站了多久？\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#1$1\")]\n[name=\"西尔维娅\"]从早上……就在等了，消息里只说你们会今天到，但是……没说具体时间。\n[charslot(slot = \"m\", name = \"avg_106_franka_1#5$1\")]\n[name=\"芙兰卡\"]早上？现在已经是下午了，你一直在这站着？\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#1$1\")]\n[name=\"西尔维娅\"]是的……\n[charslot(slot = \"m\", name = \"avg_107_liskam_1#7$1\")]\n[name=\"雷蛇\"]我们三个小时前还向地块上发送过消息，更新了我们的预计到达时间。\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#3$1\")]\n[name=\"西尔维娅\"]……我、我并没有接到任何通知。\n[charslot(slot = \"m\", name = \"avg_106_franka_1#4$1\")]\n[name=\"芙兰卡\"]太怪了，谁派你来的？\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#1$1\")]\n[name=\"西尔维娅\"]是我们……经理。\n[charslot(slot = \"m\", name = \"avg_106_franka_1#1$1\")]\n[name=\"芙兰卡\"]经理？政府里也有经理？\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#6$1\")]\n[name=\"西尔维娅\"]您误会了，我、我不是政府的人……我在本地银行工作。\n[charslot(slot = \"m\", name = \"avg_106_franka_1#1$1\")]\n[name=\"芙兰卡\"]所以达维镇的政府呢？\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#8$1\")]\n[name=\"西尔维娅\"]这个……我……达维镇的政府其实……\n[name=\"西尔维娅\"]……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_snowbootwalk\", volume=1)]\n[delay(time=1)]\n[charslot(slot = \"r\", name = \"avg_npc_1038_1#1$1\", duration=1.5)]\n[charslot(slot = \"l\", name = \"avg_npc_1045_1#1$1\", duration=1.5)]\n[charslot(slot = \"m\", name = \"avg_4105_almond_1#1$1\", duration=1.5, isblock=true)]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_4105_almond_1#1$1\", focus=\"m\")]\n[name=\"罗拉\"]雷蛇队长，我们来了。这位女士就是来接我们的人吗？\n[charslot(slot = \"r\", name = \"avg_npc_1038_1#6$1\", focus=\"r\")]\n[name=\"迈尔斯\"]西尔维娅？他们居然派你来接人？\n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#1$1\")]\n[name=\"西尔维娅\"]是……是的，迈尔斯先生。\n[charslot(slot = \"m\", name = \"avg_106_franka_1#1$1\")]\n[name=\"芙兰卡\"]老爷子，您知道为什么达维镇政府不出面，反而派这位在银行工作的西尔维娅小姐来接我们吗？\n[charslot(slot = \"m\", name = \"avg_npc_1038_1#2$1\")]\n[name=\"迈尔斯\"]唉……你们最好直接去问银行，我不懂里面的弯弯绕绕，说不清。\n[charslot(slot = \"m\", name = \"avg_107_liskam_1#1$1\")]\n[name=\"雷蛇\"]好了，芙兰卡，你去把迈尔斯先生送回家，顺便在达维镇转转，熟悉一下这里的情况。\n[dialog]\n[charslot(slot = \"m\", name = \"avg_106_franka_1#4$1\")]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_106_franka_1#1$1\")]\n[name=\"芙兰卡\"]……明白。\n[charslot(slot = \"m\", name = \"avg_107_liskam_1#1$1\")]\n[name=\"雷蛇\"]罗拉，你先带着其他人寻找合适的地方设置安全屋，安放载具和物资。如果中间联系到了杰西卡，立刻向我报告。\n[charslot(slot = \"m\", name = \"avg_4105_almond_1#11$1\")]\n[name=\"罗拉\"]是。\n[charslot(slot = \"m\", name = \"avg_107_liskam_1#1$1\")]\n[name=\"雷蛇\"]我和西尔维娅小姐去银行……看看到底怎么回事。\n[charslot(slot = \"m\", name = \"avg_106_franka_1#3$1\")]\n[name=\"芙兰卡\"]多谢你主动揽下麻烦事咯，优等生小姐。\n[charslot(slot = \"m\", name = \"avg_107_liskam_1#2$1\")]\n[name=\"雷蛇\"]……\n[charslot(slot = \"m\", name = \"avg_4105_almond_1#11$1\")]\n[name=\"罗拉\"]等大家都忙完了，我们在哪里碰头？\n[charslot(slot = \"m\", name = \"avg_npc_1038_1#1$1\")]\n[name=\"迈尔斯\"]你们可以去镇上唯一还开着的餐厅碰面。那地方在进入矿厂的必经之路上，老板娘叫海伦娜，人不错。\n[name=\"迈尔斯\"]如果你们一直念叨的杰西卡平安无事地进了镇子，多半也会在那里落脚。\n[charslot(slot = \"m\", name = \"avg_107_liskam_1#1$1\")]\n[name=\"雷蛇\"]嗯……就这么定了。"
+        }
+      ],
+      "description": "二人在餐馆群体对话中直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_106_franka",
+          "reason": "二人在餐馆群体对话中直接交流。",
+          "status": "supported",
+          "to": "npc_90f0b61714167fd4"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_90f0b61714167fd4",
+          "reason": "二人在餐馆群体对话中直接交流。",
+          "status": "supported",
+          "to": "char_106_franka"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_33ca7bdde9f73b0b.json",
+      "sources": [
+        {
+          "endLine": 190,
+          "kind": "story",
+          "line": 113,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "戴维镇餐馆聚餐时",
+      "title": "不义之财"
+    }
+  ],
+  "relationship_id": "char_106_franka|npc_90f0b61714167fd4"
+}

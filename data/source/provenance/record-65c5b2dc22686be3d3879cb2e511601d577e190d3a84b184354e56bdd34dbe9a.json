@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 118,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "quote": "[name=\"曼弗雷德\"] 你们来了。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……曼弗雷德？\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] 看来血魔大君要失望了。他最为厌恶阴暗潮湿的地方，却为了亲手抓住你而去了反抗军的地下巢穴。\n[name=\"曼弗雷德\"] 眼下他一定已经追上了你们的同伴。不知道地底的嚎哭能不能传到这高墙之上——\n[character(name=\"avg_npc_402_1#6$1\")]\n[name=\"费斯特\"] 你这邪恶的……邪恶的……\n[character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"] 邪恶的魔族？\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] 不，我并不欣赏他的手段。相比遭受那样的折磨，死在我的炮轰之下的反抗军要幸运得多。\n[character(name=\"avg_npc_402_1#10$1\")]\n[name=\"费斯特\"] 你们根本就没有差别！\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] 在你们眼里或许是这样。当你们只会用“魔族”来统一称呼我们的时候，恐惧与仇恨就早已蒙蔽了你们的双眼。\n[name=\"曼弗雷德\"] 在维多利亚人眼里，萨卡兹就是一群享受着杀戮的大傻瓜。\n[name=\"曼弗雷德\"] 曾经这么想的人，如今要么跪倒在殿下的王座下，要么成了城墙外风干的惨白骨架。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 你和特雷西斯……你们带领的军队蹂躏了这座城市。\n[name=\"阿米娅\"] 无论你怎么宣称自己与血魔的差异，你们都是双手沾满了鲜血的侵略者。\n[character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"] 你似乎误会了，罗德岛的卡特斯。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"] 我并不只想强调自己与大君的差异——是的，在某些方面，他的喜好令我厌恶。\n[name=\"曼弗雷德\"] 但我同样不会像诸王廷臣一样行事。\n[name=\"曼弗雷德\"] 当他们站在你面前的时候，看到的是那位殿下的继承人，他们或许会因此对你感到怀疑、好奇或者厌恶。\n[character(name=\"avg_npc_394_1#3$1\")]\n[name=\"阿米娅\"] 你……\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 我只从你身上感觉到了警惕。\n[character(name=\"avg_npc_404_1#2$1\")]\n[stopmusic(fadetime=1)]\n[name=\"曼弗雷德\"] 是的，卡特斯。我只当你是——危险的敌人。\n[Dialog]\n[character]\n[PlaySound(key=\"$d_sp_ballista\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[delay(time=1)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[CameraShake(duration=2, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[PlaySound(key=\"$d_gen_explo_n\", volume=1)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[PlaySound(key=\"$d_avg_rockfall\", volume=1)]\n[CameraShake(xstrength=5, ystrength=3, vibrato=30, randomness=90)]\n[character(name=\"avg_npc_402_1#10$1\")]\n[PlayMusic(intro=\"$warchaos_intro\", key=\"$warchaos_loop\", volume=0.4)]\n[name=\"费斯特\"] ——他往我们这里扔手雷了吗？\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 快抓住城墙！\n[name=\"阿米娅\"] 这是他的源石技艺……他正在用法术能量制造冲击，他想把我们丢下城墙！\n[character(name=\"avg_npc_402_1#6$1\")]\n[name=\"费斯特\"] 唔……好难站稳，这脚底下就像哪里都在炸开一样……\n[character(name=\"avg_npc_411_1#4$1\")]\n[name=\"可露希尔\"] 无人机没法靠近他！只要离得近一点，机身就会失去平衡——\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 大家……站到我身后！\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 唔——\n[character(name=\"avg_npc_411_1#5$1\")]\n[name=\"可露希尔\"] 阿、阿米娅，他的法术在融化你的法术？\n[character(name=\"avg_npc_394_1#5$1\")]\n[name=\"阿米娅\"] 他故意把法术冲击释放得又细小又尖锐，我编织的能量结层被他绞碎了……\n[character(name=\"avg_npc_411_1#5$1\")]\n[name=\"可露希尔\"] 可你甚至能抵挡德拉克的火焰！\n[dialog]\n[character(name=\"avg_npc_411_1#5$1\",focus=-1)]\n[Decision(options=\"他熟悉我们的战斗方式。;他的法术针对了阿米娅。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"] 明知道你们要来，难道我会白白等待？\n[dialog]\n[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_atk_circleatk_n\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[delay(time=1)]\n[character(name=\"avg_npc_402_1#10$1\")]\n[name=\"费斯特\"] 来了，又来了！不仅在脚下，还、还有天上，只要赤光一闪，就会凭空炸开——\n[character(name=\"avg_npc_402_1#2$1\")]\n[name=\"费斯特\"] 阿米娅小姐，你……你不是会心灵法术吗？\n[name=\"费斯特\"] 你能不能试着给他的脑袋瓜里塞点什么垃圾……\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……不行。\n[name=\"阿米娅\"] 他防御得很好，而且他太冷静了，我能触摸到他情感的边缘，但是……但是他此刻心里只有对胜利的渴望。\n[dialog]\n[character(name=\"avg_npc_394_1#7$1\",focus=-1)]\n[Decision(options=\"他在拖时间。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 是……他的心思并不在眼前这场战斗上。\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 他只想等着血魔和城防炮将反抗军的生机全部摧毁！\n[character(name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"] 拖时间？不错的猜想。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"] {@nickname}，比起那位侥幸获得了魔王力量的卡特斯，我一直对你更感兴趣。\n[name=\"曼弗雷德\"] 你过去曾经在战场上面临过更严峻的情形——你似乎总能做出对整体结果更有利的选择。\n[name=\"曼弗雷德\"] 请告诉我，接下来你准备怎么做？\n[character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"] 你会为了排除长期威胁，尽全力在这里击杀我，还是想其他办法绕开我，拯救底下那些维多利亚人的性命？"
+        }
+      ],
+      "description": "城墙面对曼弗雷德战斗，阿米娅、费斯特、可露希尔及被直呼姓名的博士连续在场应对。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E69"
+          ],
+          "from": "char_4072_ironmn",
+          "reason": "城墙面对曼弗雷德战斗，阿米娅、费斯特、可露希尔及被直呼姓名的博士连续在场应对。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E69"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "城墙面对曼弗雷德战斗，阿米娅、费斯特、可露希尔及被直呼姓名的博士连续在场应对。",
+          "status": "supported",
+          "to": "char_4072_ironmn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 118,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 701,
+          "line": 593,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "quote": "[name=\"可露希尔\"]哇，博士，你们来了！\n[Character(name=\"avg_npc_411_1#7$1\")]\n[name=\"可露希尔\"]怎么样怎么样，军工厂的情报都拿到了吗？\n[dialog]\n[Character(name=\"avg_npc_411_1#7$1\",focus=-1)]\n[Decision(options=\"有几个可能的停靠站。;我们得到了拼图的一半。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_411_1#3$1\")]\n[name=\"可露希尔\"]不错啊，博士。我还想着万一你和费斯特出了什么事，我得大发神威把你们捞出来呢。\n[dialog]\n[Character(name=\"avg_npc_411_1#3$1\",focus=-1)]\n[Decision(options=\"有阿斯卡纶在，不会有事。;……;得感谢阿斯卡纶。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]……\n[dialog]\n[Character(name=\"avg_npc_395_1#1$1\",focus=-1)]\n[Decision(options=\"阿斯卡纶，还有一件事。;阿斯卡纶，能否再请你帮一个忙？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]……\n[dialog]\n[Character(name=\"avg_npc_395_1#1$1\",focus=-1)]\n[Decision(options=\"你能联系上W吗？;W也在海布里区吧？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]她有自己的行动计划。\n[dialog]\n[Character(name=\"avg_npc_395_1#1$1\",focus=-1)]\n[Decision(options=\"那位年纪很小的萨卡兹雇佣兵……;那几位没有伤害工人的萨卡兹雇佣兵……\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[dialog]\n[Decision(options=\"或许需要帮助。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]……W会知道。\n[dialog]\n[character]\n[Decision(options=\"可露希尔，你有没有见到……;约好的时间是不是到了？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character]\n[name=\"？？？\"]博士！\n听到那个声音，你立刻转过了头。\n一道你最熟悉的身影冲向了你。\n[dialog]\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[character(name=\"avg_npc_394_1#8$1\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"阿米娅\"]我们到了。\n[dialog]\n[character(name=\"avg_npc_394_1#8$1\",focus=-1)]\n[Decision(options=\"阿米娅。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[dialog]\n[Character(name=\"avg_npc_394_1#8$1\",focus=-1)]\n[Decision(options=\"好久不见。;辛苦。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_394_1#8$1\")]\n[name=\"阿米娅\"]嗯……我也……\n[character(name=\"avg_npc_394_1#1$1\")]\n[name=\"阿米娅\"]博士，您提议这几天我们分头行动的时候，我明白这是最好的选择，可是……\n[character(name=\"avg_npc_394_1#16$1\")]\n[name=\"阿米娅\"]至少我们顺利会合了，博士。我很高兴。\n[dialog]\n[character]\n[Decision(options=\"可露希尔，你准备得怎么样了？;明天行动的关键之一是可露希尔。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_411_1#1$1\")]\n[name=\"可露希尔\"]放心，这几天下来，我这边准备工作也做得差不多了。\n[Character(name=\"avg_npc_411_1#12$1\")]\n[name=\"可露希尔\"]虽然不知道伦蒂尼姆不同地方的城防系统是不是有着一样的弱点……但采用的框架肯定还是有近似处的。\n[Character(name=\"avg_npc_411_1#1$1\")]\n[name=\"可露希尔\"]依据Misery和号角小姐的情报，加上我在城防炮控制室采得的数据，我更新了无人机的破解功能。\n[Character(name=\"avg_npc_411_1#10$1\")]\n[name=\"可露希尔\"]只要无人机能靠近城防军指挥塔核心，给我半个小时，我就能破解系统，取得近十天伦蒂尼姆的交通记录。\n[dialog]\n[Character(name=\"avg_npc_411_1#10$1\",focus=-1)]\n[Decision(options=\"二十分钟行不行？;越快越好。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]嗯……明天的战斗一定很艰难。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]这几天，我们用一系列行动探查了目前伦蒂尼姆城内的萨卡兹军队响应机制。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]可以预料的是，曼弗雷德和血魔会很快出现在战场上。我和阿斯卡纶还有Logos会尽力拖住他们。\n[character(name=\"avg_npc_394_1#19$1\")]\n[name=\"阿米娅\"]但是……\n[dialog]\n[Character(name=\"avg_npc_394_1#19$1\",focus=-1)]\n[Decision(options=\"拖延越久，战士们就越危险。;不能给特雷西斯留下充足的反应时间。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]王庭的萨卡兹随时可能出现在战场上。\n[character(name=\"avg_npc_394_1#19$1\")]\n[name=\"阿米娅\"]是的，博士。\n[character(name=\"avg_npc_394_1#11$1\")]\n[name=\"阿米娅\"]凯尔希医生正在帮我们拖延食腐者与巫妖回城的脚步……可她能争取到的时间也是有限的。\n[dialog]\n[Character(name=\"avg_npc_394_1#11$1\",focus=-1)]\n[Decision(options=\"我们无法同时应付多位王庭成员。;真到了那时候，战况将对我们十分不利。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[dialog]\n[Decision(options=\"注意信号，随时做好撤退准备。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"]嗯，博士。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]罗德岛与自救军联军都准备好了。"
+        }
+      ],
+      "description": "费斯特明确知晓并应对曼弗雷德。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_4072_ironmn",
+          "reason": "费斯特参与制定牵制曼弗雷德的具体行动。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德不在会议现场。",
+          "status": "not_established",
+          "to": "char_4072_ironmn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 701,
+          "kind": "story",
+          "line": 593,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "城防塔行动部署",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_4072_ironmn|npc_03f95afb5dd17c3f"
+}

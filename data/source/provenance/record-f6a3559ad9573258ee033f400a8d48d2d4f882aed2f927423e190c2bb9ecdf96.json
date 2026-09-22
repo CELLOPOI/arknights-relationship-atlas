@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 235,
+          "line": 213,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_05_end.txt",
+          "quote": "[name=\"乌尔比安\"]博士。\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"看来你已经得到了你想要的证据。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_4145_Ulpia_1#8$1\")]\n[name=\"乌尔比安\"]嗯，你的帮助很大。\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"那么，结果是？;不打算将发现同步给我吗？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_4145_Ulpia_1#1$1\")]\n[name=\"乌尔比安\"]我先前提到，尚在城内的信标与已经投放进海嗣巢穴的信标之间，存在异常的信息交互。\n[name=\"乌尔比安\"]现在来看，大部分操作都是在C-22研究所，也就是我们刚刚潜入的地方完成的。\n[name=\"乌尔比安\"]我并不完全了解信标系统与第Ⅳ级武器的原理，但从这些信息交互的内容依然能模糊地推断出——\n[name=\"乌尔比安\"]信标与武器的联动关系被改变了。\n[name=\"乌尔比安\"]如我所想，航道计划从高层被渗透了。\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"“如我所想”。;你从一开始就对航道计划抱有这样的怀疑？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_4145_Ulpia_1#1$1\")]\n[name=\"乌尔比安\"]没错。"
+        }
+      ],
+      "description": "乌尔比安与博士直接交换调查信息。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_4145_ulpia",
+          "reason": "乌尔比安直接称呼博士并向其同步调查结论。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士直接向乌尔比安询问结果与航道计划判断。",
+          "status": "supported",
+          "to": "char_4145_ulpia"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 235,
+          "kind": "story",
+          "line": 213,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "C-22研究所调查后",
+      "title": "生路"
+    }
+  ],
+  "relationship_id": "char_4145_ulpia|npc_b99957887950ebfd"
+}

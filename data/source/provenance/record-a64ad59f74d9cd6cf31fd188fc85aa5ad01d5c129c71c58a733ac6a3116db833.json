@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 397,
+          "line": 389,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "quote": "[name=\"塞雷娅\"]不过在那之前，我有一个问题要问你，安东尼•西蒙。\n[Character(name=\"char_264_Mountain_1#5\")]\n[name=\"安东尼\"]请问。\n[Character(name=\"avg_npc_136#1\")]\n[name=\"塞雷娅\"]你有没有听说过，斐尔迪南这个名字？\n[Character(name=\"char_264_Mountain_1#5\")]\n[name=\"安东尼\"]斐尔迪南……我从父亲那里听说过这个名字。\n[Character(name=\"avg_npc_136#4\")]\n[name=\"塞雷娅\"]斐尔迪南，果然是你。"
+        }
+      ],
+      "description": "",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_89d26c84069133ae",
+          "reason": "本活动未找到该方向的具体人物知晓、信息接收或实际局部同场依据；不表示此人从来不认识对方。",
+          "status": "not_established_in_batch",
+          "to": "char_264_f12yin"
+        },
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_264_f12yin",
+          "reason": "安东尼说明曾从父亲那里听过这个名字。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 397,
+          "kind": "story",
+          "line": 389,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安东尼在最终战后明确报告此前知晓。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_264_f12yin|npc_89d26c84069133ae"
+}

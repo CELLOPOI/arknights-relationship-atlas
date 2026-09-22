@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 125,
+          "line": 70,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_end.txt",
+          "quote": "[name=\"录武官\"]第八合。\n[name=\"录武官\"]面对抢攻，宗师只是撤了一步。槐天裴的拳在挨到宗师手掌边缘时便已势尽。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]\n[curtain(direction = 2,fillfrom = 0,fillto = 0.55,fadetime=0.1,block=false,grad=true)]\n[curtain(direction = 6,fillfrom = 0,fillto = 0.01,fadetime=0.01,grad=true)]\n[Background(image=\"35_g11_yumendesert\",xScale=1.3, yScale=1.3)]\n[delay(time=0.45)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]\n[charslot(slot = \"l\", posfrom=\"300,0\",posto=\"-100,0\",name = \"avg_npc_785_1#1$1\",duration=0.6)]\n[PlaySound(key=\"$d_avg_clothmovementsp\")]\n[delay(time=1.5)]\n[name=\"槐天裴\"]（撑拔骨骼的声音）\n[charslot(slot = \"l\", name = \"avg_npc_785_1#3$1\")]\n[name=\"槐天裴\"]呼……\n[Dialog]\n[Blocker(a=0.3, r=0, g=0, b=0, fadetime=1, block=false)]\n[delay(time=1.5)]\n[Sticker(id=\"st1\", multi = true, text=\"习武四十余年，我从未见过高山，也未尝一败。\", x=650,y=300, alignment=\"left\", size=24, delay=0.04, width=500,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n拜的第一位师父教了我半年，摆摆手说已经没有东西可教，让我另找名师。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n在那之后，又陆续拜了几位师父，每一位都只教了一年半载就将我逐出师门。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"世上武功门派数以百计，可人无非双手双脚，哪来那么多花招套路。\",x=650,y=300, alignment=\"left\", size=24, delay=0.04, width=500,block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"我要练我自己的武功。\",x=650,y=300, alignment=\"left\", size=24, delay=0.04, width=500,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n让拳头更重，脚步更快，眼神更准。\" ,block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"可是眼前的这个人……\",x=650,y=300, alignment=\"left\", size=24, delay=0.04, width=500,block = true)]\n[Sticker(id=\"st1\")]\n[charslot(slot = \"l\", name = \"avg_npc_785_1#1$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[delay(time=0.5)]\n[charslot(slot = \"l\", name = \"avg_npc_785_1#1$1\")]\n[PlaySound(key=\"$d_avg_clothmovementsp\")]\n[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"300,0\",duration = 0.3)]\n[charslot(duration=0.3)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[curtain]\n[Background(image=\"35_g11_yumendesert\",screenadapt=\"coverall\")]\n[name=\"录武官\"]第九合……\n[name=\"录武官\"]槐天裴重拳直取宗师身侧，封住其身法退路。\n[dialog]\n[charslot]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_clothmovementsp\",volume=0.8)]\n[delay(time=0.3)]\n[CameraShake(duration=0.5, xstrength=20, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Effect(name=\"$e_fist_01\",x=-50,y=-100,layer = 1)]\n[PlaySound(key=\"$d_avg_punchsp4\",volume=0.8)]\n[delay(time=0.2)]\n[PlaySound(key=\"$d_avg_punchsp2\")]\n[Effect(name=\"$e_fist_01\",x=150,rox=-30,roy=180,roz=-100,layer = 2)]\n[Effect(name=\"$e_fist_hit_01\",x=50,y=-100,layer = 3)]\n[delay(time=1.5)]\n[name=\"录武官\"]宗师未动，同出重拳，截槐天裴拳势之半而击之……"
+        }
+      ],
+      "description": "录武官持续具名记录槐天裴招式，知晓此人；选手未在引文中识别记录者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E61"
+          ],
+          "from": "char_4196_reckpr",
+          "reason": "录武官持续具名记录槐天裴招式，知晓此人；选手未在引文中识别记录者。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4196_reckpr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 125,
+          "kind": "story",
+          "line": 70,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 824,
+          "line": 782,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "quote": "[name=\"云青萍\"]槐先生的武功，看上去又精进了……\n大巧不工，大道至简，道理任谁都明白。\n可又有几人能做到在这样生死相搏的时刻无为无我，没有招式章法，只有一拳一脚，在最精准的时刻防守、进攻。\n他已经将武融进四肢百骸。\n三十合过去了，槐天裴依然站立着，他依然没有落败！\n他脚下的山岩已经被拳锋脚劲犁出两道深深的沟壑。\n可他已无路可进，再出一拳，便是跌坠山崖。\n槐天裴依旧没有半分要退却的样子。\n[name=\"麟青砚\"]不好……这样下去，那人还是有危险！\n可是这样的决斗，还有谁能插手？\n[Dialog]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[image]\n[bgeffect]\n[Background(image=\"63_mini04_mountaintop\",screenadapt=\"coverall\")]\n[Delay(time=2)]\n[Blocker(a=0.3, r=0,g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\n[stopmusic(fadetime=2)]\n[playsound(key=\"$rungeneral\")]\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#7$1\",duration=2)]\n[Delay(time=2.5)]\n[name=\"槐琥\"]阿爸！！\n[charslot(slot=\"m\",name=\"avg_npc_785_1#6$1\",focus=\"m\")]\n[name=\"槐天裴\"]——！\n[Dialog]\n[charslot]\n一声呼喊，还是让搏命战斗的那个男人愣了神。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#6$1\",focus=\"m\")]\n[name=\"槐天裴\"]你是……\n[name=\"槐天裴\"]我……\n[name=\"槐天裴\"]……我想起来了。\n[Dialog]\n[Blocker(a=0.5, r=0,g=0, b=0, fadetime=2, block=true)]\n[playMusic(intro=\"$loneliness_intro\",key=\"$loneliness_loop\", volume=0.6)]\n[Subtitle(text=\"我想起来了。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我与一人，还有四十年之约。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我交出了那把剑，因为我割舍不下……\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我想起来了。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我还有一个女儿，我还要护她周全……\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我的名字是……槐天裴。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]"
+        }
+      ],
+      "description": "录武官明确知晓槐天裴，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_4196_reckpr",
+          "reason": "云青萍具名评论槐天裴并请人搜寻。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "本窗未见槐天裴获知云青萍。",
+          "status": "not_established",
+          "to": "char_4196_reckpr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 824,
+          "kind": "story",
+          "line": 782,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "邙山决斗场景",
+      "title": "镜中集"
+    }
+  ],
+  "relationship_id": "char_4196_reckpr|npc_2a2f1f3b7bd9ed61"
+}

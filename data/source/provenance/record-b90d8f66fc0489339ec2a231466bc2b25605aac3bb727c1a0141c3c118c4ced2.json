@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 275,
+          "line": 230,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_07_beg.txt",
+          "quote": "[name=\"黑键\"]黑焰……落在了刚刚我站的地方？\n[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\", bstart=0.2, bend=0.7)]\n[name=\"？？？\"]你该听莱辛的话，别跟那团云较劲。他虽然人木头了一点，但说话做事还算牢靠。\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#1$1\")]\n[name=\"黑键\"]……\n[charslot(slot = \"m\", name = \"avg_4011_lessng_1#1$1\")]\n[name=\"莱辛\"]埃芒加德，你来得很突然。\n[dialog]\n[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\", bstart=0.2, bend=0.7)]\n[delay(time=0.5)]\n[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\", duration=1, isblock=true)]\n[name=\"埃芒加德\"]你在期待一张时刻表吗？我可是从卡兹戴尔赶回来的。我的小方块都被这一路的风摩擦得多了不少线头。\n[charslot(slot = \"m\", name = \"avg_npc_869_1#10$1\")]\n[name=\"埃芒加德\"]唉，帽子也沾到了脏东西。我能在你的角上擦擦吗？\n[charslot(slot = \"m\", name = \"avg_4011_lessng_1#1$1\")]\n[name=\"莱辛\"]不能。\n[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\")]\n[name=\"埃芒加德\"]没意思。\n[charslot(slot = \"m\", name = \"avg_4011_lessng_1#1$1\")]\n[name=\"莱辛\"]……也不要直接对我的角动手。情况有多糟？\n[charslot(slot = \"m\", name = \"avg_npc_869_1#7$1\")]\n[name=\"埃芒加德\"]很糟，非常糟。\n[name=\"埃芒加德\"]不需要做任何巫术测试……这片空间里充斥了不该属于这里的丝弦，乱得巫妖都没法厘清。这可不是再下一场雨就能解决的。\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#1$1\")]\n[name=\"黑键\"]您也是巫妖？\n[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\")]\n[name=\"埃芒加德\"]很不像吗？ \n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#1$1\")]\n[name=\"黑键\"]我还以为……\n[charslot(slot = \"m\", name = \"avg_npc_869_1#10$1\")]\n[name=\"埃芒加德\"]巫妖都是白头发老爷爷，一把长胡子，穿着从头遮到尾的法师袍，手里拿着骷髅法杖？\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#1$1\")]\n[name=\"黑键\"]……我以为巫妖的言语艺术造诣都很高。\n[charslot(slot = \"m\", name = \"avg_4011_lessng_1#4$1\")]\n[name=\"莱辛\"]对了，老爷子呢？\n[charslot(slot = \"m\", name = \"avg_npc_869_1#2$1\")]\n[name=\"埃芒加德\"]老师的脾气你还不了解吗？当然是直接飞到云里去了。\n[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\")]\n[name=\"埃芒加德\"]赫尔昏佐伦刚在王座上一睁眼，他就一步从莱塔尼亚边境上迈了回来。\n[name=\"埃芒加德\"]哦对，还扯了扯我们所有人的线头，说不定在卡兹戴尔的巫妖都能听到他的那一声叫骂。\n[charslot(slot = \"m\", name = \"avg_4011_lessng_1#1$1\")]\n[name=\"莱辛\"]来了多少人？\n[charslot(slot = \"m\", name = \"avg_npc_869_1#8$1\")]\n[name=\"埃芒加德\"]能来的都来了。\n[name=\"埃芒加德\"]大家真的很不容易啊，你想想看，昨天刚说了要搬家，那么多的卷轴法器刚装上车，转头就听说原先住的老房子要炸了。\n[name=\"埃芒加德\"]唉，我都在想啊，你们莱塔尼亚人是不是其实一天都离不开我们巫妖？"
+        }
+      ],
+      "description": "莱辛与埃芒加德直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_4011_lessng",
+          "reason": "双方直接对话或共同参与连续局部场景。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "双方直接对话或共同参与连续局部场景。",
+          "status": "supported",
+          "to": "char_4011_lessng"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_3a60825ada2e8d44.json",
+      "sources": [
+        {
+          "endLine": 275,
+          "kind": "story",
+          "line": 230,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "崔林特尔梅事件现实场景",
+      "title": "崔林特尔梅之金"
+    }
+  ],
+  "relationship_id": "char_4011_lessng|npc_4cf393656bead901"
+}

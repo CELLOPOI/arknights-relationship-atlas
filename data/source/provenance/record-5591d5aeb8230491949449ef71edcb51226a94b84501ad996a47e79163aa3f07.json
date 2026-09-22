@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 359,
+          "line": 318,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_09_end.txt",
+          "quote": "[name=\"黍\"]这是你的因果。\n[name=\"黍\"]如果你没有行差踏错，确实在走向那个终点，这把种子会在合适的时候发芽，结出你想要的果。\n[charslot(slot = \"m\", name = \"avg_npc_1237_1#1$1\")]\n[name=\"望\"]你也会给我出题了。\n[charslot(slot = \"m\", name = \"avg_2025_shu_1#5$1\")]\n[name=\"黍\"]总不能一直让你刁难我们。\n[charslot(slot = \"m\", name = \"avg_npc_1237_1#1$1\")]\n[name=\"望\"]呵……\n[name=\"望\"]我的事情已经谈完了，还有什么事，你自己说吧。\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#3$1\")]\n[name=\"绩\"]……\n[charslot(slot = \"m\", name = \"avg_2025_shu_1#17$1\")]\n[name=\"黍\"]真是长大了，翅膀硬了？\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#7$1\")]\n[name=\"绩\"]我都一千岁了……姐姐。\n[charslot(slot = \"m\", name = \"avg_2025_shu_1#5$1\")]\n[name=\"黍\"]我拦不住你。\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#9$1\")]\n[name=\"绩\"]上次走的时候还大吵了一架，这一次能不能给我留样东西，当个念想？\n[charslot(slot = \"m\", name = \"avg_2025_shu_1#17$1\")]\n[name=\"黍\"]整座大荒城都被你织到了那幅锦绣里，你还想要带走什么？\n[name=\"黍\"]你要是还有什么不舍的，最好活着回来。\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#7$1\")]\n[name=\"绩\"]说的也是……\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#9$1\")]\n[name=\"绩\"]夕，能不能最后再问你要一样东西？\n[charslot(slot = \"m\", name = \"avgnew_2015_dusk_1#1$1\")]\n[name=\"夕\"]你想要什么？\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#9$1\")]\n[name=\"绩\"]那幅画，可以提前给我吗？\n[charslot(slot = \"m\", name = \"avgnew_2015_dusk_1#9$1\")]\n[name=\"夕\"]你怎么知——\n[charslot(slot = \"m\", name = \"avgnew_2015_dusk_1#2$1\")]\n[name=\"夕\"]……\n[dialog]\n[PlaySound(key=\"$d_avg_throwstone\", volume=1)]\n[delay(time=0.5)]\n[CameraShake(duration=0.2, xstrength=5, ystrength=10, vibrato=10, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#9$1\")]\n[delay(time=1)]\n[name=\"绩\"]我会好好保管的。"
+        }
+      ],
+      "description": "望让绩自己说告别的话，双方同场交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_2027_wang",
+          "reason": "望让绩自己说告别的话，双方同场交流。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "望让绩自己说告别的话，双方同场交流。",
+          "status": "supported",
+          "to": "char_2027_wang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 359,
+          "kind": "story",
+          "line": 318,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 365,
+          "line": 353,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_end.txt",
+          "quote": "[name=\"余\"]怎么不动筷子，不合胃口吗？\n[charslot(slot=\"m\", name=\"avg_npc_1237_1#1$1\")]\n[name=\"望\"]无用之举，浪费时间。\n[charslot(slot=\"m\", name=\"avg_2026_yu_1#3$2\")]\n[name=\"余\"]知道你赶时间，一顿饭的工夫总还能腾出来吧。真是……做饭的人还没抱怨时间长呢。\n[charslot(slot=\"m\", name=\"avg_2026_yu_1#2$2\")]\n[name=\"余\"]就为了这一锅汤，你知道我准备了多久吗？\n[charslot(slot=\"m\", name=\"avg_npc_1237_1#1$1\")]\n[name=\"望\"]有多久？\n[charslot(slot=\"m\", name=\"avg_2026_yu_1#4$2\")]\n[name=\"余\"]从你离开那时算起……大概一百年？要是再算上找食材想菜谱的时间，恐怕就更久了吧。\n[charslot(slot=\"m\", name=\"avg_npc_1237_1#1$1\")]\n[name=\"望\"]准备了这么久，可找到你想要的“滋味”了？"
+        }
+      ],
+      "description": "余当着望具体谈到绩与众兄弟姐妹，三者为同一家人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J14"
+          ],
+          "from": "char_2027_wang",
+          "reason": "余当着望具体谈到绩与众兄弟姐妹，三者为同一家人。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [
+            "J14"
+          ],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "余当着望具体谈到绩与众兄弟姐妹，三者为同一家人。",
+          "status": "supported",
+          "to": "char_2027_wang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 365,
+          "kind": "story",
+          "line": 353,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_2027_wang|npc_6ee68205c0c1758b"
+}

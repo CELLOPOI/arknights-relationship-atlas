@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 327,
+          "line": 312,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st06.txt",
+          "quote": "[name=\"埃芒加德\"]死魂灵的……场子。我要将老师没能完成的安抚仪式，漂漂亮亮地给办成了。你们干还是不干？\n[Dialog]\n[charslot]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1453_1#4$1\",focus=\"m\")]\n[CameraShake(duration=0.5, xstrength=12, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"克伦妮\"]哎呀呀！\n[charslot(slot = \"m\", name = \"avg_npc_1453_1#9$1\",focus=\"m\")]\n[name=\"克伦妮\"]抱歉，我只是受不了这种尴尬的沉默……随便弄点什么动静。\n[name=\"克伦妮\"]呃，我也说过了，我其实只是想进来参观一下那位传奇设计师的手笔……现在都看完了！什么死魂灵的就交给你们吧。\n[charslot(slot = \"m\", name = \"avg_4147_mitm_1#10$1\",focus=\"m\")]\n[name=\"珀耳\"]一路上都没让我们睁眼，你怎么就看完了？\n[charslot(slot = \"m\", name = \"avg_npc_1452_1#3$1\",focus=\"m\")]\n[name=\"卡莱莎\"]如果只是旁观一场安抚仪式那倒还好，不过看这位巫妖的意思，似乎是想让我们也参与其中？\n[charslot(slot = \"m\", name = \"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]和死魂灵打交道的话，是不是得让阿米娅也知道一下？还有巴别塔的那几个人。"
+        }
+      ],
+      "description": "埃芒加德带领一行进入熔炉并商议安抚仪式，人物在同一连续现场发言；珀耳由avg_4147_mitm立绘对应渡桥。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_311_mudrok",
+          "reason": "埃芒加德带领一行进入熔炉并商议安抚仪式，人物在同一连续现场发言；珀耳由avg_4147_mitm立绘对应渡桥。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "埃芒加德带领一行进入熔炉并商议安抚仪式，人物在同一连续现场发言；珀耳由avg_4147_mitm立绘对应渡桥。",
+          "status": "supported",
+          "to": "char_311_mudrok"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_7b6f965ec725fee0.json",
+      "sources": [
+        {
+          "endLine": 327,
+          "kind": "story",
+          "line": 312,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "熔炉“还魂”记"
+    }
+  ],
+  "relationship_id": "char_311_mudrok|npc_4cf393656bead901"
+}

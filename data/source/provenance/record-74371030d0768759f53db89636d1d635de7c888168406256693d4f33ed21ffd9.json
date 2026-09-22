@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 406,
+          "line": 380,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_08_beg.txt",
+          "quote": "[name=\"能天使\"]对吧，老人家？\n[Character(name=\"avg_npc_692_1#3$1\")]\n[name=\"阿格尼尔\"]……\n[Character(name=\"avg_103_angel_1#7$1\")]\n[name=\"能天使\"]老人家？\n[Character(name=\"avg_npc_692_1#3$1\")]\n[name=\"阿格尼尔\"]Zzz……Zzzz……\n[Character(name=\"avg_201_moeshd_1#9$1\")]\n[name=\"可颂\"]我们是不是……不该打扰他？\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]唔……嗯？\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]啊，是你们两个孩子。\n[Character(name=\"avg_103_angel_1#10$1\")]\n[name=\"能天使\"]您好！\n[Character(name=\"avg_103_angel_1#1$1\")]\n[name=\"能天使\"]我们是有一些问题来请教您的。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]哈哈哈，好，好，坐吧，我向来是不讨厌和年轻人聊天的。\n[Character(name=\"avg_201_moeshd_1#9$1\")]\n[name=\"可颂\"]我们有一个朋友，她似乎和某个家族有约定，必须帮助对方做事。\n[Character(name=\"avg_201_moeshd_1#9$1\")]\n[name=\"可颂\"]我们想知道，有没有什么办法，能让她从中脱身。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]你们这个朋友，姓德克萨斯，是吗。\n[Character(name=\"avg_201_moeshd_1#9$1\")]\n[name=\"可颂\"]……是。"
+        }
+      ],
+      "description": "可颂直接向阿格尼尔提问，老人回答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E33"
+          ],
+          "from": "char_201_moeshd",
+          "reason": "可颂直接向阿格尼尔提问，老人回答。",
+          "status": "supported",
+          "to": "npc_686d8dda781355b1"
+        },
+        {
+          "evidenceIds": [
+            "E33"
+          ],
+          "from": "npc_686d8dda781355b1",
+          "reason": "可颂直接向阿格尼尔提问，老人回答。",
+          "status": "supported",
+          "to": "char_201_moeshd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 406,
+          "kind": "story",
+          "line": 380,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_201_moeshd|npc_686d8dda781355b1"
+}

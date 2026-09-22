@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 186,
+          "line": 125,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_03_beg.txt",
+          "quote": "[name=\"切斯特\"]博士，这……\n[dialog]\n[character(name=\"avg_npc_267_1#5$1\",focus=-1)]\n[Decision(options=\"不是真的。;……;你觉得呢？\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_npc_267_1#2$1\")]\n[name=\"切斯特\"]……我可以相信吗？\n[Predicate(references=\"2\")]\n[character(name=\"avg_npc_284_1#1$1\")]\n[name=\"武装的领民\"]怎么，说不出话了？\n[Predicate(references=\"3\")]\n[character(name=\"avg_npc_284_1#1$1\")]\n[name=\"武装的领民\"]少在这里油嘴滑舌的！\n[Predicate(references=\"1;2;3\")]\n[stopmusic(fadetime=2)]\n[character(name=\"avg_npc_284_1#1$1\")]\n[name=\"武装的领民\"]不必多说了，我要你给我们一个交代！\n[PlayMusic(intro=\"$epic_intro\", key=\"$epic_loop\", volume=0.4)]\n[dialog]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]\n[PlaySound(key=\"$sheildimpact\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[character(name=\"avg_npc_261_1#6$1\")]\n[name=\"瓦莱丝\"]卫兵！保护客人！把他们拿下！\n[character(name=\"avg_npc_284_1#1$1\")]\n[name=\"武装的领民\"]先抓住那个外国人！\n[dialog]\n[Dialog]\n[PlaySound(key=\"$d_avg_snowrun\", channel=\"slide\",loop=true,volume=0.8)]\n[delay(time=0.51)]\n[characteraction(name=\"middle\", type=\"move\", xpos=100, fadetime=0.5,block=false)]\n[stopsound(channel=\"slide\", fadetime=0.1)]\n[Character(fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"char_empty\")]\n[characteraction(name=\"middle\", type=\"move\", xpos=300, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[characteraction(name=\"middle\", type=\"move\", xpos=-300, fadetime=0.6, block=false)]\n[Character(name=\"avg_npc_252\",fadetime=0.7)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=40, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$swordtsing5\", volume=0.7)]\n[PlaySound(key=\"$sheildimpact\", volume=1)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=40, randomness=90, fadeout=true)]\n[delay(time=1.3)]\n[character(name=\"avg_npc_284_1#1$1\")]\n[name=\"武装的领民\"]你、你从哪儿冒出来的！\n[character(name=\"avg_npc_252\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"Sharp\"]这里不安全！\n[character(name=\"avg_422_aurora_1#5$1\")]\n[name=\"极光\"]该跑了博士！\n[Dialog]\n[musicvolume(volume=0.2, fadetime=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n乌萨斯干员将你扛在了肩膀上，大步向树林里冲去。"
+        }
+      ],
+      "description": "埋伏现场切斯特与瓦莱丝保护博士，Sharp和极光当场介入救援，连续局部冲突无转场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E35"
+          ],
+          "from": "char_422_aurora",
+          "reason": "埋伏现场切斯特与瓦莱丝保护博士，Sharp和极光当场介入救援，连续局部冲突无转场。",
+          "status": "supported",
+          "to": "npc_e93a864a5413aa6c"
+        },
+        {
+          "evidenceIds": [
+            "E35"
+          ],
+          "from": "npc_e93a864a5413aa6c",
+          "reason": "埋伏现场切斯特与瓦莱丝保护博士，Sharp和极光当场介入救援，连续局部冲突无转场。",
+          "status": "supported",
+          "to": "char_422_aurora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 186,
+          "kind": "story",
+          "line": 125,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_422_aurora|npc_e93a864a5413aa6c"
+}

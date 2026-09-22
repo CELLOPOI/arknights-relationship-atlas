@@ -1,0 +1,128 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 148,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_beg.txt",
+          "quote": "[name=\"克洛维希娅\"]阿米娅，博士，你们来了。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#5$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]哈哈，如你们所见，我们的士气……很低迷。\n[name=\"克洛维希娅\"]这里乱糟糟的，请别介意。自从阿勒黛……离开后，我们的后勤补给一直是个问题。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]不过，在眼下的麻烦面前，这算是最好解决的一个了。\n[name=\"克洛维希娅\"]在上一场战斗中，我们的减员很严重。我们曾经以为这些牺牲不会白费，只要阻止萨卡兹推进那些工程，一切就还有挽回余地。\n[name=\"克洛维希娅\"]很遗憾，他们的行动比我们预计的快得多。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]萨卡兹们……他们不仅有碎片大厦，他们还制造了那艘“飞空艇”。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]简报已经分发到了大家手上，飞空艇不加掩饰地袭击了温德米尔公爵的军队，和平的假象已不复存在。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#5$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]而碎片大厦……萨卡兹既然主动挑起了这场战争，那么，他们对于碎片大厦的掌控……很可能比我们预想的进度还要快。\n[name=\"克洛维希娅\"]我不敢赌。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#9$1\",focus=\"m\")]\n[name=\"推进之王\"]……阿勒黛和我提起过这把剑的传说。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]她说可以劈开天灾的诸王之息是维多利亚最牢固的盾，足以抵挡被牵引而来的风暴。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]那她也一定告诉过你，正因为能激发这种力量的人实在罕有，才有了王宫地下“剑座”的存在。\n[charslot(slot=\"m\",name=\"avg_npc_396_1#10$1\",focus=\"m\")]\n[name=\"达格达\"]推进之王，你真的没从这把剑里感受到什么吗？\n[name=\"达格达\"]也许是……我不知道，一种召唤？或者微微发热的感觉？或者是突然能够运用什么厉害的源石技艺之类的。\n[charslot(slot=\"m\",name=\"avg_npc_396_1#9$1\",focus=\"m\")]\n[name=\"达格达\"]说不定，你确实可以……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_407_1#6$1\",focus=\"m\")]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_clothmovementsp\",volume=0.8)]\n[PlaySound(key=\"$d_avg_swordy\",volume=0.5,delay=0.2)]\n[Delay(time=1.5)]\n[name=\"推进之王\"]……\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]不，什么都没有。\n[name=\"推进之王\"]这把剑很冷，很硬，挥动起来比锤子要轻一点，不太好掌控力道。\n[charslot(slot=\"m\",name=\"avg_npc_396_1#10$1\",focus=\"m\")]\n[name=\"达格达\"]没有别的吗？哪怕只是一点点别扭的地方——\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]……它在上战场前应该好好地打磨一下，已经有点钝了。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#7$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]看来，我们暂时没办法指望这把剑能够直接派上用场，为我们免除碎片大厦的威胁了。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#7$1\",focus=\"none\")]\n[Decision(options=\"但它也不会再成为大公爵们互相倾轧的筹码。;萨卡兹们在启用碎片大厦前也许会多一些顾虑。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]是的，罗德岛的博士，这把剑掌握在我们手中总比在其他势力手中要好，我们最起码可以避免它沦为这场战争的帮凶，这已经足够重要。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]……足够重要，是吗，这已经足够重要。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#2$1\",focus=\"m\")]\n[name=\"推进之王\"]（小声）阿勒黛，如果我能……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#21$1\",focus=\"m\")]\n[name=\"阿米娅\"]不用灰心，推进之王小姐，也许你只是还没掌握方法，或者是还不到时候。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]……\n[charslot(slot=\"m\",name=\"avg_npc_411_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]那条补给线我已经分析得差不多了，博士。\n[name=\"可露希尔\"]起点基本上可以确定是在伦蒂尼姆郊外的布伦特伍德，而终点有很多个。\n[name=\"可露希尔\"]除了海布里区的军工厂之外，很有可能有一条路线直接延伸到碎片大厦地下。\n[charslot(slot=\"m\",name=\"avg_npc_411_1#8$1\",focus=\"m\")]\n[name=\"可露希尔\"]啧，我们发现得太晚了，如果早一个月——不，哪怕早十天，事情可能都不会发展到如今的地步。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]但这条补给线的情报仍然有意义，博士。\n[name=\"阿斯卡纶\"]如果这是一条足够承担重型物资运输的线路，并且能够直通碎片大厦地底——\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"none\")]\n[Decision(options=\"那么，运别的也行。;这是个反攻的机会。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_395_1#9$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]没错。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]战争爆发后，特雷西斯的身边很可能没有太多戍卫，各王庭之主需要指挥自己的部属对抗各大公爵。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#7$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]巫妖的入局可能会是个问题……但据我对他们的了解，他们从不会真正选择支持谁，更何况，凯尔希女士应该已经与他们的信使谈过了。\n[name=\"阿斯卡纶\"]但愿他们听进去了凯尔希女士的忠告。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]接下来，我们最好——\n[musicvolume(volume=0.3, fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#7$1\",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"因陀罗\"]维娜，你倒是提一句诺伯特区的事呀！\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#9$1\",focus=\"m\")]\n[name=\"因陀罗\"]被那帮萨卡兹混蛋抛出去的可是我们的街区！贝尔德还在那里！\n[name=\"因陀罗\"]该死，比起什么补给线大反攻，我们得去帮她！\n[charslot(slot=\"m\",name=\"avg_npc_396_1#9$1\",focus=\"m\")]\n[name=\"达格达\"]请冷静一些，我们需要考虑整体局势……\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#7$1\",focus=\"m\")]\n[name=\"因陀罗\"]怎么，骑士阁下想教训我以大局为重？我可管不了怎么干掉一个萨卡兹的老妖怪，现在老子的朋友有危险，老子的家有危险！\n[name=\"因陀罗\"]你想让我们袖手旁观？！\n[charslot(slot=\"m\",name=\"avg_npc_396_1#9$1\",focus=\"m\")]\n[name=\"达格达\"]不，我知道你很焦躁，可是我们必须考虑到任何可能的情况。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]我同样不建议你们独自行动，在我们确定那位想抢夺国剑的人彻底放弃计划之前，你们最好……\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#9$1\",focus=\"m\")]\n[name=\"因陀罗\"]最好躲在地下的夹层里当懦夫？得了吧！我们能应付那些鬼鬼祟祟的家伙们！现在，最重要的是——\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]够了，因陀罗。\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#2$1\",focus=\"m\")]\n[multiline(name=\"因陀罗\")]我……\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#8$1\",focus=\"m\")]\n[multiline(name=\"因陀罗\")]好吧。\n[musicvolume(volume=0.6, fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_407_1#5$1\",focus=\"m\")]\n[name=\"推进之王\"]针对特雷西斯的行动会在什么时候开始？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]不会太快，我们需要侦察那些补给线的具体情况。\n[name=\"阿斯卡纶\"]碎片大厦内部的结构也需要调查。特雷西斯……很强大，任何一点松懈都会要了我们的命。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#5$1\",focus=\"m\")]\n[name=\"推进之王\"]具体时间呢？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]半个月内，我希望能在碎片大厦被他真正启动前……了结这些事。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]足够了。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]Dr.{@nickname}，我申请在这次行动之前暂时离队。请放心，我会在任务开始时回来。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#7$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]所以，你还是坚持要前往诺伯特区。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#9$1\",focus=\"m\")]\n[name=\"推进之王\"]……我已经失去很多朋友了，克洛维希娅。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]我没有办法一次又一次地袖手旁观。\n[name=\"推进之王\"]这确实是个出于我个人情感的要求，我不会避讳这一点。\n[name=\"推进之王\"]但与此同时，我也认为这是个机会，在我们的正式行动开始之前，解决掉一些潜藏的隐患。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#10$1\",focus=\"m\")]\n[name=\"推进之王\"]……比如，那些伤害阿勒黛的人，那些想要诸王之息的人。\n[name=\"推进之王\"]那无疑是一位大公爵，无论他接下来打算摆出什么立场，我想……我都该和他好好“谈一谈”。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]阿斯卡纶小姐说了，我们的时间并不充裕。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]我知道。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]我会处理好的。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……博士，你怎么看？"
+        }
+      ],
+      "description": "克洛维希娅单向知晓特雷西斯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "该人物在共同会议中接收有关特雷西斯与反攻计划的具体说明。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "被提及者未在当前局部场景出场，缺少反向接收或识别依据。",
+          "status": "not_established",
+          "to": "npc_1f201a858b188fce"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 148,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 245,
+          "line": 151,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-16_end.txt",
+          "quote": "[name=\"克洛维希娅\"]也许这是个好的讯号，至少你还没被萨卡兹处死。\n[name=\"克洛维希娅\"]有时间聊聊吗？\n[Dialog]\n[charslot(duration=0.2)]\n[delay(time=0.3)]\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[name=\"莱托中校\"]嗯，我认出你了……你是，自救军的那个小领袖克洛维希娅？\n[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]\n[name=\"莱托中校\"]自救军的据点都已经被我们清剿干净，剩下的人也应该全部撤出了伦蒂尼姆，你为什么还在这里？\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]多亏了城防军的手下留情，也多亏了开斯特的信守承诺。\n[name=\"克洛维希娅\"]她的“灰礼帽”们确实保证了自救军顺利撤出这座将死的城市。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]开斯特公爵……\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]……我早就对你的身份有所猜测，不过现在，不论你是哪位阁下的附庸或傀儡，我都不关心了。\n[name=\"莱托中校\"]我不知道你的本事到底有多大，但现在的伦蒂尼姆不适合一个造反的孩子到处游荡。\n[name=\"莱托中校\"]回你之前躲着的地方吧，趁还没被萨卡兹们逮到，我可以当作没看见你。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]……莱托。\n[name=\"克洛维希娅\"]你躲在伦蒂尼姆已经够久了。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]我和自救军失散以后，尽可能快地在伦蒂尼姆内重新找到了行动的目标。\n[name=\"克洛维希娅\"]我们也……遭到了背叛。我甚至还不清楚叛徒具体有哪些人。\n[name=\"克洛维希娅\"]但是我没有时间想这些，城内的情况远远超过了我们对“占领移动城市”的理解。\n[name=\"克洛维希娅\"]现在发生的事，你在历史书上，找不到。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]我比谁都清楚。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]可你看过城外的情况吗？\n[name=\"克洛维希娅\"]我看到萨卡兹的法阵，红光冲天而起，我看到形态各异的战争装置，绝非寻常国家的制式装备可比。\n[name=\"克洛维希娅\"]我看到巫师悬浮于半空，主宰领空，使得所有形式的无人机与源石技艺统统失效。\n[name=\"克洛维希娅\"]我本以为那些描述萨卡兹军队和那个所谓的“食腐者”的传说，多少都是些添油加醋来徒增恐怖色彩的文学手段。\n[name=\"克洛维希娅\"]我不再这么想了。\n[name=\"克洛维希娅\"]当死亡本身敞开大门，我们要面临什么样的人间地狱？\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]公爵们呢？\n[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]……公爵的军队。坚硬，宏伟，但是……\n[charslot(slot = \"l\", name = \"avg_npc_401_1#8$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]他们在地平线的那头。他们遥不可及。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]我猜测，你此时此刻，是不是心中怀着歉疚与悲哀，但又夹杂着一点点自豪？\n[name=\"克洛维希娅\"]你觉得，你做了许多残忍的选择，但是现在，你的使命完成了。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]我猜测，你向特雷西斯提出了一个交易，而特雷西斯答应了，有关那些曾经属于高卢的移动城市。\n[name=\"克洛维希娅\"]伦蒂尼姆太小，装不下萨卡兹的野心，他不过借着这里撩拨泰拉诸国蠢蠢欲动的心。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]你真的觉得他在乎你和你的高卢吗？\n[name=\"克洛维希娅\"]如今的伦蒂尼姆已经彻底沦陷，但你不是蠢货，你看得出来。\n[name=\"克洛维希娅\"]卡兹戴尔军事委员会根本没有占领维多利亚的计划。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]我不傻。我从一开始，就没有把希望寄托在特雷西斯的允诺上。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]但你还是参与了那么多手足相残的悲剧。\n[name=\"克洛维希娅\"]你是想创造机会？就像萨卡兹们正在为卡兹戴尔做的事情一样。\n[name=\"克洛维希娅\"]也许，这场将所有公爵的精力耗干的战争，将成为高卢的幽灵再度返回人间的契机。\n[name=\"克洛维希娅\"]但问题在于——\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]——你真的相信吗，勒内·莱托？\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]\n[name=\"莱托中校\"]我还能相信什么呢？\n[name=\"莱托中校\"]我已经承认我的懦弱了，你还需要我承认我的愚蠢，我的绝望，我的毫无意义？\n[name=\"莱托中校\"]你想找我干嘛？\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]合作。\n[name=\"克洛维希娅\"]自救军，那些反抗萨卡兹，在维多利亚可笑的贵族之间挣扎求生的人，都还有一线生机。\n[name=\"克洛维希娅\"]而你所奢求的所谓的“高卢”，可能也存在于那一线生机之中。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#6$1\",focus=\"r\")]\n[name=\"莱托中校\"]……高卢啊，高卢。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]看来，你是一位仍旧愿意抗争的人。\n[name=\"莱托中校\"]对你们这样的人而言，就算是尘埃里的废墟，也能成为下一座壁垒的基石。\n[name=\"莱托中校\"]你们都是这样的人，你，军事委员会……\n[charslot(slot=\"r\",name=\"avg_npc_649_1#6$1\",focus=\"r\")]\n[name=\"莱托中校\"]你们如此强大，强大到能颠覆国家，操弄历史，更遑论……一两个我这样的人的命运。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]停下你的自怨自艾吧，在地狱降临之前，我们还有很多可以做的事情。\n[name=\"克洛维希娅\"]无论你当作赎罪还是当作另一次抗争的开始，我都无所谓。\n[name=\"克洛维希娅\"]莱托，我希望我们能——\n[charslot(slot=\"r\",name=\"avg_npc_649_1#9$1\",focus=\"r\")]\n[name=\"莱托中校\"]那么，了不起的人啊，你能告诉我——\n[name=\"莱托中校\"]我该如何拯救自己吗？\n[charslot(slot = \"l\", name = \"avg_npc_401_1#5$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]……"
+        }
+      ],
+      "description": "具体推断并讨论特雷西斯与莱托的交易。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "具体推断并讨论特雷西斯与莱托的交易。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "对方不在会谈现场。",
+          "status": "not_established",
+          "to": "npc_1f201a858b188fce"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 245,
+          "kind": "story",
+          "line": 151,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆撤离后",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 241,
+          "line": 191,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "quote": "[name=\"克洛维希娅\"]阿米娅，博士，城外的信使刚刚发回了一份关键情报。萨卡兹的主力部队正在回城，这极有可能意味着他们即将与公爵部队开战。\n[name=\"克洛维希娅\"]按之前的情报来看，即便主力部队回到伦蒂尼姆，萨卡兹的军事力量也不足以正面与全部公爵抗衡。\n[name=\"克洛维希娅\"]萨卡兹选择在这个时间动手，显然是因为他们认为自己掌握了能左右战局的关键力量。\n[Dialog]\n[Character(name=\"avg_npc_394_1#1$1\",name2=\"avg_npc_401_1#1$1\",focus=3)]\n[Decision(options=\"碎片大厦。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_394_1#1$1\",name2=\"avg_npc_401_1#9$1\",focus=2)]\n[name=\"克洛维希娅\"]那栋被萨卡兹占领的建筑？我们确实得知那座大厦藏着武器，可是，左右战局？\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]是的，克洛维希娅。你们有注意过……碎片大厦顶部的风暴吗？\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#5$1\",focus=2)]\n[name=\"克洛维希娅\"]唔……那些阴云看起来很异样。\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#5$1\",focus=1)]\n[name=\"阿米娅\"]从我们得到的情报来看，那确实并不是普通的风暴。那是碎片大厦诱发的天灾。虽然和真正的天灾还有差别……\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#6$1\",focus=2)]\n[name=\"克洛维希娅\"]萨卡兹想引起一场天灾？他们自己还在伦蒂尼姆，毁掉这座城市对他们而言有什么好处？\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#6$1\",focus=3)]\n[Dialog]\n[Decision(options=\"他们打算把风暴当作武器。;如果他们能控制天灾的落点呢？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#9$1\",focus=2)]\n[name=\"克洛维希娅\"]……唔。\n[Character(name=\"avg_npc_394_1#7$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]碎片大厦的作用并非只是我们的猜想。这件武器……或者说这项技术正是罗德岛进入伦蒂尼姆的首要目标。\n[Character(name=\"avg_npc_394_1#7$1\",name2=\"avg_npc_401_1#9$1\",focus=2)]\n[name=\"克洛维希娅\"]……罗德岛是为了笼罩着伦蒂尼姆的阴云而来。\n[Character(name=\"avg_npc_394_1#7$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]嗯，这不仅是一个比喻。\n[name=\"阿米娅\"]万一特雷西斯真的启用了碎片大厦，他会将战火与风暴一起引向他眼中萨卡兹的敌人。\n[name=\"阿米娅\"]没有天灾信使能够预测人为天灾的走向。没有一座移动城市能逃脱这样的天灾的打击。\n[name=\"阿米娅\"]无数萨卡兹和维多利亚人都将死在这场战争中，而活下来的那些可能更悲惨。他们大多数会变成感染者。\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]以及……碎片大厦，没有被安设在边境，而是在作为一国首都的伦蒂尼姆……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#8$1\",focus=2)]\n[name=\"克洛维希娅\"]这意味着……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#8$1\",focus=3)]\n[Dialog]\n[Decision(options=\"当这项技术完成的时候，它能够碰触泰拉的任何角落。;……;我们只能祈祷这项技术遭遇更多的瓶颈。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#6$1\",focus=2)]\n[name=\"克洛维希娅\"]萨卡兹……会用维多利亚的力量，摧毁维多利亚。\n[name=\"克洛维希娅\"]真到了那个地步的话，自救军之前所做的一切都是徒劳。\n[name=\"克洛维希娅\"]即便我们能和罗德岛一样，在天灾下救人，伦蒂尼姆和我们的生活也都回不到过去了……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#6$1\",focus=1)]\n[name=\"阿米娅\"]克洛维希娅，罗德岛很感激自救军。缺少你们的帮助的话，我们没法顺利进入中央城区。\n[name=\"阿米娅\"]但我和博士也不会欺骗你们。无论罗德岛接下来计划如何接近碎片大厦，等待着我们的战斗只会一场比一场凶险。\n[name=\"阿米娅\"]假如罗德岛没能在这几天之内阻止特雷西斯，全面战争开始，大公爵们必然会向伦蒂尼姆城内进军。\n[name=\"阿米娅\"]要是自救军选择等待公爵军队的话……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#1$1\",focus=2)]\n[name=\"克洛维希娅\"]……阿米娅，我们做不到。"
+        }
+      ],
+      "description": "克洛维希娅获知特雷西斯的计划。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "克洛维希娅当面听取特雷西斯启用碎片大厦的具体计划。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "特雷西斯不在会场。",
+          "status": "not_established",
+          "to": "npc_1f201a858b188fce"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 241,
+          "kind": "story",
+          "line": 191,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "自救军会议",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "npc_1f201a858b188fce|npc_c573b8884914fc60"
+}

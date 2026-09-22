@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 232,
+          "line": 178,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st03.txt",
+          "quote": "[name=\"恐惧的女性\"]先生……先生！我们现在应该怎么办？\n[charslot(slot=\"m\",name=\"avg_npc_1066_1#1$1\",focus=\"m\")]\n[name=\"诺威尔\"]往这边走。我掩护你们，尽量赶在下一波炮击之前撤离——\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]\n[CameraShake(duration=0.7, xstrength=30, ystrength=30, vibrato=15, randomness=90, fadeout=true, block=false)]\n[charslot(duration=0.5)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_417_1#1$1\",duration=0.5)]\n[Delay(time=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_417_1#1$1\",focus=\"m\")]\n[name=\"匆忙的男性\"]让——让开！\n[name=\"匆忙的男性\"]老子今天一定得从这鬼地方出去！\n[name=\"匆忙的男性\"]都别挡道！\n[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]\n[name=\"？？？\"]请回到后面去。\n[name=\"？？？\"]现在应该保障孩子与老人优先撤离。\n[charslot(slot=\"m\",name=\"avg_npc_417_1#1$1\",focus=\"m\")]\n[name=\"匆忙的男性\"]你在放什么屁——\n[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]\n[name=\"？？？\"]自救军的疏散路线是最安全的，如果你坚持独自离开……\n[name=\"？？？\"]那就走吧。\n[charslot(slot=\"m\",name=\"avg_npc_417_1#1$1\",focus=\"m\")]\n[name=\"匆忙的男性\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1066_1#4$1\",focus=\"m\")]\n[name=\"诺威尔\"]……请问你是？\n[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]\n[name=\"？？？\"]嗯？我是伦蒂尼姆自救军的领袖，你可以叫我克洛维希娅。\n[Dialog]\n[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=false)]\n[delay(time=0.1)]\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\")]\n[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0,bend=0,duration=1,focus=\"m\")]\n[delay(time=1.5)]\n[name=\"克洛维希娅\"]我听说了这片区域里有人在组织市民撤离，感谢你提供的帮助。\n[name=\"克洛维希娅\"]接下来，自救军会接手撤离行动。你的使命结束了。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1066_1#1$1\",focus=\"m\")]\n[name=\"诺威尔\"]我依然可以帮忙。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]这很危险，我们不能平白要求你以身涉险交换他人的生路。\n[name=\"克洛维希娅\"]自救军无法许诺你任何回报。\n[charslot(slot=\"m\",name=\"avg_npc_1066_1#1$1\",focus=\"m\")]\n[name=\"诺威尔\"]不，你不明白。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#7$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]我们甚至没有太多时间谈论……\n[charslot(slot=\"m\",name=\"avg_npc_1066_1#5$1\",focus=\"m\")]\n[name=\"诺威尔\"]唉。\n[charslot(slot=\"m\",name=\"avg_npc_1066_1#1$1\",focus=\"m\")]\n[name=\"诺威尔\"]长话短说，就当作我受到了某种诅咒吧，不必顾及我的安全。让我来掩护你们，能帮助更多的人撤离。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#5$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……"
+        }
+      ],
+      "description": "诺威尔与克洛维希娅共同组织撤离。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_4173_nowell",
+          "reason": "双方直接交谈。",
+          "status": "supported",
+          "to": "npc_1f201a858b188fce"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "双方直接交谈。",
+          "status": "supported",
+          "to": "char_4173_nowell"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 232,
+          "kind": "story",
+          "line": 178,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆撤离行动",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_4173_nowell|npc_1f201a858b188fce"
+}

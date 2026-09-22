@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 700,
+          "line": 680,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "quote": "[name=\"林\"]看样子，你在玉门找人，也不太顺利？\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]别提了。一个消失了十几年的人，我也没指望能在一个月里找到。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]但不管花多少时间，总还是要找的。\n[charslot(slot=\"m\",name=\"avg_npc_034#1\",focus=\"m\")]\n[name=\"林\"]鲤先生向来是位自在人，只有在这位老朋友的事上，才会这么操劳。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]或许是我上辈子欠他的吧……\n[charslot(slot=\"m\",name=\"avg_npc_034#1\",focus=\"m\")]\n[name=\"林\"]既然你不急在这一时，那我能不能委托鲤氏侦探事务所帮个忙？\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]林先生开了口，我哪有拒绝的道理……\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]不过话说回来，最近我接的麻烦事是不是太多了点？\n[charslot(slot=\"m\",name=\"avg_npc_034#1\",focus=\"m\")]\n[name=\"林\"]能者多劳，这件事算我姓林的欠你一笔。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]林先生这么客气，我还真得掂量掂量这件事办不办得成了。\n[charslot(slot=\"m\",name=\"avg_npc_034#1\",focus=\"m\")]\n[name=\"林\"]哼，这件事，就得你这个人精来做。"
+        }
+      ],
+      "description": "鼠王当面委托老鲤调查。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "鼠王当面委托老鲤调查。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "鼠王当面委托老鲤调查。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 700,
+          "kind": "story",
+          "line": 680,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 257,
+          "line": 181,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lmlee_1_1.txt",
+          "quote": "[name=\"老鲤\"]林先生今天来帮太太买菜啊？\n[charslot(slot=\"m\",name=\"avg_npc_034#4\",focus=\"m\")]\n[name=\"林\"]我太太没有那么挑剔，不会因为几棵笋，就让我跑到离家十几公里外的菜市场买菜。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_006\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#1$1\",focus=\"l\")]\n[name=\"菜贩\"]（鲤先生，这、这位不是……不是那位……？）\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#1$1\",focus=\"r\")]\n[name=\"老鲤\"]（你就当他是个普通过路人就行了。）\n[Dialog]\n[Charslot]\n[charslot(slot=\"m\",name=\"avg_npc_034#4\",focus=\"m\")]\n[name=\"林\"]鲤先生还没有回答我的问题。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#9$1\",focus=\"m\")]\n[name=\"老鲤\"]嗐，我就是个市井俗人，谁在大酒楼设宴请我吃一顿，我定把他奉为知己。\n[charslot(slot=\"m\",name=\"avg_npc_034#2\",focus=\"m\")]\n[name=\"林\"]手下报给我的可不一样。你这一周，出入的尽是街道巷陌的小馆子。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\",focus=\"m\")]\n[name=\"老鲤\"]林先生你知道那么多我会出现的场所，为什么偏偏来这离家十几公里的菜市场寻我。\n[charslot(slot=\"m\",name=\"avg_npc_034#4\",focus=\"m\")]\n[name=\"林\"]为了几棵笋不值得跑十几公里，但为了谢个朋友，还是值得的。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#10$1\",focus=\"m\")]\n[name=\"老鲤\"]夸张了，我不过是帮衬着林先生你做了些小事。没有我，这局面照样也能收拾。\n[charslot(slot=\"m\",name=\"avg_npc_034#4\",focus=\"m\")]\n[name=\"林\"]这话你说错了，要是没有你，收拾出来的局面还真未必比现在好看。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#9$1\",focus=\"m\")]\n[name=\"老鲤\"]……哈，林先生，我自己几斤几两，我自己最清楚。\n[charslot(slot=\"m\",name=\"avg_npc_034#4\",focus=\"m\")]\n[name=\"林\"]这几棵笋品相上佳，你打算怎么烧？\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#10$1\",focus=\"m\")]\n[name=\"老鲤\"]简简单单做个油焖笋就够鲜了。\n[charslot(slot=\"m\",name=\"avg_npc_034#4\",focus=\"m\")]\n[name=\"林\"]这么平实的烧法未免有些浪费，照我看，不如再提上一只现杀的羽兽回家炖汤。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#4$1\",focus=\"m\")]\n[name=\"老鲤\"]唉，那吃的可就不是笋的鲜甜了。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#2$1\",focus=\"m\")]\n[name=\"老鲤\"]何况……\n[charslot(slot=\"m\",name=\"avg_npc_034#2\",focus=\"m\")]\n[name=\"林\"]鲤先生不妨直说。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\",focus=\"m\")]\n[name=\"老鲤\"]哈，何况这几棵笋原本长在乡野，自有一种任心恣意的性情，想必也不愿意给其他食材作配。\n[charslot(slot=\"m\",name=\"avg_npc_034#2\",focus=\"m\")]\n[name=\"林\"]怕就怕笋子生得太好，就算长在深山老林，也要引得挖笋人一波一波地来挖。\n[name=\"林\"]如此一来，哪还能过上安然自得的日子呢？\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#10$1\",focus=\"m\")]\n[name=\"老鲤\"]哈哈，那都是后话了。\n[charslot(slot=\"m\",name=\"avg_npc_034#2\",focus=\"m\")]\n[name=\"林\"]魏老二可不会无缘无故地上别人家作客……\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#9$1\",focus=\"m\")]\n[name=\"老鲤\"]我有自信。\n[charslot(slot=\"m\",name=\"avg_npc_034#2\",focus=\"m\")]\n[name=\"林\"]什么自信？\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#9$1\",focus=\"m\")]\n[name=\"老鲤\"]自信……一旦魏大人拿起筷子，就不会停下嘴来和我多说一句话。\n[charslot(slot=\"m\",name=\"avg_npc_034#2\",focus=\"m\")]\n[name=\"林\"]哼……老板，你这里有苹果吗？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_006\",focus=\"m\")]\n[name=\"菜贩\"]有有有，林先生您拿好。\n[charslot(slot=\"m\",name=\"avg_npc_034#2\",focus=\"m\")]\n[name=\"林\"]多少钱？\n[charslot(slot=\"m\",name=\"avg_npc_006\",focus=\"m\")]\n[name=\"菜贩\"]不、不收您的钱，这些年多亏了您，大家才能安稳过日子。\n[charslot(slot=\"m\",name=\"avg_npc_034#4\",focus=\"m\")]\n[name=\"林\"]做生意不容易，收着吧。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#4$1\",focus=\"m\")]\n[name=\"老鲤\"]林先生不是说不买东西吗？\n[charslot(slot=\"m\",name=\"avg_npc_034#4\",focus=\"m\")]\n[name=\"林\"]来都来了，给女儿带些。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#10$1\",focus=\"m\")]\n[name=\"老鲤\"]哎呀，有了家室的人，到底是不一样。本来还想明年邀你一起去姜齐游湖赏花，看来是要作罢了。\n[charslot(slot=\"m\",name=\"avg_npc_034#2\",focus=\"m\")]\n[name=\"林\"]你还是早些成家，不要到处漂了。"
+        }
+      ],
+      "description": "老鲤与鼠王林舸瑞在菜市场谈及此前合作与私交。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "老鲤直接称呼林先生并讨论此前合作。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "林舸瑞专程寻找并感谢老鲤，双方持续交谈。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_95d6793c5e31c1a6.json",
+      "sources": [
+        {
+          "endLine": 257,
+          "kind": "story",
+          "line": 181,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lmlee_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇菜市场首段",
+      "title": "老鲤"
+    }
+  ],
+  "relationship_id": "char_322_lmlee|npc_83e2c28380c1c6fb"
+}

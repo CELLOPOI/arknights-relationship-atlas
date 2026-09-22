@@ -1,0 +1,175 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 114,
+          "line": 32,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_beg.txt",
+          "quote": "[name=\"老鲤\"]  ……梁洵，很久没见了。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#9$1\",focus=1)]\n[name=\"梁洵\"]  很久不见。\n[Character(name=\"avg_npc_295_1#8$1\",name2=\"avg_322_lmlee_1#9$1\",focus=1)]\n[name=\"梁洵\"]  一路辛苦了，鲤。\n[Character(name=\"avg_npc_295_1#8$1\",name2=\"avg_322_lmlee_1#10$1\",focus=2)]\n[name=\"老鲤\"]  千里迢迢，很难说句不辛苦。梁大人好大的排场，就为了让我送个小物件，要我走这么远的路。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#10$1\",focus=1)]\n[name=\"梁洵\"]  有空我会和你解释的。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_npc_294_1#1$1\",focus=1)]\n[name=\"梁洵\"]  慎师傅，你也辛苦了，早春时分，江上游客挺多的吧？\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_npc_294_1#1$1\",focus=2)]\n[name=\"老船夫\"]  哪里，答应了梁大人的事，我自然会优先照顾。\n[name=\"老船夫\"]  既然人已带到……我就先回码头了。\n[name=\"老船夫\"]  对了。刚才在城里起了些风波，具体的就让鲤小子告诉你吧。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_npc_294_1#1$1\",focus=1)]\n[name=\"梁洵\"]  ……风波？\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_npc_294_1#1$1\",focus=2)]\n[name=\"老船夫\"]  梁大人，您也要多多注意才是。\n[name=\"老船夫\"]  我就先走一步啦，码头那边估计缺人手，我得赶紧回去了。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_npc_294_1#1$1\",focus=1)]\n[name=\"梁洵\"]  嗯，辛苦了。\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.6)]\n[characteraction(name=\"right\", type=\"move\", xpos=300, fadetime=2,block=false)]\n[character(name=\"avg_npc_295_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=2)]\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#1$1\",focus=2)]\n[name=\"老鲤\"]  “从争山渡进入尚蜀，找一位姓慎的船夫。”\n[name=\"老鲤\"]  梁大人挺大牌面，只靠这一句话，就打发了我一个初来乍到的外乡人。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#1$1\",focus=1)]\n[name=\"梁洵\"]  你也不算第一次来尚蜀。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#1$1\",focus=2)]\n[name=\"老鲤\"]  慎师傅是什么人？\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#1$1\",focus=1)]\n[name=\"梁洵\"]  只是个信得过的码头师傅。一位经验老道的船夫，比什么都可信。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#1$1\",focus=2)]\n[name=\"老鲤\"]  有理。\n[Character(name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]  不过这几位是……\n[Character(name=\"avgnew_455_nothing_1#6$1\",name2=\"avg_1021_kroos2_1#8$1\",focus=1)]\n[name=\"乌有\"]  （我才反应过来，梁大人，说的是尚蜀知府！？）\n[Character(name=\"avgnew_455_nothing_1#6$1\",name2=\"avg_1021_kroos2_1#5$1\",focus=2)]\n[name=\"克洛丝\"]  （我已经习惯你才反应过来这件事了。这算是个什么概念？）\n[Character(name=\"avgnew_455_nothing_1#6$1\",name2=\"avg_1021_kroos2_1#5$1\",focus=1)]\n[name=\"乌有\"]  （哦，就是市长！）\n[Character(name=\"avgnew_455_nothing_1#6$1\",name2=\"avg_1021_kroos2_1#5$1\",focus=2)]\n[name=\"克洛丝\"]  （……可按大炎官职，不该比魏彦吾低多了吗？）\n[Character(name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]  这二位是我如今的……合作伙伴。\n[Character(name=\"avgnew_455_nothing_1#7$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[name=\"乌有\"]  见过梁大人。在下楚……\n[dialog]\n[Character(name=\"avgnew_455_nothing_1#6$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=0.8)]\n[Character(name=\"avgnew_455_nothing_1#12$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[delay(time=0.51)]\n[name=\"乌有\"]  乌有。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_1021_kroos2_1#1$1\",focus=2)]\n[name=\"克洛丝\"]  请叫我克洛丝，我是来自罗德岛制药公司的行动干员，如今与鲤先生是合作关系。\n[name=\"克洛丝\"]  不过这一次其实是在尚蜀偶然碰见的，总之打扰梁大人啦。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#1$1\",focus=1)]\n[name=\"梁洵\"]  偶然？我还以为，他们是你从龙门招来的信使……\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#1$1\",focus=2)]\n[name=\"老鲤\"]  如果你还记得有“信使”这个职业，你就该让信使来替你跑腿，不是我。\n[Character(name=\"avg_npc_295_1#2$1\",name2=\"avg_322_lmlee_1#1$1\",focus=1)]\n[name=\"梁洵\"]  兹事体大，路途遥远，我不放心。\n[Character(name=\"avg_npc_295_1#2$1\",name2=\"avg_322_lmlee_1#5$1\",focus=2)]\n[name=\"老鲤\"]  让我来就放心了？你可饶了我吧，要是遇到什么剪径贼，我怎么脱身？\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#5$1\",focus=1)]\n[name=\"梁洵\"]  你如果真嫌麻烦，大可以回信拒绝我。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#8$1\",focus=2)]\n[name=\"老鲤\"]  得了吧，得到那物件的机会转瞬即逝，你的信前脚刚到，那些走私贩后脚就到龙门了。\n[name=\"老鲤\"]  我哪有回信让你另请高明的时间？还不是得赶紧安排人手调查，顺便捣毁一下走私团伙的老巢？\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#2$1\",focus=2)]\n[name=\"老鲤\"]  唉，幸好我家几位员工能者多劳，我才有空帮你这个忙。\n[Character(name=\"avg_1021_kroos2_1#8$1\")]\n[name=\"克洛丝\"]  （听上去像是槐琥小姐做的啊……鲤先生大概是觉得待在龙门事儿更多，索性找个借口溜走的吧……）\n[Character(name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]  既然几位都是鲤的合作伙伴，那就别站在门口发呆了，快进来吧，府上还是有几间客房的。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#1$1\",focus=2)]\n[name=\"老鲤\"]  有幸受到尚蜀知府亲自招待，那我们便恭敬不如从命了。"
+        }
+      ],
+      "description": "梁洵亲自接待老鲤及两位伙伴，各自具名交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "梁洵亲自接待老鲤及两位伙伴，各自具名交谈。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "梁洵亲自接待老鲤及两位伙伴，各自具名交谈。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 114,
+          "kind": "story",
+          "line": 32,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 358,
+          "line": 291,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_05_beg.txt",
+          "quote": "[name=\"槐天裴\"]这里有人答应与我比武。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]短则三五年，长则十余年。他是这么说的。\n[charslot(slot = \"m\", name = \"avg_npc_295_1#8$1\")]\n[name=\"梁洵\"]当初说要争一个天下闻名的槐天裴，居然也会这样……耐得住寂寞。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\")]\n[name=\"槐天裴\"]反正找不到别的对手，在这边等几年又何妨。\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#4$1\")]\n[name=\"老鲤\"]所以你就在这家医馆当了三年伙计。\n[PlaySound(key=\"$pourwater\")]\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 0.5)]\n酒倒入杯中，香气却被药味盖过。酒入愁肠，嘴里只剩苦味。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#8$1\")]\n[name=\"老鲤\"]“白头翁”“刀伤木”“羽不泊”“千里及”……\n[name=\"老鲤\"]在玉门武行打听了大半月，却怎么也没有想到，你就在客栈对面的这家医馆里。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#8$1\",focus=\"m\")]\n[name=\"槐天裴\"]欠了债，总是要还的。\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#2$1\")]\n[name=\"老鲤\"]那你也该清楚，在这世上你亏欠最多的人是谁。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#2$1\",focus=\"m\")]\n[name=\"槐天裴\"]……\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]得，我要说的话已经说完了，梁大人还有什么话要问？\n[charslot(slot = \"m\", name = \"avg_npc_295_1#8$1\")]\n[name=\"梁洵\"]来探望老朋友，看看他过得怎么样，不该算“问话”。\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]槐天裴在玉门待了三年，你来到玉门也有些时日，偏偏选这个时候来探望……\n[charslot(slot = \"m\", name = \"avg_npc_295_1#7$1\")]\n[name=\"梁洵\"]城中风波未定，不是顾及私情的时候。\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]梁大人一心为国，还不允许我们这些老百姓有些私情了？\n[charslot(slot = \"m\", name = \"avg_npc_295_1#9$1\")]\n[name=\"梁洵\"]怎能……\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]你们要是诚心想叙旧，我就再坐上一会。\n[name=\"槐天裴\"]说句话也不爽利，我们怎么变成了这副样子？\n[dialog]\n槐天裴端起了面前的酒，一饮而尽，转身离开了房间。\n[Dialog]\n[playsound(key=\"$dooropenquite\")]\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 1)]\n[delay(time=2.5)]\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#1$1\",focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"n\")]\n[name=\"老鲤\"]梁大人，得到想要的答案了？\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]算是吧。\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#1$1\",focus=\"l\")]\n[name=\"老鲤\"]是作为槐天裴的义弟，还是作为玉门参知？\n[charslot(slot = \"r\", name = \"avg_npc_295_1#8$1\",focus=\"r\")]\n[name=\"梁洵\"]……我也该习惯了总是被你看透。\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#1$1\",focus=\"l\")]\n[name=\"老鲤\"]或许你该改改总是招揽麻烦事的习惯，至少别让自己连个能说话的人都找不到。\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]有一件事，他或许是恰当的人选……\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#4$1\",focus=\"l\")]\n[name=\"老鲤\"]就像上次你挑我来送那个盏？\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]没那么复杂……\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#8$1\",focus=\"l\")]\n[name=\"老鲤\"]他还是那个槐天裴。\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]他是最难变的。\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#8$1\",focus=\"l\")]\n[name=\"老鲤\"]那你我呢。\n[charslot(slot = \"r\", name = \"avg_npc_295_1#7$1\",focus=\"r\")]\n[name=\"梁洵\"]……"
+        }
+      ],
+      "description": "三位老朋友在医馆同桌饮酒，梁洵与二人直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E38"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "三位老朋友在医馆同桌饮酒，梁洵与二人直接交谈。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        },
+        {
+          "evidenceIds": [
+            "E38"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "三位老朋友在医馆同桌饮酒，梁洵与二人直接交谈。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 358,
+          "kind": "story",
+          "line": 291,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 527,
+          "line": 500,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "quote": "[name=\"老鲤\"]……\n[name=\"老鲤\"]顶唔顺啊。\n[Character(name=\"avg_npc_302_1#1$1\")]\n[name=\"挑山人\"]……不该带你来找人。\n[Character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"]不该。\n[Character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"]你不露面？\n[Character(name=\"avg_322_lmlee_1#2$1\")]\n[name=\"老鲤\"]现在露面，不合适吧。\n[Character(name=\"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]他们这你来我往，简直比台上的戏还精彩。\n[name=\"老鲤\"]谁想到这姓梁的……唉，算了。\n[Character(name=\"avg_322_lmlee_1#5$1\")]\n[name=\"老鲤\"]……不，不行，不能算了！\n[name=\"老鲤\"]谁想到这姓梁的，十多年未见，成如今这样！\n[Character(name=\"avg_npc_302_1#1$1\")]\n[name=\"挑山人\"]十多年未见，不稀奇。\n[Character(name=\"avg_322_lmlee_1#5$1\")]\n[name=\"老鲤\"]难顶。\n[Character(name=\"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]好在还有茶可喝，有戏可看。\n[name=\"老鲤\"]这么一来，梁洵啊，你可是又欠我一笔。\n[Dialog]\n[delay(time=1)]\n[Character(name=\"avg_322_lmlee_1#9$1\")]\n[name=\"老鲤\"]唉……\n[name=\"老鲤\"]想找老朋友喝最后一杯酒，到底是难咯。"
+        }
+      ],
+      "description": "老鲤称梁洵为十多年未见的老朋友，支持具体既往相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "老鲤称梁洵为十多年未见的老朋友，支持具体既往相识。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "老鲤称梁洵为十多年未见的老朋友，支持具体既往相识。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_579215a80b4f83aa.json",
+      "sources": [
+        {
+          "endLine": 527,
+          "kind": "story",
+          "line": 500,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "未尽篇章"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 349,
+          "line": 276,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_st03.txt",
+          "quote": "[name=\"槐琥\"]鲤叔……\n[name=\"槐琥\"]阿爸他……会在这里吗？\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#1$1\", focus=\"r\")]\n[name=\"老鲤\"]跟着能打听到的消息，只能找到这里来了。\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#6$1\", focus=\"r\")]\n[name=\"老鲤\"]唉……和他分别这么多年来，我倒头一回希望关于他的传闻是假的。\n[name=\"老鲤\"]可是那个传闻中打遍武林，甚至多次故意伤人的武疯子，也实在没法想象会有第二个人了……\n[charslot(slot = \"l\", name = \"avg_243_waaifu_1#6$1\", focus=\"l\")]\n[name=\"槐琥\"]阿爸，为什么会变成那样……\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#6$1\", focus=\"r\")]\n[name=\"老鲤\"]不知道……\n[name=\"老鲤\"]他是这世上第一等的痴人，可越是痴人，心智越不该被动摇的。\n[dialog]\n[PlaySound(key=\"$d_avg_punch02\",volume=0.3)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_punch\",volume=0.5)]\n[delay(time=1.5)]\n[charslot(slot = \"l\", name = \"avg_243_waaifu_1#7$1\", focus=\"l\")]\n[name=\"槐琥\"]这个声音？！\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#4$1\", focus=\"r\")]\n[name=\"老鲤\"]——！\n[dialog]\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#7$1\", focus=\"r\")]\n[name=\"老鲤\"]槐琥……一会见到他，千万要小心。\n[name=\"老鲤\"]或许现在只有你能叫醒他。\n[charslot(slot = \"l\", name = \"avg_243_waaifu_1#1$1\", focus=\"l\")]\n[name=\"槐琥\"]嗯……\n[name=\"槐琥\"]鲤叔……我们走吧。\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[charslot(slot = \"l\", afrom=1, ato=0, duration=1)]\n[delay(time=2)]\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#2$1\", focus=\"r\")]\n[name=\"老鲤\"]唉……\n[name=\"老鲤\"]（难道那把剑，真的是劫数……？）\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#8$1\", focus=\"r\")]\n[name=\"老鲤\"]（梁洵啊梁洵……要是槐天裴有个三长两短，这笔账就只能记在你的头上了。）\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_cave_5\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n隔着尚远的一段距离，山洞深处，隐约可见一个魁梧的身影。\n沉重的拳头不住地砸在岩壁上，在上面留下了点点梅花似的血斑。每一拳落下，都震得整座洞穴摇摇晃晃。\n来人这才意识到，这个“山洞”，竟是被此人一拳一拳打出来的。\n[name=\"疯癫的喃语\"]四十年……天下第一……我何时……\n[dialog]\n[PlaySound(key=\"$d_avg_punch02\",volume=1)]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=0.3, loop=true, channel=\"e\")]\n[CameraShake(duration=2, xstrength=3, ystrength=3, vibrato=90, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"e\", fadetime=2)]\n[delay(time=2)]\n[name=\"疯癫的喃语\"]剑……不可给人……丢了……还是丢了！\n[dialog]\n[PlaySound(key=\"$d_avg_punchsp5\",volume=1)]\n[Effect(name=\"$e_sandfall_01\",layer = 1)]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]\n[CameraShake(duration=3, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"e\", fadetime=3)]\n[PlaySound(key=\"$d_avg_rockfall\", volume=1)]\n[delay(time=2)]\n[name=\"疯癫的喃语\"]女儿……不许伤害我的女儿！\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=1, loop=true, channel=\"r\")]\n[StopSound(channel=\"r\", fadetime=1)]\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#2$1\", duration=1, isblock=true)]\n[Delay(time=0.5)]\n[name=\"槐琥\"]阿爸……？\n[name=\"槐琥\"]阿爸……醒一醒……\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#6$1\")]\n[name=\"槐琥\"]阿爸！"
+        }
+      ],
+      "description": "老鲤在内心具体点名梁洵，并把槐天裴持剑一事记在其账上。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J16"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "老鲤在内心具体点名梁洵，并把槐天裴持剑一事记在其账上。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3e28dece98b601de",
+          "reason": "本组窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 349,
+          "kind": "story",
+          "line": 276,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件期间",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_322_lmlee|npc_3e28dece98b601de"
+}

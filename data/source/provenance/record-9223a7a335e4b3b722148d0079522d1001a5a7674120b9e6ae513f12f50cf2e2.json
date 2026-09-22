@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 611,
+          "line": 453,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st04.txt",
+          "quote": "[name=\"Mon3tr\"]（得意的嘶鸣）\n[Dialog]\n[Character]\n[playMusic(intro=\"$exciting_intro\", key=\"$exciting_loop\", fadetime=2,volume=0.4)]\n[Character(name=\"char_003_kalts_1#3\",fadetime=1)]\n[Delay(time=1)]\n[name=\"凯尔希\"]——烧掉它。连着房屋一起。\n[Character(name=\"npc_10002\")]\n[playsound(key=\"$char_Mon3tr\")]\n[name=\"Mon3tr\"]（愉悦的嘶鸣）\n[Dialog]\n[Character]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[playsound(key=\"$flamethrower_n\")]\n[Blocker(a=0.2, r=0.8, g=0, b=0, fadetime=0.3, block=true)]\n[Blocker(a=0, r=1, g=0, b=0, fadetime=1, block=false)]\n[Delay(time=1)]\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]看来能够清理溟痕的不止有阿戈尔的技术。\n[Dialog]\n[Character]\n[playsound(key=\"$rungeneral\",volume=0.5)]\n[Character(name=\"avg_npc_450_1#1$1\",fadetime=1)]\n[Delay(time=1)]\n[name=\"极境\"]凯尔希医生！\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_npc_450_1#1$1\",focus=1)]\n[name=\"凯尔希\"]你没事就好，发生了什么？\n[Dialog]\n[Character]\n[Character(name=\"avg_4042_lumen_1#10$1\",fadetime=1)]\n[Delay(time=1.5)]\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]……这位略显失态的阿戈尔人又是谁？\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[character]\n[Background(image=\"27_g18_lighthouse_square\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_183#1\",name2=\"avg_4009_irene_1#1$1\",fadetime=1)]\n[Delay(time=1)]\n[Character(fadetime=0.5)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_447_1#1$1\",fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]出色的实力，猎人们。\n[Dialog]\n[Character]\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_263_skadi#3\",fadetime=1)]\n[Delay(time=1)]\n[Character(fadetime=0.5)]\n[Delay(time=1)]\n[Character(name=\"avg_474_gladiia_1#1\",fadetime=1)]\n[Delay(time=1)]\n[name=\"歌蕾蒂娅\"]无需感叹，让我们迅速进入下一个话题。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"圣徒卡门\"]这些时日，凯尔希替你受了不少苦。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]她对我们的帮助我会铭记在心，而你们所做的一切……我也不会忘记。\n[Character(name=\"char_263_skadi#3\")]\n[name=\"斯卡蒂\"]……\n[Character(name=\"avg_npc_183#1\")]\n[name=\"大审判官达里奥\"]……\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]但此刻的局面是她一手促成，一座狭窄的海边小镇，一场简单的会面。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"圣徒卡门\"]看在她的面子上，我们就先以和平的态度对话吧。\n[name=\"圣徒卡门\"]你想要找到布雷奥甘的遗产，你想找到斯图提斐拉。\n[Character(name=\"avg_4009_irene_1#2$1\")]\n[name=\"审判官艾丽妮\"]——！\n[name=\"审判官艾丽妮\"]（斯图提斐拉，“愚人号”？是在大静谧之中全军覆没的舰队旗舰的名字……？可是，都这么多年了啊？！）\n[Character(name=\"avg_npc_447_1#4$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"圣徒卡门\"]我更好奇的是，一介外人是如何确定它没有沉没的。\n[Character(name=\"avg_npc_447_1#4$1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]那么以一位伊比利亚人的视角来看，您认为斯图提斐拉号是否沉没？\n[Character(name=\"avg_npc_447_1#2$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"圣徒卡门\"]……嗯……\n[name=\"圣徒卡门\"]没有沉没的可能性，确实很大。\n[Character(name=\"avg_4009_irene_1#7$1\")]\n[name=\"审判官艾丽妮\"]——！\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"圣徒卡门\"]但是，它也没有回到港湾。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]一艘船，六十余年没有沉没，却也不曾回到陆地的港口。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#5\",focus=2)]\n[name=\"歌蕾蒂娅\"]你们能确认它的方位？\n[Character(name=\"avg_npc_447_1#5$1\",name2=\"avg_474_gladiia_1#5\",focus=1)]\n[name=\"圣徒卡门\"]过去可以，现在不行。\n[Character(name=\"avg_npc_447_1#5$1\",name2=\"avg_474_gladiia_1#5\",focus=2)]\n[name=\"歌蕾蒂娅\"]所以……\n[Character]\n[Dialog]\n歌蕾蒂娅望向一旁的雕塑。\n她对这些东西没有印象，也许是她来到陆地的时候，这些建筑已经在静谧中消亡。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"圣徒卡门\"]“伊比利亚之眼”。\n[name=\"圣徒卡门\"]这些奇迹曾是一个壮美计划的基石，如今，大部分灯塔已经在大静谧中遭到毁灭，只留下最后一座。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]它不属于你们。它属于阿戈尔。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"圣徒卡门\"]……布雷奥甘确实是一位阿戈尔人，他来自海洋，却无私奉献。他为伊比利亚的海洋探索做出了十足的贡献。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#5\",focus=2)]\n[name=\"歌蕾蒂娅\"]在灾难之后，你们任由民众将怒火倾泻到阿戈尔人头上——他的头上，纵容愚行显得你们不值得信任。\n[Character(name=\"avg_npc_447_1#6$1\",name2=\"avg_474_gladiia_1#5\",focus=1)]\n[name=\"圣徒卡门\"]可阿戈尔人难道真与大静谧无关？\n[Character(name=\"avg_npc_447_1#6$1\",name2=\"avg_474_gladiia_1#5\",focus=2)]\n[name=\"歌蕾蒂娅\"]……\n[Character(name=\"avg_npc_447_1#6$1\",name2=\"avg_474_gladiia_1#5\",focus=1)]\n[name=\"圣徒卡门\"]……\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[Character(name=\"char_003_kalts_1#1\",fadetime=1)]\n[Delay(time=2)]\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]隔阂永远是死穴。如果二位执意要继续这个话题，那伊比利亚与阿戈尔等同于已经灭亡。\n[name=\"凯尔希\"]文明不会灭绝，它只会不知倦怠地更替。下一次，就和人类无关了。\n[Character(name=\"avg_npc_183#1\")]\n[name=\"大审判官达里奥\"]凯尔希医生，请注意你与卡门阁下说话的态度。\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]无妨，我们已经做了许多交流……不过，你总是这么做吗？凯尔希？\n[name=\"圣徒卡门\"]从庞大的命运体中剖取那些关键的个体，再说服他们以你的想法行事？\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]我的想法只是拯救你们。伊比利亚可以拒绝，阿戈尔同样。\n[Character(name=\"avg_474_gladiia_1#1\")]\n[name=\"歌蕾蒂娅\"]……\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]如果算上这位年轻有为的少女，这里的六人之中，审判庭与深海猎人各有三人。\n[name=\"凯尔希\"]广场上有着一位阿戈尔人所建造的伊比利亚奇观，作为谈判桌的点缀，再适合不过。\n[name=\"凯尔希\"]此刻，溟痕还在蔓延，恐鱼已经在镇上筑巢，它们的存在形式与先前大不相同。这种“不同处”足以让人紧张。\n[name=\"凯尔希\"]如果各位还没有认清海洋威胁的全貌，也许我们的确该各退一步，然后坐视以深海猎人的牺牲换来的宝贵时间白白流逝。\n[Character(name=\"char_263_skadi#3\")]\n[name=\"斯卡蒂\"]……那场胜利，是有意义的吗？\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]当然。否则在大静谧之后，伊比利亚连苟延残喘的机会都没有。\n[name=\"凯尔希\"]至于卡门阁下，我希望您能暂时放下对于阿戈尔的成见。以您的——\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]——我已经很老了，凯尔希，不必浪费时间。\n[Character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]……\n[Character(name=\"avg_npc_447_1#2$1\")]\n[name=\"圣徒卡门\"]我已经老到不再有争胜的心态，或是在言语上维护荣耀的力气。\n[name=\"圣徒卡门\"]生存就是最伟大的荣耀，我比任何人都清楚现状，收起你的言辞。审判庭愿意与深海猎人合作，帮助她们找到那艘遗失的大船。\n[Character(name=\"avg_1023_ghost2_1#4$1\")]\n[name=\"幽灵鲨\"]……黄金的……大船。\n[Character(name=\"avg_4009_irene_1#7$1\")]\n[name=\"审判官艾丽妮\"]……\n[Character(name=\"avg_474_gladiia_1#1\")]\n[name=\"歌蕾蒂娅\"]我没有异议。\n[Character(name=\"avg_npc_183#1\")]\n[name=\"大审判官达里奥\"]我以为你们会忌惮阿戈尔与伊比利亚的接触。\n[Character(name=\"avg_474_gladiia_1#1\")]\n[name=\"歌蕾蒂娅\"]接触？啊……如果您能在水下呼吸，不借助设备就前往我们的城市的话，我不介意带您参观真正的阿戈尔技术展览。\n[Character(name=\"avg_npc_447_1#7$1\")]\n[name=\"圣徒卡门\"]令人期待，执政官阁下。\n[name=\"圣徒卡门\"]一个大阵的惩戒军与数艘两用军舰将会抵达格兰法洛，设立营地，清扫港口，以作准备。\n[name=\"圣徒卡门\"]达里奥，艾丽妮，你们与几位深海猎人同行。优先确保通往伊比利亚之眼的海路，等我们抵达再做判断。"
+        }
+      ],
+      "description": "幽灵鲨与卡门共同参加审判庭和深海猎人的广场谈判。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S36"
+          ],
+          "from": "char_143_ghost",
+          "reason": "幽灵鲨与卡门共同参加审判庭和深海猎人的广场谈判。",
+          "status": "supported",
+          "to": "npc_8bb239b319aad399"
+        },
+        {
+          "evidenceIds": [
+            "S36"
+          ],
+          "from": "npc_8bb239b319aad399",
+          "reason": "幽灵鲨与卡门共同参加审判庭和深海猎人的广场谈判。",
+          "status": "supported",
+          "to": "char_143_ghost"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 611,
+          "kind": "story",
+          "line": 453,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_143_ghost|npc_8bb239b319aad399"
+}

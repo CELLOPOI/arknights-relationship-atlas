@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 509,
+          "line": 464,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_tr28_end.txt",
+          "quote": "[Decision(options=\"泽尔格勒？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#3$1\", duration = 0)]\n[name=\"坚雷\"]是，根据博士你们的情报，我们暂且可以假设乌萨斯在圣骏堡周围暗中进行关于石棺的研究。\n[name=\"坚雷\"]而根据弑君者提供的消息，我们也发现了一些端倪，似乎可以验证这个猜想。\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#9$1\", duration = 0)]\n[name=\"坚雷\"]乌萨斯的源石已经如此紧缺，每天还是固定会有大量源石被从圣骏堡运往外部，去往同一个方向。\n[name=\"坚雷\"]源石的物流线路很隐秘，我们不敢追得太紧。不过我们排查了圣骏堡周边每个城市，都没有发现源石需求量这么大的工业设备。\n[name=\"坚雷\"]除了第一集团军驻地的卫星城，泽尔格勒。\n[name=\"坚雷\"]可是所有的线索一旦牵扯到这里就全部中断了，看得出圣骏堡为了隐藏能源的去向，花了很大功夫。\n[Dialog]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = false, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#9$1\", duration = 0)]\n[Decision(options=\"我们来到圣骏堡后从来没有听说过这个城市。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#9$1\", duration = 0)]\n[name=\"坚雷\"]不止是你们，大部分乌萨斯人对泽尔格勒的存在都所知甚少。\n[Dialog]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = false, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#9$1\", duration = 0)]\n[Decision(options=\"乌萨斯一定有充分的理由做这样的保密工作。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#3$1\", duration = 0)]\n[name=\"坚雷\"]想来也是，如果这个时候还有大量的源石去向不明，恐怕那些有产业的贵族都不会答应吧。\n[name=\"坚雷\"]更何况，第四集团军已经兵临城下，他们也一定有眼线盯着圣骏堡的一举一动。\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#9$1\", duration = 0)]\n[name=\"坚雷\"]但正因如此……还有一件事才显得格外奇怪。\n[name=\"坚雷\"]泽尔格勒作为本该密不透风的特殊行政区，最近却打出了“收留感染者”的广告。\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#3$1\", duration = 0)]\n[name=\"坚雷\"]他们公开的说辞是，第一集团军坚决谴责日前发生在远北矿场的惨剧，所以愿意收容所有因动乱失去归处的感染者。\n[name=\"坚雷\"]“以彰显皇帝陛下对感染者一视同仁的仁慈。”\n[Dialog]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = false, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#3$1\", duration = 0)]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#3$1\", duration = 0)]\n[name=\"坚雷\"]当然，我们所有人听到这个消息的第一反应都是质疑的。并且，我们同样追踪不到任何进入泽尔格勒的感染者的消息。\n[name=\"坚雷\"]从弑君者找到的卫星城出入口记录上也可以窥见问题。在剔除了经由外包公司伪装的部分后，医药类产品和原材料的进口几乎为零。\n[name=\"坚雷\"]但这些也都并非实证。真要了解，我们恐怕还是必须实地去看。\n[name=\"坚雷\"]总之，我这边能够提供的线索暂时只有这些。我们会继续在圣骏堡外围活动，尽可能多收集情报。\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#1$1\", duration = 0)]\n[name=\"坚雷\"]对了，下次见面的时候，博士要记得夸夸自治团的几个小熊哦。\n[name=\"坚雷\"]不只是在搜集情报上……前阵子圣骏堡的那场风波里，大家表现得都很棒，每个人都是成熟的罗德岛干员了。\n[Dialog]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = false, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_260_durnar_1#1$1\", duration = 0)]\n[Decision(options=\"当然，每个人都很棒。;大家都是罗德岛最好的干员。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"谢谢你，坚雷。;记得叮嘱凛冬她们注意安全。\", values=\"1;2\")]"
+        }
+      ],
+      "description": "坚雷与博士通过通讯直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_260_durnar",
+          "reason": "双方直接对话或局部同场明确参与。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方直接对话或局部同场明确参与。",
+          "status": "supported",
+          "to": "char_260_durnar"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 509,
+          "kind": "story",
+          "line": 464,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_tr28_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "圣骏堡行动期间",
+      "title": "相变临界"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 421,
+          "line": 374,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "quote": "[name=\"古米\"]不用担心我，凛冬姐。她想要让照顾过她的干员离开家也能吃得饱饱的，我也这么想。\n[charslot(slot=\"m\",name=\"char_115_headbr_9#1\")]\n[name=\"凛冬\"]……我们也去帮忙。\n[name=\"凛冬\"]反正娜塔莉娅也还得花点时间——\n[charslot]\n[name=\"？？？\"]要帮忙？那再算我一个。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"char_260_durnar_1\",duration=1.5)]\n[delay(time=2)]\n[name=\"坚雷\"]呃，小熊，你看，我在厨房能做什么吗？\n[charslot(slot=\"m\",name=\"char_196_sunbr_1#5\")]\n[name=\"古米\"]教官？！\n[charslot(slot=\"m\",name=\"char_260_durnar_1\")]\n[name=\"坚雷\"]我从博士那看到了你们的申请，就自作主张申请和你们同行了——以“监护人”的身份。\n[name=\"坚雷\"]说实话，博士很放心不下就这么让你们回去。我也放心不下。\n[charslot(slot=\"m\",name=\"char_196_sunbr_1#2\")]\n[name=\"古米\"]凛冬姐……？\n[charslot(slot=\"m\",name=\"char_115_headbr_9#7\")]\n[name=\"凛冬\"]当然欢迎！\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot]\n[Background(image=\"bg_bridge_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#1$2\",duration = 1)]\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",duration = 1)]\n[delay(time=1.5)]\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#1$2\",focus=\"l\")]\n[name=\"阿米娅\"]早露小姐，其实博士最初并不想同意你们的申请。\n[name=\"阿米娅\"]医疗部评估了你们的状况并建议我们更客观谨慎地考虑你们的行动细节。\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]但博士最后不还是选择尊重我们的决定吗？\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#7$2\",focus=\"l\")]\n[name=\"阿米娅\"]是因为凛冬小姐。\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#1$2\",focus=\"l\")]\n[name=\"阿米娅\"]她直接闯到了博士的办公室，保证保护你们每个人平安回到罗德岛。\n[name=\"阿米娅\"]就像当初一样。\n[charslot(slot = \"right\", name = \"char_197_poca_1#3\",focus=\"r\")]\n[name=\"早露\"]……\n[stopmusic(fadetime=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]\n[Background(image=\"bg_ceo\",screenadapt=\"coverall\")]"
+        }
+      ],
+      "description": "坚雷从博士处取得申请并加入任务。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D04"
+          ],
+          "from": "char_260_durnar",
+          "reason": "坚雷从博士处取得申请并加入任务。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "坚雷从博士处取得申请并加入任务。",
+          "status": "supported",
+          "to": "char_260_durnar"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 421,
+          "kind": "story",
+          "line": 374,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_260_durnar|npc_b99957887950ebfd"
+}

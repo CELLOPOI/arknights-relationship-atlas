@@ -1,0 +1,128 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 561,
+          "line": 552,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "quote": "[name=\"可露希尔\"] 博士，我在人群中锁定了曼弗雷德。\n[name=\"可露希尔\"] 呃，他身边人很少……\n[dialog]\n[character(name=\"avg_npc_411_1#11$1\",focus=-1)]\n[Decision(options=\"他并不害怕我们接近他。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_npc_411_1#5$1\")]\n[name=\"可露希尔\"] 他是不是超能打啊？我看他的样子就很能打，说不定特雷西斯教了他好多招。\n[character(name=\"avg_npc_411_1#6$1\")]\n[name=\"可露希尔\"] 我们真能在五分钟之内把他揍得老老实实停下炮击吗？"
+        }
+      ],
+      "description": "可露希尔具名猜测特雷西斯教授曼弗雷德招数，明确知晓该人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E102"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔具名猜测特雷西斯教授曼弗雷德招数，明确知晓该人。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 561,
+          "kind": "story",
+          "line": 552,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 456,
+          "line": 374,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-05_end.txt",
+          "quote": "[name=\"？？？\"]啊，闪灵，好久不见。听说你去了家族聚会？\n[charslot(slot=\"l\",name=\"char_147_shining_1\",focus=\"l\")]\n[name=\"闪灵\"]……W，你来了。\n[Dialog]\n[charslot]\n[PlayMusic(intro=\"$m_dia_street_intro\", key=\"$m_dia_street_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_411_1#11$1\",focus=\"m\")]\n[name=\"可露希尔\"]W！现在半个伦蒂尼姆都听到这里的动静了！\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"char_147_shining_1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#1$1\",focus=\"r\")]\n[name=\"W\"]很隆重，对吧，我对炸药的分量把握得一直很准。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#10$1\",focus=\"r\")]\n[name=\"W\"]我听说凯尔希被揍得很惨，于是就百忙之中抽空来看看咯。\n[Dialog]\n[delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#12$1\",focus=\"r\")]\n[name=\"W\"]呜哇，果然很惨，特雷西斯还真是不留情面。\n[name=\"W\"]我还以为那男人会对自己的“老朋友”温柔一点呢。\n[charslot(slot=\"l\",name=\"char_147_shining_1\",focus=\"l\")]\n[name=\"闪灵\"]她还没醒。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#1$1\",focus=\"r\")]\n[name=\"W\"]那还真是遗憾，我该为她挤出几滴泪吗。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#10$1\",focus=\"r\")]\n[name=\"W\"]或者，趁机让这个老女人再也不敢得罪我？\n[Dialog]\n[charslot]\n[playsound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]\n[name=\"Mon3tr\"]（喑哑的嘶鸣）\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"char_147_shining_1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#2$1\",focus=\"r\")]\n[name=\"W\"]呃，这东西倒居然还活着吗。\n[Dialog]\n[PlaySound(key=\"$d_avg_walk_stage\",channel=\"n\",loop=false)]\n[stopsound(channel=\"n\",fadetime=4)]\n[charslot(slot=\"r\",posfrom=\"0,0\",posto=\"300,0\",afrom=1,ato=0,duration=0.7)]\n[delay(time=1.5)]\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_412_1#10$1\",posfrom=\"-200,0\",posto=\"150,0\",afrom=0,ato=1,duration=1)]\n[charslot(slot=\"r\",name=\"npc_10002\",posfrom=\"200,0\",posto=\"0,0\",afrom=0,ato=1,duration=0.3)]\n[delay(time=1.5)]\n[PlaySound(key=\"$p_skill_Mon3trburst\", volume=0.4)]\n[charslot(slot=\"r\",name=\"npc_10002\",focus=\"r\")]\n[name=\"Mon3tr\"]（威胁的低吼）\n[Dialog]\n[charslot(slot=\"r\",name=\"npc_10002\",focus=\"all\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$d_avg_runstop\")]\n[charslot(slot=\"l\",name=\"avg_npc_412_1#10$1\",posfrom=\"150,0\",posto=\"0,0\",afrom=1,ato=1,duration=0.6)]\n[delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_npc_412_1#8$1\",focus=\"l\")]\n[name=\"W\"]啧，怎么还这么凶。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"char_147_shining_1\",focus=\"m\")]\n[name=\"闪灵\"]Mon3tr受损很严重，直到两个小时以前才重新恢复运动机能，但我仍然不建议你去惹它，W。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_412_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"npc_10002\",focus=\"l\")]\n[name=\"W\"]我可是在救它主子的命，它起码应该学着更尊重我一点。\n[name=\"W\"]否则的话，哼哼——\n[charslot(slot=\"r\",name=\"npc_10002\",focus=\"r\")]\n[name=\"Mon3tr\"]……\n[playsound(key=\"$Mon3tr_n\")]\n[name=\"Mon3tr\"]（妥协的低鸣）\n[charslot(slot=\"l\",name=\"avg_npc_412_1#10$1\",focus=\"l\")]\n[name=\"W\"]这还差不多。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_411_1#4$1\",focus=\"m\")]\n[name=\"可露希尔\"]王庭军的人正在赶过来！快点，我们得在他们来之前……\n[charslot(slot=\"m\",name=\"avg_npc_412_1#8$1\",focus=\"m\")]\n[name=\"W\"]别吵吵嚷嚷的，可露希尔，耳朵疼。\n[charslot(slot=\"m\",name=\"avg_npc_411_1#4$1\",focus=\"m\")]\n[name=\"可露希尔\"]你以为都是谁的错！\n[charslot(slot=\"m\",name=\"avg_npc_412_1#1$1\",focus=\"m\")]\n[name=\"W\"]那就快点让你的人迈开腿。"
+        }
+      ],
+      "description": "该人物单向知晓特雷西斯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4228_closur",
+          "reason": "该人物在连续撤离现场接收W关于特雷西斯重伤凯尔希的明确说明。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "被提及者未在当前局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 456,
+          "kind": "story",
+          "line": 374,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 553,
+          "line": 499,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "quote": "[Dialog]\n[Blocker(a=0.3, r=1, g=1, b=1, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"55_g9_dusklentiavenue_ex\",screenadapt=\"showall\")]\n[Delay(time=2)]\n[Blocker(a=0.3, r=1, g=1, b=1, fadetime=2, block=true)]\n[Delay(time=1)] \n[PlaySound(key=\"$p_skill_chimera\", volume=1)]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.3, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#10$3\",duration=1.5)]\n[Delay(time=2.5)]\n[name=\"阿米娅\"]……驱散不了！\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#8$1\",focus=\"m\")]\n[name=\"Logos\"]尸布浸染腐败，挽幛勾勒死亡，食腐者的无形巫术亦有规律可循。\n[name=\"Logos\"]可眼前的浓雾，我竟无法解析……\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#7$1\",focus=\"m\")]\n[name=\"Logos\"]不由术法编织，也非自然而成。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#1$3\",focus=\"m\")]\n[name=\"阿米娅\"]Logos先生，你是说他们采取了某种新的战术？\n[Dialog]\n[charslot]\n[Decision(options=\"如果是行之有效的战术，不会现在才拿出来。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]或许是孽茨雷本身，或者食腐者本身……在变化。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]这里只会比我们先前在城外战场上踏入的挽幛更凶险。\n[name=\"凯尔希\"]其他队伍的推进应该也受到了同样的干扰，通讯信号的传递也很困难。\n[name=\"凯尔希\"]哪怕是只有三百米长的大堂广场，也足够拖住上千人的部队几天之久。\n[Dialog]\n[charslot]\n[Decision(options=\"我们必须尽快找到特雷西斯。;……“阿喃那”还在特雷西斯手上。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"Logos，尝试解析挽幛。;可露希尔，清点通讯设备。\", values=\"3;4\")]\n[Predicate(references=\"3\")]\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#3$1\",focus=\"m\")]\n[name=\"Logos\"]已经在做了。\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#12$1\",focus=\"m\")]\n[name=\"Logos\"]“凡有规则，必能解析。”眼前这些反常的挽幛，必有源头……\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#8$1\",focus=\"m\")]\n[name=\"Logos\"]我会需要些时间。\n[Dialog]\n[Predicate(references=\"4\")]\n[charslot(slot=\"m\",name=\"avg_npc_411_1#8$1\",focus=\"m\")]\n[name=\"可露希尔\"]如果不想让食腐者在浓雾中肆意切割战场，把我们的进攻变成他们的自助餐……\n[name=\"可露希尔\"]最好把整个广场都铺满信号中继器，两边那些弯弯绕绕的环廊也不能放过……\n[charslot(slot=\"m\",name=\"avg_npc_411_1#11$1\",focus=\"m\")]\n[name=\"可露希尔\"]现在我们肯定来不及准备那么多设备，但我有些应急的办法！\n[Dialog]\n[Predicate(references=\"3;4\")]"
+        }
+      ],
+      "description": "该人物在同一前线小队听到博士具体要求寻找特雷西斯并继续协作；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_4228_closur",
+          "reason": "该人物在同一前线小队听到博士具体要求寻找特雷西斯并继续协作",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "对方未在本组该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 553,
+          "kind": "story",
+          "line": 499,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战役期间",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_4228_closur|npc_c573b8884914fc60"
+}

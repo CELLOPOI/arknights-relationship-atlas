@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 970,
+          "line": 943,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_end.txt",
+          "quote": "[name=\"尤卡坦\"]……\n[Character(name=\"avg_198_blackd_1#9$1\",name2=\"avg_npc_263_1#5$1\",focus=1)]\n[name=\"魏斯\"]啧，真是顽强，我小看你了。\n[name=\"魏斯\"]但是，即使你们打败我也没有任何意义。\n[name=\"魏斯\"]你们是无法阻止老爷的。\n[Character(name=\"avg_198_blackd_1#9$1\",name2=\"avg_npc_263_1#3$1\",focus=2)]\n[name=\"尤卡坦\"]……我不在乎。\n[name=\"尤卡坦\"]一直以来，夫人……菈塔托丝姐姐对谢拉格有自己的想法。\n[name=\"尤卡坦\"]她也想要人们往前走，希望能让人们过上好日子。\n[name=\"尤卡坦\"]只是，她没有力量。\n[name=\"尤卡坦\"]于是，她成了你们口中那个诡计多端的菈塔托丝。\n[Character(name=\"avg_198_blackd_1#9$1\",name2=\"avg_npc_263_1#5$1\",focus=2)]\n[name=\"尤卡坦\"]也许在你们看来，姐姐只是一个绊脚石。\n[name=\"尤卡坦\"]但是在我眼中，她永远是我最敬爱的姐姐！\n[Character(name=\"avg_npc_262_1#5$1\")]\n[name=\"休露丝\"]尤卡坦……\n[Character(name=\"avg_198_blackd_1#7$1\",name2=\"avg_npc_263_1#5$1\",focus=1)]\n[name=\"魏斯\"]……\n[Character(name=\"avg_198_blackd_1#9$1\",name2=\"avg_npc_263_1#5$1\",focus=1)]\n[name=\"魏斯\"]我对你们也没有个人恩怨，只要你们愿意放弃，我可以保证你们的安全。\n[Character(name=\"avg_198_blackd_1#9$1\",name2=\"avg_npc_263_1#5$1\",focus=2)]\n[name=\"尤卡坦\"]但是，我不会让我和露丝成为恩希欧迪斯与大夫人谈判的筹码。\n[name=\"尤卡坦\"]希瓦艾什家的魏斯，闪开，不然，我会杀了你。\n[Character(name=\"avg_198_blackd_1#9$1\",name2=\"avg_npc_263_1#5$1\",focus=1)]\n[name=\"魏斯\"]……这句话应该是我来说，布朗陶家的尤卡坦。\n[name=\"魏斯\"]今天，你必须留在这里。\n[Character(name=\"avg_npc_262_1#8$1\")]\n[name=\"休露丝\"]尤卡坦，加油啊！"
+        }
+      ],
+      "description": "讯使和尤卡坦相互叫名并当面对战，休露丝在旁。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E125"
+          ],
+          "from": "char_198_blackd",
+          "reason": "讯使和尤卡坦相互叫名并当面对战，休露丝在旁。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        },
+        {
+          "evidenceIds": [
+            "E125"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "讯使和尤卡坦相互叫名并当面对战，休露丝在旁。",
+          "status": "supported",
+          "to": "char_198_blackd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 970,
+          "kind": "story",
+          "line": 943,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_198_blackd|npc_669b66161e12a7ca"
+}

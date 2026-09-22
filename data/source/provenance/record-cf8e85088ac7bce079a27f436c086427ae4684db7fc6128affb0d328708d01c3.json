@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 126,
+          "line": 118,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_01_beg.txt",
+          "quote": "[name=\"极境\"]超级旋转滑梯！！！\n[character(name=\"char_401_elysm_na_1#1\")]\n[name=\"极境\"]迪伦跟我说阿卡胡拉很好玩，看他一脸坏笑，我还以为那小子骗我，原来是真的啊！！\n[character(name=\"char_411_tomimi_1#3\")]\n[name=\"特米米\"]哦哦哦好想去看好想去看！下次一定要带嘉维尔也过来玩！\n[Character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]不知道这些传说中的杜林人，对做生意有没有兴趣呢？\n[Character(name=\"avg_4054_malist_1#6$1\")]\n[name=\"斯第奇·画布\"]你们的脑瓜真的明白什么叫简约吗？！我的作品在那堆大破烂面前真的就那么不起眼？！"
+        }
+      ],
+      "description": "同行者当面听极境说迪伦介绍旅行地，获知具体人物，不推反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "同行者当面听极境说迪伦介绍旅行地，获知具体人物，不推反向。",
+          "status": "supported",
+          "to": "npc_090185751b884944"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_090185751b884944",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_e04ed917f7bcbf85"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 126,
+          "kind": "story",
+          "line": 118,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 113,
+          "line": 11,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_st02.txt",
+          "quote": "[name=\"迪伦\"]  Lancet-2，我有个严肃的问题。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  请问。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  你不会没电吗？\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  啊，关于这一点请不用担心，在出发前，可露希尔姐姐为我换上了超长续航的新型电池。\n[name=\"Lancet-2\"]  理论上我可以在一个星期内不用补充任何能源。\n[name=\"Lancet-2\"]  而且飞行器上也还有备用的电池，所以请不用担心我。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  好吧。\n[name=\"迪伦\"]  不知道小刻那孩子怎么样了，我们回来的路上她忽然窜起来就跑了。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  确实，刻俄柏小姐现在的状况让人有些担忧呢，不过考虑到她旺盛的生命力，应该不用太过担心呢。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  也对。\n[name=\"迪伦\"]  啊，好无聊。\n[name=\"迪伦\"]  飞行器检修完毕，嘉维尔送过来的病人的病情也稳定了下来，暂时没有什么别的事可以做了呢。\n[name=\"迪伦\"]  而且和这里的人语言又不通，早知道就跟博士去看那什么祭典了。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  飞行器是很重要的罗德岛财产，必须要好好保护才行呢。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  说说而已，我是驾驶员，这点我当然是知道的。\n[name=\"迪伦\"]  你就好啦，Lancet-2，无聊的时候可以切休眠模式，我昨天睡了12个小时，现在根本睡不着。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  唔，确切地说，对我来说，并没有“无聊”的概念呢。\n[name=\"Lancet-2\"]  虽然我可以理解迪伦先生你现在的感情，可露希尔姐姐也经常会发出这样的感慨，以及通常这样的情况下她就会去做些奇怪的事。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  ……我不是第一次这么想了，Lancet-2，你和其他小车里面真的不是装了个人吗？\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  不是呢，我的里面是精密的电路结构，你要看吗？\n[name=\"Lancet-2\"]  虽然由于我的性格预设是女性，所以对于向异性展现身体这件事，我可能会做出一些我自己都无法预想的额外行动。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  呃，算了。\n[name=\"迪伦\"]  就算要看，这种时候我肯定也是想看泳装啊。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  泳装？\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  是啊，现在可是夏天，大家穿上泳装玩水还挺正常吧。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  这样的话，我来为你播放一段海浪的音频吧。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  别啊，这样不就显得我更惨了。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  ……难道说，迪伦先生想看我的泳装吗？\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  才不要啊！\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  是呢，对不起，毕竟我只是机器。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  呃，抱歉，我不是那个意思。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  请不用介意。说起来，迪伦先生见过海吗？\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  呃，算是见过吧，大概是去年夏天，银灰老爷因为行程有变借用了罗德岛的飞行器，当时是我作为驾驶员送他去的。\n[name=\"迪伦\"]  到了地方后我才发现好像是个度假的地方，然后被银灰老爷邀请体验了一把VIP的生活。\n[name=\"迪伦\"]  啧啧，我在那时才知道，原来是贫穷限制了我对有钱人的想象。\n[name=\"迪伦\"]  你看，我还有那时候的照片呢。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  迪伦先生向往那样的生活吗？\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  嗯？向往啊……虽然那几天确实很爽，不过真要我一直过那样的生活，我肯定是过不惯的。\n[name=\"迪伦\"]  还是在驾驶舱里吃泡面，每天日夜颠倒的生活适合我。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  这样可不行，迪伦先生，我来为你设计一套比较科学健康的作息表吧。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  那还是免了吧！\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  真遗憾。可露希尔姐姐虽然为我设计了这个功能，但是无论是她还是博士，都从来没有用到过这个功能。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  哈哈，那两位确实。\n[name=\"迪伦\"]  哎，不过，话又说回来，这里的部族的生活比我想象的其实也好不少，该有的都有。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  是呢，虽然这里比起外界的生活在便利和舒适程度上差了许多，但是也并没有什么特别不便的地方。\n[name=\"Lancet-2\"]  根据我的记录，这两天，迪伦先生的身体健康水平也有所回升。\n[name=\"迪伦\"]  真的假的？\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  是真的。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  这就是所谓的回归自然吧？嘿，也是，毕竟说白了，所有人还不都是从这样的生活过来的。\n[name=\"迪伦\"]  对了，我记得嘉维尔说过，在那边的雨林中有一座巨大的瀑布，等博士回来后，去那边玩应该不错。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  他们说不定已经过去了也说不定呢。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  博士做事一向公平，我相信他们一定不会抛下我们去玩水的！\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  是呢，在那之前，就先耐心等待吧。\n[stopmusic(fadetime=2)]\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=-1)]\n[name=\"？？？\"]  这里有叫迪伦的人吗？\n[Character(name=\"avg_npc_012\")]\n[name=\"迪伦\"]  我！\n[name=\"迪伦\"]  嗯？你会说萨尔贡语？\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.6)]\n[Character(name=\"avg_npc_075\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"依娜姆\"]  会。和一台机器在一起的人，嗯，应该是你没错了。\n[name=\"依娜姆\"]  叫博士的家伙让我给你带了一封信。\n[Character(name=\"avg_npc_075\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  嗯？让我看看。\n[delay(time=1)]\n[Character(name=\"avg_npc_012\")]\n[name=\"迪伦\"]  ……Lancet-2，看来我们有事做了。"
+        }
+      ],
+      "description": "依娜姆向迪伦直接递交博士的信。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "npc_090185751b884944",
+          "reason": "依娜姆向迪伦直接递交博士的信。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "依娜姆向迪伦直接递交博士的信。",
+          "status": "supported",
+          "to": "npc_090185751b884944"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 113,
+          "kind": "story",
+          "line": 11,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "密林悍将归来"
+    }
+  ],
+  "relationship_id": "npc_090185751b884944|npc_e04ed917f7bcbf85"
+}

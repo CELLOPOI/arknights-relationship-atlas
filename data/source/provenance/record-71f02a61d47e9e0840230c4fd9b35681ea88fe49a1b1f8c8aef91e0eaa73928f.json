@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 435,
+          "line": 375,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-05_beg.txt",
+          "quote": "[name=\"萨卡兹战士\"]将军，深池的指挥官到了。\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]……蔓德拉女士。\n[character(name=\"avg_npc_233_1#2\")]\n[name=\"蔓德拉\"]……\n[character(name=\"avg_npc_233_1#1\")]\n[name=\"蔓德拉\"]曼弗雷德……将军。\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]我相信你来找我，是有重要的事想与我们商谈。\n[character(name=\"avg_npc_233_1#2\")]\n[name=\"蔓德拉\"]你……哼，你明明什么都看见了，却非得装出这副样子……\n[character(name=\"avg_npc_233_1#1\")]\n[multiline(name=\"蔓德拉\")]你真的是萨卡兹吗？别的萨卡兹都不像你这么……\n[character(name=\"avg_npc_233_1#2\")]\n[multiline(name=\"蔓德拉\")]会耍弄心思。\n[Character(name=\"avg_npc_404_1#9$1\")]\n[name=\"曼弗雷德\"]蔓德拉女士，你刚才的言论，对萨卡兹来说已经算得上一种侮辱。\n[character(name=\"avg_npc_233_1#2\")]\n[name=\"蔓德拉\"]……随你怎么说。\n[character(name=\"avg_npc_233_1#5\")]\n[name=\"蔓德拉\"]反正……我是来道歉的。\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]哦？道歉？\n[character(name=\"avg_npc_233_1#2\")]\n[name=\"蔓德拉\"]之前在下面的出入口，我们的人与你们之间产生了一些误会。\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]……误会。\n[character(name=\"avg_npc_233_1#5\")]\n[name=\"蔓德拉\"]我……来这里，就是想再确认一次……我们之间的合作依然有效。\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]女士，我不妨再提醒你一次。我们并没有什么实质性的合作条款需要遵守。\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]深池不干涉任何萨卡兹在伦蒂尼姆的行动，我们就容许你们在某一范围内停留。\n[Character(name=\"avg_npc_404_1#1$1\")]\n[multiline(name=\"曼弗雷德\")]你可以把这当作我们之间的……\n[Character(name=\"avg_npc_404_1#6$1\")]\n[multiline(name=\"曼弗雷德\")]某种默契。\n[character(name=\"avg_npc_233_1#1\")]\n[name=\"蔓德拉\"]……你说过的，我没忘记。\n[Character(name=\"avg_npc_404_1#9$1\")]\n[name=\"曼弗雷德\"]嗯，忘了也没关系。之前那番小小的动静，就当作对你的提醒吧。\n[character(name=\"avg_npc_233_1#5\")]\n[name=\"蔓德拉\"]……\n[character(name=\"avg_npc_233_1#1\")]\n[name=\"蔓德拉\"]感……谢。\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]先别急着道谢。萨卡兹从来不像你们那样容易忘事。\n[character(name=\"avg_npc_233_1#5\")]\n[name=\"蔓德拉\"]那你想要我怎么做？难道你想要我的命？你们真想这么做的话……\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]我想这么做的话，你走不到这里。\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]嗯……你甚至没法走下几个月前的西部大堂的台阶。\n[character(name=\"avg_npc_233_1#4\")]\n[name=\"蔓德拉\"]呃……\n[Character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"]我们想看见的，是深池的一点诚意。\n[Character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"]而且，不是从我们手里抢走维多利亚士兵，或者绑架一两个逃脱的伦蒂尼姆市民那种“诚意”。\n[Character(name=\"avg_npc_404_1#5$1\")]\n[name=\"曼弗雷德\"]我们是时候展开一些……真正的合作了。"
+        }
+      ],
+      "description": "蔓德拉亲赴高墙会见曼弗雷德，两人商谈合作并互相称名。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "蔓德拉亲赴高墙会见曼弗雷德，两人商谈合作并互相称名。",
+          "status": "supported",
+          "to": "npc_cb03e146518e01fb"
+        },
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "npc_cb03e146518e01fb",
+          "reason": "蔓德拉亲赴高墙会见曼弗雷德，两人商谈合作并互相称名。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 435,
+          "kind": "story",
+          "line": 375,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_cb03e146518e01fb"
+}

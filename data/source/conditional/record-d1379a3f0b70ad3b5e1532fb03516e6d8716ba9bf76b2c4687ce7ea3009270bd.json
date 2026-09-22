@@ -1,0 +1,50 @@
+{
+  "contributions": [
+    {
+      "assignmentId": "review-04",
+      "description": "片中文月将现场博士介绍给雪雉，雪雉直接向博士致歉。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_383_snsant",
+          "reason": "片中文月将现场博士介绍给雪雉，雪雉直接向博士致歉。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "片中文月将现场博士介绍给雪雉，雪雉直接向博士致歉。",
+          "status": "supported",
+          "to": "char_383_snsant"
+        }
+      ],
+      "groupId": "group_f0cd623c8eb0c2e9",
+      "key": "char_383_snsant|npc_b99957887950ebfd",
+      "label": "确认相识",
+      "personIds": [
+        "char_383_snsant",
+        "npc_b99957887950ebfd"
+      ],
+      "realityScope": "fictional_film",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+      "temporalScope": "洪炉示岁所述时段",
+      "title": "洪炉示岁"
+    }
+  ],
+  "groupId": "group_f0cd623c8eb0c2e9",
+  "key": "char_383_snsant|npc_b99957887950ebfd",
+  "names": [
+    "雪雉",
+    "博士"
+  ],
+  "personIds": [
+    "char_383_snsant",
+    "npc_b99957887950ebfd"
+  ],
+  "realityScope": "fictional_film"
+}

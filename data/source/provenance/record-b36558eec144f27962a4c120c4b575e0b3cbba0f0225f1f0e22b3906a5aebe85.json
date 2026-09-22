@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 339,
+          "line": 334,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[name=\"推进之王\"]阿米娅和博士他们成功了。\n[name=\"推进之王\"]无论安全期有多长，我们必须抓紧这个机会——\n[charslot(slot=\"m\",name=\"avg_npc_229_1#8\",focus=\"m\")]\n[name=\"号角\"]夺下银石崖，向城墙下推进。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……击溃萨卡兹。"
+        }
+      ],
+      "description": "推进之王明确博士小队成功，号角与戴菲恩当场接续攻势部署，仅知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E149"
+          ],
+          "from": "char_4110_delphn",
+          "reason": "推进之王明确博士小队成功，号角与戴菲恩当场接续攻势部署，仅知晓。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4110_delphn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 339,
+          "kind": "story",
+          "line": 334,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 221,
+          "line": 96,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-09_end.txt",
+          "quote": "[name=\"阿米娅\"]……一座通讯站？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我们需要把我们的存在广播出去。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"none\")]\n[Decision(options=\"这是一次邀请。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#9$1\",focus=\"m\")]\n[name=\"戴菲恩\"]您很敏锐，罗德岛的博士。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#9$1\",focus=\"none\")]\n[Decision(options=\"大公爵们需要知道这一点。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"如果有人不行动，这就是其他大公爵指责他们的把柄。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"在王冠空悬的此刻，谁都不会想给竞争对手留下口实。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#9$1\",focus=\"m\")]\n[name=\"戴菲恩\"]您比我想象的还要了解维多利亚。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#14$1\",focus=\"m\")]\n[name=\"伊内丝\"]哪里能找到通讯站？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]这座地块的信号中枢在一开始就被萨卡兹摧毁了，但我知道，还有一处小型通讯站也许可以使用。\n[name=\"戴菲恩\"]它在一家酒店里。这家酒店在诺伯特区衰落之前，是伦蒂尼姆最好的住处之一。\n[name=\"戴菲恩\"]为了满足各个国家旅客的要求，他们给酒店装上了一台功率十分强劲的信号收发装置。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]那里现在从外面看已经被落石堵死了，但如果我们能找到进去的路，并且使用那里残存的设备，应该……\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]这会是个十分危险的行动，按你刚刚的描述，就算那座可怜的通讯站依然可以运行，恐怕发出的信号也无法实现加密。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]没错，那是个老旧的民用型号。\n[name=\"戴菲恩\"]无论是谁，都能马上知道我们想说的是什么。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]萨卡兹们也会马上行动起来。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我们只能赌那些公爵们不想背上坐视一场屠杀发生的恶名。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]并且，我相信……会有大公爵挺身而出的，终究他们也不想看到一个沦为废墟的维多利亚。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#3$1\",focus=\"m\")]\n[name=\"伊内丝\"]比如那位温德米尔公爵？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#5$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]也许她会是其中之一。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#4$1\",focus=\"m\")]\n[name=\"伊内丝\"]很有意思，看来你确实看了很多报纸，戴菲恩。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]博士，阿米娅，我认为这个计划确实有可行之处，我们需要一点混乱来打破僵局。\n[name=\"伊内丝\"]无论是引出那艘不知道藏在哪里的飞空艇，还是给撤离被抛出的地块上的人提供机会，一位或几位大公爵的进攻都能成为我们的掩护。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]那么，在此之前，我们就需要停止这片封锁区中毫无意义的互相争抢、互相杀戮。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]我们必须得给他们一个重新团结在一起的理由。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"none\")]\n[Decision(options=\"比如，让每个人都知道希望的存在。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#21$1\",focus=\"m\")]\n[name=\"阿米娅\"]是的。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]如果我们能更进一步，让封锁区里剩下的物资能够更好地分配给有需要的人……也许我们坚持的时间还能更长。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]正如您之前说的，重新建立起已经崩塌的信任。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#4$1\",focus=\"m\")]\n[name=\"伊内丝\"]哼，不管是真是假，希望总归是希望。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_866_1#7$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_862_1#12$1\",focus=\"r\")]\n[name=\"卡铎尔\"]所以，这就是各位的天才计划，去那老酒店找到个老通讯站，然后告诉外面的那帮公爵我们在这里生不如死，求他们救救我们？\n[charslot(slot=\"r\",name=\"avg_npc_862_1#6$1\",focus=\"r\")]\n[name=\"卡铎尔\"]太精彩了，我简直要为你们鼓掌。\n[charslot(slot=\"l\",name=\"avg_npc_866_1#7$1\",focus=\"l\")]\n[name=\"戴菲恩\"]如果你有什么好主意，可以大大方方说出来，卡铎尔。\n[name=\"戴菲恩\"]除了冲倒萨卡兹的封锁墙之外。\n[charslot(slot=\"r\",name=\"avg_npc_862_1#6$1\",focus=\"r\")]\n[name=\"卡铎尔\"]我只是没有想到，在成为小偷和骗子之后，我们终究要向那帮让人恶心的大人物摇尾乞怜了。\n[charslot(slot=\"l\",name=\"avg_npc_866_1#1$1\",focus=\"l\")]\n[name=\"戴菲恩\"]如果你不喜欢称这次行动为一次求援，你也可以认为这是一次博弈。\n[charslot(slot=\"r\",name=\"avg_npc_862_1#10$1\",focus=\"r\")]\n[name=\"卡铎尔\"]瞧瞧，多高级的词啊，“博弈”！我们居然能有和那帮藏在城堡里的人博弈的机会！\n[charslot(slot=\"l\",name=\"avg_npc_866_1#7$1\",focus=\"l\")]\n[name=\"戴菲恩\"]你也可以继续选择去街上抢人，我不拦着你。\n[charslot(slot=\"r\",name=\"avg_npc_862_1#7$1\",focus=\"r\")]\n[CameraShake(duration=0.3, xstrength=5, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"卡铎尔\"]这是两码事！\n[charslot(slot=\"l\",name=\"avg_npc_866_1#1$1\",focus=\"l\")]\n[name=\"戴菲恩\"]卡铎尔，我知道你很在乎你的那些“尊严”，但眼下不是说这些的时候。\n[name=\"戴菲恩\"]如果大公爵的进攻能够帮助我们，邀请他们就是个选择。\n[charslot(slot=\"r\",name=\"avg_npc_862_1#8$1\",focus=\"r\")]\n[name=\"卡铎尔\"]那么，你想过结果吗？\n[name=\"卡铎尔\"]大公爵们帮助了我们，多美好，然后呢？\n[name=\"卡铎尔\"]登上他们的战舰，向我们伟大的伦蒂尼姆进军？还是成为他们的属民，在开斯特或者威灵顿的工厂把自己喂给那些车床？\n[charslot(slot=\"r\",name=\"avg_npc_862_1#7$1\",focus=\"r\")]\n[name=\"卡铎尔\"]这*维多利亚粗口*不会是一次恩典，这只会是把我们的命卖给了那些贵族老爷！\n[name=\"卡铎尔\"]从此，我们就再也不是诺伯特人，而是一帮任由他们揉捏的难民！\n[charslot(slot=\"l\",name=\"avg_npc_866_1#3$1\",focus=\"l\")]\n[name=\"戴菲恩\"]难道我们现在不是吗？！\n[name=\"戴菲恩\"]卡铎尔！难道现在我们就是什么自由惬意的诺伯特人吗？！\n[name=\"戴菲恩\"]战争开始了！我们已经身在其中了！\n[name=\"戴菲恩\"]你以为，按照你的那些想法，倘若真的有一位什么天降英雄和你一起带领诺伯特区的人，把外面的那些萨卡兹打得落花流水——\n[charslot(slot=\"l\",name=\"avg_npc_866_1#6$1\",focus=\"l\")]\n[name=\"戴菲恩\"]原来的一切就能回来吗？\n[name=\"戴菲恩\"]“尊严”，看看我们吧！卡铎尔！\n[name=\"戴菲恩\"]我们都清楚……自己干了什么！\n[charslot(slot=\"r\",name=\"avg_npc_862_1#2$1\",focus=\"r\")]\n[name=\"卡铎尔\"]……\n[name=\"卡铎尔\"]我——\n[Dialog]\n[charslot]\n[stopmusic(fadetime=1)]\n[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_gen_explo_n\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.7, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#7$1\",focus=\"m\")]\n[name=\"推进之王\"]该死，怎么了！\n[charslot(slot=\"m\",name=\"avg_npc_862_1#7$1\",focus=\"m\")]\n[PlayMusic(intro=\"$exciting_intro\", key=\"$exciting_loop\", volume=0.6)]\n[name=\"卡铎尔\"]街上！都拿起武器！\n[charslot(slot=\"m\",name=\"avg_npc_863_1#10$1\",focus=\"m\")]\n[name=\"贝尔德\"]先别急，我们得弄清楚——"
+        }
+      ],
+      "description": "戴菲恩与博士直接讨论通讯求援计划。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "char_4110_delphn",
+          "reason": "二人在同一连续会谈中直接交流或共同接收并回应方案。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "二人在同一连续会谈中直接交流或共同接收并回应方案。",
+          "status": "supported",
+          "to": "char_4110_delphn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 221,
+          "kind": "story",
+          "line": 96,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "诺伯特区封锁期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 401,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_beg.txt",
+          "quote": "[name=\"维娜\"]戴菲恩，费斯特和洛洛他们的进展如何？\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]已经依靠工程图纸定位到了建墙之初预留的备用接驳口，但萨卡兹的巡逻很频繁，找不到靠近的机会。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]不过博士他们也在想办法为我们创造机会。只要联军能够佯攻一次，守城的部队一定会露出破绽，我们就能找到机会突破。可……\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$1\",focus=\"m\")]\n[name=\"维娜\"]联军根本没有任何进攻的打算。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]是。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$1\",focus=\"m\")]\n[name=\"维娜\"]……\n[name=\"维娜\"]戴菲恩，一旦萨卡兹露出破绽，你能保证一定会找到进城的办法吗？\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]有把握，但我需要帮助。我们可以再去尝试说服公爵们——\n[dialog]\n[charslot]\n维娜摇了摇头。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"维娜\"]给我两个小时。\n[name=\"维娜\"]我会去营地里拉一支愿意跟着我，而且源石技艺足够出众的队伍，配合战场无人机去佯攻N12区的城墙接驳口吸引注意力——\n[name=\"维娜\"]剩下的，交给你指挥。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#3$1\",focus=\"m\")]\n[name=\"戴菲恩\"]不行！这是送死！\n[charslot(slot=\"m\",name=\"avg_npc_405_1#12$1\",focus=\"m\")]\n[name=\"摩根\"]切特雷镇，布伦特伍德镇，“荣光”号，银石崖……我们哪一次不是在“送死”？\n[name=\"摩根\"]但总得有人去做，对吧，维娜？我和你一起。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#12$1\",focus=\"n\")]\n维娜没有回应，摩根发现维娜的脸色怪异了起来。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#5$1\",focus=\"m\")]\n[name=\"摩根\"]……维娜？\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#9$1\",focus=\"m\")]\n[name=\"维娜\"]我收到了博士的紧急消息——\n[name=\"维娜\"]就在刚才，拉芙希妮进入了威灵顿的驻地。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#2$1\",focus=\"m\")]\n[name=\"摩根\"]……\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……"
+        }
+      ],
+      "description": "char_4110_delphn知晓npc_b99957887950ebfd；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_4110_delphn",
+          "reason": "戴菲恩明确说博士一方正在创造机会。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本组该证据未提供反向识别。",
+          "status": "not_established",
+          "to": "char_4110_delphn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 401,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "追迹日落以西现实场景",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_4110_delphn|npc_b99957887950ebfd"
+}

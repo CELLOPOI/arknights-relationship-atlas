@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 139,
+          "line": 123,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st04.txt",
+          "quote": "[name=\"？？？\"]     如果能方便交流，可以。\n[Character(name=\"char_190_clour\",name2=\"char_279_excu_4\",focus=1)]\n[name=\"红云\"]     你是什么人？\n[Character(name=\"char_190_clour\",name2=\"char_279_excu_4\",focus=2)]\n[name=\"？？？\"]     拉特兰公证所的执行者，本次的遗嘱执行人。可以称呼我“送葬人”。\n[Character(name=\"char_190_clour\",name2=\"char_279_excu_4\",focus=1)]\n[name=\"红云\"]     拉特兰……？\n[Character(name=\"char_190_clour\",name2=\"char_279_excu_4\",focus=2)]\n[name=\"送葬人\"]     “红云”，你是被委托的对象。\n[Character(name=\"char_190_clour\",name2=\"char_279_excu_4\",focus=1)]\n[name=\"红云\"]     你为什么会知道我的名字？\n[Character(name=\"char_190_clour\",name2=\"char_279_excu_4\",focus=2)]\n[name=\"送葬人\"]     你的名字由遗嘱人迪伦马特先生告知。\n[Character(name=\"char_190_clour\",name2=\"char_279_excu_4\",focus=1)]\n[name=\"红云\"]     我不认识这个人。\n[Character(name=\"char_190_clour\",name2=\"char_279_excu_4\",focus=2)]\n[name=\"送葬人\"]     出于某些原因，他曾使用多个化名。"
+        }
+      ],
+      "description": "迪伦与送葬人通过遗嘱委托发生具体定向联系。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_279_excu",
+          "reason": "送葬人明确知道遗嘱人迪伦及其化名。",
+          "status": "supported",
+          "to": "npc_090185751b884944"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_090185751b884944",
+          "reason": "迪伦向作为遗嘱执行人的送葬人提供红云姓名和委托。",
+          "status": "supported",
+          "to": "char_279_excu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 139,
+          "kind": "story",
+          "line": 123,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "迪伦立遗嘱及执行阶段",
+      "title": "战地秘闻"
+    }
+  ],
+  "relationship_id": "char_279_excu|npc_090185751b884944"
+}

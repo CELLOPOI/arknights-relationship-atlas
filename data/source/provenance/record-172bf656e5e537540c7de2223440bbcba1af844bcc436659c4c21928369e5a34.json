@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 404,
+          "line": 376,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_st02.txt",
+          "quote": "[Character(name=\"avg_npc_537_1#1$1\")]\n[name=\"克丽斯腾\"]每天都会有无数失败实验的副产物被销毁。\n[Character(name=\"avg_npc_537_1#1$1\")]\n[name=\"克丽斯腾\"]无论你以为自己看到的是什么，那都并不值得莱茵之外的任何人关注。\n[character]\n[name=\"？？？\"]销毁？当然，那破铜烂铁此刻肯定已经从你的桌上消失了。\n[name=\"？？？\"]证据可以被毁灭，记忆可以被篡改，但任何事件只要发生了，就一定会对后续事件产生影响。\n[name=\"？？？\"]洛肯，帕尔维斯，斐尔迪南……或许到了未来某个时间点，他们的名字不会留下任何记录。\n[name=\"？？？\"]但历史的走向确实因他们而改变。\n[name=\"？？？\"]可植入的施术单元，复活古代萨卡兹力量的嵌合技术，能被远程操控的动力甲，更大范围的精神实体网络……\n[name=\"？？？\"]下一项震撼这个时代的实验会是什么呢？\n[Character(name=\"avg_npc_537_1#1$1\")]\n[name=\"克丽斯腾\"]研究者只会探索一切可能性。\n[Character(name=\"avg_npc_537_1#1$1\")]\n[name=\"克丽斯腾\"]我从不做预言。\n[character]\n[name=\"？？？\"]假如记忆能够跨越时间的限制，预言不过就是重新发现被掩埋的历史。\n[dialog]\n[character]\n[character(name=\"avg_npc_536_1#3$1\",fadetime=1)]\n[delay(time=1)]\n[name=\"霍尔海雅\"]我们重新认识一下彼此吧，克丽斯腾·莱特。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]我是霍尔海雅，历史学者，哥伦比亚占星研究协会名誉会长。\n[character(name=\"avg_npc_536_1#2$1\")]\n[name=\"霍尔海雅\"]就让我冒昧地做一次预言——\n[character(name=\"avg_npc_536_1#2$1\")]\n[name=\"霍尔海雅\"]也许……很快我就会成为你最需要的合作伙伴。\n[Dialog]"
+        }
+      ],
+      "description": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "char_4027_heyak",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "npc_ebd7747563277517",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "char_4027_heyak"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 404,
+          "kind": "story",
+          "line": 376,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "绿野幻梦"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 552,
+          "line": 439,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st01.txt",
+          "quote": "[name=\"缪尔赛思\"]其实我很不喜欢现在的感觉。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]太安静了……空气冰凉又干燥，灯光的色调冷得过分，前面也不知道会有什么。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]其实以前也没多热闹……通常大家都是各忙各的科研项目。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]互相之间很少碰面，开完会后聚餐，喝酒，手忙脚乱地拿刚刚完成的结项书垫桌脚。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#3$1\")]\n[name=\"缪尔赛思\"]我怀念那种感觉……被接纳的感觉，能够有所作为的感觉，能够改变什么的感觉。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#4$1\")]\n[name=\"缪尔赛思\"]你应该也会怀念吧？\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#4$1\")]\n[name=\"缪尔赛思\"]……克丽斯腾。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#2$1\",focus=\"n\")]\n[Background(image=\"29_g10_senioroffice\",screenadapt=\"coverall\")]\n[PlaySound(key=\"$d_avg_glassdooropen\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#2$1\")]\n[name=\"缪尔赛思\"]……\n[name=\"缪尔赛思\"]别让你那条丑陋的尾巴在地板上拖来拖去，今天可没有安排打扫……\n[name=\"缪尔赛思\"]霍尔海雅。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_536_1#1$1\",duration=1)]\n[Delay(time=1.5)]\n[name=\"霍尔海雅\"]呀，看来你经常躲在这里哭鼻子，我应该再藏一会儿的。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#2$1\")]\n[name=\"缪尔赛思\"]……\n[name=\"缪尔赛思\"]你在，等我？\n[charslot(slot=\"m\",name=\"avg_npc_536_1#1$1\")]\n[name=\"霍尔海雅\"]嗯哼。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#2$1\")]\n[name=\"缪尔赛思\"]那为什么站得离我那么远？\n[charslot(slot=\"m\",name=\"avg_npc_536_1#1$1\")]\n[name=\"霍尔海雅\"]当然要小心点，找不到家长的孩子可是脾气很大的。\n[stopmusic(fadetime=2)]\n[charslot(slot=\"m\",name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]况且，你不是从一进门就开始布置水分身了吗？\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#4$1\")]\n[name=\"缪尔赛思\"]——\n[dialog]\n[PlaySound(key=\"$blooddrop\")]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#11$1\")]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#11$1\",posfrom=\"0,0\",posto=\"600,0\",afrom=1,ato=0,duration=0.3,isblock=true)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_536_1#2$1\")]\n[delay(time=0.3)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[delay(time=0.3)]\n[charslot(slot=\"l\",name=\"avg_249_mlyss_1#11$1\",posfrom=\"-600,0\",posto=\"200,0\",afrom=1,ato=0,duration=0.3,isblock=false)]\n[playsound(key=\"$d_avg_snowstormlp\",loop=true, channel=\"a\")]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.6)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[charslot]\n[StopSound(channel=\"a\", fadetime=1)]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[PlayMusic(intro=\"$act19side_01_intro\", key=\"$act19side_01_loop\", volume=0.6)]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Image(image=\"38_i07\",x=200, y=-50, xScale=1.3, yScale=1.3,fadetime=0.03)]\n[Delay(time=0.1)]\n[image(fadetime=0.5)]\n[Delay(time=1)]\n[Image(image=\"38_i07\",x=-240, y=100, xScale=1.3, yScale=1.3,fadetime=0.03)]\n[Delay(time=0.1)]\n[image(fadetime=0.5)]\n[Delay(time=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[Image(image=\"38_i07\",screenadapt=\"coverall\")]\n[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1.1, yScaleTo=1.1,xFrom=0,xTo=-30,yFrom=0,yTo=30, block=true)]\n[playsound(key=\"$waterbubble_h\")]\n[playsound(key=\"$e_atk_magic_m\",delay=0.2)]\n[playsound(key=\"$d_avg_windmagic\")]\n[playsound(key=\"$p_skill_blacktimewand_shot\")]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1.1, yScaleTo=1.1,xFrom=-30,xTo=30,yFrom=30,yTo=0,duration=0.5)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[name=\"缪尔赛思\"]既然被你发现了，那就直接溺毙你，再找台报废的动力甲塞进去。\n[name=\"霍尔海雅\"]原来你这么记仇啊，精灵。\n[name=\"缪尔赛思\"]梅兰德的特工潜入这里，到底想做什么？\n[name=\"霍尔海雅\"]潜入？你想想，莱茵生命的总辖办公室哪儿是那么容易就能潜入的。\n[name=\"缪尔赛思\"]你在帮总辖做事？你们达成了什么交易，她需要你做什么？\n[name=\"缪尔赛思\"]你为此背叛了梅兰德基金会吗，羽蛇？\n[dialog]\n[playsound(key=\"$d_avg_windmagic\")]\n[CameraShake(duration=1.5, xstrength=30, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1.1, yScaleTo=1.1,xFrom=30,xTo=0,yFrom=0,yTo=30,duration=1)]\n[Image(image=\"38_i07\",screenadapt=\"coverall\",fadetime=1)]\n[delay(time=2)]\n[name=\"霍尔海雅\"]这么多问题，为什么不亲自去问克丽斯腾呢？你可是她很亲近的人，她肯定会告诉你。\n[name=\"霍尔海雅\"]也是……你已经走投无路了，不然怎么会指望在总辖办公室找到总辖呢，唉。\n[name=\"缪尔赛思\"]……\n[name=\"缪尔赛思\"]真的是克丽斯腾让你过来的？\n[name=\"霍尔海雅\"]如果我说，我是自己想要过来的，你会不会更加伤心一点？\n[name=\"霍尔海雅\"]她现在可没有工夫管你。\n[name=\"霍尔海雅\"]或许她已经厌烦了你的两面三刀，你的心不在焉；或许她的计划里，现在并没有你的位置。随便你怎么想……\n[name=\"缪尔赛思\"]这可不是你说了算的。\n[name=\"霍尔海雅\"]我只是出于一点好心，或者你也可以理解为怜悯，来提醒你，别太紧张。\n[name=\"缪尔赛思\"]别以为你比我更了解她，羽蛇，我和她相处的时间，比你久得多。\n[name=\"霍尔海雅\"]我也许不了解她，但我了解她想要做什么。"
+        }
+      ],
+      "description": "霍尔海雅明确说明自己受克丽斯腾雇用，克丽斯腾也具体知晓并委托她。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_4027_heyak",
+          "reason": "霍尔海雅明确说明自己受克丽斯腾雇用，克丽斯腾也具体知晓并委托她。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_ebd7747563277517",
+          "reason": "霍尔海雅明确说明自己受克丽斯腾雇用，克丽斯腾也具体知晓并委托她。",
+          "status": "supported",
+          "to": "char_4027_heyak"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 552,
+          "kind": "story",
+          "line": 439,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    }
+  ],
+  "relationship_id": "char_4027_heyak|npc_ebd7747563277517"
+}

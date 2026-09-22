@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1477,
+          "line": 1457,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_10_end.txt",
+          "quote": "[name=\"薇尔丽芙\"]……\n[name=\"薇尔丽芙\"]我和蒙恩同胞的联系，断开了——\n[name=\"薇尔丽芙\"]不，不止……我身边的……帕特里奇昂阁下，您，我连您也……\n[Dialog]\n[charslot]\n[Delay(time=0.2)]\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$2\",duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$2\",focus=\"m\")]\n[name=\"帕特里奇昂\"]……\n[name=\"帕特里奇昂\"]感受不到，我知道。\n[charslot(slot=\"m\",name=\"avg_npc_1779_1#6$3\",focus=\"m\")]\n[name=\"梵里妮\"]唔，呜呜呜……\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$2\",focus=\"m\")]\n[name=\"帕特里奇昂\"]好孩子，不要松开我的手——\n[charslot(slot=\"m\",name=\"avg_npc_1779_1#6$3\",focus=\"m\")]\n[name=\"梵里妮\"]你的手，不是这个感觉……\n[name=\"梵里妮\"]像是，雾。\n[name=\"梵里妮\"]好远……你，离我好远。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$2\",focus=\"m\")]\n[name=\"帕特里奇昂\"]……这就是堕入地狱后的感受？"
+        }
+      ],
+      "description": "薇尔丽芙与梵里妮同处共感断裂后的局部现场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L37"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "双方直接互动、共同经历或明确追述双方曾直接交流。",
+          "status": "supported",
+          "to": "npc_4cb2a6da97143209"
+        },
+        {
+          "evidenceIds": [
+            "L37"
+          ],
+          "from": "npc_4cb2a6da97143209",
+          "reason": "双方直接互动、共同经历或明确追述双方曾直接交流。",
+          "status": "supported",
+          "to": "npc_0ce6ed6bdcaa7258"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 1477,
+          "kind": "story",
+          "line": 1457,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "npc_0ce6ed6bdcaa7258|npc_4cb2a6da97143209"
+}

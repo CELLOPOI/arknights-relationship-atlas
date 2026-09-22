@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 313,
+          "line": 216,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act50side/level_act50side_03_beg.txt",
+          "quote": "[name=\"月见夜\"]今天的训练就到此为止吧。\n[charslot(slot=\"m\",name=\"avg_npc_2107_1#1$1\",focus=\"m\")]\n[name=\"随从武士\"]将军辛苦了！请好好休息吧。\n[charslot(slot=\"m\",name=\"avg_npc_2101_1#4$1\",focus=\"m\")]\n[name=\"月见夜\"]两位“异兽猎人”还在斑弥罗的工坊吗？\n[charslot(slot=\"m\",name=\"avg_npc_2107_1#1$1\",focus=\"m\")]\n[name=\"随从武士\"]是的。\n[charslot(slot=\"m\",name=\"avg_npc_2101_1#6$1\",focus=\"m\")]\n[name=\"月见夜\"]正好，有一段时间没去他那里了，我去看看他的发明怎么样了。\n[charslot(slot=\"m\",name=\"avg_npc_2101_1#1$1\",focus=\"m\")]\n[name=\"月见夜\"]你们回去之后也不要怠于训练。\n[charslot(slot=\"m\",name=\"avg_npc_2107_1#1$1\",focus=\"m\")]\n[name=\"随从武士\"]是！\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Dialog]\n[charslot]\n[Background(image=\"71_g1_impermanence_street\",screenadapt=\"coverall\")]\n[Delay(time=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#5$1\",duration=1.5,afrom=0,ato=1)]\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#2$1\",duration=1.5,afrom=0,ato=1)]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#5$1\",focus=\"l\")]\n[name=\"宝巫迦\"]月见夜？\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#2$1\",focus=\"r\")]\n[name=\"月见夜\"]陛下？\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#5$1\")]\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#2$1\")]\n[name=\"宝巫迦&月见夜\"]为什么你/您会……\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#1$1\")]\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#1$1\")]\n[name=\"宝巫迦&月见夜\"]吾/我是来找两位“异兽猎人”……\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#5$1\")]\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#2$1\")]\n[Delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#1$1\")]\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#1$1\")]\n[name=\"宝巫迦&月见夜\"]既然你/您找她们有事，那吾/我——\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#5$1\")]\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#2$1\")]\n[Delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#4$1\")]\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#6$1\")]\n[name=\"宝巫迦&月见夜\"]……\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#8$1\",focus=\"l\")]\n[name=\"宝巫迦\"]不知将军找“异兽猎人”有何贵干？\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#1$1\",focus=\"r\")]\n[name=\"月见夜\"]回禀陛下，“异兽猎人”的武器需要特别打造，我担心斑弥罗办事不力，特来督促。\n[name=\"月见夜\"]陛下只需要在宫中安心等待两位做好准备即可，无需挂怀。\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#4$1\",focus=\"l\")]\n[name=\"宝巫迦\"]将军大人言重了。\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#1$1\",focus=\"l\")]\n[name=\"宝巫迦\"]此番试炼，“异兽猎人”是吾之臂膀，她们的装备自有吾来准备，不劳将军大人费心才是。\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#4$1\",focus=\"r\")]\n[name=\"月见夜\"]陛下日理万机，这点小事交给我来就好。\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#1$1\",focus=\"l\")]\n[name=\"宝巫迦\"]将军为了狩猎团日夜操劳，合该多加休息才对。\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#9$1\",focus=\"r\")]\n[name=\"月见夜\"]……\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#8$1\",focus=\"l\")]\n[name=\"宝巫迦\"]……\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2103_1#1$1\",focus=\"m\")]\n[name=\"斑弥罗\"]吵什么吵，今天我家怎么这么热闹？\n[name=\"斑弥罗\"]咦，陛下？您怎么也来了？\n[name=\"斑弥罗\"]还有月见夜，我先说好，你要的那批武器没那么快。\n[charslot(slot=\"m\",name=\"avg_npc_2101_1#5$1\",focus=\"m\")]\n[name=\"月见夜\"]我知道，我不是为这个来的，只是来看看老友而已。\n[charslot(slot=\"m\",name=\"avg_npc_2103_1#1$1\",focus=\"m\")]\n[name=\"斑弥罗\"]别恶心我。\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#4$1\",focus=\"m\")]\n[name=\"宝巫迦\"]梓兰小姐和空爆小姐人呢？\n[charslot(slot=\"m\",name=\"avg_npc_2103_1#1$1\",focus=\"m\")]\n[name=\"斑弥罗\"]她们正在后院的竹林里训练。\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#4$1\")]\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#6$1\")]\n[name=\"宝巫迦&月见夜\"]……\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2103_1#1$1\",focus=\"m\")]\n[name=\"斑弥罗\"]你也是为她们来的？\n[charslot(slot=\"m\",name=\"avg_npc_2101_1#1$1\",focus=\"m\")]\n[name=\"月见夜\"]算是吧。\n[charslot(slot=\"m\",name=\"avg_npc_2103_1#1$1\",focus=\"m\")]\n[name=\"斑弥罗\"]那你们正好去劝劝她们，我怕她们把我后院的竹子全砍完了。\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_2100_1#1$1\")]\n[charslot(slot=\"r\",name=\"avg_npc_2101_1#1$1\")]\n[name=\"宝巫迦&月见夜\"]不必了，吾/我就在这里等到她们训练结束。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2103_1#1$1\",focus=\"m\")]\n[name=\"斑弥罗\"]……\n[name=\"斑弥罗\"]呃，你们一定要等的话，要不我给你们搬张椅子来？"
+        }
+      ],
+      "description": "泡影国月见夜与宝巫迦直接相遇并交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_283_midn",
+          "reason": "双方在泡影国场景中直接交谈或共同应对事件。",
+          "status": "supported",
+          "to": "npc_6197e84dcc45be9c"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_6197e84dcc45be9c",
+          "reason": "双方在泡影国场景中直接交谈或共同应对事件。",
+          "status": "supported",
+          "to": "char_283_midn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_abacb245d974cd23.json",
+      "sources": [
+        {
+          "endLine": 313,
+          "kind": "story",
+          "line": 216,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act50side/level_act50side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“泡影苍霆”中进入泡影国后的现实叙事时段",
+      "title": "泡影苍霆"
+    }
+  ],
+  "relationship_id": "char_283_midn|npc_6197e84dcc45be9c"
+}

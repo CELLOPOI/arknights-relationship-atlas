@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 628,
+          "line": 607,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act32side/level_act32side_08_beg.txt",
+          "quote": "[name=\"灰烬\"]榴弹已射出！\n[dialog]\n[PlaySound(key=\"$d_avg_explosion_stone\")]\n[delay(time=0.5)]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]\n[PlaySound(key=\"$d_avg_rockfall\")]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_gnrtrpn\", volume=1)]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_gnrtrllng\", volume=1)]\n[name=\"霜华\"]已投掷闪光弹！！\n[dialog]\n[PlaySound(key=\"$d_avg_gnrtrspbm\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[PlaySound(key=\"$d_avg_stkmyer\", volume=1)]\n[name=\"马特奥\"]什么人？！"
+        }
+      ],
+      "description": "人工复核：确认相识。采用已保存的人工判断；下方为复核时提供的原文上下文。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "char_458_rfrost",
+          "status": "supported",
+          "to": "npc_8570ddffc57e187c"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8570ddffc57e187c",
+          "status": "supported",
+          "to": "char_458_rfrost"
+        }
+      ],
+      "manualCaseId": "review_6ef8b346d722198b",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_f300d620eb2f9612.json",
+      "sources": [
+        {
+          "endLine": 628,
+          "kind": "story",
+          "line": 607,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act32side/level_act32side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "kind": "manual",
+          "source": "ArknightsNpcCatalog/关系审读/人工复核/用户意见/复核意见.json#review_6ef8b346d722198b",
+          "version": "revision:1; 2026-09-20T04:12:56.676Z"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "水晶箭行动"
+    }
+  ],
+  "relationship_id": "char_458_rfrost|npc_8570ddffc57e187c"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 400,
+          "line": 363,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-14_beg.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]那条德拉克……爱布拉娜。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]任务简报里可没说过她会亲自出现在这里！\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]走！快走！\n[dialog]\n[character]\n[Decision(options=\"阿米娅！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]\n[name=\"阿米娅\"]我……我没事……\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"r\")]\n[Decision(options=\"来，我扶着你。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]\n[name=\"阿米娅\"]博士，我……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]\n[name=\"阿米娅\"]我确实没办法，真正和他们站在一起……\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"r\")]\n[Decision(options=\"也许，正因为这样，才必须是你。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#5$1\",focus=\"m\")]\n[name=\"阿米娅\"]……欸？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#3$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]那条德拉克的火烧过来了！\n[charslot(slot=\"m\",name=\"avg_npc_395_1#3$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]她……很强大。我们没必要在这里对抗她！\n[charslot(slot=\"m\",name=\"avg_npc_722_1#2$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]……\n[charslot(slot=\"m\",name=\"avg_npc_722_1#6$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]哼——有意思。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#6$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]罗德岛……\n[charslot(slot=\"m\",name=\"avg_npc_722_1#6$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]我最近，是不是经常听到这个名字？"
+        }
+      ],
+      "description": "爱布拉娜与博士在船坞附近正面遭遇。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E33"
+          ],
+          "from": "char_450_necras",
+          "reason": "双方在同一局部场景中直接对话、交手或明确识别彼此。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E33"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方在同一局部场景中直接对话、交手或明确识别彼此。",
+          "status": "supported",
+          "to": "char_450_necras"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 400,
+          "kind": "story",
+          "line": 363,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-14_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_450_necras|npc_b99957887950ebfd"
+}

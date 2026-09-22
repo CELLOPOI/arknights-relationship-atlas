@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 47,
+          "line": 17,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_02_beg.txt",
+          "quote": "[name=\"D.D.D.\"]   分会场的大家你们还好吗！！感谢你们来到这里，我是D.——D.——D.————！\n[Character]\n[CameraShake(duration=2, xstrength=8, ystrength=8, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$livecrowd\", volume=0.4, loop=false, channel=\"people\")]\n[name=\"观众\"]   （震天的欢呼声）\n[Character(name=\"avg_NPC_017_3\")]\n[name=\"D.D.D.\"]   在这炎炎夏日，各位聚集在这里的目的想必都是一样的，那就是——\n[Character]\n[CameraShake(duration=2, xstrength=8, ystrength=8, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$livecrowd\", volume=0.4, loop=false, channel=\"people\")]\n[name=\"观众\"]   音——乐——！\n[Character(name=\"avg_NPC_017_3#2\")]\n[name=\"D.D.D.\"]   我没有听到你们在说什么？！用你们最大的音量，让整个汐斯塔都听到，你们想要什么！！！\n[Character]\n[CameraShake(duration=2, xstrength=8, ystrength=8, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$livecrowd\", volume=0.4, loop=false, channel=\"people\")]\n[name=\"观众\"]   音————乐————！！！\n[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"avg_NPC_017_3\")]\n[name=\"D.D.D.\"]   那么——举起你们的双手！准备出发！！\n[Dialog]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=0.7, block=true)]\n[Delay(time=0.5)]\n[Character]\n[Blocker(a=0, fadetime=0.7, block=true)]\n[Character(name=\"char_348_ceylon_4#4\")]\n[name=\"锡兰\"]   黑曜石节期间，这是每天都有的事。毕竟音乐会可是黑曜石节上大家最喜爱的部分之一。\n[name=\"锡兰\"]   主LIVE到晚上才会在加里森游乐园的最大舞台举办，白天的时候也会在各个地区开展小型的现场活动。\n[Decision(options=\"我已经热血沸腾了！;这样的音乐有点猛烈……\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[name=\"锡兰\"]   哈哈，我也这么觉得，我在维多利亚留学时，更喜欢古典和优雅的音乐。"
+        }
+      ],
+      "description": "二人在经过D.D.D.演出后评论所听音乐，只支持观众识别台上艺人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E43"
+          ],
+          "from": "char_348_ceylon",
+          "reason": "二人在经过D.D.D.演出后评论所听音乐，只支持观众识别台上艺人。",
+          "status": "supported",
+          "to": "npc_41a9d787ca6c83d0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_41a9d787ca6c83d0",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_348_ceylon"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 47,
+          "kind": "story",
+          "line": 17,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_348_ceylon|npc_41a9d787ca6c83d0"
+}

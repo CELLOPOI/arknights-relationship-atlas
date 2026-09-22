@@ -1,0 +1,63 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 852,
+          "line": 722,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"整合运动战士\"]  这只兔子……这么年轻，哪来的这股力量！？\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  哈……哈……\n[name=\"阿米娅\"]  让……开！\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动战士\"]  嘁……我也是做好了牺牲的觉悟才参加这次突袭的。\n[name=\"整合运动战士\"]  来吧，卡特斯。我见识过你们在核心城的战斗，说实话，我佩服你们。\n[name=\"整合运动战士\"]  但这一次，我不能让步，哪怕今天还是会以感染者的死来收场。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  我——\n[Dialog]\n[PlaySound(key=\"$p_skill_spiritexplo\", volume=1)]\n[CameraShake(duration=1, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[delay(time=1)]\n[name=\"阿米娅\"]  ——！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  ……花期到了。\n[Dialog]\n[PlaySound(key=\"$attackwarning\", volume=1)]\n[CameraShake(duration=1, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[delay(time=1)]\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  这、这是……花？什么时候——\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  在这种时候，你还避开了他们的要害。\n[name=\"九\"]  罗德岛的领袖，确实名副其实，不过，现在你还是睡一会吧。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……不……\n[name=\"阿米娅\"]  （你们……不能……）\n[Dialog]\n[PlaySound(key=\"$bodyfalldown1\")] \n[character(fadetime=0.5)]\n[delay(time=1)]\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动战士\"]  你的法术就没有什么更快生效的办法吗……算了，能拖多久？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  足够了，让所有小队向当前坐标靠近，飞行器马上就——\n[Dialog]\n[character]\n[PlaySound(key=\"$smallearthquake\")] \n[CameraShake(duration=3, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=true)]\n[delay(time=1)]\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动战士\"]  等等！九！Dijkstra说监控里有什么东西在快速靠近！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  ……难道还有别的干员……\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动战士\"]  不、不！那不是人类！\n[Dialog]\n[character]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=2)]\n[Character(name=\"npc_10002\",fadetime=1,block=true)]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"Mon3tr\"]  （雀跃的咆哮声）\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动战士\"]  拦、拦住它！它的目标是九和塔露拉——\n[Character(name=\"npc_10002\")]\n[name=\"Mon3tr\"]  （轻松地舒展四肢）\n[name=\"Mon3tr\"]  （尖啸）\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=2)]\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动战士\"]  唔啊！\n[Dialog]\n[PlaySound(key=\"$bodyfalldown1\")] \n[character(fadetime=0.5)]\n[delay(time=1)]\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  ——这是，什么——？\n[Character(name=\"npc_10002\")]\n[name=\"Mon3tr\"]  （咆哮）\n[stopmusic(fadetime=2)]\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  （糟糕！来不及施法——）\n[Dialog]\n[character]\n[background(fadetime=0.2)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Dialog]\n[PlaySound(key=\"$firestorm\", volume=1)] \n[PlaySound(key=\"$b_char_defboost\", volume=0.5, Delay=0.4)]\n[PlaySound(key=\"$firestorm\", volume=1)] \n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, block=false)]\n[Blocker(a=0.3, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.3, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=0.4, b=0.1, afrom=1, rfrom=1, gfrom=0.4, bfrom=0.4, fadetime=0.2, block=true)]\n[Blocker(a=0.1, r=0, g=0, b=0, afrom=0.8, rfrom=1, gfrom=1, bfrom=1, fadetime=0.3, block=true)]\n[Blocker(a=0.1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.3, block=true)]\n[Blocker(a=0.1, fadetime=2, block=false)]\n[delay(time=4)]\n[Dialog]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_bridge\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[Character(name=\"char_011_talula_1#3\",fadetime=1.5,block=true)]\n[delay(time=1)]\n[playMusic(intro=\"$towerfierce_intro\", key=\"$towerfierce_loop\", volume=0.4)]\n[name=\"塔露拉\"]  ……\n[delay(time=1)]\n[Character(name=\"npc_10002\")]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"Mon3tr\"]  （挑衅的咆哮声）\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  ……你……\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  沉默并不是一种回答，整合运动。\n[name=\"塔露拉\"]  现在，这才是我的答复。不过，你说过我没有选择就是了。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  ……"
+        },
+        {
+          "endLine": 944,
+          "line": 882,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"塔露拉\"]  ……罗德岛。\n[name=\"塔露拉\"]  我并不打算说服任何人，也不打算强迫任何人接受我的想法。\n[name=\"塔露拉\"]  只是，事情未了。\n[name=\"塔露拉\"]  我会等着那一天来临，无论是她说的，还是你说的，我会等着所谓的审判来临。\n[name=\"塔露拉\"]  但是在那之前——\n[Dialog]\n[PlaySound(key=\"$firestorm\", volume=1)] \n[PlaySound(key=\"$b_char_defboost\", volume=0.5, Delay=0.4)]\n[PlaySound(key=\"$firestorm\", volume=1)] \n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, block=false)]\n[Blocker(a=0.3, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.3, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=0.4, b=0.1, afrom=1, rfrom=1, gfrom=0.4, bfrom=0.4, fadetime=0.2, block=true)]\n[Blocker(a=0.1, r=0, g=0, b=0, afrom=0.8, rfrom=1, gfrom=1, bfrom=1, fadetime=0.3, block=true)]\n[Blocker(a=0.1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.3, block=true)]\n[Blocker(a=0.2, r=0.92, g=0.5, b=0.3, fadetime=0.02, block=true)]\n[PlaySound(key=\"$burningloop1\", volume=1, loop=true, channel=\"bgs\")]\n火焰从她的指尖腾起。\n仿佛一堵愤怒的高墙。\n[Character(name=\"npc_10002\")]\n[name=\"Mon3tr\"]  ——（极短的畏缩）！\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  我会活下去。\n[Dialog]\n[delay(time=1)]\n[Character(name=\"char_011_talula_1#3\",focus=-1)]\n[Decision(options=\"阿米娅！;塔露拉！\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"别想碰阿米娅！;除非你杀了我！\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character]\n你挡在了阿米娅的身前。\n高温带来的窒息感让你片刻恍惚，但奔袭的焰苗仍旧绕过了你们二人。\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  ……放心吧，火绕过了她。\n[name=\"塔露拉\"]  你们还会有更长的路要走，但愿……你们的心底没有阴霾。\n[Dialog]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[character(fadetime=0.8)]\n[delay(time=1)]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[Character(name=\"avg_npc_059\",fadetime=1.5,block=true)]\n[delay(time=1.5)]\n[name=\"Guard\"]  时间到了！九！等不了了！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  我知道。\n[name=\"九\"]  那么……后会有期，罗德岛。\n[Dialog]\n[Decision(options=\"等等！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=1)]\n[character(fadetime=1,block=true)]\n[delay(time=2)]\n[Decision(options=\"那是——近地飞行器？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[Character(name=\"char_003_kalts_1#3\",fadetime=1.5,block=true)]\n[delay(time=1.5)]\n[name=\"凯尔希\"]  把它打下来。\n[Character(name=\"npc_10002\")]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"Mon3tr\"]  （尖啸）"
+        }
+      ],
+      "description": "Mon3tr 直接攻向塔露拉，塔露拉以火焰回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S16",
+            "S17"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "S16",
+            "S17"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 852,
+          "kind": "story",
+          "line": 722,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 944,
+          "kind": "story",
+          "line": 882,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "舰桥战斗",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_69395c50206899b0"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 342,
+          "line": 260,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-03_end.txt",
+          "quote": "[name=\"戈尔丁\"]茉莉！你也被他们抓来了？！\n[charslot(slot=\"m\",name=\"avg_npc_647_1#6$1\",focus=\"m\")]\n[name=\"戈尔丁\"]莱托，她只是个普通的老师，学校里的孩子仍需要人照顾。\n[name=\"戈尔丁\"]你已经摧毁了你想摧毁的，你还想牵连多少人？\n[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]\n[name=\"莱托中校\"]您来了，阁下。\n[charslot(slot=\"m\",name=\"avg_npc_657_1#6$1\",focus=\"m\")]\n[name=\"“茉莉”\"]女妖又找上我们了，找上了我们其中之一。\n[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]\n[name=\"莱托中校\"]我这就命令部队前去支援。\n[charslot(slot=\"m\",name=\"avg_npc_657_1#1$1\",focus=\"m\")]\n[name=\"“茉莉”\"]不用，与他散散步也不错。\n[name=\"“茉莉”\"]去找老红眼病吧，他正开了瓶好酒等着你，我们已经厌烦听他唠叨那些陈年旧事了。\n[name=\"“茉莉”\"]你是个比我们更好的听众。\n[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]\n[name=\"莱托中校\"]——我明白了，那么容我告退。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",afrom=1,ato=0,duration=1)]\n[Delay(time=2)]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_647_1#4$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_657_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]你……\n[charslot(slot=\"l\",name=\"avg_npc_647_1#4$1\",focus=\"none\")]\n戈尔丁从没感觉到自己的喉咙如此干涩。眼前的人与她记忆中的茉莉别无二致，连最细微的小动作都一模一样。\n她总微微皱起眉头，关注着顽皮孩子们的一举一动，她会在晚餐时分端上面包，轻轻斥责没有洗手的人。\n她仍是那副表情，可为什么……\n戈尔丁后背的汗水浸透了衣裳。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#1$1\",focus=\"r\")]\n[name=\"“茉莉”\"]兰西的拇指昨天又擦伤了，放心，我给他涂好药啦。\n[name=\"“茉莉”\"]他总是这么让人操心。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#4$1\",focus=\"l\")]\n[name=\"戈尔丁\"]你是……什么……\n[charslot(slot=\"r\",name=\"avg_npc_657_1#7$1\",focus=\"r\")]\n[name=\"“茉莉”\"]那位老师已经回到了学校，她能照看好那些孩子的。\n[name=\"“茉莉”\"]聊聊天怎么样？\n[charslot(slot=\"r\",name=\"avg_npc_657_1#1$1\",focus=\"r\")]\n[name=\"“茉莉”\"]放松点，不过是场闲谈，如果你还是感到不舒服，我们也可以继续用这张脸主人的身份与您相处，戈尔丁女士。\n[name=\"“茉莉”\"]也许先聊聊天气啦，聊聊孩子们的学业？还有那场戏，戈尔丁女士，现在想起来我都忍不住要掉泪。\n[name=\"“茉莉”\"]一眨眼，孩子们都长得这么大了。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#3$1\",focus=\"l\")]\n[CameraShake(duration=0.3, xstrength=8, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"戈尔丁\"]够了，别再用茉莉的语气和我说话！别再顶着那张脸！你这怪物！\n[name=\"戈尔丁\"]你到底……想干什么？\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_npc_657_1#1$1\",focus=\"all\")]\n[delay(time=0.2)]\n[charslot(slot=\"r\",name=\"avg_npc_657_1#1$1\",afrom=1,ato=0,duration=0.5)]\n[delay(time=0.5)]\n[playsound(key=\"$d_avg_humanchange\")]\n[charslot(slot=\"r\",name=\"avg_npc_426_1#8$1\",afrom=0,ato=1,duration=1)]\n[delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_npc_426_1#8$1\",focus=\"r\")]\n[name=\"变形者集群\"]要喝茶吗？莱托的品味不错，他这里的茶叶相当美味。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#4$1\",focus=\"l\")]\n[name=\"戈尔丁\"]……\n[charslot(slot=\"r\",name=\"avg_npc_426_1#8$1\",focus=\"r\")]\n[name=\"变形者集群\"]特雷西斯委派的那些任务也算有个交代啦，接下来，我们可以稍微休息一下。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#10$1\",focus=\"l\")]\n[name=\"戈尔丁\"]……你在我身边多久了？\n[charslot(slot=\"r\",name=\"avg_npc_426_1#8$1\",focus=\"r\")]\n[name=\"变形者集群\"]没你想象的那么久，不过，我们能不能跳过那些无聊的工作话题？\n[name=\"变形者集群\"]现在是休息时间，我们想做点自己真正感兴趣的事。\n[name=\"变形者集群\"]比如——\n[charslot(slot=\"r\",name=\"avg_npc_426_1#10$1\",focus=\"r\")]\n[name=\"变形者集群\"]听一听你对这个时代的想法，听一听你对这一切的结论。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#10$1\",focus=\"l\")]\n[name=\"戈尔丁\"]……我不明白。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#3$1\",focus=\"l\")]\n[name=\"戈尔丁\"]你……你们借助我毁了自救军，我对你们已经没有利用价值了。\n[name=\"戈尔丁\"]我……该死！我亲手交出了这一切……\n[charslot(slot=\"r\",name=\"avg_npc_426_1#1$1\",focus=\"r\")]\n[name=\"变形者集群\"]别这么自责，戈尔丁，这没什么大不了的，我们有千万种办法拿到自救军据点的位置，你不是唯一的情报源。\n[name=\"变形者集群\"]这也许有点伤人，你甚至不是称得上重要的一个。\n[name=\"变形者集群\"]但我们对你这个人确实有些小小的兴趣，我们很享受看你的那些作品，以及和你本人聊天。\n[name=\"变形者集群\"]所以，陪我们聊聊吧，这没什么深意，只是闲谈。\n[charslot(slot=\"r\",name=\"avg_npc_426_1#2$1\",focus=\"r\")]\n[name=\"变形者集群\"]这样的闲谈我们已经发起过无数次，用无数的身份，与无数的人进行过。\n[name=\"变形者集群\"]可我们依然很困惑，我们还是不愿放弃任何一次可能得出答案的机会。\n[charslot(slot=\"r\",name=\"avg_npc_426_1#10$1\",focus=\"r\")]\n[name=\"变形者集群\"]戈尔丁女士，你觉得——\n[name=\"变形者集群\"]我们应该如何生活？"
+        }
+      ],
+      "description": "戈尔丁单向知晓特雷西斯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_faa340cbad10d05b",
+          "reason": "戈尔丁接收变形者关于特雷西斯委派任务的明确说明。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "被提及者未在当前局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "npc_faa340cbad10d05b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 342,
+          "kind": "story",
+          "line": 260,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "npc_c573b8884914fc60|npc_faa340cbad10d05b"
+}

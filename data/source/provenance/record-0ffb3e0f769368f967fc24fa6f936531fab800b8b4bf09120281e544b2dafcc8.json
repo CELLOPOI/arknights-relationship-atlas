@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 98,
+          "line": 93,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-14_beg.txt",
+          "quote": "Guard曾经思考过很多次这个问题。\n现在他又再一次问自己，罗德岛那些拥有奇异力量的干员们，那些能够主宰战场的干员们，自己究竟该怎么看待他们？\n后来，Ace给了他一个答案。Scout给了他一个答案。现在迷迭香，Rosmontis，也给了他一个答案。\n巨剑砸向了敌人的火炮，萨卡兹雇佣兵抬起手中巨弩，Guard不禁大喊出声。\n[Character(name=\"avg_npc_059\")]\n[name=\"罗德岛近卫干员？\"]  盾卫，举盾！保护迷迭香！"
+        }
+      ],
+      "description": "Guard回想Ace曾给自己答案，只明确Guard知晓及受其影响，暂不反推Ace。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "Guard回想Ace曾给自己答案，只明确Guard知晓及受其影响，暂不反推Ace。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 98,
+          "kind": "story",
+          "line": 93,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-14_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 25,
+          "line": 11,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-07_end.txt",
+          "quote": "[name=\"近卫干员\"]   可是……\n[name=\"近卫干员\"]   要是临光……被袭击了，会怎么样？\n[name=\"近卫干员\"]   要是他们原本想用通讯设施警告我们，却发现信号遭到干扰……\n[name=\"近卫干员\"]   我们该怎么办？\n[Character(name=\"char_013_riop\",name2=\"char_130_doberm_ex\",focus=2)]\n[name=\"杜宾\"]  ……\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   我们会去确认。\n[character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   ……啊。\n[Character(name=\"char_014_riope\",name2=\"char_013_riop\",focus=1)]\n[name=\"Ace\"]   我们要亲眼确认事件之后，才会做出揣测。\n[name=\"Ace\"]   不要用怀疑恐吓自己。\n[Character(name=\"char_014_riope\",name2=\"char_013_riop\",focus=2)]\n[name=\"近卫干员\"]   明，明白了……"
+        }
+      ],
+      "description": "近卫干员担忧临光，Ace直接回应并劝其不要揣测。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "近卫干员担忧临光，Ace直接回应并劝其不要揣测。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "近卫干员担忧临光，Ace直接回应并劝其不要揣测。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 25,
+          "kind": "story",
+          "line": 11,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 144,
+          "line": 68,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-12_end.txt",
+          "quote": "[name=\"近卫干员\"]  …………\n[name=\"近卫干员\"]  ………………\n[name=\"近卫干员\"]  ……头儿……？\n[name=\"近卫干员\"]  其他人呢……\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=1)]\n[name=\"Ace\"]  临光杜宾她们，已经带着阿米娅和Dr.{@nickname}突破了封锁。\n[name=\"Ace\"]  而留下来断后的小队的干员们……\n[name=\"Ace\"]  ……都阵亡了。\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Background(fadetime=0)]\n[Character(fadetime=0)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(fadetime=0)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]\n[Background(image=\"bg_cher_7\", width=1, height=1, fadetime=0)]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=2)]\n[name=\"近卫干员\"]  ……什么……\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=1)]\n[name=\"Ace\"]  你我是最后两个活着的。\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=2)]\n[name=\"近卫干员\"]  ……我想起来了……那个……那个怪物塔露拉……仅仅一个人……\n[name=\"近卫干员\"]  近卫们竟然眨眼间就像棋子一样迸散横飞……\n[name=\"近卫干员\"]  那个怪物像捏黄油一样捏碎了重装干员……\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=1)]\n[name=\"Ace\"]  别出声。你伤得很重。\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=2)]\n[name=\"近卫干员\"]  天灾……！她就是天灾的化身……否则，否则火力小组怎么可能一瞬间被焚烧成灰……\n[name=\"近卫干员\"]  明明见识过她的法术，我却……我不能相信……我……\n[name=\"近卫干员\"]  惨叫……唔……呜……\n[Character(name=\"char_014_riope\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=12, vibrato=30, randomness=90, fadeout=true)]\n[name=\"Ace\"]  少说点！\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=2)]\n[name=\"近卫干员\"]  ……抱歉……我……我没法……\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=1)]\n[name=\"Ace\"]  冷静。\n[name=\"Ace\"]  我帮你应急处理了一下。\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=2)]\n[name=\"近卫干员\"]  ……头儿……你的手……？\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=1)]\n[name=\"Ace\"]  至少还有一只是能用的。\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=-1)]\n[Dialog]\n[Delay(time=0.6)]\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=2)]\n[name=\"近卫干员\"]  ……头儿，逃吧。你的话，一定能够杀出去。\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=1)]\n[name=\"Ace\"]  我们只拖了那个怪物几分钟。\n[name=\"Ace\"]  Dr.{@nickname}和阿米娅安全之前，我不能走。\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Background(fadetime=0)]\n[Character(fadetime=0)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(fadetime=0)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]\n[Background(image=\"bg_cher_7\", width=1, height=1, fadetime=0)]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  我得先阻止那个怪物。\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=2)]\n[name=\"近卫干员\"]  头儿……我也……\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=1)]\n[name=\"Ace\"]  你的命是我废了一只手换回来的。\n[name=\"Ace\"]  哪怕你只能再活一分钟，我也希望这只手，至少也值一分钟。\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=2)]\n[name=\"近卫干员\"]  ——\n[Character(name=\"char_014_riope\", name2=\"char_013_riop\", focus=1)]\n[name=\"Ace\"]  我去去就回。照顾好自己。"
+        }
+      ],
+      "description": "Ace与近卫干员直接交谈并共同断后。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "Ace与近卫干员直接交谈并共同断后。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "Ace与近卫干员直接交谈并共同断后。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_f55d04d68de9988e.json",
+      "sources": [
+        {
+          "endLine": 144,
+          "kind": "story",
+          "line": 68,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格撤离期间",
+      "title": "黑暗时代·下"
+    }
+  ],
+  "relationship_id": "npc_8a4ed8ad1c6f8c69|npc_ded4733bcc9da868"
+}

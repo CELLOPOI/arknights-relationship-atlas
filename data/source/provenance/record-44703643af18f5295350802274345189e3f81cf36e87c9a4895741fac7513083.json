@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 106,
+          "line": 104,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_01_end.txt",
+          "quote": "[name=\"极境\"]……阿玛雅小姐……那个作家……？\n[Character(name=\"avg_npc_450_1#9$1\")]\n[name=\"极境\"]先和日落即逝的各位打声招呼吧……总感觉不能放着不管。"
+        }
+      ],
+      "description": "极境认出并追查阿玛雅，仅支持极境到阿玛雅。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S44"
+          ],
+          "from": "char_401_elysm",
+          "reason": "极境在广场事件后明确认出阿玛雅是那位作家，并继续追查她与蒂亚戈。",
+          "status": "supported",
+          "to": "npc_549ec9bf1f5326b6"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_549ec9bf1f5326b6",
+          "reason": "阿玛雅与乌尔比安场景未与极境相接，也未显示识别极境。",
+          "status": "not_established",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 106,
+          "kind": "story",
+          "line": 104,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "格兰法洛调查期间",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_549ec9bf1f5326b6"
+}

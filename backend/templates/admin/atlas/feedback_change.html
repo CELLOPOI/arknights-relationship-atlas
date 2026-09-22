@@ -1,0 +1,4 @@
+{% extends "admin/change_form.html" %}
+{% block object-tools-items %}{{ block.super }}
+{% if can_create_revision %}<li><a href="{% url 'admin:atlas_changeset_add' %}?feedback={{ original.pk }}">根据此反馈创建资料修订</a></li>{% endif %}
+{% endblock %}

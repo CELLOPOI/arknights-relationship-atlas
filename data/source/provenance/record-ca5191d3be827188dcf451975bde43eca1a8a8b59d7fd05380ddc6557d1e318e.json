@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 150,
+          "line": 67,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_end.txt",
+          "quote": "[name=\"陈\"]这个人，到底是什么来头？\n[Dialog]\n[charslot]\n[PlaySound(key=\"$e_skill_driftsand\", volume=0.8)]\n[PlaySound(key=\"$d_avg_sandstone\", volume=0.8)]\n[CameraShake(duration=0.3,xstrength=25,ystrength=10,vibrato=30,randomness=90,fadeout=true,block=false)]\n[charslot(slot = \"m\", name = \"avg_4080_lin_1#12$1\",duration = 0.5)]\n[delay(time=1)]\n[name=\"林雨霞\"]陈警司也会感叹遇到对手了？\n[charslot(slot = \"m\", name = \"avg_npc_790_1#6$1\")]\n[name=\"陈\"]她的源石技艺，赤霄斩不开。\n[name=\"陈\"]如果这真的算是源石技艺的话……\n[Charslot]\n[Dialog]\n[PlaySound(key=\"$d_avg_ftrub\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#1$1\",posfrom = \"150,0\", posto = \"0,0\",duration = 0.5)]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#5$1\")]\n[name=\"槐琥\"]她好像也根本不会什么武功招式，但出刀实在快得离谱。\n[name=\"槐琥\"]就好像，那种瞎编的武功秘籍上写的什么“移形换影”一样，真的能无视空间距离。\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#1$1\")]\n[name=\"槐琥\"]我和她多对几招，看能不能摸清楚……\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_spear\")]\n[PlaySound(key=\"$swordtsing6\",delay=0.2)]\n[CameraShake(duration=0.3,xstrength=25,ystrength=10,vibrato=30,randomness=90,fadeout=true,block=false)]\n[charslot(slot = \"m\", name = \"avg_npc_787_1#11$1\",duration = 0.3)]\n[delay(time=1)]\n[name=\"仇白\"]小心点，她可不是在和我们比试。\n[name=\"仇白\"]不留神的话，真的会死的。\n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_786_1#1$2\",duration=0.5)]\n[delay(time=1)]\n[name=\"山海众首领\"]……\n[name=\"山海众首领\"]留神的话，也会死。\n[name=\"山海众首领\"]是你说要和我多对几招？那就从你开始。\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#10$1\")]\n[StopMusic(fadetime=1)]\n[StopSound(channel=\"bgs\", fadetime=3)]\n[CameraShake(duration=0.3,xstrength=25,ystrength=26,vibrato=30,randomness=90,fadeout=true,block=false)]\n[name=\"槐琥\"]——！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_katanamagic\")]\n[Effect(name=\"$e_bladeline_01_large\",x =0,y=-100,rox=60,roy=10,roz=-40,layer = 1)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n刀比刚才交手时更快，槐琥只觉得瑟瑟秋风扑面而来，根本没法做出什么反应。\n[PlaySound(key=\"$d_avg_punchsp2\")]\n自己的面前突然多了一堵墙，或者说，一堵墙般宽阔厚实的背。\n槐琥看着眼前的背影，已经十几年没有见过，但还是和记忆里的模样重叠起来。\n重逢比想象的要更快，也更猝不及防。\n[Dialog]\n[playMusic(key=\"$m_avg_riversnow_loop\", volume=0.6)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\",bstart=0.3,bend=0.9,focus=\"m\",isCopy=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n[delay(time=1)]\n[charslot(slot = \"l\", name = \"avg_npc_785_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\",isCopy=true)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\",bstart=0,bend=0,duration=3,focus=\"m\")]\n[delay(time=3.5)]\n[name=\"槐天裴\"]鲤说的麻烦事，就是这个人？\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_786_1#6$2\")]\n[name=\"山海众首领\"]又是你？\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]我说这几天睡觉怎么总不踏实，原来是要撞见不愿意见的人。\n[charslot(slot = \"m\", focus=\"n\")]\n槐天裴侧过头，向身后扫了一眼。\n动作很轻很快，但槐琥看得很清楚。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]在和那位宗师比武之前，原本不想和别人动手。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#3$1\")]\n[name=\"槐天裴\"]唉……今天破戒也罢！\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\")]\n[name=\"槐天裴\"]喂，我见你也有点功夫，但欺负晚辈算什么本事？\n[CameraShake(duration=0.3,xstrength=35,ystrength=30,vibrato=30,randomness=90,fadeout=true,block=false)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#5$1\")]\n[name=\"槐天裴\"]要真是手痒，我来陪你过两招！\n[charslot(slot = \"m\", name = \"avg_npc_787_1#11$1\")]\n[name=\"仇白\"]槐武痴，你空手吃亏，我的剑借你。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\")]\n[name=\"槐天裴\"]不用。\n[name=\"槐天裴\"]这世上，我这双拳头打不坏的东西，剑也未必好使。"
+        }
+      ],
+      "description": "林雨霞与陈、槐琥、仇白同在交战现场，槐天裴随即近前替女儿挡刀并与众人说话；连续战斗未见林雨霞离场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "char_4080_lin",
+          "reason": "林雨霞与陈、槐琥、仇白同在交战现场，槐天裴随即近前替女儿挡刀并与众人说话；连续战斗未见林雨霞离场。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "林雨霞与陈、槐琥、仇白同在交战现场，槐天裴随即近前替女儿挡刀并与众人说话；连续战斗未见林雨霞离场。",
+          "status": "supported",
+          "to": "char_4080_lin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 150,
+          "kind": "story",
+          "line": 67,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_4080_lin|npc_2a2f1f3b7bd9ed61"
+}

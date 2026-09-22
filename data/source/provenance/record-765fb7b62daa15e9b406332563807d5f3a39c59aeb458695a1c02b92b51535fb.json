@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 413,
+          "line": 335,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "quote": "[name=\"截云\"]……\n[charslot(slot=\"l\",name=\"avg_4078_bdhkgt_1#7$1\",focus=\"l\")]\n[name=\"截云\"]剑。\n[Dialog]\n[charslot(slot = \"l\", action=\"shake\", power=10, times=100,random=30, duration=0.5)]\n[Delay(time=0.5)]\n[charslot(slot=\"r\",name=\"avg_npc_296_1#5$1\",focus=\"r\")]\n[name=\"杜遥夜\"]别乱动！\n[name=\"杜遥夜\"]这会儿还想抢剑？你想撞在那女人的刀上啊！\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"杜遥夜\"]没把孟铁衣的下落告诉我，去送死？个锤子的*尚蜀俚语*！\n[Dialog]\n[StopMusic(fadetime=3)]\n[charslot(slot=\"l\",name=\"avg_4078_bdhkgt_1#7$1\",focus=\"l\")]\n[charslot(slot = \"l\", action=\"shake\", power=10, times=100,random=30, duration=0.3)]\n[Delay(time=0.3)]\n[charslot(slot = \"left\" ,posfrom = \"0,0\", posto = \"-400,0\",duration = 0.5)]\n[Delay(time=0.2)]\n[charslot(slot = \"l\", afrom = 1, ato = 0,duration = 0.3)]\n[charslot(slot =\"r\", afrom = 1, ato = 0,duration = 0.3)]\n[Delay(time=0.3)]\n[charslot]\n[Background(image=\"bg_white\",screenadapt=\"coverall\",fadetime=0.5)]\n[charslot(slot = \"l\", name = \"avg_npc_786_1#1$1\",bstart=0.5,bend=0.9,duration = 0.5)]\n[charslot(slot = \"l\",posfrom = \"-500,0\", posto = \"-500,0\",duration = 0)]\n[Delay(time=0.3)]\n[charslot(slot = \"l\",posfrom = \"-500,0\", posto = \"-240,0\",duration = 0.3)]\n[charslot(slot = \"r\", name = \"avg_4078_bdhkgt_1#2$1\",bstart=0.5,bend=0.9,duration = 0.3)]\n[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"200,0\",duration = 0)]\n[Delay(time=0.2)]\n[charslot(slot = \"l\",posfrom = \"-240,0\", posto = \"-150,0\",duration = 0.3)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\",bstart=0.5,bend=0.9,duration = 0.2)]\n[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"-100,-60\",duration = 0.3)]\n[PlaySound(key=\"$swordtsing2\",volume=0.7)]\n[Effect(name=\"$e_spark_01_mid\",x=-200,layer = 1)]\n[Effect(name=\"$e_fist_01\",x=-200,rox=-120,layer = 1)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_punchsp2\")]\n[Delay(time=0.3)]\n[charslot(slot = \"m\",posfrom = \"-100,-60\", posto = \"100,0\",duration = 0.5)]\n[charslot(slot =\"l\", afrom = 1, ato = 0,duration = 0.4)]\n[charslot(slot = \"l\",posfrom = \"-150,0\", posto = \"-300,0\",duration = 0.3)]\n[Delay(time=0.3)]\n[Delay(time=0.2)]\n[PlaySound(key=\"$bodyfalldown2\")]\n[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\",posfrom = \"100,0\", posto = \"280,0\",duration = 0.5)]\n[charslot(slot = \"r\",posfrom = \"100,0\", posto = \"360,0\",duration = 0.5)]\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 0.3)]\n[charslot(slot =\"r\", afrom = 1, ato = 0,duration = 0.3)]\n[Delay(time=0.5)]\n[playMusic(intro=\"$normal01_intro\",key=\"$normal01_loop\", volume=0.6)]\n[Background(image=\"35_g5_swordcastingworkshop\",screenadapt=\"coverall\",fadetime=1)]\n[Delay(time=1)]\n[charslot]\n院落里突然多了个魁梧的汉子。\n以拳击刀背，护人，一气呵成。\n他像是一盆冷水泼地，逼得在场众人散开。\n暑气顿消。\n[dialog]\n[Delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_4078_bdhkgt_1#7$1\",duration=1)]\n[charslot(slot=\"l\",name=\"avg_npc_785_1#1$1\",duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"r\",name=\"avg_4078_bdhkgt_1#7$1\",focus=\"n\")]\n[charslot(slot=\"l\",name=\"avg_npc_785_1#1$1\",focus=\"l\")]\n[name=\"魁梧的男人\"]你让我好找。\n[charslot(slot=\"r\",name=\"avg_4078_bdhkgt_1#5$1\",focus=\"r\")]\n[name=\"截云\"]放开我！\n[charslot(slot=\"l\",name=\"avg_npc_785_1#1$1\",focus=\"l\")]\n[name=\"魁梧的男人\"]你差点没命。\n[name=\"魁梧的男人\"]让你在医馆养病，跑什么跑，伤又加重了。\n[charslot(slot=\"r\",name=\"avg_4078_bdhkgt_1#2$1\",focus=\"r\")]\n[name=\"截云\"]……\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_787_1#11$1\")]\n[name=\"仇白\"]槐武痴，你竟然还在玉门城？\n[charslot(slot=\"m\",name=\"avg_npc_785_1#1$1\")]\n[name=\"槐姓男子\"]哦，是你呀。"
+        }
+      ],
+      "description": "改用铸剑坊近前救援的真实共处支持双向，后续观战只证明单向但不是本篇唯一证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "改用铸剑坊近前救援的真实共处支持双向，后续观战只证明单向但不是本篇唯一证据。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "改用铸剑坊近前救援的真实共处支持双向，后续观战只证明单向但不是本篇唯一证据。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 413,
+          "kind": "story",
+          "line": 335,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "npc_2a2f1f3b7bd9ed61|npc_ebce98658cbda852"
+}

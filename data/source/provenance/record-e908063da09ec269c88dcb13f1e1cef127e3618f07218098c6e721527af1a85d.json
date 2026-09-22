@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 121,
+          "line": 10,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "quote": "[name=\"陈\"]  退路已尽。\n[Character(name=\"char_1507_Mephisto_1#3\")]\n[name=\"梅菲斯特\"]  ……你，你！\n[Character]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  你们还想往哪逃？\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  唔。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  放下你的手！\n[name=\"煌\"]  你的把戏已经被我看穿了，长鳞的小子！\n[Dialog]\n[Character(name=\"char_1508_Faust_1#1\")]\n[CameraShake(duration=0.4, xstrength=8, ystrength=6, vibrato=30, randomness=30, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Character(name=\"char_017_homura_3#1\")]\n[playsound(key=\"$p_imp_blunt_h\")]\n[CameraShake(duration=0.4, xstrength=12, ystrength=18, vibrato=30, randomness=30, fadeout=false)]\n[delay(time=1)]\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  我说了，我看穿了。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_017_homura_3#1\",focus=1)]\n[name=\"阿米娅\"]  煌！\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_017_homura_3#1\",focus=2)]\n[name=\"煌\"]  哼，不算什么，这点火力也就和炮仗差不多！\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  你提前防御住了弩弹。\n[name=\"浮士德\"]  你知道他们的位置？\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  那当然，我已经全都找出来了。\n[name=\"煌\"]  阿米娅，后退，我该用那个了！\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_017_homura_3#1\",focus=1)]\n[name=\"阿米娅\"]  知道！我会再一次干扰梅菲斯特的护卫，抓紧时间！\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  这点血是送你们做临别礼物的，整合运动的“幻影弩手”们！\n[name=\"煌\"]  沸腾吧，爆开他们的伪装吧！\n[Character]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.4)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.3, r=1, g=0, b=0, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[Image(image=\"avg_5_8_homura\", fadetime=0.3,screenadapt=\"coverall\",block=true)]\n[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=0, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.15, yScaleTo=1.15,duration=15, block=false)]\n[Blocker(a=0, fadetime=1, block=true)]\n[name=\"浮士德\"]  ——！\n[name=\"浮士德\"]  你泼洒自己的血，用血来点火？\n[name=\"煌\"]  哈，我难道看起来像个术师吗？那种四处纵火的家伙，最多只是些自我意识过剩的门外汉。\n[name=\"煌\"]  抱歉，这是战斗技巧。现身吧射手们，你们无处可藏了！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Image]\n[Blocker(a=0, fadetime=1, block=true)]\n[Character]\n[Character(name=\"avg_npc_016\",fadetime=1,block=true)]\n[name=\"幻影弩手\"]  ……\n[name=\"幻影弩手\"]  浮士德，伪装消失了。\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  命令，撤退。\n[Character(name=\"char_015_lmg\")]\n[name=\"近卫局成员\"]  那些是……怎么回事！整合运动的狙击手是什么时候埋伏在那里的？\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  现在？\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  现在。\n[Character(name=\"char_015_lmg\")]\n[name=\"近卫局成员\"]  数个整合运动的狙击手突然现身，主要分布在近卫局东二楼和南三楼！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  留神脚下，低处可能也有埋伏！\n[Character(name=\"char_015_lmg\")]\n[name=\"近卫局成员\"]  大楼里的古怪之处，也是他们引起的吗？\n[Character]\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  通过空气折射让身形变得透明啊，好手法。\n[name=\"煌\"]  不过你掩盖不了自己的行踪，又或者是动作幅度太大，也会导致这个源石技艺失效。\n[name=\"煌\"]  我说得对吗？\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……你很聪明。\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"煌\"]  是罗德岛情报做得好。你没戏唱了，投降吧。\n[name=\"煌\"]  如果还要打的话，哼，不管有没有你的份，你都得为Ace和Scout抵命，小子。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  浮士德，我们还有弹药。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  撤退。我们已经失去了情报优势。我会狙击他们，你们立刻转移。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  明白。\n[Character(name=\"char_1507_Mephisto_1#4\")]\n[name=\"梅菲斯特\"]  为什么不射击她？浮士德！\n[name=\"梅菲斯特\"]  我的护卫们，快去！四个人，四个人而已……其中只有三个能和你们为敌！\n[name=\"梅菲斯特\"]  战斗！现在就撕碎这些罪人！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  我们三个在Dr.{@nickname}的指挥下，胜过你们所有人！\n[name=\"阿米娅\"]  更何况那些被你伤害了、剥夺了理智的感染者，意识里只剩下你的赘余思绪，不再是活生生的人……！\n[name=\"阿米娅\"]  就连你身边那个带鳞的男孩也未必和你同心，他的思绪里充斥着混乱和悲伤……\n[name=\"阿米娅\"]  梅菲斯特，你才是这战场上孤身一人的那个！\n[Character(name=\"char_1507_Mephisto_1#4\")]\n[name=\"梅菲斯特\"]  ……\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  你读了我的心？\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"阿米娅\"]  我只是感受到了。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  所以你不会知道我在想什么。"
+        }
+      ],
+      "description": "三人连续与梅菲斯特、浮士德交锋并直接观察回应对方攻击，真实局部战场接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_010_chen",
+          "reason": "三人连续与梅菲斯特、浮士德交锋并直接观察回应对方攻击，真实局部战场接触。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "三人连续与梅菲斯特、浮士德交锋并直接观察回应对方攻击，真实局部战场接触。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 121,
+          "kind": "story",
+          "line": 10,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "靶向药物所述时段",
+      "title": "靶向药物"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_cff4ec0fb14b9ffb"
+}

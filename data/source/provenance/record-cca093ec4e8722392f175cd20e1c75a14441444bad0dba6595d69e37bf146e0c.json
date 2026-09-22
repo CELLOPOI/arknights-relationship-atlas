@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 51,
+          "line": 24,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "quote": "[name=\"魏斯\"]诺希斯，有情况。\n[name=\"魏斯\"]古罗从博士的队伍里分出来，带着一部分人急行军直接绕过了圣山，突破关口，占领了车站！\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]你说什么？！\n[Character(name=\"avg_198_blackd_1#9$1\")]\n[name=\"魏斯\"]现在，古罗的队伍驱赶了车站里的人，而且，还有一支队伍向着科林斯镇去。\n[Character(name=\"avg_npc_255_1#8$1\")]\n[name=\"莫希\"]尤卡坦现在被关押在那里……他们的目的是救人？\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]不可能。这样的效率太低了，他们必然有别的目的。\n[name=\"诺希斯\"]莫希，你认为，你所看到的那个博士的行进路线，是向哪里靠近的？\n[Character(name=\"avg_npc_255_1#8$1\")]\n[name=\"莫希\"]……他们挑选了一条可以通往圣山，也可以通往关口的路线。\n[Character(name=\"avg_198_blackd_1#6$1\")]\n[name=\"魏斯\"]嘶——难道说，博士的目的真的是直接绕过圣山，进攻我们的领地……\n[Character(name=\"avg_206_gnosis_1#2$1\")]\n[name=\"诺希斯\"]我应该警告过你们这种可能性。\n[Character(name=\"avg_206_gnosis_1#8$1\")]\n[name=\"诺希斯\"]不，我自己也大意了，应该在关口驻扎更多的兵力。\n[Character(name=\"avg_198_blackd_1#7$1\")]\n[name=\"魏斯\"]博士……\n[Character(name=\"avg_206_gnosis_1#8$1\")]\n[name=\"诺希斯\"]但是，阿克托斯人还不见踪影，还不能完全断定他们的目的……\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]……啧，派瓦莱丝去车站解决古罗，然后让魏斯去科林斯镇。\n[name=\"诺希斯\"]把山下的队伍分出一部分，去关口驻扎，防止博士的队伍突破关口进入我们的领地。\n[Character(name=\"avg_198_blackd_1#6$1\")]\n[name=\"魏斯\"]我明白了。"
+        }
+      ],
+      "description": "三人在指挥室交换具名目标的行军、关押及调遣情报，支持各发言/接收者对具体人物的知晓，不反推不在场者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E101"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "三人在指挥室交换具名目标的行军、关押及调遣情报，支持各发言/接收者对具体人物的知晓，不反推不在场者。",
+          "status": "supported",
+          "to": "npc_e93a864a5413aa6c"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e93a864a5413aa6c",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 51,
+          "kind": "story",
+          "line": 24,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 185,
+          "line": 179,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st02.txt",
+          "quote": "[name=\"瓦莱丝\"]诺希斯大人，山雪鬼小队已经就位。\n[name=\"瓦莱丝\"]我让他们在前后门巡逻，以防有人混入宴会。\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#9$1\",focus=\"m\")]\n[name=\"诺希斯\"]不用这么紧张。\n[name=\"诺希斯\"]瓦莱丝，你带一队山雪鬼一起去厨房帮忙。\n[charslot(slot=\"m\",name=\"avg_npc_261_1#1$1\",focus=\"m\")]\n[name=\"瓦莱丝\"]是。"
+        }
+      ],
+      "description": "诺希斯与瓦莱丝是直接上下级。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "诺希斯直接点名向瓦莱丝下令。",
+          "status": "supported",
+          "to": "npc_e93a864a5413aa6c"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_e93a864a5413aa6c",
+          "reason": "瓦莱丝向诺希斯汇报部署并领命。",
+          "status": "supported",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 185,
+          "kind": "story",
+          "line": 179,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典前夜宴会",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_206_gnosis|npc_e93a864a5413aa6c"
+}

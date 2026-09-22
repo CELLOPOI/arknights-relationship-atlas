@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 365,
+          "line": 328,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_st01.txt",
+          "quote": "[name=\"蒂奇\"]（小声）别在这里，哈维尔……\n[charslot(slot=\"m\",name=\"avg_npc_1579_1#3$2\",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"哈维尔\"]回答我！！\n[charslot(slot=\"m\",name=\"avg_npc_1591_1#1$1\",focus=\"m\")]\n[name=\"塞斯克\"]（胡乱点头）\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_clothmovement\",channel=\"1\")]\n[Delay(time=0.5)]\n[PlaySound(key=\"$bodyfalldown3\",channel=\"2\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1591_1#1$1\",focus=\"m\")]\n[name=\"塞斯克\"]咳……咳咳咳——！\n[charslot(slot=\"m\",name=\"avg_npc_1579_1#6$2\",focus=\"m\")]\n[name=\"哈维尔\"]回去吧，小子，记住教训，记牢点。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1591_1#1$1\",focus=\"m\")]\n[Delay(time=0.5)]\n[PlaySound(key=\"$rungeneral\")]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#4$1\",focus=\"m\")]\n[name=\"蒂奇\"]唉，哈维尔，怎么回事？你从来都不是冲动的人啊。\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#1$1\",focus=\"m\")]\n[name=\"鲁斯\"]冲动？当然不，他只是清楚地向所有人表明了态度。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1579_1#9$2\",focus=\"m\")]\n[name=\"哈维尔\"]鲁斯，我……\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#5$1\",focus=\"m\")]\n[name=\"蒂奇\"]放心，晚上带点东西去找他，他不会把你关在门外的。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1579_1#5$2\",focus=\"m\")]\n[Delay(time=1)]\n[name=\"哈维尔\"]好，谢谢你，蒂奇。"
+        }
+      ],
+      "description": "蒂奇当面劝哈维尔，哈维尔道谢。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_87fe432572eae97e",
+          "reason": "蒂奇当面劝哈维尔，哈维尔道谢。",
+          "status": "supported",
+          "to": "npc_d3f3c14a8aa46fa9"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_d3f3c14a8aa46fa9",
+          "reason": "蒂奇当面劝哈维尔，哈维尔道谢。",
+          "status": "supported",
+          "to": "npc_87fe432572eae97e"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 365,
+          "kind": "story",
+          "line": 328,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "npc_87fe432572eae97e|npc_d3f3c14a8aa46fa9"
+}

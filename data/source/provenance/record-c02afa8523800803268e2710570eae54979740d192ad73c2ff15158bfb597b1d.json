@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 38,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_02_beg.txt",
+          "quote": "[charslot(slot = \"m\", name = \"avg_4065_judge_1#1$1\")]\n[name=\"拉维妮娅\"]“新沃尔西尼货运工人和卡车司机联合互助会”……我们需要学习一下维多利亚和哥伦比亚的这种工人组织。\n[charslot(slot = \"m\", name = \"avg_4065_judge_1#7$1\")]\n[name=\"拉维妮娅\"]要想对抗家族的威胁，首先要让我们自己团结起来，拥有与他们对抗的力量。\n[charslot(slot = \"m\", name = \"avg_npc_1541_1#1$1\")]\n[name=\"莱昂图索\"]运输业是一个城市的命脉。在过去，在叙拉古的其他任何一座城市，它始终被家族牢牢掌控着。\n[name=\"莱昂图索\"]我们想要改变这种现状。\n[name=\"莱昂图索\"]在新沃尔西尼，卡车不再是黑帮的快递箱，它只属于驾驶它的人，还有每一个正直的市民。\n[charslot(slot = \"m\", name = \"avg_npc_1542_1#5$1\")]\n[name=\"伊雷妮\"]可是，为什么是我？\n[name=\"伊雷妮\"]我以前只是给索默尔的小超市开车进货……虽然车开得还算可以……\n[charslot(slot = \"m\", name = \"avg_npc_1541_1#8$1\")]\n[name=\"莱昂图索\"]在沃尔西尼，没有接受过家族贿赂的市政府职员，两只手就能数得过来。\n[charslot(slot = \"m\", name = \"avg_npc_1542_1#2$1\")]\n[name=\"伊雷妮\"]那是因为……\n[charslot(slot = \"m\", name = \"avg_4065_judge_1#8$1\")]\n[name=\"拉维妮娅\"]对不起，伊雷妮。之前我私下调查过你和索默尔的经历。我知道那场惨案，我很抱歉。\n[name=\"拉维妮娅\"]我在想，如果你只是仇恨纵火焚烧了你们超市的那个家族，你完全可以接受另一个家族的帮助，去完成复仇……\n[name=\"拉维妮娅\"]但你没有这么做。\n[charslot(slot = \"m\", name = \"avg_4065_judge_1#2$1\")]\n[name=\"拉维妮娅\"]只是我的一点揣测……如果有冒犯，还请原谅。\n[charslot(slot = \"m\", name = \"avg_npc_1542_1#1$1\")]\n[name=\"伊雷妮\"]谢谢您……拉维妮娅法官。\n[charslot(slot = \"m\", name = \"avg_4065_judge_1#9$1\")]\n[name=\"拉维妮娅\"]伊雷妮，姑且不论你是不是卡车工会负责人的最佳人选，我都相信你是一个善良的人。"
+        }
+      ],
+      "description": "斥罪曾调查并记得索默尔的经历。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_4065_judge",
+          "reason": "斥罪曾调查并记得索默尔的经历。",
+          "status": "supported",
+          "to": "npc_349af4d923af44ee"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_349af4d923af44ee",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4065_judge"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 38,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "揭幕者们"
+    }
+  ],
+  "relationship_id": "char_4065_judge|npc_349af4d923af44ee"
+}

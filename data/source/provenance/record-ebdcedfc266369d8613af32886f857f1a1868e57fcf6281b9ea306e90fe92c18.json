@@ -1,0 +1,312 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 491,
+          "line": 481,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_09_end.txt",
+          "quote": "[name=\"Ace\"]为什么？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]切尔诺伯格已经陷入了与感染者有关的例外状态。\n[name=\"阿斯卡纶\"]现在的罗德岛承担不起卷入其中的风险。\n[charslot(slot=\"m\",name=\"avg_npc_026\")]\n[name=\"Scout\"]……博士将是我们不可或缺的力量。\n[charslot(slot=\"m\",name=\"char_017_homura_3#5\")]\n[name=\"煌\"]你们说的这个人才值得罗德岛用几十条甚至更多的人命去换吗？\n[name=\"煌\"]如果值得，我就同意。只要有一个人提出质疑，我就反对。\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\")]\n[name=\"Logos\"]……"
+        }
+      ],
+      "description": "Scout具体知晓博士，未建立博士反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C33"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout明确主张博士是不可或缺的力量并参与营救计划。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "会议发生在博士获救前，本篇未显示博士与Scout会面。",
+          "status": "not_established",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 491,
+          "kind": "story",
+          "line": 481,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格营救行动前",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 198,
+          "line": 185,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "quote": "[Decision(options=\"很有意思的表演。;表演似乎没能起到效果。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]嗯。我只见Scout和Outcast示范过几回，可能动作不够纯熟，所以没起到很好的效果。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"none\")]\n[Decision(options=\"没想到你还有这样的一面。;难不成，其实你很喜欢开玩笑？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#3$1\",focus=\"m\")]\n[name=\"Logos\"]博士，有时候我也会遗憾于我们之间相处的许多记忆消散无踪。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#3$1\",focus=\"none\")]\n[Decision(options=\"我们很少聊起往事……;总是找不到恰当的时机聊这些。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]"
+        }
+      ],
+      "description": "博士当面听Logos说两位精英干员的示范，继续回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E43"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士当面听Logos说两位精英干员的示范，继续回应。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 198,
+          "kind": "story",
+          "line": 185,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 218,
+          "line": 193,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_end.txt",
+          "quote": "[name=\"Scout\"]  你比想象中还能胜任这里的任务。\n[name=\"Scout\"]  还有你的两位朋友。虽然他们没有接受博士的邀请留下，但是他们依旧把工作完成得不错。\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_046#2\",fadetime=1,block=true)]\n[delay(time=2)]\n[name=\"W\"]  啊啊，所以特蕾西娅有说什么吗？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……如果你只是想被殿下称赞的话，你可以自己试着去邀个功看看。\n[name=\"Scout\"]  前提是你能躲开凯尔希女士。\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  那还是算了吧，那个该死的女人很少离开特蕾西娅半步，嘁，真烦人啊。\n[name=\"W\"]  那他们现在在哪里？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  你明知道还要去？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  我就去看看嘛，看看总不会挨骂吧？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  到底是谁比较烦人。\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  我可是为了你们拼死从难民堆里揪出了七个间谍哎！七个！还有一个术师！你知道有多费劲吗？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  小声点，你的存在和任务内容都是机密……唉。\n[name=\"Scout\"]  那是你自己的任务，而且我记得博士要求过至少留下一个活口……\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  我可不擅长救人，他自杀的速度比我杀他还快，这怎么办？"
+        }
+      ],
+      "description": "Scout熟知对方的具体动向并向W转述，不从代传消息推出反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout熟知对方的具体动向并向W转述，不从代传消息推出反向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 218,
+          "kind": "story",
+          "line": 193,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生于黑夜所述时段",
+      "title": "生于黑夜"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 659,
+          "line": 637,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_05_beg.txt",
+          "quote": "[name=\"Scout\"]博士。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\",duration=1)]\n[delay(time=1.5)]\n[name=\"Scout\"]头一次直面惨状？\n[charslot(slot = \"m\", name = \"avg_npc_048\")]\n[name=\"博士\"]……算是。\n[name=\"博士\"]以往面临的战役，没有那么多生命可以挥霍。\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]去喝点甜的会好受点，经验之谈。\n[name=\"Scout\"]这次我们能以少胜多，都靠你的指挥。\n[charslot(slot = \"m\", name = \"avg_npc_048\")]\n[name=\"博士\"]你们经历的战斗，都是这样？\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]不，这是相对轻松的一次。\n[name=\"Scout\"]如果之后每场仗都能像这样获胜，我可以放心地把命交到你的手里。\n[charslot(slot = \"m\", name = \"avg_npc_048\")]\n[name=\"博士\"]或许我们可以找到，战争之外达成目的的办法……\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]哈哈，你不是第一个说这句话的人。\n[name=\"Scout\"]不过，这次的袭击恐怕只是一个讯号，谁也不知道未来我们还会面临什么。\n[name=\"Scout\"]我还是期待一下你的表现吧，天才指挥官。"
+        }
+      ],
+      "description": "Scout安慰第一次见战后惨状的博士，称赞指挥。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E33"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout安慰第一次见战后惨状的博士，称赞指挥。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E33"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "Scout安慰第一次见战后惨状的博士，称赞指挥。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 659,
+          "kind": "story",
+          "line": 637,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 135,
+          "line": 38,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-02_beg.txt",
+          "quote": "[name=\"Scout\"]  从没听过你对我的评价，现在才知道，原来我感受起来是这么脆弱。\n[Character]\n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n你什么时候来的？！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  可以说是一直都在。我习惯隐藏自己了。\n[Character(name=\"avg_npc_042\")]\n[name=\"Rosmontis\"]  Scout先生他确实一直都在的。\n[name=\"Rosmontis\"]  为什么煌没有感觉到呢？\n[Character]\n……我是比较粗线条，没看到啦！\n不是，你听她说了那么久，怎么不帮她修下啊。\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  抱歉，接下来我们有任务。我得花些精力校准武器。\n[name=\"Scout\"]  你可能要请可露希尔或是机械师Mechanist先生去解决了。\n[Character]\n是那个，营救Dr.{@nickname}的任务吗？\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_014_riope\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"Ace\"]  是。\n[Character]\n哦哦，你也来了。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  作为主要发起人之一，如果我自己都不去，罗德岛精英干员不是成了笑话？\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=1)]\n[name=\"Scout\"]  阿斯卡纶怎么回复你的？\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=2)]\n[name=\"Ace\"]  一样的托辞。她不会参与。同往常一样，她一直都和凯尔希站一边。\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=1)]\n[name=\"Scout\"]  ……你有没有考虑过，现在可能不是最佳时机？\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=2)]\n[name=\"Ace\"]  但这也可能是我们最后的机会。\n[name=\"Ace\"]  为了躲避这次天灾，切尔诺伯格很可能会在驶离这里后，转向乌萨斯腹地。在乌萨斯内部展开营救，成功的概率趋近于零。\n[Dialog]\n[Character]\n听你们说了那么多回，这个Dr.{@nickname}真有那么神奇吗？\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  和阿米娅与凯尔希一样神奇。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=2)]\n[name=\"Rosmontis\"]  我见过博士吗？\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=1)]\n[name=\"Ace\"]  没有。不过很快你就能见到了。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=2)]\n[name=\"Rosmontis\"]  嗯。我也很想感受一下博士的样子。\n[name=\"Rosmontis\"]  很想。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=1)]\n[name=\"Scout\"]  你会的，小猫。\n[Dialog]\n[Character]\n对了，Ace。 你下辖小队里，有个叫灰喉的非患者。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  这事我记得。她应该还在单独舱室接受指导。\n[name=\"Ace\"]  煌，听我一句。我带着她几个月了，她也许不太会表达，但绝对没有恶意。\n[Character]\n但她对我的队员说：“我不知道你们感染者有多痛苦。”\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  我清楚。但她可能真的只是很疑惑，她想要去问这个问题。\n[name=\"Ace\"]  我没资格要求干员立即明白我们的处境，而且，灰喉从没质疑过罗德岛的命令。\n[Character]\n其他我不管，我绝对不允许任何人侮辱我的队员，更别说诋毁罗德岛感染者们的奋斗了。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  不是现在。我知道你在克制怒意，但真的，不是现在。\n[Character]\n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n她当着我的面这么说！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  大猫，消停些。\n[name=\"Scout\"]  你也有任务在身。\n[Character]\n……是啊。\n行吧，回来再处理。\n谁叫Ace资历比我老呢。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  一旦你开始用这种口气说话，我就怀疑你是想戏弄别人。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  她可能真的在取笑你。\n[Character]\n他只要有两天没修胡子，我就一定会觉得他资历特别老。\n[Character(name=\"avg_npc_042\",name2=\"char_014_riope\",focus=1)]\n[name=\"Rosmontis\"]  Ace，胡子很硬。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  ……啊。\n[Character]\n哈哈哈。那我去帮她送东西了。我也有任务在身，先走啦。\n等我任务结束回来，我们再去好好喝一场吧！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  可别再喝得吐一地了。\n[name=\"Scout\"]  Misery擦了两小时地板，再让他见那种场面，他恐怕也要吐出来。\n[Character]\n谁知道你酒量那么好啊！\nRosmontis，机械师过会儿就把终端给你送过来。\n乖乖等着就好了，别把这事儿忘了哦！\n[Character(name=\"avg_npc_042\")]\n[name=\"Rosmontis\"]  嗯，我不会忘的！再见！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  小心烫伤！"
+        }
+      ],
+      "description": "Scout参加营救博士的任务。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout参加营救博士的任务。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 135,
+          "kind": "story",
+          "line": 38,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 679,
+          "line": 635,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "quote": "[name=\"Scout\"]   我有一个不情之请，就当作是安置你的辛苦费吧。我治疗了你的伤势，至少你暂时没有生命危险了。\n[name=\"Scout\"]   接下来，请听我说些无聊的事情。\n[name=\"Scout\"]   这次，我们的目标是救出博士。阿米娅表现得十分坚决。没人能说服她改变决定，或者说，所有人都把自己看得太轻了。\n[name=\"Scout\"]   Ace也和阿米娅一样，他坚信只要救出博士，罗德岛就能打破许多现有的僵局。\n[name=\"Scout\"]   如果博士还像过去那样做事——我相信罗德岛一定会更加兴盛。\n[name=\"Scout\"]   可我是个软弱的人，我不知道……\n[name=\"Scout\"]   不知道自己有没有骨气承受这种兴盛。\n[Dialog]\n[Character]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(fadetime=0)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   什么……？这是什么意思？\n[Dialog]\n[Character]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(fadetime=0)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]\n[Blocker(a=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]   三年前到现在，我们损失了许多兄弟姐妹。\n[name=\"Scout\"]   我一直认为，只要我们中还有人活着，就一定会在某处团聚，这也是我继续服务罗德岛的原因之一。\n[name=\"Scout\"]   但我们失去的东西够多了，多到连Misery这样悲观的人都觉得必须让博士回归。\n[name=\"Scout\"]   他一厢情愿地认为这之后我们将无往不利，死亡与告别会成为过去式。\n[name=\"Scout\"]   我不这么觉得。\n[name=\"Scout\"]   哦，我没在怀疑博士的能力。博士是倾斜了力量天平的人，没有博士，卡兹戴尔会是一潭死水。\n[name=\"Scout\"]   何况，正是博士教给我战斗的理由。\n[name=\"Scout\"]   只不过……当我们请求博士指挥我们的时候……在博士的眼神里，我只能看到胜利的承诺。\n[name=\"Scout\"]   除了胜利，我看不到别的东西。什么也没有。\n[name=\"Scout\"]   那里什么也没有。\n[name=\"Scout\"]   我一直在想，凯尔希女士一直不肯向我们透露的真相，是不是也和博士有关？\n[name=\"Scout\"]   三年前最后的那段时间，为什么照片上的X会越来越多，为什么牺牲越来越频繁，为什么会有我们根本看不到目的的战斗？\n[name=\"Scout\"]   我不敢想象，也不能去想象。\n[name=\"Scout\"]   如果战火和厮杀催化了博士，让博士从一个教导者和研究者，变成了一台战争机器……\n[name=\"Scout\"]   那只会是我们这些请求Dr.{@nickname}去参与战争的人犯下了大错。\n[name=\"Scout\"]   博士不应该再去指挥战斗。对博士本人而言如此，对罗德岛而言，也是如此。\n[name=\"Scout\"]   ……很抱歉，很天真吧。\n[name=\"Scout\"]   我的想法，就连我自己都觉得幼稚……所以我也不曾向谁吐露过这些。\n[name=\"Scout\"]   哼，不论是谁听见都会笑出声。我挺不喜欢别人嘲笑我的，原本，我也想带着这些念头入土。\n[name=\"Scout\"]   但到了现在这个时候，我竟然还是希望有谁，哪怕是，能帮我惦记下这件事……\n[name=\"Scout\"]   我想让博士，重新开始生活。\n[name=\"Scout\"]   如果能和罗德岛再无瓜葛，或者说，博士能真的置身事外，哪怕是忘记了过去的一切……\n[name=\"Scout\"]   只要博士不再走上战争这条路，怎么样都好。"
+        },
+        {
+          "endLine": 716,
+          "line": 696,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "quote": "[name=\"Scout\"]   抱歉，说了这么多。如果不喜欢，就全当是胡言乱语吧。\n[name=\"Scout\"]   对了，倒是有三件事，我绝对没胡说。\n[name=\"Scout\"]   第一，请告诉Dr.{@nickname}，嗯，我想就这么说吧。\n[name=\"Scout\"]   “博士和我们并肩作战的那些日子，我一刻也没忘记过。”\n[name=\"Scout\"]   第二，是我的小队。\n[name=\"Scout\"]   ——\n[name=\"Scout\"]   斯琳珂，普特尔，长蝎，雷发，姆拉姆，酒莓软芯，索拉娜，米米，小玛丽，图钉，淤兰，长音。\n[name=\"Scout\"]   我的队员们，一共十二位。\n[name=\"Scout\"]   他们打穿了敌人的防线，打退了敌人的救援；没他们在，我就没机会击杀敌人雇佣兵部队的领头人。\n[name=\"Scout\"]   只是，我这十二位可敬的干员，都在战斗中阵亡了。\n[name=\"Scout\"]   请你，见证他们的战斗。\n[name=\"Scout\"]   如果有人问起来，帮我回答那些人吧——\n[name=\"Scout\"]   虽然没人能记住我这支小队中各位队员的名字，但他们死得尊严。他们没因为怕死而退缩过，绝对没有。\n[name=\"Scout\"]   当然，我知道有许多罗德岛人为罗德岛的事业贡献了生命。没有人的死是特别的。\n[name=\"Scout\"]   只是，我们不是在为了任何一个生命个体战斗。这样说，是在贬低他们的死！\n[name=\"Scout\"]   提醒下问起这件事的人：他们都是为了自己相信的理念而牺牲的。\n[name=\"Scout\"]   第三——\n[name=\"Scout\"]   你得为自己活下去，不知姓名的罗德岛兄弟。我说了那么多，可不是在劝你送死。\n[name=\"Scout\"]   生命很可贵，如果能活着实现理想，何必去死呢？\n[name=\"Scout\"]   就这么多了，兄弟。\n[name=\"Scout\"]   要珍惜你的生命。"
+        }
+      ],
+      "description": "Scout 与博士存在明确既往互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04",
+            "E05"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout 多次具体谈论博士及并肩作战往事。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "Scout 明确说博士曾教给自己战斗理由，证明博士与 Scout 有过定向互动。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 679,
+          "kind": "story",
+          "line": 635,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 716,
+          "kind": "story",
+          "line": 696,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔至切尔诺伯格行动前",
+      "title": "战地秘闻"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 60,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "quote": "[name=\"Ace\"]  我押三百，那只是一堆破铜烂铁，不值得大费周章。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=1)]\n[name=\"Scout\"]  是么？那我押五百，那个东西对我们是有意义的。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=2)]\n[name=\"Ace\"]  根据呢？\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=1)]\n[name=\"Scout\"]  直觉。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=2)]\n[name=\"Ace\"]  可被天灾刮出来的废旧机械设备在荒地上并不罕见。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=1)]\n[name=\"Scout\"]  但直觉告诉我，那个东西不是一般货色。\n[Dialog]\n[character]\n[PlaySound(key=\"$dooropenquite\", volume=0.6)]\n[Character(name=\"avg_npc_048\", fadetime=1)]\n[delay(time=1)]\n[name=\"博士\"]  你们在聊什么？\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=2)]\n[name=\"Ace\"]  唔，博士。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=1)]\n[name=\"Scout\"]  晚上好，Dr.{@nickname}。\n[name=\"Scout\"]  昨天出勤的时候，我们去了一个流民聚落，结果发现一个相当有意思的玩意儿。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=2)]\n[name=\"Ace\"]  只是个工业垃圾，我在西部荒地见过很多，不用博士费心了。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=1)]\n[name=\"Scout\"]  但这个工业垃圾甚至还能运作，似乎在播放某种声音。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]  ……音乐吗？\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=2)]\n[name=\"Ace\"]  我很难说那种声音是音乐。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]  当时是怎样的状况？\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=1)]\n[name=\"Scout\"]  ……那个流民聚落中间摆着一台奇怪的机器，涂满了红色的油漆，很重，只要有人靠近就会发出奇怪的声音。\n[name=\"Scout\"]  流民们不太敢靠近，但还是围绕它建立了营地。\n[name=\"Scout\"]  当时应该搬回来看看，说不定凯尔希女士能知道技术细节呢。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=2)]\n[name=\"Ace\"]  花钱买一团工业垃圾回来？我们何时这么有闲情逸致了？\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=1)]\n[name=\"Scout\"]  说不定那个女妖会喜欢。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=2)]\n[name=\"Ace\"]  ……如果你们有什么私人矛盾需要解决，我建议不要带到工作中来。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]  听起来是挺有趣的。\n[name=\"博士\"]  如果有一天，我们可以一起去那个流民聚落看看，说不定我能知道是什么。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=2)]\n[name=\"Ace\"]  哦，看来我们的赌注能看到结果了。\n[Character(name=\"avg_npc_026\", name2=\"char_014_riope\", focus=1)]\n[name=\"Scout\"]  那一言为定，等殿下这边的事情告一段落，我们一起去。"
+        }
+      ],
+      "description": "Scout向博士讲述设备并约定一同查看，博士直接回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout向博士讲述设备并约定一同查看，博士直接回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "Scout向博士讲述设备并约定一同查看，博士直接回应。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 60,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    }
+  ],
+  "relationship_id": "npc_0957af9bf990438d|npc_b99957887950ebfd"
+}

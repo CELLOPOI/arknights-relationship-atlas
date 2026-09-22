@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 342,
+          "line": 319,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_10_end.txt",
+          "quote": "[name=\"绩\"]这笔账，我就勉为其难替他平上一平吧。\n[Dialog]\n[delay(time=1)]\n[Image(image=\"70_i17\",screenadapt=\"coverall\")]\n[cgitem(image=\"cgitem_70_i17_1\", style=\"cg\",layer = 1, afrom = 0, ato = 1, aduration = 0,pfrom = \"-100,0\",pto = \"-180,0\", pduration = 45,sfrom = 1, sto = 1.1, sduration = 45)]\n[cgitem(image=\"cgitem_70_i17_2\", style=\"cg\",layer = 3, afrom = 0, ato = 1, aduration = 0,pfrom = \"180,0\",pto = \"180,0\",pduration = 45)]\n[cgitem(image=\"cgitem_70_i17_3\", style=\"cg\",layer = 2, afrom = 0, ato = 1, aduration = 0,pfrom = \"260,0\",pto = \"210,0\",pduration = 45,sfrom = 1, sto = 1.1, sduration = 45)]\n[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.2, yScaleTo=1.2, duration=45, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[name=\"易\"]三哥？\n[name=\"绩\"]……二哥把我赶出来了，我没处可去，就来帮你一把。\n[name=\"易\"]哈哈哈哈……当真有此事？\n[name=\"绩\"]有什么真不真。\n[name=\"易\"]今天要三哥帮这么大的忙，可要算欠你一大笔了……\n[name=\"绩\"]你什么时候真的把欠我的账放在心上过？\n[name=\"易\"]哪里的话，明明是三哥宽宏大度，不好意思找弟弟妹妹算账才对。\n[name=\"绩\"]哼……\n[name=\"绩\"]我帮你镇岁，还是帮你照顾邙山镇？\n[name=\"易\"]先除了这些伥，护卫邙山镇，再镇压祂也不迟。我们毕竟有两个人，只要够快，就可以两不耽误。\n[name=\"绩\"]这么贪心？\n[name=\"易\"]我贪心，你又不是第一天知道了。\n[name=\"绩\"]也是。若是我今天不来，这些你辛苦收集来的奇花异草、良木怪石，就这么毁于一旦，倒也可惜。\n[name=\"易\"]……再找三哥要就是了。"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C23"
+          ],
+          "from": "npc_9bf75aeed8254c8c",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [
+            "C23"
+          ],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_9bf75aeed8254c8c"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 342,
+          "kind": "story",
+          "line": 319,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "npc_6ee68205c0c1758b|npc_9bf75aeed8254c8c"
+}

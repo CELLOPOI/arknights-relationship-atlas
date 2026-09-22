@@ -1,0 +1,32 @@
+{
+  "id": "import:char_135_halo|char_4230_mcnist",
+  "published": true,
+  "quote": "Mechanist：从白面鸮同步给我们的记录来看，除她之外，同为罗德岛合作干员、就职于莱茵生命能量科的埃琳娜……\nMechanist：连同莱茵生命源石技艺应用科主任多萝西·弗兰克斯，一起遭到了拓荒者的绑架。\nMechanist：而几乎与此同时，塞雷娅告诉我们，莱茵生命生态科主任缪尔赛思在发出紧急求援信息之后就失踪了，目前生死未卜。\n\n白面鸮：……\n赫默：乔伊丝！\n埃琳娜：怎么会……怎么会这样？\n埃琳娜：不，放开乔伊丝……不要伤害她！\nMechanist：从地面痕迹来看，她刚走过了这里。\n\n斐尔迪南：埃琳娜，我会把你留在这里。\n斐尔迪南：你为实验付出了许多，我尊重你的成果，你有资格与我一起见证它能给我们带来的辉煌。\n埃琳娜：你把整座基地……当作培养皿，置那么多拓荒者于险境，就为了那巨型造物的降生……\n埃琳娜：除了灾难以外，它又能带来什么？！\n\n凯尔希：白面鸮已经在埃琳娜的陪同下返回本舰接受机能检查与治疗，Mechanist在执行新的任务。接下来，我将与你共同行动。\n伊芙利特：还有我！还有……",
+  "relationship_id": "char_135_halo|char_4230_mcnist",
+  "sources": [
+    {
+      "endLine": 40,
+      "kind": "story",
+      "line": 38,
+      "source": "activities/act19side/level_act19side_01_beg.txt"
+    },
+    {
+      "endLine": 700,
+      "kind": "story",
+      "line": 677,
+      "source": "activities/act19side/level_act19side_04_beg.txt"
+    },
+    {
+      "endLine": 286,
+      "kind": "story",
+      "line": 275,
+      "source": "activities/act19side/level_act19side_08_beg.txt"
+    },
+    {
+      "endLine": 150,
+      "kind": "story",
+      "line": 148,
+      "source": "activities/act25side/level_act25side_01_beg.txt"
+    }
+  ]
+}

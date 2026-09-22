@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 352,
+          "line": 318,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_ex01_end.txt",
+          "quote": "[name=\"Aya\"]  没想到这里还有信使。\n[Character(name=\"npc_2001_Aya_rock\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  我也没想到只在杂志上见过的AUS竟然会来到这里。\n[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=1)]\n[name=\"Alty\"]  祖玛玛呢？\n[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  她在制造你们想要的音响，所以由我来给你带路。\n[name=\"依娜姆\"]  你们打算在这里待多久？\n[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=1)]\n[name=\"Alty\"]  也许是一周，也许是一个月，也许是一年。\n[name=\"Alty\"]  这里点燃了我们，那我们至少要在这里尽兴才行。\n[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  那么这里应该更加适合你们演出。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Background(image=\"bg_temple_1\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"npc_2002_Dan_rock\")]\n[name=\"Dan\"]  好酷的地方！\n[Character(name=\"npc_2004_Alty_rock\")]\n[name=\"Alty\"]  这里是……某种神庙？\n[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=2)]\n[name=\"依娜姆\"]  没错，这里过去是所有部族聚集在一起举办“玛维索提亚”的地方，不过自从嘉维尔离开后，已经很久没有用过了。\n[Character(name=\"npc_2001_Aya_rock\")]\n[name=\"Aya\"]  “玛维索提亚”？\n[Character(name=\"npc_2004_Alty_rock\")]\n[name=\"Alty\"]  嘉维尔？我好像在罗德岛上看过这个名字……算了，应该只是同名吧。\n[Character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]  你们可以在这里进行你们的演出。\n[Character(name=\"npc_2003_Frost_rock\")]\n[name=\"Frost\"]  让这里的人享受最好的音乐吧。\n[Character(name=\"npc_2002_Dan_rock\")]\n[name=\"Dan\"]  哈哈，没错，在这里留下属于AUS的痕迹吧！"
+        }
+      ],
+      "description": "依娜姆接待AUS成员并相处两个月。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C13"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "依娜姆接待AUS成员并相处两个月。",
+          "status": "supported",
+          "to": "npc_f6f9eff5d6333a55"
+        },
+        {
+          "evidenceIds": [
+            "C13"
+          ],
+          "from": "npc_f6f9eff5d6333a55",
+          "reason": "依娜姆接待AUS成员并相处两个月。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 352,
+          "kind": "story",
+          "line": 318,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_ex01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "密林悍将归来"
+    }
+  ],
+  "relationship_id": "npc_e04ed917f7bcbf85|npc_f6f9eff5d6333a55"
+}

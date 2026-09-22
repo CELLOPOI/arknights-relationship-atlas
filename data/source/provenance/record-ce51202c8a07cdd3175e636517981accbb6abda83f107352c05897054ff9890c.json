@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 180,
+          "line": 148,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act43side/level_act43side_03_end.txt",
+          "quote": "[name=\"莫伊拉\"]……嗯。\n[charslot(slot=\"m\",name=\"avg_4191_tippi_1#2$1\")]\n[name=\"蒂比\"]可谢莉小姐走后我们不是继续看电影了吗？接下来放的是炎国僵尸片……哦——你确实出去了一段时间。\n[charslot(slot=\"m\",name=\"avg_npc_1831_1#1$1\")]\n[name=\"莫伊拉\"]迈克尔先生给我的终端发了简讯，他说在摄影棚里等我，找我咨询一些非常重要的问题。\n[charslot(slot=\"m\",name=\"avg_npc_1831_1#5$1\")]\n[name=\"莫伊拉\"]对不起蒂比，那天是我们约好的电影之夜，我不应该中途离开的，别生气了……\n[charslot(slot=\"m\",name=\"avg_4191_tippi_1#5$1\")]\n[name=\"蒂比\"]我确实在生气……\n[charslot(slot=\"m\",name=\"avg_npc_1831_1#5$1\")]\n[name=\"莫伊拉\"]蒂比……\n[charslot(slot=\"m\",name=\"avg_4191_tippi_1#5$1\")]\n[name=\"蒂比\"]我是在生气……气你怎么不叫我一起。\n[charslot(slot=\"m\",name=\"avg_npc_1831_1#3$1\")]\n[name=\"莫伊拉\"]嗯？\n[charslot(slot=\"m\",name=\"avg_4191_tippi_1#5$1\")]\n[name=\"蒂比\"]万一迈克尔对你不怀好意，他的花心已经突破了道德底线，或者因为上午拍摄中断无处发泄，看你性格软就故意欺负你……\n[charslot(slot=\"m\",name=\"avg_npc_1838_1#1$1\")]\n[name=\"迈克尔\"]嘿，我可从来不欺负女孩子的。\n[charslot(slot=\"m\",name=\"avg_4191_tippi_1#5$1\")]\n[name=\"蒂比\"]这话从你嘴里说出来可没有半点说服力。有时你对玛丽昂的态度都很糟糕，更别提对其他女孩子。\n[charslot(slot=\"m\",name=\"avg_npc_1839_1#2$1\")]\n[name=\"玛丽昂\"]呵，连涉世未深的小姑娘都能看穿你。\n[charslot(slot=\"m\",name=\"avg_npc_1838_1#2$1\")]\n[name=\"迈克尔\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1831_1#5$1\")]\n[name=\"莫伊拉\"]我本来想叫你陪我的，但迈克尔先生强调了只能一个人过去……\n[name=\"莫伊拉\"]我也待过几个剧组了，我很熟悉这种“套路”，以为又是某种欺负人的把戏，不想让你跟我一起承受。\n[charslot(slot=\"m\",name=\"avg_4191_tippi_1#9$1\")]\n[name=\"蒂比\"]莫丽……\n[name=\"蒂比\"]我在蓝卡坞工作的时间比你久一点，熟悉的工种也更多，再遇到类似的人，你一定要告诉我，我可以帮你想个绝妙的点子报复回去。\n[charslot(slot=\"m\",name=\"avg_npc_1831_1#9$1\")]\n[name=\"莫伊拉\"]知道了。"
+        }
+      ],
+      "description": "蒂比与莫伊拉是互相信任的剧组同伴。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_4191_tippi",
+          "reason": "蒂比直接称呼莫伊拉并谈及共同电影之夜。",
+          "status": "supported",
+          "to": "npc_d74d51b345271a02"
+        },
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_d74d51b345271a02",
+          "reason": "莫伊拉直接称呼蒂比并回应其担忧。",
+          "status": "supported",
+          "to": "char_4191_tippi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_3aa057c3830d75c1.json",
+      "sources": [
+        {
+          "endLine": 180,
+          "kind": "story",
+          "line": 148,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act43side/level_act43side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "蓝卡坞剧组调查期间",
+      "title": "红丝绒"
+    }
+  ],
+  "relationship_id": "char_4191_tippi|npc_d74d51b345271a02"
+}

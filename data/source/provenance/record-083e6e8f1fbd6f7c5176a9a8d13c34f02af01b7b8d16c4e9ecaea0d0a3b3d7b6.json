@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 305,
+          "line": 272,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act32side/level_act32side_07_beg.txt",
+          "quote": "[name=\"艾拉\"]一场“拼接起来”的恐怖袭击？\n[charslot(slot = \"m\", name = \"avg_282_catap_1#10$1\")]\n[name=\"空爆\"]布设炸弹的雷内尔和控制人群的上尉好像都不知道对方要做什么，反正埃内斯托是这么说的。\n[charslot(slot = \"m\", name = \"avg_4124_iana_1#6$1\")]\n[name=\"双月\"]……两个疯子。\n[charslot(slot = \"m\", name = \"avg_4123_ela_1#6$1\")]\n[name=\"艾拉\"]这两个人确实很疯。我们必须按最坏的可能做准备，一切以被卷入事件的人质优先。\n[name=\"艾拉\"]商议一下具体的行动方案。我方人员总共五名，双月、医生、导火索、我，还有罗德岛的空爆……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1214_1#1$1\", duration=1.5, isblock=true)]\n[name=\"迪亚兹\"]还得算我一个。\n[charslot(slot = \"m\", name = \"avg_4125_rdoc_1#13$1\")]\n[name=\"医生\"]你确定？\n[charslot(slot = \"m\", name = \"avg_npc_1214_1#1$1\")]\n[name=\"迪亚兹\"]别忘了我以前是做什么的。\n[charslot(slot = \"m\", name = \"avg_npc_1214_1#7$1\")]\n[name=\"迪亚兹\"]再说，既然艺术馆里困着的不光雷内尔那个混球，也不光那群投资客，还有那么多普通人，我没理由不去。\n[charslot(slot = \"m\", name = \"avg_npc_1212_1#6$1\")]\n[name=\"特克诺\"]老爹……\n[charslot(slot = \"m\", name = \"avg_npc_1214_1#1$1\")]\n[name=\"迪亚兹\"]不用劝我，我是一定要去的。\n[charslot(slot = \"m\", name = \"avg_npc_1212_1#7$1\")]\n[name=\"特克诺\"]谁要劝你了？我也要去！\n[charslot(slot = \"m\", name = \"avg_npc_1214_1#6$1\")]\n[name=\"迪亚兹\"]你？\n[name=\"迪亚兹\"]你和其他人就算了，那里面相当危险——\n[charslot(slot = \"m\", name = \"avg_npc_1212_1#7$1\")]\n[name=\"特克诺\"]老爹，你也不想想，除了没当过消防员，你说的话哪条不是大家心里想的？\n[charslot(slot = \"m\", name = \"avg_npc_1212_1#3$1\")]\n[name=\"特克诺\"]大伙儿听我说，我们现在要去艺术馆里面救人！\n[name=\"特克诺\"]这件事完全自愿，想去的人到前面来，听艾拉他们的指挥！\n[name=\"特克诺\"]不想去也没关系，赶紧回社区，免得马特奥在完蛋之前对我们的社区动手脚，把我们也拖下水！"
+        }
+      ],
+      "description": "救援行动商议现场具体谈论控制人群的上尉马特奥；五人由艾拉逐一列名，特克诺点名马特奥，支持知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_282_catap",
+          "reason": "救援行动商议现场具体谈论控制人群的上尉马特奥；五人由艾拉逐一列名，特克诺点名马特奥，支持知晓。",
+          "status": "supported",
+          "to": "npc_8570ddffc57e187c"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8570ddffc57e187c",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_282_catap"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_f300d620eb2f9612.json",
+      "sources": [
+        {
+          "endLine": 305,
+          "kind": "story",
+          "line": 272,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act32side/level_act32side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "水晶箭行动"
+    }
+  ],
+  "relationship_id": "char_282_catap|npc_8570ddffc57e187c"
+}

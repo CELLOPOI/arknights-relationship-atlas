@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 809,
+          "line": 780,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_beg.txt",
+          "quote": "[name=\"老鲤\"]  所以你打算来找我……呃，帮忙，其实是为了和我演一出戏咯？\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#4$1\", focus=1)]\n[name=\"杜小姐\"]  没错。\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#8$1\", focus=2)]\n[name=\"老鲤\"]  杜遥夜……是小姐的名字？\n[Character(name=\"avg_npc_296_1#9$1\",name2=\"avg_322_lmlee_1#8$1\", focus=1)]\n[name=\"杜小姐\"]  干、干嘛？\n[Character(name=\"avg_npc_296_1#9$1\",name2=\"avg_322_lmlee_1#9$1\", focus=2)]\n[name=\"老鲤\"]  靓杪秋之遥夜兮，心缭悷而有哀。遥夜遥夜，遥遥长夜，不错的名字。\n[Character(name=\"avg_npc_296_1#7$1\",name2=\"avg_322_lmlee_1#9$1\", focus=1)]\n[name=\"杜小姐\"]  可惜本小姐更喜欢黄昏出游。\n[Character(name=\"avg_npc_296_1#7$1\",name2=\"avg_322_lmlee_1#1$1\", focus=2)]\n[name=\"老鲤\"]  ……既然是买卖，那你打算替我做些什么？\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#1$1\", focus=1)]\n[name=\"杜小姐\"]  有人想要你手里的东西，朝廷的人，可你没给。你知道这意味着什么。\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#1$1\", focus=2)]\n[name=\"老鲤\"]  可我的朋友也没让我给啊，我的朋友何尝就不是朝廷的人？\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#1$1\", focus=1)]\n[name=\"杜小姐\"]  梁大人专程托你来，应该有别的事吧？\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#8$1\", focus=2)]\n[name=\"老鲤\"]  小事罢了。\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#8$1\", focus=1)]\n[name=\"杜小姐\"]  随便吧，我不感兴趣。只是事到如今，无论你打算怎么做，都别想置身事外了。\n[name=\"杜小姐\"]  至于我，会是你的帮手。起码，我能保证最后你安然无恙回去龙门。\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#2$1\", focus=2)]\n[name=\"老鲤\"]  ……有道理。\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#1$1\", focus=2)]\n[name=\"老鲤\"]  那么一言为定。\n[Character(name=\"avg_npc_296_1#1$1\",name2=\"avg_322_lmlee_1#1$1\", focus=1)]\n[name=\"杜小姐\"]  ……一言为定。"
+        }
+      ],
+      "description": "老鲤点出杜遥夜名字，双方商谈合作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "老鲤点出杜遥夜名字，双方商谈合作。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        },
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "老鲤点出杜遥夜名字，双方商谈合作。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 809,
+          "kind": "story",
+          "line": 780,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_322_lmlee|npc_ebce98658cbda852"
+}

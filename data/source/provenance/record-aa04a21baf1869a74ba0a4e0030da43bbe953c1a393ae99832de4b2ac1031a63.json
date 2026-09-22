@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 454,
+          "line": 377,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"休露丝\"]（莫希？！）\n[name=\"休露丝\"]（怎么回事啊？怎么会是莫希被抓啊！难、难道说之前说的计划就是指行刺？！）\n[Character(name=\"avg_npc_262_1#7$1\", name2=\"avg_npc_263_1#1$1\",focus=1)]\n[name=\"休露丝\"]（……啊呀，这个笨蛋！）\n[Dialog]\n[Character(name=\"avg_npc_262_1#7$1\", name2=\"avg_npc_263_1#2$1\")]\n[characteraction(name=\"left\", type=\"move\", xpos=-50, fadetime=1.2,block=false)]\n[delay(time=1.2)]\n[characteraction(name=\"right\", type=\"move\", xpos=-150, fadetime=1,block=false)]\n[delay(time=1)]\n[Character(name=\"avg_npc_262_1#7$1\", name2=\"avg_npc_263_1#2$1\",focus=2)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"尤卡坦\"]（等等，露丝，你要干什么？！）\n[Character(name=\"avg_npc_258_1#1$1\")]\n[name=\"大长老\"]扰乱圣猎的刺客，报上你的名字。\n[Character(name=\"avg_npc_255_1#6$1\")]\n[name=\"莫希\"]……\n[Character(name=\"avg_npc_258_1#1$1\")]\n[name=\"大长老\"]为何……咳咳，要行刺恩希欧迪斯大人？\n[Character(name=\"avg_npc_255_1#6$1\")]\n[name=\"莫希\"]……\n[name=\"莫希\"]要杀便杀，不必多说。\n[Character(name=\"avg_npc_258_1#6$1\")]\n[name=\"大长老\"]……\n[name=\"大长老\"]刺客，闭口不言并不能挽救你的性命。\n[name=\"大长老\"]在神圣仪式中对耶拉冈德不敬的罪过必须得到相应的惩戒。\n[name=\"大长老\"]你可知若你执意如此，按照戒律，现在我便可下令将你在此处决！\n[Character(name=\"avg_npc_255_1#6$1\")]\n[name=\"莫希\"]……\n[Character(name=\"avg_npc_258_1#6$1\")]\n[name=\"大长老\"]唉，看来只能按律处置了。\n[Dialog]\n[Character]\n[dialog]\n[character]\n[delay(time=1)]\n[PlaySound(key=\"$d_gen_soldiersrun\", volume=1)]\n[Character(name=\"avg_npc_283_1#1$1\",enter=\"left\",name2=\"avg_npc_283_1#1$1\",enter2=\"right\",fadetime=1.5,block=true)]\n[Delay(time=3)]\n[Character(name=\"avg_npc_258_1#6$1\")]\n[name=\"大长老\"]……至于你的身份，就算你不说，相信也不会难查……\n[Character(name=\"avg_npc_255_1#2$1\")]\n[name=\"莫希\"]……\n[Character(name=\"avg_npc_262_1#8$1\", name2=\"avg_npc_263_1#2$1\",focus=1)]\n[name=\"休露丝\"]慢着！\n[Character(name=\"avg_npc_255_1#4$1\")]\n[name=\"莫希\"]——！\n[Character(name=\"avg_npc_262_1#8$1\", name2=\"avg_npc_263_1#2$1\",focus=2)]\n[name=\"尤卡坦\"]露丝！\n[Dialog]\n[Character(name=\"avg_npc_262_1#8$1\", name2=\"avg_npc_263_1#2$1\")]\n[characteraction(name=\"left\", type=\"move\", xpos=-100, fadetime=1,block=false)]\n[delay(time=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=-300, fadetime=0.5,block=false)]\n[delay(time=0.51)]\n[characteraction(name=\"left\", type=\"move\", xpos=100, fadetime=1,block=false)]\n[characteraction(name=\"right\", type=\"move\", xpos=100, fadetime=0.5,block=false)]\n[delay(time=0.51)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Character(name=\"avg_npc_262_1#8$1\", name2=\"avg_npc_263_1#2$1\",focus=2)]\n[Character(name=\"avg_npc_262_1#8$1\", name2=\"avg_npc_263_1#2$1\",focus=1)]\n[name=\"休露丝\"]尤卡坦，干什么……你放开我！\n[name=\"休露丝\"]莫希是我的部下，我不能让人随便处置她！\n[Character(name=\"avg_npc_258_1#6$1\")]\n[name=\"大长老\"]休露丝夫人，此话当真？\n[Character(name=\"avg_npc_253_1#8$1\")]\n[name=\"菈塔托丝\"]……休露丝！你给我回来！\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]这里不是给你胡闹的地方。尤卡坦，管好你的妻子！\n[Character(name=\"avg_npc_262_1#8$1\", name2=\"avg_npc_263_1#5$1\",focus=2)]\n[name=\"尤卡坦\"]……你不了解情况，露丝，先别闹，好吗？\n[name=\"尤卡坦\"]过来，来我这边。\n[Character(name=\"avg_npc_262_1#8$1\", name2=\"avg_npc_263_1#5$1\",focus=1)]\n[name=\"休露丝\"]我没闹！我怎么不了解情况了？\n[name=\"休露丝\"]他们都那样了，我再不出来，他们就真的要冤枉莫希是什么刺客了！\n[name=\"休露丝\"]我——\n[Character(name=\"avg_npc_253_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]"
+        }
+      ],
+      "description": "莫希在刚结束献礼的典礼现场受审，休露丝当众辨认并阻拦，尤卡坦菈塔托丝出声，初雪及阿克托斯瓦莱丝仍在同一局部典礼中。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E120"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "莫希在刚结束献礼的典礼现场受审，休露丝当众辨认并阻拦，尤卡坦菈塔托丝出声，初雪及阿克托斯瓦莱丝仍在同一局部典礼中。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        },
+        {
+          "evidenceIds": [
+            "E120"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "莫希在刚结束献礼的典礼现场受审，休露丝当众辨认并阻拦，尤卡坦菈塔托丝出声，初雪及阿克托斯瓦莱丝仍在同一局部典礼中。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 454,
+          "kind": "story",
+          "line": 377,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 654,
+          "line": 594,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "quote": "[name=\"莫希\"]——！\n[charslot(slot=\"m\",name=\"avg_npc_255_1#7$1\",focus=\"m\")]\n[name=\"莫希\"]那是维多利亚的士兵，不太对劲，他们穿戴着制式装备，还带着武器！\n[name=\"莫希\"]外面好像出事了！\n[charslot(slot=\"m\",name=\"avg_npc_255_1#6$1\",focus=\"m\")]\n[name=\"莫希\"]夫人，您先躲……\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_clothmovement\",volume=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Delay(time=1)]\n黑发少女下意识地想要伸手护住自己的雇主。\n但她的话音未落，休露丝就已经先一步撞进她怀中，将两人塞进了站内的角落，并伸手捂住了她的嘴。\n[charslot(slot=\"l\",name=\"avg_npc_262_1#7$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_255_1#5$1\",focus=\"l\")]\n[name=\"休露丝\"]（嘘！）\n[name=\"休露丝\"]（别说话，莫希，我们先躲一躲！）\n[name=\"休露丝\"]（维多利亚人……不是说只是来观礼外加祝贺的吗？哼，这下小辫子终于露出来了。）\n[name=\"休露丝\"]（他们的动作好像还不小。）\n[name=\"休露丝\"]（……菈塔托丝那女人那里不知道会不会有什么危险。）\n[charslot(slot=\"r\",name=\"avg_npc_255_1#5$1\",focus=\"r\")]\n[name=\"莫希\"]（夫人，那边有山雪鬼小队跟随，还有喀兰贸易的锏在，应该暂时不会出事。）\n[charslot(slot=\"l\",name=\"avg_npc_262_1#9$1\",focus=\"l\")]\n[name=\"休露丝\"]（嗯……你说得有道理。）\n[name=\"休露丝\"]（有尤卡坦在，他肯定能护好姐姐。）\n[charslot(slot=\"r\",name=\"avg_npc_255_1#5$1\",focus=\"r\")]\n[name=\"莫希\"]（……）\n[name=\"莫希\"]（那夫人，属下先送您去安全的地方，然后再去支援尤卡坦老爷。）\n[charslot(slot=\"l\",name=\"avg_npc_262_1#7$1\",focus=\"l\")]\n[name=\"休露丝\"]（……不，我得在这看着他们，万一出什么事，还能拦一拦。）\n[name=\"休露丝\"]（放心，我在这里不会有事。就算我出面，看在我是和维多利亚有多项商业合作的使者的分上，他们也不会对我怎么样。）\n[charslot(slot=\"r\",name=\"avg_npc_255_1#5$1\",focus=\"r\")]\n[name=\"莫希\"]（夫人……）\n[charslot(slot=\"l\",name=\"avg_npc_262_1#8$1\",focus=\"l\")]\n[name=\"休露丝\"]（你这是什么表情！我说过，别用三年前的眼光看我！）\n[charslot(slot=\"l\",name=\"avg_npc_262_1#7$1\",focus=\"l\")]\n[name=\"休露丝\"]（比起这个，莫希，我现在要你去做一件事。）\n[charslot(slot=\"r\",name=\"avg_npc_255_1#3$1\",focus=\"r\")]\n[name=\"莫希\"]（……是！夫人尽管吩咐！）\n[charslot(slot=\"l\",name=\"avg_npc_262_1#7$1\",focus=\"l\")]\n[name=\"休露丝\"]（那个恩希欧迪斯不可能对维多利亚人的动向毫无防备，如今会闹出这么大的动静，我只能想到是他布置的人手出了什么问题。）\n[name=\"休露丝\"]（莫希，我要你去替我查查，那边到底怎么回事，有机会的话，让希瓦艾什欠我们布朗陶一个人情也不错。）\n[charslot(slot=\"r\",name=\"avg_npc_255_1#1$1\",focus=\"r\")]\n[name=\"莫希\"]（明白，属下领命。）\n[name=\"莫希\"]（……）\n[charslot(slot=\"l\",name=\"avg_npc_262_1#7$1\",focus=\"l\")]\n[name=\"休露丝\"]（怎么了？）\n[charslot(slot=\"r\",name=\"avg_npc_255_1#9$1\",focus=\"r\")]\n[name=\"莫希\"]（夫人……）\n[name=\"莫希\"]（您真的成长了。）\n[charslot(slot=\"l\",name=\"avg_npc_262_1#4$1\",focus=\"l\")]\n[name=\"休露丝\"]（要、要你说啦！）\n[name=\"休露丝\"]（你可是比我年龄还小欸，少装出一副姐姐的样子！应该你叫我姐姐才对！）\n[charslot(slot=\"r\",name=\"avg_npc_255_1#9$1\",focus=\"r\")]\n[name=\"莫希\"]（属下可以吗？）\n[charslot(slot=\"l\",name=\"avg_npc_262_1#9$1\",focus=\"l\")]\n[name=\"休露丝\"]（咳咳，这个……这个回头再说！）\n[charslot(slot=\"l\",name=\"avg_npc_262_1#7$1\",focus=\"l\")]\n[name=\"休露丝\"]（好了，快去吧！）\n[charslot(slot=\"r\",name=\"avg_npc_255_1#9$1\",focus=\"r\")]\n[name=\"莫希\"]（是！）"
+        }
+      ],
+      "description": "莫希知晓并准备支援尤卡坦。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "莫希明确讨论尤卡坦的安危并接受相关调查/支援任务。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "尤卡坦不在车站对话现场，未见回应莫希。",
+          "status": "not_established",
+          "to": "npc_5b6d9a80bb2c7211"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 654,
+          "kind": "story",
+          "line": 594,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "维多利亚军控制车站期间",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "npc_5b6d9a80bb2c7211|npc_669b66161e12a7ca"
+}

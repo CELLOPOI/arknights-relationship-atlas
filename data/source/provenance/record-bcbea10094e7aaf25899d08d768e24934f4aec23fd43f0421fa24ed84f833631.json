@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 620,
+          "line": 594,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_beg.txt",
+          "quote": "[name=\"哈维尔\"]让那丫头安静点……\n[Dialog]\n[PlaySound(key=\"$d_avg_runstop\", volume=0.7)]\n[charslot(slot=\"r\", afrom=1,ato=0,duration=0.5)]\n[Delay(time=1.2)]\n[charslot(slot = \"l\", name = \"avg_npc_1579_1#6$2\",focus=\"n\")]\n[name=\"帕斯卡拉\"]鳞屎坨子你……唔！唔！\n[charslot(slot = \"l\", name = \"avg_npc_1579_1#1$2\",focus=\"l\")]\n[name=\"哈维尔\"]鲁斯，消息我已经让人递出去了，护送的队伍马上就准备好，一会儿你先带着这丫头离开，我去首领的房间找罗盘。\n[name=\"哈维尔\"]等到我找到，就会跟上你的。\n[Dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_450_1#8$1\",focus=\"m\")]\n[name=\"极境\"]咳咳，这位先生，请问你们这是要发动一场叛变还是怎么的？我有点不是太理解现在的状况。\n[name=\"极境\"]谁能给我解释一下？\n[charslot(slot = \"m\", name = \"avg_npc_1590_1#1$1\",focus=\"m\")]\n[name=\"鲁斯\"]我们要把他一起交出去吗？\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#1$2\",focus=\"m\")]\n[name=\"哈维尔\"]交出去吧。\n[charslot(slot = \"m\", name = \"avg_npc_450_1#8$1\",focus=\"m\")]\n[multiline(name=\"极境\")]棘刺不会……\n[charslot(slot = \"m\", name = \"avg_npc_450_1#5$1\",focus=\"m\")]\n[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=60,duration=0.5)]\n[multiline(name=\"极境\")]我……唔！唔！\n[Dialog]\n[charslot(slot = \"m\", name = \"avg_npc_1590_1#1$1\",focus=\"m\")]\n[name=\"鲁斯\"]我把他的嘴堵上了，不然这房间没法清静。"
+        }
+      ],
+      "description": "二人同场谋划交出俘虏。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_0a8b187bfc318db9",
+          "reason": "二人同场谋划交出俘虏。",
+          "status": "supported",
+          "to": "npc_87fe432572eae97e"
+        },
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_87fe432572eae97e",
+          "reason": "二人同场谋划交出俘虏。",
+          "status": "supported",
+          "to": "npc_0a8b187bfc318db9"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 620,
+          "kind": "story",
+          "line": 594,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "npc_0a8b187bfc318db9|npc_87fe432572eae97e"
+}

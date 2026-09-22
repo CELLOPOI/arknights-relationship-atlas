@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 212,
+          "line": 195,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_08_beg.txt",
+          "quote": "[name=\"蕾缪安\"]而且，从之前的记载来看，吃下这些东西的后果是不可逆的……他如果真的已经让人吃下了这些，就没有必要再对我们说谎。\n[charslot(slot=\"l\",name=\"avg_4015_spuria_1#12$1\",focus=\"l\")]\n[name=\"斯普莉雅\"]那就说明有人偷走了这份“圣餐”。\n[charslot(slot=\"r\",name=\"avg_npc_925_1#6$1\",focus=\"r\")]\n[name=\"蕾缪安\"]我们必须立刻找到这个人。\n[charslot(slot=\"l\",name=\"avg_4015_spuria_1#6$1\",focus=\"l\")]\n[name=\"斯普莉雅\"]呃，在这么大的修道院里找人，是不是有点太困难了？\n[charslot(slot=\"r\",name=\"avg_npc_925_1#8$1\",focus=\"r\")]\n[name=\"蕾缪安\"]……\n[name=\"蕾缪安\"]我在想，我们好像都忘记了一些事情。\n[name=\"蕾缪安\"]比如，杰拉尔德听说了那个萨科塔女孩堕天，这件事给了他很大打击。\n[name=\"蕾缪安\"]但我们绝不可能把堕天的消息传出去，杰拉尔德是如何得知了这件事？\n[charslot(slot=\"r\",name=\"avg_npc_925_1#6$1\",focus=\"r\")]\n[name=\"蕾缪安\"]再比如，圣堂的那场火，究竟是怎么回事？\n[name=\"蕾缪安\"]如果没有其他人的支持，主教或许也不会如此一意孤行……\n[name=\"蕾缪安\"]在这一切之后，恐怕失望的人不止主教一位。\n[charslot(slot=\"l\",name=\"avg_4015_spuria_1#3$1\",focus=\"l\")]\n[name=\"斯普莉雅\"]……我记得，福尔图娜走进礼拜堂时，在场的还有一个人。"
+        }
+      ],
+      "description": "斯普莉雅知晓杰拉尔德，证据仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_4015_spuria",
+          "reason": "斯普莉雅在调查对话中听到并参与讨论杰拉尔德。",
+          "status": "supported",
+          "to": "npc_bca27cc42d04b865"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_bca27cc42d04b865",
+          "reason": "候选窗未见杰拉尔德识别斯普莉雅；相邻发言被转场隔开。",
+          "status": "not_established",
+          "to": "char_4015_spuria"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d3659cc008c9f040.json",
+      "sources": [
+        {
+          "endLine": 212,
+          "kind": "story",
+          "line": 195,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "修道院调查期间",
+      "title": "空想花庭"
+    }
+  ],
+  "relationship_id": "char_4015_spuria|npc_bca27cc42d04b865"
+}

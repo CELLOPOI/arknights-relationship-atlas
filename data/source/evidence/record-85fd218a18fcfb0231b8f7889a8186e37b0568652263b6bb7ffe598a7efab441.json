@@ -1,0 +1,22 @@
+{
+  "id": "import:npc_03f95afb5dd17c3f|npc_4cf393656bead901",
+  "published": true,
+  "quote": "【熔炉“还魂”记】\n埃芒加德：老师！您那边还好吗？\n埃芒加德：仪器监测到熔炉能量不太稳定……是仪式出了什么问题吗？需不需要我搭把手？\n弗莱蒙特：咳咳……咳——！\n弗莱蒙特：别过来！还用不着你！\n弗莱蒙特：*激烈的萨卡兹粗口*……我发誓，今晚不把这几个老东西收拾利索，我就去给曼弗雷德擦鞋！\n\n【惊霆无声】\n？？？：……\n萨卡兹士兵：怎么了，埃芒加德女士？\n埃芒加德：别叫我女士，我还没那么老。\n萨卡兹士兵：抱歉，埃芒加德……小姐？我搞不太清你们巫妖的年纪……\n埃芒加德：唉，算了，就叫我埃芒加德女士吧。\n埃芒加德：这艘高速军舰毁得还真彻底，啧，血魔的人还又把这里洗了一遍。\n萨卡兹士兵：曼弗雷德将军说，这会是萨卡兹胜利的开始。\n埃芒加德：哼，萨卡兹的胜利。\n埃芒加德：唉，那位凯尔希女士一再警告我，这样的未来无法给我们带来任何东西。\n埃芒加德：可我还是不明白，我的老师为什么会有一位菲林老朋友？\n埃芒加德：走吧，我讨厌这里的味道。\n萨卡兹士兵：请跟我来，特蕾西娅殿下在等您。",
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_4cf393656bead901",
+  "sources": [
+    {
+      "endLine": 291,
+      "kind": "story",
+      "line": 283,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st01.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 233,
+      "kind": "story",
+      "line": 212,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-08_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

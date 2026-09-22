@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 601,
+          "line": 585,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "quote": "[name=\"锏\"]说起来，这个罗德岛的博士，你有多了解？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=2)]\n[name=\"恩希欧迪斯\"]一位优秀的学者，专业能力足够出众，也足以知道与我合作会为罗德岛带来多少收益。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=2)]\n[name=\"恩希欧迪斯\"]他能够迅速了解情况，接受突发安排，这也说明我看对了人。为什么突然问这个？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]我可不觉得他只是一个“学者”。他确实有很强的嗅觉，而且比你的预期要高。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]这位博士，让我向你问好。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#2$1\",focus=2)]\n[name=\"恩希欧迪斯\"]……\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=2)]\n[name=\"恩希欧迪斯\"]你觉得他预想到了？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=1)]\n[name=\"锏\"]他完全不惊讶。不仅仅是认识到了情况，而且，我要强调这点，他没有表现过一丝惊讶。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=1)]\n[name=\"锏\"]此外他知道我是谁。"
+        }
+      ],
+      "description": "锏报告博士托她问好并知道她身份，支持双方此前实际交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "锏报告博士托她问好并知道她身份，支持双方此前实际交流。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "锏报告博士托她问好并知道她身份，支持双方此前实际交流。",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 601,
+          "kind": "story",
+          "line": 585,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 686,
+          "line": 670,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "quote": "[name=\"锏\"]咳，你是……\n[name=\"锏\"]Sharp？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]少说点话，你现在伤重。\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"none\")]\n[name=\"锏\"]博士让你来的？\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]博士和银灰先生一直有联络。听说谢拉格发生了天灾，博士猜到你们会遇到麻烦。\n[name=\"Sharp\"]虽然现在实在腾不开手，但博士答应过，只要谢拉格有难，不会坐视不理。\n[name=\"Sharp\"]我已经通知罗德岛增援，他们随后赶到。\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"none\")]\n[name=\"锏\"]……\n[name=\"锏\"]恩希欧迪斯呢？\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]不用担心，相信银灰先生已对局面有所掌控。\n[name=\"Sharp\"]坚持住，锏，最艰难的时候你已经挺过去了。"
+        }
+      ],
+      "description": "锏与博士通过已执行的援助指令双向确认。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N23"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "锏当面得知博士派 Sharp 来援。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "N23"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士预判银灰一行遇到麻烦并专门派出 Sharp。",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 686,
+          "kind": "story",
+          "line": 670,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛援助雪山",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 176,
+          "line": 153,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_05_end.txt",
+          "quote": "[name=\"锏\"]不过，你确定放任“灰礼帽”接近那个女孩，之后那个博士不会找你麻烦？\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#1$1\",focus=\"none\")]\n[CharacterCutin(widgetID=\"1\", name=\"avg_172_svrash_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=350, width=300, block=true)]\n[name=\"恩希欧迪斯\"]“灰礼帽”是间谍，不是杀手，他要的是情报，而不是性命。\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#10$1\")]\n[name=\"锏\"]你打算这么向那个博士解释？\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#10$1\",focus=\"none\")]\n[CharacterCutin(widgetID=\"1\", name=\"avg_172_svrash_1#2$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=350, width=300, block=true)]\n[name=\"恩希欧迪斯\"]博士那边我会向他——道歉。\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#1$1\")]\n[name=\"锏\"]你确实该道歉。\n[CharacterCutin(widgetID=\"1\", name=\"avg_172_svrash_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=350, width=300, block=true)]\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#1$1\",focus=\"none\")]\n[name=\"恩希欧迪斯\"]我如何不重要，相比之下，我更好奇——\n[name=\"恩希欧迪斯\"]锏，你也记住博士了？\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#1$1\")]\n[name=\"锏\"]Sharp作为对手来说还不错，比大部分草包骑士强得多。\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#9$1\")]\n[name=\"锏\"]能被那样的战士推崇，又能让你吃点亏，这人记一记也无妨。\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#9$1\",focus=\"none\")]\n[CharacterCutin(widgetID=\"1\", name=\"avg_172_svrash_1#4$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=350, width=300, block=true)]\n[name=\"恩希欧迪斯\"]你对博士很好奇？\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#1$1\")]\n[name=\"锏\"]可以这么说。"
+        }
+      ],
+      "description": "锏因Sharp与恩希欧迪斯的经历而记住博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "锏明确说明自己记住并好奇博士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在场，未见其知晓锏。",
+          "status": "not_established",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 176,
+          "kind": "story",
+          "line": 153,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典前的密探安排",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_4116_blkkgt|npc_b99957887950ebfd"
+}

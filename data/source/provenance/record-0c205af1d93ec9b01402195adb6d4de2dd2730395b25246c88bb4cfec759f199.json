@@ -1,0 +1,147 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 763,
+          "line": 739,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_svrash_1_1.txt",
+          "quote": "[name=\"恩希欧迪斯\"]  是这样对吧，Dr.{@nickname}。\n[dialog]\n[Decision(options=\"……正是如此。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_001\")]\n[name=\"感染者员工？\"]  啊？博士，还有这种事吗？！\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]  接下来，罗德岛愿意为在工作的所有员工提供一次免费的现场体检。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_undergroundF\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Character(name=\"char_016_medic\")]\n[name=\"Medic\"]  各位员工，请在这边排队，我们会为每个人都发放一份镇痛剂。\n[Character(name=\"avg_172_svrash_1#9$1\")]\n[name=\"恩希欧迪斯\"]  ……\n[dialog]\n[Decision(options=\"你是什么时候发现的？\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]  这个问题过于缺乏意义。\n[name=\"恩希欧迪斯\"]  应该是我反问你，你真的有打算骗过我吗？罗德岛的Dr.{@nickname}。\n[dialog]\n[Decision(options=\"没有。\",values=\"1\")]"
+        }
+      ],
+      "description": "银灰称呼Dr.玩家名并与博士当面对答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_172_svrash",
+          "reason": "银灰称呼Dr.玩家名并与博士当面对答。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "银灰称呼Dr.玩家名并与博士当面对答。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_c5839001a6ec71ba.json",
+      "sources": [
+        {
+          "endLine": 763,
+          "kind": "story",
+          "line": 739,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_svrash_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "银灰"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 611,
+          "line": 585,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "quote": "[name=\"锏\"]说起来，这个罗德岛的博士，你有多了解？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=2)]\n[name=\"恩希欧迪斯\"]一位优秀的学者，专业能力足够出众，也足以知道与我合作会为罗德岛带来多少收益。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=2)]\n[name=\"恩希欧迪斯\"]他能够迅速了解情况，接受突发安排，这也说明我看对了人。为什么突然问这个？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]我可不觉得他只是一个“学者”。他确实有很强的嗅觉，而且比你的预期要高。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]这位博士，让我向你问好。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#2$1\",focus=2)]\n[name=\"恩希欧迪斯\"]……\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=2)]\n[name=\"恩希欧迪斯\"]你觉得他预想到了？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=1)]\n[name=\"锏\"]他完全不惊讶。不仅仅是认识到了情况，而且，我要强调这点，他没有表现过一丝惊讶。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=1)]\n[name=\"锏\"]此外他知道我是谁。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=2)]\n[name=\"恩希欧迪斯\"]看来他有备而来。 \n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]相信我的直觉，恩希欧迪斯，我看人很准。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]你这一步闲棋，恐怕要让自己多一个对手。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=2)]\n[name=\"恩希欧迪斯\"]对手？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#12$1\",focus=2)]\n[name=\"恩希欧迪斯\"]不，如果我搜集的情报和你的描述属实，博士就得成为我的盟友……或者，换个主语，我得成为他的盟友。"
+        },
+        {
+          "endLine": 601,
+          "line": 585,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "quote": "[name=\"锏\"]说起来，这个罗德岛的博士，你有多了解？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=2)]\n[name=\"恩希欧迪斯\"]一位优秀的学者，专业能力足够出众，也足以知道与我合作会为罗德岛带来多少收益。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=2)]\n[name=\"恩希欧迪斯\"]他能够迅速了解情况，接受突发安排，这也说明我看对了人。为什么突然问这个？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]我可不觉得他只是一个“学者”。他确实有很强的嗅觉，而且比你的预期要高。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]这位博士，让我向你问好。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#2$1\",focus=2)]\n[name=\"恩希欧迪斯\"]……\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=2)]\n[name=\"恩希欧迪斯\"]你觉得他预想到了？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=1)]\n[name=\"锏\"]他完全不惊讶。不仅仅是认识到了情况，而且，我要强调这点，他没有表现过一丝惊讶。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=1)]\n[name=\"锏\"]此外他知道我是谁。"
+        }
+      ],
+      "description": "银灰具体评价博士；锏明确转述博士托她向银灰问好，另立博士对银灰的知晓。两个方向分别有证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_172_svrash",
+          "reason": "银灰具体评价博士；锏明确转述博士托她向银灰问好，另立博士对银灰的知晓。两个方向分别有证据。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "银灰具体评价博士；锏明确转述博士托她向银灰问好，另立博士对银灰的知晓。两个方向分别有证据。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 611,
+          "kind": "story",
+          "line": 585,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 601,
+          "kind": "story",
+          "line": 585,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 975,
+          "line": 924,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "quote": "[name=\"恩希欧迪斯\"]我要向你道谢，博士。\n[name=\"恩希欧迪斯\"]感谢你能接受这次的邀请，同时，也感谢你赠送给莫布先生的“小礼物”。\n[name=\"恩希欧迪斯\"]那确实帮了我一个忙。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"n\")]\n[Decision(options=\"不用我帮忙，你也有办法处理吧？;省省吧。你留了多少后手，我心里有数。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]但会需要多费些功夫。\n[name=\"恩希欧迪斯\"]当时的情况，能快一步就足以让我感激不尽。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]希望这次的招待能够让你满意。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"n\")]\n[Decision(options=\"下次再用邀请函这种把戏，我就不主动上钩了。;莱茵生命也是你找来的？我以为你只会利用罗德岛。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]看来你还记着三年前的那盘棋，博士。\n[name=\"恩希欧迪斯\"]如今与三年前相比，你我的关系不能同日而语，你自然也不必对我如此防备。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]是喀兰贸易邀请莱茵生命，谈合作问题。\n[name=\"恩希欧迪斯\"]而我恩希欧迪斯邀请你，博士，只为观礼，不谈其他。\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]眼前的热闹景色，也有你当初开拓局面的一份功劳。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]来吧，我的盟友。\n[name=\"恩希欧迪斯\"]如果你有兴趣看一看现在的谢拉格，我本人很乐意做你的向导。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"n\")]\n[Decision(options=\"大家也确实该放松一下。;恭敬不如从命。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]还有一件事。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"n\")]\n[Decision(options=\"下次你要是希望我带人来，可以直接一点。;她没来你很意外吗？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]作为盟友，我相信你明白我的意思。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"n\")]\n[Decision(options=\"崖心很好。只是这次行程突然，她不在罗德岛。;你妹妹忙自己的事业呢。下次早些邀请她。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"不过下一次，她会回到谢拉格的。;她说过，要给你们准备个惊喜。“你们”。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]嗯。知道这点我就放心了。\n[name=\"恩希欧迪斯\"]没能来参加这样重要的场合固然遗憾，但既然她仍在向高攀登，那无论身在何处的顶峰……\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#11$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]她都能听见圣山的风声吧。"
+        }
+      ],
+      "description": "恩希欧迪斯与博士是直接合作的盟友。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "char_172_svrash",
+          "reason": "恩希欧迪斯直接称博士为盟友并道谢。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士以对话选项直接回应。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 975,
+          "kind": "story",
+          "line": 924,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典尾声",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_172_svrash|npc_b99957887950ebfd"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 420,
+          "line": 408,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_07_end.txt",
+          "quote": "[name=\"锡人\"]至于“螺旋桨天堂”开放后，有多少家科技公司、有多少体验员不计代价地争夺入场权，你比我们更清楚，小梅。\n[name=\"梅希亚\"]不计其数。\n[name=\"锡人\"]哥伦比亚近半数的公司新增了天空主题的业务部门，连做空气炸锅的作坊都试图在适用产品栏里加上“云朵”。\n[name=\"老科利\"]锡人，别忘了那些股票！\n[name=\"老科利\"]关于天空的概念股，细分门类超过两百个，登记的最长生效年份已经到了三百年后，哈哈哈~\n[name=\"老科利\"]企业们不惜申请利率超过市场报价数倍的商业贷款，也要在“螺旋桨天堂”的角落里占上一个位置……\n[name=\"锡人\"]我在高登的涉案文件里翻到过一份卷宗，有个叫雅斯彭的家伙为了能够通过检修，不得不向高登购买违禁品。\n[name=\"锡人\"]不是因为他不懂法律，而是因为他已经离了婚、卖了家产，背着如山的债务，没有退路。所谓的“幸运瘤兽”，是决定他一生的豪赌。\n[name=\"锡人\"]可惜。\n[name=\"梅希亚\"]……可惜？\n[name=\"锡人\"]那个雅斯彭，之前在特区航道边的一个小镇上，开了一家杂货铺。或许直到现在，还有拓荒者用着他卖的工具。\n[name=\"锡人\"]但他在这里的发明，那个“人转酒不转”的浮空回转酒吧……除了请仇人喝酒，我把铁皮想破也想不到别的用途。\n[name=\"锡人\"]简直像是一个考生在试卷上疯狂地写恭维老师的话，只求老师能给他满分。"
+        }
+      ],
+      "description": "锡人单向掌握雅斯彭的涉案资料。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_4151_tinman",
+          "reason": "锡人阅读卷宗后完整复述雅斯彭的经历与发明。",
+          "status": "supported",
+          "to": "npc_6a8d9a0f38c0d0a0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_6a8d9a0f38c0d0a0",
+          "reason": "雅斯彭未在场，也没有得知锡人的调查。",
+          "status": "not_established",
+          "to": "char_4151_tinman"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 420,
+          "kind": "story",
+          "line": 408,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "园区调查期间",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "char_4151_tinman|npc_6a8d9a0f38c0d0a0"
+}

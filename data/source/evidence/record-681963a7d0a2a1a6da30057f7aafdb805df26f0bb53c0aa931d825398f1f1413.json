@@ -1,0 +1,22 @@
+{
+  "id": "import:char_173_slchan|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【崖心】\n崖心：啊，不过在那之前，我需要先去附近的罗德岛办事处一趟。\n崖心：蒂亚娜的去处得请他们帮我安排，还要请博士给老哥带个口信。\n\n【风雪过境】\n选项：\n1：崖心！\n2：……\n3：好久不见。\n分支条件（原选项编号）：1\n恩希亚：唉，看到博士没事我就放心啦，之前他们都跟我说博士公务缠身，不便会面。\n恩希亚：在大典真正结束之前，博士还得像这样待在佩尔罗契家，我好着急。\n分支条件（原选项编号）：2\n恩希亚：博士？你怎么不说话，你应该没事吧……\n恩希亚：佩尔罗契家没欺负你吧！\n分支条件（原选项编号）：3\n恩希亚：其实也没那么久啦……\n恩希亚：不过把博士请来后出了这么多事，我也觉得时间好漫长。\n分支条件（原选项编号）：1 / 2 / 3\n恩希亚：但我听说，好像博士和阿克托斯先生他们相处得还不错？\n恩希亚：啊……想想也是理所当然，博士在罗德岛的人缘就很好。",
+  "relationship_id": "char_173_slchan|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 780,
+      "kind": "story",
+      "line": 778,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_slchan_2_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 261,
+      "kind": "story",
+      "line": 244,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st02.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

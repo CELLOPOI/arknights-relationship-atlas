@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 411,
+          "line": 385,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_08_end.txt",
+          "quote": "[name=\"阿格尼尔\"]但同时，你又害怕，如果有一天这份怀疑成真，你将如何自处。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]是吗？\n[Character(name=\"avg_103_angel_1#4$1\")]\n[name=\"能天使\"]啊，对，我就是这个意思！\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]我想，每一个离开了拉特兰的萨科塔，都会遇到这样的问题。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]当年，西西里旅居拉特兰时，我负责了她的向导。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]而实际上，我并不是如同传闻中那样，被西西里的想法所打动，而后跟随她离开拉特兰的。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]那时的西西里尚且年轻，她再怎么天纵之才，也不可能在拉特兰旅居一段时间，立刻想到了改变叙拉古的方法。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]她的想法稚嫩且不切实际，但于我来说，却正好与我当时的一些想法不谋而合。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]我们为此日夜讨论，争执，直到最后，我才终于决定，跟随她前往叙拉古，印证我与她的想法。\n[Character(name=\"avg_103_angel_1#7$1\")]\n[name=\"能天使\"]讨论，争执。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]对。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]而来到叙拉古之后，我们之间的争执，也从未消失。实际上，我们对于叙拉古的看法，从未真正统一过。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]但这并不妨碍我们互相了解对方的想法。\n[Character(name=\"avg_103_angel_1#4$1\")]\n[name=\"能天使\"]所以，讨论与争执就是秘诀？"
+        }
+      ],
+      "description": "两人具名持续直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_103_angel",
+          "reason": "两人具名持续直接对话。",
+          "status": "supported",
+          "to": "npc_686d8dda781355b1"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_686d8dda781355b1",
+          "reason": "两人具名持续直接对话。",
+          "status": "supported",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 411,
+          "kind": "story",
+          "line": 385,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_103_angel|npc_686d8dda781355b1"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 218,
+          "line": 170,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st03.txt",
+          "quote": "[name=\"幽灵鲨\"]……海。\n[Character(name=\"avg_1023_ghost2_1#4$1\")]\n[name=\"幽灵鲨\"]海的气味越来越浓烈，斯卡蒂，我们回家了吗？这里是回家的路吗？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_263_skadi#7\",focus=2)]\n[name=\"斯卡蒂\"]……会是的，幽灵鲨，劳伦缇娜，我保证。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_263_skadi#7\",focus=1)]\n[name=\"幽灵鲨\"]那请告诉我……我眼前的又是什么？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_263_skadi#9\",focus=2)]\n[name=\"斯卡蒂\"]眼前？\n[Dialog]\n[Character]\n[Character(name=\"npc_2003_Frost_1\",fadetime=1)]\n[Delay(time=1)]\n人影从街道那头走来，轻哼着旋律。\n镇民的慌乱留给街道一片狼藉，可年轻的Frost眼中仿若无物。她拨弄着空气，想象着音乐。\n[Character(name=\"char_263_skadi#8\")]\n[name=\"斯卡蒂\"]唔！\n[Dialog]\n[Delay(time=1)]\n[Character(name=\"char_empty\")]\n[characteraction(name=\"middle\", type=\"move\",  fadetime=0, block=true)]\n[characteraction(name=\"middle\", type=\"zoom\",scale=0.8,fadetime=0,block=true)]\n[Character(name=\"avg_npc_457_1#1$1\",fadetime=1)]\n[Characteraction(name=\"middle\", type=\"move\", xpos=70,fadetime=1, block=false)]\n[characteraction(name=\"middle\", type=\"zoom\",scale=0.9,fadetime=1,block=true)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_fish_howl\",volume=0.3)]\n[Characteraction(name=\"middle\", type=\"move\", xpos=-70, fadetime=1, block=false)]\n[characteraction(name=\"middle\", type=\"zoom\",scale=0.9,fadetime=0,block=true)]\n[characteraction(name=\"middle\", type=\"zoom\",scale=1,fadetime=1,block=true)]\n[StopSound(channel=\"bgs\", fadetime=1)]\n[Character(name=\"avg_npc_457_1#1$1\")]\n[name=\"恐鱼\"]（摇动的窸窣声）——！\n[Dialog]\n[PlaySound(key=\"$skadi_n\", volume=1)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=1)]\n[Character(fadetime=0.5)]\n[Delay(time=1)]\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_263_skadi#4\",focus=2)]\n[name=\"斯卡蒂\"]……恐鱼没有靠近她，不，就像她不存在一样……她那是在弹琴吗？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_263_skadi#4\",focus=1)]\n[name=\"幽灵鲨\"]好听吗？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_263_skadi#3\",focus=2)]\n[name=\"斯卡蒂\"]我不知道。\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"char_263_skadi#3\",focus=1)]\n[name=\"幽灵鲨\"]那不如问问她。\n[Character(name=\"char_empty\",name2=\"char_263_skadi#6\",fadetime=0.3,focus=2)]\n[name=\"斯卡蒂\"]等等！"
+        }
+      ],
+      "description": "斯卡蒂现场知晓Frost，仅支持斯卡蒂到Frost。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S45"
+          ],
+          "from": "char_263_skadi",
+          "reason": "斯卡蒂在街道上近距离观察Frost弹琴并讨论她的异常。",
+          "status": "supported",
+          "to": "npc_f1a37f4fb62f9ae9"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_f1a37f4fb62f9ae9",
+          "reason": "Frost没有回应斯卡蒂，随后只与幽灵鲨直接交谈。",
+          "status": "not_established",
+          "to": "char_263_skadi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 218,
+          "kind": "story",
+          "line": 170,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "格兰法洛恐鱼袭击期间",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_263_skadi|npc_f1a37f4fb62f9ae9"
+}

@@ -1,0 +1,28 @@
+name: 资料纠错或补充
+description: 提交人物、身份、关系方向或原文依据的修订建议
+title: "[资料] "
+body:
+  - type: input
+    id: target
+    attributes:
+      label: 人物或关系
+      description: 写出人物姓名、人物对或网站入口。
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 当前资料与建议修改
+      description: 区分确认事实、推断和仍不确定的部分。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 原文与出处
+      description: 提供章节、档案、可定位原文或来源链接；说明是否有分支条件。
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: 游戏中连线可双向通行，不代表剧情中双方相识。请保留单向知晓、异格身份与条件叙事的区别；不填写私人联系方式。

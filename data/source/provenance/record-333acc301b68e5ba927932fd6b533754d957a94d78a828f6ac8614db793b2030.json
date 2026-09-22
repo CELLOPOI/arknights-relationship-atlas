@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 274,
+          "line": 104,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "quote": "[name=\"？？？\"]闪灵！\n[character(name=\"avg_npc_653_1#1$2\")]\n[name=\"？？？\"]都堵在家门口干什么？快些让开呀。不是都跟你们说过了吗，今天晚上我们有一场家庭聚会。\n[Character(name=\"avg_npc_425_1#1$1\", name2=\"avg_npc_425_1#1$1\")]\n[name=\"赦罪师直属卫兵\"]……明白。\n[dialog]\n[Character(name=\"avg_npc_653_1#1$2\", name2=\"char_147_shining_1#1\")]\n[delay(time=0.5)]\n[Character(name=\"avg_npc_653_1#10$1\", name2=\"char_147_shining_1#1\",fadetime=0.5)]\n[delay(time=0.7)]\n[characteraction(name=\"left\", type=\"move\", xpos=250, fadetime=1,isblock=true)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.4)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Characteraction(name=\"right\", type=\"jump\", xpos=-25, power=6, times=2, fadetime=0.4, block=true)]\n[Characteraction(name=\"left\", type=\"jump\", xpos=-25, power=5, times=1, fadetime=0.5, block=true)]\n[dialog]\n[Delay(time=0.7)]\n[Character(name=\"avg_npc_653_1#10$1\", name2=\"char_147_shining_1#1\",focus=1)]\n[name=\"？？？\"]闪灵，你怎么才来呀，我都等了好久啦！\n[Character(name=\"avg_npc_653_1#10$1\", name2=\"char_147_shining_1#1\",focus=2)]\n[name=\"闪灵\"]……萨卢斯。\n[delay(time=1)]\n[dialog]\n[character(fadetime=0.3)]\n[delay(time=0.3)]\n[Character(name=\"avg_npc_653_1#10$1\", name2=\"char_147_shining_1#1\",focus=2)]\n[name=\"闪灵\"]我还没迟到。\n[Character(name=\"avg_npc_653_1#9$1\", name2=\"char_147_shining_1#1\",focus=1)]\n[name=\"萨卢斯\"]是啦，是啦，没有迟到。首领不会生气的。\n[Character(name=\"avg_npc_653_1#9$1\", name2=\"char_147_shining_1#1\",focus=1)]\n[name=\"萨卢斯\"]快跟我进去吧，晚饭都准备好了。瞧你这风尘仆仆的，离开伦蒂尼姆这么久，是不是总是吃不好呀？\n[Character(name=\"avg_npc_653_1#10$1\", name2=\"char_147_shining_1#1\",focus=1)]\n[name=\"萨卢斯\"]我跟首领说了，让厨娘们按照皇家科学院的晚宴标准来准备今晚的菜单。\n[Character(name=\"avg_npc_653_1#10$1\", name2=\"char_147_shining_1#1\",focus=2)]\n[name=\"闪灵\"]……\n[Character(name=\"avg_npc_653_1#9$1\", name2=\"char_147_shining_1#1\",focus=1)]\n[name=\"萨卢斯\"]闪灵……闪灵，我们真是好久没有像过去那样，坐在餐桌旁好好聊天了。你一定要好好跟我说说这一路上的见闻啊。\n[musicvolume(volume=0.2, fadetime=1)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Delay(time=1)]\n[Background(image=\"bg_manorindoor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[musicvolume(volume=0.4, fadetime=1)]\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]首领！闪灵回来啦！\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]欢迎。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]坐吧，这本是属于你的位子。那时我们刚来伦蒂尼姆……挺久以前了。\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]从你杀死那些可怜人，带着那个试验品逃走的那天开始，这个位置就一直空缺着。\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]那时的背叛，实在让族人们寒心。\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]不过，我不怪你。坐吧。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]……\n[Character(name=\"avg_npc_653_1#9$1\")]\n[name=\"萨卢斯\"]我可等不及了，闪灵，我最近总在实验室里待到凌晨，都忙得顾不上吃饭。\n[dialog]\n[character(fadetime=0.5)]\n她率先拉开椅子，在白角的赦罪师首领右手边坐下。\n他垂下眼帘，不再说话。\n片刻后，闪灵松开怀中的剑，走向长桌边唯一一把空着的座椅。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[stopmusic(fadetime=1)]\n[character]\n[Image(image=\"32_i05\", fadetime=1, xScale=1, yScale=1)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[delay(time=1.5)]\n[playMusic(intro=\"$sjoyasorrow_intro\", key=\"$sjoyasorrow_loop\", volume=0.4)]\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]萨卢斯，谈谈你最近正在进行的实验吧。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]真的要在餐桌上谈工作吗？唉，好吧，好吧。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]也没什么好说的，我已经在尽力地从记忆中剥取情感，可那些死去的可怜人的声音并不能在我指尖停留太久。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]有一些成果，但我仍然只能抓取到只言片语。说真的，已经有些进入瓶颈了。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]这些信息就像被切断的树枝，能重塑出树木的整体轮廓，但根已经断了，无法长久维持平衡，更无法长出新芽。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]而且我也抓不到那些更加久远的声音，更不必说将它们带回现在。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]毕竟……生命就像时间，只能单向流逝。将其本质概括出来，只能是文学性的抽象描述，即便是您和闪灵的源石技艺，也只能抓住一瞬。\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]只有“魔王”是特殊的。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]那些知识和技艺就像瀑布，但我们却永远找不到其源头，也无法从中捧起清水。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]唉，自从闪灵的实验中断了，我的研究也越来越难做啦。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……\n[Image(image=\"32_i05\", fadetime=1, xScale=1.7, yScale=1.7, x=665, y=252)]\n[ImageTween(image=\"32_i05\", fadetime=0.5, xScaleFrom=1.7, yScaleFrom=1.7, xScaleTo=1.5, yScaleTo=1.5, xTo=490, yTo=155, duration=20)]\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]首领，您呢？摄政王是不是又在筹谋什么大事？您最近不是待在西部大堂，就是待在碎片大厦，都很少来我的实验室了。\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]殿下的计划已经到了关键时期。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]唉，我是不太明白。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]在数座不同的卡兹戴尔里，赦罪师服务过那么多王公贵族，从来都只是各取所需而已。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]可这些年您几乎跟在摄政王身旁寸步不离，许多外面的人都快误会赦罪师是摄政王的亲卫了。\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]我们何时当真在意过，萨卢斯？\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]数千年来，他们对赦罪师的误解并不止这一项。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]首领，特雷西斯究竟有什么不同？\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……\n[Image(image=\"32_i05\", fadetime=1, xScale=1.7, yScale=1.7, x=-665, y=252)]\n[ImageTween(image=\"32_i05\", fadetime=0.5, xScaleFrom=1.7, yScaleFrom=1.7, xScaleTo=1.5, yScaleTo=1.5, xTo=-490, yTo=155, duration=20)]\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]要是被曼弗雷德将军听见你直呼其名，免不了一通说教。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]欸，所以我只会在家人面前这么说嘛。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]他与先前那位殿下一样，并非出身任何王庭，血统也远不及您与闪灵纯正。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]他们的先祖中甚至没有一位得到过赦罪师的注意，我们从未采集过他们的血脉记忆。\n[name=\"萨卢斯\"]即便“魔王”曾选中过那位妹妹，也不能证明她的兄长……\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]我告诉过你的，萨卢斯。\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]力量来自血脉，血脉传承记忆，记忆累积罪业，罪业形成枷锁。不被历史约束的人，才能将力量从枷锁中彻底解放。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]好吧，好吧。愿旧日的光辉在殿下们的引领下重回大地。\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]……不，萨卢斯。\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]无论成败，殿下都能对萨卡兹产生足够大的影响。这才是最容易被忽视的。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]对了，闪灵，那位被你带走的实验体……唔，她叫什么来着？丽莎……还是丽兹？她还好吗？\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……丽兹很好。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]矿石病对她的影响是不是正在加重？\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]她的身体很特殊，就算是那个……那个……你找到的医疗组织，就算有凯尔希勋爵在，也未必能真的帮到她。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]现在她回到了伦蒂尼姆，真是太好啦，你的实验室我都还保留着，你随时都能带她回来……\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……\n[Image(image=\"32_i05\", fadetime=1, xScale=1.7, yScale=1.7, x=-30, y=152)]\n[ImageTween(image=\"32_i05\", fadetime=0.5, xScaleFrom=1.7, yScaleFrom=1.7, xScaleTo=1.5, yScaleTo=1.5, xTo=-34, yTo=-55, duration=20)]\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]是饭菜不合你的胃口吗，我亲爱的姐姐？\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]别这么一言不发嘛，好不容易回家一趟，真要这么冷漠吗？\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]如果是丽兹的事情……我向你道歉。但你应该知道，丽兹并不是一个普通的感染者。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]再说，她身上的苦难与意识来自谁，她的痛楚与记忆来自谁，当她回忆起这些事情的时候，你们还能友好相处吗？\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]她毕竟不是我们的家人，你可要——\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]——她才是我的家人。"
+        }
+      ],
+      "description": "萨卢斯具体知晓曼弗雷德。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德不在晚宴。",
+          "status": "not_established",
+          "to": "npc_a3dffd9098ba430b"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_a3dffd9098ba430b",
+          "reason": "萨卢斯明确知道曼弗雷德会因其言行说教。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 274,
+          "kind": "story",
+          "line": 104,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "赦罪师家庭关系",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_a3dffd9098ba430b"
+}

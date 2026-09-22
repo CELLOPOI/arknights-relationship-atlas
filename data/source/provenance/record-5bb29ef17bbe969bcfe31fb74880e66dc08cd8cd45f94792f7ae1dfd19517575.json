@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 177,
+          "line": 147,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d0/level_act11d0_st02.txt",
+          "quote": "[name=\"亚叶\"]  你的表情开朗了很多。\n[Character(name=\"avg_npc_069\", name2=\"char_345_folnic_1#2\",focus=1)]\n[name=\"塔佳娜\"]  ……呵呵……也许我真的把自己逼得太死了吧，如果总是在这种时候倒下的话……\n[name=\"塔佳娜\"]  ……\n[name=\"塔佳娜\"]  我一直……逼着自己不去想托尔的事情，但他的笑……他的痛……火烧在身上的痛……\n[name=\"塔佳娜\"]  ……抱歉，我又开始了。\n[Character(name=\"avg_npc_069\", name2=\"char_345_folnic_1#2\",focus=2)]\n[name=\"亚叶\"]  ……嗯，没关系。\n[name=\"亚叶\"]  我们也是……一样的。\n[Character(name=\"avg_npc_069\", name2=\"char_345_folnic_1#2\",focus=1)]\n[name=\"塔佳娜\"]  ——但至少、至少凶手已经付出了代价。\n[Character(name=\"avg_npc_069\", name2=\"char_345_folnic_1#4\",focus=2)]\n[name=\"亚叶\"]  ……\n[Character(name=\"avg_npc_069\", name2=\"char_345_folnic_1#2\",focus=2)]\n[name=\"亚叶\"]  也许吧。\n[Character(name=\"avg_npc_069#4\", name2=\"char_345_folnic_1#2\",focus=1)]\n[name=\"塔佳娜\"]  亚叶小姐？\n[Character(name=\"avg_npc_069#4\", name2=\"char_345_folnic_1#2\",focus=2)]\n[name=\"亚叶\"]  ……不，没什么。\n[name=\"亚叶\"]  你说得对。\n[Character(name=\"avg_npc_069#2\", name2=\"char_345_folnic_1#2\",focus=1)]\n[name=\"塔佳娜\"]  不过沃伦姆德……依旧要前进，我们依旧面对着很多问题……\n[name=\"塔佳娜\"]  首先就是，感染者的问题……\n[Character(name=\"char_358_lisa_1#3\", name2=\"avg_npc_069#2\",focus=1)]\n[name=\"铃兰\"]  ……抱歉，其实我早就察觉到塞弗林长官的病情了，但他不让我说。\n[name=\"铃兰\"]  从他可以不依赖施术单元就用源石技艺控制室温的时候我就该告诉大家的……\n[name=\"铃兰\"]  但他……他也在忍耐着痛苦，大家都在忍耐着。\n[Character(name=\"char_358_lisa_1#3\", name2=\"char_345_folnic_1#4\",focus=2)]\n[name=\"亚叶\"]  没有忍耐的人，都已经丢进监狱了。\n[Character(name=\"char_345_folnic_1#2\")]\n[name=\"亚叶\"]  ……我也一样啊。"
+        }
+      ],
+      "description": "铃兰明确说自己早已察觉塞弗林病情，且塞弗林曾直接要求她保密。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_358_lisa",
+          "reason": "铃兰明确说自己早已察觉塞弗林病情，且塞弗林曾直接要求她保密。",
+          "status": "supported",
+          "to": "npc_419ac8a28a132917"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_419ac8a28a132917",
+          "reason": "铃兰明确说自己早已察觉塞弗林病情，且塞弗林曾直接要求她保密。",
+          "status": "supported",
+          "to": "char_358_lisa"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_0ae5b402eb9240bc.json",
+      "sources": [
+        {
+          "endLine": 177,
+          "kind": "story",
+          "line": 147,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d0/level_act11d0_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "塞弗林隐瞒病情期间",
+      "title": "沃伦姆德的薄暮"
+    }
+  ],
+  "relationship_id": "char_358_lisa|npc_419ac8a28a132917"
+}

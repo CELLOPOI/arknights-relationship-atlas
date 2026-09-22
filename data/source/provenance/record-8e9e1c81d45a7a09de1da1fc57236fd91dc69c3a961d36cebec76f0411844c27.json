@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 510,
+          "line": 493,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "quote": "[name=\"刻刀\"]  行了，先别聊了，我来把架子重新搭好，新的炭火就拜托伊芙利特你来准备。\n[name=\"刻刀\"]  至少，多亏了棘刺先生，我们现在知道该注意什么了。\n[Character(name=\"char_134_ifrit_summer_1\",name2=\"char_301_cutter_1\",focus=1)]\n[name=\"伊芙利特\"]  也是，不想了，干活了干活了。\n[name=\"伊芙利特\"]  那家伙叫棘刺？看不出来，这人倒是还不错。\n[Character(name=\"char_344_beewax_1\",name2=\"char_134_ifrit_summer_1\",focus=1)]\n[name=\"蜜蜡\"]  嗯嗯，棘刺先生是很热心的好人。\n[Character(name=\"char_344_beewax_1\",name2=\"char_134_ifrit_summer_1\",focus=2)]\n[name=\"伊芙利特\"]  热心？听起来怎么这么怪。\n[Character(name=\"char_344_beewax_1\",name2=\"char_134_ifrit_summer_1\",focus=1)]\n[name=\"蜜蜡\"]  是真的！我刚刚还看到他拦住了一群要去找博士麻烦的人。\n[name=\"蜜蜡\"]  红豆和我说了，那些人在找他们麻烦，不过红豆也说，对面一个能打的都没有，让我们不用担心。\n[name=\"蜜蜡\"]  本来我准备去帮忙，但是好像不太需要。\n[name=\"蜜蜡\"]  对了，棘刺先生还抓到了小偷呢！\n[Character(name=\"char_344_beewax_1\",name2=\"char_134_ifrit_summer_1\",focus=2)]\n[name=\"伊芙利特\"]  我看他脸色那么臭，还一副瞧不起人的样子，他居然还干这种事？助人为乐？哇哦。\n[Character(name=\"char_301_cutter_1\")]\n[name=\"刻刀\"]  之前我还以为他不好相处，看来是我误会了。"
+        }
+      ],
+      "description": "刻刀在同场听蜜蜡谈博士遇到麻烦并回应棘刺助人表现。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_301_cutter",
+          "reason": "刻刀在同场听蜜蜡谈博士遇到麻烦并回应棘刺助人表现。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_301_cutter"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 510,
+          "kind": "story",
+          "line": 493,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_301_cutter|npc_b99957887950ebfd"
+}

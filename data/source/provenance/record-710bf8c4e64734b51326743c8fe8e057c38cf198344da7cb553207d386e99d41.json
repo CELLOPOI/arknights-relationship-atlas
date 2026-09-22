@@ -1,0 +1,261 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 32,
+          "line": 21,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_chen_1_1.txt",
+          "quote": "[name=\"陈\"]  ……我们已经准备好进驻贫民区了，不是吗？我们不是要出台新的感染者居住案吗，这不是变得比昨天更好吗？\n[name=\"陈\"]  我们已经准备好去平等善待感染者了，我们善待龙门的每一个人，无论其感染与否，因为他们都是龙门人。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  我们准备好了，龙门准备好了吗？大众准备好了吗？商业联合会会投票吗？现在我告诉近卫局我是感染者，你猜会发生什么？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n九，你是不是从一开始就知道，我做的事不会成功？\n那么，你为什么要帮助我？"
+        }
+      ],
+      "description": "陈与九回忆中当面讨论感染者法案。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈与九回忆中当面讨论感染者法案。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "陈与九回忆中当面讨论感染者法案。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_f17d745b9e0242cf.json",
+      "sources": [
+        {
+          "endLine": 32,
+          "kind": "story",
+          "line": 21,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_chen_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "陈"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 604,
+          "line": 575,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-14_end.txt",
+          "quote": "[name=\"九\"]  果然跟你一起出任务准没好事。\n[Character(name=\"char_010_chen_1#3\")]\n[name=\"陈\"]  呃……唔！\n[name=\"陈\"]  九……！你没事……！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  还行吧。不过……一副要死要活样子的，怎么是你？\n[name=\"九\"]  炸弹可是在我面前爆炸的。你隔着还有十几米呢。\n[Character(name=\"char_010_chen_1#5\")]\n[name=\"陈\"]  腹部被贯穿了。抱歉，实在是有点痛……失礼了。你的忍耐力一直比我强得多……\n[name=\"陈\"]  ……九。回过身让我看看。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  你不能要求你的上司去做什么。\n[Character(name=\"char_010_chen_1\")]\n[name=\"陈\"]  ……不。不。你……\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  实在抱歉，陈。我没能护住你。\n[name=\"九\"]  虽然花挡住了大多数，但还是有一些碎片飞出去了。\n[name=\"九\"]  我想……我看到有好几块碎片刺穿了你。赶紧去处理吧。说不定还来得及。\n[Character(name=\"char_010_chen_1\")]\n[name=\"陈\"]  九……你……难道……\n[name=\"陈\"]  你呢？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  ……\n[name=\"九\"]  没有比我的法术能更快了解自己身体状况的办法了。那些碎片我挤不出去。\n[name=\"九\"]  ——我也有身为近卫局一员的自尊。记得我这个背影就够了，替我向近卫局所有人问好。\n[name=\"九\"]  还有魏。替我向他问好。\n[Character(name=\"char_010_chen_1#3\")]\n[name=\"陈\"]  你去哪？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  我受的伤一定会让我感染的。感染者去哪，我就去哪。"
+        }
+      ],
+      "description": "陈的往事中九与陈实际对话、救援，不以阿米娅作为回忆中在场者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E36"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈的往事中九与陈实际对话、救援，不以阿米娅作为回忆中在场者。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [
+            "E36"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "陈的往事中九与陈实际对话、救援，不以阿米娅作为回忆中在场者。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 604,
+          "kind": "story",
+          "line": 575,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-14_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1043,
+          "line": 1033,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[name=\"陈\"]——！！\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",duration=1.5)]\n[delay(time=2)]\n[name=\"九\"]……\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]原来，是你们。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]是啊。\n[name=\"九\"]好久不见，陈。"
+        }
+      ],
+      "description": "陈和九重逢相认，直接对白。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E157"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈和九重逢相认，直接对白。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [
+            "E157"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "陈和九重逢相认，直接对白。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 1043,
+          "kind": "story",
+          "line": 1033,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 122,
+          "line": 52,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-08_beg.txt",
+          "quote": "[name=\"？？？\"]  现在我想清楚了，龙门就拜托你了。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  什么？我不理解你的意思。\n[Character]\n[name=\"？？？\"]  现在的我，早已经不再属于这里。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  Only-1！\n[Character]\n[name=\"？？？\"]  我会带一些龙门的感染者走。近卫局没法保护他们，这座城市不在乎他们。\n[name=\"？？？\"]  或者说，即使你是这么想的，这座城市也并不如你所愿。\n[Character(name=\"char_010_chen_1#2\")]\n[name=\"陈\"]  九！服从命令！\n[Character]\n[name=\"九\"]  ……三年前起，我就不属于近卫局了。\n[name=\"九\"]  再说，原本，理应是我命令你。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  九……！\n[Character]\n[name=\"九\"]  你说的特殊部队，我似乎已经看见过了。\n[name=\"九\"]  我还是把龙门想象得太好了。再见，陈。\n[name=\"九\"]  对了，别去检查排水系统。\n[playsound(key=\"$transmission\", volume=0.4)]\n[delay(time=1)]\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  ……\n[name=\"陈\"]  我声音是不是太大了？\n[Character]\n[name=\"诗怀雅\"]  那确实特别大，我感觉一条街都听见了。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  怎么也没你的嗓门大。\n[Character]\n[name=\"诗怀雅\"]  哎，阿陈，你过来。\n[Character(name=\"char_010_chen_1#1\")]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[name=\"陈\"]  ……\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  坐啊。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  Miss诗怀雅居然不顾形象、不怕裙子脏，就这样子蹲坐在街边？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  无所谓啦！你怎么觉得我会在意那种事的！\n[name=\"诗怀雅\"]  ……我准备再给那只下水道老鼠打个电话。\n[name=\"诗怀雅\"]  虽然我没怎么来过这里，但我觉得特殊部队一定在做可怕的事。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  你见过贫民区的林吗？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  我见过。是个很和善的老人，比我爷爷好多了。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  ……他可是“鼠王”。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  这几个人不都这样。但他真的是个好人。\n[name=\"诗怀雅\"]  我只是没想到雨霞她会变成现在这个样子。明明以前是个又胆小又腼腆的孩子，经常躲在你背后来着。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我倒觉得她没有变。她只是……担负起了责任。也许并不该属于她的责任。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  就算你这么提醒她，也没用。我们已经被架在火上烤了。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  她和她父亲的事情，我也没有头绪。只不过，她不会是那种冷血的人。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  所以我想再打个电话。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  ……\n[name=\"陈\"]  也许刚才的消息可以帮到我们。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  怎么说的？\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  一支有着特殊能力的整合运动力量进入了贫民区，他们甚至能指挥现在的整合运动。"
+        }
+      ],
+      "description": "陈与九直接诀别。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C14"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈与九直接诀别。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [
+            "C14"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "陈与九直接诀别。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 122,
+          "kind": "story",
+          "line": 52,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 550,
+          "line": 447,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st02.txt",
+          "quote": "[name=\"雷德\"]他们又从城内搜刮出了一批俘虏吗？塔露拉，你的汤。\n[Dialog]\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]谢谢。\n[Dialog]\n[PlaySound(key=\"$d_avg_dishes\", volume=1)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_328_1#1$1\",focus=\"m\")]\n[name=\"雷德\"]有点淡吗？唉，这是我从盐罐里搜刮出的最后一点盐。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]没关系，味道很好。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]呵，“搜刮”？我喜欢这个词。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]一周前他们不会从工厂前面经过，他们的战俘队伍中也没有孩子出现。\n[name=\"塔露拉\"]但现在我们都见到了。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]这半个月里他们简直立志抹除掉所有萨卡兹留下的痕迹。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]刚开始还只是未来得及撤离的士兵，随后是与军队有过交集的平民，最后连土生土长的伦蒂尼姆人也不放过。\n[name=\"塔露拉\"]我本以为你会动手，晖洁。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]……那只会让事情变得更复杂。这里是维多利亚，我必须用更稳妥的办法解决问题。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]可这意味着花费更多的时间，陈。\n[name=\"九\"]几天前我看到一群孩子在纠缠一位可怜的妇人……她不过是与萨卡兹结婚并养育了几个孩子。\n[name=\"九\"]战争前他们这样对感染者，战争后就变成了萨卡兹。这迟早会波及每一个伦蒂尼姆的市民。\n[name=\"九\"]这些受到不公待遇之人最缺的，就是时间。\n[Dialog]\n[charslot]\n九顿了顿，看向一旁的塔露拉。\n但塔露拉显得异常平静，似乎方才在街上，九面对士兵时，感觉到温度的骤然升高只是一场幻觉。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]我以为你刚才真的想要对那些维多利亚人动手。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]只是警告，继续纠缠下去只会引来更大的麻烦。不到迫不得已，在伦蒂尼姆保持低调是明智的。这一点上晖洁的看法并非毫无道理。\n[name=\"塔露拉\"]在工业区的街道上攻击公爵联军，对生活在这里的工人不是好事。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]所以你并不为此愤怒。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]你所经历的，我早已经历过。但至少，萨卡兹的血脉不会像矿石病一样到处传染。\n[name=\"塔露拉\"]我早已经学会控制愤怒，至少，我的愤怒不会留给这些对自己所作所为尚无认知的士兵。\n[name=\"塔露拉\"]这场战争把被压迫者迫害成了压迫者，错不在他们。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]可那些无辜萨卡兹又该将他们的愤怒宣泄给谁？\n[name=\"九\"]记得那个骑着摩托为我们找来物资的萨卡兹商人吗……感染者因为恐惧而杀死了他。\n[name=\"九\"]现在，这份恐惧正随着萨卡兹的逐渐败退迅速蔓延。\n[name=\"九\"]感染者、军人、贵族……甚至对战争毫无概念的普通人，呵，他们都在做自认正确的事。\n[name=\"九\"]你说得对，塔露拉，萨卡兹的血脉不会像矿石病一样到处传染……但仇恨和恐惧会。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]所以你决定了？\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]救下那些萨卡兹？我不觉得这需要犹豫，他们和我们并无差别。\n[name=\"九\"]我只是无法保证能将影响控制在最小范围内，所以我需要你，塔露拉。\n[name=\"九\"]保护好营地里的人，还有那些工人。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]……如果你需要我的火为这些人燃烧，我不会犹豫。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]雷德，你去告诉那些工人我们马上要做的事，愿意加入我们的留下；害怕的，帮助他们离开，带他们去典范军的营地。\n[charslot(slot=\"m\",name=\"avg_npc_328_1#1$1\",focus=\"m\")]\n[name=\"雷德\"]好。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[charslot(duration=1)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]陈。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#6$1\",focus=\"m\")]\n[name=\"陈\"]……\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]你可以现在试着拦下我们所有人，也可以就此离开，当作什么事情都没有发生过。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]救下那些萨卡兹，意味着你们原本的计划要全部改变。\n[name=\"陈\"]甚至，带着他们，没有任何公爵领会容忍你们的停留，九。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]难道现在他们就会容忍我们吗？\n[name=\"九\"]我们是感染者，陈，或许和罗德岛接触得太久了，让你对感染者的真实处境的记忆模糊了。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#6$1\",focus=\"m\")]\n[name=\"陈\"]你们接下来要去哪？\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]这意思是你默许我们行动。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]……\n[name=\"陈\"]就算是俘虏，也不该被这样草率地处决，他们甚至没有正式的军令。\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]问题并不在于九他们要去哪，而在于哪需要他们，晖洁。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]我们会找到一个真正属于我们的地方，陈。\n[name=\"九\"]不止感染者……还有所有被剥夺平等生存的权利的人、被奴役的人。\n[name=\"九\"]一个不会存在歧视，也不会存在压迫的地方。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#6$1\",focus=\"m\")]\n[name=\"陈\"]……这很难，难到几乎毫无可能，九，我们都很清楚。\n[charslot(slot=\"m\",name=\"avg_npc_043_1#2\",focus=\"m\")]\n[name=\"九\"]我当然知道，陈。但这是一个我们都认识的人教会我的，他死了，但至少他为我们留下了些什么。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#2$1\",focus=\"m\")]\n[name=\"陈\"]Guard……\n[charslot(slot=\"m\",name=\"char_011_talula_1#3\",focus=\"m\")]\n[name=\"塔露拉\"]总得有人去做，晖洁。\n[name=\"塔露拉\"]这支整合运动的队伍开发自己的药物，借助一切可能去为需要的人提供帮助，并非要索求一份肉眼可及的回报。\n[name=\"塔露拉\"]一种变化正在催生，但它太过脆弱。\n[name=\"塔露拉\"]他们需要一个信念，一个目标。唯有这样，他们才能继续走下去。\n[name=\"塔露拉\"]尽管我无法完全认同九的做法，但我也找不到拒绝去做的理由。\n[name=\"塔露拉\"]晖洁，九一直很欣赏你所追求的“公平”。\n[name=\"塔露拉\"]那你为何不去看看她所追求的东西呢？"
+        }
+      ],
+      "description": "陈与九围绕行动方式直接争论。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_010_chen",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 550,
+          "kind": "story",
+          "line": 447,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆救援行动期间",
+      "title": "我们明日见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1070,
+          "line": 1030,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "quote": "[name=\"陈\"]……\n[charslot(slot=\"m\",name=\"avg_npc_662_1#7$1\",focus=\"m\")]\n[name=\"陈\"]他们是不是有个领袖……\n[charslot(slot=\"m\",name=\"avg_npc_002\",focus=\"m\")]\n[name=\"愤怒的感染者\"]“九”。\n[charslot(slot=\"m\",name=\"avg_npc_421_1#1$1\",focus=\"m\")]\n[name=\"冷漠的感染者\"]对。就是她，把我们赶出来的。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]……\n[charslot(slot=\"m\",name=\"avg_npc_002\",focus=\"m\")]\n[name=\"愤怒的感染者\"]还有一个被称作Guard的小头目，不过死了。\n[charslot(slot=\"m\",name=\"avg_npc_002\",focus=\"m\")]\n[name=\"愤怒的感染者\"]……啧，真想烤点什么吃。\n[charslot(slot=\"m\",name=\"avg_npc_002\",focus=\"m\")]\n[name=\"愤怒的感染者\"]我不知道整合运动到底什么样，但起码我们接触到的这一批，就是一群虚伪的废物。\n[charslot(slot=\"m\",name=\"avg_npc_002\",focus=\"m\")]\n[name=\"愤怒的感染者\"]怎么？呵，要我和萨卡兹握手言和？我再见一个那样的，一样打死。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]……\n[charslot(slot=\"m\",name=\"avg_npc_421_1#1$1\",focus=\"m\")]\n[name=\"冷漠的感染者\"]还有，我们老听说的那些传言，那些乌萨斯冻土上的传言。\n[charslot(slot=\"m\",name=\"avg_npc_421_1#1$1\",focus=\"m\")]\n[name=\"冷漠的感染者\"]——塔露拉？\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]……\n[charslot(slot=\"m\",name=\"avg_npc_421_1#1$1\",focus=\"m\")]\n[name=\"冷漠的感染者\"]“感染者的英雄”？我看没什么大不了的。\n[charslot(slot=\"m\",name=\"avg_npc_421_1#1$1\",focus=\"m\")]\n[name=\"冷漠的感染者\"]我有留意，她一直跟在九的后面，基本就没说过几句话。\n[charslot(slot=\"m\",name=\"avg_npc_421_1#1$1\",focus=\"m\")]\n[name=\"冷漠的感染者\"]那些老感染者之间流传的谣言根本就不可信。也许从头到尾，九才是说了算的那个。\n[charslot(slot=\"m\",name=\"avg_npc_421_1#1$1\",focus=\"m\")]\n[name=\"冷漠的感染者\"]……唉。谈这些也没用。大炎人，你想加入他们也来不及了。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#1$1\",focus=\"m\")]\n[name=\"陈\"]他们去哪儿了？\n[charslot(slot=\"m\",name=\"avg_npc_002\",focus=\"m\")]\n[name=\"愤怒的感染者\"]我哪知道。\n[charslot(slot=\"m\",name=\"avg_npc_002\",focus=\"m\")]\n[name=\"愤怒的感染者\"]我当时一气之下就拽着他离开了。我记得这个方向再走十几公里，有个信使驿站来着。\n[charslot(slot=\"m\",name=\"avg_npc_662_1#3$1\",focus=\"m\")]\n[name=\"陈\"]……那就早点休息吧。"
+        }
+      ],
+      "description": "陈获得该人的具体情报。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈在追踪中明确听到该人的姓名及具体情况。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b554345833235f79",
+          "reason": "对方不在问话现场。",
+          "status": "not_established",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 1070,
+          "kind": "story",
+          "line": 1030,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆外围追踪",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_b554345833235f79"
+}

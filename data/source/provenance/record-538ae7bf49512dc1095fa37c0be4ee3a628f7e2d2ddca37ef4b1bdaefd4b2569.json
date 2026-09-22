@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 312,
+          "line": 274,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_spuria_1_1.txt",
+          "quote": "[name=\"莱蒙德\"]啧。\n[charslot(slot=\"r\",name=\"avg_npc_931_1#11$1\",focus=\"r\")]\n[name=\"莱蒙德\"]别跟他浪费时间了。\n[charslot(slot = \"l\", name = \"avg_npc_927_1#4$2\",focus=\"l\")]\n[name=\"福尔图娜\"]……因为是我在叫他，所以他不会答应？\n[charslot(slot=\"r\",name=\"avg_npc_931_1#11$1\",focus=\"r\")]\n[name=\"莱蒙德\"]现在谁这么叫他，他都不答应，就因为这个名字是你提议的。\n[name=\"莱蒙德\"]明天打猎的时候，我会给他点教训的。\n[charslot(slot = \"l\", name = \"avg_npc_927_1#5$2\",focus=\"l\")]\n[name=\"福尔图娜\"]这样不好，莱蒙德，我不想再跟人吵架了，更不希望用上武力……\n[charslot(slot=\"r\",name=\"avg_npc_931_1#11$1\",focus=\"r\")]\n[name=\"莱蒙德\"]我知道……但前提是，他能好好地跟人说话，而不是这么一声不吭地瞪着你。\n[charslot(slot=\"r\",name=\"avg_npc_931_1#7$1\",focus=\"r\")]\n[name=\"莱蒙德\"]他到底有没有搞清楚，是你救了他！\n[Dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_4015_spuria_1#7$1\",focus=\"m\")]\n[name=\"斯普莉雅\"]哦，在吵架？\n[charslot(slot=\"m\",name=\"avg_npc_931_1#1$1\",focus=\"m\")]\n[name=\"莱蒙德\"]——咳，晚上好，斯普莉雅。\n[name=\"莱蒙德\"]我们收到你的信了，但其实你不用提前通知，我们实在没什么可以准备的。\n[charslot(slot = \"m\", name = \"avg_npc_927_1#5$2\",focus=\"m\")]\n[name=\"福尔图娜\"]抱歉，之前说好的青草格子饼，我也做不出来……\n[charslot(slot = \"m\", name = \"avg_4015_spuria_1#1$1\",focus=\"m\")]\n[name=\"斯普莉雅\"]正巧，我匿名联系了一支商队，他们很快就会绕路到这里来跟你们做生意。\n[charslot(slot = \"m\", name = \"avg_npc_927_1#3$2\",focus=\"m\")]\n[multiline(name=\"福尔图娜\")]商队？！\n[charslot(slot = \"m\", name = \"avg_npc_927_1#9$2\",focus=\"m\")]\n[multiline(name=\"福尔图娜\")]太好了，斯普莉雅……这下我们能在冬天里多坚持一段时间了！\n[charslot(slot=\"m\",name=\"avg_npc_931_1#9$1\",focus=\"m\")]\n[name=\"莱蒙德\"]……嗯，确实是救命的物资，谢谢。\n[name=\"莱蒙德\"]福尔图娜，到时候你躲好，我来交易。\n[charslot(slot = \"m\", name = \"avg_npc_927_1#8$2\",focus=\"m\")]\n[name=\"福尔图娜\"]见商队的时候戴好兜帽，还有，别被骗了。\n[charslot(slot=\"m\",name=\"avg_npc_931_1#10$1\",focus=\"m\")]\n[name=\"莱蒙德\"]呃……我知道！\n[charslot(slot = \"m\", name = \"avg_npc_927_1#5$2\",focus=\"m\")]\n[name=\"福尔图娜\"]对了，斯普莉雅……还有一件事我必须向你道歉。\n[name=\"福尔图娜\"]你说过我的样子不能让太多人看到，尤其是其他萨卡兹，但是……"
+        }
+      ],
+      "description": "莱蒙德与福尔图娜在村落共同生活并直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_7452f6b260385f86",
+          "reason": "直接对话",
+          "status": "supported",
+          "to": "npc_f5a0d790811751a8"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_f5a0d790811751a8",
+          "reason": "直接对话",
+          "status": "supported",
+          "to": "npc_7452f6b260385f86"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_7c4ed1a740501487.json",
+      "sources": [
+        {
+          "endLine": 312,
+          "kind": "story",
+          "line": 274,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_spuria_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口",
+      "title": "空构"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 232,
+          "line": 223,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_06_end.txt",
+          "quote": "[name=\"福尔图娜\"]接管……？什么意思……为什么……\n[charslot(slot=\"r\",name=\"avg_npc_931_1#7$1\",focus=\"r\")]\n[name=\"莱蒙德\"]你还不明白吗？！那个萨科塔一直都在骗我们！\n[name=\"莱蒙德\"]我得去告诉杰拉尔德老大！我就知道！那些拉特兰人从一开始就没安好心……！\n[name=\"莱蒙德\"]福尔图娜，现在和我一起反而会有危险，你找一个安全的地方等我，他们应该不会立刻对你动手——\n[charslot(slot=\"l\",name=\"avg_npc_927_1#10$2\",focus=\"l\")]\n[name=\"福尔图娜\"]等一下，莱蒙德！\n[charslot(slot=\"l\",name=\"avg_npc_927_1#1$2\",focus=\"l\")]\n[name=\"福尔图娜\"]……呼……\n[name=\"福尔图娜\"]我改变主意了。我要和你一起去。"
+        }
+      ],
+      "description": "莱蒙德与福尔图娜直接商议同行。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_7452f6b260385f86",
+          "reason": "双方直接对话或在连续局部场景中共同参与。",
+          "status": "supported",
+          "to": "npc_f5a0d790811751a8"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_f5a0d790811751a8",
+          "reason": "双方直接对话或在连续局部场景中共同参与。",
+          "status": "supported",
+          "to": "npc_7452f6b260385f86"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d3659cc008c9f040.json",
+      "sources": [
+        {
+          "endLine": 232,
+          "kind": "story",
+          "line": 223,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "空想花庭事件现实场景",
+      "title": "空想花庭"
+    }
+  ],
+  "relationship_id": "npc_7452f6b260385f86|npc_f5a0d790811751a8"
+}

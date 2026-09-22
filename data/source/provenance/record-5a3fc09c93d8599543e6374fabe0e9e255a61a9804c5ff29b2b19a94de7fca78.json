@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 111,
+          "line": 92,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+          "quote": "[name=\"伊内丝\"]  ……你在巷战的过程中还抽空救了个人。但现在，那不是我们的管辖范围。\n[name=\"伊内丝\"]  但是爱国者在那里，你不需要过问。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……这样，就好。\n[name=\"Scout\"]  你们……变了，过去的W不是个会刻意记住死者名讳的人。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]\n[name=\"伊内丝\"]  她确实变了，但更多时候是变得更像个疯子。\n[name=\"伊内丝\"]  你纯粹的战地经验就堪比浮士德的源石技艺，说不定只是为了让你动摇，好让我用法术捕捉你才故意记下名字的呢？\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……老样子，总不放过任何取乐的机会。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]\n[name=\"伊内丝\"]  彼此，你不是也接受了这种W才能想出来的疯狂交易。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  用我的命换取一个机会，再让该把握住这个机会的人把握住它，这并不疯狂。\n[name=\"Scout\"]  还有我牺牲的队员们，也一样。他们为了自己的理念而死，没有他们，我无法成功。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]\n[name=\"伊内丝\"]  ……看来时过境迁，大家都有一些变化。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  你也是，过去的你绝不会像现在这样，给敌人喘息的空间。\n[name=\"Scout\"]  赫德雷应该提醒过你。"
+        }
+      ],
+      "description": "伊内丝与Scout讨论爱国者控制区域及浮士德的狙击技艺，二人知具体目标，不推反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "伊内丝与Scout讨论爱国者控制区域及浮士德的狙击技艺，二人知具体目标，不推反向。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e877f731a67498e3",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 111,
+          "kind": "story",
+          "line": 92,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生于黑夜所述时段",
+      "title": "生于黑夜"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 374,
+          "line": 308,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "quote": "[name=\"赫拉格\"]   ——挑这种时候进入切尔诺伯格，罗德岛会被所有人当成敌人。\n[name=\"赫拉格\"]   他们为什么要这么做？\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   不论。只是我，没能阻止冲突。\n[name=\"爱国者\"]   刚刚有位战士，孤身对抗，萨卡兹佣兵。\n[name=\"爱国者\"]   意外，这位罗德岛人，也是个萨卡兹。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   同类相残……和整合运动的所作所为没什么区别。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   民众，被乌萨斯欺骗，不将我们，看作同胞。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   什么？萨卡兹……罗德岛的萨卡兹？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   但佣兵们，为战斗而战斗。罗德岛的战士，有战斗的理由。\n[name=\"爱国者\"]   他战败了。但他依然，射杀无数精锐。佣兵的新领头人，气急败坏。\n[name=\"爱国者\"]   而且，他把敌人，诱离身后废墟。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   ？！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   他想藏住什么，他做到了。\n[name=\"爱国者\"]   灰烬里，剩下这件遗物。请转交他们。\n[name=\"爱国者\"]   真正的战士……没有姓名。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   我会的。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   萨卡兹……难道Scout先生为了保护我……？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   真正的战士……\n[name=\"赫拉格\"]   对了。你以前也说过。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   您说。"
+        }
+      ],
+      "description": "爱国者知晓 Scout 这名具体的无名战士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "爱国者亲见 Scout 的战斗结果并保存其遗物。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "没有 Scout 知晓爱国者的证据。",
+          "status": "not_established",
+          "to": "npc_e877f731a67498e3"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 374,
+          "kind": "story",
+          "line": 308,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "Scout 最后一战及其后",
+      "title": "战地秘闻"
+    }
+  ],
+  "relationship_id": "npc_0957af9bf990438d|npc_e877f731a67498e3"
+}

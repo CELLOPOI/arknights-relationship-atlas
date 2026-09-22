@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 415,
+          "line": 411,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lumen_1_1.txt",
+          "quote": "[name=\"乔迪\"]欸？……不，我怎么可能怀疑您呢，阿玛雅小姐。\n[charslot(slot = \"m\", name = \"avg_4042_lumen_1#12$1\")]\n[name=\"乔迪\"]在格兰法洛，您懂的比大家都多，蒂亚戈叔叔也说，您帮他想了很多办法。\n[charslot(slot = \"m\", name = \"avg_npc_449_1#11$1\")]\n[name=\"阿玛雅\"]没关系，进来看看吧，我希望你能心安一些。"
+        }
+      ],
+      "description": "乔迪明确转述两人的具体既往互动，支持双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_549ec9bf1f5326b6",
+          "reason": "乔迪复述阿玛雅曾为蒂亚戈想过许多办法，体现她针对蒂亚戈提供帮助。",
+          "status": "supported",
+          "to": "npc_664144b63a19eb32"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_664144b63a19eb32",
+          "reason": "同一复述明确蒂亚戈知晓并评价阿玛雅对他的帮助。",
+          "status": "supported",
+          "to": "npc_549ec9bf1f5326b6"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_8725d283774c0b5e.json",
+      "sources": [
+        {
+          "endLine": 415,
+          "kind": "story",
+          "line": 411,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lumen_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "流明干员密录所述的既往格兰法洛生活",
+      "title": "流明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 312,
+          "line": 257,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st01.txt",
+          "quote": "[name=\"？？？\"]蒂亚戈镇长……您没必要每天都来这里。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_451_1#2$1\",focus=2)]\n[name=\"蒂亚戈\"]有一些不好的传闻。我担心你们……阿玛雅。\n[Character(name=\"avg_npc_449_1#10$1\",name2=\"avg_npc_451_1#2$1\",focus=1)]\n[name=\"阿玛雅\"]不好的传闻……是说那些邪教徒的传闻吗？\n[name=\"阿玛雅\"]审判庭离我们如此之近，我们不仅靠近海洋，也靠近伊比利亚如今的心脏。\n[name=\"阿玛雅\"]怎么会发生那些事情呢？\n[Character(name=\"avg_npc_449_1#10$1\",name2=\"avg_npc_451_1#1$1\",focus=2)]\n[name=\"蒂亚戈\"]我不确定。离海近的地方，都会有这样的事情。这不算稀奇。\n[Character(name=\"avg_npc_449_1#10$1\",name2=\"avg_npc_451_1#6$1\",focus=2)]\n[name=\"蒂亚戈\"]而且我听说……有人在海岸上看见了怪物。\n[Character(name=\"avg_npc_449_1#3$1\",name2=\"avg_npc_451_1#6$1\",focus=1)]\n[name=\"阿玛雅\"]……听老佩德里说的吗？\n[name=\"阿玛雅\"]缺少酒精的时候，他总胡言乱语。\n[Character(name=\"avg_npc_449_1#3$1\",name2=\"avg_npc_451_1#2$1\",focus=2)]\n[name=\"蒂亚戈\"]……\n[Character(name=\"avg_npc_449_1#11$1\",name2=\"avg_npc_451_1#2$1\",focus=1)]\n[name=\"阿玛雅\"]心善的蒂亚戈，你只是在担心那个在礼拜堂做工的乔迪，对吧？\n[Character(name=\"avg_npc_449_1#11$1\",name2=\"avg_npc_451_1#1$1\",focus=2)]\n[name=\"蒂亚戈\"]……我没什么文化……也许阿玛雅你能帮我，让我安心些……\n[Character(name=\"avg_npc_449_1#11$1\",name2=\"avg_npc_451_1#2$1\",focus=2)]\n[name=\"蒂亚戈\"]那些传说……会是真的吗？幽灵船，邪教徒，还有深海里蛰伏的怪物……？\n[Character(name=\"avg_npc_449_1#8$1\",name2=\"avg_npc_451_1#2$1\",focus=1)]\n[name=\"阿玛雅\"]审判庭已经很久不允许我们出海了。\n[Character(name=\"avg_npc_449_1#8$1\",name2=\"avg_npc_451_1#1$1\",focus=2)]\n[name=\"蒂亚戈\"]是，我已经记不得是八十四年还是八十五年了……\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_451_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]大静谧发生在1038年，禁令不过持续了五六十年而已。\n[name=\"阿玛雅\"]蒂亚戈，你在你自己的记忆里，被禁足了那么长时间吗？可你还没有那么大的年纪，你从出生开始就被囚禁在这座小镇吗？\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_451_1#1$1\",focus=2)]\n[name=\"蒂亚戈\"]如果说清贫的生活是一种囚禁，那我确实当了许久的囚徒。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_451_1#7$1\",focus=2)]\n[name=\"蒂亚戈\"]马琳死后，我甚至没有看过大海。我痛恨它。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_451_1#7$1\",focus=1)]\n[name=\"阿玛雅\"]……你其实不担心那些流言蜚语，你担心的是审判庭。你担心更多的惩戒军来到这里，会把阿戈尔人统统带走。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_451_1#2$1\",focus=2)]\n[name=\"蒂亚戈\"]……\n[Character(name=\"avg_npc_449_1#8$1\",name2=\"avg_npc_451_1#2$1\",focus=1)]\n[name=\"阿玛雅\"]唉，可怜的蒂亚戈……\n[name=\"阿玛雅\"]审判庭夺走了那个阿戈尔女人的性命，夺走了你的爱人，你的不满与愤懑我可以理解，但为了所有人，还是谨言慎行吧。\n[Character(name=\"avg_npc_449_1#8$1\",name2=\"avg_npc_451_1#1$1\",focus=2)]\n[name=\"蒂亚戈\"]……或许你说得对。\n[name=\"蒂亚戈\"]……好吧。都听你的，你懂的比我们都多……你今天在做什么？\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_451_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]一如既往，蒂亚戈。在这悠闲到令人害怕的城镇里，做好我的本职工作，一介不入流的翻译家的工作。\n[name=\"阿玛雅\"]不过信使已经有很多个月没来过这个小镇了，积压的稿子真让人头疼。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_451_1#1$1\",focus=2)]\n[name=\"蒂亚戈\"]唉，翻译！我一辈子都没走出过这座小镇，除了伊比利亚语，我根本看不懂别的语言。\n[Character(name=\"avg_npc_449_1#6$1\",name2=\"avg_npc_451_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]天色也不早了……\n[Character(name=\"avg_npc_449_1#6$1\",name2=\"avg_npc_451_1#2$1\",focus=2)]\n[name=\"蒂亚戈\"]是，乔迪应该快收工了……希望这两天，审判庭不会因为流言蜚语来找他的麻烦。\n[Character(name=\"avg_npc_449_1#6$1\",name2=\"avg_npc_451_1#1$1\",focus=2)]\n[name=\"蒂亚戈\"]我先走了，阿玛雅。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_451_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]走好，蒂亚戈镇长。"
+        }
+      ],
+      "description": "阿玛雅与蒂亚戈在家中持续直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S03"
+          ],
+          "from": "npc_549ec9bf1f5326b6",
+          "reason": "阿玛雅与蒂亚戈在家中持续直接对话。",
+          "status": "supported",
+          "to": "npc_664144b63a19eb32"
+        },
+        {
+          "evidenceIds": [
+            "S03"
+          ],
+          "from": "npc_664144b63a19eb32",
+          "reason": "阿玛雅与蒂亚戈在家中持续直接对话。",
+          "status": "supported",
+          "to": "npc_549ec9bf1f5326b6"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 312,
+          "kind": "story",
+          "line": 257,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "npc_549ec9bf1f5326b6|npc_664144b63a19eb32"
+}

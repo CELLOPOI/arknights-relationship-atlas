@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 499,
+          "line": 477,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_beg.txt",
+          "quote": "[name=\"雅儿\"]你们就是博士的部下吧？\n[character(name=\"avg_npc_252\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$knifegore\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[name=\"Sharp\"]……（斩击）\n[dialog]\n[character]\n一瞬间，坚钢的长刀划过了空气，停在了少女颈部的毫厘之外。\n[character(name=\"avg_npc_252\",name2=\"avg_npc_250_1#7$1\",focus=2)]\n[name=\"雅儿\"]哇，这个刀法，很少见哦。\n[character(name=\"avg_npc_252\",name2=\"avg_npc_250_1#7$1\",focus=1)]\n[name=\"Sharp\"]……什么人？\n[character(name=\"avg_npc_252\",name2=\"avg_npc_250_1#7$1\",focus=2)]\n[name=\"雅儿\"]那个，没有必要对刚见面的普通少女这么凶恶吧。\n[character(name=\"avg_npc_252\",name2=\"avg_npc_250_1#7$1\",focus=1)]\n[name=\"Sharp\"]能定位到这里，还能在这种局面下开玩笑的，算普通少女吗？\n[character(name=\"avg_npc_252\",name2=\"avg_npc_250_1#8$1\",focus=2)]\n[name=\"雅儿\"]先把刀放下啦！是罗德岛的博士让我来找你们的。\n[character(name=\"avg_npc_252\",name2=\"avg_npc_250_1#1$1\",focus=2)]\n[name=\"雅儿\"]博士有话让我带给你们。"
+        }
+      ],
+      "description": "雅儿主动接触Sharp传递博士口信，Sharp拔刀询问后对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_4013_kjera",
+          "reason": "雅儿主动接触Sharp传递博士口信，Sharp拔刀询问后对话。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_508_aguard",
+          "reason": "雅儿主动接触Sharp传递博士口信，Sharp拔刀询问后对话。",
+          "status": "supported",
+          "to": "char_4013_kjera"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 499,
+          "kind": "story",
+          "line": 477,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_4013_kjera|char_508_aguard"
+}

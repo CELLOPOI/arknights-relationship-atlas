@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 418,
+          "line": 411,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-14_beg.txt",
+          "quote": "[name=\"王庭军士兵\"]将……将军，那条德拉克……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#6$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]不用理会。\n[name=\"曼弗雷德\"]她的那些火焰，除了自己狭隘的野心，什么都点不燃。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]死魂灵阁下，请您带领我们离开这里。这狭小的船坞容纳不下您的愤怒，这些聒噪的异族也不值得浪费您的时间。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]我收到了摄政王的消息，他已经准备好了。"
+        }
+      ],
+      "description": "曼弗雷德单向明确知晓爱布拉娜。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E34"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德明确判断来袭的德拉克是爱布拉娜，并评价她的火焰。",
+          "status": "supported",
+          "to": "char_450_necras"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_450_necras",
+          "reason": "被谈及者未在该局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 418,
+          "kind": "story",
+          "line": 411,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-14_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_450_necras|npc_03f95afb5dd17c3f"
+}

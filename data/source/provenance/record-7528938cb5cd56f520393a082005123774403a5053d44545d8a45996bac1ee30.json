@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 95,
+          "line": 20,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-04_end.txt",
+          "quote": "[name=\"阿米娅\"]我们离研究所很近了。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#7$1\")]\n[name=\"阿米娅\"]可是一路上都好安静……这周围真的有人居住吗？\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]三天前女大公才突然下令，要求中心矿区附近三十公里内的居民在二十四小时内撤离。\n[name=\"阿洛伊泽\"]虽说远北地区本来就地广人稀，但短时间撤离这么大范围内的居民，也绝不是一件容易的事。\n[name=\"阿洛伊泽\"]更何况要在撤离的同时，让所有人保持缄默……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#3$1\")]\n[name=\"阿洛伊泽\"]不过根据传闻，这位女大公对远北一应事务向来拥有绝对的掌控力。还有人说，她在这里的威望甚至超过了……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]陛下在上，我不该失言的。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"她最终愿意放行……;说明她根本不担忧我们进行调查。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]也不尽然。\n[name=\"阿洛伊泽\"]面对来自圣骏堡的近卫军，女大公当然不能在明面上表现出抗拒。\n[name=\"阿洛伊泽\"]客观来讲，这些年来女大公始终扮演着北方集团军与议会之间的润滑剂，使得双方的芥蒂不至于演化为对抗。\n[name=\"阿洛伊泽\"]不得不承认，这需要高明的手段。\n[name=\"阿洛伊泽\"]她收获了双方的信任，但这也决定了她绝不能向任何一方表现出偏倚。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"你并不避讳谈论这些话题。;我以为这在乌萨斯是不能随便谈论的话题。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#13$1\")]\n[name=\"阿洛伊泽\"]哈哈……很惊讶吗？Dr.{@nickname}，你大概对乌萨斯有些误解。\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]我说的这些，不过是在圣骏堡任何一个贵族宴席上都能听到的闲谈。\n[name=\"阿洛伊泽\"]只是，若不能对闲谈中的故事了如指掌，又如何能加入饭桌上的那些讨论呢？\n[name=\"阿洛伊泽\"]当然，闲谈归闲谈，如果有人真的以为凭这些就能掌握某种向上攀爬的方法，并且试图付诸行动的话，就要另当别论了。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"很有意思的观点。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]话说回来，不管女大公是真的没有藏私还是自认为掩盖好了所有踪迹……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#4$1\")]\n[name=\"阿洛伊泽\"]奉命研究变异感染者的研究所里必然会留下些什么。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[playsound(key=\"$d_avg_riot\", loop=true, channel=\"bgs\",volume=0)]\n[SoundVolume(volume=0.1, channel=\"bgs\",fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$1\",duration=1)]\n[delay(time=2)]\n[name=\"阿米娅\"]各位……我好像听到了战斗的声音？\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#10$1\")]\n[name=\"阿米娅\"]前面……是矿工和纠察队？\n[charslot]\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"不能坐视不理。;所有人准备营救。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"char_401_elysm_na_1#8\",duration=0.5)]\n[delay(time=1)]\n[name=\"极境\"]等、等一下！\n[name=\"极境\"]我眼神好一点，我能看清楚！\n[charslot(slot=\"m\",name=\"char_401_elysm_na_1#6\")]\n[name=\"极境\"]那些挨打的人……是纠察队的？\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#11$1\")]\n[name=\"阿洛伊泽\"]……什么？\n[charslot(duration=0.5)]\n顺着极境手指的方向，远远可见两伙人打成一团，你们看到了有些荒唐的一幕——\n一支纠察队正在被人数比他们多出几倍的感染者矿工们追打。\n纠察队手中并不算精良的装备完全没派上用场，矿工们举着的木棍镐头正接连落在他们身上。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#5$1\")]\n[name=\"Mon3tr\"]呃……\n[name=\"Mon3tr\"]博士，这种情况……我们还要去营救吗？\n[charslot]\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"先尽量避免事件升级。;再进一步了解情况。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]"
+        }
+      ],
+      "description": "极境与阿洛伊泽同队同行。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_401_elysm",
+          "reason": "极境与阿洛伊泽同队同行。",
+          "status": "supported",
+          "to": "npc_c126ad4de3046272"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_c126ad4de3046272",
+          "reason": "极境与阿洛伊泽同队同行。",
+          "status": "supported",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_ef827cdde49f2fd2.json",
+      "sources": [
+        {
+          "endLine": 95,
+          "kind": "story",
+          "line": 20,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "反常光谱所述时段或明确既往互动",
+      "title": "反常光谱"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_c126ad4de3046272"
+}

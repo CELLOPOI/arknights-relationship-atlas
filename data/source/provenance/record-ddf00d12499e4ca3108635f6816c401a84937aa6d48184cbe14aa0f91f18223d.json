@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 598,
+          "line": 529,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "quote": "[name=\"Raidian\"]我已经静默周围可视范围内所有通讯，直接动手。\n[PlaySound(key=\"$d_avg_boneflute\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#3$1\")]\n[name=\"Logos\"]（吹响骨哨）\n[charslot(slot=\"m\",name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]哼，他们的武器能克制我的设备，却对你的骨哨和咒言没有太多抵抗能力。\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#1$1\")]\n[name=\"Logos\"]并非如此，他们只是尚不甚了解我的言语规则罢了。\n[name=\"Logos\"]我对阿戈尔创造如此精妙武器的思路亦有好奇。\n[charslot(slot=\"m\",name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]那我收缴一点回去拆了帮你研究研究。\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#2$1\")]\n[name=\"Raidian\"]你们两个！我们还在执行任务呢！\n[name=\"Raidian\"]前面还有至少三支队伍在埋伏，我们分身乏术。\n[name=\"Raidian\"]恐怕没法暗中干净处理完了，必须得通知我们的人准备应对冲击——\n[dialog]\n[charslot]\n[playsound(key=\"$transmission\")]\n[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\", style=0 ,switch = true, offset = \"250,0\", channel = 1,tsfrom = \"0,1\", tsto=\"1,1\",tsduration = 0.5)]\n[interlude(channel = 1, type = 3, slot = \"m\", switch = true, pfrom = \"255,0\", pto=\"255,0\", name = \"avg_391_rosmon_1#1$1\", duration = 0.5)]\n[interlude(channel = 1, type = 2, slot = \"r\", switch = true,name = \"bg_aircraft\", duration = 0)]\n[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"-250,0\", channel = 2)]\n[interlude(channel = 2, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_017_huang_1#1$1\", duration = 0.5)]\n[interlude(channel = 2, type = 2, slot = \"r\", switch = true,name = \"bg_aircraft\", duration = 0)]\n[delay(time=1.5)]\n[interlude(channel = 1, type = 3, slot = \"m\", switch = false)]\n[name=\"煌\"]喂喂喂，博士快递的支援就位了！\n[name=\"煌\"]Raidian，Mechanist，替我们标记位置，“坏家伙”号马上赶过去！\n[interlude(channel = 2, type = 3, slot = \"m\", switch = false)]\n[charslot(slot=\"m\",focus=\"n\")]\n[name=\"Mechanist\"]煌？！\n[name=\"Mechanist\"]查看你们的通讯设备，我已经把位置同步给了你们。\n[interlude(channel = 2, type = 3, slot = \"m\", switch = true)]\n[name=\"煌\"]收到——\n[interlude(channel = 2, switch = true, type = 3,  name = \"avg_017_huang_1#8$1\", pfrom = \"-250,0\", pto=\"-250,0\")]\n[name=\"煌\"]等等，迷迭香，不是说好我先跳替你吸引火力吗？！\n[interlude(channel = 2, type = 3, slot = \"m\", switch = false)]\n[interlude(channel = 1, type = 3, slot = \"m\", switch = true)]\n[name=\"迷迭香\"]我会控制好法术。\n[playsound(key=\"$d_gen_transmissionget\")]\n[interlude(channel = 1, clear = true,tsduration = 0.5,tsfrom = \"1,1\", tsto=\"0,1\")]\n[interlude(channel = 2, clear = true,tsduration = 0.5,tsfrom = \"1,1\", tsto=\"0,1\")]\n[Dialog]\n[Delay(time=1)]\n[playsound(key=\"$d_avg_rosoutofcontrol\", loop=true, channel=\"m\",volume=0)]\n[SoundVolume(volume=0.5, channel=\"m\",fadetime=2)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Delay(time=2)]\n[StopSound(channel=\"m\", fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_391_rosmon_1#1$1\")]\n[name=\"迷迭香\"]结束了？\n[charslot(slot=\"m\",name=\"avg_npc_1730_1#1$1\")]\n[name=\"Raidian\"]我检查了周边区域的所有信号，的确已经全部清除了。\n[charslot(slot=\"m\",name=\"avg_017_huang_1#7$1\")]\n[name=\"煌\"]呃，谁能告诉我……这到底是个啥玩意儿？\n[charslot(slot=\"m\",name=\"avg_npc_1401_1#1$1\",focus=\"n\")]\n[name=\"损坏的“小帮手”\"]……\n[charslot(slot=\"m\",name=\"avg_017_huang_1#1$1\")]\n[name=\"煌\"]我在这东西试图自毁的时候，可花了全力砸它才把它停下来。\n[charslot(slot=\"m\",name=\"avg_391_rosmon_1#10$1\")]\n[name=\"迷迭香\"]和我们对接的也是阿戈尔，他们为什么要袭击我们的人员和设备？\n[charslot(slot=\"m\",name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]交给凯尔希医生和博士判断。\n[name=\"Mechanist\"]确保人员和设备安全交接到克莱门莎的人手中后，我们立刻返回本舰。\n[name=\"Mechanist\"]这些情况必须尽快处理。\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#6$1\")]\n[name=\"Logos\"]还有未知的泄密者，恐怕这只是开端。"
+        }
+      ],
+      "description": "Mechanist明确知道克莱门莎及其交接人员。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D19"
+          ],
+          "from": "char_4230_mcnist",
+          "reason": "Mechanist明确知道克莱门莎及其交接人员。",
+          "status": "supported",
+          "to": "npc_17db81f47ae22715"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_17db81f47ae22715",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4230_mcnist"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 598,
+          "kind": "story",
+          "line": 529,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4230_mcnist|npc_17db81f47ae22715"
+}

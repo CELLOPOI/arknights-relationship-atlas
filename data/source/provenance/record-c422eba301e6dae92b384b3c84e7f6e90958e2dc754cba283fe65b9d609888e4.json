@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 585,
+          "line": 548,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_bryota_1_1.txt",
+          "quote": "[name=\"哈莉\"]埃尼斯！\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#9$1\")]\n[name=\"埃尼斯\"]欸？哈、哈莉？！你怎么这么早……\n[charslot(slot = \"m\", name = \"avg_npc_994_1#4$1\")]\n[name=\"哈莉\"]这些石头，土块……你小子，又在偷偷练习源石技艺？医生的话都当耳旁风了？\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#15$1\")]\n[name=\"埃尼斯\"]不是啊！你听我解释……\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#1$1\")]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[name=\"埃尼斯\"]（擦鼻血）\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#3$1\")]\n[name=\"埃尼斯\"]你看。刻刀，锤子，弓锯……这些都是我亲手做的！不是用源石技艺做的！\n[charslot(slot = \"m\", name = \"avg_npc_994_1#3$1\")]\n[name=\"哈莉\"]……\n[charslot(slot = \"m\", name = \"avg_npc_994_1#3$1\")]\n[name=\"哈莉\"]这些是……\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#1$1\")]\n[name=\"埃尼斯\"]现在还看不太出来吧？只要把这个“屋顶”放上来——\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#5$1\")]\n[name=\"埃尼斯\"]锵锵！欢迎回到，最初的“纯白火山”！\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#5$1\")]\n[name=\"埃尼斯\"]怎么样，这个模型逼真吧？每个部件都是我一点点做的！你看这个指路牌，是不是和旧风情街的一模一样！\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#1$1\")]\n[name=\"埃尼斯\"]可惜我的雕工不太行……这个小冰箱的把手就做得有点歪了。\n[charslot(slot = \"m\", name = \"avg_npc_994_1#3$1\")]\n[name=\"哈莉\"]所以，这就是你临走前要留给我们的“惊喜”？\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#1$1\")]\n[name=\"埃尼斯\"]这可不是我的个人作品哦。\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#1$1\")]\n[name=\"埃尼斯\"]现在它还不算是完全体，还差几个最最重要的小部件。剩下的部分，需要咱们一家人，一起完成。\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#1$1\")]\n[name=\"埃尼斯\"]这个给你。\n[charslot(slot = \"m\", name = \"avg_npc_994_1#3$1\")]\n[name=\"哈莉\"]土偶？这是我？怎么是爆炸头？\n[charslot(slot = \"m\", name = \"avg_4106_bryota_1#1$1\")]\n[name=\"埃尼斯\"]本来是有辫子的，被我不小心刻断了，只好改成爆炸头了……在我小时候，你就是这样蓬松的发型，不是吗？我还一直觉得挺酷的。\n[charslot(slot = \"m\", name = \"avg_npc_994_1#5$1\")]\n[name=\"哈莉\"]倒也不赖。"
+        }
+      ],
+      "description": "哈莉是埃尼斯的母亲，二人在模型制作现场直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4106_bryota",
+          "reason": "埃尼斯直接回应哈莉，并将为她制作的土偶交给她。",
+          "status": "supported",
+          "to": "npc_9371ba187ed1cfd7"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_9371ba187ed1cfd7",
+          "reason": "哈莉点名叫住埃尼斯并询问其病情与行为。",
+          "status": "supported",
+          "to": "char_4106_bryota"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4d972329129c09d2.json",
+      "sources": [
+        {
+          "endLine": 585,
+          "kind": "story",
+          "line": 548,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_bryota_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "苍苔干员密录《风情街的日与夜》离开汐斯塔前",
+      "title": "苍苔"
+    }
+  ],
+  "relationship_id": "char_4106_bryota|npc_9371ba187ed1cfd7"
+}

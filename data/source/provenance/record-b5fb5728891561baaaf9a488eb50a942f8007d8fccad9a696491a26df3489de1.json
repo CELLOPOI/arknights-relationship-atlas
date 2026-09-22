@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 424,
+          "line": 317,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_09_end.txt",
+          "quote": "[charslot(slot = \"m\", name = \"avg_2025_shu_1#5$1\")]\n[name=\"黍\"]这是你的因果。\n[name=\"黍\"]如果你没有行差踏错，确实在走向那个终点，这把种子会在合适的时候发芽，结出你想要的果。\n[charslot(slot = \"m\", name = \"avg_npc_1237_1#1$1\")]\n[name=\"望\"]你也会给我出题了。\n[charslot(slot = \"m\", name = \"avg_2025_shu_1#5$1\")]\n[name=\"黍\"]总不能一直让你刁难我们。\n[charslot(slot = \"m\", name = \"avg_npc_1237_1#1$1\")]\n[name=\"望\"]呵……\n[name=\"望\"]我的事情已经谈完了，还有什么事，你自己说吧。\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#3$1\")]\n[name=\"绩\"]……\n[charslot(slot = \"m\", name = \"avg_2025_shu_1#17$1\")]\n[name=\"黍\"]真是长大了，翅膀硬了？\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#7$1\")]\n[name=\"绩\"]我都一千岁了……姐姐。\n[charslot(slot = \"m\", name = \"avg_2025_shu_1#5$1\")]\n[name=\"黍\"]我拦不住你。\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#9$1\")]\n[name=\"绩\"]上次走的时候还大吵了一架，这一次能不能给我留样东西，当个念想？\n[charslot(slot = \"m\", name = \"avg_2025_shu_1#17$1\")]\n[name=\"黍\"]整座大荒城都被你织到了那幅锦绣里，你还想要带走什么？\n[name=\"黍\"]你要是还有什么不舍的，最好活着回来。\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#7$1\")]\n[name=\"绩\"]说的也是……\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#9$1\")]\n[name=\"绩\"]夕，能不能最后再问你要一样东西？\n[charslot(slot = \"m\", name = \"avgnew_2015_dusk_1#1$1\")]\n[name=\"夕\"]你想要什么？\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#9$1\")]\n[name=\"绩\"]那幅画，可以提前给我吗？\n[charslot(slot = \"m\", name = \"avgnew_2015_dusk_1#9$1\")]\n[name=\"夕\"]你怎么知——\n[charslot(slot = \"m\", name = \"avgnew_2015_dusk_1#2$1\")]\n[name=\"夕\"]……\n[dialog]\n[PlaySound(key=\"$d_avg_throwstone\", volume=1)]\n[delay(time=0.5)]\n[CameraShake(duration=0.2, xstrength=5, ystrength=10, vibrato=10, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#9$1\")]\n[delay(time=1)]\n[name=\"绩\"]我会好好保管的。\n[name=\"绩\"]这账本，今天就算做平了。\n[dialog]\n[delay(time=1)]\n[stopmusic(fadetime=1)]\n[charslot(slot = \"m\", focus = \"n\")]\n[name=\"？？？\"]谁允许你走了？\n[dialog]\n[charslot]\n[playMusic(intro=\"$awakening_intro\",key=\"$awakening_loop\", volume=0.6)]\n[CameraShake(duration=1.5, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_firemagic\", volume=0.8)]\n[Blocker(a=0.5, r=1, g=1, b=1, fadetime=1, block=true)]\n[playsound(key=\"$d_avg_churchfire\", loop=true, channel=\"a\",volume=0)]\n[SoundVolume(volume=0.7, fadetime=2,channel=\"a\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#5$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot = \"m\", name = \"avg_npc_1237_1#1$1\")]\n[name=\"望\"]是你……\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#6$1\")]\n[name=\"“老天师”\"]岁老二！*炎国粗口*，我就知道是你个臭崽子！\n[name=\"“老天师”\"]一天到晚不安生，不躲在破庙里下你那破棋，撒泼耍浑闹到我的地盘上来了？\n[name=\"“老天师”\"]你们几个人在这闹上一场，糟蹋了多少庄稼！你看我今天不揍你！\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#4$1\")]\n[name=\"绩\"]当心！\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_firecut\", volume=0.6)]\n[Blocker(a=0.6, r=1, g=1, b=1, fadetime=1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#4$1\",duration=0.3)]\n[PlaySound(key=\"$d_avg_jghtket\")]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=10, randomness=90, fadeout=true, block=false)]\n[delay(time=0.5)]\n[charslot(duration=0.5)]\n[delay(time=0.5)]\n绸缎在炽白的火焰前一触即燃，在转瞬间灰飞烟灭。\n[charslot(slot = \"m\", name = \"avg_npc_1237_1#1$1\")]\n[name=\"望\"]……\n[dialog]\n[playsound(key=\"$d_avg_spelldfns_1\")]\n[charslot(duration=0.3)]\n[Blocker(a=0.6, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[playsound(key=\"$d_avg_glassbroken\")]\n[StopSound(channel=\"a\", fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n[delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#5$1\")]\n[name=\"“老天师”\"]逆向分解源石技艺？你什么时候学会的……不对……这是“因果”？\n[name=\"“老天师”\"]呵……你还剩多少颗子，还能挡我几次火？\n[charslot(slot = \"m\", name = \"avg_npc_1237_1#1$1\")]\n[name=\"望\"]天师……现在恐怕也不是动手的时候吧。\n[name=\"望\"]天机阁如今损失惨重，你要是再有三长两短，大炎北边的防线可就岌岌可危了。\n[name=\"望\"]在炎国北境虎视眈眈的，可不止那些邪魔秽物吧。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#6$1\")]\n[name=\"“老天师”\"]少吓唬人！我今天非要教训你！\n[charslot(slot = \"m\", name = \"avg_npc_1237_1#1$1\")]\n[name=\"望\"]那和你一道那几位长生者，你也不在乎了？\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#5$1\")]\n[name=\"“老天师”\"]你……\n[charslot(slot = \"m\", name = \"avg_npc_1237_1#1$1\")]\n[name=\"望\"]呵……你为了心智不受邪魔侵染才装作这一副疯疯癫癫的样子，倒没忘了自己真正该做的事。\n[name=\"望\"]权衡利弊，我们未必没有可以合作的可能。\n[name=\"望\"]后会有期。"
+        }
+      ],
+      "description": "黍夕与望绩告别时老天师到来并交锋，连续场景未离场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_2015_dusk",
+          "reason": "黍夕与望绩告别时老天师到来并交锋，连续场景未离场。",
+          "status": "supported",
+          "to": "npc_d82925e6527dea32"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_d82925e6527dea32",
+          "reason": "黍夕与望绩告别时老天师到来并交锋，连续场景未离场。",
+          "status": "supported",
+          "to": "char_2015_dusk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 424,
+          "kind": "story",
+          "line": 317,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "char_2015_dusk|npc_d82925e6527dea32"
+}

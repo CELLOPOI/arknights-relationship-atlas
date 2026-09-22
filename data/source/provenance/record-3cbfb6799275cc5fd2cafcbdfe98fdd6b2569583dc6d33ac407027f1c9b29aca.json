@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 91,
+          "line": 87,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16d5/level_act16d5_st03.txt",
+          "quote": "[name=\"黎\"]夕啊。\n[name=\"夕\"]嗯。\n[name=\"黎\"]你见过多少奇人异事，看过多少沧海桑田……\n[name=\"黎\"]你帮我瞧瞧看，你说我……咳咳。\n[name=\"黎\"]你说我这辈子……幸福吗？"
+        }
+      ],
+      "description": "夕与真实黎在过去直接交谈",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_2015_dusk",
+          "reason": "夕与真实黎在过去直接交谈",
+          "status": "supported",
+          "to": "npc_d2dcf202176c69a2"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_d2dcf202176c69a2",
+          "reason": "夕与真实黎在过去直接交谈",
+          "status": "supported",
+          "to": "char_2015_dusk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_6de2864568ae8369.json",
+      "sources": [
+        {
+          "endLine": 91,
+          "kind": "story",
+          "line": 87,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16d5/level_act16d5_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇对应现实或画中连续场景",
+      "title": "画中人"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 835,
+          "line": 826,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_05_end.txt",
+          "quote": "[name=\"夕\"]……这幅画是不能要了。\n[charslot(slot=\"m\",name=\"avg_npc_139#2\",focus=\"m\")]\n[name=\"黎\"]我倒觉得他们很有意思……你不尝尝吗？还有这些山楂。\n[charslot(slot=\"m\",name=\"avgnew_2015_dusk_1#7$1\",focus=\"m\")]\n[name=\"夕\"]……\n[charslot(slot=\"m\",name=\"avg_npc_139#2\",focus=\"m\")]\n[name=\"黎\"]尝一口呗？\n[charslot(slot=\"m\",name=\"avgnew_2015_dusk_1#5$1\",focus=\"m\")]\n[CameraShake(duration=0.3,xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"夕\"]……不吃！"
+        }
+      ],
+      "description": "夕与黎在画境结束后当面对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_2015_dusk",
+          "reason": "夕与黎在画境结束后当面对话。",
+          "status": "supported",
+          "to": "npc_d2dcf202176c69a2"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_d2dcf202176c69a2",
+          "reason": "夕与黎在画境结束后当面对话。",
+          "status": "supported",
+          "to": "char_2015_dusk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4b8f03fa1aa37d85.json",
+      "sources": [
+        {
+          "endLine": 835,
+          "kind": "story",
+          "line": 826,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示旅程时段",
+      "title": "泰拉饭"
+    }
+  ],
+  "relationship_id": "char_2015_dusk|npc_d2dcf202176c69a2"
+}

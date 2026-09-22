@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 459,
+          "line": 402,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_05_beg.txt",
+          "quote": "[name=\"塔拉流民\"]好呀，还有你呢，莫兰。\n[Character(name=\"avg_npc_728_1#3$1\")]\n[name=\"莫兰\"]……\n[Character(name=\"avg_222_bpipe_1#8\")]\n[name=\"风笛\"]莫兰小姐，干嘛坐在那么远的地方呀？苇草都讲了那么多次没关系了！\n[Character(name=\"avg_npc_725_1#8$1\")]\n[name=\"维恩\"]是啊，“卡迈河谷的吟游诗人”……唱吧。\n[Character(name=\"avg_npc_728_1#1$1\")]\n[name=\"莫兰\"]……\n[Character(name=\"avg_npc_728_1#6$1\")]\n[name=\"莫兰\"]笼罩溪谷的雾霭啊……将她远行的身影遮蔽……♪\n[Character(name=\"avg_npc_242\")]\n[name=\"塔拉流民\"]哎呀，我是不是在好些年前听过这个歌声？\n[Character(name=\"avg_npc_725_1#8$1\")]\n[name=\"维恩\"]你肯定听过。\n[Character(name=\"avg_npc_242\")]\n[name=\"塔拉流民\"]对啦，我记得那时候我牵着我妹妹，她还没病到走不动路呢。我们在石桥上站着，听了好一会儿。\n[Character(name=\"avg_npc_242\")]\n[name=\"塔拉流民\"]唉，卡迈河流得那么远，别处应该也有一样的桥吧？\n[dialog]\n[musicvolume(volume=0.2, fadetime=1)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character]\n[charslot]\n[Delay(time=1)]\n[Background(image=\"bg_coldforest\",screenadapt=\"coverall\")]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Delay(time=1)]\n[Subtitle(text=\"吹过荒凉灰岩的风啊♪\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4017_puzzle_1#1$1\",duration=0.7,isblock=true)]\n[name=\"菲舍尔\"]先控制平民，但不要让任何人受伤。\n[name=\"菲舍尔\"]我们的调查对象有相当优秀的军事素养，尽量避免正面交战。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character]\n[charslot]\n[Delay(time=1)]\n[Background(image=\"34_g10_tent_inside\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Delay(time=0.5)]\n[musicvolume(volume=0.4, fadetime=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\t\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"为我捎一朵花给她♪\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Delay(time=0.5)]\n[Dialog]\n[Character(name=\"avg_npc_724_1#1$1\",name2=\"avg_npc_242\",focus=2)]\n[name=\"塔拉流民\"]塞尔蒙，你看，我这个招架姿势怎么样？跟你学的。\n[Character(name=\"avg_npc_724_1#1$1\",name2=\"avg_npc_242\",focus=1)]\n[name=\"塞尔蒙\"]不怎么样。你以后也就赶赶羽兽，学这个干什么？"
+        }
+      ],
+      "description": "二人在同一营地聚会和撤退队伍中实际共处。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F06"
+          ],
+          "from": "char_222_bpipe",
+          "reason": "二人在同一营地聚会和撤退队伍中实际共处。",
+          "status": "supported",
+          "to": "npc_9d6c97f520847c1c"
+        },
+        {
+          "evidenceIds": [
+            "F06"
+          ],
+          "from": "npc_9d6c97f520847c1c",
+          "reason": "二人在同一营地聚会和撤退队伍中实际共处。",
+          "status": "supported",
+          "to": "char_222_bpipe"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 459,
+          "kind": "story",
+          "line": 402,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    }
+  ],
+  "relationship_id": "char_222_bpipe|npc_9d6c97f520847c1c"
+}

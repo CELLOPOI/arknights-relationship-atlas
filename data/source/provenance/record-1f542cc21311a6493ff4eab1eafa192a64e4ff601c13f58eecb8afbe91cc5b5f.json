@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 463,
+          "line": 454,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "quote": "[name=\"曼弗雷德\"] 你当然不能。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 但他们也不该被特雷西斯号令。\n[name=\"阿米娅\"] 我在卡兹戴尔逗留的时候，见过很多萨卡兹战士。他们之中的很多都是雇佣兵。后来，在切尔诺伯格……我又一次见到了他们。\n[character(name=\"avg_npc_394_1#2$1\")]\n[name=\"阿米娅\"] 即使是在被塔露拉利用的时候，他们也至少知道自己每一次战斗的敌人是谁，知道自己是在用命换第二天用得上的东西。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 而现在呢？你们把他们困在了一座异族的都城里，从我进入的那一刻起，我就感受到了他们的愤怒，焦躁，还有迷茫……\n[character(name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"] 你读了我的战士们的情感？"
+        }
+      ],
+      "description": "阿米娅当面以塔露拉使用萨卡兹佣兵为例与曼弗雷德争论；他实际听到具体人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR12"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "阿米娅当面以塔露拉使用萨卡兹佣兵为例与曼弗雷德争论；他实际听到具体人物。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 463,
+          "kind": "story",
+          "line": 454,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_69395c50206899b0"
+}

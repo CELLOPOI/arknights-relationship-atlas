@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 277,
+          "line": 253,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_03_beg.txt",
+          "quote": "[name=\"卡拉\"]安德切尔，你怎么来了，今天有低年级的课吗？\n[charslot]\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"char_211_adnach_1#2\",afrom=0, ato=1,duration=1.5,focus=\"m\")]\n[Delay(time=2)]\n[name=\"安德切尔\"]哈哈，我只是应博士所托暂时帮忙而已。博士说今天有新来的学生在上铳武课，我就过来看看。\n[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]\n[name=\"卡拉\"]这位是安德切尔，Dr.{@nickname}之前的学生，虽然不是教师，但他的天赋可是很厉害的，也很擅长指导学生。\n[charslot(slot=\"m\",name=\"char_211_adnach_1\",focus=\"m\")]\n[name=\"安德切尔\"]只是个“歪光环”而已……\n[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]\n[name=\"卡拉\"]舛异光环却不愿意进教皇厅，连铳都不能用了，我是搞不懂你。\n[charslot(slot=\"m\",name=\"char_211_adnach_1#2\",focus=\"m\")]\n[name=\"安德切尔\"]我觉得弩也很好哦？只是因为光环的样子就早早决定一生的道路，也很不划算吧。\n[name=\"安德切尔\"]别聊我的事啦。这几位就是结城、岳羽和山岸同学吧，你们进展到哪里了？\n[charslot]\n[charslot(slot=\"l\",name=\"avg_4219_yukari_1#6$4\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_2387_1#9$3\",focus=\"r\")]\n[name=\"山岸风花\"]“感受源石回路”……到这里就没办法了。\n[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$4\",focus=\"l\")]\n[name=\"岳羽由加莉\"]不过，听起来并不是一定要学会铳械才可以，对吗？\n[charslot]\n[charslot(slot=\"m\",name=\"char_211_adnach_1\",focus=\"m\")]\n[name=\"安德切尔\"]当然了。能不能使用铳械并不是能定义一个人的事，就算这里是拉特兰也一样。"
+        }
+      ],
+      "description": "安德切尔点名山岸同学询问进度，风花直接回答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "char_211_adnach",
+          "reason": "安德切尔点名山岸同学询问进度，风花直接回答。",
+          "status": "supported",
+          "to": "npc_4a85ba130f83266c"
+        },
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "npc_4a85ba130f83266c",
+          "reason": "安德切尔点名山岸同学询问进度，风花直接回答。",
+          "status": "supported",
+          "to": "char_211_adnach"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2be69585e5326764.json",
+      "sources": [
+        {
+          "endLine": 277,
+          "kind": "story",
+          "line": 253,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇联动叙事所示时段",
+      "title": "月行水上"
+    }
+  ],
+  "relationship_id": "char_211_adnach|npc_4a85ba130f83266c"
+}

@@ -1,0 +1,173 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1220,
+          "line": 1212,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[name=\"海蒂\"]虽然我很想听凯尔希私下告诉我你们经历了什么，但现在确实不是好时候。\n[name=\"海蒂\"]说实话，我能做的，恐怕也只有把你们从混乱中带出来了。\n[charslot(slot = \"m\", name = \"avg_npc_400_1#10$1\",focus=\"m\")]\n[name=\"海蒂\"]城里很多人都看到了飞空艇的坠落，大家都在猜测到底是谁做到了这件事。\n[charslot(slot = \"m\", name = \"avg_npc_400_1#1$1\",focus=\"m\")]\n[name=\"海蒂\"]博士，你或许很难想象，在漫长黑夜中突然看到希望的那种欣喜……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_400_1#1$1\",focus=\"none\")]\n[Decision(options=\"听上去，这对我们在城内的活动很有利。\", values=\"1\")]"
+        }
+      ],
+      "description": "海蒂当面称博士并交流，博士回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E160"
+          ],
+          "from": "char_4045_heidi",
+          "reason": "海蒂当面称博士并交流，博士回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E160"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "海蒂当面称博士并交流，博士回应。",
+          "status": "supported",
+          "to": "char_4045_heidi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 1220,
+          "kind": "story",
+          "line": 1212,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 560,
+          "line": 543,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_end.txt",
+          "quote": "[Decision(options=\"他们知道厂房失控了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_400_1#8$1\")]\n[name=\"海蒂\"]是的，博士，大家尽力了，但只能争取到很短的时间。\n[name=\"海蒂\"]所以，我需要您尽快想出一个脱困方法……\n[dialog]\n[Character(name=\"avg_npc_400_1#8$1\",focus=-1)]\n[Decision(options=\"等等，我们的同伴马上就到。;他已经在东侧入口了。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_400_1#8$1\")]\n[name=\"海蒂\"]同伴……\n[Predicate(references=\"2\")]\n[Character(name=\"avg_npc_400_1#4$1\")]\n[name=\"海蒂\"]……他？\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_400_1#4$1\")]\n[name=\"海蒂\"]是只有一个人吗？还是一支小队？\n[name=\"海蒂\"]博士，曼弗雷德训练的萨卡兹士兵很难对付，他们可能藏在哪里……我们不能掉以轻心。"
+        }
+      ],
+      "description": "海蒂直接请求博士尽快提出脱困方案，博士回答等待接应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E43"
+          ],
+          "from": "char_4045_heidi",
+          "reason": "海蒂直接请求博士尽快提出脱困方案，博士回答等待接应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E43"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "海蒂直接请求博士尽快提出脱困方案，博士回答等待接应。",
+          "status": "supported",
+          "to": "char_4045_heidi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 560,
+          "kind": "story",
+          "line": 543,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 53,
+          "line": 48,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_heidi_1_1.txt",
+          "quote": "[name=\"海蒂\"]……您还记得有一次您替戈尔丁送信，联系过一个制醇厂工人吗？\n[name=\"海蒂\"]如果您实在无路可走了，就去找他，顺着他那里的线索往城外逃。\n[charslot(slot=\"l\",name=\"avg_4045_heidi_1#6$1\",focus=\"l\")]\n[name=\"海蒂\"]……我不能保证您的安全，这条情报线路本身已经失效了。但如果您真的在万不得已的时候选了这条路，也许最后能找到一部分自救军。\n[name=\"海蒂\"]不，您也许会找到一些……类似于医生的人。\n[name=\"海蒂\"]原本我想以她的信为契机，让她见见博士，见见凯尔希……"
+        }
+      ],
+      "description": "海蒂明确知晓博士，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4045_heidi",
+          "reason": "海蒂明确计划让戈尔丁见罗德岛博士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在本篇候选场景出现或提及海蒂。",
+          "status": "not_established",
+          "to": "char_4045_heidi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_090d8a48c17b5706.json",
+      "sources": [
+        {
+          "endLine": 53,
+          "kind": "story",
+          "line": 48,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_heidi_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "海蒂"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 604,
+          "line": 600,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_02_beg.txt",
+          "quote": "[name=\"海蒂\"]启动了吗？\n[charslot(slot=\"m\",name=\"avg_npc_012\",focus=\"m\")]\n[name=\"近卫干员\"]启动了！按照博士的部署，其他几座工厂也已经恢复运转了！\n[name=\"近卫干员\"]不过，除了市民，还有其他人在帮我们……他们自称是——\n[name=\"近卫干员\"]整合运动……"
+        }
+      ],
+      "description": "海蒂知晓博士；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_4045_heidi",
+          "reason": "海蒂听到近卫干员明确提及博士的部署。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在该局部场景，未见反向识别海蒂。",
+          "status": "not_established",
+          "to": "char_4045_heidi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 604,
+          "kind": "story",
+          "line": 600,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆工厂重启期间",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_4045_heidi|npc_b99957887950ebfd"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 194,
+          "line": 79,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_10_end.txt",
+          "quote": "[name=\"鼠王\"]   ……呵，我突然开始有些羡慕你这样的年轻人了。\n[name=\"鼠王\"]   你们总是喜欢自顾自地选择自己的道路，全然不顾自己在时局中的位置。\n[Character(name=\"char_213_mostma_1#4\",name2=\"avg_npc_034#7\",focus=1)]\n[name=\"莫斯提马\"]   我也是有在好好工作的。\n[Character(name=\"char_213_mostma_1#4\",name2=\"avg_npc_034#3\",focus=2)]\n[name=\"鼠王\"]   但是从来没有人能够查清你的根底。\n[Character(name=\"char_213_mostma_1#2\",name2=\"avg_npc_034#3\",focus=1)]\n[name=\"莫斯提马\"]   如果你真的查到了什么，那才是最麻烦的事情。\n[Character(name=\"char_213_mostma_1#2\",name2=\"avg_npc_034\",focus=2)]\n[name=\"鼠王\"]   说得对，有些事情的确不该过度深究，特别是和信使莫斯提马扯上关系的时候。\n[Character(name=\"char_213_mostma_1\",name2=\"avg_npc_034\",focus=1)]\n[name=\"莫斯提马\"]   这算什么？职业歧视吗？\n[Character(name=\"char_213_mostma_1\",name2=\"avg_npc_034#3\",focus=2)]\n[name=\"鼠王\"]   只是经验谈。\n[name=\"鼠王\"]   现在，先暂停一下吧。\n[dialog]\n[Character(name=\"avg_npc_034#3\")]\n[Blocker(a=0.4, r=0.9, g=0.8, b=0.7, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_driftsand\", volume=0.9)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$e_skill_driftsand\", volume=0.9)]\n[Blocker(a=0,fadetime=4, block=true)]\n[Character(name=\"char_213_mostma_1#4\",name2=\"avg_npc_034#3\",focus=1)]\n[name=\"莫斯提马\"]   唔。\n[name=\"莫斯提马\"]   法术被压制了……？\n[Character(name=\"char_213_mostma_1#2\",name2=\"avg_npc_034#3\",focus=1)]\n[name=\"莫斯提马\"]   搞什么，原来一直在手下留情的人其实是你吗？\n[Character(name=\"char_213_mostma_1#2\",name2=\"avg_npc_034#3\",focus=2)]\n[name=\"鼠王\"]   彼此彼此。\n[name=\"鼠王\"]   但至少，你拖延了足够的时间。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[Character(name=\"avg_npc_031\",name2=\"avg_npc_033\",focus=2)]\n[name=\"看似普通的居民\"]   你这臭小子，怎么这么耐打……呃……\n[Character(name=\"char_325_bison_1#4\")]\n[name=\"拜松\"]   呼啊，呼啊，论耐力，我，可不会，输给任何人。\n[Character(name=\"char_213_mostma_1#3\")]\n[name=\"莫斯提马\"]   嗯，做得不错。\n[name=\"莫斯提马\"]   真亏你们能这么快解决那么多的敌人啊。\n[Character(name=\"char_103_angel_1#8\")]\n[name=\"能天使\"]   嘿，这次不会再让你一个人突然消失了。\n[name=\"能天使\"]   而且这家伙就是幕后黑手吧？当然要亲手暴揍他一顿啦！\n[Character(name=\"char_201_moeshd#5\")]\n[name=\"可颂\"]   今天的运动量真是超乎想象，唔，账单长度也是。\n[name=\"可颂\"]   德克萨斯姐，我感觉今晚有很多东西没法报销啊……\n[Character(name=\"char_102_texas_1#2\")]\n[name=\"德克萨斯\"]   不要问我，问老板去。\n[Character(name=\"char_101_sora_1#4\",name2=\"char_102_texas_1#2\",focus=1)]\n[name=\"空\"]   但是老板他死了……\n[Character(name=\"char_101_sora_1#4\",name2=\"char_102_texas_1\",focus=2)]\n[name=\"德克萨斯\"]   ……那就一会再说。\n[Character(name=\"char_101_sora_1#4\",name2=\"char_102_texas_1\",focus=1)]\n[name=\"空\"]   话说，没有人去照顾一下老板的尸体吗？就那么躺在地上被踩来踩去的，是不是有点……\n[dialog]\n[Character]\n[stopmusic(fadetime=2)]\n[playsound(key=\"$d_gen_walk_n\")]\n[Delay(time=1)]\n[Character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]   看来，人都到齐了。\n[name=\"鼠王\"]   ……年轻人总会做出自己的选择。\n[name=\"鼠王\"]   即使会在风雨飘摇的大地上粉身碎骨，你们也总是如此执意行事。\n[Character(name=\"char_103_angel_1#7\")]\n[name=\"能天使\"]   他在说什么？\n[Character(name=\"char_213_mostma_1#3\")]\n[name=\"莫斯提马\"]   老爷子的碎碎念，忘了吧。\n[Character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]   就当是这样吧，安魂夜还开心吗？\n[Character(name=\"char_201_moeshd#2\")]\n[name=\"可颂\"]   还好啦，就和宿醉一样，绝对不能去想第二天该怎么办。\n[Character(name=\"char_101_sora_1#4\")]\n[name=\"空\"]   所以没有人去照顾一下老板吗？\n[Character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]   ……企鹅物流，还真是让人捉摸不透。\n[Character(name=\"char_213_mostma_1#2\")]\n[name=\"莫斯提马\"]   事到如今也没必要在意这点了吧。\n[name=\"莫斯提马\"]   企鹅物流就是企鹅物流，开战的理由也只是老板被人质疑了品味，就这么简单。\n[Character(name=\"char_325_bison_1#4\")]\n[name=\"拜松\"]   什么？这样的吗？\n[Character(name=\"char_213_mostma_1#3\")]\n[name=\"莫斯提马\"]   为了捍卫自己的美学付出生命也在所不惜，这才是大帝嘛。\n[PlayMusic(intro=\"$kingmouse_intro\", key=\"$kingmouse_loop\", volume=0.8, crossfade=1.5)]\n[Character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]   至少在让人意外这方面，你们倒是从未让我感到过意外。\n[PlaySound(key=\"$e_skill_driftsand\", volume=0.9)]\n[CameraShake(duration=4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$e_skill_driftsand\", volume=0.9)]\n[Blocker(a=1, r=0.9, g=0.8, b=0.7, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.9, g=0.8, b=0.7, fadetime=3, block=true)]\n[Blocker(a=0.4, r=0.9, g=0.8, b=0.7, fadetime=3, block=true)]\n[Character(name=\"char_103_angel_1#7\")]\n[name=\"能天使\"]   唔哦！哪来的沙子！\n[Character(name=\"char_101_sora_1#2\")]\n[name=\"空\"]   他还有余力吗？\n[Character(name=\"char_102_texas_1#4\")]\n[name=\"德克萨斯\"]   ……没错，都认真一点，这和那些打打闹闹可不一样。\n[name=\"德克萨斯\"]   一瞬间都不要松懈。\n[name=\"德克萨斯\"]   会死的。\n[Character(name=\"avg_npc_034#7\")]\n[name=\"鼠王\"]   安魂夜怎么能不热闹一点？\n[name=\"鼠王\"]   让我亲眼见识见识，大帝究竟饲养着一群怎样的怪胎。\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[Character(name=\"char_102_texas_1#4\")]\n[name=\"德克萨斯\"]   ——\n[Dialog]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.4, r=0.9, g=0.8, b=0.7, fadetime=1.5, block=true)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Delay(time=1)]\n[name=\"德克萨斯\"]   剑碰到沙子就断开了……真麻烦。\n[Character(name=\"avg_npc_034#7\")]\n[name=\"鼠王\"]   嗯，这么多年了，胆敢直接近身对我舞刀弄枪的人可不多。"
+        }
+      ],
+      "description": "德克萨斯与鼠王在最终战中直接相遇。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_102_texas",
+          "reason": "德克萨斯在最终战现场直接面对鼠王。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "鼠王直接面对包括德克萨斯在内的现场对手。",
+          "status": "supported",
+          "to": "char_102_texas"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 194,
+          "kind": "story",
+          "line": 79,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安魂夜最终战",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "char_102_texas|npc_83e2c28380c1c6fb"
+}

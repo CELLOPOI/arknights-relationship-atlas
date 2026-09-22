@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 839,
+          "line": 775,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_07-03.txt",
+          "quote": "[Decision(options=\"我还以为你不会让她把话说完。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  说那么多你也听不懂。\n[Decision(options=\"那为什么不向我解释一下？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  只是还不到时候。\n[name=\"凯尔希\"]  当你看到的时候，你应该自己就能明白。\n[name=\"凯尔希\"]  秘密就像泉水，有时候就算你不想，它还是会自己流出来。\n[stopmusic(fadetime=2)]\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"avg_7_18\",x=0, y=0, xScale=0.86, yScale=0.86, fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[playMusic(intro=\"$loneliness_intro\", key=\"$loneliness_loop\", volume=0.4)]\n[Image]\n[name=\"梅菲斯特\"] ……\n[name=\"梅菲斯特\"]  好奇怪的装置啊。\n[name=\"梅菲斯特\"]  你会领我到哪里去呢？\n[name=\"梅菲斯特\"]  你会修补我身上的漏洞吗，还是弥补我的伤疤？\n[name=\"梅菲斯特\"]  你会让我，像那个人一样，忘记一切吗？\n[name=\"梅菲斯特\"]  如果是忘记一切……\n[name=\"梅菲斯特\"]  我想要忘记一切吗？\n[name=\"梅菲斯特\"]  我想吗……\n[name=\"梅菲斯特\"]  ……\n[Dialog]\n[delay(time=1)]\n我可以选吗？\n[Dialog]\n[delay(time=2)]\n核心城\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Image(image=\"avg_7_20\",x=0, y=0, xScale=0.86, yScale=0.86, fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[name=\"陈\"]  ……怎么会。阴云？下雪了吗？\n[name=\"陈\"]  不过也替我遮掩了阳光。接下来的行动理应会方便些。\n[name=\"陈\"]  呃……我不能再受伤了。\n[name=\"陈\"]  嘁。流这点血，我就怕了吗？陈晖洁，你的决心到哪里去了？\n[name=\"陈\"]  ……\n[name=\"陈\"]  整合运动似乎也起了内讧。这应该是我行动的最好时机。\n[name=\"陈\"]  是因为终于要见到你了吗，我的手竟然有些发抖。\n[name=\"陈\"]  ……我一定会做出正确的事。\n[name=\"陈\"]  不论你现在是什么样子，不管你现在是不是过去的塔露拉。\n[name=\"陈\"]  塔露拉……我们约好的。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"avg_7_19\",x=0, y=0, xScale=1, yScale=1, fadetime=0)]\n[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=0.87, yScaleTo=0.87, duration=40, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[name=\"诗怀雅\"]  ……\n[name=\"诗怀雅\"]  好大的雪啊……\n[name=\"诗怀雅\"]  就像……那个圣诞节那样。\n[name=\"林雨霞\"]  你从来不对我说那件事。\n[name=\"星熊\"]  唔。\n[name=\"诗怀雅\"]  但你知道的。\n[name=\"林雨霞\"]  我知道一件事，和你对我说，是两回事。\n[name=\"星熊\"]  林大小姐，还是不要为难我们近卫局的missy了吧。\n[name=\"林雨霞\"]  ——鬼姐。\n[name=\"星熊\"]  ……这个称呼还是算了，林大小姐。"
+        }
+      ],
+      "description": "确认前者单向知晓后者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12b"
+          ],
+          "from": "char_4080_lin",
+          "reason": "前者在已读场景中具体提及、观察或接收后者信息。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4080_lin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 839,
+          "kind": "story",
+          "line": 775,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_07-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    }
+  ],
+  "relationship_id": "char_4080_lin|npc_69395c50206899b0"
+}

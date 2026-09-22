@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 694,
+          "line": 629,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-05_end.txt",
+          "quote": "交谈间，年轻声音的主人逐渐出现在西尔卡的视野里。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_2235_1#1$1\",afrom=0, ato=1,duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_2235_1#1$1\",focus=\"n\")]\n她从未亲眼见过这位“小将军”，此刻却莫名笃定这就是她要找的那个人。\n泽尔格勒的“暴君”，第一集团军元帅的独子……\n[charslot(slot=\"m\",name=\"avg_npc_2249_1#6$1\",focus=\"m\")]\n[name=\"西尔卡\"]（低声）阿纳托利·斯维特拉诺夫·卜捷里宁。\n[charslot]\n望着那在探照灯下明灭不定的、乖戾的神情，和那张与元帅年轻时的画像肖似的脸庞，西尔卡举起匕首，将自己隐匿进更深的黑暗之中。\n那人周身环绕的护卫，不重要；那人身旁陌生的女孩，不重要；重要的只有足以一击致命的地方，脖子、心脏，或任何大动脉的位置——\n她习以为常，准备万全。然而令她没想到的是，当猎手蓄势待发时，猎物却也陡然惊觉。\n[charslot(slot=\"l\",name=\"avg_npc_2235_1#6$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_2246_1#3$1\",focus=\"n\")]\n[name=\"阿纳托利\"]——谁？！\n[charslot(slot=\"r\",name=\"avg_npc_2246_1#3$1\",focus=\"r\")]\n[name=\"希尔达\"]嗯？\n[charslot]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Dialog]\n[charslot]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[Sticker(id=\"st1\", multi = true, text=\"<color=#888888>西尔卡</color>\", hidelog=true, x=240, y=625, alignment=\"left\", size=31, delay=0.04, width=700, duration=0.01, block = false)]\n[spellsticker(id=\"spell2\", action=\"show\", style=\"fire\", x=-240, y=283, xScale=1, yScale=1, angle=0, alpha=1, block=true)]<p=1>“夜雪无痕，噤声。”</><p=2>“Hoчной снег без следа, молчи.”</>\n[Sticker(id=\"st1\")]\n[spellstickerclear(block=false)]\n[PlaySound(key=\"$d_avg_OriginiumArts_soundwave\",volume=1)]\n[Dialog]\n[PlaySound(key=\"$d_avg_spellattack_1\",volume=1)]\n[stopmusic(fadetime=0.1)]\n[Delay(time=1)]\n[name=\"希尔达\"]！\n[name=\"希尔达\"]阿纳托利——\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0,fadetime=0, block=true)]\n[Image(image=\"73_i05\",xScale=1.5, yScale=1.5, x=-300,y=170,screenadapt=\"coverall\")]\n[imageTween(xTo = 200,yTo=130, duration=0.3, block=false)]\n[focusout(duration=0.3, type=\"cg\", from=0, to=0.5, block=true)]\n[focusout(duration=0.3, type=\"cg\", from=0.5, to=0, block=true)]\n[Delay(time=0.6)]\n然而源石技艺已经为暗杀者铺设了近乎完美的环境，猎物短暂的醒觉也没能阻拦凶手的施为。\n不知从何而来的风将衣衫猎猎吹响，它遮蔽了迅速逼近的脚步声，跃起声，以及匕首划破空气的撕裂声——\n[Dialog]\n[Image(image=\"73_i05\",xScale=1.5, yScale=1.5,x=-100,y=-160,screenadapt=\"coverall\",fadetime=0.8, block=false)]\n[Delay(time=1)]\n[name=\"西尔卡\"]抱歉了，“小将军”。\n[name=\"西尔卡\"]我需要借你的命，另有他用。\n[Image(image=\"73_i05\",xScale=1, yScale=1,screenadapt=\"coverall\",fadetime=0.8)]\n[name=\"阿纳托利\"]——！\n[Delay(time=1)]\n[Dialog]\n[PlaySound(key=\"$d_avg_throatslitting\",volume=1)]\n[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.2, yScaleTo=1.2, duration=0.5)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.4, block=true)]\n[Image]\n[ImageTween]\n[charslot]\n[Background(image=\"73_g2_exurbstreet_n\",screenadapt=\"coverall\")]\n[Delay(time=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n即使听不见声音，护卫也已经发现了这个突如其来的闯入者。\n然而此时凶器已经刺穿了目标的脖颈，又被利落地拔出。"
+        }
+      ],
+      "description": "西尔卡与希尔达在刺杀现场相遇。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_33733cfe4f0608e0",
+          "reason": "双方处于同一暗杀现场并互相看见。",
+          "status": "supported",
+          "to": "npc_55440aefd3bae8b7"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_55440aefd3bae8b7",
+          "reason": "双方处于同一暗杀现场并互相看见。",
+          "status": "supported",
+          "to": "npc_33733cfe4f0608e0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 694,
+          "kind": "story",
+          "line": 629,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒暗杀现场",
+      "title": "相变临界"
+    }
+  ],
+  "relationship_id": "npc_33733cfe4f0608e0|npc_55440aefd3bae8b7"
+}

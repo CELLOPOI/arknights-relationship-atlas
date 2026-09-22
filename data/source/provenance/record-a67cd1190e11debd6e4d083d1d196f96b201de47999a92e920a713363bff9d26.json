@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 967,
+          "line": 902,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-10_beg.txt",
+          "quote": "[name=\"Raidian\"]目测是二十四人战术编队，后面可能还有援军。阿米娅，我们必须加快速度了。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1037_amiya3_1#6$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_4179_monstr_1#6$1\",focus=\"l\")]\n[name=\"阿米娅\"]（低声）博士，快上来！\n[charslot(slot=\"r\",name=\"avg_4179_monstr_1#6$1\",focus=\"r\")]\n[name=\"Mon3tr\"]博士，快，把手给我！\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_4179_monstr_1#6$1\",focus=\"none\")]\n[Decision(options=\"我在努力——\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot]\n[PlaySound(key=\"$rungeneral\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#1$2\",afrom=0,ato=1,duration=1)]\n[charslot(slot=\"m\",posfrom=\"100,0\",posto=\"0,0\",duration=1.5)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#1$2\",focus=\"none\")]\n[name=\"严肃的卫兵\"]——攻击前面那个家伙，她想偷溜进去！\n[Dialog]\n[PlaySound(key=\"$d_avg_arrow_rain\",volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[PlaySound(key=\"$rungeneral\",channel=\"2\",volume=1)]\n[CameraShake(duration=2, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",afrom=1,ato=0,duration=1)]\n[charslot(slot=\"m\",posfrom=\"0,0\",posto=\"-100,0\",duration=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[charslot(slot=\"l\",name=\"avg_1037_amiya3_1#6$1\",focus=\"none\")]\n[charslot(slot=\"r\",name=\"avg_4179_monstr_1#6$1\",focus=\"none\")]\n[Decision(options=\"拉我一把！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[PlaySound(key=\"$explolarge1\")]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]\n[CameraShake(duration=3, xstrength=30, ystrength=30, vibrato=90, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[StopSound(channel=\"e\", fadetime=3)]\n混乱的声响当中，有一瞬间你的呼喊似乎被淹没了。\n在自己这双手能从昏暗中抓住任何东西之前，一个有点熟悉的、穿着防护服的身影快速朝你冲来。\n[dialog]\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#1$2\",afrom=0,ato=1,duration=0.5)]\n[charslot(slot=\"m\",posfrom=\"-50,0\",posto=\"0,0\",duration=0.5)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#1$2\",focus=\"m\")]\n[name=\"瑭雅\"]站稳了。\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovement\",volume=1)]\n[CameraShake(duration=1.5, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_4225_tanya_1#1$2\",focus=\"none\")]\n这身影冲向你，而后顺势将你用力托举，直到你终于抓住Mon3tr的手，站上牵引车的边缘。\n在你来得及反应之前，那双帮过你的手的重量就消失不见了。\n[Dialog]\n[Decision(options=\"你是……？;谢谢你——\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[PlaySound(key=\"$bodyfalldown1\",volume=1)]\n[charslot(slot=\"m\",afrom=1,ato=0,duration=0.5)]\n[charslot(slot=\"m\",posfrom=\"0,0\",posto=\"100,-20\",duration=0.5)]\n[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]\n[Delay(time=1)]\n[charslot]\n你回头看去，那个穿着防护服的身影动作有些笨拙地想要攀上牵引车，最终也没有成功，跌落在地上。"
+        }
+      ],
+      "description": "char_4225_tanya与博士共同撤离。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_4225_tanya",
+          "reason": "双方在撤离现场直接协作或局部同场互相识别。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方在撤离现场直接协作或局部同场互相识别。",
+          "status": "supported",
+          "to": "char_4225_tanya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 967,
+          "kind": "story",
+          "line": 902,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒撤离期间",
+      "title": "相变临界"
+    }
+  ],
+  "relationship_id": "char_4225_tanya|npc_b99957887950ebfd"
+}

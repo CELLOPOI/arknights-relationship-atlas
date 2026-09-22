@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 126,
+          "line": 118,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_01_beg.txt",
+          "quote": "[name=\"极境\"]超级旋转滑梯！！！\n[character(name=\"char_401_elysm_na_1#1\")]\n[name=\"极境\"]迪伦跟我说阿卡胡拉很好玩，看他一脸坏笑，我还以为那小子骗我，原来是真的啊！！\n[character(name=\"char_411_tomimi_1#3\")]\n[name=\"特米米\"]哦哦哦好想去看好想去看！下次一定要带嘉维尔也过来玩！\n[Character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]不知道这些传说中的杜林人，对做生意有没有兴趣呢？\n[Character(name=\"avg_4054_malist_1#6$1\")]\n[name=\"斯第奇·画布\"]你们的脑瓜真的明白什么叫简约吗？！我的作品在那堆大破烂面前真的就那么不起眼？！"
+        }
+      ],
+      "description": "同行者当面听极境说迪伦介绍旅行地，获知具体人物，不推反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_4054_malist",
+          "reason": "同行者当面听极境说迪伦介绍旅行地，获知具体人物，不推反向。",
+          "status": "supported",
+          "to": "npc_090185751b884944"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_090185751b884944",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4054_malist"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 126,
+          "kind": "story",
+          "line": 118,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    }
+  ],
+  "relationship_id": "char_4054_malist|npc_090185751b884944"
+}

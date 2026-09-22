@@ -1,0 +1,37 @@
+node_modules/
+.sites-runtime/
+artifacts/
+*.log
+.venv/
+__pycache__/
+*.pyc
+.env
+backend/db.sqlite3
+backend/staticfiles/
+frontend/build/
+frontend/public/
+.runtime/
+assets/local/*
+!assets/local/atlas-assets-24d6e8427efd2e90f29f1b7e/
+.pytest_cache/
+.ruff_cache/
+
+# 本地凭据与运行状态；只保留明确的配置示例。
+.env.*
+!.env.example
+*.sqlite3
+*.sqlite3-*
+*.dump
+*.bak
+
+# 验收产物保存在本地，可复核结论写入维护文档。
+.impeccable/
+docs/verification*/
+# 旧原型与旧托管配置不进入开发源码。
+/dist/
+/.openai/
+.DS_Store
+Thumbs.db
+
+# 个人运维资料和配置不随开发源码分发。
+/private-ops/

@@ -1,0 +1,12 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+{% if baseline_missing %}
+<p>尚无正式发布基线，请先通过资料发布命令建立首个版本。</p>
+{% else %}
+<p>基线：{{ release.pk }}。保存候选不会修改正式资料。关联修改请从<a href="{% url 'admin:atlas_changeset_add' %}">新建资料修订</a>开始。</p>
+<form method="get"><label for="candidate-section">资料类型</label>
+<select name="section" id="candidate-section">{% for value, label in sections %}<option value="{{ value }}"{% if value == section %} selected{% endif %}>{{ label }}</option>{% endfor %}</select>
+<button type="submit">选择类型</button></form>
+<form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit">创建候选</button></form>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 902,
+          "line": 868,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_closur_1_1.txt",
+          "quote": "[name=\"华法琳\"]啊，醒了。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#2$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[name=\"可露希尔\"]我……\n[PlayMusic(key=\"$calm_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#8$1\",focus=\"m\")]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=15, randomness=90, fadeout=true, block=false)]\n[name=\"可露希尔\"]华法琳，你是不是暗算我了！说，你给我喝了什么东西？\n[charslot(slot=\"m\",name=\"avg_017_huang_1#1$1\",focus=\"m\")]\n[name=\"煌\"]我作证，她什么都没干。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]我也可以作证。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#8$1\",focus=\"m\")]\n[name=\"可露希尔\"]那就是你吧Logos！都说了不需要你的咒言——\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#7$1\",focus=\"m\")]\n[name=\"Logos\"]你是自己睡过去的。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#7$1\",focus=\"m\")]\n[name=\"可露希尔\"]……我？自己睡过去？\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#13$1\",focus=\"m\")]\n[name=\"可露希尔\"]哦，我想起来了，小车们一个一个地劝我睡觉……Mechanist，你对他们做了什么？\n[charslot(slot=\"m\",name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]（摊开双手）小车们告诉你的情报可都是真的，再说，在这个领域，罗德岛上也没人比得过你。\n[charslot(slot=\"m\",name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]不过你醒了就好。我刚刚差点和Logos赌你是被叫醒还是自己醒过来呢。\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#3$1\",focus=\"m\")]\n[name=\"Logos\"]……遗憾。\n[charslot(slot=\"m\",name=\"avg_017_huang_1#1$1\",focus=\"m\")]\n[name=\"煌\"]好啦好啦，没事就好，大家先回到各自的岗位上吧！\n[dialog]\n[charslot]\n[delay(time=3)]\n工程部里的人一下子少了许多。"
+        }
+      ],
+      "description": "可露希尔醒来后Medic、华法琳、煌、Logos、Mechanist连续发言，共同在工程部等待她醒来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_4133_logos",
+          "reason": "可露希尔醒来后Medic、华法琳、煌、Logos、Mechanist连续发言，共同在工程部等待她醒来。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        },
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "可露希尔醒来后Medic、华法琳、煌、Logos、Mechanist连续发言，共同在工程部等待她醒来。",
+          "status": "supported",
+          "to": "char_4133_logos"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_393fffc71aa90cef.json",
+      "sources": [
+        {
+          "endLine": 902,
+          "kind": "story",
+          "line": 868,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_closur_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "可露希尔所述时段",
+      "title": "可露希尔"
+    }
+  ],
+  "relationship_id": "char_4133_logos|npc_30c8dcf1e7b8383d"
+}

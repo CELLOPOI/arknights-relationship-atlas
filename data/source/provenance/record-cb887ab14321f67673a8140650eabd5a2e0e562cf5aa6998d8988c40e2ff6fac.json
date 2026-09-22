@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 81,
+          "line": 46,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_01_end.txt",
+          "quote": "蕾缪安又想起了那一抹红色，她有些不安，但更多的是疑惑。\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#14$2\",focus=\"m\")]\n[name=\"蕾缪安\"]将约维塔街，不，整个司提望区近期人口流动的相关文件给我看看。\n[charslot(slot=\"m\",name=\"avg_npc_366_1#1$1\",focus=\"m\")]\n[name=\"七厅调查员\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#8$2\",focus=\"m\")]\n[name=\"蕾缪安\"]怎么了？\n[name=\"蕾缪安\"]这些明显派得上用场的资料，在我们得到命令的同时，就应该有人负责及时调取才对啊。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#8$2\",focus=\"none\")]\n[CameraShake(duration=0.3, xstrength=5, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"？？？\"]在这里在这里！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$rungeneral\", volume=0.4)]\n[charslot(slot=\"m\",name=\"avg_npc_1783_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[name=\"？？？\"]（捶胸）呼——呼——\n[name=\"？？？\"]实在是抱歉，蕾缪安枢机，这是您刚刚要的资料。\n[name=\"阿摩斯\"]我是第七厅调查员阿摩斯，今后将担任您的枢机辅佐官。\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#5$2\",focus=\"m\")]\n[name=\"蕾缪安\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#2$2\",focus=\"m\")]\n[name=\"蕾缪安\"]你迟到了，阿摩斯辅佐官。\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#8$2\",focus=\"m\")]\n[name=\"蕾缪安\"]按照帕特里奇昂阁下的说法，你会在我到达现场后的十分钟内赶来增援……但现在已经过去将近半小时了。\n[charslot(slot=\"m\",name=\"avg_npc_1783_1#4$1\",focus=\"m\")]\n[name=\"阿摩斯\"]抱歉抱歉，我本来在准备欢迎会的茶点。我以为事情没那么急……\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#8$2\",focus=\"m\")]\n[name=\"蕾缪安\"]（嘘——）\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#13$2\",focus=\"m\")]\n[name=\"蕾缪安\"]第七厅既然委派你当我的辅佐官，你应该对我有所耳闻吧？\n[charslot(slot=\"m\",name=\"avg_npc_1783_1#4$1\",focus=\"m\")]\n[name=\"阿摩斯\"]噤、噤声的蕾缪安……\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#2$2\",focus=\"m\")]\n[name=\"蕾缪安\"]工作的时候，别说任何借口。"
+        }
+      ],
+      "description": "蕾缪安与阿摩斯当面见面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L03"
+          ],
+          "from": "char_4193_lemuen",
+          "reason": "双方当面交谈或具体历史互动明确双向。",
+          "status": "supported",
+          "to": "npc_57525db0c4913393"
+        },
+        {
+          "evidenceIds": [
+            "L03"
+          ],
+          "from": "npc_57525db0c4913393",
+          "reason": "双方当面交谈或具体历史互动明确双向。",
+          "status": "supported",
+          "to": "char_4193_lemuen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 81,
+          "kind": "story",
+          "line": 46,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "万国峰会期间",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_4193_lemuen|npc_57525db0c4913393"
+}

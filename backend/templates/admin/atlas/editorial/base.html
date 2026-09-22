@@ -1,0 +1,32 @@
+{% extends "admin/base_site.html" %}
+{% block extrastyle %}{{ block.super }}
+<style>
+.editorial { max-width: 1120px; }
+.editorial input[type=text], .editorial textarea, .editorial select { box-sizing: border-box; max-width: 100%; }
+.editorial textarea { width: 100%; max-width: 75ch; }
+.editorial form p { display: grid; gap: 8px; max-width: 75ch; }
+.editorial .actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 20px 0; }
+.editorial button { background: var(--button-bg); color: var(--button-fg); border: 0; border-radius: 4px; padding: 11px 16px; cursor: pointer; font: inherit; }
+.editorial button:hover { background: var(--button-hover-bg); }
+.editorial :is(button,a,input,select,textarea):focus-visible { outline: 2px solid var(--link-fg); outline-offset: 3px; }
+.editorial h2 { margin-top: 32px; }
+.editorial .meta { color: var(--body-fg); line-height: 1.8; }
+.editorial table { width: 100%; }
+.editorial pre { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; font: inherit; line-height: 1.6; }
+.editorial .diff { table-layout: fixed; margin-bottom: 20px; }
+.editorial .diff th:first-child { width: 15%; }
+.editorial summary { cursor: pointer; padding: 12px 0; font-weight: 600; }
+.editorial .notice { padding: 12px; background: var(--darkened-bg); }
+.editorial .record-list { overflow-x: auto; }
+.editorial .errornote { white-space: pre-wrap; }
+@media (max-width: 767px) {
+  .editorial .diff, .editorial .diff tbody, .editorial .diff tr, .editorial .diff td, .editorial .diff th { display: block; width: auto; }
+  .editorial .diff thead { display: none; }
+  .editorial .diff td::before { content: attr(data-label); display: block; font-weight: 600; margin-bottom: 6px; }
+  .editorial .diff th:first-child { width: auto; background: var(--darkened-bg); }
+  .editorial .diff td { padding: 12px; }
+}
+</style>
+{% endblock %}
+{% block breadcrumbs %}<div class="breadcrumbs"><a href="{% url 'admin:index' %}">首页</a> › <a href="{% url 'admin:atlas_changeset_changelist' %}">资料修订</a> › {{ title }}</div>{% endblock %}
+{% block content %}<div class="editorial">{% block workspace %}{% endblock %}</div>{% endblock %}

@@ -1,0 +1,216 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 68,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_chen_1_1.txt",
+          "quote": "[name=\"诗怀雅\"]魏总督也不是，嗯哼？\n[Character(name=\"char_308_swire_1#1\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]一个“毫无背景”加入近卫局两年不到的新人，不仅刷新了加入特别督察组的最快记录，还成为了新的感染者居住案的有力推动者之一。\n[Character(name=\"char_308_swire_1#1\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]看来在入组测验上输给我这件事，比我想象的还让你记恨，施怀雅家的大小姐，心眼也不过如此。\n[Character(name=\"char_308_swire_1#1\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]嘁，技不如人，这我认了。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]不过，我第一次在近卫局以外的地方听到你的名字竟然是在一场宴会上。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]陈晖洁小姐，你知道为什么吗？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#5\",focus=2)]\n[name=\"陈\"]……\n[Character(name=\"char_308_swire_1#1\",name2=\"char_010_chen_1#5\",focus=1)]\n[name=\"诗怀雅\"]因为那份法案。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#5\",focus=1)]\n[name=\"诗怀雅\"]他们说，你自以为有魏总督和九做后盾，就觉得自己好像能做到什么事了。"
+        }
+      ],
+      "description": "诗怀雅明确谈魏总督与陈背景。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_308_swire",
+          "reason": "诗怀雅明确谈魏总督与陈背景。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_f17d745b9e0242cf.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 68,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_chen_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "陈"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1032,
+          "line": 1007,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "quote": "[name=\"诗怀雅\"]  嗯……？魏长官办公室里，那个人……是谁？\n[name=\"星熊\"]  ……蓝色头发的天使？还是萨卡兹？\n[name=\"诗怀雅\"]  哇……哇！她，她受了好重的伤！\n[name=\"星熊\"]  等等！别进去……魏长官也在里面。\n[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_lungmen_o\",screenadapt=\"coverall\")]\n[Image]\n[Blocker(a=0, fadetime=2, block=false)]\n[Character(name=\"char_213_mostma_1\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"？？？\"]  Chief，您似乎有客人。\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  能进这附近的都是值得信任的人。与其关心这个不如关心你自己的伤势。\n[Character(name=\"char_213_mostma_1\")]\n[name=\"？？？\"]  如果您觉得允许外面那两个人偷听没什么关系，那我这点小伤也只是小意思。\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  这次你来是做什么，拉特兰的信使？\n[Character(name=\"char_213_mostma_1\")]\n[name=\"？？？\"]  我不是拉特兰任一官方的信使……\n[name=\"？？？\"]  （只是，教宗确实是有一条给您的消息。）\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  星熊！带诗怀雅出去。\n[Character(name=\"char_136_hsguma\")]\n[name=\"星熊\"]  啊，明白！\n[Character(name=\"char_308_swire_1#3\")]\n[name=\"诗怀雅\"]  喂！为什么就只有我……"
+        }
+      ],
+      "description": "魏彦吾当面命星熊带诗怀雅离开，两人均回应，真实共同近前。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E80"
+          ],
+          "from": "char_308_swire",
+          "reason": "魏彦吾当面命星熊带诗怀雅离开，两人均回应，真实共同近前。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [
+            "E80"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "魏彦吾当面命星熊带诗怀雅离开，两人均回应，真实共同近前。",
+          "status": "supported",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 1032,
+          "kind": "story",
+          "line": 1007,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 417,
+          "line": 397,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_swire_1_1.txt",
+          "quote": "[name=\"诗怀雅\"] ——大概类似这样？不过我已经不在意了……嗯，我应该已经不在意了，管他怎么想呢。\n[Character(name=\"char_308_swire_1\", name2=\"char_2005_weiyw_1#2\", focus=2)]\n[name=\"魏彦吾\"] 不在意？那怎么连语气都模仿得八九不离十？\n[Character(name=\"char_308_swire_1\", name2=\"char_2005_weiyw_1#2\", focus=1)]\n[name=\"诗怀雅\"] 啊……毕竟是，从小到大的执念？也没法完全不在意啊！\n[name=\"诗怀雅\"] ……\n[name=\"诗怀雅\"] 魏大人，你应该也能看出来，我一开始跟你讲我的童年经历，其实是为了证明忠诚。\n[name=\"诗怀雅\"] 但是现在我意识到了，这四年来……不，从更早以前起，你就记得我做的事。\n[name=\"诗怀雅\"] 那些事，用来证明我的立场和想法，远比一通谈话来得有力。这么比较起来，这通谈话反而显得没什么意义。\n[Character(name=\"char_308_swire_1\", name2=\"char_2005_weiyw_1#2\", focus=2)]\n[name=\"魏彦吾\"] 倒也不是……我确实曾经在你身上看到过亚当斯的影子。\n[Character(name=\"char_308_swire_1\", name2=\"char_2005_weiyw_1#4\", focus=2)]\n[name=\"魏彦吾\"] 虽然你和他一点也不像。\n[Character(name=\"char_308_swire_1\", name2=\"char_2005_weiyw_1#4\", focus=1)]\n[name=\"诗怀雅\"] 嗯……其实直到现在，我也不能确定我是不是能完全不被祖父影响。毕竟我知道，我其实还是很在意他的想法。\n[name=\"诗怀雅\"] 不过……魏大人，愿意对我有点信心吗？\n[Character(name=\"char_308_swire_1\", name2=\"char_2005_weiyw_1\", focus=2)]\n[name=\"魏彦吾\"] 呵……\n[name=\"魏彦吾\"] 正如你刚才所说，事实比谈话有力。\n[Character(name=\"char_308_swire_1\", name2=\"char_2005_weiyw_1\", focus=1)]\n[name=\"诗怀雅\"] 那就……请拭目以待？"
+        }
+      ],
+      "description": "诗怀雅与魏彦吾当面回顾童年并讨论未来立场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_308_swire",
+          "reason": "诗怀雅与魏彦吾当面回顾童年并讨论未来立场。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "诗怀雅与魏彦吾当面回顾童年并讨论未来立场。",
+          "status": "supported",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_5c3fc53607ae62fa.json",
+      "sources": [
+        {
+          "endLine": 417,
+          "kind": "story",
+          "line": 397,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_swire_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "诗怀雅所述时段",
+      "title": "诗怀雅"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 406,
+          "line": 373,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "quote": "[name=\"陈\"]  喂。\n[Character(name=\"char_empty\",name2=\"char_010_chen_1#1\",focus=2)]\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[CharacterCutin(widgetID=\"1\", name=\"char_2005_weiyw_1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]\n[name=\"魏彦吾\"]  陈警官，你做得很好。\n[name=\"魏彦吾\"]  诗怀雅警官在频道中吗？\n[Dialog]\n[CharacterCutin(widgetID=\"1\",fadetime=0.5,block=true)]\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[CharacterCutin(widgetID=\"2\", name=\"char_308_swire_1#5\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]\n[name=\"诗怀雅\"]  在。\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.5,block=true)]\n[CharacterCutin(widgetID=\"1\", name=\"char_2005_weiyw_1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]\n[name=\"魏彦吾\"]  请向我汇报现在的进度。\n[Dialog]\n[CharacterCutin(widgetID=\"1\",fadetime=0.5,block=true)]\n[CharacterCutin(widgetID=\"2\", name=\"char_308_swire_1#5\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]\n[name=\"诗怀雅\"]  罗德岛也救出来了，各大队我也安排好了。调度加指挥，花了我整整三个晚上欸。\n[name=\"诗怀雅\"]  那么，陈警官呢？\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.5,block=true)]\n[CharacterCutin(widgetID=\"1\", name=\"char_2005_weiyw_1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]\n[Character(name=\"char_empty\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我已经夺回——\n[name=\"陈\"]  ……\n[Character(name=\"char_empty\",name2=\"char_010_chen_1#5\",focus=2)]\n[name=\"陈\"]  ——在罗德岛的协助下，我已经夺回近卫局。这个消息将借整合运动的指挥官之口，传达给所有整合运动。\n[name=\"陈\"]  龙门中潜藏的所有整合运动，已经聚集在这个城区，也照我们封堵和架设的所有路线，进入了各个埋伏点。\n[name=\"陈\"]  接下来，只需等待他们的反扑即可。\n[name=\"陈\"]  我的任务已经完成。\n[Character(name=\"char_empty\",name2=\"char_010_chen_1#5\",focus=1)]\n[name=\"魏彦吾\"]  你们的其他几位同事也已经向我递交了报告，上个阶段的任务，大家都圆满地完成了。各位做得很不错。\n[name=\"魏彦吾\"]  那么，我们该进入下个阶段了。"
+        }
+      ],
+      "description": "陈、诗怀雅在同一通信中与魏彦吾讨论城内战况。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_308_swire",
+          "reason": "陈、诗怀雅在同一通信中与魏彦吾讨论城内战况。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "陈、诗怀雅在同一通信中与魏彦吾讨论城内战况。",
+          "status": "supported",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 406,
+          "kind": "story",
+          "line": 373,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "靶向药物所述时段",
+      "title": "靶向药物"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 205,
+          "line": 192,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_09_end.txt",
+          "quote": "[name=\"陈\"]你们怎么会在这里？！\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#5\",focus=1)]\n[name=\"星熊\"]哈哈哈，这就说来话长了。之后吃饭的时候慢慢说吧。\n[character(name=\"avg_npc_203_1#1\",name2=\"avg_npc_197_1#5\",focus=2)]\n[name=\"诗怀雅\"]唉，事情变成这样，我可没胃口吃饭。\n[dialog]\n[character]\n[delay(time=1)]\n[character(name=\"avg_npc_198_1#2\")]\n[name=\"坎黛拉\"]两位世侄，瞧我，光顾着和老潘乔说话，居然把最大的功臣给冷落了。\n[character(name=\"avg_npc_198_1#5\")]\n[name=\"坎黛拉\"]喂，那边的，赶紧拉两架无人机过来，灯光也打过来！\n[name=\"坎黛拉\"]你们做得漂亮，实在是太漂亮了。\n[name=\"坎黛拉\"]魏彦吾真是让我认识了两个大好后辈。"
+        }
+      ],
+      "description": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_308_swire",
+          "reason": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_a2ee9e247fcb3cb6.json",
+      "sources": [
+        {
+          "endLine": 205,
+          "kind": "story",
+          "line": 192,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "多索雷斯假日"
+    }
+  ],
+  "relationship_id": "char_308_swire|npc_08bc2cc38b820ef0"
+}

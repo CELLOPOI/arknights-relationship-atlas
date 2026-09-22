@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 523,
+          "line": 465,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "quote": "[name=\"因陀罗\"]混蛋，怎么都甩不掉！\n[character(name=\"avg_155_tiger_1#9$1\", name2=\"avg_npc_405_1#4$1\", focus=2)]\n[name=\"摩根\"]不……他刚才的速度你们都看见了吧？\n[name=\"摩根\"]他像故意放慢了脚步，硬是……硬是看我们逃了这么久……\n[character(name=\"avg_155_tiger_1#6$1\", name2=\"avg_npc_405_1#4$1\", focus=1)]\n[name=\"因陀罗\"]这是什么变态啊？\n[dialog]\n[character]\n[playsound(key=\"$d_avg_blood\",volume=0.7)]\n[character(name=\"avg_npc_410_1#1$1\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"？？？\"]嗯……听听你们的呼吸声与心跳声。你们终于跑累了吗？\n[character(name=\"avg_npc_407_1#6$2\")]\n[name=\"推进之王\"]这就是……萨卡兹的荣耀吗？\n[name=\"推进之王\"]这根本称不上一场战斗。\n[character(name=\"avg_npc_410_1#5$1\")]\n[name=\"？？？\"]……战斗？\n[name=\"？？？\"]你对我有些误解。\n[name=\"？？？\"]既然“魔王”不在，那么这里就根本没有与我匹配的对手。\n[name=\"？？？\"]你会与一群肉兽谈论荣耀吗？在你明知道狩猎它们只能带来一些感官刺激，最终它们只配作为一道前菜出现在晚餐饭桌上的前提下？\n[character(name=\"avg_npc_407_1#6$2\")]\n[name=\"推进之王\"]你把我们……当成猎物？\n[name=\"推进之王\"]即便你是萨卡兹，这种为了个人喜好而大肆杀戮的行径，也未免太野蛮了……\n[character(name=\"avg_npc_410_1#2$1\")]\n[name=\"？？？\"]不要以你们所理解的文明揣度我。这对我而言是最可怕的污蔑。\n[character(name=\"avg_npc_410_1#8$1\")]\n[name=\"？？？\"]在肮脏的瓦砾把你们砸成肉末之前，试着反抗我吧。\n[name=\"？？？\"]我会借由你们的鲜血记录你们临死前的思绪……所有的恐惧，不甘，愤怒……让它们尽情地涌向我！\n[dialog]\n[Blocker(a=0, r=255, g=0, b=0, fadetime=0, block=true)]\n[playsound(key=\"$d_avg_blood\")]\n[Blocker(a=0.5, r=255, g=0, b=0, fadetime=0.15, block=true)]\n[Blocker(a=0, r=255, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[delay(time=1)]\n[character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]维娜，快过来——\n[character(name=\"avg_npc_407_1#2$2\")]\n[name=\"推进之王\"]不。\n[character(name=\"avg_npc_405_1#5$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"摩根\"]维娜！\n[character(name=\"avg_npc_407_1#1$2\")]\n[name=\"推进之王\"]摩根，你也退下。\n[name=\"推进之王\"]唔……\n[character(name=\"avg_npc_401_1#4$1\")]\n[name=\"克洛维希娅\"]你要挡在我们所有人面前，与他对抗？\n[character(name=\"avg_npc_407_1#1$2\")]\n[name=\"推进之王\"]……是的。\n[character(name=\"avg_npc_401_1#7$1\")]\n[name=\"克洛维希娅\"]你不是他的对手。\n[character(name=\"avg_npc_407_1#1$2\")]\n[name=\"推进之王\"]我知道。\n[character(name=\"avg_npc_401_1#5$1\")]\n[name=\"克洛维希娅\"]就算你会被他瞬间撕碎，血肉变成这管道里最不起眼的一摊污迹，你也不准备转身逃走？\n[character(name=\"avg_npc_407_1#8$2\")]\n[name=\"推进之王\"]除非……你们能跑得比我快一些。\n[character(name=\"avg_npc_401_1#4$1\")]\n[name=\"克洛维希娅\"]为什么？"
+        }
+      ],
+      "description": "克洛维希娅与因陀罗、摩根、推进之王处于大君当面袭击的同一撤退现场，针对保护与逃离对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E83"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "克洛维希娅与因陀罗、摩根、推进之王处于大君当面袭击的同一撤退现场，针对保护与逃离对话。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [
+            "E83"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "克洛维希娅与因陀罗、摩根、推进之王处于大君当面袭击的同一撤退现场，针对保护与逃离对话。",
+          "status": "supported",
+          "to": "npc_1f201a858b188fce"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 523,
+          "kind": "story",
+          "line": 465,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 107,
+          "line": 95,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_beg.txt",
+          "quote": "[name=\"洛洛\"]城防军士兵的斗志很顽强。\n[Character(name=\"avg_npc_401_1#1$1\")]\n[name=\"克洛维希娅\"]因为他们的长官还在上面。\n[name=\"克洛维希娅\"]这些士兵……的确很尊敬那位指挥官。\n[Dialog]\n[Character]\n[playsound(key=\"$rungeneral\", loop=true, channel=\"a\",volume=0.7)]\n[Character(name=\"avg_npc_398_1#1$1\",fadetime=0.5)]\n[Delay(time=0.5)]\n[StopSound(channel=\"a\", fadetime=0.5)]\n[name=\"自救军战士\"]指挥官，萨卡兹来了！罗德岛的干员们正在与他们交战！\n[Character(name=\"avg_npc_401_1#6$1\")]\n[name=\"克洛维希娅\"]支援他们。我们需要在正面战场上尽可能地吸引敌人的注意，来为博士的行动争取时间。"
+        }
+      ],
+      "description": "克洛维希娅知晓血魔大君一方。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "克洛维希娅指挥迎击血魔力量并支援罗德岛。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "未见血魔大君识别克洛维希娅。",
+          "status": "not_established",
+          "to": "npc_1f201a858b188fce"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 107,
+          "kind": "story",
+          "line": 95,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "城防塔决战",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "npc_1f201a858b188fce|npc_aa980d6791c26c93"
+}

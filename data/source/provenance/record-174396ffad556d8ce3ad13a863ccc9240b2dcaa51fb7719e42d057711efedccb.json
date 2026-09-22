@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 440,
+          "line": 421,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_06_beg.txt",
+          "quote": "[name=\"克莱门莎\"]我曾经想要向歌蕾蒂娅表达这些情绪，但我意识到自己没有资格。\n[name=\"克莱门莎\"]我对她做出了纯粹出自理性的决断，自然没有资格求得感性的原谅。\n[charslot(slot = \"m\", name = \"avg_npc_1382_1#2$1\")]\n[name=\"克莱门莎\"]此时此刻，也是如此。\n[name=\"克莱门莎\"]所以，我“平静”地接受了自己的决断。\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]……\n[dialog]\n[charslot]\n[charslot(slot = \"m\", focus=\"n\")]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_avg_telephonebusy\", volume=1)]\n[delay(time=2)]\n[charslot(slot = \"m\", name = \"avg_npc_1401_1#1$1\", duration=0.5, isblock=true)]\n[name=\"“小帮手”\"]已经为您连线指定人员。布兰都斯顾问没有接听。\n[dialog]\n[charslot(slot = \"m\", name = \"avg_npc_1382_1#9$1\")]\n[name=\"克莱门莎\"]……\n[name=\"克莱门莎\"]凯尔希医生，博士。很抱歉没能给出得体的答复。"
+        }
+      ],
+      "description": "克莱门莎与博士当面交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_17db81f47ae22715",
+          "reason": "克莱门莎直接称呼博士并向其致歉、说明将履行职责。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士当面观察克莱门莎的神经缆线异常并向她发问。",
+          "status": "supported",
+          "to": "npc_17db81f47ae22715"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 440,
+          "kind": "story",
+          "line": 421,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "弥利亚留姆会谈及灾变前夕",
+      "title": "生路"
+    }
+  ],
+  "relationship_id": "npc_17db81f47ae22715|npc_b99957887950ebfd"
+}

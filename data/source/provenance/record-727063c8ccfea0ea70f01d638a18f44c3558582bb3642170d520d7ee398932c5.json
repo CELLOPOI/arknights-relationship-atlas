@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 52,
+          "line": 29,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "quote": "[name=\"弗莱蒙特\"]……她最终还是走到了这一步。\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#12$1\",focus=\"m\")]\n[name=\"弗莱蒙特\"]该说我们的殿下什么好呢？冥顽不灵，还是天赋异禀？算了，不管骂还是夸，这下连众魂都听不见了。\n[name=\"弗莱蒙特\"]维多利亚的事情暂时放一边吧。那边的烂摊子特雷西斯和孽茨雷会收拾的。\n[name=\"弗莱蒙特\"]接下来……哈，瓦瑟领的高塔上塞满了军事委员会的间谍。他们恨不得撺掇羊和猫立刻大干一架，好让他们别关注卡兹戴尔。\n[name=\"弗莱蒙特\"]把你们的线都收收好！记住，我们也很快就要滚蛋了。浮夸羊不会容忍我们继续在她眼皮子底下蹦跶。\n[name=\"弗莱蒙特\"]我早就跟菈玛莲抱怨过，那对兄妹太激进了，迟早会给我们招来数不清的麻烦事！\n[name=\"弗莱蒙特\"]埃芒加德，你在卡兹戴尔的活儿得加紧做了。 \n[name=\"弗莱蒙特\"]要是特雷西斯的计划没完全成功，维多利亚……不，莱塔尼亚和其他核心圈国家的军队会立刻朝卡兹戴尔行进。\n[name=\"弗莱蒙特\"]接收巴别塔留下的遗产，保住那座城市。不能让两百年前的事再来一次。\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#5$1\",focus=\"m\")]\n[name=\"弗莱蒙特\"]……等等。\n[name=\"弗莱蒙特\"]线头是不是动了？埃芒加德，是你动的吗？\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#4$1\",focus=\"m\")]\n[name=\"弗莱蒙特\"]……\n[name=\"弗莱蒙特\"]这样啊。\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#3$1\",focus=\"m\")]\n[multiline(name=\"弗莱蒙特\")]“希望”……我可不怎么喜欢听见这个词语。但好歹，眼前还算有条路可以走……\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#1$1\",focus=\"m\")]\n[multiline(name=\"弗莱蒙特\")]对吧，殿下？\n[Dialog]\n[charslot]\n特蕾西娅看到老巫妖严肃的脸上露出了一个几不可见的微笑。\n她松开了那根透明的、深入虚空的丝弦，朝那位暂停了抱怨的老朋友点了点头，又朝更远的地方走去。"
+        }
+      ],
+      "description": "老巫妖与特蕾西娅在当前远行片段以丝弦互相回应，叙述明确老朋友；非后段未来推演。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E164"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "老巫妖与特蕾西娅在当前远行片段以丝弦互相回应，叙述明确老朋友；非后段未来推演。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [
+            "E164"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "老巫妖与特蕾西娅在当前远行片段以丝弦互相回应，叙述明确老朋友；非后段未来推演。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 52,
+          "kind": "story",
+          "line": 29,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 132,
+          "line": 103,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "quote": "[name=\"菈玛莲\"]不过呢，在我们表态之前……我在来的路上碰上了迷路的巫妖特使，他有一封信希望转交给你们。\n[name=\"菈玛莲\"]这说明卡兹戴尔确实变化很大，那位特使甚至没能找到通往这里的路。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#3$1\")]\n[name=\"特蕾西娅\"]唔……是从莱塔尼亚抵达这里的信件。\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#1$1\")]\n[name=\"菈玛莲\"]如果不出所料，殿下的信使应该仍旧没有得到独眼巨人们的半点消息。\n[name=\"菈玛莲\"]那么比起掩埋在风雪深处的声音，还是听听莱塔尼亚的巫妖们作何回答吧。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#2$1\")]\n[name=\"特蕾西娅\"]你说得对。萨卡兹……许久没能真正团结在一起了。\n[dialog]\n[playsound(key=\"$d_avg_paper1\")]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#3$1\")]\n[name=\"特蕾西娅\"]嗯……？\n[charslot(duration=1)]\n信纸上的华美文字化作丝线，纠缠浮现于纸面之上，最终形成了一个熟悉的身影。\n[dialog]\n[Background(image=\"bg_black\",screenadapt=\"coverall\",fadetime=2)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#7$1\",duration=1.5)]\n[delay(time=2)]\n[name=\"菈玛莲\"]弗莱蒙特，久居莱塔尼亚的巫妖。看来现在的“誊录”是他了。\n[name=\"特蕾西娅\"]看来巫妖们在莱塔尼亚运用法术的风格发生了些变化。唔，他的神情似乎非常激动。\n[name=\"特蕾西娅\"]……\n[name=\"特蕾西娅\"]……可为什么光有影像，却没有任何声音？\n[name=\"菈玛莲\"]……呵呵。\n[name=\"菈玛莲\"]那位巫妖特使暗示过我，他实在很苦恼如何润色老师的措辞……我也没想到他干脆抹去了声音。\n[name=\"菈玛莲\"]总之，弗莱蒙特表达了巫妖们的歉意。他们仍然醉心知识，实在无法分心长途跋涉来相聚。\n[name=\"菈玛莲\"]但倘若卡兹戴尔需要他们的知识，巫妖很乐意为他们选中的人敞开圣殿之门。\n[name=\"菈玛莲\"]……当然，我想以殿下的能耐，也能从影像里看出弗莱蒙特的态度才是。看来他还是对激烈的变革过敏。"
+        }
+      ],
+      "description": "给双子的信已送达并由特蕾西娅阅看，支持双方知晓；不将送信特使等同弗莱蒙特本人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "给双子的信已送达并由特蕾西娅阅看，支持双方知晓；不将送信特使等同弗莱蒙特本人。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "给双子的信已送达并由特蕾西娅阅看，支持双方知晓；不将送信特使等同弗莱蒙特本人。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 132,
+          "kind": "story",
+          "line": 103,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_732d802fa042a0c2|npc_c0e49cc5a9477cf1"
+}

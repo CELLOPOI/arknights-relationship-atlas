@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 107,
+          "line": 55,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_07_end.txt",
+          "quote": "[name=\"佩佩\"]……没有一个人，大家都离开了。\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#12$1\")]\n[name=\"佩佩\"]天……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_fsmetal\", volume=1)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_fsmetal\", volume=1)]\n[Delay(time=1)]\n平日里熙熙攘攘的街道上，早已空无一人，只有宝石构装体三三两两聚在一起。\n它们抬手间，一座座房屋尽数化为流沙，落在地上。\n而流沙之中，又升起层层叠叠的巨柱与高墙。\n[dialog]\n[CameraShake(duration=3, xstrength=5, ystrength=5, vibrato=20, randomness=70, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_sandstone\", volume=1)]\n[Delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#9$1\", posfrom=\"100,0\", posto=\"0,0\", duration=0.5, isblock=true)]\n[Delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#3$1\")]\n[name=\"佩佩\"]呼……差点就被砸到了。\n[PlaySound(key=\"$d_avg_meownormal\", volume=1)]\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"米奥\"]咪……\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#5$1\")]\n[name=\"佩佩\"]……？\n[dialog]\n[PlaySound(key=\"$d_avg_pawfootstep_3\", volume=0.4)]\n[Delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#5$1\")]\n[name=\"佩佩\"]谁……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_pawfootstep_3\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#6$1\", posfrom=\"-200,0\", posto=\"0,0\", duration=1.5, isblock=true)]\n[PlaySound(key=\"$d_avg_meowlong\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#1$1\", duration=0.5, isblock=true)]\n[name=\"米奥\"]喵呜……\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#4$1\")]\n[name=\"佩佩\"]咦……哪里来的小动物……？\n[PlaySound(key=\"$d_avg_meownormal\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#1$1\")]\n[name=\"米奥\"]喵！\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#2$1\")]\n[name=\"佩佩\"]快走吧，这里不是你该待的地方。\n[name=\"佩佩\"]去！去！\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#1$1\")]\n[name=\"米奥\"]……\n[dialog]\n[charslot(duration=0.5, isblock=true)]\n[Delay(time=0.5)]\n面前的动物并没有因为女孩的呵斥而恐惧，反而施施然地蹲坐下来，轻轻舔舐自己的皮毛。\n佩佩内心疑惑，决定绕开继续前行，就在她准备踏出脚步的时候，那只动物抬起头，直勾勾看向佩佩的眼睛。\n在它的盯视中，佩佩觉得寸步难行。"
+        }
+      ],
+      "description": "佩佩与米奥当面互动并彼此观察。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_4058_pepe",
+          "reason": "佩佩与米奥当面互动并彼此观察。",
+          "status": "supported",
+          "to": "npc_08a5376de9194cbe"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_08a5376de9194cbe",
+          "reason": "佩佩与米奥当面互动并彼此观察。",
+          "status": "supported",
+          "to": "char_4058_pepe"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_204b53066b797ab8.json",
+      "sources": [
+        {
+          "endLine": 107,
+          "kind": "story",
+          "line": 55,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "太阳甩在身后事件期间",
+      "title": "太阳甩在身后"
+    }
+  ],
+  "relationship_id": "char_4058_pepe|npc_08a5376de9194cbe"
+}

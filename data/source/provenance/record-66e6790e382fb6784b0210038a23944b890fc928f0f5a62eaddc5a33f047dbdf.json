@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 70,
+          "line": 7,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-04_beg.txt",
+          "quote": "[name=\"杜宾\"]  Ace！\n[Character(fadetime=0.5)]\n[Character(name=\"char_014_riope\" ,fadetime=0.6)]\n[delay=0.65]\n[Character(name=\"char_014_riope\" )]\n[name=\"Ace\"]  看来，你们都平安无事。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  这里还没到汇合点……怎么只有你一个人？\n[Character]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]\n[Dialog]\n[Blocker(a=0, fadetime=0.3, block=true)]\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动成员\"]   他们就是那些从核心区出逃的人！别放他们走！\n[Character]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]\n[Dialog]\n[Blocker(a=0, fadetime=0.3, block=true)]\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  呿，穷追不舍！\n[name=\"杜宾\"]  E2小队，应敌——\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]   杜宾，不要恋战，优先后撤！\n[name=\"Ace\"]   阿米娅，Dr.{@nickname}！快！\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.5)]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]\n[Dialog]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  这里也不安全。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  是的，我们还要继续向下一个汇合点移动。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  你的小队呢？\n[Character]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=0.3, block=true)]\n[Dialog]\n[Blocker(a=0, fadetime=0.3, block=true)]\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动成员\"]   藏到哪去了？把他们找出来！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  又来了吗！\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  Dr.{@nickname}，请下命令吧。\n[name=\"Ace\"]  就像以前那样。\n[Decision(options=\"……？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]   啊，Ace……\n[name=\"阿米娅\"]   其实有些，小小的变故。\n[name=\"阿米娅\"]   博士……意外失去了记忆。\n[Character(name=\"char_002_amiya_1#4\",name2=\"char_014_riope\",focus=2)]\n[name=\"Ace\"]   ……原来如此。\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]   抱歉，Ace……事情和以前相比，有不小的区别。\n[Character(name=\"char_002_amiya_1#4\",name2=\"char_014_riope\",focus=2)]\n[name=\"Ace\"]   是吗。你没必要向我道歉。\n[name=\"Ace\"]   博士的指挥能力，有没有因为失忆受到影响？\n[Character(name=\"char_002_amiya_1\",name2=\"char_014_riope\",focus=1)]\n[name=\"阿米娅\"]   ……和以前一样。\n[name=\"阿米娅\"]   博士的决策依旧十分可靠，我保证。\n[Character(name=\"char_002_amiya_1\",name2=\"char_014_riope\",focus=2)]\n[name=\"Ace\"]   那就好。我听从博士的指挥。"
+        }
+      ],
+      "description": "Ace与救援队汇合并直接对话，明确接受博士指挥。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_130_doberm",
+          "reason": "Ace与救援队汇合并直接对话，明确接受博士指挥。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "Ace与救援队汇合并直接对话，明确接受博士指挥。",
+          "status": "supported",
+          "to": "char_130_doberm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 70,
+          "kind": "story",
+          "line": 7,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 411,
+          "line": 354,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-08_beg.txt",
+          "quote": "[name=\"杜宾\"]   阿米娅她一个人……挡下了敌人的法术……？\n[Character(name=\"char_148_nearl_1#3\",name2=\"char_130_doberm_ex\",focus=1)]\n[name=\"临光\"]   不行……那力量太庞大了……！\n[name=\"临光\"]   哪怕是阿米娅……\n[name=\"临光\"]   哪怕是阿米娅也撑不了多久的！\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   阿米娅！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   没问题……我没问题……\n[name=\"阿米娅\"]   我没问题的——！\n[name=\"阿米娅\"]   我要……我必须……保护你们！\n[Dialog]\n[Character(fadetime=1)]\n[PlaySound(key=\"$d_gen_thunders_amb\", volume=0.5)]\n[PlaySound(key=\"$b_char_defboost\", volume=0.5, Delay=0.4)]\n[PlaySound(key=\"$d_gen_thunders_amb\", volume=0.2, Delay=0.7)]\n[PlaySound(key=\"$flashback\", volume=0.2, Delay=0.7)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, block=false)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, afrom=1, rfrom=1, gfrom=0.4, bfrom=0.4, fadetime=0.2, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, afrom=0.8, rfrom=1, gfrom=1, bfrom=1, fadetime=0.3, block=true)]\n[Blocker(a=0, fadetime=2, block=true)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, block=false)]\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   黑色……将敌人的法术封在了广场上……\n[Character(name=\"char_002_amiya_1#9\")]\n[name=\"阿米娅\"]   唔……唔啊……呃……！\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   阿米娅……她，她设下的屏障，在燃烧！\n[Character(name=\"char_130_doberm_ex\",name2=\"char_002_amiya_1#9\",focus=1)]\n[name=\"杜宾\"]   阿米娅，不可以！！那样的话，你的戒指——！\n[Character(name=\"char_130_doberm_ex\",name2=\"char_002_amiya_1#4\",focus=2)]\n[name=\"阿米娅\"]   哪怕……虽然……\n[name=\"阿米娅\"]   博士，对不起——\n[name=\"阿米娅\"]   哪怕会带来灾难，哪怕我会……！\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]   我也不能……再看着重要的人……\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]   呵————\n[name=\"塔露拉\"]   很好。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   啊……啊啊……！！\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]   阿米娅！\n[name=\"临光\"]   可恶……再这样下去，阿米娅会……！\n[Character(name=\"char_130_doberm_ex\",name2=\"char_148_nearl_1#3\",focus=1)]\n[name=\"杜宾\"]   你要干什么？\n[Character(name=\"char_130_doberm_ex\",name2=\"char_148_nearl_1#3\",focus=2)]\n[name=\"临光\"]   去毁掉那个龙女的法术！\n[Character(name=\"char_130_doberm_ex\",name2=\"char_148_nearl_1#3\",focus=1)]\n[name=\"杜宾\"]   你……\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]   ——“卡西米尔的光芒啊，耀骑士将为你奉献自身——”\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   博士！快走！我们会帮助阿米娅的，你必须……\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]   ————！"
+        }
+      ],
+      "description": "杜宾与Ace直接交接撤离。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_130_doberm",
+          "reason": "杜宾与Ace直接交接撤离。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "杜宾与Ace直接交接撤离。",
+          "status": "supported",
+          "to": "char_130_doberm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_f55d04d68de9988e.json",
+      "sources": [
+        {
+          "endLine": 411,
+          "kind": "story",
+          "line": 354,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格撤离期间",
+      "title": "黑暗时代·下"
+    }
+  ],
+  "relationship_id": "char_130_doberm|npc_ded4733bcc9da868"
+}

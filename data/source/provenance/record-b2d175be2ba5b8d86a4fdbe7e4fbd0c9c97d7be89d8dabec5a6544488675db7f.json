@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 148,
+          "line": 101,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_05_beg.txt",
+          "quote": "[name=\"塞茜莉亚\"]不、不要再往前了！\n[charslot(slot=\"m\",name=\"avg_4036_forcer_1#1$2\",focus=\"m\")]\n[name=\"艾泽尔\"]唔……\n[Dialog]\n[charslot]\n埃芒加德看着面前紧张的小女孩，她尝试用自己小小的身子挡住来人的视线。\n女孩身后，萨科塔男性脱力般跪在地板上，他的光环与光翼支离破碎，那些碎片像是活物般颤抖着，忽明忽暗，仿佛故障了的灯。\n而萨科塔本人如同堕入了深深的梦中，不发一言。\n[charslot(slot=\"m\",name=\"avg_npc_352_1#7$1\",focus=\"m\")]\n[name=\"塞茜莉亚\"]你是谁？你是来抓我们的吗？\n[Dialog]\n[charslot]\n小女孩很紧张，埃芒加德弯下腰，用手撑着膝盖，尽量让自己看起来没有敌意，她甚至摇了摇自己充盈着能量的大尾巴。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#1$1\",focus=\"m\")]\n[name=\"埃芒加德\"]可爱的小妹妹，我没有恶意。\n[name=\"埃芒加德\"]你刚刚应该听到了，我支开了其他的萨卡兹。或许我能帮你们……帮他。\n[charslot(slot=\"m\",name=\"avg_npc_352_1#7$1\",focus=\"m\")]\n[name=\"塞茜莉亚\"]……\n[Dialog]\n[charslot]\n埃芒加德关紧了身后的门，将可能的视线隔绝在外。\n[Dialog]\n[PlaySound(key=\"$d_avg_magic_4\",volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n她正了正自己的帽子，看不见的丝弦逶迤向不可知的空间。\n[Dialog]\n[curtain(direction = 0,fillfrom = 0.01,fillto = 0.2, fadetime=1.5)]\n[curtain(direction = 4,fillfrom = 0.01,fillto = 0.2, fadetime=1.5)]\n[focusout(type=\"bg\", id=\"49_g1_kazdelroom\", from=0, to=1, duration=1.5, block=false)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_869_1#9$1\",focus=\"m\")]\n[name=\"埃芒加德\"]老师。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#9$1\",focus=\"none\")]\n[name=\"弗莱蒙特\"]虽然高塔上那些繁文缛节和废话连篇的经卷真的倒人胃口，但对比现在，我真的得冲那对双子羊鞠躬，感谢她们的礼遇。\n[name=\"弗莱蒙特\"]谁受得了每项政策都只能口头传达而且动不动还得翻来覆去解释好几遍，什么时候才能对我们的公务员进行普及教育……\n[charslot(slot=\"m\",name=\"avg_npc_869_1#2$1\",focus=\"m\")]\n[name=\"埃芒加德\"]急事。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#2$1\",focus=\"none\")]\n[name=\"弗莱蒙特\"]……说。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#7$1\",focus=\"m\")]\n[name=\"埃芒加德\"]我在节点炉这边发现了两个光环破碎的萨科塔……其中一个状态非常非常，不对劲。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#7$1\",focus=\"none\")]\n[name=\"弗莱蒙特\"]……\n[name=\"弗莱蒙特\"]带他们回来，尽量别让其他人注意到，免得引起骚乱。\n[name=\"弗莱蒙特\"]我去把维什戴尔踹醒。到了需要这个议长主持紧急会议的时候了。"
+        }
+      ],
+      "description": "艾泽尔与埃芒加德在节点炉房间相遇。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L16"
+          ],
+          "from": "char_4036_forcer",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        },
+        {
+          "evidenceIds": [
+            "L16"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "char_4036_forcer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 148,
+          "kind": "story",
+          "line": 101,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_4036_forcer|npc_4cf393656bead901"
+}

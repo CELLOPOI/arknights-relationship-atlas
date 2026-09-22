@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 345,
+          "line": 209,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "quote": "[name=\"仇白\"]越来越热了……\n[name=\"仇白\"]昨晚有人行刺魏彦吾，把玉门军营弄得桃花乱飞，泥臭熏天。那个刺客，应该也是你。\n[name=\"仇白\"]所到之处，气候如此反常，这是源石技艺，还是别的什么把戏？\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]……\n[charslot(slot=\"m\",name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"]截杀信使，抢夺天灾数据未果，便接连行刺朝廷要员。\n[charslot(slot=\"m\",name=\"avg_npc_297_1#3$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"左乐\"]山海众，究竟视玉门为何物？！\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]一座目的地错了的城而已。\n[name=\"山海众首领\"]目的地错了，就不该再往前走了。\n[charslot(slot=\"m\",name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"]你们知道玉门归国的目的……\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]不难猜。\n[charslot(slot=\"m\",name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"]父亲命我三日内办成三件事，追回宗师佩剑，抓捕刺客，找出潜藏在城内的山海众。\n[name=\"左乐\"]想不到，都落在这小小的铸剑坊里。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]恐怕你一件都办不成。\n[Dialog]\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_297_1#6$1\",focus = \"n\",duration=0.3)]\n[charslot(slot = \"r\",action=\"zoom\", poszoom = \"0.5,0.5\",scale=0.95,duration = 0)]\n[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"-100,0\",duration = 0)]\n[Delay(time=0.5)]\n[charslot(slot = \"l\", name=\"avg_npc_787_1#11$1\",focus=\"l\",duration = 0.3)]\n[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"100,0\",focus=\"l\",duration = 0.5)]\n[Delay(time=0.5)]\n[charslot(slot=\"l\",name=\"avg_npc_787_1#11$1\",focus = \"l\")]\n[name=\"仇白\"]往后站，这人武功深不可测，我们不是对手。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]你没那个丰蹄汉子能打，反应倒是比他机灵一点。\n[charslot(slot=\"m\",name=\"avg_npc_787_1#7$1\")]\n[name=\"仇白\"]果然是你伤了太合先生。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]刚刚那一刀，你躲开了。那下一刀，是躲还是接？\n[charslot(slot=\"m\",name=\"avg_npc_787_1#7$1\")]\n[name=\"仇白\"]……\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 0.5)]\n既不躲，也不接。\n那人常跟她说，为了报仇也好，为了安身立命也好，习武，就要有徒步登高的打算。越是力有不逮，越是要坚定心志。\n既见仇敌，又见高山，所以自己在他身边待了整整五年。\n赢不了的仗，那就但求不输！\n[Dialog]\n[Delay(time=0.5)]\n[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[charslot(slot = \"l\",name=\"avg_npc_787_1#7$1\")]\n[charslot(slot=\"l\",  posfrom = \"-100,0\", posto = \"100,0\",duration =0.5 )]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[charslot(slot = \"l\", afrom = 1, ato = 0,duration = 0.3)]\n[Delay(time=0.1)]\n[charslot(slot =\"m\", name=\"avg_npc_787_1#3$1\", duration = 0.2)]\n[playsound(key=\"$e_skill_skulsrsword\",volume=0.7)]\n[Effect(name=\"$e_slash_01_l\",x = 100,roz=120,roy=-50,rox=-30,layer = 1)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=0.2)]\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 0.5)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]以攻为守？\n[name=\"山海众首领\"]也算有点胆识……\n[name=\"山海众首领\"]但，你是不是想得太简单了。\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_786_1#6$2\")]\n[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[charslot(duration=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=false)]\n[playsound(key=\"$swordtsing4\",volume=0.7)]\n[Effect(name=\"$e_spark_01_large\",x = 170,y=-100,layer = 1)]\n[Delay(time=0.2)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$swordtsing6\",volume=0.7)]\n[Effect(name=\"$e_spark_01_mid\",x = -170,y=100,layer = 1)]\n[Delay(time=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Delay(time=0.2)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_787_1#7$1\")]\n[name=\"仇白\"]——\n[charslot]\n武器相交的那一瞬，她才知道自己的决定有多轻率。\n她此刻面对的，竟然是另一座高山。\n寒光拂面，鼻尖撞碎了对方刀刃上的水珠，心跳清晰可闻。\n如果录武官在场，想必会惊呼仇白复现了演武场上那一招——\n俯冲，收势，在撞上死亡的弧光前及时折返，像是江面上险些被浪头打翻的羽兽。\n[charslot(slot=\"m\",name=\"avg_npc_787_1#2$1\")]\n[CameraShake(duration=0.3, xstrength=12, ystrength=6, vibrato=15, randomness=20, fadeout=true, block=false)]\n[name=\"仇白\"]（闷哼）\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]这一刀，你又躲了。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_787_1#5$1\",duration=0.3, focus = \"n\")]\n[charslot(slot = \"left\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=0.95,duration = 0)]\n[charslot(slot = \"left\", posfrom = \"-50,0\", posto = \"0,0\",duration = 0.5)]\n[charslot(slot=\"r\",name=\"avg_npc_297_1#6$1\",focus = \"r\",duration=0.3)]\n[charslot(slot = \"r\", posfrom = \"50,0\", posto = \"-250,0\",duration = 0.5)]\n[Delay(time=0.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"r\",name=\"avg_npc_297_1#3$1\",focus = \"r\")]\n[name=\"左乐\"]还想逞凶！\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]你？\n[charslot(slot=\"m\",name=\"avg_npc_787_1#3$1\")]\n[name=\"仇白\"]左乐，避！\n[dialog]\n[charslot]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=false)]\n[playsound(key=\"$d_avg_katanamagic\")]\n左乐被仇白拽住衣领急退。\n他的视野里，敌人如影随形，挥出了第三刀。整个院子陡然亮了几分。\n铸剑坊在三月来到了大暑，热浪升腾，连夜空都被蒸得泛起了白色。\n而他们的身后只有一棵老槐，退无可退。\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_4078_bdhkgt_1#1$1\")]\n[charslot(slot=\"r\",name=\"avg_npc_296_1#6$1\")]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[charslot(slot=\"l\",name=\"avg_4078_bdhkgt_1#7$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_296_1#6$1\",focus=\"n\")]\n[name=\"截云\"]……\n[charslot(slot=\"l\",name=\"avg_4078_bdhkgt_1#7$1\",focus=\"l\")]\n[name=\"截云\"]剑。\n[Dialog]\n[charslot(slot = \"l\", action=\"shake\", power=10, times=100,random=30, duration=0.5)]\n[Delay(time=0.5)]\n[charslot(slot=\"r\",name=\"avg_npc_296_1#5$1\",focus=\"r\")]\n[name=\"杜遥夜\"]别乱动！\n[name=\"杜遥夜\"]这会儿还想抢剑？你想撞在那女人的刀上啊！\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"杜遥夜\"]没把孟铁衣的下落告诉我，去送死？个锤子的*尚蜀俚语*！"
+        }
+      ],
+      "description": "四人在铸剑坊被睚追击，仇白左乐迎战，杜遥夜拦住截云并明确警告女人刀锋，真实共同现场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E50"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "四人在铸剑坊被睚追击，仇白左乐迎战，杜遥夜拦住截云并明确警告女人刀锋，真实共同现场。",
+          "status": "supported",
+          "to": "npc_540cd5c18cb7a9cf"
+        },
+        {
+          "evidenceIds": [
+            "E50"
+          ],
+          "from": "npc_540cd5c18cb7a9cf",
+          "reason": "四人在铸剑坊被睚追击，仇白左乐迎战，杜遥夜拦住截云并明确警告女人刀锋，真实共同现场。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 345,
+          "kind": "story",
+          "line": 209,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "npc_540cd5c18cb7a9cf|npc_ebce98658cbda852"
+}

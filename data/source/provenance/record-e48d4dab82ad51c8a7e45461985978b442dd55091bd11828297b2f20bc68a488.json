@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 417,
+          "line": 400,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-12_end.txt",
+          "quote": "[name=\"阿兰娜\"]周围两个区域的净空工作已经完成。\n[name=\"阿兰娜\"]按照Raidian干员的指引，被分散隔离的同事们都已经聚集到一起了。\n[charslot(slot = \"m\", name = \"avg_npc_1310_1#1$1\")]\n[name=\"Pith\"]你受了伤？\n[charslot(slot = \"m\", name = \"avg_4178_alanna_1#1$1\")]\n[name=\"阿兰娜\"]……还好。可露希尔研制的防护设备效果的确超出预料。\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]但是它没法长时间应对高危源石环境带来的威胁。\n[name=\"Touch\"]你的这支小队不能参加接下来的行动，完成治疗后，去缓冲区的安全地带稍作休整。\n[name=\"Touch\"]有Logos和Mechanist合力构建的巫术防御机械保护，你们应对威胁的压力会小很多。\n[charslot(slot = \"m\", name = \"avg_4178_alanna_1#8$1\")]\n[name=\"阿兰娜\"]可是——\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]这是命令。放心，我同样不会允许任何一位干员在我的领域内出现意外。\n[charslot(slot = \"m\", name = \"avg_npc_1310_1#1$1\")]\n[name=\"Pith\"]等到本舰停下来，还需要你们配合其他小队撤出本舰，在本舰周边区域建立更大的缓冲区。\n[name=\"Pith\"]记住，养精蓄锐。其他交给我们处理。\n[name=\"Pith\"]希望Sharp和Stormeye的任务也一切顺利……"
+        }
+      ],
+      "description": "阿兰娜与Pith直接汇报并接受任务安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D31"
+          ],
+          "from": "char_4178_alanna",
+          "reason": "阿兰娜与Pith直接汇报并接受任务安排。",
+          "status": "supported",
+          "to": "char_509_acast"
+        },
+        {
+          "evidenceIds": [
+            "D31"
+          ],
+          "from": "char_509_acast",
+          "reason": "阿兰娜与Pith直接汇报并接受任务安排。",
+          "status": "supported",
+          "to": "char_4178_alanna"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 417,
+          "kind": "story",
+          "line": 400,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往关系",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4178_alanna|char_509_acast"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "import:char_187_ccheal|char_383_snsant",
+  "published": true,
+  "quote": "-一枚刻着嘉维尔头像的粗糙铜币，来自特米米的派发。她说这是“嘉维尔意志”部族曾经铸造的宝贵铜币，但是嘉维尔本人不承认这件事。特米米保证，一定还会有人会认可它的价值。\n\n旧币商人：小姑娘，你到底带了多少东西出来？最后一个，真的是最后一个了……收完最后一个，我就要回去了！\n雪雉：那、那您再看看这个！我的钱就够买一个新机器了！\n旧币商人：啊啊，是我们萨尔贡的钱币……让我来看看，这是……\n旧币商人：——嘉维尔？！！\n雪雉：嗯！这个值钱吗？\n旧币商人：值钱吗？不！这个生意我不做了！我和细尾巴的没什么话要说！这些东西你都拿回去！我要走了！",
+  "relationship_id": "char_187_ccheal|char_383_snsant",
+  "sources": [
+    {
+      "kind": "profile",
+      "source": "char_383_snsant/module/uniequip_002_snsant"
+    },
+    {
+      "endLine": 203,
+      "kind": "story",
+      "line": 188,
+      "source": "activities/act27side/level_act27side_04_end.txt"
+    }
+  ]
+}

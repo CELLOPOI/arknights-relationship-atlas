@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 360,
+          "line": 347,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "quote": "[name=\"阿克托斯\"]好，这个计划好！ \n[Character(name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]……你确定？\n[Dialog]\n[Character(name=\"avg_npc_253_1#4$1\",focus=-1)]\n[Decision(options=\"当然。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_253_1#2$1\")]\n[name=\"菈塔托丝\"]……\n[name=\"菈塔托丝\"]表面急行军实施破坏，看起来是为了营救尤卡坦，并且吸引对方注意，让对方对你的目的产生误解。\n[name=\"菈塔托丝\"]你让正面大部队负责落实这种误解。\n[name=\"菈塔托丝\"]实际这一切都是为了让阿克托斯的队伍能够接近圣山，并且山上还会有你的手下提前渗透进去接应……\n[Character(name=\"avg_npc_253_1#9$1\")]\n[name=\"菈塔托丝\"]虽然远远算不上稳妥，但确实好像行得通。"
+        }
+      ],
+      "description": "阿克托斯当场赞同博士计划，菈塔托丝继续问答，博士回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E83"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "阿克托斯当场赞同博士计划，菈塔托丝继续问答，博士回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E83"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "阿克托斯当场赞同博士计划，菈塔托丝继续问答，博士回应。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 360,
+          "kind": "story",
+          "line": 347,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 606,
+          "line": 596,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_06_end.txt",
+          "quote": "[name=\"阿克托斯\"]塔季扬娜还活着？她、她还好吗？\n[charslot(slot=\"l\",name=\"avg_194_leto_1#9$1\",focus=\"l\")]\n[name=\"烈夏\"]我妈她好得很，就是出发前不小心摔断了腿，所以只能让我一个人来。\n[name=\"烈夏\"]但几年前切尔诺伯格那件事……哼，算了，说了你也不知道。\n[name=\"烈夏\"]总之前几年我遇到了一点意外，我妈为了找我，跑到了天灾区……我算幸运的，最后被罗德岛给救了，但妈她，感染了矿石病。\n[charslot(slot=\"r\",name=\"avg_npc_254_1#14$1\",focus=\"r\")]\n[name=\"阿克托斯\"]怎么会这样……\n[name=\"阿克托斯\"]那你们现在在哪生活？罗德岛……对了，罗德岛能治矿石病！你们是不是就留在那了？那里的人对你们还好吗？\n[name=\"阿克托斯\"]我认识那里的博士！对、对，我现在就联系博士……！\n[charslot(slot=\"l\",name=\"avg_194_leto_1#4$1\",focus=\"l\")]\n[name=\"烈夏\"]少来，我和博士不比你熟多了。"
+        }
+      ],
+      "description": "阿克托斯明确认识博士。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在场，未见其回应阿克托斯。",
+          "status": "not_established",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "阿克托斯明确说认识博士并准备联系。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 606,
+          "kind": "story",
+          "line": 596,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "烈夏与阿克托斯脱困前",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "npc_b99957887950ebfd|npc_e69f1ad171a29fd0"
+}

@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 527,
+          "line": 525,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_04_end.txt",
+          "quote": "[name=\"梁洵\"]  当年槐天裴说自己习武，便要争个天下闻名。\n[Character(name=\"avg_npc_295_1#1$1\",name2=\"avg_322_lmlee_1#1$1\",focus=2)]\n[name=\"老鲤\"]  当年梁洵想为天下人多做些事，想教这世道不必再使人担惊受怕。"
+        }
+      ],
+      "description": "梁洵回忆槐天裴往事。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "梁洵回忆槐天裴往事。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_3e28dece98b601de"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 527,
+          "kind": "story",
+          "line": 525,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 358,
+          "line": 291,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_05_beg.txt",
+          "quote": "[name=\"槐天裴\"]这里有人答应与我比武。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]短则三五年，长则十余年。他是这么说的。\n[charslot(slot = \"m\", name = \"avg_npc_295_1#8$1\")]\n[name=\"梁洵\"]当初说要争一个天下闻名的槐天裴，居然也会这样……耐得住寂寞。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\")]\n[name=\"槐天裴\"]反正找不到别的对手，在这边等几年又何妨。\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#4$1\")]\n[name=\"老鲤\"]所以你就在这家医馆当了三年伙计。\n[PlaySound(key=\"$pourwater\")]\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 0.5)]\n酒倒入杯中，香气却被药味盖过。酒入愁肠，嘴里只剩苦味。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#8$1\")]\n[name=\"老鲤\"]“白头翁”“刀伤木”“羽不泊”“千里及”……\n[name=\"老鲤\"]在玉门武行打听了大半月，却怎么也没有想到，你就在客栈对面的这家医馆里。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#8$1\",focus=\"m\")]\n[name=\"槐天裴\"]欠了债，总是要还的。\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#2$1\")]\n[name=\"老鲤\"]那你也该清楚，在这世上你亏欠最多的人是谁。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#2$1\",focus=\"m\")]\n[name=\"槐天裴\"]……\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]得，我要说的话已经说完了，梁大人还有什么话要问？\n[charslot(slot = \"m\", name = \"avg_npc_295_1#8$1\")]\n[name=\"梁洵\"]来探望老朋友，看看他过得怎么样，不该算“问话”。\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]槐天裴在玉门待了三年，你来到玉门也有些时日，偏偏选这个时候来探望……\n[charslot(slot = \"m\", name = \"avg_npc_295_1#7$1\")]\n[name=\"梁洵\"]城中风波未定，不是顾及私情的时候。\n[charslot(slot = \"m\", name = \"avg_322_lmlee_1#10$1\")]\n[name=\"老鲤\"]梁大人一心为国，还不允许我们这些老百姓有些私情了？\n[charslot(slot = \"m\", name = \"avg_npc_295_1#9$1\")]\n[name=\"梁洵\"]怎能……\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]你们要是诚心想叙旧，我就再坐上一会。\n[name=\"槐天裴\"]说句话也不爽利，我们怎么变成了这副样子？\n[dialog]\n槐天裴端起了面前的酒，一饮而尽，转身离开了房间。\n[Dialog]\n[playsound(key=\"$dooropenquite\")]\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 1)]\n[delay(time=2.5)]\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#1$1\",focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"n\")]\n[name=\"老鲤\"]梁大人，得到想要的答案了？\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]算是吧。\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#1$1\",focus=\"l\")]\n[name=\"老鲤\"]是作为槐天裴的义弟，还是作为玉门参知？\n[charslot(slot = \"r\", name = \"avg_npc_295_1#8$1\",focus=\"r\")]\n[name=\"梁洵\"]……我也该习惯了总是被你看透。\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#1$1\",focus=\"l\")]\n[name=\"老鲤\"]或许你该改改总是招揽麻烦事的习惯，至少别让自己连个能说话的人都找不到。\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]有一件事，他或许是恰当的人选……\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#4$1\",focus=\"l\")]\n[name=\"老鲤\"]就像上次你挑我来送那个盏？\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]没那么复杂……\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#8$1\",focus=\"l\")]\n[name=\"老鲤\"]他还是那个槐天裴。\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]他是最难变的。\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#8$1\",focus=\"l\")]\n[name=\"老鲤\"]那你我呢。\n[charslot(slot = \"r\", name = \"avg_npc_295_1#7$1\",focus=\"r\")]\n[name=\"梁洵\"]……"
+        }
+      ],
+      "description": "三位老朋友在医馆同桌饮酒，梁洵与二人直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E39"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "三位老朋友在医馆同桌饮酒，梁洵与二人直接交谈。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        },
+        {
+          "evidenceIds": [
+            "E39"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "三位老朋友在医馆同桌饮酒，梁洵与二人直接交谈。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 358,
+          "kind": "story",
+          "line": 291,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "npc_2a2f1f3b7bd9ed61|npc_3e28dece98b601de"
+}

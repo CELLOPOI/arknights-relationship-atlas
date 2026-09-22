@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1322,
+          "line": 1309,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "quote": "黎明的光亮从圣王会西部大堂的尖顶落了下来。\n雾气被驱散，显露出了战场的狼藉。\n[charslot(slot=\"m\",name =\"avg_1019_siege2_1#1$1\",focus=\"m\")]\n[name=\"维娜\"]雾散了。\n[charslot(slot=\"m\",name =\"avg_npc_405_1#2$1\",focus=\"m\")]\n[name=\"摩根\"]不见了……那个食腐者之王。\n[charslot(slot=\"m\",name =\"avg_npc_396_1#10$1\",focus=\"m\")]\n[name=\"达格达\"]是我们赢了吗？他死了，对吧？\n[charslot(slot=\"m\",name =\"avg_155_tiger_1#6$1\",focus=\"m\")]\n[name=\"因陀罗\"]……对吧？\n[charslot(slot=\"m\",name =\"avg_4110_delphn_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]那种令人窒息的压迫感，我依旧能感觉到。\n[charslot(slot=\"m\",name =\"avg_1019_siege2_1#7$1\",focus=\"m\")]\n[name=\"维娜\"]……我们得试着习惯，接下来，我们还有很多事情要做呢。"
+        }
+      ],
+      "description": "摩根具体辨认并谈到食腐者之王孽茨雷；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_154_morgan",
+          "reason": "摩根具体辨认并谈到食腐者之王孽茨雷",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_84fdad316566923c",
+          "reason": "对方未在该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 1322,
+          "kind": "story",
+          "line": 1309,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战役期间",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_154_morgan|npc_84fdad316566923c"
+}

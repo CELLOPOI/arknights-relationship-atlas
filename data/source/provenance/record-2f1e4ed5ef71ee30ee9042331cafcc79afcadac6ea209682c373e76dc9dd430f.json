@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 459,
+          "line": 422,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_01_beg.txt",
+          "quote": "[name=\"埃内斯托\"]虽然事先有做过调查……\n[name=\"埃内斯托\"]不过，这就是龙门鼠王之女的做法吗。\n[dialog]\n[character]\n[playsound(key=\"$rungeneral\")]\n[character(name=\"char_010_chen_summer\",fadetime=1)]\n[delay(time=1.5)]\n[name=\"陈\"]林雨霞呢？\n[Character(name=\"avg_486_espumo_1#1\")]\n[name=\"埃内斯托\"]陈小姐，您来了。\n[name=\"埃内斯托\"]那帮人打不过林小姐就跑了，林小姐追去了。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]往哪个方向？\n[Character(name=\"avg_486_espumo_1#1\")]\n[name=\"埃内斯托\"]那边，沙滩方向。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]知道了，我去看看。\n[dialog]\n[playsound(key=\"$rungeneral\")]\n[character(fadetime=1,block=true)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[character(name=\"avg_npc_196_1#1\",name2=\"char_empty\")]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=2)]\n[name=\"林雨霞\"]跑得还挺快。\n[dialog]\n[playsound(key=\"$rungeneral\")]\n[character(name=\"avg_npc_196_1#1\",name2=\"char_010_chen_summer\",fadetime=1)]\n[delay(time=1.5)]\n[character(name=\"avg_npc_196_1#1\",name2=\"char_010_chen_summer\",focus=2)]\n[name=\"陈\"]林雨霞，你在搞什么东西？\n[character(name=\"avg_npc_196_1#5\",name2=\"char_010_chen_summer\",focus=1)]\n[name=\"林雨霞\"]陈晖洁？你来干什么？\n[character(name=\"avg_npc_196_1#5\",name2=\"char_010_chen_summer\",focus=2)]\n[name=\"陈\"]是我在问你。"
+        }
+      ],
+      "description": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_486_takila",
+          "reason": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_486_takila"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_a2ee9e247fcb3cb6.json",
+      "sources": [
+        {
+          "endLine": 459,
+          "kind": "story",
+          "line": 422,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "多索雷斯假日"
+    }
+  ],
+  "relationship_id": "char_486_takila|npc_83e2c28380c1c6fb"
+}

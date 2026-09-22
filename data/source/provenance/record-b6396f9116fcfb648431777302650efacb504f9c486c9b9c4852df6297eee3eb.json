@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 174,
+          "line": 144,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-05.txt",
+          "quote": "[name=\"Pith\"]  我不同意。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  她撑过了全部七项训练流程，在各个测试中取得的成绩都在合格以上。有三门是特别优秀。\n[Character(name=\"avg_npc_095\")]\n[name=\"Pith\"]  我不相信这样的施术者。凯尔希，作为术师，我以源石技艺为豪，以让源石技艺福泽他人为业。\n[name=\"Pith\"]  Rosmontis绝非这样的术师。她源石技艺的本质绝非服务人类的那类。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  我希望她参与战斗，只出于一个考量。\n[name=\"凯尔希\"]  如果Rosmontis一直身在温室之中，一旦这个美好的环境破裂，她就会立刻成为一场灾难。\n[Character(name=\"avg_npc_095\")]\n[name=\"Pith\"]  你下不了手的话我来。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  Pith！\n[Character(name=\"avg_npc_095\")]\n[name=\"Pith\"]  你和阿米娅太相信他们的未来了。我们一步踏错，只会让别的人永远失去未来。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  决断之前，至少先有所作为。\n[Character(name=\"avg_npc_095\")]\n[name=\"Pith\"]  我畏惧那个没能决断的未来。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  现在。让她成为精英干员。不是未来，是现在。\n[name=\"凯尔希\"]  我们现在教导她，打磨她，把她的力量铸造成型，以最高的标准去要求她，让她即使被天灾袭击也绝不动摇。\n[name=\"凯尔希\"]  直到大地上的一切都不能左右她。\n[name=\"凯尔希\"]  到那时候她才有可能真正摆脱哥伦比亚人丢给她的可怕命运，自己决定自己的人生。\n[name=\"凯尔希\"]  这就是我的目的。\n[Character(name=\"avg_npc_095\")]\n[name=\"Pith\"]  我知道你会这么说，凯尔希。\n[name=\"Pith\"]  谁来保证？谁来做？\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  我需要你和我一起，需要精英干员们和我一起去做这件事。\n[name=\"凯尔希\"]  以及，我可以向你保证，只要我还活着，我们就一定能做到。"
+        }
+      ],
+      "description": "医疗室旧事中凯尔希与Pith面对面争论。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_003_kalts",
+          "reason": "医疗室旧事中凯尔希与Pith面对面争论。",
+          "status": "supported",
+          "to": "char_509_acast"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_509_acast",
+          "reason": "医疗室旧事中凯尔希与Pith面对面争论。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 174,
+          "kind": "story",
+          "line": 144,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    }
+  ],
+  "relationship_id": "char_003_kalts|char_509_acast"
+}

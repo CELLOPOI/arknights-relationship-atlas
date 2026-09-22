@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 88,
+          "line": 70,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_svrash_1_1.txt",
+          "quote": "[name=\"Medic\"]  您要一次订购……这么多吗？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]  没错。你们已经向我证明了你们的镇痛剂确实有效，我希望能为我所有的感染者员工都购买一份。\n[name=\"恩希欧迪斯\"]  相应的，我希望贵公司能够提供一个折扣。\n[Character(name=\"char_016_medic\")]\n[name=\"Medic\"]  这……\n[name=\"Medic\"]  您的这笔订单在以往所有公司与我们签订的订单中都算是庞大的，原则上您希望有一个折扣也是理所当然的事。\n[name=\"Medic\"]  但是，我们罗德岛生产药物的原材料也十分昂贵，其实算下来，一份镇痛剂的价格，和成本并没有相差太多。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]  如果你做不了主的话，可以请贵公司的领导人阿米娅小姐来与我商议。\n[Character(name=\"char_016_medic\")]\n[name=\"Medic\"]  不，这件事我可以决定。\n[name=\"Medic\"]  我想说的是——\n[name=\"Medic\"]  罗德岛生产的药物是为了帮助感染者而存在的。\n[name=\"Medic\"]  我希望您能够保证，这些药能够顺利地送到那些感染矿石病的员工手上。\n[Character(name=\"avg_172_svrash_1#9$1\")]\n[name=\"恩希欧迪斯\"]  ……\n[Character(name=\"avg_172_svrash_1#10$1\")]\n[name=\"恩希欧迪斯\"]  Medic……小姐，贵公司似乎都是以代号互相称呼，我也入乡随俗吧。你接下来有空吗？"
+        }
+      ],
+      "description": "约一年前银灰以恩希欧迪斯之名称呼Medic并商谈药物订单；L48全名与总裁身份连接。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "char_172_svrash",
+          "reason": "约一年前银灰以恩希欧迪斯之名称呼Medic并商谈药物订单；L48全名与总裁身份连接。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "约一年前银灰以恩希欧迪斯之名称呼Medic并商谈药物订单；L48全名与总裁身份连接。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_c5839001a6ec71ba.json",
+      "sources": [
+        {
+          "endLine": 88,
+          "kind": "story",
+          "line": 70,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_svrash_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "银灰"
+    }
+  ],
+  "relationship_id": "char_172_svrash|npc_30c8dcf1e7b8383d"
+}

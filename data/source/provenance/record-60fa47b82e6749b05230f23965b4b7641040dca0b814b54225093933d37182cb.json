@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 535,
+          "line": 521,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-07_beg.txt",
+          "quote": "[name=\"爱布拉娜\"]看到……那枯木王座了吗？\n[charslot(slot=\"m\",name=\"avg_npc_723_1#5$1\",focus=\"m\")]\n[name=\"“校官”\"]那是萨卡兹的头领。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]食腐者孽茨雷，他自称战争与死亡的王。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#5$1\",focus=\"m\")]\n[name=\"“校官”\"]萨卡兹王庭很喜欢这类夸大的称谓。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]夸大？……不。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]他只是足够古老。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#5$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]但活着的传说，不是只有他一个。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#3$1\",focus=\"m\")]\n[name=\"“校官”\"]……当然！"
+        }
+      ],
+      "description": "校官听爱布拉娜明确介绍食腐者孽茨雷，并回应其称号。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E91"
+          ],
+          "from": "npc_974bc7361c242057",
+          "reason": "校官听爱布拉娜明确介绍食腐者孽茨雷，并回应其称号。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_84fdad316566923c",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_974bc7361c242057"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 535,
+          "kind": "story",
+          "line": 521,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "npc_84fdad316566923c|npc_974bc7361c242057"
+}

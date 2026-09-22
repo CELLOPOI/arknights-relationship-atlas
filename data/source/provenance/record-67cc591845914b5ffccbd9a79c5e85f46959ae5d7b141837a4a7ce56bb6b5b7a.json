@@ -1,0 +1,235 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 800,
+          "line": 768,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"休露丝\"]放开我，你们放开我！\n[Dialog]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"char_empty\")]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=200, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=1, block=false)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#5$1\",focus=2)]\n[name=\"尤卡坦\"]……不要伤害我的妻子！\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#5$1\",focus=1)]\n[name=\"希瓦艾什家战士\"]哼。\n[characteraction(name=\"left\", type=\"move\", xpos=200, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.7)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#5$1\")]\n[characteraction(name=\"left\", type=\"jump\", xpos=100, power=5, times=1, fadetime=0.5, block=true)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.7)] \n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[characteraction(name=\"left\", type=\"jump\", xpos=-100, power=5, times=1, fadetime=1,block=true)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#3$1\",focus=2)]\n[name=\"尤卡坦\"]咕……\n[dialog]\n[Delay(time=1)]\n[Character(name=\"avg_npc_262_1#7$1\")]\n[name=\"休露丝\"]尤卡坦！"
+        }
+      ],
+      "description": "尤卡坦明确称休露丝为妻并出手营救，休露丝呼其名。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E51"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "尤卡坦明确称休露丝为妻并出手营救，休露丝呼其名。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "E51"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "尤卡坦明确称休露丝为妻并出手营救，休露丝呼其名。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 800,
+          "kind": "story",
+          "line": 768,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 65,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st01.txt",
+          "quote": "[name=\"菈塔托丝\"]露丝，你都准备好了吗？\n[character(name=\"avg_npc_262_1#1$1\",name2=\"avg_npc_253_1#1$1\",focus=2)]\n[name=\"菈塔托丝\"]维多利亚和谢拉格不一样，这次我们要和对方合作，我们处于弱势，对方一定会趁此机会血口大开。\n[character(name=\"avg_npc_262_1#1$1\",name2=\"avg_npc_253_1#1$1\",focus=2)]\n[name=\"菈塔托丝\"]我只能给你建议，无法预测对方具体的行动。这次要你自己来判断。\n[character(name=\"avg_npc_262_1#7$1\",name2=\"avg_npc_253_1#1$1\",focus=1)]\n[name=\"休露丝\"]行了行了，知道了！耳朵都要被你念出茧来了！\n[character(name=\"avg_npc_262_1#7$1\",name2=\"avg_npc_253_1#1$1\",focus=1)]\n[name=\"休露丝\"]要是这么不相信我，你干嘛不自己去！\n[character(name=\"avg_npc_262_1#7$1\",name2=\"avg_npc_253_1#5$1\",focus=2)]\n[name=\"菈塔托丝\"]用你那个没开过封的脑瓜自己想。\n[character(name=\"avg_npc_262_1#8$1\",name2=\"avg_npc_253_1#5$1\",focus=1)]\n[name=\"休露丝\"]你……！\n[character(name=\"avg_npc_262_1#8$1\",name2=\"avg_npc_253_1#1$1\",focus=2)]\n[name=\"菈塔托丝\"]好了，我没工夫和你吵架。记住，这次可不是让你免费旅游，你代表的是我们布朗陶家。\n[character(name=\"avg_npc_262_1#8$1\",name2=\"avg_npc_253_1#1$1\",focus=2)]\n[name=\"菈塔托丝\"]尤卡坦，看好你老婆，别让她在外头犯蠢给布朗陶家丢人。\n[character(name=\"avg_npc_263_1#8$1\")]\n[name=\"尤卡坦\"]哈哈……\n[character(name=\"avg_npc_262_1#8$1\",name2=\"avg_npc_253_1#1$1\",focus=1)]\n[name=\"休露丝\"]不许点头！尤卡坦，你到底是哪一边的？！\n[character(name=\"avg_npc_262_1#8$1\",name2=\"avg_npc_253_1#2$1\",focus=2)]\n[name=\"菈塔托丝\"]别岔开话题。\n[character(name=\"avg_npc_262_1#8$1\",name2=\"avg_npc_253_1#7$1\",focus=2)]\n[name=\"菈塔托丝\"]总之这一次，凡事都多个心眼，多看，多听，少说，别再和之前似的，口无遮拦。\n[character(name=\"avg_npc_262_1#8$1\",name2=\"avg_npc_253_1#1$1\",focus=2)]\n[name=\"菈塔托丝\"]你也该出去开开眼界了，去看看谢拉格之外的大地，看看维多利亚到底是个什么样的地方。\n[character(name=\"avg_npc_262_1#9$1\",name2=\"avg_npc_253_1#1$1\",focus=1)]\n[name=\"休露丝\"]哼……\n[character(name=\"avg_npc_262_1#6$1\",name2=\"avg_npc_253_1#1$1\",focus=1)]\n[name=\"休露丝\"]……\n[character(name=\"avg_npc_262_1#2$1\",name2=\"avg_npc_253_1#1$1\",focus=1)]\n[name=\"休露丝\"]哎，我说……菈塔托丝。\n[character(name=\"avg_npc_262_1#2$1\",name2=\"avg_npc_253_1#1$1\",focus=2)]\n[name=\"菈塔托丝\"]怎么？\n[character(name=\"avg_npc_262_1#1$1\",name2=\"avg_npc_253_1#1$1\",focus=1)]\n[name=\"休露丝\"]你是不是其实很想自己去？\n[character(name=\"avg_npc_262_1#1$1\",name2=\"avg_npc_253_1#10$1\",focus=2)]\n[name=\"菈塔托丝\"]……\n[character(name=\"avg_npc_262_1#1$1\",name2=\"avg_npc_253_1#11$1\",focus=2)]\n[name=\"菈塔托丝\"]露丝，你过来。\n[character(name=\"avg_npc_262_1#4$1\",name2=\"avg_npc_253_1#11$1\",focus=1)]\n[multiline(name=\"休露丝\")]嗯？\n[character(name=\"avg_npc_262_1#8$1\",name2=\"avg_npc_253_1#11$1\",focus=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[multiline(name=\"休露丝\")]……干什么，臭女人！松手，我没发烧！\n[character(name=\"avg_npc_262_1#8$1\",name2=\"avg_npc_253_1#1$1\",focus=2)]\n[name=\"菈塔托丝\"]那你在说什么梦话？\n[character(name=\"avg_npc_262_1#9$1\",name2=\"avg_npc_253_1#1$1\",focus=1)]\n[name=\"休露丝\"]我、我就随便问问。\n[character(name=\"avg_npc_262_1#6$1\",name2=\"avg_npc_253_1#1$1\",focus=1)]\n[name=\"休露丝\"]如果当年有这个机会的话……菈塔托丝，你想去维多利亚吗？"
+        }
+      ],
+      "description": "尤卡坦与妻子休露丝直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "尤卡坦与妻子休露丝直接交谈。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "尤卡坦与妻子休露丝直接交谈。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_579215a80b4f83aa.json",
+      "sources": [
+        {
+          "endLine": 65,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "未尽篇章"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 92,
+          "line": 67,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_04_end.txt",
+          "quote": "[name=\"布朗陶管家\"]休露丝夫人，晚餐已经准备好了。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\",focus=\"m\")]\n[name=\"休露丝\"]大夫人呢？不一起吃饭吗？\n[charslot(slot=\"m\",name=\"avg_npc_270_1#1$1\",focus=\"m\")]\n[name=\"布朗陶管家\"]菈塔托丝夫人刚刚离家了，让二位不要过分担心。\n[charslot(slot=\"m\",name=\"avg_npc_263_1#7$1\",focus=\"m\")]\n[name=\"尤卡坦\"]我记得大夫人说过今天要和佩尔罗契家谈判，可是这个时间也太早了……\n[charslot(slot=\"m\",name=\"avg_npc_263_1#3$1\",focus=\"m\")]\n[name=\"尤卡坦\"]她是自己一个人去的吗？\n[charslot(slot=\"m\",name=\"avg_npc_270_1#1$1\",focus=\"m\")]\n[name=\"布朗陶管家\"]我们不清楚……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#5$1\",focus=\"m\")]\n[name=\"休露丝\"]……尤卡坦，我总觉得不对劲。\n[name=\"休露丝\"]你去找她。\n[charslot(slot=\"m\",name=\"avg_npc_263_1#3$1\",focus=\"m\")]\n[name=\"尤卡坦\"]嗯……\n[charslot(slot=\"m\",name=\"avg_npc_270_1#1$1\",focus=\"m\")]\n[name=\"布朗陶管家\"]休露丝夫人，尤卡坦老爷，请等一下……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#4$1\",focus=\"m\")]\n[name=\"休露丝\"]又怎么了？\n[charslot(slot=\"m\",name=\"avg_npc_270_1#1$1\",focus=\"m\")]\n[name=\"布朗陶管家\"]大夫人离开家以前，给我留下最后的命令是……\n[name=\"布朗陶管家\"]今天晚上，绝对不可以让二位离开家。\n[name=\"布朗陶管家\"]不管用什么办法……\n[charslot(slot=\"m\",name=\"avg_npc_263_1#2$1\",focus=\"m\")]\n[name=\"尤卡坦\"]……"
+        },
+        {
+          "endLine": 519,
+          "line": 481,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_10_end.txt",
+          "quote": "[name=\"休露丝\"]跟上，跟上！\n[name=\"休露丝\"]手脚都麻利点，别给那些维多利亚人喘息的机会！\n[name=\"休露丝\"]这个大家伙……装弹的速度就不能再快一点吗？\n[name=\"山雪鬼部队\"]是！\n[name=\"尤卡坦\"]露丝，你还不宜活动太剧烈……要保重身体……\n[name=\"休露丝\"]少啰嗦！\n[name=\"休露丝\"]恩希欧迪斯竟然还偷偷在山里藏了这样的好东西，现在终于被我逮住机会，可不得好好玩玩！\n[name=\"休露丝\"]听我指挥，瞄准开斯特的旗舰，开火！\n[name=\"休露丝\"]让你们看看，什么叫耶拉冈德的庇护！\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Image]\n[Background(image=\"30_ex1_snowmount\",screenadapt=\"coverall\")]\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#6$1\",focus=\"m\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#6$1\",focus=\"m\")]\n[name=\"魏斯\"]休露丝夫人，恩希欧迪斯大人留给我们的任务，是震慑开斯特公爵的舰队，何况他自己还在“荣光”号上……\n[name=\"魏斯\"]如果您不按计划行事，我就必须要制止您了。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#5$1\",focus=\"m\")]\n[name=\"休露丝\"]知道了知道了……一点玩笑都开不起。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]……这就是姐姐和恩希欧迪斯一直在隐藏的秘密。\n[name=\"休露丝\"]也真有你的魏斯，维多利亚人满山遍野地找恩希欧迪斯私藏的军火库，结果就在他们眼皮底下，谢拉格的物流载具里。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]可恶，连我都瞒得这么严密……菈塔托丝，下次见到你的时候，我非要——\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#7$1\",focus=\"m\")]\n[name=\"魏斯\"]这是恩希欧迪斯大人交给我的……最关键的任务。\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#6$1\",focus=\"m\")]\n[name=\"魏斯\"]这里的武器——它们的存在，包括规模，是谢拉格最重要的机密。直到现在也是……\n[name=\"魏斯\"]我们还得保守好这个秘密……我们现在最大的底牌，就是维多利亚人根本不知道我们有多少武装力量。\n[name=\"魏斯\"]我们要做的事，还是混淆开斯特的判断。\n[name=\"魏斯\"]毕竟……没有人可以担保，如果开斯特的舰队再上前一步，会发生什么事……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]我当然清楚现在的局势是什么样的……倒也不用这样一字一句地解释给我听。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#6$1\",focus=\"m\")]\n[name=\"休露丝\"]菈塔托丝……这一次，你最好保护好你自己……"
+        }
+      ],
+      "description": "尤卡坦与休露丝直接配合火炮防御。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N13",
+            "N26"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "双方在同一局部场景直接互动或具体历史信息明确双向。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "N13",
+            "N26"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "双方在同一局部场景直接互动或具体历史信息明确双向。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 92,
+          "kind": "story",
+          "line": 67,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 519,
+          "kind": "story",
+          "line": 481,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "雪山事件期间",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 34,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_01_beg.txt",
+          "quote": "[name=\"休露丝\"]尤卡坦……你不觉得，拉特兰的饮食有点问题吗……？\n[character(name=\"avg_npc_263_1#7$1\",name2=\"avg_npc_262_1#2$1\",focus=1)]\n[name=\"尤卡坦\"]相比谢拉格，这里的口味确实有些偏甜了。\n[character(name=\"avg_npc_263_1#1$1\",name2=\"avg_npc_262_1#2$1\",focus=1)]\n[name=\"尤卡坦\"]但是，露丝你不是喜欢甜食吗？\n[character(name=\"avg_npc_263_1#1$1\",name2=\"avg_npc_262_1#8$1\",focus=2)]\n[name=\"休露丝\"]那也不能所有的食物都是甜的吧！\n[character(name=\"avg_npc_263_1#1$1\",name2=\"avg_npc_262_1#9$1\",focus=2)]\n[name=\"休露丝\"]唉，我开始怀念谢拉格了。\n[name=\"休露丝\"]都怪菈塔托丝那个臭女人，说什么要抓住一切机会重新提高家族的地位……结果她自己又不来，把我丢到这么远的地方。\n[character(name=\"avg_npc_263_1#1$1\",name2=\"avg_npc_262_1#9$1\",focus=1)]\n[name=\"尤卡坦\"]这也是大夫人愿意信任你的表现吧。毕竟在那件事之后的绝境里，是靠着你和大夫人的共同努力，才确保了如今布朗陶家的地位。\n[character(name=\"avg_npc_263_1#1$1\",name2=\"avg_npc_262_1#10$1\",focus=2)]\n[name=\"休露丝\"]又把自己撇出去，尤卡坦，你该不会其实很享受隐居幕后的感觉吧？\n[character(name=\"avg_npc_263_1#8$1\",name2=\"avg_npc_262_1#10$1\",focus=1)]\n[name=\"尤卡坦\"]对我来说，能看到露丝散发光芒就已经很满足了。\n[character(name=\"avg_npc_263_1#8$1\",name2=\"avg_npc_262_1#4$1\",focus=2)]\n[name=\"休露丝\"]……唔唔，你什么时候学得这么油嘴滑舌了！\n[character(name=\"avg_npc_263_1#8$1\",name2=\"avg_npc_262_1#4$1\",focus=1)]\n[name=\"尤卡坦\"]但是，夫人，这场会议或许确实比我们预想的更加有价值。\n[name=\"尤卡坦\"]来之前，我们甚至以为不会有多少国家回应邀请。现在看来，可能还是低估了拉特兰的影响力。\n[character(name=\"avg_npc_263_1#8$1\",name2=\"avg_npc_262_1#3$1\",focus=2)]\n[name=\"休露丝\"]虽然你说得有道理……但是别想转移话题！"
+        }
+      ],
+      "description": "二人在宴会厅连续直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "二人在宴会厅连续直接交谈。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "二人在宴会厅连续直接交谈。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 34,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1057,
+          "line": 1000,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "quote": "[name=\"尤卡坦\"]大夫人！\n[name=\"尤卡坦\"]休露丝回来了！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]真的？！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]怎么那么迟……不，不对，不是说了，让她滚远点，不要过来的吗？！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]我怎么就不能过来了？\n[name=\"休露丝\"]我不仅要来，我还带了特地邀请的客人一起来呢！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]这种时候带客人来？\n[charslot(slot=\"m\",name=\"avg_npc_253_1#5$1\")]\n[name=\"菈塔托丝\"]傻妹妹，你说什么胡话！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]……我可不糊涂。\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",duration=1)]\n[Delay(time=2)]\n[name=\"恩希欧迪斯\"]确实，休露丝夫人手段高明，令人敬佩。\n[name=\"恩希欧迪斯\"]菈塔托丝，你太小看休露丝夫人了。\n[charslot(slot=\"m\",name=\"avg_npc_253_1#5$1\")]\n[name=\"菈塔托丝\"]……你这是什么意思？\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",duration=1)]\n[Delay(time=2)]\n[name=\"莫希\"]夫人，客人平安到达。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]好！快带人过来！\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]……\n[charslot(slot=\"m\",name=\"avg_npc_255_1#8$1\")]\n[name=\"莫希\"]……\n[name=\"莫希\"]我这就去。\n[Dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#1$1\")]\n[name=\"魏斯\"]老爷！\n[name=\"魏斯\"]客人已经带到了！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]乱说什么？那是我请来的客人！\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_624_1#1$1\",duration=1)]\n[Delay(time=2)]\n[name=\"征战骑士\"]您就是布朗陶家的休露丝夫人？\n[name=\"征战骑士\"]很感谢您这次邀请我们前来观礼。\n[charslot(slot=\"m\",name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]……休露丝，这就是你说的惊喜？\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]当然！\n[name=\"休露丝\"]我来给大家介绍一下，这几位是隶属卡西米尔监正会的征战骑士，是来祝贺我们的耶拉冈德像建成的！"
+        }
+      ],
+      "description": "尤卡坦与休露丝直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "双方在休露丝归来的同一现场直接互相回应。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "双方在休露丝归来的同一现场直接互相回应。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 1057,
+          "kind": "story",
+          "line": 1000,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "银心湖冲突尾声",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "npc_669b66161e12a7ca|npc_be787f1ec784bbc7"
+}

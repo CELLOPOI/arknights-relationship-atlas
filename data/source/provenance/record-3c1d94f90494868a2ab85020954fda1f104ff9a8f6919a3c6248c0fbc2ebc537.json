@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 983,
+          "line": 912,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"菈塔托丝\"]……\n[name=\"菈塔托丝\"]啧。\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]阿克托斯。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]干什么？\n[Character(name=\"avg_npc_253_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"菈塔托丝\"]你是相信我，还是相信恩希欧迪斯？！\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]你们两个，我一个都不相信！\n[Character(name=\"avg_npc_253_1#8$1\")]\n[name=\"菈塔托丝\"]那你至少也该知道，眼下谁才是敌人！\n[name=\"菈塔托丝\"]布朗陶家的战士们，准备战斗！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\")]\n[Character(name=\"avg_npc_285_1#1$1\", name2=\"avg_npc_285_1#1$1\",fadetime=1.5)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_253_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"菈塔托丝\"]先救出休露丝，再把恩希欧迪斯给我拿下！\n[Character(name=\"avg_npc_285_1#1$1\", name2=\"avg_npc_285_1#1$1\")]\n[name=\"布朗陶家战士\"]是！\n[Character(name=\"avg_npc_254_1#8$1\")]\n[name=\"阿克托斯\"]……*谢拉格俚语*，佩尔罗契家的战士们，列阵！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\")]\n[Character(name=\"avg_npc_286_1#1$1\", name2=\"avg_npc_286_1#1$1\",fadetime=1.5)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_254_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"阿克托斯\"]把恩希欧迪斯这个逆贼拿下！让民众们知道，他才是那个叛徒！\n[Character(name=\"avg_npc_260_1#6$1\")]\n[name=\"古罗\"]是！\n[Character(name=\"avg_npc_286_1#1$1\", name2=\"avg_npc_286_1#1$1\")]\n[name=\"佩尔罗契家战士\"]是！\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]锏。\n[name=\"恩希欧迪斯\"]把诺希斯押下去。\n[Character(name=\"avg_npc_257_1#2$1\")]\n[name=\"锏\"]不用我？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]不用。\n[Character(name=\"avg_npc_257_1#1$1\")]\n[name=\"锏\"]行吧。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]角峰。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_199_yak_1#6$1\",fadetime=1.5)]\n[Delay(time=1.5)]\n[name=\"角峰\"]在。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]照看住大长老和圣女大人。\n[Character(name=\"avg_199_yak_1#6$1\")]\n[name=\"角峰\"]是。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]魏斯。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_198_blackd_1#9$1\",fadetime=1.5)]\n[Delay(time=1.5)]\n[name=\"魏斯\"]在。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]把阿克托斯与菈塔托丝拿下。\n[name=\"恩希欧迪斯\"]尽量不要出人命，现在还不是时候。\n[Character(name=\"avg_198_blackd_1#9$1\")]\n[name=\"魏斯\"]是。"
+        }
+      ],
+      "description": "广场双方列阵，古罗回应阿克托斯，菈塔托丝呼救休露丝，银灰锏讯使回应并部署冲突。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E64"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "广场双方列阵，古罗回应阿克托斯，菈塔托丝呼救休露丝，银灰锏讯使回应并部署冲突。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E64"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "广场双方列阵，古罗回应阿克托斯，菈塔托丝呼救休露丝，银灰锏讯使回应并部署冲突。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 983,
+          "kind": "story",
+          "line": 912,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 263,
+          "line": 197,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_03_beg.txt",
+          "quote": "清晨，一辆棕色的车行驶在通往蔓珠院的山路，坐在后座的阿克托斯捶了捶自己的脖颈。\n[charslot(slot=\"m\",name=\"avg_npc_254_1#2$1\",focus=\"m\")]\n[name=\"阿克托斯\"]呵——欠。\n[charslot(slot=\"m\",name=\"avg_npc_254_1#1$1\",focus=\"m\")]\n[name=\"阿克托斯\"]大清早地喊我去开会，矿区管理切割的事儿就这么着急吗？\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]听说这段时间，恩希欧迪斯大人经常在喀兰贸易待到通宵，早上会谈也符合他近期的作息。\n[charslot(slot=\"m\",name=\"avg_npc_254_1#1$1\",focus=\"m\")]\n[name=\"阿克托斯\"]哼——\n[name=\"阿克托斯\"]说到底，该聊的之前也聊得差不多了，也就是等希瓦艾什那边整理好文件，我再确认签字。\n[name=\"阿克托斯\"]古罗，把上次的会谈记录拿出来，我再过一眼。\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]是，老爷。\n[Dialog]\n[charslot]\n副驾驶座位上的古罗从储物箱抽出一摞文件，正要回头递给阿克托斯，突然车身一震。\n[Dialog]\n[StopSound(channel=\"car\", fadetime=1)]\n[PlaySound(key=\"$drift\", volume=0.6)]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.4)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_254_1#7$1\",focus=\"m\")]\n[name=\"阿克托斯\"]该死！怎么回事？\n[Dialog]\n[charslot]\n[name=\"佩尔罗契司机\"]是，是，是山体落石！差一点就被砸中了！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#7$1\",focus=\"m\")]\n[name=\"古罗\"]落石？这里怎么会有落石？\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]\n[PlaySound(key=\"$d_avg_hgldshcrrig\", volume=1)]\n[PlaySound(key=\"$d_avg_vallyrck\", volume=1,delay=0.3)]\n[CameraShake(duration=1.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=1)]\n话音刚落，车身又一次剧烈震动，掉落的碎石重重砸向后备箱。\n[charslot(slot=\"m\",name=\"avg_npc_260_1#6$1\",focus=\"m\")]\n[name=\"古罗\"]老爷！车里不安全，前面的路都被石头堵死了，我们应该马上下车！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#8$1\",focus=\"m\")]\n[name=\"阿克托斯\"]*谢拉格俚语*！\n[Dialog]\n[charslot(duration=0.3)]\n[delay(time=0.5)]\n[stopsound(channel=\"e\", fadetime=1)]\n[playsound(key=\"$d_avg_cardoorc\",volume=0.7)]\n[curtain(fadetime=0.5)]\n[delay(time=1)]\n[playsound(key=\"$smallearthquake\", volume=0.6)]\n[CameraShake(duration=3, xstrength=15, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=1)]\n三人弃车，往靠近山体的一侧奔去，然而碎石的数量令他们束手无策。\n[charslot(slot=\"m\",name=\"avg_npc_260_1#6$1\",focus=\"m\")]\n[name=\"古罗\"]老爷小心——\n[Dialog]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[charslot(duration=0.5)]\n[delay(time=0.7)]\n[PlaySound(key=\"$d_avg_clothmovementsp\",volume=0.8)]\n[PlaySound(key=\"$bodyfalldown2\", volume=1,delay=0.3)]\n[CameraShake(duration=1, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=1.5)]\n碎石直冲阿克托斯而来，古罗奋力将阿克托斯推开，碎石的边沿击中他的额头，顿时血流如注，巨大的身躯重重倒在地上。\n被推倒在地的阿克托斯手脚并用地爬向古罗，他拉住古罗的手使劲把他拖向山体一侧，路面上留下了一条长长的血迹。\n石块随之落下，几乎要将血迹盖过。\n[charslot(slot=\"m\",name=\"avg_npc_254_1#8$1\",focus=\"m\")]\n[name=\"阿克托斯\"]古罗，古罗！"
+        }
+      ],
+      "description": "古罗与阿克托斯在落石中相互救助。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N07"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "当面对话或同一局部谈判中相互确认。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "N07"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "当面对话或同一局部谈判中相互确认。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 263,
+          "kind": "story",
+          "line": 197,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "雪山事件期间",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 385,
+          "line": 252,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_04_end.txt",
+          "quote": "[charslot(slot=\"l\",name=\"avg_194_leto_1#1$1\",focus=\"l\")]\n[name=\"烈夏\"]我跟你讲，我们乌萨斯那平常喝的，可比这烈多了！\n[name=\"烈夏\"]下回你来做客，我请你喝！\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"r\")]\n[name=\"阿克托斯\"]哈哈哈！好啊，一言为定！\n[name=\"阿克托斯\"]喝！来，再多喝点！\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"all\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$clink\")]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_drinkswllw\")]\n[PlaySound(key=\"$d_avg_drinkswllw\",loop=false,channel=\"1\",delay=1)]\n[delay(time=2)]\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"r\")]\n[name=\"阿克托斯\"]好酒啊！\n[charslot(slot=\"l\",name=\"avg_194_leto_1#3$1\",focus=\"l\")]\n[name=\"烈夏\"]不对不对，不是酒，是蜂蜜饮料！\n[name=\"烈夏\"]谢拉格特产高地蜂蜜……嗝，味道确实够赞的。\n[charslot(slot=\"l\",name=\"avg_194_leto_1#1$1\",focus=\"l\")]\n[name=\"烈夏\"]我从列车上就带了几瓶，便宜你了！\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"r\")]\n[name=\"阿克托斯\"]蜂蜜好啊！好，解……嗝，解酒！\n[name=\"阿克托斯\"]味道也好，不错！我阿克托斯承你这份情！来，干了！\n[Dialog]\n[charslot]\n[delay(time=0.2)]\n[charslot(slot=\"l\",name=\"avg_npc_1160_1#6$1\",focus=\"all\")]\n[delay(time=0.3)]\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",posfrom=\"30,0\",posto=\"0,0\",afrom=0,ato=1,duration=0.3)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.4)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=0.8)]\n[charslot(slot=\"l\",name=\"avg_npc_1160_1#6$1\",focus=\"l\")]\n[name=\"老修士\"]——？！\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"r\")]\n[name=\"阿克托斯\"]啊？小丫头，你怎么变得皱巴巴的？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]哈哈哈，大叔，你认错人了！我在这儿呢！\n[Dialog]\n[charslot]\n[delay(time=0.2)]\n[charslot(slot=\"l\",name=\"avg_npc_1160_1#9$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_254_1#15$1\",focus=\"all\")]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_avg_slap\")]\n[PlaySound(key=\"$d_avg_clothmovementsp\",volume=0.8,delay=0.2)]\n[CameraShake(duration=1, xstrength=20, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=1.2)]\n[charslot(slot=\"l\",name=\"avg_npc_1160_1#9$1\",focus=\"l\")]\n[name=\"老修士\"]撒手……你这不孝子，你给我撒手！\n[Dialog]\n[charslot]\n[delay(time=0.2)]\n[charslot(slot=\"m\",name=\"avg_npc_254_1#3$1\",focus=\"m\")]\n[name=\"阿克托斯\"]你这丫头，怎么手劲这样大，你这是不愿意喝我的酒？\n[charslot(slot=\"m\",name=\"avg_npc_254_1#11$1\",focus=\"m\")]\n[name=\"阿克托斯\"]……\n[charslot(slot=\"m\",name=\"avg_npc_254_1#15$1\",focus=\"m\")]\n[name=\"阿克托斯\"]不行，你等着，我有真正的好、好酒！\n[name=\"阿克托斯\"]你等着！\n[Dialog]\n[PlaySound(key=\"$d_avg_walkfast\", volume=1)]\n[charslot(duration=0.7)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]哎，大叔——\n[charslot(slot=\"m\",name=\"avg_194_leto_1#3$1\",focus=\"m\")]\n[name=\"烈夏\"]都说是你认错人了，哎！\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#6$1\",focus=\"m\")]\n[name=\"老修士\"]他们俩，他们俩这……\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=20, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"老修士\"]古罗，古罗！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#3$1\",focus=\"m\")]\n[name=\"古罗\"]大老爷，我在！\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]这到底是怎么一回事？！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#5$1\",focus=\"m\")]\n[name=\"古罗\"]老爷他本来就喝得有点多了，看到罗莎琳小姐，就邀请她一起喝酒。\n[name=\"古罗\"]这……我哪拦得住这两位啊！\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=20, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"老修士\"]阿克托斯这混账！\n[name=\"老修士\"]他瞧见罗莎琳，真就、真就半点名堂都没瞧出来？！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#5$1\",focus=\"m\")]\n[name=\"古罗\"]那倒也不是。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]别卖关子，快说！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#5$1\",focus=\"m\")]\n[name=\"古罗\"]看到罗莎琳小姐，老爷先说觉得眼熟。\n[name=\"古罗\"]但估计是醉得不轻，我们等了半天，老爷他闷不吭声，硬是什么也没说出来。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]然后呢？！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#5$1\",focus=\"m\")]\n[name=\"古罗\"]然后，罗莎琳小姐大概是想缓和一下气氛，就把她自己带的蜂蜜饮料拿出来请老爷一起喝……\n[name=\"古罗\"]再然后就……就这样了。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#8$1\",focus=\"m\")]\n[name=\"老修士\"]……\n[name=\"老修士\"]阿克托斯都这把年纪了，还没能克服醉蜜这个毛病？\n[charslot(slot=\"m\",name=\"avg_npc_260_1#4$1\",focus=\"m\")]\n[name=\"古罗\"]老爷这醉蜜是天生的，想克服也没法子啊。\n[name=\"古罗\"]真要算，那还是遗传大老爷您……\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]（瞪眼）\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]咳咳。\n[name=\"古罗\"]大老爷，咱们现在怎么办？\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]怎么办，你问我，我能怎么办？\n[name=\"老修士\"]等阿克托斯酒醒吧，你我都能看得出来的事，但凡他头脑清醒点，绝没有认不出的道理。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#13$1\",focus=\"m\")]\n[name=\"老修士\"]看到罗莎琳这孩子，我就想起阿克托斯年轻的时候。\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]我记得那时候，老爷还不像现在这样留着胡须。\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#9$1\",focus=\"m\")]\n[name=\"老修士\"]哼，他那是生怕自己看起来不够稳重，才使这些小手段！\n[name=\"老修士\"]当初他若是真够稳重，也不至于……\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]老伯，你终于来了！\n[name=\"烈夏\"]什么不够稳重？什么当初？你们在聊什么？\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#8$1\",focus=\"m\")]\n[name=\"老修士\"]没什么，只是些往事……\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"m\")]\n[name=\"烈夏\"]啧，又打哑谜。\n[name=\"烈夏\"]算了，反正也不关我的事。\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]来，老伯，这个给你。\n[name=\"烈夏\"]我还留了最后一瓶蜂蜜饮料，就等着你呢，一起来喝！\n[charslot(slot=\"m\",name=\"avg_npc_1160_1#11$1\",focus=\"m\")]\n[name=\"老修士\"]……也罢。"
+        }
+      ],
+      "description": "古罗是阿克托斯的直属将军。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "古罗作为将军直接处理阿克托斯醉酒后的事务。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "阿克托斯当场命令古罗并由其照料。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 385,
+          "kind": "story",
+          "line": 252,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "佩尔罗契宅邸宴饮",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "npc_7144babb98dd293d|npc_e69f1ad171a29fd0"
+}

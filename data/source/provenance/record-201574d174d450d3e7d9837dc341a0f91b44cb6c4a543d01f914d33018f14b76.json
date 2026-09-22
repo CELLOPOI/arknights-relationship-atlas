@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 403,
+          "line": 367,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_05_end.txt",
+          "quote": "[name=\"左乐\"]  ……好险。\n[Character(name=\"avg_npc_297_1#8$1\")]\n[name=\"左乐\"]  先生没受伤吧？\n[Character(name=\"avgnew_455_nothing_1#6$1\")]\n[name=\"乌有\"]  你是，那天的——\n[dialog]\n[character]\n[Character(name=\"avg_npc_299_1#1$1\",fadetime=1.5,block=true)]\n[delay(time=2)]\n[name=\"太合\"]  勿问。\n[Character(name=\"avgnew_455_nothing_1#6$1\")]\n[name=\"乌有\"]  ……！\n[Character(name=\"avg_npc_297_1#9$1\",name2=\"avg_npc_299_1#1$1\",focus=1)]\n[name=\"左乐\"]  太合叔，不必这么生分……\n[Character(name=\"avg_npc_306_1#1$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"奇妙的物件\"]  ——！\n[Character(name=\"avg_npc_297_1#1$1\", name2=\"avgnew_455_nothing_1#6$1\",focus=2)]\n[name=\"乌有\"]  ……你们知道这些东西的来历？\n[Character(name=\"avg_npc_297_1#1$1\", name2=\"avgnew_455_nothing_1#6$1\",focus=1)]\n[name=\"左乐\"]  那只酒盏所过之处，器伥四起，反而证明了司岁台的猜测。\n[name=\"左乐\"]  这是不是说明……\n[Character(name=\"avg_npc_297_1#1$1\",name2=\"avg_npc_299_1#4$1\",focus=2)]\n[name=\"太合\"]  公子慎言。\n[Character(name=\"avg_npc_297_1#7$1\",name2=\"avg_npc_299_1#4$1\",focus=1)]\n[name=\"左乐\"]  ……太合叔教训得是。\n[Character(name=\"avg_npc_306_1#1$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"奇妙的物件\"]  呜嗷——呜！\n[Character(name=\"avgnew_455_nothing_1#8$1\")]\n[name=\"乌有\"]  （这些幻灵，呃，器伥……是在害怕这两个人？不，是在害怕这个少年……？）\n[Character(name=\"avg_npc_297_1#2$1\")]\n[name=\"左乐\"]  ……唉。\n[Character(name=\"avg_npc_297_1#1$1\", name2=\"avg_npc_299_1#1$1\",focus=1)]\n[name=\"左乐\"]  看看这些器伥，这样的事情发生过几次？\n[Character(name=\"avg_npc_297_1#1$1\", name2=\"avg_npc_299_1#1$1\",focus=2)]\n[name=\"太合\"]  十年前一次，二十五年前一次，再前一甲子，仍有数次。"
+        }
+      ],
+      "description": "太合和左乐救援乌有，三人当面交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_455_nothin",
+          "reason": "太合和左乐救援乌有，三人当面交谈。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        },
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太合和左乐救援乌有，三人当面交谈。",
+          "status": "supported",
+          "to": "char_455_nothin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 403,
+          "kind": "story",
+          "line": 367,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_455_nothin|npc_3fa3fadab4354b64"
+}

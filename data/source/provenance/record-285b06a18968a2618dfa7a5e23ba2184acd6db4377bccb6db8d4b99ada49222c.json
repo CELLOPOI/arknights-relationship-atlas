@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 194,
+          "line": 143,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-11_end.txt",
+          "quote": "[name=\"阿米娅\"]博士……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#6$1\",focus=\"m\")]\n[name=\"阿米娅\"]不知道他们和那家酒店的谈判是否顺利。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]也许……我应该跟着去的。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#12$1\",focus=\"m\")]\n[name=\"推进之王\"]不用担心，阿米娅，那位伊内丝女士不会让博士身处险境，更何况，只是借用他们的通讯站而已。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]我知道，这里的病人也确实更需要我。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#12$1\",focus=\"m\")]\n[name=\"推进之王\"]在他们离开之前，我们已经约定好了撤离的时间。\n[name=\"推进之王\"]我们需要挺过萨卡兹驻军的反扑，只要公爵们开始与萨卡兹交火，我们就可以抓住机会。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]……计划会顺利进行的。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#10$1\",focus=\"m\")]\n[name=\"阿米娅\"]嗯……我只是稍稍有些不安。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#10$1\",focus=\"m\")]\n[name=\"阿米娅\"]这里有一些……让我感到压抑的东西。我不知道那是什么。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]一开始，我以为只是诺伯特区的气氛太过沉重，后来，我以为是……特蕾西娅小姐想要再度向我展现什么。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]可似乎都不是。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#9$1\",focus=\"m\")]\n[name=\"推进之王\"]……阿米娅，我在本舰的时候，曾听见有些萨卡兹称呼你为“魔王”。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#5$1\",focus=\"m\")]\n[name=\"推进之王\"]对于你来说，这意味着什么？你明明不是一名萨卡兹。\n[name=\"推进之王\"]你会希望自己是一个能带领属民的统治者吗？还是个冲锋在前的英雄？\n[dialog]\n[charslot]\n推进之王轻抚着身边的诸王之息，这把剑仍然冰冷，一如往常。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]……我不知道，推进之王小姐，我必须坦诚。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]特蕾西娅小姐为我们所有人描绘了那么一个未来……我仍然坚信，她所诉说的那个未来才是值得生活的。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]可是，她把这顶冠冕交给了我，却没有告诉我到底应该如何抵达那里。如今，她甚至……站在了我们的对面。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]\n[name=\"阿米娅\"]我只能尝试说服自己，这是她对我的考验。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]\n[name=\"阿米娅\"]……我其实没有想好怎么面对她。她会对我说什么？她会怎么看待我做的事情？\n[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]\n[name=\"阿米娅\"]……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]我为自己选择的道路……会让她失望吗？\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]我不知道自己是不是一个……值得被交付“魔王”权柄的人。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]可你仍然选择承担这份职责。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#9$1\",focus=\"m\")]\n[name=\"推进之王\"]我同样在担忧，自己无法成为那个人们期冀中的人。\n[name=\"推进之王\"]那个能够劈开天灾的英雄，那个能够团结人民的君主……\n[name=\"推进之王\"]我要怎么才能做到？我要怎么才能回应那些……如此沉重的期待？"
+        }
+      ],
+      "description": "推进之王单向明确知晓特蕾西娅。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "char_112_siege",
+          "reason": "推进之王直接与阿米娅讨论特蕾西娅交付冠冕和未来。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "被提及者未在当前局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 194,
+          "kind": "story",
+          "line": 143,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-11_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_112_siege|npc_c0e49cc5a9477cf1"
+}

@@ -1,0 +1,214 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 28,
+          "line": 15,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_04_end.txt",
+          "quote": "[name=\"凯尔希\"]可露希尔，进度如何？\n[name=\"凯尔希\"]我不希望这次还会出现本舰核心系统失控的问题。\n[dialog]\n[charslot(slot = \"right\", name = \"avg_npc_050\",duration = 1)]\n[delay(time=1.2)]\n[charslot(slot = \"right\", focus=\"r\")]\n[name=\"可露希尔\"]唔……哈哈，你非要说呢，那可能还是遇到了一些小小的问题来着。\n[name=\"可露希尔\"]就算拿着你给我的锦囊妙计，PRTS的很多程序加密模式也不是常人能理解的啊。我的解码仪器还不能完全适配。\n[name=\"可露希尔\"]就结果而言，可能来不及在博士登舰前完全关闭系统。\n[charslot(slot = \"left\", name = \"avg_003_kalts_1#5$1\",focus=\"l\")]\n[name=\"凯尔希\"]再尝试一次。\n[name=\"凯尔希\"]如果还是没有把握，就准备应急方案……完全切断本舰的所有能源。\n[charslot(slot = \"right\", focus=\"r\")]\n[name=\"可露希尔\"]放心交给我吧！"
+        }
+      ],
+      "description": "可露希尔正在对PRTS解码、关闭系统，知晓其具体程序。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔正在对PRTS解码、关闭系统，知晓其具体程序。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 28,
+          "kind": "story",
+          "line": 15,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 517,
+          "line": 488,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "quote": "[Decision(options=\"摩根小队，去东侧入口。;自救军三队分头骚扰北门与西南门。;可露希尔继续负责侦察和支援。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_405_1#1$1\")]\n[name=\"摩根\"]好的，博士。达格达，我们走。\n[Predicate(references=\"2\")]\n[Character(name=\"avg_npc_398_1#1$1\")]\n[name=\"自救军战士\"]收到。行动！\n[Predicate(references=\"3\")]\n[Character(name=\"avg_npc_411_1#7$1\")]\n[name=\"可露希尔\"]没问题，交给我吧。\n[Predicate(references=\"1;2;3\")]\n[dialog]\n[Character]\n[Decision(options=\"阿米娅，给其他人发信号。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_402_1#4$1\")]\n[name=\"费斯特\"]其他人？罗德岛还有人在地面上吗？\n[Character(name=\"avg_npc_394_1#1$1\")]\n[name=\"阿米娅\"]是的，费斯特先生。等他们收到信号，他们会知道今晚我们在这里有行动。\n[name=\"阿米娅\"]您能看到他们的位置吗，博士？应该还不能吧？距离还不够近。\n[Character(name=\"avg_npc_402_1#4$1\")]\n[name=\"费斯特\"]你不是说他们不在附近？呃，博士难道有什么特别的源石技艺？\n[dialog]\n[Character]\n[Decision(options=\"不是，是PRTS在帮我。;是的，我能透视。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_402_1#11$1\")]\n[name=\"费斯特\"]什么……什么神奇的技术？\n[Character(name=\"avg_npc_402_1#7$1\")]\n[name=\"费斯特\"]博士，等回去以后，你可一定要好好跟我说一说。"
+        }
+      ],
+      "description": "博士可选答复明确说明PRTS帮助定位；阿米娅正参与这段对话，可露希尔仍在近前执行侦察任务，未见离场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR06"
+          ],
+          "from": "char_4228_closur",
+          "reason": "博士可选答复明确说明PRTS帮助定位；阿米娅正参与这段对话，可露希尔仍在近前执行侦察任务，未见离场。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 517,
+          "kind": "story",
+          "line": 488,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 63,
+          "line": 27,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st06.txt",
+          "quote": "[name=\"可露希尔\"]  总之语言逻辑功能这方面看来没有什么问题。\n[name=\"可露希尔\"]  接下来看看其他的分支。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  对着PRTS内未出现异常报告的区块进行重复的检查，真的有必要吗？\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  当然有必要了！\n[name=\"可露希尔\"]  你可是已经好久没有做数据归档了，这就像是人类定期要做身体检查一样，是为了你的健康着想。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  程序是没有生命概念的。\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  我总觉得你有。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  我可以把这句话当作夸奖吗？\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  当然。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  那么我是否可以问一个问题？\n[name=\"PRTS\"]  在人类的眼中，我的数据库视觉表现是一种怎样的状态？\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  这很难形容……\n[name=\"可露希尔\"]  我刚接手这里的系统的时候，所有东西都一团乱，现在回头看看简直是灾难。\n[name=\"可露希尔\"]  那时候你的大部分信息是加密的，而且以混乱的顺序排列……嗯，当然现在也还是这样。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  如果把你想象成一个人体，那现在的你就像是在人类的身体里装了个发动引擎。\n[name=\"可露希尔\"]  可是，点火系统之类的结构却和活塞的位置完全颠倒了。\n[name=\"可露希尔\"]  甚至……我都不能确定你是不是正常认知中的系统。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  哎，别这么沉默，这又不是坏事，只能说你确实与众不同！\n[name=\"可露希尔\"]  虽然现在我还是没办法搞懂数据库里那些分支结构的状况，更不用说读取的规律了……\n[name=\"可露希尔\"]  但至少我和凯尔希还是一起修改并且整理了其中的一部分。\n[name=\"可露希尔\"]  怎么样，现在没有人会比我更了解你啦！\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……很遗憾我也无法在这方面帮助LeaderOne小姐。"
+        }
+      ],
+      "description": "可露希尔与PRTS持续直接进行系统检查和问答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C18"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔与PRTS持续直接进行系统检查和问答。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "C18"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "可露希尔与PRTS持续直接进行系统检查和问答。",
+          "status": "supported",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 63,
+          "kind": "story",
+          "line": 27,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 878,
+          "line": 781,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+          "quote": "[name=\"可露希尔\"]……！\n[name=\"可露希尔\"]Mon3tr，你刚刚做什么了吗？\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$1\",focus=\"m\")]\n[name=\"Mon3tr\"]什么……我什么都没有做！\n[playMusic(intro=\"$m_sys_act1mainss_intro\", key=\"$m_sys_act1mainss_loop\", volume=0)]\n[musicvolume(volume=0.6, fadetime=4)]\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#7$1\",focus=\"m\")]\n[name=\"可露希尔\"]可为什么这里的系统，会突然出现一个权限层级这么高的后门？如果这里始终存在一个后门，为什么那些研究员会发现不了？\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#13$1\",focus=\"m\")]\n[name=\"可露希尔\"]不对不对，这里不只是一个权限漏洞……为什么石棺的操作系统中，会存在一个独立运行的程序，就像PRTS一样！\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#7$1\",focus=\"m\")]\n[multiline(name=\"可露希尔\")]虽然很缓慢……\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#14$1\",focus=\"m\")]\n[multiline(name=\"可露希尔\")]但它的确在阻止石棺！\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$1\",focus=\"m\")]\n[name=\"Mon3tr\"]难道是——\n[Dialog]\n[charslot]\n[Decision(options=\"AMa-10？;凯尔希？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Dialog]\n[musicvolume(volume=0.3, fadetime=1.5)]\n[SoundVolume(channel=\"fur\", volume=0.3, fadetime=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot]\n[Background(image=\"60_g13_rhodesdeck_origin\", screenadapt=\"coverall\", block=true)]\n[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#8$1\")]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Delay(time=0.5)]\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#8$1\")]\n[name=\"普瑞赛斯\"]我也想修好它，和你一样。\n[name=\"普瑞赛斯\"]AMa-10不仅承载了我们共同的期待，它还保存了一段对我而言极为关键的记录。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot]\n[Background(image=\"73_g8_reactor\", screenadapt=\"coverall\", block=true)]\n[CameraEffect(effect=\"Grayscale\", amount=0, keep=true)]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[musicvolume(volume=0.6, fadetime=1.5)]\n[SoundVolume(channel=\"fur\", volume=0.7, fadetime=1.5)]\n[Delay(time=1)]\n[Decision(options=\"可露希尔！;可以追踪到那段程序吗！\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#12$1\",focus=\"m\")]\n[name=\"可露希尔\"]我已经在这样做了！只是还需要一点时间！\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#8$1\",focus=\"m\")]\n[name=\"可露希尔\"]五分钟……不，有没有办法再争取三分钟就好！我还可以试一试！\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#7$1 \",focus=\"m\")]\n[name=\"Mon3tr\"]可是，石棺现在的状态非常危险，我不确定它还能维持多长时间！\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$1\",focus=\"m\")]\n[name=\"阿米娅\"]如果……我们能通过压制石棺的能量，来让它稳定下来呢？\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$1\",focus=\"m\")]\n[name=\"Mon3tr\"]阿米娅？！\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#6$1\",focus=\"m\")]\n[name=\"Mon3tr\"]这绝对是不可能的，哪怕是你也不可能以一己之力对抗石棺的能量输出！\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#16$1\",focus=\"m\")]\n[name=\"阿米娅\"]不试试……又怎么能知道呢……\n[multiline(name=\"阿米娅\")]而且，我能感受到，黑王冠在回应我的呼唤……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#3$1\",focus=\"m\")]\n[multiline(name=\"阿米娅\")]我相信，我能做到。\n[Dialog]\n[StopSound(channel=\"fur\", fadetime=2)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_crystalmagic_loop\", volume=1, loop=true, channel=\"cr\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#3$3\",focus=\"m\",duration=1)]\n[StopSound(channel=\"cr\", fadetime=4)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1.2, block=true)]\n[Delay(time=1.5)]\n[charslot]\n[Delay(time=0.3)]\n[charslot(slot=\"m\",name=\"avg_4134_cetsyr_1#10$1\",duration=1.5)]\n[Delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#5$3\",focus=\"m\")]\n[name=\"阿米娅\"]特蕾西娅小姐……你愿意来帮我了吗？\n[charslot(slot=\"m\",name=\"avg_4134_cetsyr_1#10$1\",focus=\"m\")]\n[name=\"魔王\"]不……阿米娅。\n[name=\"魔王\"]你的请求违背了特蕾西娅为我设置的底层指令——\n[charslot(slot=\"m\",name=\"avg_4134_cetsyr_1#1$1\",focus=\"m\")]\n[name=\"魔王\"]任何时候，优先保护阿米娅你的安全。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#1$3\",focus=\"m\")]\n[name=\"阿米娅\"]特蕾西娅小姐，可是你也说过，不要做会让自己后悔的选择。\n[charslot(slot=\"m\",name=\"avg_4134_cetsyr_1#5$1\",focus=\"m\")]\n[name=\"魔王\"]阿米娅，你确定要这么做吗？\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\",focus=\"m\")]\n[name=\"阿米娅\"]这一次……我一定会尽自己全部的努力。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#2$3\",focus=\"m\")]\n[name=\"阿米娅\"]我不想再失去身边任何一个人了……\n[charslot(slot=\"m\",name=\"avg_4134_cetsyr_1#2$1\",focus=\"m\")]\n[name=\"魔王\"]……"
+        }
+      ],
+      "description": "可露希尔主动把石棺程序类比为PRTS；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔主动把石棺程序类比为PRTS",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "该证据未提供反向识别。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 878,
+          "kind": "story",
+          "line": 781,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒事件及罗德岛后续",
+      "title": "相变临界"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 143,
+          "line": 111,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-10_beg.txt",
+          "quote": "[Background(image=\"bg_rhodesengineeringroom\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#11$1\")]\n[name=\"可露希尔\"]弗里斯顿先生，我现在没有时间和你争论！\n[name=\"可露希尔\"]我可以非常明确地向你保证，我绝对绝对没有给你上传任何能让你做梦的固件。\n[name=\"可露希尔\"]PRTS的异常越来越严重，备用指挥系统上线也还需要时间。\n[name=\"可露希尔\"]……还得手动分配工作项，我现在眼睛已经快盯不过来了！而且某些区域已经完全失去了联系，情况完全不明——\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]放轻松，可露希尔。\n[name=\"Friston-3\"]我并不是想要和你争论，只不过是在尝试排除引发我身体出现罕见故障的原因。\n[name=\"Friston-3\"]我们既然已经排除了固件报错和硬件故障的可能性，那——\n[name=\"Friston-3\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#8$1\")]\n[name=\"可露希尔\"]怎么了？\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]可露希尔，回答我一个很重要的问题……\n[name=\"Friston-3\"]驱动我核心运转的能源是什么？\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#8$1\")]\n[name=\"可露希尔\"]欸，当然是源石。\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]你们的改型作业平台几乎都是源石驱动？\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#11$1\")]\n[name=\"可露希尔\"]……弗里斯顿先生，你的语气很可怕。你想说什么？\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]可露希尔，你是一个天才。\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#11$1\")]\n[name=\"可露希尔\"]啊？\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]你能想到提前切断所有改型作业平台与PRTS的连接，但恐怕这远远不够。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=0.7)]\n[CameraShake(duration=1.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=true)]"
+        }
+      ],
+      "description": "可露希尔直接管理、断开并应对PRTS。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D11"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔直接管理、断开并应对PRTS。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "D11"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "可露希尔直接管理、断开并应对PRTS。",
+          "status": "supported",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 143,
+          "kind": "story",
+          "line": 111,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4228_closur|npc_c8a2caad4366c8fa"
+}

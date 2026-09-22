@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 300,
+          "line": 183,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_st02.txt",
+          "quote": "[name=\"黍\"]听说你从萨尔贡来，大哥一时兴起，跟小余描述了几句那边的饮食，小余一半推测，一半自由发挥，做了满满一袋子。\n[name=\"黍\"]我们都觉得不错，就是不知道合不合你的口味……拿着吧，算是我们的一点心意。\n[charslot(slot=\"m\",name=\"avg_npc_2130_1#7$1\")]\n[name=\"风絮\"]嗯！谢谢你们！谢谢大家！\n[dialog]\n[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"200,0\",duration = 1,afrom=1,ato=0)]\n[delay(time=1)]\n[PlaySound(key=\"$doorclosequite\")]\n[delay(time=1.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_2026_yu_1#11$1\",duration=1)]\n[delay(time=2)]\n[name=\"余\"]……我们家果然总是凑不齐人。\n[charslot(slot = \"m\",name=\"avg_2023_ling_1#8$1\")]\n[name=\"令\"]人生贵得适意尔。真去把五弟抓到余味居来吃饭，他倒要食不甘味了。\n[charslot(slot = \"m\",name=\"avg_2023_ling_1#7$1\")]\n[name=\"令\"]至于其他人，小夕实在是困得太狠了，情有可原。\n[name=\"令\"]绩做生意是一把好手，但对自己家人脸皮还是太薄，愿意在界园散心，又有易陪着，那就随他去吧。\n[name=\"令\"]大哥也是——\n[Dialog]\n[charslot]\n[PlaySound(key=\"$dooropenquite\")]\n[charslot(slot = \"left\", name = \"avg_npc_1236_1#1$1\",duration = 1)]\n[charslot(slot = \"right\", name = \"avg_npc_1869_1#1$1\",duration = 1)]\n[delay(time=2)]\n[charslot(slot = \"right\", name = \"avg_npc_1869_1#1$1\",focus=\"r\")]\n[name=\"易\"]好香。我们有没有来迟？\n[charslot]\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#8$1\")]\n[name=\"年\"]你们俩不是说不来了吗？\n[charslot(slot=\"m\",name=\"avg_npc_1869_1#1$1\")]\n[name=\"易\"]这家伙说不来，我可没说不来。\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#3$1\")]\n[name=\"绩\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1869_1#1$1\")]\n[name=\"易\"]我既然来，总不能放着他一个人看界园，就把他也拖过来了。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]拖得好！这家伙之前在大荒城装神弄鬼，这几天还躲着不见我们！\n[name=\"年\"]黍姐，你说他该怎么处置？\n[charslot(slot = \"m\",name=\"avg_2025_shu_1#4$1\")]\n[name=\"黍\"]让我说的话——\n[charslot(slot = \"m\",name=\"avg_2023_ling_1#8$1\")]\n[name=\"令\"]可不许只说刷锅洗碗这样的小事。\n[charslot(slot = \"m\",name=\"avg_2025_shu_1#2$1\")]\n[name=\"黍\"]那——\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#4$1\")]\n[name=\"年\"]也不许说道个歉就算了，忒没劲。\n[charslot(slot = \"m\",name=\"avg_2025_shu_1#8$1\")]\n[name=\"黍\"]既然这样——\n[charslot(slot=\"m\",name=\"avg_npc_1869_1#10$1\")]\n[name=\"易\"]要是用“权且寄下以后再说”打发过去，未免拂了大家的美意。\n[charslot(slot = \"m\",name=\"avg_2025_shu_1#18$1\")]\n[name=\"黍\"]要不然——\n[charslot(slot=\"m\",name=\"avg_2026_yu_1#1$1\")]\n[name=\"余\"]余味居的房租，三哥已经给我免到后年啦。\n[charslot(slot = \"m\",name=\"avg_2025_shu_1#11$1\")]\n[name=\"黍\"]呃，那就……\n[charslot(slot = \"m\",name=\"avg_2025_shu_1#1$1\")]\n[name=\"黍\"]……暂时把生意关张一年，休息休息，好好盘算盘算，接下来要去哪儿做生意吧。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#5$1\")]\n[name=\"年\"]唉，不愧是黍姐，每次都能从谁都想不到的角度放别人一马。\n[charslot(slot = \"m\",name=\"avg_2025_shu_1#1$1\")]\n[name=\"黍\"]是吗？我可没说完呢。\n[name=\"黍\"]绩，这一年里，你欠其他人的账，还能还得上的，你要一一还清。\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#1$1\")]\n[name=\"绩\"]……谨记在心。\n[charslot(slot = \"m\",name=\"avg_2025_shu_1#9$1\")]\n[name=\"黍\"]好啦好啦，大家都落座吧——\n[charslot]\n[name=\"？？？\"]（含混不清的嘟囔声）\n[name=\"？？？\"]知道……我就……再睡一会儿……\n[dialog]\n[PlaySound(key=\"$dooropenquite\")]\n[charslot(slot = \"left\", name = \"avg_npc_2126_1#1$1\",duration = 1)]\n[charslot(slot = \"right\", name = \"avgnew_2015_dusk_1#2$1\",duration = 1)]\n[delay(time=2)]\n[charslot]\n[charslot(slot = \"m\",name=\"avg_2023_ling_1#3$1\")]\n[name=\"令\"]均，小夕说要一直睡到来年开春，你怎么把她抓过来了？\n[charslot]\n[charslot(slot = \"left\", name = \"avg_npc_2126_1#13$1\",focus=\"l\")]\n[charslot(slot = \"right\", name = \"avgnew_2015_dusk_1#2$1\",focus=\"l\")]\n[name=\"均\"]那她也太不会挑卧室了。\n[name=\"均\"]我刚一出天镜阁就看见她倒在地上呼呼大睡，叫也叫不醒，只能把她带过来——\n[name=\"均\"]嗯？\n[dialog]\n[PlaySound(key=\"$d_avg_dripink\", volume=1)]\n[charslot(slot = \"r\",duration = 1,afrom=1,ato=0,posfrom = \"0,0\", posto = \"0,-70\")]\n[delay(time=2)]\n[charslot(slot = \"m\", focus = \"n\")]\n两三句话的工夫，瘫在均身上呼呼大睡的夕忽然融化成一摊墨迹。\n[charslot]\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]我这好妹妹居然也学会了装神弄鬼——\n[Dialog]\n[PlaySound(key=\"$d_avg_hgsldpn\", volume=1)]\n[Background(image=\"bg_cottage\",screenadapt=\"coverall\",fadetime=2)]\n[delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#8$1\")]\n[charslot(slot =\"m\", action=\"shake\", power=5, times=30, duration=0.5)]\n[delay(time=0.5)]\n[name=\"年\"]嗯唔唔唔？！\n[charslot]\n随着画卷展开，真正的夕出现在一块山石上面，看样子睡得正香。\n其余人也终于看清，年的嘴被封住了，用来封口的东西……是一张便符。\n一时间没人敢动弹，生怕也遭便符封口之祸，最后还是绩小心翼翼地把便符揭了下来。\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#3$1\")]\n[name=\"绩\"]上面有字：“我睡我的，你们吃你们的。不用叫我，除非二哥回来。”\n[name=\"绩\"]“又及……”\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#9$1\")]\n[name=\"绩\"]“给年：不许放鞭炮，不然用便符把你整个封严实。”\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_2026_yu_1#7$1\")]\n[Background(image=\"58_g1_yusrestaurant\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[name=\"余\"]还真是永远不让人省心的哥哥姐姐……"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C27"
+          ],
+          "from": "char_2023_ling",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_9bf75aeed8254c8c"
+        },
+        {
+          "evidenceIds": [
+            "C27"
+          ],
+          "from": "npc_9bf75aeed8254c8c",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "char_2023_ling"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 300,
+          "kind": "story",
+          "line": 183,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_2023_ling|npc_9bf75aeed8254c8c"
+}

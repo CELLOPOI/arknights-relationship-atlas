@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 624,
+          "line": 612,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flint_1_1.txt",
+          "quote": "[name=\"贾维\"]博士怎么没拦着你？\n[Character(name=\"char_415_flint_1#5\")]\n[name=\"燧石\"]拦了。我趁着博士睡着，出门打的。\n[Character(name=\"char_349_chiave#4\")]\n[name=\"贾维\"]嚯。等会，我好像听说过。\n[name=\"贾维\"]是不是就是你说，想让博士能多休息会儿，结果愣是守着门，把一早过来找碴的人全打了那回？\n[Character(name=\"char_415_flint_1#2\")]\n[name=\"燧石\"]别提了……\n[name=\"燧石\"]那次差点就没谈成，最后还是靠博士补救，反而害博士休息得更少了。\n[Character(name=\"char_415_flint_1\")]\n[name=\"燧石\"]……总之，那次给大家都添了不少麻烦。\n[Character(name=\"char_349_chiave\")]\n[name=\"贾维\"]还好是博士在，博士没怪你吧？"
+        }
+      ],
+      "description": "贾维具名询问博士为何没拦燧石，并说听说过事件，明确知晓该人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "char_349_chiave",
+          "reason": "贾维具名询问博士为何没拦燧石，并说听说过事件，明确知晓该人。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_349_chiave"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_9e81d286a8a5d2d6.json",
+      "sources": [
+        {
+          "endLine": 624,
+          "kind": "story",
+          "line": 612,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flint_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "燧石所述时段",
+      "title": "燧石"
+    }
+  ],
+  "relationship_id": "char_349_chiave|npc_b99957887950ebfd"
+}

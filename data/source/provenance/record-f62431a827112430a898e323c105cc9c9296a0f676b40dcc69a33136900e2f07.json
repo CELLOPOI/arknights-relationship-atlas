@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 740,
+          "line": 718,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st03.txt",
+          "quote": "[name=\"苦根\"] 绑架感染者？炸工厂？\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#9$1\",focus=2)]\n[name=\"天火\"] 是，虽然我也没搞明白他们到底要做什么。\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#9$1\",focus=1)]\n[name=\"苦根\"] 这可奇怪了……\n[name=\"苦根\"] 那几个被你打倒的暴徒呢？他们有没有说什么？\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#8$1\",focus=2)]\n[name=\"天火\"] ……呃……\n[name=\"天火\"] 现场的情况有点复杂，我下手可能稍微有点狠……\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#8$1\",focus=1)]\n[name=\"苦根\"] 算了，具体的我就不问了。\n[name=\"苦根\"] 装作感染者炸工厂……我倒是能推测出他们做这件事的原因。\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#9$1\",focus=2)]\n[name=\"天火\"] 跑了的那几个，想要逮到他们可能有点难度。\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#9$1\",focus=1)]\n[name=\"苦根\"] 指望警备队查感染者社区的案子也不太现实。\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#9$1\",focus=2)]\n[name=\"天火\"] 而且这件事还有一些其他的疑点……我好像看到了……\n[name=\"天火\"] 算了，先不管这个，你们找到苏茜小姐了吗？\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#9$1\",focus=1)]\n[name=\"苦根\"] 很遗憾，还没有，我已经派人去找了，警备队的人说她在失火现场出现过一次，但是很快就哭着跑走了。\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#9$1\",focus=2)]\n[name=\"天火\"] 实在不行我也去找……我有点担心她。"
+        }
+      ],
+      "description": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "char_166_skfire",
+          "reason": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+          "status": "supported",
+          "to": "npc_e3878a71089209c5"
+        },
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+          "status": "supported",
+          "to": "char_166_skfire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_a170fc4ad11dca33.json",
+      "sources": [
+        {
+          "endLine": 740,
+          "kind": "story",
+          "line": 718,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "阴云火花"
+    }
+  ],
+  "relationship_id": "char_166_skfire|npc_e3878a71089209c5"
+}

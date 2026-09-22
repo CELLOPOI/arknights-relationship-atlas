@@ -1,0 +1,50 @@
+{
+  "contributions": [
+    {
+      "assignmentId": "review-04",
+      "description": "结局分支中水月受击，最后的骑士对其说你引来浪涛，双方局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_437_mizuki",
+          "reason": "结局分支中水月受击，最后的骑士对其说你引来浪涛，双方局部同场。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "结局分支中水月受击，最后的骑士对其说你引来浪涛，双方局部同场。",
+          "status": "supported",
+          "to": "char_437_mizuki"
+        }
+      ],
+      "groupId": "group_b35f8149f58708bb",
+      "key": "char_437_mizuki|npc_58c708dd33128fbf",
+      "label": "确认相识",
+      "personIds": [
+        "char_437_mizuki",
+        "npc_58c708dd33128fbf"
+      ],
+      "realityScope": "hypothetical_ending_branch",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b35f8149f58708bb.json",
+      "temporalScope": "水月与深蓝之树所述时段",
+      "title": "水月与深蓝之树"
+    }
+  ],
+  "groupId": "group_b35f8149f58708bb",
+  "key": "char_437_mizuki|npc_58c708dd33128fbf",
+  "names": [
+    "水月",
+    "最后的骑士"
+  ],
+  "personIds": [
+    "char_437_mizuki",
+    "npc_58c708dd33128fbf"
+  ],
+  "realityScope": "hypothetical_ending_branch"
+}

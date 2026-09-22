@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 48,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_01_beg.txt",
+          "quote": "[name=\"极境\"]Alty小姐！那首《着魔的重构》我真的非常喜欢！\n[Character(name=\"avg_npc_450_1#6$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]是吗？这我倒没想到，我以为在萨尔贡雨林随便想到的点子太过先锋了来着。\n[name=\"Alty\"]不过原来那个医生有你这样的手下？我还以为你们都和她一样无趣。\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=1)]\n[name=\"极境\"]哈哈……其他几位呢？\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]Dan跑到海边去了，她比较兴奋。Aya和Frost去了我们落脚的地方，虽然很破败，但看上去很有趣。\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=1)]\n[name=\"极境\"]有趣……吗？\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]凯尔希有和你说我们的事情吗？\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=1)]\n[name=\"极境\"]只是略有耳闻。似乎有什么重要的东西在各位手上。\n[name=\"极境\"]听说大名鼎鼎的日落即逝竟然私下与凯尔希医生有来往的时候，我真是吃了一惊……\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]说实话，我也吃了一惊。\n[name=\"Alty\"]不过……我很高兴这里有我们的粉丝喔，感觉让这趟旅程多了点新意。\n[Character(name=\"avg_npc_450_1#6$1\",name2=\"npc_2004_Alty\",focus=1)]\n[PlaySound(key=\"$d_avg_paper2\",delay=1)]\n[name=\"极境\"]见到各位，感觉这一个月来遭的罪就都回本了。啊，麻烦您给这张海报也签个名……\n[Character(name=\"avg_npc_450_1#6$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]……你啊，是抱着什么心情回到伊比利亚的？\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=1)]\n[name=\"极境\"]说起来稍微有点复杂，而我更没想到会被日落即逝的Alty问起这个问题。\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]你喜欢我们的乐队名吗？\n[Character(name=\"avg_npc_450_1#6$1\",name2=\"npc_2004_Alty\",focus=1)]\n[name=\"极境\"]简直称得上热爱。\n[Character(name=\"avg_npc_450_1#6$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]谢谢。\n[name=\"Alty\"]她在哪里？我以为她会在这里等着，摆出那种“我什么都知道”的表情，然后什么都不告诉我们。\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=1)]\n[name=\"极境\"]我还在等凯尔希医生的联络。她应当不会比你们晚抵达太多。\n[StopMusic(fadetime=3)]\n[Character(name=\"avg_npc_450_1#1$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]但愿她能快些……要涨潮了。"
+        }
+      ],
+      "description": "极境经Alty介绍知晓Dan。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S10"
+          ],
+          "from": "char_401_elysm",
+          "reason": "Alty向极境具体介绍Dan。",
+          "status": "supported",
+          "to": "npc_f6f9eff5d6333a55"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_f6f9eff5d6333a55",
+          "reason": "Dan未在极境与乐队成员的谈话中出现，也未显示识别极境。",
+          "status": "not_established",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 48,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "格兰法洛行动期间",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_f6f9eff5d6333a55"
+}

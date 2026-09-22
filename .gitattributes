@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.png binary
+*.webp binary
+*.jpg binary
+*.jpeg binary
+*.woff binary
+*.woff2 binary
+# 第三方许可文本保留上游的行末空格。
+assets/licenses/Oswald-OFL.txt whitespace=-blank-at-eol
+assets/local/*/assets/licenses/Oswald-OFL.txt whitespace=-blank-at-eol

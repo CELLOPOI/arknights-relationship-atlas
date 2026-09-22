@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 338,
+          "line": 310,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "quote": "[name=\"诺希斯\"]难道不是吗？恩雅·希瓦艾什，现在是我们的人质。\n[Character(name=\"avg_198_blackd_1#2$1\",name2=\"avg_199_yak_1#6$1\",focus=2)]\n[name=\"角峰\"]……\n[Character(name=\"avg_206_gnosis_1#5$1\")]\n[name=\"诺希斯\"]如果你不喜欢这种说法，我可以换一种，圣女成为了我们重要的筹码。\n[name=\"诺希斯\"]这不会改变任何东西。\n[Character(name=\"avg_198_blackd_1#9$1\",name2=\"avg_199_yak_1#6$1\",focus=1)]\n[name=\"魏斯\"]……诺希斯，能请你别再刺激角峰了吗？\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]我在帮你们认清现实。\n[name=\"诺希斯\"]还是说，你们其实不知道，恩希欧迪斯最终要做的，绝不是什么还政。\n[name=\"诺希斯\"]将这个国家交给宗教，从一开始就不在他的计划内。\n[Character(name=\"avg_198_blackd_1#9$1\",name2=\"avg_199_yak_1#6$1\",focus=2)]\n[name=\"角峰\"]……\n[Character(name=\"avg_206_gnosis_1#2$1\")]\n[name=\"诺希斯\"]我并不是在说，恩雅·希瓦艾什有什么不好。\n[name=\"诺希斯\"]我对她没有兴趣，自然也没有什么意见。\n[name=\"诺希斯\"]但她成为了圣女，并且她做得很好。\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]那她就必然会成为恩希欧迪斯的阻碍，仅此而已。事已至此，不允许舞台上存在做得比希瓦艾什家家主更好的人。\n[Character(name=\"avg_198_blackd_1#9$1\",name2=\"avg_199_yak_1#10$1\",focus=2)]\n[name=\"角峰\"]……我知道。\n[name=\"角峰\"]我当然知道。\n[Character(name=\"avg_206_gnosis_1#8$1\")]\n[name=\"诺希斯\"]我们不是在玩一局可以重来的游戏，不要给自己增加不必要的麻烦。\n[Character(name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]莫希，侦查就交给你了。\n[Character(name=\"avg_npc_255_1#1$1\")]\n[name=\"莫希\"]是。"
+        }
+      ],
+      "description": "角峰灵知讯使同场争论后灵知直接向莫希布置侦察，莫希回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E81"
+          ],
+          "from": "char_199_yak",
+          "reason": "角峰灵知讯使同场争论后灵知直接向莫希布置侦察，莫希回应。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [
+            "E81"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "角峰灵知讯使同场争论后灵知直接向莫希布置侦察，莫希回应。",
+          "status": "supported",
+          "to": "char_199_yak"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 338,
+          "kind": "story",
+          "line": 310,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 449,
+          "line": 416,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "quote": "[name=\"魏斯\"]你的手！\n[charslot(slot=\"m\",name=\"avg_199_yak_1#8$1\")]\n[name=\"角峰\"]没什么，只是一点小伤。\n[name=\"角峰\"]原本你就是打算这样做吧？\n[name=\"角峰\"]确实，你说得有道理。老爷还在等着，总不能让老爷等太久。\n[name=\"角峰\"]我很快就能割断绳子！\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#7$1\")]\n[name=\"魏斯\"]角峰大哥……\n[Dialog]\n[charslot]\n[name=\"莫希\"]那个……\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#9$1\")]\n[name=\"魏斯\"]——！\n[name=\"魏斯\"]什么人！\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\")]\n[name=\"莫希\"]我不是敌人。\n[name=\"莫希\"]……抱歉，是不是打扰你们了？\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#5$1\")]\n[name=\"魏斯\"]莫希？\n[name=\"魏斯\"]你不是已经离开谢拉格了吗？\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\")]\n[name=\"莫希\"]关于这件事，之后我会和你们详细说明。\n[name=\"莫希\"]休露丝夫人让我来探查，结果就发现你们都被绑在维多利亚的军营里。\n[charslot(slot=\"m\",name=\"avg_199_yak_1#8$1\")]\n[name=\"角峰\"]其他人呢？\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\")]\n[name=\"莫希\"]其他人我已经都放出来了。\n[name=\"莫希\"]总之，两位先出来吧，维多利亚的士兵已经在银心湖挑起了冲突。\n[name=\"莫希\"]我们需要尽快赶到现场。"
+        }
+      ],
+      "description": "角峰与莫希直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_199_yak",
+          "reason": "角峰直接识别并回应莫希。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "莫希救出并直接招呼角峰。",
+          "status": "supported",
+          "to": "char_199_yak"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 449,
+          "kind": "story",
+          "line": 416,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "维多利亚军营救援",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_199_yak|npc_5b6d9a80bb2c7211"
+}

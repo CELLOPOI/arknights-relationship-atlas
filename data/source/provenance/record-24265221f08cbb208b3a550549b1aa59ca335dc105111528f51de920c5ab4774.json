@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 244,
+          "line": 236,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-04.txt",
+          "quote": "[name=\"阿赫茉妮\"]对了，还有另一条可能很重要的消息。\n[name=\"阿赫茉妮\"]这条消息是一位与我们合作的哥伦比亚军火商透露的——\n[name=\"阿赫茉妮\"]一个月前，那支名为整合运动的队伍迎回了他们之前的“领袖”。\n[character(name=\"avg_npc_236\")]\n[name=\"？？？\"]你是说……\n[character(name=\"avg_npc_228_1\")]\n[name=\"阿赫茉妮\"]塔露拉。\n[character(name=\"avg_npc_228_1#6\")]\n[name=\"阿赫茉妮\"]要是之前的情报全部属实的话，她……她很有可能也是德拉克呀。"
+        }
+      ],
+      "description": "阿赫茉妮具名汇报塔露拉获整合运动迎回及德拉克身份情报。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E92"
+          ],
+          "from": "char_297_hamoni",
+          "reason": "阿赫茉妮具名汇报塔露拉获整合运动迎回及德拉克身份情报。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_297_hamoni"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 244,
+          "kind": "story",
+          "line": 236,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_297_hamoni|npc_69395c50206899b0"
+}

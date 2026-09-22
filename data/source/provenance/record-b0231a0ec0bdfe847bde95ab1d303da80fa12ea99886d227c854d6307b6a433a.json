@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 453,
+          "line": 447,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_01_end.txt",
+          "quote": "[name=\"林雨霞\"]这是从卡西米尔学来的吧。\n[character(name=\"avg_npc_196_1#1\",name2=\"char_010_chen_summer\",focus=2)]\n[name=\"陈\"]确实，我记得骑士竞技也有类似的规则。\n[character(name=\"avg_486_espumo_1#6\")]\n[name=\"埃内斯托\"]两位真是见多识广，市长大人曾去过好几次卡西米尔，据说，和龙门的贸易协定也是在那里完成的。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]魏彦吾也去过吗……"
+        }
+      ],
+      "description": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_486_takila",
+          "reason": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_486_takila"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_a2ee9e247fcb3cb6.json",
+      "sources": [
+        {
+          "endLine": 453,
+          "kind": "story",
+          "line": 447,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "多索雷斯假日"
+    }
+  ],
+  "relationship_id": "char_486_takila|npc_08bc2cc38b820ef0"
+}

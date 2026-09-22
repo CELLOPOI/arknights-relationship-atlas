@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 147,
+          "line": 135,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mostma_1_1.txt",
+          "quote": "[name=\"莫斯提马\"]  其实我也问过它，有没有想过出来。\n[name=\"莫斯提马\"]  让我想想，对了，是在罗德岛的干员测试的时候。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=1)]\n[name=\"伊斯\"]  ……为什么？\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1#3\",focus=2)]\n[name=\"莫斯提马\"]  嗯……因为我觉得那个组织很有意思，所以久违地想要展现一下自己？\n[name=\"莫斯提马\"]  也有可能是想要吓一吓博士。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]  不过最后它放弃了，好像是感觉到了什么。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1#2\",focus=2)]\n[name=\"莫斯提马\"]  哎，不得不说，罗德岛确实是个有趣的组织，伊斯你有空了也可以去看一看。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1#2\",focus=1)]\n[name=\"伊斯\"]  等我有空的话，我会的。"
+        }
+      ],
+      "description": "莫斯提马具体提及博士，支持她到博士的单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_213_mostma",
+          "reason": "莫斯提马具体回忆罗德岛干员测试并说可能想吓一吓博士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在本段出现，未建立博士知晓莫斯提马的方向。",
+          "status": "not_established",
+          "to": "char_213_mostma"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_a17ebeaf92e9987f.json",
+      "sources": [
+        {
+          "endLine": 147,
+          "kind": "story",
+          "line": 135,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mostma_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "莫斯提马回忆罗德岛干员测试时",
+      "title": "莫斯提马"
+    }
+  ],
+  "relationship_id": "char_213_mostma|npc_b99957887950ebfd"
+}

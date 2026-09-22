@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 729,
+          "line": 700,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_02_beg.txt",
+          "quote": "[name=\"莱昂图索\"]咳咳、咳咳……\n[Character(name=\"avg_1028_texas2_1#8$1\",name2=\"avg_427_vigil_1#1$1\",focus=2)]\n[name=\"莱昂图索\"]人……都撤退了？\n[Character(name=\"avg_1028_texas2_1#1$1\",name2=\"avg_427_vigil_1#1$1\",focus=1)]\n[name=\"德克萨斯\"]没事吧。\n[Character(name=\"avg_1028_texas2_1#1$1\",name2=\"avg_427_vigil_1#2$1\",focus=2)]\n[characteraction(name=\"right\", type=\"shake\", power=10, times=100, fadetime=0.5, block=true)]\n[name=\"莱昂图索\"]没……嘶……\n[Character(name=\"avg_1028_texas2_1#5$1\",name2=\"avg_427_vigil_1#2$1\",focus=1)]\n[name=\"德克萨斯\"]你受伤了，别动，这样很容易失血。\n[name=\"德克萨斯\"]我已经联络了支援，他们很快就到。\n[Character(name=\"avg_1028_texas2_1#5$1\",name2=\"avg_427_vigil_1#6$1\",focus=2)]\n[name=\"莱昂图索\"]我没事，可怎么会……\n[Character(name=\"avg_1028_texas2_1#1$1\",name2=\"avg_427_vigil_1#6$1\",focus=1)]\n[name=\"德克萨斯\"]今天这场宴会有多少人知道？\n[Character(name=\"avg_1028_texas2_1#1$1\",name2=\"avg_427_vigil_1#5$1\",focus=2)]\n[name=\"莱昂图索\"]你的意思是……\n[Character(name=\"avg_1028_texas2_1#1$1\",name2=\"avg_427_vigil_1#1$1\",focus=2)]\n[name=\"莱昂图索\"]确实，这种有组织有规模的袭击，不可能没有预谋。\n[name=\"莱昂图索\"]但我现在的身份是公开的，想要知道我的行踪没有那么困难……\n[name=\"莱昂图索\"]总之，还好你来得够及时。\n[Character(name=\"avg_1028_texas2_1#2$1\",name2=\"avg_427_vigil_1#1$1\",focus=1)]\n[name=\"德克萨斯\"]卡拉奇死了。\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"avg_1028_texas2_1#2$1\",name2=\"avg_427_vigil_1#5$1\",focus=2)]\n[name=\"莱昂图索\"]你说什么？！\n[Character(name=\"avg_npc_695_1#3$1\")]\n[name=\"瓦拉赫\"]*哥伦比亚俚语*，什么？！\n[Character(name=\"avg_npc_689_1#3$1\")]\n[name=\"卢比奥\"]卡拉奇……死了？"
+        }
+      ],
+      "description": "众人在获救后同听德克萨斯告知卡拉奇死亡，分别回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "char_427_vigil",
+          "reason": "众人在获救后同听德克萨斯告知卡拉奇死亡，分别回应。",
+          "status": "supported",
+          "to": "npc_20d12590d6754866"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_20d12590d6754866",
+          "reason": "众人在获救后同听德克萨斯告知卡拉奇死亡，分别回应。",
+          "status": "supported",
+          "to": "char_427_vigil"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 729,
+          "kind": "story",
+          "line": 700,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_427_vigil|npc_20d12590d6754866"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 301,
+          "line": 291,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-04.txt",
+          "quote": "[name=\"风笛\"]等一下，陈陈，那……那你是不是就要走了？你答应了要帮我救队长，而现在队长已经不需要我去救了……\n[character(name=\"char_010_chen_1\")]\n[name=\"陈\"]这种时候，你的脑子倒是转得挺快。\n[name=\"陈\"]实话说，我不是没想过。在得知她逃出了罗德岛以后，我一直在考虑去找她。\n[character(name=\"avg_222_bpipe_1#8\")]\n[name=\"风笛\"]其实，我能看出来的……\n[character(name=\"char_010_chen_1\")]\n[name=\"陈\"]但陈晖洁从来不是半途而废的人。\n[name=\"陈\"]走了这么久，我们好不容易得到了一些线索。\n[name=\"陈\"]风笛，我会帮你继续追查下去。“等到鬼魂部队重新暴露在阳光下的那一天”——我会去做我早就该做的事。\n[name=\"陈\"]我会去找塔露拉。"
+        }
+      ],
+      "description": "陈直接向风笛说明自己会去找塔露拉；她已听到具体对象，不必具名回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR13"
+          ],
+          "from": "char_222_bpipe",
+          "reason": "陈直接向风笛说明自己会去找塔露拉；她已听到具体对象，不必具名回应。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_222_bpipe"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 301,
+          "kind": "story",
+          "line": 291,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_222_bpipe|npc_69395c50206899b0"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 58,
+          "line": 32,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "quote": "[name=\"莱昂图索\"]扎罗，狼之主之间不是约定好了，不会干涉凡人的事务吗！\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]我改变主意了，因为贝纳尔多毁了我的计划！\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]我苦心培养了他六十八年。\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]而他，竟敢以自尽来葬送我的胜利！！\n[Character(name=\"avg_427_vigil_1#4$1\")]\n[name=\"莱昂图索\"]你……说什么？\n[Character(name=\"avg_427_vigil_1#5$1\")]\n[name=\"莱昂图索\"]父亲……他自尽了？\n[character]\n[dialog]\n莱昂图索的脑中瞬间闪过父亲对狼之主以及这场游戏的解释。\n他猛然明白，父亲在教堂对自己说的那些话，既是对自己的承认——\n同时也是遗言。\n父亲在一开始就做好了自我了结的准备。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]侮辱狼之主的代价是巨大的。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]即便他已经死去，我依然要让他的血脉从此断绝于这片大地之上。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]贝纳尔多之子，今天，你必须代替你的父亲付出代价。\n[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]这份代价，就是他的血脉，你的性命！！！"
+        }
+      ],
+      "description": "扎罗当面威胁莱昂图索并回应质问。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_427_vigil",
+          "reason": "扎罗当面威胁莱昂图索并回应质问。",
+          "status": "supported",
+          "to": "npc_9649533c7a060d36"
+        },
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "npc_9649533c7a060d36",
+          "reason": "扎罗当面威胁莱昂图索并回应质问。",
+          "status": "supported",
+          "to": "char_427_vigil"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 58,
+          "kind": "story",
+          "line": 32,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_427_vigil|npc_9649533c7a060d36"
+}

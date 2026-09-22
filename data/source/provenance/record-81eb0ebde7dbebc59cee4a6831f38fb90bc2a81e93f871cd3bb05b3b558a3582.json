@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 178,
+          "line": 171,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "quote": "[name=\"佩尔罗契家战士\"]博士，在大典上被抓走的尤卡坦的位置确认了。\n[name=\"佩尔罗契家战士\"]和您想的一样，没有被带回希瓦艾什家的领地，而是就近关在了山脚下的镇子里。\n[Dialog]\n[Character(name=\"avg_npc_284_1$1\",focus=-1)]\n[Decision(options=\"辛苦了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_260_1#4$1\")]\n[name=\"古罗\"]博士，你可真厉害啊，这么短的时间里就能摸清楚尤卡坦老爷被关押的位置。"
+        }
+      ],
+      "description": "古罗明确赞赏博士摸清尤卡坦关押位置。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E95"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "古罗明确赞赏博士摸清尤卡坦关押位置。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_7144babb98dd293d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 178,
+          "kind": "story",
+          "line": 171,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 773,
+          "line": 740,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "quote": "[name=\"恩雅\"]诸位，请上前来。\n[name=\"恩雅\"]在耶拉冈德的见证下，仪式即将开始。\n[name=\"恩雅\"]让我们一同祈祷——\n[Dialog]\n[playsound(key=\"$d_avg_crwddiscuss_outside\",channel=\"1\",loop=true)]\n[Delay(time=2.5)]\n[stopsound(fadetime=1,channel=\"1\")]\n[Delay(time=1.5)]\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_250_1#2$1\",focus=\"m\")]\n[name=\"雅儿\"]……看来是急性子的客人们等不及了呢。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#8$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]什么人在喧哗？\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]（啧，真能添乱！）\n[name=\"菈塔托丝\"]尤卡坦！你老婆怎么还没过来？！\n[charslot(slot=\"m\",name=\"avg_npc_263_1#3$1\",focus=\"m\")]\n[name=\"尤卡坦\"]我刚刚才联系过露丝，她说很快就来……！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]来什么来！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#8$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]现在立刻联系她，让她有多远走多远，别过来了！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#8$1\",focus=\"m\")]\n[name=\"阿克托斯\"]发生什么事了？！吵吵嚷嚷，像什么样子！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]老爷！那群维多利亚人和往常不太一样！\n[name=\"古罗\"]我看他们像是带着什么大型武器，好像是来真的！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#7$1\",focus=\"m\")]\n[name=\"阿克托斯\"]我就知道那群人不会老实！\n[name=\"阿克托斯\"]来得好！我早就吩咐佩尔罗契家的儿郎准备好家伙预备着了，让我去会会他们！\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#9$1\",focus=\"m\")]\n[name=\"恩雅\"]阿克托斯大人！不要妄动！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#5$1\",focus=\"m\")]\n[name=\"阿克托斯\"]可是……圣女大人！"
+        }
+      ],
+      "description": "尤卡坦与古罗明确局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "双方在银心湖仪式突发冲突的同一局部现场共同响应。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "双方在银心湖仪式突发冲突的同一局部现场共同响应。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 773,
+          "kind": "story",
+          "line": 740,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "银心湖仪式冲突",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "npc_669b66161e12a7ca|npc_7144babb98dd293d"
+}

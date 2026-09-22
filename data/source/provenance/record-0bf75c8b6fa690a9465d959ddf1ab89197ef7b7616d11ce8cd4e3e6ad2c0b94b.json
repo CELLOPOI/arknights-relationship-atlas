@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 937,
+          "line": 928,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_05_beg.txt",
+          "quote": "[name=\"米夏埃尔\"]不，布兰特阁下！\n[charslot(slot = \"r\", name = \"avg_npc_1117_1#2$1\",focus=\"r\")]\n[name=\"金律法卫\"]让开，赫琳玛特的密使。\n[name=\"金律法卫\"]难道你还要妨碍我们？就你之前的表现，已经具有与巫王残党勾结的嫌疑。\n[charslot(slot = \"left\", name = \"avg_4109_baslin_1#3$2\",focus=\"l\")]\n[name=\"米夏埃尔\"]奏鸣塔里还有无辜的人。\n[charslot(slot = \"r\", name = \"avg_npc_1117_1#2$1\",focus=\"r\")]\n[name=\"金律法卫\"]我看到学生们都撤了出来。弗莱蒙特阁下还不至于死在我们的源石技艺之下。\n[charslot(slot = \"left\", name = \"avg_4109_baslin_1#6$2\",focus=\"l\")]\n[name=\"米夏埃尔\"]萨科塔先生，还有薇薇安娜……"
+        }
+      ],
+      "description": "米夏埃尔知晓弗莱蒙特；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4109_baslin",
+          "reason": "米夏埃尔听到金律法卫具体提及弗莱蒙特。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "本窗没有弗莱蒙特识别米夏埃尔。",
+          "status": "not_established",
+          "to": "char_4109_baslin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_3a60825ada2e8d44.json",
+      "sources": [
+        {
+          "endLine": 937,
+          "kind": "story",
+          "line": 928,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "奏鸣塔危机期间",
+      "title": "崔林特尔梅之金"
+    }
+  ],
+  "relationship_id": "char_4109_baslin|npc_732d802fa042a0c2"
+}

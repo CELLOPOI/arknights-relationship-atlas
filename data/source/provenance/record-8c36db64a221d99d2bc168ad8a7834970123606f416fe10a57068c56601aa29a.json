@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 534,
+          "line": 517,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st01.txt",
+          "quote": "[name=\"维什戴尔\"]弄没弄完啊？怎么搞这么久？之前几次不都挺顺溜的吗？\n[name=\"维什戴尔\"]你要是不行就下来，换我上。喂——\n[Dialog]\n[PlaySound(key=\"$d_avg_cloakmovement\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_1035_wisdel_1#1$2\",duration=1)]\n[Delay(time=2)]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#7$1\",focus=\"m\")]\n[name=\"弗莱蒙特\"]唉，维什戴尔，到底谁让你上来的？我不是吩咐了埃芒加德，不准让其他人围观仪式吗？\n[name=\"弗莱蒙特\"]上来就算了，还非得把这位也带上？\n[charslot(slot = \"m\", name = \"avg_1035_wisdel_1#1$2\",focus=\"m\")]\n[name=\"维什戴尔\"]你在上面飘了老半天都没动静，我是担心你出事！\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#7$1\",focus=\"m\")]\n[name=\"弗莱蒙特\"]你就是想看热闹吧！还担心我？你最好担心一下你自己。\n[charslot(slot = \"m\", name = \"avg_1035_wisdel_1#2$2\",focus=\"m\")]\n[name=\"维什戴尔\"]我有什么好担心的，把这些老祖宗抓回来塞进火里当红薯烤的又不是我。\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#12$1\",focus=\"m\")]\n[name=\"弗莱蒙特\"]挺好，敢用这个态度和死魂灵说话的一般都没什么好下场。"
+        }
+      ],
+      "description": "维什戴尔进入仪式现场，与弗莱蒙特当面对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "维什戴尔进入仪式现场，与弗莱蒙特当面对话。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "维什戴尔进入仪式现场，与弗莱蒙特当面对话。",
+          "status": "supported",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_7b6f965ec725fee0.json",
+      "sources": [
+        {
+          "endLine": 534,
+          "kind": "story",
+          "line": 517,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "熔炉“还魂”记"
+    }
+  ],
+  "relationship_id": "char_113_cqbw|npc_732d802fa042a0c2"
+}

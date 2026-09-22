@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 951,
+          "line": 899,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "quote": "[name=\"Sharp\"]别激动。\n[name=\"Sharp\"]只是路过。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]这身制服……\n[name=\"“灰礼帽”\"]……这还真是个惊喜。\n[name=\"“灰礼帽”\"]罗德岛的人怎么会在这里？\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]这个你得问我上司。\n[Dialog]\n[charslot]\n[Decision(options=\"开斯特的好帮手又怎么在这里？;什么事要问我，贝林厄姆先生？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]这确实挺让人惊讶的。没想到还能见到您本人。\n[name=\"“灰礼帽”\"]但我记得，罗德岛和谢拉格的联系，仅限于“公司间的合作”来着？\n[name=\"“灰礼帽”\"]总不能是我记错了吧。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]好久不见……“博士”。\n[name=\"“灰礼帽”\"]这位也是罗德岛干员？看来情报说得没错，罗德岛的全貌我们确实未能完全把握。\n[name=\"“灰礼帽”\"]但是眼下先不提别的了。能在这里见到您，真是又惊又喜。\n[name=\"“灰礼帽”\"]诚心实意，这次不是在骗您了。毕竟我连这身打扮都没撤下，您就能认出我来。\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]罗德岛，你们——\n[Dialog]\n[charslot]\n[name=\"？？？\"]哇，博士！快来帮帮我！\n[Dialog]\n[Decision(options=\"缪尔赛思！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"缪尔赛思\"]嗯，怎么啦？\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]马上就要到站了，快来帮我收拾器械，博士……\n[name=\"缪尔赛思\"]咦？你们这是……？\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#6$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"烈夏\"]博士，咱们要不要去催催列车长让他再快点……\n[charslot(slot=\"m\",name=\"avg_194_leto_1#14$1\")]\n[name=\"烈夏\"]咦，是你！\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]罗德岛和哥伦比亚的莱茵生命……原来如此，原来如此。\n[name=\"“灰礼帽”\"]各位出现在此，看来并非巧合。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\")]\n[name=\"缪尔赛思\"]哎呀，看来这位先生认识我呢。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#9$1\")]\n[name=\"缪尔赛思\"]博士，Sharp先生，还有小烈夏，不为我介绍一下这位戴帽子的先生吗？"
+        }
+      ],
+      "description": "缪尔赛思与Sharp明确同场相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "char_249_mlyss",
+          "reason": "缪尔赛思在列车群体对话中直接称Sharp先生。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp与缪尔赛思、博士同处包厢共同面对灰礼帽。",
+          "status": "supported",
+          "to": "char_249_mlyss"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 951,
+          "kind": "story",
+          "line": 899,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "前往银心湖的列车上",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_249_mlyss|char_508_aguard"
+}

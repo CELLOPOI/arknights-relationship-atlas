@@ -1,0 +1,143 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 51,
+          "line": 40,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mostma_1_1.txt",
+          "quote": "[name=\"伊斯\"]  啊，果然是莫斯提马。\n[Character(name=\"char_213_mostma_1#4\")]\n[name=\"莫斯提马\"]  伊斯？\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1#4\",focus=1)]\n[name=\"伊斯\"]  中午好。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]  大帝有事找我？\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=1)]\n[name=\"伊斯\"]  并没有。最近没有什么大活，我也只是路过，然后感到了熟悉的气息就过来看一看。\n[name=\"伊斯\"]  那边的是……能天使？原来如此，例行公事吗。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1#3\",focus=2)]\n[name=\"莫斯提马\"]  没错。顺便和这家伙透透气，聊聊天。"
+        }
+      ],
+      "description": "莫斯提马询问大帝是否找自己，支持知晓大帝，未据疑问句反推大帝知晓她。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "char_213_mostma",
+          "reason": "莫斯提马询问大帝是否找自己，支持知晓大帝，未据疑问句反推大帝知晓她。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_213_mostma"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_a17ebeaf92e9987f.json",
+      "sources": [
+        {
+          "endLine": 51,
+          "kind": "story",
+          "line": 40,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mostma_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "莫斯提马"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 782,
+          "line": 761,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_angel_2_1.txt",
+          "quote": "[name=\"大帝\"]兼为长期外派成员莫斯提马接风洗尘！\n[Character(name=\"char_101_sora_1#1\")]\n[name=\"空\"] 这个好像还不错。\n[Character(name=\"avg_103_angel_1#8$1\")]\n[name=\"能天使\"]但是莫斯提马……\n[Character(name=\"avg_213_mostma_1#5$1\")]\n[name=\"莫斯提马\"] 叫我吗？\n[Character(name=\"avg_103_angel_1#4$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"能天使\"]欸！你不是……\n[Character(name=\"avg_213_mostma_1#10$1\")]\n[name=\"莫斯提马\"] 中途去了一趟洗手间而已。\n[Character(name=\"avg_213_mostma_1#10$1\")]\n[name=\"莫斯提马\"] 你姐现在是我的上司，她可是给我下了死命令要我亲手交给你。\n[Character(name=\"avg_103_angel_1#4$1\")]\n[name=\"能天使\"]欸，你没有辞职的打算吗？\n[Character(name=\"avg_213_mostma_1#10$1\")]\n[name=\"莫斯提马\"] 你猜我有没有提过？\n[Character(name=\"avg_103_angel_1#3$1\")]\n[name=\"能天使\"]她肯定不同意，哈哈！\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]好了，都动起来！酒，装饰，音乐，今晚，这里被企鹅物流包下了！"
+        },
+        {
+          "endLine": 836,
+          "line": 830,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_angel_2_1.txt",
+          "quote": "[name=\"莫斯提马\"] 既然我也是企鹅物流的一员，有什么是我能做的？\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]嗯——很遗憾，没有！\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]或许你可以和你杖里的老家伙商量一下，给大家跳一支舞。\n[Character(name=\"avg_213_mostma_1#7$1\")]\n[name=\"莫斯提马\"] 这可确实有些难到我了。"
+        }
+      ],
+      "description": "大帝为莫斯提马接风，二人随后直接就派对事务问答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_213_mostma",
+          "reason": "该干员在同一局部场景中直接与大帝对话或围绕大帝的安排作出明确回应。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝在同一局部场景中直接回应、点名或组织包含该干员的具体活动。",
+          "status": "supported",
+          "to": "char_213_mostma"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_32026640a2b11232.json",
+      "sources": [
+        {
+          "endLine": 782,
+          "kind": "story",
+          "line": 761,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_angel_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 836,
+          "kind": "story",
+          "line": 830,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_angel_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "能天使收到姐姐来信当晚的酒吧派对",
+      "title": "能天使"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 164,
+          "line": 118,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_10_end.txt",
+          "quote": "[name=\"莫斯提马\"]   嗯，做得不错。\n[name=\"莫斯提马\"]   真亏你们能这么快解决那么多的敌人啊。\n[Character(name=\"char_103_angel_1#8\")]\n[name=\"能天使\"]   嘿，这次不会再让你一个人突然消失了。\n[name=\"能天使\"]   而且这家伙就是幕后黑手吧？当然要亲手暴揍他一顿啦！\n[Character(name=\"char_201_moeshd#5\")]\n[name=\"可颂\"]   今天的运动量真是超乎想象，唔，账单长度也是。\n[name=\"可颂\"]   德克萨斯姐，我感觉今晚有很多东西没法报销啊……\n[Character(name=\"char_102_texas_1#2\")]\n[name=\"德克萨斯\"]   不要问我，问老板去。\n[Character(name=\"char_101_sora_1#4\",name2=\"char_102_texas_1#2\",focus=1)]\n[name=\"空\"]   但是老板他死了……\n[Character(name=\"char_101_sora_1#4\",name2=\"char_102_texas_1\",focus=2)]\n[name=\"德克萨斯\"]   ……那就一会再说。\n[Character(name=\"char_101_sora_1#4\",name2=\"char_102_texas_1\",focus=1)]\n[name=\"空\"]   话说，没有人去照顾一下老板的尸体吗？就那么躺在地上被踩来踩去的，是不是有点……\n[dialog]\n[Character]\n[stopmusic(fadetime=2)]\n[playsound(key=\"$d_gen_walk_n\")]\n[Delay(time=1)]\n[Character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]   看来，人都到齐了。\n[name=\"鼠王\"]   ……年轻人总会做出自己的选择。\n[name=\"鼠王\"]   即使会在风雨飘摇的大地上粉身碎骨，你们也总是如此执意行事。\n[Character(name=\"char_103_angel_1#7\")]\n[name=\"能天使\"]   他在说什么？\n[Character(name=\"char_213_mostma_1#3\")]\n[name=\"莫斯提马\"]   老爷子的碎碎念，忘了吧。\n[Character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]   就当是这样吧，安魂夜还开心吗？\n[Character(name=\"char_201_moeshd#2\")]\n[name=\"可颂\"]   还好啦，就和宿醉一样，绝对不能去想第二天该怎么办。\n[Character(name=\"char_101_sora_1#4\")]\n[name=\"空\"]   所以没有人去照顾一下老板吗？\n[Character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]   ……企鹅物流，还真是让人捉摸不透。\n[Character(name=\"char_213_mostma_1#2\")]\n[name=\"莫斯提马\"]   事到如今也没必要在意这点了吧。\n[name=\"莫斯提马\"]   企鹅物流就是企鹅物流，开战的理由也只是老板被人质疑了品味，就这么简单。\n[Character(name=\"char_325_bison_1#4\")]\n[name=\"拜松\"]   什么？这样的吗？\n[Character(name=\"char_213_mostma_1#3\")]\n[name=\"莫斯提马\"]   为了捍卫自己的美学付出生命也在所不惜，这才是大帝嘛。\n[PlayMusic(intro=\"$kingmouse_intro\", key=\"$kingmouse_loop\", volume=0.8, crossfade=1.5)]\n[Character(name=\"avg_npc_034#3\")]\n[name=\"鼠王\"]   至少在让人意外这方面，你们倒是从未让我感到过意外。"
+        }
+      ],
+      "description": "莫斯提马熟悉大帝。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_213_mostma",
+          "reason": "莫斯提马明确熟悉大帝的性格与行动缘由。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "本组窗口未见大帝直接知晓莫斯提马。",
+          "status": "not_established",
+          "to": "char_213_mostma"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 164,
+          "kind": "story",
+          "line": 118,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安魂夜最终战",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "char_213_mostma|npc_2b6410ed62fdecf2"
+}

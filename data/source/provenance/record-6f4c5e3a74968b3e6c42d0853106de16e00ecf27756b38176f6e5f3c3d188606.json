@@ -1,0 +1,218 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 536,
+          "line": 524,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "quote": "[name=\"阿米娅\"]  你是说米莎。\n[Character(name=\"char_002_amiya_1\", name2=\"avg_npc_046#4\", focus=2)]\n[name=\"W\"]  不，是亚历克斯。碎骨。嗯。\n[name=\"W\"]  是他父亲在死前和他这么说的。他的父亲并不傻。整合运动要做什么，他大概也知道了。\n[name=\"W\"]  但他没有能力阻止什么，就像他既没有阻止乌萨斯屠杀他的同事，也没能阻止自己的儿女双双死去。哈。\n[name=\"W\"]  只是那时我们都没能理解，至少我到刚刚才理解……在这之前，科西切这个老骗子骗了我们所有人。\n[name=\"W\"]  我，爱国者老爷子，霜星，浮士德，梅菲斯特，碎骨，弑君者，全都被骗了。\n[name=\"W\"]  米莎原本是不用死的。我一开始为了让切城动不起来，就那么害了她，后来又因为停不下切城，后悔杀了她。\n[name=\"W\"]  就那个时候，我已经觉得我的白痴会毁掉所有人，幸亏那龙女还算有点良知。\n[name=\"W\"]  这是我的错。对了，我可不会乞求原谅什么的。当时我可一点没觉得自己做错了什么事。如果每个人都按常理办事，这片大地早死了。\n[Character(name=\"char_002_amiya_1\", name2=\"avg_npc_046#4\", focus=1)]\n[name=\"阿米娅\"]  但是米莎已经死去了。我们永远没法弥补这个错误。\n[name=\"阿米娅\"]  W，以后这一切都不会再发生。我不会允许你再这样做。"
+        }
+      ],
+      "description": "W逐一列举被骗的具体人物，阿米娅同场听到并回应；死者不在现场，只有单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E56"
+          ],
+          "from": "char_002_amiya",
+          "reason": "W逐一列举被骗的具体人物，阿米娅同场听到并回应；死者不在现场，只有单向知晓。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 536,
+          "kind": "story",
+          "line": 524,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 80,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-09_end.txt",
+          "quote": "[name=\"医疗干员\"]   咿——！\n[Character(name=\"char_013_riop\", name2=\"char_016_medic\", focus=1)]\n[name=\"近卫干员\"]  小心！！\n[Character(name=\"char_013_riop\", name2=\"char_016_medic\", focus=2)]\n[name=\"医疗干员\"]  我没事，只是擦伤而已，不要紧……\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  还不够……再这样下去，包围圈会越来越小。\n[Character(name=\"char_002_amiya_1#7\", name2=\"char_130_doberm_ex\", focus=2)]\n[name=\"杜宾\"]  我们已经找到了突破口，但没有增援，我们只能采取守势，没法突围！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……请再坚持一下！优先用火力压制敌方射手！\n[name=\"阿米娅\"]  敌人的先锋，就由我们术师来处理！\n[Dialog]\n[Character]\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]  没错，没错！就该这样！接下来，f3，e5！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   可憎的小子……！\n[Dialog]\n[Character]\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]  很好！那么，b4，b5！\n[character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]  敌人正在向我们侧后方迂回！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  调两位重装干员和一位狙击干员！只要能牵制他们就足够了！\n[Dialog]\n[Character]\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]  之后！h2，h6！\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   他们，他们在冲击我们的阵线！\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]   近卫干员，把敌人赶出掩体！\n[Dialog]\n[Character]\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]  没错，再让我多看一会儿，你们挣扎的样子！\n[name=\"梅菲斯特\"]  现在，术师，c7，吃掉敌人的战车吧！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  敌人的术师现身了……！之前，一直躲在重装干员身后吗！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   来不及了！趴下！\n[character]\n[Dialog]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Delay(time=0.5)]\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   呜啊啊啊！\n[character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]  咳……\n[Character(name=\"char_1507_Mephisto_1#5\")]\n[name=\"梅菲斯特\"]  然后就去死吧，就像雨夜中的火星一样！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  他，是在指挥自己的队伍吗……！仅仅运用象棋走法，就能下达精准的命令？\n[name=\"阿米娅\"]  明明都是些狂暴的感染者，战斗却完全由他一人指挥……！\n[name=\"阿米娅\"]  再这样下去，他会把指挥优势发挥到极致——\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   相应的，只要能压制他的话，也就没什么大不了！\n[name=\"杜宾\"]   不要让整合运动打开哪怕一丁点缺口！"
+        }
+      ],
+      "description": "梅菲斯特近处指挥围攻，罗德岛队伍听见并评价其指令，Guard与Medic及Ace在同一掩体阵线上回应敌攻。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "char_002_amiya",
+          "reason": "梅菲斯特近处指挥围攻，罗德岛队伍听见并评价其指令，Guard与Medic及Ace在同一掩体阵线上回应敌攻。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "梅菲斯特近处指挥围攻，罗德岛队伍听见并评价其指令，Guard与Medic及Ace在同一掩体阵线上回应敌攻。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 80,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 121,
+          "line": 10,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "quote": "[name=\"陈\"]  退路已尽。\n[Character(name=\"char_1507_Mephisto_1#3\")]\n[name=\"梅菲斯特\"]  ……你，你！\n[Character]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  你们还想往哪逃？\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  唔。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  放下你的手！\n[name=\"煌\"]  你的把戏已经被我看穿了，长鳞的小子！\n[Dialog]\n[Character(name=\"char_1508_Faust_1#1\")]\n[CameraShake(duration=0.4, xstrength=8, ystrength=6, vibrato=30, randomness=30, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Character(name=\"char_017_homura_3#1\")]\n[playsound(key=\"$p_imp_blunt_h\")]\n[CameraShake(duration=0.4, xstrength=12, ystrength=18, vibrato=30, randomness=30, fadeout=false)]\n[delay(time=1)]\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  我说了，我看穿了。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_017_homura_3#1\",focus=1)]\n[name=\"阿米娅\"]  煌！\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_017_homura_3#1\",focus=2)]\n[name=\"煌\"]  哼，不算什么，这点火力也就和炮仗差不多！\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  你提前防御住了弩弹。\n[name=\"浮士德\"]  你知道他们的位置？\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  那当然，我已经全都找出来了。\n[name=\"煌\"]  阿米娅，后退，我该用那个了！\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_017_homura_3#1\",focus=1)]\n[name=\"阿米娅\"]  知道！我会再一次干扰梅菲斯特的护卫，抓紧时间！\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  这点血是送你们做临别礼物的，整合运动的“幻影弩手”们！\n[name=\"煌\"]  沸腾吧，爆开他们的伪装吧！\n[Character]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.4)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.3, r=1, g=0, b=0, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[Image(image=\"avg_5_8_homura\", fadetime=0.3,screenadapt=\"coverall\",block=true)]\n[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=0, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.15, yScaleTo=1.15,duration=15, block=false)]\n[Blocker(a=0, fadetime=1, block=true)]\n[name=\"浮士德\"]  ——！\n[name=\"浮士德\"]  你泼洒自己的血，用血来点火？\n[name=\"煌\"]  哈，我难道看起来像个术师吗？那种四处纵火的家伙，最多只是些自我意识过剩的门外汉。\n[name=\"煌\"]  抱歉，这是战斗技巧。现身吧射手们，你们无处可藏了！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Image]\n[Blocker(a=0, fadetime=1, block=true)]\n[Character]\n[Character(name=\"avg_npc_016\",fadetime=1,block=true)]\n[name=\"幻影弩手\"]  ……\n[name=\"幻影弩手\"]  浮士德，伪装消失了。\n[Character(name=\"char_1508_Faust_1#1\")]\n[name=\"浮士德\"]  命令，撤退。\n[Character(name=\"char_015_lmg\")]\n[name=\"近卫局成员\"]  那些是……怎么回事！整合运动的狙击手是什么时候埋伏在那里的？\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  现在？\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  现在。\n[Character(name=\"char_015_lmg\")]\n[name=\"近卫局成员\"]  数个整合运动的狙击手突然现身，主要分布在近卫局东二楼和南三楼！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  留神脚下，低处可能也有埋伏！\n[Character(name=\"char_015_lmg\")]\n[name=\"近卫局成员\"]  大楼里的古怪之处，也是他们引起的吗？\n[Character]\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  通过空气折射让身形变得透明啊，好手法。\n[name=\"煌\"]  不过你掩盖不了自己的行踪，又或者是动作幅度太大，也会导致这个源石技艺失效。\n[name=\"煌\"]  我说得对吗？\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……你很聪明。\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"煌\"]  是罗德岛情报做得好。你没戏唱了，投降吧。\n[name=\"煌\"]  如果还要打的话，哼，不管有没有你的份，你都得为Ace和Scout抵命，小子。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  浮士德，我们还有弹药。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  撤退。我们已经失去了情报优势。我会狙击他们，你们立刻转移。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  明白。\n[Character(name=\"char_1507_Mephisto_1#4\")]\n[name=\"梅菲斯特\"]  为什么不射击她？浮士德！\n[name=\"梅菲斯特\"]  我的护卫们，快去！四个人，四个人而已……其中只有三个能和你们为敌！\n[name=\"梅菲斯特\"]  战斗！现在就撕碎这些罪人！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  我们三个在Dr.{@nickname}的指挥下，胜过你们所有人！\n[name=\"阿米娅\"]  更何况那些被你伤害了、剥夺了理智的感染者，意识里只剩下你的赘余思绪，不再是活生生的人……！\n[name=\"阿米娅\"]  就连你身边那个带鳞的男孩也未必和你同心，他的思绪里充斥着混乱和悲伤……\n[name=\"阿米娅\"]  梅菲斯特，你才是这战场上孤身一人的那个！\n[Character(name=\"char_1507_Mephisto_1#4\")]\n[name=\"梅菲斯特\"]  ……\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  你读了我的心？\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"阿米娅\"]  我只是感受到了。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  所以你不会知道我在想什么。"
+        }
+      ],
+      "description": "三人连续与梅菲斯特、浮士德交锋并直接观察回应对方攻击，真实局部战场接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_002_amiya",
+          "reason": "三人连续与梅菲斯特、浮士德交锋并直接观察回应对方攻击，真实局部战场接触。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "三人连续与梅菲斯特、浮士德交锋并直接观察回应对方攻击，真实局部战场接触。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 121,
+          "kind": "story",
+          "line": 10,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "靶向药物所述时段",
+      "title": "靶向药物"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 179,
+          "line": 41,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-06_beg.txt",
+          "quote": "[Character(name=\"char_017_homura_3#6\")]\n[name=\"煌\"]  ……\n[name=\"煌\"]  我很准时的！不要慌！马上就到！\n[Dialog]\n[Character]\n[Decision(options=\"阿米娅！她在抓我的外套！;……;请问能不能把我放下来再通讯呢？\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[name=\"阿米娅\"]  煌！\n[Character(name=\"char_017_homura_3#5\")]\n[name=\"煌\"]  我也没办法，这不是要赶路吗……\n[name=\"煌\"]  （你给我记住了，一会儿有你好果子吃！）\n[Predicate(references=\"2\")]\n[name=\"阿米娅\"]  博士怎么没声音了？\n[name=\"阿米娅\"]  ……煌！\n[Character(name=\"char_017_homura_3#4\")]\n[name=\"煌\"]  我什么都没做啊！这个人自己不说话！\n[name=\"煌\"]  你说两句给她听听啊！\n[name=\"煌\"]  快说啊，为啥不说话啊……！\n[Predicate(references=\"3\")]\n[name=\"阿米娅\"]  啊……\n[name=\"阿米娅\"]  抱歉博士，我忘了你和煌一起行动一定会是这种样子了……\n[Character(name=\"char_017_homura_3#7\")]\n[name=\"煌\"]  因地制宜嘛。\n[Character]\n[name=\"阿米娅\"]  你在得意个什么劲，谁是地啊……\n[Predicate(references=\"1;2;3\")]\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[Character]\n[name=\"阿米娅\"]  可以了，我只要知道你们的位置和行动就好。\n[name=\"阿米娅\"]  你们的关系还变得挺好的。\n[Character(name=\"char_017_homura_3#7\")]\n[name=\"煌\"]  是啊！\n[Character]\n[name=\"阿米娅\"]  ……是吗？\n[Character(name=\"char_017_homura_3#9\")]\n[name=\"煌\"]  ……\n[name=\"煌\"]  （不对，怎么回事？我该怎么回答？）\n[Decision(options=\"（不知道）;（不说话）;（不清楚）\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[name=\"煌\"]  （很危险！现在很危险！我心态有损，我急需指点！）\n[Character]\n[name=\"阿米娅\"]  你们加油。\n[Dialog]\n[playsound(key=\"$transmission\", volume=0.4)]\n[delay(time=1)]\n[Character(name=\"char_017_homura_3#5\")]\n[name=\"煌\"]  她挂断了！\n[name=\"煌\"]  完了。我也完了。\n[name=\"煌\"]  反正已经到了，我们坐会儿吧。\n[Dialog]\n[Character]\n[delay(time=1)]\n[Decision(options=\"可这里是区域内的最高点啊？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_017_homura_3#4\")]\n[name=\"煌\"]  啊~完蛋了。\n[name=\"煌\"]  我喜欢高处啊。反正两点间直线最短，我们一会儿跳下去就行了。\n[Decision(options=\"这么高？跳下去？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"煌\"]  是啊。哈欠。\n[Character(name=\"char_017_homura_3#5\")]\n[name=\"煌\"]  等等。我没看错的话……正在向埋伏圈移动的，东边的是梅菲斯特带着的队伍。\n[name=\"煌\"]  另一边……长鳞的小子？\n[name=\"煌\"]  他还在带着队伍和什么交战。那黑压压一片是啥？\n[Character(name=\"char_017_homura_3#6\")]\n[name=\"煌\"]  ……是牧群？这个数量是怎么回事？！\n[Character(name=\"char_017_homura_3#9\")]\n[name=\"煌\"]  看来没法在这闲着了。走了，博士，这就是最后一战了！\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[name=\"煌\"]  喂，阿米娅，喂！\n[name=\"煌\"]  我马上就和博士一起加入战场！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(screenadapt=\"coverall\", image=\"bg_indoor_n\", width=1, height=1)]\n[Blocker(a=0, r=0, g=0, b=0,  fadetime=1, block=true)]\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  你有什么打算？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  ……\n[name=\"陈\"]  我要放走一小部分整合运动，然后我们进贫民区追踪它们。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  你这不是给了那些特殊部队把柄？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  但我们也可以顺势再进入贫民区作业。\n[name=\"陈\"]  我已经去探查过一次情况，有一点可以明确：只要我们还在，特殊部队就没法明目张胆地行动。\n[name=\"陈\"]  撑到战事结束，特殊部队也不好再动手。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  你不怕上司给你下命令？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  谁敢站出来声称“这支队伍是我的”？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  行啊，算盘打得挺好的。贫民区里的情况怎么样？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我的线人们一直在调查。除了少数失联的区域，我们掌握的情报会比其他人多得多。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  这把赌的有点大，但我们确实得赌了。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  现在能让特殊部队回避的也就只有近卫局。\n[name=\"陈\"]  阿米娅，听得见吗？\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[Character]\n[name=\"阿米娅\"]  陈长官，我们已经就位！\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  ……嗯。\n[name=\"陈\"]  之前，整合运动掳走感染者的事件，我向你致歉。如果我们考虑的更周到，这种事就不会发生。\n[Character]\n[name=\"阿米娅\"]  ……正是因为近卫局在贫民区的先期行动，龙门才能提前规划出对抗整合运动渗透的方法。\n[name=\"阿米娅\"]  在战略上，我认为陈长官没有责任。至于个人的问题……\n[name=\"阿米娅\"]  陈长官，米莎是没法死而复生的。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  ……\n[Character]\n[name=\"阿米娅\"]  而且，我不会同意陈长官对感染者的看法。甚至陈长官自己也很清楚……\n[name=\"阿米娅\"]  在龙门，热爱龙门的龙门人会为龙门而战，不分身份。\n[Character(name=\"char_308_swire_1#3\")]\n[name=\"诗怀雅\"]  哎，这只小兔子，好厉害啊。\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[Character]\n[name=\"阿米娅\"]  那是诗怀雅小姐的声音吗？\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  别管她。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  喂！\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  我认同你的看法，阿米娅，为龙门而战确实能团结起各种各样的人——那些投向整合运动的除外。\n[name=\"陈\"]  但想要在龙门生活，又是另一件事。我不认为时间能改变一切。\n[Character]\n[name=\"阿米娅\"]  当然不能。是我们去改变一切。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  这种想法太天真了。感染者和普通人之间有着巨大的隔阂。\n[Character]\n[name=\"阿米娅\"]  米莎的死，无数感染者的死，这种事由不得我去天真什么，陈长官。\n[name=\"阿米娅\"]  就是这种隔阂把他们逼上死路。我们难道要让这个隔阂本身，成为我们不应该去消灭隔阂的理由？\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  ……\n[Character]\n[name=\"阿米娅\"]  希望陈长官能真的理解……为什么我们罗德岛的感染者与非感染者，会为龙门而战。\n[name=\"阿米娅\"]  来了。陈长官。"
+        }
+      ],
+      "description": "阿米娅与梅菲斯特为明确交战双方。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅与梅菲斯特为明确交战双方。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "阿米娅与梅菲斯特为明确交战双方。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 179,
+          "kind": "story",
+          "line": 41,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 94,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-09_end.txt",
+          "quote": "[name=\"霜叶\"]   闪开！\n[Character(name=\"char_002_amiya_1#7\", name2=\"char_219_meteo_1\", focus=2)]\n[name=\"陨星\"]   阿米娅！霜叶打乱敌阵，冲向敌方指挥官了！\n[Character(name=\"char_002_amiya_1#7\", name2=\"char_219_meteo_1\", focus=1)]\n[name=\"阿米娅\"]   狙击干员，术师干员，掩护霜叶！\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Character(fadetime=0)]\n[Character(name=\"char_1507_Mephisto_1\")]\n[Blocker(a=0, fadetime=0.2, block=true)]\n[name=\"梅菲斯特\"]   哦哦……\n[name=\"梅菲斯特\"]   你想做什么呢，小狐狸？\n[Character(name=\"char_193_frostl_1\")]\n[name=\"霜叶\"]   要你赎罪，要你痛哭流涕——\n[name=\"霜叶\"]   ——要你的命。\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Character(fadetime=0)]\n[Character(name=\"char_002_amiya_1#7\")]\n[Blocker(a=0, fadetime=0.2, block=true)]\n[name=\"阿米娅\"]   别挡道！\n[CameraShake(duration=0.5, xstrength=8, ystrength=10, vibrato=30, randomness=90, block=false)]\n[Character(name=\"char_1002_nsabr_2\")]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$p_skill_chimera\", volume=0.4)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[name=\"整合运动成员\"]   呜哇！\n[name=\"整合运动成员\"]   黑，黑色的法术……\n[name=\"整合运动成员\"]   快，快跑！\n[name=\"整合运动成员\"]   我不想和梅菲斯特的手下一个下场……！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   梅菲斯特，看你还能逃到哪里去！\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Character(fadetime=0)]\n[Character(name=\"char_1507_Mephisto_1\")]\n[Blocker(a=0, fadetime=0.2, block=true)]\n[name=\"梅菲斯特\"]   哦。看来这些家伙还不足以拦住你们罗德岛嘛。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   为你的所作所为付出代价吧，残忍的家伙！\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character(fadetime=0)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_193_frostl_1\")]\n[name=\"霜叶\"]   你逃不掉的。\n[Character(name=\"char_1507_Mephisto_1\")]\n[name=\"梅菲斯特\"]   小狐狸，你离我离得，有点近哦。\n[Character(name=\"char_193_frostl_1\")]\n[name=\"霜叶\"]   因为我就是将手刃你的那个人。\n[name=\"霜叶\"]   不尊重生命的人——\n[name=\"霜叶\"]   不配拥有生命。\n[Character(name=\"char_1507_Mephisto_1\")]\n[name=\"梅菲斯特\"]   哦——\n[Character(name=\"char_1507_Mephisto_1\")]\n[Background(screenadapt=\"coverall\", image=\"bg_cher_6\", width=1, height=1, fadetime=1)]\n[StopMusic(fadetime=2)]\n[name=\"梅菲斯特\"]   是嘛。\n[CameraShake(duration=0.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.5, r=255, g=255, b=255, fadetime=3, block=true)]\n[playsound(key=\"$d_gen_surfacefrozen\", volume=0.8)]\n[Character(name=\"char_193_frostl_1\")]\n[name=\"霜叶\"]   ？！\n[name=\"霜叶\"]   怎么会，我的脚——？\n[Character(name=\"char_219_meteo_1\")]\n[name=\"陨星\"]   阿米娅！各个方向都出现了整合运动的敌人！虽然数量不多……\n[name=\"陨星\"]   ……\n[Character(name=\"char_219_meteo_1#3\")]\n[name=\"陨星\"]   糟了，是雪怪小队……\n[name=\"陨星\"]   雪怪小队……聚拢起来了！\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(fadetime=0)]\n[Character(name=\"char_1507_Mephisto_1\")]\n[name=\"梅菲斯特\"]   好了，得向你们介绍一位新朋友才行。\n[name=\"梅菲斯特\"]   嗯哼~接下来，请热烈欢迎我们这个舞台的真正主角——\n[name=\"梅菲斯特\"]   西北冻原的噩梦，雪怪们的公主——\n[name=\"梅菲斯特\"]   ————霜————星————小————姐！\n[name=\"梅菲斯特\"]   她会把你们的血肉，一点一滴地……\n[Character(name=\"char_1507_Mephisto_1#5\")]\n[name=\"梅菲斯特\"]   全·都·冻·成·碎·渣·哦~"
+        }
+      ],
+      "description": "阿米娅与梅菲斯特直接对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_002_amiya",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b768950f6cb3956f.json",
+      "sources": [
+        {
+          "endLine": 94,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格废墟战斗",
+      "title": "急性衰竭"
+    }
+  ],
+  "relationship_id": "char_002_amiya|npc_03efe1bf09e24b53"
+}

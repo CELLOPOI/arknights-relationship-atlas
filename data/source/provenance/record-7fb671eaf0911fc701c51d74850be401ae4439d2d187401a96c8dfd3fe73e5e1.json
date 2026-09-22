@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 62,
+          "line": 54,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-14_beg.txt",
+          "quote": "[name=\"幻影弩手\"]  浮士德队长为了我们连命都可以不要。\n[name=\"幻影弩手\"]  ……如果那个罗德岛的兔子真的可以为队长报仇，那我们的命也确实不算什么！\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  不。\n[name=\"迷迭香\"]  不用这样的。\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  啊……罗德岛的……\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  直接轰炸他们的阵地，是吗？"
+        }
+      ],
+      "description": "迷迭香紧接弩手提及浮士德之死回应反对赴死。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "char_391_rosmon",
+          "reason": "迷迭香紧接弩手提及浮士德之死回应反对赴死。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_391_rosmon"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 62,
+          "kind": "story",
+          "line": 54,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-14_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    }
+  ],
+  "relationship_id": "char_391_rosmon|npc_cff4ec0fb14b9ffb"
+}

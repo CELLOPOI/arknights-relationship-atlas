@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 648,
+          "line": 638,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_whitw2_1_1.txt",
+          "quote": "[name=\"拉普兰德\"]你是说我只是因为同情红？\n[charslot(slot = \"m\", name = \"avg_1038_whitw2_1#3$2\",focus=\"m\")]\n[name=\"拉普兰德\"]啧，幼稚的狼之主。\n[charslot(slot = \"m\", name = \"avg_1038_whitw2_1#8$2\",focus=\"m\")]\n[name=\"拉普兰德\"]恺撒，我可不单单只是为了红而羞辱你。\n[name=\"拉普兰德\"]扎罗、瓦古、阿涅塞，还有那边的几只……我希望这件事能让你们警醒——\n[charslot(slot = \"m\", name = \"avg_1038_whitw2_1#2$2\",focus=\"m\")]\n[name=\"拉普兰德\"]狼群正变得越来越像人类。\n[Dialog]\n[charslot]\n[name=\"狼之主们\"]……"
+        }
+      ],
+      "description": "扎罗单向知晓红及其处境。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_9649533c7a060d36",
+          "reason": "扎罗在场听到针对红的完整陈述。",
+          "status": "supported",
+          "to": "char_144_red"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_144_red",
+          "reason": "已读候选中红未点名、回应或表现出知晓扎罗。",
+          "status": "not_established",
+          "to": "npc_9649533c7a060d36"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6ee074b30afbf146.json",
+      "sources": [
+        {
+          "endLine": 648,
+          "kind": "story",
+          "line": 638,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_whitw2_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇梦境场景",
+      "title": "荒芜拉普兰德"
+    }
+  ],
+  "relationship_id": "char_144_red|npc_9649533c7a060d36"
+}

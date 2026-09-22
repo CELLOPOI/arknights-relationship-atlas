@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 392,
+          "line": 350,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_surfer_1_1.txt",
+          "quote": "[name=\"“桥夹”克里夫\"]蒂拉，说明情况。\n[charslot]\n黑钢的老板拉开椅子坐了下来，他看向站在桌边的蒂拉，少女的表情很是平静。\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#1$1\")]\n[name=\"寻澜\"]在回本舰的路上，我看到那栋楼的时候，就突然想到那里的楼顶应该有绝佳的观景角度。\n[name=\"寻澜\"]今天恰好任务完成得比较顺利，在日落之前就结束了，加上天气也很完美——\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#5$1\")]\n[name=\"寻澜\"]所以就想上去看看，毕竟见到那种稀少景色的机会实在太难得了。\n[charslot(slot=\"m\",name=\"avg_npc_1036_1#2$1\")]\n[name=\"“桥夹”克里夫\"]我不是在问你这个。\n[charslot(slot=\"m\",name=\"avg_npc_1036_1#6$1\")]\n[name=\"“桥夹”克里夫\"]今天下午你造成的混乱你自己也知道。沃尔沃特科钦斯基从分公司到总公司不断给我打电话。\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#5$1\")]\n[name=\"寻澜\"]非常抱歉！\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#7$1\")]\n[name=\"寻澜\"]可是……\n[name=\"寻澜\"]那种夕照散射的样子只要条件稍有变化就会消失，只有在特定的时间登上楼顶才有机会看到。\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#2$1\")]\n[name=\"寻澜\"]那样的夕景，即便想要寻找也很难遇到第二次了……\n[charslot]\n克里夫皱起眉头看着自己的助手，但很快他脸上凝重的表情就缓和了下来。\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#5$1\")]\n[name=\"寻澜\"]老板，要是没别的事的话，我就……\n[charslot(slot=\"m\",name=\"avg_npc_1036_1#2$1\")]\n[name=\"“桥夹”克里夫\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#9$1\")]\n[name=\"寻澜\"]克里夫先生，那个——\n[charslot(slot=\"m\",name=\"avg_npc_1036_1#1$1\")]\n[name=\"“桥夹”克里夫\"]既然你已经放松过了，正巧现在有个很棘手的任务，需要一个得力的人手。任务概要在这儿，你可以自己看。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_paper1\")]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#6$1\")]\n[name=\"寻澜\"]单人潜入任务，基本上全程在地下通道里完成。没有夕阳，没有森林，甚至没有天然洞穴……\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#5$1\")]\n[name=\"寻澜\"]老板，这算是对我的报复吗？\n[charslot(slot=\"m\",name=\"avg_npc_1036_1#1$1\")]\n[name=\"“桥夹”克里夫\"]其他能完成任务的人碰巧都不在，仅此而已。\n[charslot(slot=\"m\",name=\"avg_npc_1040_1#1$1\")]\n[name=\"寻澜\"]哈哈……\n[charslot]\n见札拉克没有推脱的意思，克里夫冲她点了点头，径自离开了办公室。"
+        }
+      ],
+      "description": "克里夫与寻澜在办公室直接交谈并派遣任务。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_b9643057e24653f0",
+          "reason": "同场直接对话",
+          "status": "supported",
+          "to": "char_4052_surfer"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4052_surfer",
+          "reason": "同场直接对话",
+          "status": "supported",
+          "to": "npc_b9643057e24653f0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_84f47bd620beee93.json",
+      "sources": [
+        {
+          "endLine": 392,
+          "kind": "story",
+          "line": 350,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_surfer_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "寻澜"
+    }
+  ],
+  "relationship_id": "char_4052_surfer|npc_b9643057e24653f0"
+}

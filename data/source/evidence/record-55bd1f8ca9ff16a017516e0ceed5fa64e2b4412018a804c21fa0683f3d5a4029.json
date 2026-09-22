@@ -1,0 +1,20 @@
+{
+  "id": "import:char_4116_blkkgt|npc_5b6d9a80bb2c7211",
+  "published": true,
+  "quote": "【风雪过境】\n锏：不过，我还没见过你慷慨激昂的样子。\n锏：演得不错。\n锏：虽然你没有在演戏。\n诺希斯：……\n魏斯：诺希斯，接下来……\n诺希斯：……莫希在哪里？\n魏斯：……莫希被软禁在别的房间，我可以带路。\n诺希斯：她知道了吗？\n魏斯：老爷说，最好由你亲自告诉她。\n诺希斯：……带路吧。",
+  "relationship_id": "char_4116_blkkgt|npc_5b6d9a80bb2c7211",
+  "sources": [
+    {
+      "endLine": 909,
+      "kind": "story",
+      "line": 885,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_06_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "kind": "manual",
+      "source": "ArknightsNpcCatalog/关系审读/人工复核/用户意见/复核意见.json#review_3e384dd7cad18f09",
+      "version": "revision:1; 2026-09-20T04:14:22.942Z"
+    }
+  ]
+}

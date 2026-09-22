@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 304,
+          "line": 219,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "quote": "[name=\"魏彦吾\"]……\n[charslot(slot=\"l\",name=\"avg_npc_788_1#9$1\",focus=\"l\")]\n[name=\"左宣辽\"]魏公莫非又看上我这军帐里的哪样兵器了？\n[name=\"左宣辽\"]罢了，反正我是都用不着了，你要是喜欢，不如连我那军武库整个搬到龙门去。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]平祟侯说笑了。这些兵器，即使左兄用不着，也是要留给玉门的。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]如果记得没错，十年前魏公和我打赌，赚走了我刚寻来的一把名剑。五年前，魏公又趁酒后带走了天师府送我的一张弓。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]那我们今天喝酒对赌，你尽管赢，别再让着我了。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]不过是些玩笑话。这么多年，龙门持续为玉门供应物资，一次都没有耽误过。单冲这一点，我也该送魏公几件礼物。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]分内的事。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]可魏兄身为龙门总督，事务繁忙……今天还特意来到玉门巡视，总该不是分内的事？\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#2\",focus=\"r\")]\n[name=\"魏彦吾\"]算是私事。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]龙门离了魏总督几天，还不至于起什么乱子，但魏彦吾能趁机看看老朋友，倒也不是一件坏事。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#2\",focus=\"r\")]\n[name=\"魏彦吾\"]宗师离任的日子快到了，我正好送送他。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]宗师的离任，可的确是件麻烦事。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#8$1\",focus=\"l\")]\n[name=\"左宣辽\"]他的那把剑，需要妥善处理。\n[charslot]\n[name=\"重岳\"]哎，说来说去，这麻烦的话题还是回到了我头上。\n[stopmusic(fadetime=1)]\n[dialog]\n[charslot]\n[delay(time=1)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"l\",name=\"avg_2023_ling_1#1$1\",duration=1.5)]\n[charslot(slot=\"r\",name=\"avg_2024_chyue_1#1$1\",duration=1.5)]\n[playMusic(key=\"$midautumn\", volume=0.4)]\n[delay(time=2)]\n[charslot]\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#1\",focus=\"m\")]\n[name=\"魏彦吾\"]宗师，令小姐，好久不见。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]的确有些日子了。\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#3$1\",focus=\"m\")]\n[name=\"令\"]呀！\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#8$1\",focus=\"m\")]\n[name=\"令\"]今日这么多故人重逢，正当痛饮，不知道左将军提前备好了酒没有？\n[charslot(slot=\"m\",name=\"avg_npc_788_1#9$1\",focus=\"m\")]\n[name=\"左宣辽\"]凭令小姐在玉门的功劳，按道理是该陪你多喝几杯。 \n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\",focus=\"m\")]\n[name=\"左宣辽\"]不过今日，饮酒的事还得稍微等一等。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\",focus=\"m\")]\n[name=\"左宣辽\"]听说宗师心意已决，要将剑交给比武选出来的第一人？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]武功只是第一道考验，值不值得将剑托付出去，我还有别的考量。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#4$1\",focus=\"m\")]\n[name=\"重岳\"]我还以为这件事，左将军早就是知道了的。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\",focus=\"m\")]\n[name=\"左宣辽\"]宗师上次提起这件事的时候，局势也不同今日。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]可对我而言，这把剑总归是要托付给一个合适的人，而非合适的局势。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#7$1\",focus=\"m\")]\n[name=\"左宣辽\"]宗师是觉得，这么久以来，军队上下，朝堂内外，身后眼前，竟无一个人合适了？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]……\n[charslot]\n[name=\"？？？\"]好生热闹。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",duration=1.5)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_788_1#2$1\",focus=\"m\")]\n[name=\"左宣辽\"]有失远迎，太傅见谅。\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#1\",focus=\"m\")]\n[name=\"魏彦吾\"]多年未见，太傅的精神还是好得很。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",focus=\"m\")]\n[name=\"太傅\"]诸位都是替大炎镇守边疆的有功之臣，风貌非常，现在齐聚一堂，也让我眼前一亮。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",focus=\"m\")]\n[name=\"太傅\"]只是今天有一些紧急事务，没有时间闲聊许久了。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#4$1\",focus=\"m\")]\n[name=\"太傅\"]人已到齐，左将军，让旁人退下吧。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.7)]\n[delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",focus=\"m\")]\n[name=\"太傅\"]我来的路上，正好遇见从城外归来的巡防营斥候。听他说说情况吧。"
+        }
+      ],
+      "description": "军帐中左宣辽、魏彦吾、重岳、令与太傅先后入席，直接互相招呼后讨论事务，真实同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_2024_chyue",
+          "reason": "军帐中左宣辽、魏彦吾、重岳、令与太傅先后入席，直接互相招呼后讨论事务，真实同场。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "军帐中左宣辽、魏彦吾、重岳、令与太傅先后入席，直接互相招呼后讨论事务，真实同场。",
+          "status": "supported",
+          "to": "char_2024_chyue"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 304,
+          "kind": "story",
+          "line": 219,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_2024_chyue|npc_92c92c1606519db1"
+}

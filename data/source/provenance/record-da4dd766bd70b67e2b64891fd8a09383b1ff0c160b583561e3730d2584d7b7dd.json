@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 616,
+          "line": 612,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-03_end.txt",
+          "quote": "[name=\"芬\"]任何任务，只要有牺牲，都很遗憾。\n[name=\"芬\"]Ace大哥牺牲之后，米格鲁抱着他的盾哭了好几夜。\n[name=\"芬\"]为什么偏偏是他，会在那个时间那个地点离开？\n[charslot(slot=\"m\",name=\"avg_npc_411_1#9$1\",focus=\"m\")]\n[name=\"可露希尔\"]……我也每一次都有这种感觉。"
+        }
+      ],
+      "description": "芬具称Ace大哥并讲米格鲁抱盾哭泣，可露希尔直接回应；只有两位生者知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E64"
+          ],
+          "from": "char_123_fang",
+          "reason": "芬具称Ace大哥并讲米格鲁抱盾哭泣，可露希尔直接回应；只有两位生者知晓。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_123_fang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 616,
+          "kind": "story",
+          "line": 612,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "char_123_fang|npc_ded4733bcc9da868"
+}

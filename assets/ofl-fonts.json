@@ -1,0 +1,60 @@
+{
+  "license": "SIL Open Font License 1.1",
+  "licenses": {
+    "Oswald-OFL.txt": {
+      "url": "https://raw.githubusercontent.com/vernnobile/OswaldFont/9dd0521c8c06dd24998fe5d9cd644dab9cbbacca/3.0/OFL.txt",
+      "version": "3.0",
+      "reserved_font_name": "Oswald",
+      "file": "assets/licenses/Oswald-OFL.txt",
+      "sha256": "71ff5a4d044d06107f38e5e006f8e959182dda0bea06fee12df041c321af8d2d",
+      "normalization": "LF line endings; license text unchanged"
+    },
+    "SourceHanSans-OFL.txt": {
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.004R/LICENSE.txt",
+      "version": "2.004R",
+      "reserved_font_name": "Source",
+      "file": "assets/licenses/SourceHanSans-OFL.txt",
+      "sha256": "f55c2d43dd905011515f5e46ba78d180027e314ef8ccaaf53a9e88fe316767cd",
+      "normalization": "LF line endings; license text unchanged"
+    }
+  },
+  "modification": "Relationship Atlas contributors renamed existing web subsets and embedded complete license text. Original copyright records retained; rendering tables unchanged.",
+  "fonts": [
+    {
+      "source_file": "SourceHanSansSC-Regular.woff2",
+      "source_sha256": "62bd772440fde355edd6d1332fafd47e35416113c37f22d0cb7094314c426efd",
+      "file": "RelationshipAtlasCJK-Regular.96525ef06557.woff2",
+      "sha256": "96525ef06557c03a829f956b64adbfaea68d6fe171b50036d40659521fb4d1d6",
+      "bytes": 109040,
+      "family": "Relationship Atlas CJK",
+      "style": "Regular",
+      "license_file": "SourceHanSans-OFL.txt",
+      "codepoints": 896,
+      "rendering_tables_unchanged": true
+    },
+    {
+      "source_file": "SourceHanSansSC-Bold.5255c6b6.woff2",
+      "source_sha256": "fae04afb0412a9527ecbec47df9fbca94d778016fd9f5c5dd6954829a4de4bfa",
+      "file": "RelationshipAtlasCJK-Bold.1721bac9833a.woff2",
+      "sha256": "1721bac9833ac21ec4a1a82f033b8c597d1ad16b6d611da61f17c75c15e7b791",
+      "bytes": 110952,
+      "family": "Relationship Atlas CJK",
+      "style": "Bold",
+      "license_file": "SourceHanSans-OFL.txt",
+      "codepoints": 902,
+      "rendering_tables_unchanged": true
+    },
+    {
+      "source_file": "Oswald-Medium.99836e81.woff2",
+      "source_sha256": "d84e9f97be7cb696b244b2750e971bb36a74dec73f4e74c74a2a62213c7c724e",
+      "file": "RelationshipAtlasNarrow-Medium.6af080c9eed8.woff2",
+      "sha256": "6af080c9eed85875445e73b319c19e3d03841515dd4a2d7db525533f15d0cb3b",
+      "bytes": 15064,
+      "family": "Relationship Atlas Narrow",
+      "style": "Medium",
+      "license_file": "Oswald-OFL.txt",
+      "codepoints": 101,
+      "rendering_tables_unchanged": true
+    }
+  ]
+}

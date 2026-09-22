@@ -1,0 +1,22 @@
+{
+  "id": "import:char_206_gnosis|npc_be787f1ec784bbc7",
+  "published": true,
+  "quote": "【风雪过境】\n诺希斯：看看你的妹妹，她就要被恩希欧迪斯带走了！\n休露丝：放开我，你们放开我！\n尤卡坦：……不要伤害我的妻子！\n希瓦艾什家战士：哼。\n尤卡坦：咕……\n休露丝：尤卡坦！\n菈塔托丝：休露丝！尤卡坦！\n诺希斯：现在，是你最后的机会了。\n诺希斯：恩希欧迪斯说信你，他当真是信你吗？\n\n【银心湖列车】\n恩希欧迪斯：确实，休露丝夫人手段高明，令人敬佩。\n恩希欧迪斯：菈塔托丝，你太小看休露丝夫人了。\n菈塔托丝：……你这是什么意思？\n莫希：夫人，客人平安到达。\n休露丝：好！快带人过来！\n诺希斯：……\n莫希：……\n莫希：我这就去。\n魏斯：老爷！\n魏斯：客人已经带到了！\n休露丝：乱说什么？那是我请来的客人！",
+  "relationship_id": "char_206_gnosis|npc_be787f1ec784bbc7",
+  "sources": [
+    {
+      "endLine": 805,
+      "kind": "story",
+      "line": 765,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 1045,
+      "kind": "story",
+      "line": 1020,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 43,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_07_beg.txt",
+          "quote": "[name=\"休露丝\"]侍女长，周围的人都已经疏散了，你怎么还留在这里？\n[charslot(slot=\"r\",name=\"avg_npc_250_1#2$1\",focus=\"r\")]\n[name=\"雅儿\"]休露丝夫人才是，您不是应该已经回避了吗？\n[charslot(slot=\"l\",name=\"avg_npc_262_1#7$1\",focus=\"l\")]\n[name=\"休露丝\"]哼，你说回避我就要回避吗？\n[name=\"休露丝\"]这座雕像可是所有人的心血，要是出了岔子，我要怎么和其他人交代？\n[charslot(slot=\"r\",name=\"avg_npc_250_1#6$1\",focus=\"r\")]\n[name=\"雅儿\"]是所有人的心血，还是恩希欧迪斯的心血？\n[charslot(slot=\"l\",name=\"avg_npc_262_1#9$1\",focus=\"l\")]\n[name=\"休露丝\"]……难怪刚才我就看到圣女大人把你按了回去，看来圣女大人对你说过一些什么。\n[charslot(slot=\"r\",name=\"avg_npc_250_1#2$1\",focus=\"r\")]\n[name=\"雅儿\"]夫人并不惊讶。\n[charslot(slot=\"l\",name=\"avg_npc_262_1#7$1\",focus=\"l\")]\n[name=\"休露丝\"]我又不是傻子，圣女大人看起来毫不知情，但她怎么可能真的毫不知情？\n[name=\"休露丝\"]只是，以她的立场来说，知道，但又不知道，才是她最应该做的事。\n[name=\"休露丝\"]而她现在派你来捅破这层窗户纸，说吧，什么事？\n[charslot(slot=\"r\",name=\"avg_npc_250_1#5$1\",focus=\"r\")]\n[name=\"雅儿\"]正在靠近这里的人，一个是锏，一个是维多利亚的“灰礼帽”。\n[charslot(slot=\"l\",name=\"avg_npc_262_1#4$1\",focus=\"l\")]\n[multiline(name=\"休露丝\")]“灰礼帽”？！\n[charslot(slot=\"l\",name=\"avg_npc_262_1#9$1\",focus=\"l\")]\n[multiline(name=\"休露丝\")]啧，他难道……不，应该不至于……\n[Dialog]\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_npc_262_1#7$1\",focus=\"l\")]\n[name=\"休露丝\"]圣女大人是特意留你在这里给我提醒的？\n[charslot(slot=\"r\",name=\"avg_npc_250_1#2$1\",focus=\"r\")]\n[name=\"雅儿\"]您就当作是这么一回事吧。\n[charslot(slot=\"r\",name=\"avg_npc_250_1#6$1\",focus=\"r\")]\n[name=\"雅儿\"]雕像这边交给我就好。"
+        }
+      ],
+      "description": "雅儿与休露丝直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "char_4013_kjera",
+          "reason": "雅儿直接向休露丝说明风险。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "休露丝直接回应并说明判断。",
+          "status": "supported",
+          "to": "char_4013_kjera"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 43,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "维多利亚人接近雕像时",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_4013_kjera|npc_be787f1ec784bbc7"
+}

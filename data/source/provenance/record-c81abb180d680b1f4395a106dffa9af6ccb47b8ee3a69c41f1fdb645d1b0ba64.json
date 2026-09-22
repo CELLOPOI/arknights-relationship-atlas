@@ -1,0 +1,61 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 170,
+          "line": 151,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_08_end.txt",
+          "quote": "[name=\"圣徒卡门\"]他还好吗？\n[Character(name=\"avg_npc_450_1#2$1\")]\n[PlayMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.8, crossfade=1, delay=0.5)]\n[name=\"极境\"]从刚才开始就在努力抢救了——！但是，伤口太深！\n[Character(name=\"avg_npc_450_1#12$1\")]\n[name=\"极境\"]如果凯尔希医生……得把他带到医生那里，审判官阁下！凯尔希医生在哪里？\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]就在礼拜堂。\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]罗德岛的成员，话我得说清楚。他的背叛行径不容辩驳，他必须受到惩罚。\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]窝藏深海教徒，知而不报，不仅让审判庭错失良机，更让无数惩戒军袍泽与达里奥深陷苦境。\n[Character(name=\"avg_npc_451_1#3$1\")]\n[name=\"蒂亚戈\"]……啧，老家伙。\n[Character(name=\"avg_npc_451_1#3$1\")]\n[name=\"蒂亚戈\"]你有多大岁数？一百岁？你为什么……呃啊……还能装得这么朝气蓬勃？\n[Character(name=\"avg_npc_447_1#2$1\")]\n[name=\"圣徒卡门\"]职责如此。\n[Character(name=\"avg_npc_451_1#3$1\")]\n[name=\"蒂亚戈\"]所以你一定……咳咳……咳啊……知道很多事情……"
+        },
+        {
+          "endLine": 529,
+          "line": 519,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st10.txt",
+          "quote": "[name=\"凯尔希\"]您还在想蒂亚戈的事情。\n[Character(name=\"avg_npc_447_1#7$1\")]\n[name=\"圣徒卡门\"]唔，不完全是。在我所经历的诸多悲剧之中，他没有什么值得特别在意的，就像沙滩上的沙子。\n[Character(name=\"avg_npc_447_1#2$1\")]\n[name=\"圣徒卡门\"]可是沙滩上，有多少沙子呢。\n[Character(name=\"avg_npc_447_1#2$1\")]\n[name=\"圣徒卡门\"]这艘船并非惩戒军准备的。大部分船只都被纳入了惩戒军的管辖，只有极少数……被忘记的，搁浅在岸边。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]现在看上去，我们因为某位惩戒军幕僚人员的粗心大意而省了不少功夫。\n[Character(name=\"avg_npc_447_1#5$1\")]\n[name=\"圣徒卡门\"]我只是在想，我们会忘记多少东西，让多少东西搁浅。"
+        }
+      ],
+      "description": "蒂亚戈在场听见需由凯尔希抢救的安排；凯尔希随后与卡门具体讨论蒂亚戈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S40"
+          ],
+          "from": "char_003_kalts",
+          "reason": "蒂亚戈在场听见需由凯尔希抢救的安排；凯尔希随后与卡门具体讨论蒂亚戈。",
+          "status": "supported",
+          "to": "npc_664144b63a19eb32"
+        },
+        {
+          "evidenceIds": [
+            "S40"
+          ],
+          "from": "npc_664144b63a19eb32",
+          "reason": "蒂亚戈在场听见需由凯尔希抢救的安排；凯尔希随后与卡门具体讨论蒂亚戈。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 170,
+          "kind": "story",
+          "line": 151,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 529,
+          "kind": "story",
+          "line": 519,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st10.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_003_kalts|npc_664144b63a19eb32"
+}

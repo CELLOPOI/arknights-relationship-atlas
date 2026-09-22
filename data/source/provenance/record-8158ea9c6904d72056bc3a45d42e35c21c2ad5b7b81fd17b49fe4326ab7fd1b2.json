@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 873,
+          "line": 833,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_01_end.txt",
+          "quote": "[name=\"恩雅\"]贵客？\n[character(name=\"avg_172_svrash_1#1$1\",name2=\"avg_174_slbell_1#1$1\",focus=1)]\n[name=\"恩希欧迪斯\"]正是。舍妹此前一直在一家名为罗德岛的医疗公司治疗矿石病。\n[character(name=\"avg_172_svrash_1#1$1\",name2=\"avg_174_slbell_1#1$1\",focus=1)]\n[name=\"恩希欧迪斯\"]这一次临近大典，我就邀请那家公司的领袖之一前来谢拉格做客，作为感谢。\n[character(name=\"avg_172_svrash_1#1$1\",name2=\"avg_174_slbell_1#1$1\",focus=2)]\n[name=\"恩雅\"]恩希欧迪斯大人对妹妹这么关心，真是令人赞叹。\n[character(name=\"avg_172_svrash_1#2$1\",name2=\"avg_174_slbell_1#1$1\",focus=1)]\n[name=\"恩希欧迪斯\"]……圣女大人过誉了。\n[character(name=\"avg_172_svrash_1#1$1\",name2=\"avg_174_slbell_1#1$1\",focus=1)]\n[name=\"恩希欧迪斯\"]圣女大人想必已经了解我刚才的提案，不知道您意下如何？\n[character(name=\"avg_172_svrash_1#1$1\",name2=\"avg_174_slbell_1#1$1\",focus=2)]\n[name=\"恩雅\"]……阿克托斯大人与菈塔托丝大人作何想法？\n[character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]……我阿克托斯，对耶拉冈德之信仰，天地可鉴，别说是由圣女大人来做我们三家的调停人——\n[character(name=\"avg_npc_253_1#4$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"菈塔托丝\"]慢着，阿克托斯……！\n[character(name=\"avg_npc_254_1#1$1\")]\n[name=\"阿克托斯\"]——就是将这家主之位交给圣女大人，又有何妨？\n[character(name=\"avg_174_slbell_1#1$1\")]\n[name=\"恩雅\"]菈塔托丝大人呢？\n[dialog]\n[character]\n谁能在这个时候说不？\n谁敢在这个时候说不？\n[character(name=\"avg_npc_253_1#2$1\")]\n[name=\"菈塔托丝\"]……\n[character(name=\"avg_npc_253_1#9$1\")]\n[name=\"菈塔托丝\"]由圣女大人来做三大家族的调停人，对眼下的局势来说，确实是最好的选择。\n[character(name=\"avg_174_slbell_1#1$1\")]\n[name=\"恩雅\"]……\n[character(name=\"avg_174_slbell_1#1$1\")]\n[name=\"恩雅\"]我知道了。\n[character(name=\"avg_174_slbell_1#1$1\")]\n[name=\"恩雅\"]既然三大家族的家主都认为此事可行，愿将信任交付予我……\n[character(name=\"avg_174_slbell_1#3$1\")]\n[name=\"恩雅\"]那我——\n[delay(time=1.2)]\n[character(name=\"avg_174_slbell_1#8$1\")]\n[name=\"恩雅\"]自当回应各位，承担引导谢拉格的责任。"
+        }
+      ],
+      "description": "圣女与三家家主在议事现场相互问答，恩雅为初雪、恩希欧迪斯为银灰。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_174_slbell",
+          "reason": "圣女与三家家主在议事现场相互问答，恩雅为初雪、恩希欧迪斯为银灰。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "圣女与三家家主在议事现场相互问答，恩雅为初雪、恩希欧迪斯为银灰。",
+          "status": "supported",
+          "to": "char_174_slbell"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 873,
+          "kind": "story",
+          "line": 833,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 447,
+          "line": 422,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_02_end.txt",
+          "quote": "[name=\"恩希欧迪斯\"]……\n[name=\"恩雅\"]……\n[name=\"恩希欧迪斯\"]圣女大人有事找我——\n[name=\"恩雅\"]没什么要紧事，只是想起来，恩希欧迪斯大人应该许久没有来过这座讲经堂了。\n[name=\"恩希欧迪斯\"]圣女大人要责怪我不够虔诚，那我的确无可辩驳。\n[name=\"恩希欧迪斯\"]等到这段时间过去，我定会每周前来恭听圣女教诲。\n[name=\"恩雅\"]我当然知道恩希欧迪斯大人事务繁忙，但是您这样疲惫的模样也是少见。\n[name=\"恩雅\"]……从您的脸色来看，山下的事情恐怕比生骨头还难啃吧？\n[name=\"恩希欧迪斯\"]圣女大人应该是清楚的，天灾发生后民间一直人心惶惶，要处理的事很多。\n[name=\"恩希欧迪斯\"]但此时此刻，想必蔓珠院只会更加忙碌……您也得保重圣体。\n[Dialog]\n[delay(time=1)]\n恩希欧迪斯伸出一根手指，缓缓地在眼下比划了一下。恩雅侧目看到了这一动作，只视而不见地沉默。\n壁炉中的火焰燃烧，温热的波动翻涌至希瓦艾什兄妹的眼睫与鼻尖上，在两张苍白而相似的面目上镀上一层暖色。\n他们没有看向对方，而是一齐望向庄严的雕塑。\n[name=\"恩雅\"]今天我遇到了阿克托斯，他和我打招呼时脸色不好，甚至连菈塔托丝看上去也不同往日。\n[name=\"恩雅\"]虽然你们经常吵架，但是弄成这么一副情况……也是好久不见了。\n[name=\"恩雅\"]发生什么事了？\n[name=\"恩希欧迪斯\"]只是一些俗务，不需劳烦圣女大人费心。\n[name=\"恩雅\"]那就恳请恩希欧迪斯大人为我解答——现在困扰谢拉格的“俗务”，到底是什么？\n[name=\"恩雅\"]……是因为维多利亚人吗？\n[name=\"恩希欧迪斯\"]是，也不只是。\n[name=\"恩希欧迪斯\"]天灾发生的消息传出后，维多利亚第一时间派遣救援队来到了谢拉格，声势很大。\n[name=\"恩希欧迪斯\"]哥伦比亚也知道了发生在观测站的动乱，他们以保护科研人员为由，威胁要向谢拉格派驻军队以准备撤侨。\n[name=\"恩希欧迪斯\"]出于各种各样的立场，他们都对这次天灾表现得格外关切。\n[name=\"恩雅\"]原来他们比我们想的要更了解谢拉格……他们很清楚这一场天灾对谢拉格而言意味着什么。"
+        }
+      ],
+      "description": "初雪明确知道菈塔托丝。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N04"
+          ],
+          "from": "char_174_slbell",
+          "reason": "恩雅明确说明菈塔托丝状态异常。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "菈塔托丝未在场。",
+          "status": "not_established",
+          "to": "char_174_slbell"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 447,
+          "kind": "story",
+          "line": 422,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "讲经堂对话",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 773,
+          "line": 740,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "quote": "[name=\"恩雅\"]诸位，请上前来。\n[name=\"恩雅\"]在耶拉冈德的见证下，仪式即将开始。\n[name=\"恩雅\"]让我们一同祈祷——\n[Dialog]\n[playsound(key=\"$d_avg_crwddiscuss_outside\",channel=\"1\",loop=true)]\n[Delay(time=2.5)]\n[stopsound(fadetime=1,channel=\"1\")]\n[Delay(time=1.5)]\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_250_1#2$1\",focus=\"m\")]\n[name=\"雅儿\"]……看来是急性子的客人们等不及了呢。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#8$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]什么人在喧哗？\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]（啧，真能添乱！）\n[name=\"菈塔托丝\"]尤卡坦！你老婆怎么还没过来？！\n[charslot(slot=\"m\",name=\"avg_npc_263_1#3$1\",focus=\"m\")]\n[name=\"尤卡坦\"]我刚刚才联系过露丝，她说很快就来……！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]来什么来！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#8$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]现在立刻联系她，让她有多远走多远，别过来了！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#8$1\",focus=\"m\")]\n[name=\"阿克托斯\"]发生什么事了？！吵吵嚷嚷，像什么样子！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]老爷！那群维多利亚人和往常不太一样！\n[name=\"古罗\"]我看他们像是带着什么大型武器，好像是来真的！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#7$1\",focus=\"m\")]\n[name=\"阿克托斯\"]我就知道那群人不会老实！\n[name=\"阿克托斯\"]来得好！我早就吩咐佩尔罗契家的儿郎准备好家伙预备着了，让我去会会他们！\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#9$1\",focus=\"m\")]\n[name=\"恩雅\"]阿克托斯大人！不要妄动！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#5$1\",focus=\"m\")]\n[name=\"阿克托斯\"]可是……圣女大人！"
+        }
+      ],
+      "description": "恩雅与菈塔托丝明确局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_174_slbell",
+          "reason": "双方在银心湖仪式突发冲突的同一局部现场共同响应。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "双方在银心湖仪式突发冲突的同一局部现场共同响应。",
+          "status": "supported",
+          "to": "char_174_slbell"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 773,
+          "kind": "story",
+          "line": 740,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "银心湖仪式冲突",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_174_slbell|npc_a43cec0eaa3f04c8"
+}

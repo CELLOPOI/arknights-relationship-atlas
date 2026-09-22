@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 353,
+          "line": 322,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_04_beg.txt",
+          "quote": "[name=\"赫尔曼\"]诗怀雅小姐之前到访，没能好好招待，十分遗憾。\n[name=\"赫尔曼\"]不知这几天游览，诗怀雅小姐对新汐斯塔的印象怎么样？\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#6$1\",focus=\"l\")]\n[name=\"诗怀雅\"]很干净，很美观——但总觉得少了些趣味，显得呆板了些。实话实说，我还是更喜欢它原来的样子。\n[charslot(slot=\"r\",name=\"avg_npc_544_1#10$1\",focus=\"r\")]\n[name=\"赫尔曼\"]真巧，我的女儿也说过类似的话。\n[charslot(slot=\"r\",name=\"avg_npc_544_1#9$1\",focus=\"r\")]\n[name=\"赫尔曼\"]但是汐斯塔被迫离开了原来的黄金海岸线，也就注定不能延续原来以旅游业为支柱的经济模式。\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#8$1\",focus=\"l\")]\n[name=\"诗怀雅\"]真可惜，我还挺喜欢那条“旧汐斯塔风情街”的……\n[name=\"诗怀雅\"]市长看来是很笃定地相信与峯驰物流的合作了？\n[charslot(slot=\"r\",name=\"avg_npc_544_1#9$1\",focus=\"r\")]\n[name=\"赫尔曼\"]我也很期待诗怀雅小姐提出不一样的答案。\n[charslot(slot=\"r\",name=\"avg_npc_544_1#5$1\",focus=\"r\")]\n[name=\"赫尔曼\"]说起来，诗怀雅小姐家族集团的名声向来是如雷贯耳，只是没想到，执行投资人的人选会是您。\n[charslot(slot=\"r\",name=\"avg_npc_544_1#9$1\",focus=\"r\")]\n[name=\"赫尔曼\"]我碰巧了解到，您似乎刚刚在汐斯塔注册了一家公司，经营范围是，建筑与文化娱乐……？\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#6$1\",focus=\"l\")]\n[name=\"诗怀雅\"]看来市长先生不太能信任我，是觉得我的话语权在这个集团中还不够分量？\n[charslot(slot=\"r\",name=\"avg_npc_544_1#10$1\",focus=\"r\")]\n[name=\"赫尔曼\"]哪里，未来永远在你们年轻人手中。只是偶然想起，与来自维多利亚的“集团”打交道，已经是三十余年前的事了。\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#2$1\",focus=\"l\")]\n[name=\"诗怀雅\"]稍微熟悉汐斯塔历史的人都会了解，那时汐斯塔从维多利亚膨胀的野心下逃脱，不算一件轻松的事。\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#8$1\",focus=\"l\")]\n[name=\"诗怀雅\"]而赫尔曼市长在那场纠纷中发挥的能量，至今仍为许多政客津津乐道。\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#7$1\",focus=\"l\")]\n[name=\"诗怀雅\"]市长先生倒也不用多虑，我现在的身份并不复杂。我带来的也只有诚意的合作和更多商机而已。\n[charslot(slot=\"r\",name=\"avg_npc_544_1#9$1\",focus=\"r\")]\n[name=\"赫尔曼\"]诗怀雅小姐有意要和峯驰物流争夺新建地块的开发权，我当然愿意看到你们双方的良性竞争，汐斯塔永远欢迎有诚意的合作。\n[name=\"赫尔曼\"]我还是很期待在竞标会上您提出的方案，也祝您在汐斯塔接下来的旅程愉快。\n[charslot(slot=\"r\",name=\"avg_npc_544_1#4$1\",focus=\"r\")]\n[name=\"赫尔曼\"]等您回到龙门后，请替我向您的祖父问好。"
+        }
+      ],
+      "description": "两人当面讨论汐斯塔商业项目。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_308_swire",
+          "reason": "两人当面讨论汐斯塔商业项目。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "两人当面讨论汐斯塔商业项目。",
+          "status": "supported",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 353,
+          "kind": "story",
+          "line": 322,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    }
+  ],
+  "relationship_id": "char_308_swire|npc_ba4ddfafe7c93381"
+}

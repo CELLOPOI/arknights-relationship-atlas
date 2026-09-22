@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 289,
+          "line": 265,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_07_end.txt",
+          "quote": "[name=\"德克萨斯\"]……为什么，你……您会在这里？\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"？？？\"]人老了，总是想找个地方享享清福。\n[Character(name=\"avg_1028_texas2_1#7$1\")]\n[name=\"德克萨斯\"]……\n[character]\n[dialog]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=1)]\n[Character(name=\"avg_npc_031\",name2=\"avg_npc_031\",fadetime=1)]\n[delay(time=2)]\n[playMusic(intro=\"$exciting_intro\",key=\"$exciting_loop\", volume=0.6)]\n[Character(name=\"avg_npc_031\")]\n[name=\"罗塞蒂家族成员\"]找到了！她在那！\n[Character(name=\"avg_npc_031\")]\n[name=\"罗塞蒂家族成员\"]包围她！\n[Character(name=\"avg_1028_texas2_1#7$1\")]\n[name=\"德克萨斯\"]看来，您是不打算让路了。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"？？？\"]因为当年的事，她还是颇为担心你的。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"？？？\"]我呢，年纪大了，如今爱做的，也不过是关照一下年轻人。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"？？？\"]留下陪我这个老头子聊聊天吧。\n[Character(name=\"avg_1028_texas2_1#7$1\")]\n[name=\"德克萨斯\"]……下次一定。"
+        }
+      ],
+      "description": "德克萨斯认出老人并与其直接对话；后文具名和法院提示确认他是阿格尼尔。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "char_102_texas",
+          "reason": "德克萨斯认出老人并与其直接对话；后文具名和法院提示确认他是阿格尼尔。",
+          "status": "supported",
+          "to": "npc_686d8dda781355b1"
+        },
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "npc_686d8dda781355b1",
+          "reason": "德克萨斯认出老人并与其直接对话；后文具名和法院提示确认他是阿格尼尔。",
+          "status": "supported",
+          "to": "char_102_texas"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 289,
+          "kind": "story",
+          "line": 265,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_102_texas|npc_686d8dda781355b1"
+}

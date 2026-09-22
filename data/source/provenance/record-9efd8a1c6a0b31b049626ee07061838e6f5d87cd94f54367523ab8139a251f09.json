@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 71,
+          "line": 22,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_st02.txt",
+          "quote": "和母亲相比，父亲给我留下的印象真的太稀薄了。我曾经在和魏彦吾对峙的时候说父亲是懦弱的男人，我的看法到现在仍然没变。\n但他……的确试图爱我，爱小塔。\n[Dialog]\n[Background(image=\"bg_uptown_2\",screenadapt=\"coverall\",fadetime=2, block=true)]\n[Delay(time=1)]\n我小时候很怕魏彦吾来我家找母亲，他就带我出门。后来他借酒浇愁越来越厉害，但他在我面前从没喝过。\n小塔起先不喜欢他，他花了很多时间和她在一起，甚至和她一起学他这辈子没听过的维多利亚语。\n母亲极烦躁的时候，他会把我们支出去，一个人面对母亲失控的情绪……\n[stopmusic(fadetime=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[delay(time=1)]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]\n[Background(image=\"70_g4_tjdiscussionroom\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_only_heavy\", pos = \"-400,-200\", block = false)]<p=1>1102年 初冬</>\n[delay(time=3)]\n[animtextclean]\n[delay(time=1)]\n[playMusic(key=\"$saferoom_loop\", volume=0.6)]\n[charslot(slot = \"left\", name = \"avg_npc_2128_1#1$1\",duration = 1)]\n[charslot(slot = \"right\", name = \"avg_1050_chen3_1#7$1\",duration = 1)]\n[delay(time=2)]\n[charslot(slot = \"left\", name = \"avg_npc_2128_1#1$1\",focus=\"l\")]\n[name=\"陈昭芊\"]谢谢你，晖洁。我想……已经足够了。\n[name=\"陈昭芊\"]其实你父亲他结婚以前，不全是这样的。\n[charslot(slot = \"right\", name = \"avg_1050_chen3_1#7$1\",focus=\"r\")]\n[name=\"陈\"]……我能明白。\n[name=\"陈\"]所以，现在需要用这柄书刀，把这份你编纂的家史改掉吗？\n[charslot(slot = \"left\", name = \"avg_npc_2128_1#2$1\",focus=\"l\")]\n[name=\"陈昭芊\"]不，只是个人家史罢了，又没有出版，用不上书刀这么贵重的东西——\n[charslot(slot = \"m\", focus = \"n\")]\n尽管陈昭芊一再推辞，陈仍然把腰间的书刀解下，交到她的手里。\n[charslot(slot = \"right\", name = \"avg_1050_chen3_1#1$1\",focus=\"r\")]\n[name=\"陈\"]颉，还有均，她们都希望这把书刀能去改正那些从粉饰和遗忘中产生的错误。\n[name=\"陈\"]即便这错误不关乎天下，只关乎一个已经没落的家族，她们想必也是愿意去订正的。\n[charslot(slot = \"left\", name = \"avg_npc_2128_1#3$1\",focus=\"l\")]\n[name=\"陈昭芊\"]……嗯。\n[charslot(slot = \"m\", focus = \"n\")]\n陈昭芊仿佛在感受重量似的，把书刀放在手里反复掂量，却迟迟没有使用的意思。\n[charslot(slot = \"left\", name = \"avg_npc_2128_1#9$1\",focus=\"l\")]\n[name=\"陈昭芊\"]晖洁，颉她……究竟还会回来吗？\n[charslot(slot = \"right\", name = \"avg_1050_chen3_1#7$1\",focus=\"r\")]\n[name=\"陈\"]说实话，我不知道。\n[charslot(slot = \"right\", name = \"avg_1050_chen3_1#4$1\",focus=\"r\")]\n[name=\"陈\"]从界园里带出来的那个小东西，的确已经把自己舒舒服服地安顿在顶楼那间办公室里了。\n[charslot(slot = \"right\", name = \"avg_1050_chen3_1#7$1\",focus=\"r\")]\n[name=\"陈\"]但你问我，这究竟是不是那个与大炎的历史相伴数百年的颉……我不知道。"
+        }
+      ],
+      "description": "前者在已读场景中明确点名、讨论或接受后者的具体委托；本篇未见反向依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C30"
+          ],
+          "from": "char_010_chen",
+          "reason": "前者在已读场景中明确点名、讨论或接受后者的具体委托；本篇未见反向依据。",
+          "status": "supported",
+          "to": "npc_3da4a89447bd1525"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3da4a89447bd1525",
+          "reason": "本篇候选窗口未建立反向知晓或往来。",
+          "status": "not_established",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 71,
+          "kind": "story",
+          "line": 22,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_3da4a89447bd1525"
+}

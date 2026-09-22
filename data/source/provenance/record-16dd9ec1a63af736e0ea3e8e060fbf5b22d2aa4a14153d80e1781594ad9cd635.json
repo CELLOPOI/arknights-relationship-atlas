@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 507,
+          "line": 482,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_07_end.txt",
+          "quote": "[name=\"罗辛南特\"]（高亢的嘶吼）\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_swimdeepsea\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_448_1#1$1\", duration=1.5, isblock=true)]\n[name=\"最后的骑士\"]——！\n[charslot(slot = \"m\", name = \"avg_npc_1389_1#1$1\")]\n[name=\"海嗣\"]你，族群，相似……\n[name=\"海嗣\"]从哪里……\n[name=\"海嗣\"]嘎——\n[charslot(slot = \"m\", name = \"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]巨浪，由你们营造，又由你们板结。\n[name=\"最后的骑士\"]你们，要将这里……化作土地？\n[name=\"最后的骑士\"]不许。\n[name=\"最后的骑士\"]颠倒意义。旷野，山川，小麦地，陆地只是陆地。\n[name=\"最后的骑士\"]我寻找，我斥责，我粉碎。\n[charslot(slot = \"m\", name = \"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]他是之前和乌尔比安同行的……\n[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]\n[name=\"幽灵鲨\"]呼……好久不见了，骑士先生。\n[charslot(slot = \"m\", name = \"avg_npc_1389_1#1$1\")]\n[name=\"海嗣\"]你，不是同胞。\n[CameraShake(duration=0.8, xstrength=40, ystrength=40, vibrato=90, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_lastknightroar\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]（愤怒的咆哮）————！"
+        }
+      ],
+      "description": "罗辛南特载着或陪同最后的骑士共同驰援。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "最后的骑士随罗辛南特的嘶吼共同破开壳衣并投入战斗。",
+          "status": "supported",
+          "to": "npc_714a30cf8b57140b"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_714a30cf8b57140b",
+          "reason": "罗辛南特与最后的骑士协同行动并共同抵达猎人所在巢穴。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 507,
+          "kind": "story",
+          "line": 482,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "海嗣巢穴救援",
+      "title": "生路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 454,
+          "line": 397,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_05_beg.txt",
+          "quote": "[name=\"最后的骑士\"]……Ishar……mla……\n[Dialog]\n[PlaySound(key=\"$d_gen_thunders_amb\")]\n[CameraShake(duration=-1, xstrength=10, ystrength=0, vibrato=15, randomness=20,fadeout=true)]\n[Blocker(a=0.6, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[name=\"最后的骑士\"]（沙哑的咆哮）——罗辛——南特——！\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(fadetime=0)]\n[Background(image=\"27_g24_cloudy_sea\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_463_1#1$1\",name2=\"char_empty\",fadetime=3)]\n[Characteraction(name=\"left\", type=\"move\", ypos=-500, fadetime=0, block=true)]\n[Characteraction(name=\"left\", type=\"move\", ypos=500, fadetime=3, block=true)]\n[Background(image=\"27_g24_cloudy_sea\",x=0, y=0, xScale=1.1, yScale=1.1, fadetime=1,screenadapt=\"coverall\")]\n[CameraShake(duration=3, xstrength=10, ystrength=0, vibrato=15, randomness=20,fadeout=true)]\n[BackgroundTween(xFrom=0, yFrom=0, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=4, block=true)]\n[CameraShake(duration=1.5, xstrength=30, ystrength=30, vibrato=25, randomness=50,fadeout=true)]\n[PlaySound(key=\"$d_avg_horse\")]\n[PlaySound(key=\"$d_gen_thunders_amb\")]\n[name=\"罗辛南特\"]（嘶鸣）——！！\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_463_1#1$1\",name2=\"avg_npc_448_1#1$1\",focus=2)]\n[Characteraction(name=\"right\", type=\"move\", xpos=400, fadetime=0, block=true)]\n[Characteraction(name=\"right\", type=\"jump\", xpos=-400,times=1, power=15, fadetime=0.5, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_463_1#1$1\",name2=\"avg_npc_448_1#1$1\",focus=2)]\n[name=\"最后的骑士\"]（不清晰的发音）追！\n[Dialog]\n[Character(fadetime=0.5)]\n[Delay(time=1)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Background(image=\"27_g19_lighthouse_front\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_1023_ghost2_1#4$1\")]\n[name=\"幽灵鲨\"]原来骑士先生会害怕光芒。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]别追，这样的海嗣不止一只，护卫灯塔，才是任务。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"幽灵鲨\"]骑士先生只是对灯塔失去了兴趣。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]我对怪物的动机也没有兴趣。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"幽灵鲨\"]你是在说，我也是怪物？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]你？\n[name=\"大审判官达里奥\"]你正在发生变化。我并不清楚这种变化是否会发生在每一个深海猎人身上。\n[name=\"大审判官达里奥\"]但如果有必要，这片礁石将是你们最后踏足的陆地。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"幽灵鲨\"]我们明明被海洋环绕，你还称这里作陆地？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]因灾难而改变的是海岸线，不是国境线。\n[name=\"大审判官达里奥\"]被大静谧吞噬的每一寸土地仍然服从于伊比利亚的律法。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"幽灵鲨\"]律法，高尚的词语。但并非所有生灵都认可这种高尚。"
+        }
+      ],
+      "description": "最后的骑士点名呼唤罗辛南特，坐骑以嘶鸣回应并与其共同撤离。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S22"
+          ],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "最后的骑士点名呼唤罗辛南特，坐骑以嘶鸣回应并与其共同撤离。",
+          "status": "supported",
+          "to": "npc_714a30cf8b57140b"
+        },
+        {
+          "evidenceIds": [
+            "S22"
+          ],
+          "from": "npc_714a30cf8b57140b",
+          "reason": "最后的骑士点名呼唤罗辛南特，坐骑以嘶鸣回应并与其共同撤离。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 454,
+          "kind": "story",
+          "line": 397,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "npc_58c708dd33128fbf|npc_714a30cf8b57140b"
+}

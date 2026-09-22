@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 241,
+          "line": 222,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-08_end.txt",
+          "quote": "[name=\"科谢尼娅\"]不过，我大概本来就没资格知道这些……\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]\n[name=\"Mon3tr\"]科谢尼娅。\n[charslot(slot=\"m\",name=\"avg_4208_wintim_1#7$1\")]\n[name=\"科谢尼娅\"]嗯？\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]\n[name=\"Mon3tr\"]你会再见到凯尔希的。肯定会。\n[charslot(slot=\"m\",name=\"avg_4208_wintim_1#6$1\")]\n[name=\"科谢尼娅\"]啊，这么说她确实还……\n[charslot(slot=\"m\",name=\"avg_4208_wintim_1#9$1\")]\n[name=\"科谢尼娅\"]太好了。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]\n[name=\"Mon3tr\"]无论如何，我们都会再见到凯尔希的。博士，对不对？\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"……没错。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4208_wintim_1#9$1\")]\n[name=\"科谢尼娅\"]我会期待的……"
+        }
+      ],
+      "description": "冬时与博士同场讨论罗德岛与凯尔希。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "char_4208_wintim",
+          "reason": "冬时与博士同场讨论罗德岛与凯尔希。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "冬时与博士同场讨论罗德岛与凯尔希。",
+          "status": "supported",
+          "to": "char_4208_wintim"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_ef827cdde49f2fd2.json",
+      "sources": [
+        {
+          "endLine": 241,
+          "kind": "story",
+          "line": 222,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "反常光谱所述时段或明确既往互动",
+      "title": "反常光谱"
+    }
+  ],
+  "relationship_id": "char_4208_wintim|npc_b99957887950ebfd"
+}

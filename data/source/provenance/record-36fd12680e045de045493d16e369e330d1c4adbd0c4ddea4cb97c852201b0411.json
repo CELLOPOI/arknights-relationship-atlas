@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 362,
+          "line": 223,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_06_beg.txt",
+          "quote": "[name=\"埃琳娜\"]奥利维亚……我从来没见过你这样……\n[character]\n这样愤怒。\n赫默感觉到了自己的怒火，她的大脑嗡嗡作响，过往的一幕幕接二连三地浮现出来，将理性与修养撞得七零八落。\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]你确实会改变他们的命运，可代价呢？他们会永远失去自由，也失去自己的人生！\n[character(name=\"avg_4048_doroth_1#3$1\")]\n[name=\"多萝西\"]……我会保护他们。\n[character(name=\"avg_4048_doroth_1#3$1\")]\n[name=\"多萝西\"]我愿意付出我的生命……\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]也许在这里杀了你，对所有人而言才是最安全的。\n[character(name=\"avg_4048_doroth_1#2$1\")]\n[name=\"多萝西\"]如果这是你们的最终决定……\n[character(name=\"avg_4048_doroth_1#2$1\")]\n[name=\"多萝西\"]我不会反抗。\n[character(name=\"avg_135_halo_1#6$1\")]\n[name=\"埃琳娜\"]桑尼，千万别冲动！\n[character(name=\"avg_npc_535_1#2$1\")]\n[name=\"桑尼\"]哈哈……乌比卡博士，我没有冲动。\n[character(name=\"avg_npc_535_1#2$1\")]\n[name=\"桑尼\"]我比任何时候都要清醒。\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]多萝西·弗兰克斯……我必须承认，你描绘的未来很有吸引力。\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]就像我差一点点就走进了你的实验室……也许连你都不知道，我有多少次想拉住你的手。\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]……为什么不？\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]因为我的未来……应该是自己的。\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]你的言语，你的姿态……越让我想要亲近，我就越清醒地意识到……\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]你正在控制我们。\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]我……\n[character(name=\"avg_npc_535_1#5$1\")]\n[name=\"桑尼\"]要挣脱一个美梦……比挣脱噩梦更难。\n[character(name=\"avg_npc_535_1#5$1\")]\n[name=\"桑尼\"]弗兰克斯主任，也许你也正在这个梦中，可我们要面对的却是真正的现实。\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]赫默医生是对的，这样的实验，从头到尾都不该存在。\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]这片土地已经孕育出了足够的疯狂，像这样疯狂的主意，还是尽早埋葬更好。\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]即便我们全都要死在这里……即便我要承担最惨痛的后果。\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]我也希望类似的事情到此为止。\n[character(name=\"avg_135_halo_1#6$1\")]\n[name=\"埃琳娜\"]奥利维亚，快劝劝桑尼呀！\n[character(name=\"avg_135_halo_1#3$1\")]\n[name=\"埃琳娜\"]无论如何……多萝西是想帮助这些受试者。\n[character(name=\"avg_135_halo_1#3$1\")]\n[name=\"埃琳娜\"]就算……就算她应该被阻止，应该受到惩罚，也不该这样……不该由这些她真心爱着的人……\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]……\n[character(name=\"avg_128_plosis_1#1$1\")]\n[name=\"白面鸮\"]桑尼……\n[character(name=\"avg_108_silent_1#5$1\")]\n[name=\"赫默\"]乔伊丝？\n[character(name=\"avg_108_silent_1#5$1\")]\n[name=\"赫默\"]你……清醒了。\n[character(name=\"avg_128_plosis_1#1$1\")]\n[name=\"白面鸮\"]请不要伤害弗兰克斯主任。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(fadetime=0)]\n[Background(image=\"29_g7_mainstreet_n\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]博士，同步失败。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]……359号基地里实验的情况说不定比我们预想的还要严峻。\n[character]\n[dialog]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[character(name=\"char_249_muesys_1#7\",fadetime=1)]\n[delay(time=1)]\n[name=\"缪尔赛思\"]嗯……\n[dialog]\n[character(name=\"char_249_muesys_1#7\",focus=-1)]\n[Decision(options=\"你还好吗？\",values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"char_249_muesys_1#5\")]\n[name=\"缪尔赛思\"]谢谢你扶着我，Dr.{@nickname}。\n[character(name=\"char_249_muesys_1#5\")]\n[name=\"缪尔赛思\"]我终于能感觉到自己的腿了。\n[dialog]\n[character(name=\"char_249_muesys_1#5\",focus=-1)]\n[Decision(options=\"359号基地背后不止有莱茵生命。;斐尔迪南与其他更大的势力有合作。\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"char_249_muesys_1#5\")]\n[name=\"缪尔赛思\"]斐尔迪南的合作对象，塞雷娅也很清楚吧？\n[name=\"缪尔赛思\"]你追踪了那么久的动力甲，最后只可能穿在最需要尖端武器的那些人身上。\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]你见过那些人了，证据呢？\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]……这就给你。\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]刚才的温柔果然是错觉吧？为了搞到你想要的证据，我可是差点连命都搭上啊。\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]——\n[character(name=\"avg_npc_532_1#8$1\")]\n[name=\"塞雷娅\"]我们一直以来的猜测都是真的。\n[character(name=\"avg_npc_532_1#8$1\")]\n[name=\"塞雷娅\"]斐尔迪南已经不再隐藏自己的野心。\n[dialog]\n[character]\n[Decision(options=\"斐尔迪南想要用这个实验来换取支持……\",values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]……然后夺取莱茵生命。\n[name=\"缪尔赛思\"]我们必须去找克丽斯腾，她才是斐尔迪南的第一目标。\n[name=\"缪尔赛思\"]塞雷娅，你收到我发的最后一条消息了吧？\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]……我联系了莱茵的线人，他们说内部一切如常。\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]那是因为他们早就习惯了总辖不露面。\n[name=\"缪尔赛思\"]斐尔迪南筹谋了好几年，一点点架空了总辖……这个实验换来的筹码将是最后一步。\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]唔，搞不好不是最后一步。\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]在被抓住之前，我已经有一个多星期联系不上克丽斯腾了。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]那基地那边怎么办？\n[character(name=\"char_249_muesys_1#5\")]\n[name=\"缪尔赛思\"]我相信赫默医生的能力，她可是让我吃过亏的人呢。\n[character(name=\"avg_npc_532_1#9$1\")]\n[name=\"塞雷娅\"]……\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]来不及犹豫了哦，塞雷娅。\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]你必须做出选择。\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]……博士，这并不是一个选择题。\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]解决基地问题的前提是解决斐尔迪南，而解决斐尔迪南的方式正摆在我们面前。\n[dialog]\n[character]\n[Decision(options=\"走吧，去见一见莱茵总辖。\",values=\"1\")]"
+        }
+      ],
+      "description": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "char_249_mlyss",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "char_249_mlyss"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 362,
+          "kind": "story",
+          "line": 223,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "绿野幻梦"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 720,
+          "line": 647,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st02.txt",
+          "quote": "[name=\"？？？\"]哎，博士，你没事吧？\n[name=\"？？？\"]咦，我应该是把水控制在不进入呼吸道的程度……\n[name=\"？？？\"]难道说，太久没用这一招，控制水平下降了？\n[name=\"？？？\"]博士应该是因为途中的颠簸而昏迷的。\n[name=\"？？？\"]啊——抱歉抱歉。\n[name=\"？？？\"]都怪那个小贾斯汀，突然抛了一大堆文件给我，说每个主任都要填，不然拿不到下个年度的经费。\n[name=\"？？？\"]好险，差点就没赶上。\n[dialog]\n[delay(time=0.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Decision(options=\"咳咳……;……;没赶上什么？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[name=\"？？？\"]啊，你醒了，博士。\n[dialog]\n[bgeffect(name=\"$eb_dim_openeye\",layer=1)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\")]\n[Dialog]\n[Background(image=\"38_g13_trimountlivingroom\",screenadapt=\"coverall\")]\n[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0.8, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.8, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[name=\"缪尔赛思\"]早上好……不对，是晚上好。\n[dialog]\n[bgeffect]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\",focus=\"n\")]\n[Decision(options=\"我们已经不在莱茵了。;……;我最后的记忆是通风管道——\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#9$1\")]\n[name=\"缪尔赛思\"]没错，在我得知你们有危险后，就一直在操控着水寻找你们。\n[name=\"缪尔赛思\"]在你们即将被发现的时候，我终于找到了你们，于是，就用水把你们包裹起来，运到了这里。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\")]\n[name=\"缪尔赛思\"]事急从权，有些颠簸就体谅一下啦。\n[dialog]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\",focus=\"n\")]\n[Decision(options=\"我欠你一次。;……;大恩大德，无以回报。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\")]\n[name=\"缪尔赛思\"]你救过我一次，我救了你一次……唔，不知道下一次是谁救谁呢？\n[dialog]\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#7$1\")]\n[name=\"缪尔赛思\"]博士，你该不会在想要怎么报答我吧？\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\")]\n[name=\"缪尔赛思\"]嗯……下次陪我去购物怎么样？\n[dialog]\n[Predicate(references=\"3\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#10$1\")]\n[name=\"缪尔赛思\"]也没有那么了不起啦，嘻嘻。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\")]\n[name=\"缪尔赛思\"]不过呢，你要是真的觉得无以回报，就在这份雇佣合同上签个字吧！我不介意多一个像你这么聪明的助手哦。\n[dialog]\n[Predicate(references=\"1;2;3\")]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#2$1\")]\n[name=\"缪尔赛思\"]博士……虽然你刚醒来，但是，我必须告诉你一个坏消息。\n[name=\"缪尔赛思\"]几乎就在你和迷迭香被袭击的同时，塞雷娅也被袭击了。\n[dialog]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#2$1\",focus=\"n\")]\n[Decision(options=\"塞雷娅还好吗？;……;伊芙利特呢？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]具体情况我也不怎么了解，但那可是比钻石还硬的塞雷娅哎！不至于有生命危险吧？\n[name=\"缪尔赛思\"]关键是接下来该怎么办。你也感受到了，军方一旦决定警告你们，可不会轻易放弃。\n[name=\"缪尔赛思\"]现在你的处境，不，应该说，罗德岛的处境，非常不妙哦。\n[dialog]\n[charslot]\n[Predicate(references=\"3\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#3$1\")]\n[name=\"缪尔赛思\"]伊芙芙应该还好，只是塞雷娅……\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]具体情况我也不怎么了解，但那可是比钻石还硬的塞雷娅哎！不至于有生命危险吧？\n[name=\"缪尔赛思\"]关键是接下来该怎么办。你也感受到了，军方一旦决定警告你们，可不会轻易放弃。\n[name=\"缪尔赛思\"]现在你的处境，不，应该说，罗德岛的处境，非常不妙哦。"
+        }
+      ],
+      "description": "缪尔赛思救出博士并与他持续直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C12"
+          ],
+          "from": "char_249_mlyss",
+          "reason": "缪尔赛思救出博士并与他持续直接交谈。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C12"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "缪尔赛思救出博士并与他持续直接交谈。",
+          "status": "supported",
+          "to": "char_249_mlyss"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 720,
+          "kind": "story",
+          "line": 647,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 951,
+          "line": 899,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "quote": "[name=\"Sharp\"]别激动。\n[name=\"Sharp\"]只是路过。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]这身制服……\n[name=\"“灰礼帽”\"]……这还真是个惊喜。\n[name=\"“灰礼帽”\"]罗德岛的人怎么会在这里？\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]这个你得问我上司。\n[Dialog]\n[charslot]\n[Decision(options=\"开斯特的好帮手又怎么在这里？;什么事要问我，贝林厄姆先生？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]这确实挺让人惊讶的。没想到还能见到您本人。\n[name=\"“灰礼帽”\"]但我记得，罗德岛和谢拉格的联系，仅限于“公司间的合作”来着？\n[name=\"“灰礼帽”\"]总不能是我记错了吧。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]好久不见……“博士”。\n[name=\"“灰礼帽”\"]这位也是罗德岛干员？看来情报说得没错，罗德岛的全貌我们确实未能完全把握。\n[name=\"“灰礼帽”\"]但是眼下先不提别的了。能在这里见到您，真是又惊又喜。\n[name=\"“灰礼帽”\"]诚心实意，这次不是在骗您了。毕竟我连这身打扮都没撤下，您就能认出我来。\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]罗德岛，你们——\n[Dialog]\n[charslot]\n[name=\"？？？\"]哇，博士！快来帮帮我！\n[Dialog]\n[Decision(options=\"缪尔赛思！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"缪尔赛思\"]嗯，怎么啦？\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]马上就要到站了，快来帮我收拾器械，博士……\n[name=\"缪尔赛思\"]咦？你们这是……？\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#6$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"烈夏\"]博士，咱们要不要去催催列车长让他再快点……\n[charslot(slot=\"m\",name=\"avg_194_leto_1#14$1\")]\n[name=\"烈夏\"]咦，是你！\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]罗德岛和哥伦比亚的莱茵生命……原来如此，原来如此。\n[name=\"“灰礼帽”\"]各位出现在此，看来并非巧合。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\")]\n[name=\"缪尔赛思\"]哎呀，看来这位先生认识我呢。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#9$1\")]\n[name=\"缪尔赛思\"]博士，Sharp先生，还有小烈夏，不为我介绍一下这位戴帽子的先生吗？"
+        }
+      ],
+      "description": "缪尔赛思与博士直接同行。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "char_249_mlyss",
+          "reason": "缪尔赛思直接呼叫博士帮忙。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士以对话选项直接回应缪尔赛思。",
+          "status": "supported",
+          "to": "char_249_mlyss"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 951,
+          "kind": "story",
+          "line": 899,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "前往银心湖的列车上",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_249_mlyss|npc_b99957887950ebfd"
+}

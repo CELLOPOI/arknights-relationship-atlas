@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 186,
+          "line": 150,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st05.txt",
+          "quote": "[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=1)]\n[name=\"医疗干员\"]  伊芙利特……我也有自己的工作的。\n[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=2)]\n[name=\"伊芙利特\"]  那就别管我的事！说过好多次了，那些穿着白大褂的，我看见就难受！\n[name=\"伊芙利特\"]  快让开，别挡着我出门。\n[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=1)]\n[name=\"医疗干员\"]  可是，检查……\n[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=2)]\n[name=\"伊芙利特\"]  我让你别挡路！\n[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"char_134_ifrit_5#4\")]\n[name=\"伊芙利特\"]  啊！！\n[name=\"伊芙利特\"]  我，我的作业！烧，烧起来了！\n[Character(name=\"char_134_ifrit_5#2\")]\n[name=\"伊芙利特\"]  你搞什么，搞什么啊？！\n[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=1)]\n[name=\"医疗干员\"]  伊芙利特！快，快灭火！\n[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"char_134_ifrit_5#2\")]\n[name=\"伊芙利特\"]  都说了，让我一个人待着！！\n[name=\"伊芙利特\"]  你怎么赔我！\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]  不行，不行！我去叫夜莺小姐，请等一下！\n[Dialog]\n[Character(fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"char_134_ifrit_5#8\")]\n[name=\"伊芙利特\"]   ……不，不行。\n[name=\"伊芙利特\"]   我又做了什么啊，可恶……\n[name=\"伊芙利特\"]   哎，作业！\n[Character(name=\"char_134_ifrit_5#3\")]\n[name=\"伊芙利特\"]   嗯……破破烂烂的。\n[name=\"伊芙利特\"]   （赫默也不肯带上我。可恶，明明我那么强！）\n[name=\"伊芙利特\"]   （现在博士也出去了，就只剩下那些讨人厌的白大褂……）\n[name=\"伊芙利特\"]   （真烦，这么怕我的话干脆就离我远点啊。）\n[name=\"伊芙利特\"]   （本子……稍稍烧焦了一点，不过还行吧？）\n[name=\"伊芙利特\"]   （算了，总之先把练习题放到博士的办公桌上，应该就OK了？）"
+        }
+      ],
+      "description": "伊芙利特与 Medic 对应医疗干员直接互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_134_ifrit",
+          "reason": "伊芙利特直接呵斥并回应医疗干员。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "医疗干员直接叫伊芙利特并处理其起火。",
+          "status": "supported",
+          "to": "char_134_ifrit"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 186,
+          "kind": "story",
+          "line": 150,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛课后作业时段",
+      "title": "战地秘闻"
+    }
+  ],
+  "relationship_id": "char_134_ifrit|npc_30c8dcf1e7b8383d"
+}

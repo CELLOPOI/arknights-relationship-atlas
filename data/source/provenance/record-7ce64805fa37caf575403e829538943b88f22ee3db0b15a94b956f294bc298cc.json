@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 152,
+          "line": 138,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_07_beg.txt",
+          "quote": "[name=\"费德里科\"]枢机薇尔丽芙，你好。\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_npc_361_1#5$1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"薇尔丽芙\"]你好，执行者费德里科。\n[Character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]叛徒奥伦的处置接下来移交第七厅，公证所方面可以转项结案了，你关于此事的报告麻烦抄送第七厅、第一厅。\n[Character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]这是我的认证码。\n[Character(name=\"char_279_excu_4\")]\n[name=\"费德里科\"]确认完毕，程序合规。\n[Character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]然后，你想继续休假还是临时参与迷途者缉捕行动？随你高兴。"
+        }
+      ],
+      "description": "费德里科与薇尔丽芙直接办理案件移交。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_279_excu",
+          "reason": "费德里科与薇尔丽芙直接办理案件移交。",
+          "status": "supported",
+          "to": "npc_0ce6ed6bdcaa7258"
+        },
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "费德里科与薇尔丽芙直接办理案件移交。",
+          "status": "supported",
+          "to": "char_279_excu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 152,
+          "kind": "story",
+          "line": 138,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    }
+  ],
+  "relationship_id": "char_279_excu|npc_0ce6ed6bdcaa7258"
+}

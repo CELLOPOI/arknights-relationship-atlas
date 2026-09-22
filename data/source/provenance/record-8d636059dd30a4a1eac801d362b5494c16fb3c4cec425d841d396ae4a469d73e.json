@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 232,
+          "line": 150,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act48side/level_act48side_04_beg.txt",
+          "quote": "[charslot(slot=\"l\",name=\"avgnew_482_pallas_1#20$1\",focus=\"l\")]\n[name=\"帕拉斯\"]唔，好像是渡口来的船一头撞进了旅店后厨？\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"69_g5_athenusalley\",screenadapt=\"coverall\", block=true)]\n[delay(time=2)]\n[bgeffect(name=\"$eb_smoke_01\",layer=1)]\n[PlaySound(key=\"$d_avg_churchfire\", volume=0, loop=true, channel=\"c\")]\n[SoundVolume(volume=1, channel=\"c\",fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_earthfissure\")]\n[CameraShake(duration=3, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=3)]\n[name=\"哀叹的男声\"]完了……全完了！\n[name=\"哀叹的男声\"]你到底会不会开船！五米远的距离你鼓什么帆？今天这种大风天，船的速度可比信使荷迈斯的脚程还快！\n[name=\"淡定的男声\"]您说船离后厨越近越好。\n[name=\"哀叹的男声\"]……\n[name=\"哀叹的男声\"]它们现在都负距离接触了！\n[Dialog]\n[PlaySound(key=\"$rungeneral\")]\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#9$1\",duration=1)]\n[Delay(time=2.5)]\n[name=\"赫卡德墨\"]让一让，都让一让。\n[name=\"赫卡德墨\"]治安官已经在疏散人群了，大家不要聚在这里围观。我先来了解一下情况，到底发生什么了——\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#11$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]吕刻伊昂？\n[charslot(slot=\"m\",name=\"avg_npc_2069_1#10$1\",focus=\"m\")]\n[name=\"吕刻伊昂\"]……\n[charslot(slot=\"m\",name=\"avg_npc_2074_1#1$1\",focus=\"m\")]\n[name=\"旅店老板\"]执笔人先生，你可要为我做主啊！\n[name=\"旅店老板\"]我只是想让送食材的货船离后厨更近一些，没想到这个小子直接把我的厨房撞烂了……\n[charslot(slot=\"m\",name=\"avg_npc_2069_1#10$1\",focus=\"m\")]\n[name=\"吕刻伊昂\"]实在对不起，我……并不会开船。\n[charslot(slot=\"m\",name=\"avg_npc_2074_1#1$1\",focus=\"m\")]\n[name=\"旅店老板\"]你跟着赞索斯那么久了，每天都待在渡口，到现在连开船都不会？骗谁啊！\n[charslot(slot=\"m\",name=\"avg_npc_2069_1#4$1\",focus=\"m\")]\n[name=\"吕刻伊昂\"]理论知识，不能充分指导实践。\n[charslot(slot=\"m\",name=\"avg_npc_2074_1#1$1\",focus=\"m\")]\n[name=\"旅店老板\"]你——！\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#5$1\",focus=\"m\")]\n[CameraShake(duration=0.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"赫卡德墨\"]行了！\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#8$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]我可以作证，还在祭司学院念书的时候，他的方程式战车竞技课考试就没及格过。\n[charslot(slot=\"m\",name=\"avg_npc_2074_1#1$1\",focus=\"m\")]\n[name=\"旅店老板\"]那、那这么大的停泊标志也没看清？船头可是越过栏杆撞进来的啊！\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#11$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]没看清……？\n[name=\"赫卡德墨\"]（源石感染已经蔓延到了他的视觉中枢……所以那天莱娜小姐才上门诊疗？！）\n[name=\"赫卡德墨\"]吕刻伊昂……\n[charslot(slot=\"m\",name=\"avg_npc_2069_1#10$1\",focus=\"m\")]\n[name=\"吕刻伊昂\"]……你这是什么表情，好像我马上就要死——\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#11$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]呸呸呸！就算这是事实……不、不准你说这样的话！\n[charslot(slot=\"m\",name=\"avg_npc_2074_1#1$1\",focus=\"m\")]\n[name=\"旅店老板\"]呃，执笔人先生，我知道你们是同窗，但能不能先秉公帮我处理后厨的损失啊。\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#6$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]拿着。\n[charslot(slot=\"m\",name=\"avg_npc_2074_1#1$1\",focus=\"m\")]\n[name=\"旅店老板\"]欸？这是您的钱袋？\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#6$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]要多少自己拿，我来替他赔。\n[charslot(slot=\"m\",name=\"avg_npc_2069_1#1$1\",focus=\"m\")]\n[name=\"吕刻伊昂\"]谁要你替我赔钱了？\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#8$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]你从祭司学院离开之后，也没有一份正经工作。虽然吃住有赞索斯先生管，但也攒不下多少钱吧。\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#11$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]不用担心这笔赔款，你的钱得拿去治病。别忘了，你还欠我一场辩论。\n[charslot(slot=\"m\",name=\"avg_npc_2069_1#10$1\",focus=\"m\")]\n[name=\"吕刻伊昂\"]不是，我真没事……咳咳……\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#4$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]咳嗽……难不成是急性发作？医生呢，医生在哪儿？\n[charslot(slot=\"m\",name=\"avg_npc_2069_1#9$1\",focus=\"m\")]\n[name=\"吕刻伊昂\"]闭嘴，我这是被烟呛的！理事官的执笔人先生，你还是先去找人救火吧。\n[Dialog]\n[stopsound(channel=\"c\",fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[bgeffect]"
+        }
+      ],
+      "description": "老同学在事故现场直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_4645a620e207c8de",
+          "reason": "老同学在事故现场直接交谈。",
+          "status": "supported",
+          "to": "npc_dcbd686eb92787fe"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_dcbd686eb92787fe",
+          "reason": "老同学在事故现场直接交谈。",
+          "status": "supported",
+          "to": "npc_4645a620e207c8de"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_04151079098ee9e5.json",
+      "sources": [
+        {
+          "endLine": 232,
+          "kind": "story",
+          "line": 150,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act48side/level_act48side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇雅赛努斯事件期间",
+      "title": "雅赛努斯复仇记"
+    }
+  ],
+  "relationship_id": "npc_4645a620e207c8de|npc_dcbd686eb92787fe"
+}

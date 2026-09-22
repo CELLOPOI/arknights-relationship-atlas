@@ -1,0 +1,26 @@
+name: 网站问题
+description: 报告图谱、游戏、接口或开发工具的问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: 请勿在公开 Issue 中填写密码、令牌、私人联系方式或未经处理的后台截图。
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 实际行为与预期行为
+      description: 说明哪里出错，以及你预期应该发生什么。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤
+      description: 提供入口、操作步骤和必要的截图或错误信息。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 使用环境
+      description: 浏览器、设备，以及能确认的网站或代码版本。

@@ -1,0 +1,10 @@
+{% extends "admin/atlas/editorial/base.html" %}
+{% block workspace %}
+<p class="meta">{{ original.get_origin_display }} · {{ original.created_at }} · 发布人 {{ original.actor|default:"初始化命令" }}</p>
+<p>前版：{{ original.previous_id|default:"无" }} · 素材版本：{{ original.manifest.asset_version }}</p>
+{% if change_set %}<p><a href="{% url 'admin:atlas_changeset_change' change_set.pk %}">查看修订和审核记录：{{ change_set.title }}</a></p>{% endif %}
+<form method="post" action="{% url 'admin:atlas_datarelease_export' original.pk %}">{% csrf_token %}<button type="submit">导出此版本资料快照</button></form>
+<p>快照可归档到 Git，仅包含正式资料和版本信息，不包含账号、反馈、联系方式及内部审核记录。</p>
+{% if can_rollback %}<p><a href="{% url 'admin:atlas_changeset_add' %}?rollback={{ original.pk|urlencode }}">创建回退到此版本的修订</a></p>{% endif %}
+<h2>本次发布差异</h2>{% include "admin/atlas/editorial/diff.html" %}
+{% endblock %}

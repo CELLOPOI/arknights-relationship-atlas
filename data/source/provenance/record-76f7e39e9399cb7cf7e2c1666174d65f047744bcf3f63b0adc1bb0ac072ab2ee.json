@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 181,
+          "line": 129,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18d3/level_act18d3_st02.txt",
+          "quote": "[Subtitle(text=\"大审判官环顾几位猎人。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=1)]\n[name=\"大审判官\"]这些人里，至少有一个得留下。\n[character(name=\"char_143_ghost#2\")]\n[name=\"幽灵鲨\"]我。\n[character(name=\"avg_1012_skadiSP_1#1\")]\n[name=\"斯卡蒂\"]不。\n[character(name=\"avg_474_gladiia_1#1\")]\n[name=\"歌蕾蒂娅\"]你们回去。\n[name=\"歌蕾蒂娅\"]凯尔希，就像我们说好的那样。我不在，就由你带领他们。\n[character(name=\"avg_1012_skadiSP_1#1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"斯卡蒂\"]你……？\n[name=\"斯卡蒂\"]这是怎么回事？\n[dialog]\n[character]\n[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.4)]\n[delay(time=1)]\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]……\n[name=\"凯尔希\"]大审判官，我是否有这个资格？\n[name=\"凯尔希\"]我可以代受审问。我可以梳理来龙去脉。你能得到你需要的信息。\n[name=\"凯尔希\"]我能忍受伊比利亚的牢狱。\n[character(name=\"avg_npc_183#3\")]\n[name=\"大审判官\"]——\n[name=\"大审判官\"]如果你这么坚持。\n[character(name=\"avg_1012_skadiSP_1#1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]凯尔希女士？\n[character(name=\"avg_1012_skadiSP_1#1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"斯卡蒂\"]……医生？\n[character(name=\"avg_npc_183#3\")]\n[name=\"大审判官\"]所以你希望我把这几个人驱逐出境？\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]至少现在，是的。至少现在。\n[dialog]\n[delay(time=1)]\n[name=\"凯尔希\"]你们几个——\n[name=\"凯尔希\"]回罗德岛。在伊比利亚东北边境，Misery会接应你们。这回别走水路。\n[character(name=\"avg_npc_183#3\")]\n[name=\"大审判官\"]路线是审判庭指定的。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]只要终点在那，其他我们都能接受。\n[character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]你要多长时间才能回来？我可等不了太久。\n[character(name=\"avg_npc_183#3\")]\n[name=\"大审判官\"]她无权决定。\n[character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]请勿擅自下结论，伊比利亚的鸟儿。监牢的围墙于我和沙土无异。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]歌蕾蒂娅，不。\n[character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]所以我该目送你被他押走？"
+        }
+      ],
+      "description": "幽灵鲨与大审判官直接同场交涉。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_143_ghost",
+          "reason": "幽灵鲨回应大审判官要求并主动提出留下。",
+          "status": "supported",
+          "to": "npc_dcd9165b3a65e04d"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_dcd9165b3a65e04d",
+          "reason": "大审判官环顾猎人并要求其中一人留下。",
+          "status": "supported",
+          "to": "char_143_ghost"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_a4822f3498b97894.json",
+      "sources": [
+        {
+          "endLine": 181,
+          "kind": "story",
+          "line": 129,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18d3/level_act18d3_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "盐风城事件结束后的海岸对峙",
+      "title": "覆潮之下"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 454,
+          "line": 397,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_05_beg.txt",
+          "quote": "[name=\"最后的骑士\"]……Ishar……mla……\n[Dialog]\n[PlaySound(key=\"$d_gen_thunders_amb\")]\n[CameraShake(duration=-1, xstrength=10, ystrength=0, vibrato=15, randomness=20,fadeout=true)]\n[Blocker(a=0.6, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[name=\"最后的骑士\"]（沙哑的咆哮）——罗辛——南特——！\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(fadetime=0)]\n[Background(image=\"27_g24_cloudy_sea\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_463_1#1$1\",name2=\"char_empty\",fadetime=3)]\n[Characteraction(name=\"left\", type=\"move\", ypos=-500, fadetime=0, block=true)]\n[Characteraction(name=\"left\", type=\"move\", ypos=500, fadetime=3, block=true)]\n[Background(image=\"27_g24_cloudy_sea\",x=0, y=0, xScale=1.1, yScale=1.1, fadetime=1,screenadapt=\"coverall\")]\n[CameraShake(duration=3, xstrength=10, ystrength=0, vibrato=15, randomness=20,fadeout=true)]\n[BackgroundTween(xFrom=0, yFrom=0, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=4, block=true)]\n[CameraShake(duration=1.5, xstrength=30, ystrength=30, vibrato=25, randomness=50,fadeout=true)]\n[PlaySound(key=\"$d_avg_horse\")]\n[PlaySound(key=\"$d_gen_thunders_amb\")]\n[name=\"罗辛南特\"]（嘶鸣）——！！\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_463_1#1$1\",name2=\"avg_npc_448_1#1$1\",focus=2)]\n[Characteraction(name=\"right\", type=\"move\", xpos=400, fadetime=0, block=true)]\n[Characteraction(name=\"right\", type=\"jump\", xpos=-400,times=1, power=15, fadetime=0.5, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_463_1#1$1\",name2=\"avg_npc_448_1#1$1\",focus=2)]\n[name=\"最后的骑士\"]（不清晰的发音）追！\n[Dialog]\n[Character(fadetime=0.5)]\n[Delay(time=1)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Background(image=\"27_g19_lighthouse_front\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_1023_ghost2_1#4$1\")]\n[name=\"幽灵鲨\"]原来骑士先生会害怕光芒。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]别追，这样的海嗣不止一只，护卫灯塔，才是任务。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"幽灵鲨\"]骑士先生只是对灯塔失去了兴趣。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]我对怪物的动机也没有兴趣。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"幽灵鲨\"]你是在说，我也是怪物？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]你？\n[name=\"大审判官达里奥\"]你正在发生变化。我并不清楚这种变化是否会发生在每一个深海猎人身上。\n[name=\"大审判官达里奥\"]但如果有必要，这片礁石将是你们最后踏足的陆地。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"幽灵鲨\"]我们明明被海洋环绕，你还称这里作陆地？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]因灾难而改变的是海岸线，不是国境线。\n[name=\"大审判官达里奥\"]被大静谧吞噬的每一寸土地仍然服从于伊比利亚的律法。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"幽灵鲨\"]律法，高尚的词语。但并非所有生灵都认可这种高尚。"
+        }
+      ],
+      "description": "幽灵鲨与达里奥直接争论怪物、海嗣和伊比利亚律法。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S22"
+          ],
+          "from": "char_143_ghost",
+          "reason": "幽灵鲨与达里奥直接争论怪物、海嗣和伊比利亚律法。",
+          "status": "supported",
+          "to": "npc_dcd9165b3a65e04d"
+        },
+        {
+          "evidenceIds": [
+            "S22"
+          ],
+          "from": "npc_dcd9165b3a65e04d",
+          "reason": "幽灵鲨与达里奥直接争论怪物、海嗣和伊比利亚律法。",
+          "status": "supported",
+          "to": "char_143_ghost"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 454,
+          "kind": "story",
+          "line": 397,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_143_ghost|npc_dcd9165b3a65e04d"
+}

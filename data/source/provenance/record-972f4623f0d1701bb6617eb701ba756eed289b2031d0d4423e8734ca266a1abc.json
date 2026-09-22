@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 147,
+          "line": 132,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-08_beg.txt",
+          "quote": "[name=\"梅菲斯特\"]    那个你们从核心区里救出来的，一直遮住面庞的家伙……令人非常，非常在意呢。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]    ——？！\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]    弑君者只关心你们之后要做什么，要去哪里。\n[name=\"梅菲斯特\"]    我不一样。我只关心……\n[name=\"梅菲斯特\"]    你，是什么？从哪里来？\n[name=\"梅菲斯特\"]    对，你，就是现在，盯着我看的你……你和我们有点不一样。\n[name=\"梅菲斯特\"]    那个设施里，究竟是什么装置，有着保存生命的功能呢？\n[name=\"梅菲斯特\"]    我非常，非常好奇。\n[name=\"梅菲斯特\"]    我也不是那种冷血的人……\n[name=\"梅菲斯特\"]    来吧，罗德岛的客人们，把这个家伙当成见面礼留给我吧？\n[name=\"梅菲斯特\"]    那样的话，虽然令人惋惜，但我放你们离开，也是可以的哦？\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]    博士——\n[name=\"阿米娅\"]    ——退到我身后！！"
+        }
+      ],
+      "description": "梅菲斯特明确对正盯着自己的博士发问并索取，阿米娅让博士后退。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "梅菲斯特明确对正盯着自己的博士发问并索取，阿米娅让博士后退。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "梅菲斯特明确对正盯着自己的博士发问并索取，阿米娅让博士后退。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 147,
+          "kind": "story",
+          "line": 132,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 121,
+          "line": 95,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "quote": "[name=\"浮士德\"]  ……你很聪明。\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"煌\"]  是罗德岛情报做得好。你没戏唱了，投降吧。\n[name=\"煌\"]  如果还要打的话，哼，不管有没有你的份，你都得为Ace和Scout抵命，小子。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  浮士德，我们还有弹药。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  撤退。我们已经失去了情报优势。我会狙击他们，你们立刻转移。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  明白。\n[Character(name=\"char_1507_Mephisto_1#4\")]\n[name=\"梅菲斯特\"]  为什么不射击她？浮士德！\n[name=\"梅菲斯特\"]  我的护卫们，快去！四个人，四个人而已……其中只有三个能和你们为敌！\n[name=\"梅菲斯特\"]  战斗！现在就撕碎这些罪人！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  我们三个在Dr.{@nickname}的指挥下，胜过你们所有人！\n[name=\"阿米娅\"]  更何况那些被你伤害了、剥夺了理智的感染者，意识里只剩下你的赘余思绪，不再是活生生的人……！\n[name=\"阿米娅\"]  就连你身边那个带鳞的男孩也未必和你同心，他的思绪里充斥着混乱和悲伤……\n[name=\"阿米娅\"]  梅菲斯特，你才是这战场上孤身一人的那个！\n[Character(name=\"char_1507_Mephisto_1#4\")]\n[name=\"梅菲斯特\"]  ……\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  你读了我的心？\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"阿米娅\"]  我只是感受到了。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  所以你不会知道我在想什么。"
+        }
+      ],
+      "description": "博士与陈、阿米娅、煌同在天台，梅菲斯特明确数出眼前四人，浮士德近旁交战；不将此处误写成远程指挥。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士与陈、阿米娅、煌同在天台，梅菲斯特明确数出眼前四人，浮士德近旁交战；不将此处误写成远程指挥。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "博士与陈、阿米娅、煌同在天台，梅菲斯特明确数出眼前四人，浮士德近旁交战；不将此处误写成远程指挥。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 121,
+          "kind": "story",
+          "line": 95,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "靶向药物"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 64,
+          "line": 19,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-09_beg.txt",
+          "quote": "[name=\"？？？\"]   还想藏到什么时候呢？罗德岛的小虫子们？\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character(fadetime=0)]\n[Background(screenadapt=\"coverall\", image=\"bg_cher_2\", width=1, height=1, fadetime=0)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_002_amiya_1#7\", name2=\"char_193_frostl_1\", focus=1)]\n[name=\"阿米娅\"]   （——！梅菲斯特！他发现我们的踪迹了吗？）\n[Character(name=\"char_002_amiya_1#7\", name2=\"char_193_frostl_1\", focus=2)]\n[name=\"霜叶\"]   （别出声。还没有，这是他惯用的伎俩。）\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character(fadetime=0)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_1507_Mephisto_1\")]\n[name=\"梅菲斯特\"]   啊，啊，不想出来吗？\n[name=\"梅菲斯特\"]   别以为我没看见你们增援的队伍。\n[name=\"梅菲斯特\"]   也罢。算了，我有些东西要给你们看。你们会喜欢的。\n[name=\"梅菲斯特\"]   说起来——自一开始，我们就是要接管整个切尔诺伯格……\n[name=\"梅菲斯特\"]   等待，等待，等待了那么久……终于等到这个时刻——\n[name=\"梅菲斯特\"]   这个向乌萨斯、向迫害我们感染者的人复仇的时刻！\n[name=\"梅菲斯特\"]   然而，这个分城的这些家伙呢？\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Image(image=\"bg_0_guard\", fadetime=0, xScale=1, yScale=1)]\n[ImageTween(image=\"bg_0_guard\", xScaleTo=1.3, yScaleTo=1.3, duration=20)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[name=\"梅菲斯特\"]   他们逃了。\n[name=\"梅菲斯特\"]   他们反应很快。在我们动手之前，就逃了。\n[name=\"梅菲斯特\"]   解开了地区锁，开足了马力，动用一切移动手段——\n[name=\"梅菲斯特\"]   但他们又能逃到哪里去呢？\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Image(fadetime=0)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[name=\"梅菲斯特\"]   我们的同胞，早就在各个城区中潜伏着，寻找着机会。\n[name=\"梅菲斯特\"]   最终他们被我们追上，得到了应有的惩罚。\n[name=\"梅菲斯特\"]   这些懦夫，这些施暴者，我们该怎么处理他们呢？\n[Character(name=\"char_1507_Mephisto_1#5\")]\n[name=\"梅菲斯特\"]   当然是——让他们成为一个标志！\n[name=\"梅菲斯特\"]   一个宣告感染者身上的一切不公，终将被摧毁的标志——\n[name=\"梅菲斯特\"]   ——没错，那就是，整合运动的标志——\n[name=\"梅菲斯特\"]   让它们一个个都成为恐怖的象征吧！\n[name=\"梅菲斯特\"]   你们，去点燃那个标志！照亮周围！\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动成员\"]   是！\n[Character(name=\"char_1507_Mephisto_1#5\")]\n[name=\"梅菲斯特\"]   来吧，照亮这个城市吧！让罗德岛看看软弱的压迫者们的末路！"
+        }
+      ],
+      "description": "梅菲斯特发现包含博士在内的罗德岛队伍并与之对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b768950f6cb3956f.json",
+      "sources": [
+        {
+          "endLine": 64,
+          "kind": "story",
+          "line": 19,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格废墟对峙",
+      "title": "急性衰竭"
+    }
+  ],
+  "relationship_id": "npc_03efe1bf09e24b53|npc_b99957887950ebfd"
+}

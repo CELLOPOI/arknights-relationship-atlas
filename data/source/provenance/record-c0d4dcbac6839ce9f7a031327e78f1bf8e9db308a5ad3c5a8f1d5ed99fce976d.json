@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 53,
+          "line": 13,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_05_end.txt",
+          "quote": "[name=\"阿玛雅\"]我们就快抵达终点。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]  ……\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]怎么，没有我，你根本不可能顺利抵达斯图提斐拉号。海的子嗣会撕咬你，粉碎你，或是缠住你的手脚，把你带去巢穴。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]  你与昆图斯不同。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]你是指，什么？皮囊吗？这幅皮囊？\n[name=\"阿玛雅\"]那不重要。\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]  你到底打算做什么？\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]你又打算做什么？猎人？你的同族都对敌人深恶痛绝，也因此怀疑自己的血。而你却……佯装镇定。\n[name=\"阿玛雅\"]你要从我这里得到什么？\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]  ……\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]聪明的沉默，看来阿戈尔人也并非全都不善交际。\n[name=\"阿玛雅\"]还是说，你其实是个不太受欢迎的臭脾气？\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]  ……\n[Character(name=\"avg_npc_449_1#1$1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]……我可以回答你。昆图斯不会回答你，其他人也不会，但海嗣会。我们就应当像使者那样理解事物，而不局限在人类的想法里。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]\n[Character(fadetime=0)]\n[Background(image=\"27_g21_goldenboat_deck\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_449_1#11$1\",name2=\"avg_npc_445_1#1$1\",focus=2)]\n[name=\"乌尔比安\"]  别故弄玄虚。\n[Character(name=\"avg_npc_449_1#7$1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]嗯……\n[name=\"阿玛雅\"]在来这里前，我还在翻译一本乌萨斯的著作。关于种族，国家与历史。把它翻译成伊比利亚文，维多利亚文。\n[name=\"阿玛雅\"]看吧，猎人先生。\n[Character]\n乌尔比安顺着女人的手，下意识地望向海洋。\n漆黑的海。乌云密布，压抑，但隐约能看见星空。\n[Character(name=\"avg_npc_449_1#10$1\",name2=\"avg_npc_445_1#1$1\",focus=1)]\n[name=\"阿玛雅\"]即使是阿戈尔人也不常在海面上眺望海洋。种族、国家，大地被划分成一块一块，斗争永无止境。\n[name=\"阿玛雅\"]可在这一望无际的海平面上，你能看见象征着那些隔阂的界线吗？"
+        }
+      ],
+      "description": "阿玛雅与乌尔比安同行并持续直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S23"
+          ],
+          "from": "char_4145_ulpia",
+          "reason": "阿玛雅与乌尔比安同行并持续直接对话。",
+          "status": "supported",
+          "to": "npc_549ec9bf1f5326b6"
+        },
+        {
+          "evidenceIds": [
+            "S23"
+          ],
+          "from": "npc_549ec9bf1f5326b6",
+          "reason": "阿玛雅与乌尔比安同行并持续直接对话。",
+          "status": "supported",
+          "to": "char_4145_ulpia"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 53,
+          "kind": "story",
+          "line": 13,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_4145_ulpia|npc_549ec9bf1f5326b6"
+}

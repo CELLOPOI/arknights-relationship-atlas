@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 293,
+          "line": 287,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "quote": "[name=\"左宣辽\"]林先生呢？\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#2\",focus=\"m\")]\n[name=\"魏彦吾\"]守军就位后他就已经离开了。\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#2\",focus=\"m\")]\n[name=\"魏彦吾\"]林毕竟不算朝堂中人，就不便领平祟侯将令了。\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#1\",focus=\"m\")]\n[name=\"魏彦吾\"]不知还有什么事是我能帮上忙的？"
+        }
+      ],
+      "description": "左乐接受军令后尚在帐内，听父亲询问林先生去向及魏公回应，鼠王已离开。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_4121_zuole",
+          "reason": "左乐接受军令后尚在帐内，听父亲询问林先生去向及魏公回应，鼠王已离开。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4121_zuole"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 293,
+          "kind": "story",
+          "line": 287,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_4121_zuole|npc_83e2c28380c1c6fb"
+}

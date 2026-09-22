@@ -1,0 +1,173 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 156,
+          "line": 125,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_heidi_1_1.txt",
+          "quote": "[name=\"茉莉\"]啊，您是……\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#1$1\",focus=\"r\")]\n[name=\"海蒂\"]你好，茉莉，我是戈尔丁的朋友。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#8$1\",focus=\"l\")]\n[name=\"茉莉\"]我记得您，海蒂女士……但是，抱歉，请您出去吧。\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#5$1\",focus=\"r\")]\n[name=\"海蒂\"]等等，为什么？\n[charslot(slot=\"l\",name=\"avg_npc_657_1#8$1\",focus=\"l\")]\n[name=\"茉莉\"]如果您是想找戈尔丁女士，她最近并不在学校，我也不清楚她现在去了哪里避难。\n[name=\"茉莉\"]我并不是针对您，只是，如您所见，现在人人自危，我不希望任何人给学校的孩子们招来危险。\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#5$1\",focus=\"r\")]\n[name=\"海蒂\"]……我吓到你了吗？你的样子很奇怪。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#8$1\",focus=\"l\")]\n[name=\"茉莉\"]啊，有吗？……不，吓到我的不是您。\n[name=\"茉莉\"]最近发生了这么多事，怎么能让人不担惊受怕呢？\n[name=\"茉莉\"]我实在不知道，只有我一个人在，该如何保护这些孩子……\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#6$1\",focus=\"r\")]\n[name=\"海蒂\"]……抱歉，茉莉。\n[name=\"海蒂\"]如果萨卡兹真的找上门来，你就直接告诉他们我在这里。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#2$1\",focus=\"l\")]\n[name=\"茉莉\"]您真的被盯上了？！\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#6$1\",focus=\"r\")]\n[name=\"海蒂\"]请让我进去躲一会儿，可以吗？\n[charslot(slot=\"l\",name=\"avg_npc_657_1#8$1\",focus=\"l\")]\n[name=\"茉莉\"]我不知道……您遇到了什么？\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#6$1\",focus=\"r\")]\n[name=\"海蒂\"]我毕竟是戈尔丁的朋友。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#8$1\",focus=\"l\")]\n[name=\"茉莉\"]……\n[name=\"茉莉\"]……我想这所学校里是有地方可以藏身的。戈尔丁女士不希望我随便告诉外人，但您应该不算外人。\n[name=\"茉莉\"]里奥，带海蒂女士去地下的“仓库”，好吗？\n[name=\"茉莉\"]我留在这里等着，如果真有萨卡兹士兵冲进来，我……我会想办法应付。"
+        }
+      ],
+      "description": "茉莉明确知晓戈尔丁，反向未由本窗建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_3ed45187b5df88a8",
+          "reason": "茉莉反复称呼戈尔丁并说明戈尔丁向她交代学校事务。",
+          "status": "supported",
+          "to": "npc_faa340cbad10d05b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_faa340cbad10d05b",
+          "reason": "已读记忆中戈尔丁只泛称孩子们，未建立其对茉莉的具体方向。",
+          "status": "not_established",
+          "to": "npc_3ed45187b5df88a8"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_090d8a48c17b5706.json",
+      "sources": [
+        {
+          "endLine": 156,
+          "kind": "story",
+          "line": 125,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_heidi_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "学校避难场景",
+      "title": "海蒂"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 281,
+          "line": 174,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-01_end.txt",
+          "quote": "[name=\"茉莉\"]戈尔丁女士，您还好吗？\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]茉莉……你回来了。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#8$1\",focus=\"r\")]\n[name=\"茉莉\"]您在写信吗？\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]不，这些什么也不是。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#7$1\",focus=\"l\")]\n[name=\"戈尔丁\"]我只是……突然想起了几本以前看过的小说。\n[name=\"戈尔丁\"]主角往往是风流倜傥的军官，穿着得体的军服，叼着烟斗奔赴前线。\n[name=\"戈尔丁\"]但作者永远都不会告诉我们，到底是哪一片战场，战壕里的气味又是怎样。\n[name=\"戈尔丁\"]恋慕着主人公的先生或者小姐们聚在一起，吃着精致的茶点，怀着一颗惴惴不安的心——\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]当然，我们都知道，这只是些文学技巧，最终的结局总是团圆。\n[name=\"戈尔丁\"]稍有追求的作者会试图营造一种被这里的评论家们称作“深刻”的氛围。\n[name=\"戈尔丁\"]故事中会点缀着一些可控的死亡，往往是主人公的战友，他们为了掩护英雄倒在了前线的壕沟里。\n[name=\"戈尔丁\"]最终，那些凶残的敌人会被主人公手刃，正义与道德再一次得到彰显。\n[name=\"戈尔丁\"]在战友哀伤的葬礼上，代表荣耀的花瓣洒满棺椁，人群肃穆，献上总结他们伟大事业的悼词。\n[name=\"戈尔丁\"]此刻是绝佳的煽情点，主人公们会手握着手，擦去泪花，坚定地望向天边的朝阳——\n[charslot(slot=\"l\",name=\"avg_npc_647_1#2$1\",focus=\"l\")]\n[name=\"戈尔丁\"]他们会说，希望终会来临，一切牺牲都有意义。\n[name=\"戈尔丁\"]好了，作者可以在这里停下了，真正美好的未来就交给读者们去想象吧，最后的庄严感足够让他们满足了。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#4$1\",focus=\"r\")]\n[name=\"茉莉\"]您居然还读过这样的小说。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#8$1\",focus=\"l\")]\n[name=\"戈尔丁\"]那是很多年前了，谁没有经历过那样的年纪呢。\n[name=\"戈尔丁\"]在我还是个少女的时候，一度十分迷恋这些书……我并不对主人公们抱有太多感情，但那些死亡确实让我迷恋。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]我偶尔会想象自己是那位为事业献上生命的英雄，人们含着眼泪，夸赞我所创造的时代，或者，最起码，称颂我的牺牲……\n[charslot(slot=\"l\",name=\"avg_npc_647_1#8$1\",focus=\"l\")]\n[name=\"戈尔丁\"]哈，很幼稚。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]再后来，我自以为自己已经足够清醒，足够看穿这些裹着糖霜的幻想。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#5$1\",focus=\"l\")]\n[name=\"戈尔丁\"]但我开始发现……我与当年，或许没有本质上的不同。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#2$1\",focus=\"r\")]\n[name=\"茉莉\"]别这么说，您以前和孩子们说过，死亡是个严肃的话题。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#8$1\",focus=\"l\")]\n[name=\"戈尔丁\"]……哈，是吗？我不记得了。\n[name=\"戈尔丁\"]大概只是些我习以为常的老套说教吧。\n[name=\"戈尔丁\"]今天的采购顺利吗？\n[charslot(slot=\"r\",name=\"avg_npc_657_1#1$1\",focus=\"r\")]\n[name=\"茉莉\"]还好，街上的情况并没有很糟，商店里的东西也没有涨价。只是城防军好像比以往多了些。萨卡兹士兵们……也不再遮遮掩掩。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#2$1\",focus=\"r\")]\n[name=\"茉莉\"]不过，大家都在假装什么都没有发生。除了……原本是诺伯特区的地方，如今只剩下周围区块延伸过来的支撑骨架。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#10$1\",focus=\"l\")]\n[name=\"戈尔丁\"]……那些地方呢？\n[charslot(slot=\"l\",name=\"avg_npc_647_1#5$1\",focus=\"l\")]\n[name=\"戈尔丁\"]茉莉，我要再次向你道歉，我不该把你牵扯进这些事里，只是……莱托已经盯上了我，每次我出门都有几个不怀好意的人跟着。\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]我只能赌一把，赌你还不在他们的监视名单上。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#7$1\",focus=\"r\")]\n[name=\"茉莉\"]不，我很高兴能为伦蒂尼姆的大家出一份力。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#6$1\",focus=\"r\")]\n[name=\"茉莉\"]只是，您所说的几个地点，现在都冷冷清清的，那些接头暗号我都用了，也没有人回应。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#8$1\",focus=\"r\")]\n[name=\"茉莉\"]也许……也许他们已经放弃了？\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]不，他们比我坚强得多。\n[stopmusic(fadetime=1.5)]\n[charslot(slot=\"r\",name=\"avg_npc_657_1#6$1\",focus=\"r\")]\n[name=\"茉莉\"]不过我发现了一封信，应该是留给您的，我没拆。\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_npc_657_1#6$1\",focus=\"all\")]\n[PlaySound(key=\"$d_avg_paper1\", volume=1)]\n[delay(time=3)]\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]\n[charslot(slot=\"l\",name=\"avg_npc_647_1#4$1\",focus=\"l\")]\n[name=\"戈尔丁\"]这是……不，这不是他们的笔迹。\n[name=\"戈尔丁\"]……信里详细写了自救军情报交换站的几乎全部信息。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#4$1\",focus=\"r\")]\n[name=\"茉莉\"]您说什么？！可是，怎么会……\n[charslot(slot=\"l\",name=\"avg_npc_647_1#6$1\",focus=\"l\")]\n[name=\"戈尔丁\"]这是一次威胁。\n[name=\"戈尔丁\"]他们……对我们掌握得很彻底。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#2$1\",focus=\"r\")]\n[name=\"茉莉\"]那……戈尔丁女士，那我们该怎么办？！\n[charslot(slot=\"l\",name=\"avg_npc_647_1#2$1\",focus=\"l\")]\n[name=\"戈尔丁\"]……\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]茉莉，我会再给你一份地点列表。\n[name=\"戈尔丁\"]我并没有直接去过这些据点，但我分析过情报的流向，他们……应该就在那里。\n[name=\"戈尔丁\"]我不该这么冒险，这违反了工作守则，但是……\n[charslot(slot=\"r\",name=\"avg_npc_657_1#6$1\",focus=\"r\")]\n[name=\"茉莉\"]这消息对自救军很重要，对吧？\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]这关乎很多人的性命。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#6$1\",focus=\"r\")]\n[name=\"茉莉\"]那我们就应该去做。\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_npc_647_1#6$1\",focus=\"all\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"l\",name=\"avg_npc_647_1#6$1\",posfrom=\"0,0\",posto=\"-50,0\",afrom=1,ato=1,duration=2)]\n[delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_npc_647_1#6$1\",focus=\"l\")]\n[name=\"戈尔丁\"]……茉莉，像我教你的那样，留意所有可能的尾随者，不论跟着你的人是不是萨卡兹，都不要掉以轻心。\n[name=\"戈尔丁\"]在那里找到一个叫克洛维希娅的女孩，或者任何能联系到克洛维希娅的人，告诉他们，整个情报网泄露了，他们需要马上转移！\n[charslot(slot=\"r\",name=\"avg_npc_657_1#8$1\",focus=\"r\")]\n[name=\"茉莉\"]戈尔丁女士，您要去哪？\n[charslot(slot=\"l\",name=\"avg_npc_647_1#1$1\",focus=\"l\")]\n[name=\"戈尔丁\"]莱托的办公室。\n[name=\"戈尔丁\"]……我会尽量为你们争取时间。\n[charslot(slot=\"r\",name=\"avg_npc_657_1#2$1\",focus=\"r\")]\n[name=\"茉莉\"]可是——\n[charslot(slot=\"l\",name=\"avg_npc_647_1#8$1\",focus=\"l\")]\n[name=\"戈尔丁\"]放心吧，我不会有事的，我……\n[name=\"戈尔丁\"]但愿我比自己想象的要强大。"
+        }
+      ],
+      "description": "茉莉与戈尔丁持续直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_3ed45187b5df88a8",
+          "reason": "二人在同一连续会议或对话中互相接收发言并共同制定行动。",
+          "status": "supported",
+          "to": "npc_faa340cbad10d05b"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_faa340cbad10d05b",
+          "reason": "二人在同一连续会议或对话中互相接收发言并共同制定行动。",
+          "status": "supported",
+          "to": "npc_3ed45187b5df88a8"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 281,
+          "kind": "story",
+          "line": 174,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆自救军行动期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 183,
+          "line": 162,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_06_beg.txt",
+          "quote": "[name=\"埃利西奥\"]……我很敬佩您，茉莉女士。\n[name=\"埃利西奥\"]在我的家乡，一个小感染者能够像这里的孩子们一样有活力，往往意味着他的家庭能为他投入大笔资金。\n[name=\"埃利西奥\"]而这里……我听说，有些孩子无处可去，是您收留在学校里。他们在您的指导下，排演出了鼓舞人心的戏剧，甚至鼓励了许多市民。\n[name=\"埃利西奥\"]您很了不起。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#2$1\",focus=\"l\")]\n[name=\"茉莉\"]您过奖了，埃利西奥先生。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#8$1\",focus=\"l\")]\n[name=\"茉莉\"]我只是尽力模仿那几位再也无法回到学校的老师……尤其是我最尊敬的一位女士。\n[charslot(slot=\"r\",name=\"avg_487_bobb_1#9$1\",focus=\"r\")]\n[name=\"埃利西奥\"]是戈尔丁女士吗？我听海蒂小姐提起过她。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#8$1\",focus=\"l\")]\n[name=\"茉莉\"]是的。我们正在彩排的这出戏剧，就是她最后在这间教室里写下的——\n[name=\"茉莉\"]一个可爱的故事，两个孩子为了寻找一只能带走病痛的羽兽而展开了冒险，最终挽救了他们生病的朋友。\n[name=\"茉莉\"]海蒂女士曾经问我，戈尔丁女士在写这个故事的时候，是否曾将它称为“毫无意义的自我安慰”……\n[charslot(slot=\"r\",name=\"avg_487_bobb_1#8$1\",focus=\"r\")]\n[name=\"埃利西奥\"]……怎么会呢？\n[name=\"埃利西奥\"]女士，我可以留下看看孩子们的彩排吗？\n[name=\"埃利西奥\"]为了孩子们，也是为了向您和那位女士表达敬意。\n[name=\"埃利西奥\"]我想，或许在这，在伦蒂尼姆，我能帮上的忙还有很多。\n[name=\"埃利西奥\"]……致戈尔丁女士。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#1$1\",focus=\"l\")]\n[name=\"茉莉\"]……致戈尔丁女士。"
+        }
+      ],
+      "description": "npc_3ed45187b5df88a8知晓戈尔丁；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_3ed45187b5df88a8",
+          "reason": "当事人明确讨论并向戈尔丁女士致意。",
+          "status": "supported",
+          "to": "npc_faa340cbad10d05b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_faa340cbad10d05b",
+          "reason": "戈尔丁未在当前时点出场，缺少反向证据。",
+          "status": "not_established",
+          "to": "npc_3ed45187b5df88a8"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 183,
+          "kind": "story",
+          "line": 162,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "战后学校谈话",
+      "title": "追迹日落以西"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 387,
+          "line": 202,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-02_beg.txt",
+          "quote": "[name=\"茉莉\"]难道那个嫌犯又逃到了奥克特里格区吗？\n[Character(name=\"avg_npc_416_1#1$1\")]\n[name=\"伦蒂尼姆市民\"]不好说，女士，事情可能没有这么简单。\n[Character(name=\"avg_npc_657_1#8$1\")]\n[name=\"茉莉\"]真奇怪，这些士兵是城防军吗？莫非我看错了，为什么他们身上穿着的制服和我印象中的不太一样？\n[Character(name=\"avg_npc_416_1#1$1\")]\n[name=\"伦蒂尼姆市民\"]女士，我有个朋友就住在卡登区，他说附近街道上出现了许多士兵，他们都穿着这种制服。\n[name=\"伦蒂尼姆市民\"]甚至还有消息说……说……\n[name=\"伦蒂尼姆市民\"]有一位公爵已经在昨天秘密进入了伦蒂尼姆！\n[Character(name=\"avg_npc_657_1#4$1\")]\n[name=\"茉莉\"]可是这怎么可能呢？这不是被法律禁止的吗？\n[Character(name=\"avg_npc_647_1#7$1\")]\n[name=\"戈尔丁\"]……\n[Character(name=\"avg_npc_647_1#8$1\")]\n[name=\"戈尔丁\"]亚当斯先生，谢谢您，这些书太重了，我下次再来取。\n[Character(name=\"avg_npc_647_1#6$1\")]\n[name=\"戈尔丁\"]茉莉，我们得尽快回学校。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(fadetime=0)]\n[Background(image=\"21_G7_decisivebattlealley_d\",screenadapt=\"coverall\")]\n[Character(name=\"avg_npc_241\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_241\")]\n[name=\"维多利亚士兵\"]没人？不是说看到有个影子藏在小巷子里吗？\n[name=\"维多利亚士兵\"]不能让公爵大人的消息流出伦蒂尼姆！否则的话，今天的行动就……该死！\n[multiline(name=\"维多利亚士兵\")]连男女都没看清，这些伦蒂尼姆办事处里的情报人员都是怎么办事的？\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[multiline(name=\"维多利亚士兵\")]一群饭桶！比公爵领的人差远了！\n[name=\"维多利亚士兵\"]幸亏我刚刚射中了一箭——\n[name=\"维多利亚士兵\"]继续追，他应该逃不了多远！\n[Dialog]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.5)]\n[Delay(time=1)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(fadetime=0)]\n[Background(image=\"32_g1_lentiavenue\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_400_1#7$1\",fadetime=0.3)]\n[name=\"海蒂\"]……\n[Dialog]\n[characteraction(name=\"middle\", type=\"move\", xpos=300, fadetime=1,block=true)]\n[Character(fadetime=0.5)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_647_1#4$1\")]\n[name=\"戈尔丁\"]等等——\n[Character(name=\"avg_npc_647_1#4$1\",name2=\"avg_npc_657_1#8$1\",focus=2)]\n[name=\"茉莉\"]戈尔丁女士，您是注意到什么了吗？\n[Character(name=\"avg_npc_647_1#1$1\",name2=\"avg_npc_657_1#8$1\",focus=1)]\n[name=\"戈尔丁\"]不是什么紧要的。\n[name=\"戈尔丁\"]茉莉，你先回学校，把孩子们都集合起来，别让他们跑到街上。\n[Character(name=\"avg_npc_647_1#1$1\",name2=\"avg_npc_657_1#4$1\",focus=2)]\n[name=\"茉莉\"]那您呢？\n[Character(name=\"avg_npc_647_1#1$1\",name2=\"avg_npc_657_1#4$1\",focus=1)]\n[name=\"戈尔丁\"]我要去见一位朋友。替我在办公室里准备热水和一条干净的毛巾吧，我马上回来。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(fadetime=0)]\n[Background(image=\"32_g3_school_indoor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_400_1#7$1\",name2=\"avg_npc_647_1#1$1\",fadetime=0.5)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_400_1#5$1\",name2=\"avg_npc_647_1#1$1\",focus=1)]\n[name=\"海蒂\"]唔……哈……\n[Character(name=\"avg_npc_400_1#5$1\",name2=\"avg_npc_647_1#5$1\",focus=2)]\n[name=\"戈尔丁\"]抱歉，请忍耐一下。学校的条件还是简陋了些，毕竟孩子们通常只会在打闹中跌倒，而不会被士兵的弩箭射伤。\n[Character(name=\"avg_npc_400_1#4$1\",name2=\"avg_npc_647_1#5$1\",focus=1)]\n[name=\"海蒂\"]没想到……你还会缝合伤口。\n[Character(name=\"avg_npc_400_1#4$1\",name2=\"avg_npc_647_1#8$1\",focus=2)]\n[name=\"戈尔丁\"]每年学校收到的捐赠都很有限，我们雇不起那么多人手。很多时候我还得兼职校医。\n[Character(name=\"avg_npc_400_1#5$1\",name2=\"avg_npc_647_1#8$1\",focus=1)]\n[name=\"海蒂\"]呜呜……疼……\n[Character(name=\"avg_npc_400_1#5$1\",name2=\"avg_npc_647_1#8$1\",focus=2)]\n[name=\"戈尔丁\"]看你走在路上的时候一声不吭，我还以为你感觉不到疼痛呢。\n[Character(name=\"avg_npc_400_1#10$1\",name2=\"avg_npc_647_1#8$1\",focus=1)]\n[name=\"海蒂\"]你可别嘲笑我了……在伦蒂尼姆，只有来到你面前，我才能真正松口气。\n[Character(name=\"avg_npc_400_1#10$1\",name2=\"avg_npc_647_1#5$1\",focus=2)]\n[name=\"戈尔丁\"]我只能帮你缝合伤口，却做不到预防感染。海蒂，你最好立刻去医院。\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#5$1\",focus=1)]\n[name=\"海蒂\"]不行。\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#10$1\",focus=2)]\n[name=\"戈尔丁\"]能告诉我为什么吗？\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#10$1\",focus=1)]\n[name=\"海蒂\"]……\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#7$1\",focus=2)]\n[name=\"戈尔丁\"]我以为我们是朋友。\n[Character(name=\"avg_npc_400_1#2$1\",name2=\"avg_npc_647_1#7$1\",focus=1)]\n[name=\"海蒂\"]我本来就不该跟你回到这里。戈尔丁，我不想把你和你的孩子们扯进麻烦里。\n[Character(name=\"avg_npc_400_1#2$1\",name2=\"avg_npc_647_1#10$1\",focus=2)]\n[name=\"戈尔丁\"]所以，士兵们在追的人的确是你。他们真的是斯塔福德公爵的人吗？\n[Character(name=\"avg_npc_400_1#12$1\",name2=\"avg_npc_647_1#10$1\",focus=1)]\n[name=\"海蒂\"]……是亚当斯告诉你的吗？我以为他不会多嘴。\n[Character(name=\"avg_npc_400_1#12$1\",name2=\"avg_npc_647_1#1$1\",focus=2)]\n[name=\"戈尔丁\"]亚当斯是你的朋友，也是我的朋友。可别忘了，那场让我们彼此结识的读书会就是他举办的。\n[Character(name=\"avg_npc_400_1#1$1\",name2=\"avg_npc_647_1#1$1\",focus=1)]\n[name=\"海蒂\"]哈哈，我怎么可能忘记？\n[name=\"海蒂\"]你当时可真是毫不留情。\n[name=\"海蒂\"]说我的新书是“被流行文化牵着鼻子走的媚俗之作”，“唯一的用处就是成为富家太太和小姐们茶会上的谈资” 。\n[Character(name=\"avg_npc_400_1#1$1\",name2=\"avg_npc_647_1#8$1\",focus=2)]\n[name=\"戈尔丁\"]但我也说了作者的才华远不止于此。\n[Character(name=\"avg_npc_400_1#10$1\",name2=\"avg_npc_647_1#8$1\",focus=1)]\n[name=\"海蒂\"]那时的我从未想过，整个伦蒂尼姆最有眼光的评论家会是一位默默无闻的老师。\n[Character(name=\"avg_npc_400_1#10$1\",name2=\"avg_npc_647_1#8$1\",focus=2)]\n[name=\"戈尔丁\"]我能读懂你写下来的每一个句子，也能读懂你没有写出来的另外一百句——海蒂，这是你亲口说的。\n[Character(name=\"avg_npc_400_1#10$1\",name2=\"avg_npc_647_1#8$1\",focus=1)]\n[name=\"海蒂\"]我永远不会质疑我们之间的默契。\n[Character(name=\"avg_npc_400_1#10$1\",name2=\"avg_npc_647_1#6$1\",focus=2)]\n[name=\"戈尔丁\"]那就让我帮你。\n[name=\"戈尔丁\"]海蒂，我们之间可以更坦诚……一如既往。\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#6$1\",focus=1)]\n[name=\"海蒂\"]……\n[Character(name=\"avg_npc_400_1#1$1\",name2=\"avg_npc_647_1#6$1\",focus=1)]\n[name=\"海蒂\"]戈尔丁……我有没有告诉过你，很多年前，我曾有幸认识了一位并非萨科塔的拉特兰修士？\n[name=\"海蒂\"]她也曾在伦蒂尼姆生活过，说不定与这所学校有些渊源。\n[Character(name=\"avg_npc_400_1#1$1\",name2=\"avg_npc_647_1#10$1\",focus=2)]\n[name=\"戈尔丁\"]她是谁？\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#10$1\",focus=1)]\n[name=\"海蒂\"]她……\n[Dialog]\n[Character]\n[PlaySound(key=\"$rungeneral\",volume=0.5)]\n[Delay(time=1)]\n[PlaySound(key=\"$dooropenquite\")]\n[Delay(time=1)]\n[Character(name=\"avg_npc_657_1#2$1\",fadetime=0.5)]\n[name=\"茉莉\"]戈尔丁女士，不好了！\n[Character(name=\"avg_npc_657_1#4$1\")]\n[name=\"茉莉\"]等等，您有客人？这、这位是……\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#1$1\",focus=2)]\n[name=\"戈尔丁\"]一位文学界的朋友。\n[name=\"戈尔丁\"]茉莉，有什么事吗？\n[Character(name=\"avg_npc_657_1#2$1\")]\n[name=\"茉莉\"]女士，外面……我以为您都听到了……\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#7$1\",focus=2)]\n[name=\"戈尔丁\"]……\n[Dialog]\n[StopMusic(fadetime=2)]\n[Character(fadetime=0.5)]\n[Delay(time=1)]\n[PlaySound(key=\"$grenade_explosion\", volume=0.2)]\n[playsound(key=\"$d_avg_plane\", volume=0.2)]\n[PlaySound(key=\"$e_atk_stmkgt_h\", volume=0.2,delay=0.4)]\n[Delay(time=1)]\n远处传来了一些异响。\n伦蒂尼姆人对这样的声音并不敏感。\n一开始，人们很容易把这声音跟不小心引发的蒸汽锅炉爆炸，或者孩子们喜爱的机械羽兽划过半空的声响搞混。\n[Dialog]\n[CameraShake(duration=1,xstrength=10,ystrength=5,vibrato=30,randomness=90,fadeout=true,block=false)]\n[PlaySound(key=\"$explolarge1\", volume=0.5)]\n[PlaySound(key=\"$rockhit\", volume=0.5,delay=0.3)]\n[PlaySound(key=\"$smallearthquake\", volume=0.6)]\n但是随着房屋与地面的震动感越来越明显，所有人都被一种本能的恐慌包裹了。\n[Dialog]\n[PlaySound(key=\"$d_avg_battlefield_environment\",volume=0.5, channel=\"a\", loop=true)]\n[PlaySound(key=\"$d_gen_explo_n\", volume=0.5)]\n[playMusic(intro=\"$corrosion_intro\",key=\"$corrosion_loop\", volume=0.4)]\n仰赖诸王的庇佑，伦蒂尼姆从来没有遭遇过天灾，他们面临的无疑是另外的威胁——许多年长者反应过来，二十多年前的噩梦又回来了。\n战争的预兆。\n[Dialog]\n[CameraShake(duration=1,xstrength=15,ystrength=8,vibrato=30,randomness=90,fadeout=true,block=true)]\n[PlaySound(key=\"$d_gen_explo_n\", volume=0.5)]\n[PlaySound(key=\"$d_avg_explosion\", volume=0.6,delay=0.5)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_gen_explo_n\")]\n就在人们沉默的间隙里，轰隆声更密集了起来。\n[Dialog]\n[Delay(time=1)]\n[Character(name=\"avg_npc_657_1#8$1\")]\n[name=\"茉莉\"]我不明白。\n[name=\"茉莉\"]只是追捕几个犯人，为什么会闹出这么大的阵仗？\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#5$1\",focus=2)]\n[name=\"戈尔丁\"]要是我们总能明白所有人的想法的话，许多悲剧根本就不会发生了。\n[Character(name=\"avg_npc_400_1#9$1\",name2=\"avg_npc_647_1#1$1\",focus=2)]\n[name=\"戈尔丁\"]茉莉，麻烦你去看一眼街道上的士兵还在不在。\n[Character(name=\"avg_npc_657_1#2$1\")]\n[name=\"茉莉\"]好。\n[Dialog]\n[characteraction(name=\"middle\", type=\"move\", xpos=200, fadetime=1,block=false)]\n[Character(fadetime=0.5)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_400_1#7$1\",name2=\"avg_npc_647_1#1$1\",focus=1)]\n[name=\"海蒂\"]我必须离开了。"
+        }
+      ],
+      "description": "茉莉与戈尔丁直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_3ed45187b5df88a8",
+          "reason": "双方在学校/街道连续场景中直接交谈或明确相识。",
+          "status": "supported",
+          "to": "npc_faa340cbad10d05b"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_faa340cbad10d05b",
+          "reason": "双方在学校/街道连续场景中直接交谈或明确相识。",
+          "status": "supported",
+          "to": "npc_3ed45187b5df88a8"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 387,
+          "kind": "story",
+          "line": 202,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "奥克特里格学校事件",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "npc_3ed45187b5df88a8|npc_faa340cbad10d05b"
+}

@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 154,
+          "line": 135,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_06_end.txt",
+          "quote": "[name=\"老鲤\"]  ……幸好没和那个挑山人起什么冲突，看那身手，都让我想起十几年前最后一次见到槐天裴的时候了。\n[Character(name=\"avg_npc_296_1#6$1\")]\n[name=\"杜小姐\"]  ……\n[Character(name=\"avg_322_lmlee_1#1$1\", name2=\"avg_npc_296_1#6$1\", focus=1)]\n[name=\"老鲤\"]  你认识那两个人，对吧。\n[Character(name=\"avg_322_lmlee_1#1$1\", name2=\"avg_npc_296_1#6$1\", focus=2)]\n[name=\"杜小姐\"]  ……我说过，爹是领了朝廷密令，那两个人，就是朝廷的信使。\n[Character(name=\"avg_322_lmlee_1#1$1\", name2=\"avg_npc_296_1#6$1\", focus=1)]\n[name=\"老鲤\"]  知道身份吗？\n[Character(name=\"avg_322_lmlee_1#1$1\", name2=\"avg_npc_296_1#1$1\", focus=2)]\n[name=\"杜小姐\"]  只知道那个领头的大块头，是肃政院的大官。\n[Character(name=\"avg_322_lmlee_1#8$1\", name2=\"avg_npc_296_1#1$1\", focus=1)]\n[name=\"老鲤\"]  ……我心里有数了。\n[name=\"老鲤\"]  虽然本不想麻烦罗德岛……但看来，还是得借他们的力量……\n[Character(name=\"avg_322_lmlee_1#6$1\", name2=\"avg_npc_296_1#1$1\", focus=1)]\n[name=\"老鲤\"]  唉，不过这下可麻烦了。\n[Character(name=\"avg_322_lmlee_1#6$1\", name2=\"avg_npc_296_1#9$1\", focus=2)]\n[name=\"杜小姐\"]  什么？\n[Character(name=\"avg_322_lmlee_1#1$1\", name2=\"avg_npc_296_1#9$1\", focus=1)]\n[name=\"老鲤\"]  虽然没听见他们在说什么，但看他们急匆匆离开的方向，多半是向山顶去的。"
+        }
+      ],
+      "description": "杜遥夜明确认识那两个朝廷信使，其中少年左乐与太合同行；此处仅她看见对方。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "杜遥夜明确认识那两个朝廷信使，其中少年左乐与太合同行；此处仅她看见对方。",
+          "status": "supported",
+          "to": "char_4121_zuole"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_4121_zuole",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_ebce98658cbda852"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 154,
+          "kind": "story",
+          "line": 135,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 507,
+          "line": 467,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_beg.txt",
+          "quote": "受伤的异族少女捂着伤口后退，靠在老槐树上用力喘息。她没有注意到杜遥夜的靠近。\n蒙面的凶徒再次隐入屋檐边的阴影。\n年轻的秉烛人走到庭院中间，将两个少女挡在身后。他的腰间不知何时多出来一把剑，被暗扣牢牢锁住。\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"avg_4078_bdhkgt_1#5$1\")]\n[name=\"截云\"]我的剑！\n[charslot]\n肩上什么时候空的？刚刚的冲击……\n一截断裂的皮料落在地上。那是族人用猎到的动物毛皮制成的束带，坚韧耐磨，用来绑剑再合适不过。\n绑那柄她一刻也不曾离身的剑。\n[charslot(slot=\"m\",name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"]这是宗师的佩剑。\n[name=\"左乐\"]既然你与山海众并无勾结，剑现在在我手里，权且算你物归原主。擅闯军营的罪责，之后再追究。\n[charslot(slot = \"m\", name = \"avg_4078_bdhkgt_1#7$1\")]\n[name=\"截云\"]……你！\n[charslot(slot = \"m\", name = \"avg_4078_bdhkgt_1#5$1\")]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"截云\"]还给我！\n[charslot]\n[dialog]\n[charslot(slot=\"r\",name=\"avg_npc_296_1#6$1\",duration=0.3)]\n[charslot(slot = \"r\", posfrom = \"0,0\", posto = \"200,0\",duration = 0)]\n[charslot(slot = \"l\", name = \"avg_4078_bdhkgt_1#7$1\",duration=0.3)]\n[charslot(slot = \"l\", posfrom = \"0,0\", posto = \"-150,0\",duration = 0)]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_avg_clothmovement\")]\n[charslot(slot = \"r\", posfrom = \"200,0\", posto = \"-50,0\",duration = 0.4)]\n[charslot(slot = \"l\", posfrom = \"-150,0\", posto = \"-30,0\",duration = 0.4)]\n[delay(time=0.4)]\n[charslot(slot = \"r\", posfrom = \"-50,0\", posto = \"0,0\",duration = 0.3)]\n[charslot(slot = \"l\", posfrom = \"-30,0\", posto = \"0,0\",duration = 0.3)]\n[delay(time=0.5)]\n[charslot(slot = \"l\", name = \"avg_4078_bdhkgt_1#7$1\",focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_npc_296_1#6$1\",focus=\"n\")]\n[name=\"截云\"]你是谁？你不要拉我！\n[charslot(slot = \"r\", name = \"avg_npc_296_1#6$1\",focus=\"r\")]\n[name=\"杜遥夜\"]你的伤不轻，我警告你不要乱动。\n[name=\"杜遥夜\"]我不管那把剑什么情况。但你既然早就藏在铸剑坊里，说明你认识孟铁衣。\n[charslot(slot = \"r\", name = \"avg_npc_296_1#5$1\",focus=\"r\")]\n[name=\"杜遥夜\"]还请告诉我，他现在去了哪里？你有没有在铸剑坊里看见两个尚蜀年轻人？\n[name=\"杜遥夜\"]要是不说，我会在你的伤口上再补一拳。"
+        }
+      ],
+      "description": "左乐将两个少女挡在身后，杜遥夜拉住截云并问话，三人实际同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "char_4121_zuole",
+          "reason": "左乐将两个少女挡在身后，杜遥夜拉住截云并问话，三人实际同场。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        },
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "左乐将两个少女挡在身后，杜遥夜拉住截云并问话，三人实际同场。",
+          "status": "supported",
+          "to": "char_4121_zuole"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 507,
+          "kind": "story",
+          "line": 467,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 336,
+          "line": 274,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "quote": "[character(name=\"avg_npc_296_1#6$1\",name2=\"avg_npc_300_1#1$1\",focus=2)]\n[name=\"郑掌柜\"]你给年轻人们牵了头，他们都信你，跟着你，你说时代变了……没错，时代是变了，但这事放在什么时候都变不了。\n[name=\"郑掌柜\"]你既然站出来，一呼百应，那往后遇上再难的事，你也不能退，再苦，再累，你得担着，听见没有？\n[character(name=\"avg_npc_296_1#7$1\",name2=\"avg_npc_300_1#1$1\",focus=1)]\n[name=\"杜小姐\"]……\n[name=\"杜小姐\"]我知道。\n[character(name=\"avg_npc_296_1#6$1\",name2=\"avg_npc_300_1#1$1\",focus=1)]\n[name=\"杜小姐\"]我……知道的，爹。\n[character(name=\"avg_npc_296_1#6$1\",name2=\"avg_npc_300_1#5$1\",focus=2)]\n[name=\"郑掌柜\"]……唉。行了，这单子你拿去，有些不那么好走的路，我给你避开些，能走大道便走大道，那些我们蹚过的泥巴路，你们可别再踩。\n[character(name=\"avg_npc_296_1#2$1\",name2=\"avg_npc_300_1#5$1\",focus=1)]\n[name=\"杜小姐\"]您放心。\n[character(name=\"avg_npc_296_1#2$1\",name2=\"avg_npc_300_1#3$1\",focus=2)]\n[name=\"郑掌柜\"]放心，难啊。\n[name=\"郑掌柜\"]我现在就有桩心事。\n[character(name=\"avg_npc_296_1#6$1\",name2=\"avg_npc_300_1#3$1\",focus=1)]\n[name=\"杜小姐\"]您说。\n[character(name=\"avg_npc_296_1#6$1\",name2=\"avg_npc_300_1#3$1\",focus=2)]\n[name=\"郑掌柜\"]遥夜，你年纪也不小了，这次去玉门城，能不能正经带个小伙子回来看看……\n[character(name=\"avg_npc_296_1#5$1\",name2=\"avg_npc_300_1#3$1\",focus=1)]\n[Characteraction(name=\"left\", type=\"jump\", power=15, times=1, fadetime=0.3,block=false)]\n[name=\"杜小姐\"]停，停！！\n[name=\"杜小姐\"]爹！瞎操什么心呢！！\n[character(name=\"avg_npc_296_1#5$1\",name2=\"avg_npc_300_1#1$1\",focus=2)]\n[name=\"郑掌柜\"]怎么是瞎操心了？\n[character(name=\"avg_npc_296_1#6$1\",name2=\"avg_npc_300_1#1$1\",focus=1)]\n[name=\"杜小姐\"]这就是瞎操心！\n[name=\"杜小姐\"]哎呀，不同爹你说了，我还要去一趟梁大人府里……\n[character(name=\"avg_npc_296_1#6$1\",name2=\"avg_npc_300_1#1$1\",focus=2)]\n[name=\"郑掌柜\"]你找梁大人作甚？\n[character(name=\"avg_npc_296_1#6$1\",name2=\"avg_npc_300_1#1$1\",focus=1)]\n[name=\"杜小姐\"]不是我要找，是那个姓鲤的要找！\n[character(name=\"avg_npc_296_1#6$1\",name2=\"avg_npc_300_1#3$1\",focus=2)]\n[name=\"郑掌柜\"]他都找不着，可见梁大人应当不在府里，你去又有什么用？\n[character(name=\"avg_npc_296_1#9$1\",name2=\"avg_npc_300_1#3$1\",focus=1)]\n[name=\"杜小姐\"]……有道理。好啊，这姓鲤的又用这招糊弄我！我现在就去找他算账！\n[Dialog]\n[character(name=\"char_empty\",name2=\"avg_npc_300_1#3$1\",fadetime=1)]\n[PlaySound(key=\"$rungeneral\")]\n[Delay(time=2)]\n[character(name=\"char_empty\",name2=\"avg_npc_300_1#2$1\",focus=2)]\n[name=\"郑掌柜\"]唉……\n[stopmusic(fadetime=2)]\n[name=\"郑掌柜\"]姑娘家家的，什么时候才能稳重些哦……\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[character(fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[playMusic(key=\"$midautumn\", volume=0.4)]\n[character(name=\"avg_npc_297_1#7$1\",name2=\"avg_npc_039_1\",focus=1)]\n[name=\"左乐\"]……\n[character(name=\"avg_npc_297_1#7$1\",name2=\"avg_npc_039_1\",focus=2)]\n[name=\"惊蛰\"]别人的家事，不要东张西望。\n[character(name=\"avg_npc_297_1#1$1\",name2=\"avg_npc_039_1\",focus=1)]\n[name=\"左乐\"]……不用操心。\n[name=\"左乐\"]麟青砚，你现在这是什么意思？\n[character(name=\"avg_npc_297_1#1$1\",name2=\"avg_npc_039_1\",focus=2)]\n[name=\"惊蛰\"]吃饭。\n[character(name=\"avg_npc_297_1#9$1\",name2=\"avg_npc_039_1\",focus=1)]\n[name=\"左乐\"]你知道我不是问这个。\n[name=\"左乐\"]你一早就等在这里，阻拦我去见那三位，总得给我一个理由。\n[character(name=\"avg_npc_297_1#9$1\",name2=\"avg_npc_039_1\",focus=2)]\n[name=\"惊蛰\"]我说过，我会同你一起去。"
+        }
+      ],
+      "description": "左乐在近旁具体观察杜遥夜的家事。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_4121_zuole",
+          "reason": "左乐在近旁具体观察杜遥夜的家事。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebce98658cbda852",
+          "reason": "本篇未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4121_zuole"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_579215a80b4f83aa.json",
+      "sources": [
+        {
+          "endLine": 336,
+          "kind": "story",
+          "line": 274,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "未尽篇章"
+    }
+  ],
+  "relationship_id": "char_4121_zuole|npc_ebce98658cbda852"
+}

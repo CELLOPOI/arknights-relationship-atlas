@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 647,
+          "line": 637,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-18_end.txt",
+          "quote": "[name=\"华法琳\"]博士和阿米娅还在你那片森林中继续观测“Mon3tr”？\n[charslot(slot = \"r\", name = \"avg_npc_1723_1#1$1\", focus=\"r\")]\n[name=\"可露希尔\"]是的。\n[charslot(slot = \"l\", name = \"avg_171_bldsk_1#1$1\", focus=\"l\")]\n[name=\"华法琳\"]要我说，还是该留在本舰进行后续观测。我也能够提供协助——\n[charslot(slot = \"r\", name = \"avg_npc_1723_1#6$1\", focus=\"r\")]\n[name=\"可露希尔\"]一旦出现意料之外的变化，对现在的罗德岛来说不是好事。\n[charslot(slot = \"l\", name = \"avg_171_bldsk_1#10$1\", focus=\"l\")]\n[name=\"华法琳\"]你们还是担心普瑞赛斯对凯尔希留下的东西动了手脚？\n[charslot(slot = \"r\", name = \"avg_npc_1723_1#6$1\", focus=\"r\")]\n[name=\"可露希尔\"]没人知道。"
+        }
+      ],
+      "description": "华法琳明确知道普瑞赛斯，并讨论其可能对凯尔希留下之物的影响。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D36"
+          ],
+          "from": "char_171_bldsk",
+          "reason": "华法琳明确知道普瑞赛斯，并讨论其可能对凯尔希留下之物的影响。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_333d465fd8712924",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_171_bldsk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 647,
+          "kind": "story",
+          "line": 637,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-18_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_171_bldsk|npc_333d465fd8712924"
+}

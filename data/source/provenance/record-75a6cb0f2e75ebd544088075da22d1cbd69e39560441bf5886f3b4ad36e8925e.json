@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 258,
+          "line": 190,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_st03.txt",
+          "quote": "[name=\"睚\"]什么人？\n[dialog]\n[charslot]\n[playMusic(key=\"$m_sys_act23side_loop\", volume=0.6)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#10$1\",duration=1.5)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#10$1\")]\n[name=\"“老天师”\"]哟，走了这么远了，还准备上哪去？\n[charslot(slot=\"m\",name=\"avg_npc_786_1#6$1\")]\n[name=\"睚\"]……与你何干？\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#5$1\")]\n[name=\"“老天师”\"]你在大炎的地界上撒泼耍浑，还想让我当看不见？\n[name=\"“老天师”\"]你们这些老东西，我看是伤疤没好就忘了痛。我们当年能把你们揍一顿，从这片土地上赶出去，现在照样能。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\")]\n[name=\"睚\"]就凭你一人？可笑……\n[dialog]\n[effect(name=\"$e_sand_transition\", layer=1)]\n[PlaySound(key=\"$d_avg_snowstormflp\", volume=1, loop=true, channel=\"sn\")]\n[PlaySound(key=\"$d_avg_sandwnd\", volume=0, loop=true, channel=\"s\")]\n[SoundVolume(volume=1, channel=\"s\",fadetime=2)]\n[Delay(time=1)]\n[bgeffect(name=\"$eb_sand02\", flip = 1, layer=2)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#1$1\")]\n[name=\"“老天师”\"]哦，想打架？行啊。\n[dialog]\n[PlaySound(key=\"$firestorm\", volume=1, loop=true, channel=\"fire\")]\n[PlaySound(key=\"$d_avg_churchfire\",volume=0, channel=\"f\", loop=true)]\n[SoundVolume(volume=1, channel=\"f\",fadetime=2)]\n[Blocker(a=0.2, r=0.92, g=0.4, b=0.3, fadetime=2, block=false)]\n[StopSound(channel=\"fire\", fadetime=6)]\n[name=\"“老天师”\"]我知道你肚子里装下了几片小天地，我倒要看看你和那个画画的谁的本事更大。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#5$1\")]\n[name=\"“老天师”\"]残山剩水，经得住我几把火？\n[charslot(slot=\"m\",name=\"avg_npc_786_1#6$1\")]\n[name=\"睚\"]你会为你的挑衅付出代价。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#5$1\")]\n[name=\"“老天师”\"]哼……\n[dialog]\n[Delay(time=1)]\n[StopSound(channel=\"f\", fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#3$1\")]\n[name=\"“老天师”\"]算了，就算在这宰了你，你还是能原样再捏一个出来，没什么意思。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\")]\n[name=\"睚\"]如果你在找一个退缩的理由，我可以接受。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#2$1\")]\n[name=\"“老天师”\"]懒得和你掰扯，在我找到你的本体，彻底干掉你之前，我还想问你一个问题。\n[name=\"“老天师”\"]我就是很好奇，那个臭棋篓子到底许了什么好处，让你心甘情愿听他使唤？\n[name=\"“老天师”\"]不对……应该说，“你们”。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\")]\n[name=\"睚\"]他的谋划与我无关，我们不过是有些共同目的。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#6$1\")]\n[name=\"睚\"]我要找的，是那个被囚禁在陵墓里的，可耻的叛徒。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#2$1\")]\n[name=\"“老天师”\"]你要是真心想报仇，早就该将祂那些个分身一一杀了，然后等着祂死在和大炎的战争里。\n[name=\"“老天师”\"]这么多年过去了，你所谓的“同族”，这片大地上也不剩几只了吧……你到底还是念旧的。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#4$1\")]\n[name=\"“老天师”\"]看在这点“人情味”上，倒不能把你们和野兽等同视之了。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#6$1\")]\n[name=\"睚\"]……荒唐。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#2$1\")]\n[name=\"“老天师”\"]不……不对，这也不是你和他合谋的全部理由。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#5$1\")]\n[name=\"“老天师”\"]别以为能骗过我，这么多年来，炎国一直留着几双眼睛在盯着你们。\n[name=\"“老天师”\"]你们还惦记着，百灶城下的那个东西……\n[charslot(slot=\"m\",name=\"avg_npc_786_1#5$1\")]\n[name=\"睚\"]……"
+        }
+      ],
+      "description": "睚与老天师正面对峙并交手。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J15"
+          ],
+          "from": "npc_540cd5c18cb7a9cf",
+          "reason": "睚与老天师正面对峙并交手。",
+          "status": "supported",
+          "to": "npc_d82925e6527dea32"
+        },
+        {
+          "evidenceIds": [
+            "J15"
+          ],
+          "from": "npc_d82925e6527dea32",
+          "reason": "睚与老天师正面对峙并交手。",
+          "status": "supported",
+          "to": "npc_540cd5c18cb7a9cf"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 258,
+          "kind": "story",
+          "line": 190,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "npc_540cd5c18cb7a9cf|npc_d82925e6527dea32"
+}

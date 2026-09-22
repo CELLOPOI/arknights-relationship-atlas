@@ -1,0 +1,23 @@
+[project]
+name = "arknights-relationship-api"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "Django>=5.2.12,<5.3",
+  "djangorestframework>=3.16,<4",
+  "psycopg[binary]>=3.2,<4",
+  "gunicorn>=23,<24",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.12"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint.per-file-ignores]
+# Django/DRF 使用类属性列表声明模型约束、后台配置和权限。
+"atlas/models.py" = ["RUF012"]
+"atlas/admin.py" = ["RUF012"]
+"atlas/views.py" = ["RUF012"]
+"atlas/migrations/*.py" = ["RUF012"]

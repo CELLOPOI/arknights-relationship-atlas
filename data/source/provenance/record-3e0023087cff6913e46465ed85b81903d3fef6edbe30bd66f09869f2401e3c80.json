@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 541,
+          "line": 520,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act43side/level_act43side_07_end.txt",
+          "quote": "[name=\"Miss.Christine\"]……\n[dialog]\n[charslot(slot = \"m\", focus=\"n\")]\n黑色的生物不知何时出现在了道具间，她轻巧地绕开莫伊拉的身体，来到卢西恩身边。\n卢西恩半跪在满地的人偶碎片之间，罕见地，没有对她尽到一个绅士的礼节。\n女士愈发不悦。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background]\n[Image(image=\"62_i02_2\", screenadapt=\"coverall\", xScale=1.4, yScale=1.4, y=-140)]\n[ImageTween(xScaleFrom=1.5, yScaleFrom=1.5, xScaleTo=1.4, yScaleTo=1.4, duration=30, block=false)]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[name=\"Miss.Christine\"]你已经很久没唱歌了，卢西恩。\n[name=\"卢西恩\"]……\n[name=\"卢西恩\"]抱歉，Miss.Christine，你第一时间赶了过来吗？\n[name=\"Miss.Christine\"]（不置可否地甩尾）\n[name=\"Miss.Christine\"]糟糕的气味，这个札拉克逼你动用了源石技艺，以及，被你决意抛弃的那些技巧……\n[name=\"Miss.Christine\"]你知道自己现在处于什么样的状态吧？"
+        }
+      ],
+      "description": "仅确认 Miss.Christine 知晓眼前的莫伊拉。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "char_4198_christ",
+          "reason": "Miss.Christine识别眼前莫伊拉为逼卢西恩动用技艺的札拉克。",
+          "status": "supported",
+          "to": "npc_d74d51b345271a02"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_d74d51b345271a02",
+          "reason": "莫伊拉已经失去回应，原文未显示她知晓 Miss.Christine。",
+          "status": "not_established",
+          "to": "char_4198_christ"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_3aa057c3830d75c1.json",
+      "sources": [
+        {
+          "endLine": 541,
+          "kind": "story",
+          "line": 520,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act43side/level_act43side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "道具间对峙结束后",
+      "title": "红丝绒"
+    }
+  ],
+  "relationship_id": "char_4198_christ|npc_d74d51b345271a02"
+}

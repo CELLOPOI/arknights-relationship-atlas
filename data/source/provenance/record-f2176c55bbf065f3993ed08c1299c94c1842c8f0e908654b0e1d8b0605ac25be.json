@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 177,
+          "line": 153,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_08_end.txt",
+          "quote": "[Background(image=\"77_g7_rooftop\",screenadapt=\"coverall\",fadetime=4)]\n[delay(time=5)]\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#7$2\",focus=\"m\")]\n[playMusic(intro=\"$m_sys_act16side_intro\",key=\"$m_sys_act16side_loop\", volume=0.6)]\n[name=\"山岸风花\"]……啊，异变的景象，消散了！\n[charslot(slot=\"m\",name=\"avg_4219_yukari_1#6$2\",focus=\"m\")]\n[name=\"岳羽由加莉\"]所以，我们消灭那个怪物了吗？\n[charslot(slot=\"m\",name=\"avg_npc_2388_1#4$2\",focus=\"m\")]\n[name=\"天田乾\"]嗯……如果一切如博士所推测，那它的本质应该是不可能完全消灭的……\n[charslot(slot=\"m\",name=\"avg_4218_aigis_1#7$2\",focus=\"m\")]\n[name=\"埃癸斯\"]但是，我们确实击败了那个怪物，这点我可以确定。\n[charslot(slot=\"m\",name=\"avg_4219_yukari_1#10$2\",focus=\"m\")]\n[name=\"岳羽由加莉\"]对呀，连那种诡异的景象都消失了嘛……\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#7$2\",focus=\"m\")]\n[name=\"山岸风花\"]……啊！\n[charslot(slot=\"m\",name=\"avg_npc_2388_1#9$2\",focus=\"m\")]\n[name=\"天田乾\"]风花姐，怎么了？！\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#7$2\",focus=\"m\")]\n[name=\"山岸风花\"]那种杂音……\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#2$2\",focus=\"m\")]\n[name=\"山岸风花\"]一直以来干扰着我感知的杂音，也开始减弱了！\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#4$2\",focus=\"m\")]\n[name=\"山岸风花\"]我好像能稍微感知到大家的气息了……\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#2$2\",focus=\"m\")]\n[name=\"山岸风花\"]等杂音再减弱一些，也许……就能感知到门扉的位置了！"
+        }
+      ],
+      "description": "异变消散后岳羽由加莉与山岸风花在同一屋顶连续讨论战果与感知恢复，支持实际局部共处。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR03"
+          ],
+          "from": "char_4219_yukari",
+          "reason": "异变消散后岳羽由加莉与山岸风花在同一屋顶连续讨论战果与感知恢复，支持实际局部共处。",
+          "status": "supported",
+          "to": "npc_4a85ba130f83266c"
+        },
+        {
+          "evidenceIds": [
+            "PR03"
+          ],
+          "from": "npc_4a85ba130f83266c",
+          "reason": "异变消散后岳羽由加莉与山岸风花在同一屋顶连续讨论战果与感知恢复，支持实际局部共处。",
+          "status": "supported",
+          "to": "char_4219_yukari"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2be69585e5326764.json",
+      "sources": [
+        {
+          "endLine": 177,
+          "kind": "story",
+          "line": 153,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇联动叙事中的屋顶场景",
+      "title": "月行水上"
+    }
+  ],
+  "relationship_id": "char_4219_yukari|npc_4a85ba130f83266c"
+}

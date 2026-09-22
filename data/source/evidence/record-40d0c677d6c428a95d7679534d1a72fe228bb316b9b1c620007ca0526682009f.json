@@ -1,0 +1,18 @@
+{
+  "id": "import:char_003_kalts|char_210_stward",
+  "published": true,
+  "quote": "不过听凯尔希老师说，史都华德和玫兰莎的状况都不太好……\n\n史都华德：香草小姐，在房间里养这样的小动物真的没问题吗……\n香草：嗯？没问题哦！阿米娅和凯尔希医生都给了许可！\n香草：这个保温箱的材质比较特殊，可以隔绝源石的影响，非常安全！\n香草：而且，食物我已经提前贮备好了……看，只要按下这边的按钮，像这样，就会自动喂食了。\n香草：嘿嘿，很神奇吧！\n史都华德：现在我觉得，还是会养源石虫的你比较神奇……",
+  "relationship_id": "char_003_kalts|char_210_stward",
+  "sources": [
+    {
+      "kind": "profile",
+      "source": "char_212_ansel/voice/char_212_ansel_CN_009"
+    },
+    {
+      "endLine": 559,
+      "kind": "story",
+      "line": 552,
+      "source": "activities/act7d5/level_act7d5_st01.txt"
+    }
+  ]
+}

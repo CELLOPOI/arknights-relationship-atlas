@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 346,
+          "line": 297,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_02_end.txt",
+          "quote": "[name=\"锡人\"]……\n[name=\"锡人\"]原来是这样，难怪我联系不上塞雷娅和凯尔希。\n[name=\"锡人\"]Dr.{@nickname}，那委托你也是一样的。\n[dialog]\n[charslot(slot = \"m\", focus = \"none\")]\n[Decision(options=\"……\",values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]我听凯尔希说了你的事情。\n[name=\"锡人\"]时间过得真快啊，上一次见面……\n[name=\"锡人\"]呃，说起来……你害怕我这个样子？从刚刚起就一直盯着我看。\n[dialog]\n[charslot(slot = \"m\", focus = \"none\")]\n[Decision(options=\"你的脏器也是锡质的吗，还是说肚子里空空如也？;你要是生锈的话，算皮肤病吗？;你会得关节炎吗，需不需要定期涂抹润滑油保养？\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]……\n[name=\"锡人\"]你确实改变了很多，博士。\n[name=\"锡人\"]言归正传，我们没有太多时间，而且现在的你……也不太适合叙旧。\n[name=\"锡人\"]梅兰德基金会希望罗德岛能够协助我们阻止军方……暗杀副总统。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[charslot(slot = \"m\", focus = \"all\")]\n[name=\"锡人\"]博士，你看起来并不惊讶……\n[name=\"锡人\"]我们也是刚得到情报，明天杰克逊要去参观莱茵生命，布莱克会在那个时候动手。\n[name=\"锡人\"]想必凯尔希已经和你同步过“地平弧光计划”的信息，我就不多解释了。\n[name=\"锡人\"]罗德岛在这件事中，应当和梅兰德基金会站在同一阵线，这是凯尔希和我的约定，也是你们得以进入特里蒙的前提条件。\n[name=\"锡人\"]协同梅兰德基金会阻止军方的荒唐行径。这次，你可以将这视为一种“命令”，博士。\n[dialog]\n[charslot(slot = \"m\", focus = \"none\")]\n[Decision(options=\"梅兰德的特工应该够用吧？;你并不是来给副总统找贴身保镖的，对吧？\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]……你依然很冷静，也很敏锐，这点倒是符合我以前的印象。\n[name=\"锡人\"]是的。梅兰德基金会已经在调拨人手，尽量保护杰克逊的生命安全。但仅仅是这样，并不能阻止军方的计划。\n[name=\"锡人\"]参观莱茵生命，是杰克逊在发布会后的系列活动之一，当天的行程将会进行全程直播。\n[name=\"锡人\"]只要刺客和我们的特工在民众面前交手，哪怕他们的刺杀没有成功，布莱克依然有理由宣布进入紧急状态，从而接管整个特里蒙。\n[name=\"锡人\"]……就像此时此刻的十三区。\n[name=\"锡人\"]无论是我，还是梅兰德基金会，我们都不喜欢面对别人的孤注一掷。\n[name=\"锡人\"]因为那往往是崩溃的先兆。\n[dialog]\n[charslot(slot = \"m\", focus = \"none\")]\n[Decision(options=\"不用再征求凯尔希的意见？;……;就这么交给我？\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]这是梅兰德对罗德岛的委托，你是罗德岛的博士。既然凯尔希依然选择相信你，我自然没什么好怀疑的。\n[name=\"锡人\"]时间紧张，博士，希望我们配合默契。"
+        }
+      ],
+      "description": "锡人具体知晓布莱克的行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "char_4151_tinman",
+          "reason": "锡人向博士具体说明军方刺杀行动及布莱克的威胁。",
+          "status": "supported",
+          "to": "npc_9d5d29c1bb701a7f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_9d5d29c1bb701a7f",
+          "reason": "布莱克不在场，未显示反向。",
+          "status": "not_established",
+          "to": "char_4151_tinman"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 346,
+          "kind": "story",
+          "line": 297,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "梅兰德委托期间",
+      "title": "孤星"
+    }
+  ],
+  "relationship_id": "char_4151_tinman|npc_9d5d29c1bb701a7f"
+}

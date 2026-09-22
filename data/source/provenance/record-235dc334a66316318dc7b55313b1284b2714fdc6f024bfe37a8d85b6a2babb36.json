@@ -1,0 +1,171 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 232,
+          "line": 214,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "quote": "[Decision(options=\"我建议阿斯卡纶留守“生命脊椎”。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]博士，我的工作是和你一起行动，并尽力保证你的安全。\n[name=\"阿斯卡纶\"]在那场血魔大君的袭击中，我的失误已经让你负伤。我不希望这样危险的情况重演。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#1$1\",focus=\"none\")]\n[Decision(options=\"“生命脊椎”很重要，大概率由曼弗雷德指挥进攻。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"你很了解他。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]……\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]我赞成，萨卡兹在作战时非常依赖指挥官的临场判断。如果能对曼弗雷德进行限制，也许能为雇佣兵分担一部分压力。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#2$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]我尊重你们的决议。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#4$1\",focus=\"m\")]\n[name=\"W\"]那帮派不上什么用场的维多利亚人呢，也和你们一起走吗？"
+        }
+      ],
+      "description": "博士在三人参与的留守商议中明确点名曼弗雷德，各人连续回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "char_003_kalts",
+          "reason": "博士在三人参与的留守商议中明确点名曼弗雷德，各人连续回应。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 232,
+          "kind": "story",
+          "line": 214,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 173,
+          "line": 136,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "quote": "[name=\"Scout\"]那么，殿下，这次的简报就只有这些。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]看来军事委员会笃定我们会收复C8—10区域的村庄和物资，并在那里建立哨站，他们已经落入了圈套。\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]但……有一些军官，开始表露出与曼弗雷德大不相同的军事策略。这很不寻常。\n[name=\"Scout\"]间谍提出，曾看见过食腐者出入军队的营帐。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#3$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]孽茨雷……\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]博士怎么看待这件事？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]博士认为，在萨卡兹的战争之神表露出任何形式的参与意图后，我们的布置会被全盘打乱。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#10$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]你呢？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]……一直以来，诸多强大的王庭成员都更青睐主张反击和暴力的军事委员会，这任谁都心知肚明。\n[name=\"Scout\"]但出于某种约束——甚至可以说是约定俗成的规则——没有任何一个王庭主动参与到内战中来。\n[name=\"Scout\"]若是王庭之主们真的决定在卡兹戴尔与我们开战，那些仍旧没有回归的萨卡兹们，再无法在地图上看见任何巴别塔的标识。\n[name=\"Scout\"]而说点现实的，王庭的加入形成的兵力差距同样令人担忧，支持我们的人，大多并非战士或士兵。\n[name=\"Scout\"]我们的队伍里也有不少人第一次拿起武器。\n[name=\"Scout\"]所以，要说心里话——无论真相是什么，我们的处境都在急转直下。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"n\")]\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#4$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]……我明白了。\n[name=\"特蕾西娅\"]继续观察食腐者王庭的行踪。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]若是孽茨雷真的按捺不住，那么杜卡雷同样会有所动作。\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"n\")]\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]连续三周，“玫瑰河畔并无航船”。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#4$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]玫瑰河畔已经是十分优秀的间谍系统，她们可以骗过任何人，但唯独骗不过自己的君主。"
+        }
+      ],
+      "description": "简报中Scout具体提及曼弗雷德，凯尔希在同一场合具称杜卡雷，Scout紧接着回应情报；支持各自单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR06"
+          ],
+          "from": "char_003_kalts",
+          "reason": "简报中Scout具体提及曼弗雷德，凯尔希在同一场合具称杜卡雷，Scout紧接着回应情报；支持各自单向知晓。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 173,
+          "kind": "story",
+          "line": 136,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 150,
+          "line": 66,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_12-02.txt",
+          "quote": "[name=\"W\"]嗨，凯尔希，真晦气，不是吗？\n[charslot(slot=\"m\",name=\"avg_npc_412_1#10$1\",focus=\"none\")]\n[name=\"凯尔希\"]这里……\n[charslot(slot=\"m\",name=\"avg_npc_412_1#1$1\",focus=\"m\")]\n[name=\"W\"]要不你再睡会儿？我还没来得及往你枕头下面塞炸弹呢。\n[name=\"W\"]我猜，你醒来看到的第一个人是我，一定不怎么高兴。我也一样。\n[name=\"W\"]我宁愿去死都不想被误会成每天流着泪守在你的床前，全心全意等着你睁开眼睛的这一刻。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"m\")]\n[name=\"W\"]相信我，这是个巧合，我只是来房间里找水喝的，是你先占了我的位置。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"none\")]\n[name=\"凯尔希\"]博士和阿米娅在哪？\n[charslot(slot=\"m\",name=\"avg_npc_412_1#10$1\",focus=\"m\")]\n[name=\"W\"]你觉得呢？\n[name=\"W\"]搞不好我在你睡大觉的时候把他们都杀了。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#10$1\",focus=\"none\")]\n[name=\"凯尔希\"]看来他们暂时没事。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#1$1\",focus=\"m\")]\n[name=\"W\"]你还真是信任我。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#1$1\",focus=\"none\")]\n[name=\"凯尔希\"]我们现在的位置是哪里？\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"m\")]\n[name=\"W\"]伦蒂尼姆城外，我的一间安全屋，现在就连院子里都塞满了你的那些可怜盟友。\n[name=\"W\"]我的这份恩情在不在你的那些伟大计划里，凯尔希？你可以试着发自内心地感谢我，我会考虑接受的。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"none\")]\n[name=\"凯尔希\"]我和阿斯卡纶制定过数种计划，其中最差的一些情况确实考虑到了借助部分前巴别塔小队的帮助。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#8$1\",focus=\"m\")]\n[name=\"W\"]我就知道，你会把每个人的用处算计得明明白白——\n[charslot(slot=\"m\",name=\"avg_npc_412_1#8$1\",focus=\"none\")]\n[name=\"凯尔希\"]不过，我还是要感谢你，W。\n[name=\"凯尔希\"]如你所说的，发自内心。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#12$1\",focus=\"m\")]\n[name=\"W\"]……啊？\n[name=\"W\"]特雷西斯伤到了你的脑子吗？我是不是应该把闪灵叫来？\n[charslot(slot=\"m\",name=\"avg_npc_412_1#12$1\",focus=\"none\")]\n[multiline(name=\"凯尔希\")]我，\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[multiline(name=\"凯尔希\")]唔——\n[name=\"凯尔希\"]……\n[name=\"凯尔希\"]W。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"m\")]\n[name=\"W\"]我不会真的去叫闪灵的。伤了脑子对于你未必是件坏事。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"none\")]\n[name=\"凯尔希\"]请你……扶我一把。我需要起身。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#3$1\",focus=\"m\")]\n[name=\"W\"]……\n[name=\"W\"]……好吧。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Background(image=\"37_g11_wsafehouse\", screenadapt=\"coverall\", block=true)]\n[charslot(slot=\"l\",name=\"char_003_kalts_1\")]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#8$1\")]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_glassclink\", volume=0.6)]\n[Delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#8$1\",focus=\"r\")]\n[name=\"W\"]你的水。\n[charslot(slot=\"l\",name=\"char_003_kalts_1#4\",focus=\"l\")]\n[name=\"凯尔希\"]谢谢。\n[charslot(slot=\"l\",name=\"char_003_kalts_1\",focus=\"l\")]\n[name=\"凯尔希\"]撤出伦蒂尼姆是一项风险很高的行动，我们现在的处境如何？\n[charslot(slot=\"r\",name=\"avg_npc_412_1#1$1\",focus=\"r\")]\n[name=\"W\"]你确定要问我？可露希尔正在建那些临时营房，我们可以在她回来之前，谁也不打扰谁。\n[charslot(slot=\"l\",name=\"char_003_kalts_1\",focus=\"l\")]\n[name=\"凯尔希\"]我想听听你的判断，雇佣兵对危险的嗅觉更敏锐。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#12$1\",focus=\"r\")]\n[name=\"W\"]……好吧。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#8$1\",focus=\"r\")]\n[name=\"W\"]你的自救军盟友们被曼弗雷德耍得很惨。\n[name=\"W\"]他和他的小弟看起来终于腾出手来修理你们了，在我看来，这些可怜的市民朋友从来就不是萨卡兹那些刀尖舔血的渣滓的对手。\n[name=\"W\"]现在这些可怜虫给赶出伦蒂尼姆了，要我说，这是件好事，总比白白死在巷子里要强。\n[name=\"W\"]唯一的好消息是大公爵们终于动手了，我收到了伊内丝那女人的情报，博士和小兔子被某一位大公爵拐走打工了，她和他们在一起。\n[stopmusic(fadetime=3)]\n[charslot(slot=\"l\",name=\"char_003_kalts_1#3\",focus=\"l\")]\n[name=\"凯尔希\"]大公爵……\n[charslot(slot=\"l\",name=\"char_003_kalts_1\",focus=\"l\")]\n[name=\"凯尔希\"]这么说，战争还是爆发了。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#1$1\",focus=\"r\")]\n[name=\"W\"]真遗憾，你错过了不少刺激的事情。\n[name=\"W\"]后悔吗，凯尔希？你的那些聪明才智似乎没有换来你想要的结果。\n[charslot(slot=\"l\",name=\"char_003_kalts_1\",focus=\"l\")]\n[name=\"凯尔希\"]我从未后悔。"
+        }
+      ],
+      "description": "该人物单向明确知晓曼弗雷德。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_003_kalts",
+          "reason": "该人物在直接对话中明确谈论曼弗雷德清剿自救军。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "被提及者未在当前局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 150,
+          "kind": "story",
+          "line": 66,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_12-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 270,
+          "line": 161,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "quote": "[charslot(slot=\"m\",focus=\"n\")]\n[dialog]\n[Decision(options=\"凯尔希，他们成功的概率有多大？;凯尔希，我们现在是否具备应对后续意外的条件？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]从我们在内化宇宙中的遭遇来判断，特蕾西娅已经极大程度地掌控了其中的规则。\n[name=\"凯尔希\"]解析规则，重建秩序，和特雷西斯配合夺下最初的源石……我相信，以她的能力而言，这并非天方夜谭。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]有关最初的源石的更详细信息我也无从了解，自然也无法确切地提出有效的应对手段。\n[name=\"凯尔希\"]换而言之，事态发展到当下，我们已经很难依据过往的经验与知识来判断局势。\n[Predicate(references=\"1;2\")]\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]凯尔希医生，难道我们对此束手无策吗？\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]并非如此。如果他们的计划成功，特雷西斯与特蕾西娅所求依旧在我们的认知范围之内，事态不一定会走向最坏的结果。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#4$1\")]\n[name=\"凯尔希\"]但如果他们失败……\n[charslot(slot=\"m\",focus=\"n\")]\n凯尔希看向了你，眼神中充满了担忧。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\")]\n[name=\"凯尔希\"]Dr.{@nickname}，我们必须以最快的速度赶回罗德岛本舰。\n[name=\"凯尔希\"]我们也许还能做最后的尝试来为泰拉争取片刻的喘息时间。\n[charslot]\n[dialog]\n[Decision(options=\"好，先控制住曼弗雷德。;与其担忧未发生的意外，不如排除已有的变数。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[playsound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（兴奋的高鸣）\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]我会护住博士，同时尽可能限制曼弗雷德的活动范围。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]速战速决。小心他手上的“提卡兹之根”。\n[charslot]\n当曼弗雷德手中的“提卡兹之根”刚刚亮起红光时，魔王的法术与阿斯卡纶的锋刃已经逼近到了他的面前。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]该结束了。\n[dialog]\n[charslot]\n[stopmusic(fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\")]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovementsp\")]\n[charslot(slot = \"right\", name = \"avg_4132_ascln_1#4$1\",posfrom = \"200,0\", posto = \"0,0\",duration = 0.5,afrom=0.5,ato=0.5,focus=\"m\")]\n[delay(time=0.6)]\n[CameraShake(duration=0.2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=1,g=1, b=1, fadetime=0.5, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[image(image=\"32_i08_2\",screenadapt=\"coverall\",block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[delay(time=0.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"凯尔希\"]——躲开！\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1,  fadetime=1, block=true)]\n[image]\n[Background(image=\"60_g7_westlobbyundergroundthrone\",screenadapt=\"coverall\")]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[Blocker(a=0, r=0, g=0, b=0,  fadetime=1, block=true)]\n[name=\"曼弗雷德\"]——！\n[charslot]\n[dialog]\n[Blocker(a=0.2, r=0.2, g=0, b=0.5, fadetime=1, block=false)]\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\",afrom=0.5,ato=0,duration=1)]\n[delay(time=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n阿斯卡纶瞬间化作紫色的烟雾，在剑光中散开又重聚。\n阿米娅所编织的屏障护住了你和凯尔希，却也在剑光中变得脆弱。\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=false)]\n[playsound(key=\"$Mon3tr_n\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（愤怒的嘶鸣）\n[name=\"Mon3tr\"]（全力保护）\n[dialog]\n[charslot]\n[playMusic(intro=\"$sacrifice_intro\",key=\"$sacrifice_loop\", volume=0.6)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot = \"m\", focus = \"n\")]\n剑光的主人缓缓从黑暗中走了出来，在微弱的光线下显得格外恐怖。\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]你让自己陷入了愚蠢的境地。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"]……殿下……你……\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]看来孽茨雷履行了与我的约定……\n[name=\"特雷西斯\"]你们来到我面前。很好。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#6$1\")]\n[name=\"阿斯卡纶\"]……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]……\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#2$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n你看到了王座前那个面目平静的人——特雷西斯。\n他绝非你所熟悉的模样。而他的手中，紧紧地握着一枚鲜艳的晶石。\n[charslot]\n[dialog]\n[Decision(options=\"“阿喃那”……;你们成功了。\", values=\"1;2\")]"
+        }
+      ],
+      "description": "凯尔希与曼弗雷德在地下王座厅直接对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希与曼弗雷德在地下王座厅直接对峙。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "凯尔希与曼弗雷德在地下王座厅直接对峙。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 270,
+          "kind": "story",
+          "line": 161,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前战斗或明确既往关系",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_003_kalts|npc_03f95afb5dd17c3f"
+}

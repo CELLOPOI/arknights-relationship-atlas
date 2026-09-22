@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 656,
+          "line": 625,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-06_beg.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_npc_1306_1#1$1\",focus=\"m\")]\n[name=\"雇佣兵斥候\"]南北两个方向的防线均已开始与王庭军交战。我们正在按计划缓慢收缩防线。\n[name=\"雇佣兵斥候\"]目前战场情况均在计划之内。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]还好……\n[name=\"赫德雷\"]有没有曼弗雷德的踪迹？\n[charslot(slot=\"m\",name=\"avg_npc_1306_1#1$1\",focus=\"m\")]\n[name=\"雇佣兵斥候\"]没有发现……\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#8$1\",focus=\"m\")]\n[name=\"赫德雷\"]这样的场合，他不该只是稳坐后方指挥。\n[name=\"赫德雷\"]……希望阿斯卡纶那边顺利。\n[charslot(slot=\"m\",name=\"avg_npc_1306_1#1$1\",focus=\"m\")]\n[name=\"雇佣兵斥候\"]不，她不会回来了。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]你在说什么？\n[Dialog]\n[PlaySound(key=\"$d_avg_swrdclave\", volume=0.7)]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0.95,g=0.95, b=0.95, fadetime=0, block=true)]\n[Blocker(a=1, r=0.95,g=0.95, b=0.95, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0.95,g=0.95, b=0.95, fadetime=0.5, block=true)]\n[Delay(time=0.2)]\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1306_1#1$1\",focus=\"m\")]\n[delay(time=0.5)]\n[charslot(duration=0.5)]\n[delay(time=0.5)]\n[playsound(key=\"$d_avg_humanchange\")]\n[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",duration=1)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#4$1\",focus=\"m\")]\n[name=\"赫德雷\"]什么——"
+        }
+      ],
+      "description": "斥候当面对赫德雷说话后变形显露avg_npc_426，前段614已由具名对白锚定同一变形者立绘；赫德雷现场惊讶，真实接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E183"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "斥候当面对赫德雷说话后变形显露avg_npc_426，前段614已由具名对白锚定同一变形者立绘；赫德雷现场惊讶，真实接触。",
+          "status": "supported",
+          "to": "npc_d47c240cb2990691"
+        },
+        {
+          "evidenceIds": [
+            "E183"
+          ],
+          "from": "npc_d47c240cb2990691",
+          "reason": "斥候当面对赫德雷说话后变形显露avg_npc_426，前段614已由具名对白锚定同一变形者立绘；赫德雷现场惊讶，真实接触。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 656,
+          "kind": "story",
+          "line": 625,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "char_4088_hodrer|npc_d47c240cb2990691"
+}

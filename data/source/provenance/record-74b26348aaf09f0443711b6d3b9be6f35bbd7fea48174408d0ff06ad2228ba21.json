@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 168,
+          "line": 117,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_07_beg.txt",
+          "quote": "[name=\"“校官”\"]遗憾，刺偏了一些。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Background(image=\"34_g6_noblelivingroom\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[musicvolume(volume=0.2, fadetime=1)]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_228_1#7\",name2=\"avg_npc_723_1#7$1\",focus=1)]\n[name=\"阿赫茉妮\"]嗯？我不记得我曾将这件事汇报给领袖之外的任何人……\n[Character(name=\"avg_npc_228_1#7\",name2=\"avg_npc_723_1#7$1\",focus=2)]\n[name=\"“校官”\"]你总不会天真地以为，深池之中只有你一人组织了自己的情报网。\n[name=\"“校官”\"]你要动手把那个傀儡带回来，眼下恐怕也没有比我的部队更适合调动的。\n[Character(name=\"avg_npc_228_1#1\",name2=\"avg_npc_723_1#7$1\",focus=1)]\n[name=\"阿赫茉妮\"]哎呀，那我真是感激不尽……你想监督我办事？还是想自己动手除掉她？\n[Character(name=\"avg_npc_228_1#1\",name2=\"avg_npc_723_1#1$1\",focus=2)]\n[name=\"“校官”\"]如果她不再甘于影子的身份，我的剑比你的法术更快一些。\n[name=\"“校官”\"]我已经看够了无主的维多利亚人心各异，这样的闹剧，没有必要在深池继续上演。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Background(image=\"34_g9_tent\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0, block=true)]\n[musicvolume(volume=0.4, fadetime=1)]\n[Blocker(a=0.2, r=1, g=1, b=1, fadetime=1, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_1020_reed2_1#7$1\")]\n[name=\"苇草\"]你动身来追杀我了……深池是不是，已经准备好了？\n[Character(name=\"avg_npc_723_1#1$1\")]\n[name=\"“校官”\"]你是仅剩的不稳定因素。\n[name=\"“校官”\"]我以为作为一个傀儡，你至少也学会了装模作样地思考，能够将目光放得更长远一些，但你的愚善实在令人失望。\n[name=\"“校官”\"]如果你从一开始就按照鬼魂部队的行动准则，清除所有目击证人，事情本来不会一错再错，发展到现在的局面。\n[Character(name=\"avg_1020_reed2_1#7$1\")]\n[name=\"苇草\"]……\n[Dialog]\n[Character(name=\"avg_1020_reed2_1#7$1\")]\n[Delay(time=0.5)]\n[Effect(name=\"$e_slash_02_l\",x = -50,y=-100,rox=30,roy=89,roz=150,layer = 1)]\n[CameraShake(duration=0.5,xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.03, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.7)]\n[PlaySound(key=\"$d_avg_tear\", volume=0.8,delay=0.3)]\n[Blocker(a=0.2, r=1, g=1, b=1, fadetime=1, block=true)]\n[delay(time=0.5)]\n[Character(name=\"avg_npc_723_1#1$1\")]\n[name=\"“校官”\"]第二道伤口。不足以影响一条德拉克的行动能力，但你应该知道，哪怕没有其他深池士兵赶来，这仍然是一边倒的战斗。\n[Character(name=\"avg_npc_723_1#1$1\")]\n[name=\"“校官”\"]我看不出你有什么资格向领袖举起反旗。"
+        }
+      ],
+      "description": "二人正面对战并互相质问。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F09"
+          ],
+          "from": "char_261_sddrag",
+          "reason": "二人正面对战并互相质问。",
+          "status": "supported",
+          "to": "npc_974bc7361c242057"
+        },
+        {
+          "evidenceIds": [
+            "F09"
+          ],
+          "from": "npc_974bc7361c242057",
+          "reason": "二人正面对战并互相质问。",
+          "status": "supported",
+          "to": "char_261_sddrag"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 168,
+          "kind": "story",
+          "line": 117,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 378,
+          "line": 330,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st01.txt",
+          "quote": "[name=\"高级军官\"]“校官”先生。\n[charslot(slot=\"l\",name=\"avg_npc_723_1#1$1\",focus=\"l\")]\n[name=\"“校官”\"]目标状况如何？\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"r\")]\n[name=\"高级军官\"]除了救治沿途的伤员之外，基本上是笔直地往我们营地的方向前进，马上就到“加斯特里尔”号的登舰口了。\n[charslot(slot=\"l\",name=\"avg_npc_723_1#1$1\",focus=\"l\")]\n[name=\"“校官”\"]萨卡兹和其他大公爵的动向呢？\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"r\")]\n[name=\"高级军官\"]萨卡兹方面有小股部队的试探性攻击，但他们显然不清楚情况，也不足以迟滞她的脚步。\n[charslot(slot=\"l\",name=\"avg_npc_723_1#1$1\",focus=\"l\")]\n[name=\"“校官”\"]继续监视，同时准备好登舰相关事宜。如果还有什么威胁她生命安全的东西，排除掉。\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"r\")]\n[name=\"高级军官\"]是。\n[name=\"高级军官\"]另外，“校官”先生，我们和你们塔拉人……已经是在战场上过命的交情了，对不对？\n[charslot(slot=\"l\",name=\"avg_npc_723_1#8$1\",focus=\"l\")]\n[name=\"“校官”\"]先生，有话可以直接问。\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"r\")]\n[name=\"高级军官\"]我听说过一些关于目标的传言，我还听说你曾经试图让这个人消失。\n[charslot(slot=\"l\",name=\"avg_npc_723_1#1$1\",focus=\"l\")]\n[name=\"“校官”\"]……\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"r\")]\n[name=\"高级军官\"]为什么现在你们又要保护她？\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"n\")]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[Delay(time=1.5)]\n[name=\"通讯音\"]报告，目标已经到登舰口了！\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"r\")]\n[name=\"高级军官\"]（询问的眼色）\n[charslot(slot=\"l\",name=\"avg_npc_723_1#1$1\",focus=\"l\")]\n[name=\"“校官”\"]让她上来，去指挥室。\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"r\")]\n[name=\"高级军官\"]（唇语）指挥室？！\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_npc_723_1#2$1\",focus=\"l\")]\n[delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"r\")]\n[name=\"高级军官\"]……让她上来，去“加斯特里尔”号的指挥室。\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"n\")]\n[name=\"通讯音\"]是！\n[Dialog]\n[PlaySound(key=\"$transmission\",volume=0.6)]\n[Delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_npc_408_1#1$1\",focus=\"r\")]\n[name=\"高级军官\"]我还以为……会由你来接待她。\n[charslot(slot=\"l\",name=\"avg_npc_723_1#1$1\",focus=\"l\")]\n[name=\"“校官”\"]我？\n[charslot(slot=\"l\",name=\"avg_npc_723_1#6$1\",focus=\"l\")]\n[name=\"“校官”\"]我已经不够格了。"
+        }
+      ],
+      "description": "校官知晓并监视苇草；仅支持校官方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_974bc7361c242057",
+          "reason": "校官监视并下令保护、接待具体目标苇草。",
+          "status": "supported",
+          "to": "char_261_sddrag"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_261_sddrag",
+          "reason": "苇草只说原以为会见姐姐，未识别校官。",
+          "status": "not_established",
+          "to": "npc_974bc7361c242057"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 378,
+          "kind": "story",
+          "line": 330,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "苇草接近加斯特里尔号期间",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_261_sddrag|npc_974bc7361c242057"
+}

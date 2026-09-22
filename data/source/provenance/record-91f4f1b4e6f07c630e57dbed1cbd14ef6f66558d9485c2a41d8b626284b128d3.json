@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 708,
+          "line": 677,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"游击队萨卡兹\"]  罗德岛的感染者！你很强！若是我单枪匹马，绝不是你的对手！\n[Character(name=\"char_017_homura_3#5\")]\n[name=\"煌\"]  啧，谢谢夸奖，那你能让开不？\n[Character(name=\"avg_npc_054\")]\n[name=\"游击队萨卡兹\"]  不，我只是在想，叶莲娜托付生命的一战，至少她面对的是一个真正的战士！\n[Character(name=\"char_017_homura_3#6\")]\n[name=\"煌\"]  那抱歉了，我还急着赶路，你们可能要吃点苦头咯！\n[Character(name=\"avg_npc_059\")]\n[name=\"Guard\"]  ——弩手，拦住她！\n[Character(name=\"char_017_homura_3#6\")]\n[name=\"煌\"]  还来——！？\n[Dialog]\n[character]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[delay(time=0.5)]\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$swordtsing3\")]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[Delay(time=2)] \n[Character(name=\"avg_npc_016\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"幻影弩手\"]  ……\n[Character(name=\"char_017_homura_3#5\")]\n[name=\"煌\"]  等等——你们——？你们手里的那是？\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  队长的弩，你们保存得很好。\n[name=\"幻影弩手\"]  感谢你们。\n[name=\"幻影弩手\"]  但既然我们还选择站在这里，那这把弩……就还没到被当作遗物封存的时刻。\n[name=\"幻影弩手\"]  全员，准备。"
+        }
+      ],
+      "description": "Guard明确获知叶莲娜，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S15"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "Guard在走廊场景听见对叶莲娜最后一战的具体提及。",
+          "status": "supported",
+          "to": "npc_e4fe2d3b4e1c0e5b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e4fe2d3b4e1c0e5b",
+          "reason": "叶莲娜已牺牲，本窗无反向证据。",
+          "status": "not_established",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 708,
+          "kind": "story",
+          "line": 677,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "走廊阻击",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "npc_8a4ed8ad1c6f8c69|npc_e4fe2d3b4e1c0e5b"
+}

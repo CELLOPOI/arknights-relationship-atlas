@@ -1,0 +1,173 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 525,
+          "line": 512,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_end.txt",
+          "quote": "[name=\"戴菲恩\"]里面不是在开作战会议吗？你怎么在外面的冷风里站着？\n[charslot(slot=\"l\",name=\"avgnew_112_siege_1#2$1\",focus=\"l\")]\n[name=\"推进之王\"]嗯……不差这几分钟。\n[charslot(slot=\"r\",name=\"avg_4110_delphn_1#8$1\",focus=\"r\")]\n[name=\"戴菲恩\"]……想起谁了？\n[name=\"戴菲恩\"]贝尔德，还是……\n[charslot(slot=\"l\",name=\"avgnew_112_siege_1#6$1\",focus=\"l\")]\n[name=\"推进之王\"]谁都没想。\n[charslot(slot=\"r\",name=\"avg_4110_delphn_1#1$1\",focus=\"r\")]\n[name=\"戴菲恩\"]我信你。要是这夜雾里突然走过来一个人，我也并不会有什么期待。\n[charslot(slot=\"r\",name=\"avg_4110_delphn_1#6$1\",focus=\"r\")]\n[name=\"戴菲恩\"]不是谁都有号角小姐那么幸运，还能和自己最想见的人……重逢。\n[charslot(slot=\"l\",name=\"avgnew_112_siege_1#2$1\",focus=\"l\")]\n[name=\"推进之王\"]“幸运”吗？真是个奢侈的词啊。"
+        }
+      ],
+      "description": "戴菲恩提贝尔德并问推进之王是否思念，推进之王直接回应；只明确二者知晓缺席的贝尔德。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E57"
+          ],
+          "from": "char_112_siege",
+          "reason": "戴菲恩提贝尔德并问推进之王是否思念，推进之王直接回应；只明确二者知晓缺席的贝尔德。",
+          "status": "supported",
+          "to": "npc_b8a61bfc9821327a"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b8a61bfc9821327a",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 525,
+          "kind": "story",
+          "line": 512,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 299,
+          "line": 291,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-04_beg.txt",
+          "quote": "[name=\"因陀罗\"]维娜，留下来的贝尔德她们岂不是……\n[Character(name=\"avg_npc_405_1#8$1\")]\n[name=\"摩根\"]别着急。\n[Character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]我怎么能不急！五年，我们走了五年，我都不知道她们是不是已经……\n[Character(name=\"avg_npc_407_1#9$1\")]\n[name=\"推进之王\"]……我们会找到她们的。\n[Character(name=\"avg_npc_407_1#6$1\")]\n[name=\"推进之王\"]很快，我们会把她们一个个找回来。"
+        }
+      ],
+      "description": "因陀罗提贝尔德后推进之王承诺找回她们，直接回应具体对象。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_112_siege",
+          "reason": "因陀罗提贝尔德后推进之王承诺找回她们，直接回应具体对象。",
+          "status": "supported",
+          "to": "npc_b8a61bfc9821327a"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b8a61bfc9821327a",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 299,
+          "kind": "story",
+          "line": 291,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 619,
+          "line": 554,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_morgan_1_1.txt",
+          "quote": "[name=\"摩根\"]我回来了。\n[charslot(slot = \"m\", name = \"avg_npc_863_1#1$1\")]\n[name=\"贝尔德\"]摩根，没事吧？\n[charslot(slot=\"m\",name=\"avg_npc_405_1#1$1\")]\n[name=\"摩根\"]我为什么会有事？有事的是伯尼那个家伙，他现在应该已经在黎恩老大的病房了。\n[name=\"摩根\"]可惜你们没人跟我一起去，凯特·莫瑞根单挑萨迪恩区几百走私犯，那可是大场面。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#10$1\")]\n[name=\"摩根\"]算了，我会写进回忆录里，到时候你们都能看到。\n[charslot(slot = \"m\", name = \"avg_155_tiger_1#6$1\")]\n[name=\"因陀罗\"]救命，别吹了。\n[charslot(slot = \"m\", name = \"avg_npc_863_1#5$1\")]\n[name=\"贝尔德\"]哈哈哈哈……\n[charslot(slot=\"m\",name=\"avg_npc_405_1#1$1\")]\n[name=\"摩根\"]你们这边怎么样？\n[charslot(slot = \"m\", name = \"avg_npc_863_1#5$1\")]\n[name=\"贝尔德\"]“黎恩兄弟”剩下的那十几个人也认维娜当了老大，以后你可以一边看仓库一边写书了。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#6$1\")]\n[name=\"推进之王\"]今天拜访了七个帮派，说服了三个，我和汉娜打服了四个。\n[name=\"推进之王\"]但诺伯特区的街市本身太过萧条，靠着街市讨生活的帮派也都是一盘散沙，很混乱，要想真的把大家都聚拢起来，还是太难。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#1$1\")]\n[name=\"摩根\"]不急，慢慢来，这将是格拉斯哥帮的长线任务。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#8$1\")]\n[name=\"摩根\"]维娜，谢谢你，谢谢你愿意支持我做这件事。\n[Dialog]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#6$1\")]\n[Delay(time=1.5)]\n[name=\"摩根\"]维娜，我其实一直想问你一个问题……伦蒂尼姆，到底是谁的伦蒂尼姆？\n[name=\"摩根\"]如果少掉一块两块地方，伦蒂尼姆其实不会有什么变化，那我们这些家伙，到底算什么？\n[name=\"摩根\"]诺伯特区，可能真的会被伦蒂尼姆彻底扔掉，对吧？\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#9$1\")]\n[name=\"推进之王\"]……\n[name=\"推进之王\"]摩根，说实话，我很难回答这个问题。伦蒂尼姆，乃至维多利亚……我也需要寻找这些问题的答案。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\")]\n[name=\"推进之王\"]但我现在是格拉斯哥帮的一员，那我自然也是诺伯特区的一员。\n[name=\"推进之王\"]我没法承诺什么，但如果真有那么一天，我不会看着它就那么发生。\n[charslot(slot = \"m\", name = \"avg_npc_863_1#6$1\")]\n[name=\"贝尔德\"]呃，维娜，你不需要向我们承诺什么。\n[charslot(slot = \"m\", name = \"avg_npc_863_1#9$1\")]\n[name=\"贝尔德\"]只要格拉斯哥帮都在一起，有什么好怕的呢？\n[charslot(slot = \"m\", name = \"avg_155_tiger_1#1$1\")]\n[name=\"因陀罗\"]就是！要是中央区的那些贵族真敢做这么恶心的事，我一定冲进他们的庄园，揍扁他们的脸。\n[charslot(slot = \"m\", name = \"avg_npc_863_1#9$1\")]\n[name=\"贝尔德\"]那我负责把滚烫的咖啡泼在他们的礼服上。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#3$1\")]\n[name=\"推进之王\"]放火的任务交给我。\n[charslot(slot = \"m\", name = \"avg_155_tiger_1#1$1\")]\n[name=\"因陀罗\"]你怎么说，摩根？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#2$1\")]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#8$1\")]\n[name=\"摩根\"]放心，到时候我肯定不拦你们。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#1$1\")]\n[name=\"摩根\"]说的也是，想那么多干嘛。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#10$1\")]\n[name=\"摩根\"]我们确实不是那些贵族，没法修建什么工程来振兴这个已经衰落的城区，没法颁布什么政策来帮助生活在这里的人。\n[charslot(slot = \"m\", name = \"avg_npc_863_1#9$1\")]\n[name=\"贝尔德\"]但诺伯特区的男女老少，有自己能做到的事情。\n[charslot(slot = \"m\", name = \"avg_155_tiger_1#1$1\")]\n[name=\"因陀罗\"]你们说得对。\n[charslot(slot = \"m\", name = \"avg_155_tiger_1#2$1\")]\n[name=\"因陀罗\"]不过话说回来，摩根，你这次的计划，为什么不提前跟我说？\n[charslot(slot=\"m\",name=\"avg_npc_405_1#10$1\")]\n[name=\"摩根\"]傻汉娜，你那个塞满了肌肉的脑袋……能理解得了吗？"
+        }
+      ],
+      "description": "贝尔德直接称呼维娜并回应其承诺，推进之王也在同一群聊中回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_112_siege",
+          "reason": "贝尔德直接称呼维娜并回应其承诺，推进之王也在同一群聊中回应。",
+          "status": "supported",
+          "to": "npc_b8a61bfc9821327a"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_b8a61bfc9821327a",
+          "reason": "贝尔德直接称呼维娜并回应其承诺，推进之王也在同一群聊中回应。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_c48b3d6f1b96d40b.json",
+      "sources": [
+        {
+          "endLine": 619,
+          "kind": "story",
+          "line": 554,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_morgan_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇格拉斯哥旧房间场景",
+      "title": "摩根"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 241,
+          "line": 151,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-07_end.txt",
+          "quote": "[name=\"伊内丝\"]他们之中，大部分不怀好意。\n[name=\"伊内丝\"]有两组人已经在筹划行动，他们在准备燃烧瓶。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]我知道。\n[name=\"阿米娅\"]但同时，那些绝望的人也发现了我们，那些躲藏在黑暗中的，已经病得奄奄一息的人们也发现了我们。\n[name=\"阿米娅\"]仅仅是我们在这里，或许已经足够让他们重新燃起一点点希望。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"none\")]\n[Decision(options=\"剧烈的崩塌之后，任何的重建都必须小心翼翼。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#21$1\",focus=\"m\")]\n[name=\"阿米娅\"]是的，博士。\n[name=\"阿米娅\"]我们需要的不是人们对我们的信任，我们需要他们……重新建立对彼此的信任。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]这才是一个社会重新运转的基石。\n[Dialog]\n[charslot]\n[stopmusic(fadetime=1.5)]\n[PlaySound(key=\"$rungeneral\", volume=0.2)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#9$1\",focus=\"m\")]\n[name=\"伊内丝\"]有人正在接近。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#6$2\",focus=\"m\")]\n[name=\"推进之王\"]没关系，我站在这里，我会站在你们身前。\n[name=\"推进之王\"]这是属于我们的街道，我们要把她从混乱与仇恨中夺回来。\n[charslot(slot=\"m\",name=\"avg_npc_396_1#1$1\",focus=\"m\")]\n[name=\"达格达\"]无论是谁，让他们放马过来。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$rungeneral\", volume=0.6)]\n[delay(time=2)]\n[playMusic(intro=\"$tense_intro\", key=\"$tense_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_396_1#7$1\",focus=\"m\")]\n[name=\"达格达\"]小心，要来了。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_396_1#1$1\",action=\"jump\",posfrom=\"-200,0\",posto=\"100,0\",afrom=0,ato=1,duration=0.2)]\n[charslot(slot=\"r\",name=\"avg_npc_863_1#7$2\",action=\"jump\",posfrom=\"300,0\",posto=\"-50,0\",afrom=0,ato=1,duration=0.2,isblock=true)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$knifegore\")]\n[PlaySound(key=\"$swordtsing5\", volume=1,delay=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[charslot(slot = \"l\", action=\"jump\",posfrom=\"100,0\",posto=\"-50,0\",power=5, times=1,afrom=1,ato=1,duration=0.3)]\n[charslot(slot = \"r\", action=\"jump\",posfrom=\"-50,0\",posto=\"30,0\",power=10, times=1,afrom=1,ato=1,duration=0.6,isblock=true)]\n[delay(time=1)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#11$1\",focus=\"m\")]\n[name=\"摩根\"]等等！\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#5$1\",focus=\"m\")]\n[name=\"因陀罗\"]你是——\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_863_1#7$2\",focus=\"m\")]\n[name=\"贝尔德\"]（别这么大惊小怪的，汉娜，小心我真的揍你一顿。）\n[name=\"贝尔德\"]（你们太招摇了，你们想成为所有人的目标吗？）\n[charslot(slot=\"m\",name=\"avg_npc_863_1#1$2\",focus=\"m\")]\n[name=\"贝尔德\"]（快，跟我来。）\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_crowdrun\",channel=\"run\")]\n[StopSound(channel=\"run\", fadetime=1.5)]\n[charslot(slot=\"l\",name=\"avg_npc_416_1#1$1\",posfrom=\"-300,0\",posto=\"0,0\",afrom=0,ato=1,duration=1)]\n[charslot(slot=\"r\",name=\"avg_npc_417_1#1$1\",posfrom=\"300,0\",posto=\"0,0\",afrom=0,ato=1,duration=1)]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_npc_416_1#1$1\",focus=\"l\")]\n[name=\"饥饿的暴徒\"]他们要跑了！\n[charslot(slot=\"r\",name=\"avg_npc_417_1#1$1\",focus=\"r\")]\n[name=\"愤怒的暴徒\"]该死，格拉斯哥帮的人抢了先！\n[charslot(slot=\"l\",name=\"avg_npc_416_1#1$1\",focus=\"l\")]\n[name=\"饥饿的暴徒\"]围住他们！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_exsheath\",volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#9$1\",focus=\"m\")]\n[name=\"伊内丝\"]别挡路。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]伊内丝女士，别对他们动手，暂时不要。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#9$1\",focus=\"m\")]\n[name=\"推进之王\"]他们其中的不少人……我都认识。他们只是被恐惧折磨得发了疯。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]这还不至于让他们以生命做代价。\n[charslot(slot=\"m\",name=\"avg_npc_863_1#1$1\",focus=\"m\")]\n[name=\"贝尔德\"]（走我们以前溜去打桌球的那条小路，门板还在原来的位置。）\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]（好的。）\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]（贝尔德，我们……回家再见。）\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]跟我来！"
+        }
+      ],
+      "description": "推进之王与贝尔德在街道会合并共同突围。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_112_siege",
+          "reason": "二人在同一连续场景中直接交流或明确共同感知。",
+          "status": "supported",
+          "to": "npc_b8a61bfc9821327a"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_b8a61bfc9821327a",
+          "reason": "二人在同一连续场景中直接交流或明确共同感知。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 241,
+          "kind": "story",
+          "line": 151,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_112_siege|npc_b8a61bfc9821327a"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 89,
+          "line": 64,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/ui_act5d0_firstenter.txt",
+          "quote": "[name=\"？？？\"]   别在这里叭叭叭叭地吵架，这杯劣质气泡酒已经够让我烦躁的了，拿着玻璃瓶，去外面打一架如何？\n[Character(name=\"avg_npc_028#3\")]\n[name=\"甘比诺\"]   滚开，这不关你事。\n[Character]\n[name=\"？？？\"]   注意你的口气，我才是这里的老板。\n[name=\"？？？\"]   顺便提供殡葬一条龙包办，如果你俩有幸同归于尽，丧葬费打八折。\n[Character(name=\"avg_npc_028#3\",name2=\"avg_npc_027\",focus=2)]\n[name=\"卡彭\"]   喂……这家伙是……\n[Character(name=\"avg_npc_028#3\")]\n[name=\"甘比诺\"]   ……从叙拉古离开之后，这就是我们的境遇。没人还记得你是一个西西里人。\n[Character]\n[name=\"？？？\"]   谁管你是谁。\n[Character(name=\"avg_npc_028#3\",name2=\"avg_npc_027\",focus=1)]\n[name=\"甘比诺\"]   嘁！卡彭，炸掉这间品味令人作呕的酒吧，算不算美化市容？魏彦吾不会生气的吧。\n[Character(name=\"avg_npc_028#3\",name2=\"avg_npc_027#4\",focus=2)]\n[name=\"卡彭\"]   闭嘴！别挑衅他！\n[Character]\n[name=\"？？？\"]   啊？\n[PlaySound(key=\"$bottlebroken\")]\n[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=true)]\n[Dialog]\n[PlayMusic(intro=\"$emperor_intro\", key=\"$emperor_loop\", volume=0.6, crossfade=1.5)]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_105_emper\",fadetime=2,block=true)]\n[Delay(time=2)]\n[name=\"大帝\"]   你说谁的品味令人作呕？"
+        }
+      ],
+      "description": "大帝与卡彭直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝直接介入卡彭所在桌的争执。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭认出酒吧老板并制止同伴挑衅大帝。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 89,
+          "kind": "story",
+          "line": 64,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/ui_act5d0_firstenter.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "喧闹法则开篇酒吧谈话",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "npc_2b6410ed62fdecf2|npc_e565b7639574735d"
+}

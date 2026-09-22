@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 329,
+          "line": 189,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-10_beg.txt",
+          "quote": "[name=\"？？？\"]我一开始就告诉您了，考伯特先生，只是把物资装在车上扔出去不是个好主意。\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_864_1#8$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_865_1#8$1\",focus=\"r\")]\n[name=\"考伯特\"]这确实和我想的不一样，珀茜瓦尔。\n[name=\"考伯特\"]我原以为……这多少能帮上几个人。\n[name=\"考伯特\"]他们每个人可以偷偷地拿上一两件豆子罐头，大家都可以撑到下一次补给发放。\n[name=\"考伯特\"]我应该更公开的——\n[charslot(slot=\"l\",name=\"avg_npc_864_1#8$1\",focus=\"l\")]\n[name=\"珀茜瓦尔\"]结果都一样，考伯特先生，或许还会更惨。\n[name=\"珀茜瓦尔\"]就算之前大家还会对您假装客气一下，眼下的情况您也该把自己藏起来。\n[name=\"珀茜瓦尔\"]您拥有了能拯救一些人性命的物资，这是好事，但您猜，在他们眼中，您更像是个圣人，还是更像是个魔鬼？\n[charslot(slot=\"r\",name=\"avg_npc_865_1#1$1\",focus=\"r\")]\n[name=\"考伯特\"]哈哈，更何况，我本来就是个萨卡兹。\n[charslot(slot=\"r\",name=\"avg_npc_865_1#10$1\",focus=\"r\")]\n[name=\"考伯特\"]这些人说的是真的吗？\n[name=\"考伯特\"]一位阿斯兰王储？大公爵们听从她的命令即将进攻这里？\n[charslot(slot=\"l\",name=\"avg_npc_864_1#3$1\",focus=\"l\")]\n[name=\"珀茜瓦尔\"]哼，您可不是个会相信那些传说故事的街头混混，我们都知道国王是怎么死的。\n[charslot(slot=\"r\",name=\"avg_npc_865_1#10$1\",focus=\"r\")]\n[name=\"考伯特\"]无论他们是谁，他们都帮了我们大忙，我们该……\n[charslot]\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[name=\"伊内丝\"]和他们聊聊，对吧？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]伊内丝小姐！我们应该用些更温和的方式……\n[charslot(slot=\"m\",name=\"avg_npc_864_1#5$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]？！\n[charslot(slot=\"m\",name=\"avg_npc_864_1#5$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]你是刚才的……\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]相信我们，我们并无恶意。\n[dialog]\n[charslot]\n[Decision(options=\"我们只是想与二位交流一下。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_864_1#4$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]……你觉得我会信吗，一个用兜帽藏住脸的家伙，还有一个萨卡兹雇佣兵，声称你们和阿斯兰王是一伙的？\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#3$1\",focus=\"m\")]\n[name=\"伊内丝\"]哼，这片大地上什么都可能发生。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#10$1\",focus=\"m\")]\n[name=\"伊内丝\"]我自己也很意外，居然有一天会被加上个这样的身份。\n[charslot(slot=\"m\",name=\"avg_npc_864_1#5$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]……你们想干什么？\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]你们是日落街酒店的人，对吧？\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]看来两位掌握了些特别的渠道。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#7$1\",focus=\"m\")]\n[name=\"考伯特\"]有一位好心的萨卡兹雇佣兵给我们送了些物资，不算多，但我想着……\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]别着急解释，老先生，我们可以慢慢聊。\n[dialog]\n[charslot]\n[Decision(options=\"对于二位，我们也有些很吸引人的提案。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_864_1#1$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]……\n[charslot(slot=\"m\",name=\"avg_npc_864_1#1$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]好吧，只要你们真的打算帮诺伯特区的人一把，是谁都无所谓。\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(fadetime=0)]\n[Background(image=\"37_g6_hotellobby\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\n[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.6)]\n[PlaySound(key=\"$dooropenquite\", volume=1)]\n[delay(time=2)]\n[PlaySound(key=\"$doorclosequite\")]\n[Delay(time=2)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#5$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[name=\"戴菲恩\"]这家酒店居然还能进入……从外面的情况来看，我以为这里已经毁了。\n[charslot(slot=\"m\",name=\"avg_npc_864_1#1$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]我可以向你抱怨五个小时要把外面装扮成一片废墟有多不容易。\n[charslot(slot=\"m\",name=\"avg_npc_864_1#1$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]我们只是不想惹上麻烦，考伯特先生不是个擅长打架的人。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#8$1\",focus=\"m\")]\n[name=\"考伯特\"]希望你们不要责怪我，我只是想……尽量维护这家酒店的体面。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#3$1\",focus=\"m\")]\n[name=\"考伯特\"]这里曾是个了不起的地方，我在这里工作了一辈子啦，我不忍心自己曾经的心血也变成一片灰烬。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#9$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我很理解，考伯特先生，我也记得这里曾经的样子。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#9$1\",focus=\"m\")]\n[name=\"戴菲恩\"]炫目的水晶吊灯，热情的门童和侍应，还有那些华丽的套房。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#9$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我还记得，挂在门口的那些漂亮饰旗。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#5$1\",focus=\"m\")]\n[name=\"考伯特\"]饰旗……看来，您也曾是我们酒店一位尊贵的客人。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#2$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……很多年前。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]这些事我们可以以后再谈，听二位说，有一位萨卡兹雇佣兵在给你们提供食物？\n[charslot(slot=\"m\",name=\"avg_npc_865_1#10$1\",focus=\"m\")]\n[name=\"考伯特\"]是的，是一个自称明椒的姑娘，我猜，她做这些应该也很不容易。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#7$1\",focus=\"m\")]\n[name=\"伊内丝\"]明椒？\n[dialog]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#7$1\",focus=\"left\")]\n[Decision(options=\"你知道这位叫明椒的雇佣兵吗，伊内丝？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#10$1\",focus=\"m\")]\n[name=\"伊内丝\"]……我看过阿斯卡纶前段时间在海布里区行动的简报，其中提到了这位雇佣兵。\n[dialog]\n[charslot]\n[Decision(options=\"我想起来了，是她放走了凯瑟琳。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#10$1\",focus=\"m\")]\n[name=\"伊内丝\"]曼弗雷德逮捕了她，我还以为她已经死了。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#4$1\",focus=\"m\")]\n[name=\"戴菲恩\"]这么说，这真的是一位好心的萨卡兹？\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#10$1\",focus=\"m\")]\n[name=\"伊内丝\"]不，这意味着，投放食物这件事本身很可能是在曼弗雷德的计划之内。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]军事委员会需要诺伯特区的人继续活着，起码暂时活着。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#9$1\",focus=\"m\")]\n[name=\"伊内丝\"]他们在等待什么？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我们现在没时间关心萨卡兹的计划，罗德岛的两位。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我知道这家酒店拥有一座通讯站，我需要借用它。\n[charslot(slot=\"m\",name=\"avg_npc_864_1#1$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]……\n[charslot(slot=\"m\",name=\"avg_npc_864_1#8$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]你想干什么？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]联络大公爵，让他们支援这里。\n[charslot(slot=\"m\",name=\"avg_npc_864_1#1$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]所以，你们那位“殿下”的故事果然是假的。\n[charslot(slot=\"m\",name=\"avg_npc_864_1#1$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]你们给了诺伯特区的市民们一个虚假的承诺。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我们正努力把它变为现实！\n[charslot(slot=\"m\",name=\"avg_npc_866_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]只要我们发出广播，大公爵们就不会坐视不管，我可以保证。"
+        }
+      ],
+      "description": "双方直接商谈通讯站与援助。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_4110_delphn",
+          "reason": "二人在酒店会谈中直接与珀茜瓦尔交流。",
+          "status": "supported",
+          "to": "npc_a8905be8b6efb124"
+        },
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_a8905be8b6efb124",
+          "reason": "珀茜瓦尔直接回应并质询对方。",
+          "status": "supported",
+          "to": "char_4110_delphn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 329,
+          "kind": "story",
+          "line": 189,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "日落街酒店通讯计划",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 383,
+          "line": 371,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_05_beg.txt",
+          "quote": "[name=\"维多利亚士官\"]我们派过去的人已经追溯到了整合运动在城外的据点、两家主要的工厂和运输渠道。\n[name=\"维多利亚士官\"]要封锁这条通道吗？\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]不用。从目前的情报来看，他们对伦蒂尼姆市民的生活并无威胁。\n[name=\"戴菲恩\"]维娜提起过，她对整合运动的警惕有个人的原因。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#2$1\",focus=\"m\")]\n[name=\"戴菲恩\"]但她也承认，从明面上看，他们当时鼓动伦蒂尼姆市民对抗公爵的行为确实帮了我们大忙。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]至于眼下的灰色贸易……只要确保它完全在掌控之中就行。珀茜瓦尔不是傻子，她知道什么不能碰。\n[name=\"戴菲恩\"]整合运动的主要成员撤出伦蒂尼姆之后，整合运动的威胁并不高，保持关注就好。\n[name=\"戴菲恩\"]甚至，如果大家都是想要改善感染者的问题，我们不介意和他们有私下的接触。"
+        }
+      ],
+      "description": "戴菲恩知晓珀茜瓦尔；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_4110_delphn",
+          "reason": "戴菲恩具体提及珀茜瓦尔并评价其行为边界。",
+          "status": "supported",
+          "to": "npc_a8905be8b6efb124"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_a8905be8b6efb124",
+          "reason": "珀茜瓦尔不在该情报场景，未见反向识别戴菲恩。",
+          "status": "not_established",
+          "to": "char_4110_delphn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 383,
+          "kind": "story",
+          "line": 371,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "战后伦蒂尼姆秩序重建期",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_4110_delphn|npc_a8905be8b6efb124"
+}

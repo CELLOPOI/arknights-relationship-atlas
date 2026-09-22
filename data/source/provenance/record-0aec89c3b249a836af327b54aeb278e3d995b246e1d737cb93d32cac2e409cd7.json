@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 209,
+          "line": 201,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "quote": "[name=\"扎罗\"]离群的幼狼，闪开，这里没有你的立足之地。\n[Character(name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]告诉你一个好消息吧，狼之主，或者狼之子，还是什么东西。\n[Character(name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]从现在起，叙拉古的一切，都将是我的敌人。\n[Character(name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]即使是你这种超出常人的存在，也不例外。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]狂妄！"
+        }
+      ],
+      "description": "拉普兰德向扎罗宣战，扎罗回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_140_whitew",
+          "reason": "拉普兰德向扎罗宣战，扎罗回应。",
+          "status": "supported",
+          "to": "npc_9649533c7a060d36"
+        },
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_9649533c7a060d36",
+          "reason": "拉普兰德向扎罗宣战，扎罗回应。",
+          "status": "supported",
+          "to": "char_140_whitew"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 209,
+          "kind": "story",
+          "line": 201,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 63,
+          "line": 21,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_07_beg.txt",
+          "quote": "[name=\"拉普兰德\"]啧啧……\n[name=\"拉普兰德\"]我们来迟了，这两帮人已经打完了，没一个活口。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_688_1#1$1\",duration=1.5)]\n[delay(time=2)]\n[name=\"扎罗\"]拉普兰德，你停下与我的决斗，只是为了来看这个无聊的火并现场？\n[charslot]\n一人一狼站在清晨的荒野上，不远处停着一辆黄色的出租车。\n出租车的车头与一块巨石亲密接触，引擎盖已经深深地凹陷下去。车身后扭曲的车辙与翻飞的土石诉说着它刚刚是怎样一路狂飙而来……\n车的周围横七竖八地躺着好几具尸体。风把血腥味送远，野兽的低吟声若隐若现。\n[charslot(slot=\"m\",name=\"avg_npc_683_1#9$1\")]\n[name=\"拉普兰德\"]扎罗，有两件事你得搞清楚。\n[name=\"拉普兰德\"]第一，我不是给你解闷的玩物；第二，作为给我解闷的玩物，几个月下来，我发现不死不灭的狼之主也没趣得很……\n[charslot(slot=\"m\",name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]相比之下，一场莫名其妙发生在这荒野上的家族火并，不是更有看头？\n[charslot(slot=\"m\",name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]……\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_683_1#9$1\")]\n[delay(time=0.5)]\n[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"150,0\",duration = 1)]\n[delay(time=1.5)]\n[PlaySound(key=\"$sportscarstart\")]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]哈哈，车撞成这样，居然还能发动？\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]它的目的地本来是哪里？\n[charslot(slot=\"m\",name=\"avg_npc_683_1#9$1\")]\n[name=\"拉普兰德\"]让我看看……地图上被圈出来的地点是——“新沃尔西尼”，储物盒里还有入关文件……还挺齐全！\n[charslot(slot=\"m\",name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]熟悉的名字。\n[charslot(slot=\"m\",name=\"avg_npc_683_1#9$1\")]\n[name=\"拉普兰德\"]喂，扎罗，帮忙把这些尸体拖到一边，腾出倒车的位置。\n[charslot(slot=\"m\",name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]你要……\n[charslot(slot=\"m\",name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]这可是叙拉古给你我的邀请函。\n[name=\"拉普兰德\"]难道你要拒绝邀请？狼之主这么没礼貌吗？\n[charslot(slot=\"m\",name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]我说过，在我们的斗争结束之前，我会与你同行。"
+        }
+      ],
+      "description": "拉普兰德与扎罗长期结伴并持续直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "char_140_whitew",
+          "reason": "拉普兰德与扎罗长期结伴并持续直接交谈。",
+          "status": "supported",
+          "to": "npc_9649533c7a060d36"
+        },
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "npc_9649533c7a060d36",
+          "reason": "拉普兰德与扎罗长期结伴并持续直接交谈。",
+          "status": "supported",
+          "to": "char_140_whitew"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 63,
+          "kind": "story",
+          "line": 21,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "揭幕者们"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 263,
+          "line": 255,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_whitw2_1_1.txt",
+          "quote": "[name=\"扎罗\"]就是这样？\n[charslot(slot = \"m\", name = \"avg_1038_whitw2_1#1$1\",focus=\"m\")]\n[name=\"拉普兰德\"]就是这样。凯尔希不在岛上，你说我怎么能置之不理呢？\n[charslot(slot = \"m\",name=\"avg_npc_688_1#1$1\",focus=\"m\")]\n[name=\"扎罗\"]拉普兰德，你希望我夸你热心，还是夸你善良？\n[charslot(slot = \"m\", name = \"avg_1038_whitw2_1#11$1\",focus=\"m\")]\n[name=\"拉普兰德\"]扎罗，你希望我认为你谄媚，还是认为你阴阳怪气？\n[charslot(slot = \"m\",name=\"avg_npc_688_1#1$1\",focus=\"m\")]\n[name=\"扎罗\"]……"
+        }
+      ],
+      "description": "二人直接对话并共同筹划狼群会晤。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_140_whitew",
+          "reason": "拉普兰德点名询问扎罗。",
+          "status": "supported",
+          "to": "npc_9649533c7a060d36"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_9649533c7a060d36",
+          "reason": "扎罗直接回应并点名拉普兰德。",
+          "status": "supported",
+          "to": "char_140_whitew"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6ee074b30afbf146.json",
+      "sources": [
+        {
+          "endLine": 263,
+          "kind": "story",
+          "line": 255,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_whitw2_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇甲板现实场景",
+      "title": "荒芜拉普兰德"
+    }
+  ],
+  "relationship_id": "char_140_whitew|npc_9649533c7a060d36"
+}

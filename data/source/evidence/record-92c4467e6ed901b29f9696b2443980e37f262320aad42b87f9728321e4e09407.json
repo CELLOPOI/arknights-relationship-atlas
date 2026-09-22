@@ -1,0 +1,29 @@
+{
+  "id": "import:char_107_liskam|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【二次呼吸】\n雷蛇：一定要避免陷入这种处境。\n芙兰卡：这样吧，阿米娅。\n芙兰卡：我先和雷蛇迂回作战，边侦察敌情，边尝试占领这片区域中的高地。\n芙兰卡：在我们通知你之前，罗德岛最好先坚守阵地。\n芙兰卡：可别因为我们战斗得太激烈就突然冲出来哦，阿米娅。\n阿米娅：我知道的，我会自己判断局势。\n芙兰卡：博士，你也要拉好她哦！\n雷蛇：保持联系。\n\n【异卵同生】\n能天使：嗯嗯！\n雷蛇：那，他们的行动趋势呢？\n能天使：正在朝你们靠拢！\n雷蛇：……\n芙兰卡：……\n雷蛇：我们被围堵了。\n阿米娅：首要任务，是把米莎安全带出去。\n阿米娅：芙兰卡，针对敌人的突袭，就交给你们了。\n芙兰卡：简单。\n阿米娅：雷蛇，重装小队负责两翼。米莎也交由你保护。\n雷蛇：没问题。\n能天使：对了对了，敌人似乎还带了些术师哦？\n阿米娅：……唔。\n阿米娅：博士，请牢牢跟在我身边。\n阿米娅：接下来也请你继续指挥小队作战，我会传达你的命令。\n阿米娅：……我们就走这最安全的路线试试看。\n\n【急性衰竭】\n阿米娅：啊……博士，你来了。\n德克萨斯：来得刚好，Dr.{@nickname}。\n能天使：我们这边的活儿也干的差不多了，得暂时离开一段时间~\n选项：\n1：要走了吗？\n2：……知道了。\n3：我会想你们的。\n分支条件（原选项编号）：1 / 2 / 3\n雷蛇：很快就能再见面的。\n芙兰卡：只要过一小段时间，我们就能回到罗德岛重新待命。\n芙兰卡：可不用太想我哦。\n能天使：唉唉，可惜可惜，我们这边没有那样的正经理由呢，德克萨斯。\n德克萨斯：你给我等等……\n能天使：企鹅物流，马上要回去休假咯！",
+  "relationship_id": "char_107_liskam|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 66,
+      "kind": "story",
+      "line": 55,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-04_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 113,
+      "kind": "story",
+      "line": 87,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-04_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 83,
+      "kind": "story",
+      "line": 65,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-01_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

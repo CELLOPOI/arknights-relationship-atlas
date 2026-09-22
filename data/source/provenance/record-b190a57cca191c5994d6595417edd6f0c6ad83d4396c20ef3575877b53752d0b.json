@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 89,
+          "line": 62,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_07_beg.txt",
+          "quote": "[name=\"塞尔蒙\"]安静，你们听到那个过来的脚步声了吗？那么重，是不好对付的士兵。\n[Character(name=\"avg_npc_724_1#6$1\")]\n[name=\"塞尔蒙\"]走走走，我们往另一个方向躲！\n[Character(name=\"avg_npc_728_1#1$1\")]\n[name=\"莫兰\"]篝火还在燃烧……我可以去抽一根木柴做火把。\n[Character(name=\"avg_npc_724_1#1$1\")]\n[name=\"塞尔蒙\"]行，等会儿我跟你去。\n[Dialog]\n[Delay(time=1)]\n[Character(name=\"avg_npc_724_1#3$1\")]\n[name=\"塞尔蒙\"]喂——苇草！听得到吗！\n[Character(name=\"avg_npc_242\")]\n[name=\"塔拉流民\"]苇草——\n[Character(name=\"avg_npc_724_1#6$1\")]\n[name=\"塞尔蒙\"]没有回应……这边，往这边躲！等下我们分两队去找她！\n[name=\"塞尔蒙\"]就算找不到苇草，也要找到风笛和陈！\n[Dialog]\n[Character(fadetime=0)]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.7)]\n[Character(name=\"avg_npc_241\",name2=\"avg_npc_241\",fadetime=1.5)]\n[Delay(time=1.5)]\n[name=\"特别行动队士兵\"]……\n[Character(name=\"avg_npc_724_1#6$1\")]\n[name=\"塞尔蒙\"]……嘁。\n[Character(name=\"avg_npc_241\",name2=\"avg_npc_241\")]\n[name=\"特别行动队士兵\"]你们敢干扰军方的行动？\n[Character(name=\"avg_npc_724_1#3$1\")]\n[name=\"塞尔蒙\"]怎么了？躲不掉就打，我又不是没跟你们维多利亚的军人交过手。"
+        }
+      ],
+      "description": "塞尔蒙呼喊陈并与其处于同一救援战斗链条。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F08"
+          ],
+          "from": "char_010_chen",
+          "reason": "塞尔蒙呼喊陈并与其处于同一救援战斗链条。",
+          "status": "supported",
+          "to": "npc_9d6c97f520847c1c"
+        },
+        {
+          "evidenceIds": [
+            "F08"
+          ],
+          "from": "npc_9d6c97f520847c1c",
+          "reason": "塞尔蒙呼喊陈并与其处于同一救援战斗链条。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 89,
+          "kind": "story",
+          "line": 62,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_9d6c97f520847c1c"
+}

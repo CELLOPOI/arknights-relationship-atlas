@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 316,
+          "line": 305,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st05.txt",
+          "quote": "[name=\"苏茜\"] 欸？这样好吗？这些钱应该给夜烟小姐吧。\n[character(name=\"avg_141_nights_1#9$1\")]\n[name=\"夜烟\"] 就当作是我的补偿吧……你救了我一命。\n[character(name=\"avg_141_nights_1#2$1\")]\n[name=\"夜烟\"] 反正你的店也是因为我……\n[Character(name=\"avg_377_gdglow_1#12$1\", name2=\"avg_492_quercu_1#1$1\", focus=1)]\n[name=\"苏茜\"] ……唉，这件事不是你的错。当时就算你没有躲在我的店里，被烧掉的也是其他感染者的家。\n[name=\"苏茜\"] ……而且救你的其实是一位叫雷德的感染者工人。\n[Character(name=\"avg_377_gdglow_1#12$1\", name2=\"avg_492_quercu_1#6$1\", focus=2)]\n[name=\"夏栎\"] 我觉得没什么不好，如果能抓到那两个混蛋，也算是出了一口恶气。\n[Character(name=\"avg_377_gdglow_1#5$1\", name2=\"avg_492_quercu_1#6$1\", focus=1)]\n[name=\"苏茜\"] 谢谢你，夜烟小姐……还有夏栎姐……"
+        }
+      ],
+      "description": "夜烟感谢救命者，苏茜明确纠正救她的是雷德；已发生的具体救助建立双方知晓，无需知道对方姓名。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_141_nights",
+          "reason": "夜烟感谢救命者，苏茜明确纠正救她的是雷德；已发生的具体救助建立双方知晓，无需知道对方姓名。",
+          "status": "supported",
+          "to": "npc_01384e015f09923a"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_01384e015f09923a",
+          "reason": "夜烟感谢救命者，苏茜明确纠正救她的是雷德；已发生的具体救助建立双方知晓，无需知道对方姓名。",
+          "status": "supported",
+          "to": "char_141_nights"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_a170fc4ad11dca33.json",
+      "sources": [
+        {
+          "endLine": 316,
+          "kind": "story",
+          "line": 305,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇回顾的雷德救助夜烟及之后获知救命者身份",
+      "title": "阴云火花"
+    }
+  ],
+  "relationship_id": "char_141_nights|npc_01384e015f09923a"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 329,
+          "line": 279,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-04_beg.txt",
+          "quote": "[name=\"费斯特\"]萨卡兹会叫我们反抗军，我们对这个称谓也没什么意见。\n[Character(name=\"avg_npc_402_1#1$1\")]\n[name=\"费斯特\"]如果只有站出来反抗他们才能救我们自己的话，那最普通的伦蒂尼姆人都会拿起武器。\n[Character(name=\"avg_npc_407_1#5$1\")]\n[name=\"推进之王\"]……你知道伦蒂尼姆其他区块的情况如何吗？\n[Character(name=\"avg_npc_402_1#4$1\")]\n[name=\"费斯特\"]不会比这里更好。\n[Character(name=\"avg_npc_402_1#3$1\")]\n[name=\"费斯特\"]所有人，要么为萨卡兹工作，要么丢掉性命。\n[Character(name=\"avg_npc_402_1#6$1\")]\n[name=\"费斯特\"]陆陆续续有消息从北边传过来，我只听说那里的萨卡兹军队手段比这里的还狠。\n[Character(name=\"avg_155_tiger_1#2$1\")]\n[name=\"因陀罗\"]维娜，留下来的贝尔德她们岂不是……\n[Character(name=\"avg_npc_405_1#8$1\")]\n[name=\"摩根\"]别着急。\n[Character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]我怎么能不急！五年，我们走了五年，我都不知道她们是不是已经……\n[Character(name=\"avg_npc_407_1#9$1\")]\n[name=\"推进之王\"]……我们会找到她们的。\n[Character(name=\"avg_npc_407_1#6$1\")]\n[name=\"推进之王\"]很快，我们会把她们一个个找回来。\n[Character(name=\"avg_155_tiger_1#6$1\")]\n[name=\"因陀罗\"]好，维娜，我相信你。不管她们在哪里，不管她们是生是……\n[Character(name=\"avg_155_tiger_1#2$1\")]\n[name=\"因陀罗\"]唉！我不在你面前说丧气话！\n[Character(name=\"avg_npc_402_1#1$1\")]\n[name=\"费斯特\"]女士们，只要你们的朋友还活着，我们总有办法联系上她们。\n[Character(name=\"avg_npc_407_1#8$1\")]\n[name=\"推进之王\"]你们……不光在萨迪恩区活动？\n[Character(name=\"avg_npc_402_1#1$1\")]\n[name=\"费斯特\"]我们可以在伦蒂尼姆的任何地方，甚至城外。\n[Character(name=\"avg_npc_402_1#1$1\")]\n[name=\"费斯特\"]他们每抓走我们中的一个，就会有十个人站出来加入我们。\n[Character(name=\"avg_npc_402_1#1$1\")]\n[name=\"费斯特\"]洛洛是土生土长的萨迪恩区人，她是我们的元老成员之一，她最清楚，我们的队伍是怎样一点点壮大的。\n[Character(name=\"avg_4040_rockr_1#7$1\")]\n[name=\"洛洛\"]……连你都当上小队长了，我看人员增长速度是有点快。\n[Character(name=\"avg_npc_402_1#9$1\")]\n[name=\"费斯特\"]哈哈，是谁带你打了十一场胜仗啊，副队长？\n[Character(name=\"avg_4040_rockr_1#7$1\")]\n[name=\"洛洛\"]只是到处把人救到地下，这也算胜仗吗？\n[Character(name=\"avg_npc_402_1#7$1\")]\n[name=\"费斯特\"]能在萨卡兹眼皮子底下抢回一条命，保留一些暗地里活动的机会……不就是胜利？\n[Character(name=\"avg_npc_402_1#1$1\")]\n[name=\"费斯特\"]你们都瞧见了，萨卡兹还没有彻底掌控萨迪恩区。\n[Character(name=\"avg_npc_402_1#1$1\")]\n[name=\"费斯特\"]这里的地形与人流都足够乱，如果萨卡兹想掌握地上地下的每一块能让人呼吸的空间，他们得用自己的双脚丈量个好几年。\n[Character(name=\"avg_npc_402_1#1$1\")]\n[name=\"费斯特\"]而且……这里也是最后一支伦蒂尼姆城防军的队伍与萨卡兹作战的地方。\n[Character(name=\"avg_npc_396_1#1$1\")]\n[name=\"达格达\"] 看样子他们也输了。"
+        }
+      ],
+      "description": "地道中的同一段交谈里，因陀罗明确提及贝尔德；费斯特、摩根、达格达和洛洛均在场，听到具体留城伙伴的消息。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "char_4040_rockr",
+          "reason": "地道中的同一段交谈里，因陀罗明确提及贝尔德；费斯特、摩根、达格达和洛洛均在场，听到具体留城伙伴的消息。",
+          "status": "supported",
+          "to": "npc_b8a61bfc9821327a"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b8a61bfc9821327a",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_4040_rockr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 329,
+          "kind": "story",
+          "line": 279,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_4040_rockr|npc_b8a61bfc9821327a"
+}

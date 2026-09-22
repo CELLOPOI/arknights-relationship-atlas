@@ -1,0 +1,22 @@
+{
+  "id": "import:char_1502_crosly|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【反常光谱】\n阿米娅：……不。\n阿米娅：我留在最后，等所有人都离开。\n极境：等一下……有新的情况！\n极境：西边好像有载具正在向我们加速驶来，但那不是我们的载具——好像是卡车！\n极境：他们直接开上了冰面！\nRaidian：全体戒备——\nMon3tr：Raidian！这东西终于派上用场了，是我们！我和博士，还有科谢尼娅——\n选项：\n1：还有柳德米拉。\n2：还有干员弑君者。\n分支条件（原选项编号）：1 / 2\n选项：\n1：罗德岛……\n2：准备集合。\n分支条件（原选项编号）：1 / 2\nMon3tr：阿米娅！\n阿米娅：博士！Mon3tr！你们怎么——\n阿米娅：而且干员弑君者……？\n弑君者：赶路的时候没时间闲聊，我也有很多问题要问。\n弑君者：但现在，先上车。\n选项：\n1：托卡车互助会的福。\n2：之后告诉你。\n分支条件（原选项编号）：1 / 2\n选项：\n1：大家都还好吗？\n分支条件（原选项编号）：1\nMantra：不会让你失望。\nRaidian：还好。叙旧可以留到之后，我们必须尽快撤离了。\n选项：\n1：对。总之，干员Mon3tr，干员弑君者……\n2：以及{@nickname}，归队。\n分支条件（原选项编号）：1 / 2\n\n【弑君者】\n阿米娅：弑君者小姐，抱歉。不让你前往乌萨斯，不只是凯尔希医生的意思，也是我和博士的共同判断。\n阿米娅：你对乌萨斯的想法掺杂了太多的个人因素，我不能让这些因素干扰罗德岛在乌萨斯的行动。\n阿米娅：但我向你保证，只要凯尔希医生返回——\n弑君者：……够了！",
+  "relationship_id": "char_1502_crosly|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 771,
+      "kind": "story",
+      "line": 707,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-18_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 65,
+      "kind": "story",
+      "line": 59,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_crosly_1_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

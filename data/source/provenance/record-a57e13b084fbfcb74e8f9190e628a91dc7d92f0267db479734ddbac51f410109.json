@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 365,
+          "line": 353,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_end.txt",
+          "quote": "[name=\"余\"]怎么不动筷子，不合胃口吗？\n[charslot(slot=\"m\", name=\"avg_npc_1237_1#1$1\")]\n[name=\"望\"]无用之举，浪费时间。\n[charslot(slot=\"m\", name=\"avg_2026_yu_1#3$2\")]\n[name=\"余\"]知道你赶时间，一顿饭的工夫总还能腾出来吧。真是……做饭的人还没抱怨时间长呢。\n[charslot(slot=\"m\", name=\"avg_2026_yu_1#2$2\")]\n[name=\"余\"]就为了这一锅汤，你知道我准备了多久吗？\n[charslot(slot=\"m\", name=\"avg_npc_1237_1#1$1\")]\n[name=\"望\"]有多久？\n[charslot(slot=\"m\", name=\"avg_2026_yu_1#4$2\")]\n[name=\"余\"]从你离开那时算起……大概一百年？要是再算上找食材想菜谱的时间，恐怕就更久了吧。\n[charslot(slot=\"m\", name=\"avg_npc_1237_1#1$1\")]\n[name=\"望\"]准备了这么久，可找到你想要的“滋味”了？"
+        }
+      ],
+      "description": "余明确将绩称为兄弟姐妹并谈及其归家情景，支持已有家庭关系。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J14"
+          ],
+          "from": "char_2026_yu",
+          "reason": "余明确将绩称为兄弟姐妹并谈及其归家情景，支持已有家庭关系。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [
+            "J14"
+          ],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "余明确将绩称为兄弟姐妹并谈及其归家情景，支持已有家庭关系。",
+          "status": "supported",
+          "to": "char_2026_yu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 365,
+          "kind": "story",
+          "line": 353,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 675,
+          "line": 618,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_11_end.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avgnew_2015_dusk_1#7$1\")]\n[name=\"夕\"]……同感。\n[charslot(slot=\"m\",name=\"avgnew_2015_dusk_1#9$1\")]\n[name=\"夕\"]你们一会还要一起吃饭的话，我就先回去了。\n[charslot(slot=\"m\",name=\"avg_2026_yu_1#21$2\")]\n[name=\"余\"]不行！说好要一家人吃团圆饭的，年，夕，你们谁都不许跑！\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]好好好，看在幺弟手艺的分上，那必须得去嘛。\n[charslot(slot=\"m\",name=\"avgnew_2015_dusk_1#8$1\")]\n[name=\"夕\"]……叫姐姐。\n[charslot(slot=\"m\",name=\"avg_2026_yu_1#22$2\")]\n[name=\"余\"]（扮鬼脸）\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.7)]\n[delay(time=0.5)]\n[charslot(slot = \"left\", name = \"avg_npc_1236_1#1$1\",duration = 1)]\n[charslot(slot = \"right\", name = \"avg_npc_1869_1#1$1\",duration = 1)]\n[delay(time=1.5)]\n[charslot(slot = \"right\", name = \"avg_npc_1869_1#1$1\",focus=\"r\")]\n[name=\"易\"]大家都安全无事，真是太好了。\n[charslot]\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]哟，你们俩这灰头土脸的——哈，活着就行。\n[multiline(name=\"年\")]说起来，上回某个人一脸决绝耍帅的样子我还记得呢，这不也好好活着——\n[CameraShake(duration=0.2, xstrength=01, ystrength=5, vibrato=10, randomness=20, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#5$1\")]\n[multiline(name=\"年\")]黍姐你干嘛掐我！\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#1$1\")]\n[name=\"绩\"]姐姐……\n[charslot(slot=\"m\",name=\"avg_2025_shu_1#1$1\")]\n[name=\"黍\"]……你回来了。\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#3$1\")]\n[name=\"绩\"]让你担心了。\n[charslot(slot=\"m\",name=\"avgnew_2015_dusk_1#2$1\")]\n[name=\"夕\"]……哼。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#7$1\")]\n[name=\"年\"]说了这么久了，里面那两位也该出来了吧？\n[charslot(slot=\"m\",name=\"avgnew_2015_dusk_1#6$1\")]\n[name=\"夕\"]在那，你们看——\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",duration=1)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#3$1\")]\n[name=\"令\"]大哥，你终于出来了！\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#6$1\")]\n[name=\"令\"]望他……？\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#8$1\")]\n[name=\"年\"]怎么回事——\n[dialog]\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#3$1\")]\n[delay(time=1.5)]\n[charslot(slot = \"m\", focus = \"n\")]\n重岳看着眼前的弟弟妹妹，他们都从他并未舒展的脸庞上读到了某种不祥的预兆。\n他努力忍住那仿佛某种宣言一样的长叹。"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C26"
+          ],
+          "from": "char_2026_yu",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [
+            "C26"
+          ],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "char_2026_yu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 675,
+          "kind": "story",
+          "line": 618,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_11_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_2026_yu|npc_6ee68205c0c1758b"
+}

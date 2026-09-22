@@ -1,0 +1,115 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 653,
+          "line": 631,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_f12yin_2_1.txt",
+          "quote": "[name=\"安东尼\"]不，我今天来是向她告别的，要离开的从始至终只有我一个人。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"avg_108_silent_1#1$1\",focus=2)]\n[name=\"赫默\"]我误会了，还以为是你要带她走……\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"安东尼\"]不，她留在罗德岛就很好。况且，复仇是我自己的事，我绝不允许旁人被卷进来。\n[Character(name=\"avg_264_f12yin_1#9$1\", name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"安东尼\"]赫默医生，不好意思，临走前我可以麻烦你一件事吗？\n[Character(name=\"avg_264_f12yin_1#9$1\", name2=\"avg_108_silent_1#2$1\",focus=2)]\n[name=\"赫默\"]嗯，你说就是。\n[Character(name=\"avg_264_f12yin_1#9$1\", name2=\"avg_108_silent_1#2$1\",focus=1)]\n[name=\"安东尼\"]这本书可以替我带给杜玛吗？\n[Character(name=\"avg_264_f12yin_1#9$1\", name2=\"avg_108_silent_1#1$1\",focus=2)]\n[name=\"赫默\"]只有一本书吗？\n[Character(name=\"avg_264_f12yin_1#9$1\", name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"安东尼\"]……再加一句话吧，就说……\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"安东尼\"]就说，这本书我还没有看完，请她代为保管。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"avg_108_silent_1#1$1\",focus=2)]\n[name=\"赫默\"]那你什么时候来取？要告诉她吗？\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"avg_108_silent_1#1$1\",focus=1)]\n[name=\"安东尼\"]……\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"avg_108_silent_1#6$1\",focus=2)]\n[name=\"赫默\"]你知道沉默是一种更残酷的回答吗？"
+        }
+      ],
+      "description": "仅确认赫默因安东尼的托付知晓杜玛。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_108_silent",
+          "reason": "赫默明确理解杜玛是书的收件人并追问要转告她的信息。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "杜玛不在场，原文未显示书或留言已经送达，也未显示她知晓赫默。",
+          "status": "not_established",
+          "to": "char_108_silent"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_7eac560dd87929be.json",
+      "sources": [
+        {
+          "endLine": 653,
+          "kind": "story",
+          "line": 631,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_f12yin_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安东尼离开罗德岛前的托付场景",
+      "title": "山"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 483,
+          "line": 474,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+          "quote": "[name=\"卡夫卡\"]啊，赫默也是这么说的，不过她说这也只是一种可能性。\n[Character(name=\"char_264_Mountain_1#5\")]\n[name=\"安东尼\"]赫默，是你背后的人的名字吗？\n[Character(name=\"char_214_Kafka_1#4\")]\n[name=\"卡夫卡\"]啊……算了，没错。\n[Character(name=\"char_264_Mountain_1#5\")]\n[name=\"安东尼\"]事后我会感谢这位朋友。\n[name=\"安东尼\"]总之，如你所说，这也只是一种可能性，如果我想知道原因，我就必须出去，这件事只有我自己才能搞清楚。\n[Character(name=\"char_441_lotus_1#1\")]\n[name=\"杜玛\"]安东尼，告诉她真的没关系吗？"
+        },
+        {
+          "endLine": 105,
+          "line": 100,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_05_beg.txt",
+          "quote": "[name=\"赫默\"]罗宾并没有加入安东尼的队伍。\n[Character(name=\"char_249_muesys_1#3\",name2=\"char_108_silent_1#4\",focus=1)]\n[name=\"缪尔赛思\"]诶？\n[Character(name=\"char_249_muesys_1#3\",name2=\"char_108_silent_1#4\",focus=2)]\n[name=\"赫默\"]虽然确实在这之后，卡夫卡就开始和杜玛还有安东尼一起摸索越狱的方法，而且罗宾也加入了其中。\n[name=\"赫默\"]但是事情并没有这么简单。"
+        },
+        {
+          "endLine": 78,
+          "line": 70,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_06_beg.txt",
+          "quote": "[name=\"梅尔\"]就是说服杜玛也和他们一起离开的这件事呀。\n[Character(name=\"char_108_silent_1#5\", name2=\"char_249_muesys_1#3\",focus=2)]\n[name=\"缪尔赛思\"]咦，这是怎么回事？杜玛不是队伍中的一员吗？\n[Character(name=\"char_108_silent_1#5\", name2=\"char_249_muesys_1#3\",focus=1)]\n[name=\"赫默\"]哦，对了，他们到后来才知道，杜玛虽然说要协助安东尼越狱，但其实自己并没有离开的意思。\n[Character(name=\"char_108_silent_1#5\", name2=\"char_249_muesys_1#3\",focus=2)]\n[name=\"缪尔赛思\"]为什么？\n[Character(name=\"char_242_mayer#2\")]\n[name=\"梅尔\"]因为她从来没有离开过这座监狱。"
+        }
+      ],
+      "description": "",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "在连续医务室谈话中听到赫默是卡夫卡的委托者。",
+          "status": "supported",
+          "to": "char_108_silent"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_108_silent",
+          "reason": "事后酒吧叙事中明确谈杜玛的行动与意愿。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 483,
+          "kind": "story",
+          "line": 474,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 105,
+          "kind": "story",
+          "line": 100,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 78,
+          "kind": "story",
+          "line": 70,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "两向分别来自监狱回忆和越狱后的酒吧谈话；仅确认至谈话当日两向均成立。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_108_silent|npc_b6173633e2da4a81"
+}

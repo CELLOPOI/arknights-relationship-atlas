@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 790,
+          "line": 776,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_beg.txt",
+          "quote": "[name=\"林雨霞\"]总算赶上了。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#7$1\")]\n[name=\"槐琥\"]雨霞姐……这位是，陈警司？！\n[charslot]\n[charslot(slot=\"l\",name=\"avg_4080_lin_1#12$1\",focus=\"n\")]\n[charslot(slot=\"r\",name=\"avg_npc_790_1#6$1\",focus=\"r\")]\n[name=\"陈\"]……\n[charslot(slot=\"l\",name=\"avg_4080_lin_1#12$1\",focus=\"l\")]\n[name=\"林雨霞\"]是的你没看错。杜遥夜呢？\n[charslot]\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#1$1\")]\n[name=\"槐琥\"]已经过去了。\n[charslot(slot=\"m\",name=\"avg_4080_lin_1#12$1\")]\n[name=\"林雨霞\"]好。那就只剩下一件事可做了。"
+        }
+      ],
+      "description": "陈与林雨霞到场后当面听其询问杜遥夜，杜已离开，不推反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E75"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈与林雨霞到场后当面听其询问杜遥夜，杜已离开，不推反向。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebce98658cbda852",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 790,
+          "kind": "story",
+          "line": 776,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_ebce98658cbda852"
+}

@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 25,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "quote": "[name=\"恩希亚\"]……切斯特叔叔，为什么我不能出去？\n[Character(name=\"avgnew_173_slchan_1#8$1\",name2=\"avg_npc_267_1#1$1\",focus=2)]\n[name=\"切斯特\"]总裁吩咐了，在他回来之前，不允许你四处跑。\n[Character(name=\"avgnew_173_slchan_1#7$1\",name2=\"avg_npc_267_1#1$1\",focus=1)]\n[name=\"恩希亚\"]那老哥什么时候回来？\n[Character(name=\"avgnew_173_slchan_1#7$1\",name2=\"avg_npc_267_1#1$1\",focus=2)]\n[name=\"切斯特\"]总裁现在应当正在前往圣山的路上，过两天就能回来了。\n[Character(name=\"avgnew_173_slchan_1#8$1\",name2=\"avg_npc_267_1#1$1\",focus=1)]\n[name=\"恩希亚\"]我只是想去散步也不行吗？\n[Character(name=\"avgnew_173_slchan_1#8$1\",name2=\"avg_npc_267_1#2$1\",focus=2)]\n[name=\"切斯特\"]只是在宅子附近的话……我会派人跟着你。\n[name=\"切斯特\"]恩希亚，现在谢拉格的形势十分险峻，这也是为了你好。\n[Character(name=\"avgnew_173_slchan_1#7$1\",name2=\"avg_npc_267_1#2$1\",focus=1)]\n[name=\"恩希亚\"]……唉。"
+        }
+      ],
+      "description": "崖心与切斯特叔叔直接交谈限制出行。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E88"
+          ],
+          "from": "char_173_slchan",
+          "reason": "崖心与切斯特叔叔直接交谈限制出行。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        },
+        {
+          "evidenceIds": [
+            "E88"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "崖心与切斯特叔叔直接交谈限制出行。",
+          "status": "supported",
+          "to": "char_173_slchan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 25,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 183,
+          "line": 131,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_03_beg.txt",
+          "quote": "[name=\"恩希亚\"]……\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",focus=\"m\")]\n[name=\"切斯特\"]是恩雅的信吗？\n[charslot(slot=\"m\",name=\"avgnew_173_slchan_1#7$1\",focus=\"m\")]\n[name=\"恩希亚\"]嗯……\n[name=\"恩希亚\"]每次都是这样。\n[name=\"恩希亚\"]老哥也是，家里本来就冷冷清清，我这趟旅行回来后，家里更是好像没了这个人一样。\n[charslot(slot=\"m\",name=\"avg_npc_267_1#7$1\",focus=\"m\")]\n[name=\"切斯特\"]非常时期，他们也一定在为保护谢拉格竭尽全力。\n[name=\"切斯特\"]恩希亚，我们能做的也只有相信他们，支持他们……\n[charslot(slot=\"m\",name=\"avgnew_173_slchan_1#7$1\",focus=\"m\")]\n[name=\"恩希亚\"]我知道……我就是有点生气。\n[name=\"恩希亚\"]他们总是当我还是个小孩子，什么都不让我知道，最后又害我白担心。\n[name=\"恩希亚\"]我也想帮他们出份力啊……\n[charslot(slot=\"m\",name=\"avg_npc_282_1#1$1\",focus=\"m\")]\n[name=\"希瓦艾什家佣人\"]恩希亚小姐，切斯特老爷……\n[name=\"希瓦艾什家佣人\"]恩希欧迪斯老爷不在吗……？\n[charslot(slot=\"m\",name=\"avgnew_173_slchan_1#8$1\",focus=\"m\")]\n[name=\"恩希亚\"]老哥这个点已经去公司了吧，怎么了？\n[charslot(slot=\"m\",name=\"avg_npc_282_1#1$1\",focus=\"m\")]\n[name=\"希瓦艾什家佣人\"]蔓珠院使者来访，说今天要和佩尔罗契家进行矿产工作切分的会议，他们让老爷提前提交相关文件。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_267_1#5$1\",focus=\"m\")]\n[delay(time=0.2)]\n[playsound(key=\"$d_avg_scroll\",volume=0.7)]\n[delay(time=1.5)]\n[name=\"切斯特\"]会议文件的确在我这……可是提前提交？这是临时通知？\n[charslot(slot=\"m\",name=\"avg_npc_282_1#1$1\",focus=\"m\")]\n[name=\"希瓦艾什家佣人\"]具体情况，那位使者也没有说明……\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",focus=\"m\")]\n[name=\"切斯特\"]好吧，来人备车，我去一趟。\n[Dialog]\n[charslot(slot=\"m\",name=\"avgnew_173_slchan_1#1$1\",focus=\"m\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$d_avg_openftstprun\", volume=1, loop=true, channel=\"nrun\")]\n[StopSound(channel=\"nrun\", fadetime=2)]\n[charslot(duration=1)]\n[delay(time=1.5)]\n话音刚落，恩希亚已经抢过文件一溜烟地奔出门外。\n[name=\"恩希亚\"]切斯特叔叔，你在家歇着，我去给老哥办这个事情，放心吧！\n[charslot(slot=\"m\",name=\"avg_npc_267_1#4$1\",focus=\"m\")]\n[name=\"切斯特\"]恩希亚……！快回来！\n[name=\"切斯特\"]老爷叮嘱过，不让您随意出门的！\n[Dialog]\n[charslot]\n[name=\"恩希亚\"]没事的！肯定是老哥糊里糊涂忘了带东西，一会儿我还要好好嘲笑他呢！\n[name=\"恩希亚\"]开车开车！\n[Dialog]\n[PlaySound(key=\"$sportscarstart\", volume=0.4)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_267_1#5$1\",focus=\"m\")]\n[name=\"切斯特\"]这怎么搞的……\n[name=\"切斯特\"]还是先通知老爷吧……"
+        }
+      ],
+      "description": "恩希亚与切斯特当面交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N06"
+          ],
+          "from": "char_173_slchan",
+          "reason": "当面对话或同一局部谈判中相互确认。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        },
+        {
+          "evidenceIds": [
+            "N06"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "当面对话或同一局部谈判中相互确认。",
+          "status": "supported",
+          "to": "char_173_slchan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 183,
+          "kind": "story",
+          "line": 131,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "雪山事件期间",
+      "title": "雪山降临1101"
+    }
+  ],
+  "relationship_id": "char_173_slchan|npc_c56ef99fbe131371"
+}

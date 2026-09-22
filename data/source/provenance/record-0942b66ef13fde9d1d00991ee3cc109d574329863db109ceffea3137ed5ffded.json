@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 471,
+          "line": 439,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_06_beg.txt",
+          "quote": "[name=\"万侍郎\"]都让开吧，我来处理。\n[dialog]\n[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"200,0\",duration = 1)]\n[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"-200,0\",duration = 1)]\n[charslot(duration=1)]\n[delay(time=1.5)]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",duration=1.5)]\n[delay(time=0.5)]\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",duration=1.5)]\n[delay(time=2)]\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]这个核心能源已经失控了……他已经控制了这个核心能源，用它来制造魔物。\n[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",focus=\"l\")]\n[name=\"万侍郎\"]这些介绍就不用了，没有人比我更清楚这个装置的状态。\n[name=\"万侍郎\"]反倒是宁侍郎，事到如今，应该不用我再提醒你，在这件事上礼部和司岁台的失职了吧。\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]……\n[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",focus=\"l\")]\n[name=\"万侍郎\"]“失控”……从我第一天进入天师府，学习工程开始，我最痛恨的两个字，就是“失控”。\n[name=\"万侍郎\"]所以比起太傅大人说的“任人唯贤”，我更相信太尉大人的“非我族类”。\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]等到当下危机渡过，万侍郎还有大把时间去弹劾礼部。\n[name=\"宁辞秋\"]当务之急，是先切断核心城与所有地块的连接，如果还无法控制，再以强硬手段摧毁核心城。\n[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",focus=\"l\")]\n[name=\"万侍郎\"]我知道宁侍郎瞧不起我趋炎附势，可我也不是在这种时候不识大局的小人。\n[name=\"万侍郎\"]你可以离开了，我会停下这个能源装置。\n[charslot(slot=\"r\",name=\"avg_npc_298_1#4$1\",focus=\"r\")]\n[name=\"宁辞秋\"]你一个人……？\n[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",focus=\"l\")]\n[name=\"万侍郎\"]这是我的工程，我的工程从来没有失控过，我的工程也绝不能失控。\n[charslot(slot=\"l\",name=\"avg_npc_1241_1#2$1\",focus=\"l\")]"
+        }
+      ],
+      "description": "万侍郎当面向宁辞秋提及太尉政策，宁辞秋获知具体人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "万侍郎当面向宁辞秋提及太尉政策，宁辞秋获知具体人。",
+          "status": "supported",
+          "to": "npc_b381881ac9e25c69"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b381881ac9e25c69",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_906d6f310e0f648e"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 471,
+          "kind": "story",
+          "line": 439,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "npc_906d6f310e0f648e|npc_b381881ac9e25c69"
+}

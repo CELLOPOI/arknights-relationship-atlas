@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 330,
+          "line": 312,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_05_end.txt",
+          "quote": "[name=\"潘格尼尼\"]你们来得要比通知里早啊。\n[name=\"潘格尼尼\"]该收拾的都已经收拾完了，你们直接把封条贴了吧，完事我好回去睡觉。\n[charslot(slot=\"m\",name=\"avg_npc_358_1#1$1\",focus=\"m\")]\n[name=\"铳骑\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1781_1#2$1\",focus=\"m\")]\n[name=\"潘格尼尼\"]帕特里奇昂？\n[Dialog]\n[playsound(key=\"$d_avg_clothmovement\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1781_1#3$1\",focus=\"m\")]\n[Delay(time=1)]\n[name=\"潘格尼尼\"]啧，差点骂错人了。\n[name=\"潘格尼尼\"]不是说最后的接收步骤是公证所负责吗，怎么来的是铳骑？\n[charslot(slot=\"m\",name=\"avg_npc_358_1#1$1\",focus=\"m\")]\n[name=\"铳骑\"]前提是，一切正常，你没有做什么手脚。\n[charslot(slot=\"m\",name=\"avg_npc_1781_1#3$1\",focus=\"m\")]\n[name=\"潘格尼尼\"]什么意思？\n[charslot(slot=\"m\",name=\"avg_npc_358_1#1$1\",focus=\"m\")]\n[name=\"铳骑\"]我刚刚查验了工坊内的材料间，以及所有的操作设备，有明显的近期使用过的迹象。\n[name=\"铳骑\"]我想，阿摩斯枢机辅佐官上次来的时候应该声明过——"
+        }
+      ],
+      "description": "潘格尼尼与阿摩斯此前在工坊直接接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L18"
+          ],
+          "from": "npc_526e9c060438eec9",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "npc_57525db0c4913393"
+        },
+        {
+          "evidenceIds": [
+            "L18"
+          ],
+          "from": "npc_57525db0c4913393",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "npc_526e9c060438eec9"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 330,
+          "kind": "story",
+          "line": 312,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "npc_526e9c060438eec9|npc_57525db0c4913393"
+}

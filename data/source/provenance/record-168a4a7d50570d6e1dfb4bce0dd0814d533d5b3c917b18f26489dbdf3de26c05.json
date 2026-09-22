@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 453,
+          "line": 363,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-12_end.txt",
+          "quote": "[charslot(slot=\"l\",name=\"avg_4040_rockr_1#7$1\",focus=\"l\")]\n[name=\"洛洛\"]对了，芙蕾达镇长在哪？我们没找到她的位置。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_494_vendla_1#6$1\",focus=\"m\")]\n[name=\"玛格达尔\"]……芙蕾达她——\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#10$1\",focus=\"m\")]\n[CameraShake(duration=0.5, ystrength=15, vibrato=30, randomness=90, fadeout=false, block=false)]\n[name=\"费斯特\"]该死，我的滑索怎么开始抖起来了！\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[image]\n[Background(image=\"43_g6_townbuildingsite\", screenadapt=\"coverall\", block=true)]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Delay(time=0.5)]\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_soldiersrun\", volume=0.6)]\n[charslot(slot=\"l\",name=\"avg_npc_053\",duration=1)]\n[charslot(slot=\"r\",name=\"avg_npc_053\",duration=1)]\n[Delay(time=2)]\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]\n[name=\"萨卡兹雇佣兵\"]那个懦弱的驻军指挥官呢，他又藏到哪里去了？\n[name=\"萨卡兹雇佣兵\"]……无所谓，我来接手这里的指挥。\n[name=\"萨卡兹雇佣兵\"]我能感觉到，我的血……在沸腾。\n[name=\"萨卡兹雇佣兵\"]不用通知厄尔苏拉少校的部队，我们自己就能解决这些可笑的维多利亚人。\n[name=\"萨卡兹雇佣兵\"]杀死他们。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[Background(image=\"43_g6_townbuildingsite\", screenadapt=\"coverall\", block=true)]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#6$1\",focus=\"m\")]\n[name=\"费斯特\"]这座小镇里的驻军正在组织反攻，他们的气势……比我们之前遭遇过的萨卡兹都要高涨！\n[name=\"费斯特\"]外面的老维斯还有多少炸药？他来得及支援我们吗？\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#10$1\",focus=\"m\")]\n[name=\"洛洛\"]估计不太行，除去布设滑索的成员，我们能参与战斗的人员本来就不多。\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#6$1\",focus=\"m\")]\n[name=\"费斯特\"]把那几台爬行者都开起来，我们需要强行突围！\n[name=\"费斯特\"]洛洛，小心！你们的滑索！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_sp_ballista\")]\n[playsound(key=\"$d_avg_explosion_stone\", volume=0.8,delay=0.2)]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.8, block=true)]\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#10$1\",focus=\"m\")]\n[name=\"洛洛\"]啊——\n[Dialog]\n[PlaySound(key=\"$bodyfalldown1\", volume=1)]\n[PlaySound(key=\"$bodyfalldown2\", volume=1,delay=0.2)]\n[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(duration=0.5)]\n[delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#9$1\",duration=1)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#9$1\",focus=\"m\")]\n[multiline(name=\"洛洛\")]好疼——\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#4$1\",focus=\"m\")]\n[multiline(name=\"洛洛\")]没事吧，玛格达尔小姐？\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#10$1\",focus=\"m\")]\n[name=\"洛洛\"]你还能走吗？啧，这些恶心的玩意——\n[Dialog]\n[charslot]\n[playsound(key=\"$e_atk_airshipvibe\")]\n[playsound(key=\"$e_atk_vibe_n\",delay=0.4)]\n[playsound(key=\"$d_avg_tear\",delay=1)]\n[delay(time=1)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"在碎裂的大地上，猩红的蠕虫不停涌出，这些东西噬咬着一切它们能接触到的生灵，吮吸着他们的血。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]\n[name=\"萨卡兹雇佣兵\"]这是大君的赐福，这是鲜血的王庭为我们保留的仁慈。\n[name=\"萨卡兹雇佣兵\"]我们体内……纯净的血脉正在苏醒，别和这些维多利亚人浪费时间了！"
+        }
+      ],
+      "description": "明确获知厄尔苏拉少校的敌军指挥身份。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_4040_rockr",
+          "reason": "在同一局部战斗中听见敌军以厄尔苏拉少校为具体指挥参照。",
+          "status": "supported",
+          "to": "npc_046e9e29c222ea5d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_046e9e29c222ea5d",
+          "reason": "厄尔苏拉未在场。",
+          "status": "not_established",
+          "to": "char_4040_rockr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 453,
+          "kind": "story",
+          "line": 363,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "布伦特伍德战斗",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_4040_rockr|npc_046e9e29c222ea5d"
+}

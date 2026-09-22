@@ -1,0 +1,32 @@
+{
+  "id": "import:char_285_medic2|char_4230_mcnist",
+  "published": true,
+  "quote": "Mechanist：……\n塞雷娅：Mechanist先生，你有什么新发现吗？\nMechanist：不对劲……\nMechanist：从刚刚开始，我就觉得哪里不对劲。\nMechanist：这动力甲里面没有人——为什么我没有一眼看出来？\nMechanist：不管是有雇佣兵在远处使用无线电遥控，还是设置了自动程序，都会有明显的模式规律。\n就像可露希尔的无人机。\n就像Lancet-2和Castle-3。\nMechanist：显然，它们都不会这么灵活。\nMechanist：在罗德岛研发的新一代武器当中，自动化程度最高的也远远无法骗过我的眼睛——你让我相信那帮被军队豢养的蠢笨机械师能做到？\n\n华法琳：都听到博士说的了。\n华法琳：不用害怕，Lancet-2会协助监测你们的数据。\nLancet-2：OK！我不会让你失望，华法琳医生！\n华法琳：记住，撤出之后，按照凯尔希原本的规划在外围建立新隔离带，防止任何鬼东西向外溢出！\nLancet-2：华法琳医生不和我们一起撤离吗？\n华法琳：我的病人还在这，我会亲自带他们撤离。\n华法琳：不用担心我。\n华法琳：（凯尔希，为什么没有听到你的消息……）\n——滋——准备放弃本舰。\n备份所有的数据——滋——\n可露希尔：已经在做了，只需要最后一点时间！\n可露希尔：还有一件更重要的事情，关闭PRTS后必须下载它的核心数据——\n可露希尔：凯尔希已经提前在其中布置了后门。\n可露希尔：那会是我们彻底断绝本舰威胁的关键。\nMantra：Mechanist已经收到。\nMantra：我们正在Abyss中行动。\n\nLancet-2：可爱的可露希尔姐姐，最新消息，您在接下来二十四小时内有机会进入睡眠的概率是：百分之百。\n可露希尔：……系统出错了？\nCastle-3：全部通讯已经处理完毕。预计接下来二十四小时不会再有新的通讯接入。\n\n可露希尔：哦，我想起来了，小车们一个一个地劝我睡觉……Mechanist，你对他们做了什么？\nMechanist：（摊开双手）小车们告诉你的情报可都是真的，再说，在这个领域，罗德岛上也没人比得过你。\nMechanist：不过你醒了就好。我刚刚差点和Logos赌你是被叫醒还是自己醒过来呢。\nLogos：……遗憾。\n煌：好啦好啦，没事就好，大家先回到各自的岗位上吧！\n工程部里的人一下子少了许多。\n可露希尔：我隐约记得Lancet-2对我说过二十四小时之类的话……我睡了多久？\n阿米娅：可露希尔小姐睡了……正好二十四小时呢。\n阿米娅：眼看你就要睡一天一夜了还是不醒，刚才大家才会聚在这里，商量要不要叫醒你。",
+  "relationship_id": "char_285_medic2|char_4230_mcnist",
+  "sources": [
+    {
+      "endLine": 122,
+      "kind": "story",
+      "line": 108,
+      "source": "activities/act19side/level_act19side_02_end.txt"
+    },
+    {
+      "endLine": 372,
+      "kind": "story",
+      "line": 338,
+      "source": "obt/main/level_main_15-16_beg.txt"
+    },
+    {
+      "endLine": 640,
+      "kind": "story",
+      "line": 631,
+      "source": "obt/memory/story_closur_1_1.txt"
+    },
+    {
+      "endLine": 908,
+      "kind": "story",
+      "line": 890,
+      "source": "obt/memory/story_closur_1_1.txt"
+    }
+  ]
+}

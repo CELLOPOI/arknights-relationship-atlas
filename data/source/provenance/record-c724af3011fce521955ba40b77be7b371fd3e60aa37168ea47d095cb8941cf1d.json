@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 54,
+          "line": 44,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st04.txt",
+          "quote": "[name=\"洛洛\"]小白，早啊，早饭有吃过吗？\n[Character(name=\"avg_npc_597_1#2$1\",name2=\"avg_4040_rockr_1#12$1\",focus=1)]\n[name=\"小白\"]洛洛姐，我一早就去食堂了。\n[Character(name=\"avg_npc_012\")]\n[name=\"后勤干员\"]洛洛姐，你现在有空吗？办事处的污水处理器好像出了故障，方便来看下吗？\n[Character(name=\"avg_npc_597_1#2$1\",name2=\"avg_4040_rockr_1#5$1\",focus=2)]\n[name=\"洛洛\"]好的，没问题，我正好带着工具包，麻烦你带路了。\n[Character(name=\"avg_npc_597_1#2$1\",name2=\"avg_4040_rockr_1#5$1\",focus=1)]\n[name=\"小白\"]洛洛姐，我也可以跟你去......\n[Character(name=\"avg_npc_597_1#2$1\",name2=\"avg_4040_rockr_1#12$1\",focus=2)]\n[name=\"洛洛\"]那就下午再见啦，小白。"
+        }
+      ],
+      "description": "洛洛与后勤干员苦根直接安排检修工作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "char_4040_rockr",
+          "reason": "洛洛与后勤干员苦根直接安排检修工作。",
+          "status": "supported",
+          "to": "npc_e3878a71089209c5"
+        },
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "洛洛与后勤干员苦根直接安排检修工作。",
+          "status": "supported",
+          "to": "char_4040_rockr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_56004ab0da71157f.json",
+      "sources": [
+        {
+          "endLine": 54,
+          "kind": "story",
+          "line": 44,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "好久不见"
+    }
+  ],
+  "relationship_id": "char_4040_rockr|npc_e3878a71089209c5"
+}

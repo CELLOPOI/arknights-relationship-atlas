@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 312,
+          "line": 289,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st06.txt",
+          "quote": "[name=\"卡莱莎\"]巫术核心。\n[name=\"卡莱莎\"]这里就是魂灵熔炉的最深处了。据我所知，自熔炉建成起，只有巫妖会涉足此地，举行安抚死魂灵的仪式。\n[charslot(slot = \"m\", name = \"avg_4147_mitm_1#1$1\",focus=\"m\")]\n[name=\"珀耳\"]而最近的一场安抚仪式，就炸出了将我们带领至此的大烟花。埃芒加德小姐，您有什么要吩咐的吗？\n[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]\n[name=\"埃芒加德\"]锡人先生，那就还是按我们之前说的来？\n[charslot(slot = \"m\", name = \"avg_4151_tinman_1#9$1\",focus=\"m\")]\n[name=\"锡人\"]没问题，我帮你看着。\n[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]\n[name=\"埃芒加德\"]那朵烟花是个意外，安抚仪式也并未完成。\n[name=\"埃芒加德\"]我老师让我去找散落在卡兹戴尔的死魂灵碎片，我将这个任务托付给妮芙，妮芙又受了你们的帮助，这么说……\n[name=\"埃芒加德\"]我老师欠你们一个人情，不对，是欠“咱们”一个人情。\n[name=\"埃芒加德\"]身为知识圣殿的看守人，他的人情可是很值钱的，可以用来做很多事。\n[name=\"埃芒加德\"]不过我作为老师的学生，已经擅自替他决定了将这个人情用来做一件很困难很困难的事。\n[charslot(slot = \"m\", name = \"avg_4147_mitm_1#10$1\",focus=\"m\")]\n[name=\"珀耳\"]我有预感你会说出一些很恐怖的话来……我现在还可以走吗？\n[charslot(slot = \"m\", name = \"avg_4146_nymph_1#12$1\",focus=\"m\")]\n[name=\"妮芙\"]不行！我邀请你来的，要走，也得是我先走！\n[charslot(slot = \"m\", name = \"avg_4151_tinman_1#9$1\",focus=\"m\")]\n[name=\"锡人\"]咳，其实也没什么大不了的，你们都被她唬住了。她被那个倔老头子训了一顿，心里憋着气呢，现在想让你们帮忙找回场子。\n[charslot(slot = \"m\", name = \"avg_4147_mitm_1#10$1\",focus=\"m\")]\n[name=\"珀耳\"]什么场子？\n[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]\n[name=\"埃芒加德\"]死魂灵的……场子。我要将老师没能完成的安抚仪式，漂漂亮亮地给办成了。你们干还是不干？"
+        }
+      ],
+      "description": "埃芒加德带领一行进入熔炉并商议安抚仪式，人物在同一连续现场发言；珀耳由avg_4147_mitm立绘对应渡桥。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_4147_mitm",
+          "reason": "埃芒加德带领一行进入熔炉并商议安抚仪式，人物在同一连续现场发言；珀耳由avg_4147_mitm立绘对应渡桥。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        },
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "埃芒加德带领一行进入熔炉并商议安抚仪式，人物在同一连续现场发言；珀耳由avg_4147_mitm立绘对应渡桥。",
+          "status": "supported",
+          "to": "char_4147_mitm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_7b6f965ec725fee0.json",
+      "sources": [
+        {
+          "endLine": 312,
+          "kind": "story",
+          "line": 289,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "熔炉“还魂”记"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 659,
+          "line": 650,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mitm_2_1.txt",
+          "quote": "[name=\"克伦妮\"]我没意见。哦，实际上，我有很多意见，我看过了你们的样张，字体设计简直是灾难。\n[charslot(slot = \"r\", name = \"avg_npc_869_1#1$1\",focus=\"r\")]\n[name=\"埃芒加德\"]妮妮拜托我制定了卡兹戴尔的发行物标准文件，这只是征求意见稿，但你可以参考一下——哦，不用给我倒茶了，我待会儿就走。\n[charslot(slot = \"m\", name = \"avg_npc_1457_1#1$1\",focus=\"m\")]\n[name=\"莉丝\"]顾问老大，我遇见了赫德雷老师，他给了我一本小册子，还教了我怎么用那些铅活字，比改装油印机快多了！\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4147_mitm_1#5$1\",focus=\"m\")]\n[name=\"渡桥\"]……\n渡桥郑重地向身边的每个人都说了声谢谢。"
+        }
+      ],
+      "description": "渡桥与埃芒加德在同一房间实际见面，埃芒加德提供文件，渡桥向在场每个人致谢。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4147_mitm",
+          "reason": "渡桥与埃芒加德在同一房间实际见面，埃芒加德提供文件，渡桥向在场每个人致谢。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "渡桥与埃芒加德在同一房间实际见面，埃芒加德提供文件，渡桥向在场每个人致谢。",
+          "status": "supported",
+          "to": "char_4147_mitm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_89fb4c3eb41f2cc7.json",
+      "sources": [
+        {
+          "endLine": 659,
+          "kind": "story",
+          "line": 650,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mitm_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇候选窗所示时段",
+      "title": "渡桥"
+    }
+  ],
+  "relationship_id": "char_4147_mitm|npc_4cf393656bead901"
+}

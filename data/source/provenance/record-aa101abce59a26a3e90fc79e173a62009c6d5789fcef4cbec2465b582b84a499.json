@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 237,
+          "line": 221,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+          "quote": "[name=\"赫德雷\"]  很久不见了。\n[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  唔……你？你原来……还活着。\n[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=1)]\n[name=\"赫德雷\"]  嗯。\n[name=\"赫德雷\"]  我一直在跟着你，只靠伊内丝，很难对付你这样的高手。\n[name=\"赫德雷\"]  虽然交易内容就是要付出性命，我们也没打算手下留情，但我还是希望你能……\n[name=\"赫德雷\"]  可现在我们已经不能给你更多机会了，这里太过靠近核心城了，W不希望任何人的注意力转移到这里。\n[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  呵……听上去……现在她才是队长了……\n[name=\"Scout\"]  你……原来……\n[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=1)]\n[name=\"赫德雷\"]  ……抱歉。睡吧，老朋友。\n[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  你们……不该继续待在这里……\n[Character(name=\"avg_npc_047\")]\n[name=\"赫德雷\"]  ……我知道的，老朋友。"
+        }
+      ],
+      "description": "赫德雷明确承认亲手给老朋友Scout致命一击，指向双方既往认识及直接接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "赫德雷明确承认亲手给老朋友Scout致命一击，指向双方既往认识及直接接触。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "赫德雷明确承认亲手给老朋友Scout致命一击，指向双方既往认识及直接接触。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 237,
+          "kind": "story",
+          "line": 221,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生于黑夜所述时段",
+      "title": "生于黑夜"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 396,
+          "line": 385,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "quote": "[name=\"赫德雷\"]又见面了，罗德岛的领导人。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]W小姐她……\n[character(name=\"avg_npc_393_1#2$1\")]\n[name=\"赫德雷\"]你确定要先聊她的事吗？我听说你们的时间很紧张。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]我可以不问你们之间发生了什么。切尔诺伯格和Scout的事……我也同意暂且放到一边。\n[name=\"阿米娅\"]但是，雇佣兵先生，如果此刻你一定要挡在我们身前，我动手的时候绝不会犹豫。\n[character(name=\"avg_npc_393_1#5$1\")]\n[name=\"赫德雷\"]死在那位殿下的继承人手上，对一名雇佣兵来说，也算是一种荣耀了。\n[Character(name=\"avg_npc_411_1#11$1\")]\n[name=\"可露希尔\"]阿米娅，你最好快一点！"
+        }
+      ],
+      "description": "阿米娅当面向赫德雷说暂放Scout的事，可露希尔在同一交战现场催促行动；两人均获知具体人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR10"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "阿米娅当面向赫德雷说暂放Scout的事，可露希尔在同一交战现场催促行动；两人均获知具体人物。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 396,
+          "kind": "story",
+          "line": 385,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_4088_hodrer|npc_0957af9bf990438d"
+}

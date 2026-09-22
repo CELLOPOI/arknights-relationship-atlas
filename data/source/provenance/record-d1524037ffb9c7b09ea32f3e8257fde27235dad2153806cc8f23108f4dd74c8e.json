@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 374,
+          "line": 360,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "quote": "[Decision(options=\"晚上好，干员查德、干员迪伦、干员巴蒂、干员黑角。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_089\")]\n[name=\"干员查德\"]  博士你……你居然记得我们全部人的名字？！\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  博士的记性还是这么好啊。\n[name=\"黑角\"]  要熟悉山一样高的文件，还要一下子记住俺们这么多人的名字，可不大容易。博士，您别累着。\n[Decision(options=\"这是应该的。;……;PRTS会帮我。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_090\")]\n[name=\"干员巴蒂\"]  博士，我们正准备收摊了，就不打扰您了。\n[Character(name=\"avg_npc_012\")]\n[name=\"干员迪伦\"]  嗯，博士，外勤任务见！\n[Character(name=\"avg_npc_012\", name2=\"avg_npc_089\", focus=1)]\n[name=\"干员迪伦\"]  溜了溜了，查德，你还杵着干什么？"
+        }
+      ],
+      "description": "博士具名问候迪伦，迪伦回应外勤任务见。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_090185751b884944",
+          "reason": "博士具名问候迪伦，迪伦回应外勤任务见。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士具名问候迪伦，迪伦回应外勤任务见。",
+          "status": "supported",
+          "to": "npc_090185751b884944"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_77447b339e70b7d0.json",
+      "sources": [
+        {
+          "endLine": 374,
+          "kind": "story",
+          "line": 360,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑角所述时段",
+      "title": "黑角"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 168,
+          "line": 3,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_09_end.txt",
+          "quote": "[Dialog]\n[Delay(time=1)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_village_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]\n[Character(name=\"char_187_ccheal_1#4\", name2=\"char_411_tomimi_1#2\", focus=1)]\n[name=\"嘉维尔\"]  结束了，特米米。\n[Character(name=\"char_187_ccheal_1#4\", name2=\"char_411_tomimi_1#2\", focus=2)]\n[name=\"特米米\"]  ……还、还没有！\n[Character(name=\"char_411_tomimi_1#2\")]\n[name=\"特米米\"]  努尔，佩塔！\n[Character(name=\"avg_npc_012\")]\n[name=\"迪伦\"]  博士！\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]  博士——！\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_411_tomimi_1#2\", focus=2)]\n[name=\"特米米\"]  不想让你的同伴受到伤害的话……\n[Character(name=\"char_187_ccheal_1#4\", name2=\"char_411_tomimi_1#2\", focus=1)]\n[name=\"嘉维尔\"]  别逼我生气啊，特米米！\n[Character(name=\"char_187_ccheal_1#4\", name2=\"char_411_tomimi_1#2\", focus=2)]\n[name=\"特米米\"]  ……嘉维尔你不留下来的话，我是不会收手的！\n[Character(name=\"avg_npc_012\")]\n[name=\"迪伦\"]  救我啊，博士！\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]  博士，我好怕呜呜呜……\n[Decision(options=\"交给你的任务完成了？;……;不要怕！我这就来救你们！\",values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_012\")]\n[name=\"迪伦\"]  博士，别这么不上道嘛，小姑娘这么情真意切，配合一下又不会死。\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]  唉，这里的人这么淳朴，老实说，欺骗他们让我有些良心不安呢，虽然我没有心。\n[Predicate(references=\"2\")]\n[Character(name=\"avg_npc_012\")]\n[name=\"迪伦\"]  哎呀，博士，你别用那种眼神看着我。\n[name=\"迪伦\"]  安心，我怎么也是罗德岛的干员，这点小事都做不好怎么行。\n[Predicate(references=\"3\")]\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]  博士——！\n[Decision(options=\"Lancet-2！\", values=\"4\")]\n[Predicate(references=\"4\")]\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]  博士——！\n[Character(name=\"avg_npc_012\")]\n[name=\"迪伦\"]  哇，你们两个演的比我还起劲啊。\n[Predicate(references=\"1;2;4\")]\n[stopmusic(fadetime=1)]\n[Character(name=\"char_411_tomimi_1\")]\n[name=\"特米米\"]  诶？\n[Character(name=\"avg_npc_073\")]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"阿达克利斯人\"]  什么时候挣脱的！\n[Character(name=\"avg_npc_012\")]\n[name=\"迪伦\"]  哈哈，抱歉啊，其实从一开始就没绑住。\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  博士，难道你早就料到了特米米会这么做？\n[playMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.4)]\n[Decision(options=\"当然。;……;想不发现才难。\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_411_tomimi_1#4\")]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"特米米\"]  你你你、你是怎么发现的？！\n[Decision(options=\"首先，是你在第一次提到祖玛玛时出现的犹豫。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_187_ccheal_1#2\")]\n[name=\"嘉维尔\"]  啊？犹豫？\n[Decision(options=\"然后，是在祭典时，你对嘉维尔突然行动的惊慌。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_411_tomimi_1#4\")]\n[name=\"特米米\"]  ……\n[Decision(options=\"最后，迪伦，东西呢？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_012\")]\n[name=\"迪伦\"]  哦，我放在Lancet-2身上了。\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]  呜呜……要不是为了博士，我可不会轻易让人在我身体里放东西哦。\n[Character(name=\"char_416_zumama_1\")]\n[name=\"森蚺\"]  ……\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  这是……火箭筒？\n[Character(name=\"avg_npc_012\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"迪伦\"]  对，在特米米的部族里找到的。\n[Character(name=\"avg_npc_012\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  难道说……\n[Character(name=\"avg_npc_012\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"迪伦\"]  没错，把我们轰下来的罪魁祸首，就是这个小丫头啦。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1\", focus=1)]\n[name=\"嘉维尔\"]  特米米。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#4\", focus=2)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"特米米\"]  呜呜呜，我错了，嘉维尔。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#4\", focus=1)]\n[name=\"嘉维尔\"]  过来。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#4\", focus=2)]\n[name=\"特米米\"]  呜呜呜……\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#4\", focus=1)]\n[name=\"嘉维尔\"]  趴到我大腿上。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#4\", focus=2)]\n[name=\"特米米\"]  嘉维尔，你不要打我，我知道错了……\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#4\", focus=1)]\n[name=\"嘉维尔\"]  那可不行。\n[name=\"嘉维尔\"]  对付不听话的小鬼，当然要打尾巴！\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#4\", focus=2)]\n[name=\"特米米\"]  呜呜呜……\n[Dialog]\n[PlaySound(key=\"$fightgeneral\")] \n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$fightgeneral\")] \n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$fightgeneral\")] \n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[delay(time=1)]\n[Character(name=\"char_2013_cerber_1\")]\n[name=\"刻俄柏\"]  打尾巴，好像很痛的样子……\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#6\", focus=1)]\n[name=\"嘉维尔\"]  知道错了吗？\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#6\", focus=2)]\n[name=\"特米米\"]  知道错了，呜呜呜……\n[Character(name=\"char_187_ccheal_1\", name2=\"char_411_tomimi_1#6\", focus=1)]\n[name=\"嘉维尔\"]  知道错了就好。\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  总之，这下应该算是没事了，博士。\n[Decision(options=\"累了。;……;你刚才居然没有用那招什么大风车。\",values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  哈哈哈，确实这一连串发生的事还挺多的。\n[Predicate(references=\"2\")]\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  喂，博士，你该不会站着睡着了吧。\n[Predicate(references=\"3\")]\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  我当然不伤到特米米这孩子啊。唉，我可是都有点累了。\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]  这个大家伙……乍一看虽然好像很丑，但是这个棱角，粗犷的设计感，杂乱却有效的线路连接，仔细看看有一种独特的美。\n[name=\"Lancet-2\"]  嗯，是适合结婚的类型呢。\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  哦，Lancet-2，你快去看看引擎还有没有救。\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"Lancet-2\"]  诶？难道引擎在这个大家伙身上？！\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  对啊，被我们打爆了。\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"Lancet-2\"]  哇，可怜的引擎，可怜的大个子。\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=1)]\n[name=\"Lancet-2\"]  迪伦先生，可以过来帮我个忙吗？\n[Character(name=\"char_285_medic2_1\", name2=\"avg_npc_012\", focus=2)]\n[name=\"迪伦\"]  好嘞。\n[Character(name=\"char_416_zumama_1#6\")]\n[name=\"森蚺\"]  ……\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  喂，祖玛玛，你怎么了，傻站在那儿。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1#6\", focus=2)]\n[name=\"森蚺\"]  嘉维尔，嘉维尔！\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1#6\", focus=1)]\n[name=\"嘉维尔\"]  啊？干什么？\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1#6\", focus=2)]\n[name=\"森蚺\"]  那个，那个！\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1#6\", focus=1)]\n[name=\"嘉维尔\"]  哪个啊？\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1#6\", focus=2)]\n[name=\"森蚺\"]  那个，那个会动会说话的机器是怎么回事！\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1#6\", focus=1)]\n[name=\"嘉维尔\"]  哦，你说Lancet-2啊，她是我们的同伴啊。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1#6\", focus=2)]\n[name=\"森蚺\"]  我、我可以和她说话吗？"
+        }
+      ],
+      "description": "迪伦执行博士安排并当面汇报。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "npc_090185751b884944",
+          "reason": "迪伦执行博士安排并当面汇报。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "迪伦执行博士安排并当面汇报。",
+          "status": "supported",
+          "to": "npc_090185751b884944"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 168,
+          "kind": "story",
+          "line": 3,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "密林悍将归来"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 67,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st01.txt",
+          "quote": "我是迪伦，罗德岛近地飞行器的驾驶员，我正在城市里东奔西跑。\n我应当坐在飞行器驾驶座上，手中握着操纵杆，我要在工作中面对的对象理应是地形和乱流。\n而我现在手中正抓着半把全自动突击弩，我就连它的设备型号都是早上才听说的，就算只剩一半，它也还是沉得吓人。\n我手心里全是汗，如果我得面对一个战场，那这个战场不应该在地面上，更不应该是在这样的哥伦比亚暗巷里。\n如果我有得选，我希望自己的敌人不是……呃。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 迪伦，我腾不开手，帮我看看，这上面写着什么？\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 警察，煌大姐头，是提卡伦多的“警察”。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 是他先动手的。\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 但是这个证件看起来……应该不是真的，这个做工也太差了。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 至少他的穿着打扮确实是那么回事，跟早晨楼顶上那几个差不多，比其他没准备制服的人像话多了。\n[name=\"煌\"] 这个问题我一定得问第二次，哪里的警察会在问话的同时把全自动突击弩给开上？\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 哥伦比亚？\t\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 别贫。你知道他不是警察，至少不是我们熟悉的那种警察。\n[dialog]\n[character]\n我抬头看了一眼巷子对面倒下的黑衣人，再低头看了一眼自己手里的半截武器。\n它在片刻之前还指着我的前胸，现在已经被硬生生砸成两截。\n这位“警察”已经失去了意识，如果煌出手的时候还记得博士的指示，那他应该还能保全性命。\n罗德岛代表团是昨天抵达提卡伦多市的。\n不论体会过多少次，这种速度都让我这个驾驶员感到讶异——\n罗德岛还在赶往大骑士领的路上，我们就已经从空中穿过了整个西部荒地，整个西部荒地诶。\n根据计划，等到博士和阿米娅把事情谈妥，我们再原路飞回罗德岛本舰，大骑士领可能在这时还没完成城区组装。\n我只知道罗德岛受邀在卡西米尔骑士特别锦标赛期间进行访问，但不知道具体的时间和目的，不过，按理说，肯定是越早回去准备越好。\n如果不是时间紧迫，我还想请假在这座大都市待上几天……现在我是不想了。\n[dialog]\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"] 我们……安全了吗？\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]不安全，直到离开提卡伦多之前都——甚至可能在离开哥伦比亚前都不安全。\n[name=\"煌\"]帮我看一眼这人还有没有气，如果还有，那就最好让他接下来还能继续喘气。\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"] 我……呜，好的。\n[Character(name=\"char_016_medic\",focus=-1)]\n[name=\"迪伦\"] 我是第一次见到这么厉害的自动弩，这种武器在哥伦比亚这么普及？\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 这种全自动武器也算是哥伦比亚的特色了。\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 不知道博士怎么样了……\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 袭击刚开始的时候博士和阿米娅就先行坐车离开了，也不知道可露希尔捣鼓的那套自动驾驶系统靠不靠谱……\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 我们这是被算计惨了，连博士和阿米娅都没料到。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 博士和阿米娅……他们也是人，偶尔也会有误判。\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"] 他们占领了酒店，就这样抢走了我们留下的药物样品……\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 算了，先不管那些。\n[name=\"煌\"] 我们得先想办法安全转移，得离开这个城市。"
+        }
+      ],
+      "description": "迪伦明确担心博士并谈及博士与阿米娅的撤离，但候选窗未见博士认识迪伦。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_090185751b884944",
+          "reason": "迪伦明确担心博士并谈及博士与阿米娅的撤离，但候选窗未见博士认识迪伦。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本篇候选窗口未见反向知晓或往来证据。",
+          "status": "not_established",
+          "to": "npc_090185751b884944"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 67,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    }
+  ],
+  "relationship_id": "npc_090185751b884944|npc_b99957887950ebfd"
+}

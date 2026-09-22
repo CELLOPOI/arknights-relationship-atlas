@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 377,
+          "line": 333,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_06_end.txt",
+          "quote": "[name=\"安纳斯塔西奥\"]你。\n[charslot(slot = \"m\", name = \"avg_npc_1577_1#5$1\",focus=\"m\")]\n[name=\"伊西多\"]……你。\n[Dialog]\n[playsound(key=\"$d_avg_exsheath\", volume=1)]\n[PlaySound(key=\"$d_avg_swordexsheath\", volume=1,delay=0.2)]\n[Delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1577_1#5$1\",focus=\"m\")]\n[name=\"伊西多\"]是你一直在组织围剿。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#7$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]是你一直在修复罗盘。\n[name=\"安纳斯塔西奥\"]总有人劝我，说我该把人想得更善良些。\n[name=\"安纳斯塔西奥\"]事实总会证明他们的愚昧。最初见到你，我就知道你想将罗盘据为己有，为了你那罪恶的炼金研究。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#9$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]……我果然没有看错。\n[charslot(slot = \"m\", name = \"avg_npc_1577_1#10$1\",focus=\"m\")]\n[name=\"伊西多\"]罗盘已经毁了。我到现在都还没能把它的残骸从塑金台上抠下来。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#2$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]那摊黑泥？不。那不是真正的罗盘，你的谎言毫无意义。\n[charslot(slot = \"m\", name = \"avg_npc_1577_1#5$1\",focus=\"m\")]\n[name=\"伊西多\"]审判庭丢失的每一件东西，都值得你们如此大费周章，大开杀戒吗？\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#7$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]你知道罗盘能腐化人心。\n[charslot(slot = \"m\", name = \"avg_npc_1577_1#5$1\",focus=\"m\")]\n[name=\"伊西多\"]我只当它是航海道具。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#5$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]呵。航海。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#9$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]意图反对世俗审判、逃避道德约束的人，总会去走那些人迹罕至的荆棘道路，驶向那些无人登陆的异域彼岸。\n[name=\"安纳斯塔西奥\"]仿佛觉得不朽的事业，能成为他们一切罪名的庇护所。\n[charslot(slot = \"m\", name = \"avg_npc_1577_1#5$1\",focus=\"m\")]\n[name=\"伊西多\"]我看不出我有犯什么罪。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#9$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]包庇偷窃犯，盗食镇民遗体，袭击审判庭教士，与为害城镇的强盗为伍……这还不够？\n[charslot(slot = \"m\", name = \"avg_npc_1577_1#5$1\",focus=\"m\")]\n[name=\"伊西多\"]欲加之罪而已。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#2$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]呵……你开始否认自己的罪行了。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#7$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]每一个犯下罪孽的人都会如此急切地否认，我也不例外。\n[name=\"安纳斯塔西奥\"]但我最终承认了我的罪，我找到了赎罪的路。\n[name=\"安纳斯塔西奥\"]我的生命从最初就系于食人的罪行，我的存在从最初就是罪孽的存在，我不配简简单单地死去。\n[charslot(slot = \"m\", name = \"avg_npc_1582_1#9$1\",focus=\"m\")]\n[name=\"安纳斯塔西奥\"]但你，你在被欲望沾染之前，曾是正直良善之人，你还有资格死去。\n[name=\"安纳斯塔西奥\"]我会帮你解脱。"
+        }
+      ],
+      "description": "炼金工坊中两人直接争论并交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_293_thorns",
+          "reason": "炼金工坊中两人直接争论并交战。",
+          "status": "supported",
+          "to": "npc_22ce8e53c56ebcb9"
+        },
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_22ce8e53c56ebcb9",
+          "reason": "炼金工坊中两人直接争论并交战。",
+          "status": "supported",
+          "to": "char_293_thorns"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 377,
+          "kind": "story",
+          "line": 333,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_293_thorns|npc_22ce8e53c56ebcb9"
+}

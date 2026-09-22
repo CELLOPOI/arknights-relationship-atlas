@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1227,
+          "line": 1198,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_end.txt",
+          "quote": "[name=\"阿克托斯\"]……\n[Character(name=\"avg_npc_254_1#1$1\")]\n[name=\"阿克托斯\"]……佩尔罗契家家主，阿克托斯·佩尔罗契，向祂的代理人，圣女大人，献上最诚挚的祝福。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_avg_kneelsnow_s\", volume=1)]\n短暂的沉默后，他缓缓向圣女行了一个礼，而后，单膝跪下。\n[PlaySound(key=\"$d_avg_crwdkneelsnow\", volume=1)]\n在场所有佩尔罗契家的战士，也随着他的动作尽数跪下。\n[character(name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]……恩希欧迪斯，你现在，后悔吗？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]你指什么？\n[character(name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]没有听从我最初的意见，以及，将那个博士请来谢拉格。\n[Character(name=\"avg_172_svrash_1#2$1\")]\n[name=\"恩希欧迪斯\"]你认为我们输了？\n[character(name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]我以为，在你的观念中，这就算输了。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]在过去，确实是这样。\n[Character(name=\"avg_172_svrash_1#10$1\")]\n[name=\"恩希欧迪斯\"]但是在今天……未必。\n[dialog]\n[character(fadetime=1.5)]\n[PlaySound(key=\"$d_avg_snowbootwalk\")]\n[delay(time=2)]\n恩希欧迪斯迈动脚步。\n[PlaySound(key=\"$d_avg_kneelsnow_s\", volume=1)]\n他缓缓走出人群，同样来到圣女的面前，单膝跪下，献上了自己的祝福。"
+        }
+      ],
+      "description": "阿克托斯向圣女行礼，灵知与银灰在同一山道现场对话并跟随行礼，双方真实共场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E109"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "阿克托斯向圣女行礼，灵知与银灰在同一山道现场对话并跟随行礼，双方真实共场。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E109"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "阿克托斯向圣女行礼，灵知与银灰在同一山道现场对话并跟随行礼，双方真实共场。",
+          "status": "supported",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 1227,
+          "kind": "story",
+          "line": 1198,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 742,
+          "line": 697,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "quote": "[name=\"诺希斯\"]……目前的产量还能维持吗？\n[charslot(slot=\"m\",name=\"avg_npc_659_1#1$1\",focus=\"m\")]\n[name=\"工厂负责人\"]是，弹药可以按照计划供应。可是，诺希斯总裁……\n[name=\"工厂负责人\"]我无法不抱有疑问……如果我们要对抗的，是开斯特公爵的舰队，那即使我们生产效率提高十倍，也不可能与他们抗衡。\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#8$1\",focus=\"m\")]\n[name=\"诺希斯\"]不用担心，按计划去做就好。\n[name=\"诺希斯\"]剩下的事由我们处理。\n[charslot(slot=\"m\",name=\"avg_npc_659_1#1$1\",focus=\"m\")]\n[name=\"工厂负责人\"]……\n[name=\"工厂负责人\"]诺希斯总裁，我为喀兰贸易工作了十一年，我知道它为谢拉格带来过什么。\n[name=\"工厂负责人\"]我相信你们。\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#8$1\",focus=\"m\")]\n[name=\"诺希斯\"]……\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, style = \"slider\", inverse = false, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#2$1\",focus=\"m\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=2, block=true)]\n[PlaySound(key=\"$d_gen_dooropen\", volume=1)]\n[Delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#1$1\",focus=\"m\")]\n[name=\"诺希斯\"]看来，你已经做好了准备。\n[name=\"诺希斯\"]用不着我再多提醒了，希瓦艾什的家主。\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#1$1\",focus=\"none\")]\n[name=\"恩希欧迪斯\"]既然是要去谈判，总该换上正装才是。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Image(image=\"67_i14_2\",screenadapt=\"coverall\",fadetime=0,block=true)]\n[Delay(time=1)]\n[PlayMusic(key=\"$kjerag_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[name=\"诺希斯\"]开斯特公爵的军队四面围困了谢拉格，一些先头部队已经控制了部分街道，把民众赶回了家中。\n[name=\"诺希斯\"]阿克托斯带人去对峙，但他的军队在维多利亚人面前显得过于单薄。\n[name=\"诺希斯\"]公爵的使者来到喀兰贸易，让我转交一份要求谈判的“请柬”……\n[name=\"诺希斯\"]她在等你，恩希欧迪斯。\n[name=\"恩希欧迪斯\"]听上去，情况没有发生预期外的变化。\n[name=\"诺希斯\"]你还在欣赏这艘孤零零的高速战舰……它在这个时候看起来是不是太过单薄了？\n[name=\"恩希欧迪斯\"]……\n[name=\"恩希欧迪斯\"]最近我总会想起，很多年以前，我的父母接受布朗陶家的邀约的那一天……\n[name=\"恩希欧迪斯\"]父亲当时说过，布朗陶和佩尔罗契不支持我们，是因为他们没有看到他所能看到的一切。\n[name=\"恩希欧迪斯\"]“如果有人能踏出一步，哪怕只有一步……”\n[name=\"诺希斯\"]即便是恶名在外的卢卡·布朗陶。\n[name=\"恩希欧迪斯\"]他们知道有最糟糕的可能，但他们没有犹豫。"
+        }
+      ],
+      "description": "灵知明确知道阿克托斯的行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N24"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "诺希斯具体说明阿克托斯正带人对峙。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "阿克托斯未在场。",
+          "status": "not_established",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 742,
+          "kind": "story",
+          "line": 697,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "出发谈判前",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 800,
+          "line": 740,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "quote": "[name=\"恩雅\"]诸位，请上前来。\n[name=\"恩雅\"]在耶拉冈德的见证下，仪式即将开始。\n[name=\"恩雅\"]让我们一同祈祷——\n[Dialog]\n[playsound(key=\"$d_avg_crwddiscuss_outside\",channel=\"1\",loop=true)]\n[Delay(time=2.5)]\n[stopsound(fadetime=1,channel=\"1\")]\n[Delay(time=1.5)]\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_250_1#2$1\",focus=\"m\")]\n[name=\"雅儿\"]……看来是急性子的客人们等不及了呢。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#8$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]什么人在喧哗？\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]（啧，真能添乱！）\n[name=\"菈塔托丝\"]尤卡坦！你老婆怎么还没过来？！\n[charslot(slot=\"m\",name=\"avg_npc_263_1#3$1\",focus=\"m\")]\n[name=\"尤卡坦\"]我刚刚才联系过露丝，她说很快就来……！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]来什么来！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#8$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]现在立刻联系她，让她有多远走多远，别过来了！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#8$1\",focus=\"m\")]\n[name=\"阿克托斯\"]发生什么事了？！吵吵嚷嚷，像什么样子！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]老爷！那群维多利亚人和往常不太一样！\n[name=\"古罗\"]我看他们像是带着什么大型武器，好像是来真的！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#7$1\",focus=\"m\")]\n[name=\"阿克托斯\"]我就知道那群人不会老实！\n[name=\"阿克托斯\"]来得好！我早就吩咐佩尔罗契家的儿郎准备好家伙预备着了，让我去会会他们！\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#9$1\",focus=\"m\")]\n[name=\"恩雅\"]阿克托斯大人！不要妄动！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#5$1\",focus=\"m\")]\n[name=\"阿克托斯\"]可是……圣女大人！\n[Dialog]\n[charslot]\n[playsound(key=\"$rungeneral\")]\n[charslot(slot=\"m\",name=\"avg_npc_275\",duration=1)]\n[Delay(time=2)]\n[name=\"山雪鬼\"]圣女大人！恩希欧迪斯大人！\n[name=\"山雪鬼\"]维多利亚的观礼队伍突破了周围维持秩序的护卫，正在朝这里靠近！\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#9$1\",focus=\"m\")]\n[name=\"恩雅\"]派几支小队出去，先确保周围平民不受影响！\n[charslot(slot=\"m\",name=\"avg_npc_275\")]\n[name=\"山雪鬼\"]是！\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Delay(time=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#1$1\")]\n[name=\"锏\"]他们动了。列好了队，正在朝这边走。\n[name=\"锏\"]领头的是那个子爵。\n[name=\"锏\"]怎么做？\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]魏斯和角峰？\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#8$1\")]\n[name=\"诺希斯\"]从昨天晚上开始就没有接到过那边的消息。\n[name=\"诺希斯\"]按理说他们应该负责盯住维多利亚军队的行动，这种规模的动作，不应该到现在都没有消息来报。"
+        }
+      ],
+      "description": "诺希斯与阿克托斯明确局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "双方在仪式冲突的同一局部现场参与应对。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "双方在仪式冲突的同一局部现场参与应对。",
+          "status": "supported",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 800,
+          "kind": "story",
+          "line": 740,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "银心湖仪式冲突",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_206_gnosis|npc_e69f1ad171a29fd0"
+}

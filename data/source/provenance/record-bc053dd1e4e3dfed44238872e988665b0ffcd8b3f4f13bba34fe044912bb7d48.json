@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 533,
+          "line": 523,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st05.txt",
+          "quote": "[name=\"阿兰娜\"]博士，阿米娅，你们准备好了吗？\n[dialog]\n[charslot]\n[PlaySound(key=\"$rungeneral\", volume=1, loop=true, channel=\"r\")]\n[StopSound(channel=\"r\", fadetime=1)]\n[charslot(slot = \"m\", name = \"char_002_amiya_1#7\", posfrom=\"200,0\", posto=\"0,0\", duration=1, isblock=true)]\n[name=\"阿米娅\"]我没问题了！……嗯？\n[charslot(slot = \"m\", name = \"char_002_amiya_1#5\")]\n[name=\"阿米娅\"]博士跑岔气了，现在都没缓过来，暂时说不了话……嗯，嗯……我明白了，博士的意思是自己也没问题了！\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"阿兰娜\"]行了，万事俱备，我们出发！再见了天灾云！"
+        }
+      ],
+      "description": "阿兰娜与博士同行并互相知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4178_alanna",
+          "reason": "阿兰娜点名询问博士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士通过阿米娅向阿兰娜传达已准备好的回应。",
+          "status": "supported",
+          "to": "char_4178_alanna"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_48ccc8ee52875626.json",
+      "sources": [
+        {
+          "endLine": 533,
+          "kind": "story",
+          "line": 523,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "《去咧嘴谷》躲避天灾时",
+      "title": "去咧嘴谷"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 315,
+          "line": 280,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "quote": "[charslot(slot=\"l\",name=\"avg_4178_alanna_1#1$1\",focus=\"l\")]\n[name=\"阿兰娜\"]小锅盖，我闻到了奶油炖菜的味道！\n[charslot(slot=\"r\",name=\"avg_4081_warmy_1#4$2\",focus=\"r\")]\n[name=\"温米\"]兰娜姐，你这样就没有惊喜了！\n[charslot(slot=\"l\",name=\"avg_4178_alanna_1#9$1\",focus=\"l\")]\n[name=\"阿兰娜\"]太香了，我也没有办法嘛。\n[charslot(slot=\"l\",name=\"avg_4178_alanna_1#1$1\",focus=\"l\")]\n[name=\"阿兰娜\"]你这么开心，看来是博士同意了？\n[charslot(slot=\"r\",name=\"avg_4081_warmy_1#1$2\",focus=\"r\")]\n[name=\"温米\"]是的！我看到有去雷姆必拓办事处出外勤的志愿申请，第一时间就报了名。\n[charslot(slot=\"r\",name=\"avg_4081_warmy_1#10$2\",focus=\"r\")]\n[name=\"温米\"]虽然温米现在做的饭还是不能治疗矿井里叔叔阿姨的矿石病，但罗德岛的哥哥姐姐可以，而我可以填饱他们的肚子。\n[charslot(slot=\"r\",name=\"avg_4081_warmy_1#11$2\",focus=\"r\")]\n[name=\"温米\"]如果不是暴行姐和莱伊姐替我做担保，说不定博士当场就要拒绝我的申请了。\n[charslot(slot=\"l\",name=\"avg_4178_alanna_1#1$1\",focus=\"l\")]\n[name=\"阿兰娜\"]唔，明明陪你一起是我这个监护人的责任。\n[charslot(slot=\"r\",name=\"avg_4081_warmy_1#1$2\",focus=\"r\")]\n[name=\"温米\"]有莱伊姐和暴行姐和我一起，不用担心！\n[charslot(slot=\"r\",name=\"avg_4081_warmy_1#4$2\",focus=\"r\")]\n[name=\"温米\"]不过我不在的时候兰娜姐还是要好好吃饭，我在厨房预留了足足一周量的“每日例汤”，都是你喜欢的口味。\n[charslot(slot=\"r\",name=\"avg_4081_warmy_1#1$2\",focus=\"r\")]\n[name=\"温米\"]后勤部的哥哥姐姐会替我监督你。\n[charslot(slot=\"l\",name=\"avg_4178_alanna_1#9$1\",focus=\"l\")]\n[name=\"阿兰娜\"]哈哈，我会乖乖听小锅盖的话。\n[charslot(slot=\"l\",name=\"avg_4178_alanna_1#1$1\",focus=\"l\")]\n[name=\"阿兰娜\"]不过，你舍得离开在这认识的朋友吗？\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1726_1#1$1\")]\n[PlaySound(key=\"$d_avg_productdu_normal\")]\n[name=\"“小嘟嘟”\"]（夸张地点头）\n[charslot]\n[charslot(slot=\"l\",name=\"avg_4178_alanna_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_4081_warmy_1#1$2\",focus=\"r\")]\n[name=\"温米\"]嗯嗯，“小嘟嘟”当然也是我的好朋友。\n[name=\"温米\"]不过认识的大伙好多都主动申请了去各地的外勤支援，我可不会落后。\n[name=\"温米\"]大家都很期待任务结束后参观我们的新家呢。兰娜姐你可是答应过，改造完成后罗德岛会更大更漂亮！"
+        }
+      ],
+      "description": "阿兰娜在场听温米具体说明博士批准申请。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D03"
+          ],
+          "from": "char_4178_alanna",
+          "reason": "阿兰娜在场听温米具体说明博士批准申请。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4178_alanna"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 315,
+          "kind": "story",
+          "line": 280,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4178_alanna|npc_b99957887950ebfd"
+}

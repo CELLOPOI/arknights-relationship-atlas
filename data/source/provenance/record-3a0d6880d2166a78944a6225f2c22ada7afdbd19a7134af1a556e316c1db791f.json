@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 35,
+          "line": 35,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "quote": "[name=\"弗莱蒙特\"]我早就跟菈玛莲抱怨过，那对兄妹太激进了，迟早会给我们招来数不清的麻烦事！"
+        }
+      ],
+      "description": "弗莱蒙特明确曾向菈玛莲抱怨，具体往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E165"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "弗莱蒙特明确曾向菈玛莲抱怨，具体往来。",
+          "status": "supported",
+          "to": "npc_751dc5e345c5cbe2"
+        },
+        {
+          "evidenceIds": [
+            "E165"
+          ],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "弗莱蒙特明确曾向菈玛莲抱怨，具体往来。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 35,
+          "kind": "story",
+          "line": 35,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 132,
+          "line": 124,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "quote": "[name=\"菈玛莲\"]弗莱蒙特，久居莱塔尼亚的巫妖。看来现在的“誊录”是他了。\n[name=\"特蕾西娅\"]看来巫妖们在莱塔尼亚运用法术的风格发生了些变化。唔，他的神情似乎非常激动。\n[name=\"特蕾西娅\"]……\n[name=\"特蕾西娅\"]……可为什么光有影像，却没有任何声音？\n[name=\"菈玛莲\"]……呵呵。\n[name=\"菈玛莲\"]那位巫妖特使暗示过我，他实在很苦恼如何润色老师的措辞……我也没想到他干脆抹去了声音。\n[name=\"菈玛莲\"]总之，弗莱蒙特表达了巫妖们的歉意。他们仍然醉心知识，实在无法分心长途跋涉来相聚。\n[name=\"菈玛莲\"]但倘若卡兹戴尔需要他们的知识，巫妖很乐意为他们选中的人敞开圣殿之门。\n[name=\"菈玛莲\"]……当然，我想以殿下的能耐，也能从影像里看出弗莱蒙特的态度才是。看来他还是对激烈的变革过敏。"
+        }
+      ],
+      "description": "菈玛莲识别信中影像的弗莱蒙特并说明其态度；影像无声不作实时交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "菈玛莲识别信中影像的弗莱蒙特并说明其态度；影像无声不作实时交流。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_751dc5e345c5cbe2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 132,
+          "kind": "story",
+          "line": 124,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_732d802fa042a0c2|npc_751dc5e345c5cbe2"
+}

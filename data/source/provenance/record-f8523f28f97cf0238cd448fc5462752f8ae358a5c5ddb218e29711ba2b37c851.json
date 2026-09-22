@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 434,
+          "line": 430,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "quote": "[name=\"魏斯\"]……呼。\n[character(name=\"avg_npc_267_1#7$1\")]\n[name=\"切斯特\"]辛苦了。\n[character(name=\"avg_198_blackd_1#1$1\")]\n[name=\"魏斯\"]哪里。为老爷传信本就是我的职责。"
+        }
+      ],
+      "description": "切斯特向讯使道辛苦，讯使回答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "char_198_blackd",
+          "reason": "切斯特向讯使道辛苦，讯使回答。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        },
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "切斯特向讯使道辛苦，讯使回答。",
+          "status": "supported",
+          "to": "char_198_blackd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 434,
+          "kind": "story",
+          "line": 430,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_198_blackd|npc_c56ef99fbe131371"
+}

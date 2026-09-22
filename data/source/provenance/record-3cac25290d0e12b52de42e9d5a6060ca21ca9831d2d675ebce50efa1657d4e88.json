@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 239,
+          "line": 211,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_03_end.txt",
+          "quote": "[name=\"角峰\"]古罗将军……\n[charslot(slot=\"m\",name=\"avg_npc_260_1#7$1\",focus=\"m\")]\n[name=\"古罗\"]哦，原来是耶克家的小子，*谢拉格俚语*，进来之前都不敲个门。\n[name=\"古罗\"]你怎么来了？\n[charslot(slot=\"m\",name=\"avg_199_yak_1#1$1\",focus=\"m\")]\n[name=\"角峰\"]我陪恩希亚小姐来做检查，她早上也遇上了车祸，好在没受什么伤。\n[charslot(slot=\"m\",name=\"avg_199_yak_1#6$1\",focus=\"m\")]\n[name=\"角峰\"]结果听说你也在这里，顺便来探望——你还好吗？\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[multiline(name=\"古罗\")]哼，我身上这点小伤随便挨挨也无妨，但是——\n[charslot(slot=\"m\",name=\"avg_npc_260_1#7$1\",focus=\"m\")]\n[multiline(name=\"古罗\")]等等，你说你们家二小姐怎么样了？\n[charslot(slot=\"m\",name=\"avg_199_yak_1#1$1\",focus=\"m\")]\n[name=\"角峰\"]很不巧，恩希亚小姐她早上替老爷送东西，去蔓珠院的山路上撞上了对向车道的车，要不是锏小姐到得及时，差一点就要酿成大祸。\n[charslot(slot=\"m\",name=\"avg_npc_260_1#7$1\",focus=\"m\")]\n[name=\"古罗\"]你是说她也要去蔓珠院？\n[name=\"古罗\"]怪了，我家老爷也是今早突然收到了蔓珠院的通知，说是要早上提前去开会，结果就在山路上碰上了落石。\n[name=\"古罗\"]……那你有听说，布朗陶家出了什么事吗？\n[charslot(slot=\"m\",name=\"avg_199_yak_1#6$1\",focus=\"m\")]\n[name=\"角峰\"]不……暂时还没有听说。布朗陶家怎么了吗？\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]怪不得……怪不得刚才老爷走的时候气势汹汹的，好久没见他发这么大火。\n[charslot(slot=\"m\",name=\"avg_npc_260_1#5$1\",focus=\"m\")]\n[name=\"古罗\"]可是这搞的——唉！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]马特洪兄弟，请你一定要帮这忙。能不能麻烦请你家老爷，现在就带人去布朗陶家？\n[name=\"古罗\"]我家大人比我还冲动，就怕这个时候会做傻事，或许只有恩希欧迪斯老爷能拦住他了。\n[charslot(slot=\"m\",name=\"avg_199_yak_1#6$1\",focus=\"m\")]\n[name=\"角峰\"]好……我这就安排。"
+        }
+      ],
+      "description": "角峰探望古罗并直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N08"
+          ],
+          "from": "char_199_yak",
+          "reason": "当面对话或同一局部谈判中相互确认。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        },
+        {
+          "evidenceIds": [
+            "N08"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "当面对话或同一局部谈判中相互确认。",
+          "status": "supported",
+          "to": "char_199_yak"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 239,
+          "kind": "story",
+          "line": 211,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "雪山事件期间",
+      "title": "雪山降临1101"
+    }
+  ],
+  "relationship_id": "char_199_yak|npc_7144babb98dd293d"
+}

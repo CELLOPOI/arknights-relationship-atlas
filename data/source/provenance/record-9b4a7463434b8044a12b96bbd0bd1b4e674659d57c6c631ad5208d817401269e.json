@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 306,
+          "line": 271,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-03_end.txt",
+          "quote": "[name=\"芬\"]是我。\n[name=\"芬\"]还有力气吗？\n[charslot(slot=\"l\",name=\"avg_npc_411_1#9$1\",focus=\"l\")]\n[name=\"可露希尔\"]芬……\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\")]\n[name=\"“灵幛”\"]你们——\n[Dialog]\n[playsound(key=\"$d_avg_exsheath\",volume=1)]\n[Effect(name=\"$e_bladeline_01_large\",x =15, y =42.4,rox =8.6, roy =-47, roz =29.2, layer = 1)]\n[delay(time=0.3)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[CameraShake(duration=1.5, xstrength=10, ystrength=10, vibrato=50, randomness=90, fadetime=0.3,fadeout=true, block=false)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[charslot(duration=1)]\n[playsound(key=\"$d_avg_magicscreen\",volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[delay(time=0.5)]\n[Delay(time=1.5)]\n一柄小巧的匕首洞穿了“灵幛”的胸膛，巨大的能量随即爆发而出。\n[Dialog]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_235\",duration=1.5)]\n[Delay(time=2)]\n[name=\"Misery\"]抱歉，来晚了。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_411_1#9$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_1036_fang2_1#8$1\",focus=\"r\")]\n[name=\"芬\"]多亏Misery先生通知了我们位置。\n[name=\"芬\"]别担心，更多人在路上。\n[charslot(slot=\"l\",name=\"avg_npc_411_1#9$1\",focus=\"l\")]\n[name=\"可露希尔\"]快，还差一点，掩护我！\n[name=\"可露希尔\"]挡住他们！"
+        }
+      ],
+      "description": "芬与可露希尔受困时Misery直接现身救援，具名互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E61"
+          ],
+          "from": "char_123_fang",
+          "reason": "芬与可露希尔受困时Misery直接现身救援，具名互动。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E61"
+          ],
+          "from": "char_615_acspec",
+          "reason": "芬与可露希尔受困时Misery直接现身救援，具名互动。",
+          "status": "supported",
+          "to": "char_123_fang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 306,
+          "kind": "story",
+          "line": 271,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 517,
+          "line": 454,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "quote": "[name=\"Sharp\"]这是今天第几批袭击我们的佣兵了？\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]第七批。\n[name=\"Stormeye\"]虽然威胁性并不高，但近一周来，每天都有如此高频率的袭击也太过诡异了。\n[name=\"Stormeye\"]这才刚刚进入卡兹戴尔的边境范围……\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]这些人不怕死的样子，让我想起以前在萨尔贡认识的那些佣兵。\n[name=\"Sharp\"]毫无信念。\n[name=\"Sharp\"]Misery怎么花了这么长时间？已经过了预计的返程时间了。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_235\",duration=1)]\n[Delay(time=1.5)]\n[name=\"Misery\"]你要知道，这里离疤痕商场还是有些距离。\n[name=\"Misery\"]哪怕我熟悉这里的每条捷径，也得耗费点时间。\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]调查结果如何？\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]近两周，有人通过层层外包，将疤痕商场的大部分订单都聚集在了这一片区域。\n[name=\"Misery\"]委托人完全查不出来，隐藏得很好。\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]也就是说，我们只是“运气不好”撞上了这些佣兵。\n[name=\"Sharp\"]他们并非冲我们而来？\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]恐怕是这样的。\n[name=\"Stormeye\"]博士临出发前的担忧看来并非全无道理。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#1$1\",duration=0.5)]\n[Delay(time=1)]\n[name=\"芬\"]各位，哨岗有新消息传回来。\n[name=\"芬\"]又有一伙佣兵的行动轨迹开始向我们的位置偏移，极有可能会马上再次接敌。\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]（叹气）\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#6$1\")]\n[name=\"芬\"]Misery先生，我感觉情况不对劲。\n[name=\"芬\"]这些源源不断的佣兵似乎并不是想要给我们造成损失，更像是……\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]拖延。\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#6$1\")]\n[name=\"芬\"]我们可以留在这里继续护送队伍前进，各位可以先行返回本舰——\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]别着急，芬。\n[name=\"Misery\"]有些人的打算并没有那么容易得逞。\n[charslot]\n空气在波动。\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#7$1\")]\n[name=\"芬\"]……起风了？\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#4$1\")]\n[name=\"芬\"]不……那是，“生命脊椎”？！\n[charslot]\n[dialog]\n[PlaySound(key=\"$d_avg_erthshkng\")]\n[CameraShake(duration=2, xstrength=5, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.3, r=0, g=0, b=0, fadetime=2, block=true)]\n苍穹之上，庞大的骸骨荡漾着历史的尘埃显现，投下了巨大的阴影。\n那是罗德岛的许多人第一次亲眼目睹这个曾在维多利亚的混乱中出现的巨大骨架。\n[charslot(slot=\"m\",name=\"avg_npc_971_1#1$1\")]\n[name=\"罗德岛工程部干员\"]……真是壮观……\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]调查疤痕商场时，我顺便去了趟卡兹戴尔，见了几位老朋友。\n[name=\"Misery\"]接下来就交给他们吧。\n[name=\"Misery\"]我们该回家了。"
+        }
+      ],
+      "description": "芬与Misery直接同行交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D18"
+          ],
+          "from": "char_123_fang",
+          "reason": "芬与Misery直接同行交谈。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "D18"
+          ],
+          "from": "char_615_acspec",
+          "reason": "芬与Misery直接同行交谈。",
+          "status": "supported",
+          "to": "char_123_fang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 517,
+          "kind": "story",
+          "line": 454,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_123_fang|char_615_acspec"
+}

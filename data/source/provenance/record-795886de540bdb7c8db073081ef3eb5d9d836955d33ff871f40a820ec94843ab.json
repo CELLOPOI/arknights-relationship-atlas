@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 64,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_quercu_2_1.txt",
+          "quote": "[name=\"苦根\"]你的伤怎么样了？\n[charslot(slot=\"r\",name=\"avg_492_quercu_1#1$1\",focus=\"r\")]\n[name=\"夏栎\"]没什么大事。\n[name=\"夏栎\"]博士还是没有消息吗？\n[charslot(slot=\"l\",name=\"avg_npc_012\",focus=\"l\")]\n[name=\"苦根\"]从他们进入伦蒂尼姆以后就断了联系，目前所有的通讯手段都失效了。\n[name=\"苦根\"]你那边情况怎么样？\n[charslot(slot=\"r\",name=\"avg_492_quercu_1#10$1\",focus=\"r\")]\n[name=\"夏栎\"]消息已经散布出去了。\n[name=\"夏栎\"]不管有多少人相信，起码现在，公爵的人默许我们以调查的名义驻扎在公爵领北面边界。 \n[name=\"夏栎\"]在必要的情况下，可以随时接应博士他们。\n[charslot(slot=\"l\",name=\"avg_npc_012\",focus=\"l\")]\n[name=\"苦根\"]嗯……那就好。\n[charslot(slot=\"r\",name=\"avg_492_quercu_1#1$1\",focus=\"r\")]\n[name=\"夏栎\"]先把这些信息通报给本舰那边吧。\n[name=\"夏栎\"]博士他们一定会没事的。\n[charslot(slot=\"l\",name=\"avg_npc_012\",focus=\"l\")]\n[name=\"苦根\"]一定。\n[name=\"苦根\"]对了，那些难民营的孩子……\n[charslot(slot=\"r\",name=\"avg_492_quercu_1#2$1\",focus=\"r\")]\n[name=\"夏栎\"]带过来这边吧。"
+        }
+      ],
+      "description": "夏栎与苦根为相识的任务协作者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_492_quercu",
+          "reason": "当面交换任务信息。",
+          "status": "supported",
+          "to": "npc_e3878a71089209c5"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "当面关切伤情并协作。",
+          "status": "supported",
+          "to": "char_492_quercu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_e552167ef6e5d137.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 64,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_quercu_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "候选窗所示伦蒂尼姆战事期间",
+      "title": "夏栎"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 962,
+          "line": 948,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st01.txt",
+          "quote": "[name=\"苦根\"] 夏栎你还没给苏茜小姐说吗？\n[Character(name=\"avg_377_gdglow_1#12$1\", name2=\"avg_492_quercu_1#4$1\", focus=2)]\n[name=\"夏栎\"] 啊，确实没说过。\n[Character(name=\"avg_377_gdglow_1#12$1\", name2=\"avg_492_quercu_1#4$1\", focus=1)]\n[name=\"苏茜\"] ？\n[Character(name=\"avg_377_gdglow_1#12$1\", name2=\"avg_492_quercu_1#7$1\", focus=2)]\n[name=\"夏栎\"] 他就是这家店的房东，我之前忘记告诉你了。\n[Character(name=\"avg_377_gdglow_1#4$1\", name2=\"avg_492_quercu_1#7$1\", focus=1)]\n[name=\"苏茜\"] 哎？\n[name=\"苏茜\"] 哎？？？\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"苏茜\"] 苦根先生是房东？？那前几个店长都是和苦根先生签的合同？？\n[character(name=\"avg_npc_012\")]\n[name=\"苦根\"] 是这样，这个说来话长了……总之，这家店其实是罗德岛的资产。\n[name=\"苦根\"] 具体的情况我已经听夏栎说了，苏茜小姐想要买下这家店是吗？"
+        }
+      ],
+      "description": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_492_quercu",
+          "reason": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+          "status": "supported",
+          "to": "npc_e3878a71089209c5"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+          "status": "supported",
+          "to": "char_492_quercu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_a170fc4ad11dca33.json",
+      "sources": [
+        {
+          "endLine": 962,
+          "kind": "story",
+          "line": 948,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "阴云火花"
+    }
+  ],
+  "relationship_id": "char_492_quercu|npc_e3878a71089209c5"
+}

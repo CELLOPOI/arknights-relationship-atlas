@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 333,
+          "line": 143,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st03.txt",
+          "quote": "[name=\"罗伊\"]  你们还有时间可以浪费吗？\n[name=\"罗伊\"]  关于感染者的通缉令已经发出，等到大隔断的影响过去，你们无路可逃。\n[Character(name=\"avg_npc_209_1#2\")]\n[name=\"罗伊\"]  啊，顺便一提，之所以叫“大隔断”，是因为在失去核心电力后各地块会出现短暂的漂移现象……\n[Character(name=\"avg_npc_209_1#6\")]\n[name=\"罗伊\"]  现在，联合会周遭的地块连接都中断了，你们逃不出去。\n[dialog]\n[character]\n[Character(name=\"avg_npc_123#6\",name2=\"avg_npc_122#8\",fadetime=1,block=true)]\n[delay(time=1)]\n[Character(name=\"avg_npc_123#6\",name2=\"avg_npc_122#8\",focus=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"格蕾纳蒂\"]  ……呃……该死……\n[Character(name=\"avg_npc_123#6\",name2=\"avg_npc_122#8\",focus=2)]\n[name=\"索娜\"]  ……好像不是可以正面打赢的对手啊。\n[Character(name=\"avg_npc_209_1\")]\n[name=\"罗伊\"]  感谢你总算理解了你早该理解的事情。那我再问一遍，要不要把东西交给我？那我可以放走你们。\n[Character(name=\"avg_npc_122#8\")]\n[name=\"索娜\"]  嘿，无胄盟什么时候这么好心了？\n[Character(name=\"avg_npc_209_1#2\")]\n[name=\"罗伊\"]  ……心情问题吧，终于从漫长的……斗争里看到了曙光。\n[name=\"罗伊\"]  从玻利瓦尔的废墟，到卡西米尔的平原，最后来到这里。\n[name=\"罗伊\"]  没有正常人会觉得杀人是一件快乐的事情，只有那些养尊处优的蠢货喜欢观赏他人流血。\n[Character(name=\"avg_npc_209_1\")]\n[name=\"罗伊\"]  现在，你能拯救我，感染者，我也可以帮你摧毁无胄盟。\n[Character(name=\"avg_npc_122#2\")]\n[delay(time=0.2)]\n[name=\"索娜\"]  ……抱歉，就算你说的是真的，我也不打算把这东西交给你。\n[Character(name=\"avg_npc_209_1#3\")]\n[name=\"罗伊\"]  为什么？\n[Character(name=\"avg_npc_122#8\")]\n[name=\"索娜\"]  我们已经厌倦了受他人操纵的日子了，无胄盟。\n[Character(name=\"avg_npc_123#6\",name2=\"avg_npc_122#8\",focus=2)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"索娜\"]  小灰！\n[Character(name=\"avg_npc_123#6\")]\n[name=\"格蕾纳蒂\"]  明白，看这一炮如何！？\n[Character(name=\"avg_npc_209_1#5\")]\n[name=\"罗伊\"]  ——唔。\n[dialog]\n[character]\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[delay(time=0.5)]\n[Character(name=\"avg_npc_209_1#5\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"罗伊\"]  咳咳……咳咳……搞什么。\n[Character(name=\"avg_npc_123#6\",name2=\"avg_npc_122#8\",focus=2)]\n[name=\"索娜\"]  跑，小灰！\n[Character(name=\"avg_npc_123#6\",name2=\"avg_npc_122#8\",focus=1)]\n[name=\"格蕾纳蒂\"]  我知道！\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[characteraction(name=\"left\", type=\"move\", xpos=-300, fadetime=0.8,block=false)]\n[characteraction(name=\"right\", type=\"move\", xpos=300, fadetime=0.8,block=false)]\n[character(name=\"char_empty\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=2)]\n[Character(name=\"avg_npc_209_1#5\")]\n[name=\"罗伊\"]  ……在这座城市的构造区乱跑，小心失足跌进引擎里，变成肉末啊。\n[name=\"罗伊\"]  你可跑不了——\n[Character(name=\"avg_npc_209_1#3\")]\n[name=\"罗伊\"]  ——唔。\n[dialog]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Character(name=\"avg_npc_122#6\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"索娜\"]  ……！？\n[Character(name=\"avg_npc_123#6\",name2=\"avg_npc_122#8\",focus=2)]\n[name=\"索娜\"]  小灰！小心！\n[Character(name=\"avg_npc_123#6\",name2=\"avg_npc_122#8\",focus=1)]\n[name=\"格蕾纳蒂\"]  ——\n[dialog]\n[Character]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=1.5, block=true)]\n[Background]\n[Image(image=\"23_I12\", x=-120, y=-50, xScale=1.15, yScale=1.15, fadetime=0)]\n[ImageTween(xFrom=-120, yFrom=-50, xTo=0, yTo=0, xScaleFrom=1.15, yScaleFrom=1.15, xScaleTo=0.85, yScaleTo=0.85, duration=15, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[PlaySound(key=\"$bodyfalldown3\",volume=0.3)]\n青色的箭矢贯穿了焰尾骑士的盔甲。\n索娜试图格挡，但是巨大的冲击力依然让她娇小的身躯失去控制。\n她在半空中挣扎，飞向城区地块之间的间隙。\n[dialog]\n[name=\"格蕾纳蒂\"]  索娜——！\n[delay(time=2)]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[image]\n[Background(image=\"bg_23_G04\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_209_1#2\")]\n[name=\"罗伊\"]  （……歪了点，刚才突然眼前黑了一下……）\n[Character(name=\"avg_npc_209_1#5\")]\n[name=\"罗伊\"]  （疲劳产生的错觉吗……？不，确实是被干扰了……）\n[Character(name=\"avg_npc_123#6\")]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"格蕾纳蒂\"]  ——罗伊——！\n[delay(time=0.5)]\n[Character(name=\"avg_npc_209_1#5\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"罗伊\"]  ……！\n[dialog]\n[Character(name=\"avg_npc_123#6\")]\n[PlaySound(key=\"$fightgeneral\")] \n[CameraShake(duration=0.2, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$fightgeneral\")] \n[CameraShake(duration=0.2, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$swordtsing3\")] \n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$fightgeneral\")] \n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"avg_npc_209_1#5\")]\n[name=\"罗伊\"]  失去理智了吗。\n[dialog]\n[Character(name=\"avg_npc_123#6\",name2=\"avg_npc_209_1#5\",focus=0)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.2, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[Character(name=\"avg_npc_209_1#5\")]\n[name=\"罗伊\"]  啧啧啧，这么近的距离开火，你是打算同归于尽了吗？\n[Character(name=\"avg_npc_123#6\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"格蕾纳蒂\"]  你……你竟然……对索娜……！\n[Character(name=\"avg_npc_209_1\")]\n[name=\"罗伊\"]  ……确实有些不小心。\n[Character(name=\"avg_npc_209_1#5\")]\n[name=\"罗伊\"]  还没确认那枚芯片是不是真的被销毁了，这很危险，我可不敢担这个责任。\n[Character(name=\"avg_npc_123#6\")]\n[name=\"格蕾纳蒂\"]  少废话！\n[dialog]\n[character]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$fightgeneral\")] \n[CameraShake(duration=0.2, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[delay(time=0.5)]\n[Character(name=\"avg_npc_209_1#5\")]\n[name=\"罗伊\"]  （该怎么办，赶紧杀掉灰毫，想办法下去确认一下尸体吗？）\n[Character(name=\"avg_npc_209_1#2\")]\n[name=\"罗伊\"]  （不，这也太危险了，而且电力就快要恢复了，我可不想被夹在铁板中间啊。）\n[Character(name=\"avg_npc_123#6\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"格蕾纳蒂\"]  我要你血债血偿——！！\n[Character(name=\"avg_npc_209_1\")]\n[name=\"罗伊\"]  直来直往，失去理智之后你的动作还真是好看穿啊——\n[Character(name=\"avg_npc_123#6\")]\n[name=\"格蕾纳蒂\"]  ——是吗？\n[Character(name=\"avg_npc_209_1#5\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"罗伊\"]  ！？\n[dialog]\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=51, g=51, b=51, fadetime=0.5, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[Character(fadetime=0.6,block=true)]\n[delay(time=1.5)]\n[Character(name=\"avg_npc_209_1#5\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"罗伊\"]  唔，竟然是我大意了吗？\n[dialog]\n[Character(name=\"avg_npc_209_1#3\")]\n[delay(time=0.5)]\n[Character(name=\"avg_npc_209_1#2\")]\n[name=\"罗伊\"]  ……跑了？"
+        }
+      ],
+      "description": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_420_flamtl",
+          "reason": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+          "status": "supported",
+          "to": "npc_5b3693e67197379a"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_5b3693e67197379a",
+          "reason": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+          "status": "supported",
+          "to": "char_420_flamtl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5af6c879983dcc5a.json",
+      "sources": [
+        {
+          "endLine": 333,
+          "kind": "story",
+          "line": 143,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 399,
+          "line": 336,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st01.txt",
+          "quote": "[Character(name=\"avg_430_fartth_1#2\", name2=\"avg_npc_122\", focus=2)]\n[name=\"索娜\"]  不过，她还是救了我这么一个感染者，哪怕明知道有人在盯着她。\n[Character(name=\"avg_430_fartth_1\", name2=\"avg_npc_122\", focus=1)]\n[name=\"查丝汀娜\"]  ……嗯。\n[Character(name=\"avg_430_fartth_1#2\", name2=\"avg_npc_122\", focus=1)]\n[name=\"查丝汀娜\"]  也许她真的是那个耀骑士。那些……那些感染者们想象出来的耀骑士。\n[Character(name=\"avg_430_fartth_1#2\", name2=\"avg_npc_122#6\", focus=2)]\n[name=\"索娜\"]  这是什么话——别说这个了，你救下的那位可怜人怎么样了？那个老父亲？\n[Character(name=\"avg_430_fartth_1\", name2=\"avg_npc_122#6\", focus=1)]\n[name=\"查丝汀娜\"]  他——\n[Character(name=\"avg_430_fartth_1\", name2=\"avg_npc_122#6\", focus=-1)]\n[name=\"？？？\"]  你问我怎么样？\n[delay(time=0.6)]\n[dialog]\n[character]\n[Character(name=\"avg_npc_103nc_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"塑料骑士\"]  ……箭在弦上，感染者。\n[name=\"塑料骑士\"]  我要让那帮低贱的凶手付出代价。\n[dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]\n[Background(image=\"bg_23_G09\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_210_1\")]\n[name=\"年长的骑士\"]  阿米娅女士，还有罗德岛的博士，请进吧，这里就是各位的住房。\n[name=\"年长的骑士\"]  二位的套房在楼上，参与医疗项目的各位医生则在十二层休息。\n[dialog]\n[Character(name=\"char_002_amiya_1#3\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"阿米娅\"]  谢谢您，阁下。\n[Character(name=\"avg_npc_210_1#2\", name2=\"char_002_amiya_1#3\", focus=1)]\n[name=\"年长的骑士\"]  呵呵……不用这么拘谨，阿米娅女士。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#3\", focus=1)]\n[name=\"年长的骑士\"]  没想到罗德岛的领导人，会是这么一位年轻可爱的卡特斯姑娘，真是年轻有为。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#6\", focus=2)]\n[name=\"阿米娅\"]  没、没有的事……\n[dialog]\n[Decision(options=\"罗德岛确实离不开阿米娅。;阿米娅一直很努力。\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_002_amiya_1#11\")]\n[CameraShake(duration=0.5, xstrength=10, ystrength=10, vibrato=15, randomness=60, fadeout=true, block=false)]\n[name=\"阿米娅\"]  博、博士……\n[Character(name=\"avg_npc_210_1#6\", name2=\"char_002_amiya_1#11\", focus=1)]\n[name=\"年长的骑士\"]  哈哈，害羞了？\n[name=\"年长的骑士\"]  多可爱的孩子，如果我有个孙女，也差不多你这般大吧。\n[Character(name=\"avg_npc_210_1#6\", name2=\"char_002_amiya_1#11\", focus=2)]\n[name=\"阿米娅\"]  啊……\n[Character(name=\"avg_npc_210_1#3\", name2=\"char_002_amiya_1#11\", focus=1)]\n[name=\"年长的骑士\"]  哎呀哎呀，脸都红了。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#11\", focus=1)]\n[name=\"年长的骑士\"]  不过，还是很抱歉，考虑到各位的特殊身份，我们没法安排统一的会面。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#3\", focus=2)]\n[name=\"阿米娅\"]  嗯……没关系的，我们能理解。\n[Character(name=\"avg_npc_210_1#2\")]\n[name=\"年长的骑士\"]  所以……“砾”。\n[dialog]\n[Character(name=\"avg_237_gravel_1#2\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"塞诺蜜\"]  请吩咐。\n[Character(name=\"avg_237_gravel_1#2\", name2=\"avg_npc_210_1\", focus=2)]\n[name=\"年长的骑士\"]  这位是四阶征战骑士，叫她“砾”吧，也是一位年轻有为的青年骑士……\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  ……您好。"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_420_flamtl",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_5b3693e67197379a"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_5b3693e67197379a",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_420_flamtl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 399,
+          "kind": "story",
+          "line": 336,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "char_420_flamtl|npc_5b3693e67197379a"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 664,
+          "line": 562,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_01_end.txt",
+          "quote": "[name=\"桑尼\"]您和摩尔医生一样，也是位好心的医生。但要停止这么大的工程，您恐怕做不了主。\n[name=\"桑尼\"]您能不能转告莱茵生命的老总，这个实验真的很危险？\n[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=-1)]\n[name=\"赫默\"]桑尼先生，你有没有证据？\n[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=1)]\n[name=\"桑尼\"]就算我有，您又愿意相信我……相信一名无路可走的拓荒者吗？\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[CharacterCutin(widgetID=\"1\",block=true)]\n[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\")]\n[Background(image=\"29_g2_edgeofbase\",screenadapt=\"showall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\t\n[MusicVolume(volume=0.4, fadetime=0.2)]\n[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=2)]\n[name=\"莱茵防卫科成员\"]警长，我们准备好了，随时可以切断基地通讯。\n[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]\n[name=\"玛丽\"]……等赫默医生说完她想说的话。\n[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=2)]\n[name=\"莱茵防卫科成员\"]可是主任要求通讯必须立刻……\n[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]\n[name=\"玛丽\"]我是警长，还是你们莱茵生命的主任是警长？\n[Character(name=\"avg_npc_527_1#5$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]\n[name=\"玛丽\"]告诉那个斐尔迪南，怎么救人是我的事，还轮不到他指手画脚！\n[Character(name=\"avg_npc_527_1#5$1\",name2=\"avg_npc_528_1#1$1\",focus=2)]\n[name=\"莱茵防卫科成员\"]主任已与您的局长打过招呼了，警长。这是他们一起制订的计划。\n[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]\n[name=\"玛丽\"]……\n[Character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]主任……斐尔迪南？\n[name=\"赫默\"]我没想到，现在的防卫科也归能量科管了。\n[Character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]呃……\n[Character(name=\"avg_108_silent_1#4$1\")]\n[name=\"赫默\"]要是斐尔迪南觉得结构科也是他说了算的话，我不介意立即从莱茵生命辞职。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[stopmusic(fadetime=1)]\n[Character]\n[Character(name=\"avg_128_plosis_1#8$1\")]\n[Background(image=\"29_g3_cottage\",screenadapt=\"showall\")]\n[Delay(time=1)]\n[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.4)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\t\n[Character(name=\"avg_128_plosis_1#8$1\")]\n[name=\"白面鸮\"]……\n[Dialog]\n[character(time=1.5)]\n[PlaySound(key=\"$bodyfalldown1\")]\n[delay(time=2.3)]\n[Character(name=\"avg_135_halo_1#7$1\")]\n[characteraction(name=\"middle\", type=\"jump\" , power=5, times=2, fadetime=0.51,block=true)]\n[name=\"埃琳娜\"]乔伊丝……乔伊丝！\n[Character(name=\"avg_npc_535_1#7$1\")]\n[name=\"桑尼\"]她……睡着了？\n[Character(name=\"avg_135_halo_1#3$1\")]\n[name=\"埃琳娜\"]她彻底失去了意识。\n[name=\"埃琳娜\"]如果不能得到及时治疗的话，她……用不了多久就会脑死亡。\n[Character(name=\"avg_npc_535_1#4$1\")]\n[name=\"桑尼\"]……\n[Dialog]\n[character]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=0.6)]\n[CharacterCutin(widgetID=\"1\", name=\"avg_108_silent_1#4$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=0, width=200, block=true)]\n[name=\"赫默\"]桑尼先生，我准备立刻进入基地。\n[name=\"赫默\"]我理解你的担忧，所以你放心，我不会携带任何武器。\n[Dialog]\n[CharacterCutin(widgetID=\"1\",block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[stopmusic(fadetime=1)]\n[Character]\n[CharacterCutin(widgetID=\"1\",block=true)]\n[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_108_silent_1#7$1\")]\n[Background(image=\"29_g2_edgeofbase\",screenadapt=\"showall\")]\n[Delay(time=1)]\n[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\t\n[Character(name=\"avg_npc_527_1#5$1\",name2=\"avg_108_silent_1#7$1\",focus=1)]\n[name=\"玛丽\"]医生，你别做傻事！\n[Character(name=\"avg_npc_527_1#5$1\",name2=\"avg_108_silent_1#7$1\",focus=2)]\n[name=\"赫默\"]不，我很清醒。\n[name=\"赫默\"]桑尼先生，我也不会让任何警察……或者防卫科的人跟着。\n[Character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]赫默研究员，我会把你的行动汇报给主任……帕尔维斯主任。\n[Character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]我将以罗德岛干员的身份进入359号基地——\n[Character(name=\"avg_1027_greyy2_1#7$2\")]\n[name=\"格雷伊\"]还有我……\n[Character(name=\"avg_108_silent_1#2$1\")]\n[name=\"赫默\"]——我的电气工程师同事会与我同行。\n[Character(name=\"avg_108_silent_1#4$1\")]\n[name=\"赫默\"]我们会为基地的矿石病患者提供无偿的医疗服务。\n[name=\"赫默\"]不止是为了我的朋友，也为你们。\n[Character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]我不管莱茵生命会做出什么选择。\n[Character(name=\"avg_108_silent_1#4$1\")]\n[name=\"赫默\"]我只知道，救治感染者是罗德岛一贯的行为准则。"
+        }
+      ],
+      "description": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_68a1f7893aebd5bc",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_89d26c84069133ae",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "npc_68a1f7893aebd5bc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 664,
+          "kind": "story",
+          "line": 562,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "绿野幻梦"
+    }
+  ],
+  "relationship_id": "npc_68a1f7893aebd5bc|npc_89d26c84069133ae"
+}

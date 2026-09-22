@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 390,
+          "line": 282,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_beg.txt",
+          "quote": "精英干员和阿斯卡纶跨入那道裂缝之后，一时有些晃神。\n[charslot(slot = \"m\", name = \"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]这就是Abyss？！\n[charslot(slot = \"m\", name = \"avg_npc_235\")]\n[name=\"Misery\"]Raidian，能确定我们还在罗德岛本舰内吗？\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\")]\n[name=\"Raidian\"]无法感知到这个空间之外的电磁信号，唔，没法判断。\n[charslot]\n所有人陷入了片刻的沉默，下意识地等待着指挥官的进一步指挥。\n[charslot(slot = \"m\", name = \"avg_4133_logos_1#8$1\")]\n[name=\"Logos\"]……\n[name=\"Logos\"]博士，在何处？\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]还有凯尔希医生和阿米娅。\n[name=\"阿斯卡纶\"]进入裂隙的一瞬间，我就失去了对她们和博士的位置的把握。\n[charslot]\n巨大的白色空间内充斥着一成不变的白噪，还有最中央机械的运作声。\n[charslot(slot = \"m\", name = \"avg_npc_1300_1#1$1\")]\n[name=\"Mantra\"]如果这里的确是Abyss，那显然它扭曲了我们对物理空间的感知。\n[charslot]\nMantra的声音浮现在所有人脑海中的同时，他们都注意到了这一点。\n[charslot(slot = \"m\", name = \"avg_npc_235\")]\n[name=\"Misery\"]无法识别构成墙面的物质。\n[charslot(slot = \"m\", focus=\"n\")]\n他回头看去，来时的裂缝已经消失了。\n[charslot(slot = \"m\", name = \"avg_npc_235\")]\n[name=\"Misery\"]暂时没办法直接划开这些诡异的墙面，无法确认博士一行人的下落。\n[charslot(slot = \"m\", name = \"avg_npc_1310_1#1$1\")]\n[name=\"Pith\"]有阿米娅和凯尔希医生在，相信她们可以保护博士的安全。\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]随机应变即可。\n[name=\"Touch\"]没有接收到任何新的指令，那就继续执行原任务。\n[charslot(slot = \"m\", name = \"avg_npc_167\")]\n[name=\"Stormeye\"]那就不耽搁了。\n[name=\"Stormeye\"]Mechanist，我和Sharp掩护你靠近那个未知机械，先确认是否和PRTS核心有关。\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#1$1\")]\n[multiline(name=\"阿斯卡纶\")]我们随时可以支援——\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\")]\n[multiline(name=\"阿斯卡纶\",end=true)]不对劲，这里没有看到任何高威胁目标。\n[charslot(slot = \"m\", name = \"avg_017_huang_1#4$2\")]\n[name=\"煌\"]这很反常。\n[name=\"煌\"]按照凯尔希医生和博士的推测，我们遭遇的源石结晶体都是来源于Abyss……\n[name=\"煌\"]但这里就好像不存在任何的防御措施——\n[charslot(slot = \"m\", name = \"avg_391_rosmon_1#2$2\")]\n[name=\"迷迭香\"]我听到了……疼痛。\n[charslot(slot = \"m\", name = \"avg_017_huang_1#9$2\")]\n[name=\"煌\"]小猫？\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]迷迭香，你还感知到身体的其他异常了吗？\n[charslot(slot = \"m\", name = \"avg_391_rosmon_1#1$2\")]\n[name=\"迷迭香\"]不，不是我自己……\n[charslot]\n透明地板下，庞大的黑色漩涡的转动缓缓变快。\n漩涡的正上方，那台无法识别的仪器也开始闪烁红色光芒。\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#9$1\")]\n[name=\"Raidian\"]识别到大量干扰信号产生。\n[name=\"Raidian\"]那边的仪器正在进行海量的数据传输——\n[name=\"Raidian\"]难道它下方的黑色漩涡……只是数据的可视化显示？\n[dialog]\n[PlaySound(key=\"$d_avg_spotlightc\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.01, block=true)]\n[charslot]\n[bgeffect]\n[Background(image=\"60_g15_rhodesabyss_off\",screenadapt=\"coverall\")]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_activation\", volume=1)]\n[avgdisplay(id = \"1\", style = \"bgeffect\", name = \"$eb_glow_s\", slot = \"bgover\", x=342, y=-337, layer = 1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[delay(time=2)]\n[charslot(slot = \"m\", name = \"avg_npc_252\")]\n[name=\"Sharp\"]——？！\n[dialog]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"PRTS防御系统已启动。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n威胁目标识别中……身份已确认。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n载入威胁目标数据档案，针对性对抗策略生成中……\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n演算完毕。\",block = true)]\n[Sticker(id=\"st1\", duration=0.5, block = false)]\n[delay(time=0.5)]\n[PlaySound(key=\"$alarmenter\",volume=0.8)]\n[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.7, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]\n[Sticker(id=\"st2\", multi = true, text=\"这是来自PRTS的最后一次警告。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st2\", multi = true, text=\"\\n\\n入侵者，离开Abyss。\",block = true)]\n[Sticker(id=\"st2\", multi = true, text=\"\\n\\n倒计时启动——\",block = true)]\n[Sticker(id=\"st2\", duration=1, block = false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$d_avg_enemyappear_weird\", volume=1)]\n[charslot(slot = \"r\", name = \"avg_npc_1727_1#1$1\", duration=1)]\n[charslot(slot = \"l\", name = \"avg_npc_1728_1#1$1\", duration=1)]\n[delay(time=3)]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_017_huang_1#4$2\")]\n[name=\"煌\"]啧，我们成入侵者了？\n[name=\"煌\"]不过看上去你也没有给我们撤退的选项嘛。\n[name=\"煌\"]怎么说，阿斯卡纶？\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]清扫罗德岛的垃圾。\n[charslot(slot = \"m\", name = \"avg_017_huang_1#1$2\")]\n[name=\"煌\"]说得好，我喜欢。\n[charslot(slot = \"m\", name = \"avg_017_huang_1#11$2\")]\n[name=\"煌\"]不管这些东西到底是从哪里跑出来的，就让它们知道，这到底是谁的罗德岛。\n[dialog]\n[charslot]\n[PlaySound(key=\"$alarmenter\",volume=0.8)]\n[avgdisplay(id = \"2\", style = \"bgeffect\", name = \"$eb_glow_l\", slot = \"bgover\", x=-400, y=-295, layer = 2)]"
+        }
+      ],
+      "description": "Raidian与Stormeye共同在Abyss直接协同行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D17"
+          ],
+          "from": "char_4195_radian",
+          "reason": "Raidian与Stormeye共同在Abyss直接协同行动。",
+          "status": "supported",
+          "to": "char_511_asnipe"
+        },
+        {
+          "evidenceIds": [
+            "D17"
+          ],
+          "from": "char_511_asnipe",
+          "reason": "Raidian与Stormeye共同在Abyss直接协同行动。",
+          "status": "supported",
+          "to": "char_4195_radian"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 390,
+          "kind": "story",
+          "line": 282,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4195_radian|char_511_asnipe"
+}

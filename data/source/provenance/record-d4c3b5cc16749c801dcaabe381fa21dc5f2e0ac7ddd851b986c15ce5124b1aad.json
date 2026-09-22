@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 114,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "quote": "[name=\"曼弗雷德\"] 你们来了。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……曼弗雷德？\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] 看来血魔大君要失望了。他最为厌恶阴暗潮湿的地方，却为了亲手抓住你而去了反抗军的地下巢穴。\n[name=\"曼弗雷德\"] 眼下他一定已经追上了你们的同伴。不知道地底的嚎哭能不能传到这高墙之上——\n[character(name=\"avg_npc_402_1#6$1\")]\n[name=\"费斯特\"] 你这邪恶的……邪恶的……\n[character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"] 邪恶的魔族？\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] 不，我并不欣赏他的手段。相比遭受那样的折磨，死在我的炮轰之下的反抗军要幸运得多。\n[character(name=\"avg_npc_402_1#10$1\")]\n[name=\"费斯特\"] 你们根本就没有差别！\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] 在你们眼里或许是这样。当你们只会用“魔族”来统一称呼我们的时候，恐惧与仇恨就早已蒙蔽了你们的双眼。\n[name=\"曼弗雷德\"] 在维多利亚人眼里，萨卡兹就是一群享受着杀戮的大傻瓜。\n[name=\"曼弗雷德\"] 曾经这么想的人，如今要么跪倒在殿下的王座下，要么成了城墙外风干的惨白骨架。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 你和特雷西斯……你们带领的军队蹂躏了这座城市。\n[name=\"阿米娅\"] 无论你怎么宣称自己与血魔的差异，你们都是双手沾满了鲜血的侵略者。\n[character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"] 你似乎误会了，罗德岛的卡特斯。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"] 我并不只想强调自己与大君的差异——是的，在某些方面，他的喜好令我厌恶。\n[name=\"曼弗雷德\"] 但我同样不会像诸王廷臣一样行事。\n[name=\"曼弗雷德\"] 当他们站在你面前的时候，看到的是那位殿下的继承人，他们或许会因此对你感到怀疑、好奇或者厌恶。\n[character(name=\"avg_npc_394_1#3$1\")]\n[name=\"阿米娅\"] 你……\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 我只从你身上感觉到了警惕。\n[character(name=\"avg_npc_404_1#2$1\")]\n[stopmusic(fadetime=1)]\n[name=\"曼弗雷德\"] 是的，卡特斯。我只当你是——危险的敌人。\n[Dialog]\n[character]\n[PlaySound(key=\"$d_sp_ballista\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[delay(time=1)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[CameraShake(duration=2, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[PlaySound(key=\"$d_gen_explo_n\", volume=1)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[PlaySound(key=\"$d_avg_rockfall\", volume=1)]\n[CameraShake(xstrength=5, ystrength=3, vibrato=30, randomness=90)]\n[character(name=\"avg_npc_402_1#10$1\")]\n[PlayMusic(intro=\"$warchaos_intro\", key=\"$warchaos_loop\", volume=0.4)]\n[name=\"费斯特\"] ——他往我们这里扔手雷了吗？\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 快抓住城墙！\n[name=\"阿米娅\"] 这是他的源石技艺……他正在用法术能量制造冲击，他想把我们丢下城墙！\n[character(name=\"avg_npc_402_1#6$1\")]\n[name=\"费斯特\"] 唔……好难站稳，这脚底下就像哪里都在炸开一样……\n[character(name=\"avg_npc_411_1#4$1\")]\n[name=\"可露希尔\"] 无人机没法靠近他！只要离得近一点，机身就会失去平衡——\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 大家……站到我身后！\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 唔——\n[character(name=\"avg_npc_411_1#5$1\")]\n[name=\"可露希尔\"] 阿、阿米娅，他的法术在融化你的法术？\n[character(name=\"avg_npc_394_1#5$1\")]\n[name=\"阿米娅\"] 他故意把法术冲击释放得又细小又尖锐，我编织的能量结层被他绞碎了……\n[character(name=\"avg_npc_411_1#5$1\")]\n[name=\"可露希尔\"] 可你甚至能抵挡德拉克的火焰！\n[dialog]\n[character(name=\"avg_npc_411_1#5$1\",focus=-1)]\n[Decision(options=\"他熟悉我们的战斗方式。;他的法术针对了阿米娅。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"] 明知道你们要来，难道我会白白等待？\n[dialog]\n[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_atk_circleatk_n\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[delay(time=1)]\n[character(name=\"avg_npc_402_1#10$1\")]\n[name=\"费斯特\"] 来了，又来了！不仅在脚下，还、还有天上，只要赤光一闪，就会凭空炸开——\n[character(name=\"avg_npc_402_1#2$1\")]\n[name=\"费斯特\"] 阿米娅小姐，你……你不是会心灵法术吗？\n[name=\"费斯特\"] 你能不能试着给他的脑袋瓜里塞点什么垃圾……\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……不行。\n[name=\"阿米娅\"] 他防御得很好，而且他太冷静了，我能触摸到他情感的边缘，但是……但是他此刻心里只有对胜利的渴望。\n[dialog]\n[character(name=\"avg_npc_394_1#7$1\",focus=-1)]\n[Decision(options=\"他在拖时间。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 是……他的心思并不在眼前这场战斗上。\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 他只想等着血魔和城防炮将反抗军的生机全部摧毁！\n[character(name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"] 拖时间？不错的猜想。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"] {@nickname}，比起那位侥幸获得了魔王力量的卡特斯，我一直对你更感兴趣。"
+        }
+      ],
+      "description": "城墙对峙中曼弗雷德明确说明血魔大君为抓阿米娅去了地下，阿米娅具称特雷西斯；博士、费斯特和可露希尔持续在场应战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR11"
+          ],
+          "from": "char_4228_closur",
+          "reason": "城墙对峙中曼弗雷德明确说明血魔大君为抓阿米娅去了地下，阿米娅具称特雷西斯；博士、费斯特和可露希尔持续在场应战。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 114,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 273,
+          "line": 250,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_beg.txt",
+          "quote": "[name=\"可露希尔\"]博士，无人机探测到又一队萨卡兹士兵的靠近！\n[character(name=\"avg_npc_411_1#11$1\")]\n[name=\"可露希尔\"]不，不止是萨卡兹士兵，那涌动的红色是……\n[character(name=\"avg_npc_411_1#11$1\",focus=3)]\n[Dialog]\n[Decision(options=\"血魔来了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"让自救军和普通干员注意拉开距离。;通知阿米娅和Logos。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_411_1#1$1\")]\n[name=\"可露希尔\"]好的，博士。\n[name=\"可露希尔\"]就跟你想的差不多哎，他果然立刻奔着指挥塔上层去了！\n[character(name=\"avg_npc_411_1#6$1\")]\n[name=\"可露希尔\"]血魔扭曲的执着确实让那家伙的行动轨迹很好猜啊……我不会被他影响吧？\n[character(name=\"avg_npc_411_1#6$1\",focus=3)]\n[Dialog]\n[Decision(options=\"无人机的进度如何？;我们也得抓紧。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_411_1#7$1\")]\n[name=\"可露希尔\"]好消息，这个指挥塔和城墙那边的结构的确很近似。我已经找到了通往操控区域的最佳路径。\n[name=\"可露希尔\"]城防军采用的现代化通讯手段比萨卡兹使用的通讯巫术要好利用得多。我伪装了无人机的识别码，来确保远程信号不会被屏蔽。\n[character(name=\"avg_npc_411_1#6$1\")]\n[name=\"可露希尔\"]但是……无人机本身很脆弱，万一遭到攻击，我们就会前功尽弃。\n[name=\"可露希尔\"]但愿阿米娅他们真的能在上层把那几个特别能打的拖住啊……"
+        }
+      ],
+      "description": "可露希尔追踪血魔大君。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔监测并分析血魔大君的行动。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "血魔大君不在该通讯现场。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 273,
+          "kind": "story",
+          "line": 250,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "城防塔决战",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_4228_closur|npc_aa980d6791c26c93"
+}

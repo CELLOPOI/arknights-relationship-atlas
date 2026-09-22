@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 951,
+          "line": 849,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_07-03.txt",
+          "quote": "[name=\"诗怀雅\"]  你……你当哄小孩啊……\n[name=\"星熊\"]  没事的。一切都会没事的。\n[name=\"诗怀雅\"]  可……这就是我们最后一次见面。我没准备好，我还没准备好……就再也见不到这条臭龙了。\n[name=\"星熊\"]  Missy，不会的。\n[name=\"星熊\"]  我很喜欢一句话，叫……嗯。人生何处不相逢。\n[name=\"林雨霞\"]  ……是。人生何处不相逢。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[image]\n[Character]\n[Background(image=\"bg_cenbri\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Dialog]\n[Character]\n[Character(name=\"char_011_talula_1\",fadetime=1,block=true)]\n[delay(time=1.4)]\n[name=\"塔露拉\"]  ……怎么会？\n[name=\"塔露拉\"]  发生了什么？我为什么会流泪？\n[name=\"塔露拉\"]  似乎……有人向我递交了死亡报告。\n[name=\"塔露拉\"]  是谁？\n[name=\"塔露拉\"]  核心城里的所有事都应该在我的构划中才对。\n[name=\"塔露拉\"]  爱国者会死在感染者手中，萨卡兹雇佣军应该也会和普通整合运动交火。\n[name=\"塔露拉\"]  哦。\n[name=\"塔露拉\"]  爱国者死了，是吗。原来是爱国者。\n[name=\"塔露拉\"]  伟大的战士。这个名字应该已经不足以形容你了，乌萨斯对你来说，还是太小了。\n[name=\"塔露拉\"]  原来是爱国者。\n[name=\"塔露拉\"]  ……为什么要落泪？给想杀我的人流泪，是种礼节，还是种怀念？\n[name=\"塔露拉\"]  “所有罪恶都有尽头？”\n[name=\"塔露拉\"]  那我们拭目以待吧。是罪恶，当然会走到尽头……\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n在尽头处，我也会等到你。                            在尽头处，我也会等到她。\n[Dialog]\n[Character]\n[Background(image=\"bg_uptown_1\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_2005_weiyw_1#5\",fadetime=1,block=true)]\n[delay(time=1.4)]\n[name=\"魏彦吾\"]  我不应该在这里见到你，舸瑞。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=2)]\n[name=\"鼠王\"]  像几十年前一样。有的人在焦躁的时候，容易犯傻，而且只会在这里溜达。\n[name=\"鼠王\"]  奇怪的是，这个毛病居然几十年都没变。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=1)]\n[name=\"魏彦吾\"]  你知道我要做什么，舸瑞？\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=2)]\n[name=\"鼠王\"]  我恰好知道。多亏你那个傻侄女，和你是一个模子里造出来的。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=1)]\n[name=\"魏彦吾\"]  ——\n[name=\"魏彦吾\"]  舸瑞，你不是来这里散步的。即使是，你也不该浪费我的时间。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=2)]\n[name=\"鼠王\"]  和老朋友叙叙旧，也算浪费时间？\n[name=\"鼠王\"]  你真的还当我是朋友吗，魏彦吾老友？\n[name=\"鼠王\"]  如果是，那就答应我……\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=1)]\n[name=\"魏彦吾\"]  不可能。我不会答应你任何事。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=2)]\n[name=\"鼠王\"]  那就动手。你今天哪也去不了。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=1)]\n[name=\"魏彦吾\"]  ……别把自己看的太高了。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=2)]\n[name=\"鼠王\"]  这句话我也想送还给你。魏彦吾，你居高临下太久，已经断了人气儿。下来吹吹风，对你有好处。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=1)]\n[name=\"魏彦吾\"]  可别闪了腰，老东西。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"avg_npc_034\",focus=2)]\n[name=\"鼠王\"]  说到老家伙……我们只是彼此彼此。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]\n[delay(time=2)]\n[Background]\n很难想象。就连爱国者那个老家伙都死了。\n我是该笑？还是该流两滴眼泪？\n该笑是因为，就连他也死了，你在整合运动中终于也爬到了最高的位置，仅仅次于领袖的位置。\n啊，真的做得不错，该给自己一点掌声了，W。\n啪啪啪啪。\n流泪嘛，也是因为连他都死了。啊，唉，可怜的爱国者！\n他死的时候是在想什么，又是什么样子呢？是躺着，还是站着？就连他都死了，还有谁会不死呢？\n也许他才是最容易就死掉的那个。\n不懂得掩藏自己，只晓得坚持某个虚无缥缈的想法，一直走下去，等到周围的人都没了，自己就可以安安心心地去死。\n真糟啊。\n等等。听起来和你有点像，W。\n不对不对，哪里像了？\nW，别骗自己，几乎完全一样。\n不，我不会骗自己。我不会变成爱国者，因为我做不到。\n我是做不到的。\n而且，死亡对他来说，也算是种解脱吧？\n对你来说却不是，W。死亡是你生命的游戏。\n[Dialog]\n[delay(time=2)]\n杀不死你的，会让你更接近死亡。\n越接近死亡……就会越接近疯狂。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_046#2\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"W\"]  谢谢你啊，凯尔希。\n[name=\"W\"]  没有你我还不知道怎么从那一大坨垃圾里爬出来呢。\n[name=\"W\"]  还有，塔露拉……\n[name=\"W\"]  听得见吗，塔露拉？喂喂？\n[name=\"W\"]  算了，没事，就是和你们说一声。\n[name=\"W\"]  ——我又回来啦。"
+        }
+      ],
+      "description": "确认前者单向知晓后者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12c"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "前者在已读场景中具体提及、观察或接收后者信息。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e877f731a67498e3",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 951,
+          "kind": "story",
+          "line": 849,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_07-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    }
+  ],
+  "relationship_id": "npc_08bc2cc38b820ef0|npc_e877f731a67498e3"
+}

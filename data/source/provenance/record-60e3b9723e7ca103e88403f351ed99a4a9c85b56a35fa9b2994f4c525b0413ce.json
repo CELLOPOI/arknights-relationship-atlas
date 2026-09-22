@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 41,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_07_end.txt",
+          "quote": "[name=\"“校官”\"]等一等，阿赫茉妮。\n[name=\"“校官”\"]前方公路关卡的驻军数量有些异常。\n[Character(name=\"avg_4017_puzzle_1#8$1\")]\n[name=\"菲舍尔\"]您注意到了？我恰好还告诉过他们留意……这里也许会发生一些破坏公爵间关系的事件。 \n[Character(name=\"avg_npc_723_1#6$1\")]\n[name=\"“校官”\"]……所以你必须赶在那些人离开特伦特郡辖区之前动手围捕，这样你留的后手才能够起效。\n[Character(name=\"avg_npc_723_1#1$1\")]\n[name=\"“校官”\"]不算意外。\n[Character(name=\"avg_4017_puzzle_1#8$1\")]\n[name=\"菲舍尔\"]……威灵顿公爵手下，赤铁近卫队的长官，当然，这个身份很快就威胁不到您了。\n[name=\"菲舍尔\"]不过，您至少很清楚，继续追击下去，事情会变成两位大公爵的领地争端。在当前维多利亚的局势下，恐怕没人想看到这样的冲突发生。\n[Character(name=\"avg_npc_228_1#1\")]\n[name=\"阿赫茉妮\"]哎呀，为什么你总是不给我留一些选择余地呢？\n[name=\"阿赫茉妮\"]不过，现在这样也够了，我的任务也已经完成了。\n[Character(name=\"avg_4017_puzzle_1#5$1\")]\n[name=\"菲舍尔\"]你的失误造成了这样的恶果。作为身份已经暴露的间谍，你没有必要再如此尽职地虚张声势。\n[Character(name=\"avg_npc_228_1#1\")]\n[name=\"阿赫茉妮\"]是吗？我可是真心希望，我们能共同为有朝一日的合作付出努力——\n[Character(name=\"avg_npc_723_1#5$1\")]\n[name=\"“校官”\"]阿赫茉妮。\n[name=\"“校官”\"]你在台上说的话已经够多了。\n[Character(name=\"avg_npc_228_1#3\")]\n[name=\"阿赫茉妮\"]咳……\n[Character(name=\"avg_4017_puzzle_1#5$1\")]\n[name=\"菲舍尔\"]……\n[Character(name=\"avg_npc_723_1#1$1\")]\n[name=\"“校官”\"]所有人，收队。\n[name=\"“校官”\"]这原本就是一场败仗，先放过他们。"
+        }
+      ],
+      "description": "二人在公路边三方对峙中直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F13"
+          ],
+          "from": "char_4017_puzzle",
+          "reason": "二人在公路边三方对峙中直接交流。",
+          "status": "supported",
+          "to": "npc_974bc7361c242057"
+        },
+        {
+          "evidenceIds": [
+            "F13"
+          ],
+          "from": "npc_974bc7361c242057",
+          "reason": "二人在公路边三方对峙中直接交流。",
+          "status": "supported",
+          "to": "char_4017_puzzle"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 41,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    }
+  ],
+  "relationship_id": "char_4017_puzzle|npc_974bc7361c242057"
+}

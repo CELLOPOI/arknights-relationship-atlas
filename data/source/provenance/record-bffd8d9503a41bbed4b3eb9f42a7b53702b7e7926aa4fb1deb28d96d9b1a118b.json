@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 145,
+          "line": 110,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_01_beg.txt",
+          "quote": "[name=\"埃尼斯\"]喂喂——\n[name=\"埃尼斯\"]坐在那边的那两位，他们也是朋友？\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_4106_bryota_1#10$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1005_1#10$1\",focus=\"r\")]\n[name=\"雪雉\"]嗯，大家都是龙门人，也是一家公司的同事，关系很好的。\n[charslot(slot=\"l\",name=\"avg_4106_bryota_1#20$1\",focus=\"l\")]\n[name=\"埃尼斯\"]可是为什么，他们俩现在看起来像是随时会打起来一样……\n[charslot(slot=\"r\",name=\"avg_npc_1005_1#7$1\",focus=\"r\")]\n[name=\"雪雉\"]好朋友，也是会吵架的吧……\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#8$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_990_1#10$1\",focus=\"r\")]\n[name=\"拜松\"]没想到诗怀雅局长会亲自来到这里。\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#8$1\",focus=\"l\")]\n[name=\"诗怀雅\"]近卫局也是有年假的，合理地使用假期，这没什么问题吧？\n[charslot(slot=\"r\",name=\"avg_npc_990_1#10$1\",focus=\"r\")]\n[name=\"拜松\"]诗怀雅小姐，我很清楚您来到这里的目的。\n[charslot(slot=\"r\",name=\"avg_npc_990_1#3$1\",focus=\"r\")]\n[name=\"拜松\"]不得不说，在新地块建设和商业街改建工程的竞标名单上，见到您和您家族集团的名字，我很意外。\n[charslot(slot=\"r\",name=\"avg_npc_990_1#3$1\",focus=\"none\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"埃尼斯\"]咳咳咳咳咳——\n[name=\"雪雉\"]埃尼斯先生！您、您怎么了！\n[name=\"埃尼斯\"]不小心吓……不是，呛到了……\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#6$1\",focus=\"l\")]\n[name=\"诗怀雅\"]嗯哼，我倒是早就听说了峯驰物流和汐斯塔的合作，你们也是看中了这片地块的位置，想要建设物流中心吧。欧厄尔呢？\n[charslot(slot=\"r\",name=\"avg_npc_990_1#10$1\",focus=\"r\")]\n[name=\"拜松\"]现在是由我来全权负责这次的项目。\n[name=\"拜松\"]您可以理解为，我代表的“峯联贸易”是峯驰物流旗下的子公司，但完全不依赖峯驰物流的资源。\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#10$1\",focus=\"l\")]\n[name=\"诗怀雅\"]完全不依赖家里的资源，还真是典型的富家子弟会说的话。所以，你这次也是骑自行车来的？\n[charslot(slot=\"r\",name=\"avg_npc_990_1#3$1\",focus=\"r\")]\n[name=\"拜松\"]诗怀雅小姐，这样的场合，还请不要打趣……"
+        }
+      ],
+      "description": "雪雉与埃尼斯近处观察诗怀雅拜松谈话，听到具体欧厄尔的名字。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_383_snsant",
+          "reason": "雪雉与埃尼斯近处观察诗怀雅拜松谈话，听到具体欧厄尔的名字。",
+          "status": "supported",
+          "to": "npc_e75c29c5060c7ab8"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e75c29c5060c7ab8",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_383_snsant"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 145,
+          "kind": "story",
+          "line": 110,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    }
+  ],
+  "relationship_id": "char_383_snsant|npc_e75c29c5060c7ab8"
+}

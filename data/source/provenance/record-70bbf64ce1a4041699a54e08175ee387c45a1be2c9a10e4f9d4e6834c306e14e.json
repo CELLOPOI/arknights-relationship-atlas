@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1423,
+          "line": 1417,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "她看向四周。\n她看到了角峰注意到她的视线时，刻意地别开目光。\n她看到穿着现代的战士撕开了希瓦艾什家战士的队列，将阿克托斯和菈塔托丝带走。\n她看到了民众的视线都集中在了恩希欧迪斯身上，仿佛他就是这个舞台的主人。\n她看到了民众眼中的希望与狂热。\n她看到了雅儿，也看到了站在雅儿身边的你。\n你们的视线相交，你从她的眼神中看到悲伤，不甘，以及——愤怒。"
+        }
+      ],
+      "description": "初雪看到现代战士救走两家主，凭连续营救场景可定位Sharp；仅支持她看见救援者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E78"
+          ],
+          "from": "char_174_slbell",
+          "reason": "初雪看到现代战士救走两家主，凭连续营救场景可定位Sharp；仅支持她看见救援者。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_508_aguard",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_174_slbell"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 1423,
+          "kind": "story",
+          "line": 1417,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_174_slbell|char_508_aguard"
+}

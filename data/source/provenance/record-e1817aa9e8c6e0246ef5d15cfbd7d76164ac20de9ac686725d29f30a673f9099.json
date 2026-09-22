@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 398,
+          "line": 377,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_end.txt",
+          "quote": "[name=\"极境\"]棘刺！\n[name=\"极境\"]画通缉令的人，怎么把你画成了这副模样？\n[charslot(slot=\"l\",name=\"avgnew_400_weedy_1#5$1\",focus=\"l\")]\n[name=\"温蒂\"]……你怎么这么快就接受这人是棘刺了，刚刚不是还在据理力争吗？\n[charslot(slot=\"r\",name=\"avg_npc_450_1#9$1\",focus=\"r\")]\n[name=\"极境\"]万一他是被那些强盗胁迫，或是被诬陷了呢？他嘴笨，肯定解释不清。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1583_1#1$1\",focus=\"m\")]\n[name=\"西尔弗\"]如果他如你所说，是个清清白白的好人，那不管是强盗嗜血的凶性，还是盐漠险恶的环境，都不会允许他活过这些时日。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avgnew_400_weedy_1#5$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_450_1#2$1\",focus=\"r\")]\n[name=\"极境\"]不……那些强盗会对他做什么？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1583_1#4$1\",focus=\"m\")]\n[name=\"西尔弗\"]他们的手段……不，你不会愿意知道的。\n[name=\"西尔弗\"]我们费尽力气把他们赶出了镇子，但他们也掳走了镇上的不少好人。\n[charslot(slot=\"m\",name=\"avg_npc_1583_1#1$1\",focus=\"m\")]\n[name=\"西尔弗\"]他们的首领是个彻头彻尾的怪物，能够腐化他人内心。"
+        }
+      ],
+      "description": "极境与西尔弗讨论棘刺下落。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_401_elysm",
+          "reason": "极境与西尔弗讨论棘刺下落。",
+          "status": "supported",
+          "to": "npc_5ae68fd9be1f2ed2"
+        },
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_5ae68fd9be1f2ed2",
+          "reason": "极境与西尔弗讨论棘刺下落。",
+          "status": "supported",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 398,
+          "kind": "story",
+          "line": 377,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_5ae68fd9be1f2ed2"
+}

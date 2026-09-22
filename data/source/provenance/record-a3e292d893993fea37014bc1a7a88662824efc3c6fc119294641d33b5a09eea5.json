@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 509,
+          "line": 488,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_end.txt",
+          "quote": "[name=\"西尔弗\"]就算他很幸运，能活下来，那些强盗自己的生存条件已经足够恶劣，更不可能优待俘虏，他现在恐怕正遭受着饥饿与干渴。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avgnew_400_weedy_1#5$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_450_1#9$1\",focus=\"r\")]\n[name=\"极境\"]……\n[charslot(slot=\"l\",name=\"avgnew_400_weedy_1#5$1\",focus=\"l\")]\n[name=\"温蒂\"]你还好吗，极境？\n[charslot(slot=\"r\",name=\"avg_npc_450_1#2$1\",focus=\"r\")]\n[name=\"极境\"]我没事……证裁官阁下，请继续讲吧。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1583_1#1$1\",focus=\"m\")]\n[name=\"西尔弗\"]更不用说，他在那些强盗手中可能会遭受的刑罚。\n[name=\"西尔弗\"]他们会毫无顾忌地公开处罚反抗的人，将他们开膛破肚，斩断手脚……\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avgnew_400_weedy_1#5$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_450_1#9$1\",focus=\"l\")]\n[name=\"温蒂\"]他们会动用私刑……？\n[charslot(slot=\"r\",name=\"avg_npc_450_1#5$1\",focus=\"r\")]\n[name=\"极境\"]开、开膛破肚，斩断手脚……？"
+        }
+      ],
+      "description": "温蒂听证裁官说明并当面追问私刑。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_400_weedy",
+          "reason": "温蒂听证裁官说明并当面追问私刑。",
+          "status": "supported",
+          "to": "npc_5ae68fd9be1f2ed2"
+        },
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_5ae68fd9be1f2ed2",
+          "reason": "温蒂听证裁官说明并当面追问私刑。",
+          "status": "supported",
+          "to": "char_400_weedy"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 509,
+          "kind": "story",
+          "line": 488,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_400_weedy|npc_5ae68fd9be1f2ed2"
+}

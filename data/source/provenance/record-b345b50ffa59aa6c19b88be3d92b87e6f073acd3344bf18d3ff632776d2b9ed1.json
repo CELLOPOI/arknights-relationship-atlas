@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 236,
+          "line": 221,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_07_beg.txt",
+          "quote": "[name=\"帕斯卡拉\"]唔……好亮……\n[Dialog]\n[PlaySound(key=\"$d_avg_cloakmovement\", volume=1)]\n[delay(time=1.5)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"帕斯卡拉\"]咳咳……好痛……浑身都好痛……\n[charslot(slot = \"m\", name = \"avg_npc_1580_1#5$1\",focus=\"m\")]\n[name=\"蒂奇\"]醒了？你昨天发了点烧，现在已经退了，喝点水吧。\n[Dialog]\n[charslot]\n帕斯卡拉撑起身子，接过蒂奇递来的水袋。另一边，仿生海龙吊着一块木板，正奋力扇动薄翼。\n胡安娜站在船头眺望远方，在她身后，极境全身都跟着沉重的舵轮扭动了起来，活像是在做体操。\n头顶的太阳晒得人生疼。\n[Dialog]\n[charslot(slot = \"m\", name = \"avg_npc_1580_1#1$1\",focus=\"m\")]\n[name=\"蒂奇\"]这是最后一点水了，每人一小袋，省着点喝。"
+        }
+      ],
+      "description": "蒂奇向醒来的帕斯卡拉递水。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_4163_rosesa",
+          "reason": "蒂奇向醒来的帕斯卡拉递水。",
+          "status": "supported",
+          "to": "npc_d3f3c14a8aa46fa9"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_d3f3c14a8aa46fa9",
+          "reason": "蒂奇向醒来的帕斯卡拉递水。",
+          "status": "supported",
+          "to": "char_4163_rosesa"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 236,
+          "kind": "story",
+          "line": 221,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_4163_rosesa|npc_d3f3c14a8aa46fa9"
+}

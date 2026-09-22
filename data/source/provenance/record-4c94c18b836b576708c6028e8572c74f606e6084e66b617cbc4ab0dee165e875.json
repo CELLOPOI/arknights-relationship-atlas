@@ -1,0 +1,190 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 325,
+          "line": 161,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_06_end.txt",
+          "quote": "[name=\"多萝西\"]既然实验停了，他们一定不会让这间实验室留下。\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]有一样东西……我必须带走。\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]这是……照片？\n[character(name=\"avg_4048_doroth_1#5$1\")]\n[name=\"多萝西\"]嗯。\n[character(name=\"avg_108_silent_1#10$1\")]\n[name=\"赫默\"]照片上这些都是拓荒者……\n[character(name=\"avg_108_silent_1#10$1\")]\n[name=\"赫默\"]这孩子是……你？\n[character(name=\"avg_4048_doroth_1#5$1\")]\n[name=\"多萝西\"]……赫默医生，我对桑尼说的话，都是真心的。\n[character(name=\"avg_4048_doroth_1#5$1\")]\n[name=\"多萝西\"]我的母亲，我所有的亲人……曾经都是拓荒者。\n[name=\"多萝西\"]我从小就听他们诉说自己的梦想，见过他们的奋斗，也目睹过他们的挣扎。\n[name=\"多萝西\"]是他们的付出令我有机会去追逐我自己的梦想。\n[name=\"多萝西\"]可是我所拥有的幸运……大多数拓荒者都不可能拥有。\n[character(name=\"avg_108_silent_1#10$1\")]\n[name=\"赫默\"]你的家人们，他们现在……\n[character(name=\"avg_4048_doroth_1#5$1\")]\n[name=\"多萝西\"]……他们之中的大多数都已经离开了我。\n[name=\"多萝西\"]就在我得到铸铁城理工大学的邀请，回城参加他们为极少数所谓“天才”举办的夏令营的时候……\n[name=\"多萝西\"]一场天灾摧毁了我母亲所在的临时基地。\n[name=\"多萝西\"]成为一名研究者……曾经也是她的梦想。可她再也没能等到我得到奖学金，被破格录取的好消息。\n[character(name=\"avg_108_silent_1#6$1\")]\n[name=\"赫默\"]你一定非常难过……\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]赫默医生，停下这个实验，真的是正确的选择吗？\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]那些拓荒者，那些被生活逼得走投无路的人们，他们或许明天就会遭遇厄运。\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]而我本可以救他们……\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]他们不必像我的亲人们一样，绝望地被沙暴吞噬。\n[character(name=\"avg_108_silent_1#10$1\")]\n[name=\"赫默\"]……\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(fadetime=0)]\n[Background(image=\"29_g4_corridor\",screenadapt=\"coverall\")]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]赫默，为什么要问我这样的问题？\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]没有我们的实验，那个孩子在离开海顿一号实验室之后根本活不了几天。\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]我们救活了她，我甚至让你照顾她的起居，她不仅能享受衣食无忧的生活，还能为推动科学进步做贡献——\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]相比在荒野上因为矿石病而悄无声息死去的孩子们，她是多么幸运啊。\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]我那么信任你、器重你，你竟然……在这么细枝末节的操作问题上指责我、指责科学本身？\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(fadetime=0)]\n[Background(image=\"29_g5_laboratory\",screenadapt=\"coverall\")]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_108_silent_1#6$1\")]\n[name=\"赫默\"]……我不知道。\n[character(name=\"avg_108_silent_1#6$1\")]\n[name=\"赫默\"]这个答案也不应该由我告诉你。\n[character(name=\"avg_108_silent_1#10$1\")]\n[name=\"赫默\"]乔伊丝提醒了我——\n[character(name=\"avg_108_silent_1#10$1\")]\n[name=\"赫默\"]即便我永远不会赞同你们……你的行为，我也不该用我的标准来评判一切。\n[character(name=\"avg_108_silent_1#10$1\")]\n[name=\"赫默\"]被自我怀疑与不确定性折磨，难道不正是我们选择的命运？\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]身为研究者，我们只能自己去找答案。\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]\n[character(fadetime=0)]\n[Background(image=\"29_g11_monitoringroom\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[character(name=\"avg_npc_522_1#6$1\",fadetime=1)]\n[delay(time=1)]\n[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.6, crossfade=1)]\n[name=\"斐尔迪南\"]都布置好了吗？\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]我们的人已经进入基地，正在靠近实验区。\n[character(name=\"avg_npc_522_1#6$1\")]\n[name=\"斐尔迪南\"]好，做好准备。\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=0.9)]\n[delay(time=1)]\n[character(name=\"avg_npc_522_1#1$1\")]\n[name=\"斐尔迪南\"]上校先生，我明白现在已经有些迟了，请再给我一些时间……\n[character]\n[name=\"上校的声音\"]……克鲁尼，你没有告诉我，有其他人进入了基地。\n[character(name=\"avg_npc_522_1#1$1\")]\n[name=\"斐尔迪南\"]您是指……那家医药企业？\n[character(name=\"avg_npc_522_1#1$1\")]\n[name=\"斐尔迪南\"]您不必担心，他们是莱茵生命的合作方，我一定……\n[character]\n[name=\"上校的声音\"]你的保证没有意义。\n[name=\"上校的声音\"]结果——我们要的只有结果。\n[character(name=\"avg_npc_522_1#5$1\")]\n[name=\"斐尔迪南\"]我很抱歉，只是一点小小的延迟……\n[character]\n[name=\"上校的声音\"]没有结果的话，至少别给我们惹麻烦。\n[name=\"上校的声音\"]记住这句话。\n[Dialog]\n[PlaySound(key=\"$transmission\", volume=0.9)]\n[delay(time=1)]\n[character(name=\"avg_npc_522_1#6$1\")]\n[name=\"斐尔迪南\"]……\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]还要继续行动吗，斐尔迪南主任？\n[character(name=\"avg_npc_522_1#6$1\")]\n[name=\"斐尔迪南\"]……我并不认为眼前还有其他选择。\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]明白了。\n[character(name=\"avg_npc_522_1#6$1\")]\n[name=\"斐尔迪南\"]对了……\n[character(name=\"avg_npc_522_1#6$1\")]\n[name=\"斐尔迪南\"]替我接通特殊通讯频道。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(fadetime=0)]\n[Background(image=\"29_g4_corridor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_135_halo_1#7$1\")]\n[name=\"埃琳娜\"]咦……通讯？突然通了？\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=0.9)]\n[delay(time=1)]\n[character]\n[name=\"斐尔迪南\"]……埃琳娜。\n[character(name=\"avg_135_halo_1#7$1\")]\n[name=\"埃琳娜\"]主任？\n[character(name=\"avg_135_halo_1#10$1\")]\n[name=\"埃琳娜\"]太好了，我一直都想联系您，可惜连不上……您收到我的信息了吗？我把基地里发生的事情都写进了简报里。\n[character(name=\"avg_135_halo_1#11$1\")]\n[name=\"埃琳娜\"]多萝西……弗兰克斯主任的实验出了点岔子，不过没关系，我和赫默研究员处理好了。\n[character(name=\"avg_135_halo_1#11$1\")]\n[name=\"埃琳娜\"]还有拓荒者，他们也被安抚好了，正在离开实验区……\n[character]\n[name=\"斐尔迪南\"]……我知道。\n[character(name=\"avg_135_halo_1#7$1\")]\n[name=\"埃琳娜\"]您……您知道？这么快……不愧是您。\n[character]\n[name=\"斐尔迪南\"]你做到了你该做的事，接下来会由其他人过来清理现场。\n[character(name=\"avg_135_halo_1#7$1\")]\n[name=\"埃琳娜\"]您是说防卫科的同事们？他们终于进来了吗？\n[character(name=\"avg_135_halo_1#10$1\")]\n[name=\"埃琳娜\"]呼……那我更放心了。我还在担心实验区储存的那些递质……\n[character]\n[name=\"斐尔迪南\"]他们知道该怎么做，你可以撤出来了。\n[character(name=\"avg_135_halo_1#11$1\")]\n[name=\"埃琳娜\"]主任，我还是留下帮他们吧，除了多萝西，基地里只有我对实验内容最熟悉。\n[character]\n[name=\"斐尔迪南\"]埃琳娜，我此刻就在监控站，难道两位主任还控制不了局面？\n[character(name=\"avg_135_halo_1#12$1\")]\n[name=\"埃琳娜\"]我不是这个意思……\n[character]\n[name=\"斐尔迪南\"]那就听我的话，立刻撤出实验基地。\n[character(name=\"avg_135_halo_1#8$1\")]\n[name=\"埃琳娜\"]我能问一下为什么吗？\n[character]\n[name=\"斐尔迪南\"]别用这些没有意义的提问浪费我的时间。马上来监控室见我。\n[character(name=\"avg_135_halo_1#12$1\")]\n[name=\"埃琳娜\"]……是，主任。"
+        }
+      ],
+      "description": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "char_108_silent",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "npc_d3677f4f84318d10"
+        },
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "npc_d3677f4f84318d10",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "char_108_silent"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 325,
+          "kind": "story",
+          "line": 161,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "绿野幻梦"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 281,
+          "line": 233,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_02_end.txt",
+          "quote": "[name=\"帕尔维斯\"]老师很忙。但你既然找到了这里，难能可贵。你想知道的，我都可以为你解答。\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#9$1\", focus=\"l\")]\n[name=\"赫默\"]你们都在使用递质？\n[charslot(slot = \"r\", name = \"avg_npc_531_1#1$1\", focus=\"r\")]\n[name=\"帕尔维斯\"]没错。\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#9$1\", focus=\"l\")]\n[name=\"赫默\"]你们……到底要用递质做什么？\n[charslot(slot = \"r\", name = \"avg_npc_531_1#1$1\", focus=\"r\")]\n[name=\"帕尔维斯\"]递质对微振动非常敏感。\n[name=\"帕尔维斯\"]它能够接受并编码神经信号，多萝西希望它可以替代传统的施术单元，成为全新的媒介，与它相连的人将成为完全平等的个体。\n[name=\"帕尔维斯\"]而在斐尔迪南的思路里，利用递质这种类似“超个体”的特性，能够研制出跨越距离、精准投放武器的超级装置。\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#1$1\", focus=\"l\")]\n[name=\"赫默\"]您其实知道359号基地的事？\n[charslot(slot = \"m\", focus = \"n\")]\n帕尔维斯没有回答。\n赫默仔细观察着老师的表情，他没有躲闪，没有厌烦，似乎只是觉得这个问题不值得回答。\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#1$1\", focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_npc_531_1#1$1\", focus=\"none\")]\n[name=\"赫默\"]您自始至终都知道他们的研究……您站在谁那边？多萝西、斐尔迪南、总辖？\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#5$1\", focus=\"l\")]\n[name=\"赫默\"]还是说，真像公司茶水间那些同事说的，结构科的主任，是一只永远微笑、左右逢源的老山羊？\n[charslot(slot = \"r\", name = \"avg_npc_531_1#1$1\", focus=\"r\")]\n[name=\"帕尔维斯\"]我不支持任何人，赫默。\n[name=\"帕尔维斯\"]我帮他们，是因为斐尔迪南也好，多萝西也好，他们很努力，他们都是满怀理想和热忱的年轻人。你也是。\n[name=\"帕尔维斯\"]我不支持任何人，因为他们终究只是平庸的科学家。我也是。\n[name=\"帕尔维斯\"]我们都无法超越这个平庸的、软弱的时代。\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#2$1\", focus=\"l\")]\n[name=\"赫默\"]……\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#1$1\", focus=\"l\")]\n[name=\"赫默\"]那您呢？您想要用递质做什么？\n[charslot(slot = \"r\", name = \"avg_npc_531_1#1$1\", focus=\"r\")]\n[name=\"帕尔维斯\"]好了赫默，这个问题同样超出了你的认知范畴，不是老师不愿意回答，老师很忙，没时间为你从头开始解释。\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#1$1\", focus=\"l\")]\n[name=\"赫默\"]……\n[charslot(slot = \"r\", name = \"avg_npc_531_1#1$1\", focus=\"r\")]\n[name=\"帕尔维斯\"]但你可以留下来，你是我最好的学生之一。\n[name=\"帕尔维斯\"]很快，我们将得到最为理想的实验环境，一切材料需求和催化条件将被满足……我们必须在这段时间做好准备。\n[name=\"帕尔维斯\"]那会是有史以来最具颠覆性的实验，你将见证真正伟大的成果诞生。\n[name=\"帕尔维斯\"]它不再短视，不再软弱，它将超越所有的局限，挽救日渐平庸的一切。\n[name=\"帕尔维斯\"]这才是科学的应许之义。\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#6$1\", focus=\"l\")]\n[name=\"赫默\"]……\n[charslot(slot = \"l\", name = \"avg_1031_slent2_1#5$1\", focus=\"l\")]\n[name=\"赫默\"]359号基地的拓荒者，特莱顿工厂的工人。老师，你们的研究已经伤害了许多无辜的人。\n[name=\"赫默\"]是不是还会伤害更多的人？\n[charslot(slot = \"r\", name = \"avg_npc_531_1#1$1\", focus=\"r\")]\n[name=\"帕尔维斯\"]这就是科学，赫默。身为科学家，我们需要考虑的只有一件事。\n[name=\"帕尔维斯\"]那就是怎么达成它。\n[name=\"帕尔维斯\"]光这件事，就已经足够让我们精疲力尽了。"
+        }
+      ],
+      "description": "赫默与老师帕尔维斯直接争论递质和科学伦理。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "char_108_silent",
+          "reason": "赫默与老师帕尔维斯直接争论递质和科学伦理。",
+          "status": "supported",
+          "to": "npc_d3677f4f84318d10"
+        },
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "npc_d3677f4f84318d10",
+          "reason": "赫默与老师帕尔维斯直接争论递质和科学伦理。",
+          "status": "supported",
+          "to": "char_108_silent"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 281,
+          "kind": "story",
+          "line": 233,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 667,
+          "line": 596,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_silent_1_1.txt",
+          "quote": "[name=\"帕尔维斯\"]……本周要注意的事项只有这些。\n[name=\"帕尔维斯\"]在解散之前，赫默，你过来。\n[character(name=\"avg_108_silent_1#1$1\")]\n[name=\"赫默\"]好的，帕尔维斯老师。\n[character(name=\"avg_npc_530_1#1$1\",name2=\"avg_npc_529_1#1$1\",focus=2)]\n[name=\"研究员D\"]（小声）她肯定搞砸了，对不对？\n[character(name=\"avg_npc_530_1#1$1\",name2=\"avg_npc_529_1#1$1\",focus=1)]\n[name=\"研究员C\"]……\n[character(name=\"avg_108_silent_1#1$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]赫默，关于你最近的工作安排，我需要和你商量一下。\n[name=\"帕尔维斯\"]我之前让你做好准备，把治疗乔伊丝·摩尔的事转交给其他人，进度怎么样了？\n[character(name=\"avg_108_silent_1#1$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]我整理了正确的病历，还在后面附了一份用语表。\n[character(name=\"avg_108_silent_1#1$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]用语表？\n[character(name=\"avg_108_silent_1#1$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]我之前跟您汇报过的，乔伊丝的语言功能其实没有障碍，她的病变并不是这么显而易见的东西。\n[character(name=\"avg_npc_529_1#1$1\")]\n[name=\"研究员D\"]（小声）故弄玄虚。\n[character(name=\"avg_108_silent_1#10$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]她之所以采取那种……有特点的说话方式，正是为了缓解矿石病和那场实验对她造成的影响。影像学证据和病理学证据都证明了这一点。\n[character(name=\"avg_108_silent_1#8$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]为了不给接手的同事增加负担，我整理了一份乔伊丝习惯使用的词汇和自然语言的对照表。\n[character(name=\"avg_108_silent_1#8$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]真是辛苦你了。\n[character(name=\"avg_108_silent_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]但我其实……不太想把乔伊丝转交给其他人。\n[character(name=\"avg_108_silent_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]哦？\n[character(name=\"avg_108_silent_1#1$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]如果只考虑具体的治疗和给药，我对换人没有异议。\n[character(name=\"avg_108_silent_1#8$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]但交接需要时间，和乔伊丝建立情感上的沟通也需要精力。我怕接手的人忽视了乔伊丝的情感需求，就像——\n[character(name=\"avg_108_silent_1#8$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]就像？\n[character(name=\"avg_108_silent_1#1$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]……没什么。\n[character(name=\"avg_108_silent_1#1$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]（耸肩）\n[name=\"帕尔维斯\"]实际上，我从摩尔小姐那里听取了意见。\n[name=\"帕尔维斯\"]她也用自己的方式表达了和你差不多的意思。她希望你继续主管她的治疗。\n[character(name=\"avg_npc_529_1#1$1\")]\n[name=\"研究员D\"]（小声）还真是臭味相投。\n[character(name=\"avg_108_silent_1#1$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]而且，从客观的角度来看，你接手摩尔小姐的治疗之后，她身体的恢复速度大大加快了。\n[name=\"帕尔维斯\"]你即将让一位同事回到我们身边。这是你的功劳，赫默。\n[character(name=\"avg_108_silent_1#2$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]感谢您的夸奖。\n[character(name=\"avg_108_silent_1#2$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]不过，这样一来，我们反而多了一个小小的麻烦。\n[character(name=\"avg_108_silent_1#10$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]您的意思是……？\n[character(name=\"avg_108_silent_1#10$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]七号小组那边最近一直在嚷嚷缺人手，我是很想把你派过去的。\n[name=\"帕尔维斯\"]如果两边都不想放弃，你就要同时负责两份工作了。\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[character(name=\"avg_npc_529_1#1$1\")]\n[name=\"研究员D\"]她？七号小组？同时干两份工作？！\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]凯伦小姐，你有什么想说的吗？\n[character(name=\"avg_npc_529_1#1$1\")]\n[name=\"研究员D\"]不、不不不，没有！\n[character(name=\"avg_108_silent_1#10$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]不过我又想了想，既然摩尔小姐的情况已经稳定下来，你可以把重心放到七号小组那边了。\n[name=\"帕尔维斯\"]我已经和小组带头人谈妥，现在只缺你的表态了。\n[name=\"帕尔维斯\"]同时负责摩尔小姐的治疗和七号小组的研究工作，总的工作量可能会比较大。你愿意这样吗？\n[character(name=\"avg_108_silent_1#2$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]我愿意！能去七号小组工作是我的荣幸！\n[character(name=\"avg_108_silent_1#2$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]\n[name=\"帕尔维斯\"]那最近就麻烦你兼顾两边了。\n[character(name=\"avg_108_silent_1#9$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]\n[name=\"赫默\"]谢谢您！"
+        }
+      ],
+      "description": "师生兼上下级，双方直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_108_silent",
+          "reason": "赫默称帕尔维斯老师并接受其工作安排。",
+          "status": "supported",
+          "to": "npc_d3677f4f84318d10"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_d3677f4f84318d10",
+          "reason": "帕尔维斯点名赫默并安排其工作与病患。",
+          "status": "supported",
+          "to": "char_108_silent"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_46ecd7e8ca27001d.json",
+      "sources": [
+        {
+          "endLine": 667,
+          "kind": "story",
+          "line": 596,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_silent_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇莱茵生命任职时期",
+      "title": "赫默"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 38,
+          "line": 36,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_04_end.txt",
+          "quote": "[name=\"赫默\"]在罗德岛的时间里，我一方面在进行科研工作，另一方面，我开始关注起过去没有在意过的一些数据。\n[name=\"赫默\"]这些数据是老师给我的，我以前并不明白他将一些公司和地方的数据交给我是为了什么，我也都丢在了一边。\n[name=\"赫默\"]但是随着对这些数据的分析和研究，我才发现了其中存在着各种各样的问题。"
+        },
+        {
+          "endLine": 50,
+          "line": 42,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_05_beg.txt",
+          "quote": "[name=\"缪尔赛思\"]不得不说，赫默小姐，我确实有些好奇你究竟是从哪里获得安东尼这条线索的情报的了。\n[Character(name=\"char_249_muesys_1#5\",name2=\"char_108_silent_1#5\",focus=2)]\n[name=\"赫默\"]从我的老师那里。\n[Character(name=\"char_249_muesys_1#5\",name2=\"char_108_silent_1#5\",focus=1)]\n[name=\"缪尔赛思\"]嗯？难道帕尔维斯主任也插手了这件事？\n[Character(name=\"char_249_muesys_1#5\",name2=\"char_108_silent_1#3\",focus=2)]\n[name=\"赫默\"]……不，我已经很久没有和他直接联络过了。\n[name=\"赫默\"]而且他恐怕也不知道这件事。\n[name=\"赫默\"]自从离开莱茵生命后，我把过去很多从没在意过的情报重新梳理了一遍。"
+        }
+      ],
+      "description": "师生。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_d3677f4f84318d10",
+          "reason": "老师曾直接交付资料并与赫默联络。",
+          "status": "supported",
+          "to": "char_108_silent"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_108_silent",
+          "reason": "赫默明确谈自己的老师及曾有的直接联络。",
+          "status": "supported",
+          "to": "npc_d3677f4f84318d10"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 38,
+          "kind": "story",
+          "line": 36,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 50,
+          "kind": "story",
+          "line": 42,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "老师交付资料、双方联络早于酒吧谈话。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_108_silent|npc_d3677f4f84318d10"
+}

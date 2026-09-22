@@ -1,0 +1,128 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 51,
+          "line": 40,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mostma_1_1.txt",
+          "quote": "[name=\"伊斯\"]  啊，果然是莫斯提马。\n[Character(name=\"char_213_mostma_1#4\")]\n[name=\"莫斯提马\"]  伊斯？\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1#4\",focus=1)]\n[name=\"伊斯\"]  中午好。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=2)]\n[name=\"莫斯提马\"]  大帝有事找我？\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1\",focus=1)]\n[name=\"伊斯\"]  并没有。最近没有什么大活，我也只是路过，然后感到了熟悉的气息就过来看一看。\n[name=\"伊斯\"]  那边的是……能天使？原来如此，例行公事吗。\n[Character(name=\"avg_npc_035\",name2=\"char_213_mostma_1#3\",focus=2)]\n[name=\"莫斯提马\"]  没错。顺便和这家伙透透气，聊聊天。"
+        }
+      ],
+      "description": "伊斯回答大帝近期的工作安排，本段支持其知晓大帝，未补反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "npc_73d003a400c804ca",
+          "reason": "伊斯回答大帝近期的工作安排，本段支持其知晓大帝，未补反向。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_73d003a400c804ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_a17ebeaf92e9987f.json",
+      "sources": [
+        {
+          "endLine": 51,
+          "kind": "story",
+          "line": 40,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mostma_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "莫斯提马"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 55,
+          "line": 44,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_10_end.txt",
+          "quote": "[name=\"伊斯\"]   那边两位，似乎不是这场闹剧的相关人员。\n[name=\"伊斯\"]   应该建议他们远离这里，不小心会受伤的。\n[Character(name=\"avg_npc_035\",name2=\"char_300_phenxi_1\",focus=2)]\n[name=\"？？？\"]   ……慢着，那个肚子上被开了个洞的人，是企鹅物流的大帝吧？\n[name=\"？？？\"]   他死了喔，你们就不慌张吗？\n[Character(name=\"avg_npc_035\",name2=\"char_300_phenxi_1\",focus=1)]\n[name=\"伊斯\"]   慌张？怎么会。\n[name=\"伊斯\"]   大帝先生每个月都会有那么几次玩火自焚。我们习以为常。\n[Character(name=\"avg_npc_035\",name2=\"char_300_phenxi_1\",focus=2)]\n[name=\"？？？\"]   哪怕他死了？\n[Character(name=\"avg_npc_035\",name2=\"char_300_phenxi_1\",focus=1)]\n[name=\"伊斯\"]   是的。"
+        }
+      ],
+      "description": "伊斯熟悉大帝。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_73d003a400c804ca",
+          "reason": "伊斯明确认出并熟悉大帝的反复遇险。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "本组证据没有大帝知晓伊斯的明确表现。",
+          "status": "not_established",
+          "to": "npc_73d003a400c804ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 55,
+          "kind": "story",
+          "line": 44,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安魂夜现场",
+      "title": "喧闹法则"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 100,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_03_beg.txt",
+          "quote": "[name=\"伊斯\"]能天使，你竟然在？\n[charslot(slot=\"m\",name=\"avg_103_angel_1#1$1\",focus=\"m\")]\n[name=\"能天使\"]呃，你不是也在？\n[name=\"能天使\"]酒吧又没营业，你来干嘛？\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]不知道怎么就转到这儿来了，说不定这是社畜的天性。\n[name=\"伊斯\"]来都来了，就打扫下卫生吧。\n[charslot(slot=\"m\",name=\"avg_103_angel_1#3$1\",focus=\"m\")]\n[name=\"能天使\"]呀，待会儿我自己收拾就好！\n[name=\"能天使\"]我看都是给我的礼物，就顺手都给拆了。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_103_angel_1#1$1\",focus=\"m\")]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_103_angel_1#4$1\",focus=\"m\")]\n[name=\"能天使\"]水晶球？拜松这小子——等等，峯驰物流已经把生意做到察帕特了吗？\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_103_angel_1#1$1\",focus=\"m\")]\n[name=\"能天使\"]这么厚一沓可叠加的折扣券？“买得越多，折扣越大；折扣越大，买得越多”……可颂是想让我把商场搬空吗？\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_103_angel_1#3$1\",focus=\"m\")]\n[name=\"能天使\"]Sora叙拉古巡回演唱会LIVE专辑《不期而会》……空是不是忘了多寄两张门票？\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_103_angel_1#6$1\",focus=\"m\")]\n[multiline(name=\"能天使\")]狂欢节假面，这肯定是德克萨斯送的……\n[CameraShake(duration=0.3, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"avg_103_angel_1#3$1\",focus=\"m\")]\n[multiline(name=\"能天使\",end=true)]呀，有点勒脸，差评！\n[charslot(slot=\"m\",name=\"avg_103_angel_1#1$1\",focus=\"m\")]\n[multiline(name=\"能天使\")]这个软刷……\n[charslot(slot=\"m\",name=\"avg_103_angel_1#4$1\",focus=\"m\")]\n[multiline(name=\"能天使\",end=true)]老板这到底是送我礼物，还是给员工寄帮他保养黑胶唱片的工具！\n[name=\"能天使\"]对了伊斯，你看这个软刷到底是用什么毛做的？\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]……看着有点像鲁珀的毛。\n[charslot(slot=\"m\",name=\"avg_103_angel_1#8$1\",focus=\"m\")]\n[name=\"能天使\"]说起来，狂欢节早就结束了，老板和德克萨斯怎么还待在新沃尔西尼？我从萨尔贡回来，店里居然一个人都没有！\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]德克萨斯说是留在那边筹备企鹅物流的新业务，至于大帝先生……\n[name=\"伊斯\"]他和他的朋友们，有些别的事情要处理——除了做唱片办派对教育员工……之外的事情。\n[charslot(slot=\"m\",name=\"avg_103_angel_1#1$1\",focus=\"m\")]\n[name=\"能天使\"]懂了。那跟你报备也是一样的。\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]嗯？\n[charslot(slot=\"m\",name=\"avg_103_angel_1#9$1\",focus=\"m\")]\n[name=\"能天使\"]等一等啊，我快填完了！\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]填什么？\n[charslot(slot=\"m\",name=\"avg_103_angel_1#10$1\",focus=\"m\")]\n[name=\"能天使\"]休假申请单！\n[name=\"能天使\"]我想休一个很长很长的假，所以还是走一下正经程序比较好！\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]能天使？\n[charslot(slot=\"m\",name=\"avg_103_angel_1#7$1\",focus=\"m\")]\n[name=\"能天使\"]你应该知道我为什么专门接了萨尔贡的单子吧？\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]萨尔贡……那是莫斯提马作为万国信使负责的区域之一吧？\n[charslot(slot=\"m\",name=\"avg_103_angel_1#6$1\",focus=\"m\")]\n[name=\"能天使\"]聪明。\n[charslot(slot=\"m\",name=\"avg_103_angel_1#7$1\",focus=\"m\")]\n[name=\"能天使\"]我这次见到莫斯提马，她说，那个让姐姐和她变成如今这个样子的家伙，那个姐姐希望永远不会再出现的人，回到了拉特兰……\n[name=\"能天使\"]姐姐的病还没有完全好，但她已经加入了教皇厅。秘密也好，真相也好，当年的事情把他们重新卷到了一起……\n[name=\"能天使\"]而我当年本就是为了知道这些才来的龙门。\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]你要回拉特兰？\n[charslot(slot=\"m\",name=\"avg_103_angel_1#1$1\",focus=\"m\")]\n[name=\"能天使\"]嗯！总不能在龙门干等着姐姐来看我吧。\n[charslot(slot=\"m\",name=\"avg_103_angel_1#9$1\",focus=\"m\")]\n[name=\"能天使\"]德克萨斯、空、拜松、可颂……甚至是最不着调的老板，大家如今都有自己的事情要忙，天下没有不散的筵席啦。\n[charslot(slot=\"m\",name=\"avg_103_angel_1#6$1\",focus=\"m\")]\n[name=\"能天使\"]“不忘初心”——这可是企鹅物流的企业文化！\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]每日特供的企业文化……不过道理是没错的。\n[charslot(slot=\"m\",name=\"avg_103_angel_1#10$1\",focus=\"m\")]\n[name=\"能天使\"]替我保管好这些礼物。告诉我的朋友们，等一切事情都搞定的时候，我就会回来。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$doorknockquite\", volume=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_035\",focus=\"m\")]\n[name=\"伊斯\"]接你的人？"
+        }
+      ],
+      "description": "伊斯具体说明大帝与朋友有事处理。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "大帝未在场。",
+          "status": "not_established",
+          "to": "npc_73d003a400c804ca"
+        },
+        {
+          "evidenceIds": [
+            "L09"
+          ],
+          "from": "npc_73d003a400c804ca",
+          "reason": "伊斯具体说明大帝与朋友有事处理。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 100,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "npc_2b6410ed62fdecf2|npc_73d003a400c804ca"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 266,
+          "line": 199,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_06_beg.txt",
+          "quote": "[name=\"Frost\"]（独奏）\n[Character(name=\"char_003_kalts_1#2\")]\n[name=\"凯尔希\"]Frost女士？你为什么……\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]她说，这叫体能训练。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]我们来自海洋。我们就是海洋。\n[PlayMusic(intro=\"$drift_intro\", key=\"$drift_loop\", volume=0.8, crossfade=1, delay=0.5)]\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]虽然……（悲怆的独奏）\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"npc_2003_Frost_1\",focus=1)]\n[name=\"圣徒卡门\"]……如果你们愿意帮忙，那么再好不过。你能做什么？\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"npc_2003_Frost_1\",focus=2)]\n[name=\"Frost\"]让它们听话。听我唱歌。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"npc_2003_Frost_1\",focus=1)]\n[name=\"圣徒卡门\"]你的同伴们……\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"npc_2003_Frost_1\",focus=2)]\n[name=\"Frost\"]不好意思，Dan想借用那座礼拜堂。她们都在那里思考新的曲子。\n[Character(name=\"avg_npc_447_1#7$1\",name2=\"npc_2003_Frost_1\",focus=1)]\n[name=\"圣徒卡门\"]音乐？你们的音乐和以前我在莱塔尼亚所听到的大不相同，你们会对这种东西感兴趣？\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]（紧凑的独奏）\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]音乐，才是生活的意义。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]我只是想在演出开始前，清场而已。\n[dialog]\n[character(fadetime=0)]\n[delay(time=1)]\nFrost缓缓取出了她的吉他。\n卡门略感讶异。他能感觉到面前这个生物确确实实在思考名为“音乐”的艺术。她的话语里没有任何多余的用意。\n音乐绝非比喻。将这个词用以比喻其他事物都会让Frost分心。她只考虑音乐，这种能取悦她灵魂的艺术才能引起她的注意。\n[dialog]\n[PlaySound(key=\"$d_avg_fish_howl\")]\n[Character(name=\"avg_npc_457_1#1$1\")]\n[name=\"恐鱼\"]（畏缩的窸窣声）\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]（尝试性的独奏）\n[dialog]\n[character(fadetime=0)]\n[PlaySound(key=\"$d_avg_fish_howl\")]\n那些潜藏着的恐鱼，环绕在她的身旁，观察，审视，判断。\n它们不敢轻易靠近。它们嗅到了熟悉的味道。它们意识到眼前的吉他手只是空壳。她悠远的联系在它们血脉馈赠的深处隐隐作响。\n即使这里仍是陆地，它们却在瞬间感觉自己回到了海洋。\n[dialog]\n[PlaySound(key=\"$d_avg_fish_howl\")]\n[Character(name=\"avg_npc_457_1#1$1\")]\n[name=\"恐鱼\"]（困惑打转的窸窣声）\n[Character(name=\"avg_npc_447_1#4$1\")]\n[name=\"圣徒卡门\"]多么……神奇。\n[Character(name=\"avg_npc_447_1#4$1\")]\n[name=\"圣徒卡门\"]这些与大地本身息息相关的生物，在它们眼中，人类与恐鱼是否毫无区别？\n[dialog]\n[Character(fadetime=0)]\nFrost没有回答，她对旋律如痴如醉，对激情本身要求严苛。\n凯尔希知道，这个问题是问自己的。\n[Character(name=\"avg_npc_447_1#7$1\")]\n[name=\"圣徒卡门\"]凯尔希，这也在你的盘算之中？让她们坐镇海岸，让惩戒军深入大海？\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]您愿意这么想，那我就是这么想的。\n[Character(name=\"avg_npc_447_1#2$1\")]\n[name=\"圣徒卡门\"]但是惩戒军甚至没来得及为我们准备好一艘船。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]海岸上还有一艘。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]从格兰法洛计划废止开始，它已经等了很多年了。\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]……必须先斩断留在陆地上的恶根。"
+        }
+      ],
+      "description": "卡门经Frost具体介绍知晓Dan。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S37"
+          ],
+          "from": "npc_8bb239b319aad399",
+          "reason": "Frost当面对卡门具体说明Dan想借用礼拜堂。",
+          "status": "supported",
+          "to": "npc_f6f9eff5d6333a55"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_f6f9eff5d6333a55",
+          "reason": "Dan不在该海岸谈话现场，未显示识别卡门。",
+          "status": "not_established",
+          "to": "npc_8bb239b319aad399"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 266,
+          "kind": "story",
+          "line": 199,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "Frost协助海岸清场时",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "npc_8bb239b319aad399|npc_f6f9eff5d6333a55"
+}

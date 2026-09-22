@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 805,
+          "line": 638,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"恩希欧迪斯\"]把刺客和休露丝夫人押下去。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_262_1#7$1\")]\n[characteraction(name=\"left\", type=\"move\", xpos=300, fadetime=0.02, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_262_1#7$1\",focus=1)]\n[name=\"希瓦艾什家战士\"]是。\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_262_1#8$1\",focus=2)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"休露丝\"]别碰我，混蛋！\n[Character(name=\"avg_npc_263_1#4$1\")]\n[name=\"尤卡坦\"]露丝！\n[Character(name=\"avg_npc_263_1#3$1\")]\n[name=\"尤卡坦\"]大夫人……！\n[Character(name=\"avg_npc_253_1#8$1\")]\n[name=\"菈塔托丝\"]等——\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_262_1#7$1\")]\n[characteraction(name=\"left\", type=\"move\", xpos=300, fadetime=0.02, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[Blocker(a=0.3, r=0.1, g=0.2, b=0.95, fadetime=1, block=true)]\n[PlaySound(key=\"$b_char_tokendead\", volume=0.6)]\n[PlaySound(key=\"$e_aoe_frost\", volume=0.6)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[delay(time=0.7)]\n[name=\"希瓦艾什家战士\"]咕哈……\n[characteraction(name=\"left\", type=\"move\", ypos=-50, fadetime=2,block=true)]\n[PlaySound(key=\"$bodyfalldown2\", volume=1)]\n[Dialog]\n[character(name=\"char_empty\",name2=\"avg_npc_262_1#7$1\",fadetime=0.5)]\n[delay(time=1)]\n[Character(name=\"avg_199_yak_1#7$1\")]\n[name=\"角峰\"]谁！\n[Character(name=\"avg_198_blackd_1#10$1\")]\n[name=\"魏斯\"]冰霜法术，而且是这么远的距离，难道说——\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[delay(time=1)]\n[delay(time=1)]\n[Background(image=\"24_g7_thoroughfare\",screenadapt=\"showall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$d_avg_crwddiscuss_outside\", volume=0.6, loop=true, channel=\"bse\")]\n[Character(name=\"avg_npc_272_1#1$1\", name2=\"avg_npc_274_1#1$1\",focus=1)]\n[name=\"谢拉格贵族A\"]谁来了？！\n[Character(name=\"avg_npc_272_1#1$1\", name2=\"avg_npc_274_1#1$1\",focus=2)]\n[name=\"谢拉格贵族B\"]看那边！\n[StopSound(channel=\"bse\", fadetime=1)]\n[Dialog]\n[Character]\n[Character(name=\"avg_206_gnosis_1#1$1\",blackstart=0.2,blackend=0.7,block=true)]\n[name=\"？？？\"]战士们，该去营救你们的家主了。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=1)]\n[Character(name=\"avg_npc_283_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"char_empty\",name2=\"avg_npc_284_1#1$1\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"avg_npc_283_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"avg_npc_283_1#1$1\",name2=\"avg_npc_284_1#1$1\",fadetime=0.5)]\n[delay(time=1)]\n[character]\n[PlaySound(key=\"$d_avg_crwddiscuss_outside\", volume=0.6, loop=true, channel=\"bse\")]\n[Character(name=\"avg_npc_272_1#1$1\", name2=\"avg_npc_274_1#1$1\",focus=1)]\n[name=\"谢拉格贵族A\"]那是——诺希斯！他怎么会在这里，而且，他带的怎么是布朗陶家的人？！\n[Character(name=\"avg_npc_272_1#1$1\", name2=\"avg_npc_274_1#1$1\",focus=2)]\n[name=\"谢拉格贵族B\"]……自从他被喀兰贸易除名后，我就没听说过他的消息了，现在看来，他居然是叛变去了布朗陶家？！\n[StopSound(channel=\"bse\", fadetime=1)]\n[Dialog]\n[Character]\n[stopmusic(fadetime=2)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"24_g6_square\",screenadapt=\"showall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_206_gnosis_1#1$1\",fadetime=1.5)]\n[delay(time=1.5)]\n[playMusic(intro=\"$exciting_intro\", key=\"$exciting_loop\", volume=0.4)]\n[name=\"诺希斯\"]恩希欧迪斯，你费尽心思把自己包装成一个虔诚的受害者，在台上说着一些冠冕堂皇的话，你不觉得羞耻吗？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]……\n[name=\"恩希欧迪斯\"]诺希斯，我当你躲在了哪里，原来，你是躲去了菈塔托丝那一边。\n[Character(name=\"avg_206_gnosis_1#4$1\")]\n[name=\"诺希斯\"]躲？我只是在为这一刻做准备罢了。\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]菈塔托丝，你还在犹豫什么？\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]诺希斯，你——\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]看看台下的民众，他们眼中对你有多么不信任！\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[delay(time=1)]\n[delay(time=1)]\n[Background(image=\"24_g7_thoroughfare\",screenadapt=\"showall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$d_avg_crwddiscuss_outside\", volume=0.6, loop=true, channel=\"bse\")]\n[Character(name=\"avg_npc_279_1#1$1\", name2=\"avg_npc_280_1#1$1\",focus=1)]\n[name=\"谢拉格平民A\"]菈塔托丝背叛了耶拉冈德！她必须被制裁！\n[Character(name=\"avg_npc_279_1#1$1\", name2=\"avg_npc_280_1#1$1\",focus=2)]\n[name=\"谢拉格平民B\"]阿克托斯，我真是看错你了！\n[Character(name=\"avg_npc_277_1#1$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"谢拉格平民C\"]恩希欧迪斯老爷，打倒他们，打倒他们！！\n[StopSound(channel=\"bse\", fadetime=1)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[delay(time=1)]\n[delay(time=1)]\n[Background(image=\"24_g6_square\",screenadapt=\"showall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]看看你的妹妹，她就要被恩希欧迪斯带走了！\n[dialog]\n[character]\n[name=\"休露丝\"]放开我，你们放开我！\n[Dialog]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"char_empty\")]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=200, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=1, block=false)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#5$1\",focus=2)]\n[name=\"尤卡坦\"]……不要伤害我的妻子！\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#5$1\",focus=1)]\n[name=\"希瓦艾什家战士\"]哼。\n[characteraction(name=\"left\", type=\"move\", xpos=200, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.7)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#5$1\")]\n[characteraction(name=\"left\", type=\"jump\", xpos=100, power=5, times=1, fadetime=0.5, block=true)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.7)] \n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[characteraction(name=\"left\", type=\"jump\", xpos=-100, power=5, times=1, fadetime=1,block=true)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#3$1\",focus=2)]\n[name=\"尤卡坦\"]咕……\n[dialog]\n[Delay(time=1)]\n[Character(name=\"avg_npc_262_1#7$1\")]\n[name=\"休露丝\"]尤卡坦！\n[Character(name=\"avg_npc_253_1#8$1\")]\n[name=\"菈塔托丝\"]休露丝！尤卡坦！\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]现在，是你最后的机会了。\n[name=\"诺希斯\"]恩希欧迪斯说信你，他当真是信你吗？"
+        }
+      ],
+      "description": "休露丝被拘押、尤卡坦营救的连续广场冲突，具名各人回应当场事件；并非不同场景的相邻称谓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E59"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "休露丝被拘押、尤卡坦营救的连续广场冲突，具名各人回应当场事件；并非不同场景的相邻称谓。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "E59"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "休露丝被拘押、尤卡坦营救的连续广场冲突，具名各人回应当场事件；并非不同场景的相邻称谓。",
+          "status": "supported",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 805,
+          "kind": "story",
+          "line": 638,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 247,
+          "line": 191,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st03.txt",
+          "quote": "[name=\"“灰礼帽”\"]……是，菈塔托丝并没有死，她们一行三人已经进入蔓珠院的北门。\n[name=\"“灰礼帽”\"]逃亡的记者也在，那位大名鼎鼎的黑骑士在保护她们。\n[name=\"“灰礼帽”\"]公爵阁下有何指示？\n[name=\"“灰礼帽”\"]……等等。\n[name=\"“灰礼帽”\"]……你是说，公爵阁下，要亲自来谢拉格？\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[playsound(key=\"$d_avg_paper2\")]\n[Delay(time=2)]\n[Sticker(id=\"st1\", multi = true, text=\"致喀兰贸易总部\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n与喀兰贸易前董事长、我的族女伊丽莎白之子——恩希欧迪斯·希瓦艾什\", x=380,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n及所有谢拉格人民\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n这是为诉说喀兰贸易与恩希欧迪斯的逆行倒施，而写的一封公开信。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n我以此信正式发布抗议，抗议维多利亚与谢拉格共同遭受的、本可避免的所有不平之事。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n\\n……\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"45_g11_karlanheadquarters\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1161_1#1$1\",duration=1.5)]\n[Delay(time=2.5)]\n[name=\"喀兰贸易员工\"]总裁！正好您在这儿！\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_1161_1#1$1\",focus=\"l\")]\n[name=\"诺希斯\"]怎么了？慢慢说。\n[charslot(slot=\"r\",name=\"avg_npc_1161_1#1$1\",focus=\"r\")]\n[name=\"喀兰贸易员工\"]这，这是开斯特公爵送来的信函，内容已经在民间传开了。\n[name=\"喀兰贸易员工\"]都是关于谢拉格的……尤其在说，在说喀兰贸易。\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#1$1\",focus=\"l\")]\n[name=\"诺希斯\"]她说什么了？\n[charslot(slot=\"r\",name=\"avg_npc_1161_1#1$1\",focus=\"r\")]\n[name=\"喀兰贸易员工\"]说我们不守信义，还有恩希欧迪斯——\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#1$1\",focus=\"l\")]\n[name=\"诺希斯\"]把信给我。\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#1$1\",focus=\"l\")]\n[PlaySound(key=\"$d_avg_paper2\", volume=1)]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_206_gnosis_1#7$1\",focus=\"l\")]\n[name=\"诺希斯\"]……\n[name=\"诺希斯\"]通知所有董事会成员，立即在总部会合。\n[name=\"诺希斯\"]让所有人，保持冷静……\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]"
+        }
+      ],
+      "description": "灵知明确获知菈塔托丝存活。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N22"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "诺希斯阅读公爵关于菈塔托丝的信函。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "菈塔托丝未在总部场景。",
+          "status": "not_established",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 247,
+          "kind": "story",
+          "line": 191,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "喀兰总部收信",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1030,
+          "line": 988,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "quote": "[name=\"诺希斯\"]……菈塔托丝？\n[name=\"诺希斯\"]你不该在这个时候来，圣女大人的宴会上少了三家的家主，会引起他人不必要的注意。\n[name=\"菈塔托丝\"]有休露丝在，她能应付得来。\n[name=\"菈塔托丝\"]比起我，喀兰贸易的首席技术执行官似乎更不应该在这时候出现在这里吧。\n[name=\"菈塔托丝\"]那位莱茵生命的主任小姐，恐怕还有许多事情等着和你这位技术人员谈呢。\n[name=\"诺希斯\"]恩希欧迪斯会招待好她。\n[name=\"诺希斯\"]我们想要引进莱茵生命的技术，他们想利用更接近天空的圣山地貌，但这本质上更像是一场交易。\n[name=\"诺希斯\"]比起我，恩希欧迪斯更擅长这个部分。\n[name=\"菈塔托丝\"]好吧，这倒是说得没错。\n[name=\"菈塔托丝\"]我算是看出来了，今天这件事，恐怕恩希欧迪斯准备了十几种方法来摆平。\n[name=\"菈塔托丝\"]那副担心的模样装得倒是不错。呵，是不是就连你也被他蒙在鼓里？\n[name=\"诺希斯\"]他就是那种人，不奇怪。\n[name=\"诺希斯\"]但你说错了一点，菈塔托丝。\n[name=\"诺希斯\"]这次，是他难得没有伪装的一次。\n[name=\"菈塔托丝\"]……是啊，不像他。不够功利，不够稳妥。但无论对谁来说，这又是最好的结果。\n[name=\"菈塔托丝\"]唉。\n[name=\"菈塔托丝\"]……\n[Dialog]\n[stopSound(channel=\"ns\", fadetime=0.5)]\n[stopSound(channel=\"lt\", fadetime=0.5)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_metalpipe\", volume=0.6, loop=true, channel=\"pipe\")]\n[name=\"菈塔托丝\"]你听，诺希斯，这是金属正在被拼接成怪兽的声音。\n[name=\"菈塔托丝\"]这沉重又吵闹的建造声，我已经听得够久了。\n[name=\"诺希斯\"]据我所知，一号项目应该很快就可以完工了。\n[name=\"菈塔托丝\"]是啊，很快。\n[name=\"菈塔托丝\"]但我们倾尽全力，甚至借建造耶拉冈德像做幌子，把基地建在银心湖之下……\n[name=\"菈塔托丝\"]费尽方法遮掩，这么长的时间，也只造出了——\n[Dialog]\n[stopSound(channel=\"pipe\", fadetime=5)]\n[stopSound(channel=\"a\", fadetime=5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[Image(image=\"45_i12\",screenadapt=\"coverall\",fadetime=0,block=true)]\n[Delay(time=1)]\n[ImageTween(xFrom=200, yFrom=-120, xTo=0, yTo=-0, xScaleFrom=1.4, yScaleFrom=1.4, xScaleTo=1, yScaleTo=1, duration=25, block=false)]\n[PlayMusic(key=\"$formal_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]\n[Delay(time=2)]\n[name=\"菈塔托丝\"]——这一艘高速战舰。"
+        }
+      ],
+      "description": "诺希斯与菈塔托丝共同推进银心湖项目。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "诺希斯与菈塔托丝私下讨论合作和战舰。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "菈塔托丝直接点名回应诺希斯。",
+          "status": "supported",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 1030,
+          "kind": "story",
+          "line": 988,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典宴会期间",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_206_gnosis|npc_a43cec0eaa3f04c8"
+}

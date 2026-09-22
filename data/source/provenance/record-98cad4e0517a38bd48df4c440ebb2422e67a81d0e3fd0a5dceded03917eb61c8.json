@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 293,
+          "line": 235,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"阿克托斯\"]瓦莱丝。\n[Character(name=\"avg_npc_261_1#1$1\")]\n[name=\"瓦莱丝\"]在。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[delay(time=1)]\n[musicvolume(volume=0, fadetime=1)]\n[Delay(time=2)]\n[Background(image=\"24_g1_snowyforest\",screenadapt=\"showall\")]\n[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[name=\"？？？\"]我是一名研究者。即便我真的谎话连篇，也不会对我的研究说谎。\n[name=\"？？？\"]你可以不相信我的分析结果，但你显然保留着当年那份样本。\n[name=\"？？？\"]你大可以拿它做个实验，来验证一下我说的话。\n[name=\"？？？\"]还是说，你要接受这种“事实”？\n[name=\"？？？\"]你真的相信，你的父亲死于“对耶拉冈德的不虔诚”？\n[Character(name=\"avg_npc_261_1#2$1\")]\n[name=\"瓦莱丝\"]……\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]\n[Background(image=\"24_g6_square\",screenadapt=\"showall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[musicvolume(volume=0.4, fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_261_1#1$1\")]\n瓦莱丝恭敬地端上了一杯酒。\n这杯酒，代表着丰收。\n[Character(name=\"avg_npc_254_1#1$1\")]\n[name=\"阿克托斯\"]我将粮食酿成的酒献给耶拉冈德，祈祷下一年的丰收。\n[Character(name=\"avg_npc_258_1#1$1\")]\n大长老拿起递到自己面前的酒，一口饮尽。\n[Character(name=\"avg_npc_254_1#1$1\")]\n[name=\"阿克托斯\"]佩尔罗契家当代家主，阿克托斯·佩尔罗契，向耶拉冈德献上崇高的敬意。\n[Character(name=\"avg_174_slbell_1#1$1\")]\n[name=\"恩雅\"]你的祈祷必将抵达耶拉冈德处。\n[Character(name=\"avg_npc_258_1#1$1\")]\n[name=\"大长老\"]耶拉冈德又将自己的皮毛赐给布朗陶家，令林木茂盛群兽生息，让谢拉格人不再受冻。\n[Delay(time=1)]\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_253_1#1$1\",fadetime=1.5)]\n[Delay(time=2)]\t\n[name=\"菈塔托丝\"]尤卡坦。\n[Character(name=\"avg_npc_263_1#1$1\")]\n[name=\"尤卡坦\"]在。\n尤卡坦恭敬地递上了一条围脖。\n这条围脖，代表着安康。\n[Character(name=\"avg_npc_253_1#1$1\")]\n[name=\"菈塔托丝\"]我将皮毛织成衣裳献给耶拉冈德，祈祷下一年的安康。\n[Character(name=\"avg_npc_258_1#1$1\")]\n大长老接过围脖，亲手为圣女戴上。\n[Character(name=\"avg_npc_253_1#1$1\")]\n[name=\"菈塔托丝\"]布朗陶家当代家主，菈塔托丝·布朗陶，向耶拉冈德献上至高的敬意。\n[Character(name=\"avg_174_slbell_1#1$1\")]\n[name=\"恩雅\"]你的祈祷必将抵达耶拉冈德处。"
+        }
+      ],
+      "description": "三家献礼是连续典礼近前场景，瓦莱丝与阿克托斯献酒，尤卡坦与菈塔托丝献围脖，初雪逐一回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E118"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "三家献礼是连续典礼近前场景，瓦莱丝与阿克托斯献酒，尤卡坦与菈塔托丝献围脖，初雪逐一回应。",
+          "status": "supported",
+          "to": "npc_e93a864a5413aa6c"
+        },
+        {
+          "evidenceIds": [
+            "E118"
+          ],
+          "from": "npc_e93a864a5413aa6c",
+          "reason": "三家献礼是连续典礼近前场景，瓦莱丝与阿克托斯献酒，尤卡坦与菈塔托丝献围脖，初雪逐一回应。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 293,
+          "kind": "story",
+          "line": 235,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "npc_669b66161e12a7ca|npc_e93a864a5413aa6c"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 370,
+          "line": 237,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-14_end.txt",
+          "quote": "[name=\"Mon3tr\"]（咆哮）\n[dialog]\n[PlaySound(key=\"$d_avg_energygather\", volume=0.5, loop=true, channel=\"en\")]\n[StopSound(channel=\"en\", fadetime=2)]\n[name=\"Mon3tr\"]（积蓄能量）\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$b_char_fireharm\", volume=1)]\n[name=\"Mon3tr\"]（释放炙热的光束）\n[dialog]\n[charslot]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_gen_explo_n\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]\n[delay(time=1)]\n激射而出的光束在把源石结晶体围拢成的包围圈撕裂开一个巨大的口子后，继续向着远处扫射过去……击倒了越来越多的源石结晶体——\n但突然，它被某种力量挡住了。\n[dialog]\n[PlaySound(key=\"$d_avg_metallicclick\", volume=1)]\n[name=\"？？？\"]力道不错嘛！\n[dialog]\n[charslot(slot = \"m\", name = \"avg_017_huang_1#1$2\", duration=1)]\n[delay(time=1.5)]\n[name=\"煌\"]但小心别伤到博士，Mon3tr。\n[charslot(slot=\"m\", name=\"avg_391_rosmon_1#1$2\")]\n[name=\"迷迭香\"]我们已就位。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_footsteps_flock\", volume=1, loop=true, channel=\"f\")]\n[StopSound(channel=\"f\", fadetime=2)]\n[delay(time=1.5)]\n你带领着众人从黑暗中走了出来。\n[dialog]\n[Decision(options=\"凯尔希就在这。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$Mon3tr_n\")]\n[charslot(slot = \"m\", name = \"npc_10002\")]\n[name=\"Mon3tr\"]（欢快地抖擞身体）\n[dialog]\n[charslot]\n[Decision(options=\"支援Mon3tr。;净空石棺周围的敌人。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#1$1\")]\n[name=\"阿斯卡纶\"]随时策应我。\n[charslot(slot = \"m\", name = \"avg_npc_235\")]\n[name=\"Misery\"]放心。\n[charslot(slot = \"m\", name = \"avg_4133_logos_1#1$1\")]\n[name=\"Logos\"]咒言随行。\n[charslot(slot = \"m\", name = \"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]那……就是石棺？就一直被隐藏在本舰内？\n[Dialog]\n[charslot]\n[Decision(options=\"我初次醒来的地方……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"0,0\", channel = 3)]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]\n[delay(time=0.5)]\n[name=\"可露希尔\"]ZOOT识别到凯尔希的信号在减弱！\n[name=\"可露希尔\"]必须尽快确认。\n[interlude(channel = 3, clear = true)]\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]凯尔希在里面？\n[name=\"Touch\"]按照Raidian的说法来看，她的状态可不怎么乐观。\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#7$1\")]\n[name=\"Raidian\"]Dr.{@nickname}，我们需要尽快让她离开那里。\n[name=\"Raidian\"]再拖延下去，我担心……她的安全。\n[charslot(slot = \"m\", name = \"avg_npc_1310_1#1$1\")]\n[name=\"Pith\"]不能妄动，我们并不清楚凯尔希与石棺的情况。\n[name=\"Pith\"]根据当初的作战纪录，在切尔诺伯格时也有人接触了石棺，最后却产生了我们都没预料到的变故。\n[dialog]\n[charslot]\n[Decision(options=\"凯尔希不一样。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"交给我。;掩护我。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n你毫不迟疑地向石棺走去。\n[dialog]\n[delay(time=1)]\n你触碰到了冰冷的石棺，它……在回应你。\n不，是凯尔希在回应你。\n[dialog]\n[Decision(options=\"接下来我们还得一起继续向前呢。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[StopSound(channel=\"ene\", fadetime=2)]\n[PlaySound(key=\"$d_avg_stonegateopen\", volume=1, loop=true, channel=\"sn\")]\n[StopSound(channel=\"sn\", fadetime=3)]\n[delay(time=2)]\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#10$3\")]\n[name=\"阿米娅\"]……\n[name=\"阿米娅\"]凯尔希医生，你——\n[charslot]\n[PlayMusic(intro=\"$warm_intro\", key=\"$warm_loop\", volume=0.6)]\n[name=\"虚弱的声音\"]……你们来得很及时。\n[name=\"虚弱的声音\"]罗德岛……怎么样了……\n[dialog]\n你向石棺中的人伸出了手。\n[dialog]\n[Decision(options=\"大家都还平安。;多亏你的努力。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"欢迎回来，凯尔希。\", values=\"1\")]\n[Predicate(references=\"1\")]\n她拉住了你的手，你能感觉到她前所未有地脆弱。\n[dialog]\n[Decision(options=\"你看上去不是很好。;刚刚发生了什么事？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#4$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"凯尔希\"]不必在意我……\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]借助石棺介入PRTS很困难，但意料之外的是，我收到了一份礼物。\n[name=\"凯尔希\"]关于PRTS和普瑞赛斯的更多情报，我会马上共享给你们。\n[PlaySound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\", name=\"npc_10002\")]\n[name=\"Mon3tr\"]（紧张的嘶吼）\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#11$1\")]\n[name=\"凯尔希\"]不用害怕，Mon3tr。我还站在你面前。\n[name=\"凯尔希\"]我不会抛下你。\n[dialog]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]\n[name=\"凯尔希\"]Dr.{@nickname}，我已经找到了通往Abyss的路。\n[name=\"凯尔希\"]这场混乱该结束了。\n[name=\"凯尔希\"]这里受到的干扰很强，我们已经极为靠近Abyss。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\")]\n[name=\"阿米娅\"]但这里没有路了，Abyss彻底把自己隐藏起来了——\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]在这个距离内，我可以清楚地判断出它的位置。\n[charslot]\n凯尔希站在最深处的墙壁之前，深深地吸了一口气。\n她从未走到如此深入的地方——"
+        }
+      ],
+      "description": "Touch参与接回凯尔希并直接确认其状况。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D27"
+          ],
+          "from": "char_003_kalts",
+          "reason": "Touch参与接回凯尔希并直接确认其状况。",
+          "status": "supported",
+          "to": "char_510_amedic"
+        },
+        {
+          "evidenceIds": [
+            "D27"
+          ],
+          "from": "char_510_amedic",
+          "reason": "Touch参与接回凯尔希并直接确认其状况。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 370,
+          "kind": "story",
+          "line": 237,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-14_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往关系",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_003_kalts|char_510_amedic"
+}

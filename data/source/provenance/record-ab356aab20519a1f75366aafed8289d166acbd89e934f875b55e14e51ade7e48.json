@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 435,
+          "line": 400,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "quote": "[name=\"爱国者\"]   我反对的，是帝国。不是土地，不是人民，不是乌萨斯本身。\n[name=\"爱国者\"]   如果是医学大臣，造成现状，他就是敌人。\n[name=\"爱国者\"]   如果是议会谋划，我们就推翻议会。\n[name=\"爱国者\"]   如果是军队，制造对立，就毁掉军队。\n[name=\"爱国者\"]   塔露拉有远大目标。我的目标，更阶段性，但更明确。\n[name=\"爱国者\"]   过去的乌萨斯，战争是正义的；现在的感染者，战争是正义的。\n[name=\"爱国者\"]   我为正义而战。正义，永远属于乌萨斯。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=1, block=true)]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.5)]\n[Character(name=\"char_1002_nsabr_1\")]\n[name=\"整合运动成员\"]   报告！抓获了一批在起义过程中有漠视纪律行为的整合运动成员，这是名单！\n[name=\"整合运动成员\"]   主要发起人里，基本没有第二、第三和第六大队的成员！\n[Character(name=\"char_1002_nsabr_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   这只是小部分。\n[Character(name=\"char_1002_nsabr_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"整合运动成员\"]   这个，关于具体的实施人，其实我们……很难调查。\n[name=\"整合运动成员\"]   很多同胞对切尔诺伯格人咬牙切齿，他们不可能通报……\n[Character(name=\"char_1002_nsabr_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   违纪，对平民下手？\n[Character(name=\"char_1002_nsabr_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"整合运动成员\"]   ……\n[name=\"整合运动成员\"]   可这些切尔诺伯格人那么冷酷，这是他们罪有应得！\n[name=\"整合运动成员\"]   如果不是他们，很多感染者也不会落到今天，指挥官！求你……\n[Character(name=\"char_1002_nsabr_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  对平民下手？\n[Character(name=\"char_1002_nsabr_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"整合运动成员\"]   ……\n[Character(name=\"char_1002_nsabr_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]  传令。\n[name=\"爱国者\"]  吊死，主要人员。让我的士兵，动手。\n[name=\"爱国者\"]  警告，梅菲斯特，弑君者。"
+        }
+      ],
+      "description": "赫拉格单向知晓塔露拉。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_188_helage",
+          "reason": "赫拉格听见爱国者具体谈论塔露拉的目标和行动。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "塔露拉不在场，未见她知晓赫拉格。",
+          "status": "not_established",
+          "to": "char_188_helage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 435,
+          "kind": "story",
+          "line": 400,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格事件",
+      "title": "战地秘闻"
+    }
+  ],
+  "relationship_id": "char_188_helage|npc_69395c50206899b0"
+}

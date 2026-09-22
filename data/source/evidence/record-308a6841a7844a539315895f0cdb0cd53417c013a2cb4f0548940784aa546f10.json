@@ -1,0 +1,20 @@
+{
+  "id": "import:char_401_elysm|char_415_flint",
+  "published": true,
+  "quote": "极境：哟吼！\n依娜姆：当初你、祖玛玛和克玛尔加入罗德岛的时候我还没什么感觉。现在看到这位的表现……\n依娜姆：特米米，你实话告诉我，罗德岛的工资是不是其实很好骗？\n特米米：极境先生其实还是一位职业向导、通讯专家……\n特米米：算了！他就那样！\n\n依娜姆：你这次休假，居然没拉着嘉维尔、祖玛玛和克玛尔一起回来吗？\n特米米：克玛尔说她想和煌小姐一起练拳。嘉维尔和祖玛玛去出任务了还没回来。",
+  "relationship_id": "char_401_elysm|char_415_flint",
+  "sources": [
+    {
+      "endLine": 444,
+      "kind": "story",
+      "line": 420,
+      "source": "activities/act20side/level_act20side_02_beg.txt"
+    },
+    {
+      "endLine": 94,
+      "kind": "story",
+      "line": 92,
+      "source": "activities/act20side/level_act20side_01_end.txt"
+    }
+  ]
+}

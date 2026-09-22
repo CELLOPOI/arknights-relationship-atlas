@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 59,
+          "line": 27,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/a001/level_a001_03_beg.txt",
+          "quote": "[name=\"大鲍勃\"]   ……这块石头……\n[name=\"大鲍勃\"]   你们两个，跟上。小心脚底，跟着我的脚印走，手也不要到处摸。\n[name=\"大鲍勃\"]   这片森林，恐怕比你我想的还要危险。\n[Character(name=\"char_220_grani#3\")]\n[name=\"格拉尼\"]   石头上是不是刻了什么？\n[Character(name=\"avg_npc_010\",name2=\"char_220_grani#3\",focus=1)]\n[name=\"大鲍勃\"]   这是赏金猎人留下的符号。不按照符号指示行动的话，就会踩进设置好的陷阱。\n[Character(name=\"avg_npc_010\",name2=\"char_220_grani#3\",focus=2)]\n[name=\"格拉尼\"]   我们要直接躲开陷阱吗？\n[Character(name=\"avg_npc_010\")]\n[name=\"大鲍勃\"]   看我的吧。\n[name=\"大鲍勃\"]   ——绊索加捕兽夹，老土的小把戏。\n[Blocker(a=1, r=0,g=0, b=0, fadetime=1.5, block=true)]\n[Character]\n[Dialog]\n[Blocker(a=0, fadetime=1.5, block=true)]\n[Character(name=\"avg_npc_010\")]\n[name=\"大鲍勃\"]   树丛恰好挡住了摆锤，一旦贸然前进就会被击中。\n[name=\"大鲍勃\"]   那里，可萝尔小姐，小心点。\n[Character(name=\"avg_npc_010\",name2=\"avg_npc_003\",focus=2)]\n[name=\"可萝尔\"]   嗯，嗯？\n[Character(name=\"avg_npc_010\",name2=\"avg_npc_003\",focus=1)]\n[name=\"大鲍勃\"]   你再向前走一步，大概就会掉进满是尖头的深坑了。\n[Character(name=\"avg_npc_010\",name2=\"avg_npc_003\",focus=2)]\n[name=\"可萝尔\"]   啊……！\n[Character(name=\"char_220_grani#3\")]\n[name=\"格拉尼\"]   不愧是赏金猎人，很擅长这些嘛。\n[Character(name=\"avg_npc_010\")]\n[name=\"大鲍勃\"]   那当然，毕竟我以前——\n[name=\"大鲍勃\"]   ……\n[name=\"大鲍勃\"]   想要绕开陷阱是不现实的。果然，还是要全部解除掉才方便行动。\n[name=\"大鲍勃\"]   毕竟他们最危险的道路，马上就会变成对我们来说最安全的那种了。\n[name=\"大鲍勃\"]   走吧。"
+        }
+      ],
+      "description": "格拉尼与大鲍勃同行并多轮直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_220_grani",
+          "reason": "格拉尼与大鲍勃同行并多轮直接交谈。",
+          "status": "supported",
+          "to": "npc_d5c7fa0eb2b4fffa"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_d5c7fa0eb2b4fffa",
+          "reason": "格拉尼与大鲍勃同行并多轮直接交谈。",
+          "status": "supported",
+          "to": "char_220_grani"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_09725b475c1bf920.json",
+      "sources": [
+        {
+          "endLine": 59,
+          "kind": "story",
+          "line": 27,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/a001/level_a001_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇塔拉特山森林场景",
+      "title": "骑兵与猎人"
+    }
+  ],
+  "relationship_id": "char_220_grani|npc_d5c7fa0eb2b4fffa"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 150,
+          "line": 90,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st07.txt",
+          "quote": "[name=\"“老天师”\"]年纪轻轻，这一手雷法还挺有模有样的。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#10$1\",focus=\"m\")]\n[name=\"“老天师”\"]这源石技艺的手法还有点眼熟，难道白定山那一辈小孩也收徒弟了？\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#7$1\",focus=\"m\")]\n[name=\"麟青砚\"]这样的火焰法术……\n[name=\"麟青砚\"]您该不会是——祖师？！\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#6$1\",focus=\"m\")]\n[name=\"左乐\"]——？！\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#10$1\",focus=\"m\")]\n[name=\"云青萍\"]（这个小姑娘，不是大荒城的时候，小满姑娘的玩伴吗……）\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#8$1\",focus=\"m\")]\n[name=\"麟青砚\"]天师府雷法传人……麟青砚……拜见祖师。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#10$1\",focus=\"m\")]\n[name=\"“老天师”\"]行了行了，又不是什么正经场合，别来这些规矩。\n[name=\"“老天师”\"]小丫头，你也来打个招呼吧。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]……山海众莫佚，见过老天师。\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#10$1\",focus=\"m\")]\n[name=\"左乐\"]（这家伙还真是山海众。）\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]有什么好惊讶的？有机会的话去翻翻你们藏书阁最里面的那几卷书吧，要论对巨兽的研究，你们才是后来的呢。\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#4$1\",focus=\"m\")]\n[name=\"左乐\"]如今我只看到山海众举着巨兽的旗号，为非作歹无恶不作。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#9$1\",focus=\"m\")]\n[name=\"莫佚\"]别人用山海众的名号做杀人放火的事，那和我又有什么关系？我还要管别人做什么不成？\n[name=\"莫佚\"]你穿着这身漂亮制服，就能保证每一个穿这衣服的都是好人？\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#5$1\",focus=\"m\")]\n[name=\"左乐\"]你——\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#8$1\",focus=\"m\")]\n[name=\"“老天师”\"]这不着调的做事方式，还有这伶牙俐齿……还真是和你们祖师爷一个样。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#10$1\",focus=\"m\")]\n[name=\"“老天师”\"]我本来以为这么多年都过去了，那个老木匠早就没什么传人了，没想到今天还能在这里再碰到一个。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#12$1\",focus=\"m\")]\n[name=\"莫佚\"]毕竟一千年前的那场狩猎和祖师他的理念相悖，他老人家晚年也的确因此心灰意冷，不再发声……\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#3$1\",focus=\"m\")]\n[name=\"莫佚\"]但是他老人家想要制止战事的初衷，总还是有人记得的。\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#1$1\",focus=\"m\")]\n[name=\"“老天师”\"]口气倒不小，那你说说，就在当下，你打算如何制止战事？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]很简单，不论是盗取《武典》，还是召唤岁相，在下无非是想要见那位界园主人一面。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#10$1\",focus=\"m\")]\n[name=\"莫佚\"]恳请他准许我进入他的园林找一样东西，我保证这场战争可以被终止。\n[name=\"莫佚\"]……那位消失的代理人，留下来的一件东西。\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#6$1\",focus=\"m\")]\n[name=\"左乐\"]？！\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#1$1\",focus=\"m\")]\n[name=\"“老天师”\"]胆子倒是不小……\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#4$1\",focus=\"m\")]\n[name=\"“老天师”\"]圆脑袋！\n[name=\"“老天师”\"]你在旁边听的时间够久了吧，客人已经找上门了，到底要不要接待，给个说法吧！\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",duration=2)]\n[Delay(time=2.5)]\n[name=\"梁\"]今天来的可都是贵客……\n[name=\"梁\"]这位客人的提议，可真是吓了在下一身冷汗啊……\n[charslot(slot=\"m\",name=\"avg_npc_1238_1#2$1\",focus=\"m\")]\n[name=\"“老天师”\"]废话少说，这件事和你们关系最大，你们什么打算？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"梁\"]其实刚刚我和先生也打过了招呼……正好，今天老天师与司岁台的秉烛人都在这里，在下斗胆提议……\n[name=\"梁\"]缘分如此，今年的镇抚仪式，就请这几位客人来协助如何？"
+        }
+      ],
+      "description": "梁与莫佚直接谈界园准入。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_c25f824eec4935b3",
+          "reason": "同一局部场景实际互动或共同参与对话。",
+          "status": "supported",
+          "to": "npc_f3a46713520eb64b"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_f3a46713520eb64b",
+          "reason": "同一局部场景实际互动或共同参与对话。",
+          "status": "supported",
+          "to": "npc_c25f824eec4935b3"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 150,
+          "kind": "story",
+          "line": 90,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st07.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "邙山山顶场景",
+      "title": "镜中集"
+    }
+  ],
+  "relationship_id": "npc_c25f824eec4935b3|npc_f3a46713520eb64b"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 285,
+          "line": 215,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "quote": "[name=\"莱欧斯\"]这里就是那位女士说的训练室了吧。\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#14$1\",focus=\"m\")]\n[name=\"玛露西尔\"]这里好像没什么人……那边倒是有一个好大的怪东西……\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\",focus=\"m\")]\n[name=\"大祭司\"]你们还愣着干什么？！\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#8$1\",focus=\"m\")]\n[name=\"莱欧斯\"]欸，大祭司？！\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#1$1\",focus=\"m\")]\n[name=\"玛露西尔\"]大祭司，你有见到刻俄柏吗？\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\",focus=\"m\")]\n[name=\"大祭司\"]她刚才还在这里，不过已经跑走了。\n[name=\"大祭司\"]你们想见到那个小家伙？\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#17$1\",focus=\"m\")]\n[name=\"玛露西尔\"]嗯！\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\",focus=\"m\")]\n[name=\"大祭司\"]那就别磨蹭了，赶紧都过来，坐进这台机器里！\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#8$1\",focus=\"m\")]\n[name=\"莱欧斯\"]欸？啊……好、好吧。\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovement\",volume=1)]\n[charslot(duration=1)]\n[Delay(time=2)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_012\",duration=1.5)]\n[Delay(time=2)]\n[name=\"近卫干员\"]大祭司，我们得到消息，好像有走失的访客往这边来了，你有见到吗？\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#4$1\",focus=\"m\")]\n[name=\"大祭司\"]什么？我没见过，我们正在这边做新型号大丑的抗冲击安全测试。\n[name=\"大祭司\"]建议你们离远一点。\n[charslot(slot=\"m\",name=\"avg_npc_012\",focus=\"m\")]\n[name=\"近卫干员\"]呃……好。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\",focus=\"m\")]\n[name=\"大祭司\"]搞定，祖玛玛，准备就绪！\n[Character(name=\"char_416_zumama_1\")]\n[name=\"森蚺\"]你确定？\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\",focus=\"m\")]\n[name=\"大祭司\"]当然。\n[Dialog]\n[charslot]\n[stopmusic(fadetime=1)]\n[PlaySound(key=\"$shotgunreload\",volume=1)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_gen_explo_n\",volume=1)]\n[CameraShake(duration=1, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Delay(time=2.5)]\n[name=\"驾驶舱内的莱欧斯小队\"]啊啊啊啊啊啊啊啊啊——\n[charslot(slot=\"m\",name=\"avg_npc_012\",focus=\"m\")]\n[name=\"近卫干员\"]我怎么好像看到里面有人被炸飞了……\n[playMusic(intro=\"$dontmaketrouble_intro\", key=\"$dontmaketrouble_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\",focus=\"m\")]\n[name=\"大祭司\"]你确定你看到有人被炸飞了吗？\n[charslot(slot=\"m\",name=\"avg_npc_012\",focus=\"m\")]\n[name=\"近卫干员\"]咦……消失了？\n[name=\"近卫干员\"]难道我真的看错了？\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\",focus=\"m\")]\n[name=\"大祭司\"]行了，去别的地方找吧，你要找的人不在这。\n[charslot(slot=\"m\",name=\"avg_npc_012\",focus=\"m\")]\n[name=\"近卫干员\"]好吧。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[Character(name=\"char_416_zumama_1\")]\n[name=\"森蚺\"]你这完全是公报私仇。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#6$1\",focus=\"m\")]\n[name=\"大祭司\"]他们炖了我一次，我炸他们一次，也算是礼尚往来吧。\n[Character(name=\"char_416_zumama_1\")]\n[name=\"森蚺\"]你把他们弄哪里去了？\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#6$1\",focus=\"m\")]\n[name=\"大祭司\"]他们想要找刻俄柏，我就送他们去找刻俄柏。\n[name=\"大祭司\"]这可没有骗他们。"
+        }
+      ],
+      "description": "与大祭司在训练室直接交谈并接受其安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_4142_laios",
+          "reason": "与大祭司在训练室直接交谈并接受其安排。",
+          "status": "supported",
+          "to": "npc_ec93b1be1e69c694"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "与大祭司在训练室直接交谈并接受其安排。",
+          "status": "supported",
+          "to": "char_4142_laios"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4b8f03fa1aa37d85.json",
+      "sources": [
+        {
+          "endLine": 285,
+          "kind": "story",
+          "line": 215,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示旅程时段",
+      "title": "泰拉饭"
+    }
+  ],
+  "relationship_id": "char_4142_laios|npc_ec93b1be1e69c694"
+}

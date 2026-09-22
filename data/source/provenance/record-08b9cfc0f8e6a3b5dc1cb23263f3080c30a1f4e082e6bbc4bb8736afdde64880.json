@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 215,
+          "line": 182,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_st03.txt",
+          "quote": "画里没有吹角连营的战火，只有大漠孤烟，长河落日。你就安心在这里喝你的酒，当你的诗人吧。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"25_g03_yandowntown_n\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n年会喜欢热闹的地方，但比起龙门，还是尚蜀的口味更适合她。\n你就老老实实在这里待着，别来烦我了。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_indoor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n二哥……应该只给他画一副棋盘的。\n心思都在算计上，审美也太差了点……这个园子送你，我也不想再见你了。\n算到最后，竟也没有给自己留半分退路，你到底……呵。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"25_g08_pavilion\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n颉……\n要不是你太爱唠叨，又总摆一副姐姐的架子，我真的想过要找你学书法的。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[charslot(slot = \"m\", name = \"avgnew_2015_dusk_1#1$1\")]\n[Background(image=\"47_g10_fairyfarmland_ex\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[name=\"夕\"]……行了，就这样吧。"
+        }
+      ],
+      "description": "夕作画心声具体回顾颉往日唠叨与姐姐姿态，支持她知晓颉；不据此补颉反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_2015_dusk",
+          "reason": "夕作画心声具体回顾颉往日唠叨与姐姐姿态，支持她知晓颉；不据此补颉反向。",
+          "status": "supported",
+          "to": "npc_3da4a89447bd1525"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3da4a89447bd1525",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_2015_dusk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 215,
+          "kind": "story",
+          "line": 182,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "char_2015_dusk|npc_3da4a89447bd1525"
+}

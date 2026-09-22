@@ -1,0 +1,22 @@
+{
+  "id": "import:char_173_slchan|npc_e69f1ad171a29fd0",
+  "published": true,
+  "quote": "【崖心】\n阿克托斯没有说话，只是站在原地，沉默地看着兴奋的恩希亚，如同一块坚硬的山岩。\n恩希亚：……\n恩希亚：抱歉，是我欠考虑了。\n阿克托斯：不必介意。\n恩希亚：……阿克托斯先生。\n阿克托斯：还有什么事？\n恩希亚：我记得老哥没回来时，虽然我和姐姐跟您打交道并不多，但您并不像现在这样，先入为主地和我保持着距离。\n阿克托斯：如果你觉得有谁应该为此负责，那当然是你的好哥哥。我可以相信你没有恶意，但我可不敢说，你的好哥哥没有把你也算计进去。\n阿克托斯：论勾心斗角，我可从来不敢说自己能胜过他。\n\n【风雪过境】\n恩希亚：但我听说，好像博士和阿克托斯先生他们相处得还不错？\n恩希亚：啊……想想也是理所当然，博士在罗德岛的人缘就很好。\n恩希亚：对了，有什么我能帮帮博士的吗？这一出又一出让我很过意不去，我总想替博士做点能做的事情。",
+  "relationship_id": "char_173_slchan|npc_e69f1ad171a29fd0",
+  "sources": [
+    {
+      "endLine": 467,
+      "kind": "story",
+      "line": 450,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_slchan_1_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 262,
+      "kind": "story",
+      "line": 260,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st02.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

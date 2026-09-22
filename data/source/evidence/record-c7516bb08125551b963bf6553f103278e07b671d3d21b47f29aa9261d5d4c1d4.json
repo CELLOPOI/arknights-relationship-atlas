@@ -1,0 +1,15 @@
+{
+  "id": "import:char_281_popka|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【离解复合】\nPith：你们的确准备了许多，但可惜应对源石技艺的手段还是捉襟见肘。\nMantra：……\n袭击者：不、不对，不该是你们——\n“嘘，连你的心脏都已经沉默了。”\nTouch：伤员我来处理，不过月见夜又变得过于亢奋了。\nTouch：梓兰，又得辛苦你了。\n梓兰：我会处理好他的。\nPith：博士猜得对，有人泄露了我们行动的消息。\nMantra：快速解决吧，尽快将这艘备用开采舰拖动到最近的移动城市修补能源舱室。\nMantra：然后迅速赶回本舰，避免所有意外。\n泡普卡：Pith女、女士，为什么来增援的是你们？\n泡普卡：之前PRTS通知的是Misery先生呀……\nPith：直觉？\nPith：临出发前突然更改计划，我担心……\n选项：\n1：我信任你们。\n分支条件（原选项编号）：1\n选项：\n1：Misery，Stormeye，Sharp他们另有安排。\n分支条件（原选项编号）：1\nPith：需要同步到PRTS上告知同事吗？",
+  "relationship_id": "char_281_popka|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 431,
+      "kind": "story",
+      "line": 378,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

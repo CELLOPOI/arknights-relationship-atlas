@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 77,
+          "line": 66,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_3.txt",
+          "quote": "[name=\"？？？\"]欢迎你们，未蒙福的同胞。\n[name=\"博卓卡斯替\"]我是博卓卡斯替，圣城的卫士。\n[name=\"博卓卡斯替\"]随我走吧，我将带你们回到卡兹戴尔，启迪在即，你们将不再苦于晦暗。\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"他的真切，他的诚挚，随着言语一同流入萨卡兹的心田。在这无可抗拒的温暖中，是更多人的善意，是心灵的袒露，是——\", x=300,y=270, alignment=\"left\", size=25, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n是天堂，是翼与环，是照耀一切的光。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"铳骑伸出了手。\", x=300,y=270, alignment=\"left\", size=25, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他很清楚应当如何对待尚未蒙福的同胞，他们很迷茫，他们很害怕。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"因此，他将以超人的耐心对待同胞们，接受他们的谩骂与攻击，等待他们的倾诉与忏悔。\", x=300,y=270, alignment=\"left\", size=25, delay=0.04, width=700,block = true)]"
+        }
+      ],
+      "description": "妮芙与博卓卡斯替在可能未来当面相遇。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_4146_nymph",
+          "reason": "同场发言、听取或明确叙述支持该方向。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "同场发言、听取或明确叙述支持该方向。",
+          "status": "supported",
+          "to": "char_4146_nymph"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_42c131bed95e2454.json",
+      "sources": [
+        {
+          "endLine": 77,
+          "kind": "story",
+          "line": 66,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_3.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "集成战略“萨卡兹的无终奇语”构造的可能未来，不倒推现实时间线",
+      "title": "萨卡兹的无终奇语"
+    }
+  ],
+  "relationship_id": "char_4146_nymph|npc_e877f731a67498e3"
+}

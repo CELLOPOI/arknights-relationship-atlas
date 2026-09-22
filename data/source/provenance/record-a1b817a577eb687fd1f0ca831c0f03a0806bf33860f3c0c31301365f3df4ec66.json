@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 760,
+          "line": 745,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st03.txt",
+          "quote": "[name=\"苏茜\"] 苦根先生！开开门！苦根先生！\n[Character(name=\"avg_npc_012\", name2=\"avg_166_skfire_1#5$1\",focus=1)]\n[name=\"苦根\"] ？？\n[dialog]\n[character]\n[PlaySound(key=\"$dooropenquite\", volume=0.6)]\n[delay(time=1)]\n[playsound(key=\"$rungeneral\")]\n[Character(name=\"avg_377_gdglow_1#9$1\", name2=\"avg_npc_328_1$1\",fadetime=1.5)]\n[delay(time=2)]\n[Character(name=\"avg_377_gdglow_1#9$1\", name2=\"avg_npc_328_1$1\", focus=1)]\n[name=\"苏茜\"] 苦根先生！求求你救救她！\n[Character(name=\"avg_377_gdglow_1#9$1\", name2=\"avg_npc_328_1$1\", focus=2)]\n[name=\"雷德\"] 这里有个感染者快不行了，帮帮忙！\n[Character(name=\"avg_166_skfire_1#5$1\")]\n[name=\"天火\"] 苏茜？雷德先生？发生什么事了？？"
+        }
+      ],
+      "description": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_01384e015f09923a",
+          "reason": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+          "status": "supported",
+          "to": "npc_e3878a71089209c5"
+        },
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "双方在办事处当面交谈；苦根具名，不使用复用立绘推成迪伦。",
+          "status": "supported",
+          "to": "npc_01384e015f09923a"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_a170fc4ad11dca33.json",
+      "sources": [
+        {
+          "endLine": 760,
+          "kind": "story",
+          "line": 745,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "阴云火花"
+    }
+  ],
+  "relationship_id": "npc_01384e015f09923a|npc_e3878a71089209c5"
+}

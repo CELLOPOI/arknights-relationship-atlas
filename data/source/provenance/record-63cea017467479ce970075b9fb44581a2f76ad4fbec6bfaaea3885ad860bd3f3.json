@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 397,
+          "line": 387,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_beg.txt",
+          "quote": "[name=\"年\"] ……当朝太傅？\n[Character(name=\"avg_npc_297_1#7$1\")]\n[name=\"左乐\"] 太傅见了那个大罪人。\n[character(name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"] ……原来如此。\n[name=\"年\"] 看来我确实睡糊涂了……那个糟老头子，原来是这样的人物？\n[name=\"年\"] 我看他身板脆弱，也不像是会法术的样子，还当是哪里爱管闲事的老头子呢。\n[Character(name=\"avg_npc_297_1#7$1\")]\n[name=\"左乐\"] ……太傅缝补天下事，查漏补缺。\n[character(name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"] 我以为你会因为我调侃那个糟老头子而生气。"
+        }
+      ],
+      "description": "年谈亲见太傅并误当老头的经历，支持双方曾会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "char_2014_nian",
+          "reason": "年谈亲见太傅并误当老头的经历，支持双方曾会面。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "年谈亲见太傅并误当老头的经历，支持双方曾会面。",
+          "status": "supported",
+          "to": "char_2014_nian"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 397,
+          "kind": "story",
+          "line": 387,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 468,
+          "line": 446,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_10_end.txt",
+          "quote": "[name=\"余\"]黍姐，还有年和夕！你们终于来了！\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]好久不见呀小个子——今天的晚饭准备好了吗？\n[charslot(slot=\"m\",name=\"avg_2025_shu_1#9$1\")]\n[name=\"黍\"]你呀，正经事还没有做完，就净惦记着幺弟做的饭咯？\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]明明是各不耽误嘛！\n[name=\"年\"]说起来，我们没打招呼就一口气聚了这么多人——那边的太傅大人，应该不会怪罪吧？\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]非常之时，行非常之法。\n[name=\"太傅\"]你们若能一同出力解决眼下伥物之乱，自然是有功无过。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]我就知道，您老人家肯定不会和看上去一样古板的！\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]……\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#7$1\")]\n[name=\"年\"]太傅大人，你觉得我们和大炎做的这一笔生意，还算愉快？\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]对大炎来说，或许不只是一笔生意。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#5$1\")]\n[name=\"太傅\"]任何时候，交一个朋友，远比做成一笔生意，重要得多。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#7$1\")]\n[name=\"年\"]哈，有您老这句话，下回工部那几个老头子再找我麻烦，我可有理由反驳了。"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C24"
+          ],
+          "from": "char_2014_nian",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "C24"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "char_2014_nian"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 468,
+          "kind": "story",
+          "line": 446,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_2014_nian|npc_92c92c1606519db1"
+}

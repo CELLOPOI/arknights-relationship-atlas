@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 340,
+          "line": 210,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_07_beg.txt",
+          "quote": "[character(name=\"avg_108_silent_1#5$1\")]\n[name=\"赫默\"]……注射器？\n[character(name=\"avg_108_silent_1#5$1\")]\n[name=\"赫默\"]等一下，你们打算做什么？\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]身体检查。\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]该实验区有危险物质泄漏的可能性，按照规定，需要对所有人员启动预防程序。\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]能不能让我看一眼注射药剂？\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]情况紧急，麻烦让开。\n[character(name=\"avg_128_plosis_1#1$1\")]\n[name=\"白面鸮\"]警告，流程与以往记录不符。\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]你们的这种行为完全不符合规定……\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]规定？我不需要一个……被逐出莱茵的研究员来教我什么是规定。\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]唔……\n[character]\n[name=\"多萝西\"]那我呢？\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[character(name=\"avg_4048_doroth_1#3$1\",fadetime=1)]\n[delay(time=1)]\n[name=\"多萝西\"]我有没有资格要求你交出注射器？\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]弗兰克斯主任……\n[character(name=\"avg_4048_doroth_1#3$1\")]\n[name=\"多萝西\"]我是359号基地的负责人。请立刻向我报告你们的行动目的。\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]……抱歉，主任。本基地的一切事务已由斐尔迪南主任接管。\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]没有他的命令，您也无权过问我们的行动。\n[character(name=\"avg_4048_doroth_1#3$1\")]\n[name=\"多萝西\"]我没记错的话，在莱茵生命，只有总辖能够更换实验项目负责人。\n[character(name=\"avg_4048_doroth_1#3$1\")]\n[name=\"多萝西\"]斐尔迪南凭什么越俎代庖？\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]我也没有办法回答您的疑问。\n[Dialog]\n[PlaySound(key=\"$transmission\", volume=0.9)]\n[delay(time=1)]\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]差不多够了……\n[character(name=\"avg_npc_528_1#1$1\")]\n[name=\"莱茵防卫科成员\"]任务完成，全体撤退。\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]……走了？\n[character(name=\"avg_128_plosis_1#1$1\")]\n[name=\"白面鸮\"]是的，防卫科的人正在飞速撤离基地。\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]我本来以为他们要抓走拓荒者们……难道是我误解了斐尔迪南？\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]斐尔迪南他……\n[character(name=\"avg_npc_534_1#1$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=40, fadeout=true, block=false)]\n[name=\"拓荒队成员\"]呃呃呃——！\n[dialog]\n[PlaySound(key=\"$bodyfalldown1\")]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true)]\n[character(fadetime=0.7)]\n[delay(time=1)]\n[character(name=\"avg_128_plosis_1#1$1\")]\n[name=\"白面鸮\"]赫默医生，接受过注射的拓荒者们全体陷入了昏迷。\n[character(name=\"avg_108_silent_1#4$1\")]\n[name=\"赫默\"]立刻实施救援！\n[character(name=\"avg_108_silent_1#5$1\")]\n[name=\"赫默\"]弗兰克斯主任，你知不知道该怎么应急处理……弗兰克斯主任？\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]……\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(fadetime=0)]\n[Background(image=\"29_g4_corridor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_1027_greyy2_1#4$2\")]\n[name=\"格雷伊\"]女士，我还以为我们是来救桑尼先生的……\n[character(name=\"avg_npc_527_1#5$1\")]\n[name=\"玛丽\"]别以为那短短几句话就能让我改变看法！\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]……你收到我给你写的信了。\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]博取同情的招数用过一次就没有效果了，罗马诺。\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]我只庆幸没让你逃出去，否则的话，我可不知道还会遇到什么“惊喜”。\n[character(name=\"avg_npc_535_1#8$1\")]\n[name=\"桑尼\"]你不相信我……\n[character(name=\"avg_npc_527_1#5$1\")]\n[name=\"玛丽\"]我凭什么要相信你？！\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]四年前，你不想被抓进收治区，我相信了你，帮你四处躲藏——\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]然后你是怎么对我的？\n[character(name=\"avg_npc_535_1#8$1\")]\n[name=\"桑尼\"]我那时候快疯了，矿石病和保险费逼疯了我，我不得不……\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]你打破了窗户，闯进我的房间，逼我把所有值钱的东西交给你——就为了那该死的保险费，你觉得交够了钱，他们就能让你回去当律师！\n[character(name=\"avg_npc_535_1#4$1\")]\n[name=\"桑尼\"]……\n[character(name=\"avg_npc_527_1#5$1\")]\n[name=\"玛丽\"]你知不知道奶奶受了多大惊吓，在那之后就一病不起？你还记不记得她有多喜欢你，从小对你比对我还要好？！\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]你又知不知道，在你因为害怕而匆匆一走了之后，我是怎么一边担心你被其他警察抓到，一边冒着丢工作的风险替你掩饰……\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]你什么都不知道。\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]你就是个冷血自私的罪犯，我从来都不该对你心软……\n[character(name=\"avg_135_halo_1#9$1\")]\n[name=\"埃琳娜\"]警长！\n[character(name=\"avg_135_halo_1#9$1\")]\n[name=\"埃琳娜\"]不管你们俩有什么前尘旧怨，我们都必须离开这里，立刻，马上——\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]你在为这个绑架了你的人说情？\n[character(name=\"avg_135_halo_1#9$1\")]\n[name=\"埃琳娜\"]听我说，真正有问题的是莱茵生命……\n[dialog]\n[character]\n[stopmusic(fadetime=3)]\n[playsound(key=\"$smallearthquake\", volume=0.6)]\n[CameraShake(duration=2, xstrength=4, ystrength=4, vibrato=20, randomness=30, fadeout=false)]\n[delay(time=2)]\n[character(name=\"avg_1027_greyy2_1#4$2\")]\n[name=\"格雷伊\"]这震动……\n[character(name=\"avg_npc_535_1#7$1\")]\n[name=\"桑尼\"]呃……是从里面传出来的？\n[character(name=\"avg_135_halo_1#9$1\")]\n[name=\"埃琳娜\"]……多萝西的实验室。\n[character(name=\"avg_135_halo_1#9$1\")]\n[name=\"埃琳娜\"]跑！！！"
+        }
+      ],
+      "description": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "char_4048_doroth",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_89d26c84069133ae",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_4048_doroth"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 340,
+          "kind": "story",
+          "line": 210,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "绿野幻梦"
+    }
+  ],
+  "relationship_id": "char_4048_doroth|npc_89d26c84069133ae"
+}

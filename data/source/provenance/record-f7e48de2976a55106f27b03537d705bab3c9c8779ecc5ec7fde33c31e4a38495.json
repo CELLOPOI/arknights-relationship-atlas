@@ -1,0 +1,175 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 710,
+          "line": 640,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-02.txt",
+          "quote": "[delay(time=3)]\n[name=\"阿斯卡纶\"]……赶上了。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#5$1\",focus=\"m\")]\n[name=\"W\"]阿斯卡纶？\n[name=\"W\"]你看上去……\n[Dialog]\n[charslot]\n浑身染血的刺客拦住了强敌的剑，她的袖刃没有丝毫动摇。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]你……\n[charslot(slot=\"m\",name=\"avg_npc_1344_1#6$1\",)]\n[name=\"阿斯卡纶\"]想要杀我？你准备的决心还不够。\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovementsp\")]\n[charslot(slot=\"m\",posfrom=\"0,0\",posto=\"-100,0\",duration=1)]\n[charslot(slot=\"m\",afrom=1,ato=0,duration=0.5)]\n[delay(time=1)]\n[Effect(name=\"$e_slash_cross\",layer = 1)]\n[Effect(name=\"$e_slash_cross_hit\",layer = 1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, xstrength=40,ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$swordtsing4\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=0.5)]\n[Effect(name=\"$e_slash_fold\",x=848.9,y=0,rox=-33.4,roy=0,roz=0, layer = 1)]\n[Effect(name=\"$e_slash_fold\",x=-414.79,y=20.9,rox=1.67,roy=54.1,roz=-176.9, layer = 1)]\n[Effect(name=\"$e_spark_01_large\",layer = 1)]\n[Effect(name=\"$e_spark_01_large\",layer = 1)]\n[Effect(name=\"$e_spark_01_large\",layer = 1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, xstrength=40,ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$swordtsing5\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=0.5)]\n[Effect(name=\"$e_slash_cross\",layer = 1)]\n[Effect(name=\"$e_slash_cross_hit\",layer = 1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, xstrength=40,ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\",posfrom=\"200,0\",posto=\"0,0\",duration=1)]\n[charslot(slot=\"m\",afrom=0,ato=1,duration=0.5)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#1$1\",focus=\"m\")]\n[name=\"W\"]阿斯卡纶，把这个金毛脑袋摘下来给我，我就考虑接下来一年的任务都听你指挥！\n[Dialog]\n[dialog]\n[charslot]\n[playsound(key=\"$rungeneral\",volume=1,channel=1)]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, xstrength=40,ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[Background(image=\"bg_black\",screenadapt=\"coverall\",fadetime=0)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.2, block=true)]\n[delay(time=0.3)]\n[CameraShake(duration=1, xstrength=40,ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$swordtsing5\")]\n[Image(image=\"50_i37\", fadetime=2, xScale=1.1, yScale=1.1,screenadapt=\"coverall\")]\n[ImageTween(image=\"50_i37\", duration=20, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1,block=false)]\n[blocker(r=0, g=0, b=0, a=0, block=true, fadetime=3)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]阿斯卡纶，我不止一次问过你。你如今相信的究竟是什么？\n[charslot(slot=\"m\",name=\"avg_npc_1344_1#1$1\",focus=\"m\")]"
+        }
+      ],
+      "description": "伊内丝具体报告阿斯卡纶被真曼弗雷德拖住，骸骨起飞未跟上；是真实交战而非之前替身。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E130"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "伊内丝具体报告阿斯卡纶被真曼弗雷德拖住，骸骨起飞未跟上；是真实交战而非之前替身。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E130"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "伊内丝具体报告阿斯卡纶被真曼弗雷德拖住，骸骨起飞未跟上；是真实交战而非之前替身。",
+          "status": "supported",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 710,
+          "kind": "story",
+          "line": 640,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 499,
+          "line": 465,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+          "quote": "[name=\"曼弗雷德\"]你总是学得更快的那个，但离开将军之后，我在你身上只看到了无所适从。他对你的离开很失望。\n[charslot(slot = \"left\", name = \"avg_4132_ascln_1#1$1\",focus=\"l\")]\n[name=\"阿斯卡纶\"]我没你那么善辩。但我至少不会心安理得地漠视他人对于特蕾西娅殿下的冒犯。\n[charslot(slot = \"right\", name = \"avg_npc_404_1#6$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]你真的理解特蕾西娅殿下为何坚持巴别塔的理念吗？你真的明白为什么将军不会出面阻拦对巴别塔的袭击吗？\n[name=\"曼弗雷德\"]比起一走了之，你当初应该和他好好聊聊。\n[charslot(slot = \"left\", name = \"avg_4132_ascln_1#4$1\",focus=\"l\")]\n[name=\"阿斯卡纶\"]一走了之？是你们抛弃了殿下，无视了许多人的声音。\n[name=\"阿斯卡纶\"]我看到的，是他纵容佣兵肆意制造混乱，他对巴别塔的损失无动于衷。\n[charslot(slot = \"right\", name = \"avg_npc_404_1#1$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]将军默许这一切，正是因为他不能无视大多数人的声音——\n[charslot(slot = \"right\", name = \"avg_npc_404_1#2$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]如果萨卡兹的命运会不可避免地滑入深渊，那用更有效的手段来挽回又何妨！\n[charslot(slot = \"left\", name = \"avg_4132_ascln_1#1$1\",focus=\"l\")]\n[name=\"阿斯卡纶\"]这才是你的真实想法。\n[charslot(slot = \"right\", name = \"avg_npc_404_1#7$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]……是大部分卡兹戴尔人民的想法。\n[charslot(slot = \"right\", name = \"avg_npc_404_1#2$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]我并非不信任殿下……可美好的未来谁都能许诺，但人们不能无视眼前的现实。\n[name=\"曼弗雷德\"]如果你用暴力让一个刚刚失去父亲的孩子和凶手握手言和，那不是更残忍吗？\n[charslot(slot = \"left\", name = \"avg_4132_ascln_1#1$1\",focus=\"l\")]\n[name=\"阿斯卡纶\"]……随你怎么说。\n[name=\"阿斯卡纶\"]我不会对军事委员会的人动手，但如果你们想假借那些佣兵行事……\n[name=\"阿斯卡纶\"]那我要做的就很简单了——\n[name=\"阿斯卡纶\"]只要一个佣兵都不剩，问题也就解决了。\n[dialog]\n[charslot(slot = \"left\",duration = 1,afrom=1,ato=0)]\n[Delay(time=2)]\n[charslot(slot = \"right\", name = \"avg_npc_404_1#2$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]阿斯卡纶……！\n[charslot(slot = \"m\", focus = \"n\")]\n[name=\"阿斯卡纶\"]……有时间的话。\n[name=\"阿斯卡纶\"]去看看殿下，我从未见过她像现在这样疲惫。\n[charslot]\n唯有空气扰动起的烟尘能证明，她已经离开。"
+        }
+      ],
+      "description": "二人当面争论选择巴别塔与将军的分歧。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "二人当面争论选择巴别塔与将军的分歧。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "二人当面争论选择巴别塔与将军的分歧。",
+          "status": "supported",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 499,
+          "kind": "story",
+          "line": 465,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 701,
+          "line": 593,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "quote": "[name=\"可露希尔\"]哇，博士，你们来了！\n[Character(name=\"avg_npc_411_1#7$1\")]\n[name=\"可露希尔\"]怎么样怎么样，军工厂的情报都拿到了吗？\n[dialog]\n[Character(name=\"avg_npc_411_1#7$1\",focus=-1)]\n[Decision(options=\"有几个可能的停靠站。;我们得到了拼图的一半。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_411_1#3$1\")]\n[name=\"可露希尔\"]不错啊，博士。我还想着万一你和费斯特出了什么事，我得大发神威把你们捞出来呢。\n[dialog]\n[Character(name=\"avg_npc_411_1#3$1\",focus=-1)]\n[Decision(options=\"有阿斯卡纶在，不会有事。;……;得感谢阿斯卡纶。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]……\n[dialog]\n[Character(name=\"avg_npc_395_1#1$1\",focus=-1)]\n[Decision(options=\"阿斯卡纶，还有一件事。;阿斯卡纶，能否再请你帮一个忙？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]……\n[dialog]\n[Character(name=\"avg_npc_395_1#1$1\",focus=-1)]\n[Decision(options=\"你能联系上W吗？;W也在海布里区吧？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]她有自己的行动计划。\n[dialog]\n[Character(name=\"avg_npc_395_1#1$1\",focus=-1)]\n[Decision(options=\"那位年纪很小的萨卡兹雇佣兵……;那几位没有伤害工人的萨卡兹雇佣兵……\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[dialog]\n[Decision(options=\"或许需要帮助。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]……W会知道。\n[dialog]\n[character]\n[Decision(options=\"可露希尔，你有没有见到……;约好的时间是不是到了？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character]\n[name=\"？？？\"]博士！\n听到那个声音，你立刻转过了头。\n一道你最熟悉的身影冲向了你。\n[dialog]\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[character(name=\"avg_npc_394_1#8$1\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"阿米娅\"]我们到了。\n[dialog]\n[character(name=\"avg_npc_394_1#8$1\",focus=-1)]\n[Decision(options=\"阿米娅。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[dialog]\n[Character(name=\"avg_npc_394_1#8$1\",focus=-1)]\n[Decision(options=\"好久不见。;辛苦。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_394_1#8$1\")]\n[name=\"阿米娅\"]嗯……我也……\n[character(name=\"avg_npc_394_1#1$1\")]\n[name=\"阿米娅\"]博士，您提议这几天我们分头行动的时候，我明白这是最好的选择，可是……\n[character(name=\"avg_npc_394_1#16$1\")]\n[name=\"阿米娅\"]至少我们顺利会合了，博士。我很高兴。\n[dialog]\n[character]\n[Decision(options=\"可露希尔，你准备得怎么样了？;明天行动的关键之一是可露希尔。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_411_1#1$1\")]\n[name=\"可露希尔\"]放心，这几天下来，我这边准备工作也做得差不多了。\n[Character(name=\"avg_npc_411_1#12$1\")]\n[name=\"可露希尔\"]虽然不知道伦蒂尼姆不同地方的城防系统是不是有着一样的弱点……但采用的框架肯定还是有近似处的。\n[Character(name=\"avg_npc_411_1#1$1\")]\n[name=\"可露希尔\"]依据Misery和号角小姐的情报，加上我在城防炮控制室采得的数据，我更新了无人机的破解功能。\n[Character(name=\"avg_npc_411_1#10$1\")]\n[name=\"可露希尔\"]只要无人机能靠近城防军指挥塔核心，给我半个小时，我就能破解系统，取得近十天伦蒂尼姆的交通记录。\n[dialog]\n[Character(name=\"avg_npc_411_1#10$1\",focus=-1)]\n[Decision(options=\"二十分钟行不行？;越快越好。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]嗯……明天的战斗一定很艰难。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]这几天，我们用一系列行动探查了目前伦蒂尼姆城内的萨卡兹军队响应机制。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]可以预料的是，曼弗雷德和血魔会很快出现在战场上。我和阿斯卡纶还有Logos会尽力拖住他们。\n[character(name=\"avg_npc_394_1#19$1\")]\n[name=\"阿米娅\"]但是……\n[dialog]\n[Character(name=\"avg_npc_394_1#19$1\",focus=-1)]\n[Decision(options=\"拖延越久，战士们就越危险。;不能给特雷西斯留下充足的反应时间。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]王庭的萨卡兹随时可能出现在战场上。\n[character(name=\"avg_npc_394_1#19$1\")]\n[name=\"阿米娅\"]是的，博士。\n[character(name=\"avg_npc_394_1#11$1\")]\n[name=\"阿米娅\"]凯尔希医生正在帮我们拖延食腐者与巫妖回城的脚步……可她能争取到的时间也是有限的。\n[dialog]\n[Character(name=\"avg_npc_394_1#11$1\",focus=-1)]\n[Decision(options=\"我们无法同时应付多位王庭成员。;真到了那时候，战况将对我们十分不利。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[dialog]\n[Decision(options=\"注意信号，随时做好撤退准备。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"]嗯，博士。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]罗德岛与自救军联军都准备好了。"
+        }
+      ],
+      "description": "罗德岛一方明确知晓并准备应对曼弗雷德。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "在作战会议中明确制定针对曼弗雷德的行动。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德不在会场。",
+          "status": "not_established",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 701,
+          "kind": "story",
+          "line": 593,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "城防塔行动部署",
+      "title": "淬火尘霾"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 270,
+          "line": 161,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "quote": "[charslot(slot=\"m\",focus=\"n\")]\n[dialog]\n[Decision(options=\"凯尔希，他们成功的概率有多大？;凯尔希，我们现在是否具备应对后续意外的条件？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]从我们在内化宇宙中的遭遇来判断，特蕾西娅已经极大程度地掌控了其中的规则。\n[name=\"凯尔希\"]解析规则，重建秩序，和特雷西斯配合夺下最初的源石……我相信，以她的能力而言，这并非天方夜谭。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]有关最初的源石的更详细信息我也无从了解，自然也无法确切地提出有效的应对手段。\n[name=\"凯尔希\"]换而言之，事态发展到当下，我们已经很难依据过往的经验与知识来判断局势。\n[Predicate(references=\"1;2\")]\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]凯尔希医生，难道我们对此束手无策吗？\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]并非如此。如果他们的计划成功，特雷西斯与特蕾西娅所求依旧在我们的认知范围之内，事态不一定会走向最坏的结果。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#4$1\")]\n[name=\"凯尔希\"]但如果他们失败……\n[charslot(slot=\"m\",focus=\"n\")]\n凯尔希看向了你，眼神中充满了担忧。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\")]\n[name=\"凯尔希\"]Dr.{@nickname}，我们必须以最快的速度赶回罗德岛本舰。\n[name=\"凯尔希\"]我们也许还能做最后的尝试来为泰拉争取片刻的喘息时间。\n[charslot]\n[dialog]\n[Decision(options=\"好，先控制住曼弗雷德。;与其担忧未发生的意外，不如排除已有的变数。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[playsound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（兴奋的高鸣）\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]我会护住博士，同时尽可能限制曼弗雷德的活动范围。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]速战速决。小心他手上的“提卡兹之根”。\n[charslot]\n当曼弗雷德手中的“提卡兹之根”刚刚亮起红光时，魔王的法术与阿斯卡纶的锋刃已经逼近到了他的面前。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]该结束了。\n[dialog]\n[charslot]\n[stopmusic(fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\")]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovementsp\")]\n[charslot(slot = \"right\", name = \"avg_4132_ascln_1#4$1\",posfrom = \"200,0\", posto = \"0,0\",duration = 0.5,afrom=0.5,ato=0.5,focus=\"m\")]\n[delay(time=0.6)]\n[CameraShake(duration=0.2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=1,g=1, b=1, fadetime=0.5, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[image(image=\"32_i08_2\",screenadapt=\"coverall\",block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[delay(time=0.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"凯尔希\"]——躲开！\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1,  fadetime=1, block=true)]\n[image]\n[Background(image=\"60_g7_westlobbyundergroundthrone\",screenadapt=\"coverall\")]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[Blocker(a=0, r=0, g=0, b=0,  fadetime=1, block=true)]\n[name=\"曼弗雷德\"]——！\n[charslot]\n[dialog]\n[Blocker(a=0.2, r=0.2, g=0, b=0.5, fadetime=1, block=false)]\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\",afrom=0.5,ato=0,duration=1)]\n[delay(time=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n阿斯卡纶瞬间化作紫色的烟雾，在剑光中散开又重聚。\n阿米娅所编织的屏障护住了你和凯尔希，却也在剑光中变得脆弱。\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=false)]\n[playsound(key=\"$Mon3tr_n\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（愤怒的嘶鸣）\n[name=\"Mon3tr\"]（全力保护）\n[dialog]\n[charslot]\n[playMusic(intro=\"$sacrifice_intro\",key=\"$sacrifice_loop\", volume=0.6)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot = \"m\", focus = \"n\")]\n剑光的主人缓缓从黑暗中走了出来，在微弱的光线下显得格外恐怖。\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]你让自己陷入了愚蠢的境地。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"]……殿下……你……\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]看来孽茨雷履行了与我的约定……\n[name=\"特雷西斯\"]你们来到我面前。很好。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#6$1\")]\n[name=\"阿斯卡纶\"]……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]……\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#2$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n你看到了王座前那个面目平静的人——特雷西斯。\n他绝非你所熟悉的模样。而他的手中，紧紧地握着一枚鲜艳的晶石。\n[charslot]\n[dialog]\n[Decision(options=\"“阿喃那”……;你们成功了。\", values=\"1;2\")]"
+        }
+      ],
+      "description": "阿斯卡纶与曼弗雷德直接交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "阿斯卡纶与曼弗雷德直接交战。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "阿斯卡纶与曼弗雷德直接交战。",
+          "status": "supported",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 270,
+          "kind": "story",
+          "line": 161,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前战斗或明确既往关系",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4132_ascln|npc_03f95afb5dd17c3f"
+}

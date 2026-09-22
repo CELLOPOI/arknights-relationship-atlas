@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 644,
+          "line": 607,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_end.txt",
+          "quote": "[name=\"阿米娅\"]呣~萝卜料理好好吃！博士要不要尝尝？\n[name=\"莱欧斯\"]你真的不试试吗？真的吗？烤源石虫很好吃的。\n[name=\"凯尔希\"]……\n[name=\"莱欧斯\"]尝一个呗？\n[name=\"刻俄柏\"]哇……这些小刻都可以吃吗？\n[name=\"玛露西尔\"]可以的！\n[name=\"刻俄柏\"]全部都可以？\n[name=\"玛露西尔\"]全部都可以~\n[name=\"刻俄柏\"]你们对小刻真好！\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]\n[Image]\n[stopSound(channel=\"4\",fadetime=1)]\n[stopSound(channel=\"1\",fadetime=1)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2.5, block=true)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#1$1\",focus=\"m\")]\n[name=\"森西\"]对了……“博士”，是吗？老夫刚刚有注意到你。\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#9$1\",focus=\"m\")]\n[name=\"森西\"]刚刚做饭时那些干员和老夫说，你经常忙着做事，忘了吃饭。\n[name=\"森西\"]要不就总是草草吃一顿就糊弄了，有时还吃一些不健康的提神或者是饱腹用的食品……\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#1$1\",focus=\"m\")]\n[name=\"森西\"]这样很不好，要记得这对健康没有好处，还有不少人都在关心你呢！\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#1$1\",focus=\"none\")]\n[Decision(options=\"没有……;没错，就是我。;烤源石虫确实好好吃。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#1$1\",focus=\"m\")]\n[name=\"森西\"]博士，要想获得一个强壮的身体，就要保持良好的作息！按时吃三餐！还要适当锻炼！明白了吗？\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#17$1\",focus=\"m\")]\n[name=\"玛露西尔\"]博士，谢谢你们愿意帮助我们，我在这里认识了不少新朋友呢。\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#1$1\",focus=\"m\")]\n[name=\"莱欧斯\"]唔……要是法琳也在这里就好了。\n[name=\"莱欧斯\"]吃完这顿饭，你们能和我们详细地讲一下这里的事情吗？\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#8$1\",focus=\"m\")]\n[name=\"齐尔查克\"]博士？你看我干什么，你也想喝酒？不是不行……但首先，你成年了吗？"
+        }
+      ],
+      "description": "在罗德岛食堂直接与博士同桌并称呼博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_4143_sensi",
+          "reason": "在罗德岛食堂直接与博士同桌并称呼博士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "在罗德岛食堂直接与博士同桌并称呼博士。",
+          "status": "supported",
+          "to": "char_4143_sensi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4b8f03fa1aa37d85.json",
+      "sources": [
+        {
+          "endLine": 644,
+          "kind": "story",
+          "line": 607,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示旅程时段",
+      "title": "泰拉饭"
+    }
+  ],
+  "relationship_id": "char_4143_sensi|npc_b99957887950ebfd"
+}

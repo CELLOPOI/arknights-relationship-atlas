@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 451,
+          "line": 411,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st03.txt",
+          "quote": "[name=\"幽灵鲨\"]你好。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]（一段平稳的独奏）\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=1)]\n[name=\"幽灵鲨\"]你身上……有熟悉的气息。你知道那是什么吗？\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=2)]\n[name=\"Frost\"]（一段激昂的独奏）\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=1)]\n[name=\"幽灵鲨\"]……美妙的旋律，但与我所知的大不相同。\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=2)]\n[name=\"Frost\"]……那，你所知的是什么样的？\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=1)]\n[name=\"幽灵鲨\"]……\n[Character(name=\"avg_1023_ghost2_1#3$1\")]\n当她祈祷，星星停止闪烁♪\n当她流泪，夜晚露出微笑♪\n当她悲叹，痛苦蔓延在她的疯狂♪\n[Character(name=\"avg_1023_ghost2_1#3$1\",name2=\"npc_2003_Frost_1\",focus=2)]\n[name=\"Frost\"]……阿戈尔的歌。哀伤的歌。\n[name=\"Frost\"]可我不喜欢。它属于过去，它放下了热情，徒劳感伤。和阿戈尔一样。\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=1)]\n[name=\"幽灵鲨\"]很遗憾。\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=2)]\n[name=\"Frost\"]阿戈尔人，你回家了。\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=1)]\n[name=\"幽灵鲨\"]回家？我吗？\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=2)]\n[name=\"Frost\"]歌唱吧。\n[name=\"Frost\"]这是你找回自己的办法。\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=1)]\n[name=\"幽灵鲨\"]歌唱？\n[name=\"幽灵鲨\"]我……能靠歌唱回想起什么？\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"npc_2003_Frost_1\",focus=2)]\n[name=\"Frost\"]唱吧，你会遇见你的过去。你迟早要面对你的命运，或是让命运找上你。\n[name=\"Frost\"]我离开海洋之后，就一直如此。\n[Dialog]\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"char_empty\",fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"char_empty\",focus=1)]\n[name=\"幽灵鲨\"]……奇怪的人。但是，歌唱，我不讨厌。\n[name=\"幽灵鲨\"]那就歌唱吧。"
+        }
+      ],
+      "description": "幽灵鲨与Frost直接讨论音乐、记忆与阿戈尔。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S13"
+          ],
+          "from": "char_143_ghost",
+          "reason": "幽灵鲨与Frost直接讨论音乐、记忆与阿戈尔。",
+          "status": "supported",
+          "to": "npc_f1a37f4fb62f9ae9"
+        },
+        {
+          "evidenceIds": [
+            "S13"
+          ],
+          "from": "npc_f1a37f4fb62f9ae9",
+          "reason": "幽灵鲨与Frost直接讨论音乐、记忆与阿戈尔。",
+          "status": "supported",
+          "to": "char_143_ghost"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 451,
+          "kind": "story",
+          "line": 411,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_143_ghost|npc_f1a37f4fb62f9ae9"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 517,
+          "line": 506,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_end.txt",
+          "quote": "[name=\"西尔弗\"]你看起来更像是个讲道理的人。\n[charslot(slot = \"r\", name = \"avg_npc_1579_1#1$1\",focus=\"r\")]\n[name=\"哈维尔\"]如果你想说我派来谈判的弟兄太野蛮，可以不用这么隐晦。\n[charslot(slot = \"l\", name = \"avg_npc_1583_1#1$1\",focus=\"l\")]\n[name=\"西尔弗\"]不。我是想说你理应明白，信誉是合作的基础。\n[charslot(slot = \"r\", name = \"avg_npc_1579_1#1$1\",focus=\"r\")]\n[name=\"哈维尔\"]而如果我没有信誉，就不会亲自来见你。\n[charslot(slot = \"l\", name = \"avg_npc_1583_1#1$1\",focus=\"l\")]\n[name=\"西尔弗\"]两手空空地来见我，还要求我亲自进入盐漠，去取你承诺的筹码？\n[name=\"西尔弗\"]谁知道那里会不会有百十个全副武装的强盗，等着我自投罗网？\n[charslot(slot = \"r\", name = \"avg_npc_1579_1#1$1\",focus=\"r\")]\n[name=\"哈维尔\"]有没有可能，我是在向你透露海盗据点的位置，告诉你，不仅能拿到罗盘和图纸，你还能驱使会驾驶盐船的船员？"
+        }
+      ],
+      "description": "两人当面谈判海盗据点条件。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_5ae68fd9be1f2ed2",
+          "reason": "两人当面谈判海盗据点条件。",
+          "status": "supported",
+          "to": "npc_87fe432572eae97e"
+        },
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_87fe432572eae97e",
+          "reason": "两人当面谈判海盗据点条件。",
+          "status": "supported",
+          "to": "npc_5ae68fd9be1f2ed2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 517,
+          "kind": "story",
+          "line": 506,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "npc_5ae68fd9be1f2ed2|npc_87fe432572eae97e"
+}

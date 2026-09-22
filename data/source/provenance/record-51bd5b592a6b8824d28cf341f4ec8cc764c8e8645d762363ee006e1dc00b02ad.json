@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 136,
+          "line": 40,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_07_end.txt",
+          "quote": "[name=\"？？？\"]……防护材料领域非常有名的专家。\n[character(name=\"avg_npc_532_1#5$1\")]\n[name=\"塞雷娅\"]帕尔维斯……\n[dialog]\n[character]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[character(name=\"avg_npc_531_1#1$1\",fadetime=1)]\n[delay(time=1)]\n[name=\"帕尔维斯\"]这几年莱茵的扩张速度很快，不是吗？\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]新来的小朋友们还需要多长长见识啊。\n[character(name=\"avg_npc_530_1#1$1\")]\n[name=\"莱茵实验员\"]……两位主任同时出现？我、我……我还有工作没做完！我先走啦！\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]呵呵。\n[character(name=\"avg_npc_532_1#6$1\")]\n[name=\"塞雷娅\"]……你不准备告诉他们我回来了吗？\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]请原谅我的老花眼，我以前认识您吗，美丽的瓦伊凡女士？\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]……\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]没什么事情的话，我就先回去了。太晚休息可不利于我这把年纪的人的身体健康。\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]对了，缪尔赛思主任，别忘了你答应我的黑豆茶。\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[character(fadetime=1)]\n[delay(time=2)]\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]呼……他真的是路过吗，塞雷娅？\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]现在是凌晨四点。\n[character(name=\"avg_npc_532_1#9$1\")]\n[name=\"塞雷娅\"]帕尔维斯平常的下班时间是九个小时以前。\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]果然……直到最后一刻到来前，他都不会轻易把赌注压在斐尔迪南和克丽斯腾之间的任意一方身上。\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]他还想看看谁的赢面大呢。\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]就算莱茵生命变成了废墟，他也一定是能活下来的那个吧？\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(fadetime=0)]\n[Background(image=\"29_g7_mainstreet_n\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]……他们进了莱茵总部。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]领航小队，准备拦截。\n[dialog]\n[character]\n[character(name=\"avg_npc_521_1#1$1\",fadetime=1)]\n[delay(time=1)]\n[name=\"Mechanist\"]别着急。\n[character(name=\"avg_npc_536_1#2$1\")]\n[name=\"霍尔海雅\"]你是……\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]我见过你和塞雷娅交手，对你的装备很感兴趣。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]方便借我看一眼吗？\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]……\n[character(name=\"avg_npc_536_1#2$1\")]\n[name=\"霍尔海雅\"]在战斗之前，你们是这么打招呼的吗，罗德岛的精英干员？\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]请不要误解，刚才那句话，我不是以罗德岛精英干员的身份说的。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]作为一名机械师，我尊重任何优秀的技术及技术的发明者——\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]所以，在我夺下你那根形制特别的法杖之前，我想先询问一下你的意愿。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]……你很有趣，Mechanist先生。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]我之前只是想去见一见塞雷娅，但你和你的上司……那位博士给了我更大的惊喜。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]你知道我的名字？\n[character(name=\"avg_npc_536_1#10$1\")]\n[name=\"霍尔海雅\"]你也调查过我，不是吗？\n[character(name=\"avg_npc_536_1#10$1\")]\n[name=\"霍尔海雅\"]掌握尽量多的信息，是我们这类人在动手之前的习惯。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]……莱茵总部的资料库里有你的名字，霍尔海雅女士。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]但我不相信斐尔迪南会雇佣一名历史学家来追杀自己的同僚。就算是在充满不可能的哥伦比亚学界，这也太荒诞了。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]那只是我的副业。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]你的副业是研究历史？\n[character(name=\"avg_npc_536_1#9$1\")]\n[name=\"霍尔海雅\"]错了。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]我是一名历史学者，我在这里，只是为了见证一则流传千年的预言成真。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]同样的，我也相信，未来的走向能揭示一些被掩埋的历史——\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]我和你们一样，都是真相的追寻者。"
+        }
+      ],
+      "description": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "char_4230_mcnist",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_89d26c84069133ae",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_4230_mcnist"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 136,
+          "kind": "story",
+          "line": 40,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "绿野幻梦"
+    }
+  ],
+  "relationship_id": "char_4230_mcnist|npc_89d26c84069133ae"
+}

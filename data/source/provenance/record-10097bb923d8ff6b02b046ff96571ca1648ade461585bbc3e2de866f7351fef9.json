@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 340,
+          "line": 328,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "quote": "[name=\"切斯特\"]奥拉维尔。\n[Character(name=\"avg_npc_267_1#3$1\")]\n[name=\"切斯特\"]在你和伊丽莎白死后，我一直后悔，过去应该支持你对领地的改革，而不是与你作对。\n[name=\"切斯特\"]所以，当你儿子想要继承你的理想时，我选择了毫无保留地支持他。\n[name=\"切斯特\"]恩希欧迪斯他做得很好。\n[name=\"切斯特\"]恩雅作为圣女也得到了谢拉格人的爱戴。\n[name=\"切斯特\"]恩希亚虽然得了矿石病，但她的病情得到了抑制，而且一如既往地开朗。\n[Character(name=\"avg_npc_267_1#6$1\")]\n[name=\"切斯特\"]只是，我刚才忽然反应过来。\n[Dialog]\n[Character]\n[Delay(time=1)]\n我有多久没有见到这三个孩子聚在一起，露出兄妹之间应有的笑容了呢？"
+        }
+      ],
+      "description": "切斯特追忆看着三兄妹聚在一起成长的往事，具体说到恩雅；支持双方既有家庭来往。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E96"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "切斯特追忆看着三兄妹聚在一起成长的往事，具体说到恩雅；支持双方既有家庭来往。",
+          "status": "supported",
+          "to": "char_174_slbell"
+        },
+        {
+          "evidenceIds": [
+            "E96"
+          ],
+          "from": "char_174_slbell",
+          "reason": "切斯特追忆看着三兄妹聚在一起成长的往事，具体说到恩雅；支持双方既有家庭来往。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 340,
+          "kind": "story",
+          "line": 328,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 752,
+          "line": 712,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st02.txt",
+          "quote": "[name=\"雅儿\"]恩希欧迪斯老爷，请当心脚下。\n[Dialog]\n[charslot]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_cardoorc\", volume=1)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",duration=0.7)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",focus=\"m\")]\n[name=\"切斯特\"]恩希欧迪斯，我把车开过来了。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]谢谢你，叔父。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_cardoorc\", volume=1)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.6)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_267_1#7$1\",focus=\"m\")]\n[name=\"切斯特\"]要回宅邸吗？\n[Dialog]\n[charslot]\n[name=\"诺希斯\"]回……总部……\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",focus=\"m\")]\n[name=\"切斯特\"]恩希欧迪斯？\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]听他的吧，我也正好还有一些杂务需要处理。\n[Dialog]\n[charslot]\n[Delay(time=0.2)]\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#11$1\",duration=0.7)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#11$1\",focus=\"m\")]\n[name=\"恩雅\"]切斯特叔叔，许久不见。\n[charslot(slot=\"m\",name=\"avg_npc_267_1#7$1\",focus=\"m\")]\n[name=\"切斯特\"]圣女大人。\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#11$1\",focus=\"m\")]\n[name=\"恩雅\"]这种时候，叫我的名字就好了。\n[charslot(slot=\"m\",name=\"avg_npc_267_1#7$1\",focus=\"m\")]\n[name=\"切斯特\"]……恩雅，看到你平安无事，叔叔就放心了。"
+        }
+      ],
+      "description": "恩雅与切斯特直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_174_slbell",
+          "reason": "恩雅与切斯特在湖畔同一局部场景直接同行或交谈。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "切斯特直接接应并面对恩雅所在一行。",
+          "status": "supported",
+          "to": "char_174_slbell"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 752,
+          "kind": "story",
+          "line": 712,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典前夜宴会散场",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_174_slbell|npc_c56ef99fbe131371"
+}

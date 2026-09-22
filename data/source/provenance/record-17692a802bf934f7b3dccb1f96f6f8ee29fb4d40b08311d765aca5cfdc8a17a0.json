@@ -1,0 +1,244 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 209,
+          "line": 194,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_03_beg.txt",
+          "quote": "[Decision(options=\"啊，不用跑了，放我下来吧。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_422_aurora_1#2$1\")]\n[name=\"极光\"]啊！好的。\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]唉……\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]我必须跟你重申一下，博士。\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]不管你有什么样的计划，这都太冒险了。这话你可能不记得了，但我以前就跟你说过很多很多次。\n[dialog]\n[character(name=\"avg_npc_252\",focus=-1)]\n[Decision(options=\"我还是很相信你的。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]任何人都会失手，就算是我也一样。如果可以的话我希望你能降低我的工作难度。"
+        }
+      ],
+      "description": "Sharp与博士在救援后直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp与博士在救援后直接交谈。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "Sharp与博士在救援后直接交谈。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 209,
+          "kind": "story",
+          "line": 194,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 310,
+          "line": 283,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "quote": "[name=\"Outcast\"]稀客，博士。\n[name=\"Outcast\"]有时间坐下喝一杯吗？今晚所有的酒都算在我的账上。\n[Dialog]\n[charslot]\n[Decision(options=\"好热闹。;这么多人？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\",focus=\"m\")]\n[name=\"Touch\"]你忘了吗博士，今天举办的是Outcast的退休仪式。\n[charslot(slot = \"m\", name = \"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]敬我们尊敬的老前辈。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$clink\")]\n[PlaySound(key=\"$clink\", loop=false, channel=\"1\",delay=0.04)]\n[PlaySound(key=\"$clink\", loop=false, channel=\"2\",delay=0.06)]\n[PlaySound(key=\"$clink\", loop=false, channel=\"3\",delay=0.08)]\n[Delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_npc_245_1#6\",focus=\"m\")]\n[name=\"Outcast\"]够了Sharp，你也没比我小多少。\n[Dialog]\n[charslot]\n[Decision(options=\"感谢你对罗德岛的付出，Outcast。;退休快乐。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Dialog]\n[charslot(slot = \"m\", name = \"avg_npc_095\",focus=\"m\")]\n[name=\"Pith\"]我们会记得你的事迹和精湛的射术的，敬你。\n[charslot(slot = \"m\", name = \"char_017_homura_3#10\",focus=\"m\")]\n[name=\"煌\"]Outcast也要走了……"
+        },
+        {
+          "endLine": 395,
+          "line": 387,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "quote": "[name=\"凯尔希\"]你还记得他们每个人，你真切地为他们的遭遇感到遗憾。\n[name=\"凯尔希\"]否则你不会看到这些画面。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]你现在心情如何，博士？\n[name=\"凯尔希\"]欣慰，困惑还是愤怒？\n[Predicate(references=\"3\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]这些都是你的潜意识中你所期待的画面。"
+        },
+        {
+          "endLine": 515,
+          "line": 506,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "quote": "[name=\"凯尔希\"]这并非幻境，或是梦境。某种意义上讲，这一切同样是真实存在的。\n[name=\"凯尔希\"]存在于你的想象中，是你过去遇到过的人与事，按你最期待的样子发展出的幻景。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"n\")]\n[Decision(options=\"这是对我们经历过的一切的玷污。;你为什么还能这么冷静？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]\n[name=\"凯尔希\"]这些画面于我的触动并不弱于你，博士。\n[name=\"凯尔希\"]但是归根结底，这些还是由你自己创造的画面。\n[name=\"凯尔希\"]是源石，按你潜意识深处的期待和想要弥补某些遗憾的想法，“复制”出的景象。"
+        }
+      ],
+      "description": "这里只取现实博士对眼前具名熟悉人物的辨认；凯尔希在387–395及506–515明确这些是他过去认识之人的记忆所生成的期待画面。虚构人物的回应不支持反向，也不承认退休/存活等虚构情节。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E189"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "这里只取现实博士对眼前具名熟悉人物的辨认；凯尔希在387–395及506–515明确这些是他过去认识之人的记忆所生成的期待画面。虚构人物的回应不支持反向，也不承认退休/存活等虚构情节。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_508_aguard",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 310,
+          "kind": "story",
+          "line": 283,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 395,
+          "kind": "story",
+          "line": 387,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 515,
+          "kind": "story",
+          "line": 506,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 686,
+          "line": 670,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "quote": "[name=\"锏\"]咳，你是……\n[name=\"锏\"]Sharp？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]少说点话，你现在伤重。\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"none\")]\n[name=\"锏\"]博士让你来的？\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]博士和银灰先生一直有联络。听说谢拉格发生了天灾，博士猜到你们会遇到麻烦。\n[name=\"Sharp\"]虽然现在实在腾不开手，但博士答应过，只要谢拉格有难，不会坐视不理。\n[name=\"Sharp\"]我已经通知罗德岛增援，他们随后赶到。\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"none\")]\n[name=\"锏\"]……\n[name=\"锏\"]恩希欧迪斯呢？\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]不用担心，相信银灰先生已对局面有所掌控。\n[name=\"Sharp\"]坚持住，锏，最艰难的时候你已经挺过去了。"
+        }
+      ],
+      "description": "Sharp执行博士的具体援助指令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N23"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp具体转述博士的判断与承诺。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "N23"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士派 Sharp 执行援助任务。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 686,
+          "kind": "story",
+          "line": 670,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛援助雪山",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 951,
+          "line": 899,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "quote": "[name=\"Sharp\"]别激动。\n[name=\"Sharp\"]只是路过。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]这身制服……\n[name=\"“灰礼帽”\"]……这还真是个惊喜。\n[name=\"“灰礼帽”\"]罗德岛的人怎么会在这里？\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]这个你得问我上司。\n[Dialog]\n[charslot]\n[Decision(options=\"开斯特的好帮手又怎么在这里？;什么事要问我，贝林厄姆先生？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]这确实挺让人惊讶的。没想到还能见到您本人。\n[name=\"“灰礼帽”\"]但我记得，罗德岛和谢拉格的联系，仅限于“公司间的合作”来着？\n[name=\"“灰礼帽”\"]总不能是我记错了吧。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]好久不见……“博士”。\n[name=\"“灰礼帽”\"]这位也是罗德岛干员？看来情报说得没错，罗德岛的全貌我们确实未能完全把握。\n[name=\"“灰礼帽”\"]但是眼下先不提别的了。能在这里见到您，真是又惊又喜。\n[name=\"“灰礼帽”\"]诚心实意，这次不是在骗您了。毕竟我连这身打扮都没撤下，您就能认出我来。\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]罗德岛，你们——\n[Dialog]\n[charslot]\n[name=\"？？？\"]哇，博士！快来帮帮我！\n[Dialog]\n[Decision(options=\"缪尔赛思！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"缪尔赛思\"]嗯，怎么啦？\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]马上就要到站了，快来帮我收拾器械，博士……\n[name=\"缪尔赛思\"]咦？你们这是……？\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#6$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"烈夏\"]博士，咱们要不要去催催列车长让他再快点……\n[charslot(slot=\"m\",name=\"avg_194_leto_1#14$1\")]\n[name=\"烈夏\"]咦，是你！\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\")]\n[name=\"“灰礼帽”\"]罗德岛和哥伦比亚的莱茵生命……原来如此，原来如此。\n[name=\"“灰礼帽”\"]各位出现在此，看来并非巧合。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#1$1\")]\n[name=\"缪尔赛思\"]哎呀，看来这位先生认识我呢。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#9$1\")]\n[name=\"缪尔赛思\"]博士，Sharp先生，还有小烈夏，不为我介绍一下这位戴帽子的先生吗？"
+        }
+      ],
+      "description": "Sharp负责保护博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp明确称博士为自己的上司并负责保护。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士与Sharp共同在列车内应对灰礼帽。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 951,
+          "kind": "story",
+          "line": 899,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "前往银心湖的列车上",
+      "title": "银心湖列车"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 526,
+          "line": 449,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "quote": "[Decision(options=\"所有人测试通讯设备。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[playMusic(intro=\"$kaltsitteam_intro\", key=\"$kaltsitteam_loop\", volume=0.6)]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[interlude(maskid = \"group_interclude_square_common\", char = \"Raidian\", switch = true, style = 1,offset = \"-200,170\", channel = 3)]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"450,0\", pto=\"-180,50\",name = \"avg_npc_1730_1#1$1\",  duration = 0)]\n[interlude(channel = 3, switch = true)]\n[name=\"Raidian\"]已就位。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Mantra\", switch = true, style = 1,offset = \"200,170\", channel = 4)]\n[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"220,-60\", name = \"avg_npc_1300_1#1$1\", duration = 0)]\n[interlude(channel = 3, switch = false)]\n[name=\"Mantra\"]收到。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Misery\", switch = true, style = 1,offset = \"-200,-120\", channel = 5)]\n[interlude(channel = 5, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"-160,-350\", name = \"avg_npc_235\", duration = 0)]\n[interlude(channel = 4, switch = false)]\n[name=\"Misery\"]在前线等你们。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Logos\", switch = true, style = 1,offset = \"200,-120\", channel = 6)]\n[interlude(channel = 6, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"190,-320\", name = \"avg_4133_logos_1#1$1\", duration = 0)]\n[interlude(channel = 5, switch = false)]\n[name=\"Logos\"]前往集合。\n[dialog]\n[interlude(channel = 3, clear = true)]\n[interlude(channel = 4, clear = true)]\n[interlude(channel = 5, clear = true)]\n[interlude(channel = 6, clear = true)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[interlude(maskid = \"group_interclude_square_common\", char = \"Mechanist\", switch = true, style = 1,offset = \"-200,170\", channel = 3)]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"450,0\", pto=\"-130,-50\", name = \"avg_npc_521_1#1$1\", duration = 0)]\n[interlude(channel = 3, switch = true)]\n[name=\"Mechanist\"]马上到。\n[interlude(maskid = \"group_interclude_square_common\", char = \"迷迭香\", switch = true, style = 1,offset = \"200,170\", channel = 4)]\n[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"240,70\", name = \"avg_391_rosmon_1#1$2\", duration = 0)]\n[interlude(channel = 3, switch = false)]\n[name=\"迷迭香\"]我在，博士。\n[interlude(maskid = \"group_interclude_square_common\", char = \"煌\", switch = true, style = 1,offset = \"-200,-120\", channel = 5)]\n[interlude(channel = 5, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"-175,-300\", name = \"avg_017_huang_1#12$2\", duration = 0)]\n[interlude(channel = 4, switch = false)]\n[name=\"煌\"]好久没一起干架了！\n[interlude(maskid = \"group_interclude_square_common\", char = \"Sharp\", switch = true, style = 1,offset = \"200,-120\", channel = 6)]\n[interlude(channel = 6, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"240,-320\", name = \"avg_npc_252\", duration = 0)]\n[interlude(channel = 5, switch = false)]\n[name=\"Sharp\"]“坏家伙”号已返回本舰，马上集合。\n[dialog]\n[interlude(channel = 3, clear = true)]\n[interlude(channel = 4, clear = true)]\n[interlude(channel = 5, clear = true)]\n[interlude(channel = 6, clear = true)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[interlude(maskid = \"group_interclude_square_common\", char = \"Stormeye\", switch = true, style = 1,offset = \"-200,170\", channel = 3)]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"450,0\", pto=\"-200,-60\", name = \"avg_npc_167\", duration = 0)]\n[interlude(channel = 3, switch = true)]\n[name=\"Stormeye\"]稍等片刻。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Pith\", switch = true, style = 1,offset = \"200,170\", channel = 4)]\n[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"200,10\", name = \"avg_npc_1310_1#1$1\", duration = 0)]\n[interlude(channel = 3, switch = false)]\n[name=\"Pith\"]在。\n[interlude(maskid = \"group_interclude_square_common\", char = \"Touch\", switch = true, style = 1,offset = \"-200,-120\", channel = 5)]\n[interlude(channel = 5, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"-230,-250\", name = \"avg_npc_249_1$1\", duration = 0)]\n[interlude(channel = 4, switch = false)]\n[name=\"Touch\"]正在集合。\n[interlude(maskid = \"group_interclude_square_common\", char = \"阿斯卡纶\", switch = true, style = 1,offset = \"200,-120\", channel = 6)]\n[interlude(channel = 6, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"190,-320\", name = \"avg_4132_ascln_1#1$1\", duration = 0)]\n[interlude(channel = 5, switch = false)]\n[name=\"阿斯卡纶\"]等你。\n[dialog]\n[PlaySound(key=\"$transmission\", volume=1)]\n[interlude(channel = 3, clear = true, tsto=\"0,1\",tsduration=0.5)]\n[interlude(channel = 4, clear = true, tsto=\"0,1\",tsduration=0.5)]\n[interlude(channel = 5, clear = true, tsto=\"0,1\",tsduration=0.5)]\n[interlude(channel = 6, clear = true, tsto=\"0,1\",tsduration=0.5)]\n[delay(time=1.5)]\n[Decision(options=\"各位，目标已同步。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"优先目标——支援凯尔希。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"核心任务——进入Abyss，切断PRTS的核心能源。\", values=\"1\")]"
+        }
+      ],
+      "description": "Sharp具名回应博士的实时命令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D14"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp具名回应博士的实时命令。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D14"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "Sharp具名回应博士的实时命令。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 526,
+          "kind": "story",
+          "line": 449,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_508_aguard|npc_b99957887950ebfd"
+}

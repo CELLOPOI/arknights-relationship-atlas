@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 538,
+          "line": 508,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "quote": "[name=\"曼弗雷德\"] 我没有想错，卡特斯。\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] ——你很危险。\n[name=\"曼弗雷德\"] 你的力量，你的言辞……虽然无法撼动我们最坚强的战士，但的确会给我们的敌人带去希望的幻象。我不想让他们挣扎更久了。\n[name=\"曼弗雷德\"] 你只能在这里停下来。我不会再让你进入这座城市——\n[character(name=\"avg_npc_394_1#4$1\")]\n[name=\"阿米娅\"] 而我会踏碎你的牢笼！\n[character(name=\"avg_npc_394_1#4$1\",focus=-1)]\n[name=\"？？？\"] 这恐怕还称不上什么牢笼。\n[character(name=\"avg_npc_394_1#5$1\")]\n[name=\"阿米娅\"] 嗯……？\n[character(name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"] 有人在改变我法术的能量密度？\n[character(name=\"avg_npc_404_1#9$1\")]\n[name=\"曼弗雷德\"] 等等，又是你……\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_235\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"Misery\"] 博士，我是不是来得有点迟？\n[name=\"Misery\"] 要在伦蒂尼姆的城墙内部找到一条通路……就算是我，也很困难。\n[name=\"Misery\"] 好在我找到了几位出色的帮手。\n[dialog]\n[character(name=\"avg_npc_235\",focus=-1)]\n[Decision(options=\"辛苦你了，Misery。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character]\n[Decision(options=\"阿米娅，我们换个战场。;可露希尔，无人机定位。;费斯特，滑索。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Decision(options=\"现在，我们跳下去。\", values=\"1\")]"
+        }
+      ],
+      "description": "Misery突破曼弗雷德法术接应博士、阿米娅、可露希尔与费斯特；将军当面认出他，博士回应并命小队撤退。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E79"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "Misery突破曼弗雷德法术接应博士、阿米娅、可露希尔与费斯特；将军当面认出他，博士回应并命小队撤退。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E79"
+          ],
+          "from": "char_615_acspec",
+          "reason": "Misery突破曼弗雷德法术接应博士、阿米娅、可露希尔与费斯特；将军当面认出他，博士回应并命小队撤退。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 538,
+          "kind": "story",
+          "line": 508,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_615_acspec|npc_03f95afb5dd17c3f"
+}

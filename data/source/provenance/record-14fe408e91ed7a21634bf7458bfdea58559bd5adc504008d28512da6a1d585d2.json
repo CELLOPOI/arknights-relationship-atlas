@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 379,
+          "line": 370,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ebnhlz_1_1.txt",
+          "quote": "[name=\"黑键\"]让我猜猜……是女皇之声，对不对？\n[Character(name=\"avg_4046_ebnhlz_1#1$1\",name2=\"avg_npc_492_1#1$1\",focus=2)]\n[name=\"冷漠的贵族\"]请您自重。\n[Character(name=\"avg_4046_ebnhlz_1#1$1\",name2=\"avg_npc_492_1#1$1\",focus=1)]\n[name=\"黑键\"]看来我没猜中。\n[Character(name=\"avg_4046_ebnhlz_1#2$1\",name2=\"avg_npc_492_1#1$1\",focus=1)]\n[name=\"黑键\"]那就是某位选帝侯大人了，比如那个格特鲁德的领主——\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"avg_4046_ebnhlz_1#2$1\",name2=\"avg_npc_492_1#1$1\",focus=2)]\n[name=\"冷漠的贵族\"]你——您——放肆！"
+        }
+      ],
+      "description": "黑键明确提到格特鲁德及其领主，支持单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "char_4046_ebnhlz",
+          "reason": "黑键明确提到格特鲁德及其领主，支持单向知晓。",
+          "status": "supported",
+          "to": "npc_7aa857733598126f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_7aa857733598126f",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4046_ebnhlz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_da779f1204d8d0ff.json",
+      "sources": [
+        {
+          "endLine": 379,
+          "kind": "story",
+          "line": 370,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ebnhlz_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑键所述时段",
+      "title": "黑键"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 77,
+          "line": 59,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_02_beg.txt",
+          "quote": "[name=\"黑键\"]呼……呼……哈……\n[name=\"黑键\"]原来是你们这些“老熟人”啊。\n[name=\"黑键\"]我还在想，只是女皇们派来的刽子手的话，何必要大费周章地让我回来，又准许我多活这几天。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1126_1#1$1\",duration=1)]\n[delay(time=1.5)]\n[name=\"“巫王的余音”\"]乌提卡伯爵，您是计划的关键。\n[charslot(slot=\"m\",name=\"avg_4046_ebnhlz_1#8$1\")]\n[name=\"黑键\"]又是这套陈词滥调。\n[name=\"黑键\"]格特鲁德不是向你们证明过了吗？她费了那么大力气，也只不过差点炸了一座音乐厅。\n[name=\"黑键\"]这回你们又想差遣我做些什么？炸了顶上的公园吗？\n[charslot(slot=\"m\",name=\"avg_npc_1126_1#1$1\")]\n[name=\"“巫王的余音”\"]斯特罗洛伯爵败于自己的无知。她与最初那批实验者都只是一群乌合之众。\n[name=\"“巫王的余音”\"]他们得到了陛下的旋律，却不知道正确的“演绎”方法，竟将它们当作一种散播源石灾难的武器。\n[name=\"“巫王的余音”\"]这种粗糙的暴力是对艺术的玷污。假如陛下在当时苏醒，一定会宣判他们死刑。\n[charslot(slot=\"m\",name=\"avg_4046_ebnhlz_1#7$1\")]\n[name=\"黑键\"]哈哈，你的意思是，格特鲁德是冒牌货，而你们是真的？\n[name=\"黑键\"]需要我……来替你们向女皇陛下们申请一块艺术家勋章，来证明你们才是正统吗？"
+        }
+      ],
+      "description": "黑键知晓格特鲁德；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4046_ebnhlz",
+          "reason": "黑键明确提及格特鲁德及其行动。",
+          "status": "supported",
+          "to": "npc_7aa857733598126f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_7aa857733598126f",
+          "reason": "本窗没有格特鲁德视角或反向识别黑键。",
+          "status": "not_established",
+          "to": "char_4046_ebnhlz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_3a60825ada2e8d44.json",
+      "sources": [
+        {
+          "endLine": 77,
+          "kind": "story",
+          "line": 59,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "崔林特尔梅事件期间",
+      "title": "崔林特尔梅之金"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 370,
+          "line": 344,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_04_beg.txt",
+          "quote": "[name=\"格特鲁德\"]完全正确。\n[Character(name=\"avg_npc_484_1#10$1\",name2=\"avg_4046_ebnhlz_1#2$2\",focus=2)]\n[name=\"黑键\"]好，我完全明白了。\n[Character(name=\"avg_npc_484_1#10$1\",name2=\"avg_4046_ebnhlz_1#8$2\",focus=2)]\n[name=\"黑键\"]我退出您的这场计划。\n[Character(name=\"avg_npc_484_1#1$1\",name2=\"avg_4046_ebnhlz_1#8$2\",focus=1)]\n[name=\"格特鲁德\"]您就这么放弃了唾手可得的自由？\n[Character(name=\"avg_npc_484_1#1$1\",name2=\"avg_4046_ebnhlz_1#8$2\",focus=2)]\n[name=\"黑键\"]我还没疯到用一整个地块的感染者换自由的地步。\n[Character(name=\"avg_npc_484_1#2$1\",name2=\"avg_4046_ebnhlz_1#8$2\",focus=1)]\n[name=\"格特鲁德\"]您被罗德岛的人吓住了。\n[Character(name=\"avg_npc_484_1#1$1\",name2=\"avg_4046_ebnhlz_1#8$2\",focus=1)]\n[name=\"格特鲁德\"]假愈确实谈不上是好事，但您和白垩的音乐会几天后就要举行了。\n[Character(name=\"avg_npc_484_1#1$1\",name2=\"avg_4046_ebnhlz_1#8$2\",focus=1)]\n[name=\"格特鲁德\"]等到这几天过去，您的尘世之音被除掉，然后再离开维谢海姆，也不会多死几个感染者的。\n[Character(name=\"avg_npc_484_1#1$1\",name2=\"avg_4046_ebnhlz_1#8$2\",focus=1)]\n[name=\"格特鲁德\"]这样的机会千载难逢，您现在走了，乌提卡伯爵这个身份就将跟您一辈子。\n[Character(name=\"avg_npc_484_1#1$1\",name2=\"avg_4046_ebnhlz_1#8$2\",focus=1)]\n[name=\"格特鲁德\"]您真的想这样吗？\n[Character(name=\"avg_npc_484_1#1$1\",name2=\"avg_4046_ebnhlz_1#5$2\",focus=2)]\n[name=\"黑键\"]……不想，但我不能那么做。\n[Character(name=\"avg_npc_484_1#1$1\",name2=\"avg_4046_ebnhlz_1#1$2\",focus=2)]\n[name=\"黑键\"]再见，格特鲁德女士。\n[Character(name=\"avg_npc_484_1#6$1\",name2=\"avg_4046_ebnhlz_1#1$2\",focus=1)]\n[name=\"格特鲁德\"]您要去哪里？\n[Character(name=\"avg_npc_484_1#6$1\",name2=\"avg_4046_ebnhlz_1#1$2\",focus=2)]\n[name=\"黑键\"]跟您无关。"
+        }
+      ],
+      "description": "黑键与格特鲁德直接争论。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4046_ebnhlz",
+          "reason": "黑键称呼格特鲁德并拒绝其计划。",
+          "status": "supported",
+          "to": "npc_7aa857733598126f"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_7aa857733598126f",
+          "reason": "格特鲁德持续回应黑键并谈其处境。",
+          "status": "supported",
+          "to": "char_4046_ebnhlz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9c4c498e9c50a10e.json",
+      "sources": [
+        {
+          "endLine": 370,
+          "kind": "story",
+          "line": 344,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "格特鲁德与黑键交涉场景",
+      "title": "尘影余音"
+    }
+  ],
+  "relationship_id": "char_4046_ebnhlz|npc_7aa857733598126f"
+}

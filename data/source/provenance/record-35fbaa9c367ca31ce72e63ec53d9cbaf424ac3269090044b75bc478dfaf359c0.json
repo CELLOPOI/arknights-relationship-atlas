@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 679,
+          "line": 657,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_beg.txt",
+          "quote": "[name=\"哈维尔\"]你眼睛里面进盐粒了吗？\n[charslot(slot = \"m\", name = \"avg_4163_rosesa_1#19$1\",focus=\"m\")]\n[name=\"帕斯卡拉\"]唔？\n[charslot(slot = \"m\", name = \"avg_npc_1590_1#1$1\",focus=\"m\")]\n[name=\"鲁斯\"]你放着不管不就行了。\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#1$2\",focus=\"m\")]\n[name=\"哈维尔\"]我也想啊，但她挤眉弄眼的样子实在太丑了，感觉眼睛被吵到了。\n[charslot(slot = \"m\", name = \"avg_4163_rosesa_1#19$1\",focus=\"m\")]\n[name=\"帕斯卡拉\"]唔？！\n[charslot(slot = \"m\", name = \"avg_4163_rosesa_1#19$1\",focus=\"m\")]\n[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=45,duration=0.3)]\n[name=\"帕斯卡拉\"]唔——！！\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#9$2\",focus=\"m\")]\n[name=\"哈维尔\"]……什么也没有啊……\n[charslot(slot = \"m\", name = \"avg_npc_1590_1#1$1\",focus=\"m\")]\n[name=\"鲁斯\"]要不我来看看？\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[charslot(duration=0.7)]\n[Delay(time=1)]\n看到走近的鲁斯，女孩挣扎得更加剧烈了。\n直到她用余光看到极境正缓缓挪向桌子，靠近下面的盐鳞，她立刻停下所有动作，不再挣扎。\n她睁大眼睛，盯紧面前的两人，努力不让眼神向一边瞟去，哪怕一分一毫。"
+        }
+      ],
+      "description": "鲁斯靠近被俘帕斯卡拉，后者挣扎并注视对方。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "char_4163_rosesa",
+          "reason": "鲁斯靠近被俘帕斯卡拉，后者挣扎并注视对方。",
+          "status": "supported",
+          "to": "npc_0a8b187bfc318db9"
+        },
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "npc_0a8b187bfc318db9",
+          "reason": "鲁斯靠近被俘帕斯卡拉，后者挣扎并注视对方。",
+          "status": "supported",
+          "to": "char_4163_rosesa"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 679,
+          "kind": "story",
+          "line": 657,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_4163_rosesa|npc_0a8b187bfc318db9"
+}

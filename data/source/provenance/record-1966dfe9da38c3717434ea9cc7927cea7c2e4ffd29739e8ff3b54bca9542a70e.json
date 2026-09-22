@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 65,
+          "line": 43,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_07_end.txt",
+          "quote": "[name=\"锡兰\"]   博士，怎么办！\n[Decision(options=\"赶紧动员大家疏散人群！;至少先让大家离开危险地区！\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_188_helage_1\")]\n[name=\"赫拉格\"]   博士，要不要通知罗德岛全体……\n[Character]\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[name=\"艾雅法拉\"]   博士，能听到吗！火山的分析研究完成了！\n[name=\"艾雅法拉\"]   如果现在的话，还有机会能争取到更多的时间！\n[name=\"普罗旺斯\"]   博士，我们已经把火山活动的原因找到了，这次的火山活动很有可能是可以被阻止的！\n[name=\"艾雅法拉\"]   现在大家冷静下来听我说，只要按照这个方法来，一定能把火山爆发的时间推迟！\n[Character(name=\"char_188_helage_1\")]\n[name=\"赫拉格\"]   我们可以帮忙，如果真的是人力所及的话。\n[Character(name=\"char_340_shwaz_2#2\")]\n[name=\"黑\"]   ……嗯。\n[Character(name=\"char_348_ceylon_4#3\",name2=\"char_340_shwaz_2#2\",focus=1)]\n[name=\"锡兰\"]   不，这件事就交给我们吧。\n[name=\"锡兰\"]   克洛宁已经蛰伏了这么长的时间，他的残党必然布及整座城市。\n[name=\"锡兰\"]   现在正是最关键的时刻。黑，赫拉格爷爷，你们都有自己的事情要做。\n[Character(name=\"char_348_ceylon_4#2\",name2=\"char_340_shwaz_2#2\",focus=2)]\n[name=\"黑\"]   这些事情交给其他人去做就可以——\n[Character(name=\"char_348_ceylon_4#3\",name2=\"char_340_shwaz_2#2\",focus=1)]\n[name=\"锡兰\"]   但这是我们的任务。"
+        }
+      ],
+      "description": "博士参与当场行动决策，黑在同一连续对话中回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_340_shwaz",
+          "reason": "博士参与当场行动决策，黑在同一连续对话中回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士参与当场行动决策，黑在同一连续对话中回应。",
+          "status": "supported",
+          "to": "char_340_shwaz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 65,
+          "kind": "story",
+          "line": 43,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 336,
+          "line": 329,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_1_1.txt",
+          "quote": "[name=\"赫尔曼\"]  是啊，我以前也是这么想的。\n[name=\"赫尔曼\"]  但我稍微有点累了，黑。\n[name=\"赫尔曼\"]  新城区快要完成了，市民们办好手续就可以迁移过去。\n[name=\"赫尔曼\"]  我对那个罗德岛的博士说，名义上的汐斯塔将会继续在这片大地上存在下去。\n[name=\"赫尔曼\"]  但我没告诉那位博士，我心里的汐斯塔没了。\n[name=\"赫尔曼\"]  我和芭芭拉约定的汐斯塔，我为她建造的汐斯塔终究要被我抛弃了。\n[Character(name=\"char_340_shwaz_2\",name2=\"avg_npc_024\",focus=1)]\n[name=\"黑\"]  这也是……没有办法的事。"
+        }
+      ],
+      "description": "黑从赫尔曼处听到对罗德岛博士的具体指称；仅支持黑知晓博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_340_shwaz",
+          "reason": "黑在场听到赫尔曼具体指称罗德岛博士及其交谈内容。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在本场，也没有本篇证据表明博士知晓黑。",
+          "status": "not_established",
+          "to": "char_340_shwaz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_52c2552faa23deab.json",
+      "sources": [
+        {
+          "endLine": 336,
+          "kind": "story",
+          "line": 329,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑离开汐斯塔前与赫尔曼的谈话",
+      "title": "黑"
+    }
+  ],
+  "relationship_id": "char_340_shwaz|npc_b99957887950ebfd"
+}

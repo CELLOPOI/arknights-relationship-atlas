@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 555,
+          "line": 549,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ethan_1_1.txt",
+          "quote": "[name=\"星熊\"]  对了，你有办法回罗德岛吗？\n[Character(name=\"char_136_hsguma\", name2=\"char_355_ethan_1\", focus=2)]\n[name=\"伊桑\"]  有，下周我搭办事处的车队回去。\n[Character(name=\"char_136_hsguma\", name2=\"char_355_ethan_1\", focus=1)]\n[name=\"星熊\"]  好啊，那我就不送你了，替我向博士和老陈问声好。\n[Character(name=\"char_136_hsguma\", name2=\"char_355_ethan_1\", focus=2)]\n[name=\"伊桑\"]  没问题。"
+        }
+      ],
+      "description": "伊桑明确承接转达给博士的问候，仅支持伊桑到博士的方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_355_ethan",
+          "reason": "伊桑答应星熊回罗德岛后替她向博士问好，支持他知道具体收讯对象。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在本段出现，也没有博士知晓伊桑的独立证据。",
+          "status": "not_established",
+          "to": "char_355_ethan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_4ea1601a9687a842.json",
+      "sources": [
+        {
+          "endLine": 555,
+          "kind": "story",
+          "line": 549,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ethan_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伊桑准备返回罗德岛前与星熊的谈话",
+      "title": "伊桑"
+    }
+  ],
+  "relationship_id": "char_355_ethan|npc_b99957887950ebfd"
+}

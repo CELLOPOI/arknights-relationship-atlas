@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 399,
+          "line": 336,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st01.txt",
+          "quote": "[Character(name=\"avg_430_fartth_1#2\", name2=\"avg_npc_122\", focus=2)]\n[name=\"索娜\"]  不过，她还是救了我这么一个感染者，哪怕明知道有人在盯着她。\n[Character(name=\"avg_430_fartth_1\", name2=\"avg_npc_122\", focus=1)]\n[name=\"查丝汀娜\"]  ……嗯。\n[Character(name=\"avg_430_fartth_1#2\", name2=\"avg_npc_122\", focus=1)]\n[name=\"查丝汀娜\"]  也许她真的是那个耀骑士。那些……那些感染者们想象出来的耀骑士。\n[Character(name=\"avg_430_fartth_1#2\", name2=\"avg_npc_122#6\", focus=2)]\n[name=\"索娜\"]  这是什么话——别说这个了，你救下的那位可怜人怎么样了？那个老父亲？\n[Character(name=\"avg_430_fartth_1\", name2=\"avg_npc_122#6\", focus=1)]\n[name=\"查丝汀娜\"]  他——\n[Character(name=\"avg_430_fartth_1\", name2=\"avg_npc_122#6\", focus=-1)]\n[name=\"？？？\"]  你问我怎么样？\n[delay(time=0.6)]\n[dialog]\n[character]\n[Character(name=\"avg_npc_103nc_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"塑料骑士\"]  ……箭在弦上，感染者。\n[name=\"塑料骑士\"]  我要让那帮低贱的凶手付出代价。\n[dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]\n[Background(image=\"bg_23_G09\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_210_1\")]\n[name=\"年长的骑士\"]  阿米娅女士，还有罗德岛的博士，请进吧，这里就是各位的住房。\n[name=\"年长的骑士\"]  二位的套房在楼上，参与医疗项目的各位医生则在十二层休息。\n[dialog]\n[Character(name=\"char_002_amiya_1#3\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"阿米娅\"]  谢谢您，阁下。\n[Character(name=\"avg_npc_210_1#2\", name2=\"char_002_amiya_1#3\", focus=1)]\n[name=\"年长的骑士\"]  呵呵……不用这么拘谨，阿米娅女士。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#3\", focus=1)]\n[name=\"年长的骑士\"]  没想到罗德岛的领导人，会是这么一位年轻可爱的卡特斯姑娘，真是年轻有为。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#6\", focus=2)]\n[name=\"阿米娅\"]  没、没有的事……\n[dialog]\n[Decision(options=\"罗德岛确实离不开阿米娅。;阿米娅一直很努力。\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_002_amiya_1#11\")]\n[CameraShake(duration=0.5, xstrength=10, ystrength=10, vibrato=15, randomness=60, fadeout=true, block=false)]\n[name=\"阿米娅\"]  博、博士……\n[Character(name=\"avg_npc_210_1#6\", name2=\"char_002_amiya_1#11\", focus=1)]\n[name=\"年长的骑士\"]  哈哈，害羞了？\n[name=\"年长的骑士\"]  多可爱的孩子，如果我有个孙女，也差不多你这般大吧。\n[Character(name=\"avg_npc_210_1#6\", name2=\"char_002_amiya_1#11\", focus=2)]\n[name=\"阿米娅\"]  啊……\n[Character(name=\"avg_npc_210_1#3\", name2=\"char_002_amiya_1#11\", focus=1)]\n[name=\"年长的骑士\"]  哎呀哎呀，脸都红了。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#11\", focus=1)]\n[name=\"年长的骑士\"]  不过，还是很抱歉，考虑到各位的特殊身份，我们没法安排统一的会面。\n[Character(name=\"avg_npc_210_1\", name2=\"char_002_amiya_1#3\", focus=2)]\n[name=\"阿米娅\"]  嗯……没关系的，我们能理解。\n[Character(name=\"avg_npc_210_1#2\")]\n[name=\"年长的骑士\"]  所以……“砾”。\n[dialog]\n[Character(name=\"avg_237_gravel_1#2\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"塞诺蜜\"]  请吩咐。\n[Character(name=\"avg_237_gravel_1#2\", name2=\"avg_npc_210_1\", focus=2)]\n[name=\"年长的骑士\"]  这位是四阶征战骑士，叫她“砾”吧，也是一位年轻有为的青年骑士……\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  ……您好。"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_423_blemsh",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_423_blemsh"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 399,
+          "kind": "story",
+          "line": 336,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "char_423_blemsh|npc_b99957887950ebfd"
+}

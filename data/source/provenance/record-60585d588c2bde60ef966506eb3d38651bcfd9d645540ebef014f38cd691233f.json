@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 207,
+          "line": 147,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-10_end.txt",
+          "quote": "[Background(image=\"bg_rhodescorner\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_235\",duration=0.5)]\n[Delay(time=1)]\n[name=\"Misery\"]“醒了”？\n[charslot(slot = \"m\", focus = \"n\")]\n[name=\"阿斯卡纶\"]注意侧方。\n[dialog]\n[charslot(slot=\"r\",name=\"avg_npc_1728_1#1$1\",duration=0.3,posfrom = \"200,0\", posto = \"-100,0\")]\n[playsound(key=\"$d_avg_swrdclave\")]\n[Effect(name=\"$e_slash_01_s\",layer = 1,x = 0,rox=-30,roy=70)]\n[Delay(time=0.2)]\n[playsound(key=\"$d_avg_runstop\",channel=\"3\")]\n[charslot(slot=\"m\",duration=0.3,posfrom = \"0,0\", posto = \"-300,0\",afrom=1,ato=0)]\n[Delay(time=0.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$d_avg_daggerexsheath\")]\n[Blocker(a=0.15, r=1, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot(slot=\"r\",duration=0.3,posfrom = \"-100,0\", posto = \"-100,-100\",afrom=1,ato=0)]\n[CameraShake(duration=0.2, xstrength=5, ystrength=20, vibrato=10, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$bodyfalldown1\",channel=\"4\")]\n[Delay(time=0.5)]\n[playsound(key=\"$d_avg_glassbroken\")]\n[Delay(time=1.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#8$1\",duration=0.5)]\n[Delay(time=1)]\n[name=\"阿斯卡纶\"]很诡异，它们死不透。\n[charslot]\n阿斯卡纶的袖刃弹出，指向不远处一片浮动不定的阴影。\n重重叠叠的人影如鬼魅般浮现，从阴影中不断涌出。每一个脚步落下时，都伴随着结晶破碎的声响。\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]它们身上的衣服——整合运动？还有食腐者……真是再见到谁都不会奇怪了。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#8$1\")]\n[name=\"阿斯卡纶\"]它们的身体完全由源石构成，不能用过去的经验来判断。\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]明白了，那就随机应变。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#1$1\")]\n[name=\"阿斯卡纶\"]不能一直被动留在原地，要先找到这些东西的来源。\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]我们暂时无法确定这些敌人的目的。博士那边的情况还不清楚，如果……\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#1$1\")]\n[name=\"阿斯卡纶\"]博士那边有阿米娅在，无需担忧。\n[name=\"阿斯卡纶\"]继续执行我们的任务——确定异变的根源。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#3$1\")]\n[name=\"阿斯卡纶\"]如果这就是凯尔希一直在戒备的状况，这些东西必然在遵循某个未知意志的指挥……\n[dialog]\n[charslot]\n[playsound(key=\"$transmission\")]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]通讯也被隔离了，还是没法联系上其他人。\n[name=\"Misery\"]不知道其他的精英干员——\n[name=\"Misery\"]阿斯卡纶……\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot = \"m\", focus = \"n\")]\n走过身旁的源石结晶时，Misery敏锐地从结晶的多个棱面中捕捉到了一个一晃而过的身影。\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]我好像看到了Outcast？"
+        }
+      ],
+      "description": "阿斯卡纶在场听Misery具体提到Outcast。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D29"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "阿斯卡纶在场听Misery具体提到Outcast。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 207,
+          "kind": "story",
+          "line": 147,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4132_ascln|npc_617e6ed434c6e138"
+}

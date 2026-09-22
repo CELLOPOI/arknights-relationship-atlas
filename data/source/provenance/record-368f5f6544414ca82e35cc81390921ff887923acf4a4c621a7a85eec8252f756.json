@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 135,
+          "line": 38,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-02_beg.txt",
+          "quote": "[name=\"Scout\"]  从没听过你对我的评价，现在才知道，原来我感受起来是这么脆弱。\n[Character]\n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n你什么时候来的？！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  可以说是一直都在。我习惯隐藏自己了。\n[Character(name=\"avg_npc_042\")]\n[name=\"Rosmontis\"]  Scout先生他确实一直都在的。\n[name=\"Rosmontis\"]  为什么煌没有感觉到呢？\n[Character]\n……我是比较粗线条，没看到啦！\n不是，你听她说了那么久，怎么不帮她修下啊。\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  抱歉，接下来我们有任务。我得花些精力校准武器。\n[name=\"Scout\"]  你可能要请可露希尔或是机械师Mechanist先生去解决了。\n[Character]\n是那个，营救Dr.{@nickname}的任务吗？\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_014_riope\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"Ace\"]  是。\n[Character]\n哦哦，你也来了。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  作为主要发起人之一，如果我自己都不去，罗德岛精英干员不是成了笑话？\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=1)]\n[name=\"Scout\"]  阿斯卡纶怎么回复你的？\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=2)]\n[name=\"Ace\"]  一样的托辞。她不会参与。同往常一样，她一直都和凯尔希站一边。\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=1)]\n[name=\"Scout\"]  ……你有没有考虑过，现在可能不是最佳时机？\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=2)]\n[name=\"Ace\"]  但这也可能是我们最后的机会。\n[name=\"Ace\"]  为了躲避这次天灾，切尔诺伯格很可能会在驶离这里后，转向乌萨斯腹地。在乌萨斯内部展开营救，成功的概率趋近于零。\n[Dialog]\n[Character]\n听你们说了那么多回，这个Dr.{@nickname}真有那么神奇吗？\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  和阿米娅与凯尔希一样神奇。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=2)]\n[name=\"Rosmontis\"]  我见过博士吗？\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=1)]\n[name=\"Ace\"]  没有。不过很快你就能见到了。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=2)]\n[name=\"Rosmontis\"]  嗯。我也很想感受一下博士的样子。\n[name=\"Rosmontis\"]  很想。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=1)]\n[name=\"Scout\"]  你会的，小猫。\n[Dialog]\n[Character]\n对了，Ace。 你下辖小队里，有个叫灰喉的非患者。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  这事我记得。她应该还在单独舱室接受指导。\n[name=\"Ace\"]  煌，听我一句。我带着她几个月了，她也许不太会表达，但绝对没有恶意。\n[Character]\n但她对我的队员说：“我不知道你们感染者有多痛苦。”\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  我清楚。但她可能真的只是很疑惑，她想要去问这个问题。\n[name=\"Ace\"]  我没资格要求干员立即明白我们的处境，而且，灰喉从没质疑过罗德岛的命令。\n[Character]\n其他我不管，我绝对不允许任何人侮辱我的队员，更别说诋毁罗德岛感染者们的奋斗了。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  不是现在。我知道你在克制怒意，但真的，不是现在。\n[Character]\n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n她当着我的面这么说！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  大猫，消停些。\n[name=\"Scout\"]  你也有任务在身。\n[Character]\n……是啊。\n行吧，回来再处理。\n谁叫Ace资历比我老呢。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  一旦你开始用这种口气说话，我就怀疑你是想戏弄别人。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  她可能真的在取笑你。\n[Character]\n他只要有两天没修胡子，我就一定会觉得他资历特别老。\n[Character(name=\"avg_npc_042\",name2=\"char_014_riope\",focus=1)]\n[name=\"Rosmontis\"]  Ace，胡子很硬。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  ……啊。\n[Character]\n哈哈哈。那我去帮她送东西了。我也有任务在身，先走啦。\n等我任务结束回来，我们再去好好喝一场吧！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  可别再喝得吐一地了。\n[name=\"Scout\"]  Misery擦了两小时地板，再让他见那种场面，他恐怕也要吐出来。\n[Character]\n谁知道你酒量那么好啊！\nRosmontis，机械师过会儿就把终端给你送过来。\n乖乖等着就好了，别把这事儿忘了哦！\n[Character(name=\"avg_npc_042\")]\n[name=\"Rosmontis\"]  嗯，我不会忘的！再见！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  小心烫伤！"
+        }
+      ],
+      "description": "Ace明确谈及下辖小队的灰喉，双方有既往带队关系。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_367_swllow",
+          "reason": "Ace明确谈及下辖小队的灰喉，双方有既往带队关系。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_367_swllow"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 135,
+          "kind": "story",
+          "line": 38,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "局部坏死"
+    }
+  ],
+  "relationship_id": "char_367_swllow|npc_ded4733bcc9da868"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 190,
+          "line": 125,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "quote": "[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=1)]\n[delay(time=3)]\n[Decision(options=\"休息吗……;……;真是奢侈的单词。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[delay(time=1)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_canteen\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n7:33 A.M.   \n罗德岛食堂\n[dialog]\n[Character(name=\"char_124_kroos_1\", name2=\"avg_123_fang_1\",fadetime=0.7)]\n[delay(time=0.7)]\n[Character(name=\"char_124_kroos_1\", name2=\"avg_123_fang_1\", focus=2)]\n[name=\"芬\"]  啊，博士！早上好。\n[Character(name=\"char_124_kroos_1#2\", name2=\"avg_123_fang_1\", focus=1)]\n[name=\"克洛丝\"]  咦？啊，是博士~\n[Character(name=\"char_124_kroos_1#2\", name2=\"avg_123_fang_1\", focus=-1)]\n[Dialog]\n[Decision(options=\"早上好。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_124_kroos_1#2\")]\n[name=\"克洛丝\"]  真难得，博士你居然有时间来食堂吃早饭，今天终于没那么忙了？\n[Dialog]\n[Decision(options=\"是……今天可以稍微休息一下。;……;我平时一直很忙吗？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  嘿，看看这是谁？\n[name=\"黑角\"]  这个点能在食堂看到您，可真是稀奇。\n[Character(name=\"char_500_noirc_1\",focus=-1)]\n[Dialog]\n[Decision(options=\"我平时在你们眼中都是什么印象啊……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  什么印象……大概就是全年加班无休的工作狂？\n[name=\"黑角\"]  说真的，俺觉得您也该歇歇了，从离开龙门后，您就一直这样，小心身体吃不消哦。\n[name=\"黑角\"]  对自己好一点吧，博士，毕竟当时我们可是——\n[Dialog]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$fightgeneral\", volume=1)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]\n[Dialog]\n[delay(time=0.51)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"黑角\"]  ——哎呦……痛痛痛，你干嘛！\n[dialog]\n[character]\n[Character(name=\"avg_502_nblade_1\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"avg_502_nblade_1\")]\n[name=\"夜刀\"]言多必失。 \n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=0.5)]\n[delay(time=1)]\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  嗯？\n[Dialog]\n[Character(name=\"char_500_noirc_1\", focus=-1)]\n[Decision(options=\"没事……你说得对。;我这条命不光是自己的，我需要时刻提醒自己这一点。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")] "
+        }
+      ],
+      "description": "夜刀与博士同桌并参与连续直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "char_502_nblade",
+          "reason": "夜刀与博士同桌并参与连续直接交流。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "夜刀与博士同桌并参与连续直接交流。",
+          "status": "supported",
+          "to": "char_502_nblade"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 190,
+          "kind": "story",
+          "line": 125,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    }
+  ],
+  "relationship_id": "char_502_nblade|npc_b99957887950ebfd"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "import:npc_30c8dcf1e7b8383d|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【银灰】\nMedic：博士，你对这件事有什么看法吗？\n选项：\n1：希瓦艾什……是谁？\n2：希瓦艾什，是个什么样的人？\n3：希瓦艾什，真是个独特的姓氏……\n分支条件（原选项编号）：1 / 2 / 3\nMedic：啊！我都忘了，那个时候博士你还不在呢。\nMedic：瞧我，最近因为博士越来越可靠了，就下意识地感觉你什么都知道了……\n\n【怒号光明】\n选项：\n1：阿米娅？你找我吗？\n分支条件（原选项编号）：1\n阿米娅：啊，Dr.{@nickname}！\n阿米娅：Medic，麻烦你和华法琳了。\nMedic：嗯，就，交给我们吧！\n阿米娅：博士，我马上就来！\n\n【直到大地变成一颗酸橙】\nMedic：安洁莉娜小姐，差点忘了，送给你的糖果。\n安洁莉娜：谢谢你……\nMedic：这不是我送的，是博士送的啦。\nMedic：采购部新进了一批新口味糖果，糖纸又很好看，博士就给医疗部的每个患者都送了些。\nMedic：还好我刚想起来你已经搬到了这边，不然就漏人啦，嘿嘿。\n\n【黑暗时代·上】\n医疗干员：阿，阿米娅！\n阿米娅：怎么了?\n医疗干员：是……是来自罗德岛的对话请求！\n阿米娅：通讯接上了吗！难道说，是凯尔希医……\n？？？：很抱歉，并不是。\n阿米娅：PRTS……？\nPRTS：应急神经连接请求被意外触发了。\nPRTS：罗德岛号方面也受到干扰，只有神经连接可以勉强进行。\nPRTS：无法用电波通讯联系到尚未回到罗德岛的凯尔希。\nPRTS：已经确认过阿米娅您的安全，那么我的任务就已经完成了。\n杜宾：这东西……\n杜宾：现在真的是时候吗？\nPRTS：不需要使用您的神经连接操作罗德岛的话，我将在稍后断开连接。\nPRTS：如果打扰到了您的派对，万分抱歉。\n阿米娅：不不！别挂断……我需要你帮个忙。\n阿米娅：杜宾，博士需要这些帮助。\n杜宾：了解了，抓紧时间。\n阿米娅：博士，PRTS也是我们的……同伴，它会指导你下一步的动作。\n阿米娅：虽然时间很紧张，但现在，我要为你重新连接至罗德岛的后勤系统。\n阿米娅：这样在我们作战的时候，你也能利用它为我们取得优势。\n阿米娅：可能会很难习惯，和说话不太一样，但只要好好使用，就一定能使整个救援作战更加顺利，所以请你……\n阿米娅：……相信我吧。按你想要的那样，按你熟悉的那样……\n阿米娅：PRTS……开始吧。\nPRTS：需要确认管理员身份，请选择识别方式。\n阿米娅：啊，博士……请你说句话。\n选项：\n1：（说话）",
+  "relationship_id": "npc_30c8dcf1e7b8383d|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 46,
+      "kind": "story",
+      "line": 40,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_svrash_1_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 830,
+      "kind": "story",
+      "line": 823,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 252,
+      "kind": "story",
+      "line": 241,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 150,
+      "kind": "story",
+      "line": 108,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

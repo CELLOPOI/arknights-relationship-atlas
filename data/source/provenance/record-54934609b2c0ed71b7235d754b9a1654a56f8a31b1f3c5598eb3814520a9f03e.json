@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1573,
+          "line": 1437,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_10_end.txt",
+          "quote": "[name=\"索娜\"]  现在，请你们前进吧。只是从这条道路的这头走到那头，只是穿越这座城市——\n[name=\"索娜\"]  ——但这就是一场伟大的事业。\n[dialog]\n[Character]\n[delay(time=2)]\n[character(name=\"char_204_platnm_1\",fadetime=1)]\n[delay(time=1.5)]\n[name=\"白金\"]  ……又是红松骑士团吗，看来征战骑士还没有出现。\n[name=\"白金\"]  这么大大方方地出现在宽阔的街道上，简直就是在诱惑别人狙击他们——\n[character(name=\"char_204_platnm_1\",focus=-1)]\n[name=\"？？？\"]  别动。\n[character(name=\"char_204_platnm_1\")]\n[name=\"白金\"]  ……\n[dialog]\n[Character]\n[character(name=\"avg_npc_103nc_1\",fadetime=1.5)]\n[delay(time=1.5)]\n[name=\"瑟奇亚克\"]  ……就这么放他们过去，白金。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G05\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$phonevibration\",volume=0.6)]\n[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, fadeout=true, block=true)]\n[name=\"通讯器里的声音\"]  请求支援！请求支援！\n[dialog]\n[Character(name=\"avg_npc_209_1#5\", name2=\"avg_npc_208_1#5\", focus=2,fadetime=0.8)]\n[delay(time=0.51)]\n[name=\"莫妮克\"]  ……罗伊，不能浪费时间了。\n[Character(name=\"avg_npc_209_1#5\", name2=\"avg_npc_208_1#5\", focus=1)]\n[name=\"罗伊\"]  啧……你找机会撤，我拦住他们。\n[Character(name=\"avg_npc_209_1#5\", name2=\"avg_npc_208_1#3\", focus=2)]\n[name=\"莫妮克\"]  ……你小心。\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=300, fadetime=2,block=false)]\n[character(name=\"avg_npc_209_1#5\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=2)]\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_213_1#4\")]\n[name=\"托兰\"]  说什么悄悄话呢？\n[character(name=\"avg_npc_108\")]\n[name=\"玛恩纳\"]  ……\n[Character(name=\"avg_npc_209_1#4\")]\n[name=\"罗伊\"]  ……哈哈……这还真是……苦差事。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G07\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_216\",name2=\"avg_npc_216\")]\n[delay(time=1.5)]\n[name=\"无胄盟成员\"]  就位——\n[dialog]\n[PlaySound(key=\"$fightgeneral\")] \n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(fadetime=1.5)]\n[PlaySound(key=\"$bodyfalldown1\", volume=1)]\n[delay(time=1)]\n[Character(name=\"avg_npc_123\")]\n[name=\"格蕾纳蒂\"]  索娜！无胄盟的人越来越多了！再拖下去，情况不太妙啊——\n[Character(name=\"avg_496_wdmane_1#8\")]\n[name=\"艾沃娜\"]  喂，你们这些家伙，为什么不来帮忙——！？\n[Character(name=\"avg_npc_221\")]\n[name=\"感染者骑士\"]  ……\n[Character(name=\"avg_496_wdmane_1#8\")]\n[name=\"艾沃娜\"]  啧，胆小怕事的废物。\n[Character(name=\"avg_430_fartth_1#6\")]\n[name=\"查丝汀娜\"]  艾沃娜！背后！\n[Character(name=\"avg_496_wdmane_1#6\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"艾沃娜\"]  ——\n[Dialog]\n[Character]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[PlaySound(key=\"$sheildimpact\", volume=0.9)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Dialog]\n[Character]\n[character(name=\"avg_npc_061#5\",fadetime=1.5)]\n[delay(time=1.5)]\n[name=\"玛莉娅\"]  ……没事吧！\n[Character(name=\"avg_npc_122#8\")]\n[name=\"索娜\"]  玛莉娅！\n[character(name=\"avg_npc_061\")]\n[name=\"玛莉娅\"]  我来帮你们——！\n[Character(name=\"avg_npc_216\",name2=\"avg_npc_216\")]\n[name=\"无胄盟成员\"]  ——是玛莉娅·临光！把他们——\n[dialog]\n[Character(name=\"avg_npc_064_weapon_1#2\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"佐菲娅\"]  ……不许你们对玛莉娅出手。\n[Character(name=\"avg_npc_120\")]\n[name=\"老骑士\"]  科瓦尔，你准备好了吗！？\n[Character(name=\"avg_npc_101#2\")]\n[name=\"老工匠\"]  蓄势待发！\n[Character(name=\"avg_npc_216\",name2=\"avg_npc_216\")]\n[name=\"无胄盟成员\"]  你们这些老家伙——包围他们！\n[Character(name=\"avg_npc_216\",name2=\"avg_npc_216\")]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"无胄盟成员\"]  怎么了？武器怎么在颤动——\n[Character(name=\"avg_npc_107\")]\n[name=\"光头马丁\"]  （笑眯眯）……为什么呢？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G04\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_212_1#5\")]\n[name=\"发言人麦基\"]  ……耀骑士在狠狠打联合会的脸。\n[name=\"发言人麦基\"]  剩下的无胄盟都在这里了吗？那两个萨卡兹骑士呢？\n[Character(name=\"avg_npc_216\")]\n[name=\"无胄盟成员\"]  自从上次刺杀梦魇未遂之后……就、就不见了……\n[Character(name=\"avg_npc_212_1#4\")]\n[name=\"发言人麦基\"]  ……算了，你们立刻赶去支援，必须拦住耀骑士和血骑士。\n[name=\"发言人麦基\"]  哪怕杀了——\n[Dialog]\n[Character]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_215_1#5\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"烛骑士\"]  麦基。\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_212_1#3\")]\n[name=\"发言人麦基\"]  ……！\n[Dialog]\n[character(name=\"avg_npc_215_1#5\")]\n她捧着一团烛火。\n美丽的烛火。\n[character(name=\"avg_npc_215_1#2\")]\n[name=\"烛骑士\"]  别去妨碍他们，好吗？"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_496_wildmn",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_9192181c72a516f5"
+        },
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_9192181c72a516f5",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_496_wildmn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 1573,
+          "kind": "story",
+          "line": 1437,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "char_496_wildmn|npc_9192181c72a516f5"
+}

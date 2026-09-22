@@ -1,0 +1,173 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 491,
+          "line": 488,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "quote": "[Decision(options=\"摩根小队，去东侧入口。;自救军三队分头骚扰北门与西南门。;可露希尔继续负责侦察和支援。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_405_1#1$1\")]\n[name=\"摩根\"]好的，博士。达格达，我们走。"
+        }
+      ],
+      "description": "博士点名摩根小队部署，摩根回应并叫达格达同行；s15:88–112明确二人答应博士指令并同意执行。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E47"
+          ],
+          "from": "char_154_morgan",
+          "reason": "博士点名摩根小队部署，摩根回应并叫达格达同行；s15:88–112明确二人答应博士指令并同意执行。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E47"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士点名摩根小队部署，摩根回应并叫达格达同行；s15:88–112明确二人答应博士指令并同意执行。",
+          "status": "supported",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 491,
+          "kind": "story",
+          "line": 488,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 292,
+          "line": 203,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_end.txt",
+          "quote": "[name=\"阿斯卡纶\"]他们的人很多，装备很精良，配合也很完美。\n[name=\"阿斯卡纶\"]雇佣兵做不到这些，这是正规军的精锐。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#6$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]他们每一个人，都是从千百次战斗中爬出来的嗜血机器。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_155_tiger_1#9$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_419_1#1$1\",focus=\"l\")]\n[name=\"因陀罗\"]你给老子滚开！\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_155_tiger_1#9$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_419_1#1$1\",focus=\"all\")]\n[Delay(time=0.1)]\n[charslot(slot = \"l\", action=\"jump\",posfrom=\"0,0\",posto=\"120,0\",power=0,times=1,afrom=1,ato=1,duration=0.1)]\n[charslot(slot = \"r\", action=\"jump\",posfrom=\"0,0\",posto=\"60,0\",power=0,times=1,afrom=1,ato=1,duration=0.2,isblock=true)]\n[CameraShake(duration=1.2, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[PlaySound(key=\"$swordtsing5\", volume=1,delay=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[Delay(time=0.6)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$d_avg_metallicclick\")]\n[PlaySound(key=\"$swordtsing5\", volume=1,delay=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[charslot(slot = \"l\", action=\"jump\",posfrom=\"120,0\",posto=\"-240,0\",power=10,times=1,afrom=1,ato=1,duration=0.1)]\n[charslot(slot = \"r\", action=\"jump\",posfrom=\"60,0\",posto=\"-70,0\",power=0,times=1,afrom=1,ato=1,duration=0.2,isblock=true)]\n[delay(time=0.5)]\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#11$1\",focus=\"m\")]\n[name=\"摩根\"]因陀罗，小心后面！\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_419_1#1$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_419_1#1$1\",focus=\"all\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$d_avg_singleblunt\",volume=1)]\n[PlaySound(key=\"$d_avg_hammer\",volume=0.7,delay=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$bodyfalldown1\", volume=1)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"l\",name=\"avg_npc_419_1#1$1\",posfrom=\"0,0\",posto=\"0,-150\",duration=0.8,isblock=false)]\n[charslot(slot=\"l\",name=\"avg_npc_419_1#1$1\",afrom=1,ato=0,duration=0.5)]\n[charslot(slot=\"r\",name=\"avg_npc_419_1#1$1\",posfrom=\"0,0\",posto=\"0,-50\",duration=1.2,isblock=false)]\n[charslot(slot=\"r\",name=\"avg_npc_419_1#1$1\",afrom=1,ato=0,duration=0.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_407_1#6$2\",focus=\"m\")]\n[name=\"推进之王\"]这样不是办法，我们正在陷入被动。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#6$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]我去定位这支小队的指挥官。阿米娅，保持阵型，别停下。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]我，我知道了！\n[charslot(slot=\"m\",name=\"avg_npc_396_1#7$1\",focus=\"m\")]\n[name=\"达格达\"]该死，巷子另一头也有！\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$2\",focus=\"m\")]\n[name=\"推进之王\"]跟紧我，博士，我们冲过去！\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$2\",focus=\"none\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"“前进三百米，左边第一条岔路。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=0.2)]\n[charslot(slot=\"m\",name=\"avg_npc_407_1#4$2\",focus=\"m\")]\n[name=\"推进之王\"]！\n[charslot(slot=\"m\",name=\"avg_npc_407_1#6$2\",focus=\"m\")]\n[PlaySound(key=\"$d_avg_unsheathe\",volume=0.6)]\n[name=\"推进之王\"]是谁？！\n[Dialog]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"“快速通过这里，屋顶上有埋伏。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=0.2)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#18$1\",focus=\"m\")]\n[name=\"阿米娅\"]博士，你听见了吗？有个声音……\n[charslot(slot=\"m\",name=\"avg_npc_396_1#7$1\",focus=\"m\")]\n[name=\"达格达\"]小心那些源石技艺！冲过这片危险地带！\n[charslot(slot=\"m\",name=\"avg_npc_394_1#20$1\",focus=\"m\")]\n[name=\"阿米娅\"]博士，抓紧我！"
+        }
+      ],
+      "description": "摩根与博士共同参与突围。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_154_morgan",
+          "reason": "二人在同一连续场景中直接交流或共同制定行动。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "二人在同一连续场景中直接交流或共同制定行动。",
+          "status": "supported",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 292,
+          "kind": "story",
+          "line": 203,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 401,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_beg.txt",
+          "quote": "[name=\"维娜\"]戴菲恩，费斯特和洛洛他们的进展如何？\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]已经依靠工程图纸定位到了建墙之初预留的备用接驳口，但萨卡兹的巡逻很频繁，找不到靠近的机会。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]不过博士他们也在想办法为我们创造机会。只要联军能够佯攻一次，守城的部队一定会露出破绽，我们就能找到机会突破。可……\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$1\",focus=\"m\")]\n[name=\"维娜\"]联军根本没有任何进攻的打算。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]是。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$1\",focus=\"m\")]\n[name=\"维娜\"]……\n[name=\"维娜\"]戴菲恩，一旦萨卡兹露出破绽，你能保证一定会找到进城的办法吗？\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]有把握，但我需要帮助。我们可以再去尝试说服公爵们——\n[dialog]\n[charslot]\n维娜摇了摇头。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"维娜\"]给我两个小时。\n[name=\"维娜\"]我会去营地里拉一支愿意跟着我，而且源石技艺足够出众的队伍，配合战场无人机去佯攻N12区的城墙接驳口吸引注意力——\n[name=\"维娜\"]剩下的，交给你指挥。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#3$1\",focus=\"m\")]\n[name=\"戴菲恩\"]不行！这是送死！\n[charslot(slot=\"m\",name=\"avg_npc_405_1#12$1\",focus=\"m\")]\n[name=\"摩根\"]切特雷镇，布伦特伍德镇，“荣光”号，银石崖……我们哪一次不是在“送死”？\n[name=\"摩根\"]但总得有人去做，对吧，维娜？我和你一起。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#12$1\",focus=\"n\")]\n维娜没有回应，摩根发现维娜的脸色怪异了起来。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#5$1\",focus=\"m\")]\n[name=\"摩根\"]……维娜？\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#9$1\",focus=\"m\")]\n[name=\"维娜\"]我收到了博士的紧急消息——\n[name=\"维娜\"]就在刚才，拉芙希妮进入了威灵顿的驻地。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#2$1\",focus=\"m\")]\n[name=\"摩根\"]……\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……"
+        }
+      ],
+      "description": "char_154_morgan知晓npc_b99957887950ebfd；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_154_morgan",
+          "reason": "摩根听到维娜具体提及博士并在场参与讨论。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本组该证据未提供反向识别。",
+          "status": "not_established",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 401,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "追迹日落以西现实场景",
+      "title": "追迹日落以西"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 107,
+          "line": 68,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-06_end.txt",
+          "quote": "[Character(name=\"avg_npc_396_1#7$1\")]\n[name=\"达格达\"] 住口！不，我是说，请不要再说下去了。只要我们还站在一起，你就不该说这样的话来伤害同伴。\n[Character(name=\"avg_npc_398_1#1$1\")]\n[name=\"自救军战士\"]……\n[Character(name=\"avg_npc_398_1#1$1\")]\n[name=\"自救军战士\"]是我失言。我向你们道歉。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=1.5)]\n[delay(time=2)]\n[Character(name=\"avg_npc_405_1#6$1\", name2=\"avg_155_tiger_1#8$1\", fadetime=0.7)]\n[delay(time=1)]\n[Character(name=\"avg_npc_405_1#6$1\", name2=\"avg_155_tiger_1#8$1\", focus=1)]\n[name=\"摩根\"]……\n[Character(name=\"avg_npc_405_1#6$1\", name2=\"avg_155_tiger_1#8$1\", focus=2)]\n[name=\"因陀罗\"]……\n[Character(name=\"avg_npc_405_1#7$1\", name2=\"avg_155_tiger_1#8$1\", focus=1)]\n[name=\"摩根\"]你不该拦着我的。\n[Character(name=\"avg_npc_405_1#7$1\", name2=\"avg_155_tiger_1#8$1\", focus=2)]\n[name=\"因陀罗\"]我不拦着你，维娜就要头疼了，还有罗德岛的小兔子和博士。下次你再冲动，记得多想想自己是跟谁一块来的。\n[Character(name=\"avg_npc_405_1#1$1\", name2=\"avg_155_tiger_1#8$1\", focus=1)]\n[name=\"摩根\"]哈……真没想到有天你会反过来说我冲动。\n[Character(name=\"avg_npc_405_1#1$1\", name2=\"avg_155_tiger_1#1$1\", focus=2)]\n[name=\"因陀罗\"]环境在变，我总得适应的。你看达格达，不是适应得挺好的？\n[Character(name=\"avg_npc_396_1#4$1\")]\n[name=\"达格达\"] ……你别夸我，不习惯。\n[Character(name=\"avg_npc_405_1#1$1\", name2=\"avg_155_tiger_1#3$1\", focus=2)]\n[name=\"因陀罗\"]你当我想夸你？跟你过一样的日子，我难受得很。\n[Character(name=\"avg_npc_405_1#1$1\", name2=\"avg_155_tiger_1#10$1\", focus=2)]\n[name=\"因陀罗\"]可是摩根，这几天我算是明白了一个道理，我们不适应的话，迟早跟不上维娜。\n[Character(name=\"avg_npc_405_1#5$1\", name2=\"avg_155_tiger_1#10$1\", focus=1)]\n[name=\"摩根\"]……哼。\n[Character(name=\"avg_npc_405_1#5$1\", name2=\"avg_155_tiger_1#1$1\", focus=2)]\n[name=\"因陀罗\"]来吧，肉干给你，今天算我俩谁都没赢。\n[Character(name=\"avg_npc_405_1#7$1\", name2=\"avg_155_tiger_1#1$1\", focus=1)]\n[name=\"摩根\"]你拿着吧，我没胃口。\n[Character(name=\"avg_npc_405_1#6$1\", name2=\"avg_155_tiger_1#1$1\", focus=1)]\n[name=\"摩根\"]汉娜，这几天我一直在想……这样的日子，就一定是维娜想过的吗？自从她来了这里，那些贵族和商人什么时候给过她应有的尊重？\n[Character(name=\"avg_npc_405_1#6$1\", name2=\"avg_155_tiger_1#8$1\", focus=2)]\n[name=\"因陀罗\"]你错了，摩根。"
+        }
+      ],
+      "description": "摩根知晓同行的博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_154_morgan",
+          "reason": "摩根在同一局部谈话中听见并讨论博士所在一方。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在场。",
+          "status": "not_established",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 107,
+          "kind": "story",
+          "line": 68,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "自救军行动期间",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_154_morgan|npc_b99957887950ebfd"
+}

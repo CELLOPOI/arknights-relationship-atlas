@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 210,
+          "line": 204,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gravel_1_1.txt",
+          "quote": "[name=\"砾\"]  ……是啊，明明我已经告诉过老爷子自己的决定，还和马丁也道别过了。\n[name=\"砾\"]  你这忘事的老板，立马就把我的事情给忘记了吧？\n[Character(name=\"char_237_gravel\",name2=\"avg_npc_107\",focus=2)]\n[name=\"光头马丁\"]  哈哈，年纪大了，难免记不得那么多事情。\n[Character(name=\"char_237_gravel\",name2=\"avg_npc_107\",focus=1)]\n[name=\"砾\"]  （……不对。马丁的反应……有些奇怪。）\n[name=\"砾\"]  （发生了那么重要的事情，他竟然会忘记了……？）"
+        }
+      ],
+      "description": "砾回想与马丁道别，并知道其梦中反应不对，支持砾知晓；梦中马丁发言不支持真实反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_237_gravel",
+          "reason": "砾回想与马丁道别，并知道其梦中反应不对，支持砾知晓；梦中马丁发言不支持真实反向。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_237_gravel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_89615a920196e33b.json",
+      "sources": [
+        {
+          "endLine": 210,
+          "kind": "story",
+          "line": 204,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gravel_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "砾"
+    }
+  ],
+  "relationship_id": "char_237_gravel|npc_2a519e8c8e7b4e11"
+}

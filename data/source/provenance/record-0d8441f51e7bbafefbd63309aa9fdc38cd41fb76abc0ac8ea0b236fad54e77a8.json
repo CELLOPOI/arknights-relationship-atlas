@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 485,
+          "line": 438,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "quote": "[name=\"Logos\"]——？\n[name=\"Mechanist\"]怎么了，Logos？\n[name=\"Logos\"]那并非我的光……\n[dialog]\n[playMusic(intro=\"$lab_intro\",key=\"$lab_loop\", volume=0.6)]\n[cgitem(image=\"cgitem_60_i16\", style=\"cg\",sfrom = 1, sto = 1.5, sduration = 0.01, pfrom = \"0,0\",pto = \"-55,-300\", pduration = 0.01, rfrom=-11, rto=-11, rduration=0.1, afrom = 0, ato = 1, aduration = 0.5, layer = 1)]\n[Delay(time=2)]\n黑暗中，高悬的菱形光环微微晃动着。\n如同一只冰冷的眼睛俯瞰着在场的所有人。\n[name=\"阿斯卡纶\"]戒备……\n[name=\"煌\"]……是凯尔希医生提到的“普瑞赛斯”吗？\n[name=\"Raidian\"]恐怕不是。\n[name=\"Raidian\"]我探测到突然出现了大量杂乱但熟悉的信号。\n[name=\"Raidian\"]那些信号来自罗德岛本身。\n[dialog]\n[StopSound(channel=\"en\", fadetime=4)]\n[cgitem(image=\"cgitem_60_i16\", style=\"cg\",sfrom = 1.5, sto = 1.2, sduration = 4, pfrom = \"-55,-300\",pto = \"-70,-45\", pduration = 4, rfrom=-11, rto=0, rduration=4, layer = 1)]\n[Delay(time=3)]\n[PlaySound(key=\"$d_avg_systemstart_weird\", volume=1)]\n[Delay(time=1)]\n[cgitem(image=\"cgitem_60_i16\", style=\"cg\",sfrom = 1.2, sto = 1, sduration = 22, pfrom = \"-70,-45\",pto = \"-55,0\", pduration = 22, layer = 1)]\n[Image(image=\"60_i16\", screenadapt=\"coverall\", xScale=1.2, yScale=1.2, y=-50, fadetime=0.5)]\n[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, yFrom=-50, yTo=0, duration=20, block=false)]\n[Delay(time=1)]\n[name=\"Misery\"]这是……什么东西？\n庞大的机械构造物在无尽的白噪中缓缓浮现在了所有人的面前——\n构成其主体的部件，在场之人都很熟悉。\n可露希尔曾许多次向大家展示这些她对罗德岛不同模块改造时所用的部件，甚至一些特殊部件就出自精英干员之手。\n[name=\"Touch\"]PRTS重组了罗德岛的设备作为武器。\n[name=\"Touch\"]可……这些部件是从哪冒出来的？Abyss里明明没有……\n[name=\"阿斯卡纶\"]源石。\n源石的晶簇不规则地遍布在这尊造型独特的机械上。\n它们不再仅仅吞噬，而是开始了创造。\n[name=\"Misery\"]等等，源石能做到复现罗德岛的东西？\nLogos想起了内化宇宙中那座高塔，也想起了殿下。\n[name=\"Logos\"]没这么简单。\n[name=\"Logos\"]PRTS并没有解码源石数据的能力，其中必然有他人介入。\n[name=\"阿斯卡纶\"]普瑞赛斯。\n[name=\"Raidian\"]它的数据正通过我无法理解的方式和PRTS的核心相连，这东西和之前那些源石结晶体不一样！\n[name=\"煌\"]无论如何，看上去怎么都得打一架了。\n[name=\"Stormeye\"]的确没有其他办法了。\n[name=\"Stormeye\"]各位？\n[dialog]\n[PlaySound(key=\"$d_avg_attack_ready\", volume=1)]\n[Delay(time=1.5)]\n[name=\"迷迭香\"]可以动手。\n此时，菱形的眼睛光芒更甚。\n由PRTS控制形成的拟态机械开始蓄积能量……"
+        }
+      ],
+      "description": "Misery直接参与对抗PRTS生成的威胁。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D25"
+          ],
+          "from": "char_615_acspec",
+          "reason": "Misery直接参与对抗PRTS生成的威胁。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "D25"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "Misery直接参与对抗PRTS生成的威胁。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 485,
+          "kind": "story",
+          "line": 438,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_615_acspec|npc_c8a2caad4366c8fa"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "assignmentId": "review-04",
+      "description": "片中陈说罗德岛博士坐镇指挥，炎熔在同一对话中获知；本窗没有博士对该干员反向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_121_lava",
+          "reason": "片中陈说罗德岛博士坐镇指挥，炎熔在同一对话中获知；本窗没有博士对该干员反向知晓。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_121_lava"
+        }
+      ],
+      "groupId": "group_f0cd623c8eb0c2e9",
+      "key": "char_121_lava|npc_b99957887950ebfd",
+      "label": "单向知晓",
+      "personIds": [
+        "char_121_lava",
+        "npc_b99957887950ebfd"
+      ],
+      "realityScope": "fictional_film",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+      "temporalScope": "洪炉示岁所述时段",
+      "title": "洪炉示岁"
+    }
+  ],
+  "groupId": "group_f0cd623c8eb0c2e9",
+  "key": "char_121_lava|npc_b99957887950ebfd",
+  "names": [
+    "炎熔",
+    "博士"
+  ],
+  "personIds": [
+    "char_121_lava",
+    "npc_b99957887950ebfd"
+  ],
+  "realityScope": "fictional_film"
+}

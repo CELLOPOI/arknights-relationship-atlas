@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 506,
+          "line": 462,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "quote": "[charslot(slot = \"m\", name = \"avg_npc_1238_1#6$1\",duration=1)]\n[delay(time=1.5)]\n[charslot(slot = \"m\", name = \"avg_npc_1238_1#6$1\",focus=\"m\")]\n[name=\"暴躁的孩童\"]呆子！你要到哪去？\n[Dialog]\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#2$1\",bstart=0.2,bend=0.7,focus=\"m\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n[delay(time=1)]\n[charslot(slot = \"l\", name = \"avg_4122_grabds_1#2$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\",isCopy=true)]\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#2$1\",bstart=0,bend=0,duration=2,focus=\"m\",isCopy=true)]\n[delay(time=2)]\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#2$1\",focus=\"m\",isCopy=true)]\n[name=\"小满\"]……\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#7$1\",focus=\"m\",isCopy=true)]\n[name=\"小满\"]嗯？\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#11$1\",focus=\"m\",isCopy=true)]\n[name=\"小满\"]……牧兽在下面，大叔指给我看了，我要去把他带回来。\n[Dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1238_1#6$1\",focus=\"m\")]\n[name=\"暴躁的孩童\"]我看你像头牧兽！\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#11$1\",focus=\"m\")]\n[name=\"小满\"]……\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#2$1\",focus=\"m\")]\n[name=\"小满\"]…………\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#6$1\",focus=\"m\")]\n[name=\"小满\"]你骂我？！\n[charslot(slot = \"m\", name = \"avg_npc_1238_1#6$1\",focus=\"m\")]\n[name=\"暴躁的孩童\"]我骂的就是你！你眼睛瞎了牧兽才会在下面！\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#6$1\",focus=\"m\")]\n[name=\"小满\"]大嗓门你——\n[Dialog]\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#6$1\",focus=\"m\")]\n[PlaySound(key=\"$d_avg_throwmud\", volume=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=0.7)]\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#6$1\",focus=\"n\")]\n啪！\n一大团泥直接砸向了小满的头，从河堤随手抓来的淤泥糊了她满脸。\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#7$1\",focus=\"m\")]\n[name=\"小满\"]啊！\n[charslot(slot = \"m\", name = \"avg_4122_grabds_1#11$1\",focus=\"m\")]\n[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=60,duration=0.3)]\n[name=\"小满\"]……噗噗噗！！\n视线却并未像想象中那般受阻，她仍然能够看到眼前的一切。"
+        }
+      ],
+      "description": "暴躁孩童救小满并与其直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_4122_grabds",
+          "reason": "暴躁孩童救小满并与其直接交谈。",
+          "status": "supported",
+          "to": "npc_d82925e6527dea32"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_d82925e6527dea32",
+          "reason": "暴躁孩童救小满并与其直接交谈。",
+          "status": "supported",
+          "to": "char_4122_grabds"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 506,
+          "kind": "story",
+          "line": 462,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "char_4122_grabds|npc_d82925e6527dea32"
+}

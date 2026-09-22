@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 517,
+          "line": 454,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "quote": "[name=\"Sharp\"]这是今天第几批袭击我们的佣兵了？\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]第七批。\n[name=\"Stormeye\"]虽然威胁性并不高，但近一周来，每天都有如此高频率的袭击也太过诡异了。\n[name=\"Stormeye\"]这才刚刚进入卡兹戴尔的边境范围……\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]这些人不怕死的样子，让我想起以前在萨尔贡认识的那些佣兵。\n[name=\"Sharp\"]毫无信念。\n[name=\"Sharp\"]Misery怎么花了这么长时间？已经过了预计的返程时间了。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_235\",duration=1)]\n[Delay(time=1.5)]\n[name=\"Misery\"]你要知道，这里离疤痕商场还是有些距离。\n[name=\"Misery\"]哪怕我熟悉这里的每条捷径，也得耗费点时间。\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]调查结果如何？\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]近两周，有人通过层层外包，将疤痕商场的大部分订单都聚集在了这一片区域。\n[name=\"Misery\"]委托人完全查不出来，隐藏得很好。\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]也就是说，我们只是“运气不好”撞上了这些佣兵。\n[name=\"Sharp\"]他们并非冲我们而来？\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]恐怕是这样的。\n[name=\"Stormeye\"]博士临出发前的担忧看来并非全无道理。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#1$1\",duration=0.5)]\n[Delay(time=1)]\n[name=\"芬\"]各位，哨岗有新消息传回来。\n[name=\"芬\"]又有一伙佣兵的行动轨迹开始向我们的位置偏移，极有可能会马上再次接敌。\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]（叹气）\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#6$1\")]\n[name=\"芬\"]Misery先生，我感觉情况不对劲。\n[name=\"芬\"]这些源源不断的佣兵似乎并不是想要给我们造成损失，更像是……\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]拖延。\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#6$1\")]\n[name=\"芬\"]我们可以留在这里继续护送队伍前进，各位可以先行返回本舰——\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]别着急，芬。\n[name=\"Misery\"]有些人的打算并没有那么容易得逞。\n[charslot]\n空气在波动。\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#7$1\")]\n[name=\"芬\"]……起风了？\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#4$1\")]\n[name=\"芬\"]不……那是，“生命脊椎”？！\n[charslot]\n[dialog]\n[PlaySound(key=\"$d_avg_erthshkng\")]\n[CameraShake(duration=2, xstrength=5, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.3, r=0, g=0, b=0, fadetime=2, block=true)]\n苍穹之上，庞大的骸骨荡漾着历史的尘埃显现，投下了巨大的阴影。\n那是罗德岛的许多人第一次亲眼目睹这个曾在维多利亚的混乱中出现的巨大骨架。\n[charslot(slot=\"m\",name=\"avg_npc_971_1#1$1\")]\n[name=\"罗德岛工程部干员\"]……真是壮观……\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]调查疤痕商场时，我顺便去了趟卡兹戴尔，见了几位老朋友。\n[name=\"Misery\"]接下来就交给他们吧。\n[name=\"Misery\"]我们该回家了。"
+        }
+      ],
+      "description": "Sharp与Misery直接同行交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D18"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp与Misery直接同行交谈。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "D18"
+          ],
+          "from": "char_615_acspec",
+          "reason": "Sharp与Misery直接同行交谈。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 517,
+          "kind": "story",
+          "line": 454,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_508_aguard|char_615_acspec"
+}

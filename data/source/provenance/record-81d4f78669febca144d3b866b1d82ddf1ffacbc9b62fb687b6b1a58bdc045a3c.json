@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 375,
+          "line": 373,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-14_end.txt",
+          "quote": "但她确定，真相就藏在这里。\n藏在巴别塔，藏在PRTS系统记录的每项不起眼的任务里。\n甚至就藏在……这条走廊的尽头。"
+        }
+      ],
+      "description": "W追查刺杀真相，明确把PRTS任务记录作为线索；只证明知晓系统。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E138"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "W追查刺杀真相，明确把PRTS任务记录作为线索；只证明知晓系统。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 375,
+          "kind": "story",
+          "line": 373,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-14_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "char_113_cqbw|npc_c8a2caad4366c8fa"
+}

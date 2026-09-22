@@ -1,0 +1,15 @@
+{
+  "id": "import:char_4151_tinman|npc_d9231cc74dc4c620",
+  "published": true,
+  "quote": "【孤星】\n锡人：……这里！勋爵！\n锡人：洞穴坍塌了，我就知道下面出了岔子！\n凯尔希：先离开这里。这是克丽斯腾留下的施工通道？\n锡人：是的，我估计是通向能量井的。天知道军方为什么始终没有发现这条密道……\n凯尔希：如果不是“保存者”关闭了系统，你是不可能发现这条通道的。\n选项：\n1：霍尔海雅呢？\n分支条件（原选项编号）：1\n锡人：她被我困在外面，梅兰德会和她好好谈一次的。\n锡人：勋爵，我需要知道……\n凯尔希：那里除了一位迈向死亡的老人，没有别的东西。\n凯尔希：至于那些死亡的意义，我只能说与卡兹戴尔绝无关系。\n锡人：……出于某些授意，我就不刨根问底了。\n锡人：走这边。",
+  "relationship_id": "char_4151_tinman|npc_d9231cc74dc4c620",
+  "sources": [
+    {
+      "endLine": 738,
+      "kind": "story",
+      "line": 718,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st03.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

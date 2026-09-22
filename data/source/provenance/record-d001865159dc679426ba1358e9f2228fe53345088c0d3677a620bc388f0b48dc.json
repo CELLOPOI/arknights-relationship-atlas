@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 157,
+          "line": 144,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_03_end.txt",
+          "quote": "[name=\"衣着光鲜的食客\"]他想要求一份完美的味道，但客人却等不住了。\n[name=\"衣着光鲜的食客\"]即便我愿意等他，有些事也是没法再等下去了。\n[charslot(slot=\"m\",name=\"avg_1040_blaze2_1#2$1\")]\n[name=\"煌\"]您这话……\n[charslot]\n[name=\"衣着光鲜的食客\"]不要紧，你把我的话转告你们老板就行。\n食客站起身，他衣服上的纹样流光溢彩，光线在他身侧扭曲虚化，让人看不清他的面孔。\n[charslot(slot=\"m\",name=\"avg_1040_blaze2_1#8$1\")]\n[name=\"煌\"]哎，您……您还没给钱呢！\n[charslot]\n[dialog]\n[charslot(slot = \"m\", name = \"avg_npc_1236_1#9$1\",duration = 1)]\n[delay(time=1.5)]\n[name=\"衣着光鲜的食客\"]从我账上扣吧。"
+        }
+      ],
+      "description": "绩以食客身份直接与煌交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J04"
+          ],
+          "from": "char_017_huang",
+          "reason": "绩以食客身份直接与煌交谈。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [
+            "J04"
+          ],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "绩以食客身份直接与煌交谈。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 157,
+          "kind": "story",
+          "line": 144,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_017_huang|npc_6ee68205c0c1758b"
+}

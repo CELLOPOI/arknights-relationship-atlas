@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 397,
+          "line": 359,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "quote": "[name=\"阿米娅\"]咦？！\n[Dialog]\n[charslot]\n[playMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.6)]\n[name=\"齐尔查克\"]嘶——我的屁股……\n[name=\"森西\"]这里是……厨房？\n[charslot(slot=\"m\",name=\"avg_npc_089\",focus=\"m\")]\n[name=\"狙击干员\"]什么人？！\n[charslot(slot=\"m\",name=\"avg_199_yak_1#1$1\",focus=\"m\")]\n[name=\"角峰\"]阿米娅，站在我身后！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_clothmovement\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#3$1\",posfrom=\"0,-20\",posto=\"0,0\",afrom=0,ato=1,duration=0.5)]\n[Delay(time=1)]\n[name=\"莱欧斯\"]各位，小心！\n[name=\"莱欧斯\"]看来，大祭司把我们送到了不太好的地方……\n[charslot(slot=\"m\",name=\"char_002_amiya_1#5\",focus=\"m\")]\n[name=\"阿米娅\"]大祭司？你们到底——\n[Dialog]\n[charslot]\n[stopmusic(fadetime=1.5)]\n[PlaySound(key=\"$a_bat_buildingshaking_1\",volume=0.3)]\n[CameraShake(duration=1.5, xstrength=10, ystrength=10, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"char_002_amiya_1#6\",focus=\"m\")]\n[name=\"阿米娅\"]怎么了？\n[charslot(slot=\"m\",name=\"avg_199_yak_1#7$1\",focus=\"m\")]\n[name=\"角峰\"]是小刻去休息的房间！\n[charslot(slot=\"m\",name=\"char_002_amiya_1#7\",focus=\"m\")]\n[name=\"阿米娅\"]我们快去看看！\n[Dialog]\n[PlaySound(key=\"$rungeneral\",volume=1)]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#16$1\",focus=\"m\")]\n[name=\"齐尔查克\"]发生了什么……？\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#13$1\",focus=\"m\")]\n[name=\"玛露西尔\"]他们提到了小刻，我们也快跟去看一看！"
+        }
+      ],
+      "description": "阿米娅听莱欧斯具体提到大祭司并复述追问。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅听莱欧斯具体提到大祭司并复述追问。",
+          "status": "supported",
+          "to": "npc_ec93b1be1e69c694"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "本篇未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4b8f03fa1aa37d85.json",
+      "sources": [
+        {
+          "endLine": 397,
+          "kind": "story",
+          "line": 359,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示旅程时段",
+      "title": "泰拉饭"
+    }
+  ],
+  "relationship_id": "char_002_amiya|npc_ec93b1be1e69c694"
+}

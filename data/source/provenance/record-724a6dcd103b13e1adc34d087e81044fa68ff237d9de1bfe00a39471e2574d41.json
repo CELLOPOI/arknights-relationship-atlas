@@ -1,0 +1,128 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 381,
+          "line": 356,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-01.txt",
+          "quote": "[name=\"凯尔希\"] 看见了。任何一个视力还正常的人都不能无视这种现象。\n[name=\"凯尔希\"] ——你还记得你在龙门遭遇的特殊感染者吗？\n[name=\"凯尔希\"] 那一个会促使其他感染者的器官发生变异的整合运动少年感染者。\n[Decision(options=\"谁？;……;我记得。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_091\")]\n[name=\"牧群化萨卡兹战士\"] ……啊。\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动感染者\"] 梅菲斯特的牧群吗？！\n[name=\"整合运动感染者\"] 怎么魔族也……\n[Character(name=\"avg_npc_091\")]\n[name=\"牧群化萨卡兹战士\"] 不要，不要向前，再往里走了。\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动感染者\"] 你干什么……我们要在前面布防的！叛徒快打到这里来了！\n[name=\"整合运动感染者\"] 梅菲斯特这个家伙，又在想什么？我们绕过去，他们不会攻击我们的……\n[Character(name=\"avg_npc_091\")]\n[name=\"牧群化萨卡兹战士\"] 只会，痛苦。\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动感染者\"] 等一下，等一下！你们干什么！！\n[Character(name=\"avg_npc_091\")]\n[name=\"牧群化萨卡兹战士\"] 痛苦。\n[Character(name=\"char_1002_nsabr_2\")]\n[name=\"整合运动感染者\"] 松手！！松手！！！\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"] ……\n[name=\"凯尔希\"] 各小队成员，我们转移。保持隐蔽。"
+        }
+      ],
+      "description": "凯尔希识别制造器官变异的少年并在场听到梅菲斯特的具名呼喊；仅支持知晓，不将歌者意识逆推。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E84"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希识别制造器官变异的少年并在场听到梅菲斯特的具名呼喊；仅支持知晓，不将歌者意识逆推。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 381,
+          "kind": "story",
+          "line": 356,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 206,
+          "line": 182,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-12_end.txt",
+          "quote": "[Predicate(references=\"1;2;3\")]\n[Dialog]\n[Character(name=\"char_003_kalts_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"凯尔希\"]  恰巧路过。\n[name=\"凯尔希\"]  你们的情感状态有些起伏不定。看来在切城废城，你们和这支整合运动的小队有过更深层次的交流。\n[name=\"凯尔希\"]  据我观察，这支小队的队长没有参与这场战斗。\n[Decision(options=\"你的意思是……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"凯尔希\"]  龙门的视线不会再继续跟着感染者走，但罗德岛的视野远比单一一座城邦要广阔。\n[name=\"凯尔希\"]  接下来发生的事情，龙门不会干涉，你们也可以选择不去参与。\n[name=\"凯尔希\"]  ……但你们会的。无论是代号“梅菲斯特”的感染者，还是代号“霜星”的感染者。\n[Decision(options=\"你去哪？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"凯尔希\"]  我有我要做的事情。\n[name=\"凯尔希\"]  还有，Dr.{@nickname}……\n[name=\"凯尔希\"]  别用那种眼神看着我。\n[Decision(options=\"别再遮遮掩掩的了。;……;阿米娅说了，罗德岛需要信任关系。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[name=\"凯尔希\"]  但你我之间不需要信任。\n[name=\"凯尔希\"]  你需要罗德岛干员们的信任，不是我的。\n[name=\"凯尔希\"]  ——我太了解你了，所以我不会信任你。这就像过去的你也不会信任我一样。\n[Decision(options=\"我又怎么知道以前的事情？;过去？;现在的我有什么能做的吗？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[name=\"凯尔希\"]  ……"
+        }
+      ],
+      "description": "凯尔希明确知道并追踪梅菲斯特。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C16"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希明确知道并追踪梅菲斯特。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 206,
+          "kind": "story",
+          "line": 182,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 154,
+          "line": 39,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-08_end.txt",
+          "quote": "[name=\"乌萨斯感染者\"]  我们不已经是感染者了吗？整合运动……有那么恨我们乌萨斯人吗？\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_003_kalts_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"凯尔希\"]  许多人心中最丑恶的情绪并不需要太多煽动，仅仅是放任自流，都能污染一座城市中的所有沟渠。\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]  医生……刚才太突然了！\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"凯尔希\"]  阿米娅，你应该已经不会被这种伎俩吓到。\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]  见一两次就够了……！\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"凯尔希\"]  浪费太多时间用于交涉，只会阻碍我们下一步的行动。\n[Character(name=\"avg_npc_059\")]\n[name=\"罗德岛近卫干员？\"]  所以你……医生，如果她撒谎的话，你真的会杀我吗？\n[Character(name=\"avg_npc_059\",name2=\"avg_npc_057\",focus=2)]\n[name=\"乌萨斯感染者\"]  我……我最后没有那么说啊！\n[Character(name=\"avg_npc_059\",name2=\"avg_npc_057\",focus=1)]\n[name=\"罗德岛近卫干员？\"]  只是个假设，不是所有受过伤害的感染者都那么诚实，就连我自己也被冲昏头脑过。\n[Character(name=\"avg_npc_059\",name2=\"avg_npc_057\",focus=2)]\n[name=\"乌萨斯感染者\"]  唔，唉……\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  并不会。\n[name=\"凯尔希\"]  你是罗德岛的干员。我首先信任的是你。\n[name=\"凯尔希\"]  比起别的，这更像是对她的心理疗法。当然，你和她的表现，都证明了你的无辜。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  可我……\n[name=\"罗德岛近卫干员？\"]  医生你的表情太阴沉了。我真的很怕你做出这种事……而且你演得实在有点太像了。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_059\",focus=1)]\n[name=\"凯尔希\"]  这没什么问题。我不会，但我理应做到让大多数人觉得我会。\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]  凯尔希医生，做到这份上……别再恐吓Guard啦。\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"凯尔希\"]  好。\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=1)]\n[name=\"阿米娅\"]  Guard，不用担心，事情如果真发展到那种程度，我也会阻止医生的。\n[name=\"阿米娅\"]  刚才这些，会不会太刺激到你的情绪？要我帮你恢复吗？\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  啊，这倒不用，如果这种程度也需要阿米娅的心理治疗，我就太脆弱了。\n[name=\"罗德岛近卫干员？\"]  毕竟……我真正不放心的就只有站在门口的那个人。\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  ……\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  尽管现在好些了，她和我说了那些以后，我大概也明白……但我还是会想到她用巨剑掷过去切开一整个人的事。\n[name=\"罗德岛近卫干员？\"]  那次任务我这辈子都忘不掉了。\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=1)]\n[name=\"阿米娅\"]  啊……我知道那一次。\n[name=\"阿米娅\"]  Guard……你知道她在那次任务中救下了四个平民，使他们免遭当地武装实验武器的杀害了吗？\n[name=\"阿米娅\"]  她斩杀的是当地武装从萨尔贡奴隶贩子手里购买的废弃军用实验术师，那一批的所有术师全部被切除了脑垂体。\n[name=\"阿米娅\"]  是种入身体的源石器官，而不是他们自身的神经系统在控制他们活动。他们实际上已经死了。\n[name=\"阿米娅\"]  只有像迷迭香那样的战斗方式才能彻底摧毁实验体感染器官的运作。她没有做错。\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  ……是这样吗？\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=1)]\n[name=\"阿米娅\"]  Guard，我认为，你对迷迭香的想象，和那位小姐一开始对你的误解有一定的相似处。\n[name=\"阿米娅\"]  传闻和表象，是别人认识我们的第一面窗户。无论你做了什么，他们的第一反应都会是排斥整合运动，这无可厚非。\n[name=\"阿米娅\"]  可是，如果仅仅停留在这层认知……不要说信任了，我们甚至不会对事情哪怕有一点点更多的了解。\n[name=\"阿米娅\"]  如果没有人有了解真相的意愿，那就算把真相撒播在街道上，也不会有发芽的可能。\n[name=\"阿米娅\"]  而且，迷迭香就在面前吧，直接去问她……会更好吧？\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  问、问她？\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  你想问什么？\n[Decision(options=\"（迷迭香好凶……！）\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  （呃，不是这样……她也不知道该说什么吧……）\n[Character(name=\"avg_npc_042\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  ……\n[name=\"罗德岛近卫干员？\"]  ……迷迭香，你来这里，是做什么的？\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  执行任务。\n[name=\"迷迭香\"]  ……还有，我说了，报仇。许多家人的仇。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_059\")]\n[name=\"罗德岛近卫干员？\"]  我问完了。\n[name=\"罗德岛近卫干员？\"]  但……我也不知道我问了啥。\n[name=\"罗德岛近卫干员？\"]  以前我对阿撒兹勒发火，现在还是我，对迷迭香出言不逊。哈，我真是一塌糊涂。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  但你却信任爱国者。和我们谈谈爱国者和游击队，以及整合运动吧。\n[Character(name=\"avg_npc_059\")]\n[name=\"罗德岛近卫干员？\"]  我想医生和博士这样的，肯定很能理解现状。\n[name=\"罗德岛近卫干员？\"]  之所以在这些地方还能有活人，之所以切尔诺伯格城里还能活下许多乌萨斯人……\n[name=\"罗德岛近卫干员？\"]  全是因为爱国者和游击队，以及还有尊重他们的人在。\n[name=\"罗德岛近卫干员？\"]  游击队战士们只要站在那里，周边就不会有纠纷，也不会有任何人敢对别人施以暴行。\n[name=\"罗德岛近卫干员？\"]  他们不仅运送货物和分配资源，他们还帮助本地人改善生活条件。\n[name=\"罗德岛近卫干员？\"]  ……爱国者原本打算放我出城。但我选择自己留下来……看看现状。\n[name=\"罗德岛近卫干员？\"]  我听到他和阿撒兹勒领袖的谈话，我觉得哪怕他的表象是伪装出来的，他也至少会爱护那个表象。\n[name=\"罗德岛近卫干员？\"]  何况……何况Scout先生为了保护我死在了那里。爱国者他尊重Scout先生。我……\n[Decision(options=\"Scout……牺牲在切尔诺伯格的干员。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  Scout！\n[Decision(options=\"迷迭香……？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"迷迭香\"]  Scout他怎么了？\n[name=\"迷迭香\"]  我……我怎么不记得？他死了？他……\n[name=\"迷迭香\"]  这空虚……是他吗？Scout……我又忘了？\n[name=\"迷迭香\"]  我不是刚刚……终端……我怎么又忘了？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n1月3日 \n有个白发的老先生送来了一块焦黑的东西。Machinist看到那东西就坐在凳子上起不来了。\n老先生点了点头就离开了，同行的凯尔希医生也没说什么，只是碰了碰我的头。\n那是Scout的东西。\nScout。\nScout也不在了。\nScout不是连影子都没有的人吗？不是其他人都死了他也会活下来的人吗？不是说的故事长到不会结束的人吗？\nScout……\n我翻了以前的记录。Scout帮我做了蝴蝶结。可那是小女孩才用的，我已经不玩玩具了。"
+        }
+      ],
+      "description": "确认前者单向知晓后者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_003_kalts",
+          "reason": "前者在已读场景中具体提及、观察或接收后者信息。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 154,
+          "kind": "story",
+          "line": 39,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    }
+  ],
+  "relationship_id": "char_003_kalts|npc_03efe1bf09e24b53"
+}

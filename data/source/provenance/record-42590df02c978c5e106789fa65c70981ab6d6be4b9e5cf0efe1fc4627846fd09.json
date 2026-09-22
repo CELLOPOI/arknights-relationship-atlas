@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 218,
+          "line": 217,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "quote": "[name=\"阿斯卡纶\"]博士，我的工作是和你一起行动，并尽力保证你的安全。\n[name=\"阿斯卡纶\"]在那场血魔大君的袭击中，我的失误已经让你负伤。我不希望这样危险的情况重演。"
+        }
+      ],
+      "description": "阿斯卡纶明确回忆血魔大君袭击造成博士负伤，但未证明大君个别知道她。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E34"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "阿斯卡纶明确回忆血魔大君袭击造成博士负伤，但未证明大君个别知道她。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 218,
+          "kind": "story",
+          "line": 217,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 586,
+          "line": 501,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-13_beg.txt",
+          "quote": "[name=\"血魔大君\"]……呵。\n[name=\"血魔大君\"]你的剑……还不错。\n[Character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"]大君，我们该速战速决。\n[Character(name=\"avg_npc_410_1#6$1\")]\n[name=\"血魔大君\"]别干扰我。\n[Dialog]\n[playsound(key=\"$d_avg_blood\")]\n[Blocker(a=0.1, r=1, g=0, b=0, fadetime=0.2, block=true)]\n[Blocker(a=0, r=1, g=0, b=0, fadetime=0.6, block=true)]\n[delay(time=0.5)]\n[Dialog]\n[Character(name=\"avg_npc_404_1#2$1\")]\n[PlaySound(key=\"$d_avg_runstop\")]\n[CameraShake(duration=0.3, xstrength=5, ystrength=8, vibrato=30, randomness=90, fadeout=true, block=false)]\n鲜血咆哮着将曼弗雷德逼退了几步。\n[Dialog]\n[PlaySound(key=\"$knifegore\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.7, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.4, block=true)]\n[delay(time=0.5)]\n阿斯卡纶的袖剑如影随形，他知道对方不会让自己轻易脱身。\n[Dialog]\n[Character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"]……\n[Dialog]\n[Character(name=\"avg_npc_404_1#2$1\")]\n[delay(time=1)]\n[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]\n[Blocker(a=0.7, r=0.95, g=0.2, b=0.2, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_atk_circleatk_n\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[PlaySound(key=\"$p_aoe_nmag_h\")]\n[delay(time=1.5)]\n[Dialog]\n[character]\n赤色雷光在指挥塔上方的云层一闪而过。\n[Dialog]\n[Character(name=\"avg_npc_395_1#4$1\")]\n[name=\"阿斯卡纶\"]这是……提卡兹之根。\n[Character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"]你当然认得它，就像我认得你的袖剑一样。\n[Character(name=\"avg_npc_395_1#6$1\")]\n[name=\"阿斯卡纶\"]……信号。你在通知他。\n[name=\"阿斯卡纶\"]阿米娅，我们没有多少时间了。\n[character(name=\"avg_npc_394_1#19$1\")]\n[name=\"阿米娅\"]嗯，只要带走莱托……\n[Dialog]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.2, r=1, g=0, b=0, fadetime=0.2, block=true)]\n[playsound(key=\"$d_avg_blood\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.4, block=true)]\n[delay(time=0.2)]\n[character(name=\"avg_npc_394_1#12$1\")]\n[name=\"阿米娅\"]唔——！\n[Character(name=\"avg_npc_650_1#1$1\")]\n[name=\"Logos\"]小心防御。血魔的力量远不止于此。\n[Character(name=\"avg_npc_410_1#1$1\")]\n[name=\"血魔大君\"]呵……又浪费了很多血。\n[Dialog]\n[character]\n刚才的战斗远远无法让血魔尽兴。\n他看向躲在一旁的维多利亚士兵们。\n[Dialog]\n[Character(name=\"avg_npc_649_1#3$1\",name2=\"avg_npc_410_1#1$1\",focus=1)]\n[name=\"莱托中校\"]唔……！你……不能……\n[Character(name=\"avg_npc_649_1#3$1\",name2=\"avg_npc_410_1#1$1\",focus=2)]\n[name=\"血魔大君\"]没有关系的，莱托。很快就连你的命都不必留下了。\n[Character(name=\"avg_npc_408_1#1$1\")]\n[name=\"维多利亚士兵\"]中校……中校！\n[Dialog]\n[PlaySound(key=\"$d_avg_tear\", volume=0.7)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"维多利亚士兵\"]唔啊——！\n[Dialog]\n[Character]\n士兵们无法再言语。\n他们跌跌撞撞地走到血魔身前，一股又一股血液正从他们脊柱的位置喷出来，取代了他们的手和脚，替他们听从命令，迅速地行进。\n他们受到了血魔大君的赐福。\n[Dialog]\n[Character(name=\"avg_npc_395_1#3$1\")]\n[name=\"阿斯卡纶\"]……"
+        }
+      ],
+      "description": "双方在同一连续战斗中直接交锋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "双方在同一连续战斗中直接交锋。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "双方在同一连续战斗中直接交锋。",
+          "status": "supported",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 586,
+          "kind": "story",
+          "line": 501,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前或明确旧事",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_4132_ascln|npc_aa980d6791c26c93"
+}

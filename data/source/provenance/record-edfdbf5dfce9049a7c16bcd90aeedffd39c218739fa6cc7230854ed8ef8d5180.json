@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 547,
+          "line": 539,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_end.txt",
+          "quote": "[name=\"阿格尼尔\"]你的做法毫无疑问破坏了西西里制定的规矩，所以，我确实是为了了结你而来。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]但我没想到，居然收获了一场意料之外的父子之谈。\n[Character(name=\"avg_npc_685_1#4$1\")]\n[name=\"贝纳尔多\"]哦？\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]西西里不接受破坏规则，是因为，从来没有人提出能让她满意的答案。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]而你，你有一个优秀的儿子，贝纳尔多。"
+        }
+      ],
+      "description": "阿格尼尔表示听见父子谈话并评价贝纳尔多的儿子。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_686d8dda781355b1",
+          "reason": "阿格尼尔表示听见父子谈话并评价贝纳尔多的儿子。",
+          "status": "supported",
+          "to": "char_427_vigil"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_427_vigil",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_686d8dda781355b1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 547,
+          "kind": "story",
+          "line": 539,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 750,
+          "line": 699,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_st04.txt",
+          "quote": "[name=\"阿格尼尔\"]Zzz~\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"r\", name = \"avg_npc_1541_1#1$1\", posfrom=\"100,0\", posto=\"-150,0\", duration=1.5)]\n[Delay(time=2)]\n[charslot(slot = \"r\", name = \"avg_npc_1541_1#1$1\", focus=\"r\")]\n[name=\"莱昂图索\"]神父？阿格尼尔神父？\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.3)]\n[charslot(slot = \"l\", name = \"avg_npc_692_1#4$1\", focus=\"l\")]\n[name=\"阿格尼尔\"]啊，是你。\n[dialog]\n[charslot(slot = \"r\", posfrom=\"-150,0\", posto=\"0,0\", afrom=1, ato=1, duration=1)]\n[Delay(time=1)]\n[charslot(slot = \"r\", name = \"avg_npc_1541_1#8$1\", focus=\"r\")]\n[name=\"莱昂图索\"]要不是在翻看市民们的狂欢节回顾投稿时，偶然发现了一张您的照片，我都不知道您来了新沃尔西尼。\n[charslot(slot = \"l\", name = \"avg_npc_692_1#4$1\", focus=\"l\")]\n[name=\"阿格尼尔\"]哈哈，我本来就没有通知任何人。\n[charslot(slot = \"r\", name = \"avg_npc_1541_1#2$1\", focus=\"r\")]\n[name=\"莱昂图索\"]那您也打算就这么离开？\n[name=\"莱昂图索\"]我陪您一起返回蒙特卢佩吧，有些事情，或许我应该亲自向西西里夫人说明。\n[charslot(slot = \"l\", name = \"avg_npc_692_1#1$1\", focus=\"l\")]\n[name=\"阿格尼尔\"]为什么？\n[charslot(slot = \"r\", name = \"avg_npc_1541_1#1$1\", focus=\"r\")]\n[name=\"莱昂图索\"]啊？\n[charslot(slot = \"l\", name = \"avg_npc_692_1#1$1\", focus=\"l\")]\n[name=\"阿格尼尔\"]这座城市刚刚进入第二个年头，作为市长，你应该还有很多事情要忙才对。\n[charslot(slot = \"l\", name = \"avg_npc_692_1#1$1\", focus=\"l\")]\n[name=\"阿格尼尔\"]放轻松，年轻人。\n[name=\"阿格尼尔\"]虽然很不愿意承认我们像是那种担心孩子第一次远行所以悄悄跟在后面的老家伙……\n[name=\"阿格尼尔\"]但我来到这座城市，确实是受了西西里的委托，走走，看看……必要的时候了结一些人，或者宣布一道她的命令。\n[name=\"阿格尼尔\"]但我最终什么都没有做。狂欢节上发生了一些插曲，但它已经顺利落幕了，不是吗？\n[charslot(slot = \"r\", name = \"avg_npc_1541_1#2$1\", focus=\"r\")]\n[name=\"莱昂图索\"]……\n[charslot(slot = \"l\", name = \"avg_npc_692_1#2$1\", focus=\"l\")]\n[name=\"阿格尼尔\"]某种程度上，你确实没有圆满完成对西西里的承诺，将新沃尔西尼变成一座完全不同的新城市……\n[charslot(slot = \"r\", name = \"avg_npc_1541_1#2$1\", focus=\"r\")]\n[name=\"莱昂图索\"]我不否认。\n[charslot(slot = \"l\", name = \"avg_npc_692_1#1$1\", focus=\"l\")]\n[name=\"阿格尼尔\"]西西里刚回到叙拉古的时候，遇到的麻烦可比你现在多，将铳和秩序带入这个国家的过程可并不顺利。\n[name=\"阿格尼尔\"]当然，你的阻力也比她当时的更大。所以她不会就这么打击年轻人的热情……她还不至于变成那样的老家伙。\n[charslot(slot = \"r\", name = \"avg_npc_1541_1#2$1\", focus=\"r\")]\n[name=\"莱昂图索\"]……\n[name=\"莱昂图索\"]我想与您同回蒙特卢佩，并不是为了谢罪。\n[name=\"莱昂图索\"]我有一些新的计划，关于新沃尔西尼的未来，关于推广《新都市管理法案》的可能性……\n[charslot(slot = \"l\", name = \"avg_npc_692_1#1$1\", focus=\"l\")]\n[name=\"阿格尼尔\"]哈哈哈，那就好。\n[dialog]\n[delay(time=1)]\n[charslot(slot = \"r\", name = \"avg_npc_1541_1#1$1\", focus=\"r\")]\n[name=\"莱昂图索\"]神父，我有一件事不解，既然您确实是为了解决麻烦而来的……那为什么，最终您没有出手？\n[charslot(slot = \"l\", name = \"avg_npc_692_1#1$1\", focus=\"l\")]\n[name=\"阿格尼尔\"]……"
+        }
+      ],
+      "description": "伺夜与阿格尼尔在码头直接长谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C15"
+          ],
+          "from": "char_427_vigil",
+          "reason": "伺夜与阿格尼尔在码头直接长谈。",
+          "status": "supported",
+          "to": "npc_686d8dda781355b1"
+        },
+        {
+          "evidenceIds": [
+            "C15"
+          ],
+          "from": "npc_686d8dda781355b1",
+          "reason": "伺夜与阿格尼尔在码头直接长谈。",
+          "status": "supported",
+          "to": "char_427_vigil"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 750,
+          "kind": "story",
+          "line": 699,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "揭幕者们"
+    }
+  ],
+  "relationship_id": "char_427_vigil|npc_686d8dda781355b1"
+}

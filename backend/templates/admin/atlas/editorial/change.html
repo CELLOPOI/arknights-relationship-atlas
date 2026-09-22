@@ -1,0 +1,44 @@
+{% extends "admin/atlas/editorial/base.html" %}
+{% block workspace %}
+<p class="meta">{{ original.get_status_display }} · 修订版本 {{ original.version }} · 基线 {{ original.base_release_id }}</p>
+{% if error %}<p class="errornote" role="alert">{{ error }}</p>{% endif %}
+{% if stale and original.status != 'published' %}<p class="notice">当前正式资料已更新为 {{ current_id }}。请退回草稿并更新基线，再提交审核。</p>{% endif %}
+{% if original.feedback_id and can_feedback %}<p><a href="{% url 'admin:atlas_feedback_change' original.feedback_id %}">查看关联反馈 {{ original.feedback_id }}</a>；本修订发布成功后，反馈将标记为已解决。</p>{% endif %}
+{% if original.rollback_target_id %}<p class="notice">回退目标：{{ original.rollback_target_id }}。回退会生成新资料版本，保留后来新增记录的 ID 并撤下，不恢复账号或反馈数据库。</p>{% endif %}
+{% if original.status == 'draft' and can_edit %}
+<form method="post">{% csrf_token %}{{ form.as_p }}<button name="action" value="save" type="submit">保存修订说明</button></form>
+{% else %}<p><strong>修改说明与依据</strong></p><pre>{{ original.description }}</pre>{% endif %}
+<h2>修订条目</h2>
+{% if not original.rollback_target_id %}
+<div class="record-list"><table><thead><tr><th>类型</th><th>资料</th><th>操作</th></tr></thead><tbody>
+{% for item in records %}<tr><td>{{ item.get_section_display }}</td><td><a href="{% url 'admin:atlas_candidate_change' item.pk %}">{{ item.display_name }}</a></td><td>
+{% if original.status == 'draft' and can_edit %}<form method="post">{% csrf_token %}<input type="hidden" name="version_token" value="{{ original.version }}"><input type="hidden" name="candidate_id" value="{{ item.pk }}"><button name="action" value="remove" type="submit">移出本次修订</button></form>{% endif %}
+</td></tr>{% empty %}<tr><td colspan="3">尚无条目。可以添加已有资料，也可以新建人物、关系和证据。</td></tr>{% endfor %}
+</tbody></table></div>
+{% if original.status == 'draft' and can_edit and not stale %}<p><a class="addlink" href="{% url 'admin:atlas_changeset_record' original.pk %}">添加修订条目</a></p>{% endif %}
+{% endif %}
+<h2>资料差异</h2>
+{% if asset_version != original.base_release.manifest.asset_version %}<p class="notice">素材版本将从 {{ original.base_release.manifest.asset_version }} 更新为 {{ asset_version }}。审核和发布前会核对所有公开头像引用。</p>{% endif %}
+{% include "admin/atlas/editorial/diff.html" %}
+{% for item in narratives %}<details><summary>{{ item.section }} · {{ item.id }}</summary><pre>{{ item.before }}</pre><pre>{{ item.after }}</pre></details>{% endfor %}
+{% if evidence %}<h2>关系原文与来源</h2>{% for item in evidence %}<details open><summary>{{ item.relationship_id }}{% if not item.published %}（未公开）{% endif %}</summary><pre>{{ item.quote }}</pre><ul>{% for source in item.sources %}<li>{{ source.source }}{% if source.line %} · 行 {{ source.line }}{% if source.endLine %}–{{ source.endLine }}{% endif %}{% endif %}{% if source.version %} · {{ source.version }}{% endif %}</li>{% empty %}<li>未填写来源。</li>{% endfor %}</ul></details>{% endfor %}{% endif %}
+{% if original.reviewed_by %}<p>审核人：{{ original.reviewed_by }} · {{ original.reviewed_at }}。审核意见：{{ original.review_note }}</p>{% endif %}
+{% if original.status == 'published' %}<p><a href="{% url 'admin:atlas_datarelease_change' original.published_release_id %}">查看发布版本 {{ original.published_release_id }}</a></p>
+{% elif original.status != 'cancelled' %}
+<h2>审核与发布</h2>
+{% if preview %}
+<p class="notice">发布预览已校验。确认后将一次应用以上 {{ preview.changes|length }} 条变化。若内容或基线变化，需要重新预览。</p>
+{% if preview.feedback %}<p>关联反馈 {{ preview.feedback.id }} 当前为“{{ preview.feedback.status }}”，发布后将标记为“已解决”。反馈在预览后变化时会拒绝本次发布。</p>{% endif %}
+<form method="post">{% csrf_token %}<input type="hidden" name="version_token" value="{{ original.version }}"><input type="hidden" name="preview_token" value="{{ preview.token }}"><button name="action" value="publish" type="submit">确认发布此版本</button></form>
+{% else %}
+<form method="post">{% csrf_token %}<input type="hidden" name="version_token" value="{{ original.version }}">
+{% if original.status == 'submitted' or original.status == 'approved' %}<p><label for="review-note">审核或退回理由</label><textarea id="review-note" name="note" rows="3" maxlength="6000">{{ note }}</textarea></p>{% endif %}
+<div class="actions">
+{% if original.status == 'draft' and can_edit %}{% if stale %}<button name="action" value="rebase" type="submit">更新修订基线</button>{% else %}<button name="action" value="submit" type="submit">提交审核</button>{% endif %}<button name="action" value="cancel" type="submit">取消修订</button>{% endif %}
+{% if original.status == 'submitted' and can_review and not stale %}<button name="action" value="approve" type="submit">审核通过</button>{% endif %}
+{% if original.status == 'submitted' or original.status == 'approved' %}{% if can_review %}<button name="action" value="return" type="submit">退回草稿</button>{% elif can_edit %}<button name="action" value="withdraw" type="submit">撤回草稿</button>{% endif %}{% endif %}
+{% if original.status == 'approved' and can_publish and not stale %}<button name="action" value="preview" type="submit">预览发布</button>{% endif %}
+</div></form>
+{% endif %}{% endif %}
+<details><summary>操作记录（{{ events|length }}）</summary><ul>{% for item in events %}<li>{{ item.created_at }} · {{ item.actor|default:"已删除账号" }} · {{ item.get_action_display }} · 版本 {{ item.version }}{% if item.detail.note %}<pre>{{ item.detail.note }}</pre>{% endif %}</li>{% endfor %}</ul></details>
+{% endblock %}

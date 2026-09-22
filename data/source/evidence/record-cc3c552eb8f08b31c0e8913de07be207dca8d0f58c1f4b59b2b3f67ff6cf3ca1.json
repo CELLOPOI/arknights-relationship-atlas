@@ -1,0 +1,20 @@
+{
+  "id": "import:char_112_siege|char_494_vendla",
+  "published": true,
+  "quote": "玛格达尔：……\n玛格达尔：不对，镇上布置的源石结晶太多了……\n玛格达尔：镇长办公室，小广场，图书馆……我们夜以继日修建那些东西……\n玛格达尔：不可能来得及——\n\n推进之王：……法阵已经破损，血魔的子裔在失控，抓住机会！\n推进之王：步兵集团停止前进，护送身边的市民退出法阵范围。\n推进之王：战车分队跟我继续推进，摧毁镇子里剩余的源石结晶，搜救市民！",
+  "relationship_id": "char_112_siege|char_494_vendla",
+  "sources": [
+    {
+      "endLine": 739,
+      "kind": "story",
+      "line": 724,
+      "source": "obt/main/level_main_13-12_end.txt"
+    },
+    {
+      "endLine": 783,
+      "kind": "story",
+      "line": 780,
+      "source": "obt/main/level_main_13-12_end.txt"
+    }
+  ]
+}

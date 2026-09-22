@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1175,
+          "line": 1154,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[name=\"明椒\"]（紧张地摇头）\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[multiline(name=\"赫德雷\")]恐怕我们已经错过了些很重要的事——\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#3$1\",focus=\"m\")]\n[CameraShake(duration=0.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[multiline(name=\"赫德雷\",end=true)]嘶……他是真想杀了我。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#3$1\",focus=\"m\")]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_clothmovement\",volume=0.6)]\n[charslot(slot=\"l\",name=\"avg_4087_ines_1#1$1\",posfrom=\"-50,0\",posto=\"-20,0\",duration=0.8)]\n[charslot(slot=\"l\",afrom=0,ato=1,duration=0.3)]\n[Delay(time=0.5)]\n[charslot(slot=\"l\",name=\"avg_4087_ines_1#1$1\",posfrom=\"-20,0\",posto=\"-20,0\",focus=\"l\")]\n[name=\"伊内丝\"]给自己点恢复的时间。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#2$1\",focus=\"m\")]\n[name=\"赫德雷\"]还死不了。当务之急是联系上博士和W。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]如果她在通讯里提到的事情都属实……那现在，她很需要我们。\n[name=\"赫德雷\"]看来这场仗的走向，已经完全超出我的预料了。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#8$1\",focus=\"m\")]\n[name=\"赫德雷\"]摄政王，特蕾西娅殿下，你们到底做了什么……"
+        }
+      ],
+      "description": "明椒仍在赫德雷伊内丝近旁汇报信息，听赫德雷具称特蕾西娅。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E182"
+          ],
+          "from": "char_4071_peper",
+          "reason": "明椒仍在赫德雷伊内丝近旁汇报信息，听赫德雷具称特蕾西娅。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4071_peper"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 1175,
+          "kind": "story",
+          "line": 1154,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "char_4071_peper|npc_c0e49cc5a9477cf1"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 485,
+          "line": 426,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-14_beg.txt",
+          "quote": "[name=\"爱布拉娜\"]……\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]殿下。\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]萨卡兹的飞空艇已经升空，正在缓慢地向伦蒂尼姆方向转向。\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]我们的高速战舰编队已经在外围做好了拦截准备。\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]……也有其他部队正在集结。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#2$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]哦？\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]温德米尔公爵的舰队在更早之前就接近了这个地块，开斯特公爵的军舰也在蠢蠢欲动，恐怕很快也会接近。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]看来大家都很关心这里。\n[dialog]\n[charslot]\n[name=\"？？？\"]真的关心吗？\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_865_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=1.5)]\n[name=\"考伯特\"]是不是各位公爵来得有些太迟了呢？\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]你是……那个酒店的大堂经理？\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]你怎么会在这里？\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]……你是萨卡兹早就安插在伦蒂尼姆的间谍？\n[charslot(slot=\"m\",name=\"avg_npc_865_1#1$1\",focus=\"m\")]\n[name=\"考伯特\"]不，考伯特只是个普通的自认是个维多利亚人的萨卡兹清洁员罢了。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]那么你呢？\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_deathfire\", volume=1)]\n[bgeffect(name=\"$eb_eblana_attack\",layer = 1)]\n[delay(time=1)]\n[PlaySound(key=\"$burningloop1\", volume=0.7, loop=true, channel=\"fire\")]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background]\n[bgEffect(layer = 1)]\n[Image(image=\"37_i06\",screenadapt=\"coverall\",xScale=1.7, yScale=1.7,fadetime=0,block=true)]\n[ImageTween(xFrom=200, yFrom=130, xTo=-300, yTo=130,duration=60, block=false)]\n[bgeffect(name=\"$eb_deathburning\",layer = 1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[name=\"变形者集群\"]我们……？\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"37_i06\",screenadapt=\"coverall\",fadetime=1,block=true)]\n[ImageTween(xFrom=-50, yFrom=30, xTo=0, yTo=0,xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=20, block=false)]\n[bgeffect(name=\"$eb_deathburning\",layer = 1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n[delay(time=2)]\n[name=\"变形者集群\"]和朋友正聊到兴头上，却被派出来干活的可怜人罢了。\n[name=\"变形者集群\"]德拉克，你还真是扫兴。\n[name=\"爱布拉娜\"]那么，不如和我聊聊怎么样？\n[name=\"变形者集群\"]……饶了我们吧。\n[name=\"变形者集群\"]不如让我们尽快结束这一切。"
+        }
+      ],
+      "description": "校官目睹考伯特显露为变形者，双方处于同一直接对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E35"
+          ],
+          "from": "npc_974bc7361c242057",
+          "reason": "双方在同一局部场景中直接对话、交手或明确识别彼此。",
+          "status": "supported",
+          "to": "npc_d47c240cb2990691"
+        },
+        {
+          "evidenceIds": [
+            "E35"
+          ],
+          "from": "npc_d47c240cb2990691",
+          "reason": "双方在同一局部场景中直接对话、交手或明确识别彼此。",
+          "status": "supported",
+          "to": "npc_974bc7361c242057"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 485,
+          "kind": "story",
+          "line": 426,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-14_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "npc_974bc7361c242057|npc_d47c240cb2990691"
+}

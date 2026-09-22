@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 154,
+          "line": 39,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-08_end.txt",
+          "quote": "[name=\"乌萨斯感染者\"]  我们不已经是感染者了吗？整合运动……有那么恨我们乌萨斯人吗？\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_003_kalts_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"凯尔希\"]  许多人心中最丑恶的情绪并不需要太多煽动，仅仅是放任自流，都能污染一座城市中的所有沟渠。\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]  医生……刚才太突然了！\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"凯尔希\"]  阿米娅，你应该已经不会被这种伎俩吓到。\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]  见一两次就够了……！\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"凯尔希\"]  浪费太多时间用于交涉，只会阻碍我们下一步的行动。\n[Character(name=\"avg_npc_059\")]\n[name=\"罗德岛近卫干员？\"]  所以你……医生，如果她撒谎的话，你真的会杀我吗？\n[Character(name=\"avg_npc_059\",name2=\"avg_npc_057\",focus=2)]\n[name=\"乌萨斯感染者\"]  我……我最后没有那么说啊！\n[Character(name=\"avg_npc_059\",name2=\"avg_npc_057\",focus=1)]\n[name=\"罗德岛近卫干员？\"]  只是个假设，不是所有受过伤害的感染者都那么诚实，就连我自己也被冲昏头脑过。\n[Character(name=\"avg_npc_059\",name2=\"avg_npc_057\",focus=2)]\n[name=\"乌萨斯感染者\"]  唔，唉……\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  并不会。\n[name=\"凯尔希\"]  你是罗德岛的干员。我首先信任的是你。\n[name=\"凯尔希\"]  比起别的，这更像是对她的心理疗法。当然，你和她的表现，都证明了你的无辜。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  可我……\n[name=\"罗德岛近卫干员？\"]  医生你的表情太阴沉了。我真的很怕你做出这种事……而且你演得实在有点太像了。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_059\",focus=1)]\n[name=\"凯尔希\"]  这没什么问题。我不会，但我理应做到让大多数人觉得我会。\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]  凯尔希医生，做到这份上……别再恐吓Guard啦。\n[Character(name=\"char_003_kalts_1\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"凯尔希\"]  好。\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=1)]\n[name=\"阿米娅\"]  Guard，不用担心，事情如果真发展到那种程度，我也会阻止医生的。\n[name=\"阿米娅\"]  刚才这些，会不会太刺激到你的情绪？要我帮你恢复吗？\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  啊，这倒不用，如果这种程度也需要阿米娅的心理治疗，我就太脆弱了。\n[name=\"罗德岛近卫干员？\"]  毕竟……我真正不放心的就只有站在门口的那个人。\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  ……\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  尽管现在好些了，她和我说了那些以后，我大概也明白……但我还是会想到她用巨剑掷过去切开一整个人的事。\n[name=\"罗德岛近卫干员？\"]  那次任务我这辈子都忘不掉了。\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=1)]\n[name=\"阿米娅\"]  啊……我知道那一次。\n[name=\"阿米娅\"]  Guard……你知道她在那次任务中救下了四个平民，使他们免遭当地武装实验武器的杀害了吗？\n[name=\"阿米娅\"]  她斩杀的是当地武装从萨尔贡奴隶贩子手里购买的废弃军用实验术师，那一批的所有术师全部被切除了脑垂体。\n[name=\"阿米娅\"]  是种入身体的源石器官，而不是他们自身的神经系统在控制他们活动。他们实际上已经死了。\n[name=\"阿米娅\"]  只有像迷迭香那样的战斗方式才能彻底摧毁实验体感染器官的运作。她没有做错。\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  ……是这样吗？\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=1)]\n[name=\"阿米娅\"]  Guard，我认为，你对迷迭香的想象，和那位小姐一开始对你的误解有一定的相似处。\n[name=\"阿米娅\"]  传闻和表象，是别人认识我们的第一面窗户。无论你做了什么，他们的第一反应都会是排斥整合运动，这无可厚非。\n[name=\"阿米娅\"]  可是，如果仅仅停留在这层认知……不要说信任了，我们甚至不会对事情哪怕有一点点更多的了解。\n[name=\"阿米娅\"]  如果没有人有了解真相的意愿，那就算把真相撒播在街道上，也不会有发芽的可能。\n[name=\"阿米娅\"]  而且，迷迭香就在面前吧，直接去问她……会更好吧？\n[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  问、问她？\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  你想问什么？\n[Decision(options=\"（迷迭香好凶……！）\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  （呃，不是这样……她也不知道该说什么吧……）\n[Character(name=\"avg_npc_042\",name2=\"avg_npc_059\",focus=2)]\n[name=\"罗德岛近卫干员？\"]  ……\n[name=\"罗德岛近卫干员？\"]  ……迷迭香，你来这里，是做什么的？\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  执行任务。\n[name=\"迷迭香\"]  ……还有，我说了，报仇。许多家人的仇。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_059\")]\n[name=\"罗德岛近卫干员？\"]  我问完了。\n[name=\"罗德岛近卫干员？\"]  但……我也不知道我问了啥。\n[name=\"罗德岛近卫干员？\"]  以前我对阿撒兹勒发火，现在还是我，对迷迭香出言不逊。哈，我真是一塌糊涂。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  但你却信任爱国者。和我们谈谈爱国者和游击队，以及整合运动吧。\n[Character(name=\"avg_npc_059\")]\n[name=\"罗德岛近卫干员？\"]  我想医生和博士这样的，肯定很能理解现状。\n[name=\"罗德岛近卫干员？\"]  之所以在这些地方还能有活人，之所以切尔诺伯格城里还能活下许多乌萨斯人……\n[name=\"罗德岛近卫干员？\"]  全是因为爱国者和游击队，以及还有尊重他们的人在。\n[name=\"罗德岛近卫干员？\"]  游击队战士们只要站在那里，周边就不会有纠纷，也不会有任何人敢对别人施以暴行。\n[name=\"罗德岛近卫干员？\"]  他们不仅运送货物和分配资源，他们还帮助本地人改善生活条件。\n[name=\"罗德岛近卫干员？\"]  ……爱国者原本打算放我出城。但我选择自己留下来……看看现状。\n[name=\"罗德岛近卫干员？\"]  我听到他和阿撒兹勒领袖的谈话，我觉得哪怕他的表象是伪装出来的，他也至少会爱护那个表象。\n[name=\"罗德岛近卫干员？\"]  何况……何况Scout先生为了保护我死在了那里。爱国者他尊重Scout先生。我……\n[Decision(options=\"Scout……牺牲在切尔诺伯格的干员。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  Scout！\n[Decision(options=\"迷迭香……？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"迷迭香\"]  Scout他怎么了？\n[name=\"迷迭香\"]  我……我怎么不记得？他死了？他……\n[name=\"迷迭香\"]  这空虚……是他吗？Scout……我又忘了？\n[name=\"迷迭香\"]  我不是刚刚……终端……我怎么又忘了？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n1月3日 \n有个白发的老先生送来了一块焦黑的东西。Machinist看到那东西就坐在凳子上起不来了。\n老先生点了点头就离开了，同行的凯尔希医生也没说什么，只是碰了碰我的头。\n那是Scout的东西。\nScout。\nScout也不在了。\nScout不是连影子都没有的人吗？不是其他人都死了他也会活下来的人吗？不是说的故事长到不会结束的人吗？\nScout……\n我翻了以前的记录。Scout帮我做了蝴蝶结。可那是小女孩才用的，我已经不玩玩具了。"
+        }
+      ],
+      "description": "确认前者单向知晓后者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_003_kalts",
+          "reason": "前者在已读场景中具体提及、观察或接收后者信息。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 154,
+          "kind": "story",
+          "line": 39,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 52,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "quote": "[name=\"Misery\"]……都给我吧。为了把她送回来，你赶了一路，很辛苦。\n[name=\"Misery\"]下面的事，我亲自处理。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]遗物和骨灰匣。\n[name=\"凯尔希\"]切尔诺伯格事件结束后，类似的紧急通讯声已经有整整十一个月又二十七天没有在罗德岛的甲板上响起了。\n[name=\"凯尔希\"]——这一次牺牲的是谁？\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]Outcast。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]……\n[name=\"凯尔希\"]我看到了，你手中握着的是她的弹巢。\n[name=\"凯尔希\"]虽然不想承认，但在来的路上，我已经想过这个答案。\n[name=\"凯尔希\"]我曾经和她打过一个赌——\n[name=\"凯尔希\"]现在看来，她还是赢了。\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]凯尔希，下面的会议，我会缺席。\n[name=\"Misery\"]按照惯例，精英干员的葬礼将由你亲自主持……\n[name=\"Misery\"]但这次，我希望由我来告别她。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]……我想没有人会有异议，包括她自己。\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]既然会议中止，那么，我会在这里给出我最终的选择——\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]Misery，我知道你的答案。\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]那你肯定也知道其他人的答案。\n[name=\"Misery\"]情况发生了变化。没人喜欢这个变化，但大家都清楚只能这么选。\n[name=\"Misery\"]——我们必须尽快进入伦蒂尼姆。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]你们都很清楚，我的立场始终如一——\n[name=\"凯尔希\"]但无论你们最终是否决定支持我的提议，我都必须强调，罗德岛并不会为了宣泄任何私人情感而决定未来的航向。\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]你是在提醒我，不要想着为Outcast报仇？\n[name=\"Misery\"]你放心。我的内心是充满了悲痛和愤怒，可我还记得自己的职责。\n[name=\"Misery\"]只是，我要亲眼看一看能杀死Outcast的究竟是什么——\n[name=\"Misery\"]那不会是一个人，或者几个人。\n[name=\"Misery\"]凯尔希……假如我们不去寻找真相，那么笼罩着伦蒂尼姆乃至整个维多利亚的阴云只会更加肆无忌惮。\n[name=\"Misery\"]到时候，不止Outcast……\n[name=\"Misery\"]我会死，我们都会。没有人能逃脱。\n[name=\"Misery\"]就像你说的，罗德岛不会为了死者复仇……\n[name=\"Misery\"]但是，我们都想为生者创造继续活下去的机会。"
+        }
+      ],
+      "description": "凯尔希追述与 Outcast 的具体赌约，支持双向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S06"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希见到 Outcast 遗物并追述两人的赌约。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [
+            "S06"
+          ],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "凯尔希明言自己曾与 Outcast 打赌，证明历史上双方直接互动。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 52,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "Outcast牺牲后追忆的历史互动",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "char_003_kalts|npc_617e6ed434c6e138"
+}

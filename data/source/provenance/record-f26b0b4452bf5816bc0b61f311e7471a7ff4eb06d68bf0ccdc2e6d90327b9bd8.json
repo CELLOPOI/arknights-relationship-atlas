@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 313,
+          "line": 167,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_02_beg.txt",
+          "quote": "[name=\"余\"]梁、梁……\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#3$1\")]\n[name=\"余\"]……\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]三姐，梁……梁字能接什么成语啊？\n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#1$1\",duration=1)]\n[delay(time=2)]\n[name=\"颉\"]该不会刚一开始就要认输了吧？\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#9$1\")]\n[name=\"余\"]怎、怎么会，我就是忙着处理兽肉，没工夫想。再给我点时间嘛。\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#8$1\")]\n[name=\"颉\"]好，好……我还有不少书要抄，你慢慢想，不着急。\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#4$1\")]\n[name=\"余\"]梁……感觉应该去抓四哥问问，但是四哥又不在……\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#20$1\")]\n[multiline(name=\"余\")]横梁、房梁、栋梁——栋梁之材！\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#19$1\")]\n[multiline(name=\"余\")]不对，梁字应该在第一个……\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#17$1\")]\n[name=\"余\"]（对了，三姐手边有那么多写字的竹简，偷偷看一眼，没准……）\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#1$1\")]\n[name=\"颉\"]小余？怎么了？\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#10$1\")]\n[name=\"余\"]——没事没事！\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#8$1\")]\n[name=\"余\"]对了，三姐。你为什么要把这些竹简上的字，全部抄到这些方片上呀？\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#1$1\")]\n[name=\"颉\"]这是最近人们的新发明，叫“纸”。\n[name=\"颉\"]你看，它比竹简轻便，写起字来更容易，还不会轻易生虫腐化，更方便保存呢。\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#8$1\")]\n[name=\"余\"]写在“纸”上的东西，就能永远保存下来？\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#1$1\")]\n[name=\"颉\"]是，也不全是。\n[name=\"颉\"]写在竹简上的东西或许可以完整留存几十年，写在纸上的文字，也许能保存数百年。\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#4$1\")]\n[name=\"颉\"]但竹简也好纸张也罢，总还是会有腐化的一天。\n[name=\"颉\"]无论用什么东西去记载，只有记下来的东西，真正被人们记住了，那才能永远地留存下去。\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#1$1\")]\n[name=\"颉\"]就像小余做的菜一样，人们尝过了，也会永远记住的。\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#14$1\")]\n[name=\"余\"]唔……\n[charslot(slot = \"m\", focus = \"n\")]\n男孩似懂非懂地听着，坐在刚处理好的整只牧兽旁边抓耳挠腮，怎么也想不出那个“梁”开头的成语。\n一枚从竹简上削下来，带着一小段话的薄片忽然落在他面前。\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#21$1\")]\n[name=\"余\"]梁上君子！\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#1$1\")]\n[name=\"颉\"]不错不错，“梁上君子”。让我想想，子字该接的是……子虚——\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#19$1\")]\n[name=\"余\"]不、不玩啦，还是等下次大姐和夕姐在的时候我看你们玩吧。这个“接龙”的游戏好难啊。\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#5$1\")]\n[name=\"余\"]三姐，你饿不饿？要不要我把兽肉做了？\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#1$1\")]\n[name=\"颉\"]好啊。\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]这些竹简要是不用了，能不能也给我？\n[charslot(slot = \"m\", name = \"avg_npc_2125_1#3$1\")]\n[name=\"颉\"]要拿来生火吗？可以是可以……\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"70_i01_2\", xScale=1.1, yScale=1.1,screenadapt=\"coverall\",fadetime=0)]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n年幼的代理人从姐姐手里接过竹简，熟练地从中间剖开……\n[playsound(key=\"$d_avg_scrapebamboo\",channel=\"1\")]\n[playsound(key=\"$d_avg_scrapebamboo\",channel=\"2\",delay=1)]\n削成一根一根的竹签。\n[name=\"颉\"]这是要做……？\n[name=\"余\"]烤肉串！\n[name=\"余\"]这头牧兽的里脊肥瘦正好，肚子上的膘也挺厚实，拿来做烤肉肯定好吃。\n[name=\"余\"]至于烧火的材料，还得是木炭。这些竹简烧不久的。\n[name=\"余\"]木炭我早就备好了，等竹签削好，肉串串完，就可以开始烤肉啦。\n[name=\"颉\"]哈哈……这是不是也算人们说的“吃墨水”？\n[name=\"余\"]嘿嘿，那这道菜就叫，“墨水烤肉”！\n[name=\"颉\"]小余的手艺总不会错，我就等着大饱口福啦。\n[name=\"颉\"]喏，正好这些竹简也抄好了，你都拿去吧。\n[dialog]\n[delay(time=1.5)]\n[name=\"？？？\"]……你们都在。\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"70_i01_1\", xScale=1.1, yScale=1.1,screenadapt=\"coverall\")]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[name=\"颉\"]啊……你回来了？\n[dialog]\n[Image(image=\"70_i01_3\", xScale=1.1, yScale=1.1,screenadapt=\"coverall\",fadetime=0.5)]\n[ImageTween( xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=35)]\n[name=\"余\"]欸……？\n[name=\"余\"]二……二哥？\n[dialog]\n[name=\"颉\"]之前收到了信，我还以为你要过几天才能到呢。\n[name=\"颉\"]路上还顺利？\n[name=\"望\"]嗯。\n[name=\"望\"]你们……\n[name=\"望\"]只听说过有人焚琴煮羽，已经是糟蹋败坏至极。\n[name=\"望\"]这是在拿书简做什么？\n[name=\"余\"]我……不是……\n[name=\"余\"]这是……三姐给我的……\n[dialog]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[image]\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#9$1\")]\n[charslot(slot = \"r\", name = \"avg_npc_2125_1#1$1\")]\n[Background(image=\"70_g12_oldyanroom\",screenadapt=\"coverall\",fadetime=0, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot = \"m\", posfrom = \"0,0\", posto = \"100,0\",duration=1)]\n[delay(time=1.5)]\n[charslot(slot = \"m\", focus = \"n\")]\n看到从屋外走进来的男人，男孩怯生生地躲在姐姐的身后，只露出半个脑袋。\n[charslot(slot = \"r\", name = \"avg_npc_2125_1#10$1\",focus=\"r\")]\n[name=\"颉\"]只是一些坏了的竹简，就交给小余物尽其用了。你凶什么？\n[name=\"颉\"]小余好心准备晚饭，你还不领情？\n[charslot]\n[charslot(slot = \"m\", name = \"avg_2027_wang_1#4$2\")]\n[name=\"望\"]我也没说什么……\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#10$1\")]\n[name=\"余\"]二哥三姐……！你们别吵架！\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#5$1\")]\n[name=\"余\"]我先去准备晚饭！二哥回来一趟不容易，今天我们终于能一起吃晚饭啦！\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#9$1\")]\n[name=\"余\"]你……你们先聊！\n[dialog]\n[playsound(key=\"$rungeneral\", loop=true, channel=\"bgs\")]\n[StopSound(channel=\"bgs\", fadetime=1.5)]\n[charslot(slot = \"m\",afrom = 1, ato = 0,duration = 0.8,posfrom = \"0,0\", posto = \"200,0\")]\n[delay(time=2)]\n[charslot(slot = \"left\", name = \"avg_2027_wang_1#1$2\",duration = 0.5)]\n[charslot(slot = \"right\", name = \"avg_npc_2125_1#10$1\",duration = 0.5)]\n[delay(time=1.5)]\n[charslot(slot = \"right\", name = \"avg_npc_2125_1#10$1\",focus=\"r\")]\n[name=\"颉\"]唉……\n[name=\"颉\"]他本来就有些怯你，你就不能稍微温柔一点？\n[charslot(slot = \"left\", name = \"avg_2027_wang_1#4$2\",focus=\"l\")]\n[name=\"望\"]……\n[charslot(slot = \"right\", name = \"avg_npc_2125_1#11$1\",focus=\"r\")]\n[name=\"颉\"]事情不顺利？\n[charslot(slot = \"left\", name = \"avg_2027_wang_1#1$2\",focus=\"l\")]\n[name=\"望\"]嗯。\n[charslot(slot = \"right\", name = \"avg_npc_2125_1#7$1\",focus=\"r\")]\n[name=\"颉\"]我明白了……\n[charslot(slot = \"right\", name = \"avg_npc_2125_1#1$1\",focus=\"r\")]\n[name=\"颉\"]不过我们一家人难得能聚一次，小余也总惦记着你。"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "char_2026_yu",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_3da4a89447bd1525"
+        },
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "npc_3da4a89447bd1525",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "char_2026_yu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 313,
+          "kind": "story",
+          "line": 167,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_2026_yu|npc_3da4a89447bd1525"
+}

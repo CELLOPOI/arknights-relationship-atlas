@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 364,
+          "line": 317,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_04_end.txt",
+          "quote": "[name=\"小满\"]小禾，小烛台，你们在这？\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#6$2\",focus=\"m\")]\n[name=\"左乐\"]小满姑娘！你到哪里去了？！\n[charslot(slot=\"m\",name=\"avg_4122_grabds_1#2$1\",focus=\"m\")]\n[name=\"小满\"]我刚刚找水稻来着……\n[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#8$1\",focus=\"m\")]\n[name=\"禾生\"]找水稻？你不是去找牧兽了？什么水稻需要专门去找？\n[charslot(slot=\"m\",name=\"avg_4122_grabds_1#4$1\",focus=\"m\")]\n[name=\"小满\"]我——\n[Dialog]\n[musicvolume(volume=0.3, fadetime=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[Background(image=\"47_g3_fieldpath\", screenadapt=\"coverall\", block=true)]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]\n[charslot(slot=\"l\",name=\"avg_npc_1238_1#10$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_4122_grabds_1#5$1\",focus=\"l\")]\n[delay(time=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=0.5)]\n[name=\"暴躁的天师学徒\"]还有，我托你找水稻这件事，千万别和别人讲啊。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[Background(image=\"47_g8_crestofweir\", screenadapt=\"coverall\", block=true)]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]\n[charslot(slot=\"m\",name=\"avg_4122_grabds_1#11$1\")]\n[Delay(time=0.2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[musicvolume(volume=0.6, fadetime=1)]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_4122_grabds_1#11$1\",focus=\"m\")]\n[name=\"小满\"]我答应过别人……要保密的……\n[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#8$1\",focus=\"m\")]\n[name=\"禾生\"]奇奇怪怪……怎么尽是让人摸不着头脑的事……\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#4$2\",focus=\"m\")]\n[name=\"左乐\"]是谁要你找水稻？什么样子的水稻？在哪里找到的？\n[charslot(slot=\"m\",name=\"avg_4122_grabds_1#11$1\",focus=\"m\")]\n[name=\"小满\"]小烛台？你怎么这么紧张……有点吓人……\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#5$2\",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"左乐\"]小满姑娘！\n[charslot(slot=\"m\",name=\"avg_4122_grabds_1#11$1\",focus=\"m\")]\n[name=\"小满\"]好好好我说……\n[name=\"小满\"]是一个天师府的小个子学生……说要找特殊品种的水稻用来交作业……\n[name=\"小满\"]我也不知道是什么种类……只是看上去像是红色的，红得发黑……在堰口有一些，离这不远的水田里也有一些。"
+        }
+      ],
+      "description": "禾生与左乐听小满具体描述曾指示她找稻的天师府小个子学生；此学生身份由老天师立绘延续锚定。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_4119_wanqin",
+          "reason": "禾生与左乐听小满具体描述曾指示她找稻的天师府小个子学生；此学生身份由老天师立绘延续锚定。",
+          "status": "supported",
+          "to": "npc_d82925e6527dea32"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_d82925e6527dea32",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4119_wanqin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 364,
+          "kind": "story",
+          "line": 317,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "char_4119_wanqin|npc_d82925e6527dea32"
+}

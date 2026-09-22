@@ -1,0 +1,50 @@
+{
+  "contributions": [
+    {
+      "assignmentId": "review-04",
+      "description": "水月、骑士与骑士坐骑在同一连续战斗场景，坐骑以具名反应出现。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "char_437_mizuki",
+          "reason": "水月、骑士与骑士坐骑在同一连续战斗场景，坐骑以具名反应出现。",
+          "status": "supported",
+          "to": "npc_714a30cf8b57140b"
+        },
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_714a30cf8b57140b",
+          "reason": "水月、骑士与骑士坐骑在同一连续战斗场景，坐骑以具名反应出现。",
+          "status": "supported",
+          "to": "char_437_mizuki"
+        }
+      ],
+      "groupId": "group_b35f8149f58708bb",
+      "key": "char_437_mizuki|npc_714a30cf8b57140b",
+      "label": "确认相识",
+      "personIds": [
+        "char_437_mizuki",
+        "npc_714a30cf8b57140b"
+      ],
+      "realityScope": "hypothetical_ending_branch",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b35f8149f58708bb.json",
+      "temporalScope": "水月与深蓝之树所述时段",
+      "title": "水月与深蓝之树"
+    }
+  ],
+  "groupId": "group_b35f8149f58708bb",
+  "key": "char_437_mizuki|npc_714a30cf8b57140b",
+  "names": [
+    "水月",
+    "罗辛南特"
+  ],
+  "personIds": [
+    "char_437_mizuki",
+    "npc_714a30cf8b57140b"
+  ],
+  "realityScope": "hypothetical_ending_branch"
+}

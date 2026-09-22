@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 215,
+          "line": 181,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_03_beg.txt",
+          "quote": "[name=\"梵里妮\"]……最后，是狙击铳，射程最远，后坐力，大。铳托要，顶住肩部……这里可以，调节，长度。\n[name=\"梵里妮\"]你喜欢，哪一种？\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#5$5\",focus=\"m\")]\n[name=\"结城理\"]（拿起一把小型铳）\n[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]\n[name=\"卡拉\"]和你们的召唤器很像，觉得亲切？这倒是个好开始。\n[name=\"卡拉\"]来，站到这里，注意铳口不要对人，举起来试试吧。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[PlaySound(key=\"$d_avg_pistol_pickup\", volume=1)]\n[Image(image=\"77_i06\", screenadapt=\"coverall\")]\n[Delay(time=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[name=\"卡拉\"]肩膀沉下去。食指现在不要放到扳机上，伸直放在铳侧。\n[name=\"卡拉\"]手臂太紧张了。\n[name=\"卡拉\"]阿米娅，来，给结城示范一下手臂动作。\n[Image(image=\"77_i06\",fadetime=1, xScale=1.6, yScale=1.6,screenadapt=\"coverall\")]\n[ImageTween(xFrom = 0, xTo = 300,yFrom = 0, yTo = -50, duration=0, block=false)]\n[name=\"班长\"]结城同学，手肘这里可以弯一点，这样可以降低后坐力的影响，会比较灵活！\n[Delay(time=1.01)]\n[Image(image=\"77_i06\",fadetime=1, xScale=1.6, yScale=1.6,screenadapt=\"coverall\")]\n[ImageTween(xFrom = 0, xTo = 120,yFrom = 0, yTo = 100, duration=0, block=false)]\n[name=\"梵里妮\"]……脚尖，要朝着，目标方向。\n[name=\"梵里妮\"]手指不要，握这么紧……左手，往上来一点，压住右手。\n[Delay(time=1.01)]\n[Image(image=\"77_i06\",fadetime=1, xScale=1.6, yScale=1.6,screenadapt=\"coverall\")]\n[ImageTween(xFrom = 0, xTo = 300,yFrom = 0, yTo = -50, duration=0, block=false)]\n[name=\"班长\"]结城同学，你在屏息吗？现在不用的，放松就好。\n[Delay(time=1.01)]\n[Image(image=\"77_i06\",fadetime=1, xScale=1.6, yScale=1.6,screenadapt=\"coverall\")]\n[ImageTween(xFrom = 0, xTo = 120,yFrom = 0, yTo = 100, duration=0, block=false)]\n[name=\"梵里妮\"]眼睛，不要闭，不看准星的眼睛，也睁开吧。"
+        }
+      ],
+      "description": "梵里妮直接指导结城理持铳，结城理接受其讲解。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "char_4217_makoto",
+          "reason": "梵里妮直接指导结城理持铳，结城理接受其讲解。",
+          "status": "supported",
+          "to": "npc_4cb2a6da97143209"
+        },
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "npc_4cb2a6da97143209",
+          "reason": "梵里妮直接指导结城理持铳，结城理接受其讲解。",
+          "status": "supported",
+          "to": "char_4217_makoto"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2be69585e5326764.json",
+      "sources": [
+        {
+          "endLine": 215,
+          "kind": "story",
+          "line": 181,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇联动叙事所示时段",
+      "title": "月行水上"
+    }
+  ],
+  "relationship_id": "char_4217_makoto|npc_4cb2a6da97143209"
+}

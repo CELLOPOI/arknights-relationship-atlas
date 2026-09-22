@@ -1,0 +1,15 @@
+{
+  "id": "import:char_285_medic2|npc_333d465fd8712924",
+  "published": true,
+  "quote": "【离解复合】\nMantra：博士，阿米娅，我们已进入Abyss，刚刚一瞬间源石对我们的干扰减弱了。\n阿米娅：……是刚才……\nMantra：Raidian迅速重建了我们之间的联系，但情况棘手，我只能勉强用源石技艺来帮助Raidian完成沟通。\nMantra：另外，她没有搜索到凯尔希医生的生物信号。\nMantra：你们在哪？情况如何？\n选项：\n1：我们在罗德岛的甲板上！\n分支条件（原选项编号）：1\n选项：\n1：我们遭遇了普瑞赛斯！\n分支条件（原选项编号）：1\n选项：\n1：联络华法琳。\n分支条件（原选项编号）：1\n选项：\n1：抓紧时间，立刻撤出所有在舰人员。\n分支条件（原选项编号）：1\n华法琳：都听到博士说的了。\n华法琳：不用害怕，Lancet-2会协助监测你们的数据。\nLancet-2：OK！我不会让你失望，华法琳医生！",
+  "relationship_id": "char_285_medic2|npc_333d465fd8712924",
+  "sources": [
+    {
+      "endLine": 343,
+      "kind": "story",
+      "line": 314,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

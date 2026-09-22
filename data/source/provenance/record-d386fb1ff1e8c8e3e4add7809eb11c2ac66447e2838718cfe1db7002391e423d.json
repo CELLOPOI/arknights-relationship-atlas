@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 331,
+          "line": 243,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_03_end.txt",
+          "quote": "[name=\"太合\"]昨日在近卫局林特使回城时出手袭击，今日又跟在她身后意图不轨，早些时候司岁台秉烛人闹市遇刺，多半也是你们所为吧。\n[name=\"太合\"]截杀天灾信使，抢夺数据，山海众究竟在玉门准备着什么阴谋？\n[name=\"太合\"]你们背后的人又是谁？\n[charslot(slot = \"m\", name = \"avg_npc_793_1#1$1\")]\n[name=\"山海众头目\"]你还是先看看自己背后的人是谁吧！\n[charslot(slot=\"m\",name=\"avg_npc_299_1#3$1\")]\n[name=\"太合\"]什——\n[Dialog]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.15, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\")]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$bodyfalldown3\")]\n[charslot(slot = \"m\", afrom = 1, ato = 0,posfrom = \"0,0\", posto = \"0,-70\",duration = 0.3)]\n[Delay(time=2)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\",duration=1)]\n[Delay(time=2)]\n[name=\"冷漠的女性\"]……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_794_1#1$1\")]\n[charslot(slot = \"m\", posfrom = \"0,-80\", posto = \"0,-80\")]\n[Delay(time=1)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$e_imp_rock_n\", volume=0.7)]\n[charslot(slot = \"m\", posfrom = \"0,-80\", posto = \"0,0\",duration = 1)]\n[Delay(time=1)]\n[name=\"阴鸷的山海众成员\"]多……多谢先生救命……\n[charslot(slot = \"m\", name = \"avg_npc_793_1#1$1\")]\n[name=\"山海众头目\"]给先生添麻烦了。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领？\"]你们不该把时间浪费在这里。\n[charslot(slot = \"m\", name = \"avg_npc_793_1#1$1\")]\n[name=\"山海众头目\"]那个龙门来的女人，已经查到了铸剑坊仓库，是个麻烦……\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]既然担心麻烦，为什么不去直接解决那个唯一还能左右全局的变数？\n[charslot(slot = \"m\", name = \"avg_npc_793_1#1$1\")]\n[name=\"山海众头目\"]……铸剑坊的老家伙。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]去找到他，最好让那份天灾数据和他一起消失。\n[charslot(slot = \"m\", name = \"avg_npc_793_1#1$1\")]\n[name=\"山海众头目\"]我明白了。\n[Dialog]\n[charslot(slot = \"m\", focus = \"none\")]\n[playsound(key=\"$d_avg_rockfall\")]\n[Delay(time=1.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", focus = \"m\")]\n[name=\"山海众头目\"]先生当心——\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]……\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_299_1#1$1\",bstart=0.2,bend=0.4,duration=1)]\n[charslot(slot = \"m\", posfrom = \"0,-100\", posto = \"0,-100\")]\n[Delay(time=1)]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", posfrom = \"0,-100\", posto = \"0,0\",duration = 1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\")]\n[name=\"山海众首领\"]你不应该还能站起来。\n[charslot(slot=\"m\",name=\"avg_npc_299_1#1$1\",bstart=0.2,bend=0.4)]\n[name=\"太合\"]休……走……\n[Dialog]\n[playsound(key=\"$p_skill_rocksleep\")]\n[CameraShake(duration=3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=2)]\n地面骤然凹陷，像是有生命般地蓄满力气，隆起的土石顷刻间包围了所有人。\n[charslot(slot = \"m\", name = \"avg_npc_793_1#1$1\")]\n[name=\"山海众头目\"]先生，这个人不可小觑——\n[Dialog]\n[charslot]\n[StopMusic(fadetime=1)]\n[charslot(slot = \"m\", name = \"avg_npc_786_1#1$2\")]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.15, block=true)]\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 0.1)]\n[Delay(time=0.1)]\n[PlaySound(key=\"$d_avg_katanamagic\")]\n[Effect(name=\"$e_bladeline_01_large\", rox=150,roy=33,roz=-354,layer = 3)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n寒芒乍现即收。\n[dialog]\n[Delay(time=1)]\n[PlaySound(key=\"$bodyfalldown1\")]\n人倒地，土石仍是土石。\n街市静寂。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#2$2\")]\n[name=\"山海众首领\"]浪费时间，无聊至极。"
+        }
+      ],
+      "description": "睚突袭太合，太合负伤仍阻拦并与其继续交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E62"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "睚突袭太合，太合负伤仍阻拦并与其继续交战。",
+          "status": "supported",
+          "to": "npc_540cd5c18cb7a9cf"
+        },
+        {
+          "evidenceIds": [
+            "E62"
+          ],
+          "from": "npc_540cd5c18cb7a9cf",
+          "reason": "睚突袭太合，太合负伤仍阻拦并与其继续交战。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 331,
+          "kind": "story",
+          "line": 243,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "npc_3fa3fadab4354b64|npc_540cd5c18cb7a9cf"
+}

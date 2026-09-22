@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 260,
+          "line": 241,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "quote": "[name=\"Medic\"]安洁莉娜小姐，差点忘了，送给你的糖果。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Image(image=\"76_i05_2\",xScale=1, yScale=1,screenadapt=\"coverall\")]\n[curtain]\n[Delay(time=0.25)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Delay(time=0.5)]\n[name=\"安洁莉娜\"]谢谢你……\n[name=\"Medic\"]这不是我送的，是博士送的啦。\n[name=\"Medic\"]采购部新进了一批新口味糖果，糖纸又很好看，博士就给医疗部的每个患者都送了些。\n[name=\"Medic\"]还好我刚想起来你已经搬到了这边，不然就漏人啦，嘿嘿。\n[Dialog]\n[Image(image=\"76_i05_3\",xScale=1, yScale=1,screenadapt=\"coverall\",fadetime=1)]\n[Delay(time=1.5)]\n[name=\"安洁莉娜\"]……嗯。\n[Dialog]\n[PlaySound(key=\"$doorclosequite\")] \n[Delay(time=1.5)]\nMedic离开之后，我剥开糖纸。"
+        }
+      ],
+      "description": "Medic到安洁莉娜宿舍送糖并接受致谢。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "char_291_aglina",
+          "reason": "Medic到安洁莉娜宿舍送糖并接受致谢。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        },
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "Medic到安洁莉娜宿舍送糖并接受致谢。",
+          "status": "supported",
+          "to": "char_291_aglina"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_d41272e19d8ae683.json",
+      "sources": [
+        {
+          "endLine": 260,
+          "kind": "story",
+          "line": 241,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "直到大地变成一颗酸橙所述时段",
+      "title": "直到大地变成一颗酸橙"
+    }
+  ],
+  "relationship_id": "char_291_aglina|npc_30c8dcf1e7b8383d"
+}

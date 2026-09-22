@@ -1,0 +1,22 @@
+{
+  "id": "import:char_214_kafka|npc_b6173633e2da4a81",
+  "published": true,
+  "quote": "【孤岛风云】\n卡夫卡：而我正是来帮你的。\n卡夫卡：当然啦，你要是不愿意出去，想在这里待一辈子，我当然也不会硬要拉你出去。\n杜玛：越狱……但是从没有人能够顺利逃出这座监狱。\n卡夫卡：诶，说是这么说，但是总是要试一试的嘛。\n\n安东尼：呃……啊……\n卡夫卡：呜哇！\n杜玛：安东尼，卡夫卡，你们没事吧！",
+  "relationship_id": "char_214_kafka|npc_b6173633e2da4a81",
+  "sources": [
+    {
+      "endLine": 447,
+      "kind": "story",
+      "line": 442,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 429,
+      "kind": "story",
+      "line": 424,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

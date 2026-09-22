@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 305,
+          "line": 267,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_08_end.txt",
+          "quote": "[charslot]\n[name=\"“保存者”\"]泰拉的历史、文化、语言、种族、科技水平，通过哥伦比亚的网络，我已尽数知晓。\n[name=\"“保存者”\"]可笑的是，如今地面上的信息传输甚至无法做到覆盖全球，而你们相互毁灭的手段，倒是有了合格的演化效率。\n[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]泰拉的手段过于原始且依赖源石，以这样的转换率，想实现克丽斯腾的尝试……需要的能源也是匪夷所思的。\n[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]泰拉几乎不可能有技术手段解决这一难题。除非——\n[charslot]\n[name=\"“保存者”\"]是的。\n[name=\"“保存者”\"]我把最后的血给了她，供养一颗新的心脏，也许好过守着一盏将熄的灯。\n[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]……\n[name=\"凯尔希\"]您竟然，真的——\n[name=\"凯尔希\"]……为什么不惜如此？这是您在这么漫长的时间里的所有努力……全都白费了。\n[charslot]\n[name=\"“保存者”\"]是啊，白费了。\n[name=\"“保存者”\"]计划被我亲自关闭，指令由我亲自输入。\n[name=\"“保存者”\"]这是我不容懊悔的判断。\n[name=\"“保存者”\"]很快了，很快。\n[dialog]\n[charslot]\n[CameraShake(duration=5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_collapse\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.4, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=0.5)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Blocker(a=0.9, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[delay(time=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n巨大的震动从远处蔓延而来，地下空间的灯光闪烁了几下。\n那位自称“保存者”的存在沉默了片刻，又好像是深深叹了一口气。\n[dialog]\n[Decision(options=\"怎、怎么了？！;……;难道是能量井？\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[name=\"“保存者”\"]这只是婴儿好奇的一瞥——\n[name=\"“保存者”\"]却要跨越什么样的阻碍？"
+        }
+      ],
+      "description": "凯尔希与保存者直接讨论旧计划和克丽斯腾能源。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C22"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希与保存者直接讨论旧计划和克丽斯腾能源。",
+          "status": "supported",
+          "to": "npc_d9231cc74dc4c620"
+        },
+        {
+          "evidenceIds": [
+            "C22"
+          ],
+          "from": "npc_d9231cc74dc4c620",
+          "reason": "凯尔希与保存者直接讨论旧计划和克丽斯腾能源。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 305,
+          "kind": "story",
+          "line": 267,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    }
+  ],
+  "relationship_id": "char_003_kalts|npc_d9231cc74dc4c620"
+}

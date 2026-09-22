@@ -1,0 +1,147 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 474,
+          "line": 468,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_robin_1_1.txt",
+          "quote": "[name=\"杜玛\"]我怎么会讨厌你呢，罗宾，你在越狱的时候，帮了安东尼那么多忙。\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]而且，如果不是你在曼斯菲尔德鼓励我，我也不会有在这里安顿下来的勇气。\n[charslot(slot=\"m\",name=\"avg_451_robin_1#11$1\")]\n[name=\"罗宾\"]……安东尼，没有告诉过你吗？\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]什么呀？他只告诉我，没有你，越狱计划说不定会失败呢。"
+        }
+      ],
+      "description": "杜玛说安东尼向她讲述罗宾对越狱的帮助，证明双方具体交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "杜玛说安东尼向她讲述罗宾对越狱的帮助，证明双方具体交谈。",
+          "status": "supported",
+          "to": "char_264_f12yin"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_264_f12yin",
+          "reason": "杜玛说安东尼向她讲述罗宾对越狱的帮助，证明双方具体交谈。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b553978e62329060.json",
+      "sources": [
+        {
+          "endLine": 474,
+          "kind": "story",
+          "line": 468,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_robin_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗宾所述时段",
+      "title": "罗宾"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 380,
+          "line": 312,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_f12yin_2_1.txt",
+          "quote": "[name=\"安东尼\"]杜玛，她怎么样？\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]我已经给她敷好伤药了，现在正迷迷糊糊睡着呢。先让她住在医疗部观察两天，应该不会有什么大问题，你不必太过担心。\n[name=\"杜玛\"]她是怎么受伤的？\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#4\",focus=1)]\n[name=\"安东尼\"]是我今天不慎失手伤了她。\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#2\",focus=2)]\n[name=\"杜玛\"]什么？\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#2\",focus=1)]\n[name=\"安东尼\"]别这样看我，杜玛。\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]安东尼，你从来不是不知轻重的人啊……\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#4\",focus=1)]\n[name=\"安东尼\"]……杜玛，你在监狱里见过我那种样子的，我以为你不会这么诧异。\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]正是因为见识过，我才清楚，你不会随意向他人展露你的那一面。\n[name=\"杜玛\"]你知道自己看起来很糟吗，安东尼？\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#4\",focus=1)]\n[name=\"安东尼\"]我睡得很差，每天晚上都在做同一个噩梦。\n[name=\"安东尼\"]梦到自己站在一片血泊中，双手沾满鲜血，脚边就是海德兄弟的尸体。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]你以前不会做这样的梦，最近发生什么事了吗？\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#4\",focus=1)]\n[name=\"安东尼\"]从堡垒山城……传来了些坏消息。\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#1\",focus=2)]\n[name=\"杜玛\"]是你的父母……\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#1\",focus=1)]\n[name=\"安东尼\"]你猜到了？\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#1\",focus=2)]\n[name=\"杜玛\"]嗯，上次把书还给你的时候，我瞥见了你书桌上的信件。虽然压在一堆书下面，但还是可以看出上面的泪痕。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#1\",focus=1)]\n[name=\"安东尼\"]我已经向人事部递交了辞呈，应该几天后就会离开，我在这里停留了太久，是时候回去直面一切了。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#1\",focus=2)]\n[name=\"杜玛\"]从来到这里的第一天起，我就知道，迟早有那么一天，你会离开。\n[name=\"杜玛\"]但偶尔，我还是会忍不住想，如果你能放下一切，就这么留下来……那该有多好。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#1\",focus=1)]\n[name=\"安东尼\"]杜玛，我想过。\n[name=\"安东尼\"]我曾经痴心妄想过，在解救出我的父母后，就放弃向海德兄弟讨回一切，一家人在一起就够了。\n[Character(name=\"avg_264_f12yin_1#5$1\", name2=\"char_441_lotus_1#1\",focus=1)]\n[name=\"安东尼\"]但现在，留在我脑子里的唯一想法，只有血债血偿。\n[Character(name=\"avg_264_f12yin_1#5$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]可你从未杀过人，安东尼。\n[Character(name=\"avg_264_f12yin_1#11$1\", name2=\"char_441_lotus_1#4\",focus=1)]\n[name=\"安东尼\"]所以，那是什么滋味？亲手夺取一个人的性命是什么样的滋味？\n[name=\"安东尼\"]杜玛，你能告诉我吗？当你将药剂注射进死刑犯的血管，当你将尸体送进焚化炉炉膛燃烧，那到底是什么样的滋味？\n[Character(name=\"avg_264_f12yin_1#11$1\", name2=\"char_441_lotus_1#1\",focus=2)]\n[name=\"杜玛\"]……刚开始会很痛苦，每次回想起那个场景，你都会呕吐、失眠，甚至出现幻觉。\n[name=\"杜玛\"]后来你会为自己辩解，一遍遍地告诉自己，是他们罪有应得，你夺走他们的性命是理所当然。\n[name=\"杜玛\"]但到了某一天，当在你手下停止呼吸的人变得足够多时，你的内心会充满平静，你已经见惯死亡。\n[Character(name=\"avg_264_f12yin_1#11$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]对那时的你来说，他们生前所犯下的种种罪行都失去了意义，死亡也变得无足轻重。\n[Character(name=\"avg_264_f12yin_1#11$1\", name2=\"char_441_lotus_1#4\",focus=1)]\n[name=\"安东尼\"]这会是个漫长的过程吗？\n[Character(name=\"avg_264_f12yin_1#11$1\", name2=\"char_441_lotus_1#1\",focus=2)]\n[name=\"杜玛\"]是的，会很难熬……在这漫长的过程中，我会反复提醒自己这只是工作，可你呢，安东尼？\n[name=\"杜玛\"]你要怎么做才能度过这些煎熬的日子？\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#1\",focus=1)]\n[name=\"安东尼\"]……\n[Character(name=\"avg_264_f12yin_1#2$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]看来你还没想好如何面对，就已经决定面对。\n[name=\"杜玛\"]安东尼，让我和你一起离开吧，我会帮助你。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#4\",focus=1)]\n[name=\"安东尼\"]不，这是我一个人的事情，杜玛，我不希望将你也牵扯进来。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]从我帮助你离开曼斯菲尔德的那一刻，我就已经涉身其中了。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#4\",focus=1)]\n[name=\"安东尼\"]好了，杜玛，别再说了。\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]安东尼——"
+        }
+      ],
+      "description": "安东尼与杜玛是曼斯菲尔德时期的旧识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_264_f12yin",
+          "reason": "安东尼点名杜玛并谈及共同监狱经历。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "杜玛点名安东尼并了解其过往。",
+          "status": "supported",
+          "to": "char_264_f12yin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_7eac560dd87929be.json",
+      "sources": [
+        {
+          "endLine": 380,
+          "kind": "story",
+          "line": 312,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_f12yin_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "山干员密录所述罗德岛时期",
+      "title": "山"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 351,
+          "line": 337,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+          "quote": "[name=\"杜玛\"]狱警们都走了，安东尼。\n[name=\"杜玛\"]发生了什么，我看他们都很慌张的样子。\n[Character(name=\"char_441_lotus_1#4\",name2=\"char_264_Mountain_1#5\",focus=2)]\n[name=\"安东尼\"]我也想知道。\n[Character(name=\"char_264_Mountain_1#5\")]\n[name=\"安东尼\"]好了，这里是安全的，卡夫卡小姑娘。\n[name=\"安东尼\"]杜玛是我的朋友，如果说我在这座监狱里有能够信任的人，那就只有她了。\n[Character(name=\"char_214_Kafka_1#5\",name2=\"char_264_Mountain_1#5\",focus=1)]\n[name=\"卡夫卡\"]首先，不要叫我小姑娘，我只是个子矮。\n[Character(name=\"char_214_Kafka_1#4\",name2=\"char_264_Mountain_1#2\",focus=2)]\n[name=\"安东尼\"]抱歉，卡夫卡小姐。\n[Character(name=\"char_214_Kafka_1#2\",name2=\"char_264_Mountain_1#5\",focus=1)]\n[name=\"卡夫卡\"]……你这家伙，明明是囚犯，却比外面的人还要有礼貌诶。\n[Character(name=\"char_441_lotus_1#4\",name2=\"char_214_Kafka_1#2\",focus=1)]\n[name=\"杜玛\"]安东尼就是这样的，他对谁都很有礼貌。"
+        },
+        {
+          "endLine": 422,
+          "line": 420,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+          "quote": "[name=\"杜玛\"]安东尼，你没事吧，需要我用法术舒缓一下你的精神吗？\n[Character(name=\"char_264_Mountain_1#5\",name2=\"char_441_lotus_1\",focus=1)]\n[name=\"安东尼\"]不用，谢谢你，杜玛。"
+        }
+      ],
+      "description": "朋友、越狱合作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "称名、关心安东尼并直接回应。",
+          "status": "supported",
+          "to": "char_264_f12yin"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_264_f12yin",
+          "reason": "明确称杜玛为可信赖的朋友并向她道谢。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 351,
+          "kind": "story",
+          "line": 337,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 422,
+          "kind": "story",
+          "line": 420,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "首次刺杀后的医务室对话已明确；朋友关系早于该场。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_264_f12yin|npc_b6173633e2da4a81"
+}

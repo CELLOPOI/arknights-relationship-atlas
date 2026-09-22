@@ -1,0 +1,175 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 139,
+          "line": 135,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_06_end.txt",
+          "quote": "[name=\"老鲤\"]  ……幸好没和那个挑山人起什么冲突，看那身手，都让我想起十几年前最后一次见到槐天裴的时候了。\n[Character(name=\"avg_npc_296_1#6$1\")]\n[name=\"杜小姐\"]  ……\n[Character(name=\"avg_322_lmlee_1#1$1\", name2=\"avg_npc_296_1#6$1\", focus=1)]\n[name=\"老鲤\"]  你认识那两个人，对吧。"
+        }
+      ],
+      "description": "老鲤明确回忆十几年前最后一次见到槐天裴，支持此前实际会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E45"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "老鲤明确回忆十几年前最后一次见到槐天裴，支持此前实际会面。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E45"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "老鲤明确回忆十几年前最后一次见到槐天裴，支持此前实际会面。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 139,
+          "kind": "story",
+          "line": 135,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 213,
+          "line": 202,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st01.txt",
+          "quote": "[name=\"老鲤\"]这一次，又要走多久？\n[charslot]\n[name=\"槐天裴\"]不知道。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]还回来吗？\n[charslot]\n[name=\"槐天裴\"]事做成了就回来。\n[charslot(slot=\"m\",name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"]你还记不记得，三天后就是槐琥的生日。要是弟妹泉下有知，又会怎么说你？\n[charslot]\n[name=\"槐天裴\"]我当不好丈夫，也当不好父亲。\n[name=\"槐天裴\"]我这辈子，能成一件事就够了。"
+        }
+      ],
+      "description": "明确过去龙门回忆中，老鲤与槐天裴直接商谈离家，不与当前客栈混合。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "明确过去龙门回忆中，老鲤与槐天裴直接商谈离家，不与当前客栈混合。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "明确过去龙门回忆中，老鲤与槐天裴直接商谈离家，不与当前客栈混合。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 213,
+          "kind": "story",
+          "line": 202,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 137,
+          "line": 122,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "quote": "[name=\"槐琥\"]鲤叔，阿爸是往这里走的吗？\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#1$1\",focus=\"r\")]\n[name=\"老鲤\"]唔……我看地上这足迹，步距极宽，步频稳健，每一个脚印都深浅一致。\n[name=\"老鲤\"]看上去，一定是一位功力深厚的人留的。\n[charslot(slot=\"l\",name=\"avg_243_waaifu_1#2$1\",focus=\"l\")]\n[name=\"槐琥\"]我没看错的话，这应该是裂兽的爪痕才对……\n[charslot(slot=\"l\",name=\"avg_243_waaifu_1#6$1\",focus=\"l\")]\n[name=\"槐琥\"]鲤叔……你还在逗我。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#9$1\",focus=\"r\")]\n[name=\"老鲤\"]哈哈哈……\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#10$1\",focus=\"r\")]\n[name=\"老鲤\"]唉，上次匆匆见过一面，结果又让他给跑了……从目前的线索来看，也只有这一条路了。\n[name=\"老鲤\"]对付精明人有精明人的办法，找你那武痴老爹，也只能用最“笨”的办法。\n[name=\"老鲤\"]慢慢找吧……\n[charslot(slot=\"l\",name=\"avg_243_waaifu_1#6$1\",focus=\"l\")]\n[name=\"槐琥\"]……"
+        }
+      ],
+      "description": "老鲤明确追踪旧识槐天裴，反向未由本窗建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "直接对话、局部同场或具体提及支持。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "本窗未建立。",
+          "status": "not_established",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 137,
+          "kind": "story",
+          "line": 122,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "镜中集对应场景",
+      "title": "镜中集"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 349,
+          "line": 276,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_st03.txt",
+          "quote": "[name=\"槐琥\"]鲤叔……\n[name=\"槐琥\"]阿爸他……会在这里吗？\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#1$1\", focus=\"r\")]\n[name=\"老鲤\"]跟着能打听到的消息，只能找到这里来了。\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#6$1\", focus=\"r\")]\n[name=\"老鲤\"]唉……和他分别这么多年来，我倒头一回希望关于他的传闻是假的。\n[name=\"老鲤\"]可是那个传闻中打遍武林，甚至多次故意伤人的武疯子，也实在没法想象会有第二个人了……\n[charslot(slot = \"l\", name = \"avg_243_waaifu_1#6$1\", focus=\"l\")]\n[name=\"槐琥\"]阿爸，为什么会变成那样……\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#6$1\", focus=\"r\")]\n[name=\"老鲤\"]不知道……\n[name=\"老鲤\"]他是这世上第一等的痴人，可越是痴人，心智越不该被动摇的。\n[dialog]\n[PlaySound(key=\"$d_avg_punch02\",volume=0.3)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_punch\",volume=0.5)]\n[delay(time=1.5)]\n[charslot(slot = \"l\", name = \"avg_243_waaifu_1#7$1\", focus=\"l\")]\n[name=\"槐琥\"]这个声音？！\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#4$1\", focus=\"r\")]\n[name=\"老鲤\"]——！\n[dialog]\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#7$1\", focus=\"r\")]\n[name=\"老鲤\"]槐琥……一会见到他，千万要小心。\n[name=\"老鲤\"]或许现在只有你能叫醒他。\n[charslot(slot = \"l\", name = \"avg_243_waaifu_1#1$1\", focus=\"l\")]\n[name=\"槐琥\"]嗯……\n[name=\"槐琥\"]鲤叔……我们走吧。\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[charslot(slot = \"l\", afrom=1, ato=0, duration=1)]\n[delay(time=2)]\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#2$1\", focus=\"r\")]\n[name=\"老鲤\"]唉……\n[name=\"老鲤\"]（难道那把剑，真的是劫数……？）\n[charslot(slot = \"r\", name = \"avg_322_lmlee_1#8$1\", focus=\"r\")]\n[name=\"老鲤\"]（梁洵啊梁洵……要是槐天裴有个三长两短，这笔账就只能记在你的头上了。）\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_cave_5\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n隔着尚远的一段距离，山洞深处，隐约可见一个魁梧的身影。\n沉重的拳头不住地砸在岩壁上，在上面留下了点点梅花似的血斑。每一拳落下，都震得整座洞穴摇摇晃晃。\n来人这才意识到，这个“山洞”，竟是被此人一拳一拳打出来的。\n[name=\"疯癫的喃语\"]四十年……天下第一……我何时……\n[dialog]\n[PlaySound(key=\"$d_avg_punch02\",volume=1)]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=0.3, loop=true, channel=\"e\")]\n[CameraShake(duration=2, xstrength=3, ystrength=3, vibrato=90, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"e\", fadetime=2)]\n[delay(time=2)]\n[name=\"疯癫的喃语\"]剑……不可给人……丢了……还是丢了！\n[dialog]\n[PlaySound(key=\"$d_avg_punchsp5\",volume=1)]\n[Effect(name=\"$e_sandfall_01\",layer = 1)]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]\n[CameraShake(duration=3, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"e\", fadetime=3)]\n[PlaySound(key=\"$d_avg_rockfall\", volume=1)]\n[delay(time=2)]\n[name=\"疯癫的喃语\"]女儿……不许伤害我的女儿！\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=1, loop=true, channel=\"r\")]\n[StopSound(channel=\"r\", fadetime=1)]\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#2$1\", duration=1, isblock=true)]\n[Delay(time=0.5)]\n[name=\"槐琥\"]阿爸……？\n[name=\"槐琥\"]阿爸……醒一醒……\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#6$1\")]\n[name=\"槐琥\"]阿爸！"
+        }
+      ],
+      "description": "老鲤明确回忆与槐天裴分别，并亲自带其女寻找他。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J16"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "老鲤明确回忆与槐天裴分别，并亲自带其女寻找他。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "J16"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "老鲤明确回忆与槐天裴分别，并亲自带其女寻找他。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 349,
+          "kind": "story",
+          "line": 276,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_322_lmlee|npc_2a2f1f3b7bd9ed61"
+}

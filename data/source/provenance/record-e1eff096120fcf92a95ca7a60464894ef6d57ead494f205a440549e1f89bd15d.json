@@ -1,0 +1,156 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 211,
+          "line": 202,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "quote": "[name=\"克洛丝\"]啊，是博士！\n[Dialog]\n[charslot]\n[Decision(options=\"早上好，克洛丝。;大家……都在这？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"char_123_fang_1\",focus=\"m\")]\n[name=\"芬\"]克洛丝！\n[charslot(slot = \"m\", name = \"char_124_kroos_1#1\",focus=\"m\")]\n[name=\"克洛丝\"]没关系的，博士一定不会向教官打小报告的。\n[name=\"克洛丝\"]先在这里，美美地躺上一会——"
+        },
+        {
+          "endLine": 395,
+          "line": 387,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "quote": "[name=\"凯尔希\"]你还记得他们每个人，你真切地为他们的遭遇感到遗憾。\n[name=\"凯尔希\"]否则你不会看到这些画面。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]你现在心情如何，博士？\n[name=\"凯尔希\"]欣慰，困惑还是愤怒？\n[Predicate(references=\"3\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]这些都是你的潜意识中你所期待的画面。"
+        },
+        {
+          "endLine": 515,
+          "line": 506,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "quote": "[name=\"凯尔希\"]这并非幻境，或是梦境。某种意义上讲，这一切同样是真实存在的。\n[name=\"凯尔希\"]存在于你的想象中，是你过去遇到过的人与事，按你最期待的样子发展出的幻景。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"n\")]\n[Decision(options=\"这是对我们经历过的一切的玷污。;你为什么还能这么冷静？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]\n[name=\"凯尔希\"]这些画面于我的触动并不弱于你，博士。\n[name=\"凯尔希\"]但是归根结底，这些还是由你自己创造的画面。\n[name=\"凯尔希\"]是源石，按你潜意识深处的期待和想要弥补某些遗憾的想法，“复制”出的景象。"
+        }
+      ],
+      "description": "这里只取现实博士对眼前具名熟悉人物的辨认；凯尔希在387–395及506–515明确这些是他过去认识之人的记忆所生成的期待画面。虚构人物的回应不支持反向，也不承认退休/存活等虚构情节。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E185"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "这里只取现实博士对眼前具名熟悉人物的辨认；凯尔希在387–395及506–515明确这些是他过去认识之人的记忆所生成的期待画面。虚构人物的回应不支持反向，也不承认退休/存活等虚构情节。",
+          "status": "supported",
+          "to": "char_123_fang"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_123_fang",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 211,
+          "kind": "story",
+          "line": 202,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 395,
+          "kind": "story",
+          "line": 387,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 515,
+          "kind": "story",
+          "line": 506,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 190,
+          "line": 125,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "quote": "[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=1)]\n[delay(time=3)]\n[Decision(options=\"休息吗……;……;真是奢侈的单词。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[delay(time=1)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_canteen\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n7:33 A.M.   \n罗德岛食堂\n[dialog]\n[Character(name=\"char_124_kroos_1\", name2=\"avg_123_fang_1\",fadetime=0.7)]\n[delay(time=0.7)]\n[Character(name=\"char_124_kroos_1\", name2=\"avg_123_fang_1\", focus=2)]\n[name=\"芬\"]  啊，博士！早上好。\n[Character(name=\"char_124_kroos_1#2\", name2=\"avg_123_fang_1\", focus=1)]\n[name=\"克洛丝\"]  咦？啊，是博士~\n[Character(name=\"char_124_kroos_1#2\", name2=\"avg_123_fang_1\", focus=-1)]\n[Dialog]\n[Decision(options=\"早上好。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_124_kroos_1#2\")]\n[name=\"克洛丝\"]  真难得，博士你居然有时间来食堂吃早饭，今天终于没那么忙了？\n[Dialog]\n[Decision(options=\"是……今天可以稍微休息一下。;……;我平时一直很忙吗？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  嘿，看看这是谁？\n[name=\"黑角\"]  这个点能在食堂看到您，可真是稀奇。\n[Character(name=\"char_500_noirc_1\",focus=-1)]\n[Dialog]\n[Decision(options=\"我平时在你们眼中都是什么印象啊……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  什么印象……大概就是全年加班无休的工作狂？\n[name=\"黑角\"]  说真的，俺觉得您也该歇歇了，从离开龙门后，您就一直这样，小心身体吃不消哦。\n[name=\"黑角\"]  对自己好一点吧，博士，毕竟当时我们可是——\n[Dialog]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$fightgeneral\", volume=1)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]\n[Dialog]\n[delay(time=0.51)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"黑角\"]  ——哎呦……痛痛痛，你干嘛！\n[dialog]\n[character]\n[Character(name=\"avg_502_nblade_1\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"avg_502_nblade_1\")]\n[name=\"夜刀\"]言多必失。 \n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=0.5)]\n[delay(time=1)]\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  嗯？\n[Dialog]\n[Character(name=\"char_500_noirc_1\", focus=-1)]\n[Decision(options=\"没事……你说得对。;我这条命不光是自己的，我需要时刻提醒自己这一点。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")] "
+        }
+      ],
+      "description": "芬与博士同桌并参与连续直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "char_123_fang",
+          "reason": "芬与博士同桌并参与连续直接交流。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "芬与博士同桌并参与连续直接交流。",
+          "status": "supported",
+          "to": "char_123_fang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 190,
+          "kind": "story",
+          "line": 125,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 517,
+          "line": 454,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "quote": "[name=\"Sharp\"]这是今天第几批袭击我们的佣兵了？\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]第七批。\n[name=\"Stormeye\"]虽然威胁性并不高，但近一周来，每天都有如此高频率的袭击也太过诡异了。\n[name=\"Stormeye\"]这才刚刚进入卡兹戴尔的边境范围……\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]这些人不怕死的样子，让我想起以前在萨尔贡认识的那些佣兵。\n[name=\"Sharp\"]毫无信念。\n[name=\"Sharp\"]Misery怎么花了这么长时间？已经过了预计的返程时间了。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_235\",duration=1)]\n[Delay(time=1.5)]\n[name=\"Misery\"]你要知道，这里离疤痕商场还是有些距离。\n[name=\"Misery\"]哪怕我熟悉这里的每条捷径，也得耗费点时间。\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]调查结果如何？\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]近两周，有人通过层层外包，将疤痕商场的大部分订单都聚集在了这一片区域。\n[name=\"Misery\"]委托人完全查不出来，隐藏得很好。\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]也就是说，我们只是“运气不好”撞上了这些佣兵。\n[name=\"Sharp\"]他们并非冲我们而来？\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]恐怕是这样的。\n[name=\"Stormeye\"]博士临出发前的担忧看来并非全无道理。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#1$1\",duration=0.5)]\n[Delay(time=1)]\n[name=\"芬\"]各位，哨岗有新消息传回来。\n[name=\"芬\"]又有一伙佣兵的行动轨迹开始向我们的位置偏移，极有可能会马上再次接敌。\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]（叹气）\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#6$1\")]\n[name=\"芬\"]Misery先生，我感觉情况不对劲。\n[name=\"芬\"]这些源源不断的佣兵似乎并不是想要给我们造成损失，更像是……\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]拖延。\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#6$1\")]\n[name=\"芬\"]我们可以留在这里继续护送队伍前进，各位可以先行返回本舰——\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]别着急，芬。\n[name=\"Misery\"]有些人的打算并没有那么容易得逞。\n[charslot]\n空气在波动。\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#7$1\")]\n[name=\"芬\"]……起风了？\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#4$1\")]\n[name=\"芬\"]不……那是，“生命脊椎”？！\n[charslot]\n[dialog]\n[PlaySound(key=\"$d_avg_erthshkng\")]\n[CameraShake(duration=2, xstrength=5, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.3, r=0, g=0, b=0, fadetime=2, block=true)]\n苍穹之上，庞大的骸骨荡漾着历史的尘埃显现，投下了巨大的阴影。\n那是罗德岛的许多人第一次亲眼目睹这个曾在维多利亚的混乱中出现的巨大骨架。\n[charslot(slot=\"m\",name=\"avg_npc_971_1#1$1\")]\n[name=\"罗德岛工程部干员\"]……真是壮观……\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]调查疤痕商场时，我顺便去了趟卡兹戴尔，见了几位老朋友。\n[name=\"Misery\"]接下来就交给他们吧。\n[name=\"Misery\"]我们该回家了。"
+        }
+      ],
+      "description": "芬在场听到Stormeye具体谈及博士的判断。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D18"
+          ],
+          "from": "char_123_fang",
+          "reason": "芬在场听到Stormeye具体谈及博士的判断。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_123_fang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 517,
+          "kind": "story",
+          "line": 454,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_123_fang|npc_b99957887950ebfd"
+}

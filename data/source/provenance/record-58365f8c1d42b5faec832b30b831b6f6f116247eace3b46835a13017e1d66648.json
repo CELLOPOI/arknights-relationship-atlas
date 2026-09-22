@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 559,
+          "line": 535,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st04.txt",
+          "quote": "[name=\"凯尔希\"]但你也帮维什戴尔他们扫清了很多障碍。\n[charslot(slot=\"r\",name=\"avg_npc_1521_1#9$1\",focus=\"r\")]\n[name=\"隐德来希\"]这我不否认，希望勋爵记得我做过的事。\n[charslot(slot=\"l\",name=\"avg_003_kalts_1#3$1\",focus=\"l\")]\n[name=\"凯尔希\"]当然。这些从鲜血法阵中获得的情报，你告诉过“铣痕”吗？\n[charslot(slot=\"r\",name=\"avg_npc_1521_1#1$1\",focus=\"r\")]\n[name=\"隐德来希\"]我只暗示了一下，不过，那只小猫很聪明。\n[charslot(slot=\"l\",name=\"avg_003_kalts_1#2$1\",focus=\"l\")]\n[name=\"凯尔希\"]当维多利亚人与萨卡兹开战的时候，必然有人在其中谋求利益合作。\n[name=\"凯尔希\"]战争该结束了。这些问题只能留在伦蒂尼姆，留给维多利亚自身。\n[charslot(slot=\"l\",name=\"avg_003_kalts_1#3$1\",focus=\"l\")]\n[name=\"凯尔希\"]阿米娅和博士正在向维多利亚的代表们争取一个和平的最终处理方式。\n[charslot(slot=\"l\",name=\"avg_003_kalts_1#1$1\",focus=\"l\")]\n[name=\"凯尔希\"]如果谈判成果理想，届时，所有萨卡兹都会离开。伦蒂尼姆的灾难也可以结束。\n[name=\"凯尔希\"]对于过去之事，人们掌握的细节越多，它越会成为烦忧。\n[charslot(slot=\"r\",name=\"avg_npc_1521_1#9$1\",focus=\"r\")]\n[name=\"隐德来希\"]近乎全知的凯尔希勋爵，你这句话很像自嘲。\n[charslot(slot=\"r\",name=\"avg_npc_1521_1#1$1\",focus=\"r\")]\n[name=\"隐德来希\"]四年前，我找到已经一片狼藉的巴别塔时，其实觉得我们说不定也有相似之处。\n[name=\"隐德来希\"]善后人呀，其实不就是舍不得离开，不想接受失败，所以一直留在那里，想把满地碎片重新拼起来。\n[charslot(slot=\"l\",name=\"avg_003_kalts_1#1$1\",focus=\"l\")]\n[name=\"凯尔希\"]……隐德来希，我已经如约将那位亲王的线索同步给了你留给我的频段。虽然同样只是些支离破碎的消息，但应该能帮上你。\n[charslot(slot=\"r\",name=\"avg_npc_1521_1#9$1\",focus=\"r\")]\n[name=\"隐德来希\"]谢谢你，凯尔希。\n[name=\"隐德来希\"]要是你和罗德岛还需要什么帮助，可以现在就告诉我。毕竟，让所有萨卡兹都同意离开，不是一件容易的事情。"
+        }
+      ],
+      "description": "隐德来希在场听到凯尔希具体说明博士的行动并继续回应；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_4010_etlchi",
+          "reason": "隐德来希在场听到凯尔希具体说明博士的行动并继续回应",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "对方未在本组该场景出场，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_4010_etlchi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 559,
+          "kind": "story",
+          "line": 535,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战役期间",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_4010_etlchi|npc_b99957887950ebfd"
+}

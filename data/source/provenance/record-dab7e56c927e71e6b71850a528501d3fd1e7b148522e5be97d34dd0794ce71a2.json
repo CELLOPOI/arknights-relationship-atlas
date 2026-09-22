@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1042,
+          "line": 1015,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "quote": "[Character(name=\"char_213_mostma_1\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"？？？\"]  Chief，您似乎有客人。\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  能进这附近的都是值得信任的人。与其关心这个不如关心你自己的伤势。\n[Character(name=\"char_213_mostma_1\")]\n[name=\"？？？\"]  如果您觉得允许外面那两个人偷听没什么关系，那我这点小伤也只是小意思。\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  这次你来是做什么，拉特兰的信使？\n[Character(name=\"char_213_mostma_1\")]\n[name=\"？？？\"]  我不是拉特兰任一官方的信使……\n[name=\"？？？\"]  （只是，教宗确实是有一条给您的消息。）\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  星熊！带诗怀雅出去。\n[Character(name=\"char_136_hsguma\")]\n[name=\"星熊\"]  啊，明白！\n[Character(name=\"char_308_swire_1#3\")]\n[name=\"诗怀雅\"]  喂！为什么就只有我……\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  好了。\n[name=\"魏彦吾\"]  信使，说。\n[Character(name=\"char_213_mostma_1\")]\n[name=\"？？？\"]  ……他说……（拉特兰语）\n[name=\"？？？\"]  “您今早吃了什么？晚上又准备吃什么？”\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  ……奇怪。他怎么会想知道我的看法？\n[Character(name=\"char_213_mostma_1\")]\n[name=\"？？？\"]  我想……毕竟您才是Chief，魏先生。"
+        }
+      ],
+      "description": "char_213_mostma_1的蓝发天使作为信使与魏彦吾直接对话，立绘、族貌与任职描述相符。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E81"
+          ],
+          "from": "char_213_mostma",
+          "reason": "char_213_mostma_1的蓝发天使作为信使与魏彦吾直接对话，立绘、族貌与任职描述相符。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [
+            "E81"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "char_213_mostma_1的蓝发天使作为信使与魏彦吾直接对话，立绘、族貌与任职描述相符。",
+          "status": "supported",
+          "to": "char_213_mostma"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 1042,
+          "kind": "story",
+          "line": 1015,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    }
+  ],
+  "relationship_id": "char_213_mostma|npc_08bc2cc38b820ef0"
+}

@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 335,
+          "line": 282,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_04_beg.txt",
+          "quote": "[name=\"暴行\"]阿米娅妹妹精神还是不好？\n[charslot(slot = \"right\", name = \"avg_230_savage_1#5$1\",focus=\"r\")]\n[name=\"暴行\"]唔……还有些余烧，也许是情绪太激动，导致了矿石病的并发症。在这附近矿石病药物也不好找。\n[name=\"暴行\"]就算她白天的时候装得很平静，晚上也总做噩梦。可怜的孩子……\n[name=\"暴行\"]唉，那些从事故中幸存的人，没有一个例外，全都被感染了。\n[charslot(slot = \"l\", name = \"avg_npc_1360_1#1$1\",focus=\"l\")]\n[name=\"博士\"]……对这样大的孩子而言，矿石病的发展周期是多长？\n[charslot(slot = \"right\", name = \"avg_230_savage_1#7$1\",focus=\"r\")]\n[name=\"暴行\"]每个人都不一样，有的人急症发作的第二天身体就崩坏瓦解，也有人会在痛苦中挣扎十几年后才结束生命。\n[charslot(slot = \"right\", name = \"avg_230_savage_1#2$1\",focus=\"r\")]\n[name=\"暴行\"]但终点都是注定的……\n[charslot(slot = \"l\", name = \"avg_npc_1360_1#1$1\",focus=\"l\")]\n[name=\"博士\"]矿石病……这个世界上有人可以彻底治愈矿石病吗？\n[charslot(slot = \"right\", name = \"avg_230_savage_1#10$1\",focus=\"r\")]\n[name=\"暴行\"]“世界”？哦，你是说大地之上……说话像个老学究似的，原来你也会开玩笑啊。\n[charslot(slot = \"right\", name = \"avg_230_savage_1#4$1\",focus=\"r\")]\n[name=\"暴行\"]……等一下，难道你是认真的？\n[charslot(slot = \"right\", name = \"avg_230_savage_1#5$1\",focus=\"r\")]\n[name=\"暴行\"]很遗憾……这是不可能的。\n[charslot(slot = \"l\", name = \"avg_npc_1360_1#1$1\",focus=\"l\")]\n[name=\"博士\"]不，我需要这有可能。\n[name=\"博士\"]几百年前，你们也无法想象移动城市，对吧？\n[name=\"博士\"]在她的病情恶化之前，我会想出办法。有困难，但并非无解。\n[charslot(slot = \"right\", name = \"avg_230_savage_1#1$1\",focus=\"r\")]\n[name=\"暴行\"]如果你把这句话告诉任何一个雷姆必拓人，他们会认为你在故意拿他逗乐。\n[charslot(slot = \"right\", name = \"avg_230_savage_1#7$1\",focus=\"r\")]\n[name=\"暴行\"]唉……虽然这些日子，你总是出乎我的意料，但总让人下意识地愿意相信你。\n[charslot(slot = \"right\", name = \"avg_230_savage_1#8$1\",focus=\"r\")]\n[name=\"暴行\"]难道这就是聪明人的魅力？\n[charslot(slot = \"l\", name = \"avg_npc_1360_1#1$1\",focus=\"l\")]\n[name=\"博士\"]别取笑我了，夏洛特。\n[charslot(slot = \"right\", name = \"avg_230_savage_1#8$1\",focus=\"r\")]\n[name=\"暴行\"]……嘿，我其实是在说你……算了。\n[charslot(slot = \"l\", name = \"avg_npc_1360_1#1$1\",focus=\"l\")]\n[name=\"博士\"]什么？\n[charslot(slot = \"right\", name = \"avg_230_savage_1#7$1\",focus=\"r\")]\n[name=\"暴行\"]啊，我是说……嗯……\n[name=\"暴行\"]你有意识到吗？你的身上有一种神秘的感觉，就像是……你在告诉所有人，你和我们不一样。\n[charslot(slot = \"right\", name = \"avg_230_savage_1#1$1\",focus=\"r\")]\n[name=\"暴行\"]阿米娅，她能感觉到。孩子远比我们想象中要敏感。\n[charslot(slot = \"l\", name = \"avg_npc_1360_1#1$1\",focus=\"l\")]\n[name=\"博士\"]这么明显吗……\n[charslot(slot = \"right\", name = \"avg_230_savage_1#8$1\",focus=\"r\")]\n[name=\"暴行\"]但她很坚强，不会在你面前表现出伤心的情绪。她想让你看到她的快乐，她不愿给你添麻烦，她甚至想要照顾你。\n[name=\"暴行\"]你将她救出来的那天，她就已经将你当作了唯一的依靠。\n[charslot(slot = \"right\", name = \"avg_230_savage_1#7$1\",focus=\"r\")]\n[name=\"暴行\"]但她也很清楚，你们本来不该有什么交集，她害怕连博士你某一天也会抛下她。\n[charslot(slot = \"l\", name = \"avg_npc_1360_1#1$1\",focus=\"l\")]\n[name=\"博士\"]……\n[name=\"博士\"]你不用担心，我会陪阿米娅一直走下去。\n[charslot(slot = \"right\", name = \"avg_230_savage_1#9$1\",focus=\"r\")]\n[name=\"暴行\"]……嗯！\n[charslot(slot = \"right\", name = \"avg_230_savage_1#8$1\",focus=\"r\")]\n[name=\"暴行\"]我就猜到你会这么说。"
+        }
+      ],
+      "description": "雷姆必拓旅途中讨论阿米娅治疗，博士称暴行为夏洛特。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E60"
+          ],
+          "from": "char_230_savage",
+          "reason": "雷姆必拓旅途中讨论阿米娅治疗，博士称暴行为夏洛特。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E60"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "雷姆必拓旅途中讨论阿米娅治疗，博士称暴行为夏洛特。",
+          "status": "supported",
+          "to": "char_230_savage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 335,
+          "kind": "story",
+          "line": 282,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 803,
+          "line": 744,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st04.txt",
+          "quote": "[name=\"暴行\"]呼……总算帮着收拾完了。\n[charslot(slot = \"m\", name = \"avg_230_savage_1#7$1\")]\n[name=\"暴行\"]真没想到，阿兰娜和小温米就一直住在那样的运载车里，还好之前没直接挥锤子把小温米救下来，不然那辆车……\n[charslot(slot = \"m\", name = \"avg_230_savage_1#7$1\")]\n[name=\"暴行\"]说起来，上一次和这么多人一起露营晚餐，是什么时候来着？\n[name=\"暴行\"]……上一次和博士与阿米娅这么开心地一起露营晚餐，又是什么时候来着？\n[dialog]\n[musicvolume(volume=0.2, fadetime=2)]\n[SoundVolume(volume=0, channel=\"a\",fadetime=2)]\n[charslot(duration=1, isblock=true)]\n[Background(image=\"46_g5_rmbtwild_n\", screenadapt=\"coverall\")]\n[CameraEffect(effect=\"Grayscale\", amount=1, keep=true, fadetime=4)]\n[Delay(time=2)]\n[name=\"暴行\"]……“嗯”，就完了？\n[name=\"暴行\"]你听了不生气吗？那些混蛋商人可是想抢我们的矿场！还有我的那些朋友，他们怎么会变成和维多利亚人一样势利的家伙？！\n[name=\"博士\"]……抱歉。\n[name=\"博士\"]我只是……想起了一些旧书里的故事。\n[name=\"暴行\"]……\n[name=\"暴行\"]不要用这种眼神看着我们。\n[name=\"暴行\"]就好像你在看天上的星星一样。\n[dialog]\n[SoundVolume(volume=1, channel=\"a\",fadetime=2)]\n[CameraEffect(effect=\"Grayscale\", amount=0, keep=true, fadetime=2)]\n[musicvolume(volume=0.6, fadetime=2)]\n[Delay(time=2)]\n[charslot(slot = \"m\", name = \"avg_230_savage_1#7$1\", duration=0.5, isblock=true)]\n[name=\"暴行\"]……就算是那个时候，也不是每次都很开心呢。\n[charslot(slot = \"m\", name = \"avg_230_savage_1#4$1\")]\n[name=\"暴行\"]欸……？\n[name=\"暴行\"]阿米娅和博士……他们这是睡着了？\n[charslot(slot = \"m\", name = \"avg_230_savage_1#8$1\")]\n[name=\"暴行\"]应该是玩尽兴了，有些累了吧？真是的，这里可一点都不安全啊，说不好还会着凉……\n[dialog]\n[PlaySound(key=\"$d_avg_cloakmovement\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Image(image=\"46_i01\", screenadapt=\"coverall\", xScale=1.1, yScale=1.1, fadetime=0)]\n[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=20, block=false)]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]\n[Decision(options=\"暴行？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"暴行\"]欸？！\n[name=\"暴行\"]……博士，你还醒着？\n[name=\"暴行\"]夜晚这么暗，确实完全看不清你的脸……\n[name=\"暴行\"]是我吵醒你了吗？\n[dialog]\n[Decision(options=\"有些野兽不会睡。;还有人一直没睡。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[name=\"暴行\"]……这么说，你是在帮阿米娅妹妹警戒啊。\n[name=\"暴行\"]确实，雷姆必拓的荒野一直很险恶，会遇到的人也不总是那么友善。\n[name=\"暴行\"]——所以啊，我第一次遇见你们的时候，别提有多着急了！\n[name=\"暴行\"]你这么一个身体不好的外地人，带着一个小孩，在荒野上徒步跋涉，简直就是送死啊！\n[name=\"暴行\"]你不了解雷姆必拓所以不知道怕，这也就算了，阿米娅还格外信任你……\n[name=\"暴行\"]……不过后来我也明白了，阿米娅一直能在你身边熟睡，是有原因的。\n[dialog]\n[Decision(options=\"听起来我很聪明。;听起来我很警觉。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[name=\"暴行\"]是啊，你懂的很多，办法也很多。"
+        }
+      ],
+      "description": "暴行与博士是旧识并直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_230_savage",
+          "reason": "暴行直接向博士倾诉并回忆初遇。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士直接回应暴行。",
+          "status": "supported",
+          "to": "char_230_savage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_48ccc8ee52875626.json",
+      "sources": [
+        {
+          "endLine": 803,
+          "kind": "story",
+          "line": 744,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "《去咧嘴谷》露营夜间",
+      "title": "去咧嘴谷"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 760,
+          "line": 681,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "quote": "[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"小山一样高的罐头堆……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_230_savage_1#9$1\")]\n[name=\"暴行\"]留给你了。\n[charslot(slot=\"m\",name=\"avg_230_savage_1#8$1\")]\n[name=\"暴行\"]事出突然，太久没有回家，老妈囤积的罐头都快放不下了，每次都只会一股脑塞给我——\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"你刚刚不是说特意为同事准备的吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_230_savage_1#4$1\")]\n[name=\"暴行\"]呃，呃……没区别！\n[charslot(slot=\"m\",name=\"avg_230_savage_1#8$1\")]\n[name=\"暴行\"]反正都是我的东西，我来决定它们的用途。\n[name=\"暴行\"]博士，到时候辛苦你帮忙送给其他同事了。小温米的出发时间很紧，我实在来不及了。\n[charslot(slot=\"m\",name=\"avg_230_savage_1#9$1\")]\n[name=\"暴行\"]对了，对了，里面标注了名字的两罐是我特意留给你和阿米娅的，千万不要送错了！\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"看上去好像一样。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_230_savage_1#10$1\")]\n[name=\"暴行\"]——你……当然不一样！\n[charslot(slot=\"m\",name=\"avg_230_savage_1#7$1\")]\n[name=\"暴行\"]对哦，这次出发我也得带上三十罐。\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"作为补给？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_230_savage_1#8$1\")]\n[name=\"暴行\"]不，礼物。\n[name=\"暴行\"]小温米和莱伊小姐有一位老朋友，杰里先生，他和吉拉小姐结婚后工作也越来越顺利了。\n[name=\"暴行\"]上次他寄来的照片里已经多了很多小宝宝，小温米和我们约定好要顺路去拜访他们。\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"她们提起过。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"时间过得真快啊。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_230_savage_1#8$1\")]\n[name=\"暴行\"]好在大家似乎都没什么变化嘛——嗯，阿米娅从卡兹戴尔回来后倒是成长了很多……\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"也请照顾好温米和莱伊小姐。;请保重好自己。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_230_savage_1#8$1\")]\n[name=\"暴行\"]雷姆必拓的情况我很熟悉，不会让她们吃亏的。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_230_savage_1#8$1\")]\n[name=\"暴行\"]放心好了，博士。\n[name=\"暴行\"]我很期待结束外勤任务后和你再见。\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_230_savage_1#1$1\")]\n[name=\"暴行\"]不过，这次外勤任务涉及的区域挺大，我恐怕又有很长时间没法安安稳稳睡在我的小房间里。\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"放心，罗德岛会等着你们回家。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_230_savage_1#8$1\")]\n[name=\"暴行\"]嗯！我知道！\n[name=\"暴行\"]那请等着我回来，博士。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot]\n[Background(image=\"bg_desert_1\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_sandftsingle\",delay=0.5)]\n[charslot(slot = \"right\", name = \"char_1011_purgatory_1#1\",duration = 1)]\n[delay(time=2)]\n[name=\"炎熔\"]喂，怎么不走了？\n[dialog]\n[charslot(slot = \"left\", name = \"avg_1024_hbisc2_1#9$1\",duration = 1)]\n[delay(time=2)]\n[charslot(slot = \"left\", name = \"avg_1024_hbisc2_1#4$1\",focus=\"l\")]"
+        }
+      ],
+      "description": "暴行与博士直接告别并约定再见。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D07"
+          ],
+          "from": "char_230_savage",
+          "reason": "暴行与博士直接告别并约定再见。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "暴行与博士直接告别并约定再见。",
+          "status": "supported",
+          "to": "char_230_savage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 760,
+          "kind": "story",
+          "line": 681,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_230_savage|npc_b99957887950ebfd"
+}

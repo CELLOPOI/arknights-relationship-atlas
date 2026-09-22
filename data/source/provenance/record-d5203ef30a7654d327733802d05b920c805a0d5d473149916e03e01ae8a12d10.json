@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 185,
+          "line": 179,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_leizi_1_1.txt",
+          "quote": "三人转过一个山角，视野陡然开阔。\n太合与解真顺着麟青砚的视线看过去，悬崖百丈，云雾扼断前路，一棵瘦直的松树傲然挺立，露出积雪也掩藏不住的翠色。\n[charslot(slot=\"m\",name=\"avg_npc_039_1\",focus=\"m\")]\n[name=\"麟青砚\"]一年前，我刚从天师府来到大理寺，虞少卿是我最为敬慕的前辈。\n[name=\"麟青砚\"]他要返乡，我坚持送他一程，他绕路带我来爬了这座山。\n[charslot(slot=\"m\",name=\"avg_npc_041\",focus=\"m\")]\n[name=\"解真\"]难怪你今天来得比我和太合都早。"
+        }
+      ],
+      "description": "太合、解真与麟青砚三人一同登山，当面讨论虞少卿案。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_306_leizi",
+          "reason": "太合、解真与麟青砚三人一同登山，当面讨论虞少卿案。",
+          "status": "supported",
+          "to": "npc_05b673f5674dabd7"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_05b673f5674dabd7",
+          "reason": "太合、解真与麟青砚三人一同登山，当面讨论虞少卿案。",
+          "status": "supported",
+          "to": "char_306_leizi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_be0c1b2149c67cd3.json",
+      "sources": [
+        {
+          "endLine": 185,
+          "kind": "story",
+          "line": 179,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_leizi_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "惊蛰所述时段",
+      "title": "惊蛰"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 525,
+          "line": 504,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_06_beg.txt",
+          "quote": "[name=\"解真\"]这几天麟少卿的确为了卷牍库的案件在百灶往来奔走，我也多少有些耳闻。\n[name=\"解真\"]结果从昨日起，你就像是被下了禁足令一样留在了大理寺里。\n[name=\"解真\"]我不禁好奇，到底是什么原因让你主动放弃了继续追查这个案子？\n[name=\"解真\"]是害怕得罪权贵？我认识的麟青砚似乎不是这样的人……\n[name=\"解真\"]是谌大人的逼迫？好像也不应该，毕竟你现在还在这间办公室，而非大理寺的监牢中。\n[name=\"解真\"]既然都不是，那想来想去，答案只有一个了……\n[dialog]\n[delay(time=1.5)]\n[name=\"解真\"]你是怕继续查下去，会连累到其他人。\n[charslot(slot = \"l\", name = \"avg_npc_1612_1#4$1\", focus=\"l\")]\n[name=\"麟青砚\"]……\n[charslot(slot = \"r\", name = \"avg_npc_041\", focus=\"r\")]\n[name=\"解真\"]……看来我猜对了。\n[name=\"解真\"]麟少卿身在局中，关心则乱，怕是忘了一个最简单的道理。\n[name=\"解真\"]扬汤止沸……不如绝薪止火。 \n[name=\"解真\"]……藏不下去的事，不如索性就捅出来，好好地晒晒太阳。\n[charslot(slot = \"l\", name = \"avg_npc_1612_1#4$1\", focus=\"l\")]\n[name=\"麟青砚\"]今日解真御史，还真是给我上了一课。\n[charslot(slot = \"r\", name = \"avg_npc_041\", focus=\"r\")]\n[name=\"解真\"]不敢。想来应该还是这决院幽静，麟少卿自己想通了不少事情。\n[charslot(slot = \"l\", name = \"avg_npc_1612_1#1$1\", focus=\"l\")]\n[name=\"麟青砚\"]……我知道自己该做什么。"
+        }
+      ],
+      "description": "二人在大理寺直接讨论案件。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J02"
+          ],
+          "from": "char_306_leizi",
+          "reason": "二人在大理寺直接讨论案件。",
+          "status": "supported",
+          "to": "npc_05b673f5674dabd7"
+        },
+        {
+          "evidenceIds": [
+            "J02"
+          ],
+          "from": "npc_05b673f5674dabd7",
+          "reason": "二人在大理寺直接讨论案件。",
+          "status": "supported",
+          "to": "char_306_leizi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 525,
+          "kind": "story",
+          "line": 504,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_306_leizi|npc_05b673f5674dabd7"
+}

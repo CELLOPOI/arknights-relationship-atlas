@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 379,
+          "line": 368,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ethan_1_1.txt",
+          "quote": "[name=\"凯文\"]  你还记不记得当时那群从北面来的战士。\n[Character(name=\"avg_npc_080\", name2=\"char_355_ethan_1\", focus=2)]\n[name=\"伊桑\"]  你说的是……雪怪小队？\n[Character(name=\"avg_npc_080\", name2=\"char_355_ethan_1\", focus=1)]\n[name=\"凯文\"]  是他们。\n[name=\"凯文\"]  你走了之后，我带着其他几个人被编入了空降兵小队。\n[name=\"凯文\"]  很长一段时间，我们都是和雪怪小队一起行动的。\n[name=\"凯文\"]  这是他们教我的，我没什么源石技艺的天赋，最多只能冻几瓶汽水。\n[name=\"凯文\"]  他们都是好人，霜星大姐也是个好人。\n[name=\"凯文\"]  但是后来他们都死了。\n[Character(name=\"avg_npc_080\", name2=\"char_355_ethan_1\", focus=2)]\n[name=\"伊桑\"]  所以其他人……"
+        }
+      ],
+      "description": "伊桑经凯文的具体讲述知晓霜星；未建立反向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_355_ethan",
+          "reason": "伊桑当面听到凯文具体点名霜星并接续追问相关人员。",
+          "status": "supported",
+          "to": "npc_e4fe2d3b4e1c0e5b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e4fe2d3b4e1c0e5b",
+          "reason": "本段是凯文的回述，没有霜星知晓伊桑的证据。",
+          "status": "not_established",
+          "to": "char_355_ethan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_4ea1601a9687a842.json",
+      "sources": [
+        {
+          "endLine": 379,
+          "kind": "story",
+          "line": 368,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ethan_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伊桑在龙门与凯文重逢谈话时",
+      "title": "伊桑"
+    }
+  ],
+  "relationship_id": "char_355_ethan|npc_e4fe2d3b4e1c0e5b"
+}

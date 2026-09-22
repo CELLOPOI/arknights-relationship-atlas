@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 275,
+          "line": 268,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_st02.txt",
+          "quote": "[name=\"拉维妮娅\"]那就还不到我放弃的时候。\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_698_1#1$1\",fadetime=0.5)]\n[Delay(time=0.5)]\n[name=\"贝洛内家族成员\"]拉维妮娅小姐，罗塞蒂家族派人过来，说是瓦拉赫先生要请切利尼娜小姐叙一叙。\n[Character(name=\"avg_1028_texas2_1#1$1\")]\n[name=\"德克萨斯\"]……看来，我也不能继续休息了。"
+        }
+      ],
+      "description": "法官在场听到瓦拉赫邀请德克萨斯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_4065_judge",
+          "reason": "法官在场听到瓦拉赫邀请德克萨斯。",
+          "status": "supported",
+          "to": "npc_20d12590d6754866"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_20d12590d6754866",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4065_judge"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 275,
+          "kind": "story",
+          "line": 268,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_4065_judge|npc_20d12590d6754866"
+}

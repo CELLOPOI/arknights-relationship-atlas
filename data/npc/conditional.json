@@ -1,0 +1,598 @@
+[
+  {
+    "key": "char_437_mizuki|npc_58c708dd33128fbf",
+    "personIds": [
+      "char_437_mizuki",
+      "npc_58c708dd33128fbf"
+    ],
+    "names": [
+      "水月",
+      "最后的骑士"
+    ],
+    "realityScope": "hypothetical_ending_branch",
+    "groupId": "group_b35f8149f58708bb",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_b35f8149f58708bb",
+        "title": "水月与深蓝之树",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b35f8149f58708bb.json",
+        "key": "char_437_mizuki|npc_58c708dd33128fbf",
+        "personIds": [
+          "char_437_mizuki",
+          "npc_58c708dd33128fbf"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "char_437_mizuki",
+            "to": "npc_58c708dd33128fbf",
+            "status": "supported",
+            "evidenceIds": [
+              "E1"
+            ],
+            "reason": "结局分支中水月受击，最后的骑士对其说你引来浪涛，双方局部同场。"
+          },
+          {
+            "from": "npc_58c708dd33128fbf",
+            "to": "char_437_mizuki",
+            "status": "supported",
+            "evidenceIds": [
+              "E1"
+            ],
+            "reason": "结局分支中水月受击，最后的骑士对其说你引来浪涛，双方局部同场。"
+          }
+        ],
+        "temporalScope": "水月与深蓝之树所述时段",
+        "description": "结局分支中水月受击，最后的骑士对其说你引来浪涛，双方局部同场。",
+        "realityScope": "hypothetical_ending_branch"
+      }
+    ]
+  },
+  {
+    "key": "npc_58c708dd33128fbf|npc_714a30cf8b57140b",
+    "personIds": [
+      "npc_58c708dd33128fbf",
+      "npc_714a30cf8b57140b"
+    ],
+    "names": [
+      "最后的骑士",
+      "罗辛南特"
+    ],
+    "realityScope": "hypothetical_ending_branch",
+    "groupId": "group_b35f8149f58708bb",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_b35f8149f58708bb",
+        "title": "水月与深蓝之树",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b35f8149f58708bb.json",
+        "key": "npc_58c708dd33128fbf|npc_714a30cf8b57140b",
+        "personIds": [
+          "npc_58c708dd33128fbf",
+          "npc_714a30cf8b57140b"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "npc_58c708dd33128fbf",
+            "to": "npc_714a30cf8b57140b",
+            "status": "supported",
+            "evidenceIds": [
+              "E2"
+            ],
+            "reason": "骑士扯起坐骑缰绳；旁白具名罗辛南特，主从共同迎战。"
+          },
+          {
+            "from": "npc_714a30cf8b57140b",
+            "to": "npc_58c708dd33128fbf",
+            "status": "supported",
+            "evidenceIds": [
+              "E2"
+            ],
+            "reason": "骑士扯起坐骑缰绳；旁白具名罗辛南特，主从共同迎战。"
+          }
+        ],
+        "temporalScope": "水月与深蓝之树所述时段",
+        "description": "骑士扯起坐骑缰绳；旁白具名罗辛南特，主从共同迎战。",
+        "realityScope": "hypothetical_ending_branch"
+      }
+    ]
+  },
+  {
+    "key": "char_437_mizuki|npc_714a30cf8b57140b",
+    "personIds": [
+      "char_437_mizuki",
+      "npc_714a30cf8b57140b"
+    ],
+    "names": [
+      "水月",
+      "罗辛南特"
+    ],
+    "realityScope": "hypothetical_ending_branch",
+    "groupId": "group_b35f8149f58708bb",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_b35f8149f58708bb",
+        "title": "水月与深蓝之树",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b35f8149f58708bb.json",
+        "key": "char_437_mizuki|npc_714a30cf8b57140b",
+        "personIds": [
+          "char_437_mizuki",
+          "npc_714a30cf8b57140b"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "char_437_mizuki",
+            "to": "npc_714a30cf8b57140b",
+            "status": "supported",
+            "evidenceIds": [
+              "E3"
+            ],
+            "reason": "水月、骑士与骑士坐骑在同一连续战斗场景，坐骑以具名反应出现。"
+          },
+          {
+            "from": "npc_714a30cf8b57140b",
+            "to": "char_437_mizuki",
+            "status": "supported",
+            "evidenceIds": [
+              "E3"
+            ],
+            "reason": "水月、骑士与骑士坐骑在同一连续战斗场景，坐骑以具名反应出现。"
+          }
+        ],
+        "temporalScope": "水月与深蓝之树所述时段",
+        "description": "水月、骑士与骑士坐骑在同一连续战斗场景，坐骑以具名反应出现。",
+        "realityScope": "hypothetical_ending_branch"
+      }
+    ]
+  },
+  {
+    "key": "char_437_mizuki|npc_b99957887950ebfd",
+    "personIds": [
+      "char_437_mizuki",
+      "npc_b99957887950ebfd"
+    ],
+    "names": [
+      "水月",
+      "博士"
+    ],
+    "realityScope": "hypothetical_ending_branch",
+    "groupId": "group_b35f8149f58708bb",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_b35f8149f58708bb",
+        "title": "水月与深蓝之树",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b35f8149f58708bb.json",
+        "key": "char_437_mizuki|npc_b99957887950ebfd",
+        "personIds": [
+          "char_437_mizuki",
+          "npc_b99957887950ebfd"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "char_437_mizuki",
+            "to": "npc_b99957887950ebfd",
+            "status": "supported",
+            "evidenceIds": [
+              "E4"
+            ],
+            "reason": "旁白明确水月与博士此前立下约定，证明双方具体往来。"
+          },
+          {
+            "from": "npc_b99957887950ebfd",
+            "to": "char_437_mizuki",
+            "status": "supported",
+            "evidenceIds": [
+              "E4"
+            ],
+            "reason": "旁白明确水月与博士此前立下约定，证明双方具体往来。"
+          }
+        ],
+        "temporalScope": "水月与深蓝之树所述时段",
+        "description": "旁白明确水月与博士此前立下约定，证明双方具体往来。",
+        "realityScope": "hypothetical_ending_branch"
+      }
+    ]
+  },
+  {
+    "key": "char_010_chen|npc_0390092af6e7eaa6",
+    "personIds": [
+      "char_010_chen",
+      "npc_0390092af6e7eaa6"
+    ],
+    "names": [
+      "陈",
+      "文月"
+    ],
+    "realityScope": "fictional_film",
+    "groupId": "group_f0cd623c8eb0c2e9",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_f0cd623c8eb0c2e9",
+        "title": "洪炉示岁",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+        "key": "char_010_chen|npc_0390092af6e7eaa6",
+        "personIds": [
+          "char_010_chen",
+          "npc_0390092af6e7eaa6"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "char_010_chen",
+            "to": "npc_0390092af6e7eaa6",
+            "status": "supported",
+            "evidenceIds": [
+              "E1"
+            ],
+            "reason": "片中魏文月接见陈与雪雉并直接对话；旁白明确此角色为文月。"
+          },
+          {
+            "from": "npc_0390092af6e7eaa6",
+            "to": "char_010_chen",
+            "status": "supported",
+            "evidenceIds": [
+              "E1"
+            ],
+            "reason": "片中魏文月接见陈与雪雉并直接对话；旁白明确此角色为文月。"
+          }
+        ],
+        "temporalScope": "洪炉示岁所述时段",
+        "description": "片中魏文月接见陈与雪雉并直接对话；旁白明确此角色为文月。",
+        "realityScope": "fictional_film"
+      }
+    ]
+  },
+  {
+    "key": "char_383_snsant|npc_0390092af6e7eaa6",
+    "personIds": [
+      "char_383_snsant",
+      "npc_0390092af6e7eaa6"
+    ],
+    "names": [
+      "雪雉",
+      "文月"
+    ],
+    "realityScope": "fictional_film",
+    "groupId": "group_f0cd623c8eb0c2e9",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_f0cd623c8eb0c2e9",
+        "title": "洪炉示岁",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+        "key": "char_383_snsant|npc_0390092af6e7eaa6",
+        "personIds": [
+          "char_383_snsant",
+          "npc_0390092af6e7eaa6"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "char_383_snsant",
+            "to": "npc_0390092af6e7eaa6",
+            "status": "supported",
+            "evidenceIds": [
+              "E2"
+            ],
+            "reason": "片中魏文月接见陈与雪雉并直接对话；旁白明确此角色为文月。"
+          },
+          {
+            "from": "npc_0390092af6e7eaa6",
+            "to": "char_383_snsant",
+            "status": "supported",
+            "evidenceIds": [
+              "E2"
+            ],
+            "reason": "片中魏文月接见陈与雪雉并直接对话；旁白明确此角色为文月。"
+          }
+        ],
+        "temporalScope": "洪炉示岁所述时段",
+        "description": "片中魏文月接见陈与雪雉并直接对话；旁白明确此角色为文月。",
+        "realityScope": "fictional_film"
+      }
+    ]
+  },
+  {
+    "key": "npc_08bc2cc38b820ef0|npc_83e2c28380c1c6fb",
+    "personIds": [
+      "npc_08bc2cc38b820ef0",
+      "npc_83e2c28380c1c6fb"
+    ],
+    "names": [
+      "魏彦吾",
+      "鼠王"
+    ],
+    "realityScope": "fictional_film",
+    "groupId": "group_f0cd623c8eb0c2e9",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_f0cd623c8eb0c2e9",
+        "title": "洪炉示岁",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+        "key": "npc_08bc2cc38b820ef0|npc_83e2c28380c1c6fb",
+        "personIds": [
+          "npc_08bc2cc38b820ef0",
+          "npc_83e2c28380c1c6fb"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "npc_08bc2cc38b820ef0",
+            "to": "npc_83e2c28380c1c6fb",
+            "status": "supported",
+            "evidenceIds": [
+              "E3"
+            ],
+            "reason": "普通市民魏先生和退休老人同桌下棋并回顾共同警察经历；立绘分别char_2005_weiyw与avg_npc_034。"
+          },
+          {
+            "from": "npc_83e2c28380c1c6fb",
+            "to": "npc_08bc2cc38b820ef0",
+            "status": "supported",
+            "evidenceIds": [
+              "E3"
+            ],
+            "reason": "普通市民魏先生和退休老人同桌下棋并回顾共同警察经历；立绘分别char_2005_weiyw与avg_npc_034。"
+          }
+        ],
+        "temporalScope": "洪炉示岁所述时段",
+        "description": "普通市民魏先生和退休老人同桌下棋并回顾共同警察经历；立绘分别char_2005_weiyw与avg_npc_034。",
+        "realityScope": "fictional_film"
+      }
+    ]
+  },
+  {
+    "key": "char_002_amiya|npc_b99957887950ebfd",
+    "personIds": [
+      "char_002_amiya",
+      "npc_b99957887950ebfd"
+    ],
+    "names": [
+      "阿米娅",
+      "博士"
+    ],
+    "realityScope": "fictional_film",
+    "groupId": "group_f0cd623c8eb0c2e9",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_f0cd623c8eb0c2e9",
+        "title": "洪炉示岁",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+        "key": "char_002_amiya|npc_b99957887950ebfd",
+        "personIds": [
+          "char_002_amiya",
+          "npc_b99957887950ebfd"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "char_002_amiya",
+            "to": "npc_b99957887950ebfd",
+            "status": "supported",
+            "evidenceIds": [
+              "E4"
+            ],
+            "reason": "片中阿米娅向博士说明抵达龙门，博士选项回应。"
+          },
+          {
+            "from": "npc_b99957887950ebfd",
+            "to": "char_002_amiya",
+            "status": "supported",
+            "evidenceIds": [
+              "E4"
+            ],
+            "reason": "片中阿米娅向博士说明抵达龙门，博士选项回应。"
+          }
+        ],
+        "temporalScope": "洪炉示岁所述时段",
+        "description": "片中阿米娅向博士说明抵达龙门，博士选项回应。",
+        "realityScope": "fictional_film"
+      }
+    ]
+  },
+  {
+    "key": "char_383_snsant|npc_b99957887950ebfd",
+    "personIds": [
+      "char_383_snsant",
+      "npc_b99957887950ebfd"
+    ],
+    "names": [
+      "雪雉",
+      "博士"
+    ],
+    "realityScope": "fictional_film",
+    "groupId": "group_f0cd623c8eb0c2e9",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_f0cd623c8eb0c2e9",
+        "title": "洪炉示岁",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+        "key": "char_383_snsant|npc_b99957887950ebfd",
+        "personIds": [
+          "char_383_snsant",
+          "npc_b99957887950ebfd"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "char_383_snsant",
+            "to": "npc_b99957887950ebfd",
+            "status": "supported",
+            "evidenceIds": [
+              "E5"
+            ],
+            "reason": "片中文月将现场博士介绍给雪雉，雪雉直接向博士致歉。"
+          },
+          {
+            "from": "npc_b99957887950ebfd",
+            "to": "char_383_snsant",
+            "status": "supported",
+            "evidenceIds": [
+              "E5"
+            ],
+            "reason": "片中文月将现场博士介绍给雪雉，雪雉直接向博士致歉。"
+          }
+        ],
+        "temporalScope": "洪炉示岁所述时段",
+        "description": "片中文月将现场博士介绍给雪雉，雪雉直接向博士致歉。",
+        "realityScope": "fictional_film"
+      }
+    ]
+  },
+  {
+    "key": "npc_0390092af6e7eaa6|npc_b99957887950ebfd",
+    "personIds": [
+      "npc_0390092af6e7eaa6",
+      "npc_b99957887950ebfd"
+    ],
+    "names": [
+      "文月",
+      "博士"
+    ],
+    "realityScope": "fictional_film",
+    "groupId": "group_f0cd623c8eb0c2e9",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_f0cd623c8eb0c2e9",
+        "title": "洪炉示岁",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+        "key": "npc_0390092af6e7eaa6|npc_b99957887950ebfd",
+        "personIds": [
+          "npc_0390092af6e7eaa6",
+          "npc_b99957887950ebfd"
+        ],
+        "label": "确认相识",
+        "directions": [
+          {
+            "from": "npc_0390092af6e7eaa6",
+            "to": "npc_b99957887950ebfd",
+            "status": "supported",
+            "evidenceIds": [
+              "E6"
+            ],
+            "reason": "片中文月直接回应博士并向雪雉介绍其指挥官身份。"
+          },
+          {
+            "from": "npc_b99957887950ebfd",
+            "to": "npc_0390092af6e7eaa6",
+            "status": "supported",
+            "evidenceIds": [
+              "E6"
+            ],
+            "reason": "片中文月直接回应博士并向雪雉介绍其指挥官身份。"
+          }
+        ],
+        "temporalScope": "洪炉示岁所述时段",
+        "description": "片中文月直接回应博士并向雪雉介绍其指挥官身份。",
+        "realityScope": "fictional_film"
+      }
+    ]
+  },
+  {
+    "key": "char_010_chen|npc_b99957887950ebfd",
+    "personIds": [
+      "char_010_chen",
+      "npc_b99957887950ebfd"
+    ],
+    "names": [
+      "陈",
+      "博士"
+    ],
+    "realityScope": "fictional_film",
+    "groupId": "group_f0cd623c8eb0c2e9",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_f0cd623c8eb0c2e9",
+        "title": "洪炉示岁",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+        "key": "char_010_chen|npc_b99957887950ebfd",
+        "personIds": [
+          "char_010_chen",
+          "npc_b99957887950ebfd"
+        ],
+        "label": "单向知晓",
+        "directions": [
+          {
+            "from": "char_010_chen",
+            "to": "npc_b99957887950ebfd",
+            "status": "supported",
+            "evidenceIds": [
+              "E7"
+            ],
+            "reason": "片中陈说罗德岛博士坐镇指挥，炎熔在同一对话中获知；本窗没有博士对该干员反向知晓。"
+          },
+          {
+            "from": "npc_b99957887950ebfd",
+            "to": "char_010_chen",
+            "status": "not_established",
+            "evidenceIds": [],
+            "reason": "本窗口无反向知晓依据"
+          }
+        ],
+        "temporalScope": "洪炉示岁所述时段",
+        "description": "片中陈说罗德岛博士坐镇指挥，炎熔在同一对话中获知；本窗没有博士对该干员反向知晓。",
+        "realityScope": "fictional_film"
+      }
+    ]
+  },
+  {
+    "key": "char_121_lava|npc_b99957887950ebfd",
+    "personIds": [
+      "char_121_lava",
+      "npc_b99957887950ebfd"
+    ],
+    "names": [
+      "炎熔",
+      "博士"
+    ],
+    "realityScope": "fictional_film",
+    "groupId": "group_f0cd623c8eb0c2e9",
+    "contributions": [
+      {
+        "assignmentId": "review-04",
+        "groupId": "group_f0cd623c8eb0c2e9",
+        "title": "洪炉示岁",
+        "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+        "key": "char_121_lava|npc_b99957887950ebfd",
+        "personIds": [
+          "char_121_lava",
+          "npc_b99957887950ebfd"
+        ],
+        "label": "单向知晓",
+        "directions": [
+          {
+            "from": "char_121_lava",
+            "to": "npc_b99957887950ebfd",
+            "status": "supported",
+            "evidenceIds": [
+              "E8"
+            ],
+            "reason": "片中陈说罗德岛博士坐镇指挥，炎熔在同一对话中获知；本窗没有博士对该干员反向知晓。"
+          },
+          {
+            "from": "npc_b99957887950ebfd",
+            "to": "char_121_lava",
+            "status": "not_established",
+            "evidenceIds": [],
+            "reason": "本窗口无反向知晓依据"
+          }
+        ],
+        "temporalScope": "洪炉示岁所述时段",
+        "description": "片中陈说罗德岛博士坐镇指挥，炎熔在同一对话中获知；本窗没有博士对该干员反向知晓。",
+        "realityScope": "fictional_film"
+      }
+    ]
+  }
+]

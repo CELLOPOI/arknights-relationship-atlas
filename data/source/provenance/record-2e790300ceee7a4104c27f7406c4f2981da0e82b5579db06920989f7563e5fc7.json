@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 470,
+          "line": 425,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_robin_1_1.txt",
+          "quote": "[name=\"罗宾\"]（低声）……这点事代表不了什么。\n[charslot(slot=\"m\",name=\"avg_451_robin_1#1$1\")]\n[name=\"罗宾\"]（低声）赶紧处理好伤口，回去继续做准备吧。\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]罗宾，你受伤了吗？\n[charslot(slot=\"m\",name=\"avg_451_robin_1#7$1\")]\n[name=\"罗宾\"]咦……杜玛？\n[charslot(slot=\"m\",name=\"avg_451_robin_1#8$1\")]\n[name=\"罗宾\"]糟了……\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=2)]\t\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]包扎好了。\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]我刚才看了一下那只云兽的检查报告，没有携带什么病菌。\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]如果你之后感觉身体有什么不适，可以再来找我。\n[charslot(slot=\"m\",name=\"avg_451_robin_1#1$1\")]\n[name=\"罗宾\"]……好。\n[charslot(slot=\"m\",name=\"avg_451_robin_1#1$1\")]\n[name=\"罗宾\"]那我就先……\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]……\n[charslot(slot=\"m\",name=\"char_441_lotus_1#3\")]\n[name=\"杜玛\"]罗宾，来到罗德岛之后，我们好像都没有遇到过呢。\n[charslot(slot=\"m\",name=\"char_441_lotus_1#3\")]\n[name=\"杜玛\"]今天是第一次。\n[charslot(slot=\"m\",name=\"avg_451_robin_1#1$1\")]\n[name=\"罗宾\"]嗯……是、是啊。\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]我之前去找过你几次，但你都不在。\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]听说你为了医治你的父亲，签了一份不太一样的合同，并且一直都在很辛勤地工作。我都担心被你忘了呢。\n[charslot(slot=\"m\",name=\"avg_451_robin_1#12$1\")]\n[name=\"罗宾\"]怎么会呢，杜玛，你那么善良……\n[charslot(slot=\"m\",name=\"avg_451_robin_1#12$1\")]\n[name=\"罗宾\"]是我担心……会被你讨厌。\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]我怎么会讨厌你呢，罗宾，你在越狱的时候，帮了安东尼那么多忙。\n[charslot(slot=\"m\",name=\"char_441_lotus_1#4\")]\n[name=\"杜玛\"]而且，如果不是你在曼斯菲尔德鼓励我，我也不会有在这里安顿下来的勇气。"
+        }
+      ],
+      "description": "医疗部直接对话和包扎；两人回顾越狱往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_451_robin",
+          "reason": "医疗部直接对话和包扎；两人回顾越狱往来。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "医疗部直接对话和包扎；两人回顾越狱往来。",
+          "status": "supported",
+          "to": "char_451_robin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b553978e62329060.json",
+      "sources": [
+        {
+          "endLine": 470,
+          "kind": "story",
+          "line": 425,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_robin_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗宾所述时段",
+      "title": "罗宾"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 56,
+          "line": 47,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_02_end.txt",
+          "quote": "[name=\"杜玛\"]没事，我也不太在乎。\n[name=\"杜玛\"]比起这个，要来医务室吗？\n[Character(name=\"avg_npc_132\", name2=\"char_451_robin#3\",focus=1)]\n[name=\"A区囚犯A\"]不、不了，有这个小姑娘帮我包扎。\n[Character(name=\"avg_npc_132\", name2=\"char_451_robin#5\",focus=2)]\n[name=\"罗宾\"]嗯，交给我就好。\n[Character(name=\"char_441_lotus_1#3\")]\n[name=\"杜玛\"]……你的包扎手法不错，那就交给你了。\n[Character(name=\"avg_npc_132\", name2=\"char_451_robin#5\",focus=2)]\n[name=\"罗宾\"]好。"
+        }
+      ],
+      "description": "医护协作、越狱同伴。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "直接对话并评价包扎。",
+          "status": "supported",
+          "to": "char_451_robin"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_451_robin",
+          "reason": "接受杜玛的交托并应答。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 56,
+          "kind": "story",
+          "line": 47,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗宾入狱初期即成立；后续越狱筹备继续合作。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_451_robin|npc_b6173633e2da4a81"
+}

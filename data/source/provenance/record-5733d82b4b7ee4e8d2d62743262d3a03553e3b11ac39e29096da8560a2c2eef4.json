@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 198,
+          "line": 185,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "quote": "[Decision(options=\"很有意思的表演。;表演似乎没能起到效果。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]嗯。我只见Scout和Outcast示范过几回，可能动作不够纯熟，所以没起到很好的效果。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"none\")]\n[Decision(options=\"没想到你还有这样的一面。;难不成，其实你很喜欢开玩笑？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#3$1\",focus=\"m\")]\n[name=\"Logos\"]博士，有时候我也会遗憾于我们之间相处的许多记忆消散无踪。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#3$1\",focus=\"none\")]\n[Decision(options=\"我们很少聊起往事……;总是找不到恰当的时机聊这些。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]"
+        }
+      ],
+      "description": "博士当面听Logos说两位精英干员的示范，继续回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E46"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士当面听Logos说两位精英干员的示范，继续回应。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 198,
+          "kind": "story",
+          "line": 185,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 59,
+          "line": 17,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-02_end.txt",
+          "quote": "[name=\"因陀罗\"]这帮烦人精！\n[Character(name=\"avg_155_tiger_1#9$1\")]\n[name=\"因陀罗\"]我这就去把人捞回来。\n[Character(name=\"avg_npc_396_1#7$1\")]\n[name=\"达格达\"] ……不行。\n[Character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]干嘛抓着我？这人不是我们救回来的吗？\n[Character(name=\"avg_npc_396_1#1$1\")]\n[name=\"达格达\"] 情况不同。我们不能让推进之王暴露在这些敌人面前。\n[Character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]你让我们把人丢了不管？这可不是我们格拉斯哥帮的作风！\n[Character(name=\"avg_npc_405_1#5$1\")]\n[name=\"摩根\"]你们两个，别在这里吵架。\n[Character(name=\"avg_npc_405_1#5$1\")]\n[name=\"摩根\"]维娜……\n[Character(name=\"avg_npc_407_1#1$1\")]\n[name=\"推进之王\"]……听博士和阿米娅的。\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ——\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 狙击干员，瞄准挟持目标的敌人！\n[dialog]\n[Character(name=\"avg_npc_394_1#7$1\",focus=-1)]\n[Decision(options=\"那个术师是关键。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_394_1#7$1\")]\n[multiline(name=\"阿米娅\")] 术师……\n[Character(name=\"avg_npc_394_1#5$1\")]\n[multiline(name=\"阿米娅\",end=true)] 博士，我想起来了。\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 根据Misery的消息和风笛的报告，她就是伦蒂尼姆这支深池部队的头目。\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……也是小丘郡事件的始作俑者之一。\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 罗德岛并不打算把Outcast的牺牲完全怪罪在她一个人头上，但不光Misery和风笛，我们许多干员都对她抱有强烈的敌意。\n[dialog]\n[Character(name=\"avg_npc_394_1#7$1\",focus=-1)]\n[Decision(options=\"蔓德拉。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 风笛说，她很难缠。\n[Character(name=\"avg_npc_394_1#1$1\")]\n[name=\"阿米娅\"] 我们可以在这里和深池作战，救回托马斯先生，甚至排除蔓德拉这个对之后的行动有重大威胁的劲敌。"
+        }
+      ],
+      "description": "行动讨论中，推进之王让大家听博士和阿米娅安排；阿米娅随即具体提及Misery及Outcast，现场听者已获知具体人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "行动讨论中，推进之王让大家听博士和阿米娅安排；阿米娅随即具体提及Misery及Outcast，现场听者已获知具体人物。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 59,
+          "kind": "story",
+          "line": 17,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_617e6ed434c6e138|npc_b99957887950ebfd"
+}

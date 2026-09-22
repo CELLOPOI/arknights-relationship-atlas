@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 273,
+          "line": 259,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_crosly_1_1.txt",
+          "quote": "[name=\"雷德\"]好久不见。\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#3$1\",focus=\"m\")]\n[name=\"柳德米拉\"]你也是。\n[charslot(slot = \"m\", name = \"avg_npc_328_1$1\")]\n[name=\"雷德\"]我听他们说过运输保障署里有个很厉害的瑞柏巴，只是人不在，没想到是你。\n[charslot(slot = \"m\", name = \"avg_npc_328_1$1\")]\n[name=\"雷德\"]看来你的省亲之旅很顺利，九知道会高兴的。\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#3$1\",focus=\"m\")]\n[name=\"柳德米拉\"]九……农庄是怎么回事？\n[charslot(slot = \"m\", name = \"avg_npc_328_1$1\")]\n[name=\"雷德\"]就是农庄。\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#1$1\",focus=\"m\")]\n[name=\"柳德米拉\"]九在那里？\n[charslot(slot = \"m\", name = \"avg_npc_328_1$1\")]\n[name=\"雷德\"]对，九和其他人在那里。"
+        }
+      ],
+      "description": "柳德米拉点名询问九的去向；本段没有九对柳德米拉的独立方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "柳德米拉点名询问九的去向；本段没有九对柳德米拉的独立方向。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b554345833235f79",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_6810d6ab10488a9b.json",
+      "sources": [
+        {
+          "endLine": 273,
+          "kind": "story",
+          "line": 259,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_crosly_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "弑君者"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 487,
+          "line": 460,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "quote": "[name=\"九\"]  我不认为整合运动会就此结束。\n[Character(name=\"char_1502_crowns\")]\n[name=\"弑君者\"]  ……你是龙门人？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  是的。不过我要说的和我是哪里人，没有关系。\n[name=\"九\"]  不管这个塔露拉承不承认，可能你们都要意识到一点……不管整合运动怎么样，塔露拉已经点了一把火。\n[name=\"九\"]  我不觉得这把火会就这样熄灭。\n[Character(name=\"char_1502_crowns\")]\n[name=\"弑君者\"]  那也好。如果你这么说的话，我觉得让他们跟着你会好些。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  这算委托吗？\n[Character(name=\"char_1502_crowns\")]\n[name=\"弑君者\"]  算信任吧。我不知道你有没有骗我，但是现在大家都失去了家乡，我是不会骗你的。\n[name=\"弑君者\"]  他们跟着我不会有跟着你好。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  那么，你们愿意跟着我走吗？\n[Character(name=\"char_1002_nsabr_1\")]\n[name=\"整合运动成员\"]  ……弑君者……\n[Character(name=\"char_1502_crowns\")]\n[name=\"弑君者\"]  乌萨斯人……我们这些……乌萨斯人。\n[name=\"弑君者\"]  乌萨斯只是还没到像待我们一样待这所有乌萨斯人的时候。\n[name=\"弑君者\"]  各位，再见。别像我一样再犯错。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  年轻人……\n[Character(name=\"char_1002_nsabr_1\")]\n[name=\"整合运动成员\"]  你叫什么名字，准备去哪？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  就叫我，“九”吧。"
+        }
+      ],
+      "description": "弑君者与九当面对话、委托部众。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E67"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "弑君者与九当面对话、委托部众。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [
+            "E67"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "弑君者与九当面对话、委托部众。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 487,
+          "kind": "story",
+          "line": 460,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    }
+  ],
+  "relationship_id": "char_1502_crosly|npc_b554345833235f79"
+}

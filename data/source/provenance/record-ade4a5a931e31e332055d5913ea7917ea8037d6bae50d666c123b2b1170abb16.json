@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 134,
+          "line": 19,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "quote": "[name=\"左乐\"]绩先生。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#1$1\",focus=\"r\")]\n[name=\"绩\"]你就是……左公子吧。\n[name=\"绩\"]初次见面，没什么准备，有失礼数了。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$2\",focus=\"l\")]\n[name=\"左乐\"]你认识我……？\n[Dialog]\n[charslot]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_hgmlgscrm\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1244_1#2$1\",duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1244_1#2$1\",focus=\"m\")]\n[name=\"奇异的织物\"]（诡异的长鸣）\n[Dialog]\n[charslot]\n左乐右手习惯性摸向平时腰间挂刀的位置，却只摸到一个用于操作农耕装置的天师仪。\n这一细小的动作似乎没能逃过男人的眼睛，他嘴角挂上笑意。\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$2\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]左公子不必紧张，只是一些无害的小玩意儿。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$2\",focus=\"l\")]\n[name=\"左乐\"]“纺因织果，裁虚为实”……这些东西，是你的造物？\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]举手之劳。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_hgmgrssvcm\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1244_1#2$1\",focus=\"m\")]\n[Delay(time=1)]\n[name=\"奇异的织物\"]（诡异的嘶鸣）\n[Dialog]\n[PlaySound(key=\"$d_avg_shdwblwvr\", volume=1)]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n男人轻轻挥了挥手，古怪的生物顷刻间化为缕缕细碎的丝线，继而灰飞烟灭。\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#6$2\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"l\")]\n[name=\"左乐\"]你们巨兽代理人的能力，始终让人难以琢磨。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]不过是些雕虫绣花的功夫，能派上用场的地方不多。\n[name=\"绩\"]涝灾过后，紧跟着的就是虫害和病害。看不见摸不着的灾害难对付，织成具体物件，再去消灭就容易多了。\n[name=\"绩\"]要是让姐姐看到我做这种事，又要责备我“逆天而行”了。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$2\",focus=\"l\")]\n[name=\"左乐\"]你本不该出现在这里。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]这里也算是我儿时待过的地方，许多年没有回来过了，有些想念。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$2\",focus=\"l\")]\n[name=\"左乐\"]像你们这样的存在，竟然也会有“儿时”这样的概念。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]不论寿命长短，人都有蒙昧无知的时候。那时候见到的新奇事物，印象也会更深一点。\n[name=\"绩\"]对一直陪在身边的人，也总会多挂念一点。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#4$2\",focus=\"l\")]\n[name=\"左乐\"]你们几位兄弟姐妹的会面是大事，事先都应该通报司岁台才对。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#1$1\",focus=\"r\")]\n[name=\"绩\"]朝廷补给的车队被天灾拦在了半路上，我收到那位老天师的消息后，可是立刻自掏腰包送了这一批应急的货物来。\n[name=\"绩\"]回到这里，我也只是匆匆看了姐姐一眼，那两位妹妹的面都没有见过。司岁台未免有点不近“人”情了？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#4$2\",focus=\"l\")]\n[name=\"左乐\"]先生在司岁台的名单里，是需要重点盯防的一位。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#7$1\",focus=\"r\")]\n[name=\"绩\"]哪怕这些年，我从来没有做过一件违背规矩的事？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#4$2\",focus=\"l\")]\n[name=\"左乐\"]这不该由先生说了算。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]可左公子现在，不也没穿着秉烛人的制服？\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"n\")]\n眼前的男人笑了笑，温和，礼貌，从容。\n左乐却难自制地感到了一股寒意。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]其实在下久闻左公子玉名。今日终于得以一见，便想或许可以和左公子交个朋友。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$2\",focus=\"l\")]\n[name=\"左乐\"]……不用这样客套。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]前些年逗留百灶，见过不少世家子弟。只论文章才学，其中也有不少人堪称青年才俊。\n[name=\"绩\"]但能真正像左公子这样肯踏踏实实做点实事的人，恐怕按学宫的名单挨个数也数不出几位。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$2\",focus=\"l\")]\n[name=\"左乐\"]……\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]去年十一月，琅珆山海众勾连匪患，左公子孤身涉险，救出了被困匪窝的数十无辜百姓。\n[name=\"绩\"]年初二月，为了追查那件特殊的酒盏，路上又是凶险无数。\n[name=\"绩\"]不知情的外人只道左公子年纪轻轻身居要职是蒙父辈荫庇，又哪能想到秉烛人的任务有多么凶险？\n[name=\"绩\"]左公子之前的所有努力，难道因为一次失误就要被全盘否定？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#6$2\",focus=\"l\")]\n[name=\"左乐\"]这些事情……你没有理由知道。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]生意人，为了通晓行情，总是习惯多方打听。打听到的东西偶尔也能作为货物售卖。就看客人愿意出多少价钱。\n[name=\"绩\"]我还要知道，什么样的客人会愿意为什么情报付什么价钱。\n[name=\"绩\"]比如，我还知道大荒城北边的河对岸藏着什么，年在这里造的那件工程到底有什么用。\n[name=\"绩\"]我还知道，玉门遭遇天灾一事，你始终怀疑有更高位者从中做梗，但迟迟抓不住线索，对不对？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#6$2\",focus=\"l\")]\n[name=\"左乐\"]……\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#2$2\",focus=\"l\")]\n[name=\"左乐\"]我当然知道先生行事周密，滴水不漏。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$2\",focus=\"l\")]\n[name=\"左乐\"]可司岁台也绝非无能之辈，但凡有任何蛛丝马迹，司岁台都会一查到底。\n[name=\"左乐\"]在下敬告先生，不要做逾矩之事。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#1$1\",focus=\"r\")]\n[name=\"绩\"]这是左公子作为朋友的提醒？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$2\",focus=\"l\")]\n[name=\"左乐\"]这是我作为司岁台秉烛人的忠告。\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#9$1\",focus=\"r\")]\n[name=\"绩\"]我想左公子应该是多虑了……整个炎国最精锐的天师尽数留守在大荒城北边的天机阁里，我一个人又能掀起什么风浪呢？\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#1$1\",focus=\"r\")]\n[name=\"绩\"]比起在下，此时此刻，还是这条河对岸的那些邪祟诡魔，更该让人担心吧。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$2\",focus=\"l\")]\n[name=\"左乐\"]……什么？\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#1$1\",focus=\"r\")]\n[name=\"绩\"]左公子大概还不知道，最近三个月以来，天机阁已经死了多少天师？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#6$2\",focus=\"l\")]\n[name=\"左乐\"]——！\n[name=\"左乐\"]休要蛊惑人心……\n[charslot(slot=\"r\",name=\"avg_npc_1236_1#1$1\",focus=\"r\")]\n[name=\"绩\"]生意人诚信为本，我从来不说假话。左公子要是不信，不如自己先去查查。\n[name=\"绩\"]再好好想一想，自己想要做什么。要不要也来找我做一笔交易。"
+        }
+      ],
+      "description": "左乐与绩直接初见交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "char_4121_zuole",
+          "reason": "左乐与绩直接初见交谈。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "左乐与绩直接初见交谈。",
+          "status": "supported",
+          "to": "char_4121_zuole"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 134,
+          "kind": "story",
+          "line": 19,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 438,
+          "line": 369,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_07_beg.txt",
+          "quote": "[name=\"左乐\"]……\n[charslot(slot = \"l\", focus=\"n\")]\n[name=\"？？？\"]左公子的确看懂了在下的提示。\n[dialog]\n[musicvolume(volume=0.6, fadetime=2)]\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#9$1\", duration=1.5, isblock=true)]\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#9$1\", focus=\"r\")]\n[name=\"绩\"]又见面了……左公子，别来无恙？\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#6$1\", focus=\"l\")]\n[name=\"左乐\"]你……\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#9$1\", focus=\"r\")]\n[name=\"绩\"]不必紧张，这家当铺关门许久了，不会有人来的。\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#4$1\", focus=\"l\")]\n[name=\"左乐\"]你单独约见我，是想做什么？\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#9$1\", focus=\"r\")]\n[name=\"绩\"]这不应该反过来问左公子吗？\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#4$1\", focus=\"l\")]\n[name=\"左乐\"]什么意思？\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#3$1\", focus=\"r\")]\n[name=\"绩\"]当年逗留百灶的时候，随兴开了这家当铺，生意也一度红火。\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#9$1\", focus=\"r\")]\n[name=\"绩\"]每天都有客人送来各式各样的古玩字画、金玉奇石……结果被我那个喜欢摆弄山河的弟弟顺走不少——都摆到他的园林里去了。\n[name=\"绩\"]最有趣的一点是，光顾这家当铺的客人都有一个共同点——他们都是有求于我的。\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#2$1\", focus=\"l\")]\n[name=\"左乐\"]……你未免自视过高了。\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#9$1\", focus=\"r\")]\n[name=\"绩\"]不过左公子既然还愿意来见在下，那不正是说明左公子也想谈谈？左公子心中疑问，在下或许能够解答一二呢？\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#4$1\", focus=\"l\")]\n[name=\"左乐\"]我只在意……你们来到百灶，目的究竟是什么？\n[name=\"左乐\"]如果那个罪人决意在此时与炎国开战，那等待他的结果只会是自取灭亡——他不会不清楚。\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#2$1\", focus=\"r\")]\n[name=\"绩\"]是啊……我那个哥哥，别无所长，唯独对这纵横之术，颇有心得。\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#1$1\", focus=\"r\")]\n[name=\"绩\"]左公子可还记得，在玉门出现的那一伙山海众？\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#3$1\", focus=\"l\")]\n[name=\"左乐\"]司岁台事后调查复盘，发现其中有另一只巨兽所化的代理人行动的痕迹。\n[multiline(name=\"左乐\")]这件事中，望同样有嫌疑……\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#4$1\", focus=\"l\")]\n[multiline(name=\"左乐\",end=true)]你想说什么？\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#1$1\", focus=\"r\")]\n[name=\"绩\"]左公子当然应该记得，千年前的那场围猎，大炎领土内的数只巨兽，要么被消灭，要么被驱逐。\n[name=\"绩\"]那司岁台是否想过，他既然能找到其中一只……\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#4$1\", focus=\"r\")]\n[name=\"绩\"]他找到的，就仅有那一只吗？\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#6$1\", focus=\"l\")]\n[name=\"左乐\"]——！\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#4$1\", focus=\"r\")]\n[name=\"绩\"]这么多年以来，司岁台始终警惕着他在炎国的一举一动，是不是忘了去想，他的棋子落在炎国之外的可能性？\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#4$1\", focus=\"l\")]\n[name=\"左乐\"]不要小看司岁台的情报……司岁台从未中断过对那几只巨兽的跟踪观察。那些巨兽如果有所异动，巨兽学士一定会有所察觉。\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#3$1\", focus=\"r\")]\n[name=\"绩\"]算算时间，他们应该已经在赶回来的路上了。\n[dialog]\n[delay(time=1.5)]\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#9$1\", focus=\"r\")]\n[name=\"绩\"]这份情报，可以当作我送给左公子的一份薄礼。至于要如何使用，左公子可以自行决断。\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#4$1\", focus=\"l\")]\n[name=\"左乐\"]为什么要告诉我这件事？你既然已经与那个罪人同谋，为何要告诉司岁台他的打算？\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#3$1\", focus=\"r\")]\n[name=\"绩\"]实不相瞒……我与那个哥哥虽然是合作，可各自的心思，多少还是有些分别的。\n[name=\"绩\"]他执意要分出个胜负，我倒是觉得，和和气气地把生意做下去更重要。\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#9$1\", focus=\"r\")]\n[name=\"绩\"]至于为什么要挑选左公子……就当是我觉得，与左公子投缘吧。\n[charslot(slot = \"l\", name = \"avg_4121_zuole_1#10$1\", focus=\"l\")]\n[name=\"左乐\"]什么……？\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#10$1\", focus=\"r\")]\n[name=\"绩\"]我自诩有几分识人的本事，直觉告诉我，将来还会有与左公子打交道的机会……\n[name=\"绩\"]说不定以后，我们兄弟姐妹的生死去向，都要仰仗左公子的决断。\n[charslot(slot = \"r\", name = \"avg_npc_1236_1#9$1\", focus=\"r\")]\n[name=\"绩\"]值此佳节，能和左公子少叙片刻，也算是缘分……希望左公子将来，也能将在下当作可以交谈的“人”吧。"
+        }
+      ],
+      "description": "绩单独约见左乐并提供重要情报。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J10"
+          ],
+          "from": "char_4121_zuole",
+          "reason": "绩单独约见左乐并提供重要情报。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [
+            "J10"
+          ],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "绩单独约见左乐并提供重要情报。",
+          "status": "supported",
+          "to": "char_4121_zuole"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 438,
+          "kind": "story",
+          "line": 369,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_4121_zuole|npc_6ee68205c0c1758b"
+}

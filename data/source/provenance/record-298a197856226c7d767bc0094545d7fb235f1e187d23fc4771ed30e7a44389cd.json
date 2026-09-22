@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 610,
+          "line": 534,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "quote": "[name=\"爱国者\"]  终于……\n[name=\"爱国者\"]  我……这一生……得以结束。\n[name=\"爱国者\"]  海伦……格罗瓦兹尔……叶莲娜……\n[name=\"爱国者\"]  是你们……\n[name=\"爱国者\"]  我终于……能够回家……\n[Dialog]\n[stopmusic(fadetime=2)]\n[delay(time=2)]\n不。\n[Dialog]\n[delay(time=1)]\n——不。\n[Dialog]\n[delay(time=1)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  ——\n[name=\"爱国者\"]  不。\n[name=\"爱国者\"]  幻觉。\n[name=\"爱国者\"]  怎么会……我，不要幻觉，不要慰藉！\n[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]\n[name=\"爱国者\"]  是谁……\n[name=\"爱国者\"]  是谁引我看到……幻觉！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[playMusic(intro=\"$bat_patriotextra_intro\", key=\"$bat_patriotextra_loop\", volume=0.4)]\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  啊……为什么……为什么爱国者先生会……挣脱？\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  原来，如此。\n[name=\"爱国者\"]  ——是你。卡特斯。是你。\n[name=\"爱国者\"]  原来，你就是……继承者。\n[name=\"爱国者\"]  特雷西斯，说谎。殿下她……有继承人。\n[name=\"爱国者\"]  你是魔王。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  啊……！\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  我死在……魔王的手上。\n[name=\"爱国者\"]  我……怎么会？\n[name=\"爱国者\"]  我终归，没逃过命运。\n[name=\"爱国者\"]  不。不……\n[name=\"爱国者\"]  不。 \n[Character(name=\"char_003_kalts_1#3\")]\n[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]\n[name=\"凯尔希\"]  阿米娅？！你不可以……？！\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]  对，对不起！但，但凯尔希医生……\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  我听说，过去，萨卡兹的君主，将愿景与抚慰，作为赏赐。\n[name=\"爱国者\"]  他们的功臣，能见宏伟高墙，或是已逝挚爱——\n[name=\"爱国者\"]  无数战士，为此幻境，奋战不息。\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]  我只是，我只是……爱国者先生，我不想……不想……\n[name=\"阿米娅\"]  ……你生命的最后……明明不该这样凄惨！\n[name=\"阿米娅\"]  我看到……我看到了，我看到你两百多年……\n[name=\"阿米娅\"]  不断地战斗……不断地战斗，失去，失去……失去了一切……\n[name=\"阿米娅\"]  我不想……我不想这就是你的……结局！\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  我的，结局？\n[name=\"爱国者\"]  ……不。\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]  我本想让你有个……更好的……\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  不！\n[name=\"爱国者\"]  我的结局，怎么能由，别人给予！\n[name=\"爱国者\"]  幻觉？不！那不是结局！\n[name=\"爱国者\"]  如果悲惨，那就悲惨。如果愚蠢，那就愚蠢！\n[name=\"爱国者\"]  这是，我的结局。是我……应得结局。\n[name=\"爱国者\"]  我活过，反抗过，失败过。\n[name=\"爱国者\"]  已经，够了。\n[Character(name=\"char_002_amiya_1#4\")]\n[name=\"阿米娅\"]  为什么，为什么……为什么就够了？\n[name=\"阿米娅\"]  没有人该这样失去一切！\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  ……你还是个，小孩子。"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 610,
+          "kind": "story",
+          "line": 534,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    }
+  ],
+  "relationship_id": "npc_c573b8884914fc60|npc_e877f731a67498e3"
+}

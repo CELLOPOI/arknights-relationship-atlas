@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 164,
+          "line": 102,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_01_end.txt",
+          "quote": "[name=\"凯尔希\"]  信？\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  对，从我老家寄来的，家乡那边又要举行“玛维索提亚”了。\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"凯尔希\"]  “玛维索提亚”，力量与荣耀？\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  这你都知道？这是我老家选举大酋长的祭典用的名字。\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"凯尔希\"]  我已经有相当一段时间没有听人使用这种语言了。\n[name=\"凯尔希\"]  不过，我记得你是背井离乡来到罗德岛的。\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  是啊，不过还有一个小妹妹和我有联络，这封信就是她寄来的。\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"凯尔希\"]  我记得你说过，你是因为被排挤而离开的，那么选举酋长应当与你无关。\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  是啊，我也不是回去做大酋长的，只是小姑娘好像很想让我回去的样子，我也有确实有一阵子没有回去了……\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"凯尔希\"]  想家了？\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  有一点吧。\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"凯尔希\"]  那么，为什么要带上Dr.{@nickname}，从生物学的角度来说，他没有其实是你同族的可能性。\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  博士也努力了这么久，我想着带他去放松一下。\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"凯尔希\"]  那么飞行器使用申请书又是怎么回事，煌？\n[Character(name=\"char_017_homura_3#1\", name2=\"char_003_kalts_1\", focus=1)]\n[name=\"煌\"]  是因为嘉维尔老家在萨尔贡的无人区，靠走的实在太远了！\n[Character(name=\"char_017_homura_3#1\", name2=\"char_003_kalts_1\", focus=2)]\n[name=\"凯尔希\"]  所以冒着被萨尔贡官方发现的风险，你们想要用近地飞行器代步。\n[Character(name=\"char_017_homura_3#1\", name2=\"char_003_kalts_1\", focus=1)]\n[name=\"煌\"]  呃，不是！我们看过地图了，嘉维尔的老家在萨尔贡境内的一片巨大无人区，从我们搜集的情报来看，萨尔贡官方在那里没有安插任何力量。\n[Character(name=\"char_017_homura_3#1\", name2=\"char_003_kalts_1\", focus=2)]\n[name=\"凯尔希\"]  那一片区域确实只在名义上属于萨尔贡的国土，功课做得不错。\n[name=\"凯尔希\"]  那么，既然你们都计划好了，还来问我干什么？\n[Character(name=\"char_017_homura_3#10\")]\n[name=\"煌\"]  因、因为申请书要过您的手……\n[Character(name=\"char_017_homura_3#10\", name2=\"char_003_kalts_1#2\", focus=2)]\n[name=\"凯尔希\"]  ……\n[Character(name=\"char_003_kalts_1#2\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  行不行啊，凯尔希，不行就算了。\n[Character(name=\"char_017_homura_3#10\")]\n[name=\"煌\"]  （小声）博士，要不还是算了，凯尔希肯定不会同意的……\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  可以，我批准了。\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"char_017_homura_3#6\")]\n[name=\"煌\"]  真的吗？！\n[Character(name=\"char_003_kalts_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"凯尔希\"]  嘉维尔，你从没好好向我们介绍过你的家乡。\n[name=\"凯尔希\"]  而作为罗德岛不可或缺的一员，既然你主动提出，我认为为此付出一次Dr.{@nickname}和一名精英干员的假期不算什么。\n[Character(name=\"char_017_homura_3#8\", name2=\"char_003_kalts_1\", focus=1)]\n[name=\"煌\"]  太好了！\n[Character(name=\"char_017_homura_3#8\", name2=\"char_003_kalts_1#2\", focus=2)]\n[name=\"凯尔希\"]  以及，我会把这次行动视作一次实地考察，你们可以自由挑选空闲的干员。\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  阿米娅最近很忙，如果她想去，我不会允许，你自己去告诉她这件事。\n[name=\"凯尔希\"]  那里无论如何依然是萨尔贡的境内，罗德岛在萨尔贡设立的办事处很少，不要引起不必要的麻烦，无论是对你的，还是对罗德岛的。\n[name=\"凯尔希\"]  以及，近地飞行器即使在罗德岛也是非常珍贵的交通工具。萨尔贡境内环境恶劣，希望你能完好无损地把它带回来，Dr.{@nickname}。"
+        }
+      ],
+      "description": "嘉维尔与博士直接讨论并共同执行返乡任务。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_187_ccheal",
+          "reason": "嘉维尔与博士直接讨论并共同执行返乡任务。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "嘉维尔与博士直接讨论并共同执行返乡任务。",
+          "status": "supported",
+          "to": "char_187_ccheal"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 164,
+          "kind": "story",
+          "line": 102,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "密林悍将归来"
+    }
+  ],
+  "relationship_id": "char_187_ccheal|npc_b99957887950ebfd"
+}

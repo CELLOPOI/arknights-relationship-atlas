@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 291,
+          "line": 266,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-05_end.txt",
+          "quote": "[name=\"洛洛\"]该死，这些门——\n[name=\"洛洛\"]太厚了，对面听不到我们的声音！\n[name=\"洛洛\"]啧，克洛维希娅和凯瑟琳都被他们带走了，是想用她们作为和萨卡兹交换的条件吗？\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#3$1\",focus=\"m\")]\n[name=\"洛洛\"]这些人，这些可耻的叛徒——\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#1$1\",focus=\"m\")]\n[name=\"费斯特\"]闪灵小姐，你能不能打开这里？\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#10$1\",focus=\"m\")]\n[name=\"费斯特\"]我们不能再耽搁了，我们不知道那些萨卡兹们什么时候会过来。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"char_147_shining_1\",duration=0.7)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"char_147_shining_1\",focus=\"m\")]\n[name=\"闪灵\"]我可以试试。\n[charslot(slot=\"m\",name=\"avg_npc_411_1#11$1\",focus=\"m\")]\n[name=\"可露希尔\"]不！别！别闹出那么大的动静！这样只会更快地引来敌人！\n[name=\"可露希尔\"]在这里的都是重伤员和非战斗人员，如果真的和王庭的人开打了，我们走得掉，他们怎么办？\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#10$1\",focus=\"m\")]\n[name=\"费斯特\"]可是等在这里一样是死。我不知道我的那些朋友们打的什么主意，但我猜不会只是把我们放在这里不管。\n[charslot(slot=\"m\",name=\"avg_npc_411_1#8$1\",focus=\"m\")]\n[name=\"可露希尔\"]我的无人机上有个小型激光切割装置，这些钢板很厚，但只要再给我点时间……\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#8$1\",focus=\"m\")]\n[name=\"费斯特\"]要多少时间？\n[charslot(slot=\"m\",name=\"avg_npc_411_1#11$1\",focus=\"m\")]\n[name=\"可露希尔\"]别急！我得先测试功率……"
+        }
+      ],
+      "description": "闪灵单向知晓克洛维希娅。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_147_shining",
+          "reason": "闪灵在连续对话中接收洛洛关于克洛维希娅被带走的明确说明。",
+          "status": "supported",
+          "to": "npc_1f201a858b188fce"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_1f201a858b188fce",
+          "reason": "被提及者未在当前局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 291,
+          "kind": "story",
+          "line": 266,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_147_shining|npc_1f201a858b188fce"
+}

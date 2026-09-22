@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 420,
+          "line": 417,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_05_end.txt",
+          "quote": "[name=\"Ace\"]把医疗人员、伤员和平民都关在天灾下面等死？\n[name=\"Ace\"]曼弗雷德现在这么疯狂？\n[charslot(slot=\"m\",name=\"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]不像他干的，军事委员会的三小股兵力已经撤离了森林，甚至刻意留了一条峡谷作为人道走廊。"
+        }
+      ],
+      "description": "Ace具体询问封锁是否曼弗雷德所为，无曼弗雷德反向识别Ace证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E37"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "Ace具体询问封锁是否曼弗雷德所为，无曼弗雷德反向识别Ace证据。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_ded4733bcc9da868"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 420,
+          "kind": "story",
+          "line": 417,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_ded4733bcc9da868"
+}

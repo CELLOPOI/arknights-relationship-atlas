@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 89,
+          "line": 65,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+          "quote": "[name=\"Scout\"]确认进入本舰通讯范围，讯号清晰。你藏起来的迷你基站很好用，可露希尔。\n[charslot(slot = \"m\", focus = \"m\")]\n[name=\"可露希尔\"]那还用说！这可是连殿下都没见过的好东西！\n[charslot(slot = \"m\", focus = \"n\")]\n[name=\"Scout\"]殿下她们的“研究”结束了吗？\n[charslot(slot = \"m\", focus = \"m\")]\n[name=\"可露希尔\"]前几次产生的能量涌动差点让罗德岛熄火，我还在加固舰船应对下一次冲击。\n[name=\"可露希尔\"]想要掩盖本舰闹出的动静可费了我不少的心思，万一被军事委员会的探子抓住漏洞——\n[dialog]\n[playsound(key=\"$d_gen_transmissionget\")]\n[CharacterCutin(widgetID=\"2\", name=\"avg_4132_ascln_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=400, width=300, block=true)]\n[Delay(time=0.5)]\n[charslot(slot = \"m\", focus = \"n\")]\n[name=\"阿斯卡纶\"]放心。我已经肃清了周围所有目标，专心准备就行。\n[name=\"阿斯卡纶\"]Scout，汇报。\n[name=\"Scout\"]潜入任务已经完成，正在将情报传回巴别塔。\n[name=\"阿斯卡纶\"]城内情况呢？\n[name=\"Scout\"]这几年变化不大。天灾不多，没怎么移动。\n[name=\"Scout\"]说实话，我们现在的状况很不乐观，如果军事委员会继续挤压我们的战略空间——\n[name=\"阿斯卡纶\"]相信殿下和凯尔希医生吧。\n[name=\"Scout\"]……也是。她们为今天的实验准备了这么长时间，就是为了能扭转不利的局面。\n[charslot(slot = \"m\", focus = \"m\")]\n[name=\"可露希尔\"]对了，Scout，你拿到我家里保存的设备了吗！\n[charslot(slot = \"m\", focus = \"n\")]\n[name=\"Scout\"]已经交付信使运往巴别塔。"
+        }
+      ],
+      "description": "可露希尔与外勤Scout无线电直接交流基站和送设备。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔与外勤Scout无线电直接交流基站和送设备。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "可露希尔与外勤Scout无线电直接交流基站和送设备。",
+          "status": "supported",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 89,
+          "kind": "story",
+          "line": 65,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 396,
+          "line": 385,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "quote": "[name=\"赫德雷\"]又见面了，罗德岛的领导人。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]W小姐她……\n[character(name=\"avg_npc_393_1#2$1\")]\n[name=\"赫德雷\"]你确定要先聊她的事吗？我听说你们的时间很紧张。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]我可以不问你们之间发生了什么。切尔诺伯格和Scout的事……我也同意暂且放到一边。\n[name=\"阿米娅\"]但是，雇佣兵先生，如果此刻你一定要挡在我们身前，我动手的时候绝不会犹豫。\n[character(name=\"avg_npc_393_1#5$1\")]\n[name=\"赫德雷\"]死在那位殿下的继承人手上，对一名雇佣兵来说，也算是一种荣耀了。\n[Character(name=\"avg_npc_411_1#11$1\")]\n[name=\"可露希尔\"]阿米娅，你最好快一点！"
+        }
+      ],
+      "description": "阿米娅当面向赫德雷说暂放Scout的事，可露希尔在同一交战现场催促行动；两人均获知具体人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR10"
+          ],
+          "from": "char_4228_closur",
+          "reason": "阿米娅当面向赫德雷说暂放Scout的事，可露希尔在同一交战现场催促行动；两人均获知具体人物。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 396,
+          "kind": "story",
+          "line": 385,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 643,
+          "line": 600,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "quote": "[name=\"阿米娅\"]  遗物室……博士您……不过，奇怪的东西？\n[Character(name=\"char_002_amiya_1#6\",focus=-1)]\n[Dialog]\n[Decision(options=\"一个红色的……;似乎是个工业装置……\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_002_amiya_1#1\")]\n[name=\"阿米娅\"]  啊，博士你说的是那个“红色工业垃圾”吧。 \n[name=\"阿米娅\"]  你可能不记得了……那是Scout先生和Ace先生打的一个赌。某一天，他们突然就把这台设备带回了罗德岛。\n[name=\"阿米娅\"]  但是可露希尔小姐研究了很久，发现其实没什么用，就堆在仓库里了。\n[Dialog]\n[Character(name=\"char_002_amiya_1#1\",focus=-1)]\n[Decision(options=\"我能再去看一眼吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  啊……当然。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_warehouse\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n在库房各种废弃不用的机械设备中，那奇怪的装置就耸立在其中。\n这是一台两米多高的箱型装置，表面的红色油漆清晰可见，但在风沙的常年侵蚀下，已经严重磨损。\n[dialog]\n[Character(name=\"char_007_closre_1\")]\n[delay(time=1)]\n[name=\"可露希尔\"]  就是这个了，博士你也真奇怪啊，怎么突然想琢磨这玩意？\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  刚拿回来的时候，只要有人靠近这个箱子就会响，不过现在好像被可露希尔小姐弄坏了。\n[Character(name=\"char_007_closre_1#6\")]\n[name=\"可露希尔\"]  什么叫被我弄坏了！这台机器搬回来就已经这样了，我只是稍微“研究”了一下。\n[name=\"可露希尔\"]  到现在我也没搞明白这东西到底是做什么的，本来想着能不能拆开看看，结果切割机都坏了三台，也没切开这个外壳。\n[name=\"可露希尔\"]  所以啊……博士，你知道这个东西是什么吗？\n[Dialog]\n[Character(name=\"char_007_closre_1#6\",focus=-1)]\n[Decision(options=\"可能是个保险箱？;……不确定。;说不定会飞呢?\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_007_closre_1#6\")]\n[name=\"可露希尔\"]  这么大号的保险箱，还涂得这么鲜艳，不怕被小偷惦记么？这也太缺心眼了。\n[Predicate(references=\"2\")]\n[Character(name=\"char_007_closre_1#6\")]\n[name=\"可露希尔\"]  果然啊，博士也不知道这是什么。\n[Predicate(references=\"3\")]\n[Character(name=\"char_007_closre_1#6\")]\n[name=\"可露希尔\"]  ……博士，你没问题吧。是不是累傻了？"
+        }
+      ],
+      "description": "阿米娅明确说可露希尔研究了Scout与Ace带回的设备，支持可露希尔知晓该具体来历。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "char_4228_closur",
+          "reason": "阿米娅明确说可露希尔研究了Scout与Ace带回的设备，支持可露希尔知晓该具体来历。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "本篇候选窗口未见反向知晓或往来证据。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 643,
+          "kind": "story",
+          "line": 600,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    }
+  ],
+  "relationship_id": "char_4228_closur|npc_0957af9bf990438d"
+}

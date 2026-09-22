@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 212,
+          "line": 128,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_end.txt",
+          "quote": "[name=\"槐天裴\"]鲤说的麻烦事，就是这个人？\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_786_1#6$2\")]\n[name=\"山海众首领\"]又是你？\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]我说这几天睡觉怎么总不踏实，原来是要撞见不愿意见的人。\n[charslot(slot = \"m\", focus=\"n\")]\n槐天裴侧过头，向身后扫了一眼。\n动作很轻很快，但槐琥看得很清楚。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]在和那位宗师比武之前，原本不想和别人动手。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#3$1\")]\n[name=\"槐天裴\"]唉……今天破戒也罢！\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\")]\n[name=\"槐天裴\"]喂，我见你也有点功夫，但欺负晚辈算什么本事？\n[CameraShake(duration=0.3,xstrength=35,ystrength=30,vibrato=30,randomness=90,fadeout=true,block=false)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#5$1\")]\n[name=\"槐天裴\"]要真是手痒，我来陪你过两招！\n[charslot(slot = \"m\", name = \"avg_npc_787_1#11$1\")]\n[name=\"仇白\"]槐武痴，你空手吃亏，我的剑借你。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#1$1\")]\n[name=\"槐天裴\"]不用。\n[name=\"槐天裴\"]这世上，我这双拳头打不坏的东西，剑也未必好使。\n[charslot(slot = \"m\", name = \"avg_npc_786_1#5$2\")]\n[name=\"山海众首领\"]不自量力。\n[Dialog]\n[Blocker(a=0.8, r=1,g=1, b=1, fadetime=0.5, block=false)]\n[PlaySound(key=\"$e_skill_skulsrsword\")]\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 0.3)]\n[delay(time=0.3)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0.3)]\n[delay(time=0.6)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=false, block=false)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#7$1\",duration=0.3)]\n[name=\"槐天裴\"]喝——！\n[Dialog]\n[charslot(slot = \"l\", name = \"avg_npc_785_1#7$1\",duration=0.3)]\n[charslot(slot = \"l\", posfrom = \"0,0\", posto = \"200,0\",duration = 0)]\n[delay(time=0.3)]\n[charslot(slot = \"l\", posfrom = \"200,0\", posto = \"-30,-15\",duration = 0.5)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#7$1\",afrom = 0.3, ato = 0.3,duration=0.2)]\n[charslot(slot = \"m\", posfrom = \"0,0\", posto = \"-50,0\",duration = 0)]\n[charslot(slot = \"m\", posfrom = \"-50,0\", posto = \"-250,0\",duration = 0.3)]\n[delay(time=0.2)]\n[charslot(slot = \"m\", afrom = 0.3, ato = 0,duration = 0.1)]\n[delay(time=0.5)]\n[charslot(slot = \"l\", posfrom = \"-30,-15\", posto = \"350,-10\",duration = 0.3)]\n[PlaySound(key=\"$fightgeneral\",volume=0.7)]\n[Blocker(a=1, r=1,g=1, b=1, fadetime=0.01, block=true)]\n[CameraShake(duration=1, xstrength=30, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[charslot]\n[charslot(slot = \"l\", name = \"avg_npc_786_1#5$2\",isblock=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0,block=true)]\n[charslot(slot = \"l\", posfrom = \"0,0\", posto = \"300,0\",duration = 0.4)]\n[delay(time=0.4)]\n[charslot(slot = \"l\", posfrom = \"300,0\", posto = \"280,-70\",duration = 0.3)]\n[PlaySound(key=\"$bodyfalldown3\")]\n[charslot(slot = \"l\",  afrom = 1, ato = 0,duration = 0.3)]\n[delay(time=1)]\n[charslot]\n槐琥离得最近，看得最清楚。\n侧身，劈刀，抢步近身，弓腰，顶肘。明明都是自己学过的招式。\n看对方脸上的痛苦神色，槐天裴明显铆足了力气。\n槐琥想象了下被一堵墙撞上的滋味。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#8$1\")]\n[name=\"槐天裴\"]嗯……\n[name=\"槐天裴\"]好凶的刀，避开一寸还是被擦破了皮。\n[CameraShake(duration=0.3, xstrength=18, ystrength=16, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"avg_npc_786_1#4$2\")]\n[name=\"山海众首领\"]混账——\n[charslot]\n被撞出丈许，女人用刀稳住身形，刚刚巨大的冲力似乎没能在她身上作用太久，她重新举刀摆好架势。\n[PlaySound(key=\"$d_avg_wind\")]\n但这样的失态显然让她怒不可遏，那怒意化为了有形的风，在场所有人都在瞬间感到一股凉意攀上脊背。\n[dialog]\n[Blocker(a=0.1, r=1,g=1, b=1, fadetime=2, block=true)]\n月光更盛。\n[dialog]\n[charslot(slot = \"m\", name = \"avg_npc_790_1#10$1\")]\n[name=\"陈\"]这个人还有后手？\n[charslot(slot = \"m\", name = \"avg_npc_787_1#11$1\")]\n[name=\"仇白\"]又是这种感觉……\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]哦？气势不一样了……好啊，我们重新再打！"
+        }
+      ],
+      "description": "陈与槐天裴在对峙睚时同场，对敌人后手作出回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E56"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈与槐天裴在对峙睚时同场，对敌人后手作出回应。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E56"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "陈与槐天裴在对峙睚时同场，对敌人后手作出回应。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 212,
+          "kind": "story",
+          "line": 128,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_2a2f1f3b7bd9ed61"
+}

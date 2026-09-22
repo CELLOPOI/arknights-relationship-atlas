@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 190,
+          "line": 143,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_beg.txt",
+          "quote": "[name=\"麟青砚\"]我知道你有很多话想说，但是当务之急只有一件。\n[name=\"麟青砚\"]你不是要去见真龙吗，我来帮你。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#8$1\")]\n[name=\"“禁军小教头”\"]麟青砚？你应该在狱中！\n[charslot(slot = \"m\", name = \"avg_npc_1644_1#1$1\")]\n[name=\"麟青砚\"]但我现在站在你面前。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#8$1\")]\n[name=\"“禁军小教头”\"]手下败将，你输给过我一次。这一次，你们两个，都别想走。\n[charslot(slot = \"m\", name = \"avg_npc_1644_1#14$1\")]\n[name=\"麟青砚\"]放心，我也没有打算和你单挑。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1618_1#8$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"解真\"]虽说是我提议要来的……\n[name=\"解真\"]可招惹到的这个对手……不好对付啊。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#7$1\")]\n[name=\"“禁军小教头”\"]还有同伙……\n[name=\"“禁军小教头”\"]是你将她从大狱中带出来的……\n[charslot(slot = \"m\", name = \"avg_npc_1618_1#1$1\")]\n[name=\"解真\"]用了点粗暴手段，但尽可能避免伤及无辜了。\n[name=\"解真\"]债多了不愁，我有那么多罪责难逃，也不差这一桩。等这边事了，我投案服法便是。\n[charslot(slot = \"m\", name = \"avg_npc_1618_1#5$1\")]\n[name=\"解真\"]只是当下，该办的事，该见的人，都需要一个结果。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#7$1\")]\n[name=\"“禁军小教头”\"]肃政院御史，大理寺少卿，协同犯上作乱……我从未见过如此荒唐的场面。\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"？？？\"]既然已经足够荒唐，那便再算我一个吧。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_299_1#6$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"太合\"]小教头，别来无恙。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#6$1\")]\n[name=\"“禁军小教头”\"]太合？！你不是在玉门受了重伤——\n[charslot(slot = \"m\", name = \"avg_npc_299_1#2$1\")]\n[name=\"太合\"]是……伤得有点重了。身上这点功夫，还有没有原来三成都不好说。\n[name=\"太合\"]所以今天，还是希望尽可能不要动手的。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#1$1\")]\n[name=\"“禁军小教头”\"]为什么，连你也要参与进来……\n[charslot(slot = \"m\", name = \"avg_npc_299_1#1$1\")]\n[name=\"太合\"]麟少卿来得突然，我还来不及了解事情全貌。但二位都是我最敬佩的同僚，我也只能以故友身份，劝二位留一丝和谈的余地。\n[charslot(slot = \"m\", name = \"avg_npc_1615_1#7$1\")]\n[name=\"“禁军小教头”\"]你们执意要做这般大逆不道之事，还指望我视若不见吗？\n[charslot(slot = \"m\", name = \"avg_npc_299_1#1$1\")]\n[name=\"太合\"]“取忠舍义”……但谁说，这二者只能选其一呢。"
+        }
+      ],
+      "description": "二人在禁城门前共同闯关并互相配合。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J11"
+          ],
+          "from": "char_017_huang",
+          "reason": "二人在禁城门前共同闯关并互相配合。",
+          "status": "supported",
+          "to": "npc_05b673f5674dabd7"
+        },
+        {
+          "evidenceIds": [
+            "J11"
+          ],
+          "from": "npc_05b673f5674dabd7",
+          "reason": "二人在禁城门前共同闯关并互相配合。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 190,
+          "kind": "story",
+          "line": 143,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_017_huang|npc_05b673f5674dabd7"
+}

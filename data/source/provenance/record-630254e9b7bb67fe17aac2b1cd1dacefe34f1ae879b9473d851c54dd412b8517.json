@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1025,
+          "line": 1014,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st01.txt",
+          "quote": "[name=\"格拉尼\"] 哎呀，可喜可贺啊小苏茜！\n[character(name=\"avg_377_gdglow_1#4$1\")]\n[name=\"苏茜\"] 格拉尼小姐！怎么你也在！\n[dialog]\n[Character(name=\"avg_npc_002\", name2=\"avg_npc_328_1$1\", focus=1)]\n[PlaySound(key=\"$d_avg_whistle\", volume=0.6)]\n[delay(time=1)] \n[name=\"感染者阿石\"] 好哎！小火花变成店长了！一定要多进一点咱们喜欢的酒啊！\n[Character(name=\"avg_npc_002\", name2=\"avg_npc_328_1$1\", focus=2)]\n[name=\"雷德\"] 恭喜你，苏茜小姐。\n[character(name=\"avg_377_gdglow_1#4$1\")]\n[name=\"苏茜\"] 雷德先生！现在不是上班时间吗！"
+        }
+      ],
+      "description": "开店庆祝或办事处救援现场双方共同在场并互相回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "char_377_gdglow",
+          "reason": "开店庆祝或办事处救援现场双方共同在场并互相回应。",
+          "status": "supported",
+          "to": "npc_01384e015f09923a"
+        },
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "npc_01384e015f09923a",
+          "reason": "开店庆祝或办事处救援现场双方共同在场并互相回应。",
+          "status": "supported",
+          "to": "char_377_gdglow"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_a170fc4ad11dca33.json",
+      "sources": [
+        {
+          "endLine": 1025,
+          "kind": "story",
+          "line": 1014,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "阴云火花"
+    }
+  ],
+  "relationship_id": "char_377_gdglow|npc_01384e015f09923a"
+}

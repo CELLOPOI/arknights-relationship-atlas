@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 327,
+          "line": 296,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_01_end.txt",
+          "quote": "[name=\"西尔弗\"]伊西多先生，你深夜出现在坟墓，盗取本镇居民尸体的事属实吗？\n[Dialog]\n[charslot]\n[Background(image=\"57_g13_ibtown_d\",xScale=1.5, yScale=1.5, fadetime=1,screenadapt=\"coverall\")]\n[curtain(direction = 2,fillfrom = 0.01,fillto = 0.5, fadetime=1)]\n[curtain(direction = 6,fillfrom = 0.01,fillto = 0.2, fadetime=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#1$1\",duration=1.5)]\n[charslot(slot=\"r\",name=\"avg_4163_rosesa_1#19$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"伊西多\"]我不否认出现在墓地，但我……\n[Dialog]\n[stopmusic(fadetime=2)]\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#1$1\",focus=\"none\")]\n[CameraShake(duration=0.3, xstrength=10, ystrength=10, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"？？？\"]什么？！\n[Dialog]\n[curtain(direction = 2,fillfrom = 0.5,fillto = 0.18, fadetime=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#1$1\",focus=\"l\")]\n[name=\"伊西多\"]帕斯卡拉小姐？\n[charslot(slot=\"r\",name=\"avg_4163_rosesa_1#19$1\",focus=\"r\")]\n[name=\"帕斯卡拉\"]伊西多老兄，想不到你居然是这种人，偷什么不好你去偷尸体？\n[name=\"帕斯卡拉\"]有点恶心了哦。\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#1$1\",focus=\"l\")]\n[name=\"伊西多\"]容我提醒，你的脖子上也戴着枷锁，帕斯卡拉小姐。\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#1$1\",focus=\"none\")]\n[name=\"习武教士\"]安静些！下一个审的就是你！\n[charslot(slot=\"l\",name=\"avg_293_thorns_1#1$1\",focus=\"l\")]\n[name=\"伊西多\"]那你为什么会出现在这里？\n[charslot(slot=\"r\",name=\"avg_4163_rosesa_1#3$1\",focus=\"r\")]\n[name=\"帕斯卡拉\"]我……唉，旧习难改。"
+        }
+      ],
+      "description": "帕斯卡拉与伊西多均在西尔弗主持的刑场，西尔弗随后宣判两人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4163_rosesa",
+          "reason": "帕斯卡拉与伊西多均在西尔弗主持的刑场，西尔弗随后宣判两人。",
+          "status": "supported",
+          "to": "npc_5ae68fd9be1f2ed2"
+        },
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_5ae68fd9be1f2ed2",
+          "reason": "帕斯卡拉与伊西多均在西尔弗主持的刑场，西尔弗随后宣判两人。",
+          "status": "supported",
+          "to": "char_4163_rosesa"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 327,
+          "kind": "story",
+          "line": 296,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_4163_rosesa|npc_5ae68fd9be1f2ed2"
+}

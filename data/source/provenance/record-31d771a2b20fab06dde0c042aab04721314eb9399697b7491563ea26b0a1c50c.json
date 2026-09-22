@@ -1,0 +1,175 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 46,
+          "line": 40,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_svrash_1_1.txt",
+          "quote": "[name=\"Medic\"]  博士，你对这件事有什么看法吗？\n[dialog]\n[Decision(options=\"希瓦艾什……是谁？;希瓦艾什，是个什么样的人？;希瓦艾什，真是个独特的姓氏……\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_016_medic\")]\n[name=\"Medic\"]  啊！我都忘了，那个时候博士你还不在呢。\n[name=\"Medic\"]  瞧我，最近因为博士越来越可靠了，就下意识地感觉你什么都知道了……"
+        }
+      ],
+      "description": "Medic称呼博士并回应博士提问。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "Medic称呼博士并回应博士提问。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "Medic称呼博士并回应博士提问。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_c5839001a6ec71ba.json",
+      "sources": [
+        {
+          "endLine": 46,
+          "kind": "story",
+          "line": 40,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_svrash_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "银灰"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 830,
+          "line": 823,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "quote": "[Decision(options=\"阿米娅？你找我吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"阿米娅\"]  啊，Dr.{@nickname}！\n[name=\"阿米娅\"]  Medic，麻烦你和华法琳了。\n[Character(name=\"char_016_medic\")]\n[name=\"Medic\"]  嗯，就，交给我们吧！\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  博士，我马上就来！"
+        }
+      ],
+      "description": "博士进入同一医疗室，阿米娅当面称名、Medic回应其交代，真实局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E74"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "博士进入同一医疗室，阿米娅当面称名、Medic回应其交代，真实局部同场。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E74"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士进入同一医疗室，阿米娅当面称名、Medic回应其交代，真实局部同场。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 830,
+          "kind": "story",
+          "line": 823,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 252,
+          "line": 241,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "quote": "[name=\"Medic\"]安洁莉娜小姐，差点忘了，送给你的糖果。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Image(image=\"76_i05_2\",xScale=1, yScale=1,screenadapt=\"coverall\")]\n[curtain]\n[Delay(time=0.25)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Delay(time=0.5)]\n[name=\"安洁莉娜\"]谢谢你……\n[name=\"Medic\"]这不是我送的，是博士送的啦。\n[name=\"Medic\"]采购部新进了一批新口味糖果，糖纸又很好看，博士就给医疗部的每个患者都送了些。\n[name=\"Medic\"]还好我刚想起来你已经搬到了这边，不然就漏人啦，嘿嘿。"
+        }
+      ],
+      "description": "Medic说明糖果是博士给医疗部病人的，明确知道博士；转交物品本身不证明博士识别具体递送者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "Medic说明糖果是博士给医疗部病人的，明确知道博士；转交物品本身不证明博士识别具体递送者。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_30c8dcf1e7b8383d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_d41272e19d8ae683.json",
+      "sources": [
+        {
+          "endLine": 252,
+          "kind": "story",
+          "line": 241,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "直到大地变成一颗酸橙所述时段",
+      "title": "直到大地变成一颗酸橙"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 150,
+          "line": 108,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "quote": "[name=\"医疗干员\"]   阿，阿米娅！\n[Character(name=\"char_016_medic\", name2=\"char_002_amiya_1#6\", focus=2)]\n[name=\"阿米娅\"]   怎么了?\n[Character(name=\"char_016_medic\", name2=\"char_002_amiya_1#6\", focus=1)]\n[name=\"医疗干员\"]   是……是来自罗德岛的对话请求！\n[Character(name=\"char_002_amiya_1#6\", focus=-1)]\n[name=\"阿米娅\"]   通讯接上了吗！难道说，是凯尔希医……\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"char_002_amiya_1#6\", focus=-1)]\n[name=\"？？？\"]   很抱歉，并不是。\n[image(image=\"bg_2_call\")]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.8, block=true)]\n[Character(name=\"char_002_amiya_1#1\", focus=1)]\n[name=\"阿米娅\"]   PRTS……？\n[Character(name=\"char_002_amiya_1#1\", focus=-1)]\n[name=\"PRTS\"]   应急神经连接请求被意外触发了。\n[name=\"PRTS\"]   罗德岛号方面也受到干扰，只有神经连接可以勉强进行。\n[name=\"PRTS\"]   无法用电波通讯联系到尚未回到罗德岛的凯尔希。\n[name=\"PRTS\"]   已经确认过阿米娅您的安全，那么我的任务就已经完成了。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   这东西……\n[name=\"杜宾\"]   现在真的是时候吗？\n[Character(name=\"char_002_amiya_1#1\", focus=-1)]\n[name=\"PRTS\"]   不需要使用您的神经连接操作罗德岛的话，我将在稍后断开连接。\n[name=\"PRTS\"]   如果打扰到了您的派对，万分抱歉。\n[Character(name=\"char_002_amiya_1#5\", focus=1)]\n[name=\"阿米娅\"]   不不！别挂断……我需要你帮个忙。\n[name=\"阿米娅\"]   杜宾，博士需要这些帮助。\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   了解了，抓紧时间。\n[Character(name=\"char_002_amiya_1#5\", focus=1)]\n[name=\"阿米娅\"]   博士，PRTS也是我们的……同伴，它会指导你下一步的动作。\n[name=\"阿米娅\"]   虽然时间很紧张，但现在，我要为你重新连接至罗德岛的后勤系统。\n[name=\"阿米娅\"]   这样在我们作战的时候，你也能利用它为我们取得优势。 \n[name=\"阿米娅\"]   可能会很难习惯，和说话不太一样，但只要好好使用，就一定能使整个救援作战更加顺利，所以请你……\n[name=\"阿米娅\"]   ……相信我吧。按你想要的那样，按你熟悉的那样……\n[name=\"阿米娅\"]   PRTS……开始吧。\n[Character(name=\"char_002_amiya_1#1\", focus=-1)]\n[name=\"PRTS\"]   需要确认管理员身份，请选择识别方式。\n[Character(name=\"char_002_amiya_1#2\", focus=1)]\n[name=\"阿米娅\"]   啊，博士……请你说句话。\n[Decision(options=\"（说话）\", values=\"1\")]"
+        }
+      ],
+      "description": "Medic与博士在救援队当前局部共处，通讯请求到认证过程中没有离队转场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "Medic与博士在救援队当前局部共处，通讯请求到认证过程中没有离队转场。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "Medic与博士在救援队当前局部共处，通讯请求到认证过程中没有离队转场。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 150,
+          "kind": "story",
+          "line": 108,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "黑暗时代·上"
+    }
+  ],
+  "relationship_id": "npc_30c8dcf1e7b8383d|npc_b99957887950ebfd"
+}

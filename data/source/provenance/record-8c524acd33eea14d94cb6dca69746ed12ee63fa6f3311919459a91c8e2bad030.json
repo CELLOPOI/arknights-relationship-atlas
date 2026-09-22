@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 101,
+          "line": 97,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_02_beg.txt",
+          "quote": "[name=\"缪尔赛思\"]那么，轮到我提问了——\n[name=\"缪尔赛思\"]据我所知，在安东尼逃狱的帮手中，除了一位原本是监狱入殓师的杜玛小姐，还有一名叫做罗宾的女性。\n[name=\"缪尔赛思\"]而奇怪的是，我的情报显示，她本应该是前往刺杀安东尼的杀手之一。\n[name=\"缪尔赛思\"]但根据你刚才的说法，你的助手似乎只有卡夫卡小姐一个人。\n[name=\"缪尔赛思\"]难道罗宾并不是你的安排？"
+        }
+      ],
+      "description": "",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "本活动未找到该方向的具体人物知晓、信息接收或实际局部同场依据；不表示此人从来不认识对方。",
+          "status": "not_established_in_batch",
+          "to": "char_249_mlyss"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_249_mlyss",
+          "reason": "缪尔赛思掌握杜玛姓名、原职务及越狱身份。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 101,
+          "kind": "story",
+          "line": 97,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "越狱后的酒吧谈话开头。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_249_mlyss|npc_b6173633e2da4a81"
+}

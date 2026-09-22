@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 218,
+          "line": 179,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st02.txt",
+          "quote": "[name=\"截云\"]在我的部族，只有年满十六岁、身体强壮的阿纳萨，族人才会为他打造专门的武器。\n[name=\"截云\"]得到武器的阿纳萨，就要永远保护老人小孩，和生病的同胞。\n[charslot(slot = \"r\", name = \"avg_4078_bdhkgt_1#2$1\",focus=\"r\")]\n[name=\"截云\"]说是不能看着无关的人陷入险境，说是为了保护一座城市，就可以轻易将武器对准普通人。\n[charslot(slot = \"l\", name = \"avg_npc_297_1#7$1\",focus=\"l\")]\n[name=\"左乐\"]左乐职责在身……\n[charslot(slot = \"r\", name = \"avg_4078_bdhkgt_1#7$1\",focus=\"r\")]\n[name=\"截云\"]师父说得对，你们这些人，因为有冠冕堂皇的理由可以说，就不觉得自己做错了。\n[charslot(slot = \"l\", name = \"avg_npc_297_1#4$1\",focus=\"l\")]\n[name=\"左乐\"]……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[charslot(slot = \"m\", name = \"avg_npc_785_1#11$1\",duration = 1.5)]\n[delay(time=2)]\n[name=\"槐天裴\"]我还特地放慢了速度，结果一回头发现人没有跟上来。\n[name=\"槐天裴\"]剑还在我手上，你俩反倒聊起来了？\n[charslot(slot = \"m\", name = \"avg_npc_297_1#1$1\")]\n[name=\"左乐\"]先生，左乐与二位有些误会，希望你可以交出佩剑，物归原主。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#9$1\")]\n[name=\"槐天裴\"]我听你们吵了半天，大概明白了意思。\n[name=\"槐天裴\"]此剑原来是那位宗师的东西，但是被这位小姑娘给偷偷带走了。\n[name=\"槐天裴\"]他的武功出神入化，肯定不依赖哪一件具体的兵器。难道还能是他舍不得这把剑，派你来追的？\n[charslot(slot = \"m\", name = \"avg_npc_297_1#2$1\")]\n[name=\"左乐\"]其中隐秘，不方便告知。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#9$1\")]\n[name=\"槐天裴\"]要是给他添了麻烦，那他卸任的日子又得往后拖……但我也答应过要帮这个小姑娘。\n[charslot(slot = \"m\", name = \"avg_npc_785_1#3$1\")]\n[name=\"槐天裴\"]嗯……难办，难办。\n[charslot(slot = \"m\", name = \"avg_npc_297_1#9$1\")]\n[name=\"左乐\"]……\n[charslot(slot = \"m\", name = \"avg_npc_785_1#9$1\")]\n[name=\"槐天裴\"]有了。\n[name=\"槐天裴\"]大道理我懒得管，我倒有个直截了当的办法。\n[name=\"槐天裴\"]你们俩都算有点功夫，不如就在这儿打一架。都不许用武器，比拳头，谁赢了，我就把剑给谁。\n[Dialog]\n[charslot]\n[charslot(slot = \"l\", name = \"avg_npc_297_1#6$1\")]\n[charslot(slot = \"left\",posfrom = \"0,0\", posto = \"200,0\")]\n[name=\"左乐\"]荒唐。苍生大事，岂能儿戏。"
+        }
+      ],
+      "description": "槐天裴拿剑回来，直接与左乐截云协商交剑。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E36"
+          ],
+          "from": "char_4121_zuole",
+          "reason": "槐天裴拿剑回来，直接与左乐截云协商交剑。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E36"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "槐天裴拿剑回来，直接与左乐截云协商交剑。",
+          "status": "supported",
+          "to": "char_4121_zuole"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 218,
+          "kind": "story",
+          "line": 179,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 895,
+          "line": 869,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "quote": "一阵风吹过，天空又恢复了原有的颜色。刚才那一场石破天惊的战斗仿佛是所有人共同经历的一场梦境。\n围观的人们忘了挪开视线，还久久地昂首注目。\n[Dialog]\n[playsound(key=\"$d_gen_soldiersrun\")]\n[charslot(slot=\"l\",name=\"avg_npc_795_1#1$1\",duration=2)]\n[charslot(slot=\"r\",name=\"avg_npc_795_1#1$1\",duration=2)]\n[Delay(time=3.5)]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#1$1\",duration=2)]\n[Delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#7$1\",focus=\"m\")]\n[name=\"麟青砚\"]左乐？\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#6$1\",focus=\"m\")]\n[name=\"左乐\"]云兄……小姨……\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#1$1\",focus=\"m\")]\n[name=\"左乐\"]你们没事就好，看上去我来得还不算太晚……\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#6$1\",focus=\"m\")]\n[name=\"云青萍\"]左乐兄，方才槐先生力战幻象时跌下山崖了，还请你派人帮忙寻找一下……\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#6$1\",focus=\"m\")]\n[name=\"左乐\"]槐先生也在这？这也太巧……\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#1$1\",focus=\"m\")]\n[name=\"左乐\"]尉官！\n[charslot(slot=\"m\",name=\"avg_npc_795_1#1$1\",focus=\"m\")]\n[name=\"玉门尉官\"]在。\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#1$1\",focus=\"m\")]\n[name=\"左乐\"]有人坠崖了，赶紧派些人去山下搜寻。"
+        }
+      ],
+      "description": "左乐明确知晓槐天裴，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_4121_zuole",
+          "reason": "左乐听取槐天裴坠崖消息并派人搜寻。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "本窗未见槐天裴获知左乐。",
+          "status": "not_established",
+          "to": "char_4121_zuole"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 895,
+          "kind": "story",
+          "line": 869,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "邙山决斗结束后",
+      "title": "镜中集"
+    }
+  ],
+  "relationship_id": "char_4121_zuole|npc_2a2f1f3b7bd9ed61"
+}

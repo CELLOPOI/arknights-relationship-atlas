@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 294,
+          "line": 245,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_09_beg.txt",
+          "quote": "[name=\"祖拜尔\"]我想你一定在我向你展示的记忆中留意到了，你的额饰，和我姐姐头上的一模一样。\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#2$3\")]\n[name=\"佩佩\"]这枚额饰我们家族代代相传。\n[name=\"佩佩\"]我以前也曾疑惑过，为何我的家族世代坚守着为万王之王记叙作传的职责，问父亲，父亲也不知道从何而起，只说是天职如此。\n[name=\"佩佩\"]原来答案竟是这样简单，不过是源自一个孩子对父亲的思念。\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#1$1\")]\n[name=\"祖拜尔\"]姐姐一直坚信，父亲终究有天会回来。\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#2$1\")]\n[name=\"祖拜尔\"]但很可惜，直到离世，她都没有等到，而我，也没来得及去见她最后一面。\n[name=\"祖拜尔\"]姐姐死后，只有父亲的虚影陪同我继续走下去。\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#5$3\")]\n[name=\"佩佩\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#4$1\")]\n[name=\"祖拜尔\"]佩佩，放下去黄金之城的执念吧，我知道如何将意识封存进宝石，亦知晓如何打造不朽的身躯。\n[name=\"祖拜尔\"]你会有永恒的生命去经历，去发现，去记述……\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#5$3\")]\n[name=\"佩佩\"]很抱歉……祖拜尔……我并不能代替你的姐姐陪伴你。\n[name=\"佩佩\"]我也有弟弟，他在黄金之城担任史官。\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#1$1\")]\n[name=\"祖拜尔\"]真是遗憾，那可不是什么好职位，他们知道太多不能呈现在纸面上的东西了。\n[name=\"祖拜尔\"]我那愚蠢的王兄为了让史官按照他的心意记述历史，强行要求姐姐将自己的双胞胎儿子之一送进王宫。\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#5$3\")]\n[name=\"佩佩\"]想不到千年后，这样的胁迫变成了荣光。\n[name=\"佩佩\"]那位兽主说，所有史官都会被割去舌头，这是真的吗？\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#1$1\")]\n[name=\"祖拜尔\"]我不清楚现任万王之王如何行事，但这确实是行之有效的保密方法。\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#8$3\")]\n[name=\"佩佩\"]……无论如何，我都要去黄金之城找他。\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#2$1\")]\n[name=\"祖拜尔\"]……\n[name=\"祖拜尔\"]我就知道……\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#4$1\")]\n[name=\"祖拜尔\"]那就离开吧，佩佩。\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#5$3\")]\n[name=\"佩佩\"]不……我还不能离开。\n[name=\"佩佩\"]这座城市，我不能弃之不顾。\n[name=\"佩佩\"]我不能放任构装体继续在城里作乱。\n[name=\"佩佩\"]放过这里吧，就像你说的，那些最为珍贵的宝物还没有被玷污。\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#4$1\")]\n[name=\"祖拜尔\"]不，佩佩，即使我想要停下来，也无法停下。\n[name=\"祖拜尔\"]人的一生会经历大大小小的抉择，它们相互嵌套着，在无穷的分支路径中为每个人刻画出独一无二的回路。\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#2$1\")]\n[name=\"祖拜尔\"]我对父亲的誓言，对姐姐的誓言，已经被刻成回路，永远留在这些宝石之上了。\n[name=\"祖拜尔\"]我绝不可能违背它。\n[name=\"祖拜尔\"]没有一丝可能。\n[charslot(slot = \"m\", name = \"avg_4058_pepe_1#2$3\")]\n[name=\"佩佩\"]那祖拜尔，告诉我，我该如何停下构装体呢？\n[charslot(slot = \"m\", name = \"avg_npc_1479_1#3$1\")]\n[name=\"祖拜尔\"]我已经告诉你答案了，佩佩，接下来，要靠你自己的努力了。\n[name=\"祖拜尔\"]像当时那些前来进犯的军队一样，尽全力抓住我吧。"
+        }
+      ],
+      "description": "二人在宝库中直接长谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_4058_pepe",
+          "reason": "二人在宝库中直接长谈。",
+          "status": "supported",
+          "to": "npc_3e55517d198677e1"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_3e55517d198677e1",
+          "reason": "二人在宝库中直接长谈。",
+          "status": "supported",
+          "to": "char_4058_pepe"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_204b53066b797ab8.json",
+      "sources": [
+        {
+          "endLine": 294,
+          "kind": "story",
+          "line": 245,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "太阳甩在身后事件期间",
+      "title": "太阳甩在身后"
+    }
+  ],
+  "relationship_id": "char_4058_pepe|npc_3e55517d198677e1"
+}

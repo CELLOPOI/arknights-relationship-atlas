@@ -1,0 +1,29 @@
+{
+  "id": "import:char_4116_blkkgt|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【风雪过境】\n锏：说起来，这个罗德岛的博士，你有多了解？\n恩希欧迪斯：一位优秀的学者，专业能力足够出众，也足以知道与我合作会为罗德岛带来多少收益。\n恩希欧迪斯：他能够迅速了解情况，接受突发安排，这也说明我看对了人。为什么突然问这个？\n锏：我可不觉得他只是一个“学者”。他确实有很强的嗅觉，而且比你的预期要高。\n锏：这位博士，让我向你问好。\n恩希欧迪斯：……\n恩希欧迪斯：你觉得他预想到了？\n锏：他完全不惊讶。不仅仅是认识到了情况，而且，我要强调这点，他没有表现过一丝惊讶。\n锏：此外他知道我是谁。\n\n【雪山降临1101】\n锏：咳，你是……\n锏：Sharp？\nSharp：少说点话，你现在伤重。\n锏：博士让你来的？\nSharp：博士和银灰先生一直有联络。听说谢拉格发生了天灾，博士猜到你们会遇到麻烦。\nSharp：虽然现在实在腾不开手，但博士答应过，只要谢拉格有难，不会坐视不理。\nSharp：我已经通知罗德岛增援，他们随后赶到。\n锏：……\n锏：恩希欧迪斯呢？\nSharp：不用担心，相信银灰先生已对局面有所掌控。\nSharp：坚持住，锏，最艰难的时候你已经挺过去了。\n\n【银心湖列车】\n锏：不过，你确定放任“灰礼帽”接近那个女孩，之后那个博士不会找你麻烦？\n恩希欧迪斯：“灰礼帽”是间谍，不是杀手，他要的是情报，而不是性命。\n锏：你打算这么向那个博士解释？\n恩希欧迪斯：博士那边我会向他——道歉。\n锏：你确实该道歉。\n恩希欧迪斯：我如何不重要，相比之下，我更好奇——\n恩希欧迪斯：锏，你也记住博士了？\n锏：Sharp作为对手来说还不错，比大部分草包骑士强得多。\n锏：能被那样的战士推崇，又能让你吃点亏，这人记一记也无妨。\n恩希欧迪斯：你对博士很好奇？\n锏：可以这么说。",
+  "relationship_id": "char_4116_blkkgt|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 601,
+      "kind": "story",
+      "line": 585,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 686,
+      "kind": "story",
+      "line": 670,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 176,
+      "kind": "story",
+      "line": 153,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_05_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

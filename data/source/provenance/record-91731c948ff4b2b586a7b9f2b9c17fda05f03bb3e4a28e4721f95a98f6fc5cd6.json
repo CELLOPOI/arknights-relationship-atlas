@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 997,
+          "line": 989,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "quote": "[name=\"罗德岛干员\"]  她说话了吗？\n[Character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  没有，从你们把她弄回来到现在，她可是真的……一句话都没说。\n[name=\"可露希尔\"]  也太沉得住气了。就算那个……陈，对吧？来找她，她也啥都没说。\n[Character]\n[name=\"罗德岛干员\"]  那你打算怎么办？\n[Character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  我怎么办？我又不是阿斯卡纶……而且现在也没什么要她说的。\n[name=\"可露希尔\"]  进一步提供的信息什么的，也要看用在哪里吧，大概。哎好烦啊我哪会治这种人……"
+        }
+      ],
+      "description": "可露希尔具体报告羁押病人的沉默状态，承接前文明确被羁押的塔露拉；未见逆向认知。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E82"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔具体报告羁押病人的沉默状态，承接前文明确被羁押的塔露拉；未见逆向认知。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 997,
+          "kind": "story",
+          "line": 989,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 350,
+          "line": 333,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"后勤干员\"]  可露希尔小姐！你还好吗？！刚刚那是……\n[Character(name=\"avg_npc_088\",name2=\"char_007_closre_1#6\",focus=2)]\n[name=\"可露希尔\"]  ……开什么玩笑……\n[Character(name=\"avg_npc_088\",name2=\"char_007_closre_1#6\",focus=1)]\n[name=\"后勤干员\"]  可露希尔小姐？\n[Character(name=\"avg_npc_088\",name2=\"char_007_closre_1#6\",focus=2)]\n[name=\"可露希尔\"]  开什么玩笑！！他本人一定就在这附近，他瘫痪了罗德岛的系统！？\n[Character(name=\"avg_npc_088\",name2=\"char_007_closre_1#6\",focus=2)]\n[name=\"可露希尔\"]  监控……还有侦查系统……哈，真有你的……\n[Dialog]\n[Character(name=\"avg_npc_088\",name2=\"char_007_closre_1#6\",focus=1)]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=0.6)]\n[delay(time=1)]\n[name=\"后勤干员\"]  是后勤部门的通讯！部分干员遭到了……整、整合运动的袭击！\n[Character(name=\"avg_npc_088\",name2=\"char_007_closre_1#6\",focus=2)]\n[name=\"可露希尔\"]  ——这，整合运动！？\n[name=\"可露希尔\"]  不行不行不行——快！快去通知阿米娅，可能有人是冲着塔露拉来的，我会优先恢复防御系统，我们行动一定要快！\n[Character(name=\"avg_npc_088\",name2=\"char_007_closre_1#6\",focus=1)]"
+        }
+      ],
+      "description": "可露希明确知道塔露拉是突袭目标，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S12"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希明确判断袭击者的目标是塔露拉。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "塔露拉在禁闭室，未收到可露希这段信息。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 350,
+          "kind": "story",
+          "line": 333,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "禁闭室突袭同期",
+      "title": "风暴瞭望"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 109,
+          "line": 94,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+          "quote": "[Background(image=\"73_g4_exurbstonewallstreet_d\",screenadapt=\"coverall\", block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_2247_1#5$1\")]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_2247_1#5$1\",focus=\"m\")]\n[name=\"塔露拉\"]你们……\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$2\",focus=\"m\")]\n[name=\"可露希尔\"]嘿嘿，我和大家提前搞定了这里，石墙的侧门已经被攻占了。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#12$2\",focus=\"m\")]\n[name=\"可露希尔\"]不过里面还有更多的守军，塔露拉，我需要你的帮助。\n[charslot(slot=\"m\",name=\"avg_npc_2247_1#1$1\",focus=\"m\")]\n[name=\"塔露拉\"]……嗯。\n[name=\"塔露拉\"]去找罗德岛的人吧，可露希尔，把乌萨斯的军队都交给我，整合运动来确保他们不会影响到你的行动。\n[charslot(slot=\"m\",name=\"avg_npc_2247_1#9$1\",focus=\"m\")]\n[name=\"塔露拉\"]我还有很多账，要和这些人算。"
+        }
+      ],
+      "description": "可露希尔与塔露拉在石墙侧门直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_4228_closur",
+          "reason": "双方直接互动或有明确具体既往互动。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "双方直接互动或有明确具体既往互动。",
+          "status": "supported",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 109,
+          "kind": "story",
+          "line": 94,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒事件及罗德岛后续",
+      "title": "相变临界"
+    }
+  ],
+  "relationship_id": "char_4228_closur|npc_69395c50206899b0"
+}

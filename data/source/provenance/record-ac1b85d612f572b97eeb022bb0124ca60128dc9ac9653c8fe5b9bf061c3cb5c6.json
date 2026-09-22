@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 127,
+          "line": 119,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st03.txt",
+          "quote": "[name=\"卡彭\"]打住！\n[name=\"卡彭\"]自打踏上龙门的第一天起我就一直在告诉你，龙门有龙门的规矩。\n[name=\"卡彭\"]别忘了我们是怎么成了鼠王的手下败将，他又是怎么放我们一条生路的。\n[character(name=\"avg_npc_542_1#4$1\",name2=\"avg_npc_541_1#1$1\",focus=1)]\n[name=\"甘比诺\"]不用你说！\n[character(name=\"avg_npc_542_1#4$1\",name2=\"avg_npc_541_1#1$1\",focus=2)]\n[name=\"卡彭\"]但愿如此。\n[character(name=\"avg_npc_542_1#4$1\",name2=\"avg_npc_541_1#5$1\",focus=2)]\n[name=\"卡彭\"]所以，我们去那群叛徒的窝点，不是去打架的，更不是去给他们教训的，我们只是去打听消息，明白吗？"
+        }
+      ],
+      "description": "卡彭明确回忆败给鼠王并由其放生的具体往事。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭明确回忆败给鼠王并由其放生的具体往事。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "卡彭明确回忆败给鼠王并由其放生的具体往事。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_579215a80b4f83aa.json",
+      "sources": [
+        {
+          "endLine": 127,
+          "kind": "story",
+          "line": 119,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "未尽篇章"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 59,
+          "line": 44,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_ex02_end.txt",
+          "quote": "[name=\"甘比诺\"]   ……呼，呼。\n[name=\"甘比诺\"]   出口……在那……！就快！\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"甘比诺\"]   ——谁！？出来！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_npc_027\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"卡彭\"]   原来你没死，真是意外，看来鼠王办事也并非那么彻底。\n[Character(name=\"avg_npc_028#2\",name2=\"avg_npc_027\",focus=1)]\n[name=\"甘比诺\"]   ……被你刺伤的伤口还隐隐作痛，卡彭，我非常高兴你会主动出现在我的面前。\n[name=\"甘比诺\"]   好让我亲手杀了你。\n[Character(name=\"avg_npc_028#2\",name2=\"avg_npc_027#2\",focus=2)]\n[name=\"卡彭\"]   整个龙门都在追捕我们。我不想浪费时间在你身上。\n[name=\"卡彭\"]   所以，速战速决吧。"
+        }
+      ],
+      "description": "卡彭知晓鼠王及其行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭明确评价鼠王的处置结果。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "此段鼠王不在场，未显示其识别卡彭。",
+          "status": "not_established",
+          "to": "npc_e565b7639574735d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 59,
+          "kind": "story",
+          "line": 44,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_ex02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "卡彭逃离龙门途中",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "npc_83e2c28380c1c6fb|npc_e565b7639574735d"
+}

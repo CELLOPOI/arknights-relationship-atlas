@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 491,
+          "line": 481,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_09_end.txt",
+          "quote": "[name=\"Ace\"]为什么？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]切尔诺伯格已经陷入了与感染者有关的例外状态。\n[name=\"阿斯卡纶\"]现在的罗德岛承担不起卷入其中的风险。\n[charslot(slot=\"m\",name=\"avg_npc_026\")]\n[name=\"Scout\"]……博士将是我们不可或缺的力量。\n[charslot(slot=\"m\",name=\"char_017_homura_3#5\")]\n[name=\"煌\"]你们说的这个人才值得罗德岛用几十条甚至更多的人命去换吗？\n[name=\"煌\"]如果值得，我就同意。只要有一个人提出质疑，我就反对。\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\")]\n[name=\"Logos\"]……"
+        }
+      ],
+      "description": "阿斯卡纶与Scout共同参与精英干员会议。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C33"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "阿斯卡纶与Scout共同参与精英干员会议。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "C33"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "阿斯卡纶与Scout共同参与精英干员会议。",
+          "status": "supported",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 491,
+          "kind": "story",
+          "line": 481,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 210,
+          "line": 198,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-05_end.txt",
+          "quote": "[name=\"阿斯卡纶\"]W，巴别塔应该没有向你发出任何指令，你为什么在这里？\n[charslot(slot = \"l\", name = \"avg_npc_1343_1#7$1\",focus=\"l\")]\n[name=\"W\"]你要和我谈我的违规问题？现在？\n[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.6)]\n[charslot(slot = \"r\", name = \"avg_4132_ascln_1#9$1\",focus=\"r\")]\n[name=\"阿斯卡纶\"]……\n[charslot(slot = \"r\", name = \"avg_4132_ascln_1#9$1\",focus=\"n\")]\n阿斯卡纶看着她。\nW与阿斯卡纶已经共事了不短的时间，但还是第一次看到她露出这样的表情。这个冰做的刺客……竟然也会有如此哀伤的眼神。\n[charslot(slot = \"l\", name = \"avg_npc_1343_1#7$1\",focus=\"l\")]\n[name=\"W\"]……阿斯卡纶，Scout说的都是真的？\n[charslot(slot = \"r\", name = \"avg_4132_ascln_1#2$1\",focus=\"r\")]\n[name=\"阿斯卡纶\"]你不该在这个时候回来。"
+        }
+      ],
+      "description": "W向阿斯卡纶询问Scout告诉她的话，阿斯卡纶回应；W与Scout有真实通信来往，阿斯卡纶此窗仅听闻。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E75"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "W向阿斯卡纶询问Scout告诉她的话，阿斯卡纶回应；W与Scout有真实通信来往，阿斯卡纶此窗仅听闻。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 210,
+          "kind": "story",
+          "line": 198,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 85,
+          "line": 78,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+          "quote": "[name=\"阿斯卡纶\"]放心。我已经肃清了周围所有目标，专心准备就行。\n[name=\"阿斯卡纶\"]Scout，汇报。\n[name=\"Scout\"]潜入任务已经完成，正在将情报传回巴别塔。\n[name=\"阿斯卡纶\"]城内情况呢？\n[name=\"Scout\"]这几年变化不大。天灾不多，没怎么移动。\n[name=\"Scout\"]说实话，我们现在的状况很不乐观，如果军事委员会继续挤压我们的战略空间——\n[name=\"阿斯卡纶\"]相信殿下和凯尔希医生吧。\n[name=\"Scout\"]……也是。她们为今天的实验准备了这么长时间，就是为了能扭转不利的局面。"
+        }
+      ],
+      "description": "阿斯卡纶直接命Scout汇报，Scout回应；通讯两端非物理同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "阿斯卡纶直接命Scout汇报，Scout回应；通讯两端非物理同场。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "阿斯卡纶直接命Scout汇报，Scout回应；通讯两端非物理同场。",
+          "status": "supported",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 85,
+          "kind": "story",
+          "line": 78,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "char_4132_ascln|npc_0957af9bf990438d"
+}

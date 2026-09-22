@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 68,
+          "line": 63,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-03.txt",
+          "quote": "[name=\"赦罪师\"]摄政王殿下，你还是让“她”去了城墙边？\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯\"]你清楚“魔王”的威胁。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]确实。无论是曼弗雷德，还是大君，都未必能顺利抓住那股力量的继承人。\n[name=\"赦罪师\"]——要击败一个“魔王”，最稳妥的人选自然是另一个。"
+        }
+      ],
+      "description": "赦罪师明确评价曼弗雷德捕获继承人的能力，没有借将军被提及推出反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E105"
+          ],
+          "from": "npc_2d30a11ec7e30f39",
+          "reason": "赦罪师明确评价曼弗雷德捕获继承人的能力，没有借将军被提及推出反向。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_2d30a11ec7e30f39"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 68,
+          "kind": "story",
+          "line": 63,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_2d30a11ec7e30f39"
+}

@@ -1,0 +1,50 @@
+{
+  "contributions": [
+    {
+      "assignmentId": "review-04",
+      "description": "骑士扯起坐骑缰绳；旁白具名罗辛南特，主从共同迎战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "骑士扯起坐骑缰绳；旁白具名罗辛南特，主从共同迎战。",
+          "status": "supported",
+          "to": "npc_714a30cf8b57140b"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_714a30cf8b57140b",
+          "reason": "骑士扯起坐骑缰绳；旁白具名罗辛南特，主从共同迎战。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        }
+      ],
+      "groupId": "group_b35f8149f58708bb",
+      "key": "npc_58c708dd33128fbf|npc_714a30cf8b57140b",
+      "label": "确认相识",
+      "personIds": [
+        "npc_58c708dd33128fbf",
+        "npc_714a30cf8b57140b"
+      ],
+      "realityScope": "hypothetical_ending_branch",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b35f8149f58708bb.json",
+      "temporalScope": "水月与深蓝之树所述时段",
+      "title": "水月与深蓝之树"
+    }
+  ],
+  "groupId": "group_b35f8149f58708bb",
+  "key": "npc_58c708dd33128fbf|npc_714a30cf8b57140b",
+  "names": [
+    "最后的骑士",
+    "罗辛南特"
+  ],
+  "personIds": [
+    "npc_58c708dd33128fbf",
+    "npc_714a30cf8b57140b"
+  ],
+  "realityScope": "hypothetical_ending_branch"
+}

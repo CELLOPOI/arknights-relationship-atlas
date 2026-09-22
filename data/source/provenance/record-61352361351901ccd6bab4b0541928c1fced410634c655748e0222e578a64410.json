@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 66,
+          "line": 23,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_03_beg.txt",
+          "quote": "[name=\"克莱芒\"]堕天……？\n[charslot(slot=\"m\",name=\"avg_npc_924_1#3$1\",focus=\"m\")]\n[name=\"克莱芒\"]这是什么意思……福尔图娜她会怎么样？她、她是病了吗？\n[charslot(slot=\"m\",name=\"avg_npc_372_1#6$1\",focus=\"m\")]\n[name=\"里凯莱\"]这个回头再解释，先处理眼下最要紧的问题——\n[charslot(slot=\"m\",name=\"avg_npc_927_1#5$2\",focus=\"m\")]\n[name=\"福尔图娜\"]斯特凡诺爷爷……！\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"avg_npc_927_1#5$2\",focus=\"m\")]\n[name=\"福尔图娜\"]救救菲娜！求您了，快、快救救她……！\n[charslot(slot=\"m\",name=\"avg_npc_923_1#3$1\",focus=\"m\")]\n[name=\"修道院主教\"]孩子，不要慌，好好说……到底是怎么了？\n[charslot(slot=\"m\",name=\"avg_npc_927_1#3$2\",focus=\"m\")]\n[name=\"福尔图娜\"]菲娜、菲娜流了好多血，我怎么也止不住……我找不到人帮忙……\n[charslot(slot=\"m\",name=\"avg_npc_927_1#3$2\",focus=\"m\")]\n[name=\"福尔图娜\"]我们只是、只是吵了一架，菲娜要我的守护铳，我该给她的，我为什么不给她？\n[charslot(slot=\"m\",name=\"avg_npc_927_1#5$2\",focus=\"m\")]\n[name=\"福尔图娜\"]都是我不好……！\n[charslot(slot=\"m\",name=\"avg_npc_923_1#5$1\",focus=\"m\")]\n[name=\"修道院主教\"]别怕，别怕，孩子，别害怕。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1\",focus=\"m\")]\n[name=\"费德里科\"]从现有的情况判断，我认为这是一场不包含主观加害意图的意外伤害事件。\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"avg_npc_923_1#6$1\",focus=\"m\")]\n[name=\"修道院主教\"]住口！执行者！\n[charslot(slot=\"m\",name=\"avg_npc_923_1#6$1\",focus=\"m\")]\n[name=\"修道院主教\"]你在指控这个孩子……伤害了她的同胞？！\n[charslot(slot=\"m\",name=\"avg_npc_923_1#6$1\",focus=\"m\")]\n[name=\"修道院主教\"]你竟敢做出这种指控——？！\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#3$1\",focus=\"m\")]\n[name=\"费德里科\"]……这是最合理的推测。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#3$1\",focus=\"m\")]\n[name=\"费德里科\"]戒律带来的排斥并非无法克服，无意走火的状况更是时有发生。\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"avg_npc_923_1#6$1\",focus=\"m\")]\n[name=\"修道院主教\"]……一派胡言！\n[charslot(slot=\"m\",name=\"avg_npc_927_1#5$2\",focus=\"m\")]\n[name=\"福尔图娜\"]不……他说得对……是我，是我扣了扳机！\n[charslot(slot=\"m\",name=\"avg_npc_923_1#5$1\",focus=\"m\")]\n[name=\"修道院主教\"]福尔图娜！可你……\n[charslot(slot=\"m\",name=\"avg_npc_927_1#5$2\",focus=\"m\")]\n[name=\"福尔图娜\"]……斯特凡诺爷爷，是我的错，要怎么惩罚我都可以！\n[charslot(slot=\"m\",name=\"avg_npc_927_1#5$2\",focus=\"m\")]\n[name=\"福尔图娜\"]可是菲娜还在……她受伤了！求您救救菲娜！"
+        }
+      ],
+      "description": "费德里科当面判断事故，福尔图娜明确回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_279_excu",
+          "reason": "双方直接对话或在连续局部场景中共同参与。",
+          "status": "supported",
+          "to": "npc_f5a0d790811751a8"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_f5a0d790811751a8",
+          "reason": "双方直接对话或在连续局部场景中共同参与。",
+          "status": "supported",
+          "to": "char_279_excu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d3659cc008c9f040.json",
+      "sources": [
+        {
+          "endLine": 66,
+          "kind": "story",
+          "line": 23,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "空想花庭事件现实场景",
+      "title": "空想花庭"
+    }
+  ],
+  "relationship_id": "char_279_excu|npc_f5a0d790811751a8"
+}

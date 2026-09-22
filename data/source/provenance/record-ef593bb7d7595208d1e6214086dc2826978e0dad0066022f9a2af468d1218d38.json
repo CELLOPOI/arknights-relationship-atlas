@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 430,
+          "line": 421,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st03.txt",
+          "quote": "[name=\"夜半\"] ……你就是宁辞秋。\n[character(name=\"avg_npc_298_1#9$1\")]\n[name=\"宁小姐\"] 那你就是那位胆子大到敢抢天师府行队的赏金猎人了吧。\n[character(name=\"avg_476_blkngt_1#6$1\")]\n[name=\"夜半\"] 我、我那时候又不知道他们是好人……\n[character(name=\"avg_476_blkngt_1#5$1\")]\n[name=\"夜半\"] 那个姓白的老头子，他在哪儿？\n[character(name=\"avg_npc_298_1#10$1\")]\n[name=\"宁小姐\"] ……我带你去见他。\n[name=\"宁小姐\"] 这次的事情，我也该谢谢你。"
+        }
+      ],
+      "description": "夜半点名宁辞秋，对方认出赏金猎人并感谢。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E54"
+          ],
+          "from": "char_476_blkngt",
+          "reason": "夜半点名宁辞秋，对方认出赏金猎人并感谢。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "E54"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "夜半点名宁辞秋，对方认出赏金猎人并感谢。",
+          "status": "supported",
+          "to": "char_476_blkngt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 430,
+          "kind": "story",
+          "line": 421,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_476_blkngt|npc_906d6f310e0f648e"
+}

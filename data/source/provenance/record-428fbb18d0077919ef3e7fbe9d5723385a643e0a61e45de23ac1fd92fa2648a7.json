@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 318,
+          "line": 310,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_beg.txt",
+          "quote": "[name=\"梁洵\"]所以你都打听到了什么？\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#1$1\",focus=\"l\")]\n[name=\"老鲤\"]那位宗师是令小姐的兄长，这件事在玉门并非人尽皆知。甚至该说是，秘密？\n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]的确……\n[charslot(slot = \"l\", name = \"avg_322_lmlee_1#8$1\",focus=\"l\")]\n[name=\"老鲤\"]宗师丢的那把剑，找回来固然是当务之急，但更麻烦的是之后该如何处置。\n[name=\"老鲤\"]梁大人不想让它留在玉门，或许是司岁台的意思，或许是作为玉门参知的考量。但偏偏那位平祟侯不愿意放手。\n[name=\"老鲤\"]所以你需要一个人，可以带走这把剑，还能让两边都信服。"
+        }
+      ],
+      "description": "梁洵与老鲤明确谈宗师身份及剑的处置，反向没有独立证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E79"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "梁洵与老鲤明确谈宗师身份及剑的处置，反向没有独立证据。",
+          "status": "supported",
+          "to": "char_2024_chyue"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_2024_chyue",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_3e28dece98b601de"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 318,
+          "kind": "story",
+          "line": 310,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_2024_chyue|npc_3e28dece98b601de"
+}

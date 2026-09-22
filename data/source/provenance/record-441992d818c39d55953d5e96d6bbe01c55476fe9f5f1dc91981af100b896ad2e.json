@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 47,
+          "line": 43,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-09_end.txt",
+          "quote": "[name=\"梅菲斯特\"]  之后！h2，h6！\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   他们，他们在冲击我们的阵线！\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]   近卫干员，把敌人赶出掩体！"
+        }
+      ],
+      "description": "医疗干员报告阵线受冲击，Ace紧接着命令近卫干员赶走掩体敌人，局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "医疗干员报告阵线受冲击，Ace紧接着命令近卫干员赶走掩体敌人，局部同场。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "医疗干员报告阵线受冲击，Ace紧接着命令近卫干员赶走掩体敌人，局部同场。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 47,
+          "kind": "story",
+          "line": 43,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 108,
+          "line": 71,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-06_beg.txt",
+          "quote": "[name=\"医疗干员\"]  ……啊？\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]  ……落石？这个时候？\n[Character(name=\"char_014_riope\",name2=\"char_130_doberm_ex\",focus=2)]\n[name=\"杜宾\"]  别停下！优先确保防线！\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]  不对……是砸在建筑物上迸出来的……\n[Character(name=\"char_014_riope\",name2=\"char_130_doberm_ex\",focus=2)]\n[name=\"杜宾\"]  你在说什么——\n[Character(name=\"char_1002_nsabr_2\",name2=\"char_1002_nsabr_2\")]\n[name=\"整合运动成员\"]  来了！来了！\n[name=\"整合运动成员\"]  哈哈……我们感染者的救赎！普通人的末日！\n[name=\"整合运动成员\"]  啊，啊啊——咕！\n[dialog]\n[PlaySound(key=\"$d_gen_explo_n\", channel=2, volume=0.6)]\n[Blocker(a=0.7, r=1, g=0.1, b=0.3, fadetime=0.02, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=30, randomness=90, block=false)]\n[name=\"整合运动成员\"]  啊，啊啊——咕！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  ——\n[name=\"杜宾\"]  他是被什么东西……击倒的？\n[name=\"杜宾\"]  你们有谁……攻击了他？\n[name=\"杜宾\"]  还是说，他是被……\n[PlaySound(key=\"$d_gen_explo_n\", volume=0.4, delay=2)]\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  杜宾！天空……！\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]  ——\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.8, block=true)]\n[name=\"临光\"]  天空陷入了血色——\n[name=\"临光\"]  “沸腾的乌云翻涌在火焰之中……”\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  别惊慌！\n[Character(name=\"char_148_nearl_1#7\")]\n[name=\"临光\"]  保护好自己！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  ……我们还有机会，用行动去拯救自己的生命！"
+        }
+      ],
+      "description": "救援队同场协作并听到Ace命令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "救援队同场协作并听到Ace命令。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "救援队同场协作并听到Ace命令。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_f55d04d68de9988e.json",
+      "sources": [
+        {
+          "endLine": 108,
+          "kind": "story",
+          "line": 71,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格撤离期间",
+      "title": "黑暗时代·下"
+    }
+  ],
+  "relationship_id": "npc_30c8dcf1e7b8383d|npc_ded4733bcc9da868"
+}

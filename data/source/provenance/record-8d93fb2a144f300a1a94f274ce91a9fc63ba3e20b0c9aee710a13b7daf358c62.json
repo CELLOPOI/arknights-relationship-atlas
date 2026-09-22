@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 180,
+          "line": 84,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-07_beg.txt",
+          "quote": "[name=\"凯瑟琳\"]那天他和其他工人一起离开工厂，是想向贵族们发起抗议。他想让公爵们听一听工人们的声音，让大家保住最基本的生活。\n[Character(name=\"avg_npc_648_1#7$1\",name2=\"avg_4072_ironmn_1#7$1\",focus=1)]\n[name=\"凯瑟琳\"]呵……很天真对不对？\n[Character(name=\"avg_npc_648_1#7$1\",name2=\"avg_4072_ironmn_1#9$1\",focus=2)]\n[name=\"费斯特\"]……\n[Character(name=\"avg_npc_648_1#8$1\",name2=\"avg_4072_ironmn_1#9$1\",focus=1)]\n[name=\"凯瑟琳\"]我忍不住反反复复地想……十二月的伦蒂尼姆是不是很冷？他胸腔里的鲜血流出来的时候，是不是还是热的？\n[Character(name=\"avg_npc_648_1#8$1\",name2=\"avg_4072_ironmn_1#9$1\",focus=2)]\n[name=\"费斯特\"]爸爸他……是为了理想。\n[Character(name=\"avg_npc_648_1#8$1\",name2=\"avg_4072_ironmn_1#9$1\",focus=1)]\n[name=\"凯瑟琳\"]为理想而牺牲是崇高的，你想说这个吧？\n[name=\"凯瑟琳\"]你们自救军的领导者们，那个“博士”……他们是不是都会在哀悼战死的同伴时来回念叨这几句话？\n[Character(name=\"avg_npc_648_1#8$1\",name2=\"avg_4072_ironmn_1#11$1\",focus=2)]\n[name=\"费斯特\"]……克洛维希娅指挥官会这样说。博士……博士在这种时候比往常还要沉默。但他们都是真心的。\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#11$1\",focus=1)]\n[name=\"凯瑟琳\"]很可惜，死去的人并不能感觉到自己有多伟大。\n[Character(name=\"avg_npc_648_1#2$1\",name2=\"avg_4072_ironmn_1#11$1\",focus=1)]\n[name=\"凯瑟琳\"]至于活着的人……这些安慰的话就像烟，轻飘飘的。吸进肺里的时候能舒坦些，等吐出来以后……\n[Dialog]\n[PlaySound(key=\"$d_avg_deep_breath\", volume=0.5)]\n她真的吸了一口气，顿了顿，缓缓吐到跟前。\n天不够冷，空气里什么都没留下。\n[Dialog]\n[delay(time=1)]\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#11$1\",focus=1)]\n[name=\"凯瑟琳\"]只有一件事是真的。二十六年前的那个晚上，四十一名工人走到了中央区的大街上，再也没有回来。\n[Character(name=\"avg_npc_648_1#9$1\",name2=\"avg_4072_ironmn_1#11$1\",focus=1)]\n[name=\"凯瑟琳\"]在那之后，伦蒂尼姆还是什么都没变，那些贵族，有钱人，都想装作什么都没有发生。这车间却再也没能恢复原样。\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#11$1\",focus=1)]\n[name=\"凯瑟琳\"]我老了，费斯特。我不可能再手把手教出一批这么好的工人了。\n[name=\"凯瑟琳\"]本来该轮到他们干我干的活儿。没错，哈维才该是教你所有事的那一个。\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#9$1\",focus=2)]\n[name=\"费斯特\"]奶奶……\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#9$1\",focus=1)]\n[name=\"凯瑟琳\"]信不信由你，我从来没有责怪过哈维。同样，我也没怪过你。\n[Character(name=\"avg_npc_648_1#7$1\",name2=\"avg_4072_ironmn_1#9$1\",focus=1)]\n[name=\"凯瑟琳\"]但你必须想清楚，孩子。在你试图带着帕特他们暗中反抗的时候，你就该想清楚了。\n[Character(name=\"avg_npc_648_1#6$1\",name2=\"avg_4072_ironmn_1#9$1\",focus=1)]\n[name=\"凯瑟琳\"]万一你活过了这场战争，其他人却没有回来，你想像我一样，在无数个夜晚看着没人用的机器，整个人都被遗憾和悔恨填满吗？\n[Character(name=\"avg_npc_648_1#6$1\",name2=\"avg_4072_ironmn_1#3$1\",focus=2)]\n[name=\"费斯特\"]……\n[Character(name=\"avg_npc_648_1#6$1\",name2=\"avg_4072_ironmn_1#1$1\",focus=2)]\n[name=\"费斯特\"]奶奶，三年前，我不理解你做出的决定。\n[name=\"费斯特\"]而现在，当我回想起那天，当我试图去把自己放在你的位置上设身处地地去想的时候——\n[Character(name=\"avg_npc_648_1#6$1\",name2=\"avg_4072_ironmn_1#4$1\",focus=2)]\n[name=\"费斯特\"]我发现，我连做那个决定恐怕都要犹豫很久。\n[name=\"费斯特\"]你说得对，小聪明是骗不过死亡的。\n[name=\"费斯特\"]但是，奶奶，我觉得妥协与顺从同样不能骗过它。\n[Character(name=\"avg_npc_648_1#7$1\",name2=\"avg_4072_ironmn_1#4$1\",focus=1)]\n[name=\"凯瑟琳\"]……\n[Dialog]\n[PlaySound(key=\"$d_avg_smokefemale\", volume=1)]\n[delay(time=1)]\n凯瑟琳深吸了一口烟，没有反驳。\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#4$1\",focus=1)]\n[Dialog]\n[delay(time=1)]\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#1$1\",focus=2)]\n[name=\"费斯特\"]奶奶，我不敢告诉你我想清楚了……\n[name=\"费斯特\"]我也无法拍着胸脯告诉你，我们一定能成功把这些萨卡兹赶出去。\n[name=\"费斯特\"]说真的，在罗德岛告诉我们，我们的时间已经不多了之后，我愈发感觉到，自己肩上的担子有多重。\n[name=\"费斯特\"]我很害怕我又会做蠢事。\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#4$1\",focus=2)]\n[name=\"费斯特\"]但是——我不能因此而停下。\n[name=\"费斯特\"]不然的话，我想，我一定没有脸去面对老比尔、强尼、加比，还有那些在过去牺牲的自救军成员。\n[Character(name=\"avg_npc_648_1#2$1\",name2=\"avg_4072_ironmn_1#4$1\",focus=1)]\n[name=\"凯瑟琳\"]……你还太嫩了，臭小子。\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#4$1\",focus=1)]\n[name=\"凯瑟琳\"]叫博士的家伙，你看起来不像这小子，这么大了还毛毛躁躁的。\n[name=\"凯瑟琳\"]麻烦你多多照顾他了。\n[Dialog]\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#4$1\",focus=-1)]\n[Decision(options=\"放心。;我会尽力。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#4$1\",focus=1)]\n[name=\"凯瑟琳\"]我宿舍的书桌，左边第三个抽屉里面有一个暗格。\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#7$1\",focus=2)]\n[name=\"费斯特\"]什么？\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#7$1\",focus=1)]\n[name=\"凯瑟琳\"]萨卡兹盯得很紧，这家工厂里没有你的位置，看完了就赶紧滚吧。\n[name=\"凯瑟琳\"]别给其他人添麻烦。\n[Dialog]\n[Character(name=\"avg_npc_648_1#1$1\",name2=\"avg_4072_ironmn_1#7$1\")]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[characteraction(name=\"left\", type=\"move\", xpos=-200, fadetime=2,block=false)]\n[character(name=\"char_empty\",name2=\"avg_4072_ironmn_1#7$1\",fadetime=1)]\n[delay(time=1)]\n[Character(name=\"char_empty\",name2=\"avg_4072_ironmn_1#4$1\",focus=2)]\n[name=\"费斯特\"]……谢谢，奶奶。\n[Dialog]\n[character]\n在凯瑟琳与你擦肩而过时，你看到了她的表情。\n欣慰，悲伤。\n[Dialog]\n[Character(name=\"avg_4072_ironmn_1#4$1\")]\n[name=\"费斯特\"]博士，既然如此，我们快去奶奶说的地方看一看吧。"
+        }
+      ],
+      "description": "凯瑟琳与博士直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_4162_cathy",
+          "reason": "凯瑟琳直接拜托博士照顾费斯特。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士以对话形式在场回应。",
+          "status": "supported",
+          "to": "char_4162_cathy"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 180,
+          "kind": "story",
+          "line": 84,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "军工厂行动",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_4162_cathy|npc_b99957887950ebfd"
+}

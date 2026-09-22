@@ -1,0 +1,20 @@
+{
+  "id": "import:char_458_rfrost|npc_8570ddffc57e187c",
+  "published": true,
+  "quote": "【水晶箭行动】\n灰烬：榴弹已射出！\n霜华：已投掷闪光弹！！\n马特奥：什么人？！",
+  "relationship_id": "char_458_rfrost|npc_8570ddffc57e187c",
+  "sources": [
+    {
+      "endLine": 628,
+      "kind": "story",
+      "line": 607,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act32side/level_act32side_08_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "kind": "manual",
+      "source": "ArknightsNpcCatalog/关系审读/人工复核/用户意见/复核意见.json#review_6ef8b346d722198b",
+      "version": "revision:1; 2026-09-20T04:12:56.676Z"
+    }
+  ]
+}

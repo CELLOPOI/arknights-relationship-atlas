@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 205,
+          "line": 190,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_07_end.txt",
+          "quote": "[name=\"阿芙朵嘉\"]我……\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]噢，顺便一提，小姑娘，关于杜林，你的看法实际上并不正确。\n[Character(name=\"avg_4055_bgsnow_1#6$1\")]\n[name=\"阿芙朵嘉\"]为什么？\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]如果你说，在杜林城邦的生活是一种“更便捷”“更舒适”“更安全”之类的生活，我都不会反驳你。\n[name=\"大祭司\"]但你认为，杜林人过的生活是一种“更好的”生活，只有这一点，或许并不是这样。\n[name=\"大祭司\"]你是个聪明的孩子，不会不了解这其中的差别。\n[Character(name=\"avg_4055_bgsnow_1#7$1\")]\n[name=\"阿芙朵嘉\"]老先生……我暂且这么称呼您，我明白您的意思。\n[name=\"阿芙朵嘉\"]但是，难道说，我希望其他人过上物质上和精神上都更加富足的生活是错的吗？\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]这是另一个问题，现在的你，只是希望从一场早已结束的辩论中挽回自己的一点颜面，不是吗？\n[Character(name=\"avg_4055_bgsnow_1#9$1\")]\n[name=\"阿芙朵嘉\"]……"
+        }
+      ],
+      "description": "大祭司与阿芙朵嘉直接辩论生活观。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E33"
+          ],
+          "from": "char_4055_bgsnow",
+          "reason": "大祭司与阿芙朵嘉直接辩论生活观。",
+          "status": "supported",
+          "to": "npc_ec93b1be1e69c694"
+        },
+        {
+          "evidenceIds": [
+            "E33"
+          ],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "大祭司与阿芙朵嘉直接辩论生活观。",
+          "status": "supported",
+          "to": "char_4055_bgsnow"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 205,
+          "kind": "story",
+          "line": 190,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    }
+  ],
+  "relationship_id": "char_4055_bgsnow|npc_ec93b1be1e69c694"
+}

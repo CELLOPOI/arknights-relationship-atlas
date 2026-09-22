@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 48,
+          "line": 40,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st02.txt",
+          "quote": "[name=\"仇白\"]事情就是这样。\n[name=\"仇白\"]剑在槐武痴手里，以他的武功，左乐估计拿他没办法。\n[charslot(slot = \"right\", name = \"avg_2024_chyue_1#6$1\",focus=\"r\")]\n[name=\"重岳\"]为这一个约定，他竟然在城里等了三年……倒是个有趣的人。\n[charslot(slot = \"right\", name = \"avg_2024_chyue_1#1$1\",focus=\"r\")]\n[name=\"重岳\"]太合的伤势怎样了？\n[charslot(slot = \"left\", name = \"avg_npc_787_1#5$1\",focus=\"l\")]\n[name=\"仇白\"]还没醒。\n[name=\"仇白\"]重伤太合先生的和前天刺杀魏彦吾的是同一人。她趁乱逃走，我不是对手，没能追上。"
+        }
+      ],
+      "description": "重岳关切太合伤势，仇白报告未醒与受伤缘由，反向没有直接依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E34"
+          ],
+          "from": "char_2024_chyue",
+          "reason": "重岳关切太合伤势，仇白报告未醒与受伤缘由，反向没有直接依据。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_2024_chyue"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 48,
+          "kind": "story",
+          "line": 40,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_2024_chyue|npc_3fa3fadab4354b64"
+}

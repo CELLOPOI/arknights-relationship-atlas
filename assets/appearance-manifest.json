@@ -1,0 +1,3305 @@
+{
+  "source": {
+    "repository": "fexli/ArknightsResource",
+    "commit": "3596def3267fe2b172ba20895b47e11c0523642f",
+    "committedAt": "2026-09-11T08:03:51Z",
+    "gameVersion": "26-09-09-07-16-57_d4e461",
+    "charpackTree": "39b1481ba3dfcfa115f93d5ee63e541ddd519a36",
+    "charporTree": "339b575aa6541c4205704f665ef13a652cdd2d5d",
+    "portraitFallback": {
+      "repository": "yuanyan3060/ArknightsGameResource",
+      "commit": "57ef5385c1ab1315fe4f2094f399b5c803bd71fc",
+      "committedAt": "2026-09-11T10:07:52Z"
+    }
+  },
+  "skinTableSha256": "ec6d8a30af8b5ed8efdb410cf5d834868ebe09513614fb2d1cc1e3d5f2fd18ac",
+  "characterTableSha256": "42708ca01b1938df4e2c3ed9e9efeadbf0e35533411907dadb37b80315e69ae8",
+  "assets": [
+    {
+      "id": "char_1011_lava2",
+      "layer": "avatar",
+      "filename": "avatars/char_1011_lava2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1011_lava2.png",
+      "sourceSha256": "d7f77ce476d84f816571e2c047c5ab97435323f8bf6e914b3b66236f47a7bd06",
+      "width": 180,
+      "height": 180,
+      "bytes": 9522,
+      "sha256": "9778d9fd1d2c4cd7eb3a83e51bae87aa156a8fdbc68a257e639c9ad9dff0bc78"
+    },
+    {
+      "id": "char_1012_skadi2",
+      "layer": "avatar",
+      "filename": "avatars/char_1012_skadi2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1012_skadi2.png",
+      "sourceSha256": "d6addd787b9f389e08a8839bd7fc37fbdb89b35a33c3c7d5f82a41afda6bd168",
+      "width": 180,
+      "height": 180,
+      "bytes": 14470,
+      "sha256": "31551af0ef9cdbb412f3bbb1ff95ce9e6397fba360c03b850d090691e2d75b7c"
+    },
+    {
+      "id": "char_1013_chen2",
+      "layer": "avatar",
+      "filename": "avatars/char_1013_chen2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1013_chen2.png",
+      "sourceSha256": "07d4f575cc2bd04a9c5c57e18ab61afb75a549903e80522121f054c20aec061d",
+      "width": 180,
+      "height": 180,
+      "bytes": 14102,
+      "sha256": "a8755b6ef866cd212d4a16633571629231549345f7b265c454457b3f87c747f4"
+    },
+    {
+      "id": "char_1014_nearl2",
+      "layer": "avatar",
+      "filename": "avatars/char_1014_nearl2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1014_nearl2.png",
+      "sourceSha256": "44dc2e9dc859d4134bf527be7d5436aa35c2b89fe0451d3a3ae657f7ec229c1c",
+      "width": 180,
+      "height": 180,
+      "bytes": 12624,
+      "sha256": "b7f7074991c01cc57113ea927b075f12d766d08fd3849ce4716a12b899fb5771"
+    },
+    {
+      "id": "char_1015_aglna2",
+      "layer": "avatar",
+      "filename": "avatars/char_1015_aglna2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1015_aglna2.png",
+      "sourceSha256": "b94512dd0c68706f2a3f61084681ccc838c5a1f501788f51b9acabf2fba1169e",
+      "width": 180,
+      "height": 180,
+      "bytes": 13724,
+      "sha256": "fb76c4a999a4d61ce959d558d6e2a2b716e4c4a3c20baaf53062810fff5e143d"
+    },
+    {
+      "id": "char_1016_agoat2",
+      "layer": "avatar",
+      "filename": "avatars/char_1016_agoat2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1016_agoat2.png",
+      "sourceSha256": "77f17e188890a775b16769f63f1423f6b2b0c2df745c5bd04e9eec552ef922d3",
+      "width": 180,
+      "height": 180,
+      "bytes": 13600,
+      "sha256": "5c2eb6d28ac1d20fd0dc59c22d91e532d69d773dc88ad4e33c51ef6116a52594"
+    },
+    {
+      "id": "char_1019_siege2",
+      "layer": "avatar",
+      "filename": "avatars/char_1019_siege2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1019_siege2.png",
+      "sourceSha256": "d57b320b5d3c00900892ae94c2878856e3bdf6e5b54a27b7286433581e462111",
+      "width": 180,
+      "height": 180,
+      "bytes": 14226,
+      "sha256": "ccd184c5e350826347c2a2356d3779b1996a9f3a30285411e06425c1a99b8954"
+    },
+    {
+      "id": "char_1020_reed2",
+      "layer": "avatar",
+      "filename": "avatars/char_1020_reed2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1020_reed2.png",
+      "sourceSha256": "c8928f78a9572655933a972e2f4d8a6ee52f384ff97fd4508c838f1f04dec526",
+      "width": 180,
+      "height": 180,
+      "bytes": 13794,
+      "sha256": "b58f911e4b9732c49f9cfa97c74b387bc9dc89a8fdb4a52001b0d46c7d881741"
+    },
+    {
+      "id": "char_1021_kroos2",
+      "layer": "avatar",
+      "filename": "avatars/char_1021_kroos2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1021_kroos2.png",
+      "sourceSha256": "ca725e4cce30265a92918b6a2c7e39d1eb3421d8461abd457066ec4ee4b74487",
+      "width": 180,
+      "height": 180,
+      "bytes": 12870,
+      "sha256": "d56c3a0bd294b1391e4d0755de48fd16e76b70188138d1d917ca2d9b52f236e4"
+    },
+    {
+      "id": "char_1022_flwr2",
+      "layer": "avatar",
+      "filename": "avatars/char_1022_flwr2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1022_flwr2.png",
+      "sourceSha256": "94ea7ce03a427dfec7bc66bfd1d65b0ee28280b7c16d3fe43a3faabb42cbf5ff",
+      "width": 180,
+      "height": 180,
+      "bytes": 8092,
+      "sha256": "c97194f73fb59092bd591f004de066966bc584ee813b463f97d5f5b03e78251c"
+    },
+    {
+      "id": "char_1023_ghost2",
+      "layer": "avatar",
+      "filename": "avatars/char_1023_ghost2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1023_ghost2.png",
+      "sourceSha256": "4cb921980abc77e83dd6bbb53a1b541de05f0af8a6755087582df96674beeaf6",
+      "width": 180,
+      "height": 180,
+      "bytes": 12342,
+      "sha256": "50c91afe20c34eeb5aa078d99bcdd6e003a9432c27d2c4938cd427ff0ac00f69"
+    },
+    {
+      "id": "char_1024_hbisc2",
+      "layer": "avatar",
+      "filename": "avatars/char_1024_hbisc2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1024_hbisc2.png",
+      "sourceSha256": "9ff0a97f74ca9f97266529ba4fffeaae694d0271c8476115727eb4228bf22e33",
+      "width": 180,
+      "height": 180,
+      "bytes": 9310,
+      "sha256": "0e2e34fedec4a1e922435336a716b046dcd227f52d4342a6bc7c9505d876b407"
+    },
+    {
+      "id": "char_1026_gvial2",
+      "layer": "avatar",
+      "filename": "avatars/char_1026_gvial2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1026_gvial2.png",
+      "sourceSha256": "404ae61aa5045a61cdf5bebee822c32e70486db7fb44c3a2e6f4323f9c28d6cd",
+      "width": 180,
+      "height": 180,
+      "bytes": 11490,
+      "sha256": "289d7da9f6cd7f437ef72697f770abd6344788a70466f66f14c07d1abb34443b"
+    },
+    {
+      "id": "char_1027_greyy2",
+      "layer": "avatar",
+      "filename": "avatars/char_1027_greyy2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1027_greyy2.png",
+      "sourceSha256": "f5e2e180e7365a0b94ea35a5ecfd609e45de68e867951c20616ca6b9f93c1a63",
+      "width": 180,
+      "height": 180,
+      "bytes": 10790,
+      "sha256": "226db6557137108c002eac1c4cfbad661695ce2cd8ebc570b0dcd17065394844"
+    },
+    {
+      "id": "char_1028_texas2",
+      "layer": "avatar",
+      "filename": "avatars/char_1028_texas2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1028_texas2.png",
+      "sourceSha256": "ecc0383bec1a4d45b4f33932f9556f4dc031e55ea85b22c18aefcaf1d3ef5271",
+      "width": 180,
+      "height": 180,
+      "bytes": 9810,
+      "sha256": "effe229bfdb1676e9a2b8f91ed7ada61d98482c7d92cad66675e3cf37c17cc9a"
+    },
+    {
+      "id": "char_1029_yato2",
+      "layer": "avatar",
+      "filename": "avatars/char_1029_yato2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1029_yato2.png",
+      "sourceSha256": "a3fb95669385bc31d12b755b5038cfd2c164710cc9323d59c7f5f0949f3d45d5",
+      "width": 180,
+      "height": 180,
+      "bytes": 12994,
+      "sha256": "6478d99591861c59b9a189fe22ea23f623f94e59e275ea1b78f7eef0abf9745d"
+    },
+    {
+      "id": "char_1030_noirc2",
+      "layer": "avatar",
+      "filename": "avatars/char_1030_noirc2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1030_noirc2.png",
+      "sourceSha256": "311d8ba7d7b1fbb898eac5f42788d99d3f58559be177e981ac20aa0973316bc7",
+      "width": 180,
+      "height": 180,
+      "bytes": 12480,
+      "sha256": "5cd13b39c66e162e605c77b9aa6dbf68bcf1afd4876f50ad7b0ffd1cbf3688aa"
+    },
+    {
+      "id": "char_1031_slent2",
+      "layer": "avatar",
+      "filename": "avatars/char_1031_slent2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1031_slent2.png",
+      "sourceSha256": "77afe4c3c2193062074a91dc51a397af87f5aab1c5a5bfaf33e3667b7ce74ecf",
+      "width": 180,
+      "height": 180,
+      "bytes": 13132,
+      "sha256": "706b2c96ae2b858edb30c2510fae8d13b6ea52d5b717abd0ab2440a203ababa6"
+    },
+    {
+      "id": "char_1032_excu2",
+      "layer": "avatar",
+      "filename": "avatars/char_1032_excu2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1032_excu2.png",
+      "sourceSha256": "68526c28f49906940e90e3b4707ea0dcf2af9be7f84824d71061a1eca709fe10",
+      "width": 180,
+      "height": 180,
+      "bytes": 12100,
+      "sha256": "e8fb0b453ee3d197224010e93f7dab87a1ced2700d3ba697d9e6e1ed5610c1d4"
+    },
+    {
+      "id": "char_1033_swire2",
+      "layer": "avatar",
+      "filename": "avatars/char_1033_swire2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1033_swire2.png",
+      "sourceSha256": "f2290d76050e0bed50fa75a0863d18467de7f89811274c499f91a09a14677c2c",
+      "width": 180,
+      "height": 180,
+      "bytes": 11134,
+      "sha256": "efdce648fd835e73310c01074f73708439c509872dde9d36c96243d627dc7c6f"
+    },
+    {
+      "id": "char_1034_jesca2",
+      "layer": "avatar",
+      "filename": "avatars/char_1034_jesca2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1034_jesca2.png",
+      "sourceSha256": "051021ea85f5d7e30a9909dd01f3ec07789229f0474fc4fd1884c9fce09982bf",
+      "width": 180,
+      "height": 180,
+      "bytes": 13180,
+      "sha256": "f060aa3741c654f59285875d298e232ee46f2ee341075aabc74e095336136c40"
+    },
+    {
+      "id": "char_1035_wisdel",
+      "layer": "avatar",
+      "filename": "avatars/char_1035_wisdel.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1035_wisdel.png",
+      "sourceSha256": "1b983d2968c47aa74e1cbfe26575d829980b46d0aca8d1e837d0b138625f5a2e",
+      "width": 180,
+      "height": 180,
+      "bytes": 16648,
+      "sha256": "d9f79811a3acbcc5f245db818e41378764efa12b8113ef8635a386fd23dbece4"
+    },
+    {
+      "id": "char_1036_fang2",
+      "layer": "avatar",
+      "filename": "avatars/char_1036_fang2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1036_fang2.png",
+      "sourceSha256": "70513aa0dac3c66ac5f7dff3f094d9282b960d896d3cae9a5969ba3187e7515d",
+      "width": 180,
+      "height": 180,
+      "bytes": 10922,
+      "sha256": "42b94d0ac59b7980f41c9d72048bf08f0bb8a6a513121475e940c112f25912f3"
+    },
+    {
+      "id": "char_1038_whitw2",
+      "layer": "avatar",
+      "filename": "avatars/char_1038_whitw2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1038_whitw2.png",
+      "sourceSha256": "44b48692a2d0bb8aa9106e554bb5f79b2737b8303cc55163a7927b2016260985",
+      "width": 180,
+      "height": 180,
+      "bytes": 11860,
+      "sha256": "6dc4b4224b374abfda1f878492c0da360b61a247e3cbf5504169135290240d4a"
+    },
+    {
+      "id": "char_1039_thorn2",
+      "layer": "avatar",
+      "filename": "avatars/char_1039_thorn2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1039_thorn2.png",
+      "sourceSha256": "e271ec44ba079c0580e711d3330414d05ecb8379e4491a4b29edb15eeb760173",
+      "width": 180,
+      "height": 180,
+      "bytes": 10692,
+      "sha256": "90ccb5d1207d8e2348016f0c6309ece8f69a631a5fa847c2784e8ba32b2b5923"
+    },
+    {
+      "id": "char_1040_blaze2",
+      "layer": "avatar",
+      "filename": "avatars/char_1040_blaze2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1040_blaze2.png",
+      "sourceSha256": "c7ae600401929fa2756d1f0583e6f69cfca87b32636e499020a0a8e2f1dd692f",
+      "width": 180,
+      "height": 180,
+      "bytes": 17124,
+      "sha256": "d3b01adae61369485eebe2b86f194792ee8df8f11c06195e83da52e7a4c2392b"
+    },
+    {
+      "id": "char_1041_angel2",
+      "layer": "avatar",
+      "filename": "avatars/char_1041_angel2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1041_angel2.png",
+      "sourceSha256": "2cce25e5ae35cf5293624fef36c1efaf590e74127fff3efe9b78359e877f940e",
+      "width": 180,
+      "height": 180,
+      "bytes": 15906,
+      "sha256": "85e0029927e67adb46a07c56b05aa26f6f15e2d307d724ce388ac952a6ccb166"
+    },
+    {
+      "id": "char_1042_phatm2",
+      "layer": "avatar",
+      "filename": "avatars/char_1042_phatm2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1042_phatm2.png",
+      "sourceSha256": "a7159c817681bd88a51f227b6295c5332bae5f8ef9b50a0c8163ab692ae6a42d",
+      "width": 180,
+      "height": 180,
+      "bytes": 11910,
+      "sha256": "ea7562f5b87399a65af03a1596ff63ce8bc1bcf6e761b0791b97463177f4ab4f"
+    },
+    {
+      "id": "char_1043_leizi2",
+      "layer": "avatar",
+      "filename": "avatars/char_1043_leizi2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1043_leizi2.png",
+      "sourceSha256": "1a5e10df83d1cf29c3af9ad191cee7dfbdd8a50c9b5a59a785fdd3f0f728c69f",
+      "width": 180,
+      "height": 180,
+      "bytes": 17156,
+      "sha256": "5fae54d05e4c6a09cd903261e645afa28e4c4384adc51269224a05498f7e624d"
+    },
+    {
+      "id": "char_1044_hsgma2",
+      "layer": "avatar",
+      "filename": "avatars/char_1044_hsgma2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1044_hsgma2.png",
+      "sourceSha256": "e2c3f360d74466bd491f55285dcc26dfbc45e70f8e2e849bd3e2750dc7c0d867",
+      "width": 180,
+      "height": 180,
+      "bytes": 13270,
+      "sha256": "adf15d8f00860aa71cd0df697a4cca4078d57b31c2f929ca7fe8f4c36ba4ed9c"
+    },
+    {
+      "id": "char_1045_svash2",
+      "layer": "avatar",
+      "filename": "avatars/char_1045_svash2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1045_svash2.png",
+      "sourceSha256": "eb6e3b18f79daf4b9dcd9e9908eb8c10abe432d1cb6f69aa9eb32998e7848e23",
+      "width": 180,
+      "height": 180,
+      "bytes": 12690,
+      "sha256": "4f2e096b49129b5aba30933259833dc054e7638d42f56fcfa1274c2abad70ad8"
+    },
+    {
+      "id": "char_1046_sbell2",
+      "layer": "avatar",
+      "filename": "avatars/char_1046_sbell2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1046_sbell2.png",
+      "sourceSha256": "779a3490b8d790048fc0b8d8f6235ff8b5eff95f2bb2c5f1f1bd4fc5044ba550",
+      "width": 180,
+      "height": 180,
+      "bytes": 15910,
+      "sha256": "8905a590dd60f0b8cd9863b690727526beca3e8ae935e3f23c0bc59c4df9338c"
+    },
+    {
+      "id": "char_1047_halo2",
+      "layer": "avatar",
+      "filename": "avatars/char_1047_halo2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1047_halo2.png",
+      "sourceSha256": "1e419a43bf5f69ad778ed928b4b8c87b59150e57733e0a07ab4a1209f48327d4",
+      "width": 180,
+      "height": 180,
+      "bytes": 16468,
+      "sha256": "888e9b9b88991e18e6212a891839e54200d87cf4c45e080e6d506d9b0273bcd3"
+    },
+    {
+      "id": "char_1048_orchd2",
+      "layer": "avatar",
+      "filename": "avatars/char_1048_orchd2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1048_orchd2.png",
+      "sourceSha256": "bfd3d5cc706b6d2d5e0a8a0dd4783e24ad07213eafd75fce0eade5d9228dda5d",
+      "width": 180,
+      "height": 180,
+      "bytes": 14898,
+      "sha256": "e6c24818012d1b12872356e48cfc106c2aca33b18871e1a51156d4c6022a9f7d"
+    },
+    {
+      "id": "char_1049_catap2",
+      "layer": "avatar",
+      "filename": "avatars/char_1049_catap2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1049_catap2.png",
+      "sourceSha256": "b00ef27a76c7c78003d9b99053ab9ec9d241a4ea384bde149c74a9f15c469646",
+      "width": 180,
+      "height": 180,
+      "bytes": 14392,
+      "sha256": "a57a5a50e363b29ac5564a0cf69ae49c9d09c22c24d2660a0fab6e7a81033f92"
+    },
+    {
+      "id": "char_1050_chen3",
+      "layer": "avatar",
+      "filename": "avatars/char_1050_chen3.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1050_chen3.png",
+      "sourceSha256": "4f9e7e3b56a31f6c344e327449adda3e9476aa5f16f01cd8336542b6b0203670",
+      "width": 180,
+      "height": 180,
+      "bytes": 16234,
+      "sha256": "cce473e430cba50a9288c757d22ac0de5b233c76f0e52921b31a304447217fc0"
+    },
+    {
+      "id": "char_1051_headb2",
+      "layer": "avatar",
+      "filename": "avatars/char_1051_headb2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1051_headb2.png",
+      "sourceSha256": "dd66a2aa2fc0b87e942beda0811e5952b0104bc42cafd9f02bf151df7db5d514",
+      "width": 180,
+      "height": 180,
+      "bytes": 11390,
+      "sha256": "6a98adce1bd5fb0af2c4c1073ca5f70aeb02bfcc8d5ffde854222c1cb2577194"
+    },
+    {
+      "id": "char_1052_kalts2",
+      "layer": "avatar",
+      "filename": "avatars/char_1052_kalts2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/avatar/char_1052_kalts2.png",
+      "sourceSha256": "2d6f4399a68d27b1e8cd798ebee4e1b509ff89e2611f9ed68f31ab7e805c7323",
+      "width": 180,
+      "height": 180,
+      "bytes": 13650,
+      "sha256": "e704604250f126aa4273f6c064c67656e4f99a009531f14b21561440f4ead995"
+    },
+    {
+      "id": "char_1011_lava2",
+      "layer": "base",
+      "filename": "illustrations/char_1011_lava2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1011_lava2_1.png",
+      "sourceBlobSha1": "c2bcfb268a37aef4c31facfc99e65fae167426d6",
+      "sourceSha256": "b94c2687d00d5387265bb809fd6f2b23448bbc47369c53b6066288fd4b0f2411",
+      "skinId": "char_1011_lava2#1",
+      "trim": {
+        "left": 323,
+        "top": 83,
+        "width": 558,
+        "height": 1185
+      },
+      "width": 558,
+      "height": 1185,
+      "bytes": 105736,
+      "sha256": "83fed60828bb4bdc37003e5bd21882009882d9866723f3731ed658fea84ad7f5"
+    },
+    {
+      "id": "char_1011_lava2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1011_lava2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1011_lava2_1.png",
+      "sourceBlobSha1": "57b9bda9921702c11576f8dcc1270f5364d7b86d",
+      "sourceSha256": "8d25cfd49d96179b322d237d107e20f4619e5cb65067e285d395f1bee73cfb07",
+      "skinId": "char_1011_lava2#1",
+      "trim": {
+        "left": 0,
+        "top": 32,
+        "width": 180,
+        "height": 328
+      },
+      "width": 180,
+      "height": 328,
+      "bytes": 17092,
+      "sha256": "ff8a180f5685e701853729d26b4eb5d75180dd39291e375371be72ada0b9931b"
+    },
+    {
+      "id": "char_1011_lava2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1011_lava2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1011_lava2_2b.png",
+      "sourceBlobSha1": "5f352a37799389e116ce7011487c3bbff01eceab",
+      "sourceSha256": "bc863d804a0c7efcadf454b39e4c8d00a7299a1e7d75284420ded6a0d7fa0b7d",
+      "skinId": "char_1011_lava2#2",
+      "trim": {
+        "left": 40,
+        "top": 5,
+        "width": 962,
+        "height": 1019
+      },
+      "width": 962,
+      "height": 1019,
+      "bytes": 184514,
+      "sha256": "ef9f636bee5cea0d3f981106ac1063d2bb0debc30b9c03bf22baefa254cb38b8"
+    },
+    {
+      "id": "char_1011_lava2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1011_lava2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1011_lava2_2.png",
+      "sourceBlobSha1": "d995f81b6ff6c6c5885d16172d76ef433e07c67e",
+      "sourceSha256": "55dd61a8921456864c7ec6da735a71d919f1ef1cf8fdce6e5c4b21ad74e7ca42",
+      "skinId": "char_1011_lava2#2",
+      "trim": {
+        "left": 0,
+        "top": 35,
+        "width": 180,
+        "height": 325
+      },
+      "width": 180,
+      "height": 325,
+      "bytes": 19614,
+      "sha256": "dc104c9436fa9cdc2ef610dc1a456fdb6f50d2a850e5d1e404ddc10b5a3baa48"
+    },
+    {
+      "id": "char_1012_skadi2",
+      "layer": "base",
+      "filename": "illustrations/char_1012_skadi2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1012_skadi2_1b.png",
+      "sourceBlobSha1": "6cfb8ca2432eaed5b3129ac5607330de7285e9fe",
+      "sourceSha256": "e6634f7222f63c3ca907e83f8e0b192662057d73f28b17158eb3cfb3feaaa0c6",
+      "skinId": "char_1012_skadi2#1",
+      "trim": {
+        "left": 72,
+        "top": 23,
+        "width": 921,
+        "height": 971
+      },
+      "width": 921,
+      "height": 971,
+      "bytes": 147686,
+      "sha256": "8882b148e52b19eda873fac30d0dfdaf1904147b135c936dc518b14c6be859e7"
+    },
+    {
+      "id": "char_1012_skadi2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1012_skadi2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1012_skadi2_1.png",
+      "sourceBlobSha1": "08e7ea2054862bf141dbd0f96d268c7d93acedd0",
+      "sourceSha256": "d4a8c35dae80a1b7ba65e347f814974179b4cab5d82c49a6cffc62936da3dfc2",
+      "skinId": "char_1012_skadi2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 23864,
+      "sha256": "5035e8bf92e3cbca56ebff7adea7531e478a3659abda9559c6901ae9e45c1960"
+    },
+    {
+      "id": "char_1012_skadi2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1012_skadi2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1012_skadi2_2b.png",
+      "sourceBlobSha1": "efa7e6e0c22851bff39909836830b1c5dafff63c",
+      "sourceSha256": "556548206757a265e46e88410be0f378f5547b452bded80b85c2df5a478df34e",
+      "skinId": "char_1012_skadi2#2",
+      "trim": {
+        "left": 22,
+        "top": 99,
+        "width": 975,
+        "height": 806
+      },
+      "width": 975,
+      "height": 806,
+      "bytes": 195764,
+      "sha256": "b72c8611c23b7fe8ddd42e88e5a931a8a227490d55e971688a250e875a6c118c"
+    },
+    {
+      "id": "char_1012_skadi2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1012_skadi2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1012_skadi2_2.png",
+      "sourceBlobSha1": "23fc422aa5941f578ba644b78fa9eb01fa7800f6",
+      "sourceSha256": "9ad612161b380df6559f92c76b1c9402decef9e08e35f66e5d4f4461b6e92617",
+      "skinId": "char_1012_skadi2#2",
+      "trim": {
+        "left": 0,
+        "top": 45,
+        "width": 180,
+        "height": 315
+      },
+      "width": 180,
+      "height": 315,
+      "bytes": 18332,
+      "sha256": "2f25327c79a6cf0c9bda08685639e6f1ac8790ab1eace71c8dee67b5eba16e34"
+    },
+    {
+      "id": "char_1013_chen2",
+      "layer": "base",
+      "filename": "illustrations/char_1013_chen2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1013_chen2_1b.png",
+      "sourceBlobSha1": "3ac359996ef8c87ab7b230aaae24ebbfbe6f61c6",
+      "sourceSha256": "d06a4fe83cf7fff0045909a6c82d1f33c10208a6122195a7e2829ea19a1770da",
+      "skinId": "char_1013_chen2#1",
+      "trim": {
+        "left": 196,
+        "top": 67,
+        "width": 587,
+        "height": 882
+      },
+      "width": 587,
+      "height": 882,
+      "bytes": 75938,
+      "sha256": "d1f721f20df390d07562efb2ede2819fe3527b4fa0c4bb702cd9c2ba63e22698"
+    },
+    {
+      "id": "char_1013_chen2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1013_chen2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1013_chen2_1.png",
+      "sourceBlobSha1": "d188f114d39a0914b85ffa05884509466c49e92a",
+      "sourceSha256": "ffb953b0f541f6a51f2df18a0347fa956605ae0dc9c67182469d663bd7df9c70",
+      "skinId": "char_1013_chen2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 25016,
+      "sha256": "fbe112ad401c8d48272e6f7e12baa272c824836543c53068ca788a41776637d3"
+    },
+    {
+      "id": "char_1013_chen2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1013_chen2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1013_chen2_2b.png",
+      "sourceBlobSha1": "bc44562db2426a35f64546119e7ae693003a8461",
+      "sourceSha256": "b05d0a5725c1f3fe592358762620b688b5760403ee234757b8f7de282afe5cf1",
+      "skinId": "char_1013_chen2#2",
+      "trim": {
+        "left": 18,
+        "top": 103,
+        "width": 980,
+        "height": 780
+      },
+      "width": 980,
+      "height": 780,
+      "bytes": 152358,
+      "sha256": "56f287a831e27c33c169881cd497eee30d353c73a29623770c99601375081020"
+    },
+    {
+      "id": "char_1013_chen2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1013_chen2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1013_chen2_2.png",
+      "sourceBlobSha1": "d00231df42dbac53b964ec990fbab87fc52c15c2",
+      "sourceSha256": "45b1a3da03b04419b3fd467f4a6b0c0f9dbafa2b00a37450dd4b196629e30bac",
+      "skinId": "char_1013_chen2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 25014,
+      "sha256": "a2c7cfbd9d7a9b12c225cba45a4f44cccd7277ff28c656d451750a8ed18499ec"
+    },
+    {
+      "id": "char_1014_nearl2",
+      "layer": "base",
+      "filename": "illustrations/char_1014_nearl2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1014_nearl2_1.png",
+      "sourceBlobSha1": "57a61f6f589b5520c675ef8f0ae8351b21fa817e",
+      "sourceSha256": "383bf7af88189e6226638348269ff4becdc2c3aa3f5e5abfb7205f065ad070b6",
+      "skinId": "char_1014_nearl2#1",
+      "trim": {
+        "left": 19,
+        "top": 121,
+        "width": 1986,
+        "height": 1873
+      },
+      "width": 1400,
+      "height": 1320,
+      "bytes": 281482,
+      "sha256": "2d1490b899f90104777a7e382edc131c650835576e0cfaec4180b60b788e555f"
+    },
+    {
+      "id": "char_1014_nearl2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1014_nearl2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1014_nearl2_1.png",
+      "sourceBlobSha1": "94f39f1526941a1899d94dc9012517d73d3f9929",
+      "sourceSha256": "2acc7f8e5612a4854242481860097d784eee4704db50f48e5074e435a15c44b9",
+      "skinId": "char_1014_nearl2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 23768,
+      "sha256": "dd25dbd3ef5e7081f693620a19f0315bf37478c59a4a3d567fa9cd1681742173"
+    },
+    {
+      "id": "char_1014_nearl2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1014_nearl2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1014_nearl2_2b.png",
+      "sourceBlobSha1": "9ef49a606556e62a5bf39aa1d5ef17924d151bd9",
+      "sourceSha256": "fbda34e8a60c0dacd5703f49fc25402a9ed3bacd042608ef5987aac0c8717bcc",
+      "skinId": "char_1014_nearl2#2",
+      "trim": {
+        "left": 14,
+        "top": 73,
+        "width": 980,
+        "height": 899
+      },
+      "width": 980,
+      "height": 899,
+      "bytes": 214934,
+      "sha256": "f52216c80856f9e8eea3b5f4e56be7d1e021250207bd72bd5c2a2b44e38f72ed"
+    },
+    {
+      "id": "char_1014_nearl2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1014_nearl2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1014_nearl2_2.png",
+      "sourceBlobSha1": "fe15dc23b84a798512c1b600610f1871df642975",
+      "sourceSha256": "6ededa171d3a3cdb7756782e23b5f3f8daec2c31160619f8de2ece931a7bfb6b",
+      "skinId": "char_1014_nearl2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 27046,
+      "sha256": "2b3d7a838304091fb45d713ff79df4710c1657797c26432e3514cea2b857f80d"
+    },
+    {
+      "id": "char_1015_aglna2",
+      "layer": "base",
+      "filename": "illustrations/char_1015_aglna2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1015_aglna2_1.png",
+      "sourceBlobSha1": "bdd8000883ef9229a83113babc9a183e514d62a0",
+      "sourceSha256": "6b82fe8f806cce8028f10db37f647e51128052f11926432468d308f9ae2ba16f",
+      "skinId": "char_1015_aglna2#1",
+      "trim": {
+        "left": 153,
+        "top": 9,
+        "width": 1124,
+        "height": 1414
+      },
+      "width": 1113,
+      "height": 1400,
+      "bytes": 238322,
+      "sha256": "ff2dd5a24e2331880fbb340aa858bf7aacb562f7516de856cfa51e710b91e631"
+    },
+    {
+      "id": "char_1015_aglna2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1015_aglna2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1015_aglna2_1.png",
+      "sourceSha256": "94af11b56700bf6621073939a22166a65c846223ab6177feeabc0dbd5017d9fe",
+      "skinId": "char_1015_aglna2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 23482,
+      "sha256": "067d4d2a9dd4d72effe3131743f4697c310ec24d7c5281962861c5f6ac21275f"
+    },
+    {
+      "id": "char_1015_aglna2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1015_aglna2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1015_aglna2_2b.png",
+      "sourceBlobSha1": "d666007814d03ad8fdc038094425cb667dd617d4",
+      "sourceSha256": "cef18c2811f4b28adcd7c9dba9737a0619ff4f766058fd8cf8fb40bbb9384486",
+      "skinId": "char_1015_aglna2#2",
+      "trim": {
+        "left": 6,
+        "top": 23,
+        "width": 1016,
+        "height": 981
+      },
+      "width": 1016,
+      "height": 981,
+      "bytes": 238390,
+      "sha256": "ed6f7be91c9107c123b6cf55ee9492f14007d602bded93e4ff4d69064595812d"
+    },
+    {
+      "id": "char_1015_aglna2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1015_aglna2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1015_aglna2_2.png",
+      "sourceSha256": "3048d7f3ea9d9913947031cebb98252a3392fd2f8fc3cc4b130e309c30c17336",
+      "skinId": "char_1015_aglna2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 24356,
+      "sha256": "7716bdab73eea1fc596898875cb7581ba4adefb4abc18f8043c3af68aa3994a5"
+    },
+    {
+      "id": "char_1016_agoat2",
+      "layer": "base",
+      "filename": "illustrations/char_1016_agoat2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1016_agoat2_1b.png",
+      "sourceBlobSha1": "316b6262acaaf0aaec8fbc6d9b51ef4f60f9328b",
+      "sourceSha256": "11fa663b697f11d1f3ddabbc404fa75455e65210d585972a52e0d740869425bb",
+      "skinId": "char_1016_agoat2#1",
+      "trim": {
+        "left": 135,
+        "top": 11,
+        "width": 789,
+        "height": 1000
+      },
+      "width": 789,
+      "height": 1000,
+      "bytes": 157492,
+      "sha256": "64007b7d9ecb18c057791eaacf8bab1783b7f882efff2844e02826df9fd5d422"
+    },
+    {
+      "id": "char_1016_agoat2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1016_agoat2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1016_agoat2_1.png",
+      "sourceBlobSha1": "e33b165a48ad67ada346e1123177a1d9c4481e2e",
+      "sourceSha256": "66ceeb7de3a019986fbae06d3d7e3a6464c90a727464a31d106b4e589ac1fa8d",
+      "skinId": "char_1016_agoat2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 23388,
+      "sha256": "ab6e1b651fff055f57242d5219dbcba0b789afd37b1cc73b8ffe523ebb087ae6"
+    },
+    {
+      "id": "char_1016_agoat2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1016_agoat2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1016_agoat2_2b.png",
+      "sourceBlobSha1": "0caf79d090c6dbc6f879e31dddc59c27b46b92ec",
+      "sourceSha256": "5d4ef8e911b7ff8391a081acdd9f77a75a67628f01e7e38d15863d8e91f63cd7",
+      "skinId": "char_1016_agoat2#2",
+      "trim": {
+        "left": 10,
+        "top": 31,
+        "width": 1009,
+        "height": 971
+      },
+      "width": 1009,
+      "height": 971,
+      "bytes": 297648,
+      "sha256": "4b1c61779ed528123e23f687bf6a555d562626e1e6b2da380f595b3253910460"
+    },
+    {
+      "id": "char_1016_agoat2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1016_agoat2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1016_agoat2_2.png",
+      "sourceBlobSha1": "02e974cb98346b6c9c14d932dc3c6b9414ef34dc",
+      "sourceSha256": "2137b88f3bfabf87418d301af03f4dda3e90e00d1043d1edb3f1f7098396f797",
+      "skinId": "char_1016_agoat2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 21478,
+      "sha256": "105ecf09fd1428816ef7cb9433568a71387412687c4cfa4505f8bd2e9ea66f01"
+    },
+    {
+      "id": "char_1019_siege2",
+      "layer": "base",
+      "filename": "illustrations/char_1019_siege2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1019_siege2_1b.png",
+      "sourceBlobSha1": "75e70fd334df4194b1a022ef5daecb6523c5f2fb",
+      "sourceSha256": "c8b3f0937d560f22cf1412bdce5ff2d2de3327ee425b0c112aa9c55d4ead6ce0",
+      "skinId": "char_1019_siege2#1",
+      "trim": {
+        "left": 33,
+        "top": 3,
+        "width": 834,
+        "height": 1011
+      },
+      "width": 834,
+      "height": 1011,
+      "bytes": 114110,
+      "sha256": "8a5a2ab2425d131bed9d417fe94730585b8c9bd8bae1d35806a25188d217573b"
+    },
+    {
+      "id": "char_1019_siege2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1019_siege2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1019_siege2_1.png",
+      "sourceBlobSha1": "2edb4ebabac70e4fb9ecb131d3b88b0175da15f6",
+      "sourceSha256": "0e5ad8cafba31a7c6c88e12214fcb13ce9f8bb1cffd224a0b9c03c91fdfeda27",
+      "skinId": "char_1019_siege2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 25288,
+      "sha256": "9d5f151916ee848c6bded3815deeec28eba98669d2e813dda0d0770b5232ec0a"
+    },
+    {
+      "id": "char_1019_siege2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1019_siege2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1019_siege2_2b.png",
+      "sourceBlobSha1": "bcadf0cc899631bf4fb5dd664c0db5d9f77b002a",
+      "sourceSha256": "bfb17a2b2e1d3886553133204616c59358881f0e34df0770afd1ee53a7937aea",
+      "skinId": "char_1019_siege2#2",
+      "trim": {
+        "left": 23,
+        "top": 7,
+        "width": 959,
+        "height": 1015
+      },
+      "width": 959,
+      "height": 1015,
+      "bytes": 290034,
+      "sha256": "dc91608dc6320df26635e38f7ccdf8058ad9546732a1e6634ba55ceeccadf4ba"
+    },
+    {
+      "id": "char_1019_siege2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1019_siege2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1019_siege2_2.png",
+      "sourceBlobSha1": "3e1d460816f4820235d6815707a406b2eec289f1",
+      "sourceSha256": "b577d1aecdc10ef451666721f7c7d206ac765381beb8bc1c3c6abea5dd05b1a1",
+      "skinId": "char_1019_siege2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 25432,
+      "sha256": "c866ecd2302e9117041bec85ce532f6118831adb5f4bff92c7bebec33ebd08db"
+    },
+    {
+      "id": "char_1020_reed2",
+      "layer": "base",
+      "filename": "illustrations/char_1020_reed2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1020_reed2_1b.png",
+      "sourceBlobSha1": "644531500226fb4b85e6fa64bd866ddc2eb92399",
+      "sourceSha256": "4059937623bc6a82302ef4f86cdb46b38f71ecb68281d308e003bb26fef8b83f",
+      "skinId": "char_1020_reed2#1",
+      "trim": {
+        "left": 154,
+        "top": 7,
+        "width": 829,
+        "height": 1010
+      },
+      "width": 829,
+      "height": 1010,
+      "bytes": 141092,
+      "sha256": "afc1e2c6ac1e1e39940d5a5e70bf05a1e65ef15cf658e5476663a5cbe48c96b2"
+    },
+    {
+      "id": "char_1020_reed2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1020_reed2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1020_reed2_1.png",
+      "sourceBlobSha1": "8df780a96d9d10d64b401a2bd0dd29685dab6710",
+      "sourceSha256": "22d1772dcd91a44da2ca2bb7fde983f2b0f2491a1a7e0de919e68323672212a1",
+      "skinId": "char_1020_reed2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 23772,
+      "sha256": "0722b88daaa767706a38dd11912af00d2d1946bcf2c3d628a04b4cb0a30b063d"
+    },
+    {
+      "id": "char_1020_reed2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1020_reed2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1020_reed2_2b.png",
+      "sourceBlobSha1": "19c3dd973f1a9783f6282055b869861ee4318742",
+      "sourceSha256": "b7ac7aed0f0bda17c7ab8488547bff8464d3c19f31d3abe53e02edcaf1167bd5",
+      "skinId": "char_1020_reed2#2",
+      "trim": {
+        "left": 8,
+        "top": 190,
+        "width": 1004,
+        "height": 659
+      },
+      "width": 1004,
+      "height": 659,
+      "bytes": 153802,
+      "sha256": "6e4276fe84260d2bbd686823c1ad4da0b96d3b07167a1dacad85c1b54092c849"
+    },
+    {
+      "id": "char_1020_reed2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1020_reed2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1020_reed2_2.png",
+      "sourceBlobSha1": "b734b405cf36001976827e58c0856b7d925e50db",
+      "sourceSha256": "87a560ef0261adbbc950f080229920e82d9a71125cc4b31c909fbacd8a199478",
+      "skinId": "char_1020_reed2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 21400,
+      "sha256": "0102658ef20bc95a9815feaddd14c80c3cf6441d504f19503e7d1bea54d5c649"
+    },
+    {
+      "id": "char_1021_kroos2",
+      "layer": "base",
+      "filename": "illustrations/char_1021_kroos2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1021_kroos2_1b.png",
+      "sourceBlobSha1": "d7b8a2245d63484c422fe89cd2a872db4ddcdadc",
+      "sourceSha256": "06132f19b9af73b8760fc6fdcbd7016288d53db090e819b2bbd61c7eb2f35621",
+      "skinId": "char_1021_kroos2#1",
+      "trim": {
+        "left": 171,
+        "top": 117,
+        "width": 538,
+        "height": 867
+      },
+      "width": 538,
+      "height": 867,
+      "bytes": 78126,
+      "sha256": "d80094312691f98a21057a61f112d141005b0b82731bb4a739198d8ba074011c"
+    },
+    {
+      "id": "char_1021_kroos2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1021_kroos2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1021_kroos2_1.png",
+      "sourceBlobSha1": "9f5885ac6170b467f6b7ad71ea75f9331fc70cc3",
+      "sourceSha256": "361a6b0a5fd15fdc7c6cf73f3681446912023499d8fb09c7c871e1f0f690dc53",
+      "skinId": "char_1021_kroos2#1",
+      "trim": {
+        "left": 0,
+        "top": 14,
+        "width": 180,
+        "height": 346
+      },
+      "width": 180,
+      "height": 346,
+      "bytes": 21938,
+      "sha256": "7d9cde46aca797a3342501e7fe8cb717d5b568352155e0d350bb90d2283e1432"
+    },
+    {
+      "id": "char_1021_kroos2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1021_kroos2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1021_kroos2_2b.png",
+      "sourceBlobSha1": "34fc0cd50e5dd85084a17c857f622b87a9b3b825",
+      "sourceSha256": "28820daa426782df7387809765ab56eb01f3047a1963c6811f0651a35cbef15c",
+      "skinId": "char_1021_kroos2#2",
+      "trim": {
+        "left": 23,
+        "top": 63,
+        "width": 979,
+        "height": 917
+      },
+      "width": 979,
+      "height": 917,
+      "bytes": 157930,
+      "sha256": "5f909eb5e5f9055acc6f2b9c7c16e1ce4af8308709f67992a2b0f1e4837d75d5"
+    },
+    {
+      "id": "char_1021_kroos2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1021_kroos2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1021_kroos2_2.png",
+      "sourceBlobSha1": "a3e07ebb626a964266a81741ef6b54911adc06fc",
+      "sourceSha256": "0d63f8df92840c44dad25b593a1226074ce8f95e5e92e30236cf3fce45c5c2ad",
+      "skinId": "char_1021_kroos2#2",
+      "trim": {
+        "left": 0,
+        "top": 28,
+        "width": 180,
+        "height": 332
+      },
+      "width": 180,
+      "height": 332,
+      "bytes": 21334,
+      "sha256": "f04ab3b8099b4611f1b036dc7b29b7c7bc3d0f8b321b93d9b5e0e5d35f30c812"
+    },
+    {
+      "id": "char_1022_flwr2",
+      "layer": "base",
+      "filename": "illustrations/char_1022_flwr2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1022_flwr2_1.png",
+      "sourceBlobSha1": "4b2fd1370e6c61c50b80c642f9eb5a031110ec41",
+      "sourceSha256": "6d62376ac5a4798c04a905fb96abb679e819e1c2a1713c01cd61025a1829b1aa",
+      "skinId": "char_1022_flwr2#1",
+      "trim": {
+        "left": 8,
+        "top": 30,
+        "width": 1254,
+        "height": 1212
+      },
+      "width": 1254,
+      "height": 1212,
+      "bytes": 145672,
+      "sha256": "d68926f7b842268c8ecc3a91b0376c8e864fe03fa177ed003b9abdc5006bdc02"
+    },
+    {
+      "id": "char_1022_flwr2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1022_flwr2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1022_flwr2_1.png",
+      "sourceSha256": "09f71bdbdcafdd47304c0b52d9e26194bc79f1173dbd27568ece1b22d0e94bd5",
+      "skinId": "char_1022_flwr2#1",
+      "trim": {
+        "left": 0,
+        "top": 43,
+        "width": 180,
+        "height": 317
+      },
+      "width": 180,
+      "height": 317,
+      "bytes": 16026,
+      "sha256": "e6ec80fb6dc213b66d634f779db57c58688763e81c8143524b5e724324082ad7"
+    },
+    {
+      "id": "char_1022_flwr2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1022_flwr2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1022_flwr2_2b.png",
+      "sourceBlobSha1": "8cf6d057d9c7b4d44e69d15ae982567f62409c22",
+      "sourceSha256": "2b2057f43706185f57e70353571e2b52ddd7b118936db5c195bc7378a0c046f7",
+      "skinId": "char_1022_flwr2#2",
+      "trim": {
+        "left": 61,
+        "top": 6,
+        "width": 906,
+        "height": 1018
+      },
+      "width": 906,
+      "height": 1018,
+      "bytes": 147928,
+      "sha256": "2c65cd052b5a433de27a5605bb3b641460189d30ac3a87ef02fa120d9e576c52"
+    },
+    {
+      "id": "char_1022_flwr2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1022_flwr2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1022_flwr2_2.png",
+      "sourceSha256": "4ad0177c00affa87691219084ec8a4ac476d544e51e4ca677e95838819960be3",
+      "skinId": "char_1022_flwr2#2",
+      "trim": {
+        "left": 0,
+        "top": 43,
+        "width": 180,
+        "height": 317
+      },
+      "width": 180,
+      "height": 317,
+      "bytes": 16198,
+      "sha256": "92934df78f44fdc96b1117c7a31285b2fe103db546d7538b552c0fe63f3a0c6f"
+    },
+    {
+      "id": "char_1023_ghost2",
+      "layer": "base",
+      "filename": "illustrations/char_1023_ghost2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1023_ghost2_1b.png",
+      "sourceBlobSha1": "94f712417d3c3bcf581be9d79c44764a4f5d0db2",
+      "sourceSha256": "05d0220393b0d5528298a0c35ab8ab43dd8d8d47ebcb247a4e8ae015eca7871d",
+      "skinId": "char_1023_ghost2#1",
+      "trim": {
+        "left": 143,
+        "top": 136,
+        "width": 817,
+        "height": 819
+      },
+      "width": 817,
+      "height": 819,
+      "bytes": 141692,
+      "sha256": "7d75accd683a03d5c847b9e16ec784f83aed74b28ce6cb0851de19529f3d8156"
+    },
+    {
+      "id": "char_1023_ghost2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1023_ghost2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1023_ghost2_1.png",
+      "sourceBlobSha1": "1a0e2d1ac2c5316bac54785ecf229f86ed4ae69a",
+      "sourceSha256": "e8c8e9cb6d50b4e70267cfd4df041beb1df8c89cca625ce63d6c672b471a9cc4",
+      "skinId": "char_1023_ghost2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 22372,
+      "sha256": "ec727aba65420f50037c68e2dfaf53438ee8fc9c78697eaceb6fcfd97532a890"
+    },
+    {
+      "id": "char_1023_ghost2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1023_ghost2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1023_ghost2_2b.png",
+      "sourceBlobSha1": "14bb5ee9ee49530cce8053db12bb064123231fbf",
+      "sourceSha256": "cbe92b05a20a8d8968810506ff8c946fb780a7c30ae7081f6210dc0488a4ff13",
+      "skinId": "char_1023_ghost2#2",
+      "trim": {
+        "left": 2,
+        "top": 130,
+        "width": 1022,
+        "height": 800
+      },
+      "width": 1022,
+      "height": 800,
+      "bytes": 217048,
+      "sha256": "4c464c7397eef23c12bf1c20182a77cb067f01a367c27af42460c60f057eae0f"
+    },
+    {
+      "id": "char_1023_ghost2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1023_ghost2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1023_ghost2_2.png",
+      "sourceBlobSha1": "498373aeef8d8f87b6cf095c594d1f80b81b28e5",
+      "sourceSha256": "b30dc5f322f9955616710b761a472d6addcf4e89efb212cddf9703a4aa7ffdd4",
+      "skinId": "char_1023_ghost2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 19142,
+      "sha256": "9d109edd63b2049406af3566acb050f8b4eb886903196a86981cc2dd8e77d6ec"
+    },
+    {
+      "id": "char_1024_hbisc2",
+      "layer": "base",
+      "filename": "illustrations/char_1024_hbisc2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1024_hbisc2_1b.png",
+      "sourceBlobSha1": "5f0b3221fe921e8b026cf263e30244d1cc743cb5",
+      "sourceSha256": "402398d1835be51c91d54026740ad3918118b98bc1d67dcaddf52b26cdaece7d",
+      "skinId": "char_1024_hbisc2#1",
+      "trim": {
+        "left": 248,
+        "top": 153,
+        "width": 630,
+        "height": 773
+      },
+      "width": 630,
+      "height": 773,
+      "bytes": 62670,
+      "sha256": "636f1714b7811f22128c4c8f7e2563c7e7b1d5763f5475021f374f4e3d9d2a55"
+    },
+    {
+      "id": "char_1024_hbisc2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1024_hbisc2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1024_hbisc2_1.png",
+      "sourceBlobSha1": "f996ba5f28906dc99124c7f49299081f3e1c1b40",
+      "sourceSha256": "ff491b4d1b7a724d6a182ed5608b8b82ee64134dfa9d4e6e2d8362fae9958f44",
+      "skinId": "char_1024_hbisc2#1",
+      "trim": {
+        "left": 0,
+        "top": 42,
+        "width": 180,
+        "height": 318
+      },
+      "width": 180,
+      "height": 318,
+      "bytes": 17996,
+      "sha256": "3129621e9df7f76826e817c11cdbe6ce4d695c553fa0319c8a68b713c879ceac"
+    },
+    {
+      "id": "char_1024_hbisc2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1024_hbisc2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1024_hbisc2_2b.png",
+      "sourceBlobSha1": "8baeaf251381df8aa8722cad5a7696ea67817b60",
+      "sourceSha256": "030168076753ebbec1c9648d426de580792c704b2bd8a21acdc99befca1bfe22",
+      "skinId": "char_1024_hbisc2#2",
+      "trim": {
+        "left": 33,
+        "top": 33,
+        "width": 984,
+        "height": 901
+      },
+      "width": 984,
+      "height": 901,
+      "bytes": 171804,
+      "sha256": "99a13d26819c207e96f3dcffb6cd2cde6e18b6c66e064d2fa884764934fb8632"
+    },
+    {
+      "id": "char_1024_hbisc2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1024_hbisc2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1024_hbisc2_2.png",
+      "sourceBlobSha1": "c6710421928345ff4626c0e355b563dfe0d07878",
+      "sourceSha256": "50454e0c635795c2a340d685b5984271c2f34050f18e3b554a2cb1d0f59eb331",
+      "skinId": "char_1024_hbisc2#2",
+      "trim": {
+        "left": 0,
+        "top": 21,
+        "width": 180,
+        "height": 339
+      },
+      "width": 180,
+      "height": 339,
+      "bytes": 20738,
+      "sha256": "76fcbc1c5460814f15d2fcdbb4ad915e7a9ed0308cd85a91cc1621530e2174e0"
+    },
+    {
+      "id": "char_1026_gvial2",
+      "layer": "base",
+      "filename": "illustrations/char_1026_gvial2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1026_gvial2_1b.png",
+      "sourceBlobSha1": "d049f84b9eb0938fc7a1c304dff2b7f60b9f3851",
+      "sourceSha256": "9f75d161f5e6f271b409164e069aed753801b4107451666a7a104b8aec727806",
+      "skinId": "char_1026_gvial2#1",
+      "trim": {
+        "left": 213,
+        "top": 10,
+        "width": 612,
+        "height": 996
+      },
+      "width": 612,
+      "height": 996,
+      "bytes": 95812,
+      "sha256": "0e28618c537bc96d6e93da625e71f83acb32b02b6d8fcdd467bd3b552cf64071"
+    },
+    {
+      "id": "char_1026_gvial2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1026_gvial2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1026_gvial2_1.png",
+      "sourceBlobSha1": "c18c2c965ff8c46bf685700eb39ff77e27d980fd",
+      "sourceSha256": "19ccee90724d639466768cef7deea99f3c81bc11de7a2425be202d817e7917aa",
+      "skinId": "char_1026_gvial2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 22078,
+      "sha256": "47584a9723f0b5834b290554d3a6ca9f4fb9297d8880f4402aaa1ac67308da2a"
+    },
+    {
+      "id": "char_1026_gvial2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1026_gvial2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1026_gvial2_2b.png",
+      "sourceBlobSha1": "c20ac693e56898ff46eb33c97c14eaf9458fbb06",
+      "sourceSha256": "e8325f1d35c0ef4fb4929c42a6ababbca66993e6d78bdb3859b69bbacc7fef95",
+      "skinId": "char_1026_gvial2#2",
+      "trim": {
+        "left": 45,
+        "top": 14,
+        "width": 882,
+        "height": 1005
+      },
+      "width": 882,
+      "height": 1005,
+      "bytes": 154572,
+      "sha256": "27ea8473af5a21ebbf5f0cebb7244b19ed7efdb10f51b478a46486ea8aef34b9"
+    },
+    {
+      "id": "char_1026_gvial2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1026_gvial2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1026_gvial2_2.png",
+      "sourceBlobSha1": "b2dc38350013c6d33a146206093c92645f595b38",
+      "sourceSha256": "45ef2dd0c98b8e4af6a4b3c6493cf1ff7e491db68b61ecbf0620a4aca8b66fd8",
+      "skinId": "char_1026_gvial2#2",
+      "trim": {
+        "left": 0,
+        "top": 16,
+        "width": 180,
+        "height": 344
+      },
+      "width": 180,
+      "height": 344,
+      "bytes": 19634,
+      "sha256": "0fa555517100030dd004a1f02945e5cf40ea17630e2b78d186341041d2b28d3e"
+    },
+    {
+      "id": "char_1027_greyy2",
+      "layer": "base",
+      "filename": "illustrations/char_1027_greyy2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1027_greyy2_1.png",
+      "sourceBlobSha1": "b9c9a4ff2ebd7ef589d0c7fa2d477204fd2b17a6",
+      "sourceSha256": "df585f9ed3e3e3530156d93c114114858c6b1b0ce4964cbcf3f1b21af9c6251d",
+      "skinId": "char_1027_greyy2#1",
+      "trim": {
+        "left": 270,
+        "top": 14,
+        "width": 664,
+        "height": 1196
+      },
+      "width": 664,
+      "height": 1196,
+      "bytes": 127576,
+      "sha256": "e571360d57127413a8a2409b3876b34d76464678b52208a4b9c25e47f97d6f68"
+    },
+    {
+      "id": "char_1027_greyy2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1027_greyy2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1027_greyy2_1.png",
+      "sourceBlobSha1": "73d212722dc25e30900ad02d1e1aa70369140994",
+      "sourceSha256": "7c52b941ef4df358c30deb533222f69cb5f8b0a9b477675a23f85df15fe23197",
+      "skinId": "char_1027_greyy2#1",
+      "trim": {
+        "left": 0,
+        "top": 38,
+        "width": 180,
+        "height": 322
+      },
+      "width": 180,
+      "height": 322,
+      "bytes": 18916,
+      "sha256": "f06f0d129dafd5d239835827e294581f807b5f948c58b1c1124c60d8f2875c1f"
+    },
+    {
+      "id": "char_1027_greyy2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1027_greyy2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1027_greyy2_2b.png",
+      "sourceBlobSha1": "9bc3c21e9d930bd73aba5e82ec7ec3d632bd058c",
+      "sourceSha256": "566cf4a86423c6478163486f3833729af9b3241fc7abac8c228e5a9e3a9b66bd",
+      "skinId": "char_1027_greyy2#2",
+      "trim": {
+        "left": 15,
+        "top": 135,
+        "width": 1000,
+        "height": 732
+      },
+      "width": 1000,
+      "height": 732,
+      "bytes": 130616,
+      "sha256": "c55fd87e266af72da23a8809ea071abe246673ac39fb5edc9a09ab2cdebe3561"
+    },
+    {
+      "id": "char_1027_greyy2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1027_greyy2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1027_greyy2_2.png",
+      "sourceBlobSha1": "f7f0ff3d39b115068323b8413fbc840d8d98f26c",
+      "sourceSha256": "2a1ec3f9aeca0b31f3c530d090a9a553236864d724112fe0457132acfc7012ef",
+      "skinId": "char_1027_greyy2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 19634,
+      "sha256": "0284e6e2e590d6c6f1144e36ea5f5aaf23f85937dadfdf49e679c642629d1625"
+    },
+    {
+      "id": "char_1028_texas2",
+      "layer": "base",
+      "filename": "illustrations/char_1028_texas2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1028_texas2_1b.png",
+      "sourceBlobSha1": "103a25a7b439ff985c4cde97f91bf45591fb3d3d",
+      "sourceSha256": "5dc912c2f59468fe6705f2788f1cd2b07a24f12aa5aa0ecbfe2a68789a906e21",
+      "skinId": "char_1028_texas2#1",
+      "trim": {
+        "left": 175,
+        "top": 6,
+        "width": 746,
+        "height": 1003
+      },
+      "width": 746,
+      "height": 1003,
+      "bytes": 89970,
+      "sha256": "1fce9d4df324f7402b57498f8cebf22f9eecadff44626c9e176f3190901567da"
+    },
+    {
+      "id": "char_1028_texas2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1028_texas2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1028_texas2_1.png",
+      "sourceBlobSha1": "78fa511345e002f450f44339665d5df8e8a4bf16",
+      "sourceSha256": "974f92edf70877c50d5f1bbcb18c47aa26ccd868f108abc6f8c8b9e060f9ae3c",
+      "skinId": "char_1028_texas2#1",
+      "trim": {
+        "left": 0,
+        "top": 18,
+        "width": 180,
+        "height": 342
+      },
+      "width": 180,
+      "height": 342,
+      "bytes": 16850,
+      "sha256": "49f33cf8d85f0cad416d147649282be579c5aae0b1af3433b1360e0ae8211447"
+    },
+    {
+      "id": "char_1028_texas2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1028_texas2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1028_texas2_2b.png",
+      "sourceBlobSha1": "48a40d718abb229bc78488951b372324730ce1f4",
+      "sourceSha256": "4c82087892df0b28acac2041cf2c7e0c3be5ab03acffb13ae17a08a4e36d405d",
+      "skinId": "char_1028_texas2#2",
+      "trim": {
+        "left": 0,
+        "top": 6,
+        "width": 1024,
+        "height": 1018
+      },
+      "width": 1024,
+      "height": 1018,
+      "bytes": 161218,
+      "sha256": "cc1f87c5aa428dc64f2d97d131e640c467324bfb9cef4ed662942093c0181dc0"
+    },
+    {
+      "id": "char_1028_texas2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1028_texas2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1028_texas2_2.png",
+      "sourceBlobSha1": "7d1c55305fd2ca7c2afaf0c7130e9ec42b941fd1",
+      "sourceSha256": "9c102b82508bdbb8dcfcf1d23938bb04e66470f4291d53640a56b7c6eb2a3bb7",
+      "skinId": "char_1028_texas2#2",
+      "trim": {
+        "left": 0,
+        "top": 38,
+        "width": 180,
+        "height": 322
+      },
+      "width": 180,
+      "height": 322,
+      "bytes": 19688,
+      "sha256": "7cf8ff978a7f5b1c49db47c4c172f6b3c281fb882c175be10413dacc74a53547"
+    },
+    {
+      "id": "char_1029_yato2",
+      "layer": "base",
+      "filename": "illustrations/char_1029_yato2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1029_yato2_1b.png",
+      "sourceBlobSha1": "e4dabf29c9b8cd0cae892e5b88fa091693c04acd",
+      "sourceSha256": "9dce1f38c14ad098e60d47274455dfd9a31a5c4d796b9371e9299211b85c935b",
+      "skinId": "char_1029_yato2#1",
+      "trim": {
+        "left": 188,
+        "top": 13,
+        "width": 659,
+        "height": 1007
+      },
+      "width": 659,
+      "height": 1007,
+      "bytes": 126924,
+      "sha256": "66739c0c13939778b1c0b41f4b87c849eeeb01cfe6afc061c16a573cf63583c1"
+    },
+    {
+      "id": "char_1029_yato2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1029_yato2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1029_yato2_1.png",
+      "sourceBlobSha1": "5d75193f2eaed0f659e6873f4e16fbb5ffc95e7b",
+      "sourceSha256": "fc0d27c0e55119c579d6cc74edee45b93954c4842337146af09f3e237a7c60a4",
+      "skinId": "char_1029_yato2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 23228,
+      "sha256": "52e1af2d744b0a86839a094b8f1ce7fbf5f0b7a7638c56e124637441206507e0"
+    },
+    {
+      "id": "char_1029_yato2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1029_yato2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1029_yato2_2b.png",
+      "sourceBlobSha1": "0b1643f1b60dfae6590f448c23be85fdc7d5bfbc",
+      "sourceSha256": "1beb4799607d3e862ddc75726e02af85d95b69b2ac8d9e6dd299c5958e863ab8",
+      "skinId": "char_1029_yato2#2",
+      "trim": {
+        "left": 9,
+        "top": 72,
+        "width": 998,
+        "height": 866
+      },
+      "width": 998,
+      "height": 866,
+      "bytes": 203094,
+      "sha256": "c6f1e391c5408e41edb856b6905306622a25f32948a989f6683bb35b736fb725"
+    },
+    {
+      "id": "char_1029_yato2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1029_yato2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1029_yato2_2.png",
+      "sourceBlobSha1": "4483f8be4b2a0cb17d11aa98406e1bd186b5d7e4",
+      "sourceSha256": "a636b3ae53b5a444662f9c8bd2c7218c213c338af1cf6f35dea4c615deef30a5",
+      "skinId": "char_1029_yato2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 23574,
+      "sha256": "0b492b30f3e894f627c58bcf980b4c384b6347c79f05db3fef9278337d3036cd"
+    },
+    {
+      "id": "char_1030_noirc2",
+      "layer": "base",
+      "filename": "illustrations/char_1030_noirc2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1030_noirc2_1b.png",
+      "sourceBlobSha1": "2b8915b45f8055400649a7972beef30435ad4cd6",
+      "sourceSha256": "a032df929eafe3d9e07d5903140b92aeca20d294899b13899e07418a53912074",
+      "skinId": "char_1030_noirc2#1",
+      "trim": {
+        "left": 238,
+        "top": 26,
+        "width": 524,
+        "height": 977
+      },
+      "width": 524,
+      "height": 977,
+      "bytes": 91202,
+      "sha256": "18d0e9100dfcf278ebc0fce097a196de5894f63e52414f4a0320a040f8ca12bd"
+    },
+    {
+      "id": "char_1030_noirc2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1030_noirc2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1030_noirc2_1.png",
+      "sourceBlobSha1": "0484632c5f65f6b997488c38c519437e4ea55397",
+      "sourceSha256": "b4ac1b534d11e46ada8835e08146ecd0bfc4afaaa2c24aa254b798427e67267c",
+      "skinId": "char_1030_noirc2#1",
+      "trim": {
+        "left": 0,
+        "top": 14,
+        "width": 180,
+        "height": 346
+      },
+      "width": 180,
+      "height": 346,
+      "bytes": 21220,
+      "sha256": "e1f5f0f21484008c90181b7eb1e620a82803eb242669d66240dd64bf90848b6d"
+    },
+    {
+      "id": "char_1030_noirc2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1030_noirc2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1030_noirc2_2b.png",
+      "sourceBlobSha1": "099b0ad1aa92695d9b8efaf5aeeeafc26080bf7c",
+      "sourceSha256": "a2e807ff54232eab4aa91e0abd97a0ea891f92e067c79ae93f7c8b7bf237578f",
+      "skinId": "char_1030_noirc2#2",
+      "trim": {
+        "left": 18,
+        "top": 174,
+        "width": 998,
+        "height": 685
+      },
+      "width": 998,
+      "height": 685,
+      "bytes": 165614,
+      "sha256": "73fbf4e818bfc0d1e719cb9131afe2e0c6cf9c8490fa5bc85eed1455e8ff4163"
+    },
+    {
+      "id": "char_1030_noirc2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1030_noirc2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1030_noirc2_2.png",
+      "sourceBlobSha1": "38c05cde8f134c281078a3939b58f6f4157bb111",
+      "sourceSha256": "a05d0064697db5f58e13cad9fd9c4a4ef4d399898c03fc9bd89a0fecdbd6c0fe",
+      "skinId": "char_1030_noirc2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 25298,
+      "sha256": "d083637456563defa9bf71e165ccc3245928c43d25190edc2dba302439a329f6"
+    },
+    {
+      "id": "char_1031_slent2",
+      "layer": "base",
+      "filename": "illustrations/char_1031_slent2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1031_slent2_1b.png",
+      "sourceBlobSha1": "ea7aabee7f132d0149e70af9116fe7156f4c7ff2",
+      "sourceSha256": "0f070d32fd49c9de19041e202f76746543f1704f9375e770ce6f756e71e93701",
+      "skinId": "char_1031_slent2#1",
+      "trim": {
+        "left": 79,
+        "top": 7,
+        "width": 816,
+        "height": 1012
+      },
+      "width": 816,
+      "height": 1012,
+      "bytes": 152110,
+      "sha256": "adf8227ae45a9126b5ce19a39a89a8f67c91c0456137f12bad2151cdddd0118d"
+    },
+    {
+      "id": "char_1031_slent2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1031_slent2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1031_slent2_1.png",
+      "sourceBlobSha1": "cc1b0800dda8c23eb65321b7a01f33c5753c0556",
+      "sourceSha256": "5418591db549e6ec5ac7320bd5f40475980838bffa21eddf7dd7a9221d421bb7",
+      "skinId": "char_1031_slent2#1",
+      "trim": {
+        "left": 0,
+        "top": 27,
+        "width": 180,
+        "height": 333
+      },
+      "width": 180,
+      "height": 333,
+      "bytes": 22384,
+      "sha256": "7114d2837406d3ef9a14e95f7ccd0a7a18ab3c5a8207c96610ca917199545523"
+    },
+    {
+      "id": "char_1031_slent2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1031_slent2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1031_slent2_2b.png",
+      "sourceBlobSha1": "31f6590bae38b00b390670a4c0e9e2f030169585",
+      "sourceSha256": "80e7b1a117e058bd72233f84b4f06eec68980c3937d86820da0ab82f18781d7c",
+      "skinId": "char_1031_slent2#2",
+      "trim": {
+        "left": 21,
+        "top": 132,
+        "width": 998,
+        "height": 756
+      },
+      "width": 998,
+      "height": 756,
+      "bytes": 167950,
+      "sha256": "4870baf9380956cf1d0102e9a34d44b3eded1366b8dd0261b31ae338a0b99211"
+    },
+    {
+      "id": "char_1031_slent2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1031_slent2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1031_slent2_2.png",
+      "sourceBlobSha1": "addf7f8c1d56ce93cbeef5a51dc2603b3d3e4661",
+      "sourceSha256": "eb7be18739944714859ddbf6fa13f15c8efcfa3b46b319abf1e576030f9a8170",
+      "skinId": "char_1031_slent2#2",
+      "trim": {
+        "left": 0,
+        "top": 24,
+        "width": 180,
+        "height": 336
+      },
+      "width": 180,
+      "height": 336,
+      "bytes": 22710,
+      "sha256": "ef644d19e164e0591dc7e5ca255f247a9d62e2abaebd34339d4dec4a777431c2"
+    },
+    {
+      "id": "char_1032_excu2",
+      "layer": "base",
+      "filename": "illustrations/char_1032_excu2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1032_excu2_1b.png",
+      "sourceBlobSha1": "b40bc86ca7d77581b5a1c68e0f115e732ffd6287",
+      "sourceSha256": "0b843e96dd2e806d336159a270c3e39aecff3eb0d9fa41f096e207cd19580bea",
+      "skinId": "char_1032_excu2#1",
+      "trim": {
+        "left": 123,
+        "top": 8,
+        "width": 792,
+        "height": 1004
+      },
+      "width": 792,
+      "height": 1004,
+      "bytes": 111468,
+      "sha256": "6a9cfbd4d8a1171b4b53412513e1e6944181228c33b29e185f6e326eb31e4fbe"
+    },
+    {
+      "id": "char_1032_excu2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1032_excu2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1032_excu2_1.png",
+      "sourceBlobSha1": "74b583a2a680ec39c56e10801335bbd199cd571d",
+      "sourceSha256": "626a8270884142fb9b26740ed205c1ca03514e83fc13782047ab86c93a287d32",
+      "skinId": "char_1032_excu2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 22512,
+      "sha256": "bdf27e777ab0bbd60d9e3db77736dc69d568f306651b637a84c79cfa50a7e24d"
+    },
+    {
+      "id": "char_1032_excu2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1032_excu2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1032_excu2_2b.png",
+      "sourceBlobSha1": "5fdafde1359d366c8d03bbf5ac06a18ae84165ce",
+      "sourceSha256": "7dde2cf5cc3e24956a964664420264b81581fbd366f296747ac0c786ae5b9dec",
+      "skinId": "char_1032_excu2#2",
+      "trim": {
+        "left": 19,
+        "top": 59,
+        "width": 992,
+        "height": 916
+      },
+      "width": 992,
+      "height": 916,
+      "bytes": 242888,
+      "sha256": "68ae5afa0c08a2d09fc4b5da8f572e20fc8debe8624cd5989f099c05a939c12a"
+    },
+    {
+      "id": "char_1032_excu2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1032_excu2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1032_excu2_2.png",
+      "sourceBlobSha1": "e82bb09a75cea034cd0a15c522ef94c42837c5c6",
+      "sourceSha256": "686f1e722144315957ce89cd4e049c4184b68e0db90bb4f9544a5a241942883a",
+      "skinId": "char_1032_excu2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 24034,
+      "sha256": "4299c9c8fdbb55148eff7387cf8616c2185cb0a9f728ecb896a2595c1d690e83"
+    },
+    {
+      "id": "char_1033_swire2",
+      "layer": "base",
+      "filename": "illustrations/char_1033_swire2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1033_swire2_1b.png",
+      "sourceBlobSha1": "08317aa98e827562b5af7b64013a76188b7c3a00",
+      "sourceSha256": "17902fd7311462c1adb523aad5bf1fc35fed7af5ed7ec8f6af8840f4b3fed70a",
+      "skinId": "char_1033_swire2#1",
+      "trim": {
+        "left": 106,
+        "top": 25,
+        "width": 833,
+        "height": 987
+      },
+      "width": 833,
+      "height": 987,
+      "bytes": 131688,
+      "sha256": "6a30d90a9cbbc75e5f7744a0fcbfa3f43e249cbbc94a5b793e09bdd52205487e"
+    },
+    {
+      "id": "char_1033_swire2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1033_swire2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1033_swire2_1.png",
+      "sourceBlobSha1": "f7197f4bcec197236187df3cebc4d2085fda7c6b",
+      "sourceSha256": "6eac276e83efd1e3f91322866f07e83dc7f8cba1f258bd66035ccc052cd31dab",
+      "skinId": "char_1033_swire2#1",
+      "trim": {
+        "left": 0,
+        "top": 13,
+        "width": 180,
+        "height": 347
+      },
+      "width": 180,
+      "height": 347,
+      "bytes": 19042,
+      "sha256": "ffecafd16de6b01950419a680d3a173c2c0d9ae3f7626120fc535d31d860c8c0"
+    },
+    {
+      "id": "char_1033_swire2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1033_swire2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1033_swire2_2b.png",
+      "sourceBlobSha1": "9995210b72095e6a3d9160b253c7da060b4e6d23",
+      "sourceSha256": "f4d5d6ef436d250744cb76388b4fd0c3494e122fdc2b2368f8484849542aaae8",
+      "skinId": "char_1033_swire2#2",
+      "trim": {
+        "left": 20,
+        "top": 146,
+        "width": 1002,
+        "height": 816
+      },
+      "width": 1002,
+      "height": 816,
+      "bytes": 225732,
+      "sha256": "03fa66b06a3d57436b53c93c5c6eceeb52575abbf30a0a2575dc300f3c6d2aad"
+    },
+    {
+      "id": "char_1033_swire2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1033_swire2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1033_swire2_2.png",
+      "sourceBlobSha1": "7b53e81f82c304d28db48c63ba9ccdc7c572cd63",
+      "sourceSha256": "dcef995e7549a58b60b5ea3db9af8c03f9e7af63dde6fecdcfcdf1f75b7fe9d3",
+      "skinId": "char_1033_swire2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 19474,
+      "sha256": "8e0f2d18dad3e606e3ea2374620e28211a904e9bdb002d6d8a2f8327a015ba83"
+    },
+    {
+      "id": "char_1034_jesca2",
+      "layer": "base",
+      "filename": "illustrations/char_1034_jesca2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1034_jesca2_1b.png",
+      "sourceBlobSha1": "5816dc121eb5d2ca9b4679d6e80855518441fece",
+      "sourceSha256": "e213090f93cfa9e95365c17e1de0bb04f9d5681aceb769def63bd442fca72bf2",
+      "skinId": "char_1034_jesca2#1",
+      "trim": {
+        "left": 263,
+        "top": 13,
+        "width": 497,
+        "height": 997
+      },
+      "width": 497,
+      "height": 997,
+      "bytes": 90372,
+      "sha256": "7d7708ba3939ffffb635270f398921e7e52f0f5c148ce7d3869ec62bd833e83d"
+    },
+    {
+      "id": "char_1034_jesca2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1034_jesca2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1034_jesca2_1.png",
+      "sourceBlobSha1": "1a717f28c01ad00df54bc7463d1e6b302083e1e3",
+      "sourceSha256": "664c0d76a7270b0ff4189f2da3549cac15ab056a5ff00a1e2ee19a83049ba50b",
+      "skinId": "char_1034_jesca2#1",
+      "trim": {
+        "left": 0,
+        "top": 9,
+        "width": 180,
+        "height": 351
+      },
+      "width": 180,
+      "height": 351,
+      "bytes": 19994,
+      "sha256": "d3bd5916291bb2786f2f3e2929964d93583e8145319fc6133867314c06fbb7b4"
+    },
+    {
+      "id": "char_1034_jesca2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1034_jesca2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1034_jesca2_2b.png",
+      "sourceBlobSha1": "d2f1cee3de0bbbd657d25abeb8e7b2546603cced",
+      "sourceSha256": "a58d1db8b970b2cc9514ceffc2368a6f406f0e1daf91516532db180491e7a11e",
+      "skinId": "char_1034_jesca2#2",
+      "trim": {
+        "left": 2,
+        "top": 89,
+        "width": 1011,
+        "height": 836
+      },
+      "width": 1011,
+      "height": 836,
+      "bytes": 133414,
+      "sha256": "fd31655612a286b4fb6a1070a9bd229266087209d23c489d76cccc07f54047ab"
+    },
+    {
+      "id": "char_1034_jesca2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1034_jesca2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1034_jesca2_2.png",
+      "sourceBlobSha1": "e37a4c1f152615fc3c84253d985aeaaf0734a032",
+      "sourceSha256": "e946f7e8c6d9b3d2565413032eaeaa99be7f8fab4948a93009c2acc0d5c4e993",
+      "skinId": "char_1034_jesca2#2",
+      "trim": {
+        "left": 0,
+        "top": 20,
+        "width": 180,
+        "height": 340
+      },
+      "width": 180,
+      "height": 340,
+      "bytes": 15404,
+      "sha256": "38655d529e819708c93e7bbd0da7ce598712d9f3d8520c6237b0c7b68bf8e5ce"
+    },
+    {
+      "id": "char_1035_wisdel",
+      "layer": "base",
+      "filename": "illustrations/char_1035_wisdel-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1035_wisdel_1b.png",
+      "sourceBlobSha1": "f917a65a3c9d797f50ab207aef22408b58a57f7a",
+      "sourceSha256": "462cd295c45f6c88de3e4ae70e4bd4b2ff7ce70511d21dfec45377f4af0d5633",
+      "skinId": "char_1035_wisdel#1",
+      "trim": {
+        "left": 134,
+        "top": 9,
+        "width": 705,
+        "height": 1012
+      },
+      "width": 705,
+      "height": 1012,
+      "bytes": 148444,
+      "sha256": "56b4b652a1cb8377215e6bff497fe6ccc5d1b430ffc8590a87ba02a46ae7a2ce"
+    },
+    {
+      "id": "char_1035_wisdel",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1035_wisdel-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1035_wisdel_1.png",
+      "sourceBlobSha1": "876ee3c283c6558025366fc70ac25a58f0992f99",
+      "sourceSha256": "33a3cd80531c2e9ebc13e5d9e7b7d1ebec30cca22876031bc54873ba51241e0e",
+      "skinId": "char_1035_wisdel#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 30260,
+      "sha256": "0ba7e4ee11558548055c22416ddbe4171d4dc28b8c14bf8b3bbc00dddc944fb3"
+    },
+    {
+      "id": "char_1035_wisdel",
+      "layer": "elite2",
+      "filename": "illustrations/char_1035_wisdel-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1035_wisdel_2b.png",
+      "sourceBlobSha1": "ac8547e9aa95182f3f9ea758009e32bf39eee49a",
+      "sourceSha256": "06dde7464bcd628dccb40bd22ffe824c26ef4fe8acb5298c6a1b45c18fbe49b1",
+      "skinId": "char_1035_wisdel#2",
+      "trim": {
+        "left": 19,
+        "top": 120,
+        "width": 997,
+        "height": 848
+      },
+      "width": 997,
+      "height": 848,
+      "bytes": 200000,
+      "sha256": "978dfc0d12494f3bac909a4329ad1e6cae106a97a2556df675ab09880336b9cb"
+    },
+    {
+      "id": "char_1035_wisdel",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1035_wisdel-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1035_wisdel_2.png",
+      "sourceBlobSha1": "ec129ce566f18f6d0df2f49712218169440f2208",
+      "sourceSha256": "9d7ee11ff4a69d029bd7ae8aa866d58f1fb8d5d904392f894a49b9012a65b409",
+      "skinId": "char_1035_wisdel#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 27170,
+      "sha256": "e5fe125110e6df773eac30e6eb7c338d2e308d65229368224ee4b551a933fa65"
+    },
+    {
+      "id": "char_1036_fang2",
+      "layer": "base",
+      "filename": "illustrations/char_1036_fang2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1036_fang2_1.png",
+      "sourceBlobSha1": "7f1f57931c0e6c86785b596e51e9ab25976be22c",
+      "sourceSha256": "4cbb55457476220d5ed0672f79eaf088df68957d19268c5d85610c5c78fc3772",
+      "skinId": "char_1036_fang2#1",
+      "trim": {
+        "left": 190,
+        "top": 20,
+        "width": 843,
+        "height": 1263
+      },
+      "width": 843,
+      "height": 1263,
+      "bytes": 139206,
+      "sha256": "51f180d9a0b28125e689b6da9ff0abcb854539a47a6bb2e95bdc89bb668d620d"
+    },
+    {
+      "id": "char_1036_fang2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1036_fang2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1036_fang2_1.png",
+      "sourceBlobSha1": "8398dd20dda2253deb44e0afcfed38f9920e27b1",
+      "sourceSha256": "cbf570ccea0e16adc0952e956ccdde79f5672d9c011dbe9ee993d21d14efcdc0",
+      "skinId": "char_1036_fang2#1",
+      "trim": {
+        "left": 0,
+        "top": 11,
+        "width": 180,
+        "height": 349
+      },
+      "width": 180,
+      "height": 349,
+      "bytes": 19146,
+      "sha256": "1c81f029eb091e39e165aee7cc421562318ce37b0a6af343be8269f81aa9bccc"
+    },
+    {
+      "id": "char_1036_fang2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1036_fang2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1036_fang2_2b.png",
+      "sourceBlobSha1": "a4523276c1f43aa67281058acb80e6e81c5f376d",
+      "sourceSha256": "4ecf92bd5236f162d4222a91b26a900bc2082f342b29202e8e65dc2717388f83",
+      "skinId": "char_1036_fang2#2",
+      "trim": {
+        "left": 10,
+        "top": 155,
+        "width": 1003,
+        "height": 783
+      },
+      "width": 1003,
+      "height": 783,
+      "bytes": 188814,
+      "sha256": "e20aa505a12d236ce957f4fdebb1d077ecdd544f69b38bcdd5bc285a3c1ed7f6"
+    },
+    {
+      "id": "char_1036_fang2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1036_fang2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1036_fang2_2.png",
+      "sourceBlobSha1": "9b28d440f1536cdb379e2622003d2ac8d091b5cc",
+      "sourceSha256": "b2fe49316b1ca77478c016c827e2969056296a3d97c2a4286bed66be6051fe89",
+      "skinId": "char_1036_fang2#2",
+      "trim": {
+        "left": 0,
+        "top": 11,
+        "width": 180,
+        "height": 349
+      },
+      "width": 180,
+      "height": 349,
+      "bytes": 18700,
+      "sha256": "a2d76a27eeae59066fb36268e2b3393160750d5869117bad89ab895685b958f7"
+    },
+    {
+      "id": "char_1038_whitw2",
+      "layer": "base",
+      "filename": "illustrations/char_1038_whitw2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1038_whitw2_1b.png",
+      "sourceBlobSha1": "aa3fa7018124ceeaeaa209f4169e41d905d44fcd",
+      "sourceSha256": "409d3a47d565612d7baeda82b6944b151fa7b14003241447071f09151498a676",
+      "skinId": "char_1038_whitw2#1",
+      "trim": {
+        "left": 1,
+        "top": 84,
+        "width": 1021,
+        "height": 881
+      },
+      "width": 1021,
+      "height": 881,
+      "bytes": 187394,
+      "sha256": "13e73b22ad0a507d78713f6d0f7f99fa347ff2ea946f17a19f1fc438c2724949"
+    },
+    {
+      "id": "char_1038_whitw2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1038_whitw2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1038_whitw2_1.png",
+      "sourceBlobSha1": "24f0e099e0996bc2f0486f8459e6b134cc901222",
+      "sourceSha256": "3b7e32764e1d981da3ff968bec50d1d4bfa123b1a60621d4062bdefc71a84085",
+      "skinId": "char_1038_whitw2#1",
+      "trim": {
+        "left": 0,
+        "top": 31,
+        "width": 180,
+        "height": 329
+      },
+      "width": 180,
+      "height": 329,
+      "bytes": 19666,
+      "sha256": "be5c3a0310cba8c064f2d741d7113fbe55a743b7af5d96e808fa9a4b79fcfac8"
+    },
+    {
+      "id": "char_1038_whitw2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1038_whitw2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1038_whitw2_2b.png",
+      "sourceBlobSha1": "8cf7fa23346de952b5b7ec4c23cbd538b1bf457e",
+      "sourceSha256": "01d1736b09b7cf7f25abbc3f7c84d0e52e3cc80d3f6a7faeea028f3fa984a273",
+      "skinId": "char_1038_whitw2#2",
+      "trim": {
+        "left": 0,
+        "top": 51,
+        "width": 1023,
+        "height": 814
+      },
+      "width": 1023,
+      "height": 814,
+      "bytes": 151534,
+      "sha256": "2ce192c9568020b3cb6d3842c9a5ae63a10fb073656e0c7d9c74da07ea8a1129"
+    },
+    {
+      "id": "char_1038_whitw2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1038_whitw2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1038_whitw2_2.png",
+      "sourceBlobSha1": "86738ff97e9783d9fb62cf9fb72fc9889235802e",
+      "sourceSha256": "d3565181e15a4c63c59d9b4b61429868f383c6ef409a088fc0a135ca2dee3eaa",
+      "skinId": "char_1038_whitw2#2",
+      "trim": {
+        "left": 0,
+        "top": 34,
+        "width": 180,
+        "height": 326
+      },
+      "width": 180,
+      "height": 326,
+      "bytes": 20142,
+      "sha256": "584340cf6afd7c101b8e37a0aca9e81dc5d808aabc702488a218f228c1d7dfea"
+    },
+    {
+      "id": "char_1039_thorn2",
+      "layer": "base",
+      "filename": "illustrations/char_1039_thorn2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1039_thorn2_1.png",
+      "sourceBlobSha1": "a6f24c238b141accb3909412e8da8e0b2702c8b2",
+      "sourceSha256": "87ba08a59dd86ba98da1bae16b88928c2a252f94e90f773fb96258b587970074",
+      "skinId": "char_1039_thorn2#1",
+      "trim": {
+        "left": 263,
+        "top": 0,
+        "width": 793,
+        "height": 1306
+      },
+      "width": 793,
+      "height": 1306,
+      "bytes": 269792,
+      "sha256": "781a3288209de491772a0a2ac5f2a0ffb64a0b562d8a7e8945f129ba41508b16"
+    },
+    {
+      "id": "char_1039_thorn2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1039_thorn2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1039_thorn2_1.png",
+      "sourceBlobSha1": "e94b2c3b17457b00cc5a2794f4ee96df0e931d97",
+      "sourceSha256": "dc225e654467163c80551b6a4d57f3c70dc441fa3dce7947f6924802ce451ca4",
+      "skinId": "char_1039_thorn2#1",
+      "trim": {
+        "left": 0,
+        "top": 29,
+        "width": 180,
+        "height": 331
+      },
+      "width": 180,
+      "height": 331,
+      "bytes": 19516,
+      "sha256": "b9dba9204fc2d1c662fe24dd2ac4662e35f5c3de80f985ac206109e023b3bc77"
+    },
+    {
+      "id": "char_1039_thorn2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1039_thorn2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1039_thorn2_2b.png",
+      "sourceBlobSha1": "ee6c66cc6080dfce01526565d25204a6e6ae0bd4",
+      "sourceSha256": "18a070e4e07d92b1a97456b8aaa52ca14bbaf4d66f0277e9a9d1c8f5a49659e2",
+      "skinId": "char_1039_thorn2#2",
+      "trim": {
+        "left": 1,
+        "top": 47,
+        "width": 1022,
+        "height": 894
+      },
+      "width": 1022,
+      "height": 894,
+      "bytes": 159722,
+      "sha256": "6ba214621e28fa520e6a9e24c24595e790c73cf705da0ec31425330a60b540fa"
+    },
+    {
+      "id": "char_1039_thorn2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1039_thorn2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1039_thorn2_2.png",
+      "sourceBlobSha1": "205795e2b24e919551e1a235e13e9cd3f5766995",
+      "sourceSha256": "0a0457d2df9caccf2dcfa550a78dec6211e2a053595ae5e3fc86deb3bf082e7f",
+      "skinId": "char_1039_thorn2#2",
+      "trim": {
+        "left": 0,
+        "top": 18,
+        "width": 180,
+        "height": 342
+      },
+      "width": 180,
+      "height": 342,
+      "bytes": 20104,
+      "sha256": "ca77c8b338ebfdd1f8a43a6831ecb22dc9ef1149916f813ce4d72514f99b9152"
+    },
+    {
+      "id": "char_1040_blaze2",
+      "layer": "base",
+      "filename": "illustrations/char_1040_blaze2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1040_blaze2_1b.png",
+      "sourceBlobSha1": "1c91b1b1374a2fb67b03a5ce77b21acceb5f10af",
+      "sourceSha256": "2932080410aedc88d9c41bf18ff578357020dc55e731eb29830364a57b668053",
+      "skinId": "char_1040_blaze2#1",
+      "trim": {
+        "left": 100,
+        "top": 1,
+        "width": 802,
+        "height": 1017
+      },
+      "width": 802,
+      "height": 1017,
+      "bytes": 158628,
+      "sha256": "8d215a3a30bd68b05f616f81b4fe432187b1ef97502cd3e736c2e6d0731c6805"
+    },
+    {
+      "id": "char_1040_blaze2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1040_blaze2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1040_blaze2_1.png",
+      "sourceBlobSha1": "4f93b9e090016403cd3f9057880e5738844cd045",
+      "sourceSha256": "3903bb52c29dd0a448dd2da7b3f9c357174e1d2dce1afd1b53a167570c3ad1dd",
+      "skinId": "char_1040_blaze2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 27410,
+      "sha256": "e47d5b94b3bdbbf385e03dea94ed1b7eeb09310ab6c7b4cc289b6a47fd026351"
+    },
+    {
+      "id": "char_1040_blaze2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1040_blaze2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1040_blaze2_2b.png",
+      "sourceBlobSha1": "289ae0b398f1f5a80ff7e8f04ef3325b151cb1c4",
+      "sourceSha256": "e9e0117518e42277b82d44d022a01f34f6951401aec8869a06381e724dcb3d67",
+      "skinId": "char_1040_blaze2#2",
+      "trim": {
+        "left": 45,
+        "top": 0,
+        "width": 917,
+        "height": 1023
+      },
+      "width": 917,
+      "height": 1023,
+      "bytes": 230856,
+      "sha256": "d1281d8fda17b41e06c1be1d7cbc120eac2e05900f16346b17a79cc51c124f9e"
+    },
+    {
+      "id": "char_1040_blaze2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1040_blaze2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1040_blaze2_2.png",
+      "sourceBlobSha1": "b7dc7b6658cdfb99390991ea0c05d0dc26f95fdd",
+      "sourceSha256": "0caddab7814ce77686ee718de3330ccb6d4e4a750488ddb4fd103c55d6333e84",
+      "skinId": "char_1040_blaze2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 25404,
+      "sha256": "f67880185c778040ba444ff838c9be63901c94d3c5c713d1251b21d35a7b2c17"
+    },
+    {
+      "id": "char_1041_angel2",
+      "layer": "base",
+      "filename": "illustrations/char_1041_angel2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1041_angel2_1b.png",
+      "sourceBlobSha1": "8a847009e6817fae64d312461f992be739dc4246",
+      "sourceSha256": "d05ffa7a34aa38de17ea9c9c1f3adce8c68d058a335f8e208f9e8f0703616729",
+      "skinId": "char_1041_angel2#1",
+      "trim": {
+        "left": 102,
+        "top": 10,
+        "width": 898,
+        "height": 1006
+      },
+      "width": 898,
+      "height": 1006,
+      "bytes": 135124,
+      "sha256": "57edf74f5af7b479ec742d25152e38f644b773bdb5d8831ac6bc09eaefe0e85f"
+    },
+    {
+      "id": "char_1041_angel2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1041_angel2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1041_angel2_1.png",
+      "sourceBlobSha1": "19b0c5e03b466c17b3a5e472fdff341c43d4a4ea",
+      "sourceSha256": "af046b0a6260c21c9f26ce28260e1d0b63c69378b56f0b87662a1b2b9fe8d898",
+      "skinId": "char_1041_angel2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 25244,
+      "sha256": "c7114ea716027e4596d094a3c6a1dce186ffd149d1e731e334a2121d180b006a"
+    },
+    {
+      "id": "char_1041_angel2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1041_angel2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1041_angel2_2b.png",
+      "sourceBlobSha1": "93c5a78aa536ecea82ff30decb07b0567310f513",
+      "sourceSha256": "5e0ab621ccfe83f043fed728b8ff10cd87f53facadaee1697cc660d63667609f",
+      "skinId": "char_1041_angel2#2",
+      "trim": {
+        "left": 3,
+        "top": 13,
+        "width": 1021,
+        "height": 1001
+      },
+      "width": 1021,
+      "height": 1001,
+      "bytes": 191332,
+      "sha256": "b176c5e8fcf5c4f63a95ab02a986f675f704444f61bb5ae6245b0e1ed83ff4d6"
+    },
+    {
+      "id": "char_1041_angel2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1041_angel2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1041_angel2_2.png",
+      "sourceBlobSha1": "064d35076bb104b6609eb2c91a0966829115a097",
+      "sourceSha256": "05abd16f4596421e59b74d6877d84158f5c550790b338db3c3a2fe737908370a",
+      "skinId": "char_1041_angel2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 27146,
+      "sha256": "376de929ff497b9d24677f895d9adfb4b2bb65471699b3b83c6eba853b9f6cf9"
+    },
+    {
+      "id": "char_1042_phatm2",
+      "layer": "base",
+      "filename": "illustrations/char_1042_phatm2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1042_phatm2_1b.png",
+      "sourceBlobSha1": "d54bc68b0cc06f348f3f272275d2202000307992",
+      "sourceSha256": "dd2aae9e72c46cf88fb431b62fbd6648a11ceb9fff14a7f597ed27354c43e61e",
+      "skinId": "char_1042_phatm2#1",
+      "trim": {
+        "left": 132,
+        "top": 5,
+        "width": 784,
+        "height": 1018
+      },
+      "width": 784,
+      "height": 1018,
+      "bytes": 121248,
+      "sha256": "3d08fb33e00c3983095bc10d6c0a90e18aa23770c74b76a852ff2e4309955539"
+    },
+    {
+      "id": "char_1042_phatm2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1042_phatm2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1042_phatm2_1.png",
+      "sourceBlobSha1": "e42c97d7601c82db8806ccc398733242afc83d9a",
+      "sourceSha256": "e4da4f45de644f9d947c7013a5232d5f95db6d0d181407b19cbb85a10a598c08",
+      "skinId": "char_1042_phatm2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 22574,
+      "sha256": "6db973ed99e3b13f156eb2f5ac479aa17291e77d1029510074b2daaed945f6fb"
+    },
+    {
+      "id": "char_1042_phatm2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1042_phatm2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1042_phatm2_2b.png",
+      "sourceBlobSha1": "c368297f2182304c17e88027ba94795c6a7ef02f",
+      "sourceSha256": "ac5fb088a75786e3919b6b3e9e6565bc5a694e4f252f88b3460d1bbb96e01115",
+      "skinId": "char_1042_phatm2#2",
+      "trim": {
+        "left": 2,
+        "top": 33,
+        "width": 1018,
+        "height": 968
+      },
+      "width": 1018,
+      "height": 968,
+      "bytes": 211120,
+      "sha256": "edd72e581def620fe1758eeda3e8009b5ec7b8f6551cbe890a9e8f861ad61fbe"
+    },
+    {
+      "id": "char_1042_phatm2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1042_phatm2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1042_phatm2_2.png",
+      "sourceBlobSha1": "20e532b7583254c4e0fcd0b1cff78b84a1a0b96e",
+      "sourceSha256": "23ee8fc67d9b38112690ae80f2663a4c376b7d9880ac41bba4afbd21a1c07005",
+      "skinId": "char_1042_phatm2#2",
+      "trim": {
+        "left": 0,
+        "top": 5,
+        "width": 180,
+        "height": 355
+      },
+      "width": 180,
+      "height": 355,
+      "bytes": 20578,
+      "sha256": "f5e19b96ce2c46dfab40a61f8fa9f7a7a456dc46851ce2e8d92acd7bef6cb6e4"
+    },
+    {
+      "id": "char_1043_leizi2",
+      "layer": "base",
+      "filename": "illustrations/char_1043_leizi2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1043_leizi2_1.png",
+      "sourceBlobSha1": "7b771681c30641af92cd21081f437939dd7bcff2",
+      "sourceSha256": "28c97b887b2f553a563ef60c98ceb324761d565339fc777a9549b4446c0554a1",
+      "skinId": "char_1043_leizi2#1",
+      "trim": {
+        "left": 145,
+        "top": 11,
+        "width": 831,
+        "height": 1351
+      },
+      "width": 831,
+      "height": 1351,
+      "bytes": 209802,
+      "sha256": "c6ae3fb0d164a9eba6393e8047a74a3245b7a1dbc509499ac0f7dfeb070eacc7"
+    },
+    {
+      "id": "char_1043_leizi2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1043_leizi2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1043_leizi2_1.png",
+      "sourceBlobSha1": "762a79945036f8a5d8f2d93396bc1736060a0cdd",
+      "sourceSha256": "c8c7323e566be5d708c71284d605c1d64cbf10a475ad1439ce55056d1888c080",
+      "skinId": "char_1043_leizi2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 29650,
+      "sha256": "a660392dba2927e8616ba15bf235e9d3b1971036ff1153fbdacb219bcd0de467"
+    },
+    {
+      "id": "char_1043_leizi2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1043_leizi2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1043_leizi2_2b.png",
+      "sourceBlobSha1": "4a5c8ac1b5863afa73c13fd6b8daec2506b3ade8",
+      "sourceSha256": "d3e831a3bb364cef19ed8c5163cb103b9d684d43c30879ac02d860d37cc36a87",
+      "skinId": "char_1043_leizi2#2",
+      "trim": {
+        "left": 49,
+        "top": 5,
+        "width": 969,
+        "height": 1019
+      },
+      "width": 969,
+      "height": 1019,
+      "bytes": 266324,
+      "sha256": "ef50eae706f9db9e17de65595c64d84fa995311e3053ba86aae894f7a03a2f38"
+    },
+    {
+      "id": "char_1043_leizi2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1043_leizi2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1043_leizi2_2.png",
+      "sourceBlobSha1": "8210735ccb46d1e95a41da94dc328cf8fce70504",
+      "sourceSha256": "5bfd66ef2e496b8a86684cbbc9524f767204642b815c4025a3065300d3aab0b9",
+      "skinId": "char_1043_leizi2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 33836,
+      "sha256": "00234218e0b265377502766655cf5c189d2571118e8525dc3447890c8fb0ae74"
+    },
+    {
+      "id": "char_1044_hsgma2",
+      "layer": "base",
+      "filename": "illustrations/char_1044_hsgma2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1044_hsgma2_1b.png",
+      "sourceBlobSha1": "d23f898dbe5ff84d4da893b17ecba5a2d45c0508",
+      "sourceSha256": "5a25f1538352c791d2683ec05f058d778afb7a96026ddd42194cba70c6f4ef48",
+      "skinId": "char_1044_hsgma2#1",
+      "trim": {
+        "left": 76,
+        "top": 17,
+        "width": 835,
+        "height": 1002
+      },
+      "width": 835,
+      "height": 1002,
+      "bytes": 165264,
+      "sha256": "c5084be88e076f31d38c4fba8ba46a226632138684934803275e81b2d677bc18"
+    },
+    {
+      "id": "char_1044_hsgma2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1044_hsgma2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1044_hsgma2_1.png",
+      "sourceBlobSha1": "310732c0456b092e9587542741545cf7e72c0444",
+      "sourceSha256": "de1eb9445aa50fb81ea0b02bca735a09e1f473f12944d2bf48785cfc86ac7b75",
+      "skinId": "char_1044_hsgma2#1",
+      "trim": {
+        "left": 0,
+        "top": 23,
+        "width": 180,
+        "height": 337
+      },
+      "width": 180,
+      "height": 337,
+      "bytes": 23846,
+      "sha256": "e1488b27951a1d4f2bf8b3f89469591819da6fa6ad319b8a5f86ef1a676b1a36"
+    },
+    {
+      "id": "char_1044_hsgma2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1044_hsgma2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1044_hsgma2_2b.png",
+      "sourceBlobSha1": "22cee22dac2090b48e2b0e4d466f39f2b2ae0e02",
+      "sourceSha256": "ca06bb4f6fa81825150f319ba950cadf21cb34611ae6e5eefbeb985daeaf8476",
+      "skinId": "char_1044_hsgma2#2",
+      "trim": {
+        "left": 30,
+        "top": 2,
+        "width": 972,
+        "height": 1022
+      },
+      "width": 972,
+      "height": 1022,
+      "bytes": 228638,
+      "sha256": "d641bc19b8e83afb680b32fb1342c93ef5b040e62d0e3a96093dbec91d4332e3"
+    },
+    {
+      "id": "char_1044_hsgma2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1044_hsgma2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpor/char_1044_hsgma2_2.png",
+      "sourceBlobSha1": "6607e8995a44b9a3279cea2a81d4fa27b36ae689",
+      "sourceSha256": "39dfaf3f00530386cf7d40bf20cb43f78e517d496e4879e31a97c18ed2fbdb50",
+      "skinId": "char_1044_hsgma2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 29214,
+      "sha256": "977dc5e13d5e092c2e11534ecdf7f7547dc8c0438e8aab86759cc8de550682d7"
+    },
+    {
+      "id": "char_1045_svash2",
+      "layer": "base",
+      "filename": "illustrations/char_1045_svash2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1045_svash2_1b.png",
+      "sourceBlobSha1": "0a03ad3ca268d0d58af99e86adc4074fcfbaf926",
+      "sourceSha256": "4ea0eaf50d01b392d1c4ba926fd9f85eed2d8e56426951a7ae51d9a6dd34df78",
+      "skinId": "char_1045_svash2#1",
+      "trim": {
+        "left": 43,
+        "top": 6,
+        "width": 942,
+        "height": 1018
+      },
+      "width": 942,
+      "height": 1018,
+      "bytes": 149840,
+      "sha256": "028dab641d777dba8f3d335f9f0cb6efbb11a95589925dd81fd92b0f8bde28d8"
+    },
+    {
+      "id": "char_1045_svash2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1045_svash2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1045_svash2_1.png",
+      "sourceSha256": "67ef7f815f995fb07ac31c1a8bc2ca46458a72be299ad38976bc393f453ef463",
+      "skinId": "char_1045_svash2#1",
+      "trim": {
+        "left": 0,
+        "top": 3,
+        "width": 180,
+        "height": 357
+      },
+      "width": 180,
+      "height": 357,
+      "bytes": 22052,
+      "sha256": "52b7360b6cff843c08a309c06f6229b841bc6d54c07b8c953777bee53ee76aa0"
+    },
+    {
+      "id": "char_1045_svash2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1045_svash2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1045_svash2_2b.png",
+      "sourceBlobSha1": "aef84f5ad9ba76be547d998bbaf05c7855cb33b2",
+      "sourceSha256": "2202e2c4cc00ca3347a301001f296b48a175769caa47fefc6326d6594f2e9656",
+      "skinId": "char_1045_svash2#2",
+      "trim": {
+        "left": 6,
+        "top": 81,
+        "width": 1016,
+        "height": 869
+      },
+      "width": 1016,
+      "height": 869,
+      "bytes": 252312,
+      "sha256": "34038ef1d70cec041b577b323dc8e2fd58af5e6b665dc9b431b949f2091ecada"
+    },
+    {
+      "id": "char_1045_svash2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1045_svash2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1045_svash2_2.png",
+      "sourceSha256": "4f6ada8f9d2f31fb0e34a881c754529866441a3b15cf00a92454cc0802092078",
+      "skinId": "char_1045_svash2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 20912,
+      "sha256": "6022f07676f3e787ff7b335051ccc89753e48c0f370b55909fdb6361cb7a103e"
+    },
+    {
+      "id": "char_1046_sbell2",
+      "layer": "base",
+      "filename": "illustrations/char_1046_sbell2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1046_sbell2_1.png",
+      "sourceBlobSha1": "f1385a39b99a6df91a59d5888e727d3d17fe1c46",
+      "sourceSha256": "c554c358c1bfce6567394dfeac7dc007881b6610d05ffbeccb420fb38399065d",
+      "skinId": "char_1046_sbell2#1",
+      "trim": {
+        "left": 65,
+        "top": 18,
+        "width": 1276,
+        "height": 1382
+      },
+      "width": 1276,
+      "height": 1382,
+      "bytes": 351226,
+      "sha256": "98435157caafaeccbec1377bf1e77f2d7131cff81776de81bc9ff8b6aca68268"
+    },
+    {
+      "id": "char_1046_sbell2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1046_sbell2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1046_sbell2_1.png",
+      "sourceSha256": "5b23ef16d82468174c91e498cd47f357cd8c8f8ec6e30166034ecbb0f6e1ff1c",
+      "skinId": "char_1046_sbell2#1",
+      "trim": {
+        "left": 0,
+        "top": 6,
+        "width": 180,
+        "height": 354
+      },
+      "width": 180,
+      "height": 354,
+      "bytes": 27670,
+      "sha256": "5fbe06fc2995c7594892061ef4af5f328994d4669a7824419dd7549301293b51"
+    },
+    {
+      "id": "char_1046_sbell2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1046_sbell2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1046_sbell2_2b.png",
+      "sourceBlobSha1": "0ed869cf76a4b85575ad08645571d75655b10efa",
+      "sourceSha256": "5ce0af099be996918a85d1b164b0d81c7d5e868932274239d2fc87094002d092",
+      "skinId": "char_1046_sbell2#2",
+      "trim": {
+        "left": 8,
+        "top": 32,
+        "width": 1013,
+        "height": 966
+      },
+      "width": 1013,
+      "height": 966,
+      "bytes": 333578,
+      "sha256": "961b254517db5b233f690ba1a561ca5d8babe3cfe369f3764cdffadcc0bcc60c"
+    },
+    {
+      "id": "char_1046_sbell2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1046_sbell2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1046_sbell2_2.png",
+      "sourceSha256": "90f955d26b0c8be89f51beed76390512f0c99ca73f45853967c5623a1edc68e3",
+      "skinId": "char_1046_sbell2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 22890,
+      "sha256": "b5393978d70dae9cc29567e000330e51813236ef2cd1ce3253002cbc6a93495d"
+    },
+    {
+      "id": "char_1047_halo2",
+      "layer": "base",
+      "filename": "illustrations/char_1047_halo2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1047_halo2_1.png",
+      "sourceBlobSha1": "9331709296d044ca1c46715711fcf2adc7b44e1b",
+      "sourceSha256": "f73f77f419c3c8d3d933f5ba558d7833dd9fa96023e2f88a86511ec1166415a5",
+      "skinId": "char_1047_halo2#1",
+      "trim": {
+        "left": 117,
+        "top": 8,
+        "width": 1139,
+        "height": 1360
+      },
+      "width": 1139,
+      "height": 1360,
+      "bytes": 269724,
+      "sha256": "9e80672ea8c23706c273357877bdec16c69654404d7a27eedfeb328cd3e8324b"
+    },
+    {
+      "id": "char_1047_halo2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1047_halo2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1047_halo2_1.png",
+      "sourceSha256": "cc6dc4934c6e0765ab7daa5c974a2f35e3c0aed5090d6b9553d874c3f773e54a",
+      "skinId": "char_1047_halo2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 26662,
+      "sha256": "69b192788f91a87114d8589b05ed6bf3dd9339d4b760e0043dfccf76dc27c69d"
+    },
+    {
+      "id": "char_1047_halo2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1047_halo2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1047_halo2_2b.png",
+      "sourceBlobSha1": "7ed944fdc5b1d756e15de3f722ba8250fd1bba8f",
+      "sourceSha256": "bf6e2eee9fb73ce66a246f696458f6285083c7f9548bdf4d196c540da4db3d08",
+      "skinId": "char_1047_halo2#2",
+      "trim": {
+        "left": 10,
+        "top": 47,
+        "width": 1006,
+        "height": 935
+      },
+      "width": 1006,
+      "height": 935,
+      "bytes": 175698,
+      "sha256": "7cd424bd74523c6e7ed5677448330ca7ab2eed1f19bde53fe04a09113ef6152a"
+    },
+    {
+      "id": "char_1047_halo2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1047_halo2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1047_halo2_2.png",
+      "sourceSha256": "1083bec6c0e9a9fa1b08e4431c8f8e9ebb04f7020bcc107d20eb41c414f78e63",
+      "skinId": "char_1047_halo2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 25298,
+      "sha256": "6fff6d96346084917a232812ff1fe2bc8940c0596c97b54a1cb1a4b54caaf629"
+    },
+    {
+      "id": "char_1048_orchd2",
+      "layer": "base",
+      "filename": "illustrations/char_1048_orchd2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1048_orchd2_1b.png",
+      "sourceBlobSha1": "33aec9159f84c2b4e111fe8549761173c5cdb29f",
+      "sourceSha256": "9e0a2be72b390422fa2c7bf0d6602f262c1e26527dbb147d9fba60171f562cca",
+      "skinId": "char_1048_orchd2#1",
+      "trim": {
+        "left": 5,
+        "top": 61,
+        "width": 1012,
+        "height": 911
+      },
+      "width": 1012,
+      "height": 911,
+      "bytes": 152526,
+      "sha256": "c59d42c2e570efba276e003dbf6dfc5eb1a530f39cc34439ba063682b5888896"
+    },
+    {
+      "id": "char_1048_orchd2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1048_orchd2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1048_orchd2_1.png",
+      "sourceSha256": "bd207d2175291286e2365a5913fa2f1c3582cc96a739a0f5b87914fb531847e0",
+      "skinId": "char_1048_orchd2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 26548,
+      "sha256": "af348c7d0df15c8235242160df8429bda8bfd56e3e4f3011b4bef90f7c434dc8"
+    },
+    {
+      "id": "char_1048_orchd2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1048_orchd2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1048_orchd2_2b.png",
+      "sourceBlobSha1": "a7454b23bcd5b15723edf581101d4ccbdef623ca",
+      "sourceSha256": "32992111cda5ad12f22f765b0957904292ffa1706f58b37dad6552276be341bd",
+      "skinId": "char_1048_orchd2#2",
+      "trim": {
+        "left": 13,
+        "top": 5,
+        "width": 1003,
+        "height": 983
+      },
+      "width": 1003,
+      "height": 983,
+      "bytes": 284842,
+      "sha256": "fc36b80a5d6c6f36cc4cbc29f47ce6df678ee1b29ba49cb618a270323d6ef152"
+    },
+    {
+      "id": "char_1048_orchd2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1048_orchd2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1048_orchd2_2.png",
+      "sourceSha256": "c5aa7ea402281630f43f2627ad345c101811aefa623ac66f90ea22a4c64967ae",
+      "skinId": "char_1048_orchd2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 27414,
+      "sha256": "1f2884ada10e8c01df5298b5d66fc310de7917d5c325a601317820fbee029476"
+    },
+    {
+      "id": "char_1049_catap2",
+      "layer": "base",
+      "filename": "illustrations/char_1049_catap2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1049_catap2_1.png",
+      "sourceBlobSha1": "5108e52bef9caae623c8aa34b875c5710b9987e4",
+      "sourceSha256": "1a1b812ac7e6b57387a201bb4642152dec43950cf3b4382c9c9beacfd59ea920",
+      "skinId": "char_1049_catap2#1",
+      "trim": {
+        "left": 209,
+        "top": 8,
+        "width": 920,
+        "height": 1324
+      },
+      "width": 920,
+      "height": 1324,
+      "bytes": 198198,
+      "sha256": "2d2827d7d15b57791ec63dfe3a72781380fa04416709503879c4835a6c13b703"
+    },
+    {
+      "id": "char_1049_catap2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1049_catap2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1049_catap2_1.png",
+      "sourceSha256": "f9aac4919638b84205ec524735a6124a8508761cf958ebf671fbce47fca827fc",
+      "skinId": "char_1049_catap2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 26576,
+      "sha256": "7f82a01208bbd0709ff7312d801e7ba7731c651f0bdb5953b80a47745c654606"
+    },
+    {
+      "id": "char_1049_catap2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1049_catap2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1049_catap2_2b.png",
+      "sourceBlobSha1": "f48409bcaf47866358f117e52826d6f30e5a447f",
+      "sourceSha256": "1341853b0cbc1cb60821d0ff2d9d358c5a0e9a3d6f25bef086a040ef8466fba2",
+      "skinId": "char_1049_catap2#2",
+      "trim": {
+        "left": 5,
+        "top": 38,
+        "width": 1018,
+        "height": 950
+      },
+      "width": 1018,
+      "height": 950,
+      "bytes": 251276,
+      "sha256": "61924e161eb1b7944a4d0cd6d7bc48662602e31a6f32f990415ad5a9319d733b"
+    },
+    {
+      "id": "char_1049_catap2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1049_catap2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1049_catap2_2.png",
+      "sourceSha256": "7b3f50d0ed6dbe4d32df44e30ea4455973f9dfe5430aaee0eea9224a5d52f473",
+      "skinId": "char_1049_catap2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 28858,
+      "sha256": "bb41c537855b991947bdfa3d9c10fc8cdeb38e1622e1ddc741ea843e59914e2d"
+    },
+    {
+      "id": "char_1050_chen3",
+      "layer": "base",
+      "filename": "illustrations/char_1050_chen3-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1050_chen3_1.png",
+      "sourceBlobSha1": "50186e115325a0c90906e54ba1e9855bc1cbff4b",
+      "sourceSha256": "4d98ce2af3824718bf55ca643403a90fbb235b1020ecaff269ccc86d243a0edc",
+      "skinId": "char_1050_chen3#1",
+      "trim": {
+        "left": 191,
+        "top": 8,
+        "width": 980,
+        "height": 1348
+      },
+      "width": 980,
+      "height": 1348,
+      "bytes": 257286,
+      "sha256": "f35e86180c15e6e11c0839053ded305c1c3ba4166d42e21072575c078954927d"
+    },
+    {
+      "id": "char_1050_chen3",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1050_chen3-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1050_chen3_1.png",
+      "sourceSha256": "8898c07d07a142aafed0e80db31b1ae9705a4ad370b289ee776e754919fc3768",
+      "skinId": "char_1050_chen3#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 26832,
+      "sha256": "cd092b1b4121c1922fdea12da0a8bed1bab88108775e1bbe0ef7bca18459fb8b"
+    },
+    {
+      "id": "char_1050_chen3",
+      "layer": "elite2",
+      "filename": "illustrations/char_1050_chen3-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1050_chen3_2b.png",
+      "sourceBlobSha1": "92421b147918b7bff05d6afa2dcfae7e0d1e3d9b",
+      "sourceSha256": "a2a0c544c3186a57c44f3cf7fc8928365830d0bc772d4e8a220282b6713e7e9d",
+      "skinId": "char_1050_chen3#2",
+      "trim": {
+        "left": 13,
+        "top": 162,
+        "width": 1010,
+        "height": 708
+      },
+      "width": 1010,
+      "height": 708,
+      "bytes": 235532,
+      "sha256": "1877a19b4cde59865d461e8c37a676fb0de7364028ab46188207e2a55d4b8376"
+    },
+    {
+      "id": "char_1050_chen3",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1050_chen3-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1050_chen3_2.png",
+      "sourceSha256": "b37e47ff92638f57427e3638ef8f750ec12c5fac0ab9a9a3b8cc18af13c4d582",
+      "skinId": "char_1050_chen3#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 25770,
+      "sha256": "6f9cef8736d34df430da7ec751424afe226178088d88d4801e00ed9c218b8793"
+    },
+    {
+      "id": "char_1051_headb2",
+      "layer": "base",
+      "filename": "illustrations/char_1051_headb2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1051_headb2_1.png",
+      "sourceBlobSha1": "45421c4db138d5749e7d327619074a923685b35d",
+      "sourceSha256": "e504710675744ad059b7dddaff3eaa48fd343b1a1213527b537ab1ce53184a02",
+      "skinId": "char_1051_headb2#1",
+      "trim": {
+        "left": 110,
+        "top": 8,
+        "width": 1244,
+        "height": 1350
+      },
+      "width": 1244,
+      "height": 1350,
+      "bytes": 203058,
+      "sha256": "e797b6dffc12eac235a1b8002d51dbb2d7b1737b7f5e0dc787d8f913c4481d15"
+    },
+    {
+      "id": "char_1051_headb2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1051_headb2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1051_headb2_1.png",
+      "sourceSha256": "a77cf547405c76d18901ea0f5fc264c87fd118da9c8caf73596082cc44424fd5",
+      "skinId": "char_1051_headb2#1",
+      "trim": {
+        "left": 0,
+        "top": 12,
+        "width": 180,
+        "height": 348
+      },
+      "width": 180,
+      "height": 348,
+      "bytes": 18786,
+      "sha256": "0520fc1a5d39833c1cddbd2e1b4771a721b023aaa9f25cf36d795408aa806df9"
+    },
+    {
+      "id": "char_1051_headb2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1051_headb2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1051_headb2_2b.png",
+      "sourceBlobSha1": "3f372db73f3f42e6f5e08bfd59588d43b9316a42",
+      "sourceSha256": "88effa84185ec809f2b7644db5259f099a6697ed58b2f9eef2694613613cd4d1",
+      "skinId": "char_1051_headb2#2",
+      "trim": {
+        "left": 18,
+        "top": 52,
+        "width": 1004,
+        "height": 926
+      },
+      "width": 1004,
+      "height": 926,
+      "bytes": 223376,
+      "sha256": "d74bf7002de742948939256303f5f545dc974d05698383acf9104a492fcbefa7"
+    },
+    {
+      "id": "char_1051_headb2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1051_headb2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1051_headb2_2.png",
+      "sourceSha256": "54325c0496063ce19cd604a6772f5fdcfea56cf3365ef5ce72488a8f4538cf28",
+      "skinId": "char_1051_headb2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 20280,
+      "sha256": "c2e5004058eef78f8fa7ed1f2aa1e3baedad0adad09a747b0b4776523a27d0f9"
+    },
+    {
+      "id": "char_1052_kalts2",
+      "layer": "base",
+      "filename": "illustrations/char_1052_kalts2-base.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1052_kalts2_1b.png",
+      "sourceBlobSha1": "6ed03c01367c579163ff99db647fbc3f65cbc57b",
+      "sourceSha256": "619e3b8891456a7521c6babb4967e09a72b700b5cbc66d1b20c8c91c727e1f2c",
+      "skinId": "char_1052_kalts2#1",
+      "trim": {
+        "left": 23,
+        "top": 5,
+        "width": 984,
+        "height": 1019
+      },
+      "width": 984,
+      "height": 1019,
+      "bytes": 189208,
+      "sha256": "c376f30e54e58c495adfe934b22783656076e9cab2e3b5455d9c76de587b0e85"
+    },
+    {
+      "id": "char_1052_kalts2",
+      "layer": "basePortrait",
+      "filename": "illustrations/char_1052_kalts2-basePortrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1052_kalts2_1.png",
+      "sourceSha256": "7bfa229d870002edac6b1086a4e97f4d5d93be878cdc90155412297afd338abe",
+      "skinId": "char_1052_kalts2#1",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 23958,
+      "sha256": "5a8fced90c04f12371ce36921e8b57605ed42ffdafce2773785a8cb84484dc7a"
+    },
+    {
+      "id": "char_1052_kalts2",
+      "layer": "elite2",
+      "filename": "illustrations/char_1052_kalts2-elite2.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1052_kalts2_2b.png",
+      "sourceBlobSha1": "bbdd08c4842364148b6b6475f1a08ea5a1e35a45",
+      "sourceSha256": "6503ef6a3cebb479324975858a677067072a6572a063a9b4e3ed15c9b111c883",
+      "skinId": "char_1052_kalts2#2",
+      "trim": {
+        "left": 6,
+        "top": 35,
+        "width": 1016,
+        "height": 963
+      },
+      "width": 1016,
+      "height": 963,
+      "bytes": 306180,
+      "sha256": "b060da1ef8b65a7474a515af0b31127d66054139b7693fdf7fbb6d70e459e597"
+    },
+    {
+      "id": "char_1052_kalts2",
+      "layer": "elite2Portrait",
+      "filename": "illustrations/char_1052_kalts2-elite2Portrait.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/57ef5385c1ab1315fe4f2094f399b5c803bd71fc/portrait/char_1052_kalts2_2.png",
+      "sourceSha256": "7bde9fa3389d9cc53f3223d132adc9dc48bb1c82fda2e8d9e5a9c85f8758e26c",
+      "skinId": "char_1052_kalts2#2",
+      "trim": {
+        "left": 0,
+        "top": 0,
+        "width": 180,
+        "height": 360
+      },
+      "width": 180,
+      "height": 360,
+      "bytes": 22988,
+      "sha256": "d034900bc028bca3500a7281c9a2d7ae1d6c72de68d026b1006ad9668984f671"
+    }
+  ]
+}

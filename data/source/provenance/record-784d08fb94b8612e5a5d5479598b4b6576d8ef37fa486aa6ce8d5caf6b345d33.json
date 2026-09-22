@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 565,
+          "line": 527,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+          "quote": "[name=\"奥达\"]你……好？\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",duration=1)]\n[delay(time=1.5)]\n[name=\"曼弗雷德\"]你好，先生。\n[dialog]\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_404_1#1$1\",focus=\"l\")]\n[charslot(slot=\"l\",name=\"avg_4131_odda_1#1$1\",focus=\"l\")]\n[name=\"奥达\"]您是……长官，呃，您有事找我吗？\n[charslot(slot=\"r\",name=\"avg_npc_404_1#6$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]你认识我吗？\n[charslot(slot=\"l\",name=\"avg_4131_odda_1#4$1\",focus=\"l\")]\n[name=\"奥达\"]……\n[charslot(slot=\"l\",name=\"avg_4131_odda_1#2$1\",focus=\"l\")]\n[name=\"奥达\"]不，长官，只是您身上穿着军事委员会的制服，我以前见过。\n[charslot(slot=\"r\",name=\"avg_npc_404_1#1$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]打扰了，只是例行检查——你认识这些东西吗？\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"l\",name=\"avg_4131_odda_1#7$1\",focus=\"l\")]\n[name=\"奥达\"]这，这是……我父亲的——！\n[charslot(slot=\"r\",name=\"avg_npc_404_1#1$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]收好吧。城里最近有些骚乱，你的父亲……很不幸。\n[charslot(slot=\"l\",name=\"avg_4131_odda_1#9$1\",focus=\"l\")]\n[name=\"奥达\"]您……是在什么地方找到的？那里是否还有……\n[charslot(slot=\"r\",name=\"avg_npc_404_1#1$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]抱歉，现场只留下了这些东西。\n[charslot(slot=\"l\",name=\"avg_4131_odda_1#9$1\",focus=\"l\")]\n[name=\"奥达\"]……\n[charslot(slot=\"r\",name=\"avg_npc_404_1#1$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]你叫什么名字？\n[charslot(slot=\"l\",name=\"avg_4131_odda_1#9$1\",focus=\"l\")]\n[name=\"奥达\"]……奥达。\n[charslot(slot=\"r\",name=\"avg_npc_404_1#6$1\",focus=\"r\")]\n[name=\"曼弗雷德\"]如果你需要帮助……\n[charslot(slot=\"l\",name=\"avg_4131_odda_1#9$1\",focus=\"l\")]\n[name=\"奥达\"]不、不用了……您能把这些东西送还给我，我很感激。\n[name=\"奥达\"]我其实很久没见过他了，这些东西……就足够了。"
+        }
+      ],
+      "description": "曼弗雷德送回奥达父亲遗物，奥达自报姓名。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "char_4131_odda",
+          "reason": "曼弗雷德送回奥达父亲遗物，奥达自报姓名。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德送回奥达父亲遗物，奥达自报姓名。",
+          "status": "supported",
+          "to": "char_4131_odda"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 565,
+          "kind": "story",
+          "line": 527,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "char_4131_odda|npc_03f95afb5dd17c3f"
+}

@@ -1,0 +1,63 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 269,
+          "line": 236,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_04_beg.txt",
+          "quote": "[name=\"蕾缪安\"]那些是，炸弹？\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#1$2\",focus=\"m\")]\n[name=\"蕾缪安\"]看起来威力可不小。\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#6$1\",focus=\"m\")]\n[name=\"能天使\"]老姐，你的腿已经完全恢复了？！\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#1$2\",focus=\"m\")]\n[name=\"蕾缪安\"]嗯啊。\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#3$1\",focus=\"m\")]\n[name=\"能天使\"]太好了！\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#14$2\",focus=\"m\")]\n[name=\"蕾缪安\"]小乐，我那天在约维塔街看到的，以及阿摩斯辅佐官在铳械工坊外看到的，都是你？\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#1$2\",focus=\"m\")]\n[name=\"蕾缪安\"]教皇厅已经对爆炸物进行了相当严苛的管控，还能做出这么多炸弹……小乐，你这方面的本事还是那么好。\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#3$1\",focus=\"m\")]\n[name=\"能天使\"]嘿嘿。\n[charslot(slot=\"m\",name=\"avg_npc_1811_1#5$2\",focus=\"m\")]\n[name=\"蕾缪安\"]那么，小乐，你的目的是什么？\n[name=\"蕾缪安\"]炸毁这座圣堂？\n[name=\"蕾缪安\"]阻止降生仪式？\n[name=\"蕾缪安\"]还是，破坏整个万国峰会？\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#7$1\",focus=\"m\")]\n[name=\"能天使\"]别过来，老姐。\n[Dialog]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Image(image=\"61_i07\",block=false,screenadapt=\"coverall\",fadetime=0)]\n[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=65, block=false)]\n[Delay(time=1)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\n巨型立柱切割开了光影，蕾缪安停下脚步，没有继续走向能天使。\n[name=\"能天使\"]老姐，你这一身是枢机的制服吧？\n[name=\"蕾缪安\"]好看吗？"
+        },
+        {
+          "endLine": 542,
+          "line": 453,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_st02.txt",
+          "quote": "[name=\"能天使\"]只要炸毁这截走廊，通向那间育婴室的路就全断了。\n[name=\"能天使\"]希望老姐的情报没有错……\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#8$1\",focus=\"m\")]\n[name=\"能天使\"]育婴圣堂从移动修道院里找来了一位萨卡兹孕妇，还特地办了个所谓的仪式，让她在万国峰会上生下萨卡兹……\n[name=\"能天使\"]虽然不知道这帮人的目的是什么，但只要不让她出现在大家面前，就能——\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#8$1\",focus=\"none\")]\n[name=\"？？\"]让一下好吗，别堵在这儿。\n[name=\"？？\"]那个母亲马上就要分娩了，我想靠近点，为她祈祷。\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#1$1\",focus=\"m\")]\n[multiline(name=\"能天使\")]不好意思，我这就……\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#6$1\",focus=\"m\")]\n[multiline(name=\"能天使\",end=true)]等等。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1807_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#6$1\",focus=\"m\")]\n[name=\"能天使\"]萨卡兹……孕妇……那不就是你吗？！\n[charslot(slot=\"m\",name=\"avg_npc_1807_1#1$1\",focus=\"m\")] \n[name=\"添头\"]是我，怎么了吗？\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#1$1\",focus=\"m\")]\n[name=\"能天使\"]啊？\n[name=\"能天使\"]等等，你不是应该正在分娩——\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[name=\"帕特里奇昂\"]蕾缪乐，对吧？\n[name=\"帕特里奇昂\"]你的姐姐曾经带着你来我家里玩，我们见过。\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#5$1\",focus=\"m\")]\n[name=\"能天使\"]哈哈，菲亚梅塔的爷爷，您好——啊——\n[Dialog]\n[charslot(slot=\"m\",posfrom=\"0,0\",posto=\"-50,0\",duration=0.5)]\n[Delay(time=1)]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_358_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"铳骑\"]……\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#5$1\",posfrom=\"-50,0\",posto=\"-50,0\",focus=\"m\")]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",posfrom=\"-50,0\",posto=\"50,0\",duration=0.5)]\n[Delay(time=1)]\n[charslot]\n[playsound(key=\"$d_gen_soldiersrun\",volume=1)]\n[charslot(slot=\"l\",name=\"avg_npc_1788_1#1$1\",duration=1)]\n[charslot(slot=\"r\",name=\"avg_npc_1788_1#1$1\",duration=1)]\n[Delay(time=3.5)]\n[name=\"圣堂巡卫们\"]……\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#5$1\",posfrom=\"50,0\",posto=\"50,0\",focus=\"m\")]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",posfrom=\"50,0\",posto=\"0,0\",duration=0.5)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#1$1\",focus=\"m\")]\n[Delay(time=1.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_358_1#1$1\",focus=\"m\")]\n[name=\"铳骑\"]帕特里奇昂阁下，剩下的人正在搜索炸弹，并逐一排除。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]辛苦了。\n[name=\"帕特里奇昂\"]拦住这个萨科塔，她身上还有更多爆炸物。\n[charslot(slot=\"m\",name=\"avg_npc_1788_1#1$1\",focus=\"m\")]\n[name=\"圣堂巡卫\"]请放心。远程单位已就位，如果嫌犯逃跑，我们会当场狙杀。\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#1$1\",focus=\"m\")]\n[name=\"能天使\"]……\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"l\",name=\"avg_npc_1811_1#8$2\",duration=1.5)]\n[charslot(slot=\"r\",name=\"avg_npc_1783_1#10$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot=\"r\",name=\"avg_npc_1783_1#10$1\",focus=\"r\")]\n[name=\"阿摩斯\"]呼~\n[charslot(slot=\"l\",name=\"avg_npc_1811_1#3$2\",focus=\"l\")]\n[name=\"蕾缪安\"]帕特里奇昂阁下……\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]蕾缪安枢机，你来迟了。\n[name=\"帕特里奇昂\"]将嫌犯带回第七厅吧。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1041_angel2_1#10$1\",focus=\"m\")]\n[name=\"能天使\"]等等，如果降生仪式不是为这个萨卡兹准备的，那……"
+        }
+      ],
+      "description": "能天使听到阿摩斯的具体情况，随后与他处在同一大厅场景。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L12",
+            "L14"
+          ],
+          "from": "char_103_angel",
+          "reason": "双方当面交谈或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "npc_57525db0c4913393"
+        },
+        {
+          "evidenceIds": [
+            "L12",
+            "L14"
+          ],
+          "from": "npc_57525db0c4913393",
+          "reason": "双方当面交谈或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 269,
+          "kind": "story",
+          "line": 236,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 542,
+          "kind": "story",
+          "line": 453,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "万国峰会期间",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_103_angel|npc_57525db0c4913393"
+}

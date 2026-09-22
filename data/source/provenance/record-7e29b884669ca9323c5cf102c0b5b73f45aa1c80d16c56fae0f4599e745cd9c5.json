@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 365,
+          "line": 355,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "quote": "[name=\"特米米\"]啊？？？\n[Character(name=\"avg_npc_572_1#8$1\",name2=\"avg_1026_gvial2_1#1$1\",focus=1)]\n[name=\"特米米\"]怎么办啊嘉维尔！\n[Character(name=\"avg_npc_572_1#8$1\",name2=\"avg_1026_gvial2_1#6$1\",focus=2)]\n[name=\"嘉维尔\"]特米米，你冷静一点。\n[Character(name=\"avg_npc_572_1#3$1\",name2=\"avg_1026_gvial2_1#6$1\",focus=1)]\n[name=\"特米米\"]我现在就去找耶奇长老，让他不要改口！\n[Character(name=\"avg_npc_572_1#3$1\",name2=\"avg_1026_gvial2_1#5$1\",focus=2)]\n[name=\"嘉维尔\"]停、停、停，回来！\n[Character(name=\"char_416_zumama_1#1\")]\n[name=\"森蚺\"]我刚刚和嘉维尔聊过了。耶奇长老自己也不是不喝酒，现在去找他多半不是个好主意。"
+        }
+      ],
+      "description": "特米米明确知道耶奇并计划去找他；反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "char_411_tomimi",
+          "reason": "特米米听取森蚺对耶奇的说明后，明确说要去找耶奇长老。",
+          "status": "supported",
+          "to": "npc_3b2937f62c55f178"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3b2937f62c55f178",
+          "reason": "已读窗口未建立耶奇对特米米的具体知晓。",
+          "status": "not_established",
+          "to": "char_411_tomimi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_442d4ba2a3a71a0d.json",
+      "sources": [
+        {
+          "endLine": 365,
+          "kind": "story",
+          "line": 355,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "杜林人争取恢复酿酒期间",
+      "title": "百炼嘉维尔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 296,
+          "line": 282,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_beg.txt",
+          "quote": "[name=\"嘉维尔\"]呼，事情似乎顺利解决？虽然我们好像什么都没干。\n[Character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]我们还是经历了一些艰苦卓绝的谈判的。对吧，克罗绮？\n[Character(name=\"avg_npc_566_1#6$1\")]\n[name=\"克罗绮·砖石\"]耶奇老头！快点喝！你在杯子里养鳞呢？！\n[Character(name=\"avg_npc_564_1#7$1\")]\n[name=\"耶奇·地心\"]咳咳咳！我、我歇口气！\n[Character(name=\"avg_npc_572_1#4$1\")]\n[name=\"特米米\"]我们干了很多事呀，嘉维尔！我们一起买了一大堆东西，度过了一个不错的假期，还帮阿卡胡拉揽下了个大项目呢。\n[Character(name=\"avg_4055_bgsnow_1#1$1\")]\n[name=\"阿芙朵嘉\"]还把我的心情搞得很糟。\n[Character(name=\"avg_1026_gvial2_1#3$1\")]\n[name=\"嘉维尔\"]别这么说嘛，我还以为我们的交情已经变好了。\n[Character(name=\"avg_4054_malist_1#8$1\")]\n[name=\"斯第奇·画布\"]嗯，比想象的轻松点。"
+        }
+      ],
+      "description": "同一广场喝酒庆祝，克罗绮催耶奇喝酒，特米米鸿雪及嘉维尔紧接参与谈话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_411_tomimi",
+          "reason": "同一广场喝酒庆祝，克罗绮催耶奇喝酒，特米米鸿雪及嘉维尔紧接参与谈话。",
+          "status": "supported",
+          "to": "npc_3b2937f62c55f178"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_3b2937f62c55f178",
+          "reason": "同一广场喝酒庆祝，克罗绮催耶奇喝酒，特米米鸿雪及嘉维尔紧接参与谈话。",
+          "status": "supported",
+          "to": "char_411_tomimi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 296,
+          "kind": "story",
+          "line": 282,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    }
+  ],
+  "relationship_id": "char_411_tomimi|npc_3b2937f62c55f178"
+}

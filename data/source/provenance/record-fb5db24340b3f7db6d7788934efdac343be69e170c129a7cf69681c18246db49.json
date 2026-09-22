@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 792,
+          "line": 777,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_06_end.txt",
+          "quote": "[name=\"瓦拉赫\"]咳咳，咳，呕……\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]这种时候还有力气手下留情……真是了不起。\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]不动手吗，萨卢佐家的疯子。\n[dialog]\n[character]\n[Character(name=\"avg_npc_683_1#3$1\",fadetime=1)]\n[delay(time=1)]\n[name=\"拉普兰德\"]我可不想和一个从一开始就没打算用全力的家伙进行无意义的厮杀。\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]……呵。\n[Character(name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]你在等什么，你在期待什么？\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]我和人打了一个赌，我希望我赌输了。"
+        }
+      ],
+      "description": "双方具名直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E34"
+          ],
+          "from": "char_140_whitew",
+          "reason": "双方具名直接交谈。",
+          "status": "supported",
+          "to": "npc_20d12590d6754866"
+        },
+        {
+          "evidenceIds": [
+            "E34"
+          ],
+          "from": "npc_20d12590d6754866",
+          "reason": "双方具名直接交谈。",
+          "status": "supported",
+          "to": "char_140_whitew"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 792,
+          "kind": "story",
+          "line": 777,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_140_whitew|npc_20d12590d6754866"
+}

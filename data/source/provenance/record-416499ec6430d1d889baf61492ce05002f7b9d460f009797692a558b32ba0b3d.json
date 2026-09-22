@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 125,
+          "line": 117,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "quote": "[name=\"扎罗\"]最后的德克萨斯。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]不要忘记，当年是谁许诺你可以离开叙拉古的掌控。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]现在，你竟敢忤逆我？\n[Character(name=\"avg_1028_texas2_1#1$1\")]\n[name=\"德克萨斯\"]我已经完成了与贝纳尔多的约定，我不再欠你什么。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]愚昧！"
+        }
+      ],
+      "description": "双方当面争辩旧约定。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_102_texas",
+          "reason": "双方当面争辩旧约定。",
+          "status": "supported",
+          "to": "npc_9649533c7a060d36"
+        },
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_9649533c7a060d36",
+          "reason": "双方当面争辩旧约定。",
+          "status": "supported",
+          "to": "char_102_texas"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 125,
+          "kind": "story",
+          "line": 117,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 310,
+          "line": 287,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_02_beg.txt",
+          "quote": "[name=\"德克萨斯\"]老板，你把这些黑胶唱片也塞进行李箱里，不怕被刮花？\n[charslot(slot = \"m\", name = \"char_105_emper\")]\n[name=\"大帝\"]有什么办法！\n[name=\"大帝\"]我可不喜欢叙拉古那些故作轻松的爵士乐，乍一听好像很优雅，实际上跟狼群撕来咬去时尾巴毛刷地的动静没区别。\n[name=\"大帝\"]狂欢节、游行、演出……肯定到处都是音乐，我只是想见见老朋友，可不想耳朵被侮辱。\n[charslot(slot = \"m\", name = \"avg_1028_texas2_1#3$1\")]\n[name=\"德克萨斯\"]老朋友？你的同胞也会去吗？\n[charslot(slot = \"m\", name = \"char_105_emper\")]\n[name=\"大帝\"]我们以前就常去，过了这么久，叙拉古人又搞起了这个主题派对，那些家伙肯定会去凑热闹的。\n[name=\"大帝\"]喂喂，德克萨斯，嘴上嚷嚷着不感兴趣，行李却收拾得比我还快？\n[charslot(slot = \"m\", name = \"avg_1028_texas2_1#2$1\")]\n[name=\"德克萨斯\"]本来就没有什么要带的。\n[charslot(slot = \"m\", name = \"avg_1028_texas2_1#1$1\")]\n[name=\"德克萨斯\"]我们也不会待很久，事情结束就回来。\n[charslot(slot = \"m\", name = \"char_105_emper\")]\n[name=\"大帝\"]你一股子笃定这次肯定又会发生什么乱子的口气。\n[name=\"大帝\"]说真的，扎罗输掉了他的游戏，你们的交易已经作废……\n[name=\"大帝\"]你和叙拉古，和那些老熟人，确实有些我压根不感兴趣的纠缠，但该解决的都已经解决了。\n[name=\"大帝\"]“最后的德克萨斯”已经翻篇了，你对叙拉古又谈不上有什么了不得的期待，那地方变好还是变差，和你又有什么关系？\n[charslot(slot = \"m\", name = \"avg_1028_texas2_1#8$1\")]\n[name=\"德克萨斯\"]……\n[charslot(slot = \"m\", name = \"char_105_emper\")]\n[name=\"大帝\"]不想说，还是你自己也说不上来？\n[name=\"大帝\"]算了，反正我可是给过你机会，让你留在龙门看家的。"
+        }
+      ],
+      "description": "德克萨斯听大帝具体说明扎罗的游戏与交易。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_102_texas",
+          "reason": "德克萨斯听大帝具体说明扎罗的游戏与交易。",
+          "status": "supported",
+          "to": "npc_9649533c7a060d36"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_9649533c7a060d36",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_102_texas"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 310,
+          "kind": "story",
+          "line": 287,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "揭幕者们"
+    }
+  ],
+  "relationship_id": "char_102_texas|npc_9649533c7a060d36"
+}

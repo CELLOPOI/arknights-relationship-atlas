@@ -1,0 +1,36 @@
+{
+  "id": "import:char_108_silent|npc_b6173633e2da4a81",
+  "published": true,
+  "quote": "【山】\n安东尼：不，我今天来是向她告别的，要离开的从始至终只有我一个人。\n赫默：我误会了，还以为是你要带她走……\n安东尼：不，她留在罗德岛就很好。况且，复仇是我自己的事，我绝不允许旁人被卷进来。\n安东尼：赫默医生，不好意思，临走前我可以麻烦你一件事吗？\n赫默：嗯，你说就是。\n安东尼：这本书可以替我带给杜玛吗？\n赫默：只有一本书吗？\n安东尼：……再加一句话吧，就说……\n安东尼：就说，这本书我还没有看完，请她代为保管。\n赫默：那你什么时候来取？要告诉她吗？\n安东尼：……\n赫默：你知道沉默是一种更残酷的回答吗？\n\n【孤岛风云】\n卡夫卡：啊，赫默也是这么说的，不过她说这也只是一种可能性。\n安东尼：赫默，是你背后的人的名字吗？\n卡夫卡：啊……算了，没错。\n安东尼：事后我会感谢这位朋友。\n安东尼：总之，如你所说，这也只是一种可能性，如果我想知道原因，我就必须出去，这件事只有我自己才能搞清楚。\n杜玛：安东尼，告诉她真的没关系吗？\n\n赫默：罗宾并没有加入安东尼的队伍。\n缪尔赛思：诶？\n赫默：虽然确实在这之后，卡夫卡就开始和杜玛还有安东尼一起摸索越狱的方法，而且罗宾也加入了其中。\n赫默：但是事情并没有这么简单。\n\n梅尔：就是说服杜玛也和他们一起离开的这件事呀。\n缪尔赛思：咦，这是怎么回事？杜玛不是队伍中的一员吗？\n赫默：哦，对了，他们到后来才知道，杜玛虽然说要协助安东尼越狱，但其实自己并没有离开的意思。\n缪尔赛思：为什么？\n梅尔：因为她从来没有离开过这座监狱。",
+  "relationship_id": "char_108_silent|npc_b6173633e2da4a81",
+  "sources": [
+    {
+      "endLine": 653,
+      "kind": "story",
+      "line": 631,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_f12yin_2_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 483,
+      "kind": "story",
+      "line": 474,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 105,
+      "kind": "story",
+      "line": 100,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_05_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 78,
+      "kind": "story",
+      "line": 70,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_06_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

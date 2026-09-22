@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 308,
+          "line": 294,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st06.txt",
+          "quote": "[name=\"埃芒加德\"]锡人先生，那就还是按我们之前说的来？\n[charslot(slot = \"m\", name = \"avg_4151_tinman_1#9$1\",focus=\"m\")]\n[name=\"锡人\"]没问题，我帮你看着。\n[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]\n[name=\"埃芒加德\"]那朵烟花是个意外，安抚仪式也并未完成。\n[name=\"埃芒加德\"]我老师让我去找散落在卡兹戴尔的死魂灵碎片，我将这个任务托付给妮芙，妮芙又受了你们的帮助，这么说……\n[name=\"埃芒加德\"]我老师欠你们一个人情，不对，是欠“咱们”一个人情。\n[name=\"埃芒加德\"]身为知识圣殿的看守人，他的人情可是很值钱的，可以用来做很多事。\n[name=\"埃芒加德\"]不过我作为老师的学生，已经擅自替他决定了将这个人情用来做一件很困难很困难的事。\n[charslot(slot = \"m\", name = \"avg_4147_mitm_1#10$1\",focus=\"m\")]\n[name=\"珀耳\"]我有预感你会说出一些很恐怖的话来……我现在还可以走吗？\n[charslot(slot = \"m\", name = \"avg_4146_nymph_1#12$1\",focus=\"m\")]\n[name=\"妮芙\"]不行！我邀请你来的，要走，也得是我先走！\n[charslot(slot = \"m\", name = \"avg_4151_tinman_1#9$1\",focus=\"m\")]\n[name=\"锡人\"]咳，其实也没什么大不了的，你们都被她唬住了。她被那个倔老头子训了一顿，心里憋着气呢，现在想让你们帮忙找回场子。"
+        }
+      ],
+      "description": "埃芒加德带领一行进入熔炉并商议安抚仪式，人物在同一连续现场发言；珀耳由avg_4147_mitm立绘对应渡桥。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_4151_tinman",
+          "reason": "埃芒加德带领一行进入熔炉并商议安抚仪式，人物在同一连续现场发言；珀耳由avg_4147_mitm立绘对应渡桥。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "埃芒加德带领一行进入熔炉并商议安抚仪式，人物在同一连续现场发言；珀耳由avg_4147_mitm立绘对应渡桥。",
+          "status": "supported",
+          "to": "char_4151_tinman"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_7b6f965ec725fee0.json",
+      "sources": [
+        {
+          "endLine": 308,
+          "kind": "story",
+          "line": 294,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "熔炉“还魂”记"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 69,
+          "line": 23,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_1.txt",
+          "quote": "[name=\"妮芙\"]欸，我们回来了？\n[Dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#7$1\")]\n[CameraShake(duration=0.5, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]\n[name=\"弗莱蒙特\"]埃芒加德！\n[Dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",duration=1)]\n[delay(time=2)]\n[name=\"埃芒加德\"]老师我在这里……\n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_869_1#9$1\",focus=\"l\")]\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#10$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]这就是你脑袋里挤出来的好主意？趁着我不注意拉半打萨卡兹来熔炉里？\n[charslot(slot = \"r\", name = \"avg_npc_869_1#8$1\",focus=\"r\")]\n[name=\"埃芒加德\"]我也就是想帮个忙，您看，您之前那一次也没有想象中的那么顺利嘛……\n[charslot(slot = \"r\", name = \"avg_npc_869_1#8$1\",focus=\"r\")]\n[name=\"埃芒加德\"]维什戴尔大人被炸上了天，死魂灵们也气得从熔炉里溜了出去。\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#5$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]嗯？\n[charslot(slot = \"r\", name = \"avg_npc_869_1#1$1\",focus=\"r\")]\n[name=\"埃芒加德\"]我就是想说，我们举行仪式的结果还是不错的……\n[charslot(slot = \"r\", name = \"avg_npc_869_1#1$1\",focus=\"r\")]\n[name=\"埃芒加德\"]您不觉得熔炉已经平静下来了吗？\n[Dialog]\n[charslot]\n熔炉里没有任何杂音，也感受不到任何死魂灵的躁动，他们就像是刚刚饱餐一顿陷入小憩的食客，抑或是……\n躲在门后等着看某人笑话的顽童。\n[charslot(slot=\"m\",name=\"avg_4151_tinman_1#1$1\",focus=\"m\")]\n[name=\"锡人\"]（脱帽行礼）\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#12$1\")]\n[name=\"弗莱蒙特\"]……（颔首示意）\n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_869_1#1$1\",focus=\"l\")]\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#7$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]要是没人给你搭建通道，承受失控的魂灵之怒，把想法从那些张不开的嘴里扒出来，你现在就得和你的小朋友们躺在这里被烘干。\n[charslot(slot = \"r\", name = \"avg_npc_869_1#8$1\",focus=\"r\")]\n[name=\"埃芒加德\"]但——\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#7$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]等回到知识圣殿我可以揪着你的命结慢慢听你狡辩，埃芒加德。\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#7$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]现在给我过来，把嘴闭上。\n[charslot(slot = \"r\", name = \"avg_npc_869_1#6$1\",focus=\"r\")]\n[name=\"埃芒加德\"]唔……"
+        }
+      ],
+      "description": "锡人与埃芒加德同处熔炉核心场景。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4151_tinman",
+          "reason": "同场发言、听取或明确叙述支持该方向。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "同场发言、听取或明确叙述支持该方向。",
+          "status": "supported",
+          "to": "char_4151_tinman"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_42c131bed95e2454.json",
+      "sources": [
+        {
+          "endLine": 69,
+          "kind": "story",
+          "line": 23,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "集成战略“萨卡兹的无终奇语”构造的可能未来，不倒推现实时间线",
+      "title": "萨卡兹的无终奇语"
+    }
+  ],
+  "relationship_id": "char_4151_tinman|npc_4cf393656bead901"
+}

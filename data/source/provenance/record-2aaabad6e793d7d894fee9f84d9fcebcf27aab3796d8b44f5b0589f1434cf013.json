@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 269,
+          "line": 222,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation01.txt",
+          "quote": "[name=\"Mechanist\"]右侧五名，确认瘫痪。\n[charslot(slot=\"m\", name=\"avg_4133_logos_1#1$1\")]\n[name=\"Logos\"]“殁亡”。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_boneflute_low\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot(slot=\"m\", name=\"avg_017_huang_1#4$2\")]\n[name=\"煌\"]看上去神神道道的，结果不还是把那些我们已经打败过一次的敌人再拉出来一遍嘛，没什么大不了的。\n[charslot(slot=\"m\", name=\"avg_017_huang_1#5$2\")]\n[name=\"煌\"]再吃我这招——\n[dialog]\n[playsound(key=\"$d_avg_clothmovement\")]\n[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"-200,40\", afrom=1, ato=0, duration=0.3)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot(slot = \"r\", name = \"avg_npc_1727_1#1$1\")]\n[charslot(slot = \"l\", name = \"avg_npc_1728_1#1$1\")]\n[Delay(time=0.5)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$e_atk_saw_n_2\", volume=1)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[PlaySound(key=\"$e_atk_saw_n_1\", volume=1)]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_gen_explo_n\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$d_avg_shdwblwvr\", volume=1)]\n[charslot(duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[charslot(slot=\"m\", name=\"avg_017_huang_1#4$2\")]\n[name=\"煌\"]是我的错觉吗？这里原地产生敌人的速度好像变慢了？\n[charslot(slot=\"m\", name=\"avg_npc_1730_1#3$1\")]\n[name=\"Raidian\"]这里是PRTS的核心系统，从一开始，它就是在读取我们以往面对过的敌人的数据并复制出来。\n[name=\"Raidian\"]但是现在它读取资料库数据的速度变慢了，似乎是受到了一些阻碍……\n[name=\"Raidian\"]看来是博士那边的行动奏效了。\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]抓紧这个机会，一举攻破它。\n[name=\"阿斯卡纶\"]我们要到Abyss深处去……还有人在等着我们。"
+        }
+      ],
+      "description": "Abyss小队连续战斗，Raidian解释PRTS核心系统读取敌人数据，同行者听取；系统复制攻击不单独证明其识别具体个人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "Abyss小队连续战斗，Raidian解释PRTS核心系统读取敌人数据，同行者听取；系统复制攻击不单独证明其识别具体个人。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_d2170c6d544786d4.json",
+      "sources": [
+        {
+          "endLine": 269,
+          "kind": "story",
+          "line": 222,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "剧情所述时段",
+      "title": "剧情"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 485,
+          "line": 438,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "quote": "[name=\"Logos\"]——？\n[name=\"Mechanist\"]怎么了，Logos？\n[name=\"Logos\"]那并非我的光……\n[dialog]\n[playMusic(intro=\"$lab_intro\",key=\"$lab_loop\", volume=0.6)]\n[cgitem(image=\"cgitem_60_i16\", style=\"cg\",sfrom = 1, sto = 1.5, sduration = 0.01, pfrom = \"0,0\",pto = \"-55,-300\", pduration = 0.01, rfrom=-11, rto=-11, rduration=0.1, afrom = 0, ato = 1, aduration = 0.5, layer = 1)]\n[Delay(time=2)]\n黑暗中，高悬的菱形光环微微晃动着。\n如同一只冰冷的眼睛俯瞰着在场的所有人。\n[name=\"阿斯卡纶\"]戒备……\n[name=\"煌\"]……是凯尔希医生提到的“普瑞赛斯”吗？\n[name=\"Raidian\"]恐怕不是。\n[name=\"Raidian\"]我探测到突然出现了大量杂乱但熟悉的信号。\n[name=\"Raidian\"]那些信号来自罗德岛本身。\n[dialog]\n[StopSound(channel=\"en\", fadetime=4)]\n[cgitem(image=\"cgitem_60_i16\", style=\"cg\",sfrom = 1.5, sto = 1.2, sduration = 4, pfrom = \"-55,-300\",pto = \"-70,-45\", pduration = 4, rfrom=-11, rto=0, rduration=4, layer = 1)]\n[Delay(time=3)]\n[PlaySound(key=\"$d_avg_systemstart_weird\", volume=1)]\n[Delay(time=1)]\n[cgitem(image=\"cgitem_60_i16\", style=\"cg\",sfrom = 1.2, sto = 1, sduration = 22, pfrom = \"-70,-45\",pto = \"-55,0\", pduration = 22, layer = 1)]\n[Image(image=\"60_i16\", screenadapt=\"coverall\", xScale=1.2, yScale=1.2, y=-50, fadetime=0.5)]\n[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, yFrom=-50, yTo=0, duration=20, block=false)]\n[Delay(time=1)]\n[name=\"Misery\"]这是……什么东西？\n庞大的机械构造物在无尽的白噪中缓缓浮现在了所有人的面前——\n构成其主体的部件，在场之人都很熟悉。\n可露希尔曾许多次向大家展示这些她对罗德岛不同模块改造时所用的部件，甚至一些特殊部件就出自精英干员之手。\n[name=\"Touch\"]PRTS重组了罗德岛的设备作为武器。\n[name=\"Touch\"]可……这些部件是从哪冒出来的？Abyss里明明没有……\n[name=\"阿斯卡纶\"]源石。\n源石的晶簇不规则地遍布在这尊造型独特的机械上。\n它们不再仅仅吞噬，而是开始了创造。\n[name=\"Misery\"]等等，源石能做到复现罗德岛的东西？\nLogos想起了内化宇宙中那座高塔，也想起了殿下。\n[name=\"Logos\"]没这么简单。\n[name=\"Logos\"]PRTS并没有解码源石数据的能力，其中必然有他人介入。\n[name=\"阿斯卡纶\"]普瑞赛斯。\n[name=\"Raidian\"]它的数据正通过我无法理解的方式和PRTS的核心相连，这东西和之前那些源石结晶体不一样！\n[name=\"煌\"]无论如何，看上去怎么都得打一架了。\n[name=\"Stormeye\"]的确没有其他办法了。\n[name=\"Stormeye\"]各位？\n[dialog]\n[PlaySound(key=\"$d_avg_attack_ready\", volume=1)]\n[Delay(time=1.5)]\n[name=\"迷迭香\"]可以动手。\n此时，菱形的眼睛光芒更甚。\n由PRTS控制形成的拟态机械开始蓄积能量……"
+        }
+      ],
+      "description": "阿斯卡纶直接参与对抗并识别PRTS生成的威胁。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D25"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "阿斯卡纶直接参与对抗并识别PRTS生成的威胁。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "D25"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "阿斯卡纶直接参与对抗并识别PRTS生成的威胁。",
+          "status": "supported",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 485,
+          "kind": "story",
+          "line": 438,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4132_ascln|npc_c8a2caad4366c8fa"
+}

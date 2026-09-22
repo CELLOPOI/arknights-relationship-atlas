@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 558,
+          "line": 531,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_05_beg.txt",
+          "quote": "[name=\"维恩\"]唉……我得出去缓口气。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2,block=true)]\n[musicvolume(volume=0.2, fadetime=1)]\n[Character]\n[largebg]\n[Background(image=\"34_g9_tent\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=0.2, r=1, g=1, b=1, fadetime=2, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_725_1#1$1\")]\n[name=\"维恩\"]嗯？这个时间，起雾了……？\n[stopmusic(fadetime=1)]\n[name=\"维恩\"]……\n[Character(name=\"avg_npc_725_1#4$1\")]\n[multiline(name=\"维恩\",delay=0.04)]你们，\n[CameraShake(duration=0.1, xstrength=10, ystrength=10, vibrato=40, randomness=70, fadeout=true, block=false)]\n[multiline(name=\"维恩\",delay=0.02)]是、\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[multiline(name=\"维恩\",delay=0.02)]是什么时候……\n[Dialog]\n[Character(fadetime=0)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[Character(name=\"avg_4017_puzzle_1#8$1\",fadetime=1,block=true)]\n[delay(time=1.5)]\n[name=\"菲舍尔\"]晚上好，先生。"
+        }
+      ],
+      "description": "菲舍尔当面拦住维恩。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F07"
+          ],
+          "from": "char_4017_puzzle",
+          "reason": "菲舍尔当面拦住维恩。",
+          "status": "supported",
+          "to": "npc_93017ba1ccf11f8a"
+        },
+        {
+          "evidenceIds": [
+            "F07"
+          ],
+          "from": "npc_93017ba1ccf11f8a",
+          "reason": "菲舍尔当面拦住维恩。",
+          "status": "supported",
+          "to": "char_4017_puzzle"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 558,
+          "kind": "story",
+          "line": 531,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    }
+  ],
+  "relationship_id": "char_4017_puzzle|npc_93017ba1ccf11f8a"
+}

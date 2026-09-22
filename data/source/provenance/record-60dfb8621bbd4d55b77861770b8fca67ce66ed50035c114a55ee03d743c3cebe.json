@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 83,
+          "line": 18,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-10_beg.txt",
+          "quote": "[name=\"梅菲斯特\"]   ——浮士德。\n[name=\"梅菲斯特\"]   把她那张嘴给我打穿。\n[Character(name=\"char_1508_Faust_1#2\")]\n[name=\"浮士德\"]   ……\n[Character(name=\"char_148_nearl_1#4\")]\n[name=\"临光\"]   ！\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Delay(time=1)]\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]   咳，咳……\n[Character(name=\"char_002_amiya_1#7 \")]\n[name=\"阿米娅\"]  临光！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  敌人的狙击手……很强！\n[name=\"杜宾\"]  临光再被击中的话，一定会失去防御能力！\n[Character(name=\"char_002_amiya_1#7 \")]\n[name=\"阿米娅\"]  临光，快退后！\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]   不行……威力太大了。如果击中我方小队，后果不堪设想。\n[name=\"临光\"]   我必须防住他的炮火！\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  挡开了浮士德的弩炮？凭盾牌——？！\n[Character(name=\"char_1507_Mephisto_1#3\")]\n[name=\"梅菲斯特\"]  不可能……不可能！\n[name=\"梅菲斯特\"]  再来！！把她……打成碎渣！\n[Character(name=\"char_1508_Faust_1#2\")]\n[name=\"浮士德\"]    ————！\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]  居然……右侧？！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]  糟了！快闪开————\n[Character(name=\"char_014_riope\" )]\n[name=\"Ace\"]  不会让你得逞！\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Delay(time=1)]\n[Character(name=\"char_002_amiya_1#7 \")]\n[name=\"阿米娅\"]  Ace！\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]   狙击干员，准备！\n[name=\"Ace\"]   ——目标，南侧高台，齐射！\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[Character(name=\"char_1508_Faust_1#2\")]\n[name=\"浮士德\"]   ……！\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"char_1507_Mephisto_1#3\")]\n[name=\"梅菲斯特\"]  什么！你们居然敢，居然敢……！\n[Dialog]\n[Character]\n[Character(name=\"char_002_amiya_1#7 \")]\n[name=\"阿米娅\"]  打中了吗？\n[Character(name=\"char_014_riope\" )]\n[name=\"Ace\"]  没那么容易，这只能……稍稍压制他而已。\n[name=\"Ace\"]  没时间再去了解敌人的构成了！\n[Character(name=\"char_014_riope\",name2=\"char_130_doberm_ex\",focus=2)]\n[name=\"杜宾\"]  兼具机动性和威力，越拖下去，我们安全挡下他弩弹的几率就越小！"
+        }
+      ],
+      "description": "本方观察并讨论高台上的具体狙击手，足以单向知晓；所引段落未显示浮士德分别辨认阿米娅或杜宾。临光受击与Ace反击的证据不能传递给旁人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "char_130_doberm",
+          "reason": "本方观察并讨论高台上的具体狙击手，足以单向知晓；所引段落未显示浮士德分别辨认阿米娅或杜宾。临光受击与Ace反击的证据不能传递给旁人。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_130_doberm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 83,
+          "kind": "story",
+          "line": 18,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "黑暗时代·上"
+    }
+  ],
+  "relationship_id": "char_130_doberm|npc_cff4ec0fb14b9ffb"
+}

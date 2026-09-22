@@ -1,0 +1,26 @@
+{
+  "id": "import:char_260_durnar|char_4230_mcnist",
+  "published": true,
+  "quote": "Mechanist：以前能穿动力甲的都是精锐士兵。\nMechanist：能控制那大玩意儿在战场上长时间搏杀，而不是蹦几下就淹死在自己的呕吐物里——真不是未经训练的人能做到的。\nMechanist：你问问坚雷就知道了。她说她当时只穿过一次就满脑子想着退役。\nMechanist：我相信几年时间足够让那帮人把技术迭代几十次了，而且雇佣兵里本来就不乏退役士兵……\nMechanist：但谁都能穿？\nMechanist：这搞不好是能颠覆战争方式的发明。\n\n阿兰娜：干得不错，小家伙，看来可露希尔和Mechanist先生的升级很有效嘛。\n“小嘟嘟”：（喜悦地转圈）\n阿兰娜：呼，这一块区域的检修工作差不多了。\n\n？？？：要帮忙？那再算我一个。\n坚雷：呃，小熊，你看，我在厨房能做什么吗？\n古米：教官？！\n坚雷：我从博士那看到了你们的申请，就自作主张申请和你们同行了——以“监护人”的身份。\n坚雷：说实话，博士很放心不下就这么让你们回去。我也放心不下。",
+  "relationship_id": "char_260_durnar|char_4230_mcnist",
+  "sources": [
+    {
+      "endLine": 79,
+      "kind": "story",
+      "line": 74,
+      "source": "activities/act19side/level_act19side_02_end.txt"
+    },
+    {
+      "endLine": 268,
+      "kind": "story",
+      "line": 261,
+      "source": "obt/main/level_main_15-02_beg.txt"
+    },
+    {
+      "endLine": 389,
+      "kind": "story",
+      "line": 379,
+      "source": "obt/main/level_main_15-02_beg.txt"
+    }
+  ]
+}

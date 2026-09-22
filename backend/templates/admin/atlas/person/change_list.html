@@ -1,0 +1,2 @@
+{% extends "admin/change_list.html" %}
+{% block object-tools-items %}<li><a href="{% url 'admin:atlas_import' %}">导入资料</a></li>{{ block.super }}{% endblock %}

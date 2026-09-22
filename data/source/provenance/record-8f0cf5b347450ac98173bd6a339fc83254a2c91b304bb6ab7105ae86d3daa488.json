@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 63,
+          "line": 43,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "quote": "[name=\"可露希尔\"]这是什么？录音机？\n[charslot(slot=\"m\",name=\"avg_npc_411_1#6$1\",focus=\"m\")]\n[name=\"可露希尔\"]也是，现在的战场上除了用嘴，也只能用这种方式传递信息了。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]这是开斯特公爵的徽记。\n[charslot(slot=\"m\",name=\"avg_npc_411_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]我看看——\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_button\",volume=1,channel=\"1\")]\n[Delay(time=0.5)]\n[playsound(key=\"$d_avg_recorderglitch\",volume=1,channel=\"2\",loop=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1, block=true)]\n[Subtitle(text=\"“滋滋——”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“我还有很多事要忙，就直入主题了。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“——剑座。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“……已经抵达银石崖。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“但银石崖前线现在的状况……萨卡兹的手段超出了所有人的预料。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“从西南方向进入战场，带上剑——”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“滋——我已经兑现了我的诺言，接下来该……殿下——”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]"
+        }
+      ],
+      "description": "可露希尔在推进之王认出徽记后检查公爵留下的录音。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔在推进之王认出徽记后检查公爵留下的录音。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 63,
+          "kind": "story",
+          "line": 43,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 292,
+          "line": 278,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_closur_1_1.txt",
+          "quote": "[name=\"可露希尔\"]（揉太阳穴）那看来就不是一件事了。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]我们可是事先说好了的，别的事情都归我，医疗部的事情你去管。\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#7$1\")]\n[name=\"华法琳\"]我知道，但医疗部现在的医疗用品储备，包括抗矿石病药物的生产，都出现了问题。\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#7$1\")]\n[name=\"华法琳\"]医疗用品还好说，药品原料毕竟是大宗商品……\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]明白。生产设备没出问题吧？\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#1$1\")]\n[name=\"华法琳\"]倒是没有，就是没原料，运转不起来。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#4$1\",focus=\"m\")]\n[name=\"可露希尔\"]让我看看……这个可以去卡西米尔采购，这个……开斯特公爵领应该有生产，得找个谈判专家去谈。这个……呃……\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#4$1\",focus=\"m\")]\n[name=\"可露希尔\"]这个的产地……呃，莱塔尼亚北部……好远！近一点的小产区……塔拉？"
+        }
+      ],
+      "description": "可露希尔与华法琳讨论开斯特公爵领的原料生产，明确以领主称号指代具体公爵；无反向证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔与华法琳讨论开斯特公爵领的原料生产，明确以领主称号指代具体公爵；无反向证据。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_393fffc71aa90cef.json",
+      "sources": [
+        {
+          "endLine": 292,
+          "kind": "story",
+          "line": 278,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_closur_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "可露希尔所述时段",
+      "title": "可露希尔"
+    }
+  ],
+  "relationship_id": "char_4228_closur|npc_8c87697c59975883"
+}

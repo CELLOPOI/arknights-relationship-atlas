@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 99,
+          "line": 34,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-14_end.txt",
+          "quote": "[name=\"Stormeye\"]目标已经消灭。\n[dialog]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"-250,0\", channel = 3)]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#1$1\", duration = 0)]\n[delay(time=0.5)]\n[name=\"可露希尔\"]Stormeye，四点钟方向，两击连射。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", focus=\"r\")]\n[name=\"Stormeye\"]对着墙体支柱？\n[interlude(channel = 3, clear = true)]\n[charslot]\nStormeye虽然很疑惑，但依旧毫不犹豫地连续射出了两箭。\n[dialog]\n[PlaySound(key=\"$d_avg_spirlstrsndlss\", volume=0.6, loop=true, channel=\"sp\")]\n[StopSound(channel=\"sp\", fadetime=5)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_arrowtarget\", volume=0.5)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[delay(time=0.3)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_arrowtarget\", volume=1)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[delay(time=0.3)]\n[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\", tsduration = 0, switch = true, style = 0,offset = \"-250,0\", channel = 3)]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#1$1\", duration = 0)]\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_npc_167\", focus=\"r\")]\n[name=\"Stormeye\"]地形在我出手的瞬间发生了变化，障碍物刚好消失，命中敌方……\n[name=\"Stormeye\"]可露希尔，你怎么做到的？！\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#9$1\", duration = 0)]\n[name=\"可露希尔\"]嘿嘿，不是我，是ZOOT算出来的。\n[name=\"可露希尔\"]现在，六点钟方向，直接跳下去。别害怕空洞下面的源石晶簇。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_npc_167\", focus=\"r\")]\n[name=\"Stormeye\"]哈。\n[dialog]\n[playsound(key=\"$transmission\", volume=1)]\n[interlude(channel = 3, clear = true, tsfrom=\"1,1\", tsto =\"0,1\", tsduration = 0.5)]\n[delay(time=1)]\n[playsound(key=\"$d_avg_clothmovement\",volume=1)]\n[charslot(slot = \"r\", posfrom=\"0,0\", posto=\"80,15\", afrom=1, ato=0, duration=0.2, isblock=true)]\n[CameraShake(duration=5, xstrength=5, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_spirlstrsndlss\", volume=1, loop=true, channel=\"sp\")]\n[StopSound(channel=\"sp\", fadetime=5)]\n[delay(time=2)]\n他直直飞跃而下，地形再次变化。他开始了永无止境的下坠，直到咒言编织的绳索拉住了他。\n[dialog]\n[playsound(key=\"$d_avg_magic_1\",volume=1)]\n[playsound(key=\"$d_avg_strngspllstght\",volume=1)]\n[charslot(slot = \"m\", name = \"avg_4133_logos_1#1$1\", duration=1, isblock=true)]\n[delay(time=0.5)]\n[name=\"Logos\"]可露希尔算得很准。\n[name=\"Logos\"]我已在此等候多时。\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"Stormeye\"]现在呢？\n[charslot(slot = \"m\", name = \"avg_4133_logos_1#3$1\")]\n[name=\"Logos\"]聆听指引，闭目前行。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]"
+        }
+      ],
+      "description": "可露希尔与Stormeye直接进行战斗导航通讯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D34"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希尔与Stormeye直接进行战斗导航通讯。",
+          "status": "supported",
+          "to": "char_511_asnipe"
+        },
+        {
+          "evidenceIds": [
+            "D34"
+          ],
+          "from": "char_511_asnipe",
+          "reason": "可露希尔与Stormeye直接进行战斗导航通讯。",
+          "status": "supported",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 99,
+          "kind": "story",
+          "line": 34,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-14_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4228_closur|char_511_asnipe"
+}

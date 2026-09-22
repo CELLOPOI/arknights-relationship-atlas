@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 111,
+          "line": 77,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+          "quote": "[name=\"Scout\"]  ……你为什么知道他们的名字？\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]\n[name=\"伊内丝\"]  W特意嘱咐过，你们会把兵牌一类的东西挂在身上。\n[name=\"伊内丝\"]  “至少杀了谁还是要弄明白的，这里毕竟不是卡兹戴尔，不留神杀错人可就不好办了”。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  那不是兵牌，牺牲的那些干员们……也不全是士兵。\n[name=\"Scout\"]  我以为会是W来亲自动手。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]\n[name=\"伊内丝\"]  她……哼，我要是说她不忍心亲手解决你，你会信吗？\n[name=\"伊内丝\"]  摄政王派来的领袖已经被你杀了，想要接管的可不止她一个，她现在比较忙。\n[name=\"伊内丝\"]  就像当时你和W说好的一样。\n[name=\"伊内丝\"]  一旦你完成任务，我们就会“后知后觉”地全力歼灭你们。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]\n[name=\"伊内丝\"]  ……你在巷战的过程中还抽空救了个人。但现在，那不是我们的管辖范围。\n[name=\"伊内丝\"]  但是爱国者在那里，你不需要过问。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……这样，就好。\n[name=\"Scout\"]  你们……变了，过去的W不是个会刻意记住死者名讳的人。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]\n[name=\"伊内丝\"]  她确实变了，但更多时候是变得更像个疯子。\n[name=\"伊内丝\"]  你纯粹的战地经验就堪比浮士德的源石技艺，说不定只是为了让你动摇，好让我用法术捕捉你才故意记下名字的呢？\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……老样子，总不放过任何取乐的机会。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]\n[name=\"伊内丝\"]  彼此，你不是也接受了这种W才能想出来的疯狂交易。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  用我的命换取一个机会，再让该把握住这个机会的人把握住它，这并不疯狂。\n[name=\"Scout\"]  还有我牺牲的队员们，也一样。他们为了自己的理念而死，没有他们，我无法成功。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]\n[name=\"伊内丝\"]  ……看来时过境迁，大家都有一些变化。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  你也是，过去的你绝不会像现在这样，给敌人喘息的空间。\n[name=\"Scout\"]  赫德雷应该提醒过你。"
+        }
+      ],
+      "description": "两人在切城直接交谈，Scout解释救援安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_4087_ines",
+          "reason": "两人在切城直接交谈，Scout解释救援安排。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "两人在切城直接交谈，Scout解释救援安排。",
+          "status": "supported",
+          "to": "char_4087_ines"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 111,
+          "kind": "story",
+          "line": 77,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生于黑夜所述时段",
+      "title": "生于黑夜"
+    }
+  ],
+  "relationship_id": "char_4087_ines|npc_0957af9bf990438d"
+}

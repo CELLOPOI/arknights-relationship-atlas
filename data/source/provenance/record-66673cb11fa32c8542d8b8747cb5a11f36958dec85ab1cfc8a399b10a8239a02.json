@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 101,
+          "line": 17,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_01_end.txt",
+          "quote": "[name=\"里昂\"]嘶……海伦娜，今天你这儿也太冷了吧。\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#4$1\", focus=\"l\")]\n[name=\"海伦娜\"]炭火快用完了，得省着些用……\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#9$1\", focus=\"r\")]\n[name=\"里昂\"]那就烧我家里堆积成山的账单，反正烧光了银行还会寄给我更多。\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#3$1\", focus=\"l\")]\n[name=\"海伦娜\"]咳。\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#6$1\", focus=\"r\")]\n[name=\"里昂\"]感冒了？哎，我这就回家把那堆废纸给你拿过来。\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#4$1\", focus=\"l\")]\n[name=\"海伦娜\"]（小声）你以为我为什么咳嗽？你也不看看谁在这里……\n[dialog]\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#7$1\", focus=\"r\")]\n[Delay(time=1)]\n[name=\"里昂\"]哦，是西尔维娅啊！\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#1$1\", duration=1.5, isblock=true)]\n[Delay(time=1)]\n[name=\"西尔维娅\"]早、早上好，里昂先生……\n[dialog]\n[charslot]\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#4$1\", focus=\"n\")]\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#7$1\", focus=\"r\")]\n[name=\"里昂\"]银行的人光临这家小破餐馆，有何贵干？\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#8$1\")]\n[name=\"西尔维娅\"]抱、抱歉……\n[dialog]\n[charslot]\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#4$1\", focus=\"n\")]\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#7$1\", focus=\"r\")]\n[name=\"里昂\"]哼。\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#11$1\", focus=\"l\")]\n[name=\"海伦娜\"]咳咳……里昂，好久没见到本尼了，那孩子最近干什么呢？\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#1$1\", focus=\"r\")]\n[name=\"里昂\"]忙学业啊，他现在天天看书看到凌晨才睡。\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#11$1\", focus=\"l\")]\n[name=\"海伦娜\"]学校不是早关了吗？\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#2$1\", focus=\"r\")]\n[name=\"里昂\"]隔壁住的赛琳娜女士以前是老师，她觉得本尼这个年纪不上学太可惜，就让他到自己家学东西。\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#2$1\", focus=\"l\")]\n[name=\"海伦娜\"]那可太好了，本尼是多聪明的孩子啊，当时知道自己不能再去上学，他伤心得不行。\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#1$1\", focus=\"r\")]\n[name=\"里昂\"]是啊，那一整年他都焦虑得不行。\n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#7$1\")]\n[name=\"西尔维娅\"]里、里昂先生，我……其实也可以教本尼……\n[dialog]\n[charslot]\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#1$1\", focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#1$1\", focus=\"n\")]\n[name=\"海伦娜\"]对啊，西尔维娅可是从哥伦比亚最好的商学院毕业的——\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#7$1\", focus=\"r\")]\n[name=\"里昂\"]跟她学什么？长大了去银行给人发账单？\n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#8$1\")]\n[name=\"西尔维娅\"]我……\n[dialog]\n[charslot]\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#3$1\", focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#1$1\", focus=\"n\")]\n[name=\"海伦娜\"]里昂，你的早饭再不吃就冷了！\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#8$1\", focus=\"r\")]\n[name=\"里昂\"]哼……\n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1039_1#2$1\")]\n[name=\"西尔维娅\"]我、我的饭钱留在桌子上了……还有工作，我先离开了。\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(duration=1, isblock=true)]\n[Delay(time=2)]\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#6$1\", focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#1$1\", focus=\"n\")]\n[name=\"海伦娜\"]里昂，达维镇没有哪个人的贷款是她给放出去的，你给她甩脸色做什么？\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#8$1\", focus=\"r\")]\n[name=\"里昂\"]向其他人说情去，其他人比我还凶呢。\n[charslot(slot = \"l\", name = \"avg_4104_coldst_1#2$1\", focus=\"l\")]\n[name=\"海伦娜\"]她毕竟是我们看着长大的……\n[charslot(slot = \"r\", name = \"avg_npc_1035_1#2$1\", focus=\"r\")]\n[name=\"里昂\"]就是因为看着她长大……我才更气不过！"
+        }
+      ],
+      "description": "二人在餐馆内连续当面对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_4104_coldst",
+          "reason": "二人在餐馆内连续当面对话。",
+          "status": "supported",
+          "to": "npc_5ced1ba8cf75c26d"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_5ced1ba8cf75c26d",
+          "reason": "二人在餐馆内连续当面对话。",
+          "status": "supported",
+          "to": "char_4104_coldst"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_33ca7bdde9f73b0b.json",
+      "sources": [
+        {
+          "endLine": 101,
+          "kind": "story",
+          "line": 17,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "戴维镇餐馆场景",
+      "title": "不义之财"
+    }
+  ],
+  "relationship_id": "char_4104_coldst|npc_5ced1ba8cf75c26d"
+}

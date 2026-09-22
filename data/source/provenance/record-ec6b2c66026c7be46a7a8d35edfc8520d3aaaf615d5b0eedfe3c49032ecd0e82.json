@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 657,
+          "line": 644,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_end.txt",
+          "quote": "[name=\"达格达\"]……这是撤退的信号？\n[Character(name=\"avg_npc_405_1#9$1\")]\n[name=\"摩根\"]呃，博士没跟我提起过……不过这些萨卡兹士兵都退下了，我们的任务是不是完成了？\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7,fadetime=1)]\n[delay(time=1)]\n[name=\"？？？\"]你们先走吧。\n[Character(name=\"avg_npc_405_1#5$1\")]\n[name=\"摩根\"]……谁？\n[name=\"摩根\"]你是罗德岛的……\n[Character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]\n[name=\"？？？\"]接下来的任务，由我接手。"
+        }
+      ],
+      "description": "235形象的罗德岛救援者当面对摩根及达格达说接手任务，摩根回应；同篇s25:526–533具名Misery承接相同形象与救援职责。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E99"
+          ],
+          "from": "char_154_morgan",
+          "reason": "235形象的罗德岛救援者当面对摩根及达格达说接手任务，摩根回应；同篇s25:526–533具名Misery承接相同形象与救援职责。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E99"
+          ],
+          "from": "char_615_acspec",
+          "reason": "235形象的罗德岛救援者当面对摩根及达格达说接手任务，摩根回应；同篇s25:526–533具名Misery承接相同形象与救援职责。",
+          "status": "supported",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 657,
+          "kind": "story",
+          "line": 644,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_154_morgan|char_615_acspec"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 343,
+          "line": 314,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "quote": "[name=\"Mantra\"]博士，阿米娅，我们已进入Abyss，刚刚一瞬间源石对我们的干扰减弱了。\n[name=\"阿米娅\"]……是刚才……\n[name=\"Mantra\"]Raidian迅速重建了我们之间的联系，但情况棘手，我只能勉强用源石技艺来帮助Raidian完成沟通。\n[name=\"Mantra\"]另外，她没有搜索到凯尔希医生的生物信号。\n[name=\"Mantra\"]你们在哪？情况如何？\n[dialog]\n[Decision(options=\"我们在罗德岛的甲板上！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"我们遭遇了普瑞赛斯！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"联络华法琳。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"抓紧时间，立刻撤出所有在舰人员。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[StopSound(channel=\"sur\", fadetime=2)]\n[StopSound(channel=\"a\", fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[image]\n[hidecgitem(image=\"cgitem_60_i13_2\")]\n[hidecgitem(image=\"cgitem_60_i13_1\")]\n[charslot]\n[Background(image=\"bg_infirmary\",screenadapt=\"coverall\")]\n[Delay(time=0.1)]\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#1$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"华法琳\"]都听到博士说的了。\n[name=\"华法琳\"]不用害怕，Lancet-2会协助监测你们的数据。\n[charslot(slot = \"m\", name = \"char_285_medic2_1\")]\n[name=\"Lancet-2\"]OK！我不会让你失望，华法琳医生！"
+        }
+      ],
+      "description": "Lancet-2接收博士报告遭遇普瑞赛斯的广播并回应撤离安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D37"
+          ],
+          "from": "char_285_medic2",
+          "reason": "Lancet-2接收博士报告遭遇普瑞赛斯的广播并回应撤离安排。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_333d465fd8712924",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_285_medic2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 343,
+          "kind": "story",
+          "line": 314,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_285_medic2|npc_333d465fd8712924"
+}

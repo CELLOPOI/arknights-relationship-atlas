@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 356,
+          "line": 335,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_08_end.txt",
+          "quote": "[name=\"白金\"]  ……真是的，今天是什么日子啊。\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101\", focus=1)]\n[name=\"老骑士\"]  刚才那个萨卡兹……和玛嘉烈认识？什么情况……？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101#2\", focus=2)]\n[name=\"老工匠\"]  真的是玛嘉烈！老弗！玛嘉烈回来了！\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101#2\", focus=1)]\n[name=\"老骑士\"]  ……别嚷嚷。\n[Character(name=\"avg_npc_120#3\")]\n[name=\"老骑士\"]  那现在……我们呢，还要继续吗？\n[Character(name=\"char_204_platnm_1\", name2=\"avg_npc_120#3\", focus=1)]\n[name=\"白金\"]  别那么盯着我啊……你们捡回一条命。\n[Character(name=\"char_204_platnm_1\", name2=\"avg_npc_120#3\", focus=2)]\n[name=\"老骑士\"]  ……\n[Character(name=\"char_204_platnm_1\", name2=\"avg_npc_120#3\", focus=1)]\n[name=\"白金\"]  既然任务撤销了，我也没理由继续拦着你们了吧。\n[name=\"白金\"]  你们捡回一条命喔。\n[Character(name=\"char_204_platnm_1\", name2=\"avg_npc_120#3\", focus=2)]\n[name=\"老骑士\"]  想走就走？站住！\n[Character(name=\"avg_npc_120#3\", name2=\"avg_npc_101#2\", focus=2)]\n[name=\"老工匠\"]  老弗！先去竞技场，别管她们了！\n[Character(name=\"avg_npc_120#3\", name2=\"avg_npc_101#2\", focus=1)]\n[name=\"老骑士\"]  嘁……无胄盟……！"
+        }
+      ],
+      "description": "白金与老骑士正面交涉。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_204_platnm",
+          "reason": "白金直接告知老骑士任务撤销并让他们离开。",
+          "status": "supported",
+          "to": "npc_9192181c72a516f5"
+        },
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_9192181c72a516f5",
+          "reason": "老骑士直接要求白金站住并辨认其无胄盟身份。",
+          "status": "supported",
+          "to": "char_204_platnm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_89f9ae4a0acf0209.json",
+      "sources": [
+        {
+          "endLine": 356,
+          "kind": "story",
+          "line": 335,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "竞技场外街道",
+      "title": "玛莉娅·临光"
+    }
+  ],
+  "relationship_id": "char_204_platnm|npc_9192181c72a516f5"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 571,
+          "line": 554,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "quote": "[name=\"Aya\"]  怎么会！居然被发现了……能感觉到我在这儿，先生你很厉害。\n[name=\"Aya\"]  怎么样，这里的风景很好吧。\n[Character(name=\"char_293_thorns_1\")]\n[name=\"棘刺\"]  ……乐队的歌手。你在这里做什么？\n[Character(name=\"char_293_thorns_1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]  嗯？认得我吗，是歌迷吗？要签名吗？\n[Character(name=\"char_293_thorns_1\",name2=\"npc_2001_Aya_1\",focus=1)]\n[name=\"棘刺\"]  算不上是。别岔开话题。\n[Character(name=\"char_293_thorns_1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]  唔，很遗憾。要来张CD吗？\n[Character(name=\"char_293_thorns_1\",name2=\"npc_2001_Aya_1\",focus=1)]\n[name=\"棘刺\"]  不要。\n[Character(name=\"char_293_thorns_1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]  开玩笑的。我也不随身带CD。有没有人说过你有点难相处？\n[Character(name=\"char_293_thorns_1\",name2=\"npc_2001_Aya_1\",focus=1)]\n[name=\"棘刺\"]  有。\n[Character(name=\"char_293_thorns_1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]  相信我，你没有。你只是不在意。"
+        }
+      ],
+      "description": "棘刺识别歌手Aya并与她持续直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_293_thorns",
+          "reason": "棘刺识别歌手Aya并与她持续直接对话。",
+          "status": "supported",
+          "to": "npc_d1d3f49d93a1953d"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_d1d3f49d93a1953d",
+          "reason": "棘刺识别歌手Aya并与她持续直接对话。",
+          "status": "supported",
+          "to": "char_293_thorns"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 571,
+          "kind": "story",
+          "line": 554,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_293_thorns|npc_d1d3f49d93a1953d"
+}

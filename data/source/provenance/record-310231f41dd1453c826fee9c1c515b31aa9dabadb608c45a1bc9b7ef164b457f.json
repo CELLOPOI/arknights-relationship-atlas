@@ -1,0 +1,62 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 694,
+          "line": 673,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st05.txt",
+          "quote": "[name=\"麟青砚\"]……\n[Dialog]\n[charslot]\n浓云与惊雷都已散去，那位持剑的女性也已经消失，天地复归澄明。\n麟青砚注意到，她原本站立的地方，一本装帧素朴的书籍正躺在那里，被风翻开了扉页——\n《武典》。\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#14$1\",focus=\"m\")]\n[name=\"麟青砚\"]（将《武典》盗出玉门的人或许也在这镇中，他究竟想做什么……）\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#1$1\",focus=\"m\")]\n[name=\"麟青砚\"]（暂时没有头绪，算了，先回收《武典》——）\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#1$1\",focus=\"none\")]\n[name=\"槐天裴\"]哈哈哈哈，在这里！\n[name=\"槐天裴\"]让我好找！\n[Dialog]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=0.03, block=true)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0.5, block=true)]\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#9$1\",focus=\"m\")]\n[name=\"麟青砚\"]……槐天裴？"
+        },
+        {
+          "endLine": 824,
+          "line": 782,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "quote": "[name=\"云青萍\"]槐先生的武功，看上去又精进了……\n大巧不工，大道至简，道理任谁都明白。\n可又有几人能做到在这样生死相搏的时刻无为无我，没有招式章法，只有一拳一脚，在最精准的时刻防守、进攻。\n他已经将武融进四肢百骸。\n三十合过去了，槐天裴依然站立着，他依然没有落败！\n他脚下的山岩已经被拳锋脚劲犁出两道深深的沟壑。\n可他已无路可进，再出一拳，便是跌坠山崖。\n槐天裴依旧没有半分要退却的样子。\n[name=\"麟青砚\"]不好……这样下去，那人还是有危险！\n可是这样的决斗，还有谁能插手？\n[Dialog]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[image]\n[bgeffect]\n[Background(image=\"63_mini04_mountaintop\",screenadapt=\"coverall\")]\n[Delay(time=2)]\n[Blocker(a=0.3, r=0,g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\n[stopmusic(fadetime=2)]\n[playsound(key=\"$rungeneral\")]\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#7$1\",duration=2)]\n[Delay(time=2.5)]\n[name=\"槐琥\"]阿爸！！\n[charslot(slot=\"m\",name=\"avg_npc_785_1#6$1\",focus=\"m\")]\n[name=\"槐天裴\"]——！\n[Dialog]\n[charslot]\n一声呼喊，还是让搏命战斗的那个男人愣了神。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#6$1\",focus=\"m\")]\n[name=\"槐天裴\"]你是……\n[name=\"槐天裴\"]我……\n[name=\"槐天裴\"]……我想起来了。\n[Dialog]\n[Blocker(a=0.5, r=0,g=0, b=0, fadetime=2, block=true)]\n[playMusic(intro=\"$loneliness_intro\",key=\"$loneliness_loop\", volume=0.6)]\n[Subtitle(text=\"我想起来了。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我与一人，还有四十年之约。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我交出了那把剑，因为我割舍不下……\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我想起来了。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我还有一个女儿，我还要护她周全……\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"我的名字是……槐天裴。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]"
+        }
+      ],
+      "description": "惊蛰与槐天裴实际相遇。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02",
+            "E07"
+          ],
+          "from": "char_306_leizi",
+          "reason": "惊蛰认出并持续关注槐天裴。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "槐天裴当面现身回应。",
+          "status": "supported",
+          "to": "char_306_leizi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 694,
+          "kind": "story",
+          "line": 673,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 824,
+          "kind": "story",
+          "line": 782,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "小镇及邙山决斗场景",
+      "title": "镜中集"
+    }
+  ],
+  "relationship_id": "char_306_leizi|npc_2a2f1f3b7bd9ed61"
+}

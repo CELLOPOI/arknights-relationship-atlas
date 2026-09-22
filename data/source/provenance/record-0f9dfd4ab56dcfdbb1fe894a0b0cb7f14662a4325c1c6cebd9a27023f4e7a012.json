@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 706,
+          "line": 680,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st06.txt",
+          "quote": "[name=\"Thermal-EX\"]哦哦哦哦哦！看这夕阳！\n[name=\"Thermal-EX\"]它让我的核心感受到了一股异样的炙热！\n[name=\"Thermal-EX\"]还有比丢的吃相，风卷残云，好啊，酣畅淋漓！\n[Character(name=\"avg_286_cast3_1$1\")]\n[name=\"Castle-3\"]Thermal-EX，你安装了炎国词语库吗？\n[Character(name=\"char_376_therex_1\")]\n[name=\"Thermal-EX\"]是最最强无敌的博士之前为我安装的！博士觉得我可以用这些词来更好地描述我的想法！\n[name=\"Thermal-EX\"]他们有一个词可以来形容比丢，我觉得十分贴切！\n[multiline(name=\"Thermal-EX\",delay=0.15)]“珠圆玉润”！\n[PlaySound(key=\"$d_avg_biu_1\")]\n[Character(name=\"avg_npc_604_1#7$1\")]\n[name=\"比丢\"]Biu~！\n[Character(name=\"avg_286_cast3_1$1\")]\n[name=\"Castle-3\"]......\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]......\n[Character(name=\"avg_286_cast3_1$1\")]\n[name=\"Castle-3\"]根据阿根先生离开时的说明，他们的任务结束时间就快到了。\n[name=\"Castle-3\"]怪不得比丢想要跑出来。\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]比丢，刚才在餐厅选的食物，你喜欢吃吗？\n[Character(name=\"avg_npc_604_1#2$1\")]\n[name=\"比丢\"]Biu！\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]但是食堂阿姨有些伤心呢，你没有选她们做的菜，而是吃了一筐筷子。\n[Character(name=\"avg_286_cast3_1$1\")]\n[name=\"Castle-3\"]还好炎国和东国的干员人数并不多，食堂有很多多余的筷子可以让你吃。"
+        }
+      ],
+      "description": "Castle-3听到Thermal-EX具体讲博士为其安装语料库。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "char_286_cast3",
+          "reason": "Castle-3听到Thermal-EX具体讲博士为其安装语料库。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本篇窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_286_cast3"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_56004ab0da71157f.json",
+      "sources": [
+        {
+          "endLine": 706,
+          "kind": "story",
+          "line": 680,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "好久不见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 990,
+          "line": 975,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_closur_1_1.txt",
+          "quote": "可露希尔满脸期待地看向博士，却只看到那张被兜帽覆盖的脸发生了某种微妙的变化，而后……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.6)]\n[PlaySound(key=\"$bodyfalldown2\", volume=1)]\n[delay(time=2)] \n[charslot(slot=\"m\",name=\"avg_4228_closur_1#7$1\",focus=\"m\")]\n[name=\"可露希尔\"]怎么整个人直接倒在地上了？！\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#15$1\")]\n[name=\"阿米娅\"]这二十四小时里，博士也没能睡上一点觉。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#10$1\",focus=\"m\")]\n[name=\"可露希尔\"]嗐，算了。\n[charslot(slot=\"m\",name=\"avg_4228_closur_1#10$1\",focus=\"m\")]\n[name=\"可露希尔\"]不管怎么说，现在看起来也不像有什么急事的样子，我也先偷个懒——\n[charslot(slot=\"m\",name=\"avg_286_cast3_1$1\",focus=\"m\")]\n[name=\"Castle-3\"]可露希尔主人，这是刚刚五分钟之内博士没能接听的三个未接来电，分别来自工程部、医疗部、采购部——"
+        }
+      ],
+      "description": "博士已倒地睡去，Castle-3向可露希尔报告博士未接来电，支持其知晓博士，不以昏睡在旁推本次反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_286_cast3",
+          "reason": "博士已倒地睡去，Castle-3向可露希尔报告博士未接来电，支持其知晓博士，不以昏睡在旁推本次反向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_286_cast3"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_393fffc71aa90cef.json",
+      "sources": [
+        {
+          "endLine": 990,
+          "kind": "story",
+          "line": 975,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_closur_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "可露希尔所述时段",
+      "title": "可露希尔"
+    }
+  ],
+  "relationship_id": "char_286_cast3|npc_b99957887950ebfd"
+}

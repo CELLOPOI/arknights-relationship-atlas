@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 83,
+          "line": 65,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-01_end.txt",
+          "quote": "[name=\"阿米娅\"]   啊……博士，你来了。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=1)]\n[name=\"德克萨斯\"]   来得刚好，Dr.{@nickname}。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   我们这边的活儿也干的差不多了，得暂时离开一段时间~\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=-1)]\n[Decision(options=\"要走了吗？;……知道了。;我会想你们的。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=2)]\n[name=\"雷蛇\"]   很快就能再见面的。\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=1)]\n[name=\"芙兰卡\"]   只要过一小段时间，我们就能回到罗德岛重新待命。\n[name=\"芙兰卡\"]   可不用太想我哦。\n[Character(name=\"char_106_franka_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   唉唉，可惜可惜，我们这边没有那样的正经理由呢，德克萨斯。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=1)]\n[name=\"德克萨斯\"]   你给我等等……\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   企鹅物流，马上要回去休假咯！"
+        }
+      ],
+      "description": "博士与在场人员直接会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_102_texas",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "char_102_texas"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b768950f6cb3956f.json",
+      "sources": [
+        {
+          "endLine": 83,
+          "kind": "story",
+          "line": 65,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛会面与告别",
+      "title": "急性衰竭"
+    }
+  ],
+  "relationship_id": "char_102_texas|npc_b99957887950ebfd"
+}

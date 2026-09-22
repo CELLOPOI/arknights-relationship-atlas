@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 54,
+          "line": 27,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "quote": "[PlaySound(key=\"$transmission\",volume=0.6)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_062\",blackstart=0.15,blackend=0.5,focus=-1)]\n[name=\"终端里的声音\"]……高多汀公爵仍旧没有动作……子爵遇刺后，我们在领地内的行动受到极大限制……\n[name=\"终端里的声音\"]……诺曼底公爵的宅邸里每夜都召开奢靡的沙龙晚宴，但钢材的流向极其可疑，而且所有的谍报人员都无功而返……\n[name=\"终端里的声音\"]……深池的声音淹没在威灵顿公爵高速战舰的轰鸣声中，我们至今无法深入铁公爵的领地，但毫无疑问，其他公爵早已不能掣肘这位老将。\n[name=\"终端里的声音\"]……侯爵及其党羽终于放弃了斯塔福德公爵留下的遗产……开斯特公爵于新年前夜接纳了他们的使节与礼物……\n[name=\"终端里的声音\"]……各大公爵在去年入冬后的动作越发频繁，这也许是他们即将“得出结论”的信号，伦蒂尼姆的准备速度依然……等等，抱歉。\n[name=\"终端里的声音\"]什么？确定吗……莱塔尼亚？三天前？速度太慢了！……是的，看来他们的外交媾和最终取得了成果……\n[name=\"终端里的声音\"]呃。新的密码转译结束了，是来自前线的消息，将军。是，我必须，紧急通知您……\n[name=\"终端里的声音\"]女皇之声于三日前，高调地离开了温德米尔公爵的领地……呃……\n[name=\"终端里的声音\"]（咽口水）我们没能及时发现双方的接触，但，就在今天……\n[name=\"终端里的声音\"]一座城市……一座要塞调整了航线，正向伦蒂尼姆驶来，是两年来离我们最近的一次……呃……\n[name=\"终端里的声音\"]从莱塔尼亚与维多利亚的边境长驱直入，靠近峡谷，呃，是的，是选帝侯的大敌……温德米尔公爵的军队。\n[name=\"终端里的声音\"]温德米尔公爵对外宣称……这是为了“躲避天灾”。\n[Dialog]\n[character(fadetime=0.5)]\n沉默重新笼罩大厅。但此刻，特雷西斯紧闭的双眼里，看见了伦蒂尼姆外的迷雾。\n待到迷雾散去，战争将如期而至。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.5)]\n[Delay(time=1)]\n脚步声打断了特雷西斯的思考。\n他不得不睁开眼。\n[Dialog]\n[Character(name=\"avg_npc_056\",fadetime=1)]\n[Delay(time=1)]\n[name=\"？？？\"]特雷……"
+        }
+      ],
+      "description": "特雷西斯收到卡斯特公爵来讯。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "通讯发出端未见特雷西斯回应送达。",
+          "status": "not_established",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "特雷西斯在场接收卡斯特公爵的终端来讯。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 54,
+          "kind": "story",
+          "line": 27,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "碎片大厦会谈前",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "npc_8c87697c59975883|npc_c573b8884914fc60"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 325,
+          "line": 284,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_01_beg.txt",
+          "quote": "[name=\"阿尔图罗\"]看来今天会是客人很多的一天。\n[name=\"阿尔图罗\"]您好，杰拉尔德先生。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_926_1#1$2\",duration=1.5)]\n[delay(time=2)]\n[name=\"杰拉尔德\"]我本以为能在这里见到斯特凡诺。\n[charslot(slot = \"m\", name = \"avg_npc_490_1#1$1\")]\n[name=\"阿尔图罗\"]主教阁下还有不少事务要处理，刚刚才离开。\n[name=\"阿尔图罗\"]我想他应该还没走多远，以您的脚力，现在追上去应该还来得及。\n[charslot(slot = \"m\", name = \"avg_npc_926_1#1$2\")]\n[name=\"杰拉尔德\"]多谢。\n[name=\"杰拉尔德\"]……\n[name=\"杰拉尔德\"]……你今天还没有拉响琴弦。\n[charslot(slot = \"m\", name = \"avg_npc_490_1#8$1\")]\n[name=\"阿尔图罗\"]如果您喜欢我的琴声的话，我可以现在就为您演奏一曲。\n[charslot(slot = \"m\", name = \"avg_npc_926_1#1$2\")]\n[name=\"杰拉尔德\"]不用了。\n[charslot(slot = \"m\", name = \"avg_npc_926_1#6$2\")]\n[name=\"杰拉尔德\"]你给一些……我们的人带来了快乐，对此我很感激。\n[charslot(slot = \"m\", name = \"avg_npc_926_1#1$2\")]\n[name=\"杰拉尔德\"]但并不是所有人都可以从你的音乐中得到安慰的，至少我不行。\n[charslot(slot = \"m\", name = \"avg_npc_926_1#10$2\")]\n[name=\"杰拉尔德\"]我不知道像你这样的音乐家为何会在这个地方逗留……我只希望你不会为这里带来灾难。\n[charslot(slot = \"m\", name = \"avg_npc_490_1#1$1\")]\n[name=\"阿尔图罗\"]您太高看我了。\n[name=\"阿尔图罗\"]据我所知，灾难总是在最初就被埋藏在土壤里，而后生根发芽，开花结果。\n[name=\"阿尔图罗\"]如果这片花圃里真有这么一粒种子，那么它迟早会破土而出。\n[charslot(slot = \"m\", name = \"avg_npc_490_1#2$1\")]\n[name=\"阿尔图罗\"]而我……充其量只是一个将这一切纳入眼帘的过客。\n[charslot(slot = \"m\", name = \"avg_npc_926_1#1$2\")]\n[name=\"杰拉尔德\"]……不会有什么不该发芽的种子。\n[name=\"杰拉尔德\"]要不了多久，一切都会回归正轨，不会有意外，更不会有灾难。\n[charslot(slot = \"m\", name = \"avg_npc_926_1#9$2\")]\n[name=\"杰拉尔德\"]小姐，请不要做多余的事。\n[charslot(slot = \"m\", name = \"avg_npc_490_1#1$1\")]\n[name=\"阿尔图罗\"]这是您给我的忠告？\n[charslot(slot = \"m\", name = \"avg_npc_926_1#1$2\")]\n[name=\"杰拉尔德\"]不。\n[charslot(slot = \"m\", name = \"avg_npc_926_1#5$2\")]\n[name=\"杰拉尔德\"]这是我的警告。"
+        }
+      ],
+      "description": "阿尔图罗与杰拉尔德直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_245_cello",
+          "reason": "双方直接对话或明确局部共处。",
+          "status": "supported",
+          "to": "npc_bca27cc42d04b865"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_bca27cc42d04b865",
+          "reason": "双方直接对话或明确局部共处。",
+          "status": "supported",
+          "to": "char_245_cello"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d3659cc008c9f040.json",
+      "sources": [
+        {
+          "endLine": 325,
+          "kind": "story",
+          "line": 284,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "空想花庭事件现实场景",
+      "title": "空想花庭"
+    }
+  ],
+  "relationship_id": "char_245_cello|npc_bca27cc42d04b865"
+}

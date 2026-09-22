@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 425,
+          "line": 415,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21mini/level_act21mini_st07.txt",
+          "quote": "[name=\"米格鲁\"]……不对，我觉得不对！\n[charslot(slot=\"r\",name= \"avg_4234_pedro_1#10$1\",focus=\"r\")]\n[name=\"佩德洛\"]……\n[charslot(slot=\"l\",name= \"avg_npc_2321_1#11$2\",focus=\"l\")]\n[name=\"米格鲁\"]生命决不会仅因为死亡就变得轻飘飘的，当一个人决定挺身而出的时候，他就已经是了不起的！\n[name=\"米格鲁\"]而且，决定生命的分量的，也不该是死亡换来的结果，而是他们在有限的生命里经历过的事才对！\n[charslot(slot=\"r\",name= \"avg_4234_pedro_1#11$1\",focus=\"r\")]\n[name=\"佩德洛\"]米格鲁小姐，你认为……你自己的一生，是有分量的吗？\n[charslot(slot=\"l\",name= \"avg_npc_2321_1#11$2\",focus=\"l\")]\n[name=\"米格鲁\"]我……我不确定……\n[name=\"米格鲁\"]这个问题怎么能自己来回答呢……至少也应该是小队其他成员来说，或者是杜宾教官，或者是博士来评价才对……"
+        }
+      ],
+      "description": "米格鲁向佩德洛谈论可以评价自己一生的博士，米格鲁知晓、佩德洛当面听取；不推博士反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_4234_pedro",
+          "reason": "米格鲁向佩德洛谈论可以评价自己一生的博士，米格鲁知晓、佩德洛当面听取；不推博士反向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4234_pedro"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_6fbe8cd44ac3795d.json",
+      "sources": [
+        {
+          "endLine": 425,
+          "kind": "story",
+          "line": 415,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21mini/level_act21mini_st07.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "丛林症结所述时段",
+      "title": "丛林症结"
+    }
+  ],
+  "relationship_id": "char_4234_pedro|npc_b99957887950ebfd"
+}

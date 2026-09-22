@@ -1,0 +1,149 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 66,
+          "line": 55,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-04_beg.txt",
+          "quote": "[name=\"雷蛇\"]   一定要避免陷入这种处境。\n[Character(name=\"char_106_franka_1\",name2=\"char_002_amiya_1\",focus=1)]\n[name=\"芙兰卡\"]  这样吧，阿米娅。\n[name=\"芙兰卡\"]  我先和雷蛇迂回作战，边侦察敌情，边尝试占领这片区域中的高地。\n[name=\"芙兰卡\"]  在我们通知你之前，罗德岛最好先坚守阵地。\n[name=\"芙兰卡\"]  可别因为我们战斗得太激烈就突然冲出来哦，阿米娅。\n[Character(name=\"char_106_franka_1\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]  我知道的，我会自己判断局势。\n[Character(name=\"char_106_franka_1\")]\n[name=\"芙兰卡\"]  博士，你也要拉好她哦！\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=2)]\n[name=\"雷蛇\"]   保持联系。"
+        },
+        {
+          "endLine": 105,
+          "line": 33,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-04_end.txt",
+          "quote": "[name=\"星熊\"]   收声！\n[name=\"星熊\"]   是什么声音……？\n[playsound(key=\"$d_gen_walk_n\", volume=0.6)]\n[Character(name=\"char_103_angel_1\")]\n[name=\"能天使\"]   ————嗯？\n[name=\"能天使\"]   是从……地下！？？\n[name=\"能天使\"]   阿米娅！从地下传来了！\n[delay(time=0.5)]\n[playsound(key=\"$e_skill_skulsrshot\", delay=0)]\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   ！！！！\n[delay(time=0.5)]\n[playsound(key=\"$e_skill_skulsrexplo\", volume=0.5)]\n[CameraShake(duration=0.6, xstrength=8, ystrength=12, vibrato=30, randomness=90, block=false)]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Background(screenadapt=\"coverall\", image=\"bg_wild_a\", width=1, height=1, fadetime=0)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[playsound(key=\"$e_skill_skulsrshot\", delay=0.4)]\n[delay(time=0.5)]\n[Character(name=\"char_136_hsguma\")]\n[name=\"星熊\"]   博士！！快趴下！！！\n[name=\"星熊\"]   这群人……真是不择手段！\n[playsound(key=\"$e_skill_skulsrexplo\", volume=0.3, delay=0.1)]\n[playsound(key=\"$p_imp_blunt_h\")]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[CameraShake(stop=true)]\n[Character(name=\"char_1500_skulsr\")]\n[name=\"碎骨\"]   ————！？\n[name=\"碎骨\"]   怎么……你居然……能挡住？\n[Character(name=\"char_136_hsguma\")]\n[name=\"星熊\"]   这面“般若”，可不是你能打得穿的。\n[Character(name=\"char_1500_skulsr\")]\n[name=\"碎骨\"]   那可……未必……\n[playsound(key=\"$e_skill_skulsrshot\")]\n[delay(time=0.5)]\n[playsound(key=\"$e_skill_skulsrexplo\", volume=0.7)]\n[CameraShake(duration=1, xstrength=12, ystrength=1, vibrato=30, randomness=90, fadeout=false, block=false)]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[CameraShake(stop=true)]\n[delay(time=1)]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=2, block=true)]\n[name=\"芙兰卡\"]   ——！\n[name=\"芙兰卡\"]   温度急剧升高！！\n[name=\"芙兰卡\"]   他想引爆手中的魔杖吗？\n[name=\"芙兰卡\"]   博士！快跑！那个距离，你会————\n[name=\"星熊\"]   你————\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[Image(image=\"bg_1_lastattack\", fadetime=0, xScale=1, yScale=1)]\n[Blocker(a=0, initr=2, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[delay(time=0.5)]\n[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=false, block=false)]\n[name=\"碎骨\"]   结束了！\n[Character(fadetime=0)]\n[Dialog]\n[StopMusic(fadetime=1.5)]\n[PlaySound(key=\"$d_gen_heartbeat\",volume=0.4, channel=\"HB\", loop=true)]\n[delay(time=1)]\n[Background(fadetime=0)]\n[Blocker(a=0, fadetime=1.5, block=true)]\n[Character(name=\"char_002_amiya_1#8\")]\n[name=\"阿米娅\"]   不……不要———\n[Character(name=\"char_002_amiya_1#8\")]\n[name=\"阿米娅\"]   不能—————\n[name=\"阿米娅\"]   不可以伤害博士———————！！\n[Blocker(a=1, initr=2, r=0.6, g=0, b=0, fadetime=1, block=true)]\n[Image(image=\"bg_1_reflect\", fadetime=0.4, xScale=1, yScale=1)]\n[name=\"阿米娅\"]   ……！"
+        }
+      ],
+      "description": "芙兰卡直接叫博士并在战斗中保护其撤离。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02",
+            "C03"
+          ],
+          "from": "char_106_franka",
+          "reason": "同场、直接称呼或具体转述支持该方向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C02",
+            "C03"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "同场、直接称呼或具体转述支持该方向。",
+          "status": "supported",
+          "to": "char_106_franka"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_a05b4e35a7bcd8a2.json",
+      "sources": [
+        {
+          "endLine": 66,
+          "kind": "story",
+          "line": 55,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 105,
+          "kind": "story",
+          "line": 33,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "龙门矿场战役相关场景",
+      "title": "二次呼吸"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 113,
+          "line": 87,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-04_beg.txt",
+          "quote": "[name=\"能天使\"]   嗯嗯！\n[Character(name=\"char_103_angel_1\", name2=\"char_107_liskam_1\", focus=2)]\n[name=\"雷蛇\"]   那，他们的行动趋势呢？\n[Character(name=\"char_103_angel_1\", name2=\"char_107_liskam_1\", focus=1)]\n[name=\"能天使\"]   正在朝你们靠拢！\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\",focus=2)]\n[name=\"雷蛇\"]   ……\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\",focus=1)]\n[name=\"芙兰卡\"]   ……\n[Character( name=\"char_107_liskam_1\")]\n[name=\"雷蛇\"]   我们被围堵了。\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]   首要任务，是把米莎安全带出去。\n[name=\"阿米娅\"]   芙兰卡，针对敌人的突袭，就交给你们了。\n[Character(name=\"char_106_franka_1\")]\n[name=\"芙兰卡\"]   简单。\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]   雷蛇，重装小队负责两翼。米莎也交由你保护。\n[Character(name=\"char_107_liskam_1\")]\n[name=\"雷蛇\"]   没问题。\n[Character(name=\"char_103_angel_1\")]\n[name=\"能天使\"]   对了对了，敌人似乎还带了些术师哦？\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]   ……唔。\n[name=\"阿米娅\"]   博士，请牢牢跟在我身边。\n[name=\"阿米娅\"]   接下来也请你继续指挥小队作战，我会传达你的命令。\n[name=\"阿米娅\"]   ……我们就走这最安全的路线试试看。"
+        }
+      ],
+      "description": "同一作战安排现场各干员发言，阿米娅让博士紧随并继续指挥；实际同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_106_franka",
+          "reason": "同一作战安排现场各干员发言，阿米娅让博士紧随并继续指挥；实际同场。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "同一作战安排现场各干员发言，阿米娅让博士紧随并继续指挥；实际同场。",
+          "status": "supported",
+          "to": "char_106_franka"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_e13e294bac851642.json",
+      "sources": [
+        {
+          "endLine": 113,
+          "kind": "story",
+          "line": 87,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "异卵同生"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 83,
+          "line": 65,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-01_end.txt",
+          "quote": "[name=\"阿米娅\"]   啊……博士，你来了。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=1)]\n[name=\"德克萨斯\"]   来得刚好，Dr.{@nickname}。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   我们这边的活儿也干的差不多了，得暂时离开一段时间~\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=-1)]\n[Decision(options=\"要走了吗？;……知道了。;我会想你们的。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=2)]\n[name=\"雷蛇\"]   很快就能再见面的。\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=1)]\n[name=\"芙兰卡\"]   只要过一小段时间，我们就能回到罗德岛重新待命。\n[name=\"芙兰卡\"]   可不用太想我哦。\n[Character(name=\"char_106_franka_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   唉唉，可惜可惜，我们这边没有那样的正经理由呢，德克萨斯。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=1)]\n[name=\"德克萨斯\"]   你给我等等……\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   企鹅物流，马上要回去休假咯！"
+        }
+      ],
+      "description": "博士与在场人员直接会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_106_franka",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "char_106_franka"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b768950f6cb3956f.json",
+      "sources": [
+        {
+          "endLine": 83,
+          "kind": "story",
+          "line": 65,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛会面与告别",
+      "title": "急性衰竭"
+    }
+  ],
+  "relationship_id": "char_106_franka|npc_b99957887950ebfd"
+}

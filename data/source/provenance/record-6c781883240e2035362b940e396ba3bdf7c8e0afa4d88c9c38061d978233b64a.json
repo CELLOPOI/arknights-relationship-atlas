@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 142,
+          "line": 119,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16d5/level_act16d5_st03.txt",
+          "quote": "[name=\"夕\"]……我看过不少行动档案，这个博士是什么人？\n[Character(name=\"char_2014_nian_1\",name2=\"char_2015_dusk_1#5\",focus=1)]\n[name=\"年\"]哦？你偷偷拿的？没给可露希尔发现吧？\n[Character(name=\"char_2014_nian_1\",name2=\"char_2015_dusk_1#5\",focus=2)]\n[name=\"夕\"]你说那个年轻的魔族？她没管我，我直接过去了。\n[Character(name=\"char_2014_nian_1\",name2=\"char_2015_dusk_1#5\",focus=1)]\n[name=\"年\"]欸……凭什么……她是不是针对我？\n[Character(name=\"char_2014_nian_1\",name2=\"char_2015_dusk_1#5\",focus=2)]\n[name=\"夕\"]……罗德岛。\n[name=\"夕\"]监察司和罗德岛是什么关系？\n[Character(name=\"char_2014_nian_1\",name2=\"char_2015_dusk_1#5\",focus=1)]\n[name=\"年\"]那是另一件事，没关系，别紧张。惊蛰也是贬谪之身，而且现在基本不来罗德岛了。\n[name=\"年\"]这么在乎她？那边是不是有官差找过你麻烦？\n[Character(name=\"char_2014_nian_1\",name2=\"char_2015_dusk_1#1\",focus=2)]\n[name=\"夕\"]呵，不在乎这小小的监察司，倒是在乎这雷法出处……她那师父，还有总盯着我们的那些个老家伙，没一个省事的。\n[name=\"夕\"]你说我画地为牢？他可是直接烧穿画卷，焚尽眼前江山，非要来教训我一通。我又不是你，也不晓得碍着谁了，就要挨一顿骂。\n[name=\"夕\"]我烦他烦得要死，又拿他没有办法。\n[Character(name=\"char_2014_nian_1\",name2=\"char_2015_dusk_1#1\",focus=1)]\n[name=\"年\"]嚯嚯，还发生过这种事？\n[Character(name=\"char_2014_nian_1\",name2=\"char_2015_dusk_1#2\",focus=2)]\n[name=\"夕\"]……你还没告诉我，博士和凯尔希是什么人？你待在这里，和这两人有什么关系？\n[name=\"夕\"]还有，他们现在在哪里？\n[Character(name=\"char_2014_nian_1\",name2=\"char_2015_dusk_1#1\",focus=1)]\n[name=\"年\"]……好啊。我都告诉你。"
+        }
+      ],
+      "description": "夕单向知晓博士这一具体人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_2015_dusk",
+          "reason": "夕读过行动档案并具体追问博士是什么人、身在何处。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未出场，未见本篇反向证据。",
+          "status": "not_established",
+          "to": "char_2015_dusk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_6de2864568ae8369.json",
+      "sources": [
+        {
+          "endLine": 142,
+          "kind": "story",
+          "line": 119,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16d5/level_act16d5_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇罗德岛现实场景",
+      "title": "画中人"
+    }
+  ],
+  "relationship_id": "char_2015_dusk|npc_b99957887950ebfd"
+}

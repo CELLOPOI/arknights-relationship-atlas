@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 537,
+          "line": 437,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_03_beg.txt",
+          "quote": "一辆载满货物的卡车就这么突然撞上了刚刚准备拐过路口的轿车。\n玻璃碎片撒满了现场，轿车车身也已变形。一个轮胎从卡车车厢内蹦了出来。\n[dialog]\n[charslot(slot = \"m\", name = \"avg_4155_talr_1#5$1\")]\n[name=\"卢奇诺\"]……救、救人……对，救人！\n[dialog]\n[charslot(duration=1)]\n[CameraShake(duration=1.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$rungeneral\")]\n[delay(time=2.5)]\n[charslot(slot = \"m\", name = \"avg_4155_talr_1#8$1\")]\n[name=\"卢奇诺\"]该死，现在大伙都去主街区那边看竞演了……\n[name=\"卢奇诺\"]喂，车里面的人坚持住，我来想办法救你们出来——\n[dialog]\n[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"0,-50\",duration=1)]\n[delay(time=1.5)]\n[charslot(slot = \"m\", name = \"avg_4155_talr_1#5$1\")]\n[name=\"卢奇诺\"]呃，这些是什么……轮胎里面还有其他东西？\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[playsound(key=\"$d_avg_walkfast\")]\n[charslot(slot = \"left\", name = \"avg_npc_541_1#5$1\",duration = 0.5)]\n[delay(time=1)]\n[name=\"卡彭\"]在这，甘比诺，真是我们盯的那辆车！\n[dialog]\n[charslot(slot = \"r\", name = \"avg_npc_542_1#1$1\",duration = 0.5)]\n[delay(time=1)]\n[charslot(slot = \"r\", name = \"avg_npc_542_1#4$1\",focus=\"r\")]\n[name=\"甘比诺\"]明明只是喝口咖啡的工夫，怎么……这下全他妈完了！\n[name=\"甘比诺\"]本来只分到个打掩护的活儿就已经够倒霉了。苦劳全是我们，功劳一点捞不上……\n[name=\"甘比诺\"]现在这批货还在我们眼皮子底下出了问题——\n[charslot(slot = \"left\", name = \"avg_npc_541_1#1$1\",focus=\"l\")]\n[name=\"卡彭\"]恐怕更糟，你看看被撞的那辆轿车，是不是很眼熟？\n[charslot(slot = \"r\", name = \"avg_npc_542_1#5$1\",focus=\"r\")]\n[name=\"甘比诺\"]这时候你还关心他妈的谁被撞了——\n[charslot(slot = \"r\", name = \"avg_npc_542_1#2$1\",focus=\"r\")]\n[name=\"甘比诺\"]等等，那是，莱昂图索的……\n[charslot(slot = \"r\", name = \"avg_npc_542_1#1$1\",focus=\"r\")]\n[name=\"甘比诺\"]……\n[charslot(slot = \"left\", name = \"avg_npc_541_1#8$1\",focus=\"l\")]\n[name=\"卡彭\"]……\n[charslot(slot = \"r\", name = \"avg_npc_542_1#1$1\",focus=\"r\")]\n[name=\"甘比诺\"]我现在得承认之前你说回龙门的打算不算糟了。\n[name=\"甘比诺\"]趁警察和老板还没来得及反应，赶紧走，我们之间的账可以回龙门之后再慢慢算。\n[charslot(slot = \"left\", name = \"avg_npc_541_1#1$1\",focus=\"l\")]\n[name=\"卡彭\"]好不容易在这有点盼头，现在绝对不能认怂，别忘了我们来新沃尔西尼投奔威尼斯载具公司的原因是啥！\n[name=\"卡彭\"]没有西西里夫人，没有灰厅，甚至没有其他家族的掣肘。\n[name=\"卡彭\"]说不定，我们能在这混出个自己的家族来，甘比诺。\n[name=\"卡彭\"]看到街对面那个抱着盒子的小子了吗？现在这条路就他一个人看到了车祸，会不会他也不小心看到了卡车里藏的其他货？\n[charslot(slot = \"r\", name = \"avg_npc_542_1#10$1\",focus=\"r\")]\n[name=\"甘比诺\"]……我懂你的意思了，他有没有真看到的确是我们说了算。你真是个坏种，卡彭。\n[charslot(slot = \"left\", name = \"avg_npc_541_1#1$1\",focus=\"l\")]\n[name=\"卡彭\"]只是找条活路罢了，顺便在老板面前立个功。\n[name=\"卡彭\"]走吧，把他带回去，说我们把现场唯一的目击者控制住了。\n[charslot(slot = \"r\", name = \"avg_npc_542_1#6$1\",focus=\"r\")]\n[name=\"甘比诺\"]……这些货？\n[charslot(slot = \"left\", name = \"avg_npc_541_1#1$1\",focus=\"l\")]\n[name=\"卡彭\"]是接货人需要考虑的事。别忘了，老板再三强调，我们只是打掩护的。\n[name=\"卡彭\"]至于莱昂图索……哼，愿他无恙。\n[charslot(slot = \"r\", name = \"avg_npc_542_1#4$1\",focus=\"r\")]\n[name=\"甘比诺\"]得快，不能让那小子被其他人给抢先带走了。\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=0.7)]\n[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"400,0\",duration = 1.5)]\n[delay(time=0.3)]\n[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"400,0\",duration = 1.5)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot(slot = \"m\", name = \"avg_4155_talr_1#1$1\")]\n[name=\"卢奇诺\"]嗯，还有人来帮忙？！\n[charslot(slot = \"m\", name = \"avg_4155_talr_1#1$1\")]\n[name=\"卢奇诺\"]在这，车里还有人——\n[dialog]\n[charslot(slot = \"m\", name = \"avg_4155_talr_1#5$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=90, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$fightgeneral\", volume=0.7)]\n[delay(time=0.5)]\n[charslot(slot =\"m\", afrom = 1, ato = 0,duration = 0.5,posfrom = \"0,0\", posto = \"0,-60\")]\n[PlaySound(key=\"$bodyfalldown1\")]\n[delay(time=1)]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_542_1#1$1\",duration=0.5)]\n[charslot(slot = \"left\", name = \"avg_npc_541_1#1$1\",duration=0.5)]\n[delay(time=1)]\n[charslot(slot = \"left\", name = \"avg_npc_541_1#1$1\",focus=\"l\")]\n[name=\"卡彭\"]晕死了。\n[charslot(slot = \"r\", name = \"avg_npc_542_1#1$1\",focus=\"r\")]\n[name=\"甘比诺\"]我来扛他。\n[charslot(slot = \"left\", name = \"avg_npc_541_1#1$1\",focus=\"l\")]\n[name=\"卡彭\"]这小子手里的那个箱子……\n[charslot(slot = \"r\", name = \"avg_npc_542_1#1$1\",focus=\"r\")]\n[name=\"甘比诺\"]一起拿走，别留下任何线索。\n[charslot(slot = \"r\", name = \"avg_npc_542_1#6$1\",focus=\"r\")]\n[name=\"甘比诺\"]你确定我们躲开监控了？\n[charslot(slot = \"left\", name = \"avg_npc_541_1#5$1\",focus=\"l\")]\n[name=\"卡彭\"]废话，我来这儿的第一件事就是摸清周围状况。\n[name=\"卡彭\"]走。"
+        }
+      ],
+      "description": "卡彭在车祸现场掳走卢奇诺。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "char_4155_talr",
+          "reason": "卡彭在车祸现场掳走卢奇诺。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        },
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭在车祸现场掳走卢奇诺。",
+          "status": "supported",
+          "to": "char_4155_talr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 537,
+          "kind": "story",
+          "line": 437,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "揭幕者们"
+    }
+  ],
+  "relationship_id": "char_4155_talr|npc_e565b7639574735d"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1359,
+          "line": 1282,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"阿克托斯\"]恩希欧迪斯的走狗！欺人太甚！我和你们拼了！\n[character(name=\"avg_198_blackd_1#9$1\")]\n[name=\"魏斯\"]我更希望您能冷静一点，你们已经没有机会了。\n[name=\"魏斯\"]你们跑不掉的。\n[Character]\n[name=\"？？？\"]不，他们能。\n[character(name=\"avg_198_blackd_1#10$1\")]\n[name=\"魏斯\"]谁？\n[Dialog]\n[Character]\n在屋檐下的阴影中，一条走廊的入口处，一个高大的男人矗立在墙角。\n在他身后，几名本该执行包围命令的“山雪鬼”东倒西歪地躺在走廊中。\n[dialog]\n[character(name=\"avg_npc_252\",fadetime=1.5)]\n[delay(time=1.5)]\n在讯使短暂的罗德岛工作经历中，他最为熟悉的罗德岛干员之一，慢慢地走出了阴影，站在了他的面前。\n而他很清楚这代表着什么。\n[dialog]\n[Character(name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]你是……什么人？\n[Character(name=\"avg_npc_254_1#4$1\")]\n[name=\"阿克托斯\"]你们是……那个博士的……\n[Character(name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]……为什么救我们？\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]解释现状不是我的工作。\n[name=\"Sharp\"]门在那边，外面的人我已经解决了。\n[name=\"Sharp\"]极光，带他们走。\n[character(name=\"avg_422_aurora_1#5$1\")]\n[name=\"极光\"]好的！\n[character(name=\"avg_npc_275\",name2=\"avg_npc_275\")]\n[name=\"“山雪鬼”\"]别想跑！\n[Character(name=\"avg_npc_252\",name2=\"avg_npc_275\")]\n[characteraction(name=\"right\", type=\"jump\", xpos=-100, power=0, times=1, fadetime=0.1, block=true)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$d_avg_twohandedblunt\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[characteraction(name=\"left\", type=\"jump\", xpos=-100, power=5, times=1, fadetime=0.5,block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$knifegore\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[characteraction(name=\"left\", type=\"jump\", xpos=200, power=5, times=1, fadetime=0.5,block=true)]\n[dialog]\n[Delay(time=1)]\n[Character(name=\"avg_npc_252\",name2=\"avg_npc_275\",focus=2)]\n[name=\"“山雪鬼”\"]呃……\n[Dialog]\n[delay(time=0.7)]\n[PlaySound(key=\"$bodyfalldown2\", volume=1)]\n[characteraction(name=\"right\", type=\"move\", ypos=-300, fadetime=2,block=true)]\n[character(name=\"avg_npc_252\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=1)]\n[dialog]\n[Delay(time=1)]\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]下一位，请。\n[character(name=\"avg_198_blackd_1#9$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"魏斯\"]不要轻举妄动！列队！\n[character(name=\"avg_npc_275\",name2=\"avg_npc_275\")]\n[name=\"“山雪鬼”\"]列队？对面就一个人！\n[character(name=\"avg_198_blackd_1#10$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"魏斯\"]列队！！\n[character(name=\"avg_npc_275\",name2=\"avg_npc_275\")]\n[name=\"“山雪鬼”\"]……明白。\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]很好。\n[PlaySound(key=\"$d_avg_bldwhoosh\", volume=3)]\n[Delay(time=1)]\n[character(name=\"avg_198_blackd_1#9$1\")]\n[name=\"魏斯\"]Sharp……队长。\n[name=\"魏斯\"]我很抱歉。\n[character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]不用向我道歉，这里并没有什么私人恩怨，讯使。"
+        }
+      ],
+      "description": "Sharp和极光当场救走两家主，讯使与Sharp相互识别并交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E73"
+          ],
+          "from": "char_422_aurora",
+          "reason": "Sharp和极光当场救走两家主，讯使与Sharp相互识别并交谈。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E73"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "Sharp和极光当场救走两家主，讯使与Sharp相互识别并交谈。",
+          "status": "supported",
+          "to": "char_422_aurora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 1359,
+          "kind": "story",
+          "line": 1282,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_422_aurora|npc_e69f1ad171a29fd0"
+}

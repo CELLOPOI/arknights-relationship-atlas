@@ -1,0 +1,218 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 291,
+          "line": 283,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st01.txt",
+          "quote": "[name=\"埃芒加德\"]老师！您那边还好吗？\n[name=\"埃芒加德\"]仪器监测到熔炉能量不太稳定……是仪式出了什么问题吗？需不需要我搭把手？\n[Dialog]\n[CharacterCutin(widgetID=\"1\",fadetime=0.2,block=true)]\n[delay(time=0.5)]\n[name=\"弗莱蒙特\"]咳咳……咳——！\n[name=\"弗莱蒙特\"]别过来！还用不着你！\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=40, randomness=90, fadeout=true, block=false)]\n[name=\"弗莱蒙特\"]*激烈的萨卡兹粗口*……我发誓，今晚不把这几个老东西收拾利索，我就去给曼弗雷德擦鞋！"
+        }
+      ],
+      "description": "埃芒加德叫老师询问仪式情况，弗莱蒙特回应不许过来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "埃芒加德叫老师询问仪式情况，弗莱蒙特回应不许过来。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "埃芒加德叫老师询问仪式情况，弗莱蒙特回应不许过来。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_7b6f965ec725fee0.json",
+      "sources": [
+        {
+          "endLine": 291,
+          "kind": "story",
+          "line": 283,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "熔炉“还魂”记"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 52,
+          "line": 36,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "quote": "[name=\"弗莱蒙特\"]埃芒加德，你在卡兹戴尔的活儿得加紧做了。 \n[name=\"弗莱蒙特\"]要是特雷西斯的计划没完全成功，维多利亚……不，莱塔尼亚和其他核心圈国家的军队会立刻朝卡兹戴尔行进。\n[name=\"弗莱蒙特\"]接收巴别塔留下的遗产，保住那座城市。不能让两百年前的事再来一次。\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#5$1\",focus=\"m\")]\n[name=\"弗莱蒙特\"]……等等。\n[name=\"弗莱蒙特\"]线头是不是动了？埃芒加德，是你动的吗？\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#4$1\",focus=\"m\")]\n[name=\"弗莱蒙特\"]……\n[name=\"弗莱蒙特\"]这样啊。\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#3$1\",focus=\"m\")]\n[multiline(name=\"弗莱蒙特\")]“希望”……我可不怎么喜欢听见这个词语。但好歹，眼前还算有条路可以走……\n[charslot(slot=\"m\",name=\"avg_npc_1114_1#1$1\",focus=\"m\")]\n[multiline(name=\"弗莱蒙特\")]对吧，殿下？\n[Dialog]\n[charslot]\n特蕾西娅看到老巫妖严肃的脸上露出了一个几不可见的微笑。\n她松开了那根透明的、深入虚空的丝弦，朝那位暂停了抱怨的老朋友点了点头，又朝更远的地方走去。"
+        }
+      ],
+      "description": "弗莱蒙特向埃芒加德布置工作，但随后拨动丝弦的是特蕾西娅；本段没有埃芒加德已接收或回应的证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E168"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "弗莱蒙特向埃芒加德布置工作，但随后拨动丝弦的是特蕾西娅；本段没有埃芒加德已接收或回应的证据。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_4cf393656bead901",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_732d802fa042a0c2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 52,
+          "kind": "story",
+          "line": 36,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 69,
+          "line": 23,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_1.txt",
+          "quote": "[name=\"妮芙\"]欸，我们回来了？\n[Dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#7$1\")]\n[CameraShake(duration=0.5, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]\n[name=\"弗莱蒙特\"]埃芒加德！\n[Dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",duration=1)]\n[delay(time=2)]\n[name=\"埃芒加德\"]老师我在这里……\n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_869_1#9$1\",focus=\"l\")]\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#10$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]这就是你脑袋里挤出来的好主意？趁着我不注意拉半打萨卡兹来熔炉里？\n[charslot(slot = \"r\", name = \"avg_npc_869_1#8$1\",focus=\"r\")]\n[name=\"埃芒加德\"]我也就是想帮个忙，您看，您之前那一次也没有想象中的那么顺利嘛……\n[charslot(slot = \"r\", name = \"avg_npc_869_1#8$1\",focus=\"r\")]\n[name=\"埃芒加德\"]维什戴尔大人被炸上了天，死魂灵们也气得从熔炉里溜了出去。\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#5$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]嗯？\n[charslot(slot = \"r\", name = \"avg_npc_869_1#1$1\",focus=\"r\")]\n[name=\"埃芒加德\"]我就是想说，我们举行仪式的结果还是不错的……\n[charslot(slot = \"r\", name = \"avg_npc_869_1#1$1\",focus=\"r\")]\n[name=\"埃芒加德\"]您不觉得熔炉已经平静下来了吗？\n[Dialog]\n[charslot]\n熔炉里没有任何杂音，也感受不到任何死魂灵的躁动，他们就像是刚刚饱餐一顿陷入小憩的食客，抑或是……\n躲在门后等着看某人笑话的顽童。\n[charslot(slot=\"m\",name=\"avg_4151_tinman_1#1$1\",focus=\"m\")]\n[name=\"锡人\"]（脱帽行礼）\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#12$1\")]\n[name=\"弗莱蒙特\"]……（颔首示意）\n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_869_1#1$1\",focus=\"l\")]\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#7$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]要是没人给你搭建通道，承受失控的魂灵之怒，把想法从那些张不开的嘴里扒出来，你现在就得和你的小朋友们躺在这里被烘干。\n[charslot(slot = \"r\", name = \"avg_npc_869_1#8$1\",focus=\"r\")]\n[name=\"埃芒加德\"]但——\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#7$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]等回到知识圣殿我可以揪着你的命结慢慢听你狡辩，埃芒加德。\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#7$1\",focus=\"l\")]\n[name=\"弗莱蒙特\"]现在给我过来，把嘴闭上。\n[charslot(slot = \"r\", name = \"avg_npc_869_1#6$1\",focus=\"r\")]\n[name=\"埃芒加德\"]唔……"
+        }
+      ],
+      "description": "师生二人直接争论。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "同场发言、听取或明确叙述支持该方向。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "同场发言、听取或明确叙述支持该方向。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_42c131bed95e2454.json",
+      "sources": [
+        {
+          "endLine": 69,
+          "kind": "story",
+          "line": 23,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "集成战略“萨卡兹的无终奇语”构造的可能未来，不倒推现实时间线",
+      "title": "萨卡兹的无终奇语"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 706,
+          "line": 669,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_st03.txt",
+          "quote": "[name=\"埃芒加德\"]就这些东西了，您再怎么看，也不可能把这几座塔装进口袋带走啊！\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#3$1\", focus=\"l\")]\n[name=\"弗莱蒙特\"]……真的不能吗？\n[charslot(slot = \"r\", name = \"avg_npc_869_1#6$1\", focus=\"r\")]\n[name=\"埃芒加德\"]老师！\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#6$1\", focus=\"l\")]\n[name=\"弗莱蒙特\"]好啦好啦，别这样委屈地瞪着我了，大不了我把那个咒术化形课门口的大雕像放回去。\n[charslot(slot = \"r\", name = \"avg_npc_869_1#5$1\", focus=\"r\")]\n[name=\"埃芒加德\"]您把那玩意儿装进了我的小方块？！\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#4$1\", focus=\"l\")]\n[name=\"弗莱蒙特\"]怎么了？那可是我一百年前洒过巨兽血的好东西！\n[charslot(slot = \"r\", name = \"avg_npc_869_1#7$1\", focus=\"r\")]\n[name=\"埃芒加德\"]走。这就走。你不走我们也要走了。\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#6$1\", focus=\"l\")]\n[name=\"弗莱蒙特\"]……\n[name=\"弗莱蒙特\"]埃芒加德，我们是不是真的……\n[charslot(slot = \"r\", name = \"avg_npc_869_1#7$1\", focus=\"r\")]\n[name=\"埃芒加德\"]巫妖没法把自己变成莱塔尼亚人。您在这里待得最久，难道不是最清楚的吗？\n[name=\"埃芒加德\"]萨卡兹流浪于这片大地，而巫妖……向来是萨卡兹中的流浪者。\n[name=\"埃芒加德\"]我们行走于大地，收集知识，守卫知识。我们不能让战火与纷争毁去我们的传承，因此只要任何地方不再安定，我们就会立即离开。\n[name=\"埃芒加德\"]而莱塔尼亚即将迎来剧变。赫琳玛特留在了混沌之中，再也没有人能遏止伊维格娜德。\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#7$1\", focus=\"l\")]\n[name=\"弗莱蒙特\"]呵……赫尔昏佐伦，你这活该再死一千遍的老家伙，看看你给我们留下的烂摊子，有没有想再重活一次的冲动？\n[name=\"弗莱蒙特\"]有也没事，没可能了。就算有那个机会，也得留给更有朝气些的年轻人。\n[charslot(slot = \"r\", name = \"avg_npc_869_1#5$1\", focus=\"r\")]\n[name=\"埃芒加德\"]您是说赫琳玛特还有机会……您想好怎么再次进入荒域了吗？\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#5$1\", focus=\"l\")]\n[name=\"弗莱蒙特\"]别急，没那么快。\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#3$1\", focus=\"l\")]\n[name=\"弗莱蒙特\"]不过赫尔昏佐伦说得对，“湮灭”的时刻快到了。\n[name=\"弗莱蒙特\"]等灾难降临于整片大地，哪里还能是巫妖的安定之所？\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#1$1\", focus=\"l\")]\n[name=\"弗莱蒙特\"]所以说啊，我们也别费劲了。小家伙，巫妖的流浪时代该结束了。\n[charslot(slot = \"r\", name = \"avg_npc_869_1#1$1\", focus=\"r\")]\n[name=\"埃芒加德\"]您说吧，去哪？\n[charslot(slot = \"l\", name = \"avg_npc_1114_1#2$1\", focus=\"l\")]\n[name=\"弗莱蒙特\"]还能去哪？\n[name=\"弗莱蒙特\"]告诉你在卡兹戴尔新交的好朋友，巫妖王庭……不，没有什么王庭，告诉他们，知识圣殿的看守人，准备回家了。"
+        }
+      ],
+      "description": "埃芒加德与弗莱蒙特直接商议巫妖去向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_3a60825ada2e8d44.json",
+      "sources": [
+        {
+          "endLine": 706,
+          "kind": "story",
+          "line": 669,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "崔林特尔梅事件现实场景",
+      "title": "崔林特尔梅之金"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 148,
+          "line": 101,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_05_beg.txt",
+          "quote": "[name=\"塞茜莉亚\"]不、不要再往前了！\n[charslot(slot=\"m\",name=\"avg_4036_forcer_1#1$2\",focus=\"m\")]\n[name=\"艾泽尔\"]唔……\n[Dialog]\n[charslot]\n埃芒加德看着面前紧张的小女孩，她尝试用自己小小的身子挡住来人的视线。\n女孩身后，萨科塔男性脱力般跪在地板上，他的光环与光翼支离破碎，那些碎片像是活物般颤抖着，忽明忽暗，仿佛故障了的灯。\n而萨科塔本人如同堕入了深深的梦中，不发一言。\n[charslot(slot=\"m\",name=\"avg_npc_352_1#7$1\",focus=\"m\")]\n[name=\"塞茜莉亚\"]你是谁？你是来抓我们的吗？\n[Dialog]\n[charslot]\n小女孩很紧张，埃芒加德弯下腰，用手撑着膝盖，尽量让自己看起来没有敌意，她甚至摇了摇自己充盈着能量的大尾巴。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#1$1\",focus=\"m\")]\n[name=\"埃芒加德\"]可爱的小妹妹，我没有恶意。\n[name=\"埃芒加德\"]你刚刚应该听到了，我支开了其他的萨卡兹。或许我能帮你们……帮他。\n[charslot(slot=\"m\",name=\"avg_npc_352_1#7$1\",focus=\"m\")]\n[name=\"塞茜莉亚\"]……\n[Dialog]\n[charslot]\n埃芒加德关紧了身后的门，将可能的视线隔绝在外。\n[Dialog]\n[PlaySound(key=\"$d_avg_magic_4\",volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n她正了正自己的帽子，看不见的丝弦逶迤向不可知的空间。\n[Dialog]\n[curtain(direction = 0,fillfrom = 0.01,fillto = 0.2, fadetime=1.5)]\n[curtain(direction = 4,fillfrom = 0.01,fillto = 0.2, fadetime=1.5)]\n[focusout(type=\"bg\", id=\"49_g1_kazdelroom\", from=0, to=1, duration=1.5, block=false)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_869_1#9$1\",focus=\"m\")]\n[name=\"埃芒加德\"]老师。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#9$1\",focus=\"none\")]\n[name=\"弗莱蒙特\"]虽然高塔上那些繁文缛节和废话连篇的经卷真的倒人胃口，但对比现在，我真的得冲那对双子羊鞠躬，感谢她们的礼遇。\n[name=\"弗莱蒙特\"]谁受得了每项政策都只能口头传达而且动不动还得翻来覆去解释好几遍，什么时候才能对我们的公务员进行普及教育……\n[charslot(slot=\"m\",name=\"avg_npc_869_1#2$1\",focus=\"m\")]\n[name=\"埃芒加德\"]急事。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#2$1\",focus=\"none\")]\n[name=\"弗莱蒙特\"]……说。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#7$1\",focus=\"m\")]\n[name=\"埃芒加德\"]我在节点炉这边发现了两个光环破碎的萨科塔……其中一个状态非常非常，不对劲。\n[charslot(slot=\"m\",name=\"avg_npc_869_1#7$1\",focus=\"none\")]\n[name=\"弗莱蒙特\"]……\n[name=\"弗莱蒙特\"]带他们回来，尽量别让其他人注意到，免得引起骚乱。\n[name=\"弗莱蒙特\"]我去把维什戴尔踹醒。到了需要这个议长主持紧急会议的时候了。"
+        }
+      ],
+      "description": "埃芒加德直接联络老师弗莱蒙特。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L16"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [
+            "L16"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 148,
+          "kind": "story",
+          "line": 101,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "npc_4cf393656bead901|npc_732d802fa042a0c2"
+}

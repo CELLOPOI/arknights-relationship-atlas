@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 670,
+          "line": 632,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flint_1_1.txt",
+          "quote": "[name=\"布洛卡\"]有道理。\n[Character(name=\"char_349_chiave#2\")]\n[name=\"贾维\"]有、有道理……\n[Dialog]\n[Character]\n[delay(time=0.51)]\n[PlaySound(key=\"$d_avg_machine_revolve\",volume=1)]\n[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Delay(time=1.5)]\n[Character(name=\"char_415_flint_1\")]\n[name=\"燧石\"]等等。\n[name=\"燧石\"]……\n[name=\"燧石\"]你们有没有，听到什么声音？\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Background(image=\"bg_jungle_1\",screenadapt=\"showall\")]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[name=\"依娜姆\"]呼，终于上来了。\n[name=\"森蚺\"]别感慨了，我们得快做准备。\n[Dialog]\n[Character(name=\"char_416_zumama_1\",name2=\"avg_npc_075\",fadetime=1,block=true)]\n[Delay(time=2.5)] \n[Character(name=\"char_416_zumama_1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]嗯？这里怎么堆着这么多机械？\n[Character(name=\"char_415_flint_1\")]\n[name=\"燧石\"]这是……\n[Character(name=\"char_416_zumama_1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]哎呀，克玛尔，真高兴能见到你。\n[name=\"依娜姆\"]看你的表情，嗯，至少不像是有坏事的样子。\n[Character(name=\"char_415_flint_1#5\")]\n[name=\"燧石\"]……确实不算是坏事。\n[Character(name=\"char_416_zumama_1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]那就好，看来你已经把那些人都打发走了？我就觉得交给你一定没问题。\n[name=\"依娜姆\"]之后还有不少事要请你帮忙，不过目前……\n[name=\"依娜姆\"]先麻烦各位帮我们一起收拾一片村庄出来吧，我们阿卡胡拉，很快就有一大群来自地底的客人光临了。"
+        }
+      ],
+      "description": "布洛卡、贾维和燧石谈话后听见动静，依娜姆与森蚺来到同一村庄并请各位一起帮忙，场景连续。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_356_broca",
+          "reason": "布洛卡、贾维和燧石谈话后听见动静，依娜姆与森蚺来到同一村庄并请各位一起帮忙，场景连续。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "布洛卡、贾维和燧石谈话后听见动静，依娜姆与森蚺来到同一村庄并请各位一起帮忙，场景连续。",
+          "status": "supported",
+          "to": "char_356_broca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_9e81d286a8a5d2d6.json",
+      "sources": [
+        {
+          "endLine": 670,
+          "kind": "story",
+          "line": 632,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flint_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "燧石所述时段",
+      "title": "燧石"
+    }
+  ],
+  "relationship_id": "char_356_broca|npc_e04ed917f7bcbf85"
+}

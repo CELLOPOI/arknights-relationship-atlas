@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 681,
+          "line": 667,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "quote": "[name=\"恩希欧迪斯\"]切斯特叔叔，劳请。\n[character(name=\"avg_npc_267_1#1$1\")]\n[name=\"切斯特\"]好的。\n[character(name=\"avg_npc_267_1#1$1\")]\n[name=\"切斯特\"]首先，是有关喀兰贸易原首席技术执行官，诺希斯·埃德怀斯的最终处理决定。\n[character(name=\"avg_npc_267_1#1$1\")]\n[name=\"切斯特\"]近年，由诺希斯·埃德怀斯主导的谷地与矿区开发为公司带来了庞大的收益，这是不争的事实。\n[character(name=\"avg_npc_267_1#6$1\")]\n[name=\"切斯特\"]但另一方面，其激进的开发策略以及对圣山矿区的秘密开采也使喀兰贸易在三族议会上屡屡遭受非议。\n[character(name=\"avg_npc_267_1#6$1\")]\n[name=\"切斯特\"]尤其在另外两家要求介入调查谷地后，诺希斯暗中策划了对两家共同组成的督查队伍的袭击。\n[character(name=\"avg_npc_267_1#3$1\")]\n[name=\"切斯特\"]这为喀兰贸易的形象以及希瓦艾什家族在三族议会上的话语权都带来了非常恶劣的影响。\n[character(name=\"avg_npc_267_1#1$1\")]\n[name=\"切斯特\"]因此，总裁恩希欧迪斯最终决定，即日起，正式将诺希斯·埃德怀斯从喀兰贸易开除。"
+        }
+      ],
+      "description": "银灰称切斯特叔叔，切斯特回答并宣读处理决定。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_172_svrash",
+          "reason": "银灰称切斯特叔叔，切斯特回答并宣读处理决定。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "银灰称切斯特叔叔，切斯特回答并宣读处理决定。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 681,
+          "kind": "story",
+          "line": 667,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 373,
+          "line": 359,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st04.txt",
+          "quote": "[name=\"切斯特\"]老爷？您回来了。\n[charslot(slot=\"m\",name=\"avg_1045_svash2_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]嗯。\n[name=\"恩希欧迪斯\"]她们，都不在？\n[charslot(slot=\"m\",name=\"avg_npc_267_1#2$1\",focus=\"m\")]\n[name=\"切斯特\"]唉，小姐们不知道您今天要回来啊，早知道我就喊她们留下，你们都多久没一块吃顿饭了——\n[charslot(slot=\"m\",name=\"avg_1045_svash2_1#3$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]不必了，总会有时间的。\n[name=\"恩希欧迪斯\"]今天就久违地，稍微休息一下吧。\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",focus=\"m\")]\n[name=\"切斯特\"]那恐怕还得再打扰您一下了，正巧，这里刚刚有您的电话。\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",focus=\"m\")]\n[name=\"切斯特\"]是电话？还是叫什么超远距信息通讯的……总之是哥伦比亚人帮忙搭建的新鲜玩意——您现在要听吗？\n[charslot(slot=\"m\",name=\"avg_1045_svash2_1#3$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]帮我接通吧。"
+        }
+      ],
+      "description": "银灰与切斯特回家后直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N28"
+          ],
+          "from": "char_172_svrash",
+          "reason": "双方在同一局部场景直接互动或具体历史信息明确双向。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        },
+        {
+          "evidenceIds": [
+            "N28"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "双方在同一局部场景直接互动或具体历史信息明确双向。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 373,
+          "kind": "story",
+          "line": 359,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "雪山事件期间",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 752,
+          "line": 712,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st02.txt",
+          "quote": "[name=\"雅儿\"]恩希欧迪斯老爷，请当心脚下。\n[Dialog]\n[charslot]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_cardoorc\", volume=1)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",duration=0.7)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",focus=\"m\")]\n[name=\"切斯特\"]恩希欧迪斯，我把车开过来了。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]谢谢你，叔父。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_cardoorc\", volume=1)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.6)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_267_1#7$1\",focus=\"m\")]\n[name=\"切斯特\"]要回宅邸吗？\n[Dialog]\n[charslot]\n[name=\"诺希斯\"]回……总部……\n[charslot(slot=\"m\",name=\"avg_npc_267_1#1$1\",focus=\"m\")]\n[name=\"切斯特\"]恩希欧迪斯？\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]听他的吧，我也正好还有一些杂务需要处理。\n[Dialog]\n[charslot]\n[Delay(time=0.2)]\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#11$1\",duration=0.7)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#11$1\",focus=\"m\")]\n[name=\"恩雅\"]切斯特叔叔，许久不见。\n[charslot(slot=\"m\",name=\"avg_npc_267_1#7$1\",focus=\"m\")]\n[name=\"切斯特\"]圣女大人。\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#11$1\",focus=\"m\")]\n[name=\"恩雅\"]这种时候，叫我的名字就好了。\n[charslot(slot=\"m\",name=\"avg_npc_267_1#7$1\",focus=\"m\")]\n[name=\"切斯特\"]……恩雅，看到你平安无事，叔叔就放心了。"
+        }
+      ],
+      "description": "恩希欧迪斯与切斯特直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_172_svrash",
+          "reason": "恩希欧迪斯与切斯特在湖畔同一局部场景直接同行或交谈。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "切斯特直接接应并面对恩希欧迪斯所在一行。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 752,
+          "kind": "story",
+          "line": 712,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典前夜宴会散场",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_172_svrash|npc_c56ef99fbe131371"
+}

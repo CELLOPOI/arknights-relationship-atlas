@@ -1,0 +1,57 @@
+{
+  "id": "import:char_508_aguard|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【风雪过境】\n选项：\n1：啊，不用跑了，放我下来吧。\n分支条件（原选项编号）：1\n极光：啊！好的。\nSharp：唉……\nSharp：我必须跟你重申一下，博士。\nSharp：不管你有什么样的计划，这都太冒险了。这话你可能不记得了，但我以前就跟你说过很多很多次。\n选项：\n1：我还是很相信你的。\n分支条件（原选项编号）：1\nSharp：任何人都会失手，就算是我也一样。如果可以的话我希望你能降低我的工作难度。\n\n【慈悲灯塔】\nOutcast：稀客，博士。\nOutcast：有时间坐下喝一杯吗？今晚所有的酒都算在我的账上。\n选项：\n1：好热闹。\n2：这么多人？\n分支条件（原选项编号）：1 / 2\nTouch：你忘了吗博士，今天举办的是Outcast的退休仪式。\nSharp：敬我们尊敬的老前辈。\nOutcast：够了Sharp，你也没比我小多少。\n选项：\n1：感谢你对罗德岛的付出，Outcast。\n2：退休快乐。\n分支条件（原选项编号）：1 / 2\nPith：我们会记得你的事迹和精湛的射术的，敬你。\n煌：Outcast也要走了……\n\n凯尔希：你还记得他们每个人，你真切地为他们的遭遇感到遗憾。\n凯尔希：否则你不会看到这些画面。\n分支条件（原选项编号）：2\n凯尔希：你现在心情如何，博士？\n凯尔希：欣慰，困惑还是愤怒？\n分支条件（原选项编号）：3\n凯尔希：这些都是你的潜意识中你所期待的画面。\n\n凯尔希：这并非幻境，或是梦境。某种意义上讲，这一切同样是真实存在的。\n凯尔希：存在于你的想象中，是你过去遇到过的人与事，按你最期待的样子发展出的幻景。\n选项：\n1：这是对我们经历过的一切的玷污。\n2：你为什么还能这么冷静？\n分支条件（原选项编号）：1 / 2\n凯尔希：这些画面于我的触动并不弱于你，博士。\n凯尔希：但是归根结底，这些还是由你自己创造的画面。\n凯尔希：是源石，按你潜意识深处的期待和想要弥补某些遗憾的想法，“复制”出的景象。\n\n【雪山降临1101】\n锏：咳，你是……\n锏：Sharp？\nSharp：少说点话，你现在伤重。\n锏：博士让你来的？\nSharp：博士和银灰先生一直有联络。听说谢拉格发生了天灾，博士猜到你们会遇到麻烦。\nSharp：虽然现在实在腾不开手，但博士答应过，只要谢拉格有难，不会坐视不理。\nSharp：我已经通知罗德岛增援，他们随后赶到。\n锏：……\n锏：恩希欧迪斯呢？\nSharp：不用担心，相信银灰先生已对局面有所掌控。\nSharp：坚持住，锏，最艰难的时候你已经挺过去了。\n\n【银心湖列车】\nSharp：别激动。\nSharp：只是路过。\n“灰礼帽”：这身制服……\n“灰礼帽”：……这还真是个惊喜。\n“灰礼帽”：罗德岛的人怎么会在这里？\nSharp：这个你得问我上司。\n选项：\n1：开斯特的好帮手又怎么在这里？\n2：什么事要问我，贝林厄姆先生？\n分支条件（原选项编号）：1\n“灰礼帽”：这确实挺让人惊讶的。没想到还能见到您本人。\n“灰礼帽”：但我记得，罗德岛和谢拉格的联系，仅限于“公司间的合作”来着？\n“灰礼帽”：总不能是我记错了吧。\n分支条件（原选项编号）：2\n“灰礼帽”：好久不见……“博士”。\n“灰礼帽”：这位也是罗德岛干员？看来情报说得没错，罗德岛的全貌我们确实未能完全把握。\n“灰礼帽”：但是眼下先不提别的了。能在这里见到您，真是又惊又喜。\n“灰礼帽”：诚心实意，这次不是在骗您了。毕竟我连这身打扮都没撤下，您就能认出我来。\n分支条件（原选项编号）：1 / 2\n“灰礼帽”：罗德岛，你们——\n？？？：哇，博士！快来帮帮我！\n选项：\n1：缪尔赛思！\n分支条件（原选项编号）：1\n缪尔赛思：嗯，怎么啦？\n缪尔赛思：马上就要到站了，快来帮我收拾器械，博士……\n缪尔赛思：咦？你们这是……？\n烈夏：博士，咱们要不要去催催列车长让他再快点……\n烈夏：咦，是你！\n“灰礼帽”：罗德岛和哥伦比亚的莱茵生命……原来如此，原来如此。\n“灰礼帽”：各位出现在此，看来并非巧合。\n缪尔赛思：哎呀，看来这位先生认识我呢。\n缪尔赛思：博士，Sharp先生，还有小烈夏，不为我介绍一下这位戴帽子的先生吗？\n\n【离解复合】\n选项：\n1：所有人测试通讯设备。\n分支条件（原选项编号）：1\nRaidian：已就位。\nMantra：收到。\nMisery：在前线等你们。\nLogos：前往集合。\nMechanist：马上到。\n迷迭香：我在，博士。\n煌：好久没一起干架了！\nSharp：“坏家伙”号已返回本舰，马上集合。\nStormeye：稍等片刻。\nPith：在。\nTouch：正在集合。\n阿斯卡纶：等你。\n选项：\n1：各位，目标已同步。\n分支条件（原选项编号）：1\n选项：\n1：优先目标——支援凯尔希。\n分支条件（原选项编号）：1\n选项：\n1：核心任务——进入Abyss，切断PRTS的核心能源。",
+  "relationship_id": "char_508_aguard|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 209,
+      "kind": "story",
+      "line": 194,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_03_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 310,
+      "kind": "story",
+      "line": 283,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 395,
+      "kind": "story",
+      "line": 387,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 515,
+      "kind": "story",
+      "line": 506,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 686,
+      "kind": "story",
+      "line": 670,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 951,
+      "kind": "story",
+      "line": 899,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 526,
+      "kind": "story",
+      "line": 449,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

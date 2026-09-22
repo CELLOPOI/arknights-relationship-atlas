@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 81,
+          "line": 36,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_st02.txt",
+          "quote": "[name=\"休露丝\"]艾泽尔小哥，你们萨科塔怎么看这段时间的事？\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]嗯？啊……是，很大的冲击……\n[character(name=\"avg_npc_262_1#2$1\")]\n[name=\"休露丝\"]我想也是，听人说那口钟几千年没响过了。\n[character(name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]拉特兰会怎么样？\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]……也许不会怎么样，以我对拉特兰人的了解……不，也许哪里都是一样。\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]即使发生了后世历史中举足轻重的大事……在当时当地，大家也许，都没什么实感。\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]但我们总会意识到变化正在发生，承担起属于自己的责任与使命。\n[character(name=\"avg_npc_262_1#3$1\")]\n[name=\"休露丝\"]……你还蛮有担当的嘛，小哥。\n[character(name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]好了，就送到这里吧，接我们的车会开到这里来。\n[character(name=\"avg_npc_263_1#8$1\")]\n[name=\"尤卡坦\"]辛苦你了。\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]没事。薇尔丽芙枢机就在附近的医院，我直接去向她复命，很方便。\n[character(name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]啊，说到那位枢机，替我向她道谢。\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]“您满意就好”——枢机是这么吩咐的。\n[character(name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]真是滴水不漏……\n[character(name=\"avg_npc_262_1#3$1\")]\n[name=\"休露丝\"]对了，小哥，帮我和我丈夫拍张照吧。\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]好的。\n[dialog]\n[character(name=\"avg_npc_262_1#11$1\",name2=\"avg_npc_263_1#8$1\")]\n[delay(time=1)]\n[playsound(key=\"$skill_flash\")]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]这样就可以了吗？\n[character(name=\"avg_npc_262_1#11$1\")]\n[name=\"休露丝\"]摄影技术也不错，艾泽尔小哥。\n[character(name=\"avg_npc_263_1#8$1\")]\n[name=\"尤卡坦\"]谢谢。\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]两位不客气。"
+        }
+      ],
+      "description": "艾泽尔护送尤卡坦并直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4036_forcer",
+          "reason": "艾泽尔护送尤卡坦并直接交谈。",
+          "status": "supported",
+          "to": "npc_669b66161e12a7ca"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_669b66161e12a7ca",
+          "reason": "艾泽尔护送尤卡坦并直接交谈。",
+          "status": "supported",
+          "to": "char_4036_forcer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 81,
+          "kind": "story",
+          "line": 36,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    }
+  ],
+  "relationship_id": "char_4036_forcer|npc_669b66161e12a7ca"
+}

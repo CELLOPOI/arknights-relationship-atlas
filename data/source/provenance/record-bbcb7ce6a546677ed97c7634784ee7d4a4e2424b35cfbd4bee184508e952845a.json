@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 449,
+          "line": 427,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_st01.txt",
+          "quote": "[name=\"罗辛南特\"]（兴奋的嘶鸣）\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4145_Ulpia_1#1$1\",duration=1.5)]\n[delay(time=2)]\n[name=\"乌尔比安\"]——\n[charslot(slot=\"m\",name=\"avg_4145_Ulpia_1#3$1\")]\n[name=\"乌尔比安\"]这里已经是海沟的最深处。\n[name=\"乌尔比安\"]它们掏空了海沟两侧的峭壁，向内筑巢。所以我们绕了好几圈，都没有发现这里。\n[charslot(slot=\"m\",name=\"avg_npc_463_1#1$1\")]\n[playsound(key=\"$d_avg_horse\")]\n[name=\"罗辛南特\"]（警惕的嘶鸣）\n[charslot(slot=\"m\",name=\"avg_4145_Ulpia_1#1$1\")]\n[name=\"乌尔比安\"]嗯。我也闻到了。\n[name=\"乌尔比安\"]这种气味……海嗣在摧毁了原有的海洋生态之后，又创建了一套完全只为它们自己服务的生态系统。\n[name=\"乌尔比安\"]如此完善的海嗣生态系统，原本只存在于海洋的深处。\n[name=\"乌尔比安\"]回去吧，罗辛南特。接下来我一个人进去。\n[charslot(slot=\"m\",name=\"avg_npc_463_1#1$1\")]\n[name=\"罗辛南特\"]（不悦地晃动脖颈）\n[charslot(slot=\"m\",name=\"avg_4145_Ulpia_1#1$1\")]\n[name=\"乌尔比安\"]整块大陆架都在变化，我需要知道，究竟是谁在使海浪鼓噪。\n[name=\"乌尔比安\"]告诉骑士，别停止狩猎。\n[name=\"乌尔比安\"]我们只是暂时分别。"
+        }
+      ],
+      "description": "乌尔比安与罗辛南特结伴行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_4145_ulpia",
+          "reason": "乌尔比安直接称呼并指示罗辛南特。",
+          "status": "supported",
+          "to": "npc_714a30cf8b57140b"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_714a30cf8b57140b",
+          "reason": "罗辛南特以嘶鸣和动作回应乌尔比安。",
+          "status": "supported",
+          "to": "char_4145_ulpia"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 449,
+          "kind": "story",
+          "line": 427,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "海沟调查",
+      "title": "生路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 593,
+          "line": 559,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st12.txt",
+          "quote": "[name=\"乌尔比安\"]……\n[Character(name=\"avg_npc_463_1#1$1\")]\n[name=\"罗辛南特\"]（不满地摇摆脖颈）\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]安分点，罗辛南特。\n[Character(name=\"avg_npc_463_1#1$1\")]\n[name=\"罗辛南特\"]（更大幅度地摇摆脖颈）\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]……罗辛南特……\n[Character(name=\"avg_npc_463_1#1$1\")]\n[PlaySound(key=\"$d_avg_horse\", volume=1)]\n[name=\"罗辛南特\"]（嘶鸣）\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]……我们要去哪里？\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]巨浪，即将来临。\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]我们，战胜巨浪。\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]我们，即是巨浪。\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]巨浪。只要海里还有水，天上还有月亮，空中还有风，浪涛就不会平息。\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]你在疯狂中窥见的目标，还真是过度雄伟。\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]走！（沙哑的咆哮）走吧！\n[Character(name=\"avg_npc_463_1#1$1\")]\n[PlaySound(key=\"$d_avg_horse\", volume=1)]\n[name=\"罗辛南特\"]（欢快的嘶鸣）\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]（沙哑的咆哮）\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]我不允许，海，再有丁点涟漪！\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]去吧！"
+        }
+      ],
+      "description": "乌尔比安直接命令罗辛南特，坐骑以动作回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S30"
+          ],
+          "from": "char_4145_ulpia",
+          "reason": "乌尔比安直接命令罗辛南特，坐骑以动作回应。",
+          "status": "supported",
+          "to": "npc_714a30cf8b57140b"
+        },
+        {
+          "evidenceIds": [
+            "S30"
+          ],
+          "from": "npc_714a30cf8b57140b",
+          "reason": "乌尔比安直接命令罗辛南特，坐骑以动作回应。",
+          "status": "supported",
+          "to": "char_4145_ulpia"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 593,
+          "kind": "story",
+          "line": 559,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st12.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_4145_ulpia|npc_714a30cf8b57140b"
+}

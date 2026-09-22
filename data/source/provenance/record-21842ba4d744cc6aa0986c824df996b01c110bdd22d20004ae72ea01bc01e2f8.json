@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 399,
+          "line": 393,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "quote": "[name=\"杜卡雷\"]哦，菈玛莲，我都忘了你还在这里了。\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#1$1\")]\n[name=\"菈玛莲\"]我一开始就表过态了，杜卡雷阁下。所以，我只要静静看着您“努力表达”自己的想法就足够。\n[charslot(slot=\"m\",name=\"avg_npc_410_1#2$1\")]\n[name=\"杜卡雷\"]多可怜，一个残破不堪的王庭。我会怀念您的挽歌的。\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#1$1\")]\n[name=\"菈玛莲\"]那我向您许诺，女妖之主一定会在您的死亡到来时唱响挽歌，随夜风伴您身旁。"
+        }
+      ],
+      "description": "杜卡雷与女妖之主相互讥讽并称名。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "杜卡雷与女妖之主相互讥讽并称名。",
+          "status": "supported",
+          "to": "npc_751dc5e345c5cbe2"
+        },
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "杜卡雷与女妖之主相互讥讽并称名。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 399,
+          "kind": "story",
+          "line": 393,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_751dc5e345c5cbe2|npc_aa980d6791c26c93"
+}

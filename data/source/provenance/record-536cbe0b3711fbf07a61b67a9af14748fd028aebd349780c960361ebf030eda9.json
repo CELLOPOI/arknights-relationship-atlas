@@ -1,0 +1,128 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 563,
+          "line": 560,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[name=\"开斯特公爵\"]这最符合我们的利益。\n[name=\"开斯特公爵\"]他知道我会这样选。盖尔王的后裔和他……把战争和死亡当成了自己的筹码。\n[charslot(slot=\"m\",name=\"avg_npc_726_1#2$1\",focus=\"m\")]\n[name=\"开斯特公爵\"]假如不想在这个节骨眼上两面开战，我们就必须承认塔拉独立。"
+        }
+      ],
+      "description": "公爵明确讨论与盖尔王后裔共同押注战争及承认塔拉独立，具体指爱布拉娜。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E150"
+          ],
+          "from": "npc_8c87697c59975883",
+          "reason": "公爵明确讨论与盖尔王后裔共同押注战争及承认塔拉独立，具体指爱布拉娜。",
+          "status": "supported",
+          "to": "char_450_necras"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_450_necras",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_8c87697c59975883"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 563,
+          "kind": "story",
+          "line": 560,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 230,
+          "line": 197,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_st02.txt",
+          "quote": "[name=\"爱布拉娜\"]曾经最庞大的移动城市上抽离的一根骸骨，搭载维多利亚军工技术纯粹的结晶，多少人该以登上这艘高速战舰为荣。\n[name=\"爱布拉娜\"]纵使放眼整片泰拉大地，我想也不会有能与此媲美的军事机器。\n[Character(name=\"avg_npc_652_1#8$1\",name2=\"avg_npc_722_1#1$1\",focus=1)]\n[name=\"威灵顿公爵\"]若非如此，它便配不上德拉克麾下传奇将领之名。\n[Character(name=\"avg_npc_652_1#8$1\",name2=\"avg_npc_722_1#6$1\",focus=2)]\n[name=\"爱布拉娜\"]也有许多人一直窥探着它的动向，试图从中揣摩您的立场……\n[Character(name=\"avg_npc_652_1#8$1\",name2=\"avg_npc_722_1#1$1\",focus=2)]\n[name=\"爱布拉娜\"]在长达七年的巡游之后，今天该是它靠岸的日子了。\n[Dialog]\n[Character(fadetime=0)]\n[Character(name=\"avg_npc_652_1#1$1\")]\n[name=\"威灵顿公爵\"]我们转向后，有多少信使正在回报讯息的路上？\n[character(name=\"avg_npc_241\")]\n[name=\"维多利亚军官\"]除了开斯特公爵，各位公爵都在保持关注，但他们掌控下的任何一支军队都已经来不及干预。\n[name=\"维多利亚军官\"]橡林郡已经停止行驶，做好接驳准备。虽然这是本舰七年来首次靠近一座移动城市，但停留过程中，并无过多资源补给和机械维护需求。\n[name=\"维多利亚军官\"]伯爵表示，届时会亲自前往港口迎接您。\n[Dialog]\n[Character(fadetime=0)]\n[Character(name=\"avg_npc_652_1#8$1\",name2=\"avg_npc_722_1#1$1\",focus=1)]\n[name=\"威灵顿公爵\"]那些踟蹰不前的阿斯兰附庸，恐怕到这艘舰船径直驶向橡林郡的时刻才会发现，这座城市究竟权属归谁。\n[Character(name=\"avg_npc_652_1#8$1\",name2=\"avg_npc_722_1#1$1\",focus=2)]\n[name=\"爱布拉娜\"]而这里将再次升起怎样的火焰，他们还一无所知。\n[name=\"爱布拉娜\"]深池的军队，那些渴望从不公中解脱的塔拉人，已经从维多利亚各处赶来。\n[name=\"爱布拉娜\"]我的谋臣……她做得很不错。\n[Dialog]\n[Character(fadetime=0)]\n[Character(name=\"avg_npc_652_1#1$1\")]\n[name=\"威灵顿公爵\"]我的城市，是否停在了我期望的地点？\n[character(name=\"avg_npc_241\")]\n[name=\"维多利亚军官\"]是。受限于地形与安全因素，这就是城市航道上最靠近废城遗迹的位置。\n[Character(name=\"avg_npc_652_1#1$1\",name2=\"avg_npc_722_1#1$1\",focus=1)]\n[name=\"威灵顿公爵\"]您怎么看，爱布拉娜殿下？在前来的路上，您造访过那处遗址。\n[Character(name=\"avg_npc_652_1#1$1\",name2=\"avg_npc_722_1#1$1\",focus=2)]\n[name=\"爱布拉娜\"]我想这样就够了。无论塔拉文化的复兴者将多少想象寄托在盖尔王的王城上，那终究只是一处衰朽的废墟。"
+        }
+      ],
+      "description": "爱布拉娜听取关于开斯特公爵动向的具体报告。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F16"
+          ],
+          "from": "char_450_necras",
+          "reason": "爱布拉娜听取关于开斯特公爵动向的具体报告。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "本组窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_450_necras"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 230,
+          "kind": "story",
+          "line": 197,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 485,
+          "line": 426,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-14_beg.txt",
+          "quote": "[name=\"爱布拉娜\"]……\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]殿下。\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]萨卡兹的飞空艇已经升空，正在缓慢地向伦蒂尼姆方向转向。\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]我们的高速战舰编队已经在外围做好了拦截准备。\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]……也有其他部队正在集结。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#2$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]哦？\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]温德米尔公爵的舰队在更早之前就接近了这个地块，开斯特公爵的军舰也在蠢蠢欲动，恐怕很快也会接近。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]看来大家都很关心这里。\n[dialog]\n[charslot]\n[name=\"？？？\"]真的关心吗？\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_865_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=1.5)]\n[name=\"考伯特\"]是不是各位公爵来得有些太迟了呢？\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]你是……那个酒店的大堂经理？\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]你怎么会在这里？\n[charslot(slot=\"m\",name=\"avg_npc_723_1$1\",focus=\"m\")]\n[name=\"“校官”\"]……你是萨卡兹早就安插在伦蒂尼姆的间谍？\n[charslot(slot=\"m\",name=\"avg_npc_865_1#1$1\",focus=\"m\")]\n[name=\"考伯特\"]不，考伯特只是个普通的自认是个维多利亚人的萨卡兹清洁员罢了。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]那么你呢？\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_deathfire\", volume=1)]\n[bgeffect(name=\"$eb_eblana_attack\",layer = 1)]\n[delay(time=1)]\n[PlaySound(key=\"$burningloop1\", volume=0.7, loop=true, channel=\"fire\")]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background]\n[bgEffect(layer = 1)]\n[Image(image=\"37_i06\",screenadapt=\"coverall\",xScale=1.7, yScale=1.7,fadetime=0,block=true)]\n[ImageTween(xFrom=200, yFrom=130, xTo=-300, yTo=130,duration=60, block=false)]\n[bgeffect(name=\"$eb_deathburning\",layer = 1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[name=\"变形者集群\"]我们……？\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"37_i06\",screenadapt=\"coverall\",fadetime=1,block=true)]\n[ImageTween(xFrom=-50, yFrom=30, xTo=0, yTo=0,xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=20, block=false)]\n[bgeffect(name=\"$eb_deathburning\",layer = 1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n[delay(time=2)]\n[name=\"变形者集群\"]和朋友正聊到兴头上，却被派出来干活的可怜人罢了。\n[name=\"变形者集群\"]德拉克，你还真是扫兴。\n[name=\"爱布拉娜\"]那么，不如和我聊聊怎么样？\n[name=\"变形者集群\"]……饶了我们吧。\n[name=\"变形者集群\"]不如让我们尽快结束这一切。"
+        }
+      ],
+      "description": "爱布拉娜单向明确知晓开斯特公爵。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E35"
+          ],
+          "from": "char_450_necras",
+          "reason": "爱布拉娜当面接收校官关于开斯特公爵舰队的报告。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "被谈及者未在该局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "char_450_necras"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 485,
+          "kind": "story",
+          "line": 426,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-14_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_450_necras|npc_8c87697c59975883"
+}

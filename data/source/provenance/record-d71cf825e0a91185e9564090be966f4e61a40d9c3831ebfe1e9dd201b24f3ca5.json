@@ -1,0 +1,259 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 886,
+          "line": 833,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-01.txt",
+          "quote": "[name=\"赫德雷\"]我在尝试！\n[charslot(slot=\"m\",name=\"avg_npc_412_1#6$1\",focus=\"m\")]\n[name=\"W\"]所有人都把自己绑好，起码别让自己从骨头缝里被甩出去！\n[charslot(slot=\"m\",name=\"avg_npc_411_1#11$1\",focus=\"m\")]\n[name=\"可露希尔\"]我已经把所有无人机都派出去了，它们会尽量牵引住巨兽脊椎，减轻一部分我们落地的冲击力。\n[name=\"可露希尔\"]但别抱太大希望！\n[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]\n[name=\"阿米娅\"]下落的势头没有减缓，按照现在的速度……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"none\")]\n[Decision(options=\"很快，我们就会撞进地里。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]“言语之义，应赋予我们羽翼。”\n[name=\"Logos\"]“我令词汇，托举重量。”\n[Dialog]\n[playsound(key=\"$d_avg_magic_3\",volume=1,channel=\"1\")]\n[Delay(time=1.5)]\n[playsound(key=\"$d_avg_magicchange\",volume=1,channel=\"2\")]\n[CameraShake(duration=1.5, xstrength=5, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[bgeffect]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1.5, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]\n[name=\"阿米娅\"]起效果了——\n[charslot(slot=\"m\",name=\"avg_npc_412_1#11$1\",focus=\"m\")]\n[name=\"W\"]女妖你继续念咒，赫德雷，让我们的方向继续向北偏！\n[name=\"W\"]那里有个峡谷，应该能装得下我们！\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#3$1\",focus=\"m\")]\n[name=\"赫德雷\"]已经在做了，但我和巨兽的联系还在消退，能下的指令已经不多了。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]Mon3tr。\n[Dialog]\n[charslot]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\",duration=0.5)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[name=\"Mon3tr\"]（兴奋的嘶吼）\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]保护好博士，准备抵御冲击。\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]\n[PlaySound(key=\"$char_Mon3tr\")]\n[name=\"Mon3tr\"]（欢快的鸣叫）\n[Dialog]\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"none\")]\n[Decision(options=\"有点不太舒服。;……;它的爪子好像钩到我了！\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]冷静下来，博士，你不会有事。"
+        }
+      ],
+      "description": "迫降驾驶区域内具名角色协同应对，博士直接回应冲击；Mon3tr更被命令保护博士并直接钩到他。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "迫降驾驶区域内具名角色协同应对，博士直接回应冲击；Mon3tr更被命令保护博士并直接钩到他。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "迫降驾驶区域内具名角色协同应对，博士直接回应冲击；Mon3tr更被命令保护博士并直接钩到他。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 886,
+          "kind": "story",
+          "line": 833,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 134,
+          "line": 101,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_beg.txt",
+          "quote": "[name=\"凯尔希\"]  ……你不用这么紧张，会影响到会议的效率。\n[name=\"凯尔希\"]  你们尽力做到了最好，而泄露了情报是我们的失误。\n[Character(name=\"avg_npc_049\", name2=\"avg_npc_047\", focus=2)]\n[name=\"赫德雷\"]  ……战场上无论对错，我很清楚我们在和谁作对。\n[Character(name=\"avg_npc_049\", name2=\"avg_npc_047\", focus=1)]\n[name=\"凯尔希\"]  那就好。\n[Character(name=\"avg_npc_049\", name2=\"avg_npc_047\", focus=2)]\n[name=\"赫德雷\"]  可我没想到那位指挥官……原来真的是殿下身边的人。\n[name=\"赫德雷\"]  您的……那种力量也让我深感意外，我还没有为您出手相助正式道谢，凯尔希医生。\n[Character(name=\"avg_npc_049\", name2=\"avg_npc_047\", focus=1)]\n[name=\"凯尔希\"]  谢特蕾西娅吧，是她的意思。\n[dialog]\n[Character]\n[name=\"？？？\"]  我怎么了？\n[Character(name=\"avg_npc_047\")]\n[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]\n[name=\"赫德雷\"]  ——！\n[Character(name=\"avg_npc_047\")]\n[name=\"赫德雷\"]  殿下——\n[dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[Character(name=\"avg_npc_056\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"？？？\"]  这里不是卡兹戴尔，不必多礼，我们坐下谈吧，赫德雷。\n[Character(name=\"avg_npc_047\")]\n[name=\"赫德雷\"]  ……遵命。\n[name=\"赫德雷\"]  那您身边的这位就是……\n[Character(name=\"avg_npc_048\")]\n[name=\"？？？\"]  ……\n[Character(name=\"avg_npc_056\")]\n[name=\"？？？\"]  希望你不要介意，任何战略情报博士都必须了如指掌。\n[Character(name=\"avg_npc_047\")]\n[name=\"赫德雷\"]  感谢理解。"
+        }
+      ],
+      "description": "巴别塔会议中四人连续讨论委托和军事安排，博士由特蕾西娅介绍及avg_npc_048立绘锚定。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "巴别塔会议中四人连续讨论委托和军事安排，博士由特蕾西娅介绍及avg_npc_048立绘锚定。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "巴别塔会议中四人连续讨论委托和军事安排，博士由特蕾西娅介绍及avg_npc_048立绘锚定。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 134,
+          "kind": "story",
+          "line": 101,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生于黑夜所述时段",
+      "title": "生于黑夜"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 556,
+          "line": 536,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "quote": "[name=\"阿米娅\"]唔——\n[Character(name=\"avg_npc_411_1#4$1\")]\n[name=\"可露希尔\"]撕开了——这条缝隙足够大！无人机——\n[name=\"可露希尔\"]升降梯控制权到手！\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]博士，我们上！\n[Character(name=\"avg_npc_411_1#11$1\")]\n[name=\"可露希尔\"]费斯特，你还有力气吗？拉住滑索，我们跟上去——\n[character(name=\"avg_npc_393_1#6$1\")]\n[name=\"赫德雷\"]别想走——！\n[character(name=\"avg_npc_402_1#10$1\")]\n[name=\"费斯特\"]可露希尔，还有炸药吗？\n[dialog]\n[Character(name=\"avg_npc_411_1#4$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"可露希尔\"]有，你接住！\n[character(name=\"avg_npc_393_1#3$1\")]\n[name=\"赫德雷\"]你们……\n[character(name=\"avg_npc_402_1#1$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"费斯特\"]……谢谢你的帮助，雇佣兵。"
+        }
+      ],
+      "description": "博士与阿米娅、可露希尔和费斯特从赫德雷面前登墙，赫德雷直接追阻他们；同一交战现场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E98"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "博士与阿米娅、可露希尔和费斯特从赫德雷面前登墙，赫德雷直接追阻他们；同一交战现场。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E98"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士与阿米娅、可露希尔和费斯特从赫德雷面前登墙，赫德雷直接追阻他们；同一交战现场。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 556,
+          "kind": "story",
+          "line": 536,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 382,
+          "line": 351,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "quote": "[name=\"维什戴尔\"]我知道军事委员会出了乱子，可整座指挥中心就这么几个人守着？\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]应该如凯尔希勋爵和博士所言，玫瑰河畔的人提前帮我们解决了一些棘手的麻烦。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]曼弗雷德和他的人呢？是怕被炸死还是怎么的？\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#9$1\",focus=\"m\")]\n[name=\"明椒\"]如果将军还……活着，他只会在一个地方——摄政王殿下的身边。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#6$1\",focus=\"m\")]\n[name=\"赫德雷\"]摄政王那边，我们都只能相信博士他们能够应对。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]维什戴尔，接下来就交给你了。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#1$1\",focus=\"m\")]\n[name=\"维什戴尔\"]哈哈，我还以为你会跟我抢话筒。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]你的第一次广播效果很好。维什戴尔……\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#12$1\",focus=\"m\")]\n[name=\"维什戴尔\"]……干嘛突然这么严肃，不会又想叨叨些我听不懂的话吧？\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]（摇头）殿下留给你的新名字意味着很多事。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[Delay(time=2)]\n[name=\"维什戴尔\"]我知道。\n[name=\"维什戴尔\"]如果他们需要听到一个新的声音，那我不会客气。不过——先等我布置完场地。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]要组织撤军的话，这座指挥中心对我们还有用，你别想着把它炸了泄愤。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#1$1\",focus=\"m\")]\n[name=\"维什戴尔\"]把它炸了？我当然想把它炸了。可惜它只有一幢，不能让我把所有炸法都试个遍。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#14$1\",focus=\"m\")]\n[name=\"伊内丝\"]……W。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#1$1\",focus=\"m\")]\n[name=\"维什戴尔\"]哈。别急，伊内丝。这次我要先往天上炸，让所有人都看见。"
+        }
+      ],
+      "description": "赫德雷主动提及博士的具体安排；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "赫德雷主动提及博士的具体安排",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "对方未在本组该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 382,
+          "kind": "story",
+          "line": 351,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战役期间",
+      "title": "我们明日见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 391,
+          "line": 227,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "quote": "[name=\"W\"]真晦气。\n[playMusic(key=\"$calm_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_412_1#6$1\",focus=\"m\")]\n[name=\"W\"]唉，本来只是想回来的时候，给自己放一发礼炮——\n[charslot(slot=\"m\",name=\"avg_npc_412_1#6$1\",focus=\"m\")]\n[name=\"W\"]结果这骨头架子一停稳，就要看见臭脸色的老女人。\n[dialog]\n[charslot]\n[charslot(slot=\"r\",name=\"avg_4087_ines_1#1$1\",duration=1.5)]\n[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#1$1\",duration=1.5)]\n[delay(time=3)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]W，无论你在这里炸坏了多少结构，别忘了，我们在占领它以后，还要修好它。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]谁弄坏的谁修。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#4$1\",focus=\"m\")]\n[name=\"W\"]啊？我怎么会修这玩意？！\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]凯尔希，博士。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]巨兽的骸骨已经被我们夺取，指挥官厄尔苏拉也被俘虏。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]其余的骸骨驻军，都已经阵亡。\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]你就是那位凯尔希勋爵？\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]我可听过不少你的故事。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]你是疤痕商场的人。\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]……远在维多利亚的你，也能对卡兹戴尔的一草一木掌握得一清二楚。\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#2$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]看来，那些老家伙说得没错。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]等这里的事务结束，我会通过你，与你口中的那些“老家伙”谈谈。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]留守卡兹戴尔的是他们，而巫妖已经接触到现在管理卡兹戴尔的军事委员会成员。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]他们就快要做出自己的选择了。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅和Logos呢？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[charslot]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#9$1\",focus=\"m\",duration=1)]\n[daley(time=2)]\n[name=\"阿米娅\"]博士！\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[Sticker(id=\"st1\", multi = true, text=\"娇小的卡特斯女孩撞入了你的怀中。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[dialog]\n[Decision(options=\"欢迎回来。;……;你身上都是血，受伤了吗？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]我没事。这些血只是……血魔留下的。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]阿米娅。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]你的戒指……你使用了力量。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]嗯。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]阿米娅，让我看看你的手。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"阿米娅手上的一枚戒指已经崩解，连碎片都无影无踪。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]这是……直面他所必需的，抱歉。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]……你对于情感与记忆的运用越来越熟练了。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅，你之前还因为解放戒指晕倒过。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"凯尔希，我们需要帮阿米娅再做一次检查。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]不，博士，别担心。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]我只是……有些累。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]仍然是右手食指的戒指碎裂。还好，只是力量使用过度的结果。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]你又一次因愤怒而燃烧。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]我……愤怒吗？\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]我以为我会很生气，血魔大君，他残害过很多人。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]可我所感受到的，远远不只是愤怒。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]还有……悲伤。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"悲伤。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n恍惚间，一双永远藏着悲伤的粉色眸子在凯尔希的回忆间闪过。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n凯尔希停顿了几秒，又再度端详起阿米娅的手指。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]这些戒指，本意是为了帮你适应魔王的力量，和伴随而来的汹涌情感。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]又一枚戒指有了裂痕。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]也许……我们只能一次次目睹这些淋漓的伤口。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]凯尔希医生，请放心。无论我面对过谁，又即将要面对谁……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]我不会比他们更早倒下。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]血魔大君坠落于未知之地。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]他的王庭，尚有余息。但他的威胁，不复存在。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]只是，我们还是没能阻止，那个诅咒的降临。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#6$1\",focus=\"m\")]\n[name=\"阿米娅\"]伦蒂尼姆的方向……到底发生了什么？\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……原本，自救军认为切断这条物资补给线，将会成为终结战争的手段。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]现在情况有变。这场“战争”，无论如何都不会长久。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]我们需要尽快赶往那里。这具骸骨，或许能成为新的据点，或是，出其不意的交通工具。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……但愿，它能派上想象中的用场。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$1\",focus=\"m\")]\n[name=\"推进之王\"]决战就在眼前。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]嗯。萨卡兹不能成为下一轮浩劫的元凶。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]而且……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]\n[name=\"阿米娅\"]凯尔希医生。血魔的执念，他的期许，他所说的诅咒，是“源石”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……嗯。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]最古老的卡兹戴尔比任何文明聚落都先一步接触到了“源石”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]那并非天灾的遗迹，并非堆积在岩层中沉默的矿物。那是一枚古老的“源石”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]由它，诞生了最古老的巫术，最古老的……感染者。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]假如血魔真的对这件事有所认知，甚至为此抱有执念，认为它能带来力量……\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]……那接下来所决定的，就远不是伦蒂尼姆一城的命运了。"
+        }
+      ],
+      "description": "双方在夺取巨兽后的联合会议中直接会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "双方在夺取巨兽后的联合会议中直接会面。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方在夺取巨兽后的联合会议中直接会面。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 391,
+          "kind": "story",
+          "line": 227,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "布伦特伍德联合行动",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 581,
+          "line": 521,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "quote": "[name=\"曼弗雷德\"]……\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.7)]\n[Character(name=\"avg_npc_419_1#1$1\")]\n[name=\"萨卡兹战士\"]行进！行进！\n[name=\"萨卡兹战士\"]保持队形！\n[dialog]\n[character]\n[delay(time=1.5)]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_393_1#1$1\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"赫德雷\"]……听说你在找我。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]伤恢复得怎么样？\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=1)]\n[name=\"赫德雷\"]老样子，不妨碍做任务就行。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]那就好。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#8$1\", focus=2)]\n[name=\"曼弗雷德\"]我刚收到了一条消息，你看看。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#8$1\", focus=1)]\n[name=\"赫德雷\"]……好。\n[Character(name=\"avg_npc_393_1#6$1\", name2=\"avg_npc_404_1#8$1\", focus=1)]\n[name=\"赫德雷\"]先前派去海布里区执行秘密任务的雇佣兵……出事了？\n[Character(name=\"avg_npc_393_1#6$1\", name2=\"avg_npc_404_1#6$1\", focus=2)]\n[name=\"曼弗雷德\"]他们本该在一个小时前汇报任务进展。\n[Character(name=\"avg_npc_393_1#7$1\", name2=\"avg_npc_404_1#6$1\", focus=1)]\n[name=\"赫德雷\"]……\n[Character(name=\"avg_npc_393_1#7$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]雇佣兵们最近的表现很难让军事委员会满意。\n[Character(name=\"avg_npc_393_1#7$1\", name2=\"avg_npc_404_1#9$1\", focus=2)]\n[name=\"曼弗雷德\"]士兵们需要把注意力集中在更大的战场上。殿下与我原本对雇佣兵……寄予厚望。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#9$1\", focus=1)]\n[name=\"赫德雷\"]……我这就去调查他们的下落。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#7$1\", focus=2)]\n[name=\"曼弗雷德\"]不必了，我都安排好了。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#3$1\", focus=2)]\n[name=\"曼弗雷德\"]对了……我有一个猜想。他们或许是撞上了你的老熟人。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]对萨卡兹的补给线那么关心的，除了我们自己以外，显然还有另一拨人。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]你猜猜看，Dr.{@nickname}和阿斯卡纶……\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#4$1\", focus=2)]\n[name=\"曼弗雷德\"]他们此刻是在海布里区调查军工厂，还是已经在准备突袭其他藏有补给线情报的枢纽了？\n[Character(name=\"avg_npc_393_1#6$1\", name2=\"avg_npc_404_1#4$1\", focus=1)]\n[name=\"赫德雷\"]……\n[Character(name=\"avg_npc_393_1#6$1\", name2=\"avg_npc_404_1#8$1\", focus=2)]\n[name=\"曼弗雷德\"]继续养伤吧，雇佣兵。\n[dialog]\n[delay(time=1)]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=1)]\n[Character(name=\"avg_npc_419_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"char_empty\",name2=\"avg_npc_419_1#1$1\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"avg_npc_419_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"avg_npc_419_1#1$1\",name2=\"avg_npc_419_1#1$1\")]\n[delay(time=1)]\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]在我把你的老朋友们一个个找出来之前，你不需要再受更多“伤”了。"
+        }
+      ],
+      "description": "赫德雷知晓博士在伦蒂尼姆的行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "赫德雷当面听取曼弗雷德对博士行动的推测。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在场。",
+          "status": "not_established",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 581,
+          "kind": "story",
+          "line": 521,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "军事委员会行军期间",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_4088_hodrer|npc_b99957887950ebfd"
+}

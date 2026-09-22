@@ -1,0 +1,255 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 55,
+          "line": 41,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-02_end.txt",
+          "quote": "[name=\"阿米娅\"]   ……我们与整合运动的领袖交过手。\n[Character(name=\"char_010_chen_1#6\")]\n[name=\"陈\"]   ——\n[Character(name=\"char_2005_weiyw_1\")]\n[name=\"魏彦吾\"]   嗯？她的名字是？\n[name=\"魏彦吾\"]   我记得不是那么清楚了……\n[Character(name=\"char_2005_weiyw_1\", focus=-1)]\n[Decision(options=\"塔露拉\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_2005_weiyw_1\", name2=\"char_010_chen_1\", focus=1)]\n[name=\"魏彦吾\"]   哦，是的，塔露拉。\n[name=\"魏彦吾\"]   陈警官，你认为呢？\n[Character(name=\"char_2005_weiyw_1\", name2=\"char_010_chen_1#5\", focus=2)]\n[name=\"陈\"]   ————\n[name=\"陈\"]   我——知道。"
+        }
+      ],
+      "description": "会议中说明曾与整合运动领袖交战并说出塔露拉姓名，陈明确说知道；只支持知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "会议中说明曾与整合运动领袖交战并说出塔露拉姓名，陈明确说知道；只支持知晓。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_e13e294bac851642.json",
+      "sources": [
+        {
+          "endLine": 55,
+          "kind": "story",
+          "line": 41,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "异卵同生"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 498,
+          "line": 489,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "quote": "[name=\"陈\"]  小时候我们玩过一个游戏。脸三分，胸口五分，腰两分。\n[name=\"陈\"]  我也不知道魏彦吾为什么会教我们那个。但我觉得还挺有用。\n[name=\"塔露拉\"]  那是我在学校里被其他小孩打了。\n[name=\"陈\"]  因为你护着碧翠克斯。你被打得很惨。\n[name=\"塔露拉\"]  但不是被你打的。\n[name=\"陈\"]  现在的我两下就能制服你。\n[name=\"塔露拉\"]  ……你试试。你的确变得很好强。\n[name=\"陈\"]  把剑放下吧，你拿那个其实有点好笑。\n[name=\"塔露拉\"]  那么大家就空手。顺便，这把赤霄是圆了你的什么侠客美梦吗？\n[name=\"塔露拉\"]  “美食美酒美景，美人美善美谈”，你得着那些稀奇古怪的小说里的哪个梦了？"
+        }
+      ],
+      "description": "姐妹共同回忆魏彦吾曾教她们自卫，具体双向实际相处。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E51"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "姐妹共同回忆魏彦吾曾教她们自卫，具体双向实际相处。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "E51"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "姐妹共同回忆魏彦吾曾教她们自卫，具体双向实际相处。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 498,
+          "kind": "story",
+          "line": 489,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 219,
+          "line": 188,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_05-01.txt",
+          "quote": "[name=\"文月\"]  事情不是进行得很顺利吗，你怎么在这愁眉苦脸的？\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]\n[name=\"魏彦吾\"]  乌萨斯方面还是没有任何回应？\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]\n[name=\"文月\"]  依然没有。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]\n[name=\"魏彦吾\"]  还是联系不上维特议长？\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]\n[name=\"文月\"]  很遗憾，信使至今都没能和他会面。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]\n[name=\"魏彦吾\"]  看来整个乌萨斯帝国，也笼罩在一片疑云之中啊。\n[name=\"魏彦吾\"]  文月，我有种感觉。这一切可能只是个开始。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]\n[name=\"文月\"]  上次你这么说，已经是很多年前了。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]\n[name=\"魏彦吾\"]  那是什么时候？我已经完全忘记了自己这么说的理由。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]\n[name=\"文月\"]  那时我们可是刚见面没多久。难道你是想说，你已经把我们间的过往都忘了？\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]\n[name=\"魏彦吾\"]  不，不会。我怎么敢。只是除了和你相遇以外的事情，我都记不太清了而已。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]\n[name=\"文月\"]  瞧你这副伶牙俐齿。很可惜，这事你是忘不了的。\n[name=\"文月\"]  毕竟你亲口对我说过，如果二十年前我们输了，这座城市会改名换姓，成为乌萨斯征服史的另一条脚注。\n[name=\"文月\"]  如果我们输了，坐在你现在的位置的不会是你，而是他。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]\n[name=\"魏彦吾\"]  ……\n[name=\"魏彦吾\"]  科西切公爵。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]\n[name=\"文月\"]  哎，可怜的小塔，你能说小塔身上没有他的影子吗？\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]\n[name=\"魏彦吾\"]  但他已经死了。\n[name=\"魏彦吾\"]  被塔露拉亲手所杀。"
+        }
+      ],
+      "description": "人物具体谈及塔露拉去向或往事，当前没有塔露拉反向证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "人物具体谈及塔露拉去向或往事，当前没有塔露拉反向证据。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 219,
+          "kind": "story",
+          "line": 188,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_05-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "靶向药物所述时段",
+      "title": "靶向药物"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 310,
+          "line": 288,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-01_end.txt",
+          "quote": "[name=\"魏彦吾\"]  你们已经就位了？\n[name=\"魏彦吾\"]  对，没错。\n[name=\"魏彦吾\"]  我知道。只是，近卫局有他们该做的事，你们有你们该做的，这不算越俎代庖。\n[name=\"魏彦吾\"]  确实。林舸瑞是很反对。\n[name=\"魏彦吾\"]  但这件事，由不得他！\n[name=\"魏彦吾\"]  ……\n[name=\"魏彦吾\"]  各方的意见我都收到了。我们没有选择余地，这也是无奈之举。\n[name=\"魏彦吾\"]  舸瑞的女儿会联络你们。此后三周以内，绝不要联系我，一切信息交她保管。\n[name=\"魏彦吾\"]  就交给你们了。不用担心身后，我会一直看着你们。\n[name=\"魏彦吾\"]  ……不必再用这个称呼。往事只是往事，我与往事再无瓜葛。\n[name=\"魏彦吾\"]  嗯，望龙门长治久安。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Background]\n[Blocker(a=0, fadetime=3, block=true)]\n[name=\"？？？\"]  老魏，我们是那个……你们怎么说来着，结义兄弟？\n[name=\"？？？\"]  所以，她和我女儿，拜托你了。\n[name=\"？？？\"]  哎，感觉和你说这些是多此一举。你总不能连自己的妹妹也照顾不好吧？\n[name=\"？？？\"]  女儿的名字我已经取好了，就叫……\n[name=\"？？？\"]  ……塔露拉。\n[name=\"？？？\"]  别太放在心上。我全明白。\n[name=\"？？？\"]  我全都明白。"
+        }
+      ],
+      "description": "魏彦吾曾受托照顾塔露拉，双方有明确既往关系。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C15"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "魏彦吾曾受托照顾塔露拉，双方有明确既往关系。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "C15"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "魏彦吾曾受托照顾塔露拉，双方有明确既往关系。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 310,
+          "kind": "story",
+          "line": 288,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 165,
+          "line": 129,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-01_end.txt",
+          "quote": "[name=\"凯尔希\"]  谜底揭晓了。\n[name=\"凯尔希\"]  无视这座城市的价值，无视所有居民的死活，乌萨斯把切尔诺伯格拱手送给了整合运动。\n[name=\"凯尔希\"]  而已经被感染的，已经在死亡边缘徘徊太久的感染者，无惧死亡的感染者们，将在天灾后接管这座城市。\n[Character(name=\"char_2006_weiywfmzuki_1\")]\n[name=\"文月\"]  他们根本不需要出手，他们只需要……让道。\n[name=\"文月\"]  他们只需要允许这件事情发生。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  即使这样，切尔诺伯格遭到天灾侵袭后，只是个缺乏资源的死城……\n[Character(name=\"char_2006_weiywfmzuki_1\")]\n[name=\"文月\"]  感染者自然会涌向龙门！无论整合运动是谁在操纵，这一切简直，简直都水到渠成……！\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  ——\n[name=\"魏彦吾\"]  传令。立刻阻拦监察司，使用武力也无所谓。做好一切开战准备，我要龙门保证能确定无误地瘫痪核心城。\n[name=\"魏彦吾\"]  在核心城停下之前，不准有一丝让消息传递出去的可能性。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  魏先生？！\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  你要主动开战？\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  文月，在龙门经历了这么多的你应该清楚。胞弟绝不会允许我主动与乌萨斯开战。\n[name=\"魏彦吾\"]  ……哪怕让我们获得优势的代价是这座龙门城的一切。我必须主动出击。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_003_kalts_1\",focus=2)]\n[name=\"凯尔希\"]  主动开战意味着开战者将必定受到他国的敌视，也更难与其他国家结交战时盟友关系。\n[name=\"凯尔希\"]  先进入宣战状态的国家，很可能会陷入孤立无援的境地。\n[Character(name=\"char_002_amiya_1#4\",name2=\"char_003_kalts_1\",focus=1)]\n[name=\"阿米娅\"]  这……最糟糕的是无论真相是什么样，也要战争过后才会有人去查证……！\n[Character(name=\"char_002_amiya_1#4\",name2=\"char_003_kalts_1\",focus=2)]\n[name=\"凯尔希\"]  有些国家也并不在乎真相，只是想要一个借口。\n[name=\"凯尔希\"]  但是，魏先生，我相信和平依然可以依靠和平的外交手段去缔造。\n[Character(name=\"char_2005_weiyw_1\",name2=\"char_003_kalts_1\",focus=1)]\n[name=\"魏彦吾\"]  凯尔希女士，感谢你的建议。\n[name=\"魏彦吾\"]  只是很可惜，我和维特就已经是这两个国家最后的和平手段。\n[name=\"魏彦吾\"]  无论我们的敌人是帝国第三集团军还是乌萨斯皇帝，就算我们必定能够赢得这场战争，这场战争也终归会发生。已经没有和平的可能了。\n[name=\"魏彦吾\"]  如果维特不敢通过官方渠道指责或制止这一系列行为，说明他会因此被群起而攻之，甚至适得其反。他是政客，他必定自私。\n[name=\"魏彦吾\"]  把他逼到这个地步，帝国的官僚结构可能已经处于半瘫痪的状态。\n[Character(name=\"char_2005_weiyw_1\",name2=\"char_003_kalts_1\",focus=2)]\n[name=\"凯尔希\"]  两个集团军能要挟整个乌萨斯，却要挟不了不在乌萨斯境内的龙门。龙门理应有紧急应对另一座移动城市的措施。"
+        }
+      ],
+      "description": "确认前者单向知晓后者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "前者在已读场景中具体提及、观察或接收后者信息。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 165,
+          "kind": "story",
+          "line": 129,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 398,
+          "line": 186,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_01_beg.txt",
+          "quote": "[name=\"魏彦吾\"]之前是信使，今天是太傅亲自到这来……  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]是有必须要和魏公说清的事。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]晖洁，回避。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]不必。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]一会要说的事，她最好也留下来听听。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]……  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]好。  \n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"l\")]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\",isblock=true)]\n[name=\"魏彦吾\"]如今百灶城中境况……  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]中秋后，陛下特准他进入岁陵，尝试平息岁兽之患。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]可望日临近，岁陵中依然没有动静。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]而此时此刻，大炎周遭还有五只巨兽盘踞，不知祂们意欲何为。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]天机阁的天师，还有大炎最精锐的战士已经前往巨兽所在的各地，大炎并不惮于这一战。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]但最坏的结果，不只是与五只巨兽同时开战。  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\")]\n[delay(time=0.5)]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#10$2\")]\n[name=\"陈\"]竟然……  \n[dialog]\n[avgdisplay(id = \"1\", style = \"bg\", name = \"bg_black\",afrom=0,ato=0.6,duration=2,slot = \"bgover\", layer = 1,isblock=true)]\n[delay(time=1)]\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"模糊的声音？\"]“不知意欲何为”——这白胡子老头倒是会说话。\n[name=\"模糊的声音？\"]上千年的血仇，这时候找上门，还能是来串门送礼的不成？\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#1$2\",focus=\"m\")]\n[name=\"陈\"]嗯……？  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]你……说什么？  \n[dialog]\n[avgdisplay(id = \"1\",style = \"bg\",name = \"bg_black\",afrom=0.6,ato=0,duration=1,slot = \"bgover\", layer = 1,block=true)]\n[delay(time=1)]\n[avgdisplay(id = \"1\")]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"l\")]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\",isblock=true)]\n[delay(time=0.5)]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\",isblock=true)]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]这时候，应当已经有不少人力主开战了。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]此刻重要的不再是某一派的意见。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]只怕大炎已经没有选择。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]朝廷应当对此有过无数种预案。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]在无数种预案中，也不存在一种惨胜之外的结果。 \n[charslot(slot = \"r\", name = \"avg_npc_301_1#2$1\", focus=\"r\")] \n[name=\"太傅\"]但依然还有我们不曾考虑过的手段。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]……！  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]太傅，告诉我，胞弟不曾想过要自己去开启“不反”——\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]他是真龙，大炎的真龙。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]如若大炎真到了不得已的时候，也只有他能行此事。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]……简直荒唐！  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]魏公。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]事已至此，我们不必再顾左右而言他。 \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")] \n[name=\"太傅\"]那封送到龙门的密信，在禁军动身前还无人知晓。而我今天来见魏公，却不曾掩人耳目。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]魏公应当明白。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]这些旧事……四十年的旧事，上千年的旧事……绝对不该以这种方式收场。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]……绝对不该，是由他去付出这个代价。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]无人愿意见到那个最坏的局面，但绝不可自欺欺人。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]我有必要提醒魏公——哪怕只是为大炎计，为天下计。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]当留后手。  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\")]\n[name=\"陈\"]请等一下。  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\")]\n[name=\"陈\"]我不明白，太傅说的“后手”是什么意思？  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#1$2\")]\n[name=\"陈\"]您刚刚说的这些事，和魏彦吾……有什么关系？  \n[dialog]\n[avgdisplay(id = \"1\", style = \"bg\", name = \"bg_black\",afrom=0,ato=0.6,duration=2,slot = \"bgover\", layer = 1,isblock=true)]\n[delay(time=1)]\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"模糊的声音？\"]这还听不明白？\n[name=\"模糊的声音？\"]后手就是后手，事情办砸的时候该做的事就叫后手。\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\",focus=\"m\")]\n[name=\"陈\"]……什么……？  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\",focus=\"m\")]\n[name=\"陈\"]你们……这是在说什么？  \n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"模糊的声音？\"]国不可一日无君，少了一位真龙，那自然得再补上一位真龙。\n[name=\"模糊的声音？\"]父死子替，兄退弟进，几千年来都是这么传过来的。\n[name=\"模糊的声音？\"]要是别人都不在了，这女娃自然也是要去当真龙的。\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#6$2\",focus=\"m\")]\n[name=\"陈\"]……你们在胡说八道什么？！  \n[dialog]\n[avgdisplay(id = \"1\",style = \"bg\",name = \"bg_black\",afrom=0.6,ato=0,duration=1,slot = \"bgover\", layer = 1,block=true)]\n[delay(time=1)]\n[avgdisplay(id = \"1\")]\n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"r\",isblock=true)]\n[name=\"太傅\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]……晖洁！  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\")]\n[name=\"陈\"]刚才的声音……  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]你们……都没听到？  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]……我……  \n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"r\",isblock=true)]\n[name=\"太傅\"]魏公。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]我不苛求魏公在此刻想清万般利害。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]行事当三思，但时间毕竟紧迫。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]魏公，珍重。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]……我送太傅一程。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]不必。  \n[PlaySound(key=\"$d_avg_woodfloor_fts\", volume=1)]\n[dialog]\n[charslot(slot = \"r\", afrom=1, ato=0, duration=1.5, isblock=true)]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\",posfrom=\"150,0\",posto=\"80,0\",duration=1,isblock=true)]\n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\", focus=\"r\")]\n[name=\"陈\"]我不明白，那位太傅的意思。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\", focus=\"r\")]\n[name=\"陈\"]他特意让我留在这里，但我一点也听不明白你们所说的。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]晖洁……  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#11$2\", focus=\"r\")]\n[name=\"陈\"]什么叫炎国很有可能马上要大动干戈，却让你做好准备？  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#11$2\", focus=\"r\")]\n[name=\"陈\"]“不反”“巨兽”……你和这些事到底有什么联系？  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]晖洁。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]过去曾有许多错……有的是我亲自铸就，有的则是我无力阻止。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]我唯一在坚持的，是不让那些已经无力改变的错，祸及你们。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]只因我从不曾怀疑，你能做到的比我们更多。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#10$2\", focus=\"r\")]\n[name=\"陈\"]……别在这时候说这些。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]还有一事。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]塔露拉……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]告诉我，你上一次见到塔露拉，她还好吗？  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\", focus=\"r\")]\n[name=\"陈\"]不，我才不会在这个时候告诉你。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\", focus=\"r\")]\n[name=\"陈\"]如果你真的还在乎她，就不要在这种时候问她的事。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#13$2\", focus=\"r\")]\n[name=\"陈\"]文月姨不愿意见你永远当那个老顽固，她在意你的安危，我也不想——  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#13$2\", focus=\"r\")]\n[name=\"陈\"]……如果你真的还在乎除了你自己之外的谁，就不要把他们全都抛在身后。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#13$2\", focus=\"r\")]\n[name=\"陈\"]告诉我，舅舅……  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#13$2\", focus=\"r\")]\n[name=\"陈\"]你到底准备做什么？  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]听上去，她活得应当还好，至少不坏。  "
+        }
+      ],
+      "description": "前者在已读场景中明确点名、讨论或接受后者的具体委托；本篇未见反向依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "前者在已读场景中明确点名、讨论或接受后者的具体委托；本篇未见反向依据。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本篇候选窗口未建立反向知晓或往来。",
+          "status": "not_established",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 398,
+          "kind": "story",
+          "line": 186,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "npc_08bc2cc38b820ef0|npc_69395c50206899b0"
+}

@@ -1,0 +1,173 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 65,
+          "line": 50,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-12_beg.txt",
+          "quote": "[name=\"W\"]  我认得出你也记得你，是我放跑了你，你想一想，我完全不用把你让给老爷子的。\n[Character(name=\"avg_npc_046#4\")]\n[name=\"W\"]  Scout是为你们罗德岛而死的。我是被迫取走了他的命。\n[name=\"W\"]  听好，他完全可以一个人逃掉。他为了保住你和你们其他人的命，和我演了一出戏给整合运动看。\n[name=\"W\"]  你以为我愿意杀他？我愿意杀一个萨卡兹，一个萨卡兹里现在都没剩下几个的匿形大师，真正的神射手，下一个卡兹戴尔英雄胚子？\n[Character(name=\"avg_npc_059\")]\n[name=\"罗德岛近卫干员？\"] 说谎！\n[Character(name=\"avg_npc_046#4\")]\n[name=\"W\"]  你冲我发脾气？！\n[Character(name=\"avg_npc_046#3\")]\n[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]\n[name=\"W\"]  你这家伙，也敢冲我发脾气？！\n[name=\"W\"]  我才要冲你发脾气！如果你本事大点，如果你们当场干死那条龙女，怎么还会死那么多人？\n[name=\"W\"]  怎么还要我去杀Scout，去杀我看得起的人？\n[name=\"W\"]  你是不是以为我是战争贩子？我告诉你，我是。是，没错，但和你们不一样，人的价值在我这里是有分级的。\n[name=\"W\"]  Scout……你们给我听着！就算在巴别塔，Scout也是我觉得最有价值的战士。"
+        }
+      ],
+      "description": "W明确回忆与Scout合谋并亲手杀他的实际交往。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "W明确回忆与Scout合谋并亲手杀他的实际交往。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "W明确回忆与Scout合谋并亲手杀他的实际交往。",
+          "status": "supported",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 65,
+          "kind": "story",
+          "line": 50,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-12_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 210,
+          "line": 198,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-05_end.txt",
+          "quote": "[name=\"阿斯卡纶\"]W，巴别塔应该没有向你发出任何指令，你为什么在这里？\n[charslot(slot = \"l\", name = \"avg_npc_1343_1#7$1\",focus=\"l\")]\n[name=\"W\"]你要和我谈我的违规问题？现在？\n[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.6)]\n[charslot(slot = \"r\", name = \"avg_4132_ascln_1#9$1\",focus=\"r\")]\n[name=\"阿斯卡纶\"]……\n[charslot(slot = \"r\", name = \"avg_4132_ascln_1#9$1\",focus=\"n\")]\n阿斯卡纶看着她。\nW与阿斯卡纶已经共事了不短的时间，但还是第一次看到她露出这样的表情。这个冰做的刺客……竟然也会有如此哀伤的眼神。\n[charslot(slot = \"l\", name = \"avg_npc_1343_1#7$1\",focus=\"l\")]\n[name=\"W\"]……阿斯卡纶，Scout说的都是真的？\n[charslot(slot = \"r\", name = \"avg_4132_ascln_1#2$1\",focus=\"r\")]\n[name=\"阿斯卡纶\"]你不该在这个时候回来。"
+        }
+      ],
+      "description": "W向阿斯卡纶询问Scout所说内容是否真实，足以知道Scout；本窗未说明Scout是否直接向W传话，不能补写真实通信。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E74"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "W向阿斯卡纶询问Scout所说内容是否真实，足以知道Scout；本窗未说明Scout是否直接向W传话，不能补写真实通信。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 210,
+          "kind": "story",
+          "line": 198,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所提交证据；其他篇章已证实的双向关系不受影响",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 245,
+          "line": 193,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_end.txt",
+          "quote": "[name=\"Scout\"]  你比想象中还能胜任这里的任务。\n[name=\"Scout\"]  还有你的两位朋友。虽然他们没有接受博士的邀请留下，但是他们依旧把工作完成得不错。\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_046#2\",fadetime=1,block=true)]\n[delay(time=2)]\n[name=\"W\"]  啊啊，所以特蕾西娅有说什么吗？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……如果你只是想被殿下称赞的话，你可以自己试着去邀个功看看。\n[name=\"Scout\"]  前提是你能躲开凯尔希女士。\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  那还是算了吧，那个该死的女人很少离开特蕾西娅半步，嘁，真烦人啊。\n[name=\"W\"]  那他们现在在哪里？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  你明知道还要去？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  我就去看看嘛，看看总不会挨骂吧？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  到底是谁比较烦人。\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  我可是为了你们拼死从难民堆里揪出了七个间谍哎！七个！还有一个术师！你知道有多费劲吗？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  小声点，你的存在和任务内容都是机密……唉。\n[name=\"Scout\"]  那是你自己的任务，而且我记得博士要求过至少留下一个活口……\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  我可不擅长救人，他自杀的速度比我杀他还快，这怎么办？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……唉。\n[name=\"Scout\"]  他们在舰桥上，阿米娅应该也在。\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  哪记得住那么多名字，其他人无所谓啦，谁在乎。\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  那就随便……\n[name=\"Scout\"]  ……慢着，你手里拿着什么？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  嗯？从间谍手里抢来的小型相机，少见吧？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  你该不会……\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  欸？正常来说，会有萨卡兹人放弃和殿下合影的机会吗？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……嗯，就算你被凯尔希女士当间谍处理了，我也不会帮你说话的。\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  对了对了。\n[name=\"W\"]  这些间谍是怎么混进来的？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  ……\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=1)]\n[name=\"W\"]  你不觉得最近……我们把每一场仗都打得有点奇怪吗？\n[Character(name=\"avg_npc_046#2\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  这不是我们该指手画脚的范畴，如果你有不满，去找博士。\n[Character(name=\"avg_npc_046#2\")]\n[name=\"W\"]  博士，呢。"
+        }
+      ],
+      "description": "两人讨论邀请和战斗安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "两人讨论邀请和战斗安排。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "两人讨论邀请和战斗安排。",
+          "status": "supported",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 245,
+          "kind": "story",
+          "line": 193,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生于黑夜所述时段",
+      "title": "生于黑夜"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 415,
+          "line": 412,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_10_end.txt",
+          "quote": "[name=\"W\"]谁*萨卡兹粗口*负责的通讯频段？！是不是让军事委员会截了，开这种玩笑？！\n[PlaySound(key=\"$d_avg_ldrdhtgrnd\", volume=1)]\n[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"W\"]我不信……我……你给我闭嘴！Scout！"
+        }
+      ],
+      "description": "W听通讯后对Scout喊闭嘴，确认具体知晓/收到其消息；Scout本窗无对W回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E59"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "W听通讯后对Scout喊闭嘴，确认具体知晓/收到其消息；Scout本窗无对W回应。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 415,
+          "kind": "story",
+          "line": 412,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "char_113_cqbw|npc_0957af9bf990438d"
+}

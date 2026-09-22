@@ -1,0 +1,160 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 136,
+          "line": 40,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_07_end.txt",
+          "quote": "[name=\"？？？\"]……防护材料领域非常有名的专家。\n[character(name=\"avg_npc_532_1#5$1\")]\n[name=\"塞雷娅\"]帕尔维斯……\n[dialog]\n[character]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[character(name=\"avg_npc_531_1#1$1\",fadetime=1)]\n[delay(time=1)]\n[name=\"帕尔维斯\"]这几年莱茵的扩张速度很快，不是吗？\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]新来的小朋友们还需要多长长见识啊。\n[character(name=\"avg_npc_530_1#1$1\")]\n[name=\"莱茵实验员\"]……两位主任同时出现？我、我……我还有工作没做完！我先走啦！\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]呵呵。\n[character(name=\"avg_npc_532_1#6$1\")]\n[name=\"塞雷娅\"]……你不准备告诉他们我回来了吗？\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]请原谅我的老花眼，我以前认识您吗，美丽的瓦伊凡女士？\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]……\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]没什么事情的话，我就先回去了。太晚休息可不利于我这把年纪的人的身体健康。\n[character(name=\"avg_npc_531_1#1$1\")]\n[name=\"帕尔维斯\"]对了，缪尔赛思主任，别忘了你答应我的黑豆茶。\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[character(fadetime=1)]\n[delay(time=2)]\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]呼……他真的是路过吗，塞雷娅？\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]现在是凌晨四点。\n[character(name=\"avg_npc_532_1#9$1\")]\n[name=\"塞雷娅\"]帕尔维斯平常的下班时间是九个小时以前。\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]果然……直到最后一刻到来前，他都不会轻易把赌注压在斐尔迪南和克丽斯腾之间的任意一方身上。\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]他还想看看谁的赢面大呢。\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]就算莱茵生命变成了废墟，他也一定是能活下来的那个吧？\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(fadetime=0)]\n[Background(image=\"29_g7_mainstreet_n\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]……他们进了莱茵总部。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]领航小队，准备拦截。\n[dialog]\n[character]\n[character(name=\"avg_npc_521_1#1$1\",fadetime=1)]\n[delay(time=1)]\n[name=\"Mechanist\"]别着急。\n[character(name=\"avg_npc_536_1#2$1\")]\n[name=\"霍尔海雅\"]你是……\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]我见过你和塞雷娅交手，对你的装备很感兴趣。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]方便借我看一眼吗？\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]……\n[character(name=\"avg_npc_536_1#2$1\")]\n[name=\"霍尔海雅\"]在战斗之前，你们是这么打招呼的吗，罗德岛的精英干员？\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]请不要误解，刚才那句话，我不是以罗德岛精英干员的身份说的。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]作为一名机械师，我尊重任何优秀的技术及技术的发明者——\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]所以，在我夺下你那根形制特别的法杖之前，我想先询问一下你的意愿。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]……你很有趣，Mechanist先生。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]我之前只是想去见一见塞雷娅，但你和你的上司……那位博士给了我更大的惊喜。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]你知道我的名字？\n[character(name=\"avg_npc_536_1#10$1\")]\n[name=\"霍尔海雅\"]你也调查过我，不是吗？\n[character(name=\"avg_npc_536_1#10$1\")]\n[name=\"霍尔海雅\"]掌握尽量多的信息，是我们这类人在动手之前的习惯。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]……莱茵总部的资料库里有你的名字，霍尔海雅女士。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]但我不相信斐尔迪南会雇佣一名历史学家来追杀自己的同僚。就算是在充满不可能的哥伦比亚学界，这也太荒诞了。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]那只是我的副业。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]你的副业是研究历史？\n[character(name=\"avg_npc_536_1#9$1\")]\n[name=\"霍尔海雅\"]错了。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]我是一名历史学者，我在这里，只是为了见证一则流传千年的预言成真。\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]同样的，我也相信，未来的走向能揭示一些被掩埋的历史——\n[character(name=\"avg_npc_536_1#3$1\")]\n[name=\"霍尔海雅\"]我和你们一样，都是真相的追寻者。"
+        }
+      ],
+      "description": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "char_249_mlyss",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "npc_d3677f4f84318d10"
+        },
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "npc_d3677f4f84318d10",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "char_249_mlyss"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 136,
+          "kind": "story",
+          "line": 40,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "绿野幻梦"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 620,
+          "line": 594,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_05_beg.txt",
+          "quote": "水滴绕过你的身边，生态园的光线没能穿透它们，被塞进往事切片的水滴，柔和、清晰却又不可碰触。\n新装修完毕的实验室，空了大半的酒瓶……塞雷娅，还有一个人是克丽斯腾？以及一脸扫兴的缪尔赛思……\n三个人在房间中央大眼瞪小眼，像是三个呆呆的木偶。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]这是莱茵生命成立不久的新年夜……所有人都很高兴。最高兴的应该是我。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#9$1\")]\n[name=\"缪尔赛思\"]我是在大学毕业前不久才认识克丽斯腾，还有塞雷娅。\n[name=\"缪尔赛思\"]克丽斯腾绝不是普通投资人喜欢的合作对象，你一眼就能确定她会带来惊喜，还有惊吓，而塞雷娅，我对她最大的印象便是“可靠”。\n[name=\"缪尔赛思\"]我的导师意外和她们主持的项目有了接触，但本身兴趣不大，所以打发了我过去……\n[name=\"缪尔赛思\"]那阵子我除了一点用力生活的执拗外，什么都没有，处处尝试，没有方向。她们俩帮我度过了“毕业生”和“精灵”的迷茫期。\n[name=\"缪尔赛思\"]那个时候，还只有克丽斯腾，塞雷娅，我，帕尔维斯，斐尔迪南五个人。\n[name=\"缪尔赛思\"]帕尔维斯那家伙借口熬不了夜，早早地躲到了楼上去，斐尔迪南有事情要处理，走得也很早。\n[name=\"缪尔赛思\"]你敢相信吗，找了半天，我发现居然没有人可以跟我跳舞。\n[name=\"缪尔赛思\"]最后我还是只能拉住了塞雷娅……还有克丽斯腾。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#10$1\")]\n[name=\"缪尔赛思\"]哈哈，三个人的舞根本没人会跳，我到现在还记得当时她们俩脸上的表情！\n[dialog]\n[charslot(slot=\"m\",focus=\"n\")]\n[Decision(options=\"为什么你会这么执着于克丽斯腾？;莱茵生命对你来说很重要。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]嗯……因为梦想。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#9$1\")]\n[name=\"缪尔赛思\"]我们约好了，她帮娜斯提踏上旅途，而她会带着我的梦一起上路。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]……确切地说，是塞雷娅和克丽斯腾这两个人对我来说很重要。"
+        }
+      ],
+      "description": "缪尔赛思回忆与帕尔维斯共同参与莱茵创立初期工作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C18"
+          ],
+          "from": "char_249_mlyss",
+          "reason": "缪尔赛思回忆与帕尔维斯共同参与莱茵创立初期工作。",
+          "status": "supported",
+          "to": "npc_d3677f4f84318d10"
+        },
+        {
+          "evidenceIds": [
+            "C18"
+          ],
+          "from": "npc_d3677f4f84318d10",
+          "reason": "缪尔赛思回忆与帕尔维斯共同参与莱茵创立初期工作。",
+          "status": "supported",
+          "to": "char_249_mlyss"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 620,
+          "kind": "story",
+          "line": 594,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 101,
+          "line": 95,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_01_beg.txt",
+          "quote": "[name=\"？？？\"]我是生态科的主任，缪尔赛思。\n[Character(name=\"char_249_muesys_1#5\", name2=\"char_108_silent_1#4\", focus=2)]\n[name=\"赫默\"]我记得你。\n[Character(name=\"char_249_muesys_1#6\", name2=\"char_108_silent_1#4\", focus=1)] \n[name=\"缪尔赛思\"]哎呀，你知道我吗？真是荣幸。\n[Character(name=\"char_249_muesys_1#6\", name2=\"char_108_silent_1#4\", focus=2)]\n[name=\"赫默\"]老师对我提起过你。"
+        },
+        {
+          "endLine": 155,
+          "line": 151,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_01_beg.txt",
+          "quote": "[name=\"赫默\"]但是，你一定是和这件事有关联而且想从我们这里获得什么的人。\n[Character(name=\"char_108_silent_1#4\", name2=\"char_249_muesys_1#1\",focus=2)]\n[name=\"缪尔赛思\"]不愧是结构科的帕尔维斯主任的得意门生，真是聪明呢，我喜欢和你这样的人聊天哦。\n[Character(name=\"char_108_silent_1#4\", name2=\"char_249_muesys_1#5\",focus=1)]\n[name=\"赫默\"]不要扯开话题，缪尔赛思主任。"
+        },
+        {
+          "endLine": 50,
+          "line": 42,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_05_beg.txt",
+          "quote": "[name=\"缪尔赛思\"]不得不说，赫默小姐，我确实有些好奇你究竟是从哪里获得安东尼这条线索的情报的了。\n[Character(name=\"char_249_muesys_1#5\",name2=\"char_108_silent_1#5\",focus=2)]\n[name=\"赫默\"]从我的老师那里。\n[Character(name=\"char_249_muesys_1#5\",name2=\"char_108_silent_1#5\",focus=1)]\n[name=\"缪尔赛思\"]嗯？难道帕尔维斯主任也插手了这件事？\n[Character(name=\"char_249_muesys_1#5\",name2=\"char_108_silent_1#3\",focus=2)]\n[name=\"赫默\"]……不，我已经很久没有和他直接联络过了。\n[name=\"赫默\"]而且他恐怕也不知道这件事。\n[name=\"赫默\"]自从离开莱茵生命后，我把过去很多从没在意过的情报重新梳理了一遍。"
+        }
+      ],
+      "description": "",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_d3677f4f84318d10",
+          "reason": "帕尔维斯曾向赫默谈起缪尔赛思。",
+          "status": "supported",
+          "to": "char_249_mlyss"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_249_mlyss",
+          "reason": "缪尔赛思明确点名帕尔维斯。",
+          "status": "supported",
+          "to": "npc_d3677f4f84318d10"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 101,
+          "kind": "story",
+          "line": 95,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 155,
+          "kind": "story",
+          "line": 151,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 50,
+          "kind": "story",
+          "line": 42,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "帕尔维斯提及缪尔赛思发生在此前；另一方向至酒吧谈话时明确。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_249_mlyss|npc_d3677f4f84318d10"
+}

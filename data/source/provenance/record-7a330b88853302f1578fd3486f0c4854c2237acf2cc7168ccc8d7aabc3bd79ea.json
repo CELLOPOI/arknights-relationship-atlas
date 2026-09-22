@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 651,
+          "line": 634,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_end.txt",
+          "quote": "[name=\"乔万娜\"]唔……啊……\n[Character(name=\"char_101_sora_1#3\")]\n[name=\"空\"]乔万娜小姐，你、你醒了？！\n[dialog]\n[character]\n[Character(name=\"avg_npc_687_1#6$1\",fadetime=1)]\n[Delay(time=2)]\n[name=\"乔万娜\"]我没……死吗……\n[Character(name=\"char_101_sora_1#1\")]\n[name=\"空\"]嗯，对方出手的位置偏离了你心脏几厘米，所以你活了下来。\n[Character(name=\"char_101_sora_1#4\")]\n[name=\"空\"]但是，也多亏了你的身体素质过硬……不然，恐怕还是撑不下来的。\n[Character(name=\"avg_npc_687_1#6$1\")]\n[name=\"乔万娜\"]瓦拉赫……\n[Character(name=\"avg_npc_687_1#1$1\")]\n[name=\"乔万娜\"]……我昏迷多久了？\n[Character(name=\"char_101_sora_1#4\")]\n[name=\"空\"]一天。"
+        }
+      ],
+      "description": "空照顾乔万娜时听她呼唤瓦拉赫。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "char_101_sora",
+          "reason": "空照顾乔万娜时听她呼唤瓦拉赫。",
+          "status": "supported",
+          "to": "npc_20d12590d6754866"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_20d12590d6754866",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 651,
+          "kind": "story",
+          "line": 634,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_101_sora|npc_20d12590d6754866"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 27,
+          "line": 25,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "quote": "[name=\"极境\"]  我听博士说，那边热得随时有人会晕倒在大街上，然后被免费的啤酒浇醒，是不是真的？\n[name=\"极境\"]  哎对了，这次的音乐节都来了哪些名人？大帝是不是要来？\n[name=\"极境\"]  哎，你见到日落即逝的成员了吗，我都用她们的曲子做背景音乐，你听这首——"
+        }
+      ],
+      "description": "极境询问大帝是否参加，明确知道该艺人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_401_elysm",
+          "reason": "极境询问大帝是否参加，明确知道该艺人。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 27,
+          "kind": "story",
+          "line": 25,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_2b6410ed62fdecf2"
+}

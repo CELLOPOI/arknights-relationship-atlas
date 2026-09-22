@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 63,
+          "line": 47,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "quote": "[name=\"推进之王\"]这是开斯特公爵的徽记。\n[charslot(slot=\"m\",name=\"avg_npc_411_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]我看看——\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_button\",volume=1,channel=\"1\")]\n[Delay(time=0.5)]\n[playsound(key=\"$d_avg_recorderglitch\",volume=1,channel=\"2\",loop=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1, block=true)]\n[Subtitle(text=\"“滋滋——”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“我还有很多事要忙，就直入主题了。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“——剑座。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“……已经抵达银石崖。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“但银石崖前线现在的状况……萨卡兹的手段超出了所有人的预料。”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“从西南方向进入战场，带上剑——”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"“滋——我已经兑现了我的诺言，接下来该……殿下——”\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]"
+        }
+      ],
+      "description": "推进之王认出公爵徽记，录音明确向殿下兑现约定，双方此前通信诺言有据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_112_siege",
+          "reason": "推进之王认出公爵徽记，录音明确向殿下兑现约定，双方此前通信诺言有据。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_8c87697c59975883",
+          "reason": "推进之王认出公爵徽记，录音明确向殿下兑现约定，双方此前通信诺言有据。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 63,
+          "kind": "story",
+          "line": 47,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 173,
+          "line": 105,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-13_end.txt",
+          "quote": "[name=\"贝尔德\"]能找到的人我们应该都通知到了。\n[charslot(slot=\"m\",name=\"avg_npc_863_1#7$1\",focus=\"m\")]\n[name=\"贝尔德\"]我们能做的，也就是这些了。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]阿米娅还没有回来，也没有收到博士和伊内丝的联络。\n[charslot(slot=\"m\",name=\"avg_npc_863_1#4$1\",focus=\"m\")]\n[name=\"贝尔德\"]……外面好像又有地方在着火了。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]那是，酒店的位置。\n[charslot(slot=\"m\",name=\"avg_npc_863_1#4$1\",focus=\"m\")]\n[name=\"贝尔德\"]……我们最好去看看。\n[dialog]\n[charslot]\n[playsound(key=\"$rungeneral\")]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=1)]\n[name=\"戴菲恩\"]哈……哈……\n[charslot(slot=\"m\",name=\"avg_npc_863_1#4$1\",focus=\"m\")]\n[name=\"贝尔德\"]戴菲恩？怎么跑得那么急？\n[charslot(slot=\"m\",name=\"avg_npc_863_1#4$1\",focus=\"m\")]\n[name=\"贝尔德\"]——那些罗德岛的人呢？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我就直说了吧，听好，亚历山德莉娜·维娜·维多利亚。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]阿米娅和博士被“灰礼帽”要求继续完成那场交易，他们必须去寻找飞空艇的位置。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]威灵顿公爵的军队已经进入了这个地块，开斯特公爵的增援恐怕也到了。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]他们都对萨卡兹那架飞空艇的技术势在必得，他们都无法接受自己的竞争对手首先获得技术上的优势。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]诺伯特区已经成了公爵们角力的围场。\n[charslot(slot=\"m\",name=\"avg_npc_862_1#10$1\",focus=\"m\")]\n[name=\"卡铎尔\"]哈，果然是那些人的一贯作风。\n[charslot(slot=\"m\",name=\"avg_npc_862_1#10$1\",focus=\"m\")]\n[name=\"卡铎尔\"]那条广播呢？你说的，能推动大公爵们正式进攻这里的广播——\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]伊内丝小姐说，她会尽量做到。\n[charslot(slot=\"m\",name=\"avg_npc_862_1#5$1\",focus=\"m\")]\n[name=\"卡铎尔\"]尽量做到？这是什么意思？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]她说，等到日出。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#12$1\",focus=\"m\")]\n[name=\"推进之王\"]……我明白了。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#5$1\",focus=\"m\")]\n[name=\"推进之王\"]假设大公爵们依然会采取正面行动，我们还有多少时间？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]如果伊内丝小姐成功……温德米尔公爵的高速军舰会在日出后不久靠近这里。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]你们在这里聚集了很多人。\n[charslot(slot=\"m\",name=\"avg_npc_863_1#1$1\",focus=\"m\")]\n[name=\"贝尔德\"]那些不在这里的人，应该也已经收到消息了，愿意跟着我们的人会跟上队伍的。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]那我建议在大公爵的军舰正式靠近之前，我们应该继续在这里等待。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]眼下的情况……走在街道上不是个好主意。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]无论是威灵顿还是开斯特，他们对有可能妨碍他们的人都从不手软。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#12$1\",focus=\"m\")]\n[name=\"推进之王\"]不，我们最好现在就出发。\n[name=\"推进之王\"]封锁墙边的几个萨卡兹驻军营地被袭击了，很可能就是某位大公爵的部队干的。\n[name=\"推进之王\"]我们应该趁着现在还是夜里，尽量靠近那些封锁墙防守比较薄弱的地带。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]更重要的是……我们要让还躲在窗户后面张望的那些人知道，我们说的是真的。\n[name=\"推进之王\"]这次撤离不是个为了骗取他们仅剩储备的阴谋，不是个萨卡兹剿灭他们的陷阱。\n[name=\"推进之王\"]重新建立信任是困难的，而唯一的方法不过是——\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#12$1\",focus=\"m\")]\n[name=\"推进之王\"]让他们看见实际的行动。"
+        }
+      ],
+      "description": "该人物单向明确知晓开斯特公爵。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "char_112_siege",
+          "reason": "该人物当面接收戴菲恩关于开斯特公爵增援和行动方式的具体说明。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "被谈及者未在该局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 173,
+          "kind": "story",
+          "line": 105,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-13_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 318,
+          "line": 271,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-02_beg.txt",
+          "quote": "[name=\"戴菲恩\"]“食腐者之王”……我们甚至只能在古老的典籍和考古文献里找到关于他们的记述。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]而维多利亚，不，整个泰拉已经太久没有面对过一支真正的萨卡兹大军团了。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]他们的巫术会形成什么样的连锁反应？他们的手段当真有资料里贬损的那么落后原始？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]在我们看不见的地方，各个分支的萨卡兹们联结成了一股怎样的力量？他们为何站在一起？\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]……\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]但是也不用太担心。妈……温德米尔公爵会与威灵顿公爵联席指挥这场战争。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]开斯特公爵也已经明确表了态，僵持不会持续太久。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]等我们返回“加拉瓦铁盾”后，物资补给和前线支援都会——\n[charslot]\n[dialog]\n[stopmusic(fadetime=2)]\n[playsound(key=\"$smallearthquake\", volume=0.6)]\n[CameraShake(duration=2, xstrength=4, ystrength=4, vibrato=20, randomness=30, fadeout=true)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#9$1\",focus=\"m\")]\n[name=\"摩根\"]唔哦！怎么了？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]看来我们在穿越一片峡谷……这是个好讯号。我们就快离开战场了。\n[dialog]\n[charslot]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"峡谷。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n不安的感觉在加剧。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我知道妈妈的自信源自何处。温德米尔引以为豪的剑卫们正驻扎在这艘军舰上。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n如果萨卡兹们误以为这是温德米尔公爵的一次冒进之举，迎接他们的只会是从四皇之战开始砥砺至今的锋刃。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"但是……我们真的有那么理解萨卡兹吗？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_396_1#5$1\",focus=\"m\")]\n[name=\"达格达\"]……推进之王，军舰是不是在减速？\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#5$1\",focus=\"m\")]\n[name=\"推进之王\"]没错。而且外面的天气……等等，现在是几点？\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#5$1\",focus=\"m\")]\n[name=\"推进之王\"]我们离开诺伯特区多久了？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]嗯？大概几个小时。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]这片峡谷只是普通的峡谷吗？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]唔，没什么特别的，只有一些荒废的工业区……"
+        }
+      ],
+      "description": "具体获知开斯特公爵的战场立场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_112_siege",
+          "reason": "在军舰谈话中听见开斯特公爵已明确表态。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "公爵未在场。",
+          "status": "not_established",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 318,
+          "kind": "story",
+          "line": 271,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "军舰撤离途中",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_112_siege|npc_8c87697c59975883"
+}

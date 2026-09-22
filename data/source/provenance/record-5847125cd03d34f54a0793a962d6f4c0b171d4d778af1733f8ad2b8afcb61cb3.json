@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 254,
+          "line": 231,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st01.txt",
+          "quote": "[name=\"天火\"]      无知那自然是可怜的事情！\n[Character(name=\"char_002_amiya_1#2\")]\n[name=\"阿米娅\"]   天火，普罗旺斯！早上好！\n[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#2\",focus=1)]\n[name=\"普罗旺斯\"]      阿米娅，博士，早。\n[name=\"普罗旺斯\"]      真巧，看这个方向，博士你们准备去海滩吗？\n[Character(name=\"char_002_amiya_1#2\")]\n[name=\"阿米娅\"]   我们也只是到处看看。普罗旺斯和天火呢？\n[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#2\",focus=2)]\n[name=\"天火\"]      我们准备去汐斯塔火山脚下去看看嗯。\n[Character(name=\"char_002_amiya_1#2\")]\n[name=\"阿米娅\"]   火山脚？我看看地图。\n[name=\"阿米娅\"]   上面似乎没有标注，那里是有什么特别的活动？\n[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#2\",focus=1)]\n[name=\"普罗旺斯\"]      没有没有，天火她就是一时兴起想去实地考察一下而已。\n[name=\"普罗旺斯\"]      而我作为天灾信使，每到一个地方，去这样的地方看看也已经是习惯啦。\n[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#2\",focus=2)]\n[name=\"天火\"]      作为一个研究者，我还是挺好奇的，能亲眼观察火山生态的机会可不多。\n[Character(name=\"char_002_amiya_1#2\")]\n[name=\"阿米娅\"]   即使是度假，天火也依然是这么热衷于研究啊。\n[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#2\",focus=2)]\n[name=\"天火\"]      嗯哼，那当然，对我来说，这就是度假。\n[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#2\",focus=1)]\n[name=\"普罗旺斯\"]     那么我们先走了，拜拜。"
+        }
+      ],
+      "description": "具名干员与由称呼和选项确认的博士当面对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "char_145_prove",
+          "reason": "具名干员与由称呼和选项确认的博士当面对话。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "具名干员与由称呼和选项确认的博士当面对话。",
+          "status": "supported",
+          "to": "char_145_prove"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 254,
+          "kind": "story",
+          "line": 231,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_145_prove|npc_b99957887950ebfd"
+}

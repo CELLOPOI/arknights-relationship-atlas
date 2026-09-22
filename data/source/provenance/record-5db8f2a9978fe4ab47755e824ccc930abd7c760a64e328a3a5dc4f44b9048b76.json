@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 102,
+          "line": 90,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-07_end.txt",
+          "quote": "[Character(name=\"char_1507_Mephisto_1#6\",fadetime=2)]\n[stopmusic(fadetime=2)]\n[name=\"？？？\"]  等一下，等一下——\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   ？！\n[Character(name=\"char_1507_Mephisto_1#6\")]\n[name=\"？？？\"]  在清剿了东南要塞之后，我一听到你的消息，可是立刻就赶过来了。\n[name=\"？？？\"]  这里已经是我的处理范围咯，弑君者。\n[Character(name=\"char_1502_crowns\")]\n[name=\"弑君者\"]  ……\n[name=\"弑君者\"] 你来做什么？\n[Character(name=\"char_1507_Mephisto_1#6\")]\n[name=\"？？？\"]  该把他们，交给我了吧？"
+        }
+      ],
+      "description": "梅菲斯特称呼弑君者并要求接管，弑君者直接问他来做什么。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "梅菲斯特称呼弑君者并要求接管，弑君者直接问他来做什么。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "梅菲斯特称呼弑君者并要求接管，弑君者直接问他来做什么。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 102,
+          "kind": "story",
+          "line": 90,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    }
+  ],
+  "relationship_id": "char_1502_crosly|npc_03efe1bf09e24b53"
+}

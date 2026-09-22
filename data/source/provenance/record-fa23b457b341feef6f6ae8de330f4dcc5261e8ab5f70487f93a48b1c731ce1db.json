@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 308,
+          "line": 308,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_beg.txt",
+          "quote": "[name=\"罗宾\"]安东尼，杜玛交给我！"
+        },
+        {
+          "endLine": 429,
+          "line": 424,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_beg.txt",
+          "quote": "[name=\"安东尼\"]呃……啊……\n[PlaySound(key=\"$enemy_dead_n\")]\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"卡夫卡\"]呜哇！\n[delay(time=0.6)]\n[name=\"杜玛\"]安东尼，卡夫卡，你们没事吧！"
+        },
+        {
+          "endLine": 12,
+          "line": 1,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "quote": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]\n[stopmusic]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_Morgue\",screenadapt=\"coverall\")]\n[PlayMusic(intro=\"$longmenbat_intro\", key=\"$longmenbat_loop\", volume=0.4)]\n[Character(name=\"avg_npc_137#4\",name2=\"char_264_Mountain_1#5\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[delay(time=1)]\n[Character(name=\"avg_npc_137#4\",name2=\"char_264_Mountain_1#4\")]\n[name=\"安东尼\"]混账！"
+        },
+        {
+          "endLine": 216,
+          "line": 175,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "quote": "[PlaySound(key=\"$d_gen_dooropen\", volume=1)]\n[delay(time=1.5)]\n[Character(name=\"avg_npc_137#4\")]\n[name=\"杰斯顿\"]听，死神来了。\n[Character(name=\"char_451_robin#6\")]\n[name=\"罗宾\"]到此为止了吗……\n[Character(name=\"char_214_kafka_1#5\")]\n[name=\"卡夫卡\"]啧，怎么办怎么办……\n[dialog]\n[Character]\n[Delay(time=1)]\n[stopmusic]\n[name=\"？？？\"]很遗憾，死神暂时不会来。\n[name=\"？？？\"]不过，安东尼，你的声音太大了，我在过道里都听到了。\n[dialog]\n[Delay(time=1)]\n[Character(name=\"avg_npc_137#4\")]\n[name=\"杰斯顿\"]你……是谁？\n[Character(name=\"avg_npc_137#4\")]\n[name=\"杰斯顿\"]嗯？你是……\n[dialog]\n[Character]\n[delay(time=1)]\n[Character(name=\"avg_npc_136#1\",blackstart=0.14,blackend=0.4,fadetime=1)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[delay(time=2)]\n[name=\"？？？\"]不得不说，你们的计划连我都感到有些出乎意料。\n[name=\"？？？\"]花了一些时间才帮你们堵住了其他那些警卫。\n[Character(name=\"char_214_kafka_1#2\")]\n[name=\"卡夫卡\"]咦，我好像见过你……\n[Character(name=\"avg_npc_137#4\")]\n[name=\"杰斯顿\"]等等，你是……\n[dialog]\n[Character(name=\"avg_npc_136#1\",blackstart=0.14,blackend=0.4)]\n[PlayMusic(intro=\"$bat_ironguy_intro\", key=\"$bat_ironguy_loop\", volume=0.4)]\n[delay(time=1)]\n[Character(name=\"avg_npc_136#4\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, delay=0.04, fadeout=true, block=false)]\n[name=\"杰斯顿\"]莱茵生命，防卫科主任，塞雷娅！\n[delay(time=1)]\n[Character(name=\"avg_npc_137#4\",name2=\"avg_npc_136#1\",focus=2)]\n[name=\"塞雷娅\"]我也记得你，杰斯顿。"
+        }
+      ],
+      "description": "同一场营救中的实际同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "杜玛持续在医务室，塞雷娅进入该局部场景。",
+          "status": "supported",
+          "to": "char_202_demkni"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_202_demkni",
+          "reason": "进入杜玛仍在的医务室，按实际局部同场尺度确认。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 308,
+          "kind": "story",
+          "line": 308,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 429,
+          "kind": "story",
+          "line": 424,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 12,
+          "kind": "story",
+          "line": 1,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 216,
+          "kind": "story",
+          "line": 175,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "越狱当天最终战，塞雷娅进入医务室之后。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_202_demkni|npc_b6173633e2da4a81"
+}

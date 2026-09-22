@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 259,
+          "line": 251,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_end.txt",
+          "quote": "[name=\"重岳\"]看来你我赶过来倒是多余了。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]精彩的对决，也不算白来。\n[charslot(slot=\"l\",name=\"avg_2024_chyue_1#1$1\",focus=\"l\")]\n[name=\"重岳\"]后生可畏。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]我以为重岳兄说的是那位汉子。\n[charslot(slot=\"l\",name=\"avg_2024_chyue_1#1$1\",focus=\"l\")]\n[name=\"重岳\"]陈姑娘显然已经得了魏公的七分真传。"
+        }
+      ],
+      "description": "魏彦吾与重岳现场观战后评价那位汉子，单向明确观察具体槐天裴，不推其知道观众。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E58"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "魏彦吾与重岳现场观战后评价那位汉子，单向明确观察具体槐天裴，不推其知道观众。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 259,
+          "kind": "story",
+          "line": 251,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "npc_08bc2cc38b820ef0|npc_2a2f1f3b7bd9ed61"
+}

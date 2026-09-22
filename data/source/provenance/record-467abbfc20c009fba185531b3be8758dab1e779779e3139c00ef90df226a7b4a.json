@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 763,
+          "line": 755,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+          "quote": "[name=\"博士\"]抱歉，特蕾西娅……你不需要承担那些。\n[name=\"博士\"]不必对我使用“文明的存续”，使用它对你而言也是有负担的，它有更重要的用处。\n[charslot(slot = \"m\", name = \"avg_npc_1296_1#10$1\")]\n[name=\"特蕾西娅\"]比帮助我们尽心竭力的博士还重要？\n[charslot(slot = \"m\", name = \"avg_npc_048\")]\n[name=\"博士\"]呵呵……谢谢，真的谢谢。\n[name=\"博士\"]你和Scout都说，我们有喘息的时间，是吧？\n[name=\"博士\"]那就让我亲自为你们做一顿晚宴吧，我偷学Misery的。\n[name=\"博士\"]为了迎接日后的挑战。"
+        }
+      ],
+      "description": "博士与特蕾西娅当面交谈时说明自己偷学Misery做菜，特蕾西娅听到具体人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR04"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "博士与特蕾西娅当面交谈时说明自己偷学Misery做菜，特蕾西娅听到具体人物。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 763,
+          "kind": "story",
+          "line": 755,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "char_615_acspec|npc_c0e49cc5a9477cf1"
+}

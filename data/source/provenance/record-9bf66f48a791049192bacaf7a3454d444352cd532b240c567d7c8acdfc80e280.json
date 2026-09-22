@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 254,
+          "line": 239,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "quote": "[name=\"Sharp\"]……\n[name=\"Sharp\"]切开箭矢确实有点难度。\n[Character(name=\"avg_npc_255_1#4$1\")]\n[name=\"莫希\"]你是——！\n[Character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]不过这只是工作的一部分，恩希欧迪斯先生。\n[name=\"Sharp\"]所以你们还继续打吗？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]这不取决于我。\n[Character(name=\"avg_npc_255_1#1$1\")]\n[name=\"莫希\"]……\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]现在收手是最好的选择，至少不会伤及性命。\n[Character(name=\"avg_npc_255_1#6$1\")]\n[name=\"莫希\"]……别假装好心，真让人不舒服。\n[name=\"莫希\"]你不就是想从我这里拿到情报，想知道是谁要对你下手？"
+        }
+      ],
+      "description": "Sharp现身制止刺杀，莫希面对他作出反应并继续交涉。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E114"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp现身制止刺杀，莫希面对他作出反应并继续交涉。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [
+            "E114"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "Sharp现身制止刺杀，莫希面对他作出反应并继续交涉。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 254,
+          "kind": "story",
+          "line": 239,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_508_aguard|npc_5b6d9a80bb2c7211"
+}

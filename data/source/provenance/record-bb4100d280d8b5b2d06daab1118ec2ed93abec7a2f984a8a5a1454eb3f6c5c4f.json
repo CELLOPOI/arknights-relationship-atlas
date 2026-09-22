@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 96,
+          "line": 72,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17d0/level_act17d0_st03.txt",
+          "quote": "[name=\"雷蛇\"]库兹先生，各位。\n[Character(name=\"avg_npc_156_1#1\",name2=\"avg_npc_155_1#2\",focus=2)]\n[name=\"芙兰卡\"]你们终于出来了。\n[character(name=\"avg_npc_166\")]\n[name=\"黑\"]……\n[character(name=\"char_503_rang\")]\n[name=\"巡林者\"]和领主小姐道别完了吧。\n[name=\"巡林者\"]那我们也该离开这里了。\n[character(name=\"avg_npc_167\",name2=\"char_503_rang\",focus=1)]\n[name=\"stormeye\"]我的小队会护送你们回岛。\n[character(name=\"avg_npc_167\",name2=\"char_503_rang\",focus=2)]\n[name=\"巡林者\"]有劳了。\n[dialog]\n[character]\n[delay(time=1)]\n[character(name=\"avg_npc_167\",name2=\"char_456_ash_1#1\",focus=1)]\n[name=\"stormeye\"]科恩小姐，您的小队将会与我们同行，对吗？\n[character(name=\"avg_npc_167\",name2=\"char_456_ash_1#1\",focus=2)]\n[name=\"灰烬\"]是，我和我的队员已经战斗太久了，他们需要一个能够休息和进行补给的地方。\n[name=\"灰烬\"]最重要的，我们可能需要身份。\n[name=\"灰烬\"]一个行走在这个世界……不，行走在这片“大地”上的身份。\n[character(name=\"avg_npc_167\",name2=\"char_456_ash_1#1\",focus=1)]\n[name=\"stormeye\"]好。\n[character(name=\"avg_npc_167\")]\n[name=\"stormeye\"]车已经就位了，我们出发。"
+        }
+      ],
+      "description": "沙漠出发前同场，Stormeye宣布护送，巡林者回应、灰烬确认同行。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "char_456_ash",
+          "reason": "沙漠出发前同场，Stormeye宣布护送，巡林者回应、灰烬确认同行。",
+          "status": "supported",
+          "to": "char_511_asnipe"
+        },
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "char_511_asnipe",
+          "reason": "沙漠出发前同场，Stormeye宣布护送，巡林者回应、灰烬确认同行。",
+          "status": "supported",
+          "to": "char_456_ash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_7ef9a7e0393495b0.json",
+      "sources": [
+        {
+          "endLine": 96,
+          "kind": "story",
+          "line": 72,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17d0/level_act17d0_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "源石尘行动"
+    }
+  ],
+  "relationship_id": "char_456_ash|char_511_asnipe"
+}

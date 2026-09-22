@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 145,
+          "line": 144,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-05_beg.txt",
+          "quote": "[name=\"阿斯卡纶\"]如果厄尔苏拉回到了曼弗雷德那里，我们现在的位置，还有布防情况可能已经全部暴露。\n[name=\"阿斯卡纶\"]我们和敌军的战力差距过于悬殊，打持久战我们没有胜算。"
+        }
+      ],
+      "description": "阿斯卡纶明确谈厄尔苏拉逃回敌军并暴露情报。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E73"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "阿斯卡纶明确谈厄尔苏拉逃回敌军并暴露情报。",
+          "status": "supported",
+          "to": "npc_046e9e29c222ea5d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_046e9e29c222ea5d",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 145,
+          "kind": "story",
+          "line": 144,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "char_4132_ascln|npc_046e9e29c222ea5d"
+}

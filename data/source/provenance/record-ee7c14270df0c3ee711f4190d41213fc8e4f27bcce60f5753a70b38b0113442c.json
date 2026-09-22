@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 43,
+          "line": 13,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act48side/level_act48side_07_beg.txt",
+          "quote": "[charslot(slot=\"l\",name=\"avg_1022_flwr2_1#12$2\",focus=\"l\")]\n[name=\"莱娜\"]这里是两人份的矿石病抑制剂，从他俩上次注射到现在已经有几天了，最好是见到了就先给他们各注射一支，以免矿石病急性发作。\n[name=\"莱娜\"]剩下的是些比较常规的药，这一板是止痛的，这些可以增加心肺功能，剩下的可以控制血压和血氧饱和度。\n[charslot(slot=\"l\",name=\"avg_1022_flwr2_1#4$2\",focus=\"l\")]\n[name=\"莱娜\"]不过赞索斯先生有些讳疾忌医，可能不愿意服用，总之你先都带上，硬塞给他，让他身上备着就好。\n[name=\"莱娜\"]矿石病抑制剂一定得注射，其他的就看他自己吧。\n[charslot(slot=\"r\",name=\"avg_npc_2070_1#6$1\",focus=\"r\")]\n[name=\"赫卡德墨\"]好。这些都是给赞索斯的？那给吕刻伊昂的呢？\n[charslot(slot=\"l\",name=\"avg_1022_flwr2_1#16$2\",focus=\"l\")]\n[name=\"莱娜\"]吕刻伊昂？在他病情的那个阶段，能做的也就是注射抑制剂了。\n[charslot(slot=\"r\",name=\"avg_npc_2070_1#11$1\",focus=\"r\")]\n[name=\"赫卡德墨\"]……已经这么严重了吗……\n[charslot(slot=\"l\",name=\"avg_1022_flwr2_1#12$2\",focus=\"l\")]\n[multiline(name=\"莱娜\")]还好吧，不用太担心。\n[PlaySound(key=\"$d_avg_plasticbag\", volume=1)]\n[multiline(name=\"莱娜\")]先看看这个袋子，我给你们准备了三人份的水和奶酪皮塔派。\n[charslot(slot=\"r\",name=\"avg_npc_2070_1#10$1\",focus=\"r\")]\n[name=\"赫卡德墨\"]莱娜小姐，我不是去郊游的……\n[charslot(slot=\"l\",name=\"avg_1022_flwr2_1#12$2\",focus=\"l\")]\n[name=\"莱娜\"]我知道，带上嘛，万一一会儿肚子饿了呢？\n[name=\"莱娜\"]放心，我还给你准备了一些实用的物品。\n[name=\"莱娜\"]封在这个盒子里的，是一些我特制的香丸，捏开的时候会有迷香的效果。你也带上，以防万一。\n[charslot(slot=\"l\",name=\"avg_1022_flwr2_1#12$2\",focus=\"l\")]\n[name=\"莱娜\"]不过要当心，如果真需要拿出来用，记得站在上风口，别把自己给迷晕啦。\n[charslot(slot=\"r\",name=\"avg_npc_2070_1#10$1\",focus=\"r\")]\n[name=\"赫卡德墨\"]……莱娜小姐……我们不是都安排好了吗？\n[charslot(slot=\"r\",name=\"avg_npc_2070_1#6$1\",focus=\"r\")]\n[name=\"赫卡德墨\"]卡珊卓拉小姐帮我们弄到了狱警的换班时间表。\n[charslot(slot=\"r\",name=\"avg_npc_2070_1#3$1\",focus=\"r\")]\n[name=\"赫卡德墨\"]理事官办公室有监狱牢门和脚镣钥匙的备份，我也复制了——\n[name=\"赫卡德墨\"]该不该说百密一疏呢，里底娅小姐似乎完全没有防备，直接把它们摆在了桌上。"
+        }
+      ],
+      "description": "赫卡德墨说明卡珊卓拉协助逃狱，具体合作支持双向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_4645a620e207c8de",
+          "reason": "赫卡德墨说明卡珊卓拉协助逃狱，具体合作支持双向。",
+          "status": "supported",
+          "to": "npc_934c760a7f3e26c5"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_934c760a7f3e26c5",
+          "reason": "赫卡德墨说明卡珊卓拉协助逃狱，具体合作支持双向。",
+          "status": "supported",
+          "to": "npc_4645a620e207c8de"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_04151079098ee9e5.json",
+      "sources": [
+        {
+          "endLine": 43,
+          "kind": "story",
+          "line": 13,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act48side/level_act48side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇雅赛努斯事件期间",
+      "title": "雅赛努斯复仇记"
+    }
+  ],
+  "relationship_id": "npc_4645a620e207c8de|npc_934c760a7f3e26c5"
+}

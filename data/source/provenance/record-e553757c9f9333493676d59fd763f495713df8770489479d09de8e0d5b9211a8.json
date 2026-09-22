@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 401,
+          "line": 387,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_beg.txt",
+          "quote": "[name=\"萨卢斯\"]对了，这些血魔的战争法阵仍在运作呀。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#10$1\",focus=\"m\")]\n[name=\"萨卢斯\"]血魔大君呢？最纯净的血脉，最残酷的王庭之主，无比强大的萨卡兹。\n[name=\"萨卢斯\"]他真的就这么简单地死了？死在……那个过于年轻的女妖，还有小兔子手里？\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]他并未回归众魂，但他确实已经远去。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#5$1\",focus=\"m\")]\n[name=\"萨卢斯\"]这么多的血被白白浪费，真的好可惜。\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]……拨弄血脉之人，不要让你的轻佻和不敬玷污这片战场，玷污死亡本身。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#5$1\",focus=\"m\")]\n[name=\"萨卢斯\"]唔……\n[name=\"萨卢斯\"]抱歉，阁下。我只是在为大君感到惋惜。\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]那就收好他的馈赠。"
+        }
+      ],
+      "description": "萨卢斯具称血魔大君，询问其死讯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_a3dffd9098ba430b",
+          "reason": "萨卢斯具称血魔大君，询问其死讯。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_a3dffd9098ba430b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 401,
+          "kind": "story",
+          "line": 387,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "npc_a3dffd9098ba430b|npc_aa980d6791c26c93"
+}

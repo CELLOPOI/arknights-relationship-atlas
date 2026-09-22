@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 737,
+          "line": 707,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[name=\"费斯特\"]快，跟上！\n[name=\"费斯特\"]这条路是安全的，暂时没发现萨卡兹！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#10$1\",focus=\"m\")]\n[name=\"费斯特\"]……信号？\n[name=\"费斯特\"]是我们典范军自己的频段……可露希尔小姐！\n[charslot(slot=\"m\",name=\"avg_npc_411_1#8$1\",focus=\"m\")]\n[name=\"可露希尔\"]我在听了！再放大点……一点点……\n[name=\"可露希尔\"]所有人都应该能听到了。\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#11$1\",focus=\"m\")]\n[name=\"费斯特\"]……\n[name=\"费斯特\"]真的……没错吧？\n[name=\"费斯特\"]那位推进之王小姐做到了！她带着我们的人，一起打出了一条……\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#4$1\")]\n[name=\"洛洛\"]……回家的路。\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]距离发信位置最近的小队已经赶过去了。芬的队伍也在路上。她的行进速度最快，能帮我们确保前路畅通。\n[charslot(slot=\"m\",name=\"avg_npc_411_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]嗯。\n[name=\"可露希尔\"]接下来，只要找到一个相对最安全的会合点……\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#4$1\",focus=\"m\")]\n[name=\"费斯特\"]不用麻烦了。\n[name=\"费斯特\"]可露希尔小姐，我们距离城墙已经足够近了。\n[name=\"费斯特\"]这里的每一条检修通道……都在我的脑子里。\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#3$1\",focus=\"m\")]\n[name=\"费斯特\"]所有从伦蒂尼姆撤出来的自救军，都不会忘记。\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#4$1\",focus=\"m\")]\n[name=\"费斯特\"]有几条很早期的检修通道，那些萨卡兹绝对不可能发现。"
+        }
+      ],
+      "description": "撤离队伍同一近前场景费斯特洛洛Misery与可露希尔依次安排回家路线，实际共场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E152"
+          ],
+          "from": "char_4040_rockr",
+          "reason": "撤离队伍同一近前场景费斯特洛洛Misery与可露希尔依次安排回家路线，实际共场。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E152"
+          ],
+          "from": "char_615_acspec",
+          "reason": "撤离队伍同一近前场景费斯特洛洛Misery与可露希尔依次安排回家路线，实际共场。",
+          "status": "supported",
+          "to": "char_4040_rockr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 737,
+          "kind": "story",
+          "line": 707,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 339,
+          "line": 142,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_beg.txt",
+          "quote": "[name=\"克洛维希娅\"]阿斯卡纶小姐说了，我们的时间并不充裕。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]我知道。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]我会处理好的。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……博士，你怎么看？\n[Dialog]\n[charslot]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"在那个地块上，还有件值得注意的事。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]……是的，萨卡兹的飞空艇很可能停靠在现在的诺伯特区中。\n[name=\"阿米娅\"]这也意味着……\n[stopmusic(fadetime=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#18$1\",focus=\"m\")]\n[name=\"阿米娅\"]她……特蕾西娅小姐，也许也在那里。\n[name=\"阿米娅\"]在这场战争中，我们一定会面对她，或迟或早。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]还有一件事，Logos先生和我提到过——\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[delay(time=0.3)]\n[name=\"自救军战士\"]紧急……讯……紧急……\n[name=\"自救军战士\"]萨卡兹突袭……卡登区的安全屋……我们……他们的部队……\n[name=\"自救军战士\"]呃啊——\n[Dialog]\n[PlaySound(key=\"$transmission\",volume=0.6)]\n[delay(time=1.5)]\n[PlayMusic(intro=\"$calamity_intro\", key=\"$calamity_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#10$1\",focus=\"m\")]\n[name=\"洛洛\"]卡登区？怎么回事？\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"2\", name=\"avg_npc_398_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=300, width=200, block=true)]\n[name=\"自救军战士\"]奥克特里格区的安全屋……\n[name=\"自救军战士\"]……袭击，警报……\n[Dialog]\n[PlaySound(key=\"$transmission\",volume=0.6)]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=true)]\n[delay(time=1.5)]\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"3\", name=\"avg_npc_648_1#3$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]\n[name=\"凯瑟琳\"]费斯特！海布里区的安全屋正在遭受袭击！\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#6$1\",focus=\"r\")]\n[name=\"费斯特\"]你们那边情况怎么样？\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#6$1\",focus=\"none\")]\n[name=\"凯瑟琳\"]我们正在组织还击，向地下深层撤退，情况很危急，萨卡兹很可能……\n[name=\"凯瑟琳\"]……这绝不是一次简单的清剿，他们准备……\n[name=\"凯瑟琳\"]……必须……\n[Dialog]\n[PlaySound(key=\"$transmission\",volume=0.6)]\n[CharacterCutin(widgetID=\"3\",fadetime=0.2,block=true)]\n[delay(time=0.6)]\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#6$1\",focus=\"r\")]\n[name=\"费斯特\"]奶奶？听得到吗？奶奶？\n[name=\"费斯特\"]该死，通讯断了！\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"r\")]\n[name=\"费斯特\"]这是怎么回事？现在已经有三座安全屋正在遭到萨卡兹的袭击了！\n[name=\"费斯特\"]那里的通讯断了，我们需要支援他们——\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#6$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……\n[name=\"克洛维希娅\"]不，不只是三座安全屋。\n[name=\"克洛维希娅\"]是我们这里的通讯被切断了。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#7$1\",focus=\"m\")]\n[name=\"推进之王\"]博士，趴下！\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_grenadethrow\")]\n[playsound(key=\"$d_gen_explo_n\",delay=1)]\n[delay(time=1)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_battlefield_environment\", volume=0.4, loop=true, channel=\"warn\")]\n[Delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#10$1\",duration=0.3)]\n[charslot(slot=\"r\",name=\"avg_npc_401_1#7$1\",duration=0.3)]\n[delay(time=0.5)]\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#10$1\",focus=\"l\")]\n[name=\"洛洛\"]克洛维希娅，这是怎么了？！\n[name=\"洛洛\"]怎么可能，这里也被……这里可是自救军保密等级最高的区域！\n[charslot(slot=\"r\",name=\"avg_npc_401_1#7$1\",focus=\"r\")]\n[name=\"克洛维希娅\"]……Logos先生和我提到过，萨卡兹可能正在渗透我们的情报网络。\n[name=\"克洛维希娅\"]鉴于现在的情况，我只能判断，保密失效的等级比我们原来预计的高得多。\n[charslot(slot=\"r\",name=\"avg_npc_401_1#6$1\",focus=\"r\")]\n[name=\"克洛维希娅\"]很有可能，所有的自救军基地都遭到了袭击。\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#3$1\",focus=\"l\")]\n[name=\"洛洛\"]我们必须撤离！\n[charslot(slot=\"r\",name=\"avg_npc_401_1#6$1\",focus=\"r\")]\n[name=\"克洛维希娅\"]……\n[charslot(slot=\"r\",name=\"avg_npc_401_1#5$1\",focus=\"r\")]\n[name=\"克洛维希娅\"]……可是，去哪里？\n[Dialog]\n[charslot]\n[PlaySound(key=\"$grenade_explosion\",volume=0.7)]\n[CameraShake(duration=3, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_explosion\", volume=0.7, loop=false, channel=\"explo\",delay=1)]\n[PlaySound(key=\"$d_gen_explo_n\", volume=0.7, loop=false, channel=\"explo1\",delay=2)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_229_1#7\",focus=\"m\")]\n[name=\"号角\"]各位，萨卡兹的攻势很猛烈，他们早就盯上这里了，外层通道已经失守。\n[name=\"号角\"]他们——\n[Dialog]\n[charslot]\n[PlaySound(key=\"$e_atk_magic_m\", volume=1)]\n[playsound(key=\"$p_atk_elecball_n\", volume=1,delay=0.2)]\n[playsound(key=\"$d_avg_explosion_stone\", volume=1,delay=0.6)]\n[delay(time=0.8)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[CameraShake(duration=1,xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_235\",focus=\"m\")]\n[name=\"Misery\"]……现在，中层的缓冲区也被突破了。\n[name=\"Misery\"]博士，敌人使用了新式的萨卡兹巫术装置。那种数量，还有威力……我们的城防军和自救军朋友难以应对。\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"m\")]\n[name=\"号角\"]坦白地说，我们没有胜算，组织防守的罗本撑不了太久。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#6$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]撑不了多久……是多久。\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"m\")]\n[name=\"号角\"]十五分钟……不，半个小时。\n[name=\"号角\"]我们的时间最多只有这些。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#3$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]撤离，该死，我们该向哪里撤离？自救军现在在伦蒂尼姆没有一处安全的去处！\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]仪器厂的第三仓库？四季百货的停车场？伯恩子爵的公寓……\n[charslot(slot=\"m\",name=\"avg_npc_401_1#8$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……不行，风险都太高了。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]一定还有什么地方……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"none\")]\n[Decision(options=\"如果伦蒂尼姆城内危机四伏，我们也许可以暂时撤出。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#4$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]撤出伦蒂尼姆？\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]可是……\n[charslot(slot=\"m\",name=\"avg_npc_411_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]对了！萨卡兹的那条补给线！\n[name=\"可露希尔\"]我们可以反向利用海布里区的补给线，撤出伦蒂尼姆城！\n[name=\"可露希尔\"]我们有太多伤员和非战斗人员了，走地下能够帮助我们避免大部分战斗！\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#8$1\",focus=\"m\")]\n[name=\"费斯特\"]可我们在伦蒂尼姆的这些成果……\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"m\")]\n[name=\"号角\"]现在的攻势只能说明，之前他们只是觉得没有必要摧毁我们。\n[name=\"号角\"]在战争爆发的现在，军事委员会开始真正把自救军视作威胁了。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"none\")]\n[PlaySound(key=\"$d_gen_explo_n\", volume=0.7)]\n[CameraShake(duration=1,xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$d_avg_crowdrun\", volume=0.8)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_229_1#7\",focus=\"m\")]\n[name=\"号角\"]没有犹豫的时间了。\n[name=\"号角\"]我需要立刻去支援罗本。我们会尽可能地吸引萨卡兹的主力部队，掩护你们撤退。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……好吧。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]阿米娅，博士，自救军在这场撤离中需要你们的援助。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#21$1\",focus=\"m\")]\n[name=\"阿米娅\"]义不容辞，我们不会抛弃任何盟友。\n[Dialog]\n[charslot]\n[Decision(options=\"阿斯卡纶，组织突围。;Misery，销毁档案。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]明白。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_npc_235\",focus=\"m\")]\n[name=\"Misery\"]已经在做了。\n[Predicate(references=\"1;2\")]\n[Dialog]\n[charslot]\n[Decision(options=\"Logos。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]我在。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\",focus=\"none\")]\n[Decision(options=\"帮助号角小姐和她的队伍拖延时间。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]请放心，博士。\n[name=\"Logos\"]我会保证你们的安全。"
+        }
+      ],
+      "description": "洛洛与Misery共同应对自救军基地突袭。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_4040_rockr",
+          "reason": "二人在同一连续会议或对话中互相接收发言并共同制定行动。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_615_acspec",
+          "reason": "二人在同一连续会议或对话中互相接收发言并共同制定行动。",
+          "status": "supported",
+          "to": "char_4040_rockr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 339,
+          "kind": "story",
+          "line": 142,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆自救军行动期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_4040_rockr|char_615_acspec"
+}

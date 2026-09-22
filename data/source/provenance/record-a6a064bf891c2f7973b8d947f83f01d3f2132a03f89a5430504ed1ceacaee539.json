@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 519,
+          "line": 481,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_10_end.txt",
+          "quote": "[name=\"休露丝\"]跟上，跟上！\n[name=\"休露丝\"]手脚都麻利点，别给那些维多利亚人喘息的机会！\n[name=\"休露丝\"]这个大家伙……装弹的速度就不能再快一点吗？\n[name=\"山雪鬼部队\"]是！\n[name=\"尤卡坦\"]露丝，你还不宜活动太剧烈……要保重身体……\n[name=\"休露丝\"]少啰嗦！\n[name=\"休露丝\"]恩希欧迪斯竟然还偷偷在山里藏了这样的好东西，现在终于被我逮住机会，可不得好好玩玩！\n[name=\"休露丝\"]听我指挥，瞄准开斯特的旗舰，开火！\n[name=\"休露丝\"]让你们看看，什么叫耶拉冈德的庇护！\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Image]\n[Background(image=\"30_ex1_snowmount\",screenadapt=\"coverall\")]\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#6$1\",focus=\"m\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#6$1\",focus=\"m\")]\n[name=\"魏斯\"]休露丝夫人，恩希欧迪斯大人留给我们的任务，是震慑开斯特公爵的舰队，何况他自己还在“荣光”号上……\n[name=\"魏斯\"]如果您不按计划行事，我就必须要制止您了。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#5$1\",focus=\"m\")]\n[name=\"休露丝\"]知道了知道了……一点玩笑都开不起。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]……这就是姐姐和恩希欧迪斯一直在隐藏的秘密。\n[name=\"休露丝\"]也真有你的魏斯，维多利亚人满山遍野地找恩希欧迪斯私藏的军火库，结果就在他们眼皮底下，谢拉格的物流载具里。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]可恶，连我都瞒得这么严密……菈塔托丝，下次见到你的时候，我非要——\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#7$1\",focus=\"m\")]\n[name=\"魏斯\"]这是恩希欧迪斯大人交给我的……最关键的任务。\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#6$1\",focus=\"m\")]\n[name=\"魏斯\"]这里的武器——它们的存在，包括规模，是谢拉格最重要的机密。直到现在也是……\n[name=\"魏斯\"]我们还得保守好这个秘密……我们现在最大的底牌，就是维多利亚人根本不知道我们有多少武装力量。\n[name=\"魏斯\"]我们要做的事，还是混淆开斯特的判断。\n[name=\"魏斯\"]毕竟……没有人可以担保，如果开斯特的舰队再上前一步，会发生什么事……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]我当然清楚现在的局势是什么样的……倒也不用这样一字一句地解释给我听。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#6$1\",focus=\"m\")]\n[name=\"休露丝\"]菈塔托丝……这一次，你最好保护好你自己……"
+        }
+      ],
+      "description": "休露丝明确知道并针对开斯特公爵。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N26"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "休露丝亲自命令瞄准开斯特公爵的旗舰。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "公爵只知遭雪山火炮攻击，未识别休露丝。",
+          "status": "not_established",
+          "to": "npc_be787f1ec784bbc7"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 519,
+          "kind": "story",
+          "line": 481,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火炮阵地",
+      "title": "雪山降临1101"
+    }
+  ],
+  "relationship_id": "npc_8c87697c59975883|npc_be787f1ec784bbc7"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 600,
+          "line": 588,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_beg.txt",
+          "quote": "[name=\"帕斯卡拉\"]你这混账，放开我！快点放开老娘！\n[name=\"帕斯卡拉\"]等到胡安娜女士和伊西多大人回来看到你们这么对我，肯定把你们都狠狠宰了！\n[Dialog]\n[charslot]\n[charslot(slot = \"l\", name = \"avg_npc_1579_1#6$2\",focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_npc_1590_1#1$1\",focus=\"l\")]\n[name=\"哈维尔\"]让那丫头安静点……\n[Dialog]\n[PlaySound(key=\"$d_avg_runstop\", volume=0.7)]\n[charslot(slot=\"r\", afrom=1,ato=0,duration=0.5)]\n[Delay(time=1.2)]\n[charslot(slot = \"l\", name = \"avg_npc_1579_1#6$2\",focus=\"n\")]\n[name=\"帕斯卡拉\"]鳞屎坨子你……唔！唔！"
+        }
+      ],
+      "description": "哈维尔命人控制帕斯卡拉，后者当面反抗。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_4163_rosesa",
+          "reason": "哈维尔命人控制帕斯卡拉，后者当面反抗。",
+          "status": "supported",
+          "to": "npc_87fe432572eae97e"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_87fe432572eae97e",
+          "reason": "哈维尔命人控制帕斯卡拉，后者当面反抗。",
+          "status": "supported",
+          "to": "char_4163_rosesa"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 600,
+          "kind": "story",
+          "line": 588,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_4163_rosesa|npc_87fe432572eae97e"
+}

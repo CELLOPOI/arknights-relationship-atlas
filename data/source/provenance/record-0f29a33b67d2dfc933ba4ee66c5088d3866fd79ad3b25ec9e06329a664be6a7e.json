@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 262,
+          "line": 250,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "quote": "[name=\"切斯特\"]Dr.{@nickname}，欢迎。我是恩希欧迪斯老爷的秘书，切斯特。\n[character(name=\"avg_npc_267_1#7$1\")]\n[name=\"切斯特\"]您在这片区域行动时，请允许我陪同。\n[character(name=\"avg_npc_267_1#7$1\")]\n[name=\"切斯特\"]为了让阿克托斯老爷放心，每一间工厂、每一座矿坑都要让您确认过才算彻底关闭。\n[character(name=\"avg_npc_267_1#7$1\")]\n[name=\"切斯特\"]等到您全都确认过一遍了，阿克托斯大人和大长老都认可了，移交才算真正完成。\n[character(name=\"avg_npc_267_1#7$1\")]\n[name=\"切斯特\"]瓦莱丝将军觉得如何？\n[character(name=\"avg_npc_261_1#5$1\")]\n[name=\"瓦莱丝\"]如果是这样，当然最好。\n[character(name=\"avg_npc_267_1#7$1\")]\n[name=\"切斯特\"]那么，请先跟着我在这里逛一圈，了解一下这里的环境与情况吧。"
+        }
+      ],
+      "description": "切斯特向博士自我介绍并陪同。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "切斯特向博士自我介绍并陪同。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "切斯特向博士自我介绍并陪同。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 262,
+          "kind": "story",
+          "line": 250,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "npc_b99957887950ebfd|npc_c56ef99fbe131371"
+}

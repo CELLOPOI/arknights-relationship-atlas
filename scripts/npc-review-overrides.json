@@ -1,0 +1,30 @@
+{
+  "review_e7723ef9e7d77dc5": [{
+    "expectedChoice": "same_person",
+    "personIds": ["char_4146_nymph", "npc_84fdad316566923c"],
+    "directions": [["char_4146_nymph", "npc_84fdad316566923c"], ["npc_84fdad316566923c", "char_4146_nymph"]],
+    "description": "人工复核确认记忆空间中的孽茨雷可视为本人；妮芙与其直接交谈，因此两向成立。身份结论仅适用于本场景。",
+    "citations": [{"path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17mini/level_act17mini_st05.txt", "line": 565, "endLine": 590}]
+  }],
+  "review_440f636b85c02ab6": [{
+    "expectedChoice": "same_person",
+    "personIds": ["npc_333d465fd8712924", "npc_b99957887950ebfd"],
+    "directions": [["npc_333d465fd8712924", "npc_b99957887950ebfd"], ["npc_b99957887950ebfd", "npc_333d465fd8712924"]],
+    "description": "人工复核确认与博士交谈的普瑞赛斯形态可视为本人；双方认名并谈及共同过往，确认相识。",
+    "citations": [{"path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_beg.txt", "line": 288, "endLine": 377}]
+  }],
+  "review_8f26feaae1907569": [{
+    "expectedChoice": "same_person",
+    "personIds": ["npc_333d465fd8712924", "npc_d9231cc74dc4c620"],
+    "directions": [["npc_d9231cc74dc4c620", "npc_333d465fd8712924"]],
+    "description": "人工复核接受本篇叙事中的普瑞赛斯身份。保存者具名说明其禁令及源石计划，支持保存者知晓普瑞赛斯；不据此推断反向。",
+    "citations": [{"path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st03.txt", "line": 612, "endLine": 627}]
+  }, {
+    "expectedChoice": "same_person",
+    "personIds": ["npc_333d465fd8712924", "npc_b99957887950ebfd"],
+    "directions": [["npc_333d465fd8712924", "npc_b99957887950ebfd"], ["npc_b99957887950ebfd", "npc_333d465fd8712924"]],
+    "description": "人工复核接受本篇普瑞赛斯身份；保存者明确陈述博士与她曾亲密无间，支持具体过往中的双向相识。",
+    "temporalScope": "保存者回述博士失忆前的过往",
+    "citations": [{"path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st03.txt", "line": 623, "endLine": 636}]
+  }]
+}

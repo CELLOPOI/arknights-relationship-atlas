@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 467,
+          "line": 450,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_slchan_1_1.txt",
+          "quote": "阿克托斯没有说话，只是站在原地，沉默地看着兴奋的恩希亚，如同一块坚硬的山岩。\n[dialog]\n[character(name=\"avg_npc_254_1#1$1\", name2=\"avgnew_173_slchan_1#3$1\", focus=2)]\n[name=\"恩希亚\"]  ……\n[character(name=\"avg_npc_254_1#1$1\", name2=\"avgnew_173_slchan_1#7$1\", focus=2)]\n[name=\"恩希亚\"]  抱歉，是我欠考虑了。\n[character(name=\"avg_npc_254_1#9$1\", name2=\"avgnew_173_slchan_1#7$1\", focus=1)]\n[name=\"阿克托斯\"]  不必介意。\n[character(name=\"avg_npc_254_1#9$1\", name2=\"avgnew_173_slchan_1#7$1\", focus=2)]\n[name=\"恩希亚\"]  ……阿克托斯先生。\n[character(name=\"avg_npc_254_1#1$1\", name2=\"avgnew_173_slchan_1#7$1\", focus=1)]\n[name=\"阿克托斯\"]  还有什么事？\n[character(name=\"avg_npc_254_1#1$1\", name2=\"avgnew_173_slchan_1#8$1\", focus=2)]\n[name=\"恩希亚\"]  我记得老哥没回来时，虽然我和姐姐跟您打交道并不多，但您并不像现在这样，先入为主地和我保持着距离。\n[character(name=\"avg_npc_254_1#1$1\", name2=\"avgnew_173_slchan_1#8$1\", focus=1)]\n[name=\"阿克托斯\"]  如果你觉得有谁应该为此负责，那当然是你的好哥哥。我可以相信你没有恶意，但我可不敢说，你的好哥哥没有把你也算计进去。\n[character(name=\"avg_npc_254_1#5$1\", name2=\"avgnew_173_slchan_1#8$1\", focus=1)]\n[name=\"阿克托斯\"]  论勾心斗角，我可从来不敢说自己能胜过他。"
+        }
+      ],
+      "description": "恩希亚向阿克托斯道谢并当面讨论家族分歧；avgnew_173_slchan 立绘确认恩希亚。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_173_slchan",
+          "reason": "恩希亚向阿克托斯道谢并当面讨论家族分歧；avgnew_173_slchan 立绘确认恩希亚。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "恩希亚向阿克托斯道谢并当面讨论家族分歧；avgnew_173_slchan 立绘确认恩希亚。",
+          "status": "supported",
+          "to": "char_173_slchan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_031e68fa4da28aab.json",
+      "sources": [
+        {
+          "endLine": 467,
+          "kind": "story",
+          "line": 450,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_slchan_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "崖心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 262,
+          "line": 260,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st02.txt",
+          "quote": "[name=\"恩希亚\"]但我听说，好像博士和阿克托斯先生他们相处得还不错？\n[name=\"恩希亚\"]啊……想想也是理所当然，博士在罗德岛的人缘就很好。\n[name=\"恩希亚\"]对了，有什么我能帮帮博士的吗？这一出又一出让我很过意不去，我总想替博士做点能做的事情。"
+        }
+      ],
+      "description": "崖心具体询问博士与阿克托斯相处情况。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E38"
+          ],
+          "from": "char_173_slchan",
+          "reason": "崖心具体询问博士与阿克托斯相处情况。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_173_slchan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 262,
+          "kind": "story",
+          "line": 260,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_173_slchan|npc_e69f1ad171a29fd0"
+}

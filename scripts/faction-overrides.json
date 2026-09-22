@@ -1,0 +1,11 @@
+{
+  "description": "2026-09-18 按用户确认补充六名精英干员的罗德岛归属，仅用于角色表缺失阵营的情况。",
+  "missingFactionOverrides": {
+    "char_508_aguard": "rhodes",
+    "char_509_acast": "rhodes",
+    "char_510_amedic": "rhodes",
+    "char_511_asnipe": "rhodes",
+    "char_513_apionr": "rhodes",
+    "char_615_acspec": "rhodes"
+  }
+}

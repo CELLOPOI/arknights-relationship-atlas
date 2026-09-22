@@ -1,0 +1,24 @@
+{
+  "id": "import:char_147_shining|char_4179_monstr",
+  "published": true,
+  "quote": "闪灵：W，也许你的车可以再开慢一点。\nW：我们的重伤员女士可耽搁不起，闪灵。\nW：抓稳扶好，各位，我们又要过坡啦。\n\nMon3tr：（威胁的低吼）\nW：行了，凯尔希的小宠物，把你的爪子从我身上挪开。\nW：或者你可以滚下车，拖着你的可怜主人跟着我们，你自己选。\nMon3tr：（高昂的嘶鸣）\nW：你的那个金属脑壳里在琢磨什么小计划？你可以试试，我乐意奉陪。\nW：或者，我该直接把你丢到车轮子底下铺路。\n闪灵：W，赶路要紧。\n\n她和凯尔希医生相伴度过了漫长的时间，双生循环系统的终结，意味着一次痛苦且充满着未知的重生，她醒来的时间还太短……",
+  "relationship_id": "char_147_shining|char_4179_monstr",
+  "sources": [
+    {
+      "endLine": 18,
+      "kind": "story",
+      "line": 13,
+      "source": "obt/main/level_main_12-09_end.txt"
+    },
+    {
+      "endLine": 60,
+      "kind": "story",
+      "line": 46,
+      "source": "obt/main/level_main_12-09_end.txt"
+    },
+    {
+      "kind": "profile",
+      "source": "char_4179_monstr/archive/5/0"
+    }
+  ]
+}

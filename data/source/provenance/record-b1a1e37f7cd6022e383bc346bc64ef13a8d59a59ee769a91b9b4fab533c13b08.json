@@ -1,0 +1,146 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 72,
+          "line": 70,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st06.txt",
+          "quote": "[name=\"整合运动战士\"]有没有人说过，你越来越像爱国者先生了。\n[Character(name=\"avg_npc_330_1#1$1\",name2=\"avg_npc_327_1#1$1\",focus=2)]\n[name=\"Guard\"]我怎么配和爱国者先生相提并论……"
+        }
+      ],
+      "description": "Guard明确回答自己不配与爱国者相比。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "Guard明确回答自己不配与爱国者相比。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e877f731a67498e3",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_a170fc4ad11dca33.json",
+      "sources": [
+        {
+          "endLine": 72,
+          "kind": "story",
+          "line": 70,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act10mini/level_act10mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "阴云火花"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 496,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "quote": "[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"罗德岛干员\"]  ……怎么回事！\n[name=\"罗德岛干员\"]  可露希尔，生物处理室13号舱，给我图表！\n[name=\"罗德岛干员\"]  舱室的内部温度急剧升高！能量在外放！\n[name=\"罗德岛干员\"]  等等，它的形态在转化！经过十四小时的处理，为什么还会进入到这一阶段？\n[name=\"罗德岛干员\"]  PRTS，刚才是谁使用了这个舱位？\n[name=\"罗德岛干员\"]  Dr.{@nickname}？我们在龙门攻防战里有干员伤亡吗？这处理的是谁？\n[name=\"罗德岛干员\"]  什么？\n[name=\"罗德岛干员\"]  等等，你慢点说，你说Dr.{@nickname}在舱位里安置了谁？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\", fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  勋爵！\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我在听，博卓卡斯替。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我们温迪戈，自我流放，失去一切。\n[name=\"爱国者\"]  但我们身负，萨卡兹的传统。\n[name=\"爱国者\"]  先祖，塑造我，培育我，注视我。所以，请替我见证。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  博卓卡斯替……\n[name=\"凯尔希\"]  ……我不知道自己够不够格。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我认为你是，最好人选。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  ……\n[name=\"凯尔希\"]  “……我在此担当一位萨卡兹的见证者。博卓卡斯替，卡兹戴尔的温迪戈，一生从未背叛过血肉，也从未愧对亲族。”\n[name=\"凯尔希\"]  “他将把一生留在光芒下的身体里……”\n[name=\"凯尔希\"]  “……而他的精魂，则将回到温迪戈温热的血脉中去。”\n[name=\"凯尔希\"]  这是个诅咒。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  对我，并不是。\n[name=\"爱国者\"]  啊——我感到……我感到，我清晰的视野，开始模糊。\n[name=\"爱国者\"]  谢谢你，勋爵。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我以为你讨厌这些。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  可我，已经老了。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_perimeter\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  不……\n[name=\"幻影弩手\"]  这里是哪里？\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  哈，原来是这样。哈。\n[name=\"幻影弩手\"]  塔露拉真的背叛我们了。\n[name=\"幻影弩手\"]  你以为我们会坐以待毙吗？！\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  你们不是对手。\n[name=\"萨卡兹战士\"]  有来世的话，向我报仇。\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  就因为知道会死，所以就要放弃了吗？\n[name=\"幻影弩手\"]  就这样被你们无故杀了而——\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  别杀他们。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  梅菲斯特……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  魔族人，我会给你们不知疼痛的身躯。让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  我们比你的牧群强大得多。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  我可以把我的生命拿出来和你们分享，你们能真正地永远战斗，不知疲倦地战斗。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……可以。\n[name=\"萨卡兹战士\"]  但他们要出去，也必须由我的同伴看着。现在还不能违背塔露拉的命令。\n[name=\"萨卡兹战士\"]  你们，弩手。出去。\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  梅菲斯特？！\n[name=\"幻影弩手\"]  （为什么他会救我们……？难道塔露拉还有什么阴谋？）\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  不过，你为什么特意要到这里来？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  ……因为我想进去这里。我想知道这里有什么样的秘密。我想知道罗德岛究竟为什么会从这里带走一个人。\n[name=\"梅菲斯特\"]  因为我从录像里看到那个人从这里出来。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  梅菲斯特……？为什么？\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  你们，想听歌吗？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  可是，浮士德队长他说，他说……\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  是啊，是的。我已经不会唱了。\n[name=\"梅菲斯特\"]  嗯，但我可以试试。\n[name=\"梅菲斯特\"]  应该是首摇篮曲吧？不记得是有谁教过我这首曲子……我不记得了。\n[name=\"梅菲斯特\"]  只是有人在我的梦里，一直地哼。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉睡吧，沉睡吧♪\n刺猬玩偶与小熊们……\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  乌萨斯的，感染者，又要走去哪里？\n[name=\"爱国者\"]  晦暗的夜晚，还会遮蔽……多少明星？\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  ……大尉，大尉！\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  最后的命令。\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  大尉……\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  战斗下去。活下去。\n[name=\"爱国者\"]  你们的路，只有你们……自己去走。\n[name=\"爱国者\"]  走了，才有路。\n[name=\"爱国者\"]  我必定要死。只是不知道，是否该是现在。\n[name=\"爱国者\"]  我们的死，究竟能，改变什么？\n[name=\"爱国者\"]  也许这个问题，你们，才能回答。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉进静静的黑色……"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 496,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 123,
+          "line": 67,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "quote": "[name=\"？？？\"]   真的是您。\n[name=\"？？？\"]   我以为，只是传言。\n[Character(name=\"char_188_helage_1\")]\n[name=\"赫拉格\"]   许多年没见了，博卓卡斯替。\n[name=\"赫拉格\"]   我是不是该称呼现在的你，“爱国者”？\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_025_1\",fadetime=2,block=true)]\n[Delay(time=2)]\n[name=\"爱国者\"]   ……将军。\n[name=\"爱国者\"]   您居然，记得我。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   如果不是你带着盾卫顶着暴风雪冲进堡垒，我，巴克莱，还有谢苗，全部要死在卡西米尔的银枪皮加索斯手里。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   是我的战士们，勇敢。他们，不在乎牺牲。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   怎么？你说话的方式，和几十年前大不相同了。\n[name=\"赫拉格\"]   我见过你在士兵面前慷慨陈词，能让秃头屠夫巴克莱都为你拍手叫好，可不是件简单事。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   感染，改变了声带。现在，我很难，连续说话。很可笑。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   ——\n[name=\"赫拉格\"]   还有你现在的身份。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   是吗。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   北原的游击队……领队居然是你。我原以为十几个温迪戈里，最不可能的就是你。\n[name=\"赫拉格\"]   蓝胡子阿廖沙，那个骑兵师的，他曾经和我打赌说你会作为一个天生的乌萨斯军人做到元帅。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   我只是个大尉，将军。时代不同了。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   ……笑话。你的忠诚，军功，还有在作战会议上的规划……你是乌萨斯最出色的战地指挥官之一。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   您过誉了。而且，我是个萨卡兹，终归。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   如果你都当不上校官，几乎所有的乌萨斯高级将领都该被送进皇家法庭。\n[name=\"赫拉格\"]   虽然，他们几乎都已经死了。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   那我，比他们活得长。您的同僚，几乎都死了。\n[name=\"爱国者\"]   而且，陛下他说过，军人服务国家，不是服务军衔。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   他却也说过，凝聚乌萨斯人的不是血液，是信仰。现在呢？只能愿陛下他安息。\n[name=\"赫拉格\"]   可见当今皇帝，依旧把你们当做怪物，而不是乌萨斯的战士。他们一直在压制你和你的族群。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   那位，宽容的陛下，已经过世，这些，我能理解。\n[name=\"爱国者\"]   乌萨斯，无数战争野兽，够淹没大地，我不算什么。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   所以军队不是你出走的原因。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   是的，我不关心。我只想和战士们，并肩。\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]   ……\n[name=\"爱国者\"]   将军，坐。酒，剩了一些，我从北方带的。\n[Character(name=\"char_188_helage_1\")]\n[name=\"赫拉格\"]   ……我没剩下多少时间。下次再喝酒叙旧吧。\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]   是吗……没事。"
+        },
+        {
+          "endLine": 755,
+          "line": 724,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "quote": "[name=\"近卫干员\"]   为什么……\n[name=\"近卫干员\"]   博士……罗德岛……\n[Delay(time=0.5)]\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]   战士！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   ！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]   我的声音，你听得见。\n[name=\"爱国者\"]   你有离开的机会，只等入夜。\n[name=\"爱国者\"]   向南走，避开灯光。机会只有一次，就在今晚。\n[name=\"爱国者\"]   ——或者——\n[name=\"爱国者\"]   在切尔诺伯格，有许多人，需要照料。你可以，亲眼看看。\n[name=\"爱国者\"]   选择。这是你的自由。"
+        }
+      ],
+      "description": "爱国者与近卫干员在废墟中发生直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01",
+            "E06"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "近卫干员听见爱国者谈话并随后直接听到其指示。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "爱国者发现近卫干员并直接给出选择。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 123,
+          "kind": "story",
+          "line": 67,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 755,
+          "kind": "story",
+          "line": 724,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格废墟现实场景",
+      "title": "战地秘闻"
+    }
+  ],
+  "relationship_id": "npc_8a4ed8ad1c6f8c69|npc_e877f731a67498e3"
+}

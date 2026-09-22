@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 135,
+          "line": 119,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_1.txt",
+          "quote": "于是萨卡兹们跟着埃芒加德离开了熔炉核心，对于他们的想法，巫妖之主并不在意。\n但当锡人路过他身边时，弗莱蒙特伸手拦住了去路。\n[charslot(slot=\"l\",name=\"avg_4151_tinman_1#1$1\",focus=\"r\")]\n[charslot(slot = \"r\", name = \"avg_npc_1114_1#12$1\",focus=\"r\")]\n[name=\"弗莱蒙特\"]你还要在卡兹戴尔住多久？\n[charslot(slot=\"l\",name=\"avg_4151_tinman_1#1$1\",focus=\"l\")]\n[name=\"锡人\"]假期快用完了，我也该准备准备回哥伦比亚述职了。\n[charslot(slot = \"r\", name = \"avg_npc_1114_1#12$1\",focus=\"r\")]\n[name=\"弗莱蒙特\"]魂灵熔炉的历史使命已经接近尾声。\n[charslot(slot=\"l\",name=\"avg_4151_tinman_1#1$1\",focus=\"l\")]\n[name=\"锡人\"]他们烧了那么久，也该冷静一下了。\n[charslot(slot = \"r\", name = \"avg_npc_1114_1#12$1\",focus=\"r\")]\n[name=\"弗莱蒙特\"]有了那些技术，我们也不必抱着愧疚继续燃烧自己的同族。\n[charslot(slot=\"l\",name=\"avg_4151_tinman_1#2$1\",focus=\"l\")]\n[name=\"锡人\"]可你刚刚还在骂他们。\n[charslot(slot = \"r\", name = \"avg_npc_1114_1#1$1\",focus=\"r\")]\n[name=\"弗莱蒙特\"]呵，也就现在还能骂上几句，等他们离开百年千年，卡兹戴尔的熔炉只为节庆而燃烧的时候，我会想念他们的。"
+        }
+      ],
+      "description": "锡人与弗莱蒙特直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4151_tinman",
+          "reason": "同场发言、听取或明确叙述支持该方向。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "同场发言、听取或明确叙述支持该方向。",
+          "status": "supported",
+          "to": "char_4151_tinman"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_42c131bed95e2454.json",
+      "sources": [
+        {
+          "endLine": 135,
+          "kind": "story",
+          "line": 119,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro4/level_rogue4_ending_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "集成战略“萨卡兹的无终奇语”构造的可能未来，不倒推现实时间线",
+      "title": "萨卡兹的无终奇语"
+    }
+  ],
+  "relationship_id": "char_4151_tinman|npc_732d802fa042a0c2"
+}

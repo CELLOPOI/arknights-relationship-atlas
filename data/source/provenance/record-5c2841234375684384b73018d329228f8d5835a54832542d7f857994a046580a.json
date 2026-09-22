@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 675,
+          "line": 675,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flamtl_1_1.txt",
+          "quote": "[name=\"索娜\"]昨晚我从竞技场回来后，看了一会儿左手骑士的录像，一个人训练了一会儿。"
+        }
+      ],
+      "description": "焰尾明确知晓并研究左手骑士，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_420_flamtl",
+          "reason": "索娜明确说自己观看并研究了左手骑士的录像。",
+          "status": "supported",
+          "to": "npc_68466ea9040a597a"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_68466ea9040a597a",
+          "reason": "左手骑士未在本场景出现或获知索娜。",
+          "status": "not_established",
+          "to": "char_420_flamtl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_ef5313d057024825.json",
+      "sources": [
+        {
+          "endLine": 675,
+          "kind": "story",
+          "line": 675,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flamtl_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "焰尾密录训练场门口场景",
+      "title": "焰尾"
+    }
+  ],
+  "relationship_id": "char_420_flamtl|npc_68466ea9040a597a"
+}

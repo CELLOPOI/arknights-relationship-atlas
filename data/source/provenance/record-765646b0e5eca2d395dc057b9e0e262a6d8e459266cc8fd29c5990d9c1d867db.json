@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 173,
+          "line": 166,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18d3/level_act18d3_st02.txt",
+          "quote": "[name=\"凯尔希\"]你们几个——\n[name=\"凯尔希\"]回罗德岛。在伊比利亚东北边境，Misery会接应你们。这回别走水路。\n[character(name=\"avg_npc_183#3\")]\n[name=\"大审判官\"]路线是审判庭指定的。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]只要终点在那，其他我们都能接受。\n[character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]你要多长时间才能回来？我可等不了太久。"
+        }
+      ],
+      "description": "斯卡蒂听闻 Misery 将负责接应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_263_skadi",
+          "reason": "斯卡蒂在场听取凯尔希指定 Misery 接应的安排。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "Misery 不在场，原文未显示接应安排已经送达或他已知晓现场人物。",
+          "status": "not_established",
+          "to": "char_263_skadi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_a4822f3498b97894.json",
+      "sources": [
+        {
+          "endLine": 173,
+          "kind": "story",
+          "line": 166,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18d3/level_act18d3_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "盐风城事件结束后的撤离安排",
+      "title": "覆潮之下"
+    }
+  ],
+  "relationship_id": "char_263_skadi|char_615_acspec"
+}

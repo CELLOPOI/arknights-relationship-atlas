@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 325,
+          "line": 298,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_02_end.txt",
+          "quote": "[name=\"歌蕾蒂娅\"]……唔。\n[Dialog]\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",fadetime=1,focus=1)]\n[Delay(time=1)]\n[name=\"圣徒卡门\"]幸会，女士。\n[Character(name=\"avg_npc_447_1#7$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"圣徒卡门\"]我想，您一定就是凯尔希口中的……“深海猎人”。\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_457_1#2$1\",name2=\"avg_npc_457_1#2$1\",fadetime=0.5,focus=3)]\n[Delay(time=1)]\n[Character(fadetime=0.5)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]这些出自您的手笔？\n[Character(name=\"avg_npc_447_1#8$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"圣徒卡门\"]伊比利亚不总是这么杂乱，请见谅，女士。\n[Character(name=\"avg_npc_447_1#8$1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n歌蕾蒂娅沉默了片刻。\n她在漫长的陆地生活中见识过陆上国度的落后软弱，也在盐风城领教过所谓审判官的实力与责任。\n她在思考凯尔希告诉她的，她在思考如何与陆地相处。\n她毕竟只沉默了片刻。\n[Character(name=\"avg_npc_447_1#8$1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]我是阿戈尔技术执政官，深海猎人总战争设计师歌蕾蒂娅。\n[Character(name=\"avg_npc_447_1#8$1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n这是她第一次以阿戈尔的身份与陆上人交谈。\n[Character(name=\"avg_npc_447_1#8$1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n对方礼貌地点头示意，收起细剑，跨过恐鱼沉默的躯体。"
+        }
+      ],
+      "description": "歌蕾蒂娅与圣徒卡门正式会面并互相问候。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S33"
+          ],
+          "from": "char_474_glady",
+          "reason": "歌蕾蒂娅与圣徒卡门正式会面并互相问候。",
+          "status": "supported",
+          "to": "npc_8bb239b319aad399"
+        },
+        {
+          "evidenceIds": [
+            "S33"
+          ],
+          "from": "npc_8bb239b319aad399",
+          "reason": "歌蕾蒂娅与圣徒卡门正式会面并互相问候。",
+          "status": "supported",
+          "to": "char_474_glady"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 325,
+          "kind": "story",
+          "line": 298,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_474_glady|npc_8bb239b319aad399"
+}

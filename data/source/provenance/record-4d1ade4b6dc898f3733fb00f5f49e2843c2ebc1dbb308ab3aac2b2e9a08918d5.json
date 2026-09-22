@@ -1,0 +1,177 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 105,
+          "line": 33,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-04_end.txt",
+          "quote": "[name=\"星熊\"]   收声！\n[name=\"星熊\"]   是什么声音……？\n[playsound(key=\"$d_gen_walk_n\", volume=0.6)]\n[Character(name=\"char_103_angel_1\")]\n[name=\"能天使\"]   ————嗯？\n[name=\"能天使\"]   是从……地下！？？\n[name=\"能天使\"]   阿米娅！从地下传来了！\n[delay(time=0.5)]\n[playsound(key=\"$e_skill_skulsrshot\", delay=0)]\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   ！！！！\n[delay(time=0.5)]\n[playsound(key=\"$e_skill_skulsrexplo\", volume=0.5)]\n[CameraShake(duration=0.6, xstrength=8, ystrength=12, vibrato=30, randomness=90, block=false)]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Background(screenadapt=\"coverall\", image=\"bg_wild_a\", width=1, height=1, fadetime=0)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[playsound(key=\"$e_skill_skulsrshot\", delay=0.4)]\n[delay(time=0.5)]\n[Character(name=\"char_136_hsguma\")]\n[name=\"星熊\"]   博士！！快趴下！！！\n[name=\"星熊\"]   这群人……真是不择手段！\n[playsound(key=\"$e_skill_skulsrexplo\", volume=0.3, delay=0.1)]\n[playsound(key=\"$p_imp_blunt_h\")]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[CameraShake(stop=true)]\n[Character(name=\"char_1500_skulsr\")]\n[name=\"碎骨\"]   ————！？\n[name=\"碎骨\"]   怎么……你居然……能挡住？\n[Character(name=\"char_136_hsguma\")]\n[name=\"星熊\"]   这面“般若”，可不是你能打得穿的。\n[Character(name=\"char_1500_skulsr\")]\n[name=\"碎骨\"]   那可……未必……\n[playsound(key=\"$e_skill_skulsrshot\")]\n[delay(time=0.5)]\n[playsound(key=\"$e_skill_skulsrexplo\", volume=0.7)]\n[CameraShake(duration=1, xstrength=12, ystrength=1, vibrato=30, randomness=90, fadeout=false, block=false)]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[CameraShake(stop=true)]\n[delay(time=1)]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=2, block=true)]\n[name=\"芙兰卡\"]   ——！\n[name=\"芙兰卡\"]   温度急剧升高！！\n[name=\"芙兰卡\"]   他想引爆手中的魔杖吗？\n[name=\"芙兰卡\"]   博士！快跑！那个距离，你会————\n[name=\"星熊\"]   你————\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[Image(image=\"bg_1_lastattack\", fadetime=0, xScale=1, yScale=1)]\n[Blocker(a=0, initr=2, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[delay(time=0.5)]\n[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=false, block=false)]\n[name=\"碎骨\"]   结束了！\n[Character(fadetime=0)]\n[Dialog]\n[StopMusic(fadetime=1.5)]\n[PlaySound(key=\"$d_gen_heartbeat\",volume=0.4, channel=\"HB\", loop=true)]\n[delay(time=1)]\n[Background(fadetime=0)]\n[Blocker(a=0, fadetime=1.5, block=true)]\n[Character(name=\"char_002_amiya_1#8\")]\n[name=\"阿米娅\"]   不……不要———\n[Character(name=\"char_002_amiya_1#8\")]\n[name=\"阿米娅\"]   不能—————\n[name=\"阿米娅\"]   不可以伤害博士———————！！\n[Blocker(a=1, initr=2, r=0.6, g=0, b=0, fadetime=1, block=true)]\n[Image(image=\"bg_1_reflect\", fadetime=0.4, xScale=1, yScale=1)]\n[name=\"阿米娅\"]   ……！"
+        }
+      ],
+      "description": "能天使与博士同处连续战斗小组。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "char_103_angel",
+          "reason": "同场、直接称呼或具体转述支持该方向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "同场、直接称呼或具体转述支持该方向。",
+          "status": "supported",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_a05b4e35a7bcd8a2.json",
+      "sources": [
+        {
+          "endLine": 105,
+          "kind": "story",
+          "line": 33,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "龙门矿场战役相关场景",
+      "title": "二次呼吸"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 113,
+          "line": 87,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-04_beg.txt",
+          "quote": "[name=\"能天使\"]   嗯嗯！\n[Character(name=\"char_103_angel_1\", name2=\"char_107_liskam_1\", focus=2)]\n[name=\"雷蛇\"]   那，他们的行动趋势呢？\n[Character(name=\"char_103_angel_1\", name2=\"char_107_liskam_1\", focus=1)]\n[name=\"能天使\"]   正在朝你们靠拢！\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\",focus=2)]\n[name=\"雷蛇\"]   ……\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\",focus=1)]\n[name=\"芙兰卡\"]   ……\n[Character( name=\"char_107_liskam_1\")]\n[name=\"雷蛇\"]   我们被围堵了。\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]   首要任务，是把米莎安全带出去。\n[name=\"阿米娅\"]   芙兰卡，针对敌人的突袭，就交给你们了。\n[Character(name=\"char_106_franka_1\")]\n[name=\"芙兰卡\"]   简单。\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]   雷蛇，重装小队负责两翼。米莎也交由你保护。\n[Character(name=\"char_107_liskam_1\")]\n[name=\"雷蛇\"]   没问题。\n[Character(name=\"char_103_angel_1\")]\n[name=\"能天使\"]   对了对了，敌人似乎还带了些术师哦？\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]   ……唔。\n[name=\"阿米娅\"]   博士，请牢牢跟在我身边。\n[name=\"阿米娅\"]   接下来也请你继续指挥小队作战，我会传达你的命令。\n[name=\"阿米娅\"]   ……我们就走这最安全的路线试试看。"
+        }
+      ],
+      "description": "同一作战安排现场各干员发言，阿米娅让博士紧随并继续指挥；实际同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "char_103_angel",
+          "reason": "同一作战安排现场各干员发言，阿米娅让博士紧随并继续指挥；实际同场。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "同一作战安排现场各干员发言，阿米娅让博士紧随并继续指挥；实际同场。",
+          "status": "supported",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_e13e294bac851642.json",
+      "sources": [
+        {
+          "endLine": 113,
+          "kind": "story",
+          "line": 87,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "异卵同生"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 83,
+          "line": 65,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-01_end.txt",
+          "quote": "[name=\"阿米娅\"]   啊……博士，你来了。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=1)]\n[name=\"德克萨斯\"]   来得刚好，Dr.{@nickname}。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   我们这边的活儿也干的差不多了，得暂时离开一段时间~\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=-1)]\n[Decision(options=\"要走了吗？;……知道了。;我会想你们的。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=2)]\n[name=\"雷蛇\"]   很快就能再见面的。\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=1)]\n[name=\"芙兰卡\"]   只要过一小段时间，我们就能回到罗德岛重新待命。\n[name=\"芙兰卡\"]   可不用太想我哦。\n[Character(name=\"char_106_franka_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   唉唉，可惜可惜，我们这边没有那样的正经理由呢，德克萨斯。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=1)]\n[name=\"德克萨斯\"]   你给我等等……\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   企鹅物流，马上要回去休假咯！"
+        }
+      ],
+      "description": "博士与在场人员直接会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_103_angel",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方在同一连续场景直接互动或明确局部共处。",
+          "status": "supported",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b768950f6cb3956f.json",
+      "sources": [
+        {
+          "endLine": 83,
+          "kind": "story",
+          "line": 65,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛会面与告别",
+      "title": "急性衰竭"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 394,
+          "line": 296,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_06_beg.txt",
+          "quote": "[name=\"梵里妮\"]再、再一颗！\n[name=\"梵里妮\"]炸断左边的楼梯，多少能再拖延他们一阵……\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#4$2 \",focus=\"n\")]\n[PlaySound(key=\"$d_avg_explosion_stone\", volume=0.9)]\n[PlaySound(key=\"$d_avg_statuecollapse\",volume=0.6,delay=0.4)]\n[CameraShake(duration=1.5, xstrength=35, ystrength=35, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[bgeffect(name=\"$eb_smoke_01\",layer=2)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#9$2 \",focus=\"r\")]\n[name=\"梵里妮\"]小乐姐，能听到吗？我来救你了！\n[Dialog]\n[charslot]\n[name=\"能天使\"]梵妮？\n[name=\"能天使\"]哈哈，真聪明，居然想到了找这辆告解车帮忙！\n[charslot(slot=\"l\",name=\"avg_4188_confes_1#2$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1779_1#4$2 \",focus=\"r\")]\n[name=\"梵里妮\"]没、没有，我想了好久好久，才想起来……之前小乐姐拦下这辆车的时候，我看了一眼它的编号。\n[name=\"梵里妮\"]告解车的编号正常应该是“LC”开头，“拉特兰自律告解车”的缩写，可它的编号却是“ELC”开头……\n[charslot(slot=\"l\",name=\"avg_4188_confes_1#2$1\",focus=\"l\")]\n[name=\"自律告解车\"]她几乎跑遍了拉特兰的大街小巷，一辆一辆地拦告解车看……直到我注意到了她。\n[Dialog]\n[charslot]\n[stopmusic(fadetime=2)]\n[delay(time=0.2)]\n[PlaySound(key=\"$d_gen_soldiersrun\", volume=0.7)]\n[charslot(slot = \"l\", name = \"avg_npc_371_1#1$1\",duration=1)]\n[charslot(slot = \"r\", name = \"avg_npc_371_1#1$1\",duration=1)]\n[delay(time=1.5)]\n[playsound(key=\"$d_avg_gunequip\",volume=0.9)]\n[delay(time=1)]\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_gunsingle\", volume=0.9)]\n[PlaySound(key=\"$d_avg_ghtsvnzrtk\", volume=1,channel=\"s2\",delay=0.5)]\n[CameraShake(duration=1.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4188_confes_1#2$1\",focus=\"m\")]\n[name=\"自律告解车\"]好了，能天使，戍卫队的支援很快就会赶到，育婴圣堂的卫兵也已经动身，我们需要尽快脱身。\n[Dialog]\n[charslot]\n[name=\"能天使\"]好嘞！\n[Dialog]\n[PlaySound(key=\"$pistol\", volume=0.9)]\n[PlaySound(key=\"$d_avg_gunsingle\", volume=0.7, loop=false, channel=\"shot\",delay=0.4)]\n[PlaySound(key=\"$pistol\", volume=0.9, loop=false, channel=\"shot2\",delay=0.7)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=0.6)]\n[PlaySound(key=\"$d_avg_explosion_stone\", volume=1)]\n[PlaySound(key=\"$d_sp_ballista\",delay=0.3)]\n[CameraShake(duration=3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[bgeffect]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Image(image=\"61_i23\",screenadapt=\"coverall\",fadetime=0,block=true)]\n[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]\n[PlaySound(key=\"$d_avg_doorbreak\", volume=1)]\n[PlaySound(key=\"$d_avg_hvycarbrake\", volume=1,delay=0.7)]\n[PlayMusic(intro=\"$escapebattle_intro\", key=\"$escapebattle_loop\", volume=0.6)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=true)]\n[delay(time=2)]\n戍卫队的反应很快，他们在极短的时间内架设好了上楼的应急通道，列阵向动乱的位置集结。\n能天使撞开了门，告解车加速向她靠近，挡住了戍卫队的攻击，她一头撞进了车厢，在幅度极大的偏移中稳住身形。\n萨科塔的红发在弹幕与烟尘中飘扬！\n[Dialog]\n[delay(time=1)]\n[name=\"能天使\"]告解师……呃，不对，既然你已经暴露，那我是不是终于可以正常称呼你了？\n[name=\"能天使\"]你真是拉！风！爆！了！老板，义人，博士！\n[Dialog]\n[Decision(options=\"车前架上有六把铳。;车厢内有三把铳。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"任意取用，不用客气。;做你最擅长的事情。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"梵里妮更换了铳弹，不会造成致命伤。;至于会否伤到同胞，我相信你的准头。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Dialog]\n[name=\"能天使\"]明白！正好我的守护铳被第七厅的人没收了。\n[Dialog]\n[Decision(options=\"两侧的通道已经很难突围。;需要重新规划脱身的路线。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Dialog]\n[name=\"能天使\"]那就走窗户，越热闹越好，吸引注意力，也方便梵妮溜走。\n[name=\"能天使\"]你应该不会散架吧？\n[Dialog]\n[Decision(options=\"那你可别被我甩出去。;路交给我，追兵交给你。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[name=\"能天使\"]明白。老板，派对正式开始，让我们来一场天衣无缝的配合！"
+        }
+      ],
+      "description": "能天使与操控告解车的博士直接协作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L19"
+          ],
+          "from": "char_103_angel",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "L19"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 394,
+          "kind": "story",
+          "line": 296,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_103_angel|npc_b99957887950ebfd"
+}

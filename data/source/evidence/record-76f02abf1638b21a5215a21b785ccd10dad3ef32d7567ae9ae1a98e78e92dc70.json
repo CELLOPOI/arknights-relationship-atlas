@@ -1,0 +1,26 @@
+{
+  "id": "import:char_279_excu|char_4179_monstr",
+  "published": true,
+  "quote": "Mon3tr：分析确认完毕！十个标准秒之前，大教堂广场发生了至少两次当量惊人的爆炸。\nMon3tr：实施者基本可以确定为能天使、送葬人和另一个银发萨科塔。爆炸点附近不断闪动的定格画面足以佐证这一点。\n\n费德里科：我没有见过带着博士逃跑的那个女性，但她的外形和作战方式似曾相识。有她在，博士暂时没有危险。\n费德里科：而且，博士吸引走了多数的怪物，这为我们创造了脱身的机会。尽快离开这里，找到教宗。\n\nMon3tr：还有周围那些异常的、被破坏的景象，正不断被映射到这里，拉特兰的混乱还在继续……\n而我们正在另一个维度与他们同行。\n当认知被重新阐述的瞬间，你看到了，这座死寂的城市里开始浮现出越来越多如同被抽帧的定格画面。\n战斗，爆炸，祈祷，吟唱。\n你看到了能天使。\n你看到了那圣洁的怪物——",
+  "relationship_id": "char_279_excu|char_4179_monstr",
+  "sources": [
+    {
+      "endLine": 24,
+      "kind": "story",
+      "line": 23,
+      "source": "activities/act42side/level_act42side_st04.txt"
+    },
+    {
+      "endLine": 725,
+      "kind": "story",
+      "line": 724,
+      "source": "activities/act42side/level_act42side_06_beg.txt"
+    },
+    {
+      "endLine": 475,
+      "kind": "story",
+      "line": 468,
+      "source": "activities/act42side/level_act42side_10_beg.txt"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 319,
+          "line": 305,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-07_end.txt",
+          "quote": "[name=\"克洛维希娅\"]是的……就是她。\n[name=\"克洛维希娅\"]阿米娅，{@nickname}博士，我们的救援计划得提前了。\n[Character(name=\"avg_npc_401_1#1$1\")]\n[name=\"克洛维希娅\"]她对自救军非常重要。她掌握了许多情报，甚至可能影响到我们的撤离行动。\n[Character(name=\"avg_npc_394_1#2$1\")]\n[name=\"阿米娅\"]是的，我能理解……\n[name=\"阿米娅\"]对罗德岛来说，她也是不可或缺的。\n[dialog]\n[character]\n[Decision(options=\"这将是我们第一次合作行动。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_401_1#6$1\")]\n[name=\"克洛维希娅\"]好。我相信罗德岛能帮助我们救回那位被萨卡兹关押的信使——\n[Character(name=\"avg_npc_401_1#6$1\")]\n[name=\"克洛维希娅\"]我们最坚强的战士，最重要的同伴，最信任的朋友，海蒂·汤姆森女士。"
+        }
+      ],
+      "description": "克洛维希娅确认海蒂委托自救军接应罗德岛，称其最信任朋友，明确双方具体委托往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E37"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "克洛维希娅确认海蒂委托自救军接应罗德岛，称其最信任朋友，明确双方具体委托往来。",
+          "status": "supported",
+          "to": "char_4045_heidi"
+        },
+        {
+          "evidenceIds": [
+            "E37"
+          ],
+          "from": "char_4045_heidi",
+          "reason": "克洛维希娅确认海蒂委托自救军接应罗德岛，称其最信任朋友，明确双方具体委托往来。",
+          "status": "supported",
+          "to": "npc_1f201a858b188fce"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 319,
+          "kind": "story",
+          "line": 305,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 359,
+          "line": 347,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_heidi_1_1.txt",
+          "quote": "[name=\"茉莉\"]……海蒂女士？！您为什么要举起手杖指着我？\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#10$1\",focus=\"r\")]\n[name=\"海蒂\"]不用太紧张，我只想问你一个简单的问题。如果你答对了，我就认为你是值得信任的。\n[name=\"海蒂\"]克洛维希娅对你说的第一句话是什么？\n[charslot(slot=\"l\",name=\"avg_npc_657_1#2$1\",focus=\"l\")]\n[name=\"茉莉\"]欸？……您说的这个名字，我想不起来，抱歉……\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#9$1\",focus=\"r\")]\n[name=\"海蒂\"]没事了，茉莉，谢谢你。\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#8$1\",focus=\"r\")]\n[name=\"海蒂\"]抱歉，之前我说自己被盯梢，只是个试探你的谎言……\n[name=\"海蒂\"]现在我相信，你依然如此真诚地爱着学校里的每一个孩子。\n[charslot(slot=\"r\",name=\"avg_4045_heidi_1#1$1\",focus=\"r\")]\n[name=\"海蒂\"]以及，你的确对这段时间发生的变化毫不知情。"
+        }
+      ],
+      "description": "海蒂明确知晓克洛维希娅，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4045_heidi",
+          "reason": "海蒂以克洛维希娅的具体名字设计身份试探。",
+          "status": "supported",
+          "to": "npc_1f201a858b188fce"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_1f201a858b188fce",
+          "reason": "克洛维希娅未在本篇候选场景出现或提及海蒂。",
+          "status": "not_established",
+          "to": "char_4045_heidi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_090d8a48c17b5706.json",
+      "sources": [
+        {
+          "endLine": 359,
+          "kind": "story",
+          "line": 347,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_heidi_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "地下避难所脱险后",
+      "title": "海蒂"
+    }
+  ],
+  "relationship_id": "char_4045_heidi|npc_1f201a858b188fce"
+}

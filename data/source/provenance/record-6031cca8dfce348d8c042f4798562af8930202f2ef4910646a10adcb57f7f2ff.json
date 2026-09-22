@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 563,
+          "line": 511,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ceylon_2_1.txt",
+          "quote": "[name=\"黑\"]Medic，我的情况怎么样？\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]和去年相比，有些发展的倾向。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]不太妙，你这两年作为教官和干员活动得有些太频繁了。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]我会和上面申请，减轻你的工作负担。\n[charslot(slot=\"m\",name=\"avg_340_shwaz_1#12$1\",focus=\"m\")]\n[name=\"黑\"]那我的调任申请——\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]你回到新汐斯塔后，肯定会继续勉强自己吧？\n[charslot(slot=\"m\",name=\"avg_340_shwaz_1#12$1\",focus=\"m\")]\n[name=\"黑\"]我会好好休息。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]骗人，你都已经来罗德岛两年了，大家都了解你。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]你呀，还是太不会照顾自己了。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]虽然让锡兰照顾你是最合适的，但新汐斯塔办事处现在才刚起步，至少也要等一年再让你回去我们才放心。\n[charslot(slot=\"m\",name=\"avg_340_shwaz_1#7$1\",focus=\"m\")]\n[name=\"黑\"]可是——\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_348_ceylon_1#4$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[name=\"锡兰\"]那就让我来本舰照顾黑好了。\n[charslot(slot=\"m\",name=\"avg_340_shwaz_1#6$1\",focus=\"m\")]\n[name=\"黑\"]小姐？！\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]哎呀，锡兰，你这就回来啦。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]我还想说给黑一个惊喜呢。\n[charslot(slot=\"m\",name=\"avg_348_ceylon_1#7$1\",focus=\"m\")]\n[name=\"锡兰\"]哎，那我不是打断你了？不好意思。\n[dialog]\n[playsound(key=\"$rungeneral\")]\n[charslot(duration=1)]\n[delay(time=2)]\n[name=\"门外的锡兰\"]再来一次！\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]……好吧。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]咳咳。不过，黑，你也不用太担心，针对你的情况，我们有一个更好的解决方法。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]那就是——\n[charslot(slot=\"m\",name=\"avg_348_ceylon_1#5$1\",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"锡兰\"]锵！\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]没错，在你回来后没多久，锡兰主动申请返回本舰待一段时间。\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]好啦，问题解决。你们聊吧，我就不打扰了。"
+        }
+      ],
+      "description": "黑与Medic直接问诊交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_340_shwaz",
+          "reason": "黑向Medic询问检查结果。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "Medic为黑诊疗并熟悉她的健康与工作情况。",
+          "status": "supported",
+          "to": "char_340_shwaz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3710c1c063c6e7ac.json",
+      "sources": [
+        {
+          "endLine": 563,
+          "kind": "story",
+          "line": 511,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ceylon_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇医务室场景",
+      "title": "锡兰"
+    }
+  ],
+  "relationship_id": "char_340_shwaz|npc_30c8dcf1e7b8383d"
+}

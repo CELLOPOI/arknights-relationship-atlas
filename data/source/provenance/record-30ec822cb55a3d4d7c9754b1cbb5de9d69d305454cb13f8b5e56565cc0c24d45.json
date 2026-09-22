@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 357,
+          "line": 314,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act41side/level_act41side_st03.txt",
+          "quote": "[name=\"莫兰\"]布莉吉，你又要走了吗？\n[charslot(slot=\"m\",name=\"avg_4177_brigid_1#9$1\",focus=\"m\")]\n[name=\"布莉吉\"]嗯。我得回到原野上去了，驮兽群还在等着我。\n[name=\"布莉吉\"]还有，拉芙希妮让我去找的那个罗德岛，我也还没去呢。要一起去吗？\n[charslot(slot=\"m\",name=\"avg_npc_728_1#6$1\",focus=\"m\")]\n[name=\"莫兰\"]有机会的话，我会去的。\n[charslot(slot=\"m\",name=\"avg_npc_728_1#1$1\",focus=\"m\")]\n[name=\"莫兰\"]比起这个，你把我们送回纳斯尔纱，自己却不能留下……\n[charslot(slot=\"m\",name=\"avg_4177_brigid_1#9$1\",focus=\"m\")]\n[name=\"布莉吉\"]没有不能。我只是这么选了，就像你们选择住进这里一样。\n[charslot(slot=\"m\",name=\"avg_4177_brigid_1#1$1\",focus=\"m\")]\n[name=\"布莉吉\"]如果守灵人也回到城市之中，替我向他们问好。\n[charslot(slot=\"m\",name=\"avg_npc_728_1#1$1\",focus=\"m\")]\n[name=\"莫兰\"]你的直觉？\n[charslot(slot=\"m\",name=\"avg_4177_brigid_1#9$1\",focus=\"m\")]\n[name=\"布莉吉\"]不一定准。\n[name=\"布莉吉\"]但是至少，现在这里已经不再有那种焦煳的气味，闻上去像草木发出新芽，露珠在清晨坠落。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",duration=1)]\n[delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_4177_brigid_1#9$1\",focus=\"m\")]\n[name=\"布莉吉\"]校官，你好啊。\n[charslot(slot=\"m\",name=\"avg_npc_728_1#2$1\",focus=\"m\")]\n[name=\"莫兰\"]……\n[charslot(slot=\"m\",name=\"avg_npc_723_1#4$1\",focus=\"m\")]\n[name=\"校官\"]……\n[charslot(slot=\"m\",name=\"avg_4177_brigid_1#11$1\",focus=\"m\")]\n[name=\"布莉吉\"]你们认识？\n[charslot(slot=\"m\",name=\"avg_npc_728_1#3$1\",focus=\"m\")]\n[name=\"莫兰\"]不仅认识，而且有些过节。\n[name=\"莫兰\"]你来做什么？城里应该没发生什么值得出动赤铁近卫队的事情。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#6$1\",focus=\"m\")]\n[name=\"校官\"]休假，来纪念一些逝去的……卑劣，但毕竟和我一同战斗过的人。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",focus=\"m\")]\n[name=\"校官\"]要为你那些在流亡期间死去的同伴复仇的话，尽可以来试试。休假期间的私斗不算向军队发起挑衅。\n[charslot(slot=\"m\",name=\"avg_npc_728_1#4$1\",focus=\"m\")]\n[name=\"莫兰\"]……直接杀死塞尔蒙他们的，并不是你。\n[name=\"莫兰\"]我会一直记得你做过的事，但也只是铭记就够了。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#2$1\",focus=\"m\")]\n[name=\"校官\"]是啊……\n[charslot(slot=\"m\",name=\"avg_npc_723_1#6$1\",focus=\"m\")]\n[name=\"校官\"]若是能被人铭记，还有什么不够的呢？"
+        }
+      ],
+      "description": "布莉吉向校官问候，三人局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_4177_brigid",
+          "reason": "直接对话、局部同场或具体提及支持该方向。",
+          "status": "supported",
+          "to": "npc_974bc7361c242057"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_974bc7361c242057",
+          "reason": "直接对话、局部同场或具体提及支持该方向。",
+          "status": "supported",
+          "to": "char_4177_brigid"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_dddfbe68db72b808.json",
+      "sources": [
+        {
+          "endLine": 357,
+          "kind": "story",
+          "line": 314,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act41side/level_act41side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "塔拉战后及五朔节场景",
+      "title": "挽歌燃烧殆尽"
+    }
+  ],
+  "relationship_id": "char_4177_brigid|npc_974bc7361c242057"
+}

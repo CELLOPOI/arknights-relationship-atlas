@@ -1,0 +1,100 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 458,
+          "line": 419,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_06_end.txt",
+          "quote": "[name=\"赫默\"]我不知道。我还没有亲眼……看到问题得到解决。我不想中途放弃。\n[charslot(slot=\"m\",name=\"avg_npc_893_1#8$1\")]\n[name=\"雅拉\"]你是个有天赋的学者，善良的医生。现在你考虑好了，要学着成为一名战士了吗？\n[charslot(slot=\"m\",name=\"avg_1031_slent2_1#5$1\")]\n[name=\"赫默\"]或许……我永远成为不了战士。\n[name=\"赫默\"]可如果有必要的话，我会握紧您给我的武器。\n[charslot(slot=\"m\",name=\"avg_npc_893_1#1$1\")]\n[name=\"雅拉\"]好吧，孩子。带着我的祝福前进吧。\n[charslot(slot=\"m\",name=\"avg_1031_slent2_1#7$1\")]\n[name=\"赫默\"]谢谢您，雅拉主任。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\",loop=true, channel=\"bgs\")]\n[charslot(slot = \"m\",afrom = 1, ato = 0,duration = 1)]\n[delay(time=1)]\n[StopSound(channel=\"bgs\", fadetime=0.5)]\n[delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_1031_slent2_1#1$1\",duration=0.5)]\n[delay(time=1)]\n[name=\"赫默\"]对了，总辖……克丽斯腾可能就在前面。\n[name=\"赫默\"]您不想见她吗？\n[charslot(slot=\"m\",name=\"avg_npc_893_1#6$1\")]\n[name=\"雅拉\"]不想……吗？怎么可能呢。\n[name=\"雅拉\"]只是，我恐怕追不上她了。\n[dialog]\n[charslot(duration=0.5)]\n雅拉注视着不远处的实验室。\n过了一会，她的视线移向上空。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[Background(image=\"38_g17_corridor_symmetry\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_899_1#3$1\")]\n[name=\"布莱克\"]搜到了吗？\n[charslot(slot=\"m\",name=\"avg_npc_901_1#1$1\")]\n[name=\"哥伦比亚士兵\"]还没有！\n[charslot(slot=\"m\",name=\"avg_npc_899_1#3$1\")]\n[name=\"布莱克\"]继续。聚焦发生器的核心装置就在这里面。\n[name=\"布莱克\"]还有克丽斯腾……她不可能再从我们眼皮子底下逃走。"
+        }
+      ],
+      "description": "赫默具体知晓克丽斯腾的位置。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C20"
+          ],
+          "from": "char_108_silent",
+          "reason": "赫默明确知道克丽斯腾就在前方并询问雅拉是否想见她。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "克丽斯腾不在当前场景，未新增反向证据。",
+          "status": "not_established",
+          "to": "char_108_silent"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 458,
+          "kind": "story",
+          "line": 419,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "前往核心实验室途中",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 39,
+          "line": 27,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_04_beg.txt",
+          "quote": "[name=\"赫默\"]缪尔赛思主任呢？\n[Character(name=\"char_108_silent_1#4\",name2=\"char_242_mayer#1\",focus=2)]\n[name=\"梅尔\"]她还在那边等我们。\n[Character(name=\"char_108_silent_1#4\",name2=\"char_242_mayer#1\",focus=1)]\n[name=\"赫默\"]你和她说到哪里了？\n[Character(name=\"char_108_silent_1#4\",name2=\"char_242_mayer#2\",focus=2)]\n[name=\"梅尔\"]说到安东尼希望卡夫卡帮助他，她还和我说了一些有关总辖和塞雷娅的事。\n[Character(name=\"char_108_silent_1#3\",name2=\"char_242_mayer#2\",focus=1)]\n[name=\"赫默\"]是吗。\n[Character(name=\"char_108_silent_1#3\",name2=\"char_242_mayer#2\",focus=2)]\n[name=\"梅尔\"]要我说给你听吗？\n[Character(name=\"char_108_silent_1#1\",name2=\"char_242_mayer#2\",focus=1)]\n[name=\"赫默\"]不，暂时不用了。"
+        },
+        {
+          "endLine": 218,
+          "line": 207,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_st02.txt",
+          "quote": "[name=\"缪尔赛思\"]举个例子，我也可以说我现在在公司内势单力薄，然后尽力将总辖美化成一个出色的首领，以此来让你认为帮助我是“正确”的。\n[name=\"缪尔赛思\"]如果我这么做了，你绝不会发出刚才那样的感慨。\n[Character(name=\"char_249_muesys_1#1\")]\n[name=\"缪尔赛思\"]倒不如说，其实这才是我的长项哦？\n[Character(name=\"char_249_muesys_1#5\")]\n[name=\"缪尔赛思\"]而我没有这么做，是出于这场谈话下来对于赫默小姐的尊重。\n[name=\"缪尔赛思\"]出于这份尊重，我愿意给出对等，甚至在这之上的利益来交换安东尼这条线索，不知道你意下如何，赫默小姐？\n[Character(name=\"char_108_silent_1#3\",name2=\"char_242_mayer#1\",focus=2)]\n[name=\"梅尔\"]赫默，怎么办？\n[Character(name=\"char_108_silent_1#3\")]\n[name=\"赫默\"]……\n[name=\"赫默\"]我……"
+        }
+      ],
+      "description": "",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "本活动未找到该方向的具体人物知晓、信息接收或实际局部同场依据；不表示此人从来不认识对方。",
+          "status": "not_established_in_batch",
+          "to": "char_108_silent"
+        },
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_108_silent",
+          "reason": "赫默在场听到具体总辖并参与前后交流。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 39,
+          "kind": "story",
+          "line": 27,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 218,
+          "kind": "story",
+          "line": 207,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "越狱后的酒吧谈话。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_108_silent|npc_ebd7747563277517"
+}

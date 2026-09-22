@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 477,
+          "line": 448,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_06_end.txt",
+          "quote": "[name=\"休露丝\"]菈塔托丝！！\n[name=\"锏\"]该走了，恩希欧迪斯。\n[Dialog]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=2, block=true)]\n[Stopsound(channel=\"burn\",fadetime=1)]\n[Delay(time=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=true)]\n[name=\"菈塔托丝\"]……嘶。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]\n[Background(image=\"24_g11_snowylane\",screenadapt=\"coverall\")]\n[Character(name=\"avg_npc_262_1#5$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_262_1#5$1\")]\n[name=\"休露丝\"]菈塔托丝，你醒了！\n[Character]\n[name=\"菈塔托丝\"]……\n[name=\"菈塔托丝\"]我没死？！\n[Character(name=\"avg_172_svrash_1#6$1\")]\n[name=\"恩希欧迪斯\"]有锏在，你不会死。\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_253_1#9$1\",fadetime=2)]\n[Delay(time=2)]\n[name=\"菈塔托丝\"]……我布朗陶家引以为豪的机关房居然都没有拦住你吗。\n[Character(name=\"avg_npc_257_1#1$1\")]\n[name=\"锏\"]墙虽然不是问题，但是找到你们的房间还挺麻烦的。"
+        }
+      ],
+      "description": "锏和休露丝共同赶到火场救人，四人在屋外直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E126"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "锏和休露丝共同赶到火场救人，四人在屋外直接对话。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "E126"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "锏和休露丝共同赶到火场救人，四人在屋外直接对话。",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 477,
+          "kind": "story",
+          "line": 448,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_4116_blkkgt|npc_be787f1ec784bbc7"
+}

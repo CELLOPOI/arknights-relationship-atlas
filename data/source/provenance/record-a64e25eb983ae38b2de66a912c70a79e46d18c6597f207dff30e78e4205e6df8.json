@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 176,
+          "line": 139,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_st02.txt",
+          "quote": "[name=\"薇尔丽芙\"]你决定了？\n[character(name=\"avg_npc_353_1#1$2\")]\n[name=\"蕾缪安\"]嗯，我决定了。\n[character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]我以为你还要犹豫一段时间。\n[character(name=\"avg_npc_353_1#2$2\")]\n[name=\"蕾缪安\"]没什么……只是觉得，大家都迈出了下一步，我也不能再原地踏步了。\n[character(name=\"avg_npc_361_1#6$1\")]\n[name=\"薇尔丽芙\"]那我就不多问了。你能答应，我已经很高兴了。\n[character(name=\"avg_npc_361_1#6$1\")]\n[name=\"薇尔丽芙\"]现在这种时候，有你这样的人才加入，再好不过。\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_4036_forcer_1#1$1\",fadetime=1,block=true)]\n[delay(time=2)]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_213_mostma_1#10$1\",name2=\"avg_300_phenxi_1#1$1\",fadetime=1,block=true)]\n[delay(time=3)]\n[character(name=\"avg_213_mostma_1#10$1\")]\n[name=\"莫斯提马\"]就猜到你会在这里，薇尔丽芙。\n[character(name=\"avg_npc_361_1#4$1\")]\n[name=\"薇尔丽芙\"]你们怎么……\n[character(name=\"avg_300_phenxi_1#1$1\")]\n[name=\"菲亚梅塔\"]我们半路遇到了艾泽尔。\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]谢拉格的两位使者已经送达目的地了。\n[character(name=\"avg_npc_361_1#6$1\")]\n[name=\"薇尔丽芙\"]辛苦了。\n[character(name=\"avg_npc_361_1#6$1\")]\n[name=\"薇尔丽芙\"]别急着走，我来这里还有别的事，你跟我一起。\n[character(name=\"avg_4036_forcer_1#1$1\")]\n[name=\"艾泽尔\"]……是。\n[character(name=\"avg_npc_361_1#5$1\")]\n[name=\"薇尔丽芙\"]那么，蕾缪安，下周见。\n[character(name=\"avg_npc_353_1#9$2\")]\n[name=\"蕾缪安\"]下周见。"
+        }
+      ],
+      "description": "二人在医院当面汇报与受命。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_4036_forcer",
+          "reason": "二人在医院当面汇报与受命。",
+          "status": "supported",
+          "to": "npc_0ce6ed6bdcaa7258"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "二人在医院当面汇报与受命。",
+          "status": "supported",
+          "to": "char_4036_forcer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 176,
+          "kind": "story",
+          "line": 139,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    }
+  ],
+  "relationship_id": "char_4036_forcer|npc_0ce6ed6bdcaa7258"
+}

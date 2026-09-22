@@ -1,0 +1,173 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 204,
+          "line": 179,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "quote": "[name=\"特蕾西娅\"]……那么，直到现在，您也还一言不发。\n[name=\"特蕾西娅\"]血魔大君。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",duration=1.5)]\n[delay(time=2)]\n[name=\"杜卡雷\"]把有百年历史的战争议会……\n[name=\"杜卡雷\"]……连同被歌颂的英雄时代与为数不多的胜利一同扫入谷底，这就是将军的决定？\n[dialog]\n[charslot]\n[charslot(slot = \"left\", name = \"avg_npc_1296_1#1$1\",duration = 1)]\n[charslot(slot = \"right\", name = \"avg_npc_1297_1#1$1\",duration = 1)]\n[delay(time=1.5)]\n[charslot(slot = \"right\", name = \"avg_npc_1297_1#1$1\",focus=\"r\")]\n[name=\"特雷西斯\"]是我们的决定。\n[name=\"特雷西斯\"]不妨有话直说，杜卡雷。\n[charslot(slot = \"m\", focus = \"n\")]\n杜卡雷低头望去。\n特蕾西娅的白裙上抹上了不少发黑的血迹。\n血魔大君对此极为敏感。有卑贱之人的血，亦有他所熟悉的堕落子裔的臭血，以及甘愿沉沦在此地的王庭后代的浑浊血液。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\")]\n[name=\"杜卡雷\"]殿下，感谢您替我净化了那些为我所厌弃的污血。\n[name=\"杜卡雷\"]但我所求，我毫无隐藏。对过去的每一任魔王如此，对您亦然。\n[name=\"杜卡雷\"]军事委员会只是把萨卡兹一贯以来的巫术与血，冠以一个“更现代”“更高效”的名字而已。\n[name=\"杜卡雷\"]说实话，我觉得这无关紧要。何止是无关紧要，简直是没有必要。"
+        }
+      ],
+      "description": "特蕾西娅点名血魔大君，杜卡雷当面答复。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "特蕾西娅点名血魔大君，杜卡雷当面答复。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅点名血魔大君，杜卡雷当面答复。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 204,
+          "kind": "story",
+          "line": 179,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 148,
+          "line": 92,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-01.txt",
+          "quote": "[Subtitle(text=\"「我正准备回到城外的军营里，特蕾西娅殿下。」\", x=500, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Image(image=\"27_i12\",fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7,x=100, y=-20)]\n[ImageTween(image=\"27_i12\", fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7, xScaleTo=1.6, yScaleTo=1.6, xTo=100, yTo=0, duration=10)]\n[Subtitle(text=\"「我明白，食腐者之王。我们这次会议会尽量简短些。」\", x=300, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[image]\n[Image(image=\"27_i12\",fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7,x=-590, y=-380)]\n[ImageTween(image=\"27_i12\", fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7, xScaleTo=1.6, yScaleTo=1.6, xTo=-590, yTo=-360, duration=10)]\n[Subtitle(text=\"「你总是这么来去匆匆啊，食腐者。你是不想与我们相聚吗？」\", x=100, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[image]\n[Image(image=\"27_i12\",fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7,x=490, y=-300)]\n[ImageTween(image=\"27_i12\", fadetime=0.5, xScaleFrom=1.7, yScaleFrom=1.7, xScaleTo=1.6, yScaleTo=1.6, xTo=490, yTo=-320, duration=10)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=0.51)]\n[Subtitle(text=\"「我可没你那么清闲，血魔。伦蒂尼姆之外屯着十万大军，\\n我和我的将士们没有一刻能够松懈。」\", x=500, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Image(image=\"27_i12\",fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7,x=-590, y=-380)]\n[ImageTween(image=\"27_i12\", fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7, xScaleTo=1.6, yScaleTo=1.6, xTo=-590, yTo=-360, duration=10)]\n[Sticker(id=\"st1\", text=\"「那不如交换吧，我正好厌烦了城内那些贵族的喋喋不休。」\", x=100, y=330, alignment=\"left\", size=24, delay=0.04, width=1180)]\n[Sticker(id=\"st2\", text=\"「特雷西斯，你那个高卢的小朋友也一样愚蠢而且聒噪。」\", x=100, y=370, alignment=\"left\", size=24, delay=0.04, width=1180)]\n[Sticker(id=\"st3\", text=\"「我可不敢保证什么时候我会失去耐心。」\", x=100, y=410, alignment=\"left\", size=24, delay=0.04, width=1180)]\n[stickerclear]\n[image]\n[Image(image=\"27_i12\",fadetime=1, xScaleFrom=1.6, yScaleFrom=1.6,x=-290, y=-180)]\n[ImageTween(image=\"27_i12\", fadetime=1, xScaleFrom=1.6, yScaleFrom=1.6, xScaleTo=1.7, yScaleTo=1.7, xTo=-290, yTo=-180, duration=10)]\n[delay(time=1)]\n[Subtitle(text=\"「他的脑袋还得在脖子上待一段时间。别让城内的维多利亚军队给我们增加麻烦。」\", x=300, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[image]\n[Image(image=\"27_i12\",fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7,x=-590, y=-380)]\n[ImageTween(image=\"27_i12\", fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7, xScaleTo=1.6, yScaleTo=1.6, xTo=-590, yTo=-360, duration=10)]\n[Subtitle(text=\"「那好吧。不过，你不觉得还有人没派上用场吗？」\", x=100, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[image]\n[Image(image=\"27_i12\",fadetime=1, xScaleFrom=1.7, yScaleFrom=1.7,x=390, y=-100)]\n[ImageTween(image=\"27_i12\", fadetime=0.5, xScaleFrom=1.7, yScaleFrom=1.7, xScaleTo=1.6, yScaleTo=1.6, xTo=390, yTo=-120, duration=10)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=0.51)]\n[Subtitle(text=\"「你说我吗，血魔？我接下来可有大事要办，对吧，殿下们？」\", x=500, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[image]\n[Image(image=\"27_i12\",fadetime=1, xScaleFrom=1.2, yScaleFrom=1.2)]\n[ImageTween(image=\"27_i12\", fadetime=0.5, xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1,duration=50)]\n[Subtitle(text=\"「当然。想要控制伦蒂尼姆，离不开你们每一位的努力。」\", x=300, y=600, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"「你派出去的信使都有消息了吗，赦罪师？」\", x=300, y=600, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[delay(time=1)]\n[Subtitle(text=\"「在曼弗雷德的不懈劝说下，巫妖已在赶来伦蒂尼姆的路上。」\", x=300, y=100, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"「仅剩的温迪戈仍在乌萨斯北境对抗精怪。他们心中已没有王庭。」\", x=300, y=100, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"「独眼巨人送回了一封信，一如既往，她描述了一个悲惨的场景——伦蒂尼姆被大火撕扯成了三块，碎片大厦倒在数百道闪电之下，而摄政王……是的，她还预言了摄政王殿下的结局。」\", x=300, y=100, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"「说出来。」\", x=300, y=600, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"「她说她看到了你孤独地死在圣王会西部大堂地下的王座上。」\", x=300, y=100, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"「回信给她，感谢她的关心。」\", x=300, y=600, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"「继续搜寻石翼魔的消息。但凡能寻到任何遗落的血脉，立刻向他们发出邀请。」\", x=300, y=600, alignment=\"left\", size=24, delay=0.04, width=700)]\n[Subtitle(text=\"「委员会将和众王庭一起，确保这场战争的胜利。」\", x=300, y=600, alignment=\"left\", size=24, delay=0.04, width=700)]"
+        }
+      ],
+      "description": "这是特蕾西娅刚主持的真实王庭会议回顾：食腐者之王、血魔、赦罪师及殿下们连续互相应答；非泛称同阵营或虚构未来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E110"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "这是特蕾西娅刚主持的真实王庭会议回顾：食腐者之王、血魔、赦罪师及殿下们连续互相应答；非泛称同阵营或虚构未来。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [
+            "E110"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "这是特蕾西娅刚主持的真实王庭会议回顾：食腐者之王、血魔、赦罪师及殿下们连续互相应答；非泛称同阵营或虚构未来。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 148,
+          "kind": "story",
+          "line": 92,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 201,
+          "line": 44,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-18_end.txt",
+          "quote": "[name=\"血魔大君\"]……特雷西斯。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]血魔。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]如果我的印象没错的话，我在你的那个虚伪的“军事委员会”里，似乎也有个职务。\n[name=\"血魔大君\"]可你是不是已经很久没有送战报给我了？\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]是你太久没有出席军事委员会的相关会议了。\n[name=\"特雷西斯\"]你一直拥有相应的指挥权。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#7$1\",focus=\"l\")]\n[name=\"血魔大君\"]“指挥权”。\n[name=\"血魔大君\"]我不需要指挥我的子嗣们，他们天生就归于我，归于他们侍奉的王庭。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]……\n[name=\"特雷西斯\"]那么，你需要更好地看管他们。\n[name=\"特雷西斯\"]战争的终局已经临近，你的部属需要发挥更重要的作用，他们的肆意妄为让我厌烦。\n[name=\"特雷西斯\"]西线战场花费了太多时间。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#7$1\",focus=\"l\")]\n[name=\"血魔大君\"]这是仪式的需要。\n[name=\"血魔大君\"]如果没有足够的血与泪，我们又怎么能积攒这么多的巫术材料呢？\n[name=\"血魔大君\"]你和特蕾西娅向我声称，你们找到了那一扇遍结疮痂的、古老的门。\n[name=\"血魔大君\"]萨卡兹苦难的源头，命运的起点，真的就在那扇门之后吗？\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]仪式的准备已经完成。\n[name=\"特雷西斯\"]但其中的一个节点，那座叫布伦特伍德的镇子，正在被我们的敌人进攻。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#9$1\",focus=\"l\")]\n[name=\"血魔大君\"]你是在指派我为你解决这些小麻烦吗，特雷西斯？\n[name=\"血魔大君\"]哦，您倒是提醒我了，军事委员会德高望重的“摄政王”——\n[name=\"血魔大君\"]既然军事委员会记得那么一个“关键”的城镇，为何并无像样的布防？\n[name=\"血魔大君\"]裹缠尸布的术师，骨肉傀儡，或是随便什么巫术加持、挥舞皮肉的莽汉？\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]……\n[charslot(slot=\"l\",name=\"avg_npc_410_1#9$1\",focus=\"l\")]\n[name=\"血魔大君\"]……我纵容你和你的妹妹，因你们的灵魂强大耀眼。\n[name=\"血魔大君\"]软弱的萨卡兹会称呼你为摄政王，赦罪师们簇拥在你的身边，还为你带回了特蕾西娅。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#2$1\",focus=\"l\")]\n[name=\"血魔大君\"]摄政王，死而复归的“魔王”，你们是一对有趣的兄妹。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]但，这都是因为，你们的举止、力量，而不是你的……“地位”。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]“力量”。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]哼。\n[name=\"血魔大君\"]为了降下最宏伟的诅咒，我已在这片战场上布下赐福。\n[name=\"血魔大君\"]作为最古老的王庭之一，我仁慈地唤起萨卡兹们血脉中本就潜藏的力量。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#7$1\",focus=\"l\")]\n[name=\"血魔大君\"]那么，特雷西斯，你感受到了吗？你为我的恩赐而喜悦吗？\n[name=\"血魔大君\"]哦，你那驳杂的血液中，又能被沥起几分力量呢？\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]……\n[name=\"特雷西斯\"]终局将近，让你心浮气躁。\n[name=\"特雷西斯\"]藏好你的弱点。\n[name=\"特雷西斯\"]或者说，你需要一些提醒？\n[charslot(slot=\"l\",name=\"avg_npc_410_1#7$1\",focus=\"l\")]\n[name=\"血魔大君\"]呵。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]我会为你完成仪式的最后一部分，高傲的摄政王。\n[name=\"血魔大君\"]但这不是为了你们兄妹那狭小的雄心壮志，你们总是盯着那座拥有卡兹戴尔虚名的移动城市。\n[name=\"血魔大君\"]那只算得上痛楚的长河中的又一个歇脚处罢了。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]特蕾西娅已经准备好了。\n[name=\"特雷西斯\"]这座碎片大厦也将发挥出维多利亚永远也设想不到的力量。\n[name=\"特雷西斯\"]那具骸骨正在城外军营下的枢纽中等待，你可以从那里前往布伦特伍德。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#8$1\",focus=\"l\")]\n[name=\"血魔大君\"]……令人兴奋，不是吗？特雷西斯，你总是这么一张了无生气的面孔。\n[name=\"血魔大君\"]我已经看见了。从地平线那头腾起的黑色光芒，像是一堵黑曜石墙，终将堆砌真正的城。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]……\n[charslot(slot=\"l\",name=\"avg_npc_410_1#8$1\",focus=\"l\")]\n[name=\"血魔大君\"]……呵。你笑我急躁，可沉默不正是你遮掩内心的最佳手段吗？\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]但愿我还来得及回来，目睹那番盛况。\n[name=\"血魔大君\"]若你真的能找回那种足以重塑这片大地的伟力，萨卡兹最初接触到的……“源石”。\n[name=\"血魔大君\"]那我会为你，把卡兹戴尔的名号，铺满我将触及的每片土地。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[musicvolume(volume=0.3, fadetime=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=0.5)]\n[Sticker(id=\"st1\", multi = true, text=\"萨卡兹，我的同胞们，背弃自己的过往太久了。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们愤恨，他们怨诅，他们将报复施加于我们的敌人之身。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"多么让人失望。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我的同胞们甚至忘记了血脉的来源，忘记了先祖的名讳。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们在麻木与悲哀中交媾，诞下一代代丑陋的、混血的子孙。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们把自己投入移动城市的阴影之中，藏身于街巷，从侵略者手中乞食。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"我对维多利亚人的血越发失去兴致，我对满足于此的萨卡兹们……则更加怒其不争。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n萨卡兹自称萨卡兹的那一刻起，接受了这个“世界”异化他们的那一刻起——\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n就让人怒不可遏。\",block = true)]\n[Sticker(id=\"st1\")]\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"43_g1_giantmonstercockpit\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[PlayMusic(intro=\"$suspenseful_intro\", key=\"$suspenseful_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=0.5)]\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#1$1\",duration=0.7)]\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",duration=0.7)]\n[delay(time=1)]\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#1$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]血魔大君阁下，巨兽的漂航即将结束，我们很快就会抵达布伦特伍德附近的停靠站。\n[name=\"厄尔苏拉\"]那座小镇已经被维多利亚人攻陷，您的造物也正被他们清扫。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]……造物？\n[name=\"血魔大君\"]那些无智的虫豸，不过是鲜血王庭的子裔们为晶石涂画咒文时，无意间洒下的几滴残血。\n[name=\"血魔大君\"]就让维多利亚人去庆祝他们的“胜利”吧。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#4$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]是我误会了，抱歉，阁下。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我看了眼这位军事委员会的少校，萨卡兹。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n特雷西斯在他建立的这套系统里，布置了这么多游荡在王庭之外的孩子。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]你叫厄尔苏拉。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#10$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]……是的，阁下。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]你的血液中掺杂了太多酒精，我原谅贪婪与享乐。\n[name=\"血魔大君\"]但你的犹疑，让人失望。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#8$1\",focus=\"r\")]\n[name=\"血魔大君\"]我可以为你洗去它们，“少校”。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#7$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]……感谢您的好意，血魔大君阁下，我自己……能处理。我……会尽力改正。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"她因紧张而低下头颅。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n但至少，这些混血儿们还懂得抗争，这能稍微弥补他们的愚昧。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"r\",name=\"avg_npc_410_1#7$1\",focus=\"r\")]\n[name=\"血魔大君\"]厄尔苏拉……厄尔苏拉。\n[name=\"血魔大君\"]窃取时间的厄尔苏拉。家喻户晓的故事。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#9$1\",focus=\"r\")]\n[name=\"血魔大君\"]呵，“厄尔苏拉”居然挽起了这具骸骨的缰绳，小小的风趣。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#4$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]阁下，这只是个巧合。我在为自己起名时，从未料到会真的如英雄一般——\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]英雄？\n[charslot(slot=\"r\",name=\"avg_npc_410_1#5$1\",focus=\"r\")]\n[name=\"血魔大君\"]厄尔苏拉是个懦夫。\n[name=\"血魔大君\"]他甚至无法直视这只巨兽的双眼，只敢躲藏在它激起的乱流中，摇醒几个沉湎于幻象的人。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]所以我派给了他这样的任务，当然了，“拯救了很多人”。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#4$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]……"
+        }
+      ],
+      "description": "血魔大君具体知晓特蕾西娅。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "血魔大君明确讨论特蕾西娅及兄妹计划。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅不在场。",
+          "status": "not_established",
+          "to": "npc_aa980d6791c26c93"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 201,
+          "kind": "story",
+          "line": 44,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-18_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "碎片大厦会谈",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 445,
+          "line": 286,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_beg.txt",
+          "quote": "[name=\"血魔大君\"]……\n[name=\"血魔大君\"]弱小又愚蠢的黎博利。\n[name=\"血魔大君\"]明明知道自己的命在萨卡兹面前比丝线还易断，竟然还不尽快逃跑？\n[character(name=\"avg_npc_649_1#8$1\")]\n[name=\"莱托中校\"]我是指挥官……\n[name=\"莱托中校\"]这是我的指挥塔。\n[character(name=\"avg_npc_649_1#6$1\")]\n[name=\"莱托中校\"]我的士兵……都还在。\n[character(name=\"avg_npc_410_1#1$1\")]\n[name=\"血魔大君\"]……或许我该考虑先把他们都清理干净。\n[Dialog]\n[StopMusic(fadetime=1)]\n[character(name=\"avg_npc_410_1#1$1\",focus=3)]\n[Effect(name=\"$e_amiya_atk_01\", layer = 1)]\n[CameraShake(duration=1.5, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.3, block=true)]\n[PlaySound(key=\"$p_skill_chimera\", volume=0.7)]\n[PlaySound(key=\"$b_char_defboost\", volume=0.5)]\n[character(name=\"avg_npc_410_1#1$1\")]\n[Blocker(a=0, r=1, g=1, b=1, fadetime=0.2, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Delay(time=0.5)]\n[name=\"血魔大君\"]嗯？这个法术，这个气味……\n[dialog]\n[delay(time=1)]\n[PlayMusic(intro=\"$ghosthunter01_intro\", key=\"$ghosthunter01_loop\", volume=0.4)]\n[name=\"血魔大君\"]啊……是这样。愚蠢的替代者来了。\n[name=\"血魔大君\"]这是我们第一次正式见面，“魔王”。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[character(name=\"avg_npc_394_1#7$1\",fadetime=1)]\n[Delay(time=2)]\n[name=\"阿米娅\"]我已经见过你许多次了，血魔。\n[name=\"阿米娅\"]无数自救军的战士因你而牺牲。我记下了他们的名字，他们的性命绝不会因为你的轻蔑而失去应有的重量。\n[character(name=\"avg_npc_410_1#1$1\")]\n[name=\"血魔大君\"]那你想怎么做呢，“魔王”？\n[name=\"血魔大君\"]用你的那些……漆黑的刀斧处决我吗？\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"]……\n[character(name=\"avg_npc_394_1#4$1\")]\n[name=\"阿米娅\"]术师小组，狙击小组，和我一起撕开血液防线！时间有限，抓住目标！\n[character(name=\"avg_npc_394_1#12$1\")]\n[Dialog]\n[Character]\n[Effect(name=\"$e_amiya_atk_01\", layer = 1)]\n[PlaySound(key=\"$d_avg_arrow_rain\")]\n[PlaySound(key=\"$d_avg_stream_loop\", volume=0.4, loop=true, channel=\"bgs\")]\n[CameraShake(duration=3, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[PlaySound(key=\"$p_skill_spiritexplo\", volume=1)]\n[Blocker(a=0.8, r=1, g=0.5, b=0.5, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[PlaySound(key=\"$d_avg_magic_3\")]\n[Blocker(a=0, r=1, g=1, b=1, fadetime=0.4, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[playsound(key=\"$e_atk_magic_n\", volume=0.4)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=0, b=0, fadetime=0.5, block=true)]\n黑色线条与箭矢一同没入浓郁的血色。\n毫无变化。\n[character(name=\"avg_npc_410_1#1$1\")]\n[SoundVolume(channel=\"bse\", volume=1, fadetime=7)]\n[name=\"血魔大君\"]你让我很失望。\n[name=\"血魔大君\"]卡特斯，你徒有战士的姿态，却不愿承认杀戮对统治的必要性。你比特蕾西娅还要软弱。\n[name=\"血魔大君\"]荒唐的特蕾西娅……她妄图带着萨卡兹向以维多利亚为首的侵略者们俯首称臣。\n[name=\"血魔大君\"]而她最为昏聩的做法，无疑是选择了你作为继承人。\n[character(name=\"avg_npc_394_1#4$1\")]\n[name=\"阿米娅\"]……继续攻击！\n[Dialog]\n[Character]\n[Effect(name=\"$e_amiya_atk_01\", layer = 1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[playsound(key=\"$d_avg_magic_1\", volume=0.7)]\n[Blocker(a=0.3, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$d_avg_arrow_rain\")]\n[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0, r=1, g=0, b=0, fadetime=1.5, block=true)]\n[character(name=\"avg_npc_410_1#1$1\")]\n[playsound(key=\"$d_avg_blood\",volume=0.7)]\n[name=\"血魔大君\"]无用的挣扎……\n[Dialog]\n[character(name=\"avg_npc_410_1#6$1\")]\n[delay(time=0.5)]\n[Blocker(a=1, r=0.8, g=0, b=0, fadetime=0.5, block=true)]\n[playsound(key=\"$d_avg_blood\")]\n[bgeffect(name=\"$eb_blooddraw\",layer=1)]\n[delay(time=0.5)]\n[Blocker(a=0.1, r=1, g=0, b=0, fadetime=1, block=true)]\n[delay(time=1.2)]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_snapping\", volume=1)]\n[StopMusic]\n[effect(name=\"$e_anti_originiumarts\",layer=1)]\n[bgeffect]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[stopsound(channel=\"bgs\")]\n[character(name=\"avg_npc_410_1#6$1\",focus=-1)]\n[name=\"？？？\"]散开。\n[Dialog]\n[delay(time=1.5)]\n[character(name=\"avg_npc_410_1#3$1\")]\n[name=\"血魔大君\"]嗯？\n[Dialog]\n[Character]\n[playMusic(intro=\"$industv2_intro\",key=\"$industv2_loop\", volume=0.4)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$d_avg_jump_water\", volume=0.5)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$b_char_defboost\", volume=1)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[PlaySound(key=\"$blooddrop\")]\n[Delay(time=1)]\n血液组成的潮水即将捕捉到阿米娅的瞬间，突然被整齐地切开。\n[musicvolume(volume=0.2, fadetime=1)]\n[Dialog]\n[Character(fadetime=0)]\n[character(name=\"avg_npc_650_1#1$1\",blackstart=0.12,blackend=0.9,fadetime=1)]\n[delay(time=1)]\n[name=\"？？？\"]——\n[dialog]\n[character(fadetime=0.2)]\n[delay(time=0.5)]\n[character(name=\"avg_npc_410_1#1$1\",fadetime=0.3)]\n[name=\"血魔大君\"]原来如此。\n[name=\"血魔大君\"]除了那位充当先锋的刺客，你还带着一位臣子与你同行。\n[dialog]\n[character(fadetime=0)]\n[character(name=\"avg_npc_650_1#1$1\",fadetime=1.5)]\n[Delay(time=1.5)]\n[musicvolume(volume=0.4, fadetime=1)]\n[name=\"Logos\"]……我是阿米娅的下属，却并非她的附臣。\n[character(name=\"avg_npc_410_1#1$1\")]\n[name=\"血魔大君\"]女妖。\n[name=\"血魔大君\"]莫非你胆怯了？\n[name=\"血魔大君\"]你以为……躲在那个名为罗德岛的壳子里，就能否认自己与这赝品的关系，躲过卡兹戴尔对叛徒的审判？\n[character(name=\"avg_npc_650_1#1$1\")]\n[name=\"Logos\"]你的言辞总是充满谬误，血魔。\n[name=\"Logos\"]从决定前来伦蒂尼姆的那一刻起，我便已暂时脱下罗德岛的精英干员制服。\n[name=\"Logos\"]我是女妖之主。\n[name=\"Logos\"]我于此言语，即是丧钟的王庭。\n[Character(fadetime=0.5)]\n年轻的女妖抬起手。\n深色的法袍上，咒文轻柔地跃动，宛如晨曦中滚下的第一滴露珠。\n[character(name=\"avg_npc_650_1#4$1\",fadetime=0.3)]\n[name=\"Logos\"]我追随的并非魔王的冠冕。\n[name=\"Logos\"]令我前行至此的正是特蕾西娅殿下的理想。你们夺走且亵渎了她的生命，却无法熄灭她在我们眼前燃起的炬火。\n[name=\"Logos\"]见过黎明光辉之人，怎可能再度回到永夜之中？"
+        }
+      ],
+      "description": "血魔大君明确知晓特蕾西娅。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "血魔大君明确评价特蕾西娅的路线与继承人选择。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅不在场。",
+          "status": "not_established",
+          "to": "npc_aa980d6791c26c93"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 445,
+          "kind": "story",
+          "line": 286,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "城防塔决战",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "npc_aa980d6791c26c93|npc_c0e49cc5a9477cf1"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 623,
+          "line": 609,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_malist_1_1.txt",
+          "quote": "[name=\"至简\"]博士？\n[name=\"至简\"]是的，我在等可露希尔……\n[Dialog]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"m\")]\n[name=\"至简\"]……在维护罗德岛的核心结构，今天不用等了？\n[name=\"至简\"]啧，我好不容易才想通这里该怎么设计的。\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"none\")]\n……\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"m\")]\n[name=\"至简\"]我的意见？我刚来罗德岛不久，对核心结构又不熟，我能提什么意见？\n[name=\"至简\"]非要说的话……我建议你们下次维修舰船的核心结构时，选取一些更耐腐蚀的材料作为替换。\n[name=\"至简\"]为什么？\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#8$1\",focus=\"m\")]\n[name=\"至简\"]……因为等一切结束和消失，你我都不会留下，留下的只会是这艘舰船的骨架，它才是恒久的，它会代表着我们。"
+        }
+      ],
+      "description": "至简与博士曾在罗德岛舰桥讨论舰船核心结构设计。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_4054_malist",
+          "reason": "至简与博士在罗德岛舰桥进行实际双向问答。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "至简与博士在罗德岛舰桥进行实际双向问答。",
+          "status": "supported",
+          "to": "char_4054_malist"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_56b0dd5bc7e9e890.json",
+      "sources": [
+        {
+          "endLine": 623,
+          "kind": "story",
+          "line": 609,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_malist_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇候选窗所示时段",
+      "title": "至简"
+    }
+  ],
+  "relationship_id": "char_4054_malist|npc_b99957887950ebfd"
+}

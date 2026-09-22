@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 315,
+          "line": 312,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_f12yin_2_1.txt",
+          "quote": "[name=\"安东尼\"]杜玛，她怎么样？\n[Character(name=\"avg_264_f12yin_1#1$1\", name2=\"char_441_lotus_1#4\",focus=2)]\n[name=\"杜玛\"]我已经给她敷好伤药了，现在正迷迷糊糊睡着呢。先让她住在医疗部观察两天，应该不会有什么大问题，你不必太过担心。\n[name=\"杜玛\"]她是怎么受伤的？"
+        }
+      ],
+      "description": "杜玛为受伤的猎蜂治疗，双方局部共处。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_137_brownb",
+          "reason": "猎蜂在杜玛治疗和留观的同一房间醒来。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "杜玛亲自为猎蜂敷药并说明诊疗安排。",
+          "status": "supported",
+          "to": "char_137_brownb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_7eac560dd87929be.json",
+      "sources": [
+        {
+          "endLine": 315,
+          "kind": "story",
+          "line": 312,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_f12yin_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "山干员密录所述罗德岛时期",
+      "title": "山"
+    }
+  ],
+  "relationship_id": "char_137_brownb|npc_b6173633e2da4a81"
+}

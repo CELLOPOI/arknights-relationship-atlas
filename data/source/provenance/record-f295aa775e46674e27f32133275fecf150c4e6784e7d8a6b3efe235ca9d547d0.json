@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 316,
+          "line": 152,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_07_end.txt",
+          "quote": "[name=\"大嘴莫布\"]  毫无疑问！时代仍在发展，属于卡西米尔的未来依旧熠熠生辉！\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_sportsbar\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_061#7\", name2=\"avg_npc_064_weapon_1#5\", focus=1)]\n[name=\"玛莉娅\"]  真的不能去现场看比赛吗？姐姐应该有参赛者内部门票吧……？\n[Character(name=\"avg_npc_061#7\", name2=\"avg_npc_064_weapon_1#2\", focus=2)]\n[name=\"佐菲娅\"]  傻丫头，你想再被无胄盟袭击一次吗！\n[Character(name=\"avg_npc_061#7\", name2=\"avg_npc_064_weapon_1#2\", focus=1)]\n[name=\"玛莉娅\"]  呜……\n[Character(name=\"avg_npc_061#7\", name2=\"avg_npc_064_weapon_1#5\", focus=2)]\n[name=\"佐菲娅\"]  ……我们已经和无胄盟公开敌对了，你知道这意味着什么吗？\n[name=\"佐菲娅\"]  我们不能太高调地露面，要是继续对抗下去，能不能留在大骑士领都是未知数。\n[Character(name=\"avg_npc_061#7\", name2=\"avg_npc_064_weapon_1#6\", focus=2)]\n[name=\"佐菲娅\"]  ……说真的，我都不知道为什么事情会走到这一步……\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G08\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_105\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"左手骑士\"]  ……\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.6)]\n[Character(name=\"avg_npc_211_1#3\")]\n[name=\"发言人马克维茨\"]  ……唔，这不是……\n[Character(name=\"avg_npc_105\")]\n[name=\"左手骑士\"]  ……恰尔内的跟班吗。\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1\", focus=2)]\n[name=\"发言人马克维茨\"]  您好，泰特斯阁下。\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1\", focus=1)]\n[name=\"左手骑士\"]  坐吧。\n[name=\"左手骑士\"]  当上发言人之后意气风发，哼？\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#5\", focus=2)]\n[name=\"发言人马克维茨\"]  ……没有的事。\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#5\", focus=1)]\n[name=\"左手骑士\"]  在那种情形下，突然临危受命，你就不觉得奇怪吗？\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#5\", focus=2)]\n[name=\"发言人马克维茨\"]  ……恰尔内先生走得匆忙，很多事情我都没来得及问他。\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#5\", focus=1)]\n[name=\"左手骑士\"]  你想问吗？\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#4\", focus=2)]\n[name=\"发言人马克维茨\"]  我……\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#4\", focus=1)]\n[name=\"左手骑士\"]  我在联合会里有一些人脉……如果你不方便，我可以帮你问到恰尔内的流放地。\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#5\", focus=2)]\n[name=\"发言人马克维茨\"]  ……\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#5\", focus=1)]\n[name=\"左手骑士\"]  别误会，再输给耀骑士一次让我意识到了一件事，我已经不再是那个靠一只手打败七名骑士的泰特斯·白杨了。\n[name=\"左手骑士\"]  在退役前，我总得和你们这些发言人攀上人情……干嘛摆出那副表情？\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#6\", focus=2)]\n[name=\"发言人马克维茨\"]  ……说实在的，我只是没有想到，堂堂锋盔骑士团主力，曾一度有希望进军四强，摘得大骑士封号的您……\n[name=\"发言人马克维茨\"]  也会有主动提到退役的一天。\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#7\", focus=2)]\n[name=\"发言人马克维茨\"]  赛场上的您……是那么的……孤傲，我本以为您……\n[Character(name=\"avg_npc_105\", name2=\"avg_npc_211_1#7\", focus=1)]\n[name=\"左手骑士\"]  做竞技骑士是很悲剧的，马克维茨。在场外，我们也是人，也要为自己谋退路。\n[name=\"左手骑士\"]  能四肢健全地战斗到今天，已经该知足了……\n[Character(name=\"avg_npc_105\")]\n[name=\"左手骑士\"]  理想结束了，马克维茨。\n[stopmusic(fadetime=1.5)]\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_23_G01\",screenadapt=\"coverall\")]\n[playMusic(intro=\"$batmeeting_intro\", key=\"$batmeeting_loop\", volume=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_121\")]\n[name=\"大嘴莫布\"]  今天对决的两位，都大有来头！不仅如此，这也是数届特锦赛都未曾见过的，独立骑士间的对决！\n[PlaySound(key=\"$livecrowd\", volume=0.4, loop=false, channel=\"people\")]\n[Character(name=\"avg_npc_121#3\")]\n[name=\"大嘴莫布\"]  没有企业赞助！没有骑士团的训练与扶持！只靠自己给盔甲抛光，打磨武器！\n[Character(name=\"avg_npc_121\")]\n[name=\"大嘴莫布\"]  但是，他们依旧站上了特锦赛的赛场，不仅如此，其中更是有曾经的冠军，万众瞩目的复活王者！\n[Character(name=\"avg_npc_121#3\")]\n[name=\"大嘴莫布\"]  有请，年轻的传奇，来自临光家族的冠军，耀骑士玛嘉烈·临光！\n[PlaySound(key=\"$livecrowd\", volume=0.4, loop=false, channel=\"people\")]\n[dialog]\n[Character(name=\"avg_1014_nearl2_1#5$1\",fadetime=1,block=true)]\n[delay(time=2)]\n[name=\"玛嘉烈\"]  ……\n[Character(name=\"avg_npc_121\")]\n[name=\"大嘴莫布\"]  而另一边，哦，只存在于历史书之中的种族，稀少的库兰塔，鞭笞旧时代的战神后裔——\n[name=\"大嘴莫布\"]  即使放眼漫长的骑士竞技历史，也仅此一位的特例，纯粹的血统，纯粹的恐怖与强大！\n[Character(name=\"avg_npc_121#3\")]\n[name=\"大嘴莫布\"]  来——自草原深处的独行侠，最后的怯薛，逐魇骑士拓拉！\n[dialog]\n[Character(name=\"avg_npc_225\",fadetime=1,block=true)]\n[delay(time=2)]\n[name=\"逐魇骑士\"]  ……\n[Character(name=\"avg_npc_121#2\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"大嘴莫布\"]  这是——梦魇的号角！大战一触即发！冠军是否会败在古老种族的手下！？还是复苏的征途会被耀骑士斩断！？\n[name=\"大嘴莫布\"]  让我们——\n[dialog]\n[Character(name=\"avg_npc_225\")]\n[name=\"逐魇骑士\"]  耀骑士。\n[delay(time=0.5)]\n[dialog]\n[Character(name=\"avg_npc_225\", focus=-1)]\n[name=\"大嘴莫布\"]  哦哦？逐魇骑士突然将长枪插在了地上，他……他在做什么，在行礼吗？\n[Character(name=\"avg_npc_225\")]\n[name=\"逐魇骑士\"]  我等待这一刻……等待太久。\n[name=\"逐魇骑士\"]  卡西米尔的骑士令人失望太深，太深了。\n[Character(name=\"avg_1014_nearl2_1#1$1\")]\n[name=\"玛嘉烈\"]  ……我听弗格瓦尔德师傅提起过你，逐魇骑士。\n[name=\"玛嘉烈\"]  你在寻找什么？\n[Character(name=\"avg_npc_225\")]\n[name=\"逐魇骑士\"]  ……寻找我的天命，天马。\n[name=\"逐魇骑士\"]  我古老的族人奉行传统，在成年之时踏上未知的天途……\n[name=\"逐魇骑士\"]  ……没有任何人知道在天途上等待自己的是什么，但只有完成这趟旅途，人生才算真正地开始。\n[name=\"逐魇骑士\"]  与野兽厮杀也好，见闻异国异事也罢，每一个走完天途的梦魇，都将意识到自己天途的意义——\n[name=\"逐魇骑士\"]  随后，他们成为恐惧的胚芽，踏过万水千山，将征服散播。\n[name=\"逐魇骑士\"]  只有熟知这片大地，我们才能熟知自己的命运。\n[Character(name=\"avg_1014_nearl2_1#1$1\")]\n[name=\"玛嘉烈\"]  你找到你的天途的意义了吗？\n[Character(name=\"avg_npc_225\")]\n[name=\"逐魇骑士\"]  ……还没有，天马。我的前路……如同被迷雾萦绕的森林。\n[name=\"逐魇骑士\"]  我多么希望，你，就是我的意义。\n[name=\"逐魇骑士\"]  来吧。\n[stopmusic(fadetime=1.5)]\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_23_G07\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]\n[Character(name=\"avg_430_fartth_1#3\")]\n[name=\"查丝汀娜\"]  ……你们，是塑料……是瑟奇亚克的家人吗？\n[character]\n[name=\"平静的女人\"]  ……你是？\n[Character(name=\"avg_430_fartth_1\")]\n[name=\"查丝汀娜\"]  我是……骑士。他的骑士朋友。\n[name=\"查丝汀娜\"]  ……你们……没有遭受什么……虐待吗？\n[character]\n[name=\"平静的女人\"]  虐待？我不明白你在说什么……\n[name=\"平静的女人\"]  那天瑟奇亚克突然倒下，有一个白衣的骑士告诉我们，他是被赛场上的仇家陷害了。\n[name=\"平静的女人\"]  然后，她让我们躲藏在这里……\n[Character(name=\"avg_430_fartth_1\")]\n[name=\"查丝汀娜\"]  ……这是，瑟奇亚克给我的。\n[character]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"平静的女人\"]  ……！这是，我送给他的木雕……\n[name=\"平静的女人\"]  他在哪里？他还好吗？\n[Character(name=\"avg_430_fartth_1\")]\n[name=\"查丝汀娜\"]  ……我带你去见他。\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[Background(image=\"bg_23_G05\",screenadapt=\"coverall\")]\n[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_103nc_1\",name2=\"char_204_platnm_1\",focus=2)]\n[name=\"白金\"]  ……做个交易吧。\n[name=\"白金\"]  只要你答应我，今夜之后，不要再和无胄盟为敌，我可以把你的妻儿在哪告诉你。\n[Character(name=\"avg_npc_103nc_1#3\",name2=\"char_204_platnm_1\",focus=1)]\n[name=\"塑料骑士\"]  ……什么？\n[Character(name=\"avg_npc_103nc_1#3\",name2=\"char_204_platnm_1\",focus=2)]\n[name=\"白金\"]  还有你，远牙，转告红松骑士团的每个人。\n[name=\"白金\"]  无胄盟内部出了些问题，我也察觉得到。\n[Character(name=\"avg_npc_103nc_1#3\",name2=\"char_204_platnm_1#3\",focus=2)]\n[name=\"白金\"]  没有人想平白无故地被人利用，吃力不讨好……"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_0591e13db8a4ab7b",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_157e6b20d3e8c379"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_157e6b20d3e8c379",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "npc_0591e13db8a4ab7b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 316,
+          "kind": "story",
+          "line": 152,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "npc_0591e13db8a4ab7b|npc_157e6b20d3e8c379"
+}

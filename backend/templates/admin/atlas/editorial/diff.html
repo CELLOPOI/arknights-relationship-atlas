@@ -1,0 +1,11 @@
+{% if changes.paginator.num_pages > 1 %}<nav class="actions" aria-label="资料差异分页">
+{% if changes.has_previous %}<a href="?page={{ changes.previous_page_number }}">上一页</a>{% endif %}
+<span>共 {{ changes.paginator.count }} 条差异，第 {{ changes.number }} 页，共 {{ changes.paginator.num_pages }} 页</span>
+{% if changes.has_next %}<a href="?page={{ changes.next_page_number }}">下一页</a>{% endif %}
+</nav>{% endif %}
+{% for change in changes %}
+<details open><summary>{{ change.label }} · {{ change.name|default:change.id }}{% if not change.before %}（新增）{% endif %}</summary>
+<table class="diff"><thead><tr><th>字段</th><th>修改前</th><th>修改后</th></tr></thead><tbody>
+{% for field in change.fields %}<tr><th scope="row">{{ field.label }}</th><td data-label="修改前"><pre>{{ field.before }}</pre></td><td data-label="修改后"><pre>{{ field.after }}</pre></td></tr>{% endfor %}
+</tbody></table></details>
+{% empty %}<p>暂无资料差异。添加条目并保存后，差异将显示在这里。</p>{% endfor %}

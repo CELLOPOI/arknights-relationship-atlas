@@ -1,0 +1,173 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 579,
+          "line": 554,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-02.txt",
+          "quote": "[name=\"W\"]赫德雷那个古董脑袋有时候还是管点用的，曼弗雷德，你果然会带着小队来突袭。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#2$1\",focus=\"m\")]\n[name=\"W\"]哦，这好像是我们第一次正式见面吧，自我介绍一下，我是巴别塔的成员，也是来收走你的烂命的人，你可以叫我W。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]赫德雷小队的佣兵……\n[name=\"曼弗雷德\"]你还敢回来送死？\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#1$1\",focus=\"m\")]\n[name=\"W\"]送死？\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#14$1\",focus=\"m\")]\n[name=\"W\"]哈，你就没有想过，你们突袭骸骨这么顺利，那雇佣兵都去了哪里？\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_soldiersrun\",volume=1,channel=1)]\n[charslot(slot=\"l\",name=\"avg_npc_054\",duration=1)]\n[charslot(slot=\"r\",name=\"avg_npc_054\",duration=1)]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_1336_1#1$1\",duration=1)]\n[charslot(slot=\"r\",name=\"avg_npc_1336_1#1$1\",duration=1)]\n[Delay(time=2.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#14$1\",focus=\"m\")]\n[name=\"W\"]看看现在是谁落入了谁的包围？\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]就凭这些散兵游勇，也想对抗军事委员会的战士？\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#2$1\",focus=\"m\")]\n[name=\"W\"]你很骄傲嘛，你最好祈祷你的骨头会和嘴一样硬。"
+        }
+      ],
+      "description": "W明确自我介绍是第一次正式见面，双方当面对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E128"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "W明确自我介绍是第一次正式见面，双方当面对话。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E128"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "W明确自我介绍是第一次正式见面，双方当面对话。",
+          "status": "supported",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 579,
+          "kind": "story",
+          "line": 554,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 41,
+          "line": 38,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-09_end.txt",
+          "quote": "[name=\"赫德雷\"]你以为来的会是谁？曼弗雷德吗？\n[Character(name=\"avg_npc_412_1#1$1\")]\n[name=\"W\"]……我是在想，特雷西斯会留你一命，还让你在伦蒂尼姆四处蹦跶，他是不是也老糊涂了？\n[name=\"W\"]看你们这么长时间没有声音，我还当你们早就死透了。"
+        }
+      ],
+      "description": "赫德雷当面问W是否以为来的是曼弗雷德，具体名字已传达；W转而谈特雷西斯不撤销这一方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR08"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "赫德雷当面问W是否以为来的是曼弗雷德，具体名字已传达；W转而谈特雷西斯不撤销这一方向。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 41,
+          "kind": "story",
+          "line": 38,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 150,
+          "line": 66,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_12-02.txt",
+          "quote": "[name=\"W\"]嗨，凯尔希，真晦气，不是吗？\n[charslot(slot=\"m\",name=\"avg_npc_412_1#10$1\",focus=\"none\")]\n[name=\"凯尔希\"]这里……\n[charslot(slot=\"m\",name=\"avg_npc_412_1#1$1\",focus=\"m\")]\n[name=\"W\"]要不你再睡会儿？我还没来得及往你枕头下面塞炸弹呢。\n[name=\"W\"]我猜，你醒来看到的第一个人是我，一定不怎么高兴。我也一样。\n[name=\"W\"]我宁愿去死都不想被误会成每天流着泪守在你的床前，全心全意等着你睁开眼睛的这一刻。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"m\")]\n[name=\"W\"]相信我，这是个巧合，我只是来房间里找水喝的，是你先占了我的位置。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"none\")]\n[name=\"凯尔希\"]博士和阿米娅在哪？\n[charslot(slot=\"m\",name=\"avg_npc_412_1#10$1\",focus=\"m\")]\n[name=\"W\"]你觉得呢？\n[name=\"W\"]搞不好我在你睡大觉的时候把他们都杀了。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#10$1\",focus=\"none\")]\n[name=\"凯尔希\"]看来他们暂时没事。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#1$1\",focus=\"m\")]\n[name=\"W\"]你还真是信任我。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#1$1\",focus=\"none\")]\n[name=\"凯尔希\"]我们现在的位置是哪里？\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"m\")]\n[name=\"W\"]伦蒂尼姆城外，我的一间安全屋，现在就连院子里都塞满了你的那些可怜盟友。\n[name=\"W\"]我的这份恩情在不在你的那些伟大计划里，凯尔希？你可以试着发自内心地感谢我，我会考虑接受的。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"none\")]\n[name=\"凯尔希\"]我和阿斯卡纶制定过数种计划，其中最差的一些情况确实考虑到了借助部分前巴别塔小队的帮助。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#8$1\",focus=\"m\")]\n[name=\"W\"]我就知道，你会把每个人的用处算计得明明白白——\n[charslot(slot=\"m\",name=\"avg_npc_412_1#8$1\",focus=\"none\")]\n[name=\"凯尔希\"]不过，我还是要感谢你，W。\n[name=\"凯尔希\"]如你所说的，发自内心。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#12$1\",focus=\"m\")]\n[name=\"W\"]……啊？\n[name=\"W\"]特雷西斯伤到了你的脑子吗？我是不是应该把闪灵叫来？\n[charslot(slot=\"m\",name=\"avg_npc_412_1#12$1\",focus=\"none\")]\n[multiline(name=\"凯尔希\")]我，\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[multiline(name=\"凯尔希\")]唔——\n[name=\"凯尔希\"]……\n[name=\"凯尔希\"]W。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"m\")]\n[name=\"W\"]我不会真的去叫闪灵的。伤了脑子对于你未必是件坏事。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"none\")]\n[name=\"凯尔希\"]请你……扶我一把。我需要起身。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#3$1\",focus=\"m\")]\n[name=\"W\"]……\n[name=\"W\"]……好吧。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Background(image=\"37_g11_wsafehouse\", screenadapt=\"coverall\", block=true)]\n[charslot(slot=\"l\",name=\"char_003_kalts_1\")]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#8$1\")]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_glassclink\", volume=0.6)]\n[Delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#8$1\",focus=\"r\")]\n[name=\"W\"]你的水。\n[charslot(slot=\"l\",name=\"char_003_kalts_1#4\",focus=\"l\")]\n[name=\"凯尔希\"]谢谢。\n[charslot(slot=\"l\",name=\"char_003_kalts_1\",focus=\"l\")]\n[name=\"凯尔希\"]撤出伦蒂尼姆是一项风险很高的行动，我们现在的处境如何？\n[charslot(slot=\"r\",name=\"avg_npc_412_1#1$1\",focus=\"r\")]\n[name=\"W\"]你确定要问我？可露希尔正在建那些临时营房，我们可以在她回来之前，谁也不打扰谁。\n[charslot(slot=\"l\",name=\"char_003_kalts_1\",focus=\"l\")]\n[name=\"凯尔希\"]我想听听你的判断，雇佣兵对危险的嗅觉更敏锐。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#12$1\",focus=\"r\")]\n[name=\"W\"]……好吧。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#8$1\",focus=\"r\")]\n[name=\"W\"]你的自救军盟友们被曼弗雷德耍得很惨。\n[name=\"W\"]他和他的小弟看起来终于腾出手来修理你们了，在我看来，这些可怜的市民朋友从来就不是萨卡兹那些刀尖舔血的渣滓的对手。\n[name=\"W\"]现在这些可怜虫给赶出伦蒂尼姆了，要我说，这是件好事，总比白白死在巷子里要强。\n[name=\"W\"]唯一的好消息是大公爵们终于动手了，我收到了伊内丝那女人的情报，博士和小兔子被某一位大公爵拐走打工了，她和他们在一起。\n[stopmusic(fadetime=3)]\n[charslot(slot=\"l\",name=\"char_003_kalts_1#3\",focus=\"l\")]\n[name=\"凯尔希\"]大公爵……\n[charslot(slot=\"l\",name=\"char_003_kalts_1\",focus=\"l\")]\n[name=\"凯尔希\"]这么说，战争还是爆发了。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#1$1\",focus=\"r\")]\n[name=\"W\"]真遗憾，你错过了不少刺激的事情。\n[name=\"W\"]后悔吗，凯尔希？你的那些聪明才智似乎没有换来你想要的结果。\n[charslot(slot=\"l\",name=\"char_003_kalts_1\",focus=\"l\")]\n[name=\"凯尔希\"]我从未后悔。"
+        }
+      ],
+      "description": "该人物单向明确知晓曼弗雷德。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "该人物在直接对话中明确谈论曼弗雷德清剿自救军。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "被提及者未在当前局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 150,
+          "kind": "story",
+          "line": 66,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_12-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 299,
+          "line": 233,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "quote": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#5$1\",focus=\"m\")]\n[name=\"维什戴尔\"]“阿喃那”这小玩意儿还挺好用，竟然转眼就能把天灾给人送到家门口。\n[name=\"维什戴尔\"]啧，难怪我们要带走它的时候，博士和老女人会那么紧张，小兔子还非要跟上来看着我。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]嗯……要是我们干脆一鼓作气把那几个核心圈国家的首都给毁了……\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"none\")]\n[name=\"？？？\"]它或许的确能将恐惧降临在核心圈国家的首都，但那不代表能摧毁那些国家。\n[name=\"？？？\"]我很肯定，这份侮辱能换回来的，只有对卡兹戴尔的报复。我们最初的历史已经证明了这一点。\n[name=\"？？？\"]这不是个明智的决定，维什戴尔。况且，谨慎使用它，它对思维和身体造成的负担远超我的想象。\n[name=\"？？？\"]你刚刚才切身体会过那种痛苦。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#12$1\",focus=\"m\")]\n[name=\"维什戴尔\"]轮不到你来告诉我，曼弗雷德。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]如果我们能理解“阿喃那”正确的使用方式，它所能做到的，远非只有恐吓这么简单。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]两位殿下所期许的，也并非如此。它的确是武器，是威慑，但更是摆脱我们宿命的基石——\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#12$1\",focus=\"m\")]\n[name=\"维什戴尔\"]你比赫德雷更烦人。\n[name=\"维什戴尔\"]曼弗雷德，不要忘了自己的身份。你只是一个囚徒，你现在还活着的唯一原因是卡兹戴尔需要你活着。\n[name=\"维什戴尔\"]而军事委员会还能够存在的唯一原因，也只是还活着的萨卡兹依旧需要一个信念支撑他们回到家。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]妈的，特雷西斯真是好算计。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#3$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……赫德雷早猜到了，不是吗？\n[name=\"曼弗雷德\"]这本就是摄政王殿下的阳谋，被仇恨再次凝聚在一起的族群，重新团结在卡兹戴尔的周围——\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]巴别塔和军事委员会的再一次合作，为了同一个目标。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]不要妄想这样你就能躲过审判，曼弗雷德。记住我的话。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]维什戴尔……\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]你还没说完？\n[charslot(slot=\"m\",name=\"avg_npc_404_1#10$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]如果卡兹戴尔真有和其他国家恢复正常关系的那一天，就如特蕾西娅殿下曾努力的那样……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]我，还有军事委员会的其他人都必须和卡兹戴尔划清界线。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]对萨卡兹而言，外族人是为我们带来仇恨的人，而我们对那些国家的人亦然。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#8$1\",focus=\"m\")]\n[name=\"维什戴尔\"]……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]他们迟早会宣称我们犯下的罪并未清洗，而我会等着那些复仇者找到我们——\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#9$1\",focus=\"m\")]\n[name=\"维什戴尔\"]闭嘴吧，曼弗雷德。少摆出一副好好先生的模样。\n[name=\"维什戴尔\"]特雷西斯和你们干了蠢事，蠢到我恨不得把你们全都挫骨扬灰。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]别忘了，那些真心相信你们计划的战争疯子可几乎都陪食腐者死在了伦蒂尼姆。\n[name=\"维什戴尔\"]你们亲手坑死了那些蠢货。我们能救下来、能带着撤走的人已经不剩多少。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#10$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]但萨卡兹犯下的错，萨卡兹自然会承担。\n[name=\"维什戴尔\"]巴别塔还没有懦弱到会为了一群敢来挑衅卡兹戴尔的杂碎，就把军事委员会一股脑全扔到城外。\n[name=\"维什戴尔\"]殿下绝不会这么干，我也不会。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#13$1\",focus=\"m\")]\n[name=\"维什戴尔\"]他们要是敢来，我不介意再打一架。\n[name=\"维什戴尔\"]你要是继续啰哩啰嗦，我就把你扔给某个愿意和你扯这些蠢事的人。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……"
+        }
+      ],
+      "description": "维什戴尔看守曼弗雷德并与其直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "双方直接长谈。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "双方直接长谈。",
+          "status": "supported",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 299,
+          "kind": "story",
+          "line": 233,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "萨卡兹撤军途中",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_113_cqbw|npc_03f95afb5dd17c3f"
+}

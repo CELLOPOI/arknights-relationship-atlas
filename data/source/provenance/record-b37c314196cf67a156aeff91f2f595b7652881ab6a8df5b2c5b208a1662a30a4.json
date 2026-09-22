@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 382,
+          "line": 379,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-02.txt",
+          "quote": "[name=\"Misery\"]即使你们相聚的尽头是死亡？\n有人站在她面前。那个人脚边没有火光，短刀反射着漆黑的夜色。\n蔓德拉笑了。\n她想，她看到了真正的死亡。"
+        }
+      ],
+      "description": "Misery现身站在蔓德拉面前发问，蔓德拉看见他并笑。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E54"
+          ],
+          "from": "char_615_acspec",
+          "reason": "Misery现身站在蔓德拉面前发问，蔓德拉看见他并笑。",
+          "status": "supported",
+          "to": "npc_cb03e146518e01fb"
+        },
+        {
+          "evidenceIds": [
+            "E54"
+          ],
+          "from": "npc_cb03e146518e01fb",
+          "reason": "Misery现身站在蔓德拉面前发问，蔓德拉看见他并笑。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 382,
+          "kind": "story",
+          "line": 379,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_615_acspec|npc_cb03e146518e01fb"
+}

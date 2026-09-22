@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 680,
+          "line": 613,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_06_end.txt",
+          "quote": "剧烈的震动，从地底传到脚面。\n就像有什么极为顽强的生命正要破土而出一样。\n你注视着不远处的内层走廊不断地上升，并透过窗户看到了一个人。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Background(image=\"38_g3_rhinelab_corridor\",screenadapt=\"coverall\")]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_537_1#8$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[name=\"克丽斯腾\"]——\n[charslot(slot=\"m\",focus=\"n\")]\n克丽斯腾。\n这个名字最近被反反复复地提及。\n疯子。天才。敌人。朋友。\n又或者……只是一个不属于这个时代的痴人。\n这是你第一次看到她的样子。而她依旧仰头看着天空，仿佛什么都没有的那处空白才是她唯一需要在意的东西。\n[stopmusic(fadetime=3)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Background(image=\"29_g4_corridor\",screenadapt=\"coverall\")]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[playMusic(intro=\"$act19side_01_intro\",key=\"$act19side_01_loop\", volume=0.6)]\n[CameraShake(duration=-1, xstrength=3, ystrength=8, vibrato=30, randomness=90, fadeout=false, block=false)]\n[delay(time=1)]\n[Decision(options=\"怎么……回事？;站不稳了！\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n一个熟悉的身影出现在你面前。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]Mon3tr！\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"npc_10002\",duration=0.5)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[name=\"Mon3tr\"]（尖啸）\n[charslot(duration=0.3)]\n它在瞬间舒展了自己的身躯，尖锐的爪子轻轻抓住了你的肩膀，庞大的身形将你完全笼罩。\n很快，更为巨大的阴影在Mon3tr身后升起。\n聚焦发生器。\n你直到此刻才得以确认，眼前这神秘的环形走廊以及缪尔赛思的生态园，都是聚焦发生器的一部分。\n梅兰德与军方为它争斗不休，又握手言和，可没人猜到它会以这种形式出现在所有人面前。\n推进器的火焰几乎刺痛了你的双眼，激烈的气流让你失去平衡。\n你相信，要不是有凯尔希和Mon3tr在，你会被立刻掀飞——就像你周围的其他人和整间破破烂烂的实验室一样，被狠狠地抛开。\n[dialog]\n[Decision(options=\"凯尔希……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]博士，抓稳一些。\n[dialog]\n[charslot(slot=\"m\",focus=\"n\")]\n[Decision(options=\"我看到了“石棺”。;我没料到克丽斯腾的实验室能飞。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"我们明明就快接近真相……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]我知道。\n[charslot]\n你发现半空中那个人把视线投向了你们。\n不，不是你们。她看的是护着你的漆黑怪物。\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（似有所感的嘶鸣）\n[charslot]\n克丽斯腾动了动嘴唇，似乎发出了一次询问。\n你听到凯尔希重复了一遍刚才对你的回答。\n[dialog]\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",duration=0.5)]\n[delay(time=1)]\n[name=\"凯尔希\"]——我知道。"
+        }
+      ],
+      "description": "克丽斯腾明确注视Mon3tr并发问，Mon3tr有所感地回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C21"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "克丽斯腾明确注视Mon3tr并发问，Mon3tr有所感地回应。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [
+            "C21"
+          ],
+          "from": "npc_ebd7747563277517",
+          "reason": "克丽斯腾明确注视Mon3tr并发问，Mon3tr有所感地回应。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 680,
+          "kind": "story",
+          "line": 613,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_ebd7747563277517"
+}

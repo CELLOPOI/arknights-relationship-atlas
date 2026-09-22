@@ -1,0 +1,36 @@
+{
+  "id": "import:char_4230_mcnist|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【绿野幻梦】\n选项：\n1：缪尔赛思难道正被自己的实验品追杀？\n2：白面鸮不会被恐怖实验体绑架了吧？！\n分支条件（原选项编号）：1 / 2\nMechanist：……\nMechanist：我该笑一下吗，博士？\nMechanist：毕竟，你说的可能不是什么科幻故事，或者一个荒诞笑话。\nMechanist：它很可能是明天的新闻。\n选项：\n1：难怪可露希尔对你又佩服又害怕……\n2：……\n3：你和Logos不愧是好搭档。\n分支条件（原选项编号）：1\nMechanist：你是指，她偶尔会兼任我的新武器测试用靶？\nMechanist：只要别拿靠不住的点子打扰我工作，她就没必要感到害怕。\n分支条件（原选项编号）：2\nMechanist：……\n分支条件（原选项编号）：3\nMechanist：作为搭档，Logos是还不错。\nMechanist：不过博士，你能提醒一下他吗？\nMechanist：要是他能省略一些修辞，任务耗时将缩短至少三十个百分点，我能把更多时间花在真正的工作上。\n分支条件（原选项编号）：1 / 2 / 3\nMechanist：情报梳理完毕，博士。\nMechanist：目前有用的信息就只有这么多了。我已将最重要的几份文档提高了查阅优先级，你随时能通过PRTS读取。\n选项：\n1：还有没有新消息？\n分支条件（原选项编号）：1\nMechanist：白面鸮的记录在这之后就没更新过。\nMechanist：经过梅尔的调整，九号装置的数据传输趋于稳定。\nMechanist：除非白面鸮的身体出现了问题……\n选项：\n1：我有些担心白面鸮。\n2：希望赫默与格雷伊能尽快见到白面鸮。\n分支条件（原选项编号）：1 / 2\nMechanist：赫默会随时通知我们基地那边的进展。\nMechanist：塞雷娅已经收到消息，她一个小时后就会与我们会合。\nMechanist：博士，在这段时间内，你还有什么计划吗？\n选项：\n1：去缪尔赛思出事的地方看看。\n分支条件（原选项编号）：1\nMechanist：我是个机械师，不是什么侦探助手……\n选项：\n1：但这是目前我们唯一能做的事。\n2：我也只是个源石研究者。\n分支条件（原选项编号）：1 / 2\n选项：\n1：我只能依靠你了，Mechanist。\n分支条件（原选项编号）：1\nMechanist：好吧，博士，那现在就出发。\n\n【可露希尔】\nMechanist：先喝一口，做好心理准备，然后看看这个。工程部为了地块改造预先拉的表格。\n可露希尔：这么厚？！\nMechanist：所以说，来一口？\n可露希尔：免了。\n可露希尔：这个量还差得远呢。这表格要是让我来拉，我能拉到这——么厚。\nMechanist：可敬。\n可露希尔：博士、阿米娅，我先跟Mechanist聊去了。你们要是有什么事情，记得来找我啊。\n阿米娅：可露希尔小姐她……\n选项：\n1：越来越可靠了？\n2：越来越让人担心了？\n3：越来越爱逞强了？\n分支条件（原选项编号）：1\n阿米娅：可露希尔小姐一直都很可靠呀，只是……\n分支条件（原选项编号）：2\n阿米娅：博士和我的看法也一样啊……\n分支条件（原选项编号）：3\n阿米娅：是啊，毕竟她现在是整个罗德岛工作最繁重的人……\n分支条件（原选项编号）：1 / 2 / 3\n阿米娅：博士，我们是不是应该帮她分担一些工作？\n\n【相变临界】\n煌：呼……这样一来工程部的重建也算完成了吧，真是了不起的大工程！\n煌：等到博士和阿米娅，带凯尔希医生回来的时候，一定会被震惊的！\nMechanist：确实是了不起……\nMechanist：虽然不想说扫兴的话，你这么肯定博士会成功？\n煌：当然。\n煌：我相信小兔子，还有博士。就这么简单。\nMechanist：没有理由？\n煌：如果一定要有什么理由才能相信彼此，也没有必要当精英干员了吧？\nMechanist：说得也是。\n\n【离解复合】\n选项：\n1：所有人测试通讯设备。\n分支条件（原选项编号）：1\nRaidian：已就位。\nMantra：收到。\nMisery：在前线等你们。\nLogos：前往集合。\nMechanist：马上到。\n迷迭香：我在，博士。\n煌：好久没一起干架了！\nSharp：“坏家伙”号已返回本舰，马上集合。\nStormeye：稍等片刻。\nPith：在。\nTouch：正在集合。\n阿斯卡纶：等你。\n选项：\n1：各位，目标已同步。\n分支条件（原选项编号）：1\n选项：\n1：优先目标——支援凯尔希。\n分支条件（原选项编号）：1\n选项：\n1：核心任务——进入Abyss，切断PRTS的核心能源。",
+  "relationship_id": "char_4230_mcnist|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 158,
+      "kind": "story",
+      "line": 100,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_01_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 210,
+      "kind": "story",
+      "line": 168,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_closur_1_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 702,
+      "kind": "story",
+      "line": 683,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 526,
+      "kind": "story",
+      "line": 449,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

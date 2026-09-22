@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 283,
+          "line": 246,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_04_end.txt",
+          "quote": "[name=\"娜斯提\"]我的起点无关紧要。我的血统不够纯正，也并未经历过什么伟大的事件。\n[name=\"娜斯提\"]如今我只是一名工程师，生活在哥伦比亚，做我想做的事。\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]咳……哈哈……你在哥伦比亚……找到家园了吗？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#7$1\")]\n[name=\"娜斯提\"]……\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]你呢？\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]啊……一晃就那么多年过去了啊。\n[name=\"锡人\"]我听说，这两百年间，那两位年轻人……特雷西斯和特蕾西娅终于把卡兹戴尔建成了移动城市。\n[name=\"锡人\"]也不知道现在的卡兹戴尔是什么样子。\n[name=\"锡人\"]街道是不是还是那么拥挤，城墙上是不是还披挂着千年前的旗帜，不死不灭的熔炉核心，是不是还是那么滚烫？\n[name=\"锡人\"]……\n[name=\"锡人\"]愿意再为我点支烟吗，孩子？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]这一点点火星，留不住魂灵的余温。\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]我知道。我只是……还想再多留一会，多问你几个问题。\n[name=\"锡人\"]在克丽斯腾的梦想中，你看到了什么？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#2$1\")]\n[name=\"娜斯提\"]……未来。\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]她竟然允诺了你……改变萨卡兹的命运？你相信她能做到这一万年来都没人做到的事？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]不，她只是让我看见了一种可能性。\n[name=\"娜斯提\"]一种……来自我自己的可能性。\n[charslot(slot=\"m\",name=\"avg_npc_536_1#10$1\")]\n[name=\"霍尔海雅\"]工程师女士，麻烦问问我的好上司，临终遗言都交代完了吗？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#7$1\")]\n[name=\"娜斯提\"]火快灭了。\n[charslot(slot=\"m\",name=\"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]时间在我这种老家伙身上走得总是太快。\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]最后一个问题，由我提问。\n[name=\"娜斯提\"]来自过去的古老之人，既然你见证过那么多座卡兹戴尔的毁灭，那你必然也曾思考过，寻觅过——\n[charslot(slot=\"m\",name=\"avg_npc_891_1#5$1\")]\n[name=\"娜斯提\"]（萨卡兹语）哪里才是萨卡兹的应许之地？"
+        }
+      ],
+      "description": "娜斯提具体知晓特雷西斯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C13"
+          ],
+          "from": "char_4212_nasti",
+          "reason": "娜斯提从锡人口中听到特雷西斯建立移动卡兹戴尔的具体信息。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "特雷西斯不在场，未建立反向。",
+          "status": "not_established",
+          "to": "char_4212_nasti"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 283,
+          "kind": "story",
+          "line": 246,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "娜斯提与锡人谈论萨卡兹历史时",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1040,
+          "line": 1034,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_08_beg.txt",
+          "quote": "[delay(time=1.5)]\n[name=\"拂哀菈\"]可不久之后，河谷外的“信物”就又像雪片一样涌来。\n[name=\"娜斯提\"]通告死亡的“信物”，是吗？\n[name=\"拂哀菈\"]……是。\n[name=\"娜斯提\"]哪怕是特蕾西娅和特雷西斯，也没法那么快地解决战争的遗留问题。\n[name=\"拂哀菈\"]是啊。哪怕硝烟散去，死亡也常在。\n[name=\"拂哀菈\"]那时，我们种下的果实才刚刚第一次收获，最后做成的果干只有小小一堆，勉强够我们几百人度过冬天最寒冷的那一个月。"
+        }
+      ],
+      "description": "娜斯提单向明确知晓特雷西斯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_4212_nasti",
+          "reason": "娜斯提主动点名特雷西斯，并以其处理战争遗留问题的能力作比较。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "特雷西斯未在当前场景出场，缺少本篇局部反向接收依据。",
+          "status": "not_established",
+          "to": "char_4212_nasti"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 1040,
+          "kind": "story",
+          "line": 1034,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "萨卡兹战争结束后的回顾",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "char_4212_nasti|npc_c573b8884914fc60"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 475,
+          "line": 464,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_07_beg.txt",
+          "quote": "[name=\"凯尔希\"]——Mon3tr！\n[dialog]\n[PlaySound(key=\"$fireburst\", volume=1)]\n[BackgroundTween(xFrom=0, xTo=-65, duration=1,ease=\"OutQuad\",block=false)]\n[charslot(slot = \"l\", name = \"avg_003_kalts_1#7$1\", posfrom=\"150,0\", posto=\"0,0\", afrom=1, ato=0, duration=1)]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$p_skill_Mon3trburst\", volume=0.4)]\n[charslot(slot = \"m\", name = \"npc_10002\", afrom=0, ato=1, duration = 1.5, isblock=true)]\n[name=\"Mon3tr\"]（警惕的啸叫）\n[charslot]\nMon3tr张开漆黑的利爪，灼热感扑面而来。执政官也几乎同时做出了反应，她拔出仪仗剑，侧身挡在你与凯尔希的身前。\n你们同时留意到了前方的“敌人”。"
+        }
+      ],
+      "description": "Mon3tr与克莱门莎在近距离共同应对突发敌情。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "Mon3tr在克莱门莎身旁近距离警戒同一威胁，形成可核定的共同感知。",
+          "status": "supported",
+          "to": "npc_17db81f47ae22715"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_17db81f47ae22715",
+          "reason": "克莱门莎在Mon3tr啸叫后同时拔剑警戒，并与其共同面对敌人。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 475,
+          "kind": "story",
+          "line": 464,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "斗智场遇袭",
+      "title": "生路"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_17db81f47ae22715"
+}

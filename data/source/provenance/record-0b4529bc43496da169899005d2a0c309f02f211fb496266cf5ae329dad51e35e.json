@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 147,
+          "line": 121,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "quote": "[name=\"发言人莫布\"]希瓦艾什先生，我说完了。\n[name=\"发言人莫布\"]露天演说我还是头一次尝试，您确定这样没问题吗……？\n[charslot(slot=\"l\",name=\"avg_172_svrash_1#10$1\",focus=\"l\")]\n[name=\"恩希欧迪斯\"]非常完美，莫布先生。\n[name=\"恩希欧迪斯\"]我相信任谁都挑不出半点问题，您的声音饱含热情。\n[name=\"恩希欧迪斯\"]虽然您拒绝了我安排下属使用源石技艺来放大声音，但您使用的那件扩音用的小装置很好地完成了使命，甚至超出预期……\n[charslot(slot=\"l\",name=\"avg_172_svrash_1#1$1\",focus=\"l\")]\n[name=\"恩希欧迪斯\"]恕我冒昧，难道这就是贵企业的新产品？\n[charslot(slot=\"r\",name=\"avg_npc_1156_1#7$1\",focus=\"r\")]\n[name=\"发言人莫布\"]您说这个扩音器？\n[charslot(slot=\"r\",name=\"avg_npc_1156_1#1$1\",focus=\"r\")]\n[name=\"发言人莫布\"]不，当然不。虽然效果很好，但扩音器在卡西米尔的市场早已被几家大企业瓜分，没有我们能插足的余地……咳咳，抱歉，我失言了。\n[charslot(slot=\"l\",name=\"avg_172_svrash_1#1$1\",focus=\"l\")]\n[name=\"恩希欧迪斯\"]我对卡西米尔企业间的竞争有所耳闻，您只是说出了实情。\n[name=\"恩希欧迪斯\"]那么，您使用的是……？\n[charslot(slot=\"r\",name=\"avg_npc_1156_1#1$1\",focus=\"r\")]\n[name=\"发言人莫布\"]这是一位在列车上遇见的朋友赠送给我的。\n[name=\"发言人莫布\"]我想，对方大概只以为自己送出了一件小玩具。\n[charslot(slot=\"r\",name=\"avg_npc_1156_1#6$1\",focus=\"r\")]\n[name=\"发言人莫布\"]谁能想到，希瓦艾什先生会突然提出这样的请求，这东西忽然就派上了大用场呢！\n[charslot(slot=\"l\",name=\"avg_172_svrash_1#9$1\",focus=\"l\")]\n[name=\"恩希欧迪斯\"]原来如此……\n[charslot(slot=\"l\",name=\"avg_172_svrash_1#10$1\",focus=\"l\")]\n[name=\"恩希欧迪斯\"]莫布先生，喀兰贸易希望能够与贵企业长久地展开合作，而非仅局限于这一次。\n[name=\"恩希欧迪斯\"]接下来的几天，我将安排专人带您参观谢拉格，包括我们的矿区和工厂。\n[name=\"恩希欧迪斯\"]这也是我向您展示的诚意。\n[name=\"恩希欧迪斯\"]我相信，谢拉格不会令贵企业失望。"
+        }
+      ],
+      "description": "恩希欧迪斯与莫布直接洽谈合作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E29"
+          ],
+          "from": "char_172_svrash",
+          "reason": "恩希欧迪斯直接向莫布提出长期合作。",
+          "status": "supported",
+          "to": "npc_157e6b20d3e8c379"
+        },
+        {
+          "evidenceIds": [
+            "E29"
+          ],
+          "from": "npc_157e6b20d3e8c379",
+          "reason": "莫布直接回应恩希欧迪斯的问题。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 147,
+          "kind": "story",
+          "line": 121,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典结束后",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_172_svrash|npc_157e6b20d3e8c379"
+}

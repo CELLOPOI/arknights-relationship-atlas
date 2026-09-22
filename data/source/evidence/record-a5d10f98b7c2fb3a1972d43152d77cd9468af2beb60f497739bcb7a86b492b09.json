@@ -1,0 +1,43 @@
+{
+  "id": "import:char_4195_radian|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【反常光谱】\nMon3tr：科谢尼娅·马尔科芙娜·涅留朵娃。\nMon3tr：相比之下，这位研究员的履历要详细得多。在石棺事件发生前，她曾短暂地作为伊利亚的副手在切城研究所工作过，与凯尔希打过交道。\nMon3tr：根据我们了解到的最新消息，目前，她正在乌萨斯远北地区，布列斯克下辖的远北中心矿区研究所里工作。\nMon3tr：而那里，正是阿尔乔姆临终前寄出的最后几封信件的收件地址。\n选项：\n1：听上去并不是一个十分可靠的线索……\n2：却也是我们唯一的线索。\n分支条件（原选项编号）：1 / 2\n选项：\n1：我们应该去那座研究所找她。\n分支条件（原选项编号）：1\n华法琳：博士，我必须要提醒你。\n华法琳：虽然我们已经下定决心要把凯尔希带回来，但我们必须考量每一次任务的风险。\n华法琳：罗德岛现在经不起多少损失了……\n选项：\n1：可是……\n分支条件（原选项编号）：1\nRaidian：让我去吧。\n阿米娅：Raidian？\nRaidian：乌萨斯至今依然是非常危险的地方，并且，这次任务我们掌握的情报十分有限。\nRaidian：而罗德岛重建工作刚刚起步，很多事务还需要博士和阿米娅参与决策。\n阿米娅：Raidian，我可以……\nRaidian：我知道，阿米娅已经是很厉害的大人了，但正因为这样，留守罗德岛这项最重要的任务要交给阿米娅才行。\nRaidian：拉特兰传回的消息同样令人不安，博士势必要去处理。让罗德岛在新家园站稳脚跟，是我们当下最要紧的任务。\n阿米娅：你说得对……\nRaidian：如果只是潜入任务，那肯定是Misery的小队更加擅长，但还要收集情报的话，还是我的小队更为专精。\nRaidian：何况，回乌萨斯行动的话，也没有比我更合适的人选了，对吧？\n可露希尔：听上去，Raidian的分析还是很有道理的……\n可露希尔：博士，你决定吧。\n选项：\n1：这次任务很危险。\n2：一定要注意安全，Raidian。\n分支条件（原选项编号）：1 / 2\n选项：\n1：罗德岛不能再失去任何人了。\n分支条件（原选项编号）：1\nRaidian：当然啦，我们会以流动医疗队的形式谨慎行动的。\nRaidian：我不在的时候，大家都要照顾好自己哦。\n阿米娅：嗯……\n阿米娅：希望每一个人，都能平安回家……\n\n【剧情】\n煌：是我的错觉吗？这里原地产生敌人的速度好像变慢了？\nRaidian：这里是PRTS的核心系统，从一开始，它就是在读取我们以往面对过的敌人的数据并复制出来。\nRaidian：但是现在它读取资料库数据的速度变慢了，似乎是受到了一些阻碍……\nRaidian：看来是博士那边的行动奏效了。\n阿斯卡纶：抓紧这个机会，一举攻破它。\n阿斯卡纶：我们要到Abyss深处去……还有人在等着我们。\n\n【相变临界】\n再一次，你拉住了她的手。\n凯尔希：Dr.{@nickname}……？\n创生舱中的人缓缓坐起。\n凯尔希：我……\n阿米娅/Mon3tr：凯尔希医生！/凯尔希！\nRaidian：凯尔希……\n可露希尔：我成功了？\n可露希尔：我终于成功了！\n可露希尔：凯尔希，是你吗？你还认得我吗？你一定还认得博士和阿米娅对不对！\n阿米娅克制住自己想要上前拥抱凯尔希的冲动，Mon3tr将利爪深深嵌入泥土里。所有人都紧张地观望，没有人敢轻易相信这样的结果。\n刚刚苏醒之人的目光依次扫过自己身旁的人们，脸上茫然的神情开始变得柔和。\n凯尔希：我需要有人回答……我为何，会在这里？\nMon3tr：是博士——还有可露希尔！\nMon3tr：我们一直在想办法复现双生循环的功能，用空白源石帮你塑造一副身体！\nMon3tr：虽然实验一直不成功，但是我们居然在乌萨斯的石棺里发现了AMa-10的原始代码——\n凯尔希：……这在理论上几乎是不可能的事。\nMon3tr：这些都不重要！\nMon3tr：你有没有觉得哪里不舒服，或者记忆很混乱？还有你——\nMon3tr：你还认得出我吗……\n凯尔希：……怎么会认不出呢……\n凯尔希：Mon3tr……\nMon3tr：我……\nMon3tr：我好想你……\n\n【重启锚点】\n温米：现在没有黄油，只有面粉……小火炒熟，加入煮好的蔬菜高汤里搅拌均匀……\n温米：唔，香味渐渐地出来了……\nRaidian：在忙什么呢？\n温米：Raidian姐姐，你们回来了！\n温米：现在食材没有那么多，我想给大家做顿丰盛一点的饭。这是我刚学会的浓汤，博士尝了说很好吃，Raidian姐姐要不要也来尝一尝？\nRaidian：当然好啊。\n温米：那今晚我和后勤部一起给大家做饭，让每桌都能吃上新菜~\nRaidian：那我们要怎么感谢辛苦做饭的温米呢？\n温米：你们安全回来就是最好的感谢啦！\nRaidian：真是乖孩子。\n\n【离解复合】\n选项：\n1：所有人测试通讯设备。\n分支条件（原选项编号）：1\nRaidian：已就位。\nMantra：收到。\nMisery：在前线等你们。\nLogos：前往集合。\nMechanist：马上到。\n迷迭香：我在，博士。\n煌：好久没一起干架了！\nSharp：“坏家伙”号已返回本舰，马上集合。\nStormeye：稍等片刻。\nPith：在。\nTouch：正在集合。\n阿斯卡纶：等你。\n选项：\n1：各位，目标已同步。\n分支条件（原选项编号）：1\n选项：\n1：优先目标——支援凯尔希。\n分支条件（原选项编号）：1\n选项：\n1：核心任务——进入Abyss，切断PRTS的核心能源。",
+  "relationship_id": "char_4195_radian|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 108,
+      "kind": "story",
+      "line": 53,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-03_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 269,
+      "kind": "story",
+      "line": 262,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation01.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 67,
+      "kind": "story",
+      "line": 16,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_17-02.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 55,
+      "kind": "story",
+      "line": 37,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/sandboxperm/sandbox_2/sandbox_2_ending_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 526,
+      "kind": "story",
+      "line": 449,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

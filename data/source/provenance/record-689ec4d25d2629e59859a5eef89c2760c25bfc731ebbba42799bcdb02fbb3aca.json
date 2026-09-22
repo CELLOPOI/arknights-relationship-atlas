@@ -1,0 +1,106 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 56,
+          "line": 41,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-12_beg.txt",
+          "quote": "[name=\"罗德岛近卫干员？\"] ……W……！\n[name=\"罗德岛近卫干员？\"] 就是你……就是你杀了Scout！\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  就是她？\n[name=\"迷迭香\"]  那Scout先生的仇就让我来报。\n[Character(name=\"avg_npc_046#5\")]\n[name=\"W\"]  你在说什么？\n[name=\"W\"]  等等。小白猫，杀我可以，但我做的事我会认，不是我做的事我可不会认。\n[name=\"W\"]  我得提醒那边那个穿成整合运动样子的罗德岛小哥。\n[name=\"W\"]  我认得出你也记得你，是我放跑了你，你想一想，我完全不用把你让给老爷子的。\n[Character(name=\"avg_npc_046#4\")]\n[name=\"W\"]  Scout是为你们罗德岛而死的。我是被迫取走了他的命。\n[name=\"W\"]  听好，他完全可以一个人逃掉。他为了保住你和你们其他人的命，和我演了一出戏给整合运动看。\n[name=\"W\"]  你以为我愿意杀他？我愿意杀一个萨卡兹，一个萨卡兹里现在都没剩下几个的匿形大师，真正的神射手，下一个卡兹戴尔英雄胚子？\n[Character(name=\"avg_npc_059\")]\n[name=\"罗德岛近卫干员？\"] 说谎！"
+        }
+      ],
+      "description": "Guard知道Scout并被W告知牺牲缘由；文本明确Scout为保住他而与W协同行动，反向知晓有据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "Guard知道Scout并被W告知牺牲缘由；文本明确Scout为保住他而与W协同行动，反向知晓有据。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Guard知道Scout并被W告知牺牲缘由；文本明确Scout为保住他而与W协同行动，反向知晓有据。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 56,
+          "kind": "story",
+          "line": 41,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-12_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 679,
+          "line": 635,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "quote": "[name=\"Scout\"]   我有一个不情之请，就当作是安置你的辛苦费吧。我治疗了你的伤势，至少你暂时没有生命危险了。\n[name=\"Scout\"]   接下来，请听我说些无聊的事情。\n[name=\"Scout\"]   这次，我们的目标是救出博士。阿米娅表现得十分坚决。没人能说服她改变决定，或者说，所有人都把自己看得太轻了。\n[name=\"Scout\"]   Ace也和阿米娅一样，他坚信只要救出博士，罗德岛就能打破许多现有的僵局。\n[name=\"Scout\"]   如果博士还像过去那样做事——我相信罗德岛一定会更加兴盛。\n[name=\"Scout\"]   可我是个软弱的人，我不知道……\n[name=\"Scout\"]   不知道自己有没有骨气承受这种兴盛。\n[Dialog]\n[Character]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(fadetime=0)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   什么……？这是什么意思？\n[Dialog]\n[Character]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(fadetime=0)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]\n[Blocker(a=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]   三年前到现在，我们损失了许多兄弟姐妹。\n[name=\"Scout\"]   我一直认为，只要我们中还有人活着，就一定会在某处团聚，这也是我继续服务罗德岛的原因之一。\n[name=\"Scout\"]   但我们失去的东西够多了，多到连Misery这样悲观的人都觉得必须让博士回归。\n[name=\"Scout\"]   他一厢情愿地认为这之后我们将无往不利，死亡与告别会成为过去式。\n[name=\"Scout\"]   我不这么觉得。\n[name=\"Scout\"]   哦，我没在怀疑博士的能力。博士是倾斜了力量天平的人，没有博士，卡兹戴尔会是一潭死水。\n[name=\"Scout\"]   何况，正是博士教给我战斗的理由。\n[name=\"Scout\"]   只不过……当我们请求博士指挥我们的时候……在博士的眼神里，我只能看到胜利的承诺。\n[name=\"Scout\"]   除了胜利，我看不到别的东西。什么也没有。\n[name=\"Scout\"]   那里什么也没有。\n[name=\"Scout\"]   我一直在想，凯尔希女士一直不肯向我们透露的真相，是不是也和博士有关？\n[name=\"Scout\"]   三年前最后的那段时间，为什么照片上的X会越来越多，为什么牺牲越来越频繁，为什么会有我们根本看不到目的的战斗？\n[name=\"Scout\"]   我不敢想象，也不能去想象。\n[name=\"Scout\"]   如果战火和厮杀催化了博士，让博士从一个教导者和研究者，变成了一台战争机器……\n[name=\"Scout\"]   那只会是我们这些请求Dr.{@nickname}去参与战争的人犯下了大错。\n[name=\"Scout\"]   博士不应该再去指挥战斗。对博士本人而言如此，对罗德岛而言，也是如此。\n[name=\"Scout\"]   ……很抱歉，很天真吧。\n[name=\"Scout\"]   我的想法，就连我自己都觉得幼稚……所以我也不曾向谁吐露过这些。\n[name=\"Scout\"]   哼，不论是谁听见都会笑出声。我挺不喜欢别人嘲笑我的，原本，我也想带着这些念头入土。\n[name=\"Scout\"]   但到了现在这个时候，我竟然还是希望有谁，哪怕是，能帮我惦记下这件事……\n[name=\"Scout\"]   我想让博士，重新开始生活。\n[name=\"Scout\"]   如果能和罗德岛再无瓜葛，或者说，博士能真的置身事外，哪怕是忘记了过去的一切……\n[name=\"Scout\"]   只要博士不再走上战争这条路，怎么样都好。"
+        },
+        {
+          "endLine": 716,
+          "line": 696,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "quote": "[name=\"Scout\"]   抱歉，说了这么多。如果不喜欢，就全当是胡言乱语吧。\n[name=\"Scout\"]   对了，倒是有三件事，我绝对没胡说。\n[name=\"Scout\"]   第一，请告诉Dr.{@nickname}，嗯，我想就这么说吧。\n[name=\"Scout\"]   “博士和我们并肩作战的那些日子，我一刻也没忘记过。”\n[name=\"Scout\"]   第二，是我的小队。\n[name=\"Scout\"]   ——\n[name=\"Scout\"]   斯琳珂，普特尔，长蝎，雷发，姆拉姆，酒莓软芯，索拉娜，米米，小玛丽，图钉，淤兰，长音。\n[name=\"Scout\"]   我的队员们，一共十二位。\n[name=\"Scout\"]   他们打穿了敌人的防线，打退了敌人的救援；没他们在，我就没机会击杀敌人雇佣兵部队的领头人。\n[name=\"Scout\"]   只是，我这十二位可敬的干员，都在战斗中阵亡了。\n[name=\"Scout\"]   请你，见证他们的战斗。\n[name=\"Scout\"]   如果有人问起来，帮我回答那些人吧——\n[name=\"Scout\"]   虽然没人能记住我这支小队中各位队员的名字，但他们死得尊严。他们没因为怕死而退缩过，绝对没有。\n[name=\"Scout\"]   当然，我知道有许多罗德岛人为罗德岛的事业贡献了生命。没有人的死是特别的。\n[name=\"Scout\"]   只是，我们不是在为了任何一个生命个体战斗。这样说，是在贬低他们的死！\n[name=\"Scout\"]   提醒下问起这件事的人：他们都是为了自己相信的理念而牺牲的。\n[name=\"Scout\"]   第三——\n[name=\"Scout\"]   你得为自己活下去，不知姓名的罗德岛兄弟。我说了那么多，可不是在劝你送死。\n[name=\"Scout\"]   生命很可贵，如果能活着实现理想，何必去死呢？\n[name=\"Scout\"]   就这么多了，兄弟。\n[name=\"Scout\"]   要珍惜你的生命。"
+        }
+      ],
+      "description": "Scout 与近卫干员有直接救治和托付。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04",
+            "E05"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout 救治近卫干员并直接向他托付遗言。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        },
+        {
+          "evidenceIds": [
+            "E04",
+            "E05"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "近卫干员直接听取遗言，之后反复称 Scout 先生。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 679,
+          "kind": "story",
+          "line": 635,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 716,
+          "kind": "story",
+          "line": 696,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "Scout 最后一战前后",
+      "title": "战地秘闻"
+    }
+  ],
+  "relationship_id": "npc_0957af9bf990438d|npc_8a4ed8ad1c6f8c69"
+}

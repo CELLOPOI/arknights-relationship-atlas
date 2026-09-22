@@ -1,0 +1,343 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 55,
+          "line": 41,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-02_end.txt",
+          "quote": "[name=\"阿米娅\"]   ……我们与整合运动的领袖交过手。\n[Character(name=\"char_010_chen_1#6\")]\n[name=\"陈\"]   ——\n[Character(name=\"char_2005_weiyw_1\")]\n[name=\"魏彦吾\"]   嗯？她的名字是？\n[name=\"魏彦吾\"]   我记得不是那么清楚了……\n[Character(name=\"char_2005_weiyw_1\", focus=-1)]\n[Decision(options=\"塔露拉\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_2005_weiyw_1\", name2=\"char_010_chen_1\", focus=1)]\n[name=\"魏彦吾\"]   哦，是的，塔露拉。\n[name=\"魏彦吾\"]   陈警官，你认为呢？\n[Character(name=\"char_2005_weiyw_1\", name2=\"char_010_chen_1#5\", focus=2)]\n[name=\"陈\"]   ————\n[name=\"陈\"]   我——知道。"
+        }
+      ],
+      "description": "会议中说明曾与整合运动领袖交战并说出塔露拉姓名，陈明确说知道；只支持知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_002_amiya",
+          "reason": "会议中说明曾与整合运动领袖交战并说出塔露拉姓名，陈明确说知道；只支持知晓。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_e13e294bac851642.json",
+      "sources": [
+        {
+          "endLine": 55,
+          "kind": "story",
+          "line": 41,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "异卵同生"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 371,
+          "line": 338,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "quote": "[name=\"塔露拉\"]  还不至于。\n[name=\"塔露拉\"]  钥匙在我这。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  啊！\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_046#4\", focus=2)]\n[name=\"W\"]  你这龙女……\n[name=\"W\"]  啊。哈，你准不准备给我？\n[name=\"W\"]  你要是打算把你那个邪恶计划坚持到底——\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_046#4\", focus=1)]\n[name=\"塔露拉\"]  接住。\n[Dialog]\n[delay(time=0.5)]\n[Character(name=\"avg_npc_046#2\")]\n[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=true)]\n[name=\"W\"]  嘿，到手。\n[name=\"W\"]  真正的你……还挺直爽的，我开始有点喜欢你了。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_046#2\", focus=1)]\n[name=\"塔露拉\"]  油嘴滑舌的萨卡兹……\n[name=\"塔露拉\"]  把它直接按在控制面板上，你知道之后该怎么做。\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_046#4\", focus=2)]\n[name=\"W\"]  口令我知道。\n[name=\"W\"]  阿米娅，站稳了，我可不知道这是不是一闸到底！\n[name=\"W\"]  怎么念来着……唔，（乌萨斯语）为了喂饱所有人民？\n[Character(name=\"char_011_talula_1\", name2=\"avg_npc_046#4\", focus=1)]\n[name=\"塔露拉\"]  对……是那个口令。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  这把钥匙，你是从哪里得到的？\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]  呵……这把钥匙原本就挂在制动室的墙上。只要有口令，谁都能用。只是因为从没人想过……\n[name=\"塔露拉\"]  ……没想过这么荒诞的发展和这么残酷的骗局。\n[name=\"塔露拉\"]  为了支走游击队，为了诱骗近卫局，这几把秘钥……根本只是我哄骗他们的谎言。\n[name=\"塔露拉\"]  我利用了他们对大移动城市的不了解，利用了碎骨和爱国者的信任，明明这是……他们最后一次信任我。"
+        }
+      ],
+      "description": "真正塔露拉恢复后与阿米娅W陈共同停止核心城，陈随后506明确告知塔露拉阿米娅身份和救助行为。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E43"
+          ],
+          "from": "char_002_amiya",
+          "reason": "真正塔露拉恢复后与阿米娅W陈共同停止核心城，陈随后506明确告知塔露拉阿米娅身份和救助行为。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "E43"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "真正塔露拉恢复后与阿米娅W陈共同停止核心城，陈随后506明确告知塔露拉阿米娅身份和救助行为。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 371,
+          "kind": "story",
+          "line": 338,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 461,
+          "line": 456,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "quote": "[name=\"阿米娅\"] 但他们也不该被特雷西斯号令。\n[name=\"阿米娅\"] 我在卡兹戴尔逗留的时候，见过很多萨卡兹战士。他们之中的很多都是雇佣兵。后来，在切尔诺伯格……我又一次见到了他们。\n[character(name=\"avg_npc_394_1#2$1\")]\n[name=\"阿米娅\"] 即使是在被塔露拉利用的时候，他们也至少知道自己每一次战斗的敌人是谁，知道自己是在用命换第二天用得上的东西。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 而现在呢？你们把他们困在了一座异族的都城里，从我进入的那一刻起，我就感受到了他们的愤怒，焦躁，还有迷茫……"
+        }
+      ],
+      "description": "阿米娅明确评价塔露拉在切尔诺伯格利用萨卡兹佣兵，支持知道具体人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E101"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅明确评价塔露拉在切尔诺伯格利用萨卡兹佣兵，支持知道具体人物。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 461,
+          "kind": "story",
+          "line": 456,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 453,
+          "line": 278,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-14_beg.txt",
+          "quote": "[name=\"阿米娅\"]  霜星——\n[Character(name=\"char_1505_frstar_1#4\")]\n[name=\"霜星\"]  想都别想。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  啊？！\n[playsound(key=\"$d_gen_surfacefrozen\", volume=0.8)]\n[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  我的手指？！\n[name=\"阿米娅\"]  呜……呃！\n[Character(name=\"char_002_amiya_1#6\",name2=\"char_1505_frstar_1#4\",focus=2)]\n[name=\"霜星\"]  你和塔露拉的战斗，我全部看在眼里。你的法术因为戒指的强制解锁而增强。\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1#4\",focus=1)]\n[name=\"阿米娅\"]  十枚戒指，全都……冻上了？\n[Character(name=\"char_002_amiya_1#7\",name2=\"char_1505_frstar_1#4\",focus=2)]\n[name=\"霜星\"]  作为战士的你实在是太幼稚了。\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  不过是冻上几个戒指而已，你这家伙，嘴巴可真厉害啊？\n[name=\"煌\"]  （嗯？怎么……我都把气温加热到这种程度了，居然没有一点融化的迹象？）\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  煌……收手吧，别浪费血。这是……这是非常强大，也十分精妙的源石技艺……！\n[name=\"阿米娅\"]  寒流裹挟着源石晶体，在我们进入这个区域的时候就潜伏在我们身边。\n[name=\"阿米娅\"]  这是她暗中施加在我们身上，没被热气流隔绝掉的部分！\n[name=\"阿米娅\"]  唔，呃……连我的法术也切不开！\n[Character(name=\"char_1505_frstar_1#4\")]\n[name=\"霜星\"]  战斗在你们踏入这一层的时候就已经开始了。\n[name=\"霜星\"]  这十枚霜环会吸吮你的体温，压榨你的源石技艺，你施加在上面力量越大，冰晶就越坚固，越寒冷。\n[Character(name=\"char_1505_frstar_1#3\")]\n[name=\"霜星\"]  ……\n[name=\"霜星\"]  可悲。\n[Character(name=\"char_1505_frstar_1#4\")]\n[name=\"霜星\"]  爆发？蓄能？储备？\n[name=\"霜星\"]  ……想着使些小手段就想战胜我……你们知不知道自己在面对什么？\n[Character(name=\"char_017_homura_3#6\")] \n[name=\"煌\"]  灰喉，穿刺矢！\n[Character(name=\"char_367_swllow_1#4\")]\n[name=\"灰喉\"]  明白！六连预备！\n[Character(name=\"char_1505_frstar_1#4\")]\n[name=\"霜星\"]  我知道的塔露拉，会在一切开始之前就设计好你的死期。\n[Character(name=\"char_017_homura_3#6\")] \n[name=\"煌\"]  压缩空气！射击！\n[Character(name=\"char_367_swllow_1#4\")]\n[name=\"灰喉\"]  疾！\n[Dialog]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[CameraShake(duration=1, xstrength=15, ystrength=10, vibrato=30, randomness=90, fadeout=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[CameraShake(duration=1, xstrength=15, ystrength=10, vibrato=30, randomness=90, fadeout=true)]\n[Blocker(a=0.1, r=1, g=1, b=1,  fadetime=0.25, block=true)]\n[delay(time=0.5)]\n[Dialog]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[CameraShake(duration=1, xstrength=15, ystrength=10, vibrato=30, randomness=90, fadeout=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[CameraShake(duration=1, xstrength=15, ystrength=10, vibrato=30, randomness=90, fadeout=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=0.25, block=true)]\n[delay(time=0.3)]\n[Dialog]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[CameraShake(duration=1, xstrength=15, ystrength=10, vibrato=30, randomness=90, fadeout=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$e_atk_arrow_h\")]\n[CameraShake(duration=1, xstrength=15, ystrength=10, vibrato=30, randomness=90, fadeout=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=0.25, block=true)]\n[delay(time=1)]\n[Character(name=\"char_1505_frstar_1#4\")]\n[name=\"霜星\"]  而现在的罗德岛就像这些箭矢一样……\n[Dialog]\n[Blocker(a=0.5, r=0.95, g=0.95, b=0.95, fadetime=1, block=true)]\n[delay(time=2)]\n[Character(name=\"char_017_homura_3#6\")] \n[name=\"煌\"]  什……\n[Character(name=\"char_367_swllow_1#4\")]\n[name=\"灰喉\"]  怎……怎么？箭矢为什么会……停在空中？\n[Dialog]\n[Character(name=\"char_1505_frstar_1#4\")]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[PlaySound(key=\"$bottlebroken\")]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=0.5, block=false)]\n[name=\"霜星\"]  真可悲。\n[delay(time=1)]\n[Character(name=\"char_017_homura_3#4\")] \n[name=\"煌\"]  （先用数股寒流搅住箭矢，在低温下直接摧毁？！）\n[name=\"煌\"]  （灰喉，你的箭矢是什么材质？）\n[Character(name=\"char_367_swllow_1#4\")]\n[name=\"灰喉\"]  （……是罗德岛标准，碳纤维混合铝合金。）\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  （糟了。唉，麻烦大了。）\n[Character(name=\"char_1505_frstar_1#4\")]\n[name=\"霜星\"]  甚至，有些可耻。\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  （虽然她自己可能不知道……但她的源石技艺，已经上升到现代理论最**晦涩的那个层面了。）\n[Character(name=\"char_1505_frstar_1#4\")]\n[name=\"霜星\"]  只要轻轻一捏……你们就会落得粉碎。\n[name=\"霜星\"]  想一想。\n[name=\"霜星\"]  我只是雪怪小队的队长。而整合运动由那个在切城堵截你们，杀死你们战友的名叫塔露拉的女人控制着。\n[name=\"霜星\"]  你以为塔露拉是什么……？整合运动的领袖，感染者的救世主吗？\n[Dialog]\n[Character]\n[Decision(options=\"她根本不配做什么救世主！;……;这片大地上没有这种东西。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_1505_frstar_1#4\")]\n[name=\"霜星\"]  哼。\n[name=\"霜星\"]  不管你脑海中的她是什么印象，如果她是什么“救世主”，我和老爷子根本不会带队加入“整合运动”。\n[name=\"霜星\"]  她首先是军事家，然后是战士，最后才是领袖。\n[name=\"霜星\"]  但她已经背叛我们了。\n[name=\"霜星\"]  我所认定最坚定最执着的战士，居然只是种假扮出来的面貌……\n[name=\"霜星\"]  而她最后剩下的敌手，竟然是你们这样毫无决心、从来不曾与死亡日夜相伴的人。\n[Character(name=\"char_017_homura_3#5\",name2=\"char_1505_frstar_1#4\",focus=1)]\n[name=\"煌\"]  说话客气点，白兔子。出生入死不只是你一个人的权利。\n[Character(name=\"char_017_homura_3#5\",name2=\"char_1505_frstar_1#4\",focus=2)]\n[name=\"霜星\"]  你眼神里也有悔恨。\n[Character(name=\"char_017_homura_3#6\",name2=\"char_1505_frstar_1#4\",focus=1)]\n[name=\"煌\"]  轮不到你来提醒！\n[Character(name=\"char_017_homura_3#6\",name2=\"char_1505_frstar_1#4\",focus=2)]\n[name=\"霜星\"]  你没准备好接受他们的死。\n[Character(name=\"char_017_homura_3#6\",name2=\"char_1505_frstar_1#4\",focus=1)]\n[name=\"煌\"]  够了！\n[Dialog]\n[Character(name=\"char_017_homura_3#6\")] \n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[Character(name=\"char_1505_frstar_1#5\")]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_sp_chixiaobadao\")]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=1.5, block=false)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=1, b=1, fadetime=1, block=true)]\n[Character(name=\"char_1505_frstar_1#3\")]\n[name=\"霜星\"]  咳，哈哈，咳……\n[Character(name=\"char_1505_frstar_1#5\")]\n[name=\"霜星\"]  我难道就准备好了吗？\n[Character(name=\"char_017_homura_3#5\")] \n[name=\"煌\"]  咳……咳！\n[Character(name=\"char_1505_frstar_1#4\")]\n[name=\"霜星\"]  我想过那么多次，梦见过那么多次所有人的死，只是没想到……\n[name=\"霜星\"]  你也是一样的，小猫咪。我看得出。\n[name=\"霜星\"]  ——\n[name=\"霜星\"]  “我幻想的那么惨烈，却从没想过会有那么孤独的死。”\n[Character(name=\"char_017_homura_3#5\",name2=\"char_1505_frstar_1#4\",focus=1)]\n[name=\"煌\"]  ……\n[name=\"煌\"]  你有兄弟，我也有。\n[Character(name=\"char_017_homura_3#5\",name2=\"char_1505_frstar_1#4\",focus=2)]\n[name=\"霜星\"]  在切尔诺伯格与塔露拉战斗的罗德岛干员，各个都相当英勇。\n[name=\"霜星\"]  有一个被他们称作Ace的，是我平生少见的顽强战士，他会带着一种其他战士少有的情感去战斗。\n[name=\"霜星\"]  ……“忧愁”。\n[Character(name=\"char_017_homura_3#5\",name2=\"char_1505_frstar_1#4\",focus=1)]\n[name=\"煌\"]  我和你之间的关系可没好到我允许你随便谈论我战友的地步。\n[Character(name=\"char_017_homura_3#5\",name2=\"char_1505_frstar_1#4\",focus=2)]\n[name=\"霜星\"]  只有不断反思自己战斗的战士，才会感到担忧。他是个好战士。\n[name=\"霜星\"]  你也是。\n[Character(name=\"char_017_homura_3#5\",name2=\"char_1505_frstar_1#4\",focus=1)]\n[name=\"煌\"]  嘁。\n[Character(name=\"char_017_homura_3#5\",name2=\"char_1505_frstar_1#4\",focus=2)]\n[name=\"霜星\"]  他独自死去。"
+        }
+      ],
+      "description": "阿米娅与塔露拉有明确切尔诺伯格战斗经历。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅与塔露拉有明确切尔诺伯格战斗经历。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "阿米娅与塔露拉有明确切尔诺伯格战斗经历。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 453,
+          "kind": "story",
+          "line": 278,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-14_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 240,
+          "line": 167,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-03_beg.txt",
+          "quote": "[name=\"凯尔希\"]  Dr.{@nickname}。\n[name=\"凯尔希\"]  我们没有尽释前嫌这个选项，道德不能使我们这样的人变成更好的人。\n[Character(name=\"char_003_kalts_1\", name2=\"char_002_amiya_1#7\", focus=2)]\n[name=\"阿米娅\"]  医生。\n[Character(name=\"char_003_kalts_1\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"凯尔希\"]  我没有拒绝你提议的意思，阿米娅。\n[name=\"凯尔希\"]  只是，纯粹善意的宽恕，以及放弃自己愤怒的权力，只是让我们变得无限软弱。\n[name=\"凯尔希\"]  我会一直保留这种权力。\n[name=\"凯尔希\"]  不过现在，我会搁置我的偏见，我们先去解决核心城这件事。\n[name=\"凯尔希\"]  彻底地解决它。\n[Decision(options=\"阿米娅，我站在你这边。;……;凯尔希，合作愉快。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  嗯……嗯。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  不不，没有！我不是觉得不好啦！其实是我……我有点，唔，我还有点反应不过来。\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  ……我相信博士会在最关键的时刻协助我。\n[name=\"阿米娅\"]  只不过，以前的我想着的，是让博士来指导我，在这些最困难的时候，做到那些我办不到的事……\n[name=\"阿米娅\"]  我也会变得更勇敢，只要博士在我身边。以前我就是这么想的。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  阿米娅。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  啊，唔……医生，我没事。我知道的，我现在已经不会那么依靠别人了。\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  但是博士，只是对博士……我原本真的是这么想的。\n[name=\"阿米娅\"]  现在，博士，我们是肩并着肩了。从和你重逢开始，我就一直想找个机会，告诉博士，告诉博士……\n[name=\"阿米娅\"]  我长大了。我已经不用博士，凯尔希医生和……唔……遮风挡雨。\n[Character(name=\"char_003_kalts_1#2\")]\n[name=\"凯尔希\"]  ……\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  我会用成绩回应博士的信任。一定。\n[name=\"阿米娅\"]  欸！肩并肩是形容啊，不可以说我矮！我还在长个子！……唔！！我很快就会长得和博士长得一样高了，肯定！\n[name=\"阿米娅\"]  ……我只是很高兴，博士。嗯。只是……很高兴。\n[Predicate(references=\"2\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ……\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  ……\n[Character]\n[name=\"PRTS\"]  我感觉这里冷场了。需要我把指挥室的温度调高一些吗？\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  博士想保留自己的观点，并没有任何问题。\n[name=\"阿米娅\"]  我也不希望强迫博士把想法说出来……\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  我知道的，我们……我们每个人都有自己的空间。\n[name=\"阿米娅\"]  只是，博士，哪怕只是给我一点点帮助……\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  阿米娅。没必要示弱。\n[name=\"凯尔希\"]  Dr.{@nickname}有擅长的事，也有不擅长的事。能力需要自行复苏的时间，Dr.{@nickname}也会在正确的时候做出正确的选择。\n[name=\"凯尔希\"]  这个人不会忘记从苏醒直至现在发生在自己面前的一切。\n[name=\"凯尔希\"]  ——如果我真的可以这么期待。\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  凯尔希医生，这么说也太伤人了……！\n[Character(name=\"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]  博士不爱说话，只是博士不愿说多余的话。博士会直接抓住问题的核心，是吧？\n[Predicate(references=\"3\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ——\n[name=\"凯尔希\"]  如果你愿意的话。\n[name=\"凯尔希\"]  我没想过你会这么爽快地答应，甚至有理由怀疑你在语句里设下了什么陷阱。\n[name=\"凯尔希\"]  ……但又何妨呢？\n[name=\"凯尔希\"]  Dr.{@nickname}。合作愉快。\n[Decision(options=\"我们有什么计划？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  啊，嗯……！\n[name=\"阿米娅\"]  唔，博士是想问哪方面的计划呢？\n[Decision(options=\"首先要有进核心城的办法。;怎么去？;要直接走到塔露拉面前说“你好”，对不对。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  罗德岛确实有属于罗德岛的方法。\n[name=\"凯尔希\"]  请对照报告书。我会解释计划的每个部分。\n[name=\"凯尔希\"]  4小时后，我们将在切尔诺伯格核心城的必经之路附近引发一场小规模的沙暴。"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_002_amiya",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 240,
+          "kind": "story",
+          "line": 167,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 267,
+          "line": 190,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-08_beg.txt",
+          "quote": "[name=\"近卫干员\"]   石块，弩箭，弓矢……\n[name=\"近卫干员\"]   都没了。\n[name=\"近卫干员\"]   一瞬间……她周围的所有事物，全都都被燃烧殆尽……\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]   你们具备解放者该有的韧性。\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   ……连渣滓都没剩下。\n[Character(name=\"char_148_nearl_1#3\",name2=\"char_002_amiya_1#7\",focus=1)]\n[name=\"临光\"]   阿米娅。你很清楚。\n[Character(name=\"char_148_nearl_1#3\",name2=\"char_002_amiya_1#7\",focus=2)]\n[name=\"阿米娅\"]   ——\n[Character(name=\"char_148_nearl_1#3\",name2=\"char_002_amiya_1#7\",focus=1)]\n[name=\"临光\"]   必须有人，挡住她。\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]   ——但我厌烦了。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   ……\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]   阿米娅！！\n[PlaySound(key=\"$d_gen_thunders_amb\", volume=0.3)]\n[PlaySound(key=\"$b_char_defboost\", volume=0.3, Delay=0.4)]\n[Blocker(a=1, initr=2, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[Dialog(time=0.5)]\n[Delay(time=1)]\n[Blocker(r=0.9, g=0.4, b=0.3, a=1, fadetime=0.1, block=true)]\n[Character]\n[Image(image=\"avg_11_1\",x=0, y=-50,xScale=1.3, yScale=1.3, fadetime=0)]\n[ImageTween(xFrom=-100, yFrom=-50, xTo=0, yTo=0, xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1, duration=35, block=false)]\n[Blocker(r=0.7, g=0.4, a=1, fadetime=0.3, block=true)]\n[Blocker(r=0.2, g=0,b=0, a=0.1, fadetime=1.5, block=true)]\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]   你们总要为杀害同胞而付出代价。\n[name=\"塔露拉\"]   我将赐予你们一个我十分喜爱的结局。\n[name=\"塔露拉\"]   ——毁灭。\n[Dialog]\n[Character(fadetime=0)]\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   糟了！！\n[name=\"杜宾\"]   走，走……快走！！\n[name=\"杜宾\"]   那种热量和规模……不行，不行！\n[name=\"杜宾\"]   保护阿米娅和博士！快！！\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]   来不及了——！\n[name=\"临光\"]   让我挡住她！！！\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   啊啊！！\n[stopmusic(fadetime=1)]\n[Blocker(r=0.9, g=0.4, b=0.3, a=1, fadetime=0.1, block=true)]\n[Image(fadetime=0)]\n[Dialog]\n[Character(fadetime=0)]\n[Background(image=\"bg_light\")]\n[CameraShake(duration=6, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.3, block=true)]\n[PlaySound(key=\"$p_skill_chimera\", volume=1)]\n[Blocker(a=0, r=1, g=1, b=1, fadetime=0.2, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   ……\n[name=\"医疗干员\"]   ……嗯？？？\n[Blocker(a=0, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[name=\"医疗干员\"]   阿……阿米娅？\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   不会让你伤害他们的。\n[Delay=1]\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]  ……\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Image(image=\"bg_1_reflect\",fadetime=0,screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"char_002_amiya_1#9\")]\n[name=\"阿米娅\"]   我不会……允许你这么做的！"
+        }
+      ],
+      "description": "阿米娅与塔露拉正面对抗并回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅与塔露拉正面对抗并回应。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "阿米娅与塔露拉正面对抗并回应。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_f55d04d68de9988e.json",
+      "sources": [
+        {
+          "endLine": 267,
+          "kind": "story",
+          "line": 190,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格撤离期间",
+      "title": "黑暗时代·下"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 75,
+          "line": 29,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-06_beg.txt",
+          "quote": "[name=\"星熊\"]   一路上都有散漫的整合运动埋伏……\n[name=\"星熊\"]   简直像是食腐野兽一样盘踞在这废城之上。\n[name=\"星熊\"]   真的令人有点不太舒服。\n[Character(name=\"char_136_hsguma\", name2=\"char_002_amiya_1\", focus=2)]\n[name=\"阿米娅\"]   我确认了坐标，我们罗德岛还得继续深入——\n[name=\"阿米娅\"]   但这个地形，我认为，不适合整个部队一同行动。\n[Character(name=\"char_136_hsguma\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"星熊\"]   接下来就是源石多生地带了吧？\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Character(fadetime=0)]\n[Background(fadetime=0)]\n[Blocker(a=0, fadetime=0.2, block=true)]\n[name=\"塔露拉\"]   ————\n[name=\"塔露拉\"]   （竟然是你。）\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Character(fadetime=0)]\n[Background(screenadapt=\"coverall\", image=\"bg_cher_2\", width=1, height=1, fadetime=0)]\n[Blocker(a=0, fadetime=0.2, block=true)]\n[Character(name=\"char_010_chen_1#3\", name2=\"char_136_hsguma\", focus=2)]\n[name=\"星熊\"]   老陈，你觉得——\n[Character(name=\"char_010_chen_1#3\", name2=\"char_136_hsguma\", focus=2)]\n[name=\"陈\"]   ……\n[Character(name=\"char_010_chen_1#3\", name2=\"char_136_hsguma\", focus=2)]\n[name=\"星熊\"]   老陈？\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Character(fadetime=0)]\n[Background(fadetime=0)]\n[Character(name=\"char_010_chen_1#3\", fadetime=1, block=true)]\n[Blocker(a=0, fadetime=0.2, block=true)]\n[name=\"陈\"]   怎么会——\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Character(fadetime=0)]\n[Background(screenadapt=\"coverall\", image=\"bg_cher_2\", width=1, height=1, fadetime=0)]\n[Blocker(a=0, fadetime=0.2, block=true)]\n[Character(name=\"char_136_hsguma\")]\n[name=\"星熊\"]   ——！\n[name=\"星熊\"]   老陈，你去哪！\n[name=\"星熊\"]   该死，跑得真快！那个难道是——\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]   ……我也没有看清楚！\n[name=\"阿米娅\"]   但我觉得那个身影确实是……\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   我们得追上去——"
+        }
+      ],
+      "description": "阿米娅单向辨识塔露拉。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅在后续明确询问此前身影是否为塔露拉。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "塔露拉短暂出现只明确认出陈，未指向阿米娅。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b768950f6cb3956f.json",
+      "sources": [
+        {
+          "endLine": 75,
+          "kind": "story",
+          "line": 29,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "源石丛区域短暂遭遇",
+      "title": "急性衰竭"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 620,
+          "line": 570,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"阿米娅\"]  你们不能通过这里。\n[name=\"阿米娅\"]  ……塔露拉，你不该踏出那个房间。\n[name=\"阿米娅\"]  他们是——整合运动？他们是来救你的吗？\n[stopsound(channel=\"bse\", fadetime=1)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[delay(time=0.5)]\n[Image]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_bridge\")]\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  ……\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  罗德岛的领袖。用“救”这个字不太贴切，不过也无所谓了。\n[name=\"九\"]  另外，希望你能明白一点，在跟我们走这件事上，她其实没得选。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……不，她得留下。\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  乌萨斯和龙门有理由追捕塔露拉。罗德岛当然也有理由扣下她。\n[name=\"九\"]  但塔露拉也必须给整合运动一个交代……给感染者一个交代。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ——那么，为什么你不愿信任罗德岛，等着塔露拉能够给出那个交代呢？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  Guard也是用这样的说辞，让我们信任罗德岛。\n[name=\"九\"]  而陈……龙门的陈警司也说过，她想要创造一个公平的条件，去审判她这样的感染者。\n[name=\"九\"]  可是，什么才是公平呢？\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  切尔诺伯格和龙门，那么多的牺牲，那么多徒劳的死亡，纵使有千百种借口，她都难逃其咎。\n[name=\"九\"]  只允许罗德岛去创造那个未来，等待那个未来，却不允许……遭到最深刻背叛的整合运动，有任何发言吗？\n[name=\"九\"]  罗德岛的领袖，回答我。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  那么，我们可以一起等待。\n[name=\"阿米娅\"]  盾卫们愿意相信，罗德岛的干员们愿意相信……愿意相信我们终有一天能给出一个答案……\n[name=\"阿米娅\"]  而眼下这样——用这样的暴力，从罗德岛的手中夺走她，又如何让人再相信整合运动？\n[name=\"阿米娅\"]  我不想再让感染者们流血，不想再与整合运动为敌，你们又为什么——\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  就算我愿意等，也许还有别人愿意等——但“整合运动”是等不了的。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……什么？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  ……要说的就只有这些了。\n[Character(name=\"char_1002_nsabr_2\",name2=\"avg_npc_043_1#2\",focus=1)]\n[name=\"整合运动士兵\"]  九！快到时间了！不能和她纠缠下去！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  走吧，塔露拉。\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  ……"
+        }
+      ],
+      "description": "阿米娅当面拦下塔露拉并直接称呼。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S14"
+          ],
+          "from": "char_002_amiya",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "S14"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 620,
+          "kind": "story",
+          "line": 570,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "舰桥对峙",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "char_002_amiya|npc_69395c50206899b0"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "import:char_4042_lumen|npc_549ec9bf1f5326b6",
+  "published": true,
+  "quote": "【流明】\n阿玛雅：你好，礼拜堂的乔迪。\n乔迪：……呃，您好。\n乔迪：我想问一下……这个是不是寄给您的东西？\n阿玛雅：嗯，多谢。\n乔迪：呼……太好了。\n乔迪：那我就先走了。\n阿玛雅：你不想知道里面是什么吗？\n乔迪：欸？……不，我怎么可能怀疑您呢，阿玛雅小姐。\n乔迪：在格兰法洛，您懂的比大家都多，蒂亚戈叔叔也说，您帮他想了很多办法。\n阿玛雅：没关系，进来看看吧，我希望你能心安一些。\n\n【愚人号】\n蒂亚戈：阿玛雅说，外面的一些地方，伊比利亚的其他地方，对阿戈尔人没那么残酷。\n乔迪：可我总要找到我自己的家。有些东西，有些联系，我没办法……那么简单地下决定。\n乔迪：我……还没准备好。\n蒂亚戈：……好吧。\n蒂亚戈：对了，阿玛雅又给了我一本书，她翻译的书，反正我看不懂，你应该带去礼拜堂打发时间。\n乔迪：嗯。",
+  "relationship_id": "char_4042_lumen|npc_549ec9bf1f5326b6",
+  "sources": [
+    {
+      "endLine": 415,
+      "kind": "story",
+      "line": 393,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lumen_1_1.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 640,
+      "kind": "story",
+      "line": 630,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st01.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 678,
+          "line": 665,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+          "quote": "[name=\"华法琳\"]啊……\n[charslot(slot=\"l\",name=\"avg_npc_249_1$1\",focus=\"l\")]\n[name=\"Touch\"]少见你这样毛手毛脚的，走神了？\n[charslot(slot = \"r\", name = \"avg_171_bldsk_1#1$1\",focus=\"r\")]\n[name=\"华法琳\"]嗯……我在担心，去了乌萨斯的大家。\n[name=\"华法琳\"]一直等一个悬而未决的结果，一点也不好受。\n[charslot(slot=\"l\",name=\"avg_npc_249_1$1\",focus=\"l\")]\n[name=\"Touch\"]你可从来没有当着博士的面表现出这种情绪。\n[charslot(slot = \"r\", name = \"avg_171_bldsk_1#1$1\",focus=\"r\")]\n[name=\"华法琳\"]不想影响士气，不代表不在意。\n[charslot(slot = \"r\", name = \"avg_171_bldsk_1#8$1\",focus=\"r\")]\n[name=\"华法琳\"]等你年纪和我一样大的时候，就知道这种分别是什么滋味了。\n[charslot(slot=\"l\",name=\"avg_npc_249_1$1\",focus=\"l\")]\n[name=\"Touch\"]这可不是个好的祝福……"
+        }
+      ],
+      "description": "华法琳与Touch直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_171_bldsk",
+          "reason": "双方直接互动或有明确具体既往互动。",
+          "status": "supported",
+          "to": "char_510_amedic"
+        },
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_510_amedic",
+          "reason": "双方直接互动或有明确具体既往互动。",
+          "status": "supported",
+          "to": "char_171_bldsk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 678,
+          "kind": "story",
+          "line": 665,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒事件及罗德岛后续",
+      "title": "相变临界"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 323,
+          "line": 275,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-18_end.txt",
+          "quote": "[name=\"华法琳\"]Touch，我需要你的协助！\n[name=\"华法琳\"]这几位病人刚刚从高危环境中转移出来，现在没有足够的急救设备支持。\n[name=\"华法琳\"]先稳定住他们的情况。\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]尽量把所有的伤员都集中过来，剩下的交给我。\n[name=\"Touch\"]伤亡情况统计呢……？\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_walkfast\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_4178_alanna_1#6$1\", duration=1, isblock=true)]\n[Delay(time=0.5)]\n[name=\"阿兰娜\"]我们还在继续帮忙统计，暂时没有准确的数字。\n[name=\"阿兰娜\"]但目前已经重伤31人，轻伤173人，死亡人数暂无。\n[charslot(slot = \"m\", name = \"avg_npc_012\")]\n[name=\"近卫干员\"]因为Logos干员和Mechanist干员提前建立了安全区域，加上有您和Pith干员协助，撤离本舰的任务提前完成了。\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#1$1\")]\n[name=\"华法琳\"]……病人死亡人数一人。\n[name=\"华法琳\"]详细的情况我会亲自向博士和凯——\n[dialog]\n[StopSound(channel=\"sn\", fadetime=2)]\n[playMusic(key=\"$memory_loop\", volume=0.6)]\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#10$1\")]\n[delay(time=1)]\n她愣住了。\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]……\n[charslot(slot = \"m\", name = \"avg_4178_alanna_1#10$1\")]\n[name=\"阿兰娜\"]……\n[charslot]\n大家都默契地刻意避免提起一个名字。\n那个总是在每次行动结束后照顾受伤干员的人。\n凯尔希。\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]去协助其他人继续建立隔离带吧，还需要观察本舰内是否还有敌人外溢。\n[charslot(slot = \"m\", name = \"avg_npc_012\")]\n[name=\"近卫干员\"]……好。\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(duration=1.5, isblock=true)]\n[Delay(time=0.5)]\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]华法琳——\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#8$1\")]\n[name=\"华法琳\"]我已经在尽力逼自己不分心了，Touch。\n[name=\"华法琳\"]不是现在。\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#1$1\")]\n[name=\"华法琳\"]Dr.{@nickname}和阿米娅现在情况如何？\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]我们都还需要一点时间来消化发生的事情。"
+        }
+      ],
+      "description": "华法琳与Touch直接协作救治伤员。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D10"
+          ],
+          "from": "char_171_bldsk",
+          "reason": "华法琳与Touch直接协作救治伤员。",
+          "status": "supported",
+          "to": "char_510_amedic"
+        },
+        {
+          "evidenceIds": [
+            "D10"
+          ],
+          "from": "char_510_amedic",
+          "reason": "华法琳与Touch直接协作救治伤员。",
+          "status": "supported",
+          "to": "char_171_bldsk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 323,
+          "kind": "story",
+          "line": 275,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-18_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_171_bldsk|char_510_amedic"
+}

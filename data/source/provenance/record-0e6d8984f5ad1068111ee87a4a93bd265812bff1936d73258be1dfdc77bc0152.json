@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 449,
+          "line": 400,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st01.txt",
+          "quote": "[name=\"Alty\"]你打算去哪儿？\n[name=\"Dan\"]礼拜堂！人们的双手不该用来祈祷，他们应该学会敲锣打鼓！\n[name=\"Aya\"]……这个广场就是小镇的中心。所有建筑都围绕着这个广场。\n[name=\"Frost\"]雕塑，灯塔。\n[name=\"Frost\"]既是海洋的灯塔，也是这座城镇的灯塔……双关。\n[name=\"Dan\"]这个比喻好土！\n[name=\"路过的镇民\"]奇怪的人，别和她们走太近……\n[name=\"看热闹的镇民\"]之前老佩德里不是说……\n[name=\"路过的镇民\"]别扯上关系，免得被审判庭带走。\n[name=\"路过的镇民\"]真是，最近怎么有这么多外来者，审判庭是不是不管事了？\n[name=\"乔迪\"]（没见过的人……她们的打扮……是音乐家吗？）\n[name=\"乔迪\"]（呃，她是不是看过来了？）\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[image]\n[Background(image=\"27_g18_lighthouse_square\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"npc_2001_Aya_1\")]\n[Delay(time=1)]\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]……\n[Character(name=\"avg_4042_lumen_1#7$1\",name2=\"npc_2001_Aya_1\",focus=1)]\n[name=\"乔迪\"]您、您好……？\n[Character(name=\"avg_4042_lumen_1#7$1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]在海边看到阿戈尔人应该是一件很正常的事情，可一路走过来，我现在反而觉得你这样的阿戈尔人稀奇了。\n[name=\"Aya\"]你知道……这里正在发生什么吗？\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"npc_2001_Aya_1\",focus=1)]\n[name=\"乔迪\"]什、什么？\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]嗯，你不知道，你也不是海洋的孩子。你是个生在陆地上的阿戈尔人。\n[name=\"Aya\"]唉，我已经一点都不意外了，真的。\n[character]\n[name=\"Alty\"]Aya，这边！\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]来了。\n[name=\"Aya\"]哦，对了……你……嗯……\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"npc_2001_Aya_1\",focus=1)]\n[name=\"乔迪\"]我、我怎么了吗？\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]你知道这座雕塑上的是什么吗？本地人都知道吗？\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"npc_2001_Aya_1\",focus=1)]\n[name=\"乔迪\"]是……一座灯塔。以前这里似乎围绕着那座灯塔开展过不少工作，后来许多工人家庭就留在这里了……\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]你也一样？\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"npc_2001_Aya_1\",focus=1)]\n[name=\"乔迪\"]啊……是。我家里至今还有一些当时的物件，图纸啊，照片啊什么的……\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"npc_2001_Aya_1\",focus=2)]\n[name=\"Aya\"]嗯……灯塔。伊比利亚的灯塔，陆上国家的灯塔，挺幽默的。\n[name=\"Aya\"]气味似乎不是来自你的身上，那么，你们可就要格外小心了。"
+        }
+      ],
+      "description": "乔迪进入Frost所在四人乐队的局部演奏现场并与该群体互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S05"
+          ],
+          "from": "char_4042_lumen",
+          "reason": "乔迪进入Frost所在四人乐队的局部演奏现场并与该群体互动。",
+          "status": "supported",
+          "to": "npc_f1a37f4fb62f9ae9"
+        },
+        {
+          "evidenceIds": [
+            "S05"
+          ],
+          "from": "npc_f1a37f4fb62f9ae9",
+          "reason": "乔迪进入Frost所在四人乐队的局部演奏现场并与该群体互动。",
+          "status": "supported",
+          "to": "char_4042_lumen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 449,
+          "kind": "story",
+          "line": 400,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_4042_lumen|npc_f1a37f4fb62f9ae9"
+}

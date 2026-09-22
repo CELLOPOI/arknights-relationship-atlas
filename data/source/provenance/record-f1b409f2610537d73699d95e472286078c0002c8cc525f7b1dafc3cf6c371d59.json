@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 39,
+          "line": 25,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_st03.txt",
+          "quote": "[name=\"太傅\"]出来散散步，晒晒太阳，尝尝这天岳的泉水，对你的身体有好处。\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#3$1\",focus=\"l\")]\n[name=\"太尉\"]真好笑，我们几十年没在那堵宫墙外打过照面，这次是你主动约的。\n[name=\"太尉\"]……到底还是你先坐不住了。\n[charslot(slot = \"right\", name = \"avg_npc_301_1#2$1\",focus=\"r\")]\n[name=\"太傅\"]很难坐得住。\n[name=\"太傅\"]玉门，大荒城。这一连串的事，总要一个说法。\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#9$1\",focus=\"l\")]\n[name=\"太尉\"]对，都是我干的。\n[name=\"太尉\"]玉门山海众是我教唆的，睚也是我引入关的。\n[charslot(slot = \"right\", name = \"avg_npc_301_1#1$1\",focus=\"r\")]\n[name=\"太傅\"]……\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#9$1\",focus=\"l\")]\n[name=\"太尉\"]这些够把我拉下台吗？要是嫌不够，望是我放出京城的，那个孩子是我送去维多利亚的，邪魔的口子也是我撕开的。\n[name=\"太尉\"]只要有需要，让三公的位置再空一个出来，这些事都可以是我干的。"
+        }
+      ],
+      "description": "两人谈话明确涉及望，支持单向知晓；不把太尉讽刺揽责解释成实际接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "两人谈话明确涉及望，支持单向知晓；不把太尉讽刺揽责解释成实际接触。",
+          "status": "supported",
+          "to": "char_2027_wang"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_2027_wang",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_92c92c1606519db1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 39,
+          "kind": "story",
+          "line": 25,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "char_2027_wang|npc_92c92c1606519db1"
+}

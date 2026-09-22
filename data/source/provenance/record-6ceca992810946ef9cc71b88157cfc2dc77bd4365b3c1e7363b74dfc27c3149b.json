@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 665,
+          "line": 604,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-06_beg.txt",
+          "quote": "[name=\"阿米娅\"]还好……总算是找到了。\n[charslot(slot=\"m\",name=\"avg_npc_2246_1#3$1\",focus=\"m\")]\n[name=\"希尔达\"]是你发现了病人？\n[charslot(slot=\"m\",name=\"avg_npc_2246_1#9$1\",focus=\"m\")]\n[name=\"希尔达\"]我应该……谢谢你……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#8$1\",focus=\"m\")]\n[name=\"阿米娅\"]只是力所能及的事……您也是这里的医生吗？\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$1\",focus=\"m\")]\n[name=\"阿米娅\"]那位病人的情况看上去很奇怪，我从来没有见过这样的矿石病症状……我甚至不确定这是否是矿石病。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]您是否知道——\n[charslot(slot=\"m\",name=\"avg_npc_2246_1#8$1\",focus=\"m\")]\n[name=\"希尔达\"]不，我不是医生……尽管我希望自己是。\n[charslot(slot=\"m\",name=\"avg_npc_2246_1#10$1\",focus=\"m\")]\n[name=\"希尔达\"]可我却治不好他们，我能做的事实在很有限……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#16$1\",focus=\"m\")]\n[name=\"阿米娅\"]对不起，我有点太着急了。看上去，您应该是位修士才对。\n[charslot(slot=\"m\",name=\"avg_npc_2246_1#3$1\",focus=\"m\")]\n[name=\"希尔达\"]没什么，我刚才也没有注意到……你竟然也病得这样重。\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#5$1\",focus=\"m\")]\n[name=\"阿米娅\"]您是说，我的病？……您怎么会知道我的病况？\n[charslot(slot=\"m\",name=\"avg_npc_2246_1#10$1\",focus=\"m\")]\n[name=\"希尔达\"]不……你和那些人不一样，你病得很重，但你并没有在寻求救赎。我也不该对你做什么……\n[name=\"希尔达\"]可是你身上背负的痛苦那么多，你为什么还能忍受……？\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#5$1\",focus=\"m\")]\n[name=\"阿米娅\"]抱歉，我不明白——\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]\n[Dialog]\n[charslot]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[Image(image=\"73_i06\",screenadapt=\"coverall\", x=-150,y=-100, xScale=1.4, yScale=1.4)]\n[imageTween(xTo = -230, duration=20, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n瘦小的卡特斯将目光投向了一墙之隔的手术室。\n[name=\"希尔达\"]我感受到痛苦……很多痛苦。\n[name=\"希尔达\"]我本来以为自己已经不会再感受到痛苦了，可看到这些受苦的人们，我还是会感觉到……那么沉重的痛苦。\n[name=\"希尔达\"]为什么……神会让人们受苦呢？\n[name=\"希尔达\"]她要用这样的痛苦考验人们……难道只有痛苦，才是神的法则？\n[Image(image=\"73_i06\",screenadapt=\"coverall\", x=420,y=-40, xScale=1.7, yScale=1.7,fadetime=0.5)]\n[imageTween(xTo = 440, duration=20, block=false)]\n阿米娅感到奇怪。\n眼前这位看上去较自己还要小一些的卡特斯，身上似乎有某种与年龄严重不符的悲悯气质。\n甚至没有黑冠的浮现，再一次，魔王的力量不自觉地将阿米娅的意识与身边的女孩联系在一起。\n她没有感知到鲜明的情绪，只觉得触碰到了一团缭乱的云雾，或是暗流涌动的海洋。女孩意识中那无边无际的悲哀几乎要将她吞没。\n阿米娅不愿意继续深入下去。\n[name=\"阿米娅\"]可据我所知，这并不是拉特兰的律法所提倡——抱歉，无意冒犯您的信仰。\n[name=\"阿米娅\"]我不相信有什么苦难是理所应当的，那些被施加的痛苦，是我们应当竭尽全力去对抗的东西。\n[name=\"阿米娅\"]去帮助受苦的人，去战胜施害的人……这才是我们应该去做的事。\n[Image(image=\"73_i06\",screenadapt=\"coverall\",fadetime=0.5)]\n[name=\"希尔达\"]可是，总有人无法得救的。\n[name=\"希尔达\"]总有人会继续受苦，苦难也没有尽头……我们能做的事，真的还有意义吗？\n[name=\"希尔达\"]你难道，不会绝望吗？\n[name=\"阿米娅\"]……\n[name=\"阿米娅\"]也许，会的。\n[name=\"阿米娅\"]如果只有我一个人的话，我一定会感到绝望，甚至被绝望压垮。\n[name=\"阿米娅\"]可是我从来不是一个人……\n[name=\"阿米娅\"]有人将她的理想告诉了我，她向我描绘了这片大地的另一番样貌……人们可以跨过隔阂，这片大地可以成为所有人共同的家。\n[name=\"阿米娅\"]她的理想也鼓舞了许多人，团结了许多人。我见证了这份理想被传递下来，我也相信会有更多人继承这一份理想。\n[name=\"阿米娅\"]我当然不知道怎样才能完全消除苦难，那应该是只有“神”才能做到的事吧。\n[name=\"阿米娅\"]苦难无法被终结，可是希望也同样会延续下去。\n[name=\"希尔达\"]所有人……共同的家。"
+        }
+      ],
+      "description": "阿米娅与希尔达直接讨论苦难与希望。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_002_amiya",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "npc_55440aefd3bae8b7"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_55440aefd3bae8b7",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 665,
+          "kind": "story",
+          "line": 604,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒地下诊所",
+      "title": "相变临界"
+    }
+  ],
+  "relationship_id": "char_002_amiya|npc_55440aefd3bae8b7"
+}

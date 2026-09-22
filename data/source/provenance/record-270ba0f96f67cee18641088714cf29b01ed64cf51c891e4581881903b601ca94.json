@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 515,
+          "line": 489,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_09-17_beg.txt",
+          "quote": "[name=\"号角\"]……那你还得再努力一些，小菲林。\n[character(name=\"avg_npc_233_1#7\")]\n[name=\"蔓德拉\"]你……！\n[name=\"蔓德拉\"]你是挺厉害的，你对武器的控制很精准。你一直在调整炮击的方向，想试探我的源石技艺有没有破绽。\n[name=\"蔓德拉\"]很遗憾——要是你没有受这么重的伤，弹药也更充足，你搞不好真能伤到我。\n[name=\"蔓德拉\"]就这样吧，闲谈时间该结束了——\n[character(name=\"avg_npc_229_1#7\")]\n[name=\"号角\"]就是现在！！\n[dialog]\n[character]\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[delay(time=1)]\n[Image(image=\"21_I9\",fadetime=2,screenadapt=\"coverall\")]\n[delay(time=2)]\n[name=\"蔓德拉\"]什……么？石柱突然倒了……砸到了我……？\n[name=\"风笛\"]瞎比划了这么久，我胳膊都酸了！\n[name=\"蔓德拉\"]那个瓦伊凡……！\n[name=\"蔓德拉\"]我还以为她是在胡乱攻击，没想到她的目标并不是我，始终都是塔下的石柱……\n[name=\"蔓德拉\"]该死……该死！你们怎么会知道？！\n[name=\"风笛\"]队长，她周围的碎石没了！\n[name=\"号角\"]……嗯。\n[name=\"风笛\"]果然，我们的猜测是正确的，她的源石技艺虽然非常灵活，可在同一时间只能做一件事——\n[name=\"风笛\"]无论是转移碎石当护盾，还是释放这些石刺，只要在施法的间隙期，她就会有破绽！\n[name=\"号角\"]趁现在石柱瞬间破坏了她的碎石盾——我们进攻！"
+        }
+      ],
+      "description": "风笛与蔓德拉实际相遇，双向确认。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S05"
+          ],
+          "from": "char_222_bpipe",
+          "reason": "风笛与蔓德拉直接交战并对话。",
+          "status": "supported",
+          "to": "npc_cb03e146518e01fb"
+        },
+        {
+          "evidenceIds": [
+            "S05"
+          ],
+          "from": "npc_cb03e146518e01fb",
+          "reason": "风笛与蔓德拉直接交战并对话。",
+          "status": "supported",
+          "to": "char_222_bpipe"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 515,
+          "kind": "story",
+          "line": 489,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_09-17_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "石塔战斗",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "char_222_bpipe|npc_cb03e146518e01fb"
+}

@@ -1,0 +1,298 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 108,
+          "line": 53,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-03_beg.txt",
+          "quote": "[name=\"Mon3tr\"]科谢尼娅·马尔科芙娜·涅留朵娃。\n[charslot(slot = \"m\", name = \"avg_4179_monstr_1#2$1\")]\n[name=\"Mon3tr\"]相比之下，这位研究员的履历要详细得多。在石棺事件发生前，她曾短暂地作为伊利亚的副手在切城研究所工作过，与凯尔希打过交道。\n[name=\"Mon3tr\"]根据我们了解到的最新消息，目前，她正在乌萨斯远北地区，布列斯克下辖的远北中心矿区研究所里工作。\n[name=\"Mon3tr\"]而那里，正是阿尔乔姆临终前寄出的最后几封信件的收件地址。\n[dialog]\n[charslot(slot = \"m\", focus=\"n\")]\n[Decision(options=\"听上去并不是一个十分可靠的线索……;却也是我们唯一的线索。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"我们应该去那座研究所找她。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_171_bldsk_1#10$1\")]\n[name=\"华法琳\"]博士，我必须要提醒你。\n[name=\"华法琳\"]虽然我们已经下定决心要把凯尔希带回来，但我们必须考量每一次任务的风险。\n[name=\"华法琳\"]罗德岛现在经不起多少损失了……\n[dialog]\n[charslot]\n[Decision(options=\"可是……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\", duration=1.5, isblock=true)]\n[Delay(time=0.5)]\n[name=\"Raidian\"]让我去吧。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$1\")]\n[name=\"阿米娅\"]Raidian？\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#2$1\")]\n[name=\"Raidian\"]乌萨斯至今依然是非常危险的地方，并且，这次任务我们掌握的情报十分有限。\n[name=\"Raidian\"]而罗德岛重建工作刚刚起步，很多事务还需要博士和阿米娅参与决策。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$1\")]\n[name=\"阿米娅\"]Raidian，我可以……\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#1$1\")]\n[name=\"Raidian\"]我知道，阿米娅已经是很厉害的大人了，但正因为这样，留守罗德岛这项最重要的任务要交给阿米娅才行。\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\")]\n[name=\"Raidian\"]拉特兰传回的消息同样令人不安，博士势必要去处理。让罗德岛在新家园站稳脚跟，是我们当下最要紧的任务。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$1\")]\n[name=\"阿米娅\"]你说得对……\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#1$1\")]\n[name=\"Raidian\"]如果只是潜入任务，那肯定是Misery的小队更加擅长，但还要收集情报的话，还是我的小队更为专精。\n[name=\"Raidian\"]何况，回乌萨斯行动的话，也没有比我更合适的人选了，对吧？\n[charslot(slot = \"m\", name = \"avg_npc_1723_1#3$1\")]\n[name=\"可露希尔\"]听上去，Raidian的分析还是很有道理的……\n[charslot(slot = \"m\", name = \"avg_npc_1723_1#1$1\")]\n[name=\"可露希尔\"]博士，你决定吧。\n[dialog]\n[charslot]\n[Decision(options=\"这次任务很危险。;一定要注意安全，Raidian。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"罗德岛不能再失去任何人了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#1$1\")]\n[name=\"Raidian\"]当然啦，我们会以流动医疗队的形式谨慎行动的。\n[name=\"Raidian\"]我不在的时候，大家都要照顾好自己哦。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#9$1\")]\n[name=\"阿米娅\"]嗯……\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$1\")]\n[name=\"阿米娅\"]希望每一个人，都能平安回家……"
+        }
+      ],
+      "description": "阿米娅在会议中听到电弧具体提及Misery。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅在会议中听到电弧具体提及Misery。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_ef827cdde49f2fd2.json",
+      "sources": [
+        {
+          "endLine": 108,
+          "kind": "story",
+          "line": 53,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "反常光谱"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 33,
+          "line": 29,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_end.txt",
+          "quote": "[name=\"阿米娅\"]只是一下想起了……很多很多事。\n[name=\"阿米娅\"]以前在罗德岛的时候，很少见到Logos先生以女妖之主的身份自居。\n[name=\"阿米娅\"]他总说自己和Scout先生还有Misery先生他们没有区别，仅是一位相信着罗德岛理想的萨卡兹干员。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]所以……出发的那天，当我看到Logos先生换上了王庭服饰的时候……"
+        }
+      ],
+      "description": "阿米娅回忆Logos把自己与Scout、Misery并列为相信罗德岛理想的萨卡兹干员，支持阿米娅知道Misery。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E178"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅回忆Logos把自己与Scout、Misery并列为相信罗德岛理想的萨卡兹干员，支持阿米娅知道Misery。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 33,
+          "kind": "story",
+          "line": 29,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 538,
+          "line": 508,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "quote": "[name=\"曼弗雷德\"] 我没有想错，卡特斯。\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] ——你很危险。\n[name=\"曼弗雷德\"] 你的力量，你的言辞……虽然无法撼动我们最坚强的战士，但的确会给我们的敌人带去希望的幻象。我不想让他们挣扎更久了。\n[name=\"曼弗雷德\"] 你只能在这里停下来。我不会再让你进入这座城市——\n[character(name=\"avg_npc_394_1#4$1\")]\n[name=\"阿米娅\"] 而我会踏碎你的牢笼！\n[character(name=\"avg_npc_394_1#4$1\",focus=-1)]\n[name=\"？？？\"] 这恐怕还称不上什么牢笼。\n[character(name=\"avg_npc_394_1#5$1\")]\n[name=\"阿米娅\"] 嗯……？\n[character(name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"] 有人在改变我法术的能量密度？\n[character(name=\"avg_npc_404_1#9$1\")]\n[name=\"曼弗雷德\"] 等等，又是你……\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_235\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"Misery\"] 博士，我是不是来得有点迟？\n[name=\"Misery\"] 要在伦蒂尼姆的城墙内部找到一条通路……就算是我，也很困难。\n[name=\"Misery\"] 好在我找到了几位出色的帮手。\n[dialog]\n[character(name=\"avg_npc_235\",focus=-1)]\n[Decision(options=\"辛苦你了，Misery。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character]\n[Decision(options=\"阿米娅，我们换个战场。;可露希尔，无人机定位。;费斯特，滑索。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Decision(options=\"现在，我们跳下去。\", values=\"1\")]"
+        }
+      ],
+      "description": "Misery突破曼弗雷德法术接应博士、阿米娅、可露希尔与费斯特；将军当面认出他，博士回应并命小队撤退。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E75"
+          ],
+          "from": "char_002_amiya",
+          "reason": "Misery突破曼弗雷德法术接应博士、阿米娅、可露希尔与费斯特；将军当面认出他，博士回应并命小队撤退。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E75"
+          ],
+          "from": "char_615_acspec",
+          "reason": "Misery突破曼弗雷德法术接应博士、阿米娅、可露希尔与费斯特；将军当面认出他，博士回应并命小队撤退。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 538,
+          "kind": "story",
+          "line": 508,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 496,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "quote": "[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"罗德岛干员\"]  ……怎么回事！\n[name=\"罗德岛干员\"]  可露希尔，生物处理室13号舱，给我图表！\n[name=\"罗德岛干员\"]  舱室的内部温度急剧升高！能量在外放！\n[name=\"罗德岛干员\"]  等等，它的形态在转化！经过十四小时的处理，为什么还会进入到这一阶段？\n[name=\"罗德岛干员\"]  PRTS，刚才是谁使用了这个舱位？\n[name=\"罗德岛干员\"]  Dr.{@nickname}？我们在龙门攻防战里有干员伤亡吗？这处理的是谁？\n[name=\"罗德岛干员\"]  什么？\n[name=\"罗德岛干员\"]  等等，你慢点说，你说Dr.{@nickname}在舱位里安置了谁？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\", fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  勋爵！\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我在听，博卓卡斯替。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我们温迪戈，自我流放，失去一切。\n[name=\"爱国者\"]  但我们身负，萨卡兹的传统。\n[name=\"爱国者\"]  先祖，塑造我，培育我，注视我。所以，请替我见证。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  博卓卡斯替……\n[name=\"凯尔希\"]  ……我不知道自己够不够格。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我认为你是，最好人选。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  ……\n[name=\"凯尔希\"]  “……我在此担当一位萨卡兹的见证者。博卓卡斯替，卡兹戴尔的温迪戈，一生从未背叛过血肉，也从未愧对亲族。”\n[name=\"凯尔希\"]  “他将把一生留在光芒下的身体里……”\n[name=\"凯尔希\"]  “……而他的精魂，则将回到温迪戈温热的血脉中去。”\n[name=\"凯尔希\"]  这是个诅咒。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  对我，并不是。\n[name=\"爱国者\"]  啊——我感到……我感到，我清晰的视野，开始模糊。\n[name=\"爱国者\"]  谢谢你，勋爵。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我以为你讨厌这些。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  可我，已经老了。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_perimeter\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  不……\n[name=\"幻影弩手\"]  这里是哪里？\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  哈，原来是这样。哈。\n[name=\"幻影弩手\"]  塔露拉真的背叛我们了。\n[name=\"幻影弩手\"]  你以为我们会坐以待毙吗？！\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  你们不是对手。\n[name=\"萨卡兹战士\"]  有来世的话，向我报仇。\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  就因为知道会死，所以就要放弃了吗？\n[name=\"幻影弩手\"]  就这样被你们无故杀了而——\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  别杀他们。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  梅菲斯特……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  魔族人，我会给你们不知疼痛的身躯。让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  我们比你的牧群强大得多。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  我可以把我的生命拿出来和你们分享，你们能真正地永远战斗，不知疲倦地战斗。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……可以。\n[name=\"萨卡兹战士\"]  但他们要出去，也必须由我的同伴看着。现在还不能违背塔露拉的命令。\n[name=\"萨卡兹战士\"]  你们，弩手。出去。\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  梅菲斯特？！\n[name=\"幻影弩手\"]  （为什么他会救我们……？难道塔露拉还有什么阴谋？）\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  不过，你为什么特意要到这里来？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  ……因为我想进去这里。我想知道这里有什么样的秘密。我想知道罗德岛究竟为什么会从这里带走一个人。\n[name=\"梅菲斯特\"]  因为我从录像里看到那个人从这里出来。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  梅菲斯特……？为什么？\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  你们，想听歌吗？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  可是，浮士德队长他说，他说……\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  是啊，是的。我已经不会唱了。\n[name=\"梅菲斯特\"]  嗯，但我可以试试。\n[name=\"梅菲斯特\"]  应该是首摇篮曲吧？不记得是有谁教过我这首曲子……我不记得了。\n[name=\"梅菲斯特\"]  只是有人在我的梦里，一直地哼。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉睡吧，沉睡吧♪\n刺猬玩偶与小熊们……\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  乌萨斯的，感染者，又要走去哪里？\n[name=\"爱国者\"]  晦暗的夜晚，还会遮蔽……多少明星？\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  ……大尉，大尉！\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  最后的命令。\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  大尉……\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  战斗下去。活下去。\n[name=\"爱国者\"]  你们的路，只有你们……自己去走。\n[name=\"爱国者\"]  走了，才有路。\n[name=\"爱国者\"]  我必定要死。只是不知道，是否该是现在。\n[name=\"爱国者\"]  我们的死，究竟能，改变什么？\n[name=\"爱国者\"]  也许这个问题，你们，才能回答。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉进静静的黑色……"
+        }
+      ],
+      "description": "确认前者单向知晓后者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_002_amiya",
+          "reason": "前者在已读场景中具体提及、观察或接收后者信息。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 496,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 339,
+          "line": 142,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_beg.txt",
+          "quote": "[name=\"克洛维希娅\"]阿斯卡纶小姐说了，我们的时间并不充裕。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]我知道。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]我会处理好的。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……博士，你怎么看？\n[Dialog]\n[charslot]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"在那个地块上，还有件值得注意的事。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]……是的，萨卡兹的飞空艇很可能停靠在现在的诺伯特区中。\n[name=\"阿米娅\"]这也意味着……\n[stopmusic(fadetime=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#18$1\",focus=\"m\")]\n[name=\"阿米娅\"]她……特蕾西娅小姐，也许也在那里。\n[name=\"阿米娅\"]在这场战争中，我们一定会面对她，或迟或早。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]还有一件事，Logos先生和我提到过——\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[delay(time=0.3)]\n[name=\"自救军战士\"]紧急……讯……紧急……\n[name=\"自救军战士\"]萨卡兹突袭……卡登区的安全屋……我们……他们的部队……\n[name=\"自救军战士\"]呃啊——\n[Dialog]\n[PlaySound(key=\"$transmission\",volume=0.6)]\n[delay(time=1.5)]\n[PlayMusic(intro=\"$calamity_intro\", key=\"$calamity_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_4040_rockr_1#10$1\",focus=\"m\")]\n[name=\"洛洛\"]卡登区？怎么回事？\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"2\", name=\"avg_npc_398_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=300, width=200, block=true)]\n[name=\"自救军战士\"]奥克特里格区的安全屋……\n[name=\"自救军战士\"]……袭击，警报……\n[Dialog]\n[PlaySound(key=\"$transmission\",volume=0.6)]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=true)]\n[delay(time=1.5)]\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"3\", name=\"avg_npc_648_1#3$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]\n[name=\"凯瑟琳\"]费斯特！海布里区的安全屋正在遭受袭击！\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#6$1\",focus=\"r\")]\n[name=\"费斯特\"]你们那边情况怎么样？\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#6$1\",focus=\"none\")]\n[name=\"凯瑟琳\"]我们正在组织还击，向地下深层撤退，情况很危急，萨卡兹很可能……\n[name=\"凯瑟琳\"]……这绝不是一次简单的清剿，他们准备……\n[name=\"凯瑟琳\"]……必须……\n[Dialog]\n[PlaySound(key=\"$transmission\",volume=0.6)]\n[CharacterCutin(widgetID=\"3\",fadetime=0.2,block=true)]\n[delay(time=0.6)]\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#6$1\",focus=\"r\")]\n[name=\"费斯特\"]奶奶？听得到吗？奶奶？\n[name=\"费斯特\"]该死，通讯断了！\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"r\")]\n[name=\"费斯特\"]这是怎么回事？现在已经有三座安全屋正在遭到萨卡兹的袭击了！\n[name=\"费斯特\"]那里的通讯断了，我们需要支援他们——\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#6$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……\n[name=\"克洛维希娅\"]不，不只是三座安全屋。\n[name=\"克洛维希娅\"]是我们这里的通讯被切断了。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#7$1\",focus=\"m\")]\n[name=\"推进之王\"]博士，趴下！\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_grenadethrow\")]\n[playsound(key=\"$d_gen_explo_n\",delay=1)]\n[delay(time=1)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_battlefield_environment\", volume=0.4, loop=true, channel=\"warn\")]\n[Delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#10$1\",duration=0.3)]\n[charslot(slot=\"r\",name=\"avg_npc_401_1#7$1\",duration=0.3)]\n[delay(time=0.5)]\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#10$1\",focus=\"l\")]\n[name=\"洛洛\"]克洛维希娅，这是怎么了？！\n[name=\"洛洛\"]怎么可能，这里也被……这里可是自救军保密等级最高的区域！\n[charslot(slot=\"r\",name=\"avg_npc_401_1#7$1\",focus=\"r\")]\n[name=\"克洛维希娅\"]……Logos先生和我提到过，萨卡兹可能正在渗透我们的情报网络。\n[name=\"克洛维希娅\"]鉴于现在的情况，我只能判断，保密失效的等级比我们原来预计的高得多。\n[charslot(slot=\"r\",name=\"avg_npc_401_1#6$1\",focus=\"r\")]\n[name=\"克洛维希娅\"]很有可能，所有的自救军基地都遭到了袭击。\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#3$1\",focus=\"l\")]\n[name=\"洛洛\"]我们必须撤离！\n[charslot(slot=\"r\",name=\"avg_npc_401_1#6$1\",focus=\"r\")]\n[name=\"克洛维希娅\"]……\n[charslot(slot=\"r\",name=\"avg_npc_401_1#5$1\",focus=\"r\")]\n[name=\"克洛维希娅\"]……可是，去哪里？\n[Dialog]\n[charslot]\n[PlaySound(key=\"$grenade_explosion\",volume=0.7)]\n[CameraShake(duration=3, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_explosion\", volume=0.7, loop=false, channel=\"explo\",delay=1)]\n[PlaySound(key=\"$d_gen_explo_n\", volume=0.7, loop=false, channel=\"explo1\",delay=2)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_229_1#7\",focus=\"m\")]\n[name=\"号角\"]各位，萨卡兹的攻势很猛烈，他们早就盯上这里了，外层通道已经失守。\n[name=\"号角\"]他们——\n[Dialog]\n[charslot]\n[PlaySound(key=\"$e_atk_magic_m\", volume=1)]\n[playsound(key=\"$p_atk_elecball_n\", volume=1,delay=0.2)]\n[playsound(key=\"$d_avg_explosion_stone\", volume=1,delay=0.6)]\n[delay(time=0.8)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[CameraShake(duration=1,xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_235\",focus=\"m\")]\n[name=\"Misery\"]……现在，中层的缓冲区也被突破了。\n[name=\"Misery\"]博士，敌人使用了新式的萨卡兹巫术装置。那种数量，还有威力……我们的城防军和自救军朋友难以应对。\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"m\")]\n[name=\"号角\"]坦白地说，我们没有胜算，组织防守的罗本撑不了太久。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#6$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]撑不了多久……是多久。\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"m\")]\n[name=\"号角\"]十五分钟……不，半个小时。\n[name=\"号角\"]我们的时间最多只有这些。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#3$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]撤离，该死，我们该向哪里撤离？自救军现在在伦蒂尼姆没有一处安全的去处！\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]仪器厂的第三仓库？四季百货的停车场？伯恩子爵的公寓……\n[charslot(slot=\"m\",name=\"avg_npc_401_1#8$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……不行，风险都太高了。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]一定还有什么地方……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"none\")]\n[Decision(options=\"如果伦蒂尼姆城内危机四伏，我们也许可以暂时撤出。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#4$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]撤出伦蒂尼姆？\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]可是……\n[charslot(slot=\"m\",name=\"avg_npc_411_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]对了！萨卡兹的那条补给线！\n[name=\"可露希尔\"]我们可以反向利用海布里区的补给线，撤出伦蒂尼姆城！\n[name=\"可露希尔\"]我们有太多伤员和非战斗人员了，走地下能够帮助我们避免大部分战斗！\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#8$1\",focus=\"m\")]\n[name=\"费斯特\"]可我们在伦蒂尼姆的这些成果……\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"m\")]\n[name=\"号角\"]现在的攻势只能说明，之前他们只是觉得没有必要摧毁我们。\n[name=\"号角\"]在战争爆发的现在，军事委员会开始真正把自救军视作威胁了。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"none\")]\n[PlaySound(key=\"$d_gen_explo_n\", volume=0.7)]\n[CameraShake(duration=1,xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$d_avg_crowdrun\", volume=0.8)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_229_1#7\",focus=\"m\")]\n[name=\"号角\"]没有犹豫的时间了。\n[name=\"号角\"]我需要立刻去支援罗本。我们会尽可能地吸引萨卡兹的主力部队，掩护你们撤退。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……好吧。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]阿米娅，博士，自救军在这场撤离中需要你们的援助。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#21$1\",focus=\"m\")]\n[name=\"阿米娅\"]义不容辞，我们不会抛弃任何盟友。\n[Dialog]\n[charslot]\n[Decision(options=\"阿斯卡纶，组织突围。;Misery，销毁档案。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]明白。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_npc_235\",focus=\"m\")]\n[name=\"Misery\"]已经在做了。\n[Predicate(references=\"1;2\")]\n[Dialog]\n[charslot]\n[Decision(options=\"Logos。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]我在。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\",focus=\"none\")]\n[Decision(options=\"帮助号角小姐和她的队伍拖延时间。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]请放心，博士。\n[name=\"Logos\"]我会保证你们的安全。"
+        }
+      ],
+      "description": "阿米娅与Misery共同应对自救军基地突袭。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_002_amiya",
+          "reason": "二人在同一连续会议或对话中互相接收发言并共同制定行动。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_615_acspec",
+          "reason": "二人在同一连续会议或对话中互相接收发言并共同制定行动。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 339,
+          "kind": "story",
+          "line": 142,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆自救军行动期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 159,
+          "line": 135,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "quote": "[name=\"阿米娅\"]下午好，薇洛小姐……还是应该叫你干员琴柳？\n[name=\"琴柳\"]啊……阿米娅小姐！\n[name=\"阿米娅\"]请和大家一样叫我阿米娅吧。\n[name=\"琴柳\"]真是不好意思……阿米娅这么忙，还要抽时间来见我。前两天体检的时候，亚叶小姐说你一天只休息五个小时……\n[name=\"阿米娅\"]亚叶姐姐总是很担心我的身体。不过没关系，我最近的健康状况很不错，而且我也一直很想再见见你。\n[name=\"琴柳\"]……这里就是Outcast以前的办公室？\n[name=\"阿米娅\"]嗯。其实她并没有在这里待很久，出事前两个月，我们刚刚说服她接受了岗位调动。\n[name=\"琴柳\"]她和我说过，在来小丘郡之前，她已经差不多半退休了……\n[name=\"阿米娅\"]但她依然坚持申请去执行这次任务。\n[name=\"琴柳\"]我时常回想她在那几天说的每一句话……我相信她早就做好了面对一切的准备。\n[name=\"阿米娅\"]Outcast确实是这样的人。\n[name=\"阿米娅\"]即便是在精英干员中，Outcast的性格都称得上特别——她总能轻松地做出一些普通人眼里很艰难的决定。\n[name=\"琴柳\"]是啊，她说……她曾经因为一次战争中的失败调停，放弃了教会里很高的职位。\n[name=\"阿米娅\"]唔……离开拉特兰教会的部分确有其事，但是失败的调停？\n[name=\"阿米娅\"]我不记得Outcast的档案里有这项记载，反而，这听起来很像Misery的一件往事。\n[name=\"琴柳\"]……\n[name=\"琴柳\"]哈……哈哈……不知道为什么，这很像她会做的事。\n[name=\"阿米娅\"]可能有些人会因此觉得Outcast不够真诚……\n[name=\"琴柳\"]不，即便你告诉我，她说的并不全是实话，她仍是我见过最真诚的人。\n[name=\"阿米娅\"]你真的这么想？嗯……我并不是很意外，毕竟Outcast看人的眼光从不出错。\n[name=\"琴柳\"]阿米娅，我理解你的时间很宝贵……但你愿不愿意再多跟我说一些她的故事？\n[name=\"阿米娅\"]当然。\n[name=\"阿米娅\"]只是，这故事会很长——\n[name=\"琴柳\"]只要你有空，我随时想听。\n[name=\"阿米娅\"]好啊，我相信……去伦蒂尼姆的路上，我们会有很多时间的。"
+        }
+      ],
+      "description": "阿米娅明确获知 Misery，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S07"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅当面说出或听到 Misery 的具体过往。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "Misery未在场。",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 159,
+          "kind": "story",
+          "line": 135,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "Outcast旧办公室对话",
+      "title": "风暴瞭望"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 370,
+          "line": 237,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-14_end.txt",
+          "quote": "[name=\"Mon3tr\"]（咆哮）\n[dialog]\n[PlaySound(key=\"$d_avg_energygather\", volume=0.5, loop=true, channel=\"en\")]\n[StopSound(channel=\"en\", fadetime=2)]\n[name=\"Mon3tr\"]（积蓄能量）\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$b_char_fireharm\", volume=1)]\n[name=\"Mon3tr\"]（释放炙热的光束）\n[dialog]\n[charslot]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_gen_explo_n\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]\n[delay(time=1)]\n激射而出的光束在把源石结晶体围拢成的包围圈撕裂开一个巨大的口子后，继续向着远处扫射过去……击倒了越来越多的源石结晶体——\n但突然，它被某种力量挡住了。\n[dialog]\n[PlaySound(key=\"$d_avg_metallicclick\", volume=1)]\n[name=\"？？？\"]力道不错嘛！\n[dialog]\n[charslot(slot = \"m\", name = \"avg_017_huang_1#1$2\", duration=1)]\n[delay(time=1.5)]\n[name=\"煌\"]但小心别伤到博士，Mon3tr。\n[charslot(slot=\"m\", name=\"avg_391_rosmon_1#1$2\")]\n[name=\"迷迭香\"]我们已就位。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_footsteps_flock\", volume=1, loop=true, channel=\"f\")]\n[StopSound(channel=\"f\", fadetime=2)]\n[delay(time=1.5)]\n你带领着众人从黑暗中走了出来。\n[dialog]\n[Decision(options=\"凯尔希就在这。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$Mon3tr_n\")]\n[charslot(slot = \"m\", name = \"npc_10002\")]\n[name=\"Mon3tr\"]（欢快地抖擞身体）\n[dialog]\n[charslot]\n[Decision(options=\"支援Mon3tr。;净空石棺周围的敌人。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#1$1\")]\n[name=\"阿斯卡纶\"]随时策应我。\n[charslot(slot = \"m\", name = \"avg_npc_235\")]\n[name=\"Misery\"]放心。\n[charslot(slot = \"m\", name = \"avg_4133_logos_1#1$1\")]\n[name=\"Logos\"]咒言随行。\n[charslot(slot = \"m\", name = \"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]那……就是石棺？就一直被隐藏在本舰内？\n[Dialog]\n[charslot]\n[Decision(options=\"我初次醒来的地方……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"0,0\", channel = 3)]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]\n[delay(time=0.5)]\n[name=\"可露希尔\"]ZOOT识别到凯尔希的信号在减弱！\n[name=\"可露希尔\"]必须尽快确认。\n[interlude(channel = 3, clear = true)]\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]凯尔希在里面？\n[name=\"Touch\"]按照Raidian的说法来看，她的状态可不怎么乐观。\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#7$1\")]\n[name=\"Raidian\"]Dr.{@nickname}，我们需要尽快让她离开那里。\n[name=\"Raidian\"]再拖延下去，我担心……她的安全。\n[charslot(slot = \"m\", name = \"avg_npc_1310_1#1$1\")]\n[name=\"Pith\"]不能妄动，我们并不清楚凯尔希与石棺的情况。\n[name=\"Pith\"]根据当初的作战纪录，在切尔诺伯格时也有人接触了石棺，最后却产生了我们都没预料到的变故。\n[dialog]\n[charslot]\n[Decision(options=\"凯尔希不一样。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"交给我。;掩护我。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n你毫不迟疑地向石棺走去。\n[dialog]\n[delay(time=1)]\n你触碰到了冰冷的石棺，它……在回应你。\n不，是凯尔希在回应你。\n[dialog]\n[Decision(options=\"接下来我们还得一起继续向前呢。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[StopSound(channel=\"ene\", fadetime=2)]\n[PlaySound(key=\"$d_avg_stonegateopen\", volume=1, loop=true, channel=\"sn\")]\n[StopSound(channel=\"sn\", fadetime=3)]\n[delay(time=2)]\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#10$3\")]\n[name=\"阿米娅\"]……\n[name=\"阿米娅\"]凯尔希医生，你——\n[charslot]\n[PlayMusic(intro=\"$warm_intro\", key=\"$warm_loop\", volume=0.6)]\n[name=\"虚弱的声音\"]……你们来得很及时。\n[name=\"虚弱的声音\"]罗德岛……怎么样了……\n[dialog]\n你向石棺中的人伸出了手。\n[dialog]\n[Decision(options=\"大家都还平安。;多亏你的努力。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"欢迎回来，凯尔希。\", values=\"1\")]\n[Predicate(references=\"1\")]\n她拉住了你的手，你能感觉到她前所未有地脆弱。\n[dialog]\n[Decision(options=\"你看上去不是很好。;刚刚发生了什么事？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#4$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"凯尔希\"]不必在意我……\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]借助石棺介入PRTS很困难，但意料之外的是，我收到了一份礼物。\n[name=\"凯尔希\"]关于PRTS和普瑞赛斯的更多情报，我会马上共享给你们。\n[PlaySound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\", name=\"npc_10002\")]\n[name=\"Mon3tr\"]（紧张的嘶吼）\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#11$1\")]\n[name=\"凯尔希\"]不用害怕，Mon3tr。我还站在你面前。\n[name=\"凯尔希\"]我不会抛下你。\n[dialog]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]\n[name=\"凯尔希\"]Dr.{@nickname}，我已经找到了通往Abyss的路。\n[name=\"凯尔希\"]这场混乱该结束了。\n[name=\"凯尔希\"]这里受到的干扰很强，我们已经极为靠近Abyss。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\")]\n[name=\"阿米娅\"]但这里没有路了，Abyss彻底把自己隐藏起来了——\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]在这个距离内，我可以清楚地判断出它的位置。\n[charslot]\n凯尔希站在最深处的墙壁之前，深深地吸了一口气。\n她从未走到如此深入的地方——"
+        }
+      ],
+      "description": "阿米娅与Misery同在救援战场直接协同行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D27"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅与Misery同在救援战场直接协同行动。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "D27"
+          ],
+          "from": "char_615_acspec",
+          "reason": "阿米娅与Misery同在救援战场直接协同行动。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 370,
+          "kind": "story",
+          "line": 237,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-14_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_002_amiya|char_615_acspec"
+}

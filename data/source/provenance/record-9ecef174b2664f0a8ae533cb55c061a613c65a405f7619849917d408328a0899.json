@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 185,
+          "line": 152,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "quote": "[name=\"古罗\"]博士，为什么你要把行军的速度控制得这么慢？\n[Dialog]\n[Character(name=\"avg_npc_260_1#3$1\",focus=-1)]\n[Decision(options=\"要让观察着我们的眼睛再多欣赏欣赏。;现在还不能快。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]我说，古罗你该不会还没搞清楚我们要干什么吧？\n[Character(name=\"avg_npc_260_1#1$1\")]\n[name=\"古罗\"]不就是吸引希瓦艾什家的注意吗？我就是觉得有点太慢了。\n[Character(name=\"avg_npc_262_1#2$1\")]\n[name=\"休露丝\"]我看你就是想直接冲过去和希瓦艾什家打一仗。\n[Character(name=\"avg_npc_260_1#2$1\")]\n[name=\"古罗\"]那当然。\n[name=\"古罗\"]之前被瓦莱丝压了一头，我现在胸口憋着一口气呢。\n[Dialog]\n[Character]\n[playsound(key=\"$d_avg_snowbootwalk\")]\n[Character(name=\"avg_npc_284_1$1\",fadetime=1)]\n[Delay(time=1.5)]\n[name=\"佩尔罗契家战士\"]博士，在大典上被抓走的尤卡坦的位置确认了。\n[name=\"佩尔罗契家战士\"]和您想的一样，没有被带回希瓦艾什家的领地，而是就近关在了山脚下的镇子里。\n[Dialog]\n[Character(name=\"avg_npc_284_1$1\",focus=-1)]\n[Decision(options=\"辛苦了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_260_1#4$1\")]\n[name=\"古罗\"]博士，你可真厉害啊，这么短的时间里就能摸清楚尤卡坦老爷被关押的位置。\n[Character(name=\"avg_npc_262_1#2$1\")]\n[name=\"休露丝\"]哼，这点情报收集，我布朗陶家的人也做得到。\n[Character(name=\"avg_npc_262_1#3$1\")]\n[name=\"休露丝\"]总之，既然确认了尤卡坦的位置，我和这个傻大个也该动起来了吧？\n[Dialog]\n[Character(name=\"avg_npc_262_1#3$1\",focus=-1)]\n[Decision(options=\"是的。\", values=\"1\")]"
+        }
+      ],
+      "description": "古罗向博士询问行军速度并听指示。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E94"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "古罗向博士询问行军速度并听指示。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E94"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "古罗向博士询问行军速度并听指示。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 185,
+          "kind": "story",
+          "line": 152,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "npc_7144babb98dd293d|npc_b99957887950ebfd"
+}

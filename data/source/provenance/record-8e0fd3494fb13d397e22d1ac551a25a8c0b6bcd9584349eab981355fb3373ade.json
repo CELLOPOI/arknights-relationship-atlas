@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 201,
+          "line": 193,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_st01.txt",
+          "quote": "[name=\"塑料骑士\"]  喂，把今天比赛的安排给我拿过来。\n[Character(name=\"avg_npc_103\", name2=\"avg_npc_109\", focus=2)]\n[name=\"企业员工\"]  好的，瑟奇亚克阁下。\n[Character(name=\"avg_npc_103\", name2=\"avg_npc_109\", focus=1)]\n[name=\"塑料骑士\"]  都是些熟面孔啊，唔……等等，是最下面这个？\n[Character(name=\"avg_npc_103\", name2=\"avg_npc_109\", focus=2)]\n[name=\"企业员工\"]  是的……选拔已经开始半个月了，现在才开始积累积分的独立骑士并不常见，所以我们……\n[Character(name=\"avg_npc_103\", name2=\"avg_npc_109\", focus=1)]\n[name=\"塑料骑士\"]  这个姓氏——是耀骑士的——？"
+        }
+      ],
+      "description": "二人直接处理比赛安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_d9e6a25fb83f9874",
+          "reason": "马克维茨向瑟奇亚克提供赛程并回应其询问。",
+          "status": "supported",
+          "to": "npc_e4fa14db20eb7fd1"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_e4fa14db20eb7fd1",
+          "reason": "瑟奇亚克直接吩咐并向马克维茨追问赛程。",
+          "status": "supported",
+          "to": "npc_d9e6a25fb83f9874"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_89f9ae4a0acf0209.json",
+      "sources": [
+        {
+          "endLine": 201,
+          "kind": "story",
+          "line": 193,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "赛事后台",
+      "title": "玛莉娅·临光"
+    }
+  ],
+  "relationship_id": "npc_d9e6a25fb83f9874|npc_e4fa14db20eb7fd1"
+}

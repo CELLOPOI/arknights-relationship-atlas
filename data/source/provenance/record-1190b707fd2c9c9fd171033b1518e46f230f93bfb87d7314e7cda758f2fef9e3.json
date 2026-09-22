@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 490,
+          "line": 422,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "quote": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[playMusic(key=\"$wasteland_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"char_115_headbr_9#1\")]\n[name=\"凛冬\"]当初在切尔诺伯格时，我做到过，这次也会一样。\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"这不仅关乎你们的安危。;本次与乌萨斯方面的接触不同于过往。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"char_115_headbr_9#1\")]\n[name=\"凛冬\"]我和娜塔莉娅盘算过，借助她家罗斯托夫实业的名义，我们有更方便的身份行动——\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"我并不担心你们的身份问题。;罗德岛同样有途径解决你们的身份问题。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"（递出医疗部报告）\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"评估结果显示你们没有完全准备好。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"char_115_headbr_9#3\")]\n[name=\"凛冬\"]……\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"你们有其他外勤任务的可选项。;要帮罗德岛，从来不止一个选择。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"char_115_headbr_9#1\")]\n[name=\"凛冬\"]我们每个人或多或少都还是会害怕回去，但我们逃不开那个地方。\n[name=\"凛冬\"]这不是所谓的“自我疗愈的归乡之旅”，这是我们自认足够适合执行乌萨斯相关行动后，深思熟虑的志愿申请。\n[name=\"凛冬\"]我们认可的家早就是罗德岛了。\n[name=\"凛冬\"]所以我保证，我会带她们无恙地回来……回家。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#1$2\")]\n[charslot(slot = \"right\", name = \"char_197_poca_1#3\")]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]\n[Background(image=\"bg_bridge_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=0.5)]\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]索尼娅一直都比我更勇敢。\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]阿米娅，关于和罗斯托夫实业合作的具体事宜，麻烦请凯尔希医生和博士再多加考虑。\n[name=\"早露\"]我相信这对我们的行动有益无害。\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#8$2\",focus=\"l\")]\n[name=\"阿米娅\"]没问题的，早露小姐。\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#1$2\",focus=\"l\")]\n[name=\"阿米娅\"]不过，我依旧建议你们的行动区域暂时避开切尔诺伯格直辖区的活动范围。\n[name=\"阿米娅\"]乌萨斯对其依旧维持了严格的管理，你们的身份依旧很敏感。\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]我们会保持和本舰的联系，乌萨斯行动的许多事宜依旧需要交给你们判断。\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#8$2\",focus=\"l\")]\n[name=\"阿米娅\"]一路顺风，早露小姐。\n[name=\"阿米娅\"]本舰会增派一批后勤干员和医疗干员与你们同行，保障你们行动的同时也会探索在乌萨斯地区正式建立办事处的可能性。\n[name=\"阿米娅\"]对了，知道你们要出发的消息之后，还有一个人找到了我，希望申请加入你们的队伍。\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]哦？\n[stopmusic(fadetime=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot]\n[Background(image=\"bg_canteen\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[playMusic(intro=\"$warm_intro\",key=\"$warm_loop\", volume=0.6)]\n[playsound(key=\"$d_avg_hungry\")]\n[charslot(slot=\"m\",name=\"char_196_sunbr_1#6\")]\n[name=\"古米\"]（咕咕~）"
+        }
+      ],
+      "description": "博士审阅早露等人的申请并作出决定。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D05"
+          ],
+          "from": "char_197_poca",
+          "reason": "博士审阅早露等人的申请并作出决定。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D05"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士审阅早露等人的申请并作出决定。",
+          "status": "supported",
+          "to": "char_197_poca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 490,
+          "kind": "story",
+          "line": 422,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_197_poca|npc_b99957887950ebfd"
+}

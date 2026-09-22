@@ -1,0 +1,29 @@
+{
+  "id": "import:char_235_jesica|npc_b9643057e24653f0",
+  "published": true,
+  "quote": "【不义之财】\n“桥夹”克里夫：提醒你一句，杰西卡，你是佣兵，你的任务只是生意，不是义务。\n杰西卡：我们……\n年老的猎人：好了，打住吧，我不关心那个。\n\n伍德洛：所以……你们的本舰来这里不仅仅是为了拖拽地块，对吗？\n杰西卡：帮助银行驱逐负债居民，回收不良资产，都是佣兵公司要做的事情。\n杰西卡：至于他们采取的方式，我想……应该不会是什么怀柔手段。\n伍德洛：……杰西卡，你希望我去做什么呢？\n杰西卡：来到这里前，有人让我给您带一颗子弹。\n伍德洛：子弹？\n伍德洛：……那人是谁？\n杰西卡：我的老板，“桥夹”克里夫先生。\n伍德洛：那又是谁？\n杰西卡：伍德洛先生，那天去找你时，你的抽屉打开着，我从里面看到了一张照片……克里夫先生就是那个搭着你肩膀的人。\n\n【众生行记】\n海伦娜：对了，伍迪，你要不要看看这个？\n杰西卡：咦，好厚一封，是什么重要文件吗？\n海伦娜：从黑钢寄过来的。\n杰西卡：伍迪，你不打开吗？\n伍德洛：不，我不想。\n海伦娜：打开呗，万一里面是厚厚一沓金券呢？正好填补这场火灾烧出的大窟窿。\n伍德洛：那你开。\n海伦娜：我开就我开。\n杰西卡：哇，克里夫先生写了好长一封信啊，都拖到地上了。\n伍德洛：……",
+  "relationship_id": "char_235_jesica|npc_b9643057e24653f0",
+  "sources": [
+    {
+      "endLine": 242,
+      "kind": "story",
+      "line": 224,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_01_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 196,
+      "kind": "story",
+      "line": 171,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_05_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 248,
+      "kind": "story",
+      "line": 223,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_st01.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

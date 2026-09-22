@@ -1,0 +1,177 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 161,
+          "line": 132,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_end.txt",
+          "quote": "[name=\"宁小姐\"]  您的朋友好像都睡下了。\n[Character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=2)]\n[name=\"梁洵\"]  ……时候其实不早了。\n[Character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[name=\"宁小姐\"]  只是闲聊几句就到这个时辰了？\n[name=\"宁小姐\"]  ……那看戏的事？\n[Character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#2$1\",focus=2)]\n[name=\"梁洵\"]  再说吧，你应该先养好身体，尽量别出门了。\n[Character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=2)]\n[name=\"梁洵\"]  照顾好自己。\n[Character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[name=\"宁小姐\"]  总有些比身体抱恙还要紧的事，我才会特地出这趟门的呀。\n[Character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=2)]\n[name=\"梁洵\"]  ……看戏吗？\n[Character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[name=\"宁小姐\"]  嗯哼。\n[Character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#2$1\",focus=2)]\n[name=\"梁洵\"]  可我终归有公务在身，脱不开身。\n[Character(name=\"avg_npc_298_1#6$1\",name2=\"avg_npc_295_1#2$1\",focus=1)]\n[name=\"宁小姐\"]  梁大人这是在责备我游手好闲？\n[Character(name=\"avg_npc_298_1#6$1\",name2=\"avg_npc_295_1#9$1\",focus=2)]\n[name=\"梁洵\"]  岂敢。\n[Character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#9$1\",focus=-1)]\n[name=\"远处的叫喊声\"]  有贼！抓贼！！\n[Character(name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]  唔……贼？\n[Character(name=\"avg_npc_298_1#4$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[name=\"宁小姐\"]  真稀奇，梁府也能遭贼？\n[Character(name=\"avg_npc_298_1#4$1\",name2=\"avg_npc_295_1#7$1\",focus=2)]\n[name=\"梁洵\"]  你先进屋去，我去看看怎么回事。"
+        }
+      ],
+      "description": "宁小姐与梁洵当面交谈；宁小姐身份待后文具名校验。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "宁小姐与梁洵当面交谈；宁小姐身份待后文具名校验。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "宁小姐与梁洵当面交谈；宁小姐身份待后文具名校验。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 161,
+          "kind": "story",
+          "line": 132,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 227,
+          "line": 77,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "quote": "[name=\"宁小姐\"]天还有些凉，好在茶是热的，倒也不冷。\n[character(name=\"avg_npc_298_1#10$1\")]\n[name=\"宁小姐\"]梁大人公务繁忙，今天怎么来得这么早？\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.6)]\n[character(name=\"avg_npc_295_1#8$1\",fadetime=1,block=true)]\n[Delay(time=2)]\n[name=\"梁洵\"]说好陪你看戏。\n[Dialog]\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\")]\n[characteraction(name=\"right\", type=\"move\", xpos=-50,fadetime=1, block=true)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.6)]\n[Delay(time=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=50,fadetime=0.8, block=true)]\n[Delay(time=1)]\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]多披些衣物，小心风寒。\n[character(name=\"avg_npc_298_1#4$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]什么时候说好了？之前只说，得空了就一起来。\n[character(name=\"avg_npc_298_1#4$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]今日就得空。\n[character(name=\"avg_npc_298_1#8$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]骗人。太傅交代得那么紧急，工作上的交接就有大堆麻烦……梁大人莫非是昨夜没睡？\n[character(name=\"avg_npc_298_1#8$1\",name2=\"avg_npc_295_1#10$1\",focus=2)]\n[name=\"梁洵\"]咳，有稍微合眼。\n[character(name=\"avg_npc_298_1#8$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]宁小姐今天也醒得早。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]我猜不听人劝的梁大人今天一早会来，一直在等着。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#4$1\",focus=2)]\n[name=\"梁洵\"]这，我……\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#4$1\",focus=1)]\n[name=\"宁小姐\"]茶杯空了，杯子递给我。\n[Dialog]\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#4$1\",focus=1)]\n[PlaySound(key=\"$pourwater\")]\n[Delay(time=3)]\n[PlaySound(key=\"$d_avg_chess\")]\n[Delay(time=1)]\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]……多谢。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]一杯茶而已，你我之间还用说谢？\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]能在这山上坐坐，喝茶醒醒神，也不错。\n[name=\"宁小姐\"]这儿的茶点味道也挺好……油酥，芝麻糕，还有——\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]糖果子。\n[name=\"梁洵\"]上回宁小姐夸奖过。\n[character(name=\"avg_npc_298_1#4$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]啊，您就记着了？\n[character(name=\"avg_npc_298_1#4$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]嗯。宁小姐喜欢，就多留意了些。\n[character(name=\"avg_npc_298_1#8$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]尚蜀什么都好，就是口味上有点重，好在糕点大多还是香软甜口的，合我的口味。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]唉，梁大人府里煮的锅子最初也辣得很，之后倒好了不少。\n[name=\"宁小姐\"]最初动不了一筷子就要找水，太狼狈了。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]府里解辣的汤时刻备着。\n[name=\"梁洵\"]宁小姐的家乡……\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]南边水乡，不大吃辣。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]难为你了。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]这有什么，总归要适应的。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]话虽如此，这不是轻易能做到的。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]有心想要适应，就不难。\n[name=\"宁小姐\"]总归要适应的。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#7$1\",focus=2)]\n[name=\"梁洵\"]……嗯。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#7$1\",focus=1)]\n[name=\"宁小姐\"]梁大人之前提过，您是尚蜀本地人吧？\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=2)]\n[name=\"梁洵\"]是。\n[name=\"梁洵\"]梁某人早年离家，近些年才回到故乡。宁小姐知道的。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[name=\"宁小姐\"]听你提起过。\n[name=\"宁小姐\"]这么说来，你的那位龙门朋友，就是在离家期间遇上的？\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=2)]\n[name=\"梁洵\"]是的。\n[name=\"梁洵\"]那时少不知事，离家闯荡，交了不少朋友，以为少年意气无坚不摧，无所不可为……\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#10$1\",focus=2)]\n[name=\"梁洵\"]做了不少贻笑大方的蠢事。\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#10$1\",focus=1)]\n[name=\"宁小姐\"]交朋友可不算蠢事。\n[name=\"宁小姐\"]梁大人，你交的是位好朋友。\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]……是梁某幸运。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]要不是这次事出紧急，确实该好好请你那位朋友在尚蜀游览一番，尽一尽地主之谊。\n[name=\"宁小姐\"]还能多听两句梁大人的过往趣事，不知道同现在差别大不大。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#7$1\",focus=2)]\n[name=\"梁洵\"]我从未变过。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#10$1\",focus=2)]\n[name=\"梁洵\"]不……\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#1$1\",focus=2)]\n[name=\"梁洵\"]或许还是有些变化。不过……\n[character(name=\"avg_npc_298_1#4$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[name=\"宁小姐\"]嗯？\n[character(name=\"avg_npc_298_1#4$1\",name2=\"avg_npc_295_1#1$1\",focus=2)]\n[name=\"梁洵\"]梁某人要做的事，为一方百姓……从未变过。\n[character(name=\"avg_npc_298_1#6$1\",name2=\"avg_npc_295_1#1$1\",focus=1)]\n[name=\"宁小姐\"]……\n[character(name=\"avg_npc_298_1#6$1\",name2=\"avg_npc_295_1#7$1\",focus=2)]\n[name=\"梁洵\"]昨夜太傅提出随他上京……我原本，不想应下。\n[character(name=\"avg_npc_298_1#8$1\",name2=\"avg_npc_295_1#7$1\",focus=1)]\n[name=\"宁小姐\"]你怪我替你答应了？\n[character(name=\"avg_npc_298_1#8$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]不。不会。\n[name=\"梁洵\"]那时犹豫已经是不应该，我该谢谢宁小姐。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]你不怪罪我就好了。你放心不下尚蜀，我能理解，其他人也能，但太傅开口是不一样的。\n[name=\"宁小姐\"]太傅身边不留庸才。他老人家给出的，只会是最险、最难搏的机会。\n[name=\"宁小姐\"]我想如果我没看错梁洵这个人，那你要是一时犹豫拒绝了，之后一定是会后悔的。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]……我明白。让宁小姐担心了。\n[character(name=\"avg_npc_298_1#6$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]……\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]……呵呵。\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#9$1\",focus=2)]\n[name=\"梁洵\"]宁小姐……？\n[character(name=\"avg_npc_298_1#8$1\",name2=\"avg_npc_295_1#9$1\",focus=1)]\n[name=\"宁小姐\"]啊，没事，没什么。我只是忽然想到……\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#9$1\",focus=1)]\n[name=\"宁小姐\"]你那时要是当真毫不犹豫地同意要走，恐怕，我也是要有些生气的。\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]……咳。宁小姐说笑了。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]我可不是说笑。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#4$1\",focus=2)]\n[name=\"梁洵\"]咳咳咳。\n[character(name=\"avg_npc_298_1#1$1\",name2=\"avg_npc_295_1#4$1\",focus=1)]\n[name=\"宁小姐\"]这才多久，日头就起来了。\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#4$1\",focus=1)]\n[name=\"宁小姐\"]梁大人，这戏好看吗？\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]尚可。\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\",focus=1)]\n[name=\"宁小姐\"]那要不要早些下山？\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#8$1\",focus=2)]\n[name=\"梁洵\"]不用。\n[name=\"梁洵\"]……再看一会。\n[stopmusic(fadetime=3)]\n[character(name=\"avg_npc_298_1#10$1\",name2=\"avg_npc_295_1#10$1\",focus=2)]\n[name=\"梁洵\"]宁小姐，再看一会。"
+        }
+      ],
+      "description": "梁洵与宁辞秋在茶馆长谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "梁洵与宁辞秋在茶馆长谈。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "梁洵与宁辞秋在茶馆长谈。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_579215a80b4f83aa.json",
+      "sources": [
+        {
+          "endLine": 227,
+          "kind": "story",
+          "line": 77,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "未尽篇章"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 220,
+          "line": 131,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_02_beg.txt",
+          "quote": "[name=\"梁洵\"]听说……听说你刚刚回到百灶，我想……来见见你。\n[charslot]\n梁洵的目光落在了宁小姐的身后，那儿正站着一位慈眉善目的老人。\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#1$1\")]\n[name=\"宁述\"]别站着啦，辞秋啊，快招呼你的朋友进来坐啊。\n[charslot(slot=\"m\",name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]这……\n[stopmusic(fadetime=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[delay(time=1)]\n[Background(image=\"25_g11_yanroom\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[playMusic(intro=\"$tech_intro\",key=\"$tech_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]……\n[charslot(slot=\"m\",name=\"avg_npc_298_1#1$1\")]\n[name=\"宁辞秋\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#1$1\")]\n[name=\"宁述\"]咦，怎么都不动筷子？\n[name=\"宁述\"]哈哈，看来是我这个老头子打扰了你们年轻人的兴致。要不，我先回避？你们慢慢吃，慢慢聊。\n[charslot(slot=\"m\",name=\"avg_npc_295_1#4$1\")]\n[name=\"梁洵\"]岂敢！是晚辈贸然叨扰，前辈设宴款待，我怎敢——\n[charslot(slot=\"m\",name=\"avg_npc_298_1#10$1\")]\n[name=\"宁辞秋\"]爷爷，您就别吓唬他了。\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#8$1\")]\n[name=\"宁述\"]哈哈哈……梁洵小友，就不必客气了。\n[name=\"宁述\"]辞秋还在尚蜀的时候就常常来信，说那里的知府是体恤百姓又有才学的俊杰，今天终于得以一见。\n[charslot(slot=\"m\",name=\"avg_npc_298_1#4$1\")]\n[name=\"宁辞秋\"]爷爷，我什么时候——\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#1$1\")]\n[name=\"宁述\"]哈哈哈……三天后，是老朽的生日，本来不想大费周章地操办。\n[name=\"宁述\"]今天我就自作主张一回，留你们两个年轻人陪我吃顿饭、说说话，就算给我庆寿了。\n[charslot(slot=\"m\",name=\"avg_npc_295_1#8$1\")]\n[name=\"梁洵\"]晚辈恭祝前辈寿辰。\n[charslot(slot=\"m\",name=\"avg_npc_298_1#10$1\")]\n[name=\"宁辞秋\"]我也祝爷爷海屋添筹。\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#1$1\")]\n[name=\"宁述\"]都是自家人，客气什么。来来来，吃菜吃菜。\n[dialog]\n[charslot]\n[playsound(key=\"$d_avg_pickupchopsticks\")]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#1$1\")]\n[name=\"宁述\"]我原先记得，梁洵小友是在尚蜀担任知府，可方才怎么又说，你是玉门参知？\n[name=\"宁述\"]从玉门到百灶，你这大老远过来，是所为何事呀？\n[charslot(slot=\"m\",name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]玉门此行路途遥远，先前已按计划，将城中百姓分批次安置在沿途各个移动城市中。最后一拨百姓，前几天也已经在百灶城中安顿下来。\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#4$1\")]\n[name=\"宁述\"]咦，那玉门不是在西北边巡防，怎么绕到百灶边上来了？\n[charslot(slot=\"m\",name=\"avg_npc_298_1#10$1\")]\n[name=\"宁辞秋\"]爷爷您忘啦？今年年初的时候，玉门就已经改变航道出发前往百灶了。\n[name=\"宁辞秋\"]至于玉门为什么要赶回百灶，爷爷总记得吧？\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#2$1\")]\n[name=\"宁述\"]唉……又是这个老大难的问题。\n[name=\"宁述\"]吵了这么多年也没吵出名堂。退休这么久了，有时候做梦，脑子里都是那几个大嗓门的声音，头疼。\n[charslot(slot=\"m\",name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]是上千年的问题了。\n[charslot(slot=\"m\",name=\"avg_npc_298_1#8$1\")]\n[name=\"宁辞秋\"]唔，有些问题拖久了也就不是问题了，有些则变成了更大的问题。\n[charslot(slot=\"m\",name=\"avg_npc_298_1#1$1\")]\n[name=\"宁辞秋\"]现在总算是到不得不解决的时候了……爷爷，您的主意呢？\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#1$1\")]\n[name=\"宁述\"]我能有什么主意，我要是再有主意，该有人说我指手画脚咯。\n[charslot(slot=\"m\",name=\"avg_npc_298_1#10$1\")]\n[name=\"宁辞秋\"]我看可未必吧，尚书大人他不是三天两头往您这跑，他就没有和您聊起这件事？\n[charslot(slot=\"m\",name=\"avg_npc_295_1#5$1\")]\n[name=\"梁洵\"]宁小姐……有些事，宁大人不方便讲的。\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#1$1\")]\n[name=\"宁述\"]哈哈哈哈……瞧我这孙女，倒是学会替别人问话了。\n[name=\"宁述\"]却也无妨。老朽本就是普通百姓，不知道什么不能说的朝廷秘辛，自然也没有不能说的话。只是这件事上，反倒要请教一下年轻人。\n[name=\"宁述\"]梁洵小友，你的意思呢？\n[charslot(slot=\"m\",name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]晚辈不敢妄言全局，但是相信一个粗浅的道理——\n[name=\"梁洵\"]上兵伐谋。\n[name=\"梁洵\"]一场战争，于朝廷而言，有弊无利；于百姓而言，只有家破人亡。\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#1$1\")]\n[name=\"宁述\"]上兵伐谋……说得不错。\n[name=\"宁述\"]可是，按这个说法……千年前要是没有那位真龙的狩猎之举，又何来之后炎国的千年国祚呢？\n[charslot(slot=\"m\",name=\"avg_npc_295_1#7$1\")]\n[name=\"梁洵\"]世殊事异，情况不可尽同日而语。\n[name=\"梁洵\"]千年前的战争名为围猎，可实际则是人从无法匹敌的“神明”手中夺来活路，稍有退让，即是放弃了最后一点赖以生存的立锥之地。\n[charslot(slot=\"m\",name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]但时至今日，攻守势异。既然已经掌握主动，不思避免战事，还要让将士百姓罹受战乱之苦，那便是我辈无能了。\n[charslot(slot=\"m\",name=\"avg_npc_1614_1#8$1\")]\n[name=\"宁述\"]哈哈哈哈，说得好极了。听了梁洵小友这一番高论，想到自己碌碌无为，老朽都要脸红了。\n[charslot(slot=\"m\",name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"]晚辈妄言！还请前辈不要怪罪……"
+        }
+      ],
+      "description": "二人在宁府共同赴宴并连续交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J01"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "二人在宁府共同赴宴并连续交谈。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "J01"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "二人在宁府共同赴宴并连续交谈。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 220,
+          "kind": "story",
+          "line": 131,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 157,
+          "line": 38,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_06_beg.txt",
+          "quote": "[name=\"宁辞秋\"]梁大人。 \n[charslot(slot = \"r\", name = \"avg_npc_295_1#4$1\",focus=\"r\")]\n[name=\"梁洵\"]宁小姐……怎么还在城中？  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\")]\n[name=\"宁辞秋\"]梁大人难道忘了，我也是礼部官员。这种时候，在所有百姓全部撤离之前，我们都是不该离开的。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#5$1\",focus=\"r\")]\n[name=\"梁洵\"]当如是……  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#1$1\",focus=\"r\")]\n[name=\"梁洵\"]如今百灶城中，百姓已经疏散完毕了？  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#8$1\",focus=\"l\")]\n[name=\"宁辞秋\"]疏散工作基本已经结束了，百灶城很快就要开始拆分了吧。 \n[charslot(slot = \"l\", name = \"avg_npc_298_1#1$1\",focus=\"l\")] \n[name=\"宁辞秋\"]还是令人不安……不是吗？ \n[charslot(slot = \"r\", name = \"avg_npc_295_1#9$1\",focus=\"r\")]\n[name=\"梁洵\"]……  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#9$1\",focus=\"l\")]\n[name=\"宁辞秋\"]也许梁大人还想问，你不曾告知于我自己遭贬谪的事，我又怎么知道你在这里？ \n[charslot(slot = \"r\", name = \"avg_npc_295_1#7$1\",focus=\"r\")] \n[name=\"梁洵\"]……  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#5$1\",focus=\"r\")]\n[name=\"梁洵\"]……昨天一夜透雨，在下只是看到，宁小姐身上衣裳单薄……  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#6$1\",focus=\"l\")]\n[name=\"宁辞秋\"]……  \n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_sweep\", volume=1)]\n[delay(time=1.8)]\n[PlaySound(key=\"$d_avg_sit_tatami\", volume=0.3)]\n[delay(time=1)]\n男子在一片混乱中清扫出了一小片空地，二人就这样席地坐下。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#5$1\",focus=\"l\",isblock=false)]\n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\",isblock=true)]\n[name=\"宁辞秋\"]说来惭愧，这座天镜阁，倒的确是久违了。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#8$1\",focus=\"r\")]\n[name=\"梁洵\"]宁小姐当年……应该也是天镜阁的常客？  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\")]\n[name=\"宁辞秋\"]在学宫求学的学生，谁不是呢？  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\")]\n[name=\"宁辞秋\"]当年看着那一卷卷仿佛要堆上天的书，只觉得头疼得要命。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#2$1\",focus=\"l\")]\n[name=\"宁辞秋\"]但现在看来……这座天镜阁，或许还真是一个难得的，与世无争的好地方。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#5$1\",focus=\"r\")]\n[name=\"梁洵\"]宁小姐，我听闻了宁大人的事……  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#5$1\",focus=\"r\")]\n[name=\"梁洵\"]在下，深表遗憾……  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#6$1\",focus=\"l\")]\n[name=\"宁辞秋\"]……  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#6$1\",focus=\"l\")]\n[name=\"宁辞秋\"]祖父为了他相信的道义，做了他认为正确的事。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#6$1\",focus=\"l\")]\n[name=\"宁辞秋\"]他将这个秘密保守了这么多年，不会只是出于私心，同样也是为了保护家中后辈。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#1$1\",focus=\"l\")]\n[name=\"宁辞秋\"]于情于理，我都没有办法去指责他。 \n[charslot(slot = \"l\", name = \"avg_npc_298_1#1$1\",focus=\"l\")] \n[name=\"宁辞秋\"]当然，这些都不能改变他要为自己的作为付出代价就是。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#8$1\",focus=\"r\")]\n[name=\"梁洵\"]宁小姐能将这些事放下……那很好。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#1$1\",focus=\"l\")]\n[name=\"宁辞秋\"]梁大人应该是误会了，我并不是在说自己可以将这一切轻易放下。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#1$1\",focus=\"l\")]\n[name=\"宁辞秋\"]我从不否认自己的仕途受到了祖父荫庇……在旁人看来，宁家现在的处境不知该有多么狼狈……  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#1$1\",focus=\"l\")]\n[name=\"宁辞秋\"]……这话，我只对梁大人讲。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#8$1\",focus=\"r\")]\n[name=\"梁洵\"]这话怎能这么讲？梁某倒觉得，这些年来，宁小姐的每一份功绩都做不得假。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#8$1\",focus=\"r\")]\n[name=\"梁洵\"]我相信宁小姐——  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#1$1\",focus=\"l\")]\n[name=\"宁辞秋\"]也许，只有你相信呢？  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#5$1\",focus=\"r\")]\n[name=\"梁洵\"]……  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#1$1\",focus=\"l\")]\n[name=\"宁辞秋\"]爷爷曾经说过，入了这道宫墙，便不能轻信于人，更不能以为自己可以轻易取信于人。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\")]\n[name=\"宁辞秋\"]我的确是听进去了……可是在尚蜀初识你的时候，不知为何就忘了这句话。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#9$1\",focus=\"l\")]\n[name=\"宁辞秋\"]我只是相信，自己终于遇见了一位同道中人。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#5$1\",focus=\"r\")]\n[name=\"梁洵\"]梁某……不胜惶恐。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#7$1\",focus=\"l\")]\n[name=\"宁辞秋\"]看吧……你永远都是这样。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#7$1\",focus=\"l\")]\n[name=\"宁辞秋\"]我最欣赏你的正直担当，却又讨厌你事事独断，将所有人拒于千里之外。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\")]\n[name=\"宁辞秋\"]不过后来我也想通了。倘若你事事都要我看得过眼，那你也不是“梁洵”了。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\")]\n[name=\"宁辞秋\"]就像我没有办法指责爷爷一样，我又如何能怪罪于你呢？  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#10$1\",focus=\"r\")]\n[name=\"梁洵\"]……  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#10$1\",focus=\"r\")]\n[name=\"梁洵\"]我曾以为，只要做到勤勉中正，持之以恒，总能做出一番成就。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#5$1\",focus=\"r\")]\n[name=\"梁洵\"]……可是经年累月，我只是认清了自己无能为力。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#5$1\",focus=\"r\")]\n[name=\"梁洵\"]令祖父说的话自然是极对的，但最可畏的是，初心理想，连自己都不敢相信。  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#7$1\",focus=\"r\")]\n[name=\"梁洵\"]在下从不敢自诩能做到事事光明磊落，但那些阴私苟且……应当与宁小姐无关。\n[charslot(slot = \"l\", name = \"avg_npc_298_1#9$1\",focus=\"l\")]  \n[name=\"宁辞秋\"]现在是不是该轮到我用“无愧于心”来宽慰你了？  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\")]\n[name=\"宁辞秋\"]你我都已经按自己心中相信的公正，做了自己所能做的一切。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\")]\n[name=\"宁辞秋\"]或许你我终究无力改变什么，或许等明天太阳升起时，这座城市都要灰飞烟灭……  \n[charslot(slot = \"r\", name = \"avg_npc_295_1#8$1\",focus=\"r\")]\n[name=\"梁洵\"]那至少在此刻……在下无愧于心。  \n[charslot(slot = \"l\", name = \"avg_npc_298_1#10$1\",focus=\"l\")]\n[name=\"宁辞秋\"]……  \n[dialog]\n[charslot]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[delay(time=1)]\n[Image(image=\"cg_moon\", screenadapt=\"coverall\", xScale=1.1, yScale=1.1, fadetime=0)]\n[ImageTween(duration=20, xFrom=-20, xTo=20, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n夜已深了。  \n这座历史悠久的藏书楼还保留了一些古制。万籁俱寂，唯有更漏徐徐。  \n二人的手握得很紧。  "
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "npc_3e28dece98b601de",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 157,
+          "kind": "story",
+          "line": 38,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "npc_3e28dece98b601de|npc_906d6f310e0f648e"
+}

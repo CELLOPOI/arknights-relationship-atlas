@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 374,
+          "line": 362,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_beg.txt",
+          "quote": "[name=\"孽茨雷\"]我曾与菈玛莲并肩作战数十年，战场横跨城市与荒原。我们一起将维多利亚的甲胄和高卢的火炮在卡兹戴尔城墙下葬送。\n[name=\"孽茨雷\"]我也曾与特蕾西娅合力，在同一场战役中，斩下数千莱塔尼亚术师的头颅。\n[name=\"孽茨雷\"]她们都是最出色的战士，是卡兹戴尔的战争英雄。\n[name=\"孽茨雷\"]菈玛莲将女妖的未来交予你，特蕾西娅也视你为引以为傲的门徒。\n[name=\"孽茨雷\"]但你却躲在罗德岛，帮助藏匿魔王，又如窃贼般潜入伦蒂尼姆，躲在战场的夹缝中，四处破坏——\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#2$1\")]\n[name=\"Logos\"]战争并不能结束萨卡兹的痛苦。\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#1$1\")]\n[name=\"Logos\"]我一路走来，只见到所有人正被你们拖入深渊。\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\")]\n[name=\"孽茨雷\"]所以你们选择逃避。\n[name=\"孽茨雷\"]我很多年前就对特蕾西娅说过，战争，避无可避。如果战场不在伦蒂尼姆，就必然在卡兹戴尔。\n[name=\"孽茨雷\"]特蕾西娅同意这一点，只是仍寄希望于在爆发前，能找到另外的解法。"
+        }
+      ],
+      "description": "孽茨雷明确与菈玛莲并肩作战数十年，实际交往。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E108"
+          ],
+          "from": "npc_84fdad316566923c",
+          "reason": "孽茨雷明确与菈玛莲并肩作战数十年，实际交往。",
+          "status": "supported",
+          "to": "npc_751dc5e345c5cbe2"
+        },
+        {
+          "evidenceIds": [
+            "E108"
+          ],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "孽茨雷明确与菈玛莲并肩作战数十年，实际交往。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 374,
+          "kind": "story",
+          "line": 362,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 405,
+          "line": 389,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "quote": "[name=\"孽茨雷\"]战士不需要轰轰烈烈的结局。那是沽名钓誉之辈的庸俗意见。\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#2$1\")]\n[name=\"菈玛莲\"]……\n[charslot(slot=\"m\",name=\"avg_npc_410_1#4$1\")]\n[name=\"杜卡雷\"]哦，菈玛莲，我都忘了你还在这里了。\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#1$1\")]\n[name=\"菈玛莲\"]我一开始就表过态了，杜卡雷阁下。所以，我只要静静看着您“努力表达”自己的想法就足够。\n[charslot(slot=\"m\",name=\"avg_npc_410_1#2$1\")]\n[name=\"杜卡雷\"]多可怜，一个残破不堪的王庭。我会怀念您的挽歌的。\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#1$1\")]\n[name=\"菈玛莲\"]那我向您许诺，女妖之主一定会在您的死亡到来时唱响挽歌，随夜风伴您身旁。\n[charslot(slot = \"m\", name = \"avg_npc_420_1#1$1\")]\n[name=\"孽茨雷\"]闲聊大可换个地方，二位殿下似乎还有事要商量。\n[name=\"孽茨雷\"]战争议会的其他成员也希望得知二位的态度。杜卡雷，菈玛莲，还有门外伪装的变形者，都先随我来吧。\n[charslot(duration=1)]\n食腐者之王向特蕾西娅点头致意。\n二位王庭之主并没有向魔王道别，就这么跟随食腐者之王离去。"
+        }
+      ],
+      "description": "王庭会议连续现场，宗长点名菈玛莲请她离开。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_84fdad316566923c",
+          "reason": "王庭会议连续现场，宗长点名菈玛莲请她离开。",
+          "status": "supported",
+          "to": "npc_751dc5e345c5cbe2"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "王庭会议连续现场，宗长点名菈玛莲请她离开。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 405,
+          "kind": "story",
+          "line": 389,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1148,
+          "line": 1131,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "quote": "[charslot(slot=\"m\",name =\"avg_npc_1339_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]哀珐尼尔，你已经跨过了死亡的河水，也见证了彼岸烛火的黯淡。\n[name=\"孽茨雷\"]离去吧，我不愿再对你动手。\n[name=\"孽茨雷\"]待一切腐朽尽皆回归大地，战争的锣鼓归于寂静，再展露你的歌喉。\n[name=\"孽茨雷\"]你的终点，不在此处。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#1$1\",focus=\"m\")]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#5$1\",focus=\"m\")]\n女妖摇了摇头，并未说什么。骨笔缓缓悬于他的身前。\n[charslot(slot=\"m\",name =\"avg_npc_1339_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]哈哈哈，也好。\n[name=\"孽茨雷\"]……我很羡慕菈玛莲。\n[Dialog]\n[charslot]\n食腐者之王张开双臂。女妖抬手挥动骨笔。\n万千枝条从食腐者的身躯上萌发，由血肉凝成，骨血织就。万千咒言在女妖的笔下刻印，与腐朽交相辉映。\n万千枝条在战场上蔓延，抚上每一具食腐者的残躯，从古老“灵幛”虚实难辨的残躯，到年轻食腐者尚未腐败的皮肉，都绽出枯朽的花。"
+        }
+      ],
+      "description": "孽茨雷主动以名字谈到菈玛莲；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_84fdad316566923c",
+          "reason": "孽茨雷主动以名字谈到菈玛莲",
+          "status": "supported",
+          "to": "npc_751dc5e345c5cbe2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "对方未在该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "npc_84fdad316566923c"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 1148,
+          "kind": "story",
+          "line": 1131,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战役期间",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "npc_751dc5e345c5cbe2|npc_84fdad316566923c"
+}

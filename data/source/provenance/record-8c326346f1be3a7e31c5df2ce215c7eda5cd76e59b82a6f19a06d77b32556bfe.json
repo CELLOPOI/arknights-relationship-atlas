@@ -1,0 +1,259 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 314,
+          "line": 299,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "quote": "[name=\"可露希尔\"]虽然Misery答应做我们的保镖啦，但我想，既然大家都要去飞着巫术和炮弹的战场中心，那我们就是同路。\n[CharacterCutin(widgetID=\"1\", name=\"avg_npc_411_1#7$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"可露希尔\"]也许能劳烦典范军的各位稍微当一下我们的护卫？\n[Dialog]\n[CharacterCutin(widgetID=\"1\", fadetime=0, block=true)]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]义不容辞。\n[Dialog]\n[charslot]\n[CharacterCutin(widgetID=\"1\", name=\"avg_npc_411_1#7$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"可露希尔\"]阻止事情变得更坏，是罗德岛的使命，对吧，凯尔希？\n[Dialog]\n[playsound(key=\"$transmission\",volume=1)]\n[CharacterCutin(widgetID=\"1\", fadetime=0.5, block=true)]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#11$1\",focus=\"m\")]\n[name=\"凯尔希\"]感谢你，可露希尔。"
+        }
+      ],
+      "description": "在会议中听可露希尔介绍Misery护卫并回应，单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E39"
+          ],
+          "from": "char_003_kalts",
+          "reason": "在会议中听可露希尔介绍Misery护卫并回应，单向知晓。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 314,
+          "kind": "story",
+          "line": 299,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 211,
+          "line": 205,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "quote": "[name=\"阿米娅\"]是Misery的源石技艺，他不会让你受伤的。\n[Character(name=\"avg_npc_235\", name2=\"avg_npc_394_1#8$1\", focus=1)]\n[name=\"Misery\"]嗯……凯尔希跟我说，你的大脑是罗德岛的重要资产。\n[character(name=\"avg_npc_411_1#5$1\")]\n[name=\"可露希尔\"]我的手也不便宜啊！\n[character(name=\"avg_npc_411_1#6$1\")]\n[name=\"可露希尔\"]有了这一趟，我再也不嚷嚷着要搭你便车了……蹭你的源石技艺，还不如让煌抱着我蹦来蹦去更舒服！"
+        }
+      ],
+      "description": "Misery明确转述凯尔希曾对自己交代可露希尔的重要性，具体交谈支持双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E82"
+          ],
+          "from": "char_615_acspec",
+          "reason": "Misery明确转述凯尔希曾对自己交代可露希尔的重要性，具体交谈支持双方相识。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        },
+        {
+          "evidenceIds": [
+            "E82"
+          ],
+          "from": "char_003_kalts",
+          "reason": "Misery明确转述凯尔希曾对自己交代可露希尔的重要性，具体交谈支持双方相识。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 211,
+          "kind": "story",
+          "line": 205,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 173,
+          "line": 166,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18d3/level_act18d3_st02.txt",
+          "quote": "[name=\"凯尔希\"]你们几个——\n[name=\"凯尔希\"]回罗德岛。在伊比利亚东北边境，Misery会接应你们。这回别走水路。\n[character(name=\"avg_npc_183#3\")]\n[name=\"大审判官\"]路线是审判庭指定的。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]只要终点在那，其他我们都能接受。\n[character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]你要多长时间才能回来？我可等不了太久。"
+        }
+      ],
+      "description": "凯尔希明确知晓并调度 Misery。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希主动点名 Misery 并安排其在边境接应。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "Misery 不在场，原文未显示接应安排已经送达或他已知晓现场人物。",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_a4822f3498b97894.json",
+      "sources": [
+        {
+          "endLine": 173,
+          "kind": "story",
+          "line": 166,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18d3/level_act18d3_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "盐风城事件结束后的撤离安排",
+      "title": "覆潮之下"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 142,
+          "line": 88,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-04_end.txt",
+          "quote": "[name=\"煌\"]  迷迭香！等等！\n[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.4)]\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  啊……煌。\n[name=\"迷迭香\"]  你伤得好重，怎么还跑出来？快回去。快点回去。\n[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  你这次要出战？\n[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  嗯。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  我找人替你。让Misery去。他比你擅长攻坚战。\n[name=\"煌\"]  他一挥手就能解决的事，让他去。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  你不想我去？\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  对，你不该去。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  煌让人感觉很奇怪。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  这和你以前的任务可不一样！\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  因为可能会死？\n[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  说啥啊！\n[name=\"煌\"]  你怎么能，怎么……是怎么这么轻松地说出来啊！\n[name=\"煌\"]  你年纪太小了，这么危险的任务，你是不该去的！\n[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  可阿米娅也要去。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  因为她……！她是……！\n[name=\"煌\"]  她是……\n[name=\"煌\"]  阿米娅……\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  她和我一样，是感染者，也是干员。\n[name=\"迷迭香\"]  而且，我检查了日志。Ace和Scout都在切尔诺伯格，他们没回来。\n[name=\"迷迭香\"]  也就是说，他们已经不在了吧。\n[name=\"迷迭香\"]  我想去看看。我要明白是怎么回事。我要看看管整合运动的人，我要知道是谁做了什么。\n[name=\"迷迭香\"]  我要知道在Ace和Scout身上发生了什么。\n[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  迷迭香？这种事你……你可以不记的。\n[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  ……煌？\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  (粗口)，我他妈在说什么……\n[name=\"煌\"]  不，对不起，我不该这么说。我不应该。**，我这张臭嘴！\n[name=\"煌\"]  可是，他们的死……他们……\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  煌。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  错的是我。开心是记忆，伤心也是记忆。我的错。你不能不记。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  煌变得很奇怪。说的话也支离破碎的。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  ……我不想你那么痛苦。为什么非要去回头看它？如果是你的话……是可以把记忆放走的啊。\n[name=\"煌\"]  你可以把它就放在那里。让它就躺在那里，不要回头。"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_003_kalts",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_615_acspec",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 142,
+          "kind": "story",
+          "line": 88,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 52,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "quote": "[name=\"Misery\"]……都给我吧。为了把她送回来，你赶了一路，很辛苦。\n[name=\"Misery\"]下面的事，我亲自处理。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]遗物和骨灰匣。\n[name=\"凯尔希\"]切尔诺伯格事件结束后，类似的紧急通讯声已经有整整十一个月又二十七天没有在罗德岛的甲板上响起了。\n[name=\"凯尔希\"]——这一次牺牲的是谁？\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]Outcast。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]……\n[name=\"凯尔希\"]我看到了，你手中握着的是她的弹巢。\n[name=\"凯尔希\"]虽然不想承认，但在来的路上，我已经想过这个答案。\n[name=\"凯尔希\"]我曾经和她打过一个赌——\n[name=\"凯尔希\"]现在看来，她还是赢了。\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]凯尔希，下面的会议，我会缺席。\n[name=\"Misery\"]按照惯例，精英干员的葬礼将由你亲自主持……\n[name=\"Misery\"]但这次，我希望由我来告别她。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]……我想没有人会有异议，包括她自己。\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]既然会议中止，那么，我会在这里给出我最终的选择——\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]Misery，我知道你的答案。\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]那你肯定也知道其他人的答案。\n[name=\"Misery\"]情况发生了变化。没人喜欢这个变化，但大家都清楚只能这么选。\n[name=\"Misery\"]——我们必须尽快进入伦蒂尼姆。\n[character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]你们都很清楚，我的立场始终如一——\n[name=\"凯尔希\"]但无论你们最终是否决定支持我的提议，我都必须强调，罗德岛并不会为了宣泄任何私人情感而决定未来的航向。\n[character(name=\"avg_npc_235\")]\n[name=\"Misery\"]你是在提醒我，不要想着为Outcast报仇？\n[name=\"Misery\"]你放心。我的内心是充满了悲痛和愤怒，可我还记得自己的职责。\n[name=\"Misery\"]只是，我要亲眼看一看能杀死Outcast的究竟是什么——\n[name=\"Misery\"]那不会是一个人，或者几个人。\n[name=\"Misery\"]凯尔希……假如我们不去寻找真相，那么笼罩着伦蒂尼姆乃至整个维多利亚的阴云只会更加肆无忌惮。\n[name=\"Misery\"]到时候，不止Outcast……\n[name=\"Misery\"]我会死，我们都会。没有人能逃脱。\n[name=\"Misery\"]就像你说的，罗德岛不会为了死者复仇……\n[name=\"Misery\"]但是，我们都想为生者创造继续活下去的机会。"
+        }
+      ],
+      "description": "凯尔希与 Misery 当面长谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S06"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希当面称呼 Misery 并回应。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "S06"
+          ],
+          "from": "char_615_acspec",
+          "reason": "Misery 直接向凯尔希交接遗物并说明决定。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 52,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "Outcast遗物交接",
+      "title": "风暴瞭望"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 370,
+          "line": 237,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-14_end.txt",
+          "quote": "[name=\"Mon3tr\"]（咆哮）\n[dialog]\n[PlaySound(key=\"$d_avg_energygather\", volume=0.5, loop=true, channel=\"en\")]\n[StopSound(channel=\"en\", fadetime=2)]\n[name=\"Mon3tr\"]（积蓄能量）\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$b_char_fireharm\", volume=1)]\n[name=\"Mon3tr\"]（释放炙热的光束）\n[dialog]\n[charslot]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_gen_explo_n\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]\n[delay(time=1)]\n激射而出的光束在把源石结晶体围拢成的包围圈撕裂开一个巨大的口子后，继续向着远处扫射过去……击倒了越来越多的源石结晶体——\n但突然，它被某种力量挡住了。\n[dialog]\n[PlaySound(key=\"$d_avg_metallicclick\", volume=1)]\n[name=\"？？？\"]力道不错嘛！\n[dialog]\n[charslot(slot = \"m\", name = \"avg_017_huang_1#1$2\", duration=1)]\n[delay(time=1.5)]\n[name=\"煌\"]但小心别伤到博士，Mon3tr。\n[charslot(slot=\"m\", name=\"avg_391_rosmon_1#1$2\")]\n[name=\"迷迭香\"]我们已就位。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_footsteps_flock\", volume=1, loop=true, channel=\"f\")]\n[StopSound(channel=\"f\", fadetime=2)]\n[delay(time=1.5)]\n你带领着众人从黑暗中走了出来。\n[dialog]\n[Decision(options=\"凯尔希就在这。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$Mon3tr_n\")]\n[charslot(slot = \"m\", name = \"npc_10002\")]\n[name=\"Mon3tr\"]（欢快地抖擞身体）\n[dialog]\n[charslot]\n[Decision(options=\"支援Mon3tr。;净空石棺周围的敌人。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#1$1\")]\n[name=\"阿斯卡纶\"]随时策应我。\n[charslot(slot = \"m\", name = \"avg_npc_235\")]\n[name=\"Misery\"]放心。\n[charslot(slot = \"m\", name = \"avg_4133_logos_1#1$1\")]\n[name=\"Logos\"]咒言随行。\n[charslot(slot = \"m\", name = \"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]那……就是石棺？就一直被隐藏在本舰内？\n[Dialog]\n[charslot]\n[Decision(options=\"我初次醒来的地方……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]\n[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"0,0\", channel = 3)]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]\n[delay(time=0.5)]\n[name=\"可露希尔\"]ZOOT识别到凯尔希的信号在减弱！\n[name=\"可露希尔\"]必须尽快确认。\n[interlude(channel = 3, clear = true)]\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]凯尔希在里面？\n[name=\"Touch\"]按照Raidian的说法来看，她的状态可不怎么乐观。\n[charslot(slot = \"m\", name = \"avg_npc_1730_1#7$1\")]\n[name=\"Raidian\"]Dr.{@nickname}，我们需要尽快让她离开那里。\n[name=\"Raidian\"]再拖延下去，我担心……她的安全。\n[charslot(slot = \"m\", name = \"avg_npc_1310_1#1$1\")]\n[name=\"Pith\"]不能妄动，我们并不清楚凯尔希与石棺的情况。\n[name=\"Pith\"]根据当初的作战纪录，在切尔诺伯格时也有人接触了石棺，最后却产生了我们都没预料到的变故。\n[dialog]\n[charslot]\n[Decision(options=\"凯尔希不一样。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"交给我。;掩护我。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n你毫不迟疑地向石棺走去。\n[dialog]\n[delay(time=1)]\n你触碰到了冰冷的石棺，它……在回应你。\n不，是凯尔希在回应你。\n[dialog]\n[Decision(options=\"接下来我们还得一起继续向前呢。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[StopSound(channel=\"ene\", fadetime=2)]\n[PlaySound(key=\"$d_avg_stonegateopen\", volume=1, loop=true, channel=\"sn\")]\n[StopSound(channel=\"sn\", fadetime=3)]\n[delay(time=2)]\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#10$3\")]\n[name=\"阿米娅\"]……\n[name=\"阿米娅\"]凯尔希医生，你——\n[charslot]\n[PlayMusic(intro=\"$warm_intro\", key=\"$warm_loop\", volume=0.6)]\n[name=\"虚弱的声音\"]……你们来得很及时。\n[name=\"虚弱的声音\"]罗德岛……怎么样了……\n[dialog]\n你向石棺中的人伸出了手。\n[dialog]\n[Decision(options=\"大家都还平安。;多亏你的努力。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"欢迎回来，凯尔希。\", values=\"1\")]\n[Predicate(references=\"1\")]\n她拉住了你的手，你能感觉到她前所未有地脆弱。\n[dialog]\n[Decision(options=\"你看上去不是很好。;刚刚发生了什么事？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#4$1\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"凯尔希\"]不必在意我……\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]借助石棺介入PRTS很困难，但意料之外的是，我收到了一份礼物。\n[name=\"凯尔希\"]关于PRTS和普瑞赛斯的更多情报，我会马上共享给你们。\n[PlaySound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\", name=\"npc_10002\")]\n[name=\"Mon3tr\"]（紧张的嘶吼）\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#11$1\")]\n[name=\"凯尔希\"]不用害怕，Mon3tr。我还站在你面前。\n[name=\"凯尔希\"]我不会抛下你。\n[dialog]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]\n[name=\"凯尔希\"]Dr.{@nickname}，我已经找到了通往Abyss的路。\n[name=\"凯尔希\"]这场混乱该结束了。\n[name=\"凯尔希\"]这里受到的干扰很强，我们已经极为靠近Abyss。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\")]\n[name=\"阿米娅\"]但这里没有路了，Abyss彻底把自己隐藏起来了——\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]在这个距离内，我可以清楚地判断出它的位置。\n[charslot]\n凯尔希站在最深处的墙壁之前，深深地吸了一口气。\n她从未走到如此深入的地方——"
+        }
+      ],
+      "description": "凯尔希与Misery同在救援战场并互相辨认。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D27"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希与Misery同在救援战场并互相辨认。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "D27"
+          ],
+          "from": "char_615_acspec",
+          "reason": "凯尔希与Misery同在救援战场并互相辨认。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 370,
+          "kind": "story",
+          "line": 237,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-14_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_003_kalts|char_615_acspec"
+}

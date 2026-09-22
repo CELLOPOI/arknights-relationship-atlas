@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 488,
+          "line": 478,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_03_beg.txt",
+          "quote": "[name=\"歌蕾蒂娅\"]劳伦缇娜，你与我行动。\n[name=\"歌蕾蒂娅\"]……斯卡蒂，你留在城市里。\n[charslot(slot=\"m\",name=\"char_263_skadi#9\")]\n[name=\"斯卡蒂\"]……\n[name=\"斯卡蒂\"]二队长？\n[charslot(slot=\"m\",name=\"avg_474_gladiia_1#1\")]\n[name=\"歌蕾蒂娅\"]不要想太多。\n[name=\"歌蕾蒂娅\"]陆地与海洋的这次接触至关重要，凯尔希分身乏术。你留下来，保护博士的安全。\n[name=\"歌蕾蒂娅\"]这是命令。\n[charslot(slot=\"m\",name=\"char_263_skadi#3\")]\n[name=\"斯卡蒂\"]好。"
+        }
+      ],
+      "description": "歌蕾蒂娅单向知晓并安排保护博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_474_glady",
+          "reason": "歌蕾蒂娅明确安排斯卡蒂保护博士，表明她知晓博士及其在城中的处境。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在这段猎人出发场景中出现，缺少其接收歌蕾蒂娅安排的局部依据。",
+          "status": "not_established",
+          "to": "char_474_glady"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 488,
+          "kind": "story",
+          "line": 478,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "深海猎人出发前",
+      "title": "生路"
+    }
+  ],
+  "relationship_id": "char_474_glady|npc_b99957887950ebfd"
+}

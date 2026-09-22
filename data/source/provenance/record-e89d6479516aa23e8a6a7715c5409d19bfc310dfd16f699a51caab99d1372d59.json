@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 257,
+          "line": 205,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_02_beg.txt",
+          "quote": "[name=\"教宗\"]你回来了，莫斯提马。\n[dialog]\n[character]\n[character(name=\"avg_213_mostma_1#5$2\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"莫斯提马\"]阁下，好久不见。\n[character(name=\"avg_npc_356_1#10$1\")]\n[name=\"教宗\"]这次给我带了什么新消息？\n[character(name=\"avg_213_mostma_1#5$2\")]\n[name=\"莫斯提马\"]放心，不会比那一次糟糕。\n[character(name=\"avg_213_mostma_1#9$2\")]\n[name=\"莫斯提马\"]这就是之前提到的体检报告……末页是司提望区中心医院院长的简报。\n[character(name=\"avg_npc_356_1#8$1\")]\n[name=\"教宗\"]……相当谨慎的用词啊。\n[character(name=\"avg_npc_356_1#2$1\")]\n[name=\"教宗\"]莫斯提马，你的看法呢？\n[character(name=\"avg_213_mostma_1#1$2\")]\n[name=\"莫斯提马\"]根据接诊和检查医生的说法，这份体检报告的主人……是一名八岁的萨科塔女孩。\n[name=\"莫斯提马\"]至少从外观和大部分指标来看，毫无疑问是一名萨科塔。\n[name=\"莫斯提马\"]共感指标虽然不算很高，考虑到她的年龄和身体状况，还在可接受的范围内。\n[character(name=\"avg_213_mostma_1#9$2\")]\n[name=\"莫斯提马\"]问题在于这几项指标……我的体检报告上有类似的结果。\n[name=\"莫斯提马\"]但这个女孩甚至还不到十二岁，不曾获得守护铳。很难想象她有能力违反哪一条戒律。外表特征也否定了堕天的可能性。\n[character(name=\"avg_213_mostma_1#1$2\")]\n[name=\"莫斯提马\"]留下的可能性不是很多。想必您比我更清楚。\n[character(name=\"avg_npc_361_1#7$1\")]\n[name=\"薇尔丽芙\"]如果不是堕天，还有一种可能性是……\n[character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]不对。这同样与外观的表征相矛盾。那种后裔无法获得光环。\n[character(name=\"avg_213_mostma_1#2$2\")]\n[name=\"莫斯提马\"]是啊，通常不能。说实话，那种例子本身也不多吧。\n[character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]这个女孩现在人在何处？菲亚梅塔呢？\n[character(name=\"avg_213_mostma_1#1$2\")]\n[name=\"莫斯提马\"]女孩已经离开了司提望区中心医院，菲亚梅塔正在追踪。 \n[name=\"莫斯提马\"]据说带女孩来医院问诊的是一名公证所见习执行者。薇尔丽芙，菲亚梅塔请你帮忙给公证所下配合令，她正在前往公证所的路上。\n[character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]公证所……\n[character(name=\"avg_213_mostma_1#5$2\")]\n[name=\"莫斯提马\"]不幸中的幸运，对吧。\n[character(name=\"avg_npc_361_1#4$1\")]\n[name=\"薇尔丽芙\"]只需要配合令？菲亚梅塔一个人，足够吗？\n[character(name=\"avg_213_mostma_1#2$2\")]\n[name=\"莫斯提马\"]谨慎的薇尔丽芙也忘记了大教堂中即将开幕的大事吗？\n[character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]这名见习执行者对女孩的情况了解多少？\n[character(name=\"avg_213_mostma_1#1$2\")]\n[name=\"莫斯提马\"]现在无法确定。根据医院方面的说法，至少送诊的时候，他只是一名“见义勇为帮助迷路萨科塔儿童”的尽职执行者。\n[character(name=\"avg_npc_356_1#9$1\")]\n[name=\"教宗\"]先让菲亚梅塔一个人去吧。\n[character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]明白。\n[name=\"薇尔丽芙\"]不过，莫斯提马，你不参与？"
+        }
+      ],
+      "description": "二人在大教堂持续直接协作交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "二人在大教堂持续直接协作交谈。",
+          "status": "supported",
+          "to": "npc_bfbfb9398ba6ef19"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_bfbfb9398ba6ef19",
+          "reason": "二人在大教堂持续直接协作交谈。",
+          "status": "supported",
+          "to": "npc_0ce6ed6bdcaa7258"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 257,
+          "kind": "story",
+          "line": 205,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    }
+  ],
+  "relationship_id": "npc_0ce6ed6bdcaa7258|npc_bfbfb9398ba6ef19"
+}

@@ -1,0 +1,384 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 62,
+          "line": 44,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8d2/level_act8d2_entry.txt",
+          "quote": "[name=\"PRTS\"]     这一页左边写着的是……“这是阿加门！！！” 阿加门是史料记载中的一个古国。\n[name=\"PRTS\"]     而右边，看上去是一个古人留下的，用于隐藏特殊信息的图形纹章，用现代扫描技术甚至可以读出隐藏的信息。\n[Dialog]\n[Decision(options=\"哇，古代人怎么可能会这么懂？\",values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"PRTS\"]     据说现在的一部分编码技术也是来自于古代的研究。\n[name=\"PRTS\"]     古人也喜欢通过研究编码技术，来传递信息，用于分享战况、领主们的八卦新闻、超市优惠券和游戏攻略秘籍等。\n[Dialog]\n[Decision(options=\"认真的吗？！\",values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"PRTS\"]     博士可以自行判断。\n[name=\"PRTS\"]     至少，这与现代源石技艺的发展进程也有着异曲同工之妙。\n[name=\"PRTS\"]     第一批次时代制式法杖的设计师们是一批出来创业的系统软件工程师。\n[name=\"PRTS\"]     顺带一提，电子抽水马桶和城际终端彩票刮刮乐也是他们基于古代编码技术的发明。 \n[Dialog]\n[Decision(options=\"……\",values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"PRTS\"]     总之，我已经将所有信息传递至数据库。大致记载着古阿加门王国，一个关于执行正义的惩罚者的故事。\n[name=\"PRTS\"]     接下来剩余的信息需要博士扫描这个纹章来解开了。"
+        }
+      ],
+      "description": "PRTS 与博士围绕古籍和纹章双向问答，PRTS 明确称呼博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "PRTS 与博士围绕古籍和纹章双向问答，PRTS 明确称呼博士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "PRTS 与博士围绕古籍和纹章双向问答，PRTS 明确称呼博士。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_6d6fde0f22123712.json",
+      "sources": [
+        {
+          "endLine": 62,
+          "kind": "story",
+          "line": 44,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8d2/level_act8d2_entry.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "断罪者的挑战状"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 13,
+          "line": 10,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-01_beg.txt",
+          "quote": "[name=\"PRTS\"]   Dr.{@nickname}, 早上好。您已经休息了99999999————\n[name=\"PRTS\"]   ————个小时。\n[name=\"PRTS\"]   虽然我知道您很不愿意起床，不过有人需要您立刻前往作战会议室。\n[name=\"PRTS\"]   另外来自凯尔希医生的医学建议，希望您多开窗保持通风，并且进入甲板晒太阳以平衡维生素D。"
+        }
+      ],
+      "description": "PRTS向博士发送起床与医疗提醒，博士接收后赴作战会议室。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "PRTS向博士发送起床与医疗提醒，博士接收后赴作战会议室。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "PRTS向博士发送起床与医疗提醒，博士接收后赴作战会议室。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_e13e294bac851642.json",
+      "sources": [
+        {
+          "endLine": 13,
+          "kind": "story",
+          "line": 10,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "异卵同生"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1271,
+          "line": 1260,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[Decision(options=\"还有，我刚整理了一份关于现有情报的资料。;一旦联络上可露希尔，就将情报同步给他们。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"罗德岛其他干员的布置我也上传到了PRTS。;通知他们尽快同步手中的PRTS数据。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_npc_400_1#4$1\",focus=\"m\")]\n[name=\"海蒂\"]抢占先机？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_400_1#4$1\",focus=\"none\")]\n[Decision(options=\"是的。;如今在伦蒂尼姆的各方都存在自己的盲区。;争取时间，提前反应。这也是我们的机会。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot = \"m\", name = \"avg_npc_400_1#10$1\",focus=\"m\")]\n[name=\"海蒂\"]了解了，我会去办。现在对城内重建的联络网最熟悉的人，是我。"
+        }
+      ],
+      "description": "博士向海蒂与凯尔希说明上传和同步PRTS数据，海蒂回应执行；系统本身未发话，仅知晓与使用。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E163"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士向海蒂与凯尔希说明上传和同步PRTS数据，海蒂回应执行；系统本身未发话，仅知晓与使用。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 1271,
+          "kind": "story",
+          "line": 1260,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 367,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "quote": "[name=\"黑角\"]  博士的记性还是这么好啊。\n[name=\"黑角\"]  要熟悉山一样高的文件，还要一下子记住俺们这么多人的名字，可不大容易。博士，您别累着。\n[Decision(options=\"这是应该的。;……;PRTS会帮我。\", values=\"1;2;3\")]"
+        }
+      ],
+      "description": "博士可选回答PRTS会帮我，明确知晓PRTS；不推PRTS反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士可选回答PRTS会帮我，明确知晓PRTS；不推PRTS反向。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_77447b339e70b7d0.json",
+      "sources": [
+        {
+          "endLine": 367,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑角所述时段",
+      "title": "黑角"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 162,
+          "line": 145,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "quote": "[name=\"阿米娅\"]   PRTS……开始吧。\n[Character(name=\"char_002_amiya_1#1\", focus=-1)]\n[name=\"PRTS\"]   需要确认管理员身份，请选择识别方式。\n[Character(name=\"char_002_amiya_1#2\", focus=1)]\n[name=\"阿米娅\"]   啊，博士……请你说句话。\n[Decision(options=\"（说话）\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=0.4)]\n[Character(name=\"char_002_amiya_1#3\", focus=-1)]\n[name=\"PRTS\"]   虽然不知道为什么你不说话，反而触碰了一下屏幕中央——\n[name=\"PRTS\"]   ——不过我已经找到了相匹配的指纹。身份确认，权限水平：8。\n[Blocker(a=1, r=0,g=0, b=0, fadetime=0.6, block=true)]\n[Background]\n[Character(fadetime=0)]\n[Image(image=\"avg_ep00\",x=0, y=0, xScale=1, yScale=1, fadetime=0)]\n[Blocker(a=0, fadetime=0.6, block=false)]\n[ImageTween(xFrom=0, yFrom=0, xTo=0, yTo=-20, xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=15, block=false)]\n[name=\"PRTS\"]   ——欢迎回家，Dr.{@nickname}。"
+        }
+      ],
+      "description": "博士进行指纹认证，PRTS识别其管理员身份并欢迎回家。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士进行指纹认证，PRTS识别其管理员身份并欢迎回家。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "博士进行指纹认证，PRTS识别其管理员身份并欢迎回家。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 162,
+          "kind": "story",
+          "line": 145,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/guide/beg/2_guide_to_home.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 588,
+          "line": 587,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+          "quote": "[name=\"博士\"]那么……抱歉……我感到了一点……饥饿。\n[name=\"博士\"]我通过PRTS看到，本舰是有临时食堂的……"
+        }
+      ],
+      "description": "博士明确通过PRTS读取本舰食堂信息，尚无系统对博士回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士明确通过PRTS读取本舰食堂信息，尚无系统对博士回应。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 588,
+          "kind": "story",
+          "line": 587,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 517,
+          "line": 488,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "quote": "[Decision(options=\"摩根小队，去东侧入口。;自救军三队分头骚扰北门与西南门。;可露希尔继续负责侦察和支援。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_405_1#1$1\")]\n[name=\"摩根\"]好的，博士。达格达，我们走。\n[Predicate(references=\"2\")]\n[Character(name=\"avg_npc_398_1#1$1\")]\n[name=\"自救军战士\"]收到。行动！\n[Predicate(references=\"3\")]\n[Character(name=\"avg_npc_411_1#7$1\")]\n[name=\"可露希尔\"]没问题，交给我吧。\n[Predicate(references=\"1;2;3\")]\n[dialog]\n[Character]\n[Decision(options=\"阿米娅，给其他人发信号。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_402_1#4$1\")]\n[name=\"费斯特\"]其他人？罗德岛还有人在地面上吗？\n[Character(name=\"avg_npc_394_1#1$1\")]\n[name=\"阿米娅\"]是的，费斯特先生。等他们收到信号，他们会知道今晚我们在这里有行动。\n[name=\"阿米娅\"]您能看到他们的位置吗，博士？应该还不能吧？距离还不够近。\n[Character(name=\"avg_npc_402_1#4$1\")]\n[name=\"费斯特\"]你不是说他们不在附近？呃，博士难道有什么特别的源石技艺？\n[dialog]\n[Character]\n[Decision(options=\"不是，是PRTS在帮我。;是的，我能透视。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_402_1#11$1\")]\n[name=\"费斯特\"]什么……什么神奇的技术？\n[Character(name=\"avg_npc_402_1#7$1\")]\n[name=\"费斯特\"]博士，等回去以后，你可一定要好好跟我说一说。"
+        }
+      ],
+      "description": "博士可选答复明确说明PRTS帮助定位；阿米娅正参与这段对话，可露希尔仍在近前执行侦察任务，未见离场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR06"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士可选答复明确说明PRTS帮助定位；阿米娅正参与这段对话，可露希尔仍在近前执行侦察任务，未见离场。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 517,
+          "kind": "story",
+          "line": 488,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 165,
+          "line": 34,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-02_end.txt",
+          "quote": "[name=\"星熊\"]  最后还是变成了这种小打小闹。\n[name=\"星熊\"]  我拦不住你了。你走吧。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"avg_7_6\",x=-30, y=0, xScale=1.1, yScale=1.1, fadetime=0)]\n[ImageTween(xFrom=-30,xTo=0,xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=0.87, yScaleTo=0.87, duration=40, block=false)]\n[Blocker(a=0, fadetime=2, block=true)]\n[name=\"陈\"]  ……\n[name=\"陈\"]  抱歉，星熊。\n[name=\"陈\"]  我走以后，请你代我去贫民区。贫民区的居民惊魂未定，该有人代表近卫局去保护他们。\n[name=\"陈\"]  如果有感染者的孩子，送你玩具小熊的话……\n[name=\"陈\"]  收下吧。那是乌萨斯人教她们做的。因我们的失误而丧生的米莎，教她们做的。\n[name=\"星熊\"]  好。我会做到。\n[name=\"陈\"]  对不起。我欠你的。\n[name=\"星熊\"]  我不想听你道歉。说实在的，你不适合。\n[name=\"陈\"]  星熊……\n[name=\"星熊\"]  ……该说都说完了。\n[name=\"星熊\"]  走！别再回来。\n[name=\"陈\"]  ——\n[name=\"陈\"]  ……珍重。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[image]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"星熊\"]  “无法忍受这座城市？”\n[name=\"星熊\"]  ……有几个人比你更在乎这座城市？\n[name=\"星熊\"]  谎话精……\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_turf\",screenadapt=\"coverall\")]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"char_136_hsguma\",name2=\"char_015_lmg\",focus=2)]\n[name=\"近卫局成员\"]  星熊督察！\n[name=\"近卫局成员\"]  ……什么？督察，你，你受伤了？谁能……\n[name=\"近卫局成员\"]  对了，我们刚刚、刚刚看见陈长官她——\n[Character(name=\"char_136_hsguma\",name2=\"char_015_lmg\",focus=1)]\n[name=\"星熊\"]  啊，那个，抱歉。\n[name=\"星熊\"]  你们有没有时间好好聊聊？\n[Character(name=\"char_136_hsguma\",name2=\"char_015_lmg\",focus=2)]\n[name=\"近卫局成员\"]  督察……意思是你也要妨碍公务哈？\n[Character(name=\"char_136_hsguma\",name2=\"char_015_lmg\",focus=1)]\n[name=\"星熊\"]  ……也不能这么说吧。\n[Dialog]\n[image]\n[stopmusic(fadetime=1)] \n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Background(image=\"bg_lungmen_o\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  出去吧。\n[Character(name=\"avg_npc_038\")]\n[name=\"？？？\"]  是，魏公。\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  我说过……别再那么称呼我。\n[Character(name=\"avg_npc_038\")]\n[name=\"？？？\"]  是。随时听候您的吩咐。\n[Dialog]\n[PlaySound(key=\"$doorclosequite\", volume=0.9)]\n[Character(fadetime=1,block=true)]\n[Delay(time=2)]\n[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.4)]\n[Character(name=\"char_2006_weiywfmzuki_1\")]\n[name=\"文月\"]  ……\n[name=\"文月\"]  凯尔希小姐和阿米娅妹妹，在你们说话前，我能先和他说上两句吗？\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]  嗯，您说吧，文月小姐。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_003_kalts_1\",focus=2)]\n[name=\"凯尔希\"]  请便。\n[Character(name=\"char_2006_weiywfmzuki_1\")]\n[name=\"文月\"]  我们相处很多年了，魏彦吾。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  为什么说这个——为什么是现在？\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  我可是能从你眼睛里看出你在想什么的。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  ……文月。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  哎，哎。我向来都看得出。\n[name=\"文月\"]  我知道龙门对你来说是你的一切，你的心血你的梦想。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  不，文月……\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  但今天这一切不是你想要的吧？\n[name=\"文月\"]  啊，（东国语道歉）。我不是在说我们进退两难的处境。\n[name=\"文月\"]  我说的是……你这拿自己一切换来的繁荣。\n[name=\"文月\"]  你已经失去两位亲人了。不，用你的话说，三位，甚至是十几位。\n[name=\"文月\"]  现在你总不会还想让自己的侄女也死在那吧？\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  她痛恨影卫们。一旦让他们去抓陈，她只会拼死反抗。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  不，魏彦吾……我也不是在说这个。\n[name=\"文月\"]  你不后悔吗？你要让她们两个全都死在异国的城市吗？\n[name=\"文月\"]  感染者又怎么了？成了感染者，她们就不是你的侄女了？\n[name=\"文月\"]  如果我们有了孩子，难道也会被你这样对待……？\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  我所做的一切都是为了让这片土地能够变得更好，也从没要陈晖洁去做该我做的事情。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  但她就是这个性子！\n[name=\"文月\"]  不，对她隐瞒，只是在她的心上继续割肉而已。她只会觉得自己不属于这里……\n[name=\"文月\"]  你期望她去做的那些事情，太遥远了，太难了。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  那我能够停手吗？\n[name=\"魏彦吾\"]  我身后的这些人，我脚下的这座城，我与他们角力了那么久，却也只能搏到这种结果。\n[name=\"魏彦吾\"]  ……龙门能允许我停手吗？\n[name=\"魏彦吾\"]  是她想要这么做，是她想要正本清源，是她想要这座城邦不再是我治下的模样。\n[name=\"魏彦吾\"]  我只是教她如果那么做，需要些什么，又要放弃什么。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  行了，行了。还解释些什么，耳朵都起茧子了。\n[name=\"文月\"]  我去把她抓回来。我可不能看着她去送死。\n[name=\"文月\"]  你做不了的事，我来做。\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  荒唐！不许……！\n[name=\"魏彦吾\"]  我已经拟好了方案。我会把她带回来，而你，文月，你不准走出这里一步。\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  嚯，你要拦我？\n[name=\"文月\"]  （东国语）？！\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  唔哦。\n[Character(name=\"char_002_amiya_1#6\",name2=\"char_003_kalts_1\",focus=1)]\n[name=\"阿米娅\"]  啊？医生，文月小姐刚说了什么？\n[Character(name=\"char_002_amiya_1#6\",name2=\"char_003_kalts_1\",focus=2)]\n[name=\"凯尔希\"]  如果不是她提，我都快不记得东国有这么粗鲁的词汇了。\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  魏彦吾，是不是忘了我是谁？\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  文月，我有底线。\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  你还记不记得自己是谁？"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 165,
+          "kind": "story",
+          "line": 34,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 425,
+          "line": 362,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st06.txt",
+          "quote": "[name=\"可露希尔\"]  ——哇！{@nickname}博士！\n[name=\"可露希尔\"]  你怎么在这……你是从什么时候起在这里的啊？！\n[musicvolume(volume=0.4,fadetime=0.5)]\n[Dialog]\n[Decision(options=\"刚刚才来。;……;可能是刚刚才来吧。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[character(name=\"char_007_closre_1\")]\n[name=\"可露希尔\"]  怎么感觉怪可疑的。\n[character(name=\"char_007_closre_1\",focus=-1)]\n[name=\"PRTS\"]  ……\n[character(name=\"char_007_closre_1#4\")]\n[name=\"可露希尔\"]  博士是来查看之前的作战记录吗？哎，别站在门口了，快进来快进来。正好我刚结束PRTS的检查。\n[name=\"可露希尔\"]  虽然很想和博士你聊聊天，但可惜接下来我还有舰内的设备检点要做，得抓紧时间了。\n[name=\"可露希尔\"]  那我就先走啦。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=1.5)]\n[delay(time=2)]\n[name=\"PRTS\"]  下午好，Dr.{@nickname}。\n[name=\"PRTS\"]  有什么我可以帮你的吗？是否要查看作战记录？\n[Dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[delay(time=1)]\n[Dialog]\n[Decision(options=\"PRTS。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"PRTS\"]  请说。\n[Dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"PRTS\"]  LeaderOne的评价很准确，你确实变得更加沉默了。\n[name=\"PRTS\"]  如果希望查询目前罗德岛运作的细节，或针对过往资料有任何疑问，都可以直接提出。\n[Dialog]\n[Decision(options=\"真的什么都可以？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"PRTS\"]  任何存储在我的资料库中，并且符合Dr.{@nickname}你所拥有的权限的条目。\n[name=\"PRTS\"]  什么都可以。\n[stopmusic(fadetime=0.8)]\n[Dialog]\n[Decision(options=\"那么……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[delay(time=1)]\n[Dialog]\n[Decision(options=\"告诉我，普瑞赛斯是谁？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[delay(time=1)]\n[Dialog]\n[Decision(options=\"为什么就连凯尔希也无法告诉我普瑞赛斯到底是谁？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"PRTS\"]  ……\n[name=\"PRTS\"]  ………………\n[name=\"PRTS\"]  ……………………………………………………………………\n滴——\n[name=\"PRTS\"]  权限不足。\n[name=\"PRTS\"]  警告。您所拥有的权限不足。\n[name=\"PRTS\"]  截止目前时刻，所有已登录成员的权限均不足以回答此问题。警告。\n[Dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"PRTS\"]  非常抱歉。看来我也同样无法回答Dr.{@nickname}你的这个问题。\n[name=\"PRTS\"]  关于这个问题，或许博士可以尝试从其他途径获得答案……\n[name=\"PRTS\"]  ……\n[name=\"PRTS\"]  还有其他待办项目吗？随时乐意效劳。"
+        }
+      ],
+      "description": "博士与PRTS直接互相问答并进行资料查询。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C20"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士与PRTS直接互相问答并进行资料查询。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "C20"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "博士与PRTS直接互相问答并进行资料查询。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 425,
+          "kind": "story",
+          "line": 362,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    }
+  ],
+  "relationship_id": "npc_b99957887950ebfd|npc_c8a2caad4366c8fa"
+}

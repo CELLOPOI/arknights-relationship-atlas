@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 507,
+          "line": 482,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_07_end.txt",
+          "quote": "[name=\"罗辛南特\"]（高亢的嘶吼）\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_swimdeepsea\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_448_1#1$1\", duration=1.5, isblock=true)]\n[name=\"最后的骑士\"]——！\n[charslot(slot = \"m\", name = \"avg_npc_1389_1#1$1\")]\n[name=\"海嗣\"]你，族群，相似……\n[name=\"海嗣\"]从哪里……\n[name=\"海嗣\"]嘎——\n[charslot(slot = \"m\", name = \"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]巨浪，由你们营造，又由你们板结。\n[name=\"最后的骑士\"]你们，要将这里……化作土地？\n[name=\"最后的骑士\"]不许。\n[name=\"最后的骑士\"]颠倒意义。旷野，山川，小麦地，陆地只是陆地。\n[name=\"最后的骑士\"]我寻找，我斥责，我粉碎。\n[charslot(slot = \"m\", name = \"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]他是之前和乌尔比安同行的……\n[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]\n[name=\"幽灵鲨\"]呼……好久不见了，骑士先生。\n[charslot(slot = \"m\", name = \"avg_npc_1389_1#1$1\")]\n[name=\"海嗣\"]你，不是同胞。\n[CameraShake(duration=0.8, xstrength=40, ystrength=40, vibrato=90, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_lastknightroar\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]（愤怒的咆哮）————！"
+        }
+      ],
+      "description": "歌蕾蒂娅单向识别最后的骑士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_474_glady",
+          "reason": "歌蕾蒂娅当场识别最后的骑士为此前与乌尔比安同行者。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "最后的骑士专注攻击海嗣，当前局部没有接收或识别歌蕾蒂娅个人的依据。",
+          "status": "not_established",
+          "to": "char_474_glady"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 507,
+          "kind": "story",
+          "line": 482,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "海嗣巢穴救援",
+      "title": "生路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 109,
+          "line": 87,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_04_end.txt",
+          "quote": "[name=\"？？？\"]……\n[name=\"？？？\"]…………\n[Character(name=\"avg_474_gladiia_1#1\")]\n[name=\"歌蕾蒂娅\"]你是……什么东西？\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"？？？\"]……\n骑士没有答话。他死死盯着歌蕾蒂娅。\n歌蕾蒂娅很快意识到，他并非盯着自己。\n他只是……盯着自己怀里的，那把钥匙。\n[CameraShake(duration=0.3, fadeout=true, xstrength=25, ystrength=25, vibrato=30, randomness=90, block=false)]\n[name=\"？？？\"]嘎……咳咳……嘶……\n骑士张嘴，骑士要发出声音。干瘪的声响，像是肌肉撕裂。\n骑士开始向前迈步。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[character]\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_npc_447_1#1$1\")]\n[Background(image=\"27_g16_lighthouse_street\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_npc_447_1#1$1\",focus=2)]\n[name=\"圣徒卡门\"]你从哪里拿到那把钥匙的？"
+        }
+      ],
+      "description": "歌蕾蒂娅与最后的骑士正面遭遇并互相锁定。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S20"
+          ],
+          "from": "char_474_glady",
+          "reason": "歌蕾蒂娅与最后的骑士正面遭遇并互相锁定。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        },
+        {
+          "evidenceIds": [
+            "S20"
+          ],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "歌蕾蒂娅与最后的骑士正面遭遇并互相锁定。",
+          "status": "supported",
+          "to": "char_474_glady"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 109,
+          "kind": "story",
+          "line": 87,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_474_glady|npc_58c708dd33128fbf"
+}

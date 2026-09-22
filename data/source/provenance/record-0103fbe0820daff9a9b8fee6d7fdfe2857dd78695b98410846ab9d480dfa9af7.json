@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 177,
+          "line": 150,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_08_beg.txt",
+          "quote": "[name=\"西昆妲\"]放松，放松，卢契拉小姐。\n[charslot(slot = \"m\", name = \"avg_4079_haini_1#10$1\")]\n[name=\"卢契拉\"]卡西娅她……\n[charslot(slot = \"m\", name = \"avg_4137_udflow_1#1$1\")]\n[name=\"西昆妲\"]暂时的麻痹。我失手射偏，只造成了擦伤，才导致毒素生效延迟了这么久。\n[name=\"西昆妲\"]抱歉，让你的安全受到了威胁。\n[dialog]\n[charslot(duration=0.5, isblock=true)]\n[PlaySound(key=\"$d_avg_mictest\", volume=1)]\n[delay(time=2)]\n[name=\"克莱门莎\"]执政官克莱门莎广播，弥利亚留姆全城听令！\n[name=\"克莱门莎\"]信标塔所在城市单元完成切割后，城市剩余部分向陆地方向迁移，撤出海嗣包围圈！\n[name=\"克莱门莎\"]迁移过程中重启城市单元骨架联动装置，进行结构性重组，力场全开，阻挡涌向陆地的海嗣潮！\n[name=\"克莱门莎\"]第八、第十军团以及海巡队，所有还能行驶的舰船轮流出港，为城市护航！\n[charslot(slot = \"m\", name = \"avg_4137_udflow_1#1$1\")]\n[name=\"西昆妲\"]卢契拉小姐，我想，关于卡西娅的事件报告，或许由你来完成比较合适。\n[charslot(slot = \"m\", name = \"avg_4079_haini_1#2$1\")]\n[name=\"卢契拉\"]您直接去港口枢纽吧，执政官发布的战斗任务更紧急。\n[charslot(slot = \"m\", name = \"avg_4079_haini_1#4$1\")]\n[name=\"卢契拉\"]卡西娅已经被制服，我会先带她去看医师，然后……她应该受到惩罚。\n[name=\"卢契拉\"]以及，我在想，如果城市要进行结构性重组的话，穹顶系统需要作为力场发生的原点，正面对抗海嗣潮，那边的人手……\n[name=\"卢契拉\"]或许我该提交一份回调岗位的紧急申请。\n[charslot(slot = \"m\", name = \"avg_4137_udflow_1#7$1\")]\n[name=\"西昆妲\"]卢契拉小姐，你很勇敢。\n[charslot(slot = \"m\", name = \"avg_4079_haini_1#9$1\")]\n[name=\"卢契拉\"]原来您听到了……\n[charslot(slot = \"m\", name = \"avg_4137_udflow_1#1$1\")]\n[name=\"西昆妲\"]嗯。在那之前，你或许也应该看一下医师，长须栉齿草确实有很强的神经毒性。"
+        }
+      ],
+      "description": "卢契拉单向接收并认识克莱门莎的广播命令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4079_haini",
+          "reason": "卢契拉听取克莱门莎具名全城广播，并据其战斗命令安排下一步行动。",
+          "status": "supported",
+          "to": "npc_17db81f47ae22715"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_17db81f47ae22715",
+          "reason": "克莱门莎面向全城广播，当前局部没有识别该个人接收者的依据。",
+          "status": "not_established",
+          "to": "char_4079_haini"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 177,
+          "kind": "story",
+          "line": 150,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "弥利亚留姆灾变撤离",
+      "title": "生路"
+    }
+  ],
+  "relationship_id": "char_4079_haini|npc_17db81f47ae22715"
+}

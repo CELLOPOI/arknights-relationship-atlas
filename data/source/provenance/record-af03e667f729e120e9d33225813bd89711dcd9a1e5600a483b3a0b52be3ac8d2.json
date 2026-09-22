@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 628,
+          "line": 594,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act32side/level_act32side_08_beg.txt",
+          "quote": "狂怒的马特奥一杆打在雷内尔的背上。\n双手被缚的迪亚兹试图冲上去撞开马特奥，被马特奥一脚踢开。\n[name=\"雷内尔\"]二位，何必这么着急……\n[name=\"雷内尔\"]反正几分钟后，我们都会成为克里斯达尔艺术馆的殉葬品……\n[stopmusic(fadetime=1)]\n[CameraShake(duration=0.3, xstrength=40, ystrength=40, vibrato=90, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"avg_npc_1210_1#5$1\")]\n[name=\"马特奥\"]我说住口！！\n马特奥手里的高尔夫球杆再次高高举起，这次对准了雷内尔的后脑。\n[dialog]\n[charslot]\n[PlaySound(key=\"$grenade_launcher_shot\", volume=1)]\n[delay(time=1)]\n[name=\"灰烬\"]榴弹已射出！\n[dialog]\n[PlaySound(key=\"$d_avg_explosion_stone\")]\n[delay(time=0.5)]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]\n[PlaySound(key=\"$d_avg_rockfall\")]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_gnrtrpn\", volume=1)]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_gnrtrllng\", volume=1)]\n[name=\"霜华\"]已投掷闪光弹！！\n[dialog]\n[PlaySound(key=\"$d_avg_gnrtrspbm\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[PlaySound(key=\"$d_avg_stkmyer\", volume=1)]\n[name=\"马特奥\"]什么人？！"
+        }
+      ],
+      "description": "人工复核：确认相识。采用已保存的人工判断；下方为复核时提供的原文上下文。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "char_456_ash",
+          "status": "supported",
+          "to": "npc_8570ddffc57e187c"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8570ddffc57e187c",
+          "status": "supported",
+          "to": "char_456_ash"
+        }
+      ],
+      "manualCaseId": "review_52eada514c261214",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_f300d620eb2f9612.json",
+      "sources": [
+        {
+          "endLine": 628,
+          "kind": "story",
+          "line": 594,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act32side/level_act32side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "kind": "manual",
+          "source": "ArknightsNpcCatalog/关系审读/人工复核/用户意见/复核意见.json#review_52eada514c261214",
+          "version": "revision:1; 2026-09-20T04:12:53.279Z"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "水晶箭行动"
+    }
+  ],
+  "relationship_id": "char_456_ash|npc_8570ddffc57e187c"
+}

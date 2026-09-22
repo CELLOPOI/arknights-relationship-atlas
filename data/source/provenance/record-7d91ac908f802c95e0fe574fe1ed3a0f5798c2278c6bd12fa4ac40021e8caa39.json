@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 389,
+          "line": 347,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "quote": "[name=\"阿克托斯\"]好，这个计划好！ \n[Character(name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]……你确定？\n[Dialog]\n[Character(name=\"avg_npc_253_1#4$1\",focus=-1)]\n[Decision(options=\"当然。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_253_1#2$1\")]\n[name=\"菈塔托丝\"]……\n[name=\"菈塔托丝\"]表面急行军实施破坏，看起来是为了营救尤卡坦，并且吸引对方注意，让对方对你的目的产生误解。\n[name=\"菈塔托丝\"]你让正面大部队负责落实这种误解。\n[name=\"菈塔托丝\"]实际这一切都是为了让阿克托斯的队伍能够接近圣山，并且山上还会有你的手下提前渗透进去接应……\n[Character(name=\"avg_npc_253_1#9$1\")]\n[name=\"菈塔托丝\"]虽然远远算不上稳妥，但确实好像行得通。\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]锏呢，就算你能对付恩希欧迪斯那支打扮成山雪鬼的队伍，这个真正的怪物不解决，就永远别想说对付得了恩希欧迪斯。\n[Dialog]\n[Character(name=\"avg_npc_253_1#7$1\",focus=-1)]\n[Decision(options=\"Sharp。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]这也是工作的一部分？\n[Dialog]\n[Character(name=\"avg_npc_252\",focus=-1)]\n[Decision(options=\"是的。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]说得这么轻松，你真的有把握吗？\n[Character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]不知道，但我应该能拖住她十几分钟吧。\n[Character(name=\"avg_npc_253_1#2$1\")]\n[name=\"菈塔托丝\"]……你也是个怪物。\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]……所以，罗德岛的博士，你就这么笃定我会帮你？\n[Dialog]\n[Character(name=\"avg_npc_253_1#7$1\",focus=-1)]\n[Decision(options=\"我不会强迫你。;这套计划中，没有你一定要参与的环节。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_253_1#6$1\")]\n[name=\"菈塔托丝\"]你这个人，有些地方和恩希欧迪斯倒是挺像的。\n[Character(name=\"avg_npc_253_1#9$1\")]\n[name=\"菈塔托丝\"]你把你的计划这么轻易地告诉了我，还和我说不会强迫我。"
+        }
+      ],
+      "description": "菈塔托丝听博士解释计划并直接询问，博士回答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E82"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "菈塔托丝听博士解释计划并直接询问，博士回答。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E82"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "菈塔托丝听博士解释计划并直接询问，博士回答。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 389,
+          "kind": "story",
+          "line": 347,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "npc_a43cec0eaa3f04c8|npc_b99957887950ebfd"
+}

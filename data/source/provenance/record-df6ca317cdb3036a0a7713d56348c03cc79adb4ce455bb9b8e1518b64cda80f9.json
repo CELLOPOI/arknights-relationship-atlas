@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 566,
+          "line": 541,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_02_end.txt",
+          "quote": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#9$1\")]\n[name=\"赫默\"]您在说什么？\n[charslot(slot = \"m\", name = \"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]算了，那个疯女人做什么事都不意外。\n[charslot(slot = \"m\", name = \"avg_249_mlyss_1#10$1\")]\n[name=\"缪尔赛思\"]欸，赫默，你什么时候换了新制服啊？！料子好，剪裁也合身，看起来像变了个人，差点没认出来！\n[name=\"缪尔赛思\"]说起来，伊芙芙我之前也没认出来，换了新衣服，个子也高了好多！\n[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"赫默\"]……！\n[name=\"赫默\"]伊芙利特？伊芙利特为什么会在特里蒙？\n[charslot(slot = \"m\", name = \"avg_249_mlyss_1#1$1\")]\n[name=\"缪尔赛思\"]她和罗德岛的博士在一起。\n[charslot(slot = \"m\", name = \"avg_1031_slent2_1#3$1\")]\n[name=\"赫默\"]博士也来了？\n[charslot(slot = \"m\", name = \"avg_249_mlyss_1#7$1\")]\n[name=\"缪尔赛思\"]欸，你们居然不是一起的吗？\n[dialog]\n[charslot]\n缪尔赛思惊讶的表情很生动，生动到赫默瞬间察觉到了她的来意。\n缪尔赛思固然是善意的。被卷入高层的博弈太过危险，她善意地想要让一个小小的研究员离此时此刻的莱茵生命远一些。\n海顿一号实验室、359号基地、特莱顿工厂……\n帕尔维斯、多萝西、雅拉、缪尔赛思……\n她一路摸索过来，她还要遇见多少壁障？赫默突然感受到一种前所未有的无力感。\n[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$1\")]\n[name=\"赫默\"]伊芙利特，还有博士，他们在哪儿？"
+        }
+      ],
+      "description": "赫默具体知晓博士已到特里蒙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "char_108_silent",
+          "reason": "赫默得知博士来到特里蒙后立即追问其位置。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在该场景出现，当前证据未新增博士到赫默方向。",
+          "status": "not_established",
+          "to": "char_108_silent"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 566,
+          "kind": "story",
+          "line": 541,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件期间",
+      "title": "孤星"
+    }
+  ],
+  "relationship_id": "char_108_silent|npc_b99957887950ebfd"
+}

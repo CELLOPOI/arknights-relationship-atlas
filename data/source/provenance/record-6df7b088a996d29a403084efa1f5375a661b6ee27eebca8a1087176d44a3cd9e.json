@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 103,
+          "line": 87,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st02.txt",
+          "quote": "[name=\"夜半\"]  夜半。\n[Character(name=\"avg_476_blkngt_1#1$1\", name2=\"avg_npc_296_1#5$1\", focus=2)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"杜小姐\"]  你会说大炎话干嘛不搭理人！？\n[Character(name=\"avg_476_blkngt_1#1$1\", name2=\"avg_322_lmlee_1#4$1\", focus=2)]\n[name=\"老鲤\"]  雷姆必拓人，却有个大炎名字？\n[Character(name=\"avg_476_blkngt_1#2$1\", name2=\"avg_322_lmlee_1#4$1\", focus=1)]\n[name=\"夜半\"]  这不关键。虽然我很少遇到这种情况，不过在这座城市里，我也不太想自找麻烦。\n[name=\"夜半\"]  一次没有陷阱和预谋的狩猎，实在是太容易失败了。\n[Character(name=\"avg_476_blkngt_1#2$1\", name2=\"avg_npc_296_1#1$1\", focus=2)]\n[name=\"杜小姐\"]  死心吧，有本小姐在，你有什么阴谋诡计，那都是不成的。\n[Character(name=\"avg_322_lmlee_1#10$1\", name2=\"avg_npc_296_1#1$1\", focus=1)]\n[name=\"老鲤\"]  ……杜小姐倒是性情中人。\n[Character(name=\"avg_476_blkngt_1#4$1\", name2=\"avg_322_lmlee_1#10$1\", focus=1)]\n[name=\"夜半\"]  ……原来你们是一伙的。\n[Character(name=\"avg_476_blkngt_1#8$1\")]\n[name=\"夜半\"]  不过正好，你们把注意力放在我身上了……"
+        }
+      ],
+      "description": "夜半自报身份，杜小姐与其当面对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E59"
+          ],
+          "from": "char_476_blkngt",
+          "reason": "夜半自报身份，杜小姐与其当面对话。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        },
+        {
+          "evidenceIds": [
+            "E59"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "夜半自报身份，杜小姐与其当面对话。",
+          "status": "supported",
+          "to": "char_476_blkngt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 103,
+          "kind": "story",
+          "line": 87,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_476_blkngt|npc_ebce98658cbda852"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 200,
+          "line": 178,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_07_beg.txt",
+          "quote": "[name=\"德克萨斯\"]   ……他们好像遇到麻烦了。\n[name=\"德克萨斯\"]   能天使，确认完黑帮的路线之后去和可颂汇合。\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[Character]\n[name=\"能天使\"]   明白~\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   空。\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[Character]\n[name=\"空\"]   诶……今天可疑人物的动向非常复杂，不过他们好像分成两队行动了，可能是陷阱——\n[playsound(key=\"$transmission\", volume=0.4)]\n[name=\"伊斯\"]   没有那么复杂。敌人内部出现了问题。这是机会。\n[name=\"空\"]   哇！吓了我一跳！\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   ……你也回来了啊。\n[name=\"德克萨斯\"]   为什么要黑进自己人的频道，就不能正常通讯吗？\n[Character]\n[name=\"伊斯\"]   这样比较快。\n[name=\"空\"]   那你现在在哪儿？\n[name=\"伊斯\"]   伤心咖啡馆。我突然想起来今天应该放假，所以来凑个热闹。\n[name=\"伊斯\"]   可颂和那个新人的坐标已经发送给你们了，龙门城际网络的速度真是令人舒心。\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   ……既然如此，解决完各自的任务，就去支援他们吧。"
+        }
+      ],
+      "description": "空与伊斯直接远程对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_101_sora",
+          "reason": "空在频道中直接询问伊斯的位置。",
+          "status": "supported",
+          "to": "npc_73d003a400c804ca"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_73d003a400c804ca",
+          "reason": "伊斯回应并发送坐标。",
+          "status": "supported",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 200,
+          "kind": "story",
+          "line": 178,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "反击部署通讯期间",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "char_101_sora|npc_73d003a400c804ca"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 388,
+          "line": 375,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-12_beg.txt",
+          "quote": "[name=\"阿米娅\"]那位血魔大君……他之所以会来这里，是不是因为我们的出现？\n[Character(name=\"avg_npc_400_1#9$1\", name2=\"avg_npc_394_1#6$1\", focus=1)]\n[name=\"海蒂\"]阿米娅，你需要的并不是一个否定的答案。\n[Character(name=\"avg_npc_400_1#9$1\", name2=\"avg_npc_394_1#3$1\", focus=2)]\n[name=\"阿米娅\"]嗯……\n[Character(name=\"avg_npc_400_1#9$1\", name2=\"avg_npc_394_1#2$1\", focus=2)]\n[name=\"阿米娅\"]克洛维希娅说过，她担心我和罗德岛将自救军卷入不属于他们的战场中去。\n[name=\"阿米娅\"]如果合作的确给他们带来了更大的危险……\n[Character(name=\"avg_npc_400_1#12$1\", name2=\"avg_npc_394_1#2$1\", focus=1)]\n[name=\"海蒂\"]昨夜的行动，假如没有罗德岛的参与，会发生什么？\n[name=\"海蒂\"]没有W里应外合，没有她挡住那位雇佣兵首领……也没有其他罗德岛干员牵制曼弗雷德，我们之间的这场交谈根本没有机会发生。\n[name=\"海蒂\"]用一些人命去换另一些人命的计算方式，对于罗德岛来说，当然并不成立——\n[Character(name=\"avg_npc_400_1#8$1\", name2=\"avg_npc_394_1#2$1\", focus=1)]\n[name=\"海蒂\"]但即便是凯尔希在这里，她也一定会说，任何机遇都伴随着风险。"
+        }
+      ],
+      "description": "海蒂针对阿米娅询问大君来因作明确回应，说明此次行动风险与必要。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E61"
+          ],
+          "from": "char_4045_heidi",
+          "reason": "海蒂针对阿米娅询问大君来因作明确回应，说明此次行动风险与必要。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4045_heidi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 388,
+          "kind": "story",
+          "line": 375,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-12_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_4045_heidi|npc_aa980d6791c26c93"
+}

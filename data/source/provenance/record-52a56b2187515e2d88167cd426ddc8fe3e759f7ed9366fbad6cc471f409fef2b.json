@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 287,
+          "line": 245,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "quote": "或许你以前可以做到，但以恢复中的身体状况肯定不行。凯尔希提醒过你，凯尔希全都提醒过你。\n[Dialog]\n[Character(name=\"char_122_beagle_1\")]\n[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"米格鲁\"]  哎，诶诶！博士小心腰！\n[name=\"米格鲁\"]  唉，算了，还是我来吧。\n[Dialog]\n[Character(name=\"char_122_beagle_1\",focus=-1)]\n[Decision(options=\"……我可能是太没用了。;但这是……Ace的盾牌，我应该……\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_122_beagle_1\")]\n[name=\"米格鲁\"]  没关系啦，他们都说博士你是罗德岛上最聪明的人。\n[Dialog]\n[Character(name=\"char_122_beagle_1\",focus=-1)]\n[Decision(options=\"我来搭把手吧。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_122_beagle_1\")]\n[name=\"米格鲁\"]  好！就这样——小心！\n[dialog]\n[characteraction(name=\"middle\", type=\"move\", ypos=60, fadetime=1.5, block=true)]\n[delay(time=2)]\n[Character(name=\"char_122_beagle_1\")]\n[name=\"米格鲁\"]  嘿！放上去了。\n[dialog]\n[characteraction(name=\"middle\", type=\"move\", ypos=-60, fadetime=1.5, block=true)]\n[delay(time=1)]\n[Character(name=\"char_122_beagle_1\",focus=-1)]\n[Decision(options=\"不过，“他们”是？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_122_beagle_1\")]\n[name=\"米格鲁\"]  是啊，杜宾教官他们都是这么说的，还有精英干员们。\n[name=\"米格鲁\"]  还有Ace前辈也是……\n[name=\"米格鲁\"]  Ace前辈以前说起过你，他说你一个人就能顶得上半支军队了，哈哈哈。\n[Character(name=\"char_122_beagle_1\",focus=-1)]\n[Dialog]\n[Decision(options=\"……你和Ace关系很好吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_122_beagle_1\")]\n[name=\"米格鲁\"]  哎？嗯……关系很好吗……\n[name=\"米格鲁\"]  Ace前辈和所有人关系都很好，他就是那样的人。\n[name=\"米格鲁\"]  Ace前辈是个很可靠的人……以前在训练的时候，他指导了我们很多东西，团队战斗、合作和突围。\n[name=\"米格鲁\"]  精英干员们每天都非常忙，但是前辈还是经常来训练场。\n[name=\"米格鲁\"]  我以前一直在想，我什么时候或许也能变得和前辈一样可靠……"
+        }
+      ],
+      "description": "米格鲁明确回忆Ace经常指导包括她在内的队员，Ace也曾向她们谈及博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "char_122_beagle",
+          "reason": "米格鲁明确回忆Ace经常指导包括她在内的队员，Ace也曾向她们谈及博士。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "米格鲁明确回忆Ace经常指导包括她在内的队员，Ace也曾向她们谈及博士。",
+          "status": "supported",
+          "to": "char_122_beagle"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 287,
+          "kind": "story",
+          "line": 245,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    }
+  ],
+  "relationship_id": "char_122_beagle|npc_ded4733bcc9da868"
+}

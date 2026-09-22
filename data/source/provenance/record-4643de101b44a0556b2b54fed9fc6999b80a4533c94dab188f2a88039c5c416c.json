@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 461,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_01_end.txt",
+          "quote": "[name=\"玛露西尔\"]……\n[name=\"玛露西尔\"]让我也尝一尝……！\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#5$1\",focus=\"m\")]\n[name=\"玛露西尔\"]这是什么？\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]源石虫的触角。\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#21$1\",focus=\"m\")]\n[name=\"玛露西尔\"]……\n[Dialog]\n[PlaySound(key=\"$d_avg_humaneat\",volume=1,channel=\"2\")]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#16$1\",focus=\"m\")]\n[name=\"玛露西尔\"]哇！好好吃！很有嚼劲……但好辣好辣！和森西做的饭味道很不一样，但也很好吃！\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#9$1\",focus=\"m\")]\n[name=\"齐尔查克\"]嗯……加了啤酒的烤源石虫吃起来不腥，辣炒源石虫肉吃起来还是会有一股泥土的味道。\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#3$1\",focus=\"m\")]\n[name=\"森西\"]果然，不漏下任何一步做出来的料理，味道就是会更好一点，心急反而会造成不好的结果。\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#1$1\",focus=\"m\")]\n[name=\"森西\"]不论是多么小的一步，都需要仔细对待，这就是料理的魅力。玛露西尔，你的着急给了老夫很大的帮助。\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#13$1\",focus=\"m\")]\n[name=\"玛露西尔\"]我没有……！\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#11$1\",focus=\"m\")]\n[name=\"玛露西尔\"]我也不是着急起来就什么都不管了的人，我着急是因为你们太不着急了！\n[name=\"玛露西尔\"]感觉你们都是一副悠哉的样子，根本没法相信你们是真的着急回去……\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#8$1\",focus=\"m\")]\n[name=\"齐尔查克\"]这啤酒也好喝！有一股别样的麦香味，和我之前喝过的任何一种啤酒都不一样！\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]你这样说我就放心了。这些源石虫啤酒是打算包装成商品售卖的，今年酿了好几批，看来能赚上一笔钱了。\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#1$1\",focus=\"m\")]\n[name=\"齐尔查克\"]源石虫啤酒？用刚刚那些虫子酿的吗？怎么做到的？\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]方法有很多种，把它们从出生起就养在干净的麦壳堆里，它们就会沾上麦壳，背上长的就是它们自己形成的麦香壳子。\n[name=\"大鲍勃\"]用这些壳配着啤酒花酿，就能酿出这种啤酒。\n[name=\"大鲍勃\"]不过好像其他地方的人还有些别的方法，我听说过给源石虫喂啤酒花，再用它们的黏液酿酒的。\n[name=\"大鲍勃\"]可能喝起来又是另一种风味——但我还是喜欢我酿的味道！\n[name=\"大鲍勃\"]你们刚才吃的松饼和啤酒也是一个道理，给那些闪亮亮的小家伙喂果子，它们的壳就能提取出甜美的风味来！\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#6$1\",focus=\"m\")]\n[name=\"莱欧斯\"]唔……嗝。\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]你们觉得啤酒好喝我也就放心了……\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#21$1\",focus=\"m\")]\n[name=\"莱欧斯\"]真的都很好吃……\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#18$1\",focus=\"m\")]\n[name=\"莱欧斯\"]其实玛露西尔刚刚那么着急，是因为我们可能……是误打误撞来到这里的。\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]……？\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"54_g1_bobfarm\",screenadapt=\"showall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\t\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]……\n[name=\"大鲍勃\"]好的，其实我根本没听懂你们在说什么！\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#8$1\",focus=\"m\")]\n[name=\"莱欧斯\"]唉……算了，我们可能还要去别的地方再问问了……\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]不过归乡心切，也是人之常情！别的部分我没听懂，但是这个部分我明白。\n[name=\"大鲍勃\"]看你们啥都不知道的样子，稀里糊涂地在外旅行可不太妙……这些都给你们吧。\n[Dialog]\n[charslot]\n大鲍勃赶紧包了一包刚处理好的源石虫肉以及啤酒，然后连同一本册子一起递给了莱欧斯。\n莱欧斯翻开册子，上面歪歪扭扭地写着几个看不太明白的字。\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#8$1\",focus=\"m\")]\n[name=\"莱欧斯\"]……这册子是什么？\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]嘿，是《鲍勃的美食指南》！我把自己见过的东西，能吃的不能吃的都记录在这本笔记里了。\n[name=\"大鲍勃\"]拿着吧，感觉你们看什么都新奇，照着这本书来吧，这一路上别把自己饿死了或者毒死了。\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#22$1\",focus=\"m\")]\n[name=\"玛露西尔\"]……完全是莱欧斯的喜好。\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#2$1\",focus=\"m\")]\n[name=\"齐尔查克\"]我不用看他的脸都知道他是什么表情。\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]对了，我知道一个地方，那里有不少……呃，奇奇怪怪的人。他们一定可以帮你们想办法找到你们的老家。\n[name=\"大鲍勃\"]他们连红眼女都能招架得住，解决你们的问题应该不是什么麻烦。\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#8$1\",focus=\"m\")]\n[name=\"玛露西尔\"]真的？是什么地方？\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]罗德岛。\n[name=\"大鲍勃\"]他们的办事处都开到各种穷乡僻壤去了，应该不难找。\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#18$1\",focus=\"m\")]\n[name=\"莱欧斯\"]好的，我记下来了。罗德岛。\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#3$1\",focus=\"m\")]\n[name=\"森西\"]（小声）……奇怪的名字，是个岛吗……？\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#1$1\",focus=\"m\")]\n[name=\"齐尔查克\"]（小声）要从海上出发吗……？\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]如果你们真的到了罗德岛，麻烦帮我和一个叫泥岩的家伙问声好。\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#18$1\",focus=\"m\")]\n[name=\"莱欧斯\"]没问题。\n[charslot(slot=\"m\",name=\"avg_npc_010\",focus=\"m\")]\n[name=\"大鲍勃\"]那就祝你们能找到罗德岛！\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#18$1\",focus=\"m\")]\n[name=\"玛露西尔\"]……谢谢你啊，大块头。"
+        }
+      ],
+      "description": "与大鲍勃在农场直接聚餐交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4141_marcil",
+          "reason": "与大鲍勃在农场直接聚餐交谈。",
+          "status": "supported",
+          "to": "npc_d5c7fa0eb2b4fffa"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_d5c7fa0eb2b4fffa",
+          "reason": "与大鲍勃在农场直接聚餐交谈。",
+          "status": "supported",
+          "to": "char_4141_marcil"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4b8f03fa1aa37d85.json",
+      "sources": [
+        {
+          "endLine": 461,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示旅程时段",
+      "title": "泰拉饭"
+    }
+  ],
+  "relationship_id": "char_4141_marcil|npc_d5c7fa0eb2b4fffa"
+}

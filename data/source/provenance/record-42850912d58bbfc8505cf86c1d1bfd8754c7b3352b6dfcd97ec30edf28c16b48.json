@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 495,
+          "line": 465,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_st01.txt",
+          "quote": "[name=\"梁\"]……  \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#1$1\")]\n[name=\"易\"]怎么了？少见你这么闷。  \n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]\n[name=\"梁\"]我只是在忧心，那件信物，他们能顺利送到吗？  \n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]\n[name=\"梁\"]知道信物究竟是何物的人只能袖手旁观，可以帮我们的人却连该将信物往哪送都不知道。 \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#1$1\")] \n[name=\"易\"]那位老天师能做到这份上，已经是对我们天大的照顾。剩下的事，只能看我们一家人的造化了。  \n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]\n[name=\"梁\"]没想到最后竟是牵扯了这几位年轻人进来，也不知该说是庆幸，还是让人担忧。\n[charslot(slot=\"m\",name=\"avg_npc_1869_1#8$1\")]  \n[name=\"易\"]一百多年来，也有不少人走入过这座园子。  \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#1$1\")]\n[name=\"易\"]而只有他们将那一点生机，从我们遗落的记忆里摘取下来，护送到了这世上。  \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#10$1\")]\n[name=\"易\"]无论如何也该相信，他们与我们这一家人，多少有些缘分吧。\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]  \n[name=\"梁\"]先生所言在理。  \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#1$1\")]\n[name=\"易\"]哎，世上风物万千，与人相遇，还是要讲究一个缘分。  \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#2$1\")]\n[name=\"易\"]早早买好了票，做了攻略，背了地图，站在正门等着开园，结果打雷下雨，什么都没看到，也是有的。  \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#1$1\")]\n[name=\"易\"]随便从哪个角门进了园子，一路游游逛逛，只要心向一处，结果就能歪打正着，也是有的。  \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#10$1\")]\n[name=\"易\"]兴起而来，兴尽而返……强求始终，反倒不雅了。  \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#1$1\")]\n[name=\"易\"]我们就安心在这里等着，守好这座园子……  \n[charslot(slot=\"m\",name=\"avg_npc_1869_1#1$1\")]\n[name=\"易\"]……这良辰美景，还真是没法让人轻易放下呀。"
+        }
+      ],
+      "description": "前者在已读场景中明确点名、讨论或接受后者的具体委托；本篇未见反向依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_9bf75aeed8254c8c",
+          "reason": "前者在已读场景中明确点名、讨论或接受后者的具体委托；本篇未见反向依据。",
+          "status": "supported",
+          "to": "npc_d82925e6527dea32"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_d82925e6527dea32",
+          "reason": "本篇候选窗口未建立反向知晓或往来。",
+          "status": "not_established",
+          "to": "npc_9bf75aeed8254c8c"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 495,
+          "kind": "story",
+          "line": 465,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "npc_9bf75aeed8254c8c|npc_d82925e6527dea32"
+}

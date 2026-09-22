@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 205,
+          "line": 185,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "quote": "[name=\"齐尔查克\"]你是萨米的独眼巨人……？\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#1$1\",focus=\"m\")]\n[name=\"玛露西尔\"]独眼巨人？！为什么齐尔查克你会——\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#15$1\",focus=\"m\")]\n[name=\"齐尔查克\"]等等，你出现在这里，该不会是因为你又看到了什么吧？\n[charslot(slot=\"m\",name=\"avg_npc_969_1#3$1\",focus=\"m\")]\n[name=\"艾尔启\"]是的。\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#15$1\",focus=\"m\")]\n[name=\"齐尔查克\"]你看到了什么？\n[charslot(slot=\"m\",name=\"avg_npc_969_1#1$3\",focus=\"m\")]\n[name=\"艾尔启\"]在你们前进的道路上，有着火光、冲击……以及凶恶的兽。\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#16$1\",focus=\"m\")]\n[name=\"齐尔查克\"]……你知道刻俄柏或者博士在哪里吗？\n[charslot(slot=\"m\",name=\"avg_npc_969_1#1$1\",focus=\"m\")]\n[name=\"艾尔启\"]刻俄柏刚刚回到罗德岛，现在应该在训练室，在那个方位。\n[name=\"艾尔启\"]博士……请原谅我暂时不能告诉你什么。\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#10$1\",focus=\"m\")]\n[name=\"齐尔查克\"]……谢了。\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#1$1\",focus=\"m\")]\n[name=\"玛露西尔\"]那我们……要先过去吗？\n[name=\"玛露西尔\"]泥岩好像已经彻底和我们走散了……"
+        }
+      ],
+      "description": "艾尔启明确知道博士所在信息但拒绝透露。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_4102_threye",
+          "reason": "艾尔启明确知道博士所在信息但拒绝透露。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本篇未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4102_threye"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4b8f03fa1aa37d85.json",
+      "sources": [
+        {
+          "endLine": 205,
+          "kind": "story",
+          "line": 185,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示旅程时段",
+      "title": "泰拉饭"
+    }
+  ],
+  "relationship_id": "char_4102_threye|npc_b99957887950ebfd"
+}

@@ -1,0 +1,128 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 414,
+          "line": 398,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-01.txt",
+          "quote": "[name=\"号角\"]看来各位都没有意见了，那么……\n[charslot(slot=\"m\",name=\"avg_4072_ironmn_1#4$1\",focus=\"m\")]\n[name=\"费斯特\"]……\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"none\")]\n所有人看向了阿米娅。\n你突然有些庆幸，有些欣慰，有些亢奋和自豪。\n因为你正站在阿米娅身边。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]\n[name=\"阿米娅\"]这场战争已经陷入胶着，而特雷西斯正试图用某种更彻底的、强硬的手段，将维多利亚撕成碎片。\n[name=\"阿米娅\"]这和萨卡兹是否拥有复仇的正当性无关，这和贵族们是否承担起维多利亚的重担也无关。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#13$1\",focus=\"m\")]\n[name=\"阿米娅\"]如果任何问题都是靠将对方毁灭得一干二净来解决，这片本就纷争不断的土地根本不配谈论将来。\n[name=\"阿米娅\"]赦罪师和特雷西斯就在那里，在伦蒂尼姆的心脏上，敲打这个摇摇欲坠的帝国。"
+        }
+      ],
+      "description": "费斯特在会议近前听阿米娅具体说明特雷西斯计划。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E176"
+          ],
+          "from": "char_4072_ironmn",
+          "reason": "费斯特在会议近前听阿米娅具体说明特雷西斯计划。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4072_ironmn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 414,
+          "kind": "story",
+          "line": 398,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 114,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "quote": "[name=\"曼弗雷德\"] 你们来了。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……曼弗雷德？\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] 看来血魔大君要失望了。他最为厌恶阴暗潮湿的地方，却为了亲手抓住你而去了反抗军的地下巢穴。\n[name=\"曼弗雷德\"] 眼下他一定已经追上了你们的同伴。不知道地底的嚎哭能不能传到这高墙之上——\n[character(name=\"avg_npc_402_1#6$1\")]\n[name=\"费斯特\"] 你这邪恶的……邪恶的……\n[character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"] 邪恶的魔族？\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] 不，我并不欣赏他的手段。相比遭受那样的折磨，死在我的炮轰之下的反抗军要幸运得多。\n[character(name=\"avg_npc_402_1#10$1\")]\n[name=\"费斯特\"] 你们根本就没有差别！\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] 在你们眼里或许是这样。当你们只会用“魔族”来统一称呼我们的时候，恐惧与仇恨就早已蒙蔽了你们的双眼。\n[name=\"曼弗雷德\"] 在维多利亚人眼里，萨卡兹就是一群享受着杀戮的大傻瓜。\n[name=\"曼弗雷德\"] 曾经这么想的人，如今要么跪倒在殿下的王座下，要么成了城墙外风干的惨白骨架。\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 你和特雷西斯……你们带领的军队蹂躏了这座城市。\n[name=\"阿米娅\"] 无论你怎么宣称自己与血魔的差异，你们都是双手沾满了鲜血的侵略者。\n[character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"] 你似乎误会了，罗德岛的卡特斯。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"] 我并不只想强调自己与大君的差异——是的，在某些方面，他的喜好令我厌恶。\n[name=\"曼弗雷德\"] 但我同样不会像诸王廷臣一样行事。\n[name=\"曼弗雷德\"] 当他们站在你面前的时候，看到的是那位殿下的继承人，他们或许会因此对你感到怀疑、好奇或者厌恶。\n[character(name=\"avg_npc_394_1#3$1\")]\n[name=\"阿米娅\"] 你……\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 我只从你身上感觉到了警惕。\n[character(name=\"avg_npc_404_1#2$1\")]\n[stopmusic(fadetime=1)]\n[name=\"曼弗雷德\"] 是的，卡特斯。我只当你是——危险的敌人。\n[Dialog]\n[character]\n[PlaySound(key=\"$d_sp_ballista\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[delay(time=1)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[CameraShake(duration=2, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[PlaySound(key=\"$d_gen_explo_n\", volume=1)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[PlaySound(key=\"$d_avg_rockfall\", volume=1)]\n[CameraShake(xstrength=5, ystrength=3, vibrato=30, randomness=90)]\n[character(name=\"avg_npc_402_1#10$1\")]\n[PlayMusic(intro=\"$warchaos_intro\", key=\"$warchaos_loop\", volume=0.4)]\n[name=\"费斯特\"] ——他往我们这里扔手雷了吗？\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 快抓住城墙！\n[name=\"阿米娅\"] 这是他的源石技艺……他正在用法术能量制造冲击，他想把我们丢下城墙！\n[character(name=\"avg_npc_402_1#6$1\")]\n[name=\"费斯特\"] 唔……好难站稳，这脚底下就像哪里都在炸开一样……\n[character(name=\"avg_npc_411_1#4$1\")]\n[name=\"可露希尔\"] 无人机没法靠近他！只要离得近一点，机身就会失去平衡——\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 大家……站到我身后！\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 唔——\n[character(name=\"avg_npc_411_1#5$1\")]\n[name=\"可露希尔\"] 阿、阿米娅，他的法术在融化你的法术？\n[character(name=\"avg_npc_394_1#5$1\")]\n[name=\"阿米娅\"] 他故意把法术冲击释放得又细小又尖锐，我编织的能量结层被他绞碎了……\n[character(name=\"avg_npc_411_1#5$1\")]\n[name=\"可露希尔\"] 可你甚至能抵挡德拉克的火焰！\n[dialog]\n[character(name=\"avg_npc_411_1#5$1\",focus=-1)]\n[Decision(options=\"他熟悉我们的战斗方式。;他的法术针对了阿米娅。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"] 明知道你们要来，难道我会白白等待？\n[dialog]\n[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_atk_circleatk_n\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[delay(time=1)]\n[character(name=\"avg_npc_402_1#10$1\")]\n[name=\"费斯特\"] 来了，又来了！不仅在脚下，还、还有天上，只要赤光一闪，就会凭空炸开——\n[character(name=\"avg_npc_402_1#2$1\")]\n[name=\"费斯特\"] 阿米娅小姐，你……你不是会心灵法术吗？\n[name=\"费斯特\"] 你能不能试着给他的脑袋瓜里塞点什么垃圾……\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……不行。\n[name=\"阿米娅\"] 他防御得很好，而且他太冷静了，我能触摸到他情感的边缘，但是……但是他此刻心里只有对胜利的渴望。\n[dialog]\n[character(name=\"avg_npc_394_1#7$1\",focus=-1)]\n[Decision(options=\"他在拖时间。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 是……他的心思并不在眼前这场战斗上。\n[character(name=\"avg_npc_394_1#13$1\")]\n[name=\"阿米娅\"] 他只想等着血魔和城防炮将反抗军的生机全部摧毁！\n[character(name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"] 拖时间？不错的猜想。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"] {@nickname}，比起那位侥幸获得了魔王力量的卡特斯，我一直对你更感兴趣。"
+        }
+      ],
+      "description": "城墙对峙中曼弗雷德明确说明血魔大君为抓阿米娅去了地下，阿米娅具称特雷西斯；博士、费斯特和可露希尔持续在场应战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR11"
+          ],
+          "from": "char_4072_ironmn",
+          "reason": "城墙对峙中曼弗雷德明确说明血魔大君为抓阿米娅去了地下，阿米娅具称特雷西斯；博士、费斯特和可露希尔持续在场应战。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_4072_ironmn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 114,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 456,
+          "line": 374,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-05_end.txt",
+          "quote": "[name=\"？？？\"]啊，闪灵，好久不见。听说你去了家族聚会？\n[charslot(slot=\"l\",name=\"char_147_shining_1\",focus=\"l\")]\n[name=\"闪灵\"]……W，你来了。\n[Dialog]\n[charslot]\n[PlayMusic(intro=\"$m_dia_street_intro\", key=\"$m_dia_street_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_411_1#11$1\",focus=\"m\")]\n[name=\"可露希尔\"]W！现在半个伦蒂尼姆都听到这里的动静了！\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"char_147_shining_1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#1$1\",focus=\"r\")]\n[name=\"W\"]很隆重，对吧，我对炸药的分量把握得一直很准。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#10$1\",focus=\"r\")]\n[name=\"W\"]我听说凯尔希被揍得很惨，于是就百忙之中抽空来看看咯。\n[Dialog]\n[delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#12$1\",focus=\"r\")]\n[name=\"W\"]呜哇，果然很惨，特雷西斯还真是不留情面。\n[name=\"W\"]我还以为那男人会对自己的“老朋友”温柔一点呢。\n[charslot(slot=\"l\",name=\"char_147_shining_1\",focus=\"l\")]\n[name=\"闪灵\"]她还没醒。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#1$1\",focus=\"r\")]\n[name=\"W\"]那还真是遗憾，我该为她挤出几滴泪吗。\n[charslot(slot=\"r\",name=\"avg_npc_412_1#10$1\",focus=\"r\")]\n[name=\"W\"]或者，趁机让这个老女人再也不敢得罪我？\n[Dialog]\n[charslot]\n[playsound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]\n[name=\"Mon3tr\"]（喑哑的嘶鸣）\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"char_147_shining_1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_412_1#2$1\",focus=\"r\")]\n[name=\"W\"]呃，这东西倒居然还活着吗。\n[Dialog]\n[PlaySound(key=\"$d_avg_walk_stage\",channel=\"n\",loop=false)]\n[stopsound(channel=\"n\",fadetime=4)]\n[charslot(slot=\"r\",posfrom=\"0,0\",posto=\"300,0\",afrom=1,ato=0,duration=0.7)]\n[delay(time=1.5)]\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_412_1#10$1\",posfrom=\"-200,0\",posto=\"150,0\",afrom=0,ato=1,duration=1)]\n[charslot(slot=\"r\",name=\"npc_10002\",posfrom=\"200,0\",posto=\"0,0\",afrom=0,ato=1,duration=0.3)]\n[delay(time=1.5)]\n[PlaySound(key=\"$p_skill_Mon3trburst\", volume=0.4)]\n[charslot(slot=\"r\",name=\"npc_10002\",focus=\"r\")]\n[name=\"Mon3tr\"]（威胁的低吼）\n[Dialog]\n[charslot(slot=\"r\",name=\"npc_10002\",focus=\"all\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$d_avg_runstop\")]\n[charslot(slot=\"l\",name=\"avg_npc_412_1#10$1\",posfrom=\"150,0\",posto=\"0,0\",afrom=1,ato=1,duration=0.6)]\n[delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_npc_412_1#8$1\",focus=\"l\")]\n[name=\"W\"]啧，怎么还这么凶。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"char_147_shining_1\",focus=\"m\")]\n[name=\"闪灵\"]Mon3tr受损很严重，直到两个小时以前才重新恢复运动机能，但我仍然不建议你去惹它，W。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_412_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"npc_10002\",focus=\"l\")]\n[name=\"W\"]我可是在救它主子的命，它起码应该学着更尊重我一点。\n[name=\"W\"]否则的话，哼哼——\n[charslot(slot=\"r\",name=\"npc_10002\",focus=\"r\")]\n[name=\"Mon3tr\"]……\n[playsound(key=\"$Mon3tr_n\")]\n[name=\"Mon3tr\"]（妥协的低鸣）\n[charslot(slot=\"l\",name=\"avg_npc_412_1#10$1\",focus=\"l\")]\n[name=\"W\"]这还差不多。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_411_1#4$1\",focus=\"m\")]\n[name=\"可露希尔\"]王庭军的人正在赶过来！快点，我们得在他们来之前……\n[charslot(slot=\"m\",name=\"avg_npc_412_1#8$1\",focus=\"m\")]\n[name=\"W\"]别吵吵嚷嚷的，可露希尔，耳朵疼。\n[charslot(slot=\"m\",name=\"avg_npc_411_1#4$1\",focus=\"m\")]\n[name=\"可露希尔\"]你以为都是谁的错！\n[charslot(slot=\"m\",name=\"avg_npc_412_1#1$1\",focus=\"m\")]\n[name=\"W\"]那就快点让你的人迈开腿。"
+        }
+      ],
+      "description": "该人物单向知晓特雷西斯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4072_ironmn",
+          "reason": "该人物在连续撤离现场接收W关于特雷西斯重伤凯尔希的明确说明。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "被提及者未在当前局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "char_4072_ironmn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 456,
+          "kind": "story",
+          "line": 374,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_4072_ironmn|npc_c573b8884914fc60"
+}

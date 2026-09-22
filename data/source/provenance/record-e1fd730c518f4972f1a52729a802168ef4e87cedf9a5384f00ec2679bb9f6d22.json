@@ -1,0 +1,61 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 95,
+          "line": 83,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_02_end.txt",
+          "quote": "[name=\"克莱芒\"]杰拉尔德，你们真的决定要走？\n[charslot(slot = \"right\", name = \"avg_npc_926_1#1$1\",focus=\"r\")]\n[name=\"杰拉尔德\"]是真的。\n[charslot(slot = \"left\", name = \"avg_npc_924_1#1$1\",focus=\"l\")]\n[name=\"克莱芒\"]我没想到会这么急……\n[charslot(slot = \"right\", name = \"avg_npc_926_1#10$1\",focus=\"r\")]\n[name=\"杰拉尔德\"]本来该提前和你说一声，只是一直没找到机会开口。\n[charslot(slot = \"left\", name = \"avg_npc_924_1#1$1\",focus=\"l\")]\n[name=\"克莱芒\"]莱蒙德和福尔图娜他们恐怕要难受一阵子了，他们几个孩子一向关系好，这次一定很不好受……\n[charslot(slot = \"right\", name = \"avg_npc_926_1#1$1\",focus=\"r\")]\n[name=\"杰拉尔德\"]莱蒙德还太年轻。他来到这儿时还太小，记不住太多事。他还没能理解身为萨卡兹究竟是怎么一回事。\n[name=\"杰拉尔德\"]但他总会了解，总要习惯。\n[name=\"杰拉尔德\"]或许这就是萨卡兹的宿命。"
+        },
+        {
+          "endLine": 164,
+          "line": 142,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_02_end.txt",
+          "quote": "[name=\"福尔图娜\"]你到底在说什么，菲娜，这和蕾缪安小姐没关系！\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"l\", name = \"avg_npc_936_1#6$1\",focus=\"l\")]\n[name=\"德尔菲娜\"]你说谎！除了那个拉特兰人，这里还有谁能帮你修好你的守护铳？！\n[charslot(slot = \"r\", name = \"avg_npc_927_1#3$1\",focus=\"r\")]\n[name=\"福尔图娜\"]你怎么会这么想？！\n[name=\"福尔图娜\"]我有没有说谎，难道你分不出来？菲娜，难道你不明白我现在的感受吗？\n[charslot(slot = \"l\", name = \"avg_npc_936_1#6$1\",focus=\"l\")]\n[name=\"德尔菲娜\"]我多希望我真的能明白，但是小福，我开始搞不懂了！\n[name=\"德尔菲娜\"]光环告诉我你是真诚的，你的痛苦不比我少！\n[name=\"德尔菲娜\"]可如果这是真的，为什么你还能有心情做什么格子饼，你还能毫无芥蒂地与那些拉特兰来的人为伍？\n[charslot(slot = \"l\", name = \"avg_npc_936_1#5$1\",focus=\"l\")]\n[name=\"德尔菲娜\"]小福，我真的搞不懂了……\n[charslot(slot = \"r\", name = \"avg_npc_927_1#5$1\",focus=\"r\")]\n[name=\"福尔图娜\"]菲娜……\n[name=\"福尔图娜\"]那是因为……我希望大家都能过上好日子，菲娜。\n[charslot(slot = \"l\", name = \"avg_npc_936_1#3$1\",focus=\"l\")]\n[name=\"德尔菲娜\"]什么意思？\n[charslot(slot = \"r\", name = \"avg_npc_927_1#5$1\",focus=\"r\")]\n[name=\"福尔图娜\"]我们其实没得选，是不是？虽然斯特凡诺爷爷不说，大家也都不和我们谈论，但我其实心里清楚。\n[name=\"福尔图娜\"]拉特兰会让我们回去，我以前偷偷听到大人们说过，我们的修道院其实是很厉害的建筑，拉特兰一定会想要我们回去。\n[name=\"福尔图娜\"]我知道杰拉尔德叔叔他们，可能、可能不能和我们一起走……\n[name=\"福尔图娜\"]但我想再努力一下！如果能让拉特兰的人明白，杰拉尔德叔叔他们都是很好很好的人，或许就能——"
+        }
+      ],
+      "description": "双方分别在独立场景中明确知晓对方。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_bca27cc42d04b865",
+          "reason": "杰拉尔德当面听到克莱芒具体提及福尔图娜。",
+          "status": "supported",
+          "to": "npc_f5a0d790811751a8"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_f5a0d790811751a8",
+          "reason": "福尔图娜明确称杰拉尔德叔叔并谈论其处境。",
+          "status": "supported",
+          "to": "npc_bca27cc42d04b865"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d3659cc008c9f040.json",
+      "sources": [
+        {
+          "endLine": 95,
+          "kind": "story",
+          "line": 83,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 164,
+          "kind": "story",
+          "line": 142,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "修道院分别前夕",
+      "title": "空想花庭"
+    }
+  ],
+  "relationship_id": "npc_bca27cc42d04b865|npc_f5a0d790811751a8"
+}

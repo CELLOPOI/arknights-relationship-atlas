@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 261,
+          "line": 199,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_st03.txt",
+          "quote": "[name=\"菲亚梅塔\"]奇怪，哪儿去了……\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#1$1\",focus=\"none\")]\n[name=\"？？？\"]榴弹发射器的备用检修包在最下面那个抽屉，典藏电影的收录盘被我藏到沙发的夹层了。\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"帕特里奇昂\"]先别收拾行李了，给我倒杯仙人掌汁——刚从医院回来，渴死了！\n[name=\"帕特里奇昂\"]快猜猜，发生了什么了不得的事情？\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#1$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]……\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]一位萨科塔修士连续主持了五场葬礼，因为过度悲伤，他突患失语症，而他的妻子同时感受到了心痛……\n[name=\"帕特里奇昂\"]关键是，事发时他身处郊区的安魂教堂，而他的妻子远在城内的铳械工坊！\n[name=\"帕特里奇昂\"]类似的事情还有很多。上周，好几家权威医院和教堂才刚联合向教皇厅提交了一份针对上千位萨科塔的异常诊断报告……\n[name=\"帕特里奇昂\"]虽然我们头顶的日光灯又亮了起来，但共感具体的感知程度和生效范围，似乎都有了因人而异的变化。\n[name=\"帕特里奇昂\"]身处同一时空的陌生萨科塔，仍然只能模糊感知到彼此的情绪，可如果是联系更深的亲缘者或者挚友……\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#1$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]你到底想说什么？\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]拉特兰的一切看似恢复如初，可我们都知道，经历如此重大的灾异后，有些本质的变化已经发生了。\n[name=\"帕特里奇昂\"]小菲，你不该在这个时候离开。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#1$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]罗德岛……我跟你说过的。\n[name=\"菲亚梅塔\"]Dr.{@nickname}也来到了拉特兰，并在暗中帮助我们解决了不少问题。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#6$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]如博士所说，本舰经历了重大变故，圣城的这次灾异也绝非偶然事件……这背后存在更深层的关联，而博士已经为此重新启程。\n[name=\"菲亚梅塔\"]我和莫斯提马都是罗德岛的干员，我们有义务跑这一趟……这同样是为了拉特兰。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#1$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]我的外勤任务申请需要你批准，这些理由你应该读过了。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]小菲，你已经知道我做的所有事情了，对吧？\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#8$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]教宗阁下都没定你的罪，自然也轮不到我说什么。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#1$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]更何况，你确实在最后的关头，努力引导其他人从那个队伍里脱离……你做了一个铳骑该做的事情。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]唉，对老家伙，大家总是有一些额外的仁慈啊。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#1$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]也不止你……不管梦里梦外，几乎所有的萨科塔都在支持那个怪物。\n[name=\"菲亚梅塔\"]除了受她的共感影响，你们其实都有“让拉特兰变得更好”的理由——虽说现在听起来还是很蠢，我还是很想骂你一句越老越矫情——\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#8$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]但“离别”啊什么的……我不是不能理解。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]呃……\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#1$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]我早就说过的，有些事情，我只是需要自己去经历，哪怕在你看来它们没那么令人安心。\n[name=\"菲亚梅塔\"]我很快就回来。\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]小菲，我只是想说，你这次带回来的《八臂电锯侠》，我们还没来得及看……\n[name=\"帕特里奇昂\"]潘格尼尼那家伙说得没错，人还是应该在事情没有发生的时候，少留遗憾。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#3$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#10$1\",focus=\"m\")]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#9$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]喂，老爷子。你也快退休了，对吧？\n[charslot(slot=\"m\",name=\"avg_4194_rmixer_1#1$1\",focus=\"m\")]\n[name=\"帕特里奇昂\"]是啊。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#9$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]要不，跟我去度个假？"
+        }
+      ],
+      "description": "菲亚梅塔掌握博士的行动与判断。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L39"
+          ],
+          "from": "char_300_phenxi",
+          "reason": "菲亚梅塔具体转述博士的判断与重新启程。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本段没有博士收到菲亚梅塔信息的依据。",
+          "status": "not_established",
+          "to": "char_300_phenxi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 261,
+          "kind": "story",
+          "line": 199,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "灾后三个月",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_300_phenxi|npc_b99957887950ebfd"
+}

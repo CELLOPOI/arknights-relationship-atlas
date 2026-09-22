@@ -1,0 +1,259 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 550,
+          "line": 542,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-11_end.txt",
+          "quote": "[name=\"闪灵\"]……碎片大厦。\n[charslot(slot=\"m\",name=\"avg_1014_nearl2_1#1$1\",focus=\"m\")]\n[name=\"玛嘉烈\"]那风暴中央的是……通讯中说的“阿喃那”？\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\",focus=\"m\")]\n[name=\"闪灵\"]凯尔希医生和博士他们……能赶上吗？\n[charslot(slot=\"m\",name=\"avg_1014_nearl2_1#5$1\",focus=\"m\")]\n[name=\"玛嘉烈\"]闪灵，你……呃，没感觉有什么不对劲吧？\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#1$1\",focus=\"m\")]\n[name=\"闪灵\"]我很好。"
+        }
+      ],
+      "description": "闪灵具体问博士凯尔希能否赶上，临光同场回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E121"
+          ],
+          "from": "char_147_shining",
+          "reason": "闪灵具体问博士凯尔希能否赶上，临光同场回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 550,
+          "kind": "story",
+          "line": 542,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-11_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 215,
+          "line": 173,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st02.txt",
+          "quote": "[name=\"芙蓉\"]  唔……嗯……\n[Character(name=\"char_002_amiya_1#6\", name2=\"char_120_hibisc_1\", focus=1)]\n[name=\"阿米娅\"]  芙蓉小姐，这个人数……\n[Character(name=\"char_002_amiya_1#6\", name2=\"char_120_hibisc_1\", focus=2)]\n[name=\"芙蓉\"]  虽然一开始就有想过啦，不过真的来了这么多感染者……能不能处理好啊……\n[Character(name=\"char_002_amiya_1\", name2=\"char_120_hibisc_1\", focus=1)]\n[name=\"阿米娅\"]  博士从那位马克维茨先生那里得到了一些帮助，没问题的。\n[Character(name=\"char_002_amiya_1\", name2=\"char_120_hibisc_1\", focus=2)]\n[name=\"芙蓉\"]  对了阿米娅，我听说咱们打算在大骑士领新增一处办事处？\n[Character(name=\"char_002_amiya_1\", name2=\"char_120_hibisc_1\", focus=1)]\n[name=\"阿米娅\"]  啊……嗯。毕竟这么多感染者骑士，总不能一直待在罗德岛……也一定有许多罗德岛照顾不到的感染者，还需要一条出路。\n[name=\"阿米娅\"]  等到时机成熟，红松骑士团会帮助我们建立办事处的。\n[Character(name=\"char_002_amiya_1\", name2=\"char_120_hibisc_1\", focus=2)]\n[name=\"芙蓉\"]  真好啊，还能回到家乡。\n[name=\"芙蓉\"]  这也是那位“焰尾骑士”的主意？\n[Character(name=\"char_002_amiya_1#3\", name2=\"char_120_hibisc_1\", focus=1)]\n[name=\"阿米娅\"]  ……不完全是，博士也帮忙出谋划策了呢。\n[Character(name=\"char_002_amiya_1#3\", name2=\"char_120_hibisc_1\", focus=2)]\n[name=\"芙蓉\"]  欸，真想见见那位焰尾骑士，听说她做了好多了不起的事情。阿米娅，你说她怎么还不来？\n[Character(name=\"char_002_amiya_1#6\", name2=\"char_120_hibisc_1\", focus=1)]\n[name=\"阿米娅\"]  说、说的也是，已经过了约好的时间才对……\n[dialog]\n[character]\n[dialog]\n[character]\n[character(name=\"char_147_shining_1\",fadetime=1.5)]\n[playsound(key=\"$d_gen_walk_n\", volume=0.6)]\n[delay(time=2)]\n[name=\"闪灵\"]  阿米娅，芙蓉小姐，到了出发的时间了。\n[Character(name=\"char_147_shining_1\", name2=\"char_002_amiya_1#6\", focus=2)]\n[name=\"阿米娅\"]  啊，好的。\n[Character(name=\"char_147_shining_1\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"阿米娅\"]  闪灵小姐，你有看到那几位红松骑士团的骑士们吗……？\n[Character(name=\"char_147_shining_1\", name2=\"char_002_amiya_1\", focus=2)]\n[name=\"闪灵\"]  听已经抵达的感染者骑士们说，他们为了帮助几位被骑士贵族欺凌的感染者，没能按时赶上队伍……\n[Character(name=\"char_147_shining_1\", name2=\"char_120_hibisc_1\", focus=2)]\n[name=\"芙蓉\"]  那我们快去帮忙——\n[Character(name=\"char_147_shining_1\", name2=\"char_002_amiya_1\", focus=2)]\n[name=\"阿米娅\"]  ——在罗德岛真正离开国境之前，卡西米尔始终都在注视着我们。\n[Character(name=\"char_147_shining_1\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"闪灵\"]  哪怕现在，也有数十名征战骑士在目送“境外企业”离开大骑士领。\n[character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]  不过……"
+        }
+      ],
+      "description": "闪灵进入博士仍在场的连续桥上场景并通知队伍出发。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_147_shining",
+          "reason": "闪灵进入博士仍在场的连续桥上场景并通知队伍出发。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "闪灵进入博士仍在场的连续桥上场景并通知队伍出发。",
+          "status": "supported",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_2db98b901e9e88b6.json",
+      "sources": [
+        {
+          "endLine": 215,
+          "kind": "story",
+          "line": 173,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛离开卡西米尔前",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 745,
+          "line": 682,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "quote": "[Dialog]\n[charslot]\n[name=\"绝望的士兵\"]这个，拿着这个，交给，交给——呜！欸——\n[Dialog]\n[PlaySound(key=\"$d_avg_magic_1\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]\n[name=\"绝望的士兵\"]——疼痛……变轻了？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_179_cgbird_1#1$1\",duration=1.5)]\n[Delay(time=2.5)]\n[name=\"夜莺\"]不要因为痛苦而选择终结，士兵，试着忍耐。\n[charslot(slot=\"m\",name=\"avg_179_cgbird_1#7$1\",focus=\"m\")]\n[name=\"夜莺\"]痛苦终究会结束的。\n[Dialog]\n[charslot]\n[name=\"绝望的士兵\"]谢谢，萨卡兹……\n[charslot(slot=\"m\",name=\"avg_1014_nearl2_1#6$1\",focus=\"m\")]\n[name=\"玛嘉烈\"]听丽兹的话，没事的。急性感染最忌剧烈的情绪波动，深呼吸——\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#1$1\",focus=\"m\")]\n[name=\"闪灵\"]临光，博士的通讯。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[delay(time=1)]\n[Decision(options=\"闪灵，临光，夜莺。你们在阵线后方？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_1014_nearl2_1#1$1\",focus=\"m\")]\n[name=\"玛嘉烈\"]在后勤营地，刚刚带着一批伤兵撤下来。\n[Dialog]\n[charslot]\n[Decision(options=\"夜莺的状况如何？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\",focus=\"m\")]\n[name=\"闪灵\"]很虚弱，但她不同意放弃治疗其他伤员。我们会照顾好她。\n[Dialog]\n[charslot]\n[Decision(options=\"我需要你们尽可能带着整个后勤营地撤出所在区块。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#6$1\",focus=\"m\")]\n[name=\"闪灵\"]博士，你那边……\n[charslot(slot=\"m\",name=\"avg_1014_nearl2_1#1$1\",focus=\"m\")]\n[name=\"玛嘉烈\"]如果前线需要支援，请告诉我们。\n[Dialog]\n[charslot]\n[Decision(options=\"这次的食腐者挽幛，没法简单地用法术破除。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"我们会将腐败的浓雾疏导到周边区域。\", values=\"2\")]\n[Predicate(references=\"2\")]\n[Decision(options=\"希望你们能确保伤员和难民不受波及。\", values=\"3\")]\n[Predicate(references=\"3\")]\n[charslot(slot=\"m\",name=\"avg_1014_nearl2_1#1$1\",focus=\"m\")]\n[name=\"玛嘉烈\"]没有问题。\n[charslot(slot=\"m\",name=\"avg_179_cgbird_1#6$1\",focus=\"m\")]\n[name=\"夜莺\"]……救下更多的人，也能阻断腐朽的养料。\n[name=\"夜莺\"]这就是使徒一直都在做的事，不是吗？\n[charslot(slot=\"m\",name=\"avg_179_cgbird_1#7$1\",focus=\"m\")]\n[name=\"夜莺\"]临光，闪灵，看来我们暂时没法休息了。\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\",focus=\"m\")]\n[name=\"闪灵\"]丽兹……\n[Dialog]\n[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\",focus=\"none\")]\n丽兹的蓝色羽兽落在闪灵的肩头，蹭蹭她的脸颊，蹦蹦跳跳。"
+        }
+      ],
+      "description": "闪灵与博士在通讯频道直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_147_shining",
+          "reason": "双方直接对话或在明确频道互相回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方直接对话或在明确频道互相回应。",
+          "status": "supported",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 745,
+          "kind": "story",
+          "line": 682,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "前线后勤通讯期间",
+      "title": "我们明日见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 169,
+          "line": 25,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_10_beg.txt",
+          "quote": "[name=\"佐菲娅\"]  还有疼痛感吗？\n[Character(name=\"avg_npc_064_weapon_1\", name2=\"avg_1014_nearl2_1#6$1\", focus=2)]\n[name=\"玛嘉烈\"]  不，状态完美。\n[Character(name=\"avg_npc_064_weapon_1\", name2=\"avg_1014_nearl2_1#6$1\", focus=1)]\n[name=\"佐菲娅\"]  看来手臂已经完全恢复了，风骑士突然弃赛真是帮了大忙。\n[dialog]\n[Character]\n[character(name=\"avg_npc_061#2\",fadetime=1)]\n[delay(time=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"玛莉娅\"]  姐姐！剑枪的强化完成了！\n[name=\"玛莉娅\"]  试着采用了米诺斯的工艺技术，一面保证良好的源石技艺传导，一面试着用特殊聚合剂涂层来加强集中——\n[name=\"玛莉娅\"]  总之，这把武器会让姐姐的光芒更锋利的！\n[Character(name=\"avg_npc_061#2\", name2=\"avg_npc_101#3\", focus=2)]\n[name=\"老工匠\"]  哈，我可把库存的老底全用上啦。\n[name=\"老工匠\"]  放心吧，这绝对是有史以来最好的剑——枪，对，剑枪。\n[name=\"老工匠\"]  你夺冠时拿的那把剑是第二好的。你带走的战锤是第三好的。\n[Character(name=\"avg_1014_nearl2_1#6$1\")]\n[name=\"玛嘉烈\"]  ……谢谢。\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_101#2\", focus=2)]\n[name=\"老工匠\"]  哈，这有啥。\n[Character(name=\"avg_npc_107#3\", name2=\"avg_npc_101\", focus=1)]\n[name=\"光头马丁\"]  ……佐菲娅，这是我能找到的，血骑士的所有比赛记录了。\n[Character(name=\"avg_npc_064_weapon_1\", name2=\"avg_1014_nearl2_1#1$1\", focus=1)]\n[name=\"佐菲娅\"]  好，时间紧迫。\n[name=\"佐菲娅\"]  玛嘉烈，我们要做好万全的准备。玛嘉烈？\n[Character(name=\"avg_npc_064_weapon_1\", name2=\"avg_1014_nearl2_1#6$1\", focus=2)]\n[name=\"玛嘉烈\"]  ……\n[name=\"玛嘉烈\"]  ……谢谢，谢谢你们在我身边。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G07\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_209_1#2\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"罗伊\"]  ……这也许是我们的最后一次任务了，莫妮克阁下。\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1#2\", focus=2)]\n[name=\"莫妮克\"]  当然，我知道。\n[name=\"莫妮克\"]  我们当真要对耀骑士下手？\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1#2\", focus=1)]\n[name=\"罗伊\"]  董事会的判断不一致。最麻烦的部分，就让白金去做就好。\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1#3\", focus=2)]\n[name=\"莫妮克\"]  ……玄铁同意我们对耀骑士下手？为什么？在这之后，我们和耀骑士还会有瓜葛吗？\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1#3\", focus=1)]\n[name=\"罗伊\"]  我不知道。也许玄铁从耀骑士和她身上看到了什么威胁……既然董事会有这个意思，那么正好。\n[name=\"罗伊\"]  董事会已经开始提防我们了，在玄铁给我们信号之前，我们最好暂时不要轻举妄动。\n[name=\"罗伊\"]  总之，现在还是祈祷血骑士能打败耀骑士吧，这样的话，我们能省多少事情。\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1\", focus=2)]\n[name=\"莫妮克\"]  ……以你的眼光看，谁胜算比较大？\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"罗伊\"]  ……不好说呢……\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G03\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[character(name=\"avg_npc_121#2\",fadetime=1.5)]\n[delay(time=1.5)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"大嘴莫布\"]  我、我担任特锦赛决赛解说！？\n[Character(name=\"avg_npc_211_1\")]\n[name=\"发言人马克维茨\"]  这是数据的作用，莫布。你现在在骑士竞技解说之中，也名列前茅，恭喜。\n[name=\"发言人马克维茨\"]  再加上，从玛莉娅开始，临光姐妹一路走来你都参与其中，董事会认为这本身也是一个卖点，更想要委你重任。\n[name=\"发言人马克维茨\"]  你有看最近的《竞技新闻报》吗？你已经被称作“与光芒同行的声音”，现在名声大噪了。\n[character(name=\"avg_npc_121#2\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"大嘴莫布\"]  真、真、真的！！？\n[Character(name=\"avg_npc_211_1\")]\n[name=\"发言人马克维茨\"]  关于你的奖金……会在明天打到你的账户上。决赛结束之后，你还会有一笔收入。\n[character(name=\"avg_npc_121\")]\n[name=\"大嘴莫布\"]  那我是不是总算可以把父母接来大骑士领住啦？\n[Character(name=\"avg_npc_211_1\")]\n[name=\"发言人马克维茨\"]  当然，完全可以买下一栋大别墅了。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Background(image=\"bg_23_G09\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[character(name=\"char_002_amiya_1#6\",fadetime=1.5)]\n[delay(time=1.5)]\n[name=\"阿米娅\"]  ……决赛的……门票？\n[Character(name=\"avg_npc_210_1\")]\n[name=\"伊奥莱塔·罗素\"]  罗德岛为今年的卡西米尔特锦赛提供了许多帮助，关于应对矿石病的先进方案，卡西米尔从罗德岛身上学到了许多。\n[name=\"伊奥莱塔·罗素\"]  今年特锦赛的胜者，是由耀骑士和血骑士——是由两位感染者决出的。\n[name=\"伊奥莱塔·罗素\"]  既然如此，我认为罗德岛应该观看这一场前所未有的决战。\n[Character(name=\"avg_npc_210_1#6\")]\n[name=\"伊奥莱塔·罗素\"]  而且……那边那两位萨卡兹小姐，应该是玛嘉烈的熟识是吧？\n[Character(name=\"char_147_shining_1\", name2=\"char_179_cgbird_1\", focus=1)]\n[name=\"闪灵\"]  ……谢谢您的好意。\n[Character(name=\"char_147_shining_1\", name2=\"char_179_cgbird_1\", focus=2)]\n[name=\"夜莺\"]  临光……她会赢吧？\n[Character(name=\"avg_npc_210_1#6\")]\n[name=\"伊奥莱塔·罗素\"]  这就要你自己去现场观战啦，孩子。\n[character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  门票有四张呢……\n[Dialog]\n[Decision(options=\"阿米娅一定要去的吧。;罗德岛的领导人可不能缺席。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"char_002_amiya_1#10\")]\n[name=\"阿米娅\"]  那博士也要和我一起去！\n[Character(name=\"char_002_amiya_1#10\",name2=\"avg_237_gravel_1#3\",focus=2)]\n[name=\"砾\"]  当然，如果博士去的话，我也一定会护卫好博士的安全。\n[Character(name=\"char_002_amiya_1\",name2=\"avg_237_gravel_1#3\",focus=1)]\n[name=\"阿米娅\"]  那么剩下的两张……\n[Character(name=\"char_120_hibisc_1\")]\n[name=\"芙蓉\"]  虽然很想去看临光小姐的精彩表现，不过医疗组实在走不开——\n[name=\"芙蓉\"]  但是！阿米娅，博士，你们去吧！\n[name=\"芙蓉\"]  还有闪灵小姐，夜莺小姐，正好四个人啦！\n[Character(name=\"char_147_shining_1\", name2=\"char_179_cgbird_1\", focus=1)]\n[name=\"闪灵\"]  我怎么好抛下医疗组的各位……\n[Character(name=\"char_120_hibisc_1\")]\n[name=\"芙蓉\"]  比赛已经接近尾声，需要治疗的感染者也没有这么多啦！\n[name=\"芙蓉\"]  再说，博士不是很漂亮地解决了感染者问题吗？我想情况暂时都会比较稳定——\n[name=\"芙蓉\"]  ——可如果我是临光小姐，决赛的时候，没有曾经并肩作战的战友在身旁，是很打击人的！\n[Character(name=\"char_147_shining_1#2\", name2=\"char_179_cgbird_1\", focus=1)]\n[name=\"闪灵\"]  ……呵呵，你说的也对。\n[name=\"闪灵\"]  丽兹，想瞩目着临光获得最后的胜利吗？\n[Character(name=\"char_147_shining_1#2\", name2=\"char_179_cgbird_1\", focus=2)]\n[name=\"夜莺\"]  ……嗯。\n[Character(name=\"char_147_shining_1#2\", name2=\"char_179_cgbird_1\", focus=1)]\n[name=\"闪灵\"]  嗯。\n[name=\"闪灵\"]  博士，阿米娅，请允许我们同行。\n[stopmusic(fadetime=1)]\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Background(image=\"bg_23_G10\",screenadapt=\"coverall\")]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.4)]\n[Character(name=\"avg_npc_122#5\", name2=\"avg_npc_213_1#4\", focus=1)]\n[name=\"索娜\"]  ……血骑士和耀骑士的决战。\n[name=\"索娜\"]  无论谁赢……都会是感染者拿下冠军吗。\n[Character(name=\"avg_npc_122#5\", name2=\"avg_npc_213_1#4\", focus=2)]\n[name=\"托兰\"]  零号地块的事情被曝光，负责人下台，而你们，从监正会那里得到了庇护承诺，可以重新开始生活。\n[name=\"托兰\"]  真是大团圆的结局啊。\n[Character(name=\"avg_npc_122#2\", name2=\"avg_npc_213_1#4\", focus=1)]\n[name=\"索娜\"]  ……\n[Character(name=\"avg_npc_122#2\", name2=\"avg_npc_213_1#4\", focus=2)]\n[name=\"托兰\"]  ——其实并不是，对吧。\n[name=\"托兰\"]  看看今天的新闻，关于感染者的话题一刻都没停止过。无胄盟好对付，联合会好对付，民众对矿石病的恐惧要怎么对付？\n[name=\"托兰\"]  你们对抗商业联合会，对抗无胄盟，但无胄盟终究只是一群雇来的杀手，而商业联合会则是如今卡西米尔的根基。\n[name=\"托兰\"]  焰尾骑士，索娜。\n[name=\"托兰\"]  只是这样就够了吗？"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_147_shining",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 169,
+          "kind": "story",
+          "line": 25,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 799,
+          "line": 729,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-02.txt",
+          "quote": "[name=\"凯尔希\"]不要追赶，没有意义。\n[playMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]马上清点损失，准备转移，伤员们的情况还不稳定，但这里已经暴露了。\n[charslot(slot=\"m\",name=\"avg_147_shining_1#1$1\",focus=\"m\")]\n[name=\"闪灵\"]凯尔希医生。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]干员夜莺是罗德岛医疗部的一员，对于她的挟持和伤害不会被我们允许。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]但任何轻率的举动都可能让她陷入更大的危险，毕竟我们需要面对的对手……是一位觊觎了王冠数千年的，不灭的“魔王”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]奎萨图什塔。叩捶门扉者，篡王之王。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]我留意到了赦罪师的威胁，即使在巴别塔时期，数次举措皆徒劳无功。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]特雷西斯把他们掩饰得很好，让人们以为他们只是摄政王的近卫。\n[charslot(slot=\"m\",name=\"avg_147_shining_1#1$1\",focus=\"m\")]\n[name=\"闪灵\"]……请不用担心，我知道我们现在该做什么。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]你比我想象中冷静。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]你们有什么计划？\n[charslot(slot=\"m\",name=\"avg_147_shining_1#3$1\",focus=\"m\")]\n[name=\"闪灵\"]丽兹她……自己做出了选择。\n[charslot(slot=\"m\",name=\"avg_147_shining_1#1$1\",focus=\"m\")]\n[name=\"闪灵\"]即使是我也从来不敢想的一个选择，大胆，冒进，但却是最有效的手段。看来害怕失去、害怕死亡的始终是我……\n[charslot(slot=\"m\",name=\"avg_147_shining_1#5$1\",focus=\"m\")]\n[name=\"闪灵\"]我要做的，呵。\n[charslot(slot=\"m\",name=\"avg_147_shining_1#5$1\",focus=\"m\")]\n[name=\"闪灵\"]是追上她。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……我相信你们。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]阿斯卡纶，阿米娅呢？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]阿米娅和博士也同样遭遇了赦罪师的袭击，现在他们和Logos在一起。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]阿米娅被某种巫术影响了，那个叫萨卢斯的人试图直接夺取魔王的力量，她失败了，但阿米娅现在的状态……很奇怪。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]她陷入了昏迷。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……阿米娅与“魔王”的联系正在加强，我们只能相信她。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]还有些额外情报，我们在战场上发现了数座血魔的法阵，还伴随着一些来自历史的“幻象”。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]博士提到了，建造法阵的源石结晶，很“特殊”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]“特殊”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]至于您，变形者阁下，感谢您这次的援助，您想从我们这里索求什么？\n[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]\n[name=\"变形者集群\"]我们索求变化。索求砥砺。索求意义。\n[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]\n[name=\"变形者集群\"]为漫长无序的生命寻找意义。你们展示给我们，我们去证明。\n[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]\n[name=\"变形者集群\"]……\n[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]\n[name=\"变形者集群\"]……就这样。\n[dialog]\n[Charslot(duration=2)]\n[delay(time=3)]\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]通知可露希尔和费斯特，把这里彻底清理干净，我们三小时后出发。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]给W留个讯息，按原定计划，前往布伦特伍德。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]我们……确实要抓紧时间了。"
+        }
+      ],
+      "description": "闪灵获知博士遭袭。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_147_shining",
+          "reason": "闪灵在战后会议中听取博士遭袭的具体汇报。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在场。",
+          "status": "not_established",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 799,
+          "kind": "story",
+          "line": 729,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安全屋袭击后",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 331,
+          "line": 274,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-15_beg.txt",
+          "quote": "[name=\"可露希尔\"]怎么回事，博士，我听到了……我听到了什么声音……\n[Character(name=\"avg_npc_411_1#12$1\")]\n[name=\"可露希尔\"]*含糊不清的萨卡兹某部族语言*\n[name=\"可露希尔\"]地下充斥黑暗。\n[name=\"可露希尔\"]黑暗滋生邪恶。\n[name=\"可露希尔\"]邪恶带来痛苦。\n[name=\"可露希尔\"]*含糊不清的萨卡兹某部族语言*\n[Character(name=\"avg_npc_012\")]\n[name=\"罗德岛干员\"]可露希尔在说什么？我听不太懂……\n[Character(name=\"avg_npc_411_1#9$1\")]\n[name=\"可露希尔\"]我也……不懂……\n[Character(name=\"avg_npc_411_1#9$1\")]\n[name=\"可露希尔\"]好……好晕……我的脑袋……是不是坏了？\n[Character(name=\"avg_npc_012\")]\n[name=\"罗德岛干员\"]博士，是萨卡兹的巫术在攻击我们吗？\n[name=\"罗德岛干员\"]可是我没有感觉……呃，快看，敌人也……\n[dialog]\n[character]\n[delay(time=1)]\n[Character(name=\"avg_npc_419_1#1$1\",name2=\"avg_npc_419_1#1$1\")]\n[name=\"萨卡兹战士\"]……\n[name=\"萨卡兹战士\"]黑暗……痛苦……\n[name=\"萨卡兹战士\"]分享……\n[Dialog]\n[character]\n[Decision(options=\"我听过这段话。;我听过类似的语言。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"一种特殊的精神暗示。;一种并不常规的法术。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……博士，请立刻跟随自救军与其他干员撤离。\n[Dialog]\n[Character(name=\"char_147_shining_1\",focus=-1)]\n[Decision(options=\"可是阿米娅……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……\n[Dialog]\n[Character(name=\"char_147_shining_1\",focus=-1)]\n[Decision(options=\"闪灵……;连你也受到了影响？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]失控的力量正在侵蚀所有萨卡兹的心灵。\n[name=\"闪灵\"]就连赦罪师都无法抵御……即便我暂时可以忍受。\n[Dialog]\n[Character(name=\"char_147_shining_1\",focus=-1)]\n[Decision(options=\"失控的力量？;难道是……\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]只有萨卡兹的君主，能够将将士们渴望的愿景作为抚慰，也能调动叛徒们内心最深处的恐惧当作惩罚。\n[name=\"闪灵\"]只有“魔王”。\n[Dialog]\n[Character(name=\"char_147_shining_1\",focus=-1)]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]我知道你在想什么，博士。\n[name=\"闪灵\"]你在想……正在无差别攻击所有萨卡兹的，究竟是哪一位魔王。"
+        }
+      ],
+      "description": "闪灵与博士直接协同行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_147_shining",
+          "reason": "闪灵直接向博士解释并要求撤离。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士在场接受闪灵报告。",
+          "status": "supported",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 331,
+          "kind": "story",
+          "line": 274,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "城防塔撤退",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_147_shining|npc_b99957887950ebfd"
+}

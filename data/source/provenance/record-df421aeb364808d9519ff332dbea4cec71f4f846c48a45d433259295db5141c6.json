@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 217,
+          "line": 85,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_03_beg.txt",
+          "quote": "[name=\"余\"]嗯？是你呀。 \n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\")]\n[name=\"睚\"]你在这里，做什么？  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]你这话问的……我是这家店的掌柜，还能做什么？  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\")]\n[name=\"睚\"]……你们这些“人”，竟是一个比一个荒唐。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#15$1\")]\n[name=\"余\"]欸欸，你这人说话怎么这么难听？饭一口没吃，倒是先骂起厨子来了。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#16$1\")]\n[name=\"余\"]别看我脾气好，你再这样，我也是要赶客的。  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\")]\n[name=\"睚\"]……  \n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.8)]\n[delay(time=0.5)]\n神情冷漠的女子迈步走进店内，捡了余身边的桌子坐下。  \n[dialog]\n[PlaySound(key=\"$d_avg_chairrub\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\",posfrom=\"0,0\",posto=\"0,-50\",duration=1, isblock=true)]\n[name=\"睚\"]“余味居”……都是什么味道？  \n[charslot]\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]那当然是酸咸苦辣，样样都有咯。  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#3$1\",posfrom=\"0,-50\",posto=\"0,-50\",afrom=1,ato=1,isblock=true)]\n[name=\"睚\"]染上这一身烟火浊气……你很喜欢这些东西？  \n[charslot]\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#18$1\")]\n[name=\"余\"]当然啦，不喜欢做饭哪能当得了好厨子嘛。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#18$1\")]\n[name=\"余\"]别的道理我也不敢说，可是只论做饭的手艺，那我还是有点自信的。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]要不，送你两道小菜尝尝呢？  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]人活一世，各种滋味总得试试吧，只盯着一个味道放不下……那岂不是太可惜了？  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#6$1\",posfrom=\"0,-50\",posto=\"0,-50\",afrom=1,ato=1,isblock=true)]\n[name=\"睚\"]……  \n[charslot]\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#7$1\")]\n[name=\"余\"]唔……可是想来想去，这些话，我好像也不能拿来劝你。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#7$1\")]\n[name=\"余\"]人们都说，“劝人宽心，天打雷劈”。何况你们之间那些恩恩怨怨，还真不算小……对吧？  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#2$1\")]\n[name=\"余\"]我其实挺理解你的心情，真的！  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#3$1\")]\n[name=\"余\"]从你的角度讲，你当然有理由恨炎国，恨人类，恨祂……这样的恨，过了一千年也消不了，也算正常？  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#2$1\")]\n[name=\"余\"]可如果……你只是这样恨着，却什么都做不了，最后也只能被这一肚子恨给拖垮了……那也挺不划算？  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]这样看来，你和我那位哥哥，也是挺像的……  \n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_786_1#6$1\",posfrom=\"0,-50\",posto=\"0,-50\",afrom=1,ato=1,isblock=true)]\n[name=\"睚\"]……  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\",posfrom=\"0,-50\",posto=\"0,-50\",afrom=1,ato=1,isblock=true)]\n[name=\"睚\"]你竟然……一点都不怕我。  \n[charslot]\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]有什么好怕的？  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]高官也好，乞丐也罢，即便是天上的神仙，话本里的巨兽，到了店里，便只是一个食客。  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\",posfrom=\"0,-50\",posto=\"0,-50\",afrom=1,ato=1,isblock=true)]\n[name=\"睚\"]你倒是有些不同……  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$1\",posfrom=\"0,-50\",posto=\"0,-50\",afrom=1,ato=1,isblock=true)]\n[name=\"睚\"]即便是在你的……同族中，你也算得上是最特殊的一个。  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#5$1\",posfrom=\"0,-50\",posto=\"0,-50\",afrom=1,ato=1,isblock=true)]\n[name=\"睚\"]明明性命都危在旦夕，竟还能如此不当一回事。  \n[charslot]\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#12$1\")]\n[name=\"余\"]唉……这样“提心吊胆”地活着，都快习惯了吧——从一百年前开始就这样了。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]只可惜，你来的时机确实不巧——要是换个时候来，趁后厨备的菜新鲜，我还能好好请你吃一顿饭呢。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$1\")]\n[name=\"余\"]有些时候，只是吃上一口热乎的饭，心情就会不一样，说不定许多事也就跟着想通了呢？  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1621_1#1$1\",posfrom=\"-100,0\",posto=\"0,0\",duration=1, isblock=true)]\n[name=\"老姜\"]大厨！包子能出锅了，可我们早餐摊的牌子不知道上哪去了。该不会是煌姑娘上回——  \n[charslot(slot = \"m\", name = \"avg_npc_1621_1#9$1\")]\n[name=\"老姜\"]啊？这一大早还真能有客人？  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#6$1\",posfrom=\"0,-50\",posto=\"0,-50\",afrom=1,ato=1,isblock=true)]\n[name=\"睚\"]秉烛人？  \n[charslot(slot=\"m\",name=\"avg_npc_786_1#5$1\",posfrom=\"0,-50\",posto=\"0,-50\",afrom=1,ato=1,isblock=true)]\n[name=\"睚\"]一个人……未免也太自大了些。  \n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_786_1#5$1\",posfrom=\"0,-50\",posto=\"0,0\",afrom=1,ato=1,duration=1.5)]\n[delay(time=1.5)]\n[name=\"睚\"]羸弱，无知，幼小……这些蝼蚁和你，皆是如此。  \n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_drawsword\", volume=1)]\n话音未落，手中锋刃已然扬起。  \n[charslot(slot = \"m\", name = \"avg_npc_1621_1#7$1\")]\n[charslot(slot = \"r\", name = \"avg_2026_yu_1#16$1\",posfrom=\"100,0\",posto=\"-180,0\",duration=0.5, isblock=true)]\n[name=\"余\"]住手！  \n[name=\"老姜\"]大厨当心——\n[dialog]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.3, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$d_avg_slamwoodtable\")]\n[Dialog]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Image(image=\"70_i10\", screenadapt=\"coverall\", xScale=1.3, yScale=1.3, fadetime=0)]\n[ImageTween(xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1, duration=1, block=false)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Delay(time=2)]\n似是惊堂木落，又似冬雷顿地。\n这分明是一方饭桌，此时此刻，气氛却如公堂之上。\n满座肃杀。\n[name=\"气韵端庄的女子\"]饭桌之上，兵戈扰攘，成何体统？  \n[name=\"气韵端庄的女子\"]若还有吃饭的意思，便尽早动筷，莫辜负了这一桌心意。  \n[name=\"气韵端庄的女子\"]若没了吃饭的想法，便尽早下桌。  \n[name=\"睚\"]祂的分身……竟然在护着司岁台的人类。  \n[name=\"睚\"]何其讽刺。  \n[name=\"气韵端庄的女子\"]我们要如何处世，不用阁下指点。  \n[name=\"气韵端庄的女子\"]倒是阁下，心浮气短，应该吃点东西。\n[dialog]\n[Image(image=\"70_i10_1\", xScale=1.05, yScale=1.05, fadetime=2,block=false)]\n[ImageTween(yFrom=10, yTo=-10, duration=10, block=false)]\n[delay(time=1)]\n女子手臂微动，不露痕迹地将一碟热腾腾的包子推到了睚的面前。 \n[dialog]\n[PlaySound(key=\"$d_avg_pushplate\")]\n[delay(time=1)]\n[name=\"气韵端庄的女子\"]趁热吃。  \n[name=\"睚\"]……哼。  \n冷漠地打量着面前的包子，片刻之后，睚还是转过身走向门外。\n[name=\"气韵端庄的女子\"]这便要走了？\n[name=\"睚\"]那山海众口中的话不尽不实，但她答应交给我的东西，我无论如何，一定会拿到手。\n[name=\"睚\"]至于你们……我见过祂的许多化身，却没有一个能堂堂正正地回答我的问题，再留又有何益？\n[name=\"气韵端庄的女子\"]还是要敬告阁下，以眼还眼虽然合情，可也要时刻留心脚下，不要入人彀中。\n[name=\"睚\"]……可笑。"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "char_2026_yu",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_540cd5c18cb7a9cf"
+        },
+        {
+          "evidenceIds": [
+            "C06"
+          ],
+          "from": "npc_540cd5c18cb7a9cf",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "char_2026_yu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 217,
+          "kind": "story",
+          "line": 85,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_2026_yu|npc_540cd5c18cb7a9cf"
+}

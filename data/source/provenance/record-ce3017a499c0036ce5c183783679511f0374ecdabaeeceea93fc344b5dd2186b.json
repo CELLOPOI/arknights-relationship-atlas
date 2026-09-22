@@ -1,0 +1,59 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 247,
+          "line": 243,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "quote": "[Image(image=\"avg_ac15_9\",xScale=1, yScale=1, fadetime=0)]\n[delay(time=1)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=1, block=true)]\n[name=\"卡夫卡\"]她手的颜色也变了！\n[name=\"罗宾\"]好白，好漂亮……"
+        },
+        {
+          "endLine": 397,
+          "line": 389,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "quote": "[name=\"塞雷娅\"]不过在那之前，我有一个问题要问你，安东尼•西蒙。\n[Character(name=\"char_264_Mountain_1#5\")]\n[name=\"安东尼\"]请问。\n[Character(name=\"avg_npc_136#1\")]\n[name=\"塞雷娅\"]你有没有听说过，斐尔迪南这个名字？\n[Character(name=\"char_264_Mountain_1#5\")]\n[name=\"安东尼\"]斐尔迪南……我从父亲那里听说过这个名字。\n[Character(name=\"avg_npc_136#4\")]\n[name=\"塞雷娅\"]斐尔迪南，果然是你。"
+        }
+      ],
+      "description": "",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_89d26c84069133ae",
+          "reason": "本活动未找到该方向的具体人物知晓、信息接收或实际局部同场依据；不表示此人从来不认识对方。",
+          "status": "not_established_in_batch",
+          "to": "char_451_robin"
+        },
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_451_robin",
+          "reason": "罗宾在同一连续医务室场景听到斐尔迪南。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 247,
+          "kind": "story",
+          "line": 243,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 397,
+          "kind": "story",
+          "line": 389,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "越狱当天最终战后。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_451_robin|npc_89d26c84069133ae"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 67,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st01.txt",
+          "quote": "我是迪伦，罗德岛近地飞行器的驾驶员，我正在城市里东奔西跑。\n我应当坐在飞行器驾驶座上，手中握着操纵杆，我要在工作中面对的对象理应是地形和乱流。\n而我现在手中正抓着半把全自动突击弩，我就连它的设备型号都是早上才听说的，就算只剩一半，它也还是沉得吓人。\n我手心里全是汗，如果我得面对一个战场，那这个战场不应该在地面上，更不应该是在这样的哥伦比亚暗巷里。\n如果我有得选，我希望自己的敌人不是……呃。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 迪伦，我腾不开手，帮我看看，这上面写着什么？\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 警察，煌大姐头，是提卡伦多的“警察”。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 是他先动手的。\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 但是这个证件看起来……应该不是真的，这个做工也太差了。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 至少他的穿着打扮确实是那么回事，跟早晨楼顶上那几个差不多，比其他没准备制服的人像话多了。\n[name=\"煌\"] 这个问题我一定得问第二次，哪里的警察会在问话的同时把全自动突击弩给开上？\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 哥伦比亚？\t\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 别贫。你知道他不是警察，至少不是我们熟悉的那种警察。\n[dialog]\n[character]\n我抬头看了一眼巷子对面倒下的黑衣人，再低头看了一眼自己手里的半截武器。\n它在片刻之前还指着我的前胸，现在已经被硬生生砸成两截。\n这位“警察”已经失去了意识，如果煌出手的时候还记得博士的指示，那他应该还能保全性命。\n罗德岛代表团是昨天抵达提卡伦多市的。\n不论体会过多少次，这种速度都让我这个驾驶员感到讶异——\n罗德岛还在赶往大骑士领的路上，我们就已经从空中穿过了整个西部荒地，整个西部荒地诶。\n根据计划，等到博士和阿米娅把事情谈妥，我们再原路飞回罗德岛本舰，大骑士领可能在这时还没完成城区组装。\n我只知道罗德岛受邀在卡西米尔骑士特别锦标赛期间进行访问，但不知道具体的时间和目的，不过，按理说，肯定是越早回去准备越好。\n如果不是时间紧迫，我还想请假在这座大都市待上几天……现在我是不想了。\n[dialog]\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"] 我们……安全了吗？\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]不安全，直到离开提卡伦多之前都——甚至可能在离开哥伦比亚前都不安全。\n[name=\"煌\"]帮我看一眼这人还有没有气，如果还有，那就最好让他接下来还能继续喘气。\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"] 我……呜，好的。\n[Character(name=\"char_016_medic\",focus=-1)]\n[name=\"迪伦\"] 我是第一次见到这么厉害的自动弩，这种武器在哥伦比亚这么普及？\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 这种全自动武器也算是哥伦比亚的特色了。\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 不知道博士怎么样了……\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 袭击刚开始的时候博士和阿米娅就先行坐车离开了，也不知道可露希尔捣鼓的那套自动驾驶系统靠不靠谱……\n[Character(name=\"char_017_homura_3#1\",focus=-1)]\n[name=\"迪伦\"] 我们这是被算计惨了，连博士和阿米娅都没料到。\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 博士和阿米娅……他们也是人，偶尔也会有误判。\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"] 他们占领了酒店，就这样抢走了我们留下的药物样品……\n[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"] 算了，先不管那些。\n[name=\"煌\"] 我们得先想办法安全转移，得离开这个城市。"
+        }
+      ],
+      "description": "煌与迪伦在暗巷互相按名讨论证件、武器和撤离。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_017_huang",
+          "reason": "煌与迪伦在暗巷互相按名讨论证件、武器和撤离。",
+          "status": "supported",
+          "to": "npc_090185751b884944"
+        },
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_090185751b884944",
+          "reason": "煌与迪伦在暗巷互相按名讨论证件、武器和撤离。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 67,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    }
+  ],
+  "relationship_id": "char_017_huang|npc_090185751b884944"
+}

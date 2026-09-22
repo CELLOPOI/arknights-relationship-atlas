@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 66,
+          "line": 52,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_05_end.txt",
+          "quote": "[name=\"森蚺\"]而且，我其实一直想要帮Lancet-2大姐找到适合的相亲对象。\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]……如果我没记错的话，Lancet-2是当时跟罗德岛一起来的机器人吧？\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]嗯，她现在是我的姐姐。\n[name=\"森蚺\"]我的技术还没有办法做到造出Lancet-2大姐那样智能的机器人，所以就想在这群机器人中找一找。\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]结果怎么样？\n[Character(name=\"char_416_zumama_1#5\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]它们很善良，不过感觉都不是大姐会喜欢的类型。\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_npc_075\",focus=1)]\n[name=\"森蚺\"]大姐似乎比较中意博士那样比较知性的，这点比较伤脑筋。\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]……\n[name=\"依娜姆\"]算了，提亚卡乌里奇奇怪怪的家伙也不止你一个。"
+        }
+      ],
+      "description": "森蚺向依娜姆提到Lancet-2中意博士，两人知具体博士，博士不在场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "char_416_zumama",
+          "reason": "森蚺向依娜姆提到Lancet-2中意博士，两人知具体博士，博士不在场。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_416_zumama"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 66,
+          "kind": "story",
+          "line": 52,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 317,
+          "line": 188,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_09_end.txt",
+          "quote": "[name=\"Lancet-2\"]  顺便一提，作为面向医疗的作业平台，我的知识储备偏向医疗方面，这点还请注意哦。\n[Character(name=\"char_285_medic2_1\", name2=\"char_416_zumama_1#5\", focus=2)]\n[name=\"森蚺\"]  ^%&$*#(#……！！！！！\n[Character(name=\"char_285_medic2_1\", name2=\"char_416_zumama_1#5\", focus=1)]\n[name=\"Lancet-2\"]  有什么事吗？\n[Character(name=\"char_285_medic2_1\", name2=\"char_416_zumama_1#6\", focus=2)]\n[name=\"森蚺\"]  我可以抱抱你吗？\n[Character(name=\"char_285_medic2_1\", name2=\"char_416_zumama_1#6\", focus=1)]\n[name=\"Lancet-2\"]  诶？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_village_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  那家伙在干什么啊，脑子进水了吗？\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]  这不是很明显吗，她被那台机器震慑了。\n[Character(name=\"char_187_ccheal_1#2\")]\n[name=\"嘉维尔\"]  啊？\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]  就像她第一次见到移动城市时的震撼一样，一台能自己行动，还会自己说话的机器对她的冲击，比那还要大！\n[name=\"大祭司\"]  别说她了，我也兴奋得不行好吗！\n[name=\"大祭司\"]  噢，这位美丽的小姐，我可以有幸邀请你进行一次约会吗！\n[name=\"大祭司\"]  我知道这片雨林中景色最美的地方，让我们去那里度过一个美好的下午吧！\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]  咦，我、我被邀请了吗？！\n[name=\"Lancet-2\"]  怎么办，稍微有点开心……博士，我应该接受吗？\n[Decision(options=\"接受吧。;……;不准抢走我的Lancet-2！\",values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_416_zumama_1#2\")]\n[name=\"森蚺\"]  大祭司，你不要抢，不然别怪我不顾我们这么多年的情谊。\n[Predicate(references=\"2\")]\n[Character(name=\"char_017_homura_summer\")]\n[name=\"煌\"]  老实说，我现在和博士心情相同。\n[name=\"煌\"]  有点想笑。\n[Predicate(references=\"3\")]\n[Character(name=\"char_285_medic2_1\")]\n[name=\"Lancet-2\"]  诶，博士，你忽然这样说，我还没有做好心理准备……\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_416_zumama_1\")]\n[name=\"森蚺\"]  ……\n[name=\"森蚺\"]  嘉维尔，你们那里能造出这样的机器吗？\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1\", focus=1)]\n[name=\"嘉维尔\"]  啊？呃，我觉得可露希尔应该可以吧。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1\", focus=2)]\n[name=\"森蚺\"]  好。我决定了，嘉维尔。\n[name=\"森蚺\"]  你的那个叫罗德岛的地方还缺人吗，我也要加入你们。\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_416_zumama_1\", focus=1)]\n[name=\"嘉维尔\"]  啊？\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_416_zumama_1\", focus=2)]\n[name=\"森蚺\"]  我要去你们那里学习机械技术。\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_416_zumama_1\", focus=1)]\n[name=\"嘉维尔\"]  哈？\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_416_zumama_1\", focus=2)]\n[name=\"森蚺\"]  我虽然也想过去外面学习，但因为部族的关系一直没有认真考虑这件事，现在我觉得这是个好机会。\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_411_tomimi_1#2\", focus=2)]\n[name=\"特米米\"]  那、那我也要去！\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_411_tomimi_1#2\", focus=1)]\n[name=\"嘉维尔\"]  什么？！\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_411_tomimi_1#2\", focus=2)]\n[name=\"特米米\"]  既然这样的话，只能启用备用计划了……我只要跟着嘉维尔就可以了！\n[name=\"特米米\"]  嘉维尔，我也有战斗的能力，一定能帮上嘉维尔的忙的！\n[Character(name=\"char_187_ccheal_1#2\")]\n[name=\"嘉维尔\"]  呃，博士，这怎么办？\n[Decision(options=\"可以来，但结果不保证。;……;你惹的，我不管。\",values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[name=\"嘉维尔\"]  也是，干员测试反正都可以做。\n[Predicate(references=\"2\")]\n[name=\"嘉维尔\"]  诶，博士，你可别欺负她啊。\n[Predicate(references=\"3\")]\n[name=\"嘉维尔\"]  博——士——！\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_411_tomimi_1\", focus=1)]\n[name=\"嘉维尔\"]  算了，反正你也先跟着博士学点本事好了。\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_411_tomimi_1\", focus=2)]\n[name=\"特米米\"]  嗯！\n[Character(name=\"char_017_homura_summer\")]\n[name=\"煌\"]  喂，嘉维尔，来帮我翻译一下这家伙在说什么。\n[Character(name=\"char_415_flint_1#3\")]\n[name=\"燧石\"]  ……\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  啊？克玛尔？\n[Character(name=\"char_187_ccheal_1\",name2=\"char_415_flint_1#3\",focus=2)]\n[name=\"燧石\"]  我要跟随她。\n[Character(name=\"char_017_homura_summer\",name2=\"char_187_ccheal_1\",focus=2)]\n[name=\"嘉维尔\"]  她说她要跟你走。\n[Character(name=\"char_017_homura_summer\",name2=\"char_187_ccheal_1\",focus=1)]\n[name=\"煌\"]  哦，行啊。她还挺能打的，当干员应该没啥问题。\n[Character(name=\"char_187_ccheal_1\",name2=\"char_415_flint_1#3\",focus=1)]\n[name=\"嘉维尔\"]  她说行。\n[Character(name=\"char_187_ccheal_1\",name2=\"char_415_flint_1#5\",focus=2)]\n[name=\"燧石\"]  好。\n[Character(name=\"char_187_ccheal_1#2\")]\n[name=\"嘉维尔\"]  嗯？等等，那祖玛玛要走，特米米要走，克玛尔也要走，部族们怎么办？\n[Decision(options=\"你之前走的时候怎么不想想。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"嘉维尔\"]  啊哈哈，我那时候正在气头上嘛！\n[Character(name=\"char_187_ccheal_1\", name2=\"char_416_zumama_1#4\", focus=2)]\n[name=\"森蚺\"]  确实……我不能放下我的部族不管。\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]  噢，关于这个，我想你们不用很担心！\n[Character]\n[name=\"阿达克利斯人A\"]  虽然不如嘉维尔，不过大丑果然还是很强啊。\n[name=\"阿达克利斯人B\"]  没错没错，我也想造一个玩。\n[name=\"阿达克利斯人C\"]  反正神庙也毁了，干脆来比造机器好了，谁造的厉害谁当大酋长怎么样？\n[name=\"阿达克利斯人D\"]  喂，还是打架爽啊！\n[name=\"阿达克利斯人C\"]  诶，也对啊，打架也难以放弃，这可怎么办。\n[name=\"阿达克利斯人A\"]  哎呀，你们傻啊，一边打架一边比机器不就好了！\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"阿达克利斯人们\"]  这个好！\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]  你看，事实上，你们完全没必要担心。\n[name=\"大祭司\"]  根据我的观察，领导者在为未来焦头烂额的时候，其实普通人反而是适应得最快的。\n[name=\"大祭司\"]  要是我告诉你们，第一任大酋长其实是两百年前一个提亚卡乌勇士自封的，在那之前，根本没有选大酋长的习惯，你们会怎么想？\n[Character(name=\"avg_npc_074\",name2=\"char_416_zumama_1\",focus=2)]\n[name=\"森蚺\"]  ……大祭司，你怎么从来没有告诉过我这件事。\n[Character(name=\"avg_npc_074\",name2=\"char_416_zumama_1\",focus=1)]\n[name=\"大祭司\"]  噢，我认为这并不重要，不是吗？我只是想告诉你，人们很顽强，他们是不会因为一个传统忽然消失就活不下去的。\n[name=\"大祭司\"]  倒不如说我一直很奇怪，传统只是将人们聚集到一起的仪式。\n[name=\"大祭司\"]  但是当一个传统延续了几十年，你们就会莫名其妙认为它是不可侵犯的，不可打破的。\n[name=\"大祭司\"]  实际上完全不会有这样的事！\n[name=\"大祭司\"]  所以当你说出要轰掉神庙时我是举双手双脚还有尾巴赞成的！\n[name=\"大祭司\"]  噢，不对，举双手双脚我就不能举尾巴了……嗯？或许我可以趴着？让我来试试！\n[Character(name=\"avg_npc_074\",name2=\"char_416_zumama_1\",focus=2)]\n[name=\"森蚺\"]  ……我明白了。\n[Character(name=\"char_187_ccheal_1\")]\n[name=\"嘉维尔\"]  你到底有几岁啊。\n[Character(name=\"avg_npc_074\")]\n[name=\"大祭司\"]  年龄？忘了。"
+        }
+      ],
+      "description": "森蚺与博士在战后现场讨论加入罗德岛。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "char_416_zumama",
+          "reason": "森蚺与博士在战后现场讨论加入罗德岛。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "森蚺与博士在战后现场讨论加入罗德岛。",
+          "status": "supported",
+          "to": "char_416_zumama"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 317,
+          "kind": "story",
+          "line": 188,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "密林悍将归来"
+    }
+  ],
+  "relationship_id": "char_416_zumama|npc_b99957887950ebfd"
+}

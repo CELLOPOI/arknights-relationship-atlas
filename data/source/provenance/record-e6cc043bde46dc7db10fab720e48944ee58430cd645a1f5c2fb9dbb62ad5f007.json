@@ -1,0 +1,106 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 646,
+          "line": 620,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_02_beg.txt",
+          "quote": "[name=\"帕蒂亚\"]没办法，他们不是战士出身，接受训练的时间也不长，能做到这种程度已经很不错了。\n[character(name=\"avg_300_phenxi_1#2$1\")]\n[name=\"菲亚梅塔\"]帕蒂亚，不装了？\n[character(name=\"avg_300_phenxi_1#7$1\")]\n[name=\"菲亚梅塔\"]如果你不挡我的路，我本来不打算和你纠缠。\n[character(name=\"avg_npc_357_1#4$1\")]\n[name=\"帕蒂亚\"]……\n[character(name=\"avg_300_phenxi_1#7$1\")]\n[name=\"菲亚梅塔\"]看在过去的分上，奉劝你一句。\n[name=\"菲亚梅塔\"]无论你碰到了什么人，听了谁的话，打算做什么——现在收手，还来得及。\n[character(name=\"avg_npc_357_1#6$1\")]\n[name=\"帕蒂亚\"]听了谁的话？\n[name=\"帕蒂亚\"]菲亚梅塔，你又是在听谁的话？\n[character(name=\"avg_300_phenxi_1#2$1\")]\n[name=\"菲亚梅塔\"]不要与教皇厅为敌，帕蒂亚。\n[character(name=\"avg_npc_357_1#3$1\")]\n[name=\"帕蒂亚\"]如果说，我的目的就是与教皇厅为敌呢？\n[character(name=\"avg_300_phenxi_1#7$1\")]\n[name=\"菲亚梅塔\"]……帕蒂亚，我现在还可以当做没听过这句话。\n[character(name=\"avg_npc_357_1#2$1\")]\n[name=\"帕蒂亚\"]……菲亚梅塔，你还是和以前一样……\n[character(name=\"avg_npc_357_1#5$1\")]\n[name=\"帕蒂亚\"]只是为了一点点情谊……你就愿意百般维护。\n[character(name=\"avg_npc_357_1#3$1\")]\n[name=\"帕蒂亚\"]可惜，我和以前不一样了。\n[character(name=\"avg_npc_357_1#3$1\")]\n[name=\"帕蒂亚\"]你可以当做没听过，我却不能当做没说过。"
+        }
+      ],
+      "description": "二人在屋顶正面对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_300_phenxi",
+          "reason": "二人在屋顶正面对峙。",
+          "status": "supported",
+          "to": "npc_3c8f43525fff2778"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_3c8f43525fff2778",
+          "reason": "二人在屋顶正面对峙。",
+          "status": "supported",
+          "to": "char_300_phenxi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 646,
+          "kind": "story",
+          "line": 620,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 612,
+          "line": 505,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_10_beg.txt",
+          "quote": "[name=\"菲亚梅塔\"]真是的，连喘口气的时间都不给吗？\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_1792_1#1$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_1792_1#1$1\",focus=\"all\")]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_arrowshot\", volume=1)]\n[PlaySound(key=\"$d_avg_arrow\", volume=1, loop=false, channel=\"s1\",delay=0.1)]\n[Delay(time=0.3)]\n[PlaySound(key=\"$d_avg_arrowtarget\", volume=0.7, loop=false, channel=\"s3\")]\n[PlaySound(key=\"$d_avg_arrowtarget\", volume=0.6, loop=false, channel=\"s4\",delay=0.2)]\n[CameraShake(duration=1.5, xstrength=25,ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.1, block=true)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]\n[PlaySound(key=\"$bodyfalldown1\", volume=1)]\n[charslot(duration=0.7)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1\",duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1\",focus=\"m\")]\n[name=\"帕蒂亚\"]抓紧换弹，菲亚梅塔。\n[name=\"帕蒂亚\"]你补充弹药的空当，我会顶上你的位置。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#2$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]……\n[charslot(slot=\"m\",name=\"avg_npc_357_1#8$1\",focus=\"m\")]\n[name=\"帕蒂亚\"]那么惊讶干嘛？我们之前不是打过几架，要忘记你的战斗方式可不容易。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#9$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]谢了。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_crowdrun\",volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=1.5, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1805_1#1$1\",focus=\"m\")]\n[name=\"堕天使\"]喂喂，莫斯提马，能不能给我解释下，刚刚到底发生了什么？\n[name=\"堕天使\"]刚刚我踹飞一只怪物的时候，不小心踩上了那些异色的投影，结果……\n[CameraShake(duration=0.3, xstrength=25,ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"堕天使\"]*拉特兰粗口*，结果我的靴子它——凭空长出了光环？！\n[charslot(slot=\"m\",name=\"avg_213_mostma_1#3$1\",focus=\"m\")]\n[name=\"莫斯提马\"]那是育婴圣堂的投影，如果不想被转化成什么自己也不理解的东西，就别碰到它！\n[charslot(slot=\"m\",name=\"avg_npc_1795_1#1$1\",focus=\"m\")]\n[name=\"离群萨科塔\"]躲能躲到哪里去……\n[name=\"离群萨科塔\"]这投影蔓延得太快，还没等那些怪物的大部队走到，我们就要先被它赶出圣马尔索区了……\n[name=\"离群萨科塔\"]到时候根本没人能留下来防守！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=0.6)]\n[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"-250,0\", channel = 3)]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_300_phenxi_1#7$1\", duration = 0)]\n[delay(time=0.5)]\n[name=\"菲亚梅塔\"]我们在夕辉礼拜堂的那台大管风琴里塞了炸药，从莱塔尼亚来的朋友在上面留了自动引燃的术式。\n[name=\"菲亚梅塔\"]哪怕我们的人都撤了，应该也能炸那些怪物个措手不及。\n[interlude(channel = 3, switch = false)]\n[charslot(slot=\"r\",name=\"avg_213_mostma_1#1$1\",focus=\"r\")]\n[name=\"莫斯提马\"]全城哀悼仪式上用来奏哀歌的那台？\n[interlude(channel = 3, switch = true)]\n[charslot(slot=\"r\",name=\"avg_213_mostma_1#1$1\",focus=\"n\")]\n[name=\"菲亚梅塔\"]就是那台。\n[interlude(channel = 3, switch = false)]\n[charslot(slot=\"r\",name=\"avg_213_mostma_1#7$1\",focus=\"r\")]\n[name=\"莫斯提马\"]挺好。它听了几百年的祈祷和哀悼，是时候该听点热闹的了。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[interlude(channel = 3, clear = true)]\n[charslot]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=1, block=true)]\n[PlaySound(key=\"$pistol\", volume=0.9)]\n[PlaySound(key=\"$pistol\", volume=0.9, loop=false, channel=\"shot\",delay=0.4)]\n[CameraShake(duration=1.5, xstrength=30,ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_cartridgepopup\", volume=0.9)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#6$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]撤吧，帕蒂亚，我们刚抛在地上的弹壳都已经长出光环了。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1\",focus=\"m\")]\n[name=\"帕蒂亚\"]伊卡莱西亚区的启示石塔和米迦莱昂区的公证所都已经失守，圣马尔索区的夕辉礼拜堂就是到达大教堂前的最后一站了。\n[name=\"帕蒂亚\"]如果我们留下的炸药还阻止不了那支队伍，我们就真的无计可施了。\n[Dialog]\n[charslot]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_213_mostma_1#10$1\",duration=0.5)]\n[Delay(time=0.7)]\n[charslot(slot=\"m\",name=\"avg_213_mostma_1#10$1\",focus=\"m\")]\n[name=\"莫斯提马\"]哈，如果费德里科和安多恩的说法靠谱，那支队伍的终点真的就是大教堂……倒还不至于说已经山穷水尽哦。\n[name=\"莫斯提马\"]我做了那么长时间的万国信使，在赶路方面还算有经验。\n[multiline(name=\"莫斯提马\")]如果阻止不了赶路的人，那么……\n[charslot(slot=\"m\",name=\"avg_213_mostma_1#7$1\",focus=\"m\")]\n[multiline(name=\"莫斯提马\")]直接把终点变没了不就好了？\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#2$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]喂喂，莫斯提马，炸一台管风琴和把大教堂整个炸掉还是有区别的！\n[charslot(slot=\"m\",name=\"avg_213_mostma_1#7$1\",focus=\"m\")]\n[name=\"莫斯提马\"]连靴子都和萨科塔一样长光环了，我觉得管风琴和大教堂的差别也没那么大。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#7$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]……\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#1$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]好吧，你说得没错。既然拦不住也杀不死那只巨大的怪物，我们起码可以想办法把路变没，让她永远无法到达终点。\n[charslot(slot=\"m\",name=\"avg_213_mostma_1#11$1\",focus=\"m\")]\n[name=\"莫斯提马\"]你和我说的真的是一回事？\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#7$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]走，撤去大教堂前的广场！"
+        },
+        {
+          "endLine": 466,
+          "line": 372,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_10_end.txt",
+          "quote": "[name=\"菲亚梅塔\"]忘记了。\n[charslot(slot=\"m\",name=\"avg_213_mostma_1#10$1\",focus=\"m\")]\n[name=\"莫斯提马\"]你那边怎么样？\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#9$1\",focus=\"m\")]\n[multiline(name=\"菲亚梅塔\")]好消息，炸弹已经就位。\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#4$1\",focus=\"m\")]\n[multiline(name=\"菲亚梅塔\")]坏消息，我怕它们的威力不足以摧毁全部的锁定装置，把剩下的榴弹也都安上去了……\n[name=\"菲亚梅塔\"]所以，我现在已经没有任何弹药去对付这些怪物了。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_snarl_1\", volume=0.6)]\n[charslot(slot=\"l\",name=\"avg_npc_1792_1#1$1\",duration=0.7)]\n[charslot(slot=\"r\",name=\"avg_npc_1792_1#1$1\",duration=0.7)]\n[Delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_npc_1792_1#1$1\",focus=\"l\")]\n[name=\"蒙恩的生物A\"]（光环急速闪烁）\n[charslot(slot=\"r\",name=\"avg_npc_1792_1#1$1\",focus=\"r\")]\n[name=\"蒙恩的生物B\"]（连续不断的祷告声）\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_213_mostma_1#8$1\",focus=\"m\")]\n[name=\"莫斯提马\"]喂，菲亚梅塔，启动吧。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1\",focus=\"m\")]\n[name=\"帕蒂亚\"]等等，蕾缪安那边还没有消息，如果锁定装置没能及时解除防护，我们所有的炸药就都浪费了……\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_heartratemonitor\", volume=0.8, loop=true, channel=\"h\")]\n[StopSound(channel=\"h\", fadetime=6)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_300_phenxi_1#7$1\",focus=\"m\")]\n[name=\"菲亚梅塔\"]爆破倒计时，一分钟！\n[charslot(slot=\"m\",name=\"avg_npc_357_1#10$1\",focus=\"m\")]\n[name=\"帕蒂亚\"]你？\n[Dialog]\n[charslot]\n计时器的声音从菲亚梅塔的手中传出，蒙恩的生物纷纷停下了祷告，他们像是预感到了会发生什么，发疯了似的向她扑了过来。\n[Dialog]\n[PlaySound(key=\"$d_avg_monsterroar\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1792_1#1$1\",duration=0.5)]\n[Delay(time=0.7)]\n[playsound(key=\"$d_avg_wolflordclaw\",volume=0.7)]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_arrowshot\")]\n[PlaySound(key=\"$d_avg_arrowtarget\", volume=0.6,delay=0.3)]\n[PlaySound(key=\"$bodyfalldown2\", volume=1,delay=0.8)]\n[Delay(time=0.5)]\n[charslot(duration=0.7)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_sandnmlfts\", volume=1)]\n[charslot(slot=\"l\",name=\"avg_npc_1792_1#1$1\",duration=1)]\n[charslot(slot=\"r\",name=\"avg_npc_1792_1#1$1\",duration=1)]\n[Delay(time=1.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"char_332_archet#6\",focus=\"m\")]\n[name=\"席德佳\"]……\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n席德佳摸向箭壶，里面已经空了。\n[Dialog]\n[PlaySound(key=\"$d_avg_heartratemonitor\", volume=0.8, loop=true, channel=\"fs\")]\n[StopSound(channel=\"fs\", fadetime=4.5)]\n[Delay(time=1.5)]\n[stopmusic(fadetime=1.5)]\n[name=\"菲亚梅塔\"]倒计时，五十秒！\n[name=\"？？？\"]抱歉，各位，希望我没有来迟！\n[Dialog]\n[playsound(key=\"$d_avg_electrcwhlchrrll\",volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[image(image=\"61_i19\",screenadapt=\"coverall\",fadetime=0)]\n[Delay(time=1)]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$drift\", volume=0.5)]\n[PlayMusic(intro=\"$m_bat_act26side_intro\", key=\"$m_bat_act26side_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2.5, block=true)]\n[Delay(time=1)]\n车轮急刹，在地面激荡起烟尘。车手拧转轮椅，右手在同一时间举起了铳，她的长发在空中肆意飞舞。\n[name=\"莫斯提马\"]时间刚刚好！\n[name=\"蕾缪安\"]菲亚梅塔，莫斯提马，我们的配合还是那么默契！\n[name=\"蕾缪安\"]哈哈，你俩肯定猜不到，从第七厅一路突围到这里，我把自己轮椅竞速射击赛的纪录突破了多少！\n[Dialog]\n[PlaySound(key=\"$d_avg_heartratemonitor\", volume=0.8, loop=true, channel=\"fs1\")]\n[StopSound(channel=\"fs1\", fadetime=3)]\n[Delay(time=1.5)]\n[name=\"菲亚梅塔\"]倒计时，四十秒！"
+        }
+      ],
+      "description": "菲亚梅塔与帕蒂亚协同战斗。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L33",
+            "L36"
+          ],
+          "from": "char_300_phenxi",
+          "reason": "双方直接协作、交谈或实际处于同一局部战斗场景。",
+          "status": "supported",
+          "to": "npc_3c8f43525fff2778"
+        },
+        {
+          "evidenceIds": [
+            "L33",
+            "L36"
+          ],
+          "from": "npc_3c8f43525fff2778",
+          "reason": "双方直接协作、交谈或实际处于同一局部战斗场景。",
+          "status": "supported",
+          "to": "char_300_phenxi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 612,
+          "kind": "story",
+          "line": 505,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 466,
+          "kind": "story",
+          "line": 372,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "灾异期间",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_300_phenxi|npc_3c8f43525fff2778"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 729,
+          "line": 724,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st04.txt",
+          "quote": "[name=\"阿米娅\"]我想回来寻找的……是从这里开始的，那趟旅行的足迹。\n[name=\"阿米娅\"]还有，罗德岛从这里被挖掘出来，拖过整个雷姆必拓的土地，直到在大地另外某处起航的痕迹。\n[name=\"阿米娅\"]我只是在想……\n[charslot(slot = \"m\", name = \"char_002_amiya_1#3\")]\n[name=\"阿米娅\"]如果没有遇到罗德岛，没有遇到凯尔希医生和特蕾西娅小姐……如果没有遇到博士的话——\n[name=\"阿米娅\"]那该多遗憾啊。"
+        }
+      ],
+      "description": "仅确认暴行听闻特蕾西娅。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_230_savage",
+          "reason": "暴行在同一桌边谈话中听到阿米娅具体点名特蕾西娅。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅不在场，原文未证明她知晓暴行。",
+          "status": "not_established",
+          "to": "char_230_savage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_48ccc8ee52875626.json",
+      "sources": [
+        {
+          "endLine": 729,
+          "kind": "story",
+          "line": 724,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16mini/level_act16mini_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "《去咧嘴谷》露营谈话当时",
+      "title": "去咧嘴谷"
+    }
+  ],
+  "relationship_id": "char_230_savage|npc_c0e49cc5a9477cf1"
+}

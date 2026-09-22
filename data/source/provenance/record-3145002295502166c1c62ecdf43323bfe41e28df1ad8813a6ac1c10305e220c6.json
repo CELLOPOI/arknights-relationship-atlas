@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 738,
+          "line": 718,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st03.txt",
+          "quote": "[name=\"锡人\"]……这里！勋爵！\n[name=\"锡人\"]洞穴坍塌了，我就知道下面出了岔子！\n[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]先离开这里。这是克丽斯腾留下的施工通道？\n[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]是的，我估计是通向能量井的。天知道军方为什么始终没有发现这条密道……\n[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]如果不是“保存者”关闭了系统，你是不可能发现这条通道的。\n[charslot]\n[dialog]\n[Decision(options=\"霍尔海雅呢？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]她被我困在外面，梅兰德会和她好好谈一次的。\n[name=\"锡人\"]勋爵，我需要知道……\n[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]那里除了一位迈向死亡的老人，没有别的东西。\n[name=\"凯尔希\"]至于那些死亡的意义，我只能说与卡兹戴尔绝无关系。\n[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]\n[name=\"锡人\"]……出于某些授意，我就不刨根问底了。\n[name=\"锡人\"]走这边。"
+        }
+      ],
+      "description": "锡人经凯尔希说明知晓保存者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C30"
+          ],
+          "from": "char_4151_tinman",
+          "reason": "锡人从凯尔希处得知地下保存者及其死亡。",
+          "status": "supported",
+          "to": "npc_d9231cc74dc4c620"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_d9231cc74dc4c620",
+          "reason": "保存者未与锡人直接交流且随后已清除数据。",
+          "status": "not_established",
+          "to": "char_4151_tinman"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 738,
+          "kind": "story",
+          "line": 718,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "逃离地下设施时",
+      "title": "孤星"
+    }
+  ],
+  "relationship_id": "char_4151_tinman|npc_d9231cc74dc4c620"
+}

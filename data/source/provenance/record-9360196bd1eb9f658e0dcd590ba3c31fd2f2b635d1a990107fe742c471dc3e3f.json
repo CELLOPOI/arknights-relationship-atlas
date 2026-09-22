@@ -1,0 +1,175 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 55,
+          "line": 18,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_st03.txt",
+          "quote": "[name=\"痨病的老人\"]你就非要约我来爬这天岳。\n[name=\"痨病的老人\"]这个阳处的位置我先占了，你坐那边去。我身子没你好，你别跟我抢。\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"right\", name = \"avg_npc_301_1#5$1\",duration = 1)]\n[delay(time=2)]\n[charslot(slot = \"right\", name = \"avg_npc_301_1#5$1\",focus=\"r\")]\n[name=\"太傅\"]出来散散步，晒晒太阳，尝尝这天岳的泉水，对你的身体有好处。\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#3$1\",focus=\"l\")]\n[name=\"太尉\"]真好笑，我们几十年没在那堵宫墙外打过照面，这次是你主动约的。\n[name=\"太尉\"]……到底还是你先坐不住了。\n[charslot(slot = \"right\", name = \"avg_npc_301_1#2$1\",focus=\"r\")]\n[name=\"太傅\"]很难坐得住。\n[name=\"太傅\"]玉门，大荒城。这一连串的事，总要一个说法。\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#9$1\",focus=\"l\")]\n[name=\"太尉\"]对，都是我干的。\n[name=\"太尉\"]玉门山海众是我教唆的，睚也是我引入关的。\n[charslot(slot = \"right\", name = \"avg_npc_301_1#1$1\",focus=\"r\")]\n[name=\"太傅\"]……\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#9$1\",focus=\"l\")]\n[name=\"太尉\"]这些够把我拉下台吗？要是嫌不够，望是我放出京城的，那个孩子是我送去维多利亚的，邪魔的口子也是我撕开的。\n[name=\"太尉\"]只要有需要，让三公的位置再空一个出来，这些事都可以是我干的。\n[charslot(slot = \"right\", name = \"avg_npc_301_1#1$1\",focus=\"r\")]\n[name=\"太傅\"]……\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#4$1\",focus=\"l\")]\n[name=\"太尉\"]山海众，乌合之众，能成什么气候？\n[name=\"太尉\"]睚，不过是条痨病兽，派上几十上百个天师，总能打发了，不过用来当作唤醒岁的口粮倒是正好。\n[name=\"太尉\"]老魔小丑，不足挂齿。\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#1$1\",focus=\"l\")]\n[name=\"太尉\"]咳……咳……呼……说到底，我也不过是个老痨病鬼，我这条命，也就只剩这点用得到的地方。\n[charslot(slot = \"right\", name = \"avg_npc_301_1#1$1\",focus=\"r\")]\n[name=\"太傅\"]你就不怕事情超出掌控，你从来不会怕。\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#2$1\",focus=\"l\")]\n[name=\"太尉\"]我怕的东西可太多了……我怕“人心叵测”，我怕“大势所趋”。\n[name=\"太尉\"]见风使舵，一人拉一边，是求个平衡。\n[charslot(slot = \"left\", name = \"avg_npc_1239_1#3$1\",focus=\"l\")]\n[name=\"太尉\"]可事到如今，那个罪人已经掀了棋盘，我们还有半分求和的可能吗？\n[name=\"太尉\"]玉门城已经修复完毕，在赶来京城的路上了。太傅大人，早做打算吧。"
+        }
+      ],
+      "description": "两人在山上直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "两人在山上直接交谈。",
+          "status": "supported",
+          "to": "npc_b381881ac9e25c69"
+        },
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "npc_b381881ac9e25c69",
+          "reason": "两人在山上直接交谈。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 55,
+          "kind": "story",
+          "line": 18,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 219,
+          "line": 213,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st03.txt",
+          "quote": "[name=\"魏彦吾\"]这次玉门的动乱，太尉很快就会得知。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#2$1\")]\n[name=\"太傅\"]只怕不是“很快”。\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]……这正是我要来玉门的原因。\n[name=\"魏彦吾\"]对岁兽的态度，是战是和，怎样才是最优解，到现在也难有定论。所有人身在局中，很难看清全盘。\n[name=\"魏彦吾\"]只怕有些局中人的心思，已经不在寻找那个正确答案上。"
+        }
+      ],
+      "description": "魏彦吾提太尉将得知玉门动乱，太傅回应，单向知晓具体人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E72"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "魏彦吾提太尉将得知玉门动乱，太傅回应，单向知晓具体人。",
+          "status": "supported",
+          "to": "npc_b381881ac9e25c69"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b381881ac9e25c69",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_92c92c1606519db1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 219,
+          "kind": "story",
+          "line": 213,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 349,
+          "line": 300,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_06_end.txt",
+          "quote": "[name=\"太傅\"]陛下，这是礼部拟好的百珍宴与会官员的名单。\n[name=\"太傅\"]时值佳节，维多利亚、莱塔尼亚、拉特兰等国也遣使节送来贺帖。\n[name=\"太傅\"]请陛下过目。\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#8$1\")]\n[name=\"太尉\"]咳咳……咳咳咳……\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#1$1\")]\n[name=\"太尉\"]陛下……兵部协同司岁台已经拟定了完整的作战计划。\n[name=\"太尉\"]还请陛下……咳咳……过目。\n[charslot(slot = \"m\", name = \"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]作战耗费的人力财力、战后恢复诸事，都没有与户部商议过，这作战计划是如何拟定的？\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#1$1\")]\n[name=\"太尉\"]知道太傅大人和户部繁忙，兵部就多操了一点心，打这一仗要用的人力钱粮，乃至工部战后修复的花销，这笔账我们都算清楚了。\n[name=\"太尉\"]正好，当着陛下的面，太傅大人一块儿看了吧。\n[charslot(slot = \"m\", name = \"avg_npc_301_1#3$1\")]\n[name=\"太傅\"]钱粮物资能算，战事一起，大炎子民要流多少血，这也是一笔能算清的账？\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#4$1\")]\n[name=\"太尉\"]那太傅的意思是，算不清，就不用算了？\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_chairrub\", volume=0.3)]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_wtchkgopenftstp\", volume=1, loop=true, channel=\"wt\")]\n[delay(time=2)]\n[StopSound(channel=\"wt\", fadetime=2)]\n[charslot(slot = \"m\", name = \"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#1$1\")]\n[name=\"太尉\"]……\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"帷幕后的声音\"]秋天了……今年北方的收成怎么样？\n[charslot(slot = \"m\", name = \"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]那场灾害过后，大荒城已经尽快恢复了生产。今年的收成，和以往数年相差不多。\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"帷幕后的声音\"]那……明年呢？\n[charslot(slot = \"m\", name = \"avg_npc_301_1#2$1\")]\n[name=\"太傅\"]陛下……\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"帷幕后的声音\"]生年不满百，常怀千岁忧……可时间不多了。\n[charslot(slot = \"m\", name = \"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]事系大炎万民生计，请陛下三思。\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#1$1\")]\n[name=\"太尉\"]太傅大人，该议的事，内阁六部，早都不知道议了多少遍，总该到了拿主意的时候。\n[name=\"太尉\"]陛下圣意已决，百珍宴上，等陛下宣布即可。\n[charslot(slot = \"m\", name = \"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]……\n[dialog]\n[charslot(duration=0.5, isblock=true)]\n[name=\"帷幕后的声音\"]天色晚了，眼看要下雨的。\n[name=\"帷幕后的声音\"]……二位请回吧。\n[name=\"太傅&太尉\"]臣告退。"
+        }
+      ],
+      "description": "二人在宫中直接争论作战计划。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J08"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "二人在宫中直接争论作战计划。",
+          "status": "supported",
+          "to": "npc_b381881ac9e25c69"
+        },
+        {
+          "evidenceIds": [
+            "J08"
+          ],
+          "from": "npc_b381881ac9e25c69",
+          "reason": "二人在宫中直接争论作战计划。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 349,
+          "kind": "story",
+          "line": 300,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 200,
+          "line": 143,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_09_beg.txt",
+          "quote": "[name=\"太尉\"]拜见陛下。  \n[dialog]\n[charslot]\n[name=\"真龙\"]太尉的病看来已经全好……可喜。  \n[name=\"真龙\"]事到如今，你找我还有什么事？  \n[dialog]\n[charslot(slot = \"m\",posfrom=\"0,-30\",posto=\"0,0\",duration=1, name = \"avg_npc_1239_1#1$1\",isblock=true)]\n[name=\"太尉\"]陛下难道忘了，前日里，是陛下吩咐老臣，前来上早朝。  \n[dialog]\n[charslot]\n[name=\"真龙\"]太尉大人怕是睡糊涂了……早朝早已散了，太尉大人来迟了。  \n[charslot(slot = \"m\", name = \"avg_npc_1239_1#4$1\")]\n[name=\"太尉\"]不迟，不迟……到明日才是下一个望日。\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#4$1\")]  \n[name=\"太尉\"]老臣愿陪着陛下，等陛下下达圣意。  \n[dialog]\n[charslot]\n[name=\"真龙\"]……我还是不知，太尉究竟为何如此心急。\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#7$1\")]  \n[name=\"太尉\"]老臣不知，陛下究竟还在等什么。  \n[charslot(slot = \"m\", name = \"avg_npc_1239_1#4$1\")]\n[name=\"太尉\"]老臣也不知……今日陛下原本打算去做什么。  \n[dialog]\n[charslot]\n[name=\"真龙\"]……与太尉无关。  \n[charslot(slot = \"m\", name = \"avg_npc_1239_1#1$1\")]\n[name=\"太尉\"]陛下不说，老臣只能妄自揣度圣意了。  \n[charslot(slot = \"m\", name = \"avg_npc_1239_1#1$1\")]\n[name=\"太尉\"]陛下要以万金之躯启动“不反”，解决当下岁陵里的那场危机？  \n[dialog]\n[charslot]\n[name=\"真龙\"]……  \n[charslot(slot = \"m\", name = \"avg_npc_1239_1#4$1\")]\n[name=\"太尉\"]不知陛下是听了何人谗言……出此下策。  \n[dialog]\n[charslot]\n[name=\"真龙\"]无人进谏，我就不能自己拿主意？  \n[charslot(slot = \"m\", name = \"avg_npc_1239_1#3$1\")]\n[name=\"太尉\"]四十年前……陛下登基那年，是我与太傅带陛下去视察“不反”。\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#3$1\")]  \n[name=\"太尉\"]我仍记得，从那间幽室出来后，陛下三日不朝，老臣至今也不知道，彼时的陛下，心中所想为何？ \n[dialog]\n[charslot]\n[name=\"真龙\"]我也记得那时……现在想来，也不怕太尉笑话，大可说与太尉听。  \n[name=\"真龙\"]我当时不过在想……有这等神物，在炎国传了千年，也不曾有一位真龙开启过“不反”。  \n[name=\"真龙\"]如果在我手中，大炎沦至需要使用“不反”的地步……那我便是大炎第一号无能之君。\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#4$1\")]  \n[name=\"太尉\"]斗胆问陛下……若陛下以身殉国，后事应当如何？  \n[dialog]\n[charslot]\n[name=\"真龙\"]何必担忧……可以接替我的那位，不是已经到百灶了？\n[charslot(slot = \"m\", name = \"avg_npc_1239_1#4$1\")]  \n[name=\"太尉\"]如果炎武以废储君之身再登大宝，百官不服，炎国大乱，又当如何？  \n[dialog]\n[charslot]\n[name=\"真龙\"]……那便是卿等之过了。 \n[charslot(slot = \"m\", name = \"avg_npc_1239_1#4$1\")] \n[name=\"太尉\"]臣唯有恳请陛下，打消这等念头。"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C14"
+          ],
+          "from": "npc_b381881ac9e25c69",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "C14"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_b381881ac9e25c69"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 200,
+          "kind": "story",
+          "line": 143,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "npc_92c92c1606519db1|npc_b381881ac9e25c69"
+}

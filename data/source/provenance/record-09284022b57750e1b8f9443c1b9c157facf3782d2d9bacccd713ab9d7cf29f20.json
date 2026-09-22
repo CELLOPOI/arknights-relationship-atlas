@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 323,
+          "line": 297,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st12.txt",
+          "quote": "[name=\"极境\"]可以从这里看见小镇的角落。我记得，这座山丘叫做……重建丘。\n[Character(name=\"avg_npc_450_1#3$1\")]\n[name=\"极境\"]蒂亚戈并不是平静地死去的，我并不知道那是好是坏……但……\n[Character(name=\"avg_npc_450_1#11$1\")]\n[name=\"极境\"]感谢各位。\n[Character(name=\"npc_2001_Aya_1\")]\n[name=\"Aya\"]别在意。\n[Character(name=\"npc_2001_Aya_1\")]\n[name=\"Aya\"]在一场肃穆的葬礼上，为英雄献上一曲，也不是什么坏事。\n[Character(name=\"npc_2004_Alty\")]\n[name=\"Alty\"]Frost似乎回来了。\n[Character(name=\"npc_2001_Aya_1\")]\n[name=\"Aya\"]嗯。我们一会就回去。\n[Character(name=\"npc_2001_Aya_1\")]\n[name=\"Aya\"]你呢？这些日子，你受了不少苦吧，伊比利亚人？\n[Character(name=\"avg_npc_450_1#11$1\")]\n[name=\"极境\"]……\n[Character(name=\"avg_npc_450_1#3$1\")]\n[name=\"极境\"]格兰法洛是蒂亚戈的家乡。阿戈尔是各位，以及我那些深海猎人朋友们的家乡。\n[Character(name=\"avg_npc_450_1#3$1\")]\n[name=\"极境\"]也许平时玩笑开太多，大家都忘啦……\n[Character(name=\"avg_npc_450_1#3$1\")]\n[name=\"极境\"]伊比利亚也是我的家乡。说真的，我现在心里并不是滋味。\n[Character(name=\"npc_2001_Aya_1\")]\n[name=\"Aya\"]那个医生没打算帮你做点什么吗？你不是替她工作的吗？\n[Character(name=\"avg_npc_450_1#11$1\")]\n[name=\"极境\"]不，我们已经做了。这也是我愿意留在罗德岛的原因嘛。"
+        }
+      ],
+      "description": "Aya具体知晓蒂亚戈，仅支持Aya到蒂亚戈。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_664144b63a19eb32",
+          "reason": "蒂亚戈未在葬礼后谈话中出现，未建立其知晓Aya。",
+          "status": "not_established",
+          "to": "npc_d1d3f49d93a1953d"
+        },
+        {
+          "evidenceIds": [
+            "S31"
+          ],
+          "from": "npc_d1d3f49d93a1953d",
+          "reason": "Aya为蒂亚戈的葬礼演奏并与极境直接讨论其家乡和死亡。",
+          "status": "supported",
+          "to": "npc_664144b63a19eb32"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 323,
+          "kind": "story",
+          "line": 297,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st12.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "蒂亚戈葬礼后",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "npc_664144b63a19eb32|npc_d1d3f49d93a1953d"
+}

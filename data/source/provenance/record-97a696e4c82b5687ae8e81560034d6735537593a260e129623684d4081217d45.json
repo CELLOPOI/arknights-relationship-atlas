@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 735,
+          "line": 719,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_beg.txt",
+          "quote": "[name=\"杜遥夜\"]你是……昨晚救左乐的人……\n[name=\"杜遥夜\"]帮我。我有很重要的东西要交给平祟侯。\n[charslot(slot=\"m\",name=\"avg_npc_787_1#11$1\")]\n[name=\"仇白\"]……\n[charslot(slot=\"m\",name=\"avg_npc_787_1#5$1\")]\n[name=\"仇白\"]平祟侯在外城城楼镇守。你的箭伤很重，还跑得动吗？\n[charslot(slot=\"m\",name=\"avg_npc_296_1#6$1\")]\n[name=\"杜遥夜\"]先救货，再救人。\n[charslot(slot=\"m\",name=\"avg_npc_787_1#1$1\")]\n[name=\"仇白\"]那好，这里交给我们。\n[charslot(slot=\"m\",name=\"avg_npc_296_1#6$1\")]\n[name=\"杜遥夜\"]对了，你们的林特使一个人在仓库对付那个坏女人……\n[name=\"杜遥夜\"]去帮她。\n[charslot(slot = \"m\", name = \"avg_243_waaifu_1#7$1\")]\n[name=\"槐琥\"]雨霞姐！\n[charslot(slot=\"m\",name=\"avg_npc_787_1#11$1\")]\n[name=\"仇白\"]知道了。你先走。"
+        }
+      ],
+      "description": "仇白救下杜遥夜，后者请求保护送数据，直接相互交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E74"
+          ],
+          "from": "char_4082_qiubai",
+          "reason": "仇白救下杜遥夜，后者请求保护送数据，直接相互交流。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        },
+        {
+          "evidenceIds": [
+            "E74"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "仇白救下杜遥夜，后者请求保护送数据，直接相互交流。",
+          "status": "supported",
+          "to": "char_4082_qiubai"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 735,
+          "kind": "story",
+          "line": 719,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_4082_qiubai|npc_ebce98658cbda852"
+}

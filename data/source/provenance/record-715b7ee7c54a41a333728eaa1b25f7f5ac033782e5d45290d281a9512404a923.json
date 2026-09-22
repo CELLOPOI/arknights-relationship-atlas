@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 435,
+          "line": 326,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_04_end.txt",
+          "quote": "[name=\"最后的骑士\"]……\n[Character]\n[Character(name=\"char_263_skadi#4\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"斯卡蒂\"]他很古怪，他的身上还留着一些……气味。\n[Character(name=\"char_263_skadi#4\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]什么气味？\n[Character(name=\"char_263_skadi#4\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"斯卡蒂\"]另一个陆地国家的气味，你不会感兴趣的。\n[Character(name=\"char_263_skadi#4\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]毫无疑问，他是一只海嗣。但是与昆图斯不同。\n[Character(name=\"char_263_skadi#4\",name2=\"avg_474_gladiia_1#2\",focus=2)]\n[name=\"歌蕾蒂娅\"]可怎么会有这么多的陆地生物成为海嗣？他们不该频繁接触到海洋。\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]……\n[Dialog]\n[characteraction(name=\"middle\", type=\"jump\", xpos=0, power=10, times=3, fadetime=4, block=false)]\n[playsound(key=\"$d_avg_walk_water\", loop=true, channel=\"a\")]\n[playsound(key=\"$d_gen_walk_n\", loop=true, channel=\"bgs\")]\n[Delay(time=2)]\n[Character(name=\"char_263_skadi#4\",name2=\"avg_474_gladiia_1#5\",focus=2)]\n[name=\"歌蕾蒂娅\"]无法交流，那么就只能让他的躯体失去机能。\n[Character(name=\"char_263_skadi#8\",name2=\"avg_474_gladiia_1#5\",focus=1)]\n[name=\"斯卡蒂\"]他要发起攻击了！\n[StopSound(channel=\"bgs\", fadetime=1)]\n[StopSound(channel=\"a\", fadetime=1)]\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_448_1#1$1\")]\n[characteraction(name=\"middle\", type=\"move\", ypos=200, fadetime=0.3, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Character(fadetime=0.1)]\n[Delay(time=1)]\n骑士凭空从原地消失——但以深海猎人的视觉，捕捉他并不困难。\n有此等速度，他却没有选择进攻深海猎人，他高高跃起，向着巨大的灯塔咆哮嘶吼。\n[Dialog]\n[CameraShake(duration=1.5, ystrength=50, vibrato=50, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$d_gen_explo_n\")]\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]嘎啊啊啊——\n[Delay(time=1)]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[character]\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_4009_irene_1#1$1\")]\n[Background(image=\"27_g20_lighthouse_core\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[CameraShake(duration=3, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_gen_explo_n\",volume=0.5,delay=1)]\n[Delay(time=2)]\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"avg_4009_irene_1#1$1\",focus=1)]\n[name=\"乔迪\"]哇啊啊——怎、怎么了？\n[Character(name=\"avg_4042_lumen_1#8$1\",name2=\"avg_4009_irene_1#7$1\",focus=2)]\n[name=\"审判官艾丽妮\"]别慌！继续往上！\n[name=\"审判官艾丽妮\"]完成我们的任务——点燃灯塔！\n[Character(name=\"avg_4042_lumen_1#13$1\",name2=\"avg_4009_irene_1#7$1\",focus=1)]\n[name=\"乔迪\"]是……是！\n[Character(name=\"avg_4042_lumen_1#13$1\",name2=\"avg_4009_irene_1#7$1\",focus=2)]\n[name=\"审判官艾丽妮\"]（这股震动，是墙体受到了攻击？怎么可能，这里离地面已经有好几十米了，难道恐鱼还有大炮吗？）\n[name=\"审判官艾丽妮\"]（难道……难道是巨型生物？可是除了刚才那一下，没有更大的动静……）\n[Character(name=\"avg_4042_lumen_1#13$1\",name2=\"avg_4009_irene_1#4$1\",focus=2)]\n[name=\"审判官艾丽妮\"]（老师……！）\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[character]\n[Background(image=\"27_g19_lighthouse_front\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]……\n骑士仰头望去，灯塔纹丝不动。\n他不满地晃了晃扭曲的武器。这柄曾是伟大工匠造物的长枪，如今附满了来自深海的味道。\n碍事的目标没有出现，骑士双膝微弯，打算再试一次。\n[Dialog]\n[Character]\n[Blocker(a=0, fadetime=0.5, block=true)]\n[Character(name=\"avg_npc_183#1\",focus=3)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(fadetime=0.3)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.7)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"avg_npc_448_1#1$1\")]\n[characteraction(name=\"middle\", type=\"move\", xpos=200, fadetime=0.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(fadetime=0.6)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_448_1#1$1\",focus=2)]\n[name=\"最后的骑士\"]——！\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_448_1#1$1\",focus=1)]\n[name=\"大审判官达里奥\"]你在做什么？\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_448_1#1$1\",focus=2)]]\n[name=\"最后的骑士\"]……\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_448_1#1$1\",focus=1)]\n[name=\"大审判官达里奥\"]你轻蔑地挑衅着伊比利亚，踏足禁区，损害重要遗产。\n[name=\"大审判官达里奥\"]看看你自己，你连生而为人的尊严都不剩下？\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_448_1#1$1\",focus=2)]\n[name=\"最后的骑士\"]……\n[name=\"最后的骑士\"]……尊……严？\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_448_1#1$1\",focus=1)]\n[name=\"大审判官达里奥\"]看来你的发声器官还能运作。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_448_1#1$1\",focus=2)]\n[name=\"最后的骑士\"]（不清晰的发音）……海……不需要。\n[name=\"最后的骑士\"]击碎……海浪。踩着白昼，斥责痛苦。\n[name=\"最后的骑士\"]事物，不应，保持原样。大树，扎根于大地。\n[Character(name=\"avg_npc_183#1\",name2=\"avg_npc_448_1#1$1\",focus=1)]\n[name=\"大审判官达里奥\"]……你的姿势，你的盔甲，你的矛。"
+        }
+      ],
+      "description": "达里奥拦截最后的骑士并与其直接问答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S21"
+          ],
+          "from": "npc_dcd9165b3a65e04d",
+          "reason": "达里奥拦截最后的骑士并与其直接问答。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        },
+        {
+          "evidenceIds": [
+            "S21"
+          ],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "达里奥拦截最后的骑士并与其直接问答。",
+          "status": "supported",
+          "to": "npc_dcd9165b3a65e04d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 435,
+          "kind": "story",
+          "line": 326,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "npc_58c708dd33128fbf|npc_dcd9165b3a65e04d"
+}

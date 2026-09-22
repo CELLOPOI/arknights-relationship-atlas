@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 247,
+          "line": 232,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_st03.txt",
+          "quote": "[name=\"锡兰\"]躺下，别乱动。\n[charslot(slot=\"m\",name=\"avg_4106_bryota_1#10$1\",focus=\"m\")]\n[name=\"埃尼斯\"]丽芙呢——\n[charslot(slot=\"m\",name=\"avg_348_ceylon_1#1$1\",focus=\"m\")]\n[name=\"锡兰\"]冷静点，她已经回家了，小家伙当时吓得不轻，但好在没怎么受伤——现在你才是需要担心的那个。\n[charslot(slot=\"m\",name=\"avg_4106_bryota_1#17$1\",focus=\"m\")]\n[name=\"埃尼斯\"]那就好……那就好……\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]\n[charslot(duration=0.5)]\n[Delay(time=1)]\n悬着的心放下，少年又嗵的一声倒在病床上。\n[name=\"埃尼斯\"]我……晕了几天？\n[charslot(slot=\"m\",name=\"avg_348_ceylon_1#1$1\",focus=\"m\")]\n[name=\"锡兰\"]整整三天。\n[name=\"锡兰\"]你的妈妈还有弟弟妹妹每天都来看你，你知不知道他们有多担心？"
+        }
+      ],
+      "description": "锡兰向埃尼斯说妈妈每天来探望，结合哈莉母亲身份，明确知道具体母亲；未把亲属关系直接当双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "char_348_ceylon",
+          "reason": "锡兰向埃尼斯说妈妈每天来探望，结合哈莉母亲身份，明确知道具体母亲；未把亲属关系直接当双方相识。",
+          "status": "supported",
+          "to": "npc_9371ba187ed1cfd7"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_9371ba187ed1cfd7",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_348_ceylon"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 247,
+          "kind": "story",
+          "line": 232,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    }
+  ],
+  "relationship_id": "char_348_ceylon|npc_9371ba187ed1cfd7"
+}

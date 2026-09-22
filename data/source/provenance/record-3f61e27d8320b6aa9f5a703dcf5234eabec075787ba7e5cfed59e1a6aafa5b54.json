@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 209,
+          "line": 172,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "quote": "[Character(name=\"avg_npc_688_1#1$1\",fadetime=0.5)]\n[Delay(time=0.2)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0, fadetime=0.3, block=false)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_sp_ballista\",volume=1.0)]\n[playsound(key=\"$e_skill_skulsrsword\",volume=0.7)]\n[playsound(key=\"$d_avg_wolflordclaw\",volume=0.7)]\n[Character(fadetime=0.2)]\n[Delay(time=0.5)]\n[Character(name=\"avg_npc_683_1#9$1\")]\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0, fadetime=1, block=false)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$p_skill_soulwolf\",volume=0.7)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_683_1#5$1\")]\n[name=\"拉普兰德\"]小法官，战斗的时候怎么能分心呢。\n[Character(name=\"avg_4065_judge_1#3$1\")]\n[name=\"拉维妮娅\"]拉普兰德——\n[Character(name=\"avg_npc_683_1#9$1\")]\n[name=\"拉普兰德\"]哎，这么有趣的战斗，不叫上我也太不够意思了，德克萨斯。\n[Character(name=\"avg_1028_texas2_1#1$1\")]\n[name=\"德克萨斯\"]反正你会来的，不是吗？\n[Character(name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]好吧，你说得也对。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]离群的幼狼，闪开，这里没有你的立足之地。\n[Character(name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]告诉你一个好消息吧，狼之主，或者狼之子，还是什么东西。\n[Character(name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]从现在起，叙拉古的一切，都将是我的敌人。\n[Character(name=\"avg_npc_683_1#3$1\")]\n[name=\"拉普兰德\"]即使是你这种超出常人的存在，也不例外。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]狂妄！"
+        }
+      ],
+      "description": "斥罪在扎罗战斗中分心，由拉普兰德援护，具名持续同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "char_4065_judge",
+          "reason": "斥罪在扎罗战斗中分心，由拉普兰德援护，具名持续同场。",
+          "status": "supported",
+          "to": "npc_9649533c7a060d36"
+        },
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "npc_9649533c7a060d36",
+          "reason": "斥罪在扎罗战斗中分心，由拉普兰德援护，具名持续同场。",
+          "status": "supported",
+          "to": "char_4065_judge"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 209,
+          "kind": "story",
+          "line": 172,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_4065_judge|npc_9649533c7a060d36"
+}

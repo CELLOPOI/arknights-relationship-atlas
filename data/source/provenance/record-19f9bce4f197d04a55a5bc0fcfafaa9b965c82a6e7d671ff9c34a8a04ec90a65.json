@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 673,
+          "line": 597,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12mini/level_act12mini_st04.txt",
+          "quote": "[name=\"莱塔尼亚贵族\"]你……感染者！滚开！松开我的手杖！\n[character(name=\"avg_npc_626_1#1$1\")]\n[name=\"泽诺\"]不。\n[name=\"泽诺\"]你们敢伤害我的救命恩人的话，就得先沾上我这个感染者的血。\n[character(name=\"avg_4064_mlynar_1#6$1\")]\n[name=\"玛恩纳\"]……让开，泽诺。\n[character(name=\"avg_npc_626_1#1$1\")]\n[name=\"泽诺\"]呃……？\n[Dialog]\n[characteraction(name=\"middle\",type=\"move\",xpos=-100,ypos=-50,fadetime=0.4)]\n[PlaySound(key=\"$d_avg_arrowshot\", volume=1)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[character]\n年轻的感染者被用力推开的瞬间，一支箭矢擦着他的脸颊飞过。\n[Character(name=\"avg_npc_103nc_1#5\")]\n[name=\"瑟奇亚克\"]你，该死的感染者，我记得你这张脸！暴动的罪魁祸首！\n[dialog]\n[character]\n[PlaySound(key=\"$d_avg_arrowshot\", volume=1)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"char_empty\")]\n[characteraction(name=\"middle\", type=\"move\", xpos=200, fadetime=0.3, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[characteraction(name=\"middle\", type=\"move\", xpos=-200, fadetime=0.3, block=false)]\n[Character(name=\"avg_4064_mlynar_1#6$1\",fadetime=0.5)]\n[PlaySound(key=\"$swordtsing4\", volume=1)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[CameraShake(duration=0.2, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[character]\n[Character(name=\"avg_npc_103nc_1#5\")]\n[name=\"瑟奇亚克\"]——还有你，玛恩纳·临光。我就知道这些感染者背后一定还有人支持。\n[name=\"瑟奇亚克\"]你在盘算什么？到这种地方来做什么？你们临光家的人就这么喜欢袒护感染者？\n[Character(name=\"avg_4064_mlynar_1#6$1\")]\n[name=\"玛恩纳\"]临光家由不得你来——\n[Dialog]\n[characteraction(name=\"middle\",type=\"move\",xpos=-100,fadetime=0.3)]\n[PlaySound(key=\"$d_avg_arrowshot\", volume=1)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=true)]\n[character]\n[Character(name=\"avg_npc_103nc_1#5\")]\n[name=\"瑟奇亚克\"]我们都离开大骑士领这么远了，你凭什么把我们卷进事端？\n[Dialog]\n[character]\n[Character(name=\"avg_4064_mlynar_1#6$1\")]\n[name=\"玛恩纳\"]……\n[Dialog]\n[character(name=\"avg_npc_491_1#1$1\",name2=\"avg_npc_493_1#1$1\",focus=2)]\n[name=\"莱塔尼亚贵族\"]……阿洛希亚！我们先走！\n[Dialog]\n[character(name=\"avg_npc_491_1#1$1\",name2=\"avg_npc_493_1#1$1\")]\n[character(fadetime=1)]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[Delay(time=1.5)]\n[Character(name=\"avg_4064_mlynar_1#6$1\")]\n[name=\"玛恩纳\"]……你让那两个莱塔尼亚人逃走了。\n[Dialog]\n[Character(name=\"avg_npc_103nc_1#5\")]\n[PlaySound(key=\"$e_atk_arrowload_n\", volume=1)]\n[Delay(time=1)]\n[name=\"瑟奇亚克\"]回答我，你们在计划什么？我儿子在哪里？\n[Character(name=\"avg_4064_mlynar_1#6$1\")]\n[name=\"玛恩纳\"]够了，你相信新闻公开的调查结果？别告诉我你还像第一次打输那可笑的比赛，为此喝醉酒的时候一样愚蠢。\n[Character(name=\"avg_npc_103nc_1#5\")]\n[name=\"瑟奇亚克\"]你——\n[Character(name=\"avg_4064_mlynar_1#1$1\")]\n[name=\"玛恩纳\"]……紫发的男孩我见过一个。\n[Character(name=\"avg_4064_mlynar_1#3$1\")]\n[name=\"玛恩纳\"]如果他有基本的责任心的话，现在应该陪同伴去医院了。\n[Character(name=\"avg_npc_103nc_1#5\")]\n[name=\"瑟奇亚克\"]……\n[Character(name=\"avg_npc_103nc_1#1\")]\n[name=\"瑟奇亚克\"]……好，我先相信你。\n[Character(name=\"avg_npc_103nc_1#5\")]\n[name=\"瑟奇亚克\"]如果他不在医院，你给我等着。"
+        }
+      ],
+      "description": "玛恩纳与塑料骑士瑟奇亚克是有过往的旧识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_4064_mlynar",
+          "reason": "二人直接交谈并涉及共同旧事。",
+          "status": "supported",
+          "to": "npc_e4fa14db20eb7fd1"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_e4fa14db20eb7fd1",
+          "reason": "瑟奇亚克直呼玛恩纳全名并质问。",
+          "status": "supported",
+          "to": "char_4064_mlynar"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_b16db323de5be723.json",
+      "sources": [
+        {
+          "endLine": 673,
+          "kind": "story",
+          "line": 597,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12mini/level_act12mini_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "废弃街区事故期间",
+      "title": "日暮寻路"
+    }
+  ],
+  "relationship_id": "char_4064_mlynar|npc_e4fa14db20eb7fd1"
+}

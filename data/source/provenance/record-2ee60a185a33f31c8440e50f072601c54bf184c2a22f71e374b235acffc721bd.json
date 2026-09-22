@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 178,
+          "line": 162,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_02_beg.txt",
+          "quote": "[Background(image=\"bg_sportsbar\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_107\")]\n[name=\"光头马丁\"]  大嘴莫布，原来被呼啸守卫雇过去了啊。\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_107\", focus=1)]\n[name=\"老骑士\"]  低俗，呸。\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101\", focus=2)]\n[name=\"老工匠\"]  哈，呼啸守卫，人造垃圾流水线，也不掂掂自己几斤几两，还想和雷神工业抢生意。\n[name=\"老工匠\"]  我小时候捏的玩具泥都比他们的装甲坚固。\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101\", focus=1)]\n[name=\"老骑士\"]  那我怎么不见你去给大企业工作？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101\", focus=2)]\n[name=\"老工匠\"]  老子不情愿！我发过誓不再碰什么骑士装备了！\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101\", focus=1)]\n[name=\"老骑士\"]  所以你去年一整年都付不出酒钱，就因为你不愿意接点活计，结果呢？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101\", focus=2)]\n[name=\"老工匠\"]  这是生计所迫！不然我也不会去修水管的！我可不是水管工！"
+        }
+      ],
+      "description": "老骑士通过赛事转播单向知晓大嘴莫布。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_9192181c72a516f5",
+          "reason": "老骑士听见马丁点名大嘴莫布后立即评价其主持“低俗”。",
+          "status": "supported",
+          "to": "npc_157e6b20d3e8c379"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_157e6b20d3e8c379",
+          "reason": "大嘴莫布不在酒吧，也未得知老骑士的评价。",
+          "status": "not_established",
+          "to": "npc_9192181c72a516f5"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_89f9ae4a0acf0209.json",
+      "sources": [
+        {
+          "endLine": 178,
+          "kind": "story",
+          "line": 162,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "酒吧观看赛事",
+      "title": "玛莉娅·临光"
+    }
+  ],
+  "relationship_id": "npc_157e6b20d3e8c379|npc_9192181c72a516f5"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 300,
+          "line": 252,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_03_end.txt",
+          "quote": "[name=\"幽灵鲨\"]我，认识你吗？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#11$1\",focus=2)]\n[name=\"阿玛雅\"]劳伦缇娜……看看你的样子，那身修女服呢？那身修女服多适合你。\n[name=\"阿玛雅\"]啊，你找到了你的归宿，你被其他深海猎人找到了，现在她们想带你回家，对吗？\n[Character(name=\"avg_1023_ghost2_1#3$1\",name2=\"avg_npc_449_1#11$1\",focus=1)]\n[name=\"幽灵鲨\"]劳伦缇娜……劳伦缇娜是我的名字。\n[Character(name=\"avg_1023_ghost2_1#3$1\",name2=\"avg_npc_449_1#11$1\",focus=2)]\n[name=\"阿玛雅\"]也是万物之主的名字。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#11$1\",focus=1)]\n[name=\"幽灵鲨\"]万物之主是什么？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#4$1\",focus=2)]\n[name=\"阿玛雅\"]海洋，或是能代表海洋的事物。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#1$1\",focus=2)]\n[name=\"阿玛雅\"]你的精神状态不太对劲，你不该这么……啊，你清醒过？比如，杀死昆图斯的时候？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#1$1\",focus=1)]\n[name=\"幽灵鲨\"]昆……图斯……？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#13$1\",focus=2)]\n[name=\"阿玛雅\"]你接触过一次海洋，但是没有立刻前往阿戈尔？我以为你们总是归心似箭的。\n[name=\"阿玛雅\"]又或者……陆地上还有人能够引导你们，能够替你们出谋划策，徐徐图之？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#8$1\",focus=2)]\n[name=\"阿玛雅\"]劳伦缇娜，我们为什么要在这个情况下相遇？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#8$1\",focus=1)]\n[name=\"幽灵鲨\"]你的手，很冰。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#8$1\",focus=2)]\n[name=\"阿玛雅\"]我们曾无话不谈的，真的。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#4$1\",focus=2)]\n[name=\"阿玛雅\"]可是现在……\n[Dialog]\n[Character]\n[name=\"斯卡蒂\"]幽灵鲨！\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#1$1\",focus=2)]\n[name=\"阿玛雅\"]……等你回想起我的名字，如果你还记得此刻，就来找我。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_449_1#10$1\",focus=2)]\n[name=\"阿玛雅\"]我已经暗暗下过决心，如果你真的能清醒地找到我，我就告诉你所有的真相。\n[name=\"阿玛雅\"]再会了，劳伦缇娜。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_empty\",fadetime=1)]\n[Delay(time=2)]\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_empty\",focus=1)]\n[name=\"幽灵鲨\"]……啊。\n[Character(name=\"avg_1023_ghost2_1#3$1\",name2=\"char_empty\",focus=1)]\n[name=\"幽灵鲨\"]……\n[Character(name=\"avg_1023_ghost2_1#3$1\",name2=\"char_263_skadi#3\",focus=2)]\n[name=\"斯卡蒂\"]……那个人是谁？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_263_skadi#3\",focus=1)]\n[name=\"幽灵鲨\"]不认识……她……她似乎认识我。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"char_263_skadi#3\",focus=2)]\n[name=\"斯卡蒂\"]……嗅不到她的气味，起码她不是昆图斯那样的海嗣。"
+        }
+      ],
+      "description": "斯卡蒂赶到阿玛雅与幽灵鲨的会面现场并追问身份；阿玛雅明确知道幽灵鲨已被其他深海猎人找到。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S43"
+          ],
+          "from": "char_263_skadi",
+          "reason": "斯卡蒂赶到阿玛雅与幽灵鲨的会面现场并追问身份；阿玛雅明确知道幽灵鲨已被其他深海猎人找到。",
+          "status": "supported",
+          "to": "npc_549ec9bf1f5326b6"
+        },
+        {
+          "evidenceIds": [
+            "S43"
+          ],
+          "from": "npc_549ec9bf1f5326b6",
+          "reason": "斯卡蒂赶到阿玛雅与幽灵鲨的会面现场并追问身份；阿玛雅明确知道幽灵鲨已被其他深海猎人找到。",
+          "status": "supported",
+          "to": "char_263_skadi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 300,
+          "kind": "story",
+          "line": 252,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_263_skadi|npc_549ec9bf1f5326b6"
+}

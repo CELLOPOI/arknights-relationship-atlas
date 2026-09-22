@@ -1,0 +1,302 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 491,
+          "line": 481,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_09_end.txt",
+          "quote": "[name=\"Ace\"]为什么？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]切尔诺伯格已经陷入了与感染者有关的例外状态。\n[name=\"阿斯卡纶\"]现在的罗德岛承担不起卷入其中的风险。\n[charslot(slot=\"m\",name=\"avg_npc_026\")]\n[name=\"Scout\"]……博士将是我们不可或缺的力量。\n[charslot(slot=\"m\",name=\"char_017_homura_3#5\")]\n[name=\"煌\"]你们说的这个人才值得罗德岛用几十条甚至更多的人命去换吗？\n[name=\"煌\"]如果值得，我就同意。只要有一个人提出质疑，我就反对。\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\")]\n[name=\"Logos\"]……"
+        }
+      ],
+      "description": "煌与Ace在精英干员会议中共同讨论营救博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C33"
+          ],
+          "from": "char_017_huang",
+          "reason": "煌与Ace在精英干员会议中共同讨论营救博士。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "C33"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "煌与Ace在精英干员会议中共同讨论营救博士。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 491,
+          "kind": "story",
+          "line": 481,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 784,
+          "line": 772,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "quote": "[name=\"煌\"]  啊。啊！当然是！Scout你看到了吗？我们的小猫咪长大了。她长大了呀……！\n[name=\"煌\"]  她长大了呜呜……\n[Character(name=\"avg_npc_042\",name2=\"char_017_homura_3#11\",focus=1)]\n[name=\"迷迭香\"]  别，别这样……好想忘掉……！\n[name=\"迷迭香\"]  ……你真的哭了？为什么要哭啊？\n[Character(name=\"avg_npc_042\",name2=\"char_017_homura_3#11\",focus=2)]\n[name=\"煌\"]  呜啊啊啊啊啊……\n[Character(name=\"avg_npc_042\",name2=\"char_017_homura_3#11\",focus=1)]\n[name=\"迷迭香\"]  ……别哭，别哭……煌……别哭啦……\n[Character(name=\"avg_npc_042\",name2=\"char_017_homura_3#11\",focus=2)]\n[name=\"煌\"]  碧银她也会知道的……Ace他也会知道的……小猫咪……小猫咪长大啦……\n[Character(name=\"avg_npc_042\")]\n[name=\"迷迭香\"]  ……煌……"
+        }
+      ],
+      "description": "煌具体提及已故Scout和Ace，希望他们知道迷迭香成长；逝者未在现场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E72"
+          ],
+          "from": "char_017_huang",
+          "reason": "煌具体提及已故Scout和Ace，希望他们知道迷迭香成长；逝者未在现场。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 784,
+          "kind": "story",
+          "line": 772,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_08-06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 105,
+          "line": 90,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "quote": "[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  通过空气折射让身形变得透明啊，好手法。\n[name=\"煌\"]  不过你掩盖不了自己的行踪，又或者是动作幅度太大，也会导致这个源石技艺失效。\n[name=\"煌\"]  我说得对吗？\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……你很聪明。\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"煌\"]  是罗德岛情报做得好。你没戏唱了，投降吧。\n[name=\"煌\"]  如果还要打的话，哼，不管有没有你的份，你都得为Ace和Scout抵命，小子。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  浮士德，我们还有弹药。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  撤退。我们已经失去了情报优势。我会狙击他们，你们立刻转移。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  明白。\n[Character(name=\"char_1507_Mephisto_1#4\")]"
+        }
+      ],
+      "description": "煌当面要求敌人为Ace和Scout抵命，梅菲斯特、浮士德在同一交锋听取；不能推死者反向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_017_huang",
+          "reason": "煌当面要求敌人为Ace和Scout抵命，梅菲斯特、浮士德在同一交锋听取；不能推死者反向知晓。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 105,
+          "kind": "story",
+          "line": 90,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "靶向药物所述时段",
+      "title": "靶向药物"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 135,
+          "line": 38,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-02_beg.txt",
+          "quote": "[name=\"Scout\"]  从没听过你对我的评价，现在才知道，原来我感受起来是这么脆弱。\n[Character]\n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n你什么时候来的？！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  可以说是一直都在。我习惯隐藏自己了。\n[Character(name=\"avg_npc_042\")]\n[name=\"Rosmontis\"]  Scout先生他确实一直都在的。\n[name=\"Rosmontis\"]  为什么煌没有感觉到呢？\n[Character]\n……我是比较粗线条，没看到啦！\n不是，你听她说了那么久，怎么不帮她修下啊。\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  抱歉，接下来我们有任务。我得花些精力校准武器。\n[name=\"Scout\"]  你可能要请可露希尔或是机械师Mechanist先生去解决了。\n[Character]\n是那个，营救Dr.{@nickname}的任务吗？\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"char_014_riope\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"Ace\"]  是。\n[Character]\n哦哦，你也来了。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  作为主要发起人之一，如果我自己都不去，罗德岛精英干员不是成了笑话？\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=1)]\n[name=\"Scout\"]  阿斯卡纶怎么回复你的？\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=2)]\n[name=\"Ace\"]  一样的托辞。她不会参与。同往常一样，她一直都和凯尔希站一边。\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=1)]\n[name=\"Scout\"]  ……你有没有考虑过，现在可能不是最佳时机？\n[Character(name=\"avg_npc_026\",name2=\"char_014_riope\",focus=2)]\n[name=\"Ace\"]  但这也可能是我们最后的机会。\n[name=\"Ace\"]  为了躲避这次天灾，切尔诺伯格很可能会在驶离这里后，转向乌萨斯腹地。在乌萨斯内部展开营救，成功的概率趋近于零。\n[Dialog]\n[Character]\n听你们说了那么多回，这个Dr.{@nickname}真有那么神奇吗？\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  和阿米娅与凯尔希一样神奇。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=2)]\n[name=\"Rosmontis\"]  我见过博士吗？\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=1)]\n[name=\"Ace\"]  没有。不过很快你就能见到了。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=2)]\n[name=\"Rosmontis\"]  嗯。我也很想感受一下博士的样子。\n[name=\"Rosmontis\"]  很想。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_042\",focus=1)]\n[name=\"Scout\"]  你会的，小猫。\n[Dialog]\n[Character]\n对了，Ace。 你下辖小队里，有个叫灰喉的非患者。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  这事我记得。她应该还在单独舱室接受指导。\n[name=\"Ace\"]  煌，听我一句。我带着她几个月了，她也许不太会表达，但绝对没有恶意。\n[Character]\n但她对我的队员说：“我不知道你们感染者有多痛苦。”\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  我清楚。但她可能真的只是很疑惑，她想要去问这个问题。\n[name=\"Ace\"]  我没资格要求干员立即明白我们的处境，而且，灰喉从没质疑过罗德岛的命令。\n[Character]\n其他我不管，我绝对不允许任何人侮辱我的队员，更别说诋毁罗德岛感染者们的奋斗了。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  不是现在。我知道你在克制怒意，但真的，不是现在。\n[Character]\n[CameraShake(duration=0.4, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n她当着我的面这么说！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  大猫，消停些。\n[name=\"Scout\"]  你也有任务在身。\n[Character]\n……是啊。\n行吧，回来再处理。\n谁叫Ace资历比我老呢。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  一旦你开始用这种口气说话，我就怀疑你是想戏弄别人。\n[Character(name=\"char_014_riope\",name2=\"avg_npc_026\",focus=2)]\n[name=\"Scout\"]  她可能真的在取笑你。\n[Character]\n他只要有两天没修胡子，我就一定会觉得他资历特别老。\n[Character(name=\"avg_npc_042\",name2=\"char_014_riope\",focus=1)]\n[name=\"Rosmontis\"]  Ace，胡子很硬。\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]  ……啊。\n[Character]\n哈哈哈。那我去帮她送东西了。我也有任务在身，先走啦。\n等我任务结束回来，我们再去好好喝一场吧！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  可别再喝得吐一地了。\n[name=\"Scout\"]  Misery擦了两小时地板，再让他见那种场面，他恐怕也要吐出来。\n[Character]\n谁知道你酒量那么好啊！\nRosmontis，机械师过会儿就把终端给你送过来。\n乖乖等着就好了，别把这事儿忘了哦！\n[Character(name=\"avg_npc_042\")]\n[name=\"Rosmontis\"]  嗯，我不会忘的！再见！\n[Character(name=\"avg_npc_026\")]\n[name=\"Scout\"]  小心烫伤！"
+        }
+      ],
+      "description": "煌与Ace直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_017_huang",
+          "reason": "煌与Ace直接交谈。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "煌与Ace直接交谈。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 135,
+          "kind": "story",
+          "line": 38,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 142,
+          "line": 88,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-04_end.txt",
+          "quote": "[name=\"煌\"]  迷迭香！等等！\n[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.4)]\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  啊……煌。\n[name=\"迷迭香\"]  你伤得好重，怎么还跑出来？快回去。快点回去。\n[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  你这次要出战？\n[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  嗯。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  我找人替你。让Misery去。他比你擅长攻坚战。\n[name=\"煌\"]  他一挥手就能解决的事，让他去。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  你不想我去？\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  对，你不该去。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  煌让人感觉很奇怪。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  这和你以前的任务可不一样！\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  因为可能会死？\n[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  说啥啊！\n[name=\"煌\"]  你怎么能，怎么……是怎么这么轻松地说出来啊！\n[name=\"煌\"]  你年纪太小了，这么危险的任务，你是不该去的！\n[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  可阿米娅也要去。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  因为她……！她是……！\n[name=\"煌\"]  她是……\n[name=\"煌\"]  阿米娅……\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  她和我一样，是感染者，也是干员。\n[name=\"迷迭香\"]  而且，我检查了日志。Ace和Scout都在切尔诺伯格，他们没回来。\n[name=\"迷迭香\"]  也就是说，他们已经不在了吧。\n[name=\"迷迭香\"]  我想去看看。我要明白是怎么回事。我要看看管整合运动的人，我要知道是谁做了什么。\n[name=\"迷迭香\"]  我要知道在Ace和Scout身上发生了什么。\n[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  迷迭香？这种事你……你可以不记的。\n[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  ……煌？\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  (粗口)，我他妈在说什么……\n[name=\"煌\"]  不，对不起，我不该这么说。我不应该。**，我这张臭嘴！\n[name=\"煌\"]  可是，他们的死……他们……\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  煌。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  错的是我。开心是记忆，伤心也是记忆。我的错。你不能不记。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  煌变得很奇怪。说的话也支离破碎的。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  ……我不想你那么痛苦。为什么非要去回头看它？如果是你的话……是可以把记忆放走的啊。\n[name=\"煌\"]  你可以把它就放在那里。让它就躺在那里，不要回头。"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_017_huang",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 142,
+          "kind": "story",
+          "line": 88,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 721,
+          "line": 680,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_03_beg.txt",
+          "quote": "[name=\"煌\"]调料包，蔬菜包……还能加两根火腿肠，嘿嘿……食堂怎么没开灯？\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"char_017_homura_3#6\")]\n[name=\"煌\"]喂！你们在这儿干吗？吓我一跳！\n[charslot(slot = \"m\", name = \"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]嘘，小点声。\n[charslot(slot = \"m\", name = \"char_017_homura_3#10\")]\n[name=\"煌\"]我说，都这么晚了，你们不睡觉，躲在食堂干什么？\n[name=\"煌\"]……Ace，你怎么一脸严肃地看着我……不会是又有什么紧急任务吧？\n[charslot(slot = \"m\", name = \"char_014_riope\")]\n[name=\"Ace\"]你手里拿的是什么？泡面？\n[charslot(slot = \"m\", name = \"char_017_homura_3#4\")]\n[name=\"煌\"]下午在训练场待了太久，晚饭没吃饱啊……！\n[name=\"煌\"]怎么，难道当上精英干员就连泡面也不能吃了吗？\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]你的队长不是在责备你又在猛塞垃圾食品，他的意思是……\n[name=\"Touch\"]今天你过生日欸，难道就吃这个？\n[charslot(slot = \"m\", name = \"char_017_homura_3#10\")]\n[name=\"煌\"]生日……？\n[name=\"煌\"]可是凯尔希医生不是说……\n[charslot(slot = \"m\", name = \"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]所以才让你小声点。\n[name=\"Scout\"]只要动静别闹太大，我猜就算她听到了，也会装作不知情的吧？\n[Character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]我甚至怀疑，她故意将我们外勤任务的空档调到一起，就是为了给你办一场生日会。\n[name=\"Mechanist\"]你就当这也是她给你的生日祝福吧……虽然很难想象。\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]煌，你是我们中的一员，是罗德岛的一员。你不是一个人。\n[charslot(slot = \"m\", name = \"char_017_homura_3#8\")]\n[name=\"煌\"]大家……我，那个，谢谢你们！\n[charslot(slot = \"m\", name = \"char_014_riope\")]\n[name=\"Ace\"]好了，现在已经到零点了。生日快乐，煌。\n[charslot(slot = \"m\", name = \"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]大猫，生日快乐！\n[Character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]生日快乐。\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]生日快乐！还有，阿米娅不在本舰上，她让我替她送上祝福，生日快乐，她希望你永远开心健康。\n[charslot(slot = \"m\", name = \"char_017_homura_3#10\")]\n[name=\"煌\"]小兔子……\n[charslot(slot = \"m\", name = \"char_014_riope\")]\n[name=\"Ace\"]现在，你是准备来吹蜡烛切蛋糕，还是继续吃你的泡面？"
+        }
+      ],
+      "description": "Ace直接向煌祝福并询问她切蛋糕。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J03"
+          ],
+          "from": "char_017_huang",
+          "reason": "Ace直接向煌祝福并询问她切蛋糕。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "J03"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "Ace直接向煌祝福并询问她切蛋糕。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 721,
+          "kind": "story",
+          "line": 680,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 270,
+          "line": 246,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_huang_1_1.txt",
+          "quote": "[name=\"？？？\"]好啊，原来你就是这么在背后说我坏话的？\n[character(name=\"char_017_homura_3#10\")]\n[name=\"煌\"]呃！\n[dialog]\n[character]\n[delay(time=1)]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"char_014_riope\",fadetime=1.5)]\n[delay9ti=2]\n[name=\"Ace\"]看你这么有精神我就放心了，煌。但你可别乱说话，带坏温蒂。\n[character(name=\"char_017_homura_3#10\",name2=\"char_400_weedy_1\",focus=1)]\n[name=\"煌\"]Ace！\n[character(name=\"char_400_weedy_1\")]\n[name=\"温蒂\"]Ace先生。\n[character(name=\"char_017_homura_3#10\",name2=\"char_400_weedy_1\",focus=1)]\n[name=\"煌\"]我哪有带坏温蒂，这不是实话实说嘛。\n[name=\"煌\"]上回Ace你和Mechanist给我特训，我差点被你们从肚脐这儿直接拆成两半！\n[character(name=\"char_014_riope\")]\n[name=\"Ace\"]那还不是为了帮你调试新武器。要达到你想要的那种破坏力哪有那么简单，Mechanist为了这个好几天没离开工作台。\n[name=\"Ace\"]你该看看被他撕掉的那些草图，这段时间他用掉的白纸多得能让后勤部发怒。\n[character(name=\"char_017_homura_3#9\")]\n[name=\"煌\"]那可不妙。\n[character(name=\"char_017_homura_3#8\")]\n[name=\"煌\"]不过这次也真多亏了他给我这个大家伙，切起东西来特别顺手……嘿，要不是有这个，我那新招估计还用不出来。\n[name=\"煌\"]看！我还带了叙拉古当地的奶酪回来当礼物，据说味道独特，一会我就送去给Mechanist也尝尝。"
+        }
+      ],
+      "description": "煌是 Ace 分队成员，双方直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_017_huang",
+          "reason": "煌点名 Ace 并谈及共同特训。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "Ace 点名煌并关心其状态。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_e1aa547015370be7.json",
+      "sources": [
+        {
+          "endLine": 270,
+          "kind": "story",
+          "line": 246,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_huang_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "煌干员密录所述罗德岛早期",
+      "title": "煌"
+    }
+  ],
+  "relationship_id": "char_017_huang|npc_ded4733bcc9da868"
+}

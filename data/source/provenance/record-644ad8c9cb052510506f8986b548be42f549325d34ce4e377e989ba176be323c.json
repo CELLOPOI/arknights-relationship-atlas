@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 139,
+          "line": 82,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-04_end.txt",
+          "quote": "[name=\"凯尔希\"] 博卓卡斯替已经走出了困住他一生的樊笼，我不会用一场没有结果的暴力玷污他最后的决心。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"样貌奇特的老者\"] 这就是你口中祭奠一位萨卡兹英雄的方式吗？这样丑陋的……逃避？\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"] ……\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"] 我没有逃避。\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"] 我给出了你要的回答，就如当初那位温迪戈想要一场战斗来替代回答时一样。\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"] 再说一次。食腐者之王，我拒绝与你在此动武。\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"] 你们啖下敌人的血肉，将他们的悲嚎与悔恨纳入自己的身体，以此来作为下一次战斗的食粮。\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"] 而我们并不是敌人。我们有过并肩的时光，也会因暂时的立场不同而不得不刀剑相向。\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"] 这同样适用于当时的罗德岛与整合运动的博卓卡斯替——\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"] 就像你见证了她的逝去一样，我见证了一位温迪戈的精魂回归卡兹戴尔。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 你说，你是那个见证者。\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"] 我是。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 是他自己选择了你？\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"] 博卓卡斯替……在最后的时刻，他想要一位相称的对手，也想要一位能够对话的故友。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 哈……哈哈哈！\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 好。你的答案，我收下了。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] ……你也出来吧，赦罪师。\n[dialog]\n[character]\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 就在刚才，要是我执意进攻……即便那头漆黑的怪物不出来，你也会对我挥剑。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 赦罪师的一剑，就算是我也会被抵挡一瞬……呵，如果你真的会令它完全出鞘的话。\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]你知道……\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 我认识你们数百年了。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 倒不如说，你会来到那个异族继承者身边，这一点有些出乎我的意料。\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 忤逆的后果，你真能承担？\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……无关我能不能。自我出生起，那些罪孽就一直在我身上。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 不错！你比在伦蒂尼姆戴着面具的那个要有趣一点。"
+        }
+      ],
+      "description": "凯尔希当面谈博卓卡斯替的死亡与临终对话；华法琳始终在场，闪灵在近处戒备并被叫出，支持听取具体人物的信息。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR03"
+          ],
+          "from": "char_171_bldsk",
+          "reason": "凯尔希当面谈博卓卡斯替的死亡与临终对话；华法琳始终在场，闪灵在近处戒备并被叫出，支持听取具体人物的信息。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e877f731a67498e3",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_171_bldsk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 139,
+          "kind": "story",
+          "line": 82,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_171_bldsk|npc_e877f731a67498e3"
+}

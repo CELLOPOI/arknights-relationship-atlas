@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 50,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st04.txt",
+          "quote": "[name=\"黑\"]   ……锡兰告诉了我火山的事情了。\n[name=\"黑\"]   所以你不仅篡改了火山监测数据，而且宣称小姐要散布谣言。\n[Character(name=\"avg_npc_023_2#2\",name2=\"char_340_shwaz_2#2\",focus=1)]\n[name=\"克洛宁\"]   因为你我都知道啊。赫尔曼做的那些事，我们都知道！\n[Character]\n[Dialog]\n[name=\"？？？\"]    知道什么的话，就说吧。\n[Character(name=\"avg_npc_024\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"？？？\"]    克洛宁，说下去吧。但你也要把我“因事务出差”的时候，你到底做了些什么，全都说出来。\n[Character(name=\"char_348_ceylon_4#8\")]\n[name=\"锡兰\"]   爸——父亲？！\n[Character(name=\"avg_npc_023_2#2\")]\n[name=\"克洛宁\"]   你怎么在这里？！\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  很意外吗，克洛宁。\n[name=\"赫尔曼\"]  在我明令禁止了从火山中开采黑曜石之后，在市场上依然有新开采的黑曜石流通。\n[name=\"赫尔曼\"]  开采队很多次出现在火山口，却没有人向我报告。\n[name=\"赫尔曼\"]  最终开采的货物经过多次转送，已经被送到了市政厅的废弃仓库。\n[name=\"赫尔曼\"]  在我下令拨款为汐斯塔出现的矿石病患者提供各方面资助后，市里反而出现了各种他们受到的不公待遇的流言。\n[name=\"赫尔曼\"]  这些事情有没有让你意外过？\n[Character(name=\"avg_npc_023_2#2\")]\n[name=\"克洛宁\"]   嘁……\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  这些事情让我意外到愤怒难安！！\n[name=\"赫尔曼\"]  为了找到这些事情的真相，我放出了离开城市的消息，让黑作为我的下属替我在城市调查真相。\n[Dialog]\n[Character]\n[Character(name=\"char_188_helage_1\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"赫拉格\"]  看来，只要调查一下这些记录和相关人员就行了。\n[Character(name=\"char_348_ceylon_4#8\")]\n[name=\"锡兰\"]   赫拉格爷爷，你们也平安无事！\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]  真遗憾，克洛宁。"
+        }
+      ],
+      "description": "赫尔曼到场质问克洛宁，黑、锡兰与随后到场的赫拉格参与连续现场对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_188_helage",
+          "reason": "赫尔曼到场质问克洛宁，黑、锡兰与随后到场的赫拉格参与连续现场对话。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼到场质问克洛宁，黑、锡兰与随后到场的赫拉格参与连续现场对话。",
+          "status": "supported",
+          "to": "char_188_helage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 50,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_188_helage|npc_ba4ddfafe7c93381"
+}

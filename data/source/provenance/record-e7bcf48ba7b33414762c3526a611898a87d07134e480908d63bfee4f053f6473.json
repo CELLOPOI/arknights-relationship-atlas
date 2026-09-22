@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 87,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_04_beg.txt",
+          "quote": "[name=\"阿达克利斯人A\"]要我说啊，那个叫安麦尔的没尾巴也太奇怪了！\n[name=\"阿达克利斯人A\"]吃东西会吃出羽兽蛋壳，轮到她过桥的时候吊绳居然断了，搭房子被瀑布冲了，抓鳞反而被大鳞抓走！\n[charslot(slot=\"l\",name=\"avg_npc_070\",focus=\"l\")]\n[name=\"阿达克利斯人B\"]噢，我记得依娜姆大姐说过，这叫什么来着？美运体质？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_075\",focus=\"m\")]\n[name=\"依娜姆\"]是霉运体质。\n[name=\"依娜姆\"]你们两个，别忘了向安麦尔道谢。没有她，就像你们这样工作一天快活一天，这些新房子可不知道什么时候才能建好呢！\n[Dialog]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_gen_explo_n\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=1, g=1, b=1, fadetime=1, block=true)]\n[delay(time=1)]\n[charslot]\n轰隆——\n[Dialog]\n[PlaySound(key=\"$d_avg_bodyfallvalley\", volume=1,channel=\"2\")]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1,channel=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1015_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1015_1#6$1\")]\n[name=\"安麦尔\"]咳咳、咳咳！\n[charslot(slot=\"m\",name=\"avg_npc_075\",focus=\"m\")]\n[name=\"依娜姆\"]怎、怎么回事？门怎么炸了？\n[charslot(slot=\"m\",name=\"avg_npc_1015_1#6$1\")]\n[name=\"安麦尔\"]没事，我很快就能把它修好……我本来在烘干合页上的黏合剂，可能是我操作不当哈哈哈……\n[Dialog]\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_071\")]\n[charslot(slot=\"l\",name=\"avg_npc_070\")]\n[Delay(time=0.5)]\n[charslot(slot=\"r\",name=\"avg_npc_071\",focus=\"r\")]\n[name=\"阿达克利斯人A\"]黏合剂？\n[charslot(slot=\"l\",name=\"avg_npc_070\",focus=\"l\")]\n[name=\"阿达克利斯人B\"]那是我的酒壶，我奶奶给我的。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_075\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_1015_1#5$1\",focus=\"l\")]\n[name=\"依娜姆\"]……\n[charslot(slot=\"r\",name=\"avg_npc_1015_1#5$1\",focus=\"r\")]\n[name=\"安麦尔\"]……\n[charslot(slot=\"l\",name=\"avg_npc_075\",focus=\"l\")]\n[name=\"依娜姆\"]咳，东西应该都搬来了吧？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_071\",focus=\"m\")]\n[name=\"阿达克利斯人A\"]都在这边了，我们搬了一上午呢！今天晚上可得好好泡个澡了。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_075\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1015_1#3$1\",focus=\"r\")]\n[name=\"安麦尔\"]一上午？都是什么货物……咖啡？\n[charslot(slot=\"l\",name=\"avg_npc_075\",focus=\"l\")]\n[name=\"依娜姆\"]对，都是汐斯塔的咖啡。我们开通了和汐斯塔的商路，这是送来的第一批货品。\n[charslot(slot=\"r\",name=\"avg_npc_1015_1#6$1\",focus=\"r\")]\n[name=\"安麦尔\"]我看看，包装上好像有说明文字……“把花的种子和咖啡豆一起烘焙”……汐斯塔人用这种配方来调和咖啡的苦味。\n[name=\"安麦尔\"]我小的时候，爷爷也是这么做咖啡喝的。\n[charslot(slot=\"l\",name=\"avg_npc_075\",focus=\"l\")]\n[name=\"依娜姆\"]安麦尔小姐的爷爷，好像是汐斯塔人吧？\n[charslot(slot=\"r\",name=\"avg_npc_1015_1#9$1\",focus=\"r\")]\n[name=\"安麦尔\"]嗯……不过我们一家人很早之前就搬到哥伦比亚了。等这个月的活干完，我攒的钱就够搭车回汐斯塔了！\n[charslot(slot=\"l\",name=\"avg_npc_075\",focus=\"l\")]\n[name=\"依娜姆\"]嗯？早知道我就让汐斯塔派来的商队带上你了，一个多小时前他们刚走。\n[Dialog]\n[charslot(slot=\"r\",action=\"jump\",power=5,times=2,duration=0.3,isblock=true)]\n[charslot(slot=\"r\",name=\"avg_npc_1015_1#3$1\",focus=\"r\")]\n[name=\"安麦尔\"]什么？"
+        }
+      ],
+      "description": "安麦尔与依娜姆在阿卡胡拉直接讨论建屋和商路。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_488_buildr",
+          "reason": "安麦尔与依娜姆在阿卡胡拉直接讨论建屋和商路。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "安麦尔与依娜姆在阿卡胡拉直接讨论建屋和商路。",
+          "status": "supported",
+          "to": "char_488_buildr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 87,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    }
+  ],
+  "relationship_id": "char_488_buildr|npc_e04ed917f7bcbf85"
+}

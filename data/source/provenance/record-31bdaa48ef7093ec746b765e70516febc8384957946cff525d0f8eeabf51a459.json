@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 338,
+          "line": 258,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_st03.txt",
+          "quote": "[name=\"车尔尼\"]多谢您的关心，博士。我现在感觉很好。\n[name=\"车尔尼\"]而且我要再次感谢您对夕照区的保护。\n[Character(name=\"avg_4047_pianst_1#5$1\")]\n[name=\"车尔尼\"]没有您代表罗德岛去交涉，女皇之声是无论如何也不会为一个小小的夕照区发话的。\n[Dialog]\n[Character(name=\"avg_4047_pianst_1#5$1\",focus=-1)]\n[Decision(options=\"这是我应该做的。;帮助感染者是罗德岛的宗旨。;和黑键相比，夕照区的事算是容易的了。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_4047_pianst_1#1$1\")]\n[name=\"车尔尼\"]您客气了。\n[Predicate(references=\"2\")]\n[Character(name=\"avg_4047_pianst_1#1$1\")]\n[name=\"车尔尼\"]如您所说，我最近更加深刻地感受到了这一点。\n[Predicate(references=\"3\")]\n[Character(name=\"avg_4047_pianst_1#5$1\")]\n[name=\"车尔尼\"]……\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_4047_pianst_1#1$1\")]\n[name=\"车尔尼\"]您找我到这里来所为何事？\n[Dialog]\n[Character(name=\"avg_4047_pianst_1#1$1\",focus=-1)]\n[Decision(options=\"您提交报告申请去前线，我来确认您的意向。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_4047_pianst_1#1$1\")]\n[name=\"车尔尼\"]我的想法已经完整地写在报告里了。\n[Dialog]\n[Character(name=\"avg_4047_pianst_1#1$1\",focus=-1)]\n[Decision(options=\"虽然您的病情目前稳定，但感染程度很深。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"战场上一切皆有可能。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_4047_pianst_1#2$1\")]\n[name=\"车尔尼\"]我有心理准备。\n[Character(name=\"avg_4047_pianst_1#1$1\")]\n[name=\"车尔尼\"]博士，在被芙蓉搀着去音乐厅的时候，我已经做好赴死的准备了。\n[Character(name=\"avg_4047_pianst_1#5$1\")]\n[name=\"车尔尼\"]虽然出了这么多波折，事件的结果也和我天真的预想大相径庭，但我却……活下来了。\n[name=\"车尔尼\"]这种感觉实在是有些奇妙，我却无法很好地表达出来，无论通过话语还是音乐都不行。\n[Character(name=\"avg_4047_pianst_1#1$1\")]\n[name=\"车尔尼\"]我不奢求在战场上找到将其表达出来的方法，但我想，用一种完全不同的方式为感染者奋斗，也许对我更有好处。\n[Dialog]\n[Character(name=\"avg_4047_pianst_1#1$1\",focus=-1)]\n[Decision(options=\"我明白您的心情。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"不过，还请您安心等待审批的结果。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_4047_pianst_1#2$1\")]\n[name=\"车尔尼\"]我明白。\n[Character(name=\"avg_4047_pianst_1#2$1\")]\n[name=\"车尔尼\"]说起来，黑键是在罗德岛上吧？\n[Dialog]\n[Character(name=\"avg_4047_pianst_1#2$1\",focus=-1)]\n[Decision(options=\"当然。;您为什么问这个？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_4047_pianst_1#5$1\")]\n[name=\"车尔尼\"]从来到罗德岛的第二天开始，我就完全见不到他了。\n[Character(name=\"avg_4047_pianst_1#2$1\")]\n[name=\"车尔尼\"]我偶尔甚至会觉得，好像那个一身黑衣服的乌提卡伯爵真的死了。\n[Dialog]\n[Character(name=\"avg_4047_pianst_1#2$1\",focus=-1)]\n[Decision(options=\"按照莱塔尼亚的官方口径，他确实已经死了。;他活得好好的，给他一些时间吧。;讽刺的是，这反倒助成了我们和莱塔尼亚的合作。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_4047_pianst_1#2$1\")]\n[name=\"车尔尼\"]……您说得对。\n[Character(name=\"avg_4047_pianst_1#1$1\")]\n[name=\"车尔尼\"]那么，我先走了，博士。\n[Dialog]\n[Character(name=\"avg_4047_pianst_1#1$1\",focus=-1)]\n[Decision(options=\"说到黑键，我要做的下一件事，恰好和他相关。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"您要见见他吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_4047_pianst_1#5$1\")]\n[name=\"车尔尼\"]……\n[Character(name=\"avg_4047_pianst_1#2$1\")]\n[name=\"车尔尼\"]不必了。这件事对他的伤害之大，我甚至不敢说自己能理解，也只能想象了。\n[name=\"车尔尼\"]等他什么时候愿意见我或芙蓉了，那时候再说吧。\n[name=\"车尔尼\"]再见，博士。\n[Dialog]\n[Character(name=\"avg_4047_pianst_1#2$1\",focus=-1)]\n[Decision(options=\"再见。;……;期待您在战斗之余创作出不输以往的音乐。\", values=\"1;2;3\")]"
+        }
+      ],
+      "description": "车尔尼与博士直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_4047_pianst",
+          "reason": "车尔尼直接称呼并感谢博士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士回应车尔尼并处理其前线申请。",
+          "status": "supported",
+          "to": "char_4047_pianst"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9c4c498e9c50a10e.json",
+      "sources": [
+        {
+          "endLine": 338,
+          "kind": "story",
+          "line": 258,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛走廊谈话",
+      "title": "尘影余音"
+    }
+  ],
+  "relationship_id": "char_4047_pianst|npc_b99957887950ebfd"
+}

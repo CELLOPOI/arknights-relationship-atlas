@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 512,
+          "line": 491,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_graceb_1_1.txt",
+          "quote": "[name=\"？？？\"]抱歉，打扰到你们了吗？\n[charslot(slot=\"m\",name=\"avg_npc_1781_1#3$1\",focus=\"m\")]\n[name=\"潘格尼尼\"]你谁啊你？\n[Dialog]\n[charslot]\n[delay(time=0.3)]\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#14$1\",duration=1)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#14$1\",focus=\"m\")]\n[name=\"努艾达\"]请叫我努艾达就好。请放心，我没带那些除了垫桌角之外什么用都没有的“慰问品”。\n[name=\"努艾达\"]这瓶药膏是我们自己磨的，镇痛效果稍差些，但不会像医院的药一样有成瘾风险。\n[name=\"努艾达\"]不介意的话，这些冰淇淋也请您收下。我们听取了一位叫伊蒂达的姑娘的建议，用了比较……特殊的配方。\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#13$1\",focus=\"m\")]\n[name=\"努艾达\"]请相信，它虽然和一般的冰淇淋一样甜，但绝对不含一粒糖，不会影响您康复。\n[charslot(slot=\"m\",name=\"avg_npc_1781_1#3$1\",focus=\"m\")]\n[name=\"潘格尼尼\"]你说话倒确实不像教皇厅的人。怎么，难道帕特里奇昂自己不好意思来，拜托无辜的小姑娘替他来挨骂了？\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#12$1\",focus=\"m\")]\n[name=\"努艾达\"]这方面也请放心，我确实不为教皇厅工作，也真的不认识帕特里奇昂先生。我是自己要来的。\n[charslot(slot=\"m\",name=\"avg_npc_1781_1#3$1\",focus=\"m\")]\n[name=\"潘格尼尼\"]图啥？\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#15$1\",focus=\"m\")]\n[name=\"努艾达\"]也许只是因为我是个修女吧，这是我该做的事。"
+        }
+      ],
+      "description": "努艾达登门探望潘格尼尼，双方当面对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4187_graceb",
+          "reason": "努艾达此前已具体谈及潘格尼尼，随后亲自登门并与他连续对话。",
+          "status": "supported",
+          "to": "npc_526e9c060438eec9"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_526e9c060438eec9",
+          "reason": "潘格尼尼当面询问努艾达身份和来意，并接续回应她。",
+          "status": "supported",
+          "to": "char_4187_graceb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_ead5e461d658ff8f.json",
+      "sources": [
+        {
+          "endLine": 512,
+          "kind": "story",
+          "line": 491,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_graceb_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "努艾达前往工坊探望受伤的潘格尼尼时",
+      "title": "聆音"
+    }
+  ],
+  "relationship_id": "char_4187_graceb|npc_526e9c060438eec9"
+}

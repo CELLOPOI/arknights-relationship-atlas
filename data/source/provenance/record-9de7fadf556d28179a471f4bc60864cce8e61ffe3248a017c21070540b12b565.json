@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 415,
+          "line": 367,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_zumama_1_1.txt",
+          "quote": "[name=\"至简\"]（打哈欠）画设计图画得太入迷，我一定是出现幻觉了……\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#4$1\")]\n[name=\"大祭司\"]小子，说谁是幻觉呢！\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#4$1\")]\n[name=\"至简\"]你不是回阿卡胡拉了吗？\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#4$1\")]\n[name=\"大祭司\"]管这么多干嘛，小心操心太多变秃头。\n[Dialog]\n[delay(time=1)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[charslot(slot = \"left\", name = \"avg_npc_1429_1#1$1\")]\n[charslot(slot = \"right\", name = \"avg_4054_malist_1#1$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot = \"right\", name = \"avg_4054_malist_1#1$1\",focus=\"r\")]\n[name=\"至简\"]建造一座移动城市？在雨林里？\n[name=\"至简\"]她的设计图呢？拿来我看看。\n[charslot(slot = \"left\", name = \"avg_npc_1429_1#1$1\",focus=\"l\")]\n[name=\"大祭司\"]就在这儿。\n[name=\"大祭司\"]（小声）小姑娘，别怪我，你以前的习作我就拿来用了。这也是为了所有人好。\n[Dialog]\n[PlaySound(key=\"$d_avg_paper1\", volume=1)]\n[charslot(slot = \"right\", name = \"avg_4054_malist_1#7$1\",focus=\"r\")]\n[delay(time=1)]\n[name=\"至简\"]挺标准的，她什么时候学的这些……\n[charslot(slot = \"right\", name = \"avg_4054_malist_1#10$1\",focus=\"r\")]\n[name=\"至简\"]……嗯？\n[name=\"至简\"]姑且问一下，在这份设计图里，这些粗壮的管子是什么？\n[name=\"至简\"]这几个像是拳头一样的东西又是什么？\n[charslot(slot = \"left\", name = \"avg_npc_1429_1#1$1\",focus=\"l\")]\n[name=\"大祭司\"]火炮炮管，机械臂，以及，这两边是导弹舱。\n[charslot(slot = \"right\", name = \"avg_4054_malist_1#1$1\",focus=\"r\")]\n[name=\"至简\"]……\n[charslot(slot = \"right\", name = \"avg_4054_malist_1#1$1\",focus=\"r\")]\n[name=\"至简\"]居住区呢？她打算让人住在哪里？\n[charslot(slot = \"left\", name = \"avg_npc_1429_1#1$1\",focus=\"l\")]\n[name=\"大祭司\"]炮口下、储藏间、驾驶室。主要是炮口下，因为炮口足够多。\n[charslot(slot = \"right\", name = \"avg_4054_malist_1#10$1\",focus=\"r\")]\n[name=\"至简\"]……我不是真的在问这个。\n[charslot(slot = \"left\", name = \"avg_npc_1429_1#1$1\",focus=\"l\")]\n[name=\"大祭司\"]我也这么觉得。\n[charslot(slot = \"right\", name = \"avg_4054_malist_1#7$1\",focus=\"r\")]\n[name=\"至简\"]看到她居然还认真考虑过商业设施和交通方式，我都有点感动了……\n[charslot(slot = \"left\", name = \"avg_npc_1429_1#1$1\",focus=\"l\")]\n[name=\"大祭司\"]那个先不管，斯第奇，情况都这么严重了，我是来找你要许可的。\n[name=\"大祭司\"]能不能让小姑娘干脆复刻一份你的设计算了？\n[charslot(slot = \"right\", name = \"avg_4054_malist_1#1$1\",focus=\"r\")]\n[name=\"至简\"]你是说，让她再建一个和我的设计一样的聚落，只是搬上移动平台？"
+        }
+      ],
+      "description": "至简与大祭司在罗德岛房间内直接讨论森蚺的设计。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_4054_malist",
+          "reason": "至简与大祭司在罗德岛房间内直接讨论森蚺的设计。",
+          "status": "supported",
+          "to": "npc_ec93b1be1e69c694"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_ec93b1be1e69c694",
+          "reason": "至简与大祭司在罗德岛房间内直接讨论森蚺的设计。",
+          "status": "supported",
+          "to": "char_4054_malist"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_543f56d0a4680e7b.json",
+      "sources": [
+        {
+          "endLine": 415,
+          "kind": "story",
+          "line": 367,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_zumama_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇候选窗所示时段",
+      "title": "森蚺"
+    }
+  ],
+  "relationship_id": "char_4054_malist|npc_ec93b1be1e69c694"
+}

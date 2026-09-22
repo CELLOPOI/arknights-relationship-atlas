@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 295,
+          "line": 278,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_st03.txt",
+          "quote": "[name=\"罗拉\"]……我们为什么要选在这个时候起航啊……我还想去送送杰西卡和伍德洛先生。\n[charslot(slot=\"m\",name=\"avg_106_franka_1#3$1\")]\n[name=\"芙兰卡\"]别抱怨啦，快来收拾你的衣服吧。\n[charslot(slot=\"m\",name=\"avg_106_franka_1#9$1\")]\n[name=\"芙兰卡\"]堆得满地都是……啧啧。\n[charslot(slot=\"m\",name=\"avg_4105_almond_1#5$1\")]\n[name=\"罗拉\"]为什么你们都不着急，杰西卡去了拓荒地，以后我们再见面就不知道是什么时候啦……\n[charslot(slot=\"m\",name=\"avg_107_liskam_1#1$1\")]\n[name=\"雷蛇\"]杰西卡的离职申请克里夫先生没有批准……就算去了拓荒地，她还是黑钢的员工。\n[charslot(slot=\"m\",name=\"avg_4105_almond_1#9$1\")]\n[name=\"罗拉\"]什么，可是她这次去拓荒地……是、是要服刑的啊……\n[charslot(slot=\"m\",name=\"avg_107_liskam_1#1$1\")]\n[name=\"雷蛇\"]嗯，没错……带着黑钢员工的身份……和工作。\n[charslot(slot=\"m\",name=\"avg_4105_almond_1#7$1\")]\n[name=\"罗拉\"]……工作？\n[charslot(slot=\"m\",name=\"avg_107_liskam_1#9$1\")]\n[name=\"雷蛇\"]是的，去哪里也躲不掉的工作。\n[name=\"雷蛇\"]说不准哪天在拓荒地出任务，我们就得去找她。"
+        }
+      ],
+      "description": "雷蛇具体提及克里夫，仅支持雷蛇到克里夫。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_107_liskam",
+          "reason": "雷蛇明确知道克里夫尚未批准杰西卡辞职。",
+          "status": "supported",
+          "to": "npc_b9643057e24653f0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b9643057e24653f0",
+          "reason": "克里夫未在场，本组没有其知晓雷蛇的证据。",
+          "status": "not_established",
+          "to": "char_107_liskam"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_33ca7bdde9f73b0b.json",
+      "sources": [
+        {
+          "endLine": 295,
+          "kind": "story",
+          "line": 278,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "雷蛇等人讨论杰西卡辞职时",
+      "title": "不义之财"
+    }
+  ],
+  "relationship_id": "char_107_liskam|npc_b9643057e24653f0"
+}

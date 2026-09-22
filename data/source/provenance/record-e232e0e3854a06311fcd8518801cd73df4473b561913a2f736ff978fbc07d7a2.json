@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1100,
+          "line": 1088,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "quote": "[name=\"依娜姆\"]那个好像把自走车和大丑融合起来的怪里怪气的机械是……？\n[character(name=\"avg_1026_gvial2_1#10$1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"嘉维尔\"]我记得杜林人取的名字叫“巨大的终极丑东西Mk5”。\n[character(name=\"avg_1026_gvial2_1#10$1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]……\n[character(name=\"avg_1026_gvial2_1#3$1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"嘉维尔\"]虽然这东西还是打不过我，但在祖玛玛和黛柯绮·银币他们的努力之下，已经是合格的工业机器人了。\n[character(name=\"avg_1026_gvial2_1#3$1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"嘉维尔\"]你要是晚回来两天，杜林聚落就完工了！\n[character(name=\"avg_1026_gvial2_1#3$1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]……\n[name=\"依娜姆\"]我以为我在做梦。\n[name=\"依娜姆\"]嘉维尔，打我一下。"
+        }
+      ],
+      "description": "依娜姆在询问机器人时听到嘉维尔对黛柯绮的具体介绍，反向未在本段建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P02"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "依娜姆在询问机器人时听到嘉维尔对黛柯绮的具体介绍，反向未在本段建立。",
+          "status": "supported",
+          "to": "npc_aca999454e1f5740"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aca999454e1f5740",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_e04ed917f7bcbf85"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_442d4ba2a3a71a0d.json",
+      "sources": [
+        {
+          "endLine": 1100,
+          "kind": "story",
+          "line": 1088,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "百炼嘉维尔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 77,
+          "line": 65,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_beg.txt",
+          "quote": "[name=\"克罗绮·砖石\"]我也赞同——\n[Character(name=\"avg_npc_567_1#1$1\", name2=\"avg_4054_malist_1#1$1\",focus=1)]\n[name=\"卡奇·叙光\"]克罗绮小姐？你这是喝酒了吗？\n[Character(name=\"avg_npc_566_1#9$1\")]\n[name=\"克罗绮·砖石\"]没事啦，就喝了一点点。\n[Character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]喝了三桶。\n[Character(name=\"avg_npc_566_1#8$1\")]\n[name=\"克罗绮·砖石\"]斯第奇，你的方案我听说了，我很有兴趣。\n[Character(name=\"avg_npc_566_1#8$1\")]\n[name=\"克罗绮·砖石\"]既然卡奇也不太反对，那事情就好办了！\n[Character(name=\"avg_npc_566_1#9$1\")]\n[name=\"克罗绮·砖石\"]只要再找到黛柯绮，我们就能推着际崖城搞出点新东西啦！"
+        }
+      ],
+      "description": "依娜姆仍在和克罗绮等人交谈，听到她具称要找到黛柯绮；下一段转场不抹去此前已发生的单向获知。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "依娜姆仍在和克罗绮等人交谈，听到她具称要找到黛柯绮；下一段转场不抹去此前已发生的单向获知。",
+          "status": "supported",
+          "to": "npc_aca999454e1f5740"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aca999454e1f5740",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_e04ed917f7bcbf85"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 77,
+          "kind": "story",
+          "line": 65,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "理想城：长夏狂欢季"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 88,
+          "line": 15,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_zumama_1_1.txt",
+          "quote": "[name=\"依娜姆\"]祖玛玛，你回来啦。\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#3$1\")]\n[name=\"森蚺\"]我看到你的信了。不过，帕夏发现了杜林人的事，这种情况不是该让嘉维尔回来解决吗？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]倒也没那么严重，至少现在没那么严重了。\n[name=\"依娜姆\"]我带着杜林人酿的好酒去了趟宫廷，总算打消了那几个探子给帕夏灌输的疑心，他现在只觉得阿卡胡拉多了一帮又能喝又会酿的酒鬼。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\")]\n[name=\"大祭司\"]那事情不就解决了吗？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]大祭司，你也回来了啊。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\")]\n[name=\"大祭司\"]我哪次被炸飞之后没回来的？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]你又被炸飞了？\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#1$1\")]\n[name=\"森蚺\"]大祭司爷爷，先别打岔，好吗？\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#3$1\")]\n[name=\"大祭司\"]听见了吗？依娜姆，别打岔！事情不是解决了吗？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]不是你自己先离题的吗？\n[name=\"依娜姆\"]……算了。\n[name=\"依娜姆\"]帕夏喝了酒确实高兴得不行，可高兴之余大笔一挥，让阿卡胡拉“搞搞建设，别总像个无人区似的，给整个行省丢脸”。\n[name=\"依娜姆\"]杜林人现在正忙着修他们自己的新聚落，一点时间都挤不出来，我只能把你们叫回来搞设计了。怎么样，感觉好办吗？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#3$1\")]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]祖玛玛？\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#3$1\")]\n[name=\"森蚺\"]湖边那些形状很漂亮的钢架……\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]哦，湖边那座钢架沙堡啊。\n[name=\"依娜姆\"]那个是上次斯第奇回来建的新际崖城模型，杜林人都很喜欢，他们现在正按这个建他们的新聚落呢。\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#11$1\")]\n[name=\"森蚺\"]……好厉害。\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]确实厉害，所以，作为他们的邻居，我们就更需要你了。\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#1$1\")]\n[name=\"森蚺\"]提亚卡乌们怎么说？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]除了“要大！”和“要高！”之外，没什么特别的意见。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"left\", name = \"avg_npc_566_1#8$1\",duration = 1)]\n[charslot(slot = \"right\", name = \"avg_npc_569_1#8$1\",duration = 1)]\n[delay(time=1.5)]\n[charslot(slot = \"right\", name = \"avg_npc_569_1#8$1\",focus=\"r\")]\n[name=\"黛柯绮·银币\"]要大的和要高的还打了一架。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#4$1\")]\n[name=\"森蚺\"]结果呢？\n[charslot]\n[charslot(slot = \"right\", name = \"avg_npc_569_1#8$1\",focus=\"l\")]\n[charslot(slot = \"left\", name = \"avg_npc_566_1#8$1\",focus=\"l\")]\n[name=\"克罗绮·砖石\"]没打出结果。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]所以说，祖玛玛，提亚卡乌的聚落能不能和杜林人的一较高下，可就全看你了。\n[name=\"依娜姆\"]你在罗德岛上也学了不少新东西吧？自从去了罗德岛，你的眼神就不一样了。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#1$1\")]\n[name=\"大祭司\"]我呢？\n[charslot(slot=\"m\",name=\"avg_npc_075\")]\n[name=\"依娜姆\"]你？你像现在这样就挺好的啊，有心情了来帮帮大家，没心情的时候，大家也没指望你做什么嘛。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#4$1\")]\n[name=\"大祭司\"]小姑娘，你听听她说的是什么话！\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#4$1\")]\n[charslot(slot = \"m\", action=\"jump\",power=30,times=1,duration = 0.3)]\n[name=\"大祭司\"]小姑娘？祖玛玛？森蚺干员？\n[charslot(slot=\"m\",name=\"avg_416_zumama_1#3$1\")]\n森蚺一个字也没听见。\n她直勾勾地盯着湖边的“新际崖城”，不知道是在欣赏、在消化心中的震撼、在心里盘算如何“一较高下”，还是兼而有之。\n[charslot(slot=\"m\",name=\"avg_npc_1429_1#4$1\")]\n[name=\"大祭司\"]哼，不指望就不指望，那这次我可一点都不管了！你们就自己搞去吧，搞砸了可别来问我！"
+        }
+      ],
+      "description": "五人在瀑布边共同讨论聚落建设，属于实际局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_aca999454e1f5740",
+          "reason": "五人在瀑布边共同讨论聚落建设，属于实际局部同场。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "五人在瀑布边共同讨论聚落建设，属于实际局部同场。",
+          "status": "supported",
+          "to": "npc_aca999454e1f5740"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_543f56d0a4680e7b.json",
+      "sources": [
+        {
+          "endLine": 88,
+          "kind": "story",
+          "line": 15,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_zumama_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇候选窗所示时段",
+      "title": "森蚺"
+    }
+  ],
+  "relationship_id": "npc_aca999454e1f5740|npc_e04ed917f7bcbf85"
+}

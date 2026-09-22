@@ -1,0 +1,22 @@
+{
+  "id": "import:char_4088_hodrer|npc_0957af9bf990438d",
+  "published": true,
+  "quote": "【生于黑夜】\n赫德雷：很久不见了。\nScout：唔……你？你原来……还活着。\n赫德雷：嗯。\n赫德雷：我一直在跟着你，只靠伊内丝，很难对付你这样的高手。\n赫德雷：虽然交易内容就是要付出性命，我们也没打算手下留情，但我还是希望你能……\n赫德雷：可现在我们已经不能给你更多机会了，这里太过靠近核心城了，W不希望任何人的注意力转移到这里。\nScout：呵……听上去……现在她才是队长了……\nScout：你……原来……\n赫德雷：……抱歉。睡吧，老朋友。\nScout：你们……不该继续待在这里……\n赫德雷：……我知道的，老朋友。\n\n【破碎日冕】\n赫德雷：又见面了，罗德岛的领导人。\n阿米娅：W小姐她……\n赫德雷：你确定要先聊她的事吗？我听说你们的时间很紧张。\n阿米娅：我可以不问你们之间发生了什么。切尔诺伯格和Scout的事……我也同意暂且放到一边。\n阿米娅：但是，雇佣兵先生，如果此刻你一定要挡在我们身前，我动手的时候绝不会犹豫。\n赫德雷：死在那位殿下的继承人手上，对一名雇佣兵来说，也算是一种荣耀了。\n可露希尔：阿米娅，你最好快一点！",
+  "relationship_id": "char_4088_hodrer|npc_0957af9bf990438d",
+  "sources": [
+    {
+      "endLine": 237,
+      "kind": "story",
+      "line": 221,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 396,
+      "kind": "story",
+      "line": 385,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

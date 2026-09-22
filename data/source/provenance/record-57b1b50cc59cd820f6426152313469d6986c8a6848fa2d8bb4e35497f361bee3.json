@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 320,
+          "line": 318,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "quote": "[name=\"魏斯\"]那么，在下有要务在身，需要借用一会儿博士，不知佩尔罗契家可否行个方便？\n[character(name=\"avg_npc_261_1#1$1\")]\n[name=\"瓦莱丝\"]……请便。"
+        }
+      ],
+      "description": "讯使向佩尔罗契家请求借用博士，瓦莱丝当面答应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "char_198_blackd",
+          "reason": "讯使向佩尔罗契家请求借用博士，瓦莱丝当面答应。",
+          "status": "supported",
+          "to": "npc_e93a864a5413aa6c"
+        },
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_e93a864a5413aa6c",
+          "reason": "讯使向佩尔罗契家请求借用博士，瓦莱丝当面答应。",
+          "status": "supported",
+          "to": "char_198_blackd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 320,
+          "kind": "story",
+          "line": 318,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_198_blackd|npc_e93a864a5413aa6c"
+}

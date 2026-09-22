@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 620,
+          "line": 599,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-14_end.txt",
+          "quote": "[name=\"九\"]  ——我也有身为近卫局一员的自尊。记得我这个背影就够了，替我向近卫局所有人问好。\n[name=\"九\"]  还有魏。替我向他问好。\n[Character(name=\"char_010_chen_1#3\")]\n[name=\"陈\"]  你去哪？\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  我受的伤一定会让我感染的。感染者去哪，我就去哪。\n[Character(name=\"char_010_chen_1#3\")]\n[name=\"陈\"]  ……九，你即使成了感染者，也没必要走！你为龙门和近卫局做了这么多，大家都看在眼里！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  感染者有多让人害怕，大家也都看在眼里。就连这个源石炸弹……我想……我猜，嗯，也不知道是谁的造物。\n[name=\"九\"]  别再做梦了，陈。我必须说你一句。感染者和普通人之间的界限不是你我决定的，是他们自己决定的。\n[name=\"九\"]  不要插手太多贫民区感染者的事务，我警告过你，现在我们两人都遭殃了。\n[Character(name=\"char_010_chen_1\")]\n[name=\"陈\"]  ……我们已经准备好进驻贫民区了，不是吗？我们不是要出台新的感染者居住案吗，这不是变得比昨天更好吗？\n[name=\"陈\"]  我们已经准备好去平等善待感染者了，我们善待龙门的每一个人，不因为他们感染与否，而是因为他们是不是一个龙门人！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  我们准备好了，龙门准备好了吗？大众准备好了吗？商业联合会会投票吗？现在我告诉近卫局我是感染者，你猜会发生什么？\n[Character(name=\"char_010_chen_1\")]\n[name=\"陈\"]  你可以推动完这件事，再申报身份——\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  依靠权势去隐瞒自己的身份处理自己的病痛，和以权谋私有什么区别？我宁可被流放也不会这么做。\n[name=\"九\"]  魏彦吾一手建立，我们操持至今的近卫局……它既然代表法律，它就不能有一丝的不公正！"
+        }
+      ],
+      "description": "九要求陈替自己向魏彦吾问好，并明说其创建近卫局。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E38"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "九要求陈替自己向魏彦吾问好，并明说其创建近卫局。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_b554345833235f79"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 620,
+          "kind": "story",
+          "line": 599,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-14_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    }
+  ],
+  "relationship_id": "npc_08bc2cc38b820ef0|npc_b554345833235f79"
+}

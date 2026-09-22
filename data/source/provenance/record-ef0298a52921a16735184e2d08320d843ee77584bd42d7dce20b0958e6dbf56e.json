@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 139,
+          "line": 115,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-04_end.txt",
+          "quote": "[name=\"样貌奇特的老者\"] ……你也出来吧，赦罪师。\n[dialog]\n[character]\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 就在刚才，要是我执意进攻……即便那头漆黑的怪物不出来，你也会对我挥剑。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 赦罪师的一剑，就算是我也会被抵挡一瞬……呵，如果你真的会令它完全出鞘的话。\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]你知道……\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 我认识你们数百年了。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 倒不如说，你会来到那个异族继承者身边，这一点有些出乎我的意料。\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 忤逆的后果，你真能承担？\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]……无关我能不能。自我出生起，那些罪孽就一直在我身上。\n[Character(name=\"avg_npc_420_1#1$1\")]\n[name=\"样貌奇特的老者\"] 不错！你比在伦蒂尼姆戴着面具的那个要有趣一点。"
+        }
+      ],
+      "description": "食腐者之王叫隐藏的闪灵出来，双方直接讨论其赦罪师身份和罪孽。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "char_147_shining",
+          "reason": "食腐者之王叫隐藏的闪灵出来，双方直接讨论其赦罪师身份和罪孽。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        },
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_84fdad316566923c",
+          "reason": "食腐者之王叫隐藏的闪灵出来，双方直接讨论其赦罪师身份和罪孽。",
+          "status": "supported",
+          "to": "char_147_shining"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 139,
+          "kind": "story",
+          "line": 115,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_147_shining|npc_84fdad316566923c"
+}

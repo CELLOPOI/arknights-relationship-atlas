@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 523,
+          "line": 511,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_end.txt",
+          "quote": "[name=\"阿格尼尔\"]以卡拉奇为饵，将自己的儿子也算计其中不说，甚至以对付西西里的大义，骗过了自己的手下，只为将城里的水搅浑。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]即使萨卢佐家那头离群的小狼插手，你也没有丝毫动摇，反而是借此将萨卢佐拖下水。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]高调地刺杀罗塞蒂家族的小丫头，一方面是要阿尔贝托放心与你同盟，一方面，却也是做给其他家族看。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]最后的德克萨斯这张牌，也得到了充分的利用，罗塞蒂在乔万娜手上是一把藏锋于鞘中的利剑。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]在瓦拉赫手中，却是锋芒毕露的凶刃。\n[Character(name=\"avg_npc_692_1#1$1\")]\n[name=\"阿格尼尔\"]卢比奥与卡拉奇的联系被你看在眼里，甚至他的愤怒都被你利用，他以为他的隐忍无人知晓，却不曾想早已被你探知到。\n[Character(name=\"avg_npc_685_1#2$1\")]\n[name=\"贝纳尔多\"]……我知道你会在城里，却没想到，我的布局，全都被看穿了。"
+        }
+      ],
+      "description": "阿格尼尔分析计划时明确提及瓦拉赫。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_686d8dda781355b1",
+          "reason": "阿格尼尔分析计划时明确提及瓦拉赫。",
+          "status": "supported",
+          "to": "npc_20d12590d6754866"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_20d12590d6754866",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_686d8dda781355b1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 523,
+          "kind": "story",
+          "line": 511,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "npc_20d12590d6754866|npc_686d8dda781355b1"
+}

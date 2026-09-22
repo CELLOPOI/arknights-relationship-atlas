@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 54,
+          "line": 13,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_03_end.txt",
+          "quote": "[name=\"维恩\"]唉，谁能想到逃难了这么多天，居然还能安安稳稳坐在屋子里吃上一顿热饭菜。\n[name=\"维恩\"]那个叫风笛的姑娘可真讨人喜欢，刚刚我们还在夸她炖的菜好吃呢。\n[Character(name=\"avg_npc_662_1#8$1\",name2=\"avg_npc_725_1#8$1\",focus=1)]\n[name=\"陈\"]嗯，这方面她确实不赖。\n[name=\"陈\"]安置的事，你们商量得顺利吗？\n[Character(name=\"avg_npc_662_1#8$1\",name2=\"avg_npc_725_1#8$1\",focus=2)]\n[name=\"维恩\"]都说定啦，赶不了路的人都可以留下，这两天先借两间仓库躲一躲。\n[name=\"维恩\"]逃难的人跟商队打了一架，又没真的抢到什么东西，这种事太常见了，办案的不会放在心上。\n[name=\"维恩\"]过个几天，广播里不报这些事情了，他们就不用躲了，可以动手建自己的房子了。\n[Character(name=\"avg_npc_662_1#8$1\",name2=\"avg_npc_725_1#1$1\",focus=2)]\n[name=\"维恩\"]呃，不过得了矿石病的那几位，要住到离聚落远一些的地方去。\n[Character(name=\"avg_npc_662_1#8$1\",name2=\"avg_npc_725_1#1$1\",focus=1)]\n[name=\"陈\"]这里的人很友善。\n[Character(name=\"avg_npc_662_1#8$1\",name2=\"avg_npc_725_1#1$1\",focus=2)]\n[name=\"维恩\"]唉，是啊，我们当初逃出来的时候，一路上要是有人收留，也不至于变成现在这样。\n[name=\"维恩\"]可这也不怪别人。以前聚落里收留一两批逃难的人，不是难事，只是现在大家都过得越来越糟糕了。\n[name=\"维恩\"]你瞧塞尔蒙那小孩，要是有个地方能容下他们兄妹俩，她也不至于一直在各个聚落之间窜来窜去，到处惹事。\n[Character(name=\"avg_npc_662_1#8$1\",name2=\"avg_npc_725_1#6$1\",focus=2)]\n[name=\"维恩\"]像咱们今天晚上可以在村子里过夜，但塞尔蒙坚持自己在村外躲着，就是因为她在这里抢过人家的牧兽，现在不好意思见那位老爷子……\n[name=\"维恩\"]……唉，当我没说。让她听到了，又要说我不尊重她。\n[Dialog]\n[Character]\n[playsound(key=\"$doorknockquite\")]\n[delay(time=1)]\n[PlaySound(key=\"$dooropenquite\", volume=1)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[Character(name=\"avg_npc_728_1#1$1\",fadetime=1,block=true)]\n[Delay(time=1.5)]\n[name=\"莫兰\"]晚上好……\n[Character(name=\"avg_npc_725_1#4$1\")]\n[name=\"维恩\"]啊，莫兰？天都黑了，你怎么过来的？趁现在还有灯，我带你回去……\n[Character(name=\"avg_npc_728_1#6$1\")]\n[name=\"莫兰\"]谢谢，但我已经习惯摸黑走路了……\n[Character(name=\"avg_npc_728_1#1$1\")]\n[name=\"莫兰\"]……请问，苇草在吗？\n[Character(name=\"avg_npc_662_1#1$1\")]\n[name=\"陈\"]你找她？她独自出门了。\n[Character(name=\"avg_npc_725_1#6$1\")]\n[name=\"维恩\"]也许苇草是有什么烦心事吧……自从来了这里，塞尔蒙就不肯和她说话。\n[Character(name=\"avg_npc_662_1#8$1\")]\n[name=\"陈\"]别担心，风笛去找她了。"
+        }
+      ],
+      "description": "陈直接回应莫兰寻找苇草的问题。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "F04"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈直接回应莫兰寻找苇草的问题。",
+          "status": "supported",
+          "to": "npc_ba59079f928b1d1d"
+        },
+        {
+          "evidenceIds": [
+            "F04"
+          ],
+          "from": "npc_ba59079f928b1d1d",
+          "reason": "陈直接回应莫兰寻找苇草的问题。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_3bf465e623ed380f.json",
+      "sources": [
+        {
+          "endLine": 54,
+          "kind": "story",
+          "line": 13,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act22side/level_act22side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“照我以火”事件期间",
+      "title": "照我以火"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_ba59079f928b1d1d"
+}

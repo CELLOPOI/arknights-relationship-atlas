@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 646,
+          "line": 583,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-12_end.txt",
+          "quote": "[name=\"摩根\"]汉娜，看你前面的路！\n[CharacterCutin(widgetID=\"3\", name=\"avg_155_tiger_1#9$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=-300, width=200, block=true)]\n[name=\"因陀罗\"]好吧好吧——！\n[Dialog]\n[CharacterCutin(widgetID=\"3\",fadetime=0.2,block=false)]\n[CharacterCutin(widgetID=\"4\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[Dialog]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#7$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=0, width=200, block=true)]\n[name=\"推进之王\"]让战车尽量抵近法阵的核心，我来搞定那东西！\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[CharacterCutin(widgetID=\"4\", name=\"avg_npc_405_1#4$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"摩根\"]维娜！\n[Dialog]\n[CharacterCutin(widgetID=\"4\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#10$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"推进之王\"]你们还有其他的任务。\n[name=\"推进之王\"]所有人员按照常规部署整队。摩根，汉娜，你们和号角小姐按原计划指挥战车开路。\n[name=\"推进之王\"]希勒少尉、达格达、戴菲恩，麻烦你们指挥地面编队组织防线，拦住那些血魔大君的小虫。\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"3\", name=\"avg_4110_delphn_1#1$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=-300, width=200, block=true)]\n[name=\"戴菲恩\"]放心。\n[Dialog]\n[CharacterCutin(widgetID=\"3\",fadetime=0.1,block=false)]\n[delay(time=0.2)]\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"4\", name=\"avg_npc_1070_1#1$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=0, width=200, block=true)]\n[name=\"希勒少尉\"]收到。\n[Dialog]\n[CharacterCutin(widgetID=\"4\",fadetime=0.1,block=false)]\n[delay(time=0.2)]\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"5\", name=\"avg_npc_396_1#1$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=300, width=200, block=true)]\n[name=\"达格达\"]收到。\n[Dialog]\n[CharacterCutin(widgetID=\"5\",fadetime=0.1,block=false)]\n[delay(time=0.2)]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#10$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"推进之王\"]Misery先生，敌方部队的指挥官交给你了。\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"6\", name=\"avg_npc_235\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=0, width=200, block=true)]\n[name=\"Misery\"]你大胆执行你的计划即可。\n[Dialog]\n[CharacterCutin(widgetID=\"6\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"n\")]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#10$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=-300, width=200, block=true)]\n[name=\"推进之王\"]费斯特，好久不见，寒暄放在之后。我需要自救军帮我布置滑索到法阵上方。\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"r\")]\n[name=\"费斯特\"]没问题！\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"n\")]\n[name=\"推进之王\"]事不宜迟，先把那个奇怪的法阵给解决了再说。\n[name=\"推进之王\"]我的背后就交给各位了。"
+        }
+      ],
+      "description": "双方在推进之王部署中直接协作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "char_154_morgan",
+          "reason": "双方在推进之王部署中直接协作。",
+          "status": "supported",
+          "to": "npc_4ce094568abc6a81"
+        },
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "npc_4ce094568abc6a81",
+          "reason": "双方在推进之王部署中直接协作。",
+          "status": "supported",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 646,
+          "kind": "story",
+          "line": 583,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "布伦特伍德联合行动",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 184,
+          "line": 128,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_end.txt",
+          "quote": "[name=\"因陀罗\"]你看，我揍起人来可不会被这种伤拖累。达格达，这次可不许你在我前头。\n[charslot(slot=\"m\",name=\"avg_npc_396_1#6$1\",focus=\"m\")]\n[name=\"达格达\"]哼。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我吃完了，再带人去巡逻一圈，确认一下情况，保证行动万无一失。\n[name=\"戴菲恩\"]既然军事委员会选择在这个修筑城墙的工人们才知道的备用接驳口布防，说明他们对城内的掌控情况远超我们的估计。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"n\")]\n[name=\"？？？\"]戴菲恩小姐，巡逻的工作我已经完成了。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#4$1\",focus=\"m\")]\n[name=\"戴菲恩\"]——？！\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#5$1\",duration=1)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#5$1\",focus=\"m\")]\n[name=\"希勒少尉\"]抱歉，能给我也分一些口粮吗？我还没有吃早饭呢。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#9$1\",focus=\"m\")]\n[name=\"摩根\"]少尉？！你……你不是受伤还在休息吗？\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#1$1\",focus=\"m\")]\n[name=\"希勒少尉\"]我是军医，女士，我很清楚该如何让一名士兵以最快的速度恢复战斗力。\n[name=\"希勒少尉\"]戴菲恩小姐，我很清楚自己的情况。我现在已经归队，加入你们的行动。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#9$1\",focus=\"m\")]\n[name=\"维娜\"]把防护设备让给伤员，自己暴露在高浓度源石环境中，且正面承受了巫术炸弹的袭击……你应该很清楚自己的情况，少尉。\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#1$1\",focus=\"m\")]\n[name=\"希勒少尉\"]知道。虽然没有条件做血液检测，但我很清楚感染的病理进程。\n[name=\"希勒少尉\"]那又如何？在这里，这算是什么特殊的事情吗？\n[dialog]\n[charslot]\n他环顾了一周，典范军士兵们拥挤在不算宽敞的甬道周围。\n尘土和源石粉尘成为他们脸上最好的迷彩，但他们眼睛中的光芒却未有一刻黯淡。\n他们很清楚自己在做什么，也清楚将要付出什么。\n但现在，他们在歌唱。\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"欢乐地歌唱♪\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#9$1\",focus=\"m\")]\n[name=\"维娜\"]好，戴菲恩，你同意少尉归队吗？\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#5$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……\n[dialog]\n[charslot]\n戴菲恩看到了希勒少尉手中捏着的东西，尽管他竭力藏在身后——止痛剂。\n在难以供给足量矿石病抑制剂的情况下，止痛剂就是应对矿石病痛苦的最佳选择。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#5$1\",focus=\"m\")]\n[name=\"戴菲恩\"]你能坚持下去吗？\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#5$1\",focus=\"m\")]\n[name=\"希勒少尉\"]当然。戴菲恩小姐，别忘了，我还想看着您回家拿回本就属于您的东西呢。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#5$1\",focus=\"m\")]\n[name=\"戴菲恩\"]你……本可以不参与进来。\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#5$1\",focus=\"m\")]\n[name=\"希勒少尉\"]您不也一样吗？\n[name=\"希勒少尉\"]既然您想看到这支队伍能走到何处，这座城市会变成什么样，那我也一样。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#10$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……好，少尉，归队吧。"
+        }
+      ],
+      "description": "char_154_morgan与希勒少尉共同参与接驳口行动前集结。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_154_morgan",
+          "reason": "双方在连续行动现场直接对话或共同参与。",
+          "status": "supported",
+          "to": "npc_4ce094568abc6a81"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_4ce094568abc6a81",
+          "reason": "双方在连续行动现场直接对话或共同参与。",
+          "status": "supported",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 184,
+          "kind": "story",
+          "line": 128,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "接驳口行动期间",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_154_morgan|npc_4ce094568abc6a81"
+}

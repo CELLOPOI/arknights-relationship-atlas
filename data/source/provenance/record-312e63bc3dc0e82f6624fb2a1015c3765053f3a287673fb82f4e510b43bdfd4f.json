@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1082,
+          "line": 1066,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "quote": "[name=\"耶奇·地心\"]所以说，阿芙朵嘉，我已经进半决赛了，只要再打一轮，就一轮！\n[character(name=\"avg_npc_564_1#4$1\",name2=\"avg_4055_bgsnow_1#4$1\",focus=2)]\n[name=\"阿芙朵嘉\"]依娜姆？那边的是依娜姆吧！\n[character(name=\"avg_npc_564_1#4$1\",name2=\"avg_4055_bgsnow_1#7$1\",focus=2)]\n[name=\"阿芙朵嘉\"]你总算回来了！快帮我劝劝耶奇长老，让他号召大家别再玩什么自走机器人对战了！\n[character(name=\"avg_1026_gvial2_1#1$1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]嘉维尔？\n[character(name=\"avg_1026_gvial2_1#6$1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"嘉维尔\"]呃，怎么了吗？\n[character(name=\"avg_1026_gvial2_1#6$1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]别告诉我，你是为了给杜林人戒酒才举办的这个什么选拔赛。\n[character(name=\"avg_1026_gvial2_1#7$1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"嘉维尔\"]其实……也差不多？\n[character(name=\"avg_1026_gvial2_1#7$1\",name2=\"avg_npc_075\",focus=2)]\n[name=\"依娜姆\"]那杜林人的聚落呢？！\n[character(name=\"avg_1026_gvial2_1#10$1\",name2=\"avg_npc_075\",focus=1)]\n[name=\"嘉维尔\"]你看。"
+        }
+      ],
+      "description": "耶奇、依娜姆和嘉维尔在阿芙朵嘉当面招呼的同一局部场景中。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "npc_3b2937f62c55f178",
+          "reason": "耶奇、依娜姆和嘉维尔在阿芙朵嘉当面招呼的同一局部场景中。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "耶奇、依娜姆和嘉维尔在阿芙朵嘉当面招呼的同一局部场景中。",
+          "status": "supported",
+          "to": "npc_3b2937f62c55f178"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_442d4ba2a3a71a0d.json",
+      "sources": [
+        {
+          "endLine": 1082,
+          "kind": "story",
+          "line": 1066,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "百炼嘉维尔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 296,
+          "line": 282,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_beg.txt",
+          "quote": "[name=\"嘉维尔\"]呼，事情似乎顺利解决？虽然我们好像什么都没干。\n[Character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]我们还是经历了一些艰苦卓绝的谈判的。对吧，克罗绮？\n[Character(name=\"avg_npc_566_1#6$1\")]\n[name=\"克罗绮·砖石\"]耶奇老头！快点喝！你在杯子里养鳞呢？！\n[Character(name=\"avg_npc_564_1#7$1\")]\n[name=\"耶奇·地心\"]咳咳咳！我、我歇口气！\n[Character(name=\"avg_npc_572_1#4$1\")]\n[name=\"特米米\"]我们干了很多事呀，嘉维尔！我们一起买了一大堆东西，度过了一个不错的假期，还帮阿卡胡拉揽下了个大项目呢。\n[Character(name=\"avg_4055_bgsnow_1#1$1\")]\n[name=\"阿芙朵嘉\"]还把我的心情搞得很糟。\n[Character(name=\"avg_1026_gvial2_1#3$1\")]\n[name=\"嘉维尔\"]别这么说嘛，我还以为我们的交情已经变好了。\n[Character(name=\"avg_4054_malist_1#8$1\")]\n[name=\"斯第奇·画布\"]嗯，比想象的轻松点。"
+        }
+      ],
+      "description": "广场同一桌局部庆祝现场，依娜姆、克罗绮、耶奇直接参与。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "广场同一桌局部庆祝现场，依娜姆、克罗绮、耶奇直接参与。",
+          "status": "supported",
+          "to": "npc_3b2937f62c55f178"
+        },
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "npc_3b2937f62c55f178",
+          "reason": "广场同一桌局部庆祝现场，依娜姆、克罗绮、耶奇直接参与。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 296,
+          "kind": "story",
+          "line": 282,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    }
+  ],
+  "relationship_id": "npc_3b2937f62c55f178|npc_e04ed917f7bcbf85"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 125,
+          "line": 52,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-04_beg.txt",
+          "quote": "[name=\"Logos\"]这里的环境让人很不安，博士，我们之前还在一片密林中。\n[name=\"Logos\"]随着雾气渐浓，我们眼前的景色已然迥异。\n[name=\"Logos\"]一片……河谷。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_doc_1#1\",focus=\"m\",duration=2)]\n[delay(time=2)]\n这些东西都是幻觉吗，Logos？\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"博士负伤不轻，但语调已经恢复了沉稳。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[charslot]\n[Sticker(id=\"st1\", multi = true, text=\"阿斯卡纶沉默地抱着还未醒来的阿米娅，走在前列。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n她和以往一样，一言不发。但我能察觉到，她如今的沉默，比以往……更加暗淡。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我还记得她与我匆忙会合的时候，那一闪而过的，我难以分辨的表情。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]幻象自虚无中来，它们只是人脑中虚构的景色，就算再逼真也只会被归为虚假。\n[name=\"Logos\"]而这里不是。\n[name=\"Logos\"]这里的所有东西，都曾经真实地存在过。\n[name=\"Logos\"]构筑这样一个，“幻境”，不仅需要情报与信息，甚至需要，时间与空间。\n[name=\"Logos\"]这太困难。\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_boneflute\",volume=0.1)]\n[delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_doc_1#1\",focus=\"m\")]\n骨哨声？\n[dialog]\n[charslot]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我熟悉这片河谷。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我一直爱着这里。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]是的，女妖们的骨哨。未必有源石技艺的意味。\n[name=\"Logos\"]我们还小的时候，会在河边练习骨哨，我们会坐在草丛中，静静等待。直到小虫被大鳞吞下，直到大鳞被羽兽捉起。\n[name=\"Logos\"]骨哨声就会在此时鸣响。\n[charslot(slot=\"m\",name=\"avg_doc_1#1\",focus=\"m\")]\n这里为什么会有这样的景色？我们怎么才能离开？\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]我在尝试。\n[name=\"Logos\"]这种并非源石技艺的力量，只可能与更加古老的力量有关。\n[name=\"Logos\"]但它不该出现在这片战场上，出现在伦蒂尼姆的周边。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]所有的声音和场景都很难分辨真假，我们这支队伍的状态不好，必须提高警惕。\n[Dialog]\n[charslot]\n[musicvolume(volume=0.3, fadetime=1)]\n[delay(time=1)]\n[dialog]\n[charslot]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"河谷的那边，似乎有个人正在默默伫立。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#1$1\",bstart=0.2,bend=0.7,duration=1)]\n[delay(time=2.5)]\n[charslot(duration=0.5)]\n[delay(time=1)]\n[musicvolume(volume=1, fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]\n[name=\"Logos\"]……母亲。\n[charslot(slot=\"m\",name=\"avg_doc_1#1\",focus=\"m\")]\nLogos，怎么了？\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]……没什么。\n[name=\"Logos\"]尝试直接撕裂这片景色吧，这有些风险，但却是最好的方法。\n[name=\"Logos\"]我不知道离开这里是否安全，阿斯卡纶。"
+        }
+      ],
+      "description": "双方共同调查幻境并直接商议行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "双方共同调查幻境并直接商议行动。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "双方共同调查幻境并直接商议行动。",
+          "status": "supported",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 125,
+          "kind": "story",
+          "line": 52,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前行动或明确旧事",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_4132_ascln|npc_2a519e8c8e7b4e11"
+}

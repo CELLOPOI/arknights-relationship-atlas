@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 195,
+          "line": 161,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_06_end.txt",
+          "quote": "[name=\"瓦拉赫\"]你们或许没有小看乔万娜，但是不是有点太小看我了？\n[Character(name=\"avg_npc_698_1#1$1\")]\n[name=\"贝洛内家族成员\"]什——\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0, fadetime=0.3, block=false)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$e_skill_skulsrsword\",volume=0.7)]\n[Delay(time=1)]\n[playsound(key=\"$bodyfalldown1\")]\n[character(fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_695_1#1$1\",fadetime=1,block=true)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[delay(time=3)]\n[Character(name=\"avg_npc_690_1#9$1\")]\n[name=\"德米特里\"]你是……瓦拉赫。\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]哼，早知道今天演的是这样一出好戏，我就不费劲去给首领拿酒了。\n[Character(name=\"avg_npc_690_1#1$1\")]\n[name=\"德米特里\"]乔万娜小姐要是对酒感兴趣，我这里倒也有一些好货。\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]免了。\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]首领喜欢叙拉古的许多东西，但唯独叙拉古的酒，总是喝不惯。\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]叙拉古的酒，太软，就和你们挥动武器的力道一样，让人提不起劲。\n[Character(name=\"avg_npc_690_1#1$1\")]\n[name=\"德米特里\"]那或许是你们还没有喝过叙拉古真正的好酒。\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]所以，这不就是最好的机会吗？\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]你们知道我等这个机会等很久了吗？\n[Character(name=\"avg_npc_695_1#1$1\")]\n[name=\"瓦拉赫\"]贝洛内和萨卢佐，让我尝尝吧，叙拉古的好酒，到底是什么味道。"
+        }
+      ],
+      "description": "德米特里认出瓦拉赫，两人当面交涉。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_4037_demetr",
+          "reason": "德米特里认出瓦拉赫，两人当面交涉。",
+          "status": "supported",
+          "to": "npc_20d12590d6754866"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_20d12590d6754866",
+          "reason": "德米特里认出瓦拉赫，两人当面交涉。",
+          "status": "supported",
+          "to": "char_4037_demetr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 195,
+          "kind": "story",
+          "line": 161,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_4037_demetr|npc_20d12590d6754866"
+}

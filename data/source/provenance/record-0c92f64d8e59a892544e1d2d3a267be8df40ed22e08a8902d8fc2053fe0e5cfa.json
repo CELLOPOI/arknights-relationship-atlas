@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 496,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "quote": "[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"罗德岛干员\"]  ……怎么回事！\n[name=\"罗德岛干员\"]  可露希尔，生物处理室13号舱，给我图表！\n[name=\"罗德岛干员\"]  舱室的内部温度急剧升高！能量在外放！\n[name=\"罗德岛干员\"]  等等，它的形态在转化！经过十四小时的处理，为什么还会进入到这一阶段？\n[name=\"罗德岛干员\"]  PRTS，刚才是谁使用了这个舱位？\n[name=\"罗德岛干员\"]  Dr.{@nickname}？我们在龙门攻防战里有干员伤亡吗？这处理的是谁？\n[name=\"罗德岛干员\"]  什么？\n[name=\"罗德岛干员\"]  等等，你慢点说，你说Dr.{@nickname}在舱位里安置了谁？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\", fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  勋爵！\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我在听，博卓卡斯替。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我们温迪戈，自我流放，失去一切。\n[name=\"爱国者\"]  但我们身负，萨卡兹的传统。\n[name=\"爱国者\"]  先祖，塑造我，培育我，注视我。所以，请替我见证。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  博卓卡斯替……\n[name=\"凯尔希\"]  ……我不知道自己够不够格。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我认为你是，最好人选。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  ……\n[name=\"凯尔希\"]  “……我在此担当一位萨卡兹的见证者。博卓卡斯替，卡兹戴尔的温迪戈，一生从未背叛过血肉，也从未愧对亲族。”\n[name=\"凯尔希\"]  “他将把一生留在光芒下的身体里……”\n[name=\"凯尔希\"]  “……而他的精魂，则将回到温迪戈温热的血脉中去。”\n[name=\"凯尔希\"]  这是个诅咒。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  对我，并不是。\n[name=\"爱国者\"]  啊——我感到……我感到，我清晰的视野，开始模糊。\n[name=\"爱国者\"]  谢谢你，勋爵。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我以为你讨厌这些。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  可我，已经老了。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_perimeter\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  不……\n[name=\"幻影弩手\"]  这里是哪里？\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  哈，原来是这样。哈。\n[name=\"幻影弩手\"]  塔露拉真的背叛我们了。\n[name=\"幻影弩手\"]  你以为我们会坐以待毙吗？！\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  你们不是对手。\n[name=\"萨卡兹战士\"]  有来世的话，向我报仇。\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  就因为知道会死，所以就要放弃了吗？\n[name=\"幻影弩手\"]  就这样被你们无故杀了而——\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  别杀他们。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  梅菲斯特……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  魔族人，我会给你们不知疼痛的身躯。让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  我们比你的牧群强大得多。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  我可以把我的生命拿出来和你们分享，你们能真正地永远战斗，不知疲倦地战斗。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……可以。\n[name=\"萨卡兹战士\"]  但他们要出去，也必须由我的同伴看着。现在还不能违背塔露拉的命令。\n[name=\"萨卡兹战士\"]  你们，弩手。出去。\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  梅菲斯特？！\n[name=\"幻影弩手\"]  （为什么他会救我们……？难道塔露拉还有什么阴谋？）\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  不过，你为什么特意要到这里来？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  ……因为我想进去这里。我想知道这里有什么样的秘密。我想知道罗德岛究竟为什么会从这里带走一个人。\n[name=\"梅菲斯特\"]  因为我从录像里看到那个人从这里出来。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  梅菲斯特……？为什么？\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  你们，想听歌吗？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  可是，浮士德队长他说，他说……\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  是啊，是的。我已经不会唱了。\n[name=\"梅菲斯特\"]  嗯，但我可以试试。\n[name=\"梅菲斯特\"]  应该是首摇篮曲吧？不记得是有谁教过我这首曲子……我不记得了。\n[name=\"梅菲斯特\"]  只是有人在我的梦里，一直地哼。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉睡吧，沉睡吧♪\n刺猬玩偶与小熊们……\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  乌萨斯的，感染者，又要走去哪里？\n[name=\"爱国者\"]  晦暗的夜晚，还会遮蔽……多少明星？\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  ……大尉，大尉！\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  最后的命令。\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  大尉……\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  战斗下去。活下去。\n[name=\"爱国者\"]  你们的路，只有你们……自己去走。\n[name=\"爱国者\"]  走了，才有路。\n[name=\"爱国者\"]  我必定要死。只是不知道，是否该是现在。\n[name=\"爱国者\"]  我们的死，究竟能，改变什么？\n[name=\"爱国者\"]  也许这个问题，你们，才能回答。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉进静静的黑色……"
+        }
+      ],
+      "description": "确认前者单向知晓后者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_401_elysm",
+          "reason": "前者在已读场景中具体提及、观察或接收后者信息。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 496,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_69395c50206899b0"
+}

@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 163,
+          "line": 155,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st03.txt",
+          "quote": "[name=\"太傅\"] 太合。\n[character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"] 诸事顺遂。\n[character(name=\"avg_npc_301_1#1$1\")]\n[name=\"太傅\"] 好。\n[character(name=\"avg_npc_297_1#1$1\")]\n[name=\"左乐\"] ……太合叔，原来早就……\n[character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"] “取忠舍义”，公子莫怪。"
+        }
+      ],
+      "description": "太傅点名太合，太合当面报告。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E49"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太傅点名太合，太合当面报告。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "E49"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "太傅点名太合，太合当面报告。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 163,
+          "kind": "story",
+          "line": 155,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 274,
+          "line": 272,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_leizi_1_1.txt",
+          "quote": "[name=\"太合\"]青砚少卿所言，让人醍醐灌顶。\n[name=\"太合\"]律法面前，无“事宜从权”一说，这还是太傅当年对我的教诲。\n[name=\"太合\"]若因对虞少卿的钦佩之情，有伤炎律之仪……因私废公，是我荒唐了。"
+        }
+      ],
+      "description": "太合明确回顾太傅当年对自己的教诲，支持具体师长交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太合明确回顾太傅当年对自己的教诲，支持具体师长交流。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "太合明确回顾太傅当年对自己的教诲，支持具体师长交流。",
+          "status": "supported",
+          "to": "npc_3fa3fadab4354b64"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_be0c1b2149c67cd3.json",
+      "sources": [
+        {
+          "endLine": 274,
+          "kind": "story",
+          "line": 272,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_leizi_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "惊蛰所述时段",
+      "title": "惊蛰"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 371,
+          "line": 339,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st01.txt",
+          "quote": "[name=\"左乐\"]我不是……\n[charslot(slot=\"l\",name=\"avg_npc_297_1#1$1\",focus=\"l\")]\n[name=\"左乐\"]回家也没什么事情可做，不如先看看城中的情况。太傅这次派我回玉门，恐怕是预见到了一些变故，我应该提前留意。\n[charslot(slot=\"r\",name=\"avg_npc_299_1#1$1\",focus=\"r\")]\n[name=\"太合\"]公子若是为了公务，在下自当奉陪。\n[charslot(slot=\"l\",name=\"avg_npc_297_1#1$1\",focus=\"l\")]\n[name=\"左乐\"]太合叔也多年没回玉门了，想必也有不少感慨。\n[charslot(slot=\"r\",name=\"avg_npc_299_1#3$1\",focus=\"r\")]\n[name=\"太合\"]刚刚一路走来，城中民生景象，确实比我离开时，多了不少变化。\n[charslot(slot=\"r\",name=\"avg_npc_299_1#1$1\",focus=\"r\")]\n[name=\"太合\"]北境战事连年不断，玉门依然能护百姓乐业安居，将军治军理政之能，在下叹服。\n[charslot(slot=\"l\",name=\"avg_npc_297_1#8$1\",focus=\"l\")]\n[name=\"左乐\"]城边这擂台，还是一样热闹。\n[charslot(slot=\"l\",name=\"avg_npc_297_1#8$1\",focus=\"l\")]\n[name=\"左乐\"]我刚才看到，太合叔的名字还高挂在擂台榜的第五位。\n[charslot(slot=\"r\",name=\"avg_npc_299_1#6$1\",focus=\"r\")]\n[name=\"太合\"]不过是另一种虚名罢了。若早日有青年才俊将在下从那张榜上踢下来，才是令人高兴的事。\n[charslot(slot=\"r\",name=\"avg_npc_299_1#1$1\",focus=\"r\")]\n[name=\"太合\"]现在台上的那两位姑娘……\n[charslot(slot=\"r\",name=\"avg_npc_299_1#1$1\",focus=\"r\")]\n[name=\"太合\"]……\n[charslot(slot=\"l\",name=\"avg_npc_297_1#4$1\",focus=\"l\")]\n[name=\"左乐\"]太合叔在看什么？\n[charslot(slot=\"r\",name=\"avg_npc_299_1#1$1\",focus=\"r\")]\n[name=\"太合\"]在下只是在琢磨，以公子的武功，比擂台上的那两位姑娘如何。\n[charslot(slot=\"l\",name=\"avg_npc_297_1#2$1\",focus=\"l\")]\n[name=\"左乐\"]咳……\n[charslot(slot=\"l\",name=\"avg_npc_297_1#2$1\",focus=\"l\")]\n[name=\"左乐\"]太傅说过，秉烛人的职责，在明烛以驱巨兽之影，巡游以察社稷之患。\n[charslot(slot=\"l\",name=\"avg_npc_297_1#1$1\",focus=\"l\")]\n[name=\"左乐\"]最重要的是铭记职责，行事机敏，武功倒是次要……\n[charslot(slot=\"r\",name=\"avg_npc_299_1#6$1\",focus=\"r\")]\n[name=\"太合\"]公子所言甚是。"
+        }
+      ],
+      "description": "太合听左乐谈太傅的派遣与教诲并回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_3fa3fadab4354b64",
+          "reason": "太合听左乐谈太傅的派遣与教诲并回应。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_92c92c1606519db1",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_3fa3fadab4354b64"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 371,
+          "kind": "story",
+          "line": 339,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "npc_3fa3fadab4354b64|npc_92c92c1606519db1"
+}

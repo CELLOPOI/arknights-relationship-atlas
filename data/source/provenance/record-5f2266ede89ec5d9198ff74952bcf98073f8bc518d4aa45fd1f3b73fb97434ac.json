@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 171,
+          "line": 108,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-18_end.txt",
+          "quote": "[name=\"变形者集群\"]……\n[name=\"变形者集群\"]你们很顽强，你们很勇敢，你们可以庆祝一下这场胜利。\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_426_1#9$1\",focus=\"r\")]\n[Decision(options=\"这不会是你的真正实力。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]\n[name=\"变形者集群\"]怎么，还不尽兴吗，罗德岛的博士？\n[name=\"变形者集群\"]也许只是没有必要呢？也许我们比你最糟糕的估计……还要了解你们呢？\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"r\")]\n[Decision(options=\"我相信罗德岛的安全系统。;……;难道罗德岛上也有你的分身？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot=\"m\",name=\"avg_npc_426_1#8$1\",focus=\"m\")]\n[name=\"变形者集群\"]哈哈，别那么紧张，博士。你们那艘船的登船检查，可没它看上去的那么简单。\n[name=\"变形者集群\"]好了，再见吧，各位。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#6$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]……你打算做什么？\n[charslot(slot=\"m\",name=\"avg_npc_426_1#4$1\",focus=\"m\")]\n[name=\"变形者集群\"]我们这副残破的身躯还能做什么？\n[charslot(slot=\"m\",name=\"avg_npc_426_1#4$1\",focus=\"m\")]\n[name=\"变形者集群\"]我们停在原地……确实已经够久了。\n[Dialog]\n[playsound(key=\"$d_avg_humanchange\",volume=0.3)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Background]\n[Image(image=\"37_i12\",screenadapt=\"coverall\",fadetime=1,block=true)]\n[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xFrom=-20,yFrom=20,xTo=0,yTo=0,xScaleTo=1.0, yScaleTo=1.0, duration=25, block=false)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"变形者集群\"]小小的异族魔王啊，你会前往哪里？\n[name=\"变形者集群\"]你会把这些信任你的人，追随你的人，保护你的人带向何方？\n[name=\"变形者集群\"]你会像博卓卡斯替说出的那个预言一样，奴役这片大地上的一切……\n[name=\"变形者集群\"]还是向我们证明，只是我们，被历史束缚得太深？\n[name=\"变形者集群\"]“演进”，这是个狡猾的词汇，它仿佛预示着必然的进步，当然并非如此。\n[name=\"变形者集群\"]但没关系，你会找到道路的，我们也一样。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(fadetime=0)]\n[image]\n[Background(image=\"bg_battlefield\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]\n[name=\"阿米娅\"]他消散了……\n[charslot(slot=\"m\",name=\"avg_npc_395_1#6$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]不，变形者不会死去，他的另一个更加完整、更加强大的分身很可能就在附近。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#6$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]这是他惯用的伎俩，让猎物放下戒心，再给予致命一击……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_boneflute\")]\n[delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_npc_395_1#4$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]……骨哨声？这怎么可能？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#4$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]Logos视骨哨为旧王庭可悲的传统，他从来拒绝像他的那些前任一样吹响它。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#10$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]但这确实是丧钟之主的骨哨。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#4$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]——！\n[charslot(slot=\"m\",name=\"avg_npc_395_1#4$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]变形者的集群……在死去。"
+        }
+      ],
+      "description": "该人物单向明确知晓博卓卡斯替。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E40"
+          ],
+          "from": "char_4132_ascln",
+          "reason": "该人物当面接收变形者对博卓卡斯替及其预言的明确说明。",
+          "status": "supported",
+          "to": "npc_e877f731a67498e3"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e877f731a67498e3",
+          "reason": "被谈及者未在该局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "char_4132_ascln"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 171,
+          "kind": "story",
+          "line": 108,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-18_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_4132_ascln|npc_e877f731a67498e3"
+}

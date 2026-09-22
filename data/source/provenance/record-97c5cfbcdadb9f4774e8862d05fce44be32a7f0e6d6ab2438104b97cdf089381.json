@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 267,
+          "line": 190,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-08_beg.txt",
+          "quote": "[name=\"近卫干员\"]   石块，弩箭，弓矢……\n[name=\"近卫干员\"]   都没了。\n[name=\"近卫干员\"]   一瞬间……她周围的所有事物，全都都被燃烧殆尽……\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]   你们具备解放者该有的韧性。\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   ……连渣滓都没剩下。\n[Character(name=\"char_148_nearl_1#3\",name2=\"char_002_amiya_1#7\",focus=1)]\n[name=\"临光\"]   阿米娅。你很清楚。\n[Character(name=\"char_148_nearl_1#3\",name2=\"char_002_amiya_1#7\",focus=2)]\n[name=\"阿米娅\"]   ——\n[Character(name=\"char_148_nearl_1#3\",name2=\"char_002_amiya_1#7\",focus=1)]\n[name=\"临光\"]   必须有人，挡住她。\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]   ——但我厌烦了。\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   ……\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]   阿米娅！！\n[PlaySound(key=\"$d_gen_thunders_amb\", volume=0.3)]\n[PlaySound(key=\"$b_char_defboost\", volume=0.3, Delay=0.4)]\n[Blocker(a=1, initr=2, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[Dialog(time=0.5)]\n[Delay(time=1)]\n[Blocker(r=0.9, g=0.4, b=0.3, a=1, fadetime=0.1, block=true)]\n[Character]\n[Image(image=\"avg_11_1\",x=0, y=-50,xScale=1.3, yScale=1.3, fadetime=0)]\n[ImageTween(xFrom=-100, yFrom=-50, xTo=0, yTo=0, xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1, duration=35, block=false)]\n[Blocker(r=0.7, g=0.4, a=1, fadetime=0.3, block=true)]\n[Blocker(r=0.2, g=0,b=0, a=0.1, fadetime=1.5, block=true)]\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]   你们总要为杀害同胞而付出代价。\n[name=\"塔露拉\"]   我将赐予你们一个我十分喜爱的结局。\n[name=\"塔露拉\"]   ——毁灭。\n[Dialog]\n[Character(fadetime=0)]\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   糟了！！\n[name=\"杜宾\"]   走，走……快走！！\n[name=\"杜宾\"]   那种热量和规模……不行，不行！\n[name=\"杜宾\"]   保护阿米娅和博士！快！！\n[Character(name=\"char_148_nearl_1#3\")]\n[name=\"临光\"]   来不及了——！\n[name=\"临光\"]   让我挡住她！！！\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   啊啊！！\n[stopmusic(fadetime=1)]\n[Blocker(r=0.9, g=0.4, b=0.3, a=1, fadetime=0.1, block=true)]\n[Image(fadetime=0)]\n[Dialog]\n[Character(fadetime=0)]\n[Background(image=\"bg_light\")]\n[CameraShake(duration=6, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.3, block=true)]\n[PlaySound(key=\"$p_skill_chimera\", volume=1)]\n[Blocker(a=0, r=1, g=1, b=1, fadetime=0.2, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   ……\n[name=\"医疗干员\"]   ……嗯？？？\n[Blocker(a=0, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[name=\"医疗干员\"]   阿……阿米娅？\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]   不会让你伤害他们的。\n[Delay=1]\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉\"]  ……\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Image(image=\"bg_1_reflect\",fadetime=0,screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Character(name=\"char_002_amiya_1#9\")]\n[name=\"阿米娅\"]   我不会……允许你这么做的！"
+        }
+      ],
+      "description": "医疗干员与塔露拉在同一战场彼此可感知。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "医疗干员与塔露拉在同一战场彼此可感知。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_69395c50206899b0",
+          "reason": "医疗干员与塔露拉在同一战场彼此可感知。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_f55d04d68de9988e.json",
+      "sources": [
+        {
+          "endLine": 267,
+          "kind": "story",
+          "line": 190,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_01-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "切尔诺伯格撤离期间",
+      "title": "黑暗时代·下"
+    }
+  ],
+  "relationship_id": "npc_30c8dcf1e7b8383d|npc_69395c50206899b0"
+}

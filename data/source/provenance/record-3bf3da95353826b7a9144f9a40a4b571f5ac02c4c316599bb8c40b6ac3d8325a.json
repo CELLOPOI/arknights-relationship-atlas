@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 965,
+          "line": 931,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "quote": "[name=\"左乐\"] ……大理寺似乎不应插手司岁台事务。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 只是以天师府传人身份，劝师伯给各方留一丝余地。\n[Character(name=\"avg_npc_297_1#1$1\")]\n[name=\"左乐\"] 难怪宁小姐始终按兵不动……原来是你先去说服了那位白天师。\n[Character(name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"] ……可天师府何时能为此事做主了？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 自然不能。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 只是眼下，司岁台恐怕也不能妄下定夺。\n[Character(name=\"avg_npc_297_1#4$1\")]\n[name=\"左乐\"] 什么？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 太傅已至尚蜀。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 司岁台秉烛人左乐，礼部左侍郎宁辞秋，肃政院副监察御史太合，尚蜀知府梁洵，以及我本人，都须在今夜子时之前，回到梁府。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 等候太傅指令。\n[Character(name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"] ……\n[Character(name=\"avg_npc_299_1#1$1\")]\n[name=\"太合\"] ……遵命。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 年、夕、令。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 三位也请挪步梁府。太傅想亲自见见你们。\n[character(name=\"avg_2023_ling_1#8$1\")]\n[name=\"令\"] 好呀。\n[character(name=\"avg_2023_ling_1#8$1\")]\n[name=\"令\"] 自上次见他已过了三十年有余，不知今日，他又变化多大。\n[character(name=\"avgnew_2014_nian_1#2$1\")]\n[name=\"年\"] 唉，又来……\n[Character(name=\"avgnew_2015_dusk_1#5$1\")]\n[name=\"夕\"] 啧。"
+        }
+      ],
+      "description": "现场明确提及宁小姐并点名宁辞秋，参与对话者知道这一具体官员，未据该段反推她认识各人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E40"
+          ],
+          "from": "char_2015_dusk",
+          "reason": "现场明确提及宁小姐并点名宁辞秋，参与对话者知道这一具体官员，未据该段反推她认识各人。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_2015_dusk"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 965,
+          "kind": "story",
+          "line": 931,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_2015_dusk|npc_906d6f310e0f648e"
+}

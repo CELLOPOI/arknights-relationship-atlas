@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 386,
+          "line": 338,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "quote": "[name=\"角峰\"]老爷！\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=1)]\n[name=\"恩希欧迪斯\"]情况怎么样？\n[Character(name=\"avg_199_yak_1#6$1\")]\n[name=\"角峰\"]都解决了。有人受了点伤，但没什么大碍。\n[name=\"角峰\"]魏斯那边刚刚传了消息——\n[Character(name=\"avg_199_yak_1#4$1\")]\n[name=\"角峰\"]Sharp先生，你怎么会在这里……？\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=2)]\n[name=\"Sharp\"]任务。\n[Character(name=\"avg_199_yak_1#4$1\")]\n[name=\"角峰\"]是博士的吩咐？难道博士竟预料到会有这样的事发生……？\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=2)]\n[name=\"Sharp\"]……\n[name=\"Sharp\"]你是怎么认出我的？\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=1)]\n[name=\"恩希欧迪斯\"]这不是难事。\n[name=\"恩希欧迪斯\"]我说过。我对存在本身就能破坏局面的战士，非常了解。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]恩希欧迪斯！\n[name=\"阿克托斯\"]你怎么样，刺客人呢？！\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=2)]\n[name=\"Sharp\"]……\n[dialog]\n[PlaySound(key=\"$d_avg_snowbootwalk\", volume=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=300, fadetime=2,block=false)]\n[character(name=\"avg_172_svrash_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=2)]\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]阿克托斯，你会赶来实在出乎我的意料，这是否是希瓦艾什与佩尔罗契重归于好的征兆？\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]呸！我来，与你没有半点关系！\n[name=\"阿克托斯\"]我不过是要将胆敢在耶拉冈德的祭典上作乱的卑鄙小人亲手揪出！让他付出应有的代价！\n[Character(name=\"avg_172_svrash_1#7$1\")]\n[name=\"恩希欧迪斯\"]你确实是耶拉冈德最虔诚的信徒，阿克托斯。\n[name=\"恩希欧迪斯\"]不过，恐怕你来迟了。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]你这是什么意思？你恩希欧迪斯没道理会放走区区一个刺客，人到底被你藏哪里去了？\n[name=\"阿克托斯\"]等等，这片悬崖……难道？！\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]就是你想的那样，阿克托斯。我的部下会去搜索对方的踪迹。\n[name=\"恩希欧迪斯\"]继续狩猎吧。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]地上有血，你受伤了？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]小伤而已。\n[Character(name=\"avg_199_yak_1#6$1\")]\n[name=\"角峰\"]老爷，你的伤得立刻处理！\n[name=\"角峰\"]至少……至少要先止血！"
+        }
+      ],
+      "description": "刺杀后角峰认出Sharp，阿克托斯到场，与银灰和两人共同交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E46"
+          ],
+          "from": "char_172_svrash",
+          "reason": "刺杀后角峰认出Sharp，阿克托斯到场，与银灰和两人共同交谈。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "E46"
+          ],
+          "from": "char_508_aguard",
+          "reason": "刺杀后角峰认出Sharp，阿克托斯到场，与银灰和两人共同交谈。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 386,
+          "kind": "story",
+          "line": 338,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 686,
+          "line": 670,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "quote": "[name=\"锏\"]咳，你是……\n[name=\"锏\"]Sharp？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]少说点话，你现在伤重。\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"none\")]\n[name=\"锏\"]博士让你来的？\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]博士和银灰先生一直有联络。听说谢拉格发生了天灾，博士猜到你们会遇到麻烦。\n[name=\"Sharp\"]虽然现在实在腾不开手，但博士答应过，只要谢拉格有难，不会坐视不理。\n[name=\"Sharp\"]我已经通知罗德岛增援，他们随后赶到。\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"none\")]\n[name=\"锏\"]……\n[name=\"锏\"]恩希欧迪斯呢？\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]不用担心，相信银灰先生已对局面有所掌控。\n[name=\"Sharp\"]坚持住，锏，最艰难的时候你已经挺过去了。"
+        }
+      ],
+      "description": "Sharp明确知道银灰及其行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N23"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp明确说明博士与银灰持续联络，并判断银灰掌控局面。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_172_svrash",
+          "reason": "本窗未见银灰具体获知 Sharp。",
+          "status": "not_established",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 686,
+          "kind": "story",
+          "line": 670,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "蔓珠院营救",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 61,
+          "line": 42,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "quote": "[name=\"锏\"]诺希斯是这么说的。你觉得呢，恩希欧迪斯？\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#2$1\")]\n[name=\"恩希欧迪斯\"]我可没有随手把几十米高的巨像切割开的实力。\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#1$1\")]\n[name=\"锏\"]是啊。\n[name=\"锏\"]你只是邀请那个博士过来，差点让对方坏了计划而已。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#2$1\")]\n[name=\"恩希欧迪斯\"]……\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#6$1\")]\n[name=\"诺希斯\"]……唉。\n[name=\"诺希斯\"]我不想听你们毫无意义地互相攻击。\n[name=\"诺希斯\"]负责维持秩序的山雪鬼……\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#1$1\")]\n[name=\"锏\"]他们会提前到湖心岛。\n[name=\"锏\"]负责招待维多利亚人，还有那些商人。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#9$1\")]\n[name=\"恩希欧迪斯\"]诺希斯，你太过紧张了。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]我们已经做好了能做的所有准备，现在剩下的，只有等待。\n[name=\"恩希欧迪斯\"]锏，诺希斯，再等等。"
+        }
+      ],
+      "description": "恩希欧迪斯听闻Sharp与锏的交手。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "char_172_svrash",
+          "reason": "恩希欧迪斯在场听取锏对Sharp的具体评价。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_508_aguard",
+          "reason": "Sharp不在场，未见反向认知。",
+          "status": "not_established",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 61,
+          "kind": "story",
+          "line": 42,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典部署期间",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_172_svrash|char_508_aguard"
+}

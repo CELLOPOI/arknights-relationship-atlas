@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 940,
+          "line": 909,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_09_end.txt",
+          "quote": "[name=\"余\"]嘶……这秋天还真是冷。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$2\")]\n[name=\"余\"]这么冷的天，您老人家一个人站在这里干嘛啊？  \n[charslot(slot = \"m\", name = \"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]在等人。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$2\")]\n[name=\"余\"]唔……吃过饭了吗？  \n[PlaySound(key=\"$d_avg_cakebgflgrnd\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$2\")]\n[name=\"余\"]喏，打包了一袋包子，先垫垫肚子？  \n[charslot(slot = \"m\", name = \"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]要等的人齐了，再吃不迟。  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#7$2\")]\n[name=\"余\"]要是等的人齐了，那可得好好准备一桌菜，光吃包子可不够……  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#7$2\")]\n[name=\"余\"]……您相信，他们都会回来？  \n[charslot(slot = \"m\", name = \"avg_npc_301_1#1$1\")]\n[name=\"太傅\"]你相信吗？  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#5$2\")]\n[name=\"余\"]我当然相信啦！  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$2\")]\n[name=\"余\"]虽然平时我们一家人见面次数不多，偶尔见一面还要斗嘴吵架，爱好不一样，性格也合不来……  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#1$2\")]\n[name=\"余\"]但这种时候，大家的心肯定还是向着一处的吧！\n[charslot(slot = \"m\", name = \"avg_2026_yu_1#11$2\")]  \n[name=\"余\"]可是就算大家都回来了，我们到底能不能……\n[charslot(slot = \"m\", name = \"avg_npc_301_1#2$1\")]  \n[name=\"太傅\"]……  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#11$2\")]\n[name=\"余\"]唉……  \n[charslot(slot = \"m\", name = \"avg_2026_yu_1#2$2\")]\n[name=\"余\"]那我就在这，陪着您一起等吧。"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C19"
+          ],
+          "from": "char_2026_yu",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "C19"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "char_2026_yu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 940,
+          "kind": "story",
+          "line": 909,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_2026_yu|npc_92c92c1606519db1"
+}

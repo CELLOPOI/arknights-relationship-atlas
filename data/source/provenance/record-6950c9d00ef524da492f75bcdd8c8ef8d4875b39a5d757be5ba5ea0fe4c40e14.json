@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 127,
+          "line": 100,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-10_end.txt",
+          "quote": "[name=\"凯尔希\"]  人渣。你希望我是怎么样的人？\n[name=\"凯尔希\"]  我是该胆小懦弱，贪图钱财和安逸……还是说，我应该残忍冷酷，为达目的不择手段？\n[name=\"凯尔希\"]  现在的我，满足你的想象了吗？\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=2)]\n[name=\"弑君者\"]  我没想过……没想过你是个彻头彻尾没心没肺的冷血女人！\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=1)]\n[name=\"凯尔希\"]  你在杀谢尔盖的时候，他是不是忏悔了？\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=2)]\n[name=\"弑君者\"]  ……你怎么……\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=1)]\n[name=\"凯尔希\"]  你知道他是亚历克斯和米莎的父亲？\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=2)]\n[name=\"弑君者\"]  哼，哈哈哈……就是亚历克斯带我找到了他！\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=1)]\n[name=\"凯尔希\"]  ……整合运动吸纳了亚历克斯，杀死了他的父亲，追捕他的姐姐。\n[name=\"凯尔希\"]  呵……\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  红。给她一次机会。\n[Character(name=\"char_144_red_7#1\")]\n[name=\"红\"]  好。\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=2)]\n[name=\"弑君者\"]  ……你要做什么？\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=1)]\n[name=\"凯尔希\"]  给你一个杀掉我的机会。\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=2)]\n[name=\"弑君者\"]  给我机会？你真知道自己说了什么？\n[name=\"弑君者\"]  你想放弃生命？也想和那个靠出卖同事混到切尔诺伯格高层的谢尔盖一样，忏悔？\n[name=\"弑君者\"]  ……你当然会后悔。你会为自己的做过的一切后悔！"
+        }
+      ],
+      "description": "弑君者明确知道米莎并设想营救她。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "弑君者明确知道米莎并设想营救她。",
+          "status": "supported",
+          "to": "npc_c69ca5bb5983a16b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c69ca5bb5983a16b",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 127,
+          "kind": "story",
+          "line": 100,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "局部坏死"
+    }
+  ],
+  "relationship_id": "char_1502_crosly|npc_c69ca5bb5983a16b"
+}

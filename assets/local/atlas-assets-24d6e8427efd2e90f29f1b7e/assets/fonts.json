@@ -1,0 +1,74 @@
+{
+  "fonts": [
+    {
+      "file": "assets/fonts/Bender-Bold.woff2",
+      "url": "https://web.hycdn.cn/arknights/official/_next/static/media/Bender-Bold.b4c7998a.woff2",
+      "sourcePage": "https://ak.hypergryph.com/",
+      "bytes": 12512,
+      "sha256": "fb51b9dd04bfa20a086cde154242a5f896bb1971a34109248e4c8eb0c31d920b"
+    },
+    {
+      "originalSubset": {
+        "file": "assets/fonts/SourceHanSansSC-Regular.woff2",
+        "url": "https://web.hycdn.cn/arknights/official/_next/static/media/SourceHanSansSC-Regular.850c7fae.woff2",
+        "sourcePage": "https://ak.hypergryph.com/",
+        "bytes": 108488,
+        "sha256": "62bd772440fde355edd6d1332fafd47e35416113c37f22d0cb7094314c426efd"
+      },
+      "file": "assets/fonts/RelationshipAtlasCJK-Regular.96525ef06557.woff2",
+      "bytes": 109040,
+      "sha256": "96525ef06557c03a829f956b64adbfaea68d6fe171b50036d40659521fb4d1d6",
+      "family": "Relationship Atlas CJK",
+      "style": "Regular",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/licenses/SourceHanSans-OFL.txt",
+      "licenseUrl": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.004R/LICENSE.txt",
+      "modification": "Relationship Atlas contributors renamed existing web subsets and embedded complete license text. Original copyright records retained; rendering tables unchanged."
+    },
+    {
+      "originalSubset": {
+        "file": "assets/fonts/Oswald-Medium.99836e81.woff2",
+        "url": "https://web.hycdn.cn/arknights/official/_next/static/media/Oswald-Medium.99836e81.woff2",
+        "sourcePage": "https://ak.hypergryph.com/",
+        "bytes": 13264,
+        "sha256": "d84e9f97be7cb696b244b2750e971bb36a74dec73f4e74c74a2a62213c7c724e"
+      },
+      "file": "assets/fonts/RelationshipAtlasNarrow-Medium.6af080c9eed8.woff2",
+      "bytes": 15064,
+      "sha256": "6af080c9eed85875445e73b319c19e3d03841515dd4a2d7db525533f15d0cb3b",
+      "family": "Relationship Atlas Narrow",
+      "style": "Medium",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/licenses/Oswald-OFL.txt",
+      "licenseUrl": "https://raw.githubusercontent.com/vernnobile/OswaldFont/9dd0521c8c06dd24998fe5d9cd644dab9cbbacca/3.0/OFL.txt",
+      "modification": "Relationship Atlas contributors renamed existing web subsets and embedded complete license text. Original copyright records retained; rendering tables unchanged."
+    },
+    {
+      "file": "assets/fonts/NovecentoSansWideBold-d9c32120/font.woff2",
+      "sourcePage": "https://www.myfonts.com/products/wide-bold-novecento-140261/licenses",
+      "source": "License-owner-supplied MyFonts Webfont kit",
+      "bytes": 39708,
+      "sha256": "d9c32120abe0a5ea33dca70cb16083efc06671c86a9a1f781641c47a436bebe2",
+      "license": "Webfonts Annual",
+      "licenseUrl": "https://www.myfonts.com/pages/license-agreement?eula_lang=eula_en&id=eula_2267"
+    },
+    {
+      "originalSubset": {
+        "file": "assets/fonts/SourceHanSansSC-Bold.5255c6b6.woff2",
+        "url": "https://web.hycdn.cn/arknights/official/_next/static/media/SourceHanSansSC-Bold.5255c6b6.woff2",
+        "sourcePage": "https://ak.hypergryph.com/",
+        "bytes": 110236,
+        "sha256": "fae04afb0412a9527ecbec47df9fbca94d778016fd9f5c5dd6954829a4de4bfa"
+      },
+      "file": "assets/fonts/RelationshipAtlasCJK-Bold.1721bac9833a.woff2",
+      "bytes": 110952,
+      "sha256": "1721bac9833ac21ec4a1a82f033b8c597d1ad16b6d611da61f17c75c15e7b791",
+      "family": "Relationship Atlas CJK",
+      "style": "Bold",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "assets/licenses/SourceHanSans-OFL.txt",
+      "licenseUrl": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.004R/LICENSE.txt",
+      "modification": "Relationship Atlas contributors renamed existing web subsets and embedded complete license text. Original copyright records retained; rendering tables unchanged."
+    }
+  ]
+}

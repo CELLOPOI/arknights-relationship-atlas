@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 176,
+          "line": 151,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st01.txt",
+          "quote": "[name=\"阿米娅\"]   咦，空？\n[Character(name=\"char_101_sora_summer\")]\n[name=\"空\"]   啊，博士，阿米娅，早上好，没想到你们也到第二大道来了！\n[Character(name=\"char_101_sora_summer\",name2=\"char_002_amiya_1#2\",focus=2)]\n[name=\"阿米娅\"]   早上好，没想到空也喜欢爵士乐的街道。\n[name=\"阿米娅\"]   还以为你会更喜欢都市派的音乐呢。\n[Character(name=\"char_101_sora_summer\",name2=\"char_002_amiya_1#2\",focus=1)]\n[name=\"空\"]   对于音乐，不管什么种类我可都是行家!\n[name=\"空\"]   ……其实本来我也想去其他地方看看，不过昨晚被旅馆附近的LIVE吵到关了窗户戴上耳塞都没能睡着呢。\n[name=\"空\"]   虽然白天的时候能听到音乐很好，到了晚上也还吵个不停就有点难受了。\n[name=\"空\"]   结果因为昨天闹得太欢，今天只能先在这里休息休息了。\n[Character(name=\"char_101_sora_summer\",name2=\"char_002_amiya_1#2\",focus=2)]\n[name=\"阿米娅\"]   毕竟是音乐节期间，这也是热闹的证明呢。\n[Character(name=\"char_101_sora_summer\",name2=\"char_002_amiya_1#2\",focus=1)]\n[name=\"空\"]   啊哈哈，也没办法呢，我们当中有好多人都没见过海。\n[name=\"空\"]   比如今天一大早，伊芙利特又大喊着“大海我来啦！”就冲出去了，也不知道她现在跑哪儿去了。\n[Character(name=\"char_101_sora_summer\",name2=\"char_002_amiya_1#10\",focus=2)]\n[name=\"阿米娅\"]   哈哈，确实。\n[name=\"阿米娅\"]   虽然，这片海据说严格意义上只是一座巨大的湖泊……\n[Character(name=\"char_101_sora_summer\",name2=\"char_002_amiya_1#10\",focus=1)]\n[name=\"空\"]   有水有沙滩就是海啦~ \n[name=\"空\"]   等我先在这里用早晨的时间缓一缓，中午到晚上就算火山爆发都不能阻止我去玩个够！\n[Character(name=\"char_101_sora_summer\",name2=\"char_002_amiya_1#10\",focus=2)]\n[name=\"阿米娅\"]   哈哈不愧是空，那么我们先走啦。\n[Character(name=\"char_101_sora_summer\",name2=\"char_002_amiya_1#2\",focus=1)]\n[name=\"空\"]   好的~阿米娅和博士也玩得开心哦。"
+        }
+      ],
+      "description": "具名干员与由称呼和选项确认的博士当面对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_101_sora",
+          "reason": "具名干员与由称呼和选项确认的博士当面对话。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "具名干员与由称呼和选项确认的博士当面对话。",
+          "status": "supported",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 176,
+          "kind": "story",
+          "line": 151,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_101_sora|npc_b99957887950ebfd"
+}

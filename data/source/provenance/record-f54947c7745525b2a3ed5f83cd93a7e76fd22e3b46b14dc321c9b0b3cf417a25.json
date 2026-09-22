@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 789,
+          "line": 745,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "quote": "[name=\"魏彦吾\"]阁下有意要取我性命，不如就在这里把恩怨说清。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#3$2\",focus=\"m\")]\n[name=\"冷漠的女性\"]想取你性命，又何必与你有恩怨？\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#5\",focus=\"m\")]\n[name=\"魏彦吾\"]没有恩怨，有手段也行。\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#4\",focus=\"m\")]\n[name=\"魏彦吾\"]阁下的本事，我再来领教过。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#6$2\",focus=\"m\")]\n[name=\"冷漠的女性\"]你还不够格。\n[dialog]\n[charslot(duration=0.5)]\n[delay(time=0.5)]\n[playMusic(intro=\"$m_bat_act23side_01_intro\", key=\"$m_bat_act23side_01_loop\", volume=0.4)]\n[dialog]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=5, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$e_skill_driftsand\", volume=0.3)]\n[PlaySound(key=\"$b_char_defboost\", volume=0.3, Delay=0.4)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n女性向后退了一步。\n剑气如疾风掠草，但终究差了一寸。锋芒失其劲，而草不折。\n[charslot(slot=\"m\",name=\"avg_npc_034#1\",focus=\"m\")]\n[name=\"林\"]城头风大，小心沙子迷眼。\n[charslot(slot=\"m\",name=\"avg_npc_786_1#1$2\",focus=\"m\")]\n[name=\"冷漠的女性\"]你们这帮人，亮相出手前一定要说上这么一句吗？\n[charslot]\n[dialog]\n[charslot(slot = \"l\", name = \"avg_npc_034#1\")]\n[PlaySound(key=\"$d_avg_bldwhoosh\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_786_1#5$2\",posfrom = \"400,0\", posto = \"-50,0\",duration = 0.5,afrom=1,ato=1,isblock=true)]\n[PlaySound(key=\"$d_avg_bldwhoosh\", volume=1)]\n[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"-250,0\",afrom=1,ato=0,duration = 0.3,isblock=true)]\n[charslot(slot = \"r\", name = \"avg_2024_chyue_1#1$1\",posfrom = \"200,0\", posto = \"-100,0\",duration = 0.3,isblock=false)]\n[charslot(slot = \"m\",posfrom = \"-50,0\", posto = \"-100,0\",duration = 0.05,isblock=true)]\n[CameraShake(duration=-1, xstrength=5, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$swordtsing2\", volume=0.9)]\n[PlaySound(key=\"$d_avg_axehitscrape\", volume=0.4)]\n[delay(time=1)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"r\",name=\"avg_2024_chyue_1#1$1\",focus=\"r\")]\n[name=\"重岳\"]够了。\n[charslot(slot=\"r\",name=\"avg_2024_chyue_1#1$1\",focus=\"r\")]\n[name=\"重岳\"]你已无路可逃，束手就擒。"
+        }
+      ],
+      "description": "鼠王出手协助魏彦吾截击睚，对方直接回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E46"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "鼠王出手协助魏彦吾截击睚，对方直接回应。",
+          "status": "supported",
+          "to": "npc_540cd5c18cb7a9cf"
+        },
+        {
+          "evidenceIds": [
+            "E46"
+          ],
+          "from": "npc_540cd5c18cb7a9cf",
+          "reason": "鼠王出手协助魏彦吾截击睚，对方直接回应。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 789,
+          "kind": "story",
+          "line": 745,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "npc_540cd5c18cb7a9cf|npc_83e2c28380c1c6fb"
+}

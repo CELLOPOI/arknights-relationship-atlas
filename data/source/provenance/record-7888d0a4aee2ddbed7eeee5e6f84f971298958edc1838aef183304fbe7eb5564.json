@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 207,
+          "line": 195,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_04_beg.txt",
+          "quote": "[name=\"蕾缪安\"]你刚刚说……有萨科塔堕天？那个女孩叫福尔图娜？\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1\",focus=\"m\")]\n[name=\"费德里科\"]是。\n[charslot(slot=\"m\",name=\"avg_npc_925_1#7$1\",focus=\"m\")]\n[name=\"蕾缪安\"]竟然出了这样的事……\n[charslot(slot=\"m\",name=\"avg_npc_925_1#7$1\",focus=\"m\")]\n[name=\"蕾缪安\"]堕天……只能回去后由教宗阁下定夺，不是现在我们能够处理的问题。\n[charslot(slot=\"m\",name=\"avg_npc_924_1#5$1\",focus=\"m\")]\n[name=\"克莱芒\"]……\n[charslot(slot=\"m\",name=\"avg_npc_925_1#7$1\",focus=\"m\")]\n[name=\"蕾缪安\"]但闯入我房间的那位不速之客不同。费德里科，有些事我之后再和你解释……现在必须要尽快把那家伙找出来才行。\n[charslot(slot=\"m\",name=\"avg_npc_925_1#7$1\",focus=\"m\")]\n[name=\"蕾缪安\"]我需要你的协助，执行者费德里科。"
+        }
+      ],
+      "description": "蕾缪安知晓福尔图娜，证据仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_4193_lemuen",
+          "reason": "蕾缪安具体询问并讨论福尔图娜的堕天处置。",
+          "status": "supported",
+          "to": "npc_f5a0d790811751a8"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_f5a0d790811751a8",
+          "reason": "所读候选未见福尔图娜识别或提及蕾缪安。",
+          "status": "not_established",
+          "to": "char_4193_lemuen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d3659cc008c9f040.json",
+      "sources": [
+        {
+          "endLine": 207,
+          "kind": "story",
+          "line": 195,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "福尔图娜堕天后",
+      "title": "空想花庭"
+    }
+  ],
+  "relationship_id": "char_4193_lemuen|npc_f5a0d790811751a8"
+}

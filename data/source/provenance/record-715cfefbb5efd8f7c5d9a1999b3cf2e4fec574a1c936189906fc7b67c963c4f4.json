@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 337,
+          "line": 315,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12mini/level_act12mini_st07.txt",
+          "quote": "[name=\"老骑士\"]……哎，我还在想临光家的事。好久没听人提起斯尼茨啦。\n[Character(name=\"avg_npc_120#3\",name2=\"avg_npc_101#4\",focus=2)]\n[name=\"老工匠\"]可惜，他本应该和西里尔一样，成为铭刻在卡西米尔历史上的英雄才对。\n[Character(name=\"avg_npc_120#3\",name2=\"avg_npc_101#4\",focus=1)]\n[name=\"老骑士\"]是啊，没想到他那样锐不可当的光芒，居然只在战场上短暂地闪烁了一瞬。\n[name=\"老骑士\"]……你还记得不，那会儿我们反攻战线最东边的要塞，乌萨斯的第一支援军被不知哪里来的队伍截在了路上。\n[Character(name=\"avg_npc_120#3\",name2=\"avg_npc_101#2\",focus=2)]\n[name=\"老工匠\"]哈，哪能不记得？当时我真的以为，过不了几年，他们兄弟俩就会作为征战骑士的领袖真正在战场上并肩。\n[Character(name=\"avg_npc_120#3\",name2=\"avg_npc_101#2\",focus=1)]\n[name=\"老骑士\"]那个时候我还盘算着，至少要看到两位年轻的临光都建立功勋，我才能退伍……\n[Character(name=\"avg_npc_120#3\",name2=\"avg_npc_101#2\",focus=1)]\n[name=\"老骑士\"]谁能想到咱们离开战场之前，征战骑士的队伍里就已经看不到临光的姓名了。\n[Character(name=\"avg_npc_120#3\",name2=\"avg_npc_101#4\",focus=2)]\n[name=\"老工匠\"]唉，玛恩纳那小子还是自己走的。\n[Character(name=\"avg_npc_120#3\",name2=\"avg_npc_101#4\",focus=1)]\n[name=\"老骑士\"]……毕竟他带的也不是真正的骑士团。\n[name=\"老骑士\"]斯尼茨想把他们编入作战规划，其他骑士团的人不同意，玛恩纳自己也不愿意让他的朋友们受气。\n[name=\"老骑士\"]……“只是些想要越过要塞回到家园的流民，怎么能和骑士一概而论。”\n[name=\"老骑士\"]哎，说起来，那小子跑哪儿去了？刚刚应该问问玛嘉烈的。\n[Character(name=\"avg_npc_107\",name2=\"avg_npc_101#4\",focus=1)]\n[name=\"光头马丁\"]玛嘉烈自己没有提起的话，大概还没寄信回来吧。\n[Character(name=\"avg_npc_107\",name2=\"avg_npc_101#2\",focus=2)]\n[name=\"老工匠\"]以前他不也一年半载的不回家？别管啦，临光家有玛嘉烈打理，境况肯定会慢慢好起来的。"
+        }
+      ],
+      "description": "光头马丁参与讨论玛恩纳是否寄信回来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "光头马丁参与讨论玛恩纳是否寄信回来。",
+          "status": "supported",
+          "to": "char_4064_mlynar"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_4064_mlynar",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_2a519e8c8e7b4e11"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_b16db323de5be723.json",
+      "sources": [
+        {
+          "endLine": 337,
+          "kind": "story",
+          "line": 315,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12mini/level_act12mini_st07.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "日暮寻路所述时段",
+      "title": "日暮寻路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 169,
+          "line": 25,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_10_beg.txt",
+          "quote": "[name=\"佐菲娅\"]  还有疼痛感吗？\n[Character(name=\"avg_npc_064_weapon_1\", name2=\"avg_1014_nearl2_1#6$1\", focus=2)]\n[name=\"玛嘉烈\"]  不，状态完美。\n[Character(name=\"avg_npc_064_weapon_1\", name2=\"avg_1014_nearl2_1#6$1\", focus=1)]\n[name=\"佐菲娅\"]  看来手臂已经完全恢复了，风骑士突然弃赛真是帮了大忙。\n[dialog]\n[Character]\n[character(name=\"avg_npc_061#2\",fadetime=1)]\n[delay(time=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"玛莉娅\"]  姐姐！剑枪的强化完成了！\n[name=\"玛莉娅\"]  试着采用了米诺斯的工艺技术，一面保证良好的源石技艺传导，一面试着用特殊聚合剂涂层来加强集中——\n[name=\"玛莉娅\"]  总之，这把武器会让姐姐的光芒更锋利的！\n[Character(name=\"avg_npc_061#2\", name2=\"avg_npc_101#3\", focus=2)]\n[name=\"老工匠\"]  哈，我可把库存的老底全用上啦。\n[name=\"老工匠\"]  放心吧，这绝对是有史以来最好的剑——枪，对，剑枪。\n[name=\"老工匠\"]  你夺冠时拿的那把剑是第二好的。你带走的战锤是第三好的。\n[Character(name=\"avg_1014_nearl2_1#6$1\")]\n[name=\"玛嘉烈\"]  ……谢谢。\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_101#2\", focus=2)]\n[name=\"老工匠\"]  哈，这有啥。\n[Character(name=\"avg_npc_107#3\", name2=\"avg_npc_101\", focus=1)]\n[name=\"光头马丁\"]  ……佐菲娅，这是我能找到的，血骑士的所有比赛记录了。\n[Character(name=\"avg_npc_064_weapon_1\", name2=\"avg_1014_nearl2_1#1$1\", focus=1)]\n[name=\"佐菲娅\"]  好，时间紧迫。\n[name=\"佐菲娅\"]  玛嘉烈，我们要做好万全的准备。玛嘉烈？\n[Character(name=\"avg_npc_064_weapon_1\", name2=\"avg_1014_nearl2_1#6$1\", focus=2)]\n[name=\"玛嘉烈\"]  ……\n[name=\"玛嘉烈\"]  ……谢谢，谢谢你们在我身边。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G07\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_209_1#2\",fadetime=1,block=true)]\n[Delay(time=1)]\n[name=\"罗伊\"]  ……这也许是我们的最后一次任务了，莫妮克阁下。\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1#2\", focus=2)]\n[name=\"莫妮克\"]  当然，我知道。\n[name=\"莫妮克\"]  我们当真要对耀骑士下手？\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1#2\", focus=1)]\n[name=\"罗伊\"]  董事会的判断不一致。最麻烦的部分，就让白金去做就好。\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1#3\", focus=2)]\n[name=\"莫妮克\"]  ……玄铁同意我们对耀骑士下手？为什么？在这之后，我们和耀骑士还会有瓜葛吗？\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1#3\", focus=1)]\n[name=\"罗伊\"]  我不知道。也许玄铁从耀骑士和她身上看到了什么威胁……既然董事会有这个意思，那么正好。\n[name=\"罗伊\"]  董事会已经开始提防我们了，在玄铁给我们信号之前，我们最好暂时不要轻举妄动。\n[name=\"罗伊\"]  总之，现在还是祈祷血骑士能打败耀骑士吧，这样的话，我们能省多少事情。\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1\", focus=2)]\n[name=\"莫妮克\"]  ……以你的眼光看，谁胜算比较大？\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"罗伊\"]  ……不好说呢……\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G03\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[character(name=\"avg_npc_121#2\",fadetime=1.5)]\n[delay(time=1.5)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"大嘴莫布\"]  我、我担任特锦赛决赛解说！？\n[Character(name=\"avg_npc_211_1\")]\n[name=\"发言人马克维茨\"]  这是数据的作用，莫布。你现在在骑士竞技解说之中，也名列前茅，恭喜。\n[name=\"发言人马克维茨\"]  再加上，从玛莉娅开始，临光姐妹一路走来你都参与其中，董事会认为这本身也是一个卖点，更想要委你重任。\n[name=\"发言人马克维茨\"]  你有看最近的《竞技新闻报》吗？你已经被称作“与光芒同行的声音”，现在名声大噪了。\n[character(name=\"avg_npc_121#2\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"大嘴莫布\"]  真、真、真的！！？\n[Character(name=\"avg_npc_211_1\")]\n[name=\"发言人马克维茨\"]  关于你的奖金……会在明天打到你的账户上。决赛结束之后，你还会有一笔收入。\n[character(name=\"avg_npc_121\")]\n[name=\"大嘴莫布\"]  那我是不是总算可以把父母接来大骑士领住啦？\n[Character(name=\"avg_npc_211_1\")]\n[name=\"发言人马克维茨\"]  当然，完全可以买下一栋大别墅了。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Background(image=\"bg_23_G09\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[character(name=\"char_002_amiya_1#6\",fadetime=1.5)]\n[delay(time=1.5)]\n[name=\"阿米娅\"]  ……决赛的……门票？\n[Character(name=\"avg_npc_210_1\")]\n[name=\"伊奥莱塔·罗素\"]  罗德岛为今年的卡西米尔特锦赛提供了许多帮助，关于应对矿石病的先进方案，卡西米尔从罗德岛身上学到了许多。\n[name=\"伊奥莱塔·罗素\"]  今年特锦赛的胜者，是由耀骑士和血骑士——是由两位感染者决出的。\n[name=\"伊奥莱塔·罗素\"]  既然如此，我认为罗德岛应该观看这一场前所未有的决战。\n[Character(name=\"avg_npc_210_1#6\")]\n[name=\"伊奥莱塔·罗素\"]  而且……那边那两位萨卡兹小姐，应该是玛嘉烈的熟识是吧？\n[Character(name=\"char_147_shining_1\", name2=\"char_179_cgbird_1\", focus=1)]\n[name=\"闪灵\"]  ……谢谢您的好意。\n[Character(name=\"char_147_shining_1\", name2=\"char_179_cgbird_1\", focus=2)]\n[name=\"夜莺\"]  临光……她会赢吧？\n[Character(name=\"avg_npc_210_1#6\")]\n[name=\"伊奥莱塔·罗素\"]  这就要你自己去现场观战啦，孩子。\n[character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]  门票有四张呢……\n[Dialog]\n[Decision(options=\"阿米娅一定要去的吧。;罗德岛的领导人可不能缺席。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"char_002_amiya_1#10\")]\n[name=\"阿米娅\"]  那博士也要和我一起去！\n[Character(name=\"char_002_amiya_1#10\",name2=\"avg_237_gravel_1#3\",focus=2)]\n[name=\"砾\"]  当然，如果博士去的话，我也一定会护卫好博士的安全。\n[Character(name=\"char_002_amiya_1\",name2=\"avg_237_gravel_1#3\",focus=1)]\n[name=\"阿米娅\"]  那么剩下的两张……\n[Character(name=\"char_120_hibisc_1\")]\n[name=\"芙蓉\"]  虽然很想去看临光小姐的精彩表现，不过医疗组实在走不开——\n[name=\"芙蓉\"]  但是！阿米娅，博士，你们去吧！\n[name=\"芙蓉\"]  还有闪灵小姐，夜莺小姐，正好四个人啦！\n[Character(name=\"char_147_shining_1\", name2=\"char_179_cgbird_1\", focus=1)]\n[name=\"闪灵\"]  我怎么好抛下医疗组的各位……\n[Character(name=\"char_120_hibisc_1\")]\n[name=\"芙蓉\"]  比赛已经接近尾声，需要治疗的感染者也没有这么多啦！\n[name=\"芙蓉\"]  再说，博士不是很漂亮地解决了感染者问题吗？我想情况暂时都会比较稳定——\n[name=\"芙蓉\"]  ——可如果我是临光小姐，决赛的时候，没有曾经并肩作战的战友在身旁，是很打击人的！\n[Character(name=\"char_147_shining_1#2\", name2=\"char_179_cgbird_1\", focus=1)]\n[name=\"闪灵\"]  ……呵呵，你说的也对。\n[name=\"闪灵\"]  丽兹，想瞩目着临光获得最后的胜利吗？\n[Character(name=\"char_147_shining_1#2\", name2=\"char_179_cgbird_1\", focus=2)]\n[name=\"夜莺\"]  ……嗯。\n[Character(name=\"char_147_shining_1#2\", name2=\"char_179_cgbird_1\", focus=1)]\n[name=\"闪灵\"]  嗯。\n[name=\"闪灵\"]  博士，阿米娅，请允许我们同行。\n[stopmusic(fadetime=1)]\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Background(image=\"bg_23_G10\",screenadapt=\"coverall\")]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.4)]\n[Character(name=\"avg_npc_122#5\", name2=\"avg_npc_213_1#4\", focus=1)]\n[name=\"索娜\"]  ……血骑士和耀骑士的决战。\n[name=\"索娜\"]  无论谁赢……都会是感染者拿下冠军吗。\n[Character(name=\"avg_npc_122#5\", name2=\"avg_npc_213_1#4\", focus=2)]\n[name=\"托兰\"]  零号地块的事情被曝光，负责人下台，而你们，从监正会那里得到了庇护承诺，可以重新开始生活。\n[name=\"托兰\"]  真是大团圆的结局啊。\n[Character(name=\"avg_npc_122#2\", name2=\"avg_npc_213_1#4\", focus=1)]\n[name=\"索娜\"]  ……\n[Character(name=\"avg_npc_122#2\", name2=\"avg_npc_213_1#4\", focus=2)]\n[name=\"托兰\"]  ——其实并不是，对吧。\n[name=\"托兰\"]  看看今天的新闻，关于感染者的话题一刻都没停止过。无胄盟好对付，联合会好对付，民众对矿石病的恐惧要怎么对付？\n[name=\"托兰\"]  你们对抗商业联合会，对抗无胄盟，但无胄盟终究只是一群雇来的杀手，而商业联合会则是如今卡西米尔的根基。\n[name=\"托兰\"]  焰尾骑士，索娜。\n[name=\"托兰\"]  只是这样就够了吗？"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_4064_mlynar",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_4064_mlynar"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 169,
+          "kind": "story",
+          "line": 25,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 554,
+          "line": 520,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_07_end.txt",
+          "quote": "[name=\"光头马丁\"]  ……玛莉娅赢了，这场胜利将被转播到四座城邦的每一处赛事转播终端。\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_108#2\", focus=2)]\n[name=\"玛恩纳\"]  ……\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108#2\", focus=1)]\n[name=\"光头马丁\"]  但是……事情没有这么简单。你得帮帮她，玛恩纳。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108\", focus=2)]\n[name=\"玛恩纳\"]  真是奇怪，如果你真的替玛莉娅担心，为什么要来让我帮她，而不是让她放弃她愚蠢的骑士之路？\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108\", focus=1)]\n[name=\"光头马丁\"]  玛恩纳！\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108\", focus=2)]\n[name=\"玛恩纳\"]  别说了……如果是发言人和骑士协会直接干预的事，我根本就插不上手……\n[name=\"玛恩纳\"]  这就是我从一开始就不同意玛莉娅成为竞技骑士的原因。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108\", focus=1)]\n[name=\"光头马丁\"]  玛莉娅是为了家族才做出这个决定的。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108#2\", focus=2)]\n[name=\"玛恩纳\"]  没有人要求过她……不要说什么大义凛然的借口。\n[name=\"玛恩纳\"]  有时候责任感也会成为负担，为了更清醒地活下去，我们该变得聪明一点。\n[Character(name=\"avg_npc_107#3\", name2=\"avg_npc_108#2\", focus=1)]\n[name=\"光头马丁\"]  玛恩纳，你……\n[Character(name=\"avg_npc_107#3\", name2=\"avg_npc_108\", focus=2)]\n[name=\"玛恩纳\"]  ——如果你只是过来说这个的，就回吧，我还有别的事情要处理，经理要的文档我还没有完成……\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108\", focus=1)]\n[name=\"光头马丁\"]  ……我以为你只是一时落魄，玛恩纳。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108#2\", focus=2)]\n[name=\"玛恩纳\"]  别擅自揣度我，老马丁。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108#2\", focus=1)]\n[name=\"光头马丁\"]  也许，你说得对。玛恩纳，你让我们都很失望。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108#2\", focus=2)]\n[name=\"玛恩纳\"]  我对你们也一样。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108#2\", focus=1)]\n[name=\"光头马丁\"]  如果你连玛莉娅的安危都弃之不顾……那就由我们替临光老爷照顾他的孙女。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108\", focus=2)]\n[name=\"玛恩纳\"]  你们这是在毁掉她，你心里明明清楚。\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_108\", focus=1)]\n[name=\"光头马丁\"]  多说无益……就当我没来过吧。"
+        }
+      ],
+      "description": "二人就玛莉娅的处境直接争论。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "char_4064_mlynar",
+          "reason": "玛恩纳反驳并回应老马丁。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        },
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "光头马丁请求玛恩纳帮助玛莉娅并与其争论。",
+          "status": "supported",
+          "to": "char_4064_mlynar"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_89f9ae4a0acf0209.json",
+      "sources": [
+        {
+          "endLine": 554,
+          "kind": "story",
+          "line": 520,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "临光家客厅",
+      "title": "玛莉娅·临光"
+    }
+  ],
+  "relationship_id": "char_4064_mlynar|npc_2a519e8c8e7b4e11"
+}

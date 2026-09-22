@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 357,
+          "line": 309,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_01_beg.txt",
+          "quote": "[name=\"卡恩\"]凯勒教授。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_999_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_996_1#10$1\",focus=\"l\")]\n[name=\"凯勒\"]市政厅那边的会议结束了？\n[charslot(slot=\"r\",name=\"avg_npc_996_1#3$1\",focus=\"r\")]\n[name=\"卡恩\"]民众反对搬离原海岸的声音越来越大，市政厅对准确预测火山爆发的时间很执着，要求我们为给出的预估时间做担保。\n[charslot(slot=\"r\",name=\"avg_npc_996_1#10$1\",focus=\"r\")]\n[name=\"卡恩\"]我严正拒绝了，这是不可能也是不负责任的。我们尽力将预估时间做到精确，但科学观测不为政府的民意调查负责。\n[charslot(slot=\"l\",name=\"avg_npc_999_1#8$1\",focus=\"l\")]\n[name=\"凯勒\"]有劳你帮我处理这些琐事，卡恩博士。\n[charslot(slot=\"r\",name=\"avg_npc_996_1#3$1\",focus=\"r\")]\n[name=\"卡恩\"]不用客气，火山博物馆是你负责的项目，我答应过要帮你，是为了你能更好地专注在该做的事上。\n[charslot(slot=\"r\",name=\"avg_npc_996_1#12$1\",focus=\"r\")]\n[name=\"卡恩\"]我相信这是对所有火山学者有意义的事，也希望——\n[charslot(slot=\"r\",name=\"avg_npc_996_1#7$1\",focus=\"r\")]\n[name=\"卡恩\"]阿黛尔……？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_180_amgoat_1#5$1\",focus=\"m\")]\n[name=\"阿黛尔\"]卡恩前辈！\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_999_1#7$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_996_1#7$1\",focus=\"l\")]\n[name=\"凯勒\"]我都忘了，你们应该是认识的。\n[charslot(slot=\"r\",name=\"avg_npc_996_1#10$1\",focus=\"r\")]\n[name=\"卡恩\"]……\n[charslot(slot=\"r\",name=\"avg_npc_996_1#3$1\",focus=\"r\")]\n[name=\"卡恩\"]……当然。\n[charslot(slot=\"r\",name=\"avg_npc_996_1#10$1\",focus=\"r\")]\n[name=\"卡恩\"]是你叫阿黛尔来的？\n[charslot(slot=\"l\",name=\"avg_npc_999_1#2$1\",focus=\"l\")]\n[name=\"凯勒\"]博物馆的馆藏包括瑙曼夫妇的研究成果，汐斯塔火山爆发也是难得一遇的观测机会，出于尊重阿黛尔的意愿……\n[charslot(slot=\"r\",name=\"avg_npc_996_1#10$1\",focus=\"r\")]\n[name=\"卡恩\"]但我还以为这点工作不至于再让一个病……虚弱的孩子加入。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_180_amgoat_1#8$1\",focus=\"m\")]\n[name=\"阿黛尔\"]卡恩前辈，其实我也是在休假的时候顺便过来帮点忙，这些工作对我来说也不算是负担……\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_999_1#8$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_996_1#10$1\",focus=\"l\")]\n[name=\"凯勒\"]卡恩说的也有道理，我确实不该忽视你的身体状态。你要多小心，阿黛尔。\n[name=\"凯勒\"]今天就先到这里吧。卡恩博士，可以麻烦你送阿黛尔回住所吗？\n[charslot(slot=\"r\",name=\"avg_npc_996_1#3$1\",focus=\"r\")]\n[name=\"卡恩\"]……当然。"
+        }
+      ],
+      "description": "卡恩向凯勒报告市政会议并接受送阿黛尔回住所的请求。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_4106_bryota",
+          "reason": "卡恩向凯勒报告市政会议并接受送阿黛尔回住所的请求。",
+          "status": "supported",
+          "to": "npc_427702546526b6c4"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_427702546526b6c4",
+          "reason": "卡恩向凯勒报告市政会议并接受送阿黛尔回住所的请求。",
+          "status": "supported",
+          "to": "char_4106_bryota"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 357,
+          "kind": "story",
+          "line": 309,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    }
+  ],
+  "relationship_id": "char_4106_bryota|npc_427702546526b6c4"
+}

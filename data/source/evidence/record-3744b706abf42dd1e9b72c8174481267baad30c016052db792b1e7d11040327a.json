@@ -1,0 +1,15 @@
+{
+  "id": "import:char_4045_heidi|npc_c8a2caad4366c8fa",
+  "published": true,
+  "quote": "【慈悲灯塔】\n选项：\n1：还有，我刚整理了一份关于现有情报的资料。\n2：一旦联络上可露希尔，就将情报同步给他们。\n分支条件（原选项编号）：1 / 2\n选项：\n1：罗德岛其他干员的布置我也上传到了PRTS。\n2：通知他们尽快同步手中的PRTS数据。\n分支条件（原选项编号）：1 / 2\n海蒂：抢占先机？\n选项：\n1：是的。\n2：如今在伦蒂尼姆的各方都存在自己的盲区。\n3：争取时间，提前反应。这也是我们的机会。\n分支条件（原选项编号）：1 / 2 / 3\n海蒂：了解了，我会去办。现在对城内重建的联络网最熟悉的人，是我。",
+  "relationship_id": "char_4045_heidi|npc_c8a2caad4366c8fa",
+  "sources": [
+    {
+      "endLine": 1271,
+      "kind": "story",
+      "line": 1260,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

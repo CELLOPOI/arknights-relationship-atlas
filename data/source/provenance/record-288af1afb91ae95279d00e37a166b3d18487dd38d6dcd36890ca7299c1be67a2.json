@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 486,
+          "line": 439,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_phenxi_2_1.txt",
+          "quote": "[name=\"薇尔丽芙\"]安多恩，菲亚梅塔，现在不是你们的执勤时间，你们在七厅办公区域蹑手蹑脚、东张西望，有什么企图？\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_1800_1#1$3\",focus=\"l\")]\n[name=\"菲亚梅塔\"]你在说什么，薇尔丽芙？我们只是来找落下的东西，莫斯提马说……\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_361_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]你们“队长”在场，现在不由你发言，菲亚梅塔。\n[name=\"薇尔丽芙\"]回答我，安多恩。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1800_1#1$3\",focus=\"r\")]\n[name=\"安多恩\"]如菲亚梅塔所言，我们来找莫斯提马可能遗落在这里的雨伞，薇尔丽芙辅佐官。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_361_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]你是莫斯提马的保姆吗？\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1800_1#6$3\",focus=\"r\")]\n[name=\"安多恩\"]我是她的队长。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_361_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]队长的职责就是跟在她屁股后面捡东西，再在报告中欺瞒上峰？\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1800_1#1$3\",focus=\"r\")]\n[name=\"安多恩\"]我不认为发生过你所指控的事。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_361_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]注意你的态度。如果你无法胜任特勤小队队长的工作——\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#6$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_1800_1#1$3\",focus=\"l\")]\n[name=\"菲亚梅塔\"]够了，薇尔丽芙！\n[name=\"菲亚梅塔\"]纯找茬啊你！你又不是我们上司，什么欺瞒上峰！\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_361_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]特勤小队所执行任务中与七厅事务相关的行动报告，我有权调阅——"
+        }
+      ],
+      "description": "薇尔丽芙与安多恩直接互相质询回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "具体对话、同场或往来叙述支持该方向。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "具体对话、同场或往来叙述支持该方向。",
+          "status": "supported",
+          "to": "npc_0ce6ed6bdcaa7258"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_bd7c17c5c4f26eeb.json",
+      "sources": [
+        {
+          "endLine": 486,
+          "kind": "story",
+          "line": 439,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_phenxi_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "菲亚梅塔密录的当前谈话与旧日特勤小队回忆",
+      "title": "菲亚梅塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 176,
+          "line": 170,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_07_beg.txt",
+          "quote": "[name=\"薇尔丽芙\"]我只是发现你比我以为的有用一点。\n[Character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]费德里科上报之后，我本以为你只是安多恩的帮手……但现在看来，你还不算太废物。\n[Character(name=\"avg_npc_355_1#4$1\")]\n[name=\"奥伦\"]倍感荣幸。\n[Character(name=\"avg_npc_361_1#1$1\")]\n[name=\"薇尔丽芙\"]塞茜莉亚的存在对拉特兰是天然的威胁，你不希望这个威胁被抹去……不是因为你想实践这个威胁，而是你想用这个威胁做交易。"
+        }
+      ],
+      "description": "薇尔丽芙明确知道安多恩及奥伦为其帮手的关系。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "薇尔丽芙明确知道安多恩及奥伦为其帮手的关系。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "本组所读窗口没有反向知晓证据。",
+          "status": "not_established",
+          "to": "npc_0ce6ed6bdcaa7258"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 176,
+          "kind": "story",
+          "line": 170,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 477,
+          "line": 425,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_02_beg.txt",
+          "quote": "[name=\"？？？\"]今天由我来陪你们玩吧，安多恩叔叔还有事要做。\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#11$1\",focus=\"m\")]\n[name=\"安多恩\"]薇尔丽芙阁下。\n[name=\"安多恩\"]我只是有些私事需要处理，很快就会回来。\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]别紧张，你的暂离申请已经同步给我了。倒是你自己，明明请了假，却还在这里陪孩子们玩？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#11$1\",focus=\"m\")]\n[name=\"安多恩\"]……只是一场“光环游戏”的话，应该不会耽误。\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#3$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]然后呢？你觉得孩子们会乖乖放你走？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$1\",focus=\"m\")]\n[name=\"安多恩\"]……我会想办法。\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]我听到的说法是，你从来没办法拒绝孩子们。\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#8$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]因勤恳与虔诚而被牧首看重，并由她亲手培养起来的第一位保育员……曾经居然是违背律法的罪犯。谁能想到呢？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#3$1\",focus=\"m\")]\n[name=\"安多恩\"]薇尔丽芙阁下，我确实只是去参加一个朋友的家庭聚会，我们许久未见。\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]都说了不用紧张，我并不担心你在吹气球或者烤蛋糕的时候会把拉特兰炸掉。\n[name=\"薇尔丽芙\"]我只是好奇，为什么牧首眼中的你，与教皇厅记录中的你，像是两个截然不同的人？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#3$1\",focus=\"m\")]\n[name=\"安多恩\"]……牧首从未忽视或否认我的罪行，薇尔丽芙阁下。她只是更看重我对她的理解。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#11$1\",focus=\"m\")]\n[name=\"安多恩\"]那时她还不是牧首，我只是在一座废弃的移动修道院躲避天灾时，恰巧与她相遇。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#2$1\",focus=\"m\")]\n[name=\"安多恩\"]牧首眼盲，听觉却非常敏锐。在源石浪潮冲击远方山脉的轰响之中，她听到了从地下室传来的一声哀哭。\n[name=\"安多恩\"]一位母亲，满身血污地蜷缩在阴影中，奄奄一息。她试图威吓牧首，保护自己的孩子，却只能做出痛苦的表情。\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#4$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]你和牧首最初带来圣城的那位母亲？她的伤是最有医德的医生也会放弃抢救的程度。\n[name=\"薇尔丽芙\"]你们是如何判断出她能活下来的？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#2$1\",focus=\"m\")]\n[name=\"安多恩\"]我没有……我起初甚至不相信她能活过那个晚上。但牧首相信奇迹，仿佛那是天经地义之事。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#12$1\",focus=\"m\")]\n[name=\"安多恩\"]牧首想要让我也相信，相信那位可怜的母亲能因我们而得救。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$1\",focus=\"m\")]\n[name=\"安多恩\"]她得救了，薇尔丽芙阁下……一开始，我对医疗护理的工作并不擅长，只好尽我所能地感受她、陪伴她、照顾她。\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#9$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]你们在一座搁浅荒野的修道院里滞留了三个月，就为了一个“奇迹”？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#3$1\",focus=\"m\")]\n[name=\"安多恩\"]……因为拉特兰需要一个奇迹。\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#8$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]那你们还真是比我印象中要理性得多，或许我该对你们都刮目相看。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$1\",focus=\"m\")]\n[name=\"安多恩\"]……如果这样有助于教皇厅支持育婴圣堂的工作的话。\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]理性到有点无聊了。\n[name=\"薇尔丽芙\"]快去快回吧，安多恩保育员，至少我还希望看到降生仪式顺利举行。"
+        }
+      ],
+      "description": "薇尔丽芙与安多恩当面长谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L05"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "双方当面交谈或具体历史互动明确双向。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        },
+        {
+          "evidenceIds": [
+            "L05"
+          ],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "双方当面交谈或具体历史互动明确双向。",
+          "status": "supported",
+          "to": "npc_0ce6ed6bdcaa7258"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 477,
+          "kind": "story",
+          "line": 425,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "万国峰会期间",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "npc_0ce6ed6bdcaa7258|npc_5a3183cc75e97ddb"
+}

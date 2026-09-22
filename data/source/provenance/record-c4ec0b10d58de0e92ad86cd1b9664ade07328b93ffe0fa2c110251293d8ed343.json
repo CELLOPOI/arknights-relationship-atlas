@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 835,
+          "line": 794,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_10_end.txt",
+          "quote": "[name=\"莫佚\"]你就是……朔。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]很久没有人这样称呼过我了，难道阁下也与我等是故识？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\")]\n[name=\"莫佚\"]我……与您的一位学生，算是朋友……\n[name=\"莫佚\"]以及……\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#7$1\")]\n[name=\"莫佚\"]之前偷拿了您的东西，现在已经还回去了……对不起。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\")]\n[name=\"莫佚\"]那个，我说的不是现在这件，我说的是……\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]我知道。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\")]\n[name=\"莫佚\"]您知道？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]手足同胞的气息，我又怎么会认错。\n[charslot(slot = \"m\", focus = \"n\")]\n男人稍微打量过眼前人的服装打扮，脸上的神色又郑重了几分。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#8$1\")]\n[name=\"重岳\"]世上无论武功还是学识，原本不该有门派之别……\n[name=\"重岳\"]可若想消除人心中的成见，还得从自身做到有“容人之心”才行。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#8$1\")]\n[name=\"莫佚\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#3$1\")]\n[name=\"莫佚\"]晚辈……受教……\n[charslot]\n[PlaySound(key=\"$d_avg_clothmovement\",volume=1)]\n少女小心恭敬地递上了那件与颉有关的信物。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]多谢阁下。\n[name=\"重岳\"]将这缕生机带来岁陵，想必是二妹的主意。除了二弟，就属她与颉交往最多，哪怕只是造物，她也想让她来。\n[name=\"重岳\"]只可惜她讲话太少，没告诉你，我们家人聚首的地方是外面的荒地，而不是这岁陵里面。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#5$1\")]\n[name=\"莫佚\"]欸？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]不过也算歪打正着，在与家人团聚之前，就先让这缕生机，随我进岁陵一趟吧。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\")]\n[name=\"莫佚\"]该不会，这造物也是那位棋手战胜岁要消耗的……布局之一？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#9$1\")]\n[name=\"重岳\"]他拼命将这缕生机带到人间，我又怎么可能逆他的意思，将其消耗呢。"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C25"
+          ],
+          "from": "char_2024_chyue",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_f3a46713520eb64b"
+        },
+        {
+          "evidenceIds": [
+            "C25"
+          ],
+          "from": "npc_f3a46713520eb64b",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "char_2024_chyue"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 835,
+          "kind": "story",
+          "line": 794,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_2024_chyue|npc_f3a46713520eb64b"
+}

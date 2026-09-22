@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 147,
+          "line": 111,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_beg.txt",
+          "quote": "[name=\"令\"]呼……\n[name=\"令\"]左将军也有心情来旁观我大哥的比武？\n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\")]\n[name=\"左宣辽\"]抗灾事宜已经安排妥当。宗师想赶在天灾之前看看那人是否值得托付，我又怎能不来。\n[name=\"左宣辽\"]只是用这种办法决定剑的归处，左某始终觉得荒唐。\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#9$1\")]\n[name=\"令\"]你与我大哥几十年的袍泽情谊，哪怕是作为朋友，也不愿意相信他的选择？\n[charslot(slot=\"m\",name=\"avg_npc_788_1#8$1\")]\n[name=\"左宣辽\"]……朋友。\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#9$1\")]\n[name=\"令\"]唔。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#2$1\")]\n[name=\"左宣辽\"]我们同赴沙场，却谈不上生死与共。刀枪炮火伤不到你们，你们又怎能真正体会人的袍泽情谊？\n[name=\"左宣辽\"]你们终究置身事外。\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#7$1\")]\n[name=\"令\"]……\n[name=\"令\"]“置身事外”？\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#1$1\")]\n[name=\"令\"]我贪个“逍遥”，你这样说我倒也罢了，可对于大哥他，未免有些不公。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#8$1\")]\n[name=\"左宣辽\"]人兽有别，亘古不变。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\")]\n[name=\"左宣辽\"]令小姐应该清楚朝廷对你们的态度。\n[name=\"左宣辽\"]若能有人与你们相颉颃，则可以将你们视作助力。若无人能相制衡，那宁可不用你们。\n[name=\"左宣辽\"]我不如他，所以我不能毫无保留地相信他。\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#7$1\")]\n[name=\"令\"]没想到，左将军也会这样坦诚。\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#1$1\")]\n[name=\"令\"]可你未免太看轻自己了……\n[charslot]\n左宣辽无言望向城外大漠，城下人影依稀，像是苍茫画卷上飞溅出了两点残墨。\n天地肃杀。\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#1$1\")]\n[name=\"令\"]那段日子，仿佛还在昨天一样。\n[name=\"令\"]在征战之余，我们也曾四处游猎，饮酒高歌。玉门依然是玉门，为什么偏偏是平祟侯，为那么多事愁白了头？\n[name=\"令\"]看着这两人，你可曾想起那段峥嵘岁月？\n[name=\"令\"]你说人兽有别，可你看看，偏偏此刻就有人在挑战这道沟壑屏障。这样的较量，难道不令人心潮澎湃吗？"
+        }
+      ],
+      "description": "左宣辽明确说来观看宗师挑选托剑人，知道眼前具体参战者，槐天裴未识别他。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E78"
+          ],
+          "from": "npc_8ce7f1257163071b",
+          "reason": "左宣辽明确说来观看宗师挑选托剑人，知道眼前具体参战者，槐天裴未识别他。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_8ce7f1257163071b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 147,
+          "kind": "story",
+          "line": 111,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 30,
+          "line": 13,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "quote": "[name=\"左宣辽\"]怎么回事……？\n[charslot(slot=\"m\",name=\"avg_npc_795_1#1$1\",focus=\"m\")]\n[name=\"玉门守军\"]那疯汉闯到了演武场，不由分说就打伤了我们好几十号兄弟。我们看那人面貌，似乎是半年前，和宗师在这里比过武的那位汉子。\n[name=\"玉门守军\"]我们不知道他为什么发疯，只是尽量没伤着他。他就在这乱打了一通，转眼间又跑了！\n[charslot(slot=\"m\",name=\"avg_npc_788_1#8$1\",focus=\"m\")]\n[name=\"左宣辽\"]槐天裴……？\n[name=\"左宣辽\"]他做出这种疯事，那宗师的剑又如何了……\n[Dialog]\n[charslot]\n[playsound(key=\"$rungeneral\")]\n[charslot(slot=\"m\",name=\"avg_npc_796_1#1$1\",duration=2)]\n[Delay(time=2.5)]\n[name=\"玉门守军\"]将军！\n[name=\"玉门守军\"]我们刚刚发现，军武库遭人闯入！\n[charslot(slot=\"m\",name=\"avg_npc_788_1#7$1\",focus=\"m\")]\n[name=\"左宣辽\"]……丢了什么东西？\n[charslot(slot=\"m\",name=\"avg_npc_796_1#1$1\",focus=\"m\")]\n[name=\"玉门守军\"]宗师留下的那本《武典》……丢了。"
+        }
+      ],
+      "description": "左宣辽认出槐天裴，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "本窗未建立。",
+          "status": "not_established",
+          "to": "npc_8ce7f1257163071b"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_8ce7f1257163071b",
+          "reason": "直接对话、局部同场或具体提及支持。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 30,
+          "kind": "story",
+          "line": 13,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "镜中集对应场景",
+      "title": "镜中集"
+    }
+  ],
+  "relationship_id": "npc_2a2f1f3b7bd9ed61|npc_8ce7f1257163071b"
+}

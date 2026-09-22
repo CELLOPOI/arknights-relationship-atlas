@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 507,
+          "line": 482,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_07_end.txt",
+          "quote": "[name=\"罗辛南特\"]（高亢的嘶吼）\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_swimdeepsea\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_448_1#1$1\", duration=1.5, isblock=true)]\n[name=\"最后的骑士\"]——！\n[charslot(slot = \"m\", name = \"avg_npc_1389_1#1$1\")]\n[name=\"海嗣\"]你，族群，相似……\n[name=\"海嗣\"]从哪里……\n[name=\"海嗣\"]嘎——\n[charslot(slot = \"m\", name = \"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]巨浪，由你们营造，又由你们板结。\n[name=\"最后的骑士\"]你们，要将这里……化作土地？\n[name=\"最后的骑士\"]不许。\n[name=\"最后的骑士\"]颠倒意义。旷野，山川，小麦地，陆地只是陆地。\n[name=\"最后的骑士\"]我寻找，我斥责，我粉碎。\n[charslot(slot = \"m\", name = \"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]他是之前和乌尔比安同行的……\n[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]\n[name=\"幽灵鲨\"]呼……好久不见了，骑士先生。\n[charslot(slot = \"m\", name = \"avg_npc_1389_1#1$1\")]\n[name=\"海嗣\"]你，不是同胞。\n[CameraShake(duration=0.8, xstrength=40, ystrength=40, vibrato=90, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_lastknightroar\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]（愤怒的咆哮）————！"
+        }
+      ],
+      "description": "幽灵鲨单向明确认识最后的骑士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_143_ghost",
+          "reason": "幽灵鲨当面称其“骑士先生”并说好久不见。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "最后的骑士没有对幽灵鲨作出可核定的个人回应，局部仅继续攻击海嗣。",
+          "status": "not_established",
+          "to": "char_143_ghost"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 507,
+          "kind": "story",
+          "line": 482,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "海嗣巢穴救援",
+      "title": "生路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 418,
+          "line": 256,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_05_beg.txt",
+          "quote": "[name=\"恐鱼\"]（激动的窸窣声）\n[Character(name=\"avg_npc_183#1\")]\n[name=\"大审判官达里奥\"]他能言语，但却没有号令他的族群。恐鱼在混乱。\n[name=\"大审判官达里奥\"]我们当速战速决。\n[dialog]\n[Character(name=\"avg_npc_183#2\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[PlaySound(key=\"$char_emp\")]\n[CameraShake(duration=1, fadeout=true, xstrength=25, ystrength=25, vibrato=30, randomness=90, block=false)]\n[PlaySound(key=\"$d_gen_explo_n\",delay=0.3)]\n[Character(fadetime=0.3)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]（沙哑的咆哮）——！\n[Dialog]\n[Character(fadetime=0.3)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_1023_ghost2_1#4$1\")]\n[Characteraction(name=\"middle\", type=\"move\", xpos=800, fadetime=0, block=true)]\n[Characteraction(name=\"middle\", type=\"move\", xpos=-800,ypos=-100, fadetime=0.5, block=true)]\n[Delay(time=1)]\n[Characteraction(name=\"middle\", type=\"jump\", xpos=-3, power=0,times=1, fadetime=0.05, block=true)]\n[Blocker(a=0,fadetime=0.05, block=true)]\n[Characteraction(name=\"middle\", type=\"jump\", xpos=3, power=0,times=1, fadetime=0.05, block=true)]\n[Blocker(a=0,fadetime=0.05, block=true)]\n[Characteraction(name=\"middle\", type=\"jump\", xpos=-2, power=0,times=1, fadetime=0.05, block=true)]\n[Blocker(a=0,fadetime=0.05, block=true)]\n[Characteraction(name=\"middle\", type=\"jump\", xpos=2, power=0,times=1, fadetime=0.05, block=true)]\n[Blocker(a=0,fadetime=0.05, block=true)]\n[Characteraction(name=\"middle\", type=\"jump\", ypos=100, power=5, times=2, fadetime=0.5, block=true)]\n[Delay(time=1)]\n[name=\"幽灵鲨\"]——真让人惊讶，骑士先生，你的动作似乎和刚才不太一样。\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]……\n[Character(name=\"avg_npc_183#1\")]\n[name=\"大审判官达里奥\"]人类的动作。库兰塔骑士独有的冲锋起步。你究竟是什么？\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]……\n骑士仍旧没有理睬二人。他将目光投向了第三个方向。\n[Character]\n巨大的灯塔没有因为他的攻击撼动分毫。即使是大静谧都没能摧毁伊比利亚之眼，何况一个骑士？\n这让他感到困惑。也让他更加跃跃欲试。\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]（沙哑的低吟）云，群峦，灰烬……陈列在腐蚀的温床。\n[name=\"最后的骑士\"]浪花……不灭……\n[Dialog]\n[Character]\n[Character(name=\"char_empty\",name2=\"char_empty\")]\n[Character(name=\"avg_npc_457_1#1$1\",name2=\"char_empty\",fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_457_1#1$1\",name2=\"avg_npc_457_1#1$1\",fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"char_empty\",name2=\"char_empty\",fadetime=0.2)]\n[Character(name=\"avg_npc_457_1#1$1\",name2=\"char_empty\",fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_457_1#1$1\",name2=\"avg_npc_457_1#1$1\",fadetime=1)]\n[Delay(time=1)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"恐鱼\"]（激烈地蠕动）\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]恐鱼被你吸引，你负伤了。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"幽灵鲨\"]似乎是这样。只是不小心擦伤——\n[name=\"幽灵鲨\"]呃……\n[Characteraction(name=\"left\", type=\"jump\", xpos=-3, power=0,times=1, fadetime=0.05, block=true)]\n[Blocker(a=0,fadetime=0.05, block=true)]\n[Characteraction(name=\"left\", type=\"jump\", xpos=3, power=0,times=1, fadetime=0.05, block=true)]\n[Blocker(a=0,fadetime=0.05, block=true)]\n[Characteraction(name=\"left\", type=\"jump\", xpos=-2, power=0,times=1, fadetime=0.05, block=true)]\n[Blocker(a=0,fadetime=0.05, block=true)]\n[Characteraction(name=\"left\", type=\"jump\", xpos=2, power=0,times=1, fadetime=0.05, block=true)]\n[Blocker(a=0,fadetime=0.05, block=true)]\n[Characteraction(name=\"left\", type=\"jump\", ypos=-30, power=5, times=2, fadetime=0.5, block=true)]\n[Delay(time=1)]\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]……让开。你不适合继续战斗。\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n达里奥迅速扫视了一眼面前的深海猎人。她明显在刚才的缠斗中表露出了数次不自然的停顿。\n达里奥听过关于她的一些报告。她与盐风城的实验有关，与那场激战之后，达里奥亲眼所见的那个女人大不相同。\n她是谁？她现在是谁？\n[Character(name=\"avg_1023_ghost2_1#4$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]你应该没有大碍，可你连站都站不稳了。\n[name=\"大审判官达里奥\"]是盐风城时落下的病根？\n[Dialog]\n[Character(name=\"avg_1023_ghost2_1#2$1\",name2=\"avg_npc_183#1\",focus=1)]\n[Characteraction(name=\"left\", type=\"move\", ypos=-30, fadetime=0, block=true)]\n[Characteraction(name=\"left\", type=\"move\", ypos=30, fadetime=0.8, block=true)]\n[Delay(time=1)]\n[name=\"幽灵鲨\"]……海风让人有些沉醉。\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]……骑士……同胞。为什么，你要咀嚼空气，你要感受温度，你从不享用，文明的果实。\n[name=\"最后的骑士\"]唔……！\n[Dialog]\n[Character]\n[CameraShake(duration=3, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=false, block=false)]\n[playsound(key=\"$d_gen_surfacefrozen\")]\n[playsound(key=\"$d_avg_rockfall\",delay=0.5)]\n[Delay(time=2)]\n地面在震动。\n久违的能量正顺着管线充盈着伊比利亚之眼残破的躯体，以支撑它睁开眼眸。\n[Character(name=\"avg_1023_ghost2_1#2$1\")]\n[name=\"幽灵鲨\"]……它醒了。整座小岛低吟着初醒的呓语，就像睡了几个世纪一样漫长，它将把冬天从身上撤去。\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]……万物之轮……\n[name=\"最后的骑士\"]它不属于海……\n骑士在巨大的灯塔阴影中仰头观望。\n他在迷茫。\n[name=\"最后的骑士\"]……这不是巨浪。\n[name=\"最后的骑士\"]巨浪，何在？\n[Dialog]\n[Character(name=\"avg_1023_ghost2_1#4$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[Character(fadetime=0.3)]\n[Blocker(a=0, fadetime=0.3, block=false)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.7)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0, fadetime=0.06, block=false)]\n[Delay(time=1)]\n[Character(name=\"avg_npc_448_1#1$1\",fadetime=0.5)]\n[PlaySound(key=\"$gunlance\")]\n[Characteraction(name=\"middle\", type=\"move\", xpos=-200, fadetime=0, block=true)]\n[Characteraction(name=\"middle\", type=\"move\", xpos=300, fadetime=0.3, block=true)]\n[Delay(time=1)]\n[StopMusic(fadetime=3)]\n并没有任何气息，仿佛阴影顺着光芒的方向倾斜那般自然，幽灵鲨挥舞着武器。\n却被眼前这只人形的海嗣以不可思议的爆发力避开。\n[Dialog]\n[PlaySound(key=\"$d_avg_sea\")]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(fadetime=0)]\n半空中的骑士凝望着远方。\n他在听，新的海浪将至。他要去击碎海浪。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[playMusic(intro=\"$church_intro\", key=\"$church_loop\", volume=0.4,fadetime=3)]\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]……Ishar……mla……\n[Dialog]\n[PlaySound(key=\"$d_gen_thunders_amb\")]\n[CameraShake(duration=-1, xstrength=10, ystrength=0, vibrato=15, randomness=20,fadeout=true)]\n[Blocker(a=0.6, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[name=\"最后的骑士\"]（沙哑的咆哮）——罗辛——南特——！\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(fadetime=0)]\n[Background(image=\"27_g24_cloudy_sea\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_463_1#1$1\",name2=\"char_empty\",fadetime=3)]\n[Characteraction(name=\"left\", type=\"move\", ypos=-500, fadetime=0, block=true)]\n[Characteraction(name=\"left\", type=\"move\", ypos=500, fadetime=3, block=true)]\n[Background(image=\"27_g24_cloudy_sea\",x=0, y=0, xScale=1.1, yScale=1.1, fadetime=1,screenadapt=\"coverall\")]\n[CameraShake(duration=3, xstrength=10, ystrength=0, vibrato=15, randomness=20,fadeout=true)]\n[BackgroundTween(xFrom=0, yFrom=0, xTo=0, yTo=0, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=4, block=true)]\n[CameraShake(duration=1.5, xstrength=30, ystrength=30, vibrato=25, randomness=50,fadeout=true)]\n[PlaySound(key=\"$d_avg_horse\")]\n[PlaySound(key=\"$d_gen_thunders_amb\")]\n[name=\"罗辛南特\"]（嘶鸣）——！！"
+        }
+      ],
+      "description": "幽灵鲨与最后的骑士正面对峙并直接评论对方动作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S38"
+          ],
+          "from": "char_143_ghost",
+          "reason": "幽灵鲨与最后的骑士正面对峙并直接评论对方动作。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        },
+        {
+          "evidenceIds": [
+            "S38"
+          ],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "幽灵鲨与最后的骑士正面对峙并直接评论对方动作。",
+          "status": "supported",
+          "to": "char_143_ghost"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 418,
+          "kind": "story",
+          "line": 256,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_143_ghost|npc_58c708dd33128fbf"
+}

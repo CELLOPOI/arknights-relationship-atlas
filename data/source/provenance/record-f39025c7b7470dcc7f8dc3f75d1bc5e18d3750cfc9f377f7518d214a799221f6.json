@@ -1,0 +1,175 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 368,
+          "line": 342,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-20_end.txt",
+          "quote": "[name=\"凯尔希\"]去吧，阿米娅。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]在她彻底消失之前……有你在，她会很开心。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]哪怕她自己绝对不会承认。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\",focus=\"m\")]\n[name=\"阿米娅\"]……\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]博士，虽然我们如今与特蕾西娅的立场已然不同，但我不得不承认，她做到了一件连我都无法想象的事情。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]博士，我相信，如今的你，就算没有了曾经的记忆，心中大概也有了些许猜测吧。\n[dialog]\n[charslot]\n[Decision(options=\"和那个神秘的人有关。;……普瑞赛斯……\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]我们的任务还远没有结束，对吧，特蕾西娅。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#7$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]……\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]最初的源石，你已经交给他了吧？\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]……特蕾西娅，你给我们留下的难题实在是——\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]凯尔希，很多事情不会总是如我们所愿。我们不过都是在做我们该做的事情罢了。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]博士，现在你站在我的面前，就已经证明当初我赌对了。"
+        }
+      ],
+      "description": "阿米娅仍在特蕾西娅与博士等人的近旁，听博士具名称普瑞赛斯；不推普瑞赛斯本人反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E180"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅仍在特蕾西娅与博士等人的近旁，听博士具名称普瑞赛斯；不推普瑞赛斯本人反向。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_333d465fd8712924",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 368,
+          "kind": "story",
+          "line": 342,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-20_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 212,
+          "line": 95,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation02.txt",
+          "quote": "[name=\"Mon3tr\"]（兴奋的咆哮）\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#2$1\")]\n[name=\"普瑞赛斯\"]……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_scrystalroad\", volume=1, loop=true, channel=\"sc\")]\n[delay(time=1.5)]\n[StopSound(channel=\"sc\", fadetime=2)]\nMon3tr出现在你的身前，它的姿态却稍不同于往常。\n[dialog]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_rockbreakout\", volume=1)]\n[delay(time=1)]\n不用凯尔希的命令，它以迅猛的速度向敌人飞去，可一簇源石结晶拔地而起，将黑色的怪物完全包裹其中。\n[dialog]\n[Decision(options=\"凯尔希！当心——\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#1$1\")]\n[name=\"普瑞赛斯\"]你很让我惊喜，AMa-10。\n[name=\"普瑞赛斯\"]你以切断自己双生循环的系统为代价来脱离我的控制，哪怕这样会使你的生命变得脆弱不堪。\n[name=\"普瑞赛斯\"]不过，你真的打算用这样的方式杀了我吗？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]我知道，在很久之前，你的意识已经与源石中的信息海洋同化。\n[dialog]\n[PlaySound(key=\"$d_avg_humanchange\", volume=1)]\n[delay(time=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Background]\n[charslot]\n[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]\n[Image(image=\"50_i16\", screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Image]\n[CameraEffect(effect=\"Grayscale\", amount=0, keep=true)]\n[Background(image=\"60_g13_rhodesdeck_origin\", screenadapt=\"coverall\")]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[name=\"凯尔希\"]在这种情况下，真正杀死你已经是不可能的事。\n[name=\"凯尔希\"]但是特蕾西娅和特雷西斯做到的事，让我确信了一点。\n[name=\"凯尔希\"]你对源石的控制并非无可动摇，依然存在一些手段来限制你对于源石的权限。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#1$1\")]\n[name=\"普瑞赛斯\"]你所说的两个人，我的确在源石内部见过他们。\n[name=\"普瑞赛斯\"]他们的努力的确出人意料，是令人惊喜的挣扎。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#10$1\")]\n[name=\"普瑞赛斯\"]所以呢？你又如何确信，在这里杀了我不是徒劳之举？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]Mon3tr攻击你的时候，你选择了防御。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#2$1\")]\n[name=\"普瑞赛斯\"]……\n[name=\"普瑞赛斯\"]……你怎么能做到？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#11$1\")]\n[name=\"凯尔希\"]看来你已经察觉到了。\n[name=\"凯尔希\"]基于特蕾西娅对源石的研究，同样是模仿你对Dr.{@nickname}设下的陷阱，我对你所处的唤醒室加入了一些设计。\n[name=\"凯尔希\"]只要你在这里醒来，你的意识，同样会困于这具身体，而无法重新回到源石内部的信息海洋。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#3$1\")]\n[name=\"普瑞赛斯\"]……？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]或许你迟早能突破这一层限制，而且你依然有操作源石的权限，但此刻的你，也只是一个人类。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#7$1\")]\n[name=\"普瑞赛斯\"]你为了反抗我，竟然会做到这一步——\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]普瑞赛斯，你不是泰拉的造物主。这片大地上的一切生命，没有义务顺应你的意愿。\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#7$1\")]\n[name=\"凯尔希\"]……这是我对你的报复，也是最后的反抗。\n[charslot]\n你看到站在对面的女性脸上露出了一丝犹疑，但紧接着，源石开始在她的身旁环绕。\n[dialog]\n[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_icecrystlncrse\", volume=1)]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]……太迟了。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅！帮助凯尔希！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Effect(name=\"$e_amiya_atk_01\", layer = 1)]\n[PlaySound(key=\"$p_skill_chimera\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.4, block=true)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_phntsmbrek\", volume=1)]\n[PlaySound(key=\"$d_avg_phntsmglsbrek\", volume=1)]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=90, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1.5)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[charslot(slot = \"m\", name = \"npc_10002\")]\n[name=\"Mon3tr\"]（激昂的咆哮）\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]凯尔希医生……这一次换我来保护您……\n[charslot]\n黑色的法术乱流击碎了源石晶簇，Mon3tr挣脱而出，继续向唯一的目标袭去。\n源石晶簇重新开始聚集，却已经来不及构成足以抵挡Mon3tr爪锋的屏障。\n你看到了普瑞赛斯紧张的神情，造物主面对她的造物流露出了恐惧。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#7$1\")]\n[name=\"普瑞赛斯\"]……！\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_surfacefrozen\", volume=1, loop=true, channel=\"sur\")]\n[Delay(time=2)]\n[StopSound(channel=\"sur\", fadetime=6)]\n[PlaySound(key=\"$d_avg_drkcludsthdr\", volume=0, loop=true, channel=\"d\")]\n[SoundVolume(volume=1, channel=\"d\",fadetime=2)]\n似乎是普瑞赛斯终于认同了她此时面临着威胁，整片甲板上的源石都开始回应她的意识而急剧滋长。\nMon3tr已经逼近了它的猎物。"
+        }
+      ],
+      "description": "甲板上Mon3tr直接攻击普瑞赛斯，凯尔希与其交谈，博士指挥阿米娅参战，四者真实连续对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "char_002_amiya",
+          "reason": "甲板上Mon3tr直接攻击普瑞赛斯，凯尔希与其交谈，博士指挥阿米娅参战，四者真实连续对峙。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "npc_333d465fd8712924",
+          "reason": "甲板上Mon3tr直接攻击普瑞赛斯，凯尔希与其交谈，博士指挥阿米娅参战，四者真实连续对峙。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_d2170c6d544786d4.json",
+      "sources": [
+        {
+          "endLine": 212,
+          "kind": "story",
+          "line": 95,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇甲板上呈现的普瑞赛斯意识及其源石塑造形体；不推断原始肉身在场，不跨用两变体的不同事件。",
+      "title": "剧情"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 185,
+          "line": 135,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_tr28_end.txt",
+          "quote": "[name=\"阿米娅\"]放心吧，不管结果是什么样，一会见到可露希尔和Mon3tr小姐的时候，我不会让她们看到我沮丧的样子的。\n[charslot(slot=\"r\",name=\"avg_4134_cetsyr_1#10$1\",focus=\"r\")]\n[name=\"魔王\"]可是，阿米娅，我没有办法不担心你。\n[name=\"魔王\"]你最近一个月以来，睡眠时长严重低于正常值，你应该休息更多的。\n[name=\"魔王\"]你应该注意到了，在乌萨斯那一次使用过黑王冠的力量后，你身体的各方面指标都很不正常。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[Image(image=\"66_i24\", xScale=1.08, yScale=1.08,screenadapt=\"coverall\",fadetime=1)]\n[Delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[Image]\n[Delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"r\",name=\"avg_4134_cetsyr_1#10$1\",focus=\"r\")]\n[name=\"魔王\"]而且，阿米娅，在凯尔希离开后，你开始逃避罗德岛的常规体检了。\n[charslot(slot=\"l\",name=\"avg_1037_amiya3_1#10$1\",focus=\"l\")]\n[name=\"阿米娅\"]……我……\n[charslot(slot=\"l\",name=\"avg_1037_amiya3_1#2$1\",focus=\"l\")]\n[name=\"阿米娅\"]其实我也能感受到……有些变化在更早的时候就开始了。\n[name=\"阿米娅\"]我和博士在“文明的存续”里探索，发现了一个源于“安眠桥”项目的模型，又借助那种力量与普瑞赛斯对抗。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[Image(image=\"60_i13_2_a\", xScale=1.08, yScale=1.08,screenadapt=\"coverall\",fadetime=1)]\n[Delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]\n[Image]\n[Delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"l\",name=\"avg_1037_amiya3_1#7$1\",focus=\"l\")]\n[name=\"阿米娅\"]虽然我还无法完全理解，但是我能感受到，这个模型似乎让我和黑王冠之间的联系变得更紧密了。\n[name=\"阿米娅\"]我可以更自如地使用魔王的力量，我能感受到的情绪也更加强烈，甚至有时候，会无法控制地听到一些声音。\n[charslot(slot=\"l\",name=\"avg_1037_amiya3_1#2$1\",focus=\"l\")]\n[name=\"阿米娅\"]就像是……回到了凯尔希医生为我戴上这副戒指之前的时候。\n[charslot(slot=\"r\",name=\"avg_4134_cetsyr_1#3$1\",focus=\"r\")]\n[name=\"魔王\"]阿米娅，我可以察觉到王冠与你的联系在以很快的速度加深。这是在萨卡兹历代魔王身上都没有出现过的现象。\n[name=\"魔王\"]我也无法解释这种变化，但这听上去无论如何不是一件能让人安心的事。\n[charslot(slot=\"r\",name=\"avg_4134_cetsyr_1#10$1\",focus=\"r\")]\n[name=\"魔王\"]阿米娅，你一定要小心。我认为，你应该尽快让博士知道这件事。\n[charslot(slot=\"l\",name=\"avg_1037_amiya3_1#8$1\",focus=\"l\")]\n[name=\"阿米娅\"]嗯……我明白的。\n[name=\"阿米娅\"]我保证会注意自己的身体状况的，只是现在，先不要告诉博士好吗？\n[charslot(slot=\"r\",name=\"avg_4134_cetsyr_1#10$1\",focus=\"r\")]\n[name=\"魔王\"]……"
+        }
+      ],
+      "description": "阿米娅回忆自己直接参与对抗普瑞赛斯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_002_amiya",
+          "reason": "双方直接对话或局部同场明确参与。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_333d465fd8712924",
+          "reason": "双方直接对话或局部同场明确参与。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 185,
+          "kind": "story",
+          "line": 135,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_tr28_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "圣骏堡行动期间",
+      "title": "相变临界"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 330,
+          "line": 193,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "quote": "[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#3$3\")]\n[PlaySound(key=\"$d_avg_magic_1\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.2, r=1, g=1, b=1, fadetime=1, block=true)]\n[charslot(duration=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n没有时间犹豫，阿米娅已经做出了行动。\n你再一次与阿米娅共享了你的思维，你所研究的一切都重新在你的脑海中浮现。\n凭借着直觉和已有的研究成果，你开始尝试拆解那些公式，转译，然后逆转……\n哪怕你清楚，那并不能达到完全的效果。但此时，你只能祈祷这样会有用——\n为了凯尔希。\n[dialog]\n[Decision(options=\"记住我脑海中的东西，阿米娅！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$3\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[name=\"阿米娅\"]收到了，博士！\n[name=\"阿米娅\"]只要按照Logos教我的那样，将它们编织进我的法术之中——\n[name=\"阿米娅\"]然后——\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]停下！\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_icecrystlncrse\", volume=1)]\n[PlaySound(key=\"$p_skill_chimera\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.4, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_phntsmbrek\", volume=1)]\n[PlaySound(key=\"$d_avg_phntsmglsbrek\", volume=1)]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]\n[CameraShake(duration=4, xstrength=5, ystrength=5, vibrato=90, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"e\", fadetime=6)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[charslot]\n[background]\n[Image(image=\"60_i13_1\", screenadapt=\"coverall\", xScale=1.1, yScale=1.1, fadetime=0)]\n[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=20, block=false)]\n[PlaySound(key=\"$d_avg_rockfall\", volume=0.6)]\n[delay(time=0.2)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=3, block=true)]\n阿米娅的法术余波震开了试图封锁你们的源石。\n[name=\"普瑞赛斯\"]这是……？\n试图重新限制住你们的源石几乎无法继续向你们逼近，无数的棱面中倒映出了阿米娅的身影。\n[dialog]\n[Decision(options=\"奏效了？！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_avg_scrystalroad\", volume=1, loop=true, channel=\"sc\")]\n[delay(time=1.5)]\n[StopSound(channel=\"sc\", fadetime=6)]\n[name=\"阿米娅\"]……我在尽量坚持——\n[name=\"阿米娅\"]但源石挤压过来的速度正在变快……\n[name=\"阿米娅\"]我需要，更努力一点！我可以做到！\n你看到了阿米娅坚定的眼神，但你心中仍然有深深的忧虑。\n[name=\"普瑞赛斯\"]你并不明白自己在摆弄什么样的力量。\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"阿米娅\"]我的法术目前好像不光能挡住它们，也感知到了她的状态……\n[name=\"阿米娅\"]她没有我想象中那样不可战胜——\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[image]\n[PlaySound(key=\"$d_gen_surfacefrozen\", volume=0, loop=true, channel=\"sur\")]\n[SoundVolume(volume=0.6, channel=\"sur\",fadetime=2)]\n[Image(image=\"60_i13_1\", screenadapt=\"coverall\", xScale=1.6, yScale=1.6, y=-200)]\n[ImageTween(xFrom=-300, xTo=-380, duration=8, block=false)]\n[Delay(time=0.1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[PlaySound(key=\"$d_avg_stonegrowing\", volume=1)]\n[Image(image=\"60_i13_2\", screenadapt=\"coverall\", xScale=1.6, yScale=1.6, y=-200, fadetime=2)]\n[ImageTween(xFrom=-320, xTo=-380, duration=6, block=false)]\n[delay(time=1)]\n[name=\"普瑞赛斯\"]我的确过早地醒来了，源石同化这颗星球的速度并未达到我的预期。\n[name=\"普瑞赛斯\"]加之那两个泰拉人的莽撞行为，我没法如预期那样运用源石……\n[name=\"普瑞赛斯\"]但这不代表你们如此草率地使用我们研发的技术就能改变既定的事实。\n[dialog]\n[Decision(options=\"阿米娅！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_avg_spellattack_1\", volume=1)]\n[PlaySound(key=\"$d_avg_crystalmagic_intro\", volume=1)]\n[Image(image=\"60_i13_2\", screenadapt=\"coverall\", xScale=1.6, yScale=1.6, x=-380, y=-200, fadetime=0.5)]\n[ImageTween(xFrom=-380, xTo=100, duration=0.5, block=false)]\n[delay(time=0.5)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$d_avg_crystalmagic_loop\", volume=1, loop=true, channel=\"a\")]\n[SoundVolume(volume=1, channel=\"sur\",fadetime=2)]\n[Image(image=\"60_i13_2\", screenadapt=\"coverall\")]\n[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=30, block=false)]\n[cgitem(image=\"cgitem_60_i13_2\", style=\"cg\", sfrom=1.2, sto=1, sduration=30, layer = 1)]\n[cgitem(image=\"cgitem_60_i13_1\", style=\"cg\", sfrom=1, sto=1.5, sduration=30, layer = 2)]\n[CameraShake(duration=1.5, xstrength=5, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_phntsmbrek\", volume=1, channel=\"1\")]\n[PlaySound(key=\"$d_avg_phntsmglsbrek\", volume=1, channel=\"2\")]\n[PlaySound(key=\"$d_avg_land_impact\", volume=1, channel=\"3\")]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=true)]\n粉色的丝线从阿米娅法杖中迸发而出，在被源石封闭的空间中飞舞。\n但你能清楚地意识到，阿米娅正承受着巨大的压力。\n普瑞赛斯的身形也彻底被源石所遮挡……\n每一块源石的碎片中，每一个源石的棱面上，你们都能清晰地看到普瑞赛斯的眼睛。\n就像是……\n[dialog]\n[Decision(options=\"她……无处不在。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"阿米娅\"]博士，特蕾西娅小姐正指引我怎样用更高的效率来施展这个全新的法术！\n[name=\"阿米娅\"]我确信我已经暂时削弱了普瑞赛斯对源石的掌控，应该能够继续拖住她一段时间——\n[dialog]\n就在阿米娅的法术全力爆发的同时，你的脑海中响起了一个令你振奋的声音。\n[SoundVolume(volume=0.2, channel=\"a\",fadetime=2)]\n[SoundVolume(volume=0.2, channel=\"sur\",fadetime=2)]\n[name=\"Mantra\"]博士，阿米娅，我们已进入Abyss，刚刚一瞬间源石对我们的干扰减弱了。\n[name=\"阿米娅\"]……是刚才……\n[name=\"Mantra\"]Raidian迅速重建了我们之间的联系，但情况棘手，我只能勉强用源石技艺来帮助Raidian完成沟通。\n[name=\"Mantra\"]另外，她没有搜索到凯尔希医生的生物信号。\n[name=\"Mantra\"]你们在哪？情况如何？\n[dialog]\n[Decision(options=\"我们在罗德岛的甲板上！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"我们遭遇了普瑞赛斯！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"联络华法琳。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"抓紧时间，立刻撤出所有在舰人员。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[StopSound(channel=\"sur\", fadetime=2)]\n[StopSound(channel=\"a\", fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]"
+        }
+      ],
+      "description": "阿米娅与普瑞赛斯直接对抗并互相辨认。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D23"
+          ],
+          "from": "char_002_amiya",
+          "reason": "阿米娅与普瑞赛斯直接对抗并互相辨认。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [
+            "D23"
+          ],
+          "from": "npc_333d465fd8712924",
+          "reason": "阿米娅与普瑞赛斯直接对抗并互相辨认。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 330,
+          "kind": "story",
+          "line": 193,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往关系",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_002_amiya|npc_333d465fd8712924"
+}

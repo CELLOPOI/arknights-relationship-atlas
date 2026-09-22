@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 83,
+          "line": 34,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_06_end.txt",
+          "quote": "[name=\"大帝\"]   晚上好，叙拉古的丧家犬，弩弹打完了？可我怎么还活着呢？\n[Character(name=\"avg_npc_028#4\")]\n[name=\"甘比诺\"]   真不愧是大帝，枪林弹雨里还端着酒杯，运气不错。\n[Character(name=\"char_101_sora_1#2\")]\n[name=\"空\"]   ……龙门从来不会纵容真正的厮杀。\n[Character(name=\"char_103_angel_1#7\")]\n[name=\"能天使\"]   不按游戏规则来，可是会被驱逐出局的。\n[Character(name=\"avg_npc_028#4\")]\n[name=\"甘比诺\"]   规则？\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.5)]\n[Character(name=\"avg_npc_031\",name2=\"avg_npc_031\",fadetime=1,block=true)]\n[Delay(time=3)]\n[Character(name=\"avg_npc_028#3\")]\n[name=\"甘比诺\"]   当龙门警察到场的时候，只会看到你们几个支离破碎的尸首，企鹅物流。\n[Character(name=\"char_325_bison_1#4\")]\n[name=\"拜松\"]   ……街道上都是他们的人。\n[Character(name=\"char_325_bison_1#4\",name2=\"char_201_moeshd#3\",focus=2)]\n[name=\"可颂\"]   连后门都堵上了，唉，看来这位先生一直怀恨在心嘛，做得很彻底。\n[Character(name=\"avg_npc_028#3\")]\n[name=\"甘比诺\"]   卡彭那个懦夫太过忌惮鼠王和魏彦吾了，后者兴许值得关注……\n[name=\"甘比诺\"]   至于你和那只装腔作势的老鼠，除了让人作呕的本事一流之外，一文不值。\n[Character(name=\"avg_npc_028#3\",name2=\"char_105_emper\",focus=2)]\n[name=\"大帝\"]   嗯，你是真这么觉得？还是单纯想放狠话？\n[Character(name=\"avg_npc_028#4\",name2=\"char_105_emper\",focus=1)]\n[name=\"甘比诺\"]   诚心实意，“大帝先生”。\n[Character(name=\"char_201_moeshd#3\",name2=\"char_105_emper\",focus=2)]\n[name=\"大帝\"]   可颂，帮我捡瓶酒，我来帮他修理一下大脑皮层。\n[Character(name=\"char_201_moeshd#4\",name2=\"char_105_emper\",focus=1)]\n[name=\"可颂\"]   但是老板，不瞒你说，我们已经砸掉了上百万龙门币的红酒了。\n[Character(name=\"char_201_moeshd#4\",name2=\"char_105_emper\",focus=2)]\n[name=\"大帝\"]   ……那他们的命值多少钱？\n[Character(name=\"char_201_moeshd#4\",name2=\"char_105_emper\",focus=1)]\n[name=\"可颂\"]   怎么看也没这个数吧。\n[Character(name=\"char_201_moeshd#4\",name2=\"char_105_emper\",focus=2)]\n[name=\"大帝\"]   ……\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   要动真格的吗？\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]   怎么会呢。我们一定会恪守和小魏的约定，在龙门之内，不打真架，不闹人命，一切生意上的纠纷，在商言商。\n[name=\"大帝\"]   只是今天我们总计逃亡了五个小时，超出了我日常工作时间的两倍，两倍！\n[name=\"大帝\"]   不仅如此，我们还炸掉了整整一年分的行动补贴！汽车，红酒，还有我的珍藏黑胶！\n[name=\"大帝\"]   现在，在我的酒吧发生了一些预料之内的意外死亡，这总没什么问题吧？嗯？\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   明白了。\n[Character(name=\"char_102_texas_1\",name2=\"avg_npc_028\",focus=2)]\n[name=\"甘比诺\"]   德克萨斯，你的名字就让我感到不快。\n[Character(name=\"char_102_texas_1\",name2=\"avg_npc_028\",focus=1)]\n[name=\"德克萨斯\"]   我不记得自己认识你这样的叙拉古人。但你会再次夹着尾巴逃离龙门。"
+        }
+      ],
+      "description": "企鹅物流成员听闻大帝与魏彦吾的约定。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_325_bison",
+          "reason": "在酒吧现场听到大帝说明与“小魏”的明确约定。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "魏彦吾不在场，未见其知晓该成员。",
+          "status": "not_established",
+          "to": "char_325_bison"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 83,
+          "kind": "story",
+          "line": 34,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "安魂夜酒吧围攻期间",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "char_325_bison|npc_08bc2cc38b820ef0"
+}

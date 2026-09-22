@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 231,
+          "line": 214,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act48side/level_act48side_02_end.txt",
+          "quote": "她仿佛听到了只为英雄而响的琴声萦绕在自己的耳边，那些她如数家珍的传说和故事出现在她眼前。\n哪怕这里只是一座刚刚完工的神殿剧场，脚手架和幕布煞风景地堆放在一边，但透过它们，缇缇领会到了一些特殊的东西——\n那些被书写在史诗中，留存在大理石和工匠手中的传统，那些历经百年，不为任何事物屈服的，只属于米诺斯的东西，就在这里。\n[charslot(slot=\"l\",name=\"avgnew_482_pallas_1#10$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#9$2\",focus=\"r\")]\n[name=\"缇缇\"]我想在这里举办文物交换仪式。\n[charslot(slot=\"l\",name=\"avgnew_482_pallas_1#11$1\",focus=\"l\")]\n[name=\"帕拉斯\"]哦？倒是个不错的想法，不过……\n[charslot(slot=\"l\",name=\"avgnew_482_pallas_1#11$1\",focus=\"none\")]\n[name=\"？？？\"]不过，这里是克瑞斯拉第一神殿，大小事务须与神殿祭司先行商议。\n[charslot(slot=\"l\",name=\"avgnew_482_pallas_1#1$1\",focus=\"l\")]\n[name=\"帕拉斯\"]卡珊卓拉？你今天怎么有空到重建工地来？\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_2068_1#3$1\",duration=1)]\n[Delay(time=2)]\n[name=\"卡珊卓拉\"]抱歉打扰你们的谈话，尊敬的使节小姐，有些事情我需要单独跟帕拉斯商量。"
+        }
+      ],
+      "description": "帕拉斯与卡珊卓拉当面相见并要求独谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_485_pallas",
+          "reason": "帕拉斯与卡珊卓拉当面相见并要求独谈。",
+          "status": "supported",
+          "to": "npc_934c760a7f3e26c5"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_934c760a7f3e26c5",
+          "reason": "帕拉斯与卡珊卓拉当面相见并要求独谈。",
+          "status": "supported",
+          "to": "char_485_pallas"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_04151079098ee9e5.json",
+      "sources": [
+        {
+          "endLine": 231,
+          "kind": "story",
+          "line": 214,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act48side/level_act48side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇雅赛努斯事件期间",
+      "title": "雅赛努斯复仇记"
+    }
+  ],
+  "relationship_id": "char_485_pallas|npc_934c760a7f3e26c5"
+}

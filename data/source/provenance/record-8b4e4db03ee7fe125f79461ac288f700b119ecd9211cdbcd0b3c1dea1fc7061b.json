@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 328,
+          "line": 308,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "quote": "[name=\"干员迪伦\"]  啊？什么嘛？这结局也太草率了吧！每次故事讲到最后，都感觉黑角大哥越说越离谱……\n[Character(name=\"avg_npc_012\", name2=\"char_500_noirc_1\", focus=2)]\n[name=\"黑角\"]  哎呦，俺是不是赢了？\n[Character(name=\"avg_npc_012\", name2=\"char_500_noirc_1\", focus=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"干员迪伦\"]  诶诶？！我听故事听得太入迷了……\n[Character(name=\"avg_npc_012\", name2=\"avg_npc_089\", focus=2)]\n[name=\"干员查德\"]  我也是……\n[Character(name=\"avg_npc_090\", name2=\"avg_npc_089\", focus=1)]\n[name=\"干员巴蒂\"]  谁不是呢。\n[Character(name=\"avg_npc_012\", name2=\"avg_npc_090\", focus=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"干员迪伦\"]  我明白了！这就是黑角大哥的独门技巧吧？\n[Character(name=\"avg_npc_012\", name2=\"char_500_noirc_1\", focus=2)]\n[name=\"黑角\"]  嘿嘿，比演戏唬人有效率多了。\n[Character(name=\"avg_npc_012\", name2=\"char_500_noirc_1\", focus=1)]\n[name=\"干员迪伦\"]  唉，好想继续听两只鬼的故事啊……\n[name=\"干员迪伦\"]  上次那个风雪夜一只鬼连挑十大将也很精彩！\n[Character(name=\"avg_npc_012\", name2=\"char_500_noirc_1\", focus=2)]\n[name=\"黑角\"]  得下回了，俺瞧着，查德的眼皮都快黏一块咯。\n[name=\"黑角\"]  等你结束外勤任务，俺们就又能喝一顿。"
+        }
+      ],
+      "description": "酒吧打牌时迪伦与黑角直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_500_noirc",
+          "reason": "酒吧打牌时迪伦与黑角直接交谈。",
+          "status": "supported",
+          "to": "npc_090185751b884944"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_090185751b884944",
+          "reason": "酒吧打牌时迪伦与黑角直接交谈。",
+          "status": "supported",
+          "to": "char_500_noirc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_77447b339e70b7d0.json",
+      "sources": [
+        {
+          "endLine": 328,
+          "kind": "story",
+          "line": 308,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑角所述时段",
+      "title": "黑角"
+    }
+  ],
+  "relationship_id": "char_500_noirc|npc_090185751b884944"
+}

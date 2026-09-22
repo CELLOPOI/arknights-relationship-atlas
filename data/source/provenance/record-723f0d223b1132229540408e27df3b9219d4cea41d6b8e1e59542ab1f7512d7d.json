@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 219,
+          "line": 215,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_whitw2_1_1.txt",
+          "quote": "[name=\"拉普兰德\"]听起来，你想杀了我？\n[charslot(slot = \"m\", name = \"avg_1038_whitw2_1#10$1\",focus=\"m\")]\n[name=\"拉普兰德\"]如果博士和你那个爱藏在烟雾里的上司不追究，我倒是很乐意活动活动筋骨。\n[charslot(slot = \"m\", name = \"char_144_red_7#5\",focus=\"m\")]\n[name=\"红\"]不……红不要和你战斗。"
+        }
+      ],
+      "description": "拉普兰德单向知晓博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_140_whitew",
+          "reason": "拉普兰德明确提及博士并预判其态度。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未出场，未见其知晓拉普兰德的本篇证据。",
+          "status": "not_established",
+          "to": "char_140_whitew"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6ee074b30afbf146.json",
+      "sources": [
+        {
+          "endLine": 219,
+          "kind": "story",
+          "line": 215,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_whitw2_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇罗德岛现实场景",
+      "title": "荒芜拉普兰德"
+    }
+  ],
+  "relationship_id": "char_140_whitew|npc_b99957887950ebfd"
+}

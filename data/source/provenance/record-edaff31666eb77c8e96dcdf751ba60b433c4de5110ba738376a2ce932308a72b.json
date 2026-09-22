@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 123,
+          "line": 107,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-03_beg.txt",
+          "quote": "[name=\"蔓德拉\"]……这些突然冒出来的是什么人？\n[Character(name=\"avg_npc_406_1#1$1\")]\n[name=\"深池士兵\"]我不知道……长官，他们的武器和源石技艺我们都没见过！\n[character(name=\"avg_npc_233_1#2\")]\n[name=\"蔓德拉\"]他们也在和萨卡兹交战……不是魔族佬的援军？\n[character(name=\"avg_npc_233_1#1\")]\n[name=\"蔓德拉\"]不管了，谁碍事我们就除掉谁。\n[Character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]喂——\n[Character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]乖乖把人还回来吧！\n[dialog]\n[Character(name=\"avg_npc_406_1#1$1\")]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$fightgeneral\",volume=0.6)]\n[delay(time=1)]\n[name=\"深池士兵\"]是……是你！"
+        }
+      ],
+      "description": "蔓德拉命令攻击，因陀罗在同一对峙现场要求交还人质。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "char_155_tiger",
+          "reason": "蔓德拉命令攻击，因陀罗在同一对峙现场要求交还人质。",
+          "status": "supported",
+          "to": "npc_cb03e146518e01fb"
+        },
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "npc_cb03e146518e01fb",
+          "reason": "蔓德拉命令攻击，因陀罗在同一对峙现场要求交还人质。",
+          "status": "supported",
+          "to": "char_155_tiger"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 123,
+          "kind": "story",
+          "line": 107,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_155_tiger|npc_cb03e146518e01fb"
+}

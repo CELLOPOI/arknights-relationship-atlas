@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 205,
+          "line": 99,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_05_end.txt",
+          "quote": "[name=\"能天使\"]本来想过段时间给你们一个惊喜的，这不是……嘿嘿。\n[name=\"能天使\"]（试图挠头）\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#9$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_213_mostma_1#12$1\",focus=\"r\")]\n[name=\"菲亚梅塔\"]蕾缪安，怎么回事？\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#5$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1811_1#11$2\",focus=\"r\")]\n[name=\"蕾缪安\"]……一两句话说不清楚。\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#9$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_213_mostma_1#7$1\",focus=\"r\")]\n[name=\"莫斯提马\"]要不，我帮你争取两分钟逃跑？\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#9$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_1811_1#11$2\",focus=\"l\")]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#3$1\",focus=\"l\")]\n[multiline(name=\"能天使\")]也行——\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#9$1\",focus=\"l\")]\n[multiline(name=\"能天使\",end=true)]还是别给我老姐添乱了，下次吧！\n[charslot(slot=\"r\",name=\"avg_npc_1811_1#1$2\",focus=\"r\")]\n[name=\"蕾缪安\"]……\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[name=\"薇尔丽芙\"]抱歉，我是不是打扰你们几位好友团聚了？\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#1$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_1811_1#8$2\",focus=\"all\")]\n[Delay(time=2)]\n[charslot(slot=\"r\",name=\"avg_npc_1811_1#8$2\",focus=\"r\")]\n[name=\"蕾缪安\"]前辈。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]蕾缪安枢机，你自己一个人就能够将嫌犯带回第七厅吗？\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#3$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]还是说，需要支援……？毕竟试图破坏育婴圣堂，干涉万国峰会，可是干系重大！\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1811_1#2$2\",focus=\"r\")]\n[name=\"蕾缪安\"]不放心的话，前辈你可以和我一起，或者让铳骑监督。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#3$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]别这么说话嘛。毕竟根据阿摩斯辅佐官的证词，你确实之前就在其他案发现场发现了蕾缪乐的踪迹……\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1811_1#5$2\",focus=\"r\")]\n[name=\"蕾缪安\"]你是想说，我试图包庇自己的妹妹？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#8$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]那倒是没有，毕竟都是间接证据，不足以说明你采取了什么行动。\n[name=\"薇尔丽芙\"]还记得我们之前在圣堂内的谈话吗？\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#9$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]我很欣赏你的能力和办事手段，“噤声的蕾缪安”，不过我也清楚你那些美好的品质一般在什么时候最能得到体现……\n[name=\"薇尔丽芙\"]更何况这次牵涉到的是你的妹妹，我们有所怀疑也是在所难免，请你理解。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_1811_1#2$2\",focus=\"r\")]\n[name=\"蕾缪安\"]那你们大可放心。放小乐背着一身罪名乱跑，并不能真正帮到她。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#8$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]嗯嗯，只要蕾缪乐能够配合，我相信这里面的误会一定能解开的。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_1041_angel2_1#1$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_1811_1#8$2\",focus=\"all\")]\n[Delay(time=0.5)]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"l\",afrom=1,ato=0,duration=1)]\n[charslot(slot=\"l\",posfrom=\"0,0\",posto=\"-200,0\",duration=1.5)]\n[charslot(slot=\"r\",afrom=1,ato=0,duration=1)]\n[charslot(slot=\"r\",posfrom=\"0,0\",posto=\"-200,0\",duration=1.5)]\n[Delay(time=2.5)]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#1$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_213_mostma_1#10$1\",focus=\"all\")]\n[Delay(time=0.5)]\n[charslot(slot=\"r\",posfrom=\"0,0\",posto=\"-100,0\",duration=1.5)]\n[charslot(slot=\"l\",posfrom=\"0,0\",posto=\"-100,0\",duration=1.5)]\n[Delay(time=1.5)]\n[charslot(slot=\"r\",name=\"avg_213_mostma_1#10$1\",focus=\"none\")]\n[name=\"薇尔丽芙\"]稍微等等，“微光守夜人”，还有……万国信使莫斯提马。\n[Dialog]\n[charslot(slot=\"r\",posfrom=\"-100,0\",posto=\"0,0\",duration=1.5)]\n[charslot(slot=\"l\",posfrom=\"-100,0\",posto=\"0,0\",duration=1.5)]\n[Delay(time=1.5)]\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_213_mostma_1#1$1\",focus=\"r\")]\n[name=\"莫斯提马\"]……\n[charslot(slot=\"l\",name=\"avg_300_phenxi_1#1$1\",focus=\"l\")]\n[name=\"菲亚梅塔\"]怎么了？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1780_1#1$1\",focus=\"m\")]\n[name=\"薇尔丽芙\"]两位请暂时留在育婴圣堂，教皇厅有些任务需要交给两位。"
+        }
+      ],
+      "description": "能天使与薇尔丽芙同处圣堂局部现场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L17"
+          ],
+          "from": "char_103_angel",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "npc_0ce6ed6bdcaa7258"
+        },
+        {
+          "evidenceIds": [
+            "L17"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "双方直接互动或在同一局部场景相互可见。",
+          "status": "supported",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 205,
+          "kind": "story",
+          "line": 99,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_103_angel|npc_0ce6ed6bdcaa7258"
+}

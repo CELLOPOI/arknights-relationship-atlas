@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 197,
+          "line": 178,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_03_beg.txt",
+          "quote": "[name=\"Sharp\"]这里不安全！\n[character(name=\"avg_422_aurora_1#5$1\")]\n[name=\"极光\"]该跑了博士！\n[Dialog]\n[musicvolume(volume=0.2, fadetime=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n乌萨斯干员将你扛在了肩膀上，大步向树林里冲去。\n[dialog]\n[Background(image=\"24_g1_snowyforest\",screenadapt=\"showall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[PlaySound(key=\"$d_avg_snowrun\")]\n[Delay(time=2)]\n[musicvolume(volume=0.4, fadetime=1)]\n[Decision(options=\"啊，不用跑了，放我下来吧。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_422_aurora_1#2$1\")]\n[name=\"极光\"]啊！好的。"
+        }
+      ],
+      "description": "极光扛走博士，回应博士要求放下。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "char_422_aurora",
+          "reason": "极光扛走博士，回应博士要求放下。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "极光扛走博士，回应博士要求放下。",
+          "status": "supported",
+          "to": "char_422_aurora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 197,
+          "kind": "story",
+          "line": 178,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_422_aurora|npc_b99957887950ebfd"
+}

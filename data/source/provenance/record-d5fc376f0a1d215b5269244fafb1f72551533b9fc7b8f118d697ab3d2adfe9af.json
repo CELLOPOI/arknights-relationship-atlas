@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 105,
+          "line": 75,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "quote": "[name=\"伶俐的少女\"]槐大侠果然好身手，出入万军阵中如入无人之境的武艺，大炎古往今来也找不出第二位了吧。\n[Dialog]\n[charslot(slot=\"l\",name=\"avg_npc_785_1#2$1\",focus=\"l\")]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_npc_785_1#2$1\",focus=\"none\")]\n槐天裴并没有答话，只是晃晃悠悠地原地徘徊着，口中重复着几个含糊的音节。\n[charslot(slot=\"r\",name=\"avg_npc_1871_1#3$1\",focus=\"r\")]\n[name=\"伶俐的少女\"]槐大侠放心，你帮我取来了这本书，我自然也会帮你。\n[charslot(slot=\"r\",name=\"avg_npc_1871_1#1$1\",focus=\"r\")]\n[name=\"伶俐的少女\"]一场万众瞩目的擂台，让你和那位宗师，再好好打上一架。\n[name=\"伶俐的少女\"]十天后，邙山山顶，我会备好宴席静候阁下。\n[charslot(slot=\"l\",name=\"avg_npc_785_1#2$1\",focus=\"l\")]\n[name=\"槐天裴\"]……嗯。\n[charslot(slot=\"r\",name=\"avg_npc_1871_1#12$1\",focus=\"r\")]\n[name=\"伶俐的少女\"]不过我倒想问问槐大侠，你武功已经无人可敌，而且明知道那位宗师根本不是什么“正常人”，你就非要胜过他不可？\n[name=\"伶俐的少女\"]人兽本就有别，人与兽斗了上万年，从来靠的也不是以己之短搏彼之长啊。\n[charslot(slot=\"l\",name=\"avg_npc_785_1#11$1\",focus=\"l\")]\n[name=\"槐天裴\"]……你说的话，听不明白。\n[name=\"槐天裴\"]有人的武功比我高，那就练到胜过那个人，天地造化比我深，那就练到胜过这片天地。\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]\n[charslot(slot=\"l\",afrom=1,ato=0,duration=0.5)]\n[charslot(slot=\"l\",posfrom=\"0,0\",posto=\"-100,0\",duration=1)]\n[delay(time=2.5)]\n[charslot(slot=\"r\",name=\"avg_npc_1871_1#12$1\",focus=\"r\")]\n[name=\"伶俐的少女\"]唉……要说你是人，你身上的这股痴劲已经多少不像是人所有的了。\n[name=\"伶俐的少女\"]但要说你不像人，要不是还有那点忘不掉的人情，你又怎会被那个“商人”逼到这般境地。\n[charslot(slot=\"r\",name=\"avg_npc_1871_1#3$1\",focus=\"r\")]\n[name=\"伶俐的少女\"]真不知道该说你是可怜还是可笑。\n[charslot(slot=\"r\",name=\"avg_npc_1871_1#6$1\",focus=\"r\")]\n[name=\"伶俐的少女\"]有趣……"
+        }
+      ],
+      "description": "槐天裴与莫佚直接完成交易。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "直接对话、局部同场或具体提及支持。",
+          "status": "supported",
+          "to": "npc_f3a46713520eb64b"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_f3a46713520eb64b",
+          "reason": "直接对话、局部同场或具体提及支持。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 105,
+          "kind": "story",
+          "line": 75,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "镜中集对应场景",
+      "title": "镜中集"
+    }
+  ],
+  "relationship_id": "npc_2a2f1f3b7bd9ed61|npc_f3a46713520eb64b"
+}

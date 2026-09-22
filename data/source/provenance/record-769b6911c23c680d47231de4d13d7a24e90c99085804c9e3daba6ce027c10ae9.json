@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 244,
+          "line": 238,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-03_beg.txt",
+          "quote": "[charslot(slot=\"l\",name=\"avg_npc_862_1#11$1\",duration=0.7)]\n[charslot(slot=\"r\",name=\"avg_npc_863_1#1$1\",duration=0.7)]\n[Delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_npc_862_1#11$1\",focus=\"l\")]\n[name=\"卡铎尔\"]呼——\n[charslot(slot=\"r\",name=\"avg_npc_863_1#1$1\",focus=\"r\")]\n[name=\"贝尔德\"]你该节省些体力，卡铎尔，你吃的已经够多的了。"
+        }
+      ],
+      "description": "卡铎尔与贝尔德直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_52ec194abf30e86c",
+          "reason": "二人在同一连续场景中直接交流或共同制定行动。",
+          "status": "supported",
+          "to": "npc_b8a61bfc9821327a"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_b8a61bfc9821327a",
+          "reason": "二人在同一连续场景中直接交流或共同制定行动。",
+          "status": "supported",
+          "to": "npc_52ec194abf30e86c"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 244,
+          "kind": "story",
+          "line": 238,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 195,
+          "line": 137,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_st02.txt",
+          "quote": "[name=\"因陀罗\"]摩根，刚刚出去的，是卡铎尔？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#13$1\",focus=\"m\")]\n[name=\"摩根\"]是的。\n[name=\"摩根\"]他来和我们告别，顺带把它还给我们。\n[Dialog]\n[charslot]\n她掏出了一柄蝴蝶刀，上面有些残缺，但依旧可以清晰看到格拉斯哥帮的标记。\n贝尔德的蝴蝶刀——汉娜不会认错，上面的标记，还是当初她打赢贝尔德后非要刻上的。\n[charslot(slot=\"l\",name=\"avg_155_tiger_1#6$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_396_1#1$1\",focus=\"l\")]\n[name=\"因陀罗\"]……\n[charslot(slot=\"r\",name=\"avg_npc_396_1#1$1\",focus=\"r\")]\n[name=\"达格达\"]……\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#6$1\",focus=\"m\")]\n[name=\"摩根\"]卡铎尔从一个死掉的清理人身上找到了它……但他搜遍了那片地方，也没有找到贝尔德。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_155_tiger_1#2$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_396_1#1$1\",focus=\"l\")]\n[name=\"因陀罗\"]我也去了那。\n[name=\"因陀罗\"]只在墙上找到些看不懂的东西，又下过雨，冲刷得差不多了。但我很肯定……\n[name=\"因陀罗\"]她去过那，我认得她写的字——\n[name=\"因陀罗\"]“我也希望”……\n[Dialog]\n[charslot]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.5, r=0,g=0, b=0, fadetime=2, block=true)]\n[PlaySound(key=\"$d_avg_penrustle\", volume=1)]\n[Sticker(id=\"st1\", multi = true, text=\"<i>“我也希望。”</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n<i>贝尔德希望着什么？我们几个人盘算了很久也搞不清。</i>\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n<i>她的愿望，已经顺着雨水回到了诺伯特区的土地上。</i>\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"<i>我们决定不再试图弄清楚这件事。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n<i>至少，她留住了自己最后的小秘密，我们永远也没机会猜到了。</i>\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n<i>贝尔德现在一定又在嘲笑我们。</i>\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_155_tiger_1#2$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_396_1#2$1\",focus=\"r\")]\n[name=\"达格达\"]我记得，我们在录像厅看片子的时候，贝尔德最讨厌那些哭唧唧的悼念场面。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#12$1\",focus=\"m\")]\n[name=\"摩根\"]是啊，她从不觉得死亡，是值得悲伤的事情。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_155_tiger_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_396_1#2$1\",focus=\"l\")]\n[name=\"因陀罗\"]把刀给我吧，我想办法挂在墙上。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_405_1#1$1\",focus=\"m\")]\n[name=\"摩根\"]那我去拿酒。庆祝回家，也敬贝尔德！"
+        }
+      ],
+      "description": "卡铎尔知晓并曾寻找贝尔德；仅支持卡铎尔方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_52ec194abf30e86c",
+          "reason": "摩根明确说明卡铎尔找到了贝尔德的蝴蝶刀并搜遍当地寻找她。",
+          "status": "supported",
+          "to": "npc_b8a61bfc9821327a"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b8a61bfc9821327a",
+          "reason": "本组所读证据未提供反向识别。",
+          "status": "not_established",
+          "to": "npc_52ec194abf30e86c"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 195,
+          "kind": "story",
+          "line": 137,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "战后格拉斯哥帮返乡",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "npc_52ec194abf30e86c|npc_b8a61bfc9821327a"
+}

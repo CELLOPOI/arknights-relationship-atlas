@@ -1,0 +1,205 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 527,
+          "line": 477,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-12_beg.txt",
+          "quote": "[Decision(options=\"……这是一个邀请。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"Mon3tr\"]你说什么？\n[dialog]\n[Decision(options=\"我说，这是一个邀请。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"一个我必须接受的邀请。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[StopSound(channel=\"bgs\", fadetime=2)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[delay(time=1)]\n[image]\n[playsound(key=\"$d_avg_rainlight_loop\", loop=true, channel=\"bgs\")]\n[Background(image=\"66_g6_magnetofluidwaterfall\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]\n[name=\"Mon3tr\"]（小声）你认为这是普瑞赛斯留给你的信息？\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"是的。; 我明白她的意思……\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"我们应该尽快撤离了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]\n[name=\"Mon3tr\"]等科谢尼娅采集完样本，我们就回研究所吧。\n[name=\"Mon3tr\"]得想个办法和阿米娅他们取得联络……\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"不知道阿米娅他们怎么样了。; 希望阿米娅已经和Raidian他们取得联系了。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[stopmusic(fadetime=2)]\n[playsound(key=\"$d_avg_giantmonster_treadwater\", loop=true, channel=\"gf\")]\n[delay(time=1.5)]\n[StopSound(channel=\"gf\", fadetime=0.3)]\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"……你有没有听到什么声音？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]\n[name=\"Mon3tr\"]什么样的声音？\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"重物踩在水里移动的声音。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]\n[name=\"Mon3tr\"]瀑布的水声一直挺大的。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$1\")]\n[name=\"Mon3tr\"]博士，你确定不是耳鸣吗？也许是因为刚才需要你大脑同时处理的信息太多，知觉滞留……"
+        }
+      ],
+      "description": "Mon3tr明确知道普瑞赛斯及其可能留下的信息。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "Mon3tr明确知道普瑞赛斯及其可能留下的信息。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_333d465fd8712924",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_ef827cdde49f2fd2.json",
+      "sources": [
+        {
+          "endLine": 527,
+          "kind": "story",
+          "line": 477,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-12_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "反常光谱"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 212,
+          "line": 95,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation02.txt",
+          "quote": "[name=\"Mon3tr\"]（兴奋的咆哮）\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#2$1\")]\n[name=\"普瑞赛斯\"]……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_scrystalroad\", volume=1, loop=true, channel=\"sc\")]\n[delay(time=1.5)]\n[StopSound(channel=\"sc\", fadetime=2)]\nMon3tr出现在你的身前，它的姿态却稍不同于往常。\n[dialog]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_rockbreakout\", volume=1)]\n[delay(time=1)]\n不用凯尔希的命令，它以迅猛的速度向敌人飞去，可一簇源石结晶拔地而起，将黑色的怪物完全包裹其中。\n[dialog]\n[Decision(options=\"凯尔希！当心——\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#1$1\")]\n[name=\"普瑞赛斯\"]你很让我惊喜，AMa-10。\n[name=\"普瑞赛斯\"]你以切断自己双生循环的系统为代价来脱离我的控制，哪怕这样会使你的生命变得脆弱不堪。\n[name=\"普瑞赛斯\"]不过，你真的打算用这样的方式杀了我吗？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]我知道，在很久之前，你的意识已经与源石中的信息海洋同化。\n[dialog]\n[PlaySound(key=\"$d_avg_humanchange\", volume=1)]\n[delay(time=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Background]\n[charslot]\n[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]\n[Image(image=\"50_i16\", screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Image]\n[CameraEffect(effect=\"Grayscale\", amount=0, keep=true)]\n[Background(image=\"60_g13_rhodesdeck_origin\", screenadapt=\"coverall\")]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[name=\"凯尔希\"]在这种情况下，真正杀死你已经是不可能的事。\n[name=\"凯尔希\"]但是特蕾西娅和特雷西斯做到的事，让我确信了一点。\n[name=\"凯尔希\"]你对源石的控制并非无可动摇，依然存在一些手段来限制你对于源石的权限。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#1$1\")]\n[name=\"普瑞赛斯\"]你所说的两个人，我的确在源石内部见过他们。\n[name=\"普瑞赛斯\"]他们的努力的确出人意料，是令人惊喜的挣扎。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#10$1\")]\n[name=\"普瑞赛斯\"]所以呢？你又如何确信，在这里杀了我不是徒劳之举？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]Mon3tr攻击你的时候，你选择了防御。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#2$1\")]\n[name=\"普瑞赛斯\"]……\n[name=\"普瑞赛斯\"]……你怎么能做到？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#11$1\")]\n[name=\"凯尔希\"]看来你已经察觉到了。\n[name=\"凯尔希\"]基于特蕾西娅对源石的研究，同样是模仿你对Dr.{@nickname}设下的陷阱，我对你所处的唤醒室加入了一些设计。\n[name=\"凯尔希\"]只要你在这里醒来，你的意识，同样会困于这具身体，而无法重新回到源石内部的信息海洋。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#3$1\")]\n[name=\"普瑞赛斯\"]……？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]或许你迟早能突破这一层限制，而且你依然有操作源石的权限，但此刻的你，也只是一个人类。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#7$1\")]\n[name=\"普瑞赛斯\"]你为了反抗我，竟然会做到这一步——\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]普瑞赛斯，你不是泰拉的造物主。这片大地上的一切生命，没有义务顺应你的意愿。\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#7$1\")]\n[name=\"凯尔希\"]……这是我对你的报复，也是最后的反抗。\n[charslot]\n你看到站在对面的女性脸上露出了一丝犹疑，但紧接着，源石开始在她的身旁环绕。\n[dialog]\n[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_icecrystlncrse\", volume=1)]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]……太迟了。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅！帮助凯尔希！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Effect(name=\"$e_amiya_atk_01\", layer = 1)]\n[PlaySound(key=\"$p_skill_chimera\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.4, block=true)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_phntsmbrek\", volume=1)]\n[PlaySound(key=\"$d_avg_phntsmglsbrek\", volume=1)]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=90, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1.5)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[charslot(slot = \"m\", name = \"npc_10002\")]\n[name=\"Mon3tr\"]（激昂的咆哮）\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]凯尔希医生……这一次换我来保护您……\n[charslot]\n黑色的法术乱流击碎了源石晶簇，Mon3tr挣脱而出，继续向唯一的目标袭去。\n源石晶簇重新开始聚集，却已经来不及构成足以抵挡Mon3tr爪锋的屏障。\n你看到了普瑞赛斯紧张的神情，造物主面对她的造物流露出了恐惧。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#7$1\")]\n[name=\"普瑞赛斯\"]……！\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_surfacefrozen\", volume=1, loop=true, channel=\"sur\")]\n[Delay(time=2)]\n[StopSound(channel=\"sur\", fadetime=6)]\n[PlaySound(key=\"$d_avg_drkcludsthdr\", volume=0, loop=true, channel=\"d\")]\n[SoundVolume(volume=1, channel=\"d\",fadetime=2)]\n似乎是普瑞赛斯终于认同了她此时面临着威胁，整片甲板上的源石都开始回应她的意识而急剧滋长。\nMon3tr已经逼近了它的猎物。"
+        }
+      ],
+      "description": "甲板上Mon3tr直接攻击普瑞赛斯，凯尔希与其交谈，博士指挥阿米娅参战，四者真实连续对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "甲板上Mon3tr直接攻击普瑞赛斯，凯尔希与其交谈，博士指挥阿米娅参战，四者真实连续对峙。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_333d465fd8712924",
+          "reason": "甲板上Mon3tr直接攻击普瑞赛斯，凯尔希与其交谈，博士指挥阿米娅参战，四者真实连续对峙。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_d2170c6d544786d4.json",
+      "sources": [
+        {
+          "endLine": 212,
+          "kind": "story",
+          "line": 95,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end_variation02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇甲板上呈现的普瑞赛斯意识及其源石塑造形体；不推断原始肉身在场，不跨用两变体的不同事件。",
+      "title": "剧情"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 170,
+          "line": 3,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end.txt",
+          "quote": "[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"60_g13_rhodesdeck_origin\", screenadapt=\"coverall\")]\n[Delay(time=1)]\n[playMusic(key=\"$m_bat_wdslm_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[charslot(slot = \"m\", name = \"npc_10002\")]\n[name=\"Mon3tr\"]（兴奋的咆哮）\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#2$1\")]\n[name=\"普瑞赛斯\"]……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_scrystalroad\", volume=1, loop=true, channel=\"sc\")]\n[delay(time=1.5)]\n[StopSound(channel=\"sc\", fadetime=2)]\nMon3tr出现在你的身前，它的姿态却稍不同于往常。\n[dialog]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_rockbreakout\", volume=1)]\n[delay(time=1)]\n不用凯尔希的命令，它以迅猛的速度向敌人飞去，可一簇源石结晶拔地而起，将黑色的怪物完全包裹其中。\n[dialog]\n[Decision(options=\"凯尔希！当心——\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#1$1\")]\n[name=\"普瑞赛斯\"]你很让我惊喜，AMa-10。\n[name=\"普瑞赛斯\"]你以切断自己双生循环的系统为代价来脱离我的控制，哪怕这样会使你的生命变得脆弱不堪。\n[name=\"普瑞赛斯\"]不过，你真的打算用这样的方式杀了我吗？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]我知道，在很久之前，你的意识已经与源石中的信息海洋同化。\n[dialog]\n[PlaySound(key=\"$d_avg_humanchange\", volume=1)]\n[delay(time=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Background]\n[charslot]\n[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]\n[Image(image=\"50_i16\", screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Image]\n[CameraEffect(effect=\"Grayscale\", amount=0, keep=true)]\n[Background(image=\"60_g13_rhodesdeck_origin\", screenadapt=\"coverall\")]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[name=\"凯尔希\"]在这种情况下，真正杀死你已经是不可能的事。\n[name=\"凯尔希\"]但是特蕾西娅和特雷西斯做到的事，让我确信了一点。\n[name=\"凯尔希\"]你对源石的控制并非无可动摇，依然存在一些手段来限制你对于源石的权限。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#1$1\")]\n[name=\"普瑞赛斯\"]你所说的两个人，我的确在源石内部见过他们。\n[name=\"普瑞赛斯\"]他们的努力的确出人意料，是令人惊喜的挣扎。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#10$1\")]\n[name=\"普瑞赛斯\"]所以呢？你又如何确信，在这里杀了我不是徒劳之举？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]Mon3tr攻击你的时候，你选择了防御。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#2$1\")]\n[name=\"普瑞赛斯\"]……\n[name=\"普瑞赛斯\"]……你怎么能做到？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#11$1\")]\n[name=\"凯尔希\"]看来你已经察觉到了。\n[name=\"凯尔希\"]基于特蕾西娅对源石的研究，同样是模仿你对Dr.{@nickname}设下的陷阱，我对你所处的唤醒室加入了一些设计。\n[name=\"凯尔希\"]只要你在这里醒来，你的意识，同样会困于这具身体，而无法重新回到源石内部的信息海洋。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#3$1\")]\n[name=\"普瑞赛斯\"]……？\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]或许你迟早能突破这一层限制，而且你依然有操作源石的权限，但此刻的你，也只是一个人类。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#7$1\")]\n[name=\"普瑞赛斯\"]你为了反抗我，竟然会做到这一步——\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]普瑞赛斯，你不是泰拉的造物主。这片大地上的一切生命，没有义务顺应你的意愿。\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#7$1\")]\n[name=\"凯尔希\"]……这是我对你的报复，也是最后的反抗。\n[charslot]\n你看到站在对面的女性脸上露出了一丝犹疑，但紧接着，源石开始在她的身旁环绕。\n[dialog]\n[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_icecrystlncrse\", volume=1)]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#6$1\")]\n[name=\"凯尔希\"]……太迟了。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅！帮助凯尔希！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Effect(name=\"$e_amiya_atk_01\", layer = 1)]\n[PlaySound(key=\"$p_skill_chimera\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.4, block=true)]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_phntsmbrek\", volume=1)]\n[PlaySound(key=\"$d_avg_phntsmglsbrek\", volume=1)]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=90, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1.5)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$char_Mon3tr\")]\n[charslot(slot = \"m\", name = \"npc_10002\")]\n[name=\"Mon3tr\"]（激昂的咆哮）\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]凯尔希医生……这一次换我来保护您……\n[charslot]\n黑色的法术乱流击碎了源石晶簇，Mon3tr挣脱而出，继续向唯一的目标袭去。\n源石晶簇重新开始聚集，却已经来不及构成足以抵挡Mon3tr爪锋的屏障。\n你看到了普瑞赛斯紧张的神情，造物主面对她的造物流露出了恐惧。\n[charslot(slot = \"m\", name = \"avg_npc_1718_1#7$1\")]\n[name=\"普瑞赛斯\"]……！\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_surfacefrozen\", volume=1, loop=true, channel=\"sur\")]\n[Delay(time=2)]\n[StopSound(channel=\"sur\", fadetime=6)]\n[PlaySound(key=\"$d_avg_drkcludsthdr\", volume=0, loop=true, channel=\"d\")]\n[SoundVolume(volume=1, channel=\"d\",fadetime=2)]\n似乎是普瑞赛斯终于认同了她此时面临着威胁，整片甲板上的源石都开始回应她的意识而急剧滋长。\nMon3tr已经逼近了它的猎物。\n[dialog]\n[StopSound(channel=\"d\", fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"60_g15_rhodesabyss_off\",screenadapt=\"coverall\")]\n[PlaySound(key=\"$swordtsing4\")]\n[Effect(name=\"$e_slash_01_l\",x = 68.2, y = 13.3,rox =73.1, roy =5.6, roz =-75.4, layer = 1)]\n[Delay(time=0.8)]\n[PlaySound(key=\"$swordtsing5\")]\n[Effect(name=\"$e_slash_01_l\",x = -86.9, y = -27.5,rox =-74.9, roy =-15.2, roz =118.3, layer = 2)]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot(slot=\"m\", name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]右侧五名，确认瘫痪。\n[charslot(slot=\"m\", name=\"avg_4133_logos_1#1$1\")]\n[name=\"Logos\"]“殁亡”。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_boneflute_low\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot(slot=\"m\", name=\"avg_017_huang_1#4$2\")]\n[name=\"煌\"]看上去神神道道的，结果不还是把那些我们已经打败过一次的敌人再拉出来一遍嘛，没什么大不了的。\n[charslot(slot=\"m\", name=\"avg_017_huang_1#5$2\")]\n[name=\"煌\"]再吃我这招——\n[dialog]\n[playsound(key=\"$d_avg_clothmovement\")]\n[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"-200,40\", afrom=1, ato=0, duration=0.3)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot(slot = \"r\", name = \"avg_npc_1727_1#1$1\")]\n[charslot(slot = \"l\", name = \"avg_npc_1728_1#1$1\")]\n[Delay(time=0.5)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]"
+        }
+      ],
+      "description": "Mon3tr与普瑞赛斯直接交战并互相识别为威胁。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D35"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "Mon3tr与普瑞赛斯直接交战并互相识别为威胁。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [
+            "D35"
+          ],
+          "from": "npc_333d465fd8712924",
+          "reason": "Mon3tr与普瑞赛斯直接交战并互相识别为威胁。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 170,
+          "kind": "story",
+          "line": 3,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-15_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 773,
+          "line": 756,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_08_end.txt",
+          "quote": "没有想象中奔涌而至的信息流，嘈杂的运算声也在不知不觉间消失，你与Mon3tr同时被异样感包裹住了。\n你们像是停在了某个岔路口，故人或是一路相随，或是不期而遇，总之，你看见了她。\n周遭的色彩一点点被抽离，一切仿佛停滞，这是为你们的重逢而搭建的舞台。\n[Dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#6$2 \",focus=\"m\")]\n[name=\"Mon3tr\"]……\n[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.6)]\n[Dialog]\n[charslot]\n[delay(time=0.2)]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",duration=1)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1 \",focus=\"m\")]\n[name=\"普瑞赛斯\"]（未知语言）感谢你的努力，“AMa-10”。\n[name=\"普瑞赛斯\"]（未知语言）又见面了，{@nickname}。\n[name=\"普瑞赛斯\"]（未知语言）我们的重逢比想象之中来得更快……如我所愿。"
+        },
+        {
+          "endLine": 641,
+          "line": 515,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_09_beg.txt",
+          "quote": "[name=\"Mon3tr\"]这里绝非“梦境”。\n[name=\"Mon3tr\"]明明一切都是真实的，可为什么色彩却……\n[Dialog]\n[charslot]\n[Decision(options=\"被抹去了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"普瑞赛斯……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]这里很安静，我们不会再听见那些吵闹的动静了。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"n\")]\n她站在角落，望着眼前死寂的景象，似乎完全没有防备你们。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]我不喜欢这样的景色，{@nickname}，太安静了些。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]但我们别无他法，不是吗？\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#6$1\",focus=\"m\")]\n[name=\"Mon3tr\"]（她没有限制我，博士。）\n[name=\"Mon3tr\"]（阿米娅不在，我没法保证能拖住她……我会尽力——）\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#4$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]放松，你们在这里很安全。\n[name=\"普瑞赛斯\"]我不会让那些萨科塔引发的混乱波及你们。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#4$1\",focus=\"n\")]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"你为什么能出现在这里？;我以为你还被封存在罗德岛上。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#4$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]这和我当下所在意的事情相比，并不重要。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#6$2\",focus=\"m\")]\n[name=\"Mon3tr\"]（已进入进攻姿态。）\n[name=\"Mon3tr\"]（抱歉，博士，我估计她能突然冒出来恐怕还是因为我……）\n[name=\"Mon3tr\"]（我也没有想到，在我刚刚试图访问PCS的时候，她会抓到我的踪迹——）\n[Dialog]\n[charslot]\n[Decision(options=\"这场灾异因你而起？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]灾异？我只看到物种在演变，生灵在无谓地奔忙。\n[name=\"普瑞赛斯\"]此刻拉特兰城中所发生的一切，都是PCS自行推演后输出的结果。\n[name=\"普瑞赛斯\"]我只是在此之前对它重新做了校准，让它能回归原本的用途，以此来适配源石项目的进程。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]{@nickname}，我们的进度已经比预期落后了太多太多。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"n\")]\n[Decision(options=\"……校准？;……原本的用途？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]至少你并未遗忘自己求知的本性。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#4$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]PCS作为基于仿生学诞生的实验性质产物，曾为我们的科学团队和军队提供了不少便利。\n[name=\"普瑞赛斯\"]但遗落在泰拉之后，由于长期缺少维护，它的认知辐射增强器进入了半待机模式，运行效率已经极大衰减。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]不过有趣的是，与泰拉本地物种接触之后，它反倒产生了出乎我意料的影响——\n[name=\"普瑞赛斯\"]不仅受益者的认知与情绪得以共享，连物种特征都趋于同化。这一结果在我们过往的测试中从未出现。\n[name=\"普瑞赛斯\"]令人惊喜，不是吗，{@nickname}？\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]至少你并未遗忘自己求知的本性。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#4$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]PCS作为基于仿生学诞生的实验性质产物，虽然我们始终未能掌握其原型的本质，且其在使用上存在干扰受试者认知功能的风险——\n[name=\"普瑞赛斯\"]但在更严峻的灾难面前，它依旧被提前投入使用。\n[name=\"普瑞赛斯\"]它能在保留个体思维能力和特征的前提下，减少沟通的阻碍，强化个体之间的联系……\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]这为我们的科学团队和军队提供了不少便利。\n[name=\"普瑞赛斯\"]遗落在泰拉之后，它已蒙尘太久，但{@nickname}，你明白的，它的潜力远不止于此。\n[Predicate(references=\"1;2\")]\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"n\")]\n[Decision(options=\"你刚刚还提到，适配源石项目的进程？;可它和源石项目有什么关系呢？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#10$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]别着急，{@nickname}，我会向你解释的。\n[name=\"普瑞赛斯\"]不过，你的新同伴似乎有话想对你说。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#6$2\",focus=\"m\")]\n[name=\"Mon3tr\"]……\n[name=\"Mon3tr\"]（坏消息，博士，我没有发现这里有任何退路。）\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#6$2\",focus=\"n\")]\n[Decision(options=\"如果她的目的仍是源石……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"或许，我们已经不在拉特兰……;这里恐怕是未来的拉特兰……\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$2\",focus=\"m\")]\n[name=\"Mon3tr\"]——？！\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#8$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]敏锐的直觉，但缺乏了基础的认知。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]这只是借助PCS系统向你们展示的某种可能性的幻影。\n[name=\"普瑞赛斯\"]不再有时间，不再有色彩，一个永恒静滞之所。\n[name=\"普瑞赛斯\"]{@nickname}，暂且在这难得的时间里与我同行吧，远离那些本就与你无关的纷争。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"n\")]\n[Decision(options=\"不对，你害怕我接触到PCS系统。;你也没有料到我会出现在这里。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]从你的语气中，我感受到了……恨。我理解。\n[name=\"普瑞赛斯\"]——因为AMa-10，你的“凯尔希”。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"n\")]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]当时你离开得太匆忙，你有许多疑惑尚未得到解答，而我也有很多猜测需要向你求证。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#6$2\",focus=\"m\")]\n[name=\"Mon3tr\"]（她的状态……好像不对劲，这和她当初在甲板上的表现不太一样。）\n[name=\"Mon3tr\"]（博士，我可以尝试进攻——）\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]收好你的爪子。\n[name=\"普瑞赛斯\"]“Mon3tr”，我尊重你给自己挑选的名字，但我比你自己更加了解你的本质。\n[name=\"普瑞赛斯\"]{@nickname}，如果你想AMa-10回来，我可以帮你。你知道在哪里能找到我。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]我知道这也是你所愿，“Mon3tr”。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#5$2\",focus=\"m\")]\n[name=\"Mon3tr\"]……\n[Dialog]\n[charslot]\n[Decision(options=\"别被她影响，Mon3tr！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"站在我们面前的不是她的本体。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]你一直很执着于物质与现实的联系。\n[name=\"普瑞赛斯\"]源石本就是我们创造的语言，我自然可以借助源石让我选定的目标听到我的声音。\n[name=\"普瑞赛斯\"]对你们如此，对那台机器同样如此——"
+        },
+        {
+          "endLine": 349,
+          "line": 183,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_st04.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]少有的慰藉是不断重复烙印在我们思维中的辩论，但并不是为了坚定我们共同立下的愿景……\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]我从不质疑我的道路。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]“辩论”，这是仅有的还能再与那个人交流的机会——\n[Dialog]\n[charslot]\n[Decision(options=\"……;我——\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]我并不奢求你现在就能理解我所思考的事情。在最后的日子到来之前，你都可以继续你所坚信的道路。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]我们间的分歧注定延续，哪怕你都不再记得当初那人反对我的理由是什么。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]我很期待你所爱的泰拉还能如何向我证明，你们的挣扎仍有价值……就像方才拉特兰的人们一样。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]但是，我同样确定，预言家会归来。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]所以，{@nickname}，我会等着你。\n[Dialog]\n[charslot]\n远望着这座了无生机的城市，她叹了一口气。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]有时，我会觉得他们太像我们。如果你的时间还足够，说不定——\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]……\n[Dialog]\n[charslot]\n她的身影开始淡去。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]对了，我的确可以修好AMa-10。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#2$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]如果你下定了决心，向源石许愿吧，{@nickname}。\n[charslot(slot=\"m\",name=\"avg_npc_1718_1#1$1\",focus=\"m\")]\n[name=\"普瑞赛斯\"]我会听到你的声音。\n[Dialog]\n[stopmusic(fadetime=2)]\n[charslot(duration=2)]\n[delay(time=2)]\n普瑞赛斯的身影已经彻底消失，你们失去了目标。\n寂静，绝对的寂静，只剩下你与Mon3tr，受困在这座褪色的死城之中。\n[Dialog]\n[charslot]\n[Decision(options=\"她离开了……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlayMusic(intro=\"$newhope01_intro\", key=\"$newhope01_loop\", volume=0.4)]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#5$2\",focus=\"m\")]\n[name=\"Mon3tr\"]呃，所以这算是结束了？\n[Dialog]\n[charslot]\n[Decision(options=\"也许吧。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[charslot]\n[Decision(options=\"萨科塔们自己解决了这场危机。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[charslot]\n[Decision(options=\"我也确定了普瑞赛斯目前的状态。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[charslot]\n[Decision(options=\"她对源石权限的失控比我们预想的更严重。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$2\",focus=\"m\")]\n[name=\"Mon3tr\"]博士，这是非常珍贵的情报！\n[name=\"Mon3tr\"]虽然无法确定她恢复到正常状态还需要多长时间，但至少，我们有了阻止她的可能性。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#4$2\",focus=\"m\")]\n[name=\"Mon3tr\"]对了，她刚才提到的……凯尔希……\n[Dialog]\n[charslot]\n[Decision(options=\"Mon3tr，我并不信任普瑞赛斯。;我们不应向源石许愿，哪怕是为了凯尔希……\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$2\",focus=\"m\")]\n[name=\"Mon3tr\"]……我知道。我也不会同意用她所说的方式带回凯尔希。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#9$2\",focus=\"m\")]\n[name=\"Mon3tr\"]她给罗德岛、给拉特兰造成了惨痛的损失，她的每一次出现都在刷新我们的认知，也指向更不可知的危机……我看不透她。\n[Dialog]\n[charslot]\n[Decision(options=\"我们已经研究了那么久……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"我们有自己的方法。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#9$2\",focus=\"m\")]\n[name=\"Mon3tr\"]我们接下来要走的，会是一段很长的路，对吧？\n[Dialog]\n[charslot]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n你终于注意到了Mon3tr的异常。敌人已经退去，危机已经解除，可这个原本活泼的少女却一反常态地没有露出笑容……\n她的表情甚至有些凝重。\nMon3tr重构的时间还太短，你并未完全适应她如今的模样，她也还没来得及去适应发生在自己身上的变化和那些痛入骨髓的失去……\n可她又太快地投入到了一项又一项任务中，重建罗德岛、救援拉特兰……或许直到现在，她才终于有机会说些什么。\n[Dialog]\n[charslot]\n[Decision(options=\"别这么悲观，Mon3tr——;别放弃，Mon3tr——\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$2\",focus=\"m\")]\n[name=\"Mon3tr\"]我会带回凯尔希！\n[name=\"Mon3tr\"]我也会保护阿米娅，保护你！\n[Dialog]\n[charslot]\nMon3tr抬头看向你，突然打断了你的话头。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$2\",focus=\"m\")]\n[name=\"Mon3tr\"]我不会忘记，凯尔希对我说过的话！\n[Dialog]\n[charslot]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[delay(time=0.5)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]\n[image(image=\"60_i03\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[name=\"凯尔希\"]如果我最不愿见到的情况真的发生，如果我最不愿见到的那个人重新站在我们面前——\n[name=\"凯尔希\"]保护博士，保护阿米娅。\n[name=\"凯尔希\"]我只会将这条指令刻印进你的基本行为策略之中。\n……\n……\n永恒的生命注定是孤独的，我已品尝过其中的滋味。\n……你也能自己走下去吧——\nMon3tr。\n[charslot]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[delay(time=0.5)]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]\n[image]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Dialog]\n[charslot]\n[Decision(options=\"听我说，Mon3tr。\", values=\"1\")]\n[Predicate(references=\"1\")]\n你看着眼前的Mon3tr，缓缓开口。\n[Dialog]\n[charslot]\n[Decision(options=\"你重构身体的时间还太短……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[charslot]\n[Decision(options=\"别给自己太多压力。;凯尔希也不会希望她的希冀变成枷锁。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#4$2\",focus=\"m\")]\n[name=\"Mon3tr\"]呃……我想你误会了，博士。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#4$2\",focus=\"m\")]\n[name=\"Mon3tr\"]……\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#9$2\",focus=\"m\")]\n[name=\"Mon3tr\"]虽然我一直记得我刚苏醒的时候，你对我说完“欢迎回来”后，竟然就掉头走掉了……\n[Dialog]\n[charslot]\n[Decision(options=\"唔……;抱歉，Mon3tr。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$2\",focus=\"m\")]\n[name=\"Mon3tr\"]没关系，我需要时间去适应彼此依存了千万年的共生体的消失，你也需要时间去接受一个并肩战斗那么久的同伴的离开，以及……\n[name=\"Mon3tr\"]我们正站在彼此面前。\n[name=\"Mon3tr\"]……\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#12$2\",focus=\"m\")]\n[name=\"Mon3tr\"]但博士，我们已经认识很久了，不是吗？\n[name=\"Mon3tr\"]在伦蒂尼姆的炮火里，在涉入萨卡兹秘辛的洞穴深处，在特里蒙那环形巨构升空的尾焰下，在弥利亚留姆的斗智场中……\n[name=\"Mon3tr\"]凯尔希一直在，我就一直在。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$2\",focus=\"m\")]\n[name=\"Mon3tr\"]我并不是在凯尔希离去那时起，才开始遵行她的指令，理解你，理解罗德岛。\n[name=\"Mon3tr\"]成为罗德岛的干员，对抗我们的造主，保护阿米娅，保护你——这同样是我自己的选择……"
+        }
+      ],
+      "description": "Mon3tr与普瑞赛斯直接对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L27",
+            "L29",
+            "L40"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "双方直接互动、共同经历或明确追述双方曾直接交流。",
+          "status": "supported",
+          "to": "npc_333d465fd8712924"
+        },
+        {
+          "evidenceIds": [
+            "L27",
+            "L29",
+            "L40"
+          ],
+          "from": "npc_333d465fd8712924",
+          "reason": "双方直接互动、共同经历或明确追述双方曾直接交流。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 773,
+          "kind": "story",
+          "line": 756,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 641,
+          "kind": "story",
+          "line": 515,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_09_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 349,
+          "kind": "story",
+          "line": 183,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_333d465fd8712924"
+}

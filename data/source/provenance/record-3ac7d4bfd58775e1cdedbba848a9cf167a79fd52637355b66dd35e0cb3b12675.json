@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 520,
+          "line": 480,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "quote": "[name=\"“校官”\"]我不知道殿下会亲自来这里。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",focus=\"m\")]\n[name=\"“校官”\"]只是不值一提的小事，一支脆弱的感染者武装力量。被迫团结起来反抗的可怜人。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]……呵。哪怕他们之中，还有一个幸存的德拉克？\n[charslot(slot=\"m\",name=\"avg_npc_723_1#2$1\",focus=\"m\")]\n[name=\"“校官”\"]我们会确认她的身份，然后为您处理好一切。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]我当然没有在责怪你。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]嗯……侦察兵发现目标了？\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",focus=\"m\")]\n[name=\"“校官”\"]是，与情报一致。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#4$1\",focus=\"m\")]\n[name=\"“校官”\"]但是，恕我直言，我们需要这么在意她吗？\n[charslot(slot=\"m\",name=\"avg_npc_723_1#4$1\",focus=\"m\")]\n[name=\"“校官”\"]即使她真的是红龙的血脉——那也只意味着，她的“身份”对您所宣称的有些许不利。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#6$1\",focus=\"m\")]\n[name=\"“校官”\"]但如果情报属实，她如今还有一个身份，是“感染者”。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#6$1\",focus=\"m\")]\n[name=\"“校官”\"]那她对您……\n[charslot(slot=\"m\",name=\"avg_npc_722_1#6$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]感染者呀。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]似乎，我们还认识一位德拉克感染者。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",focus=\"m\")]\n[name=\"“校官”\"]……\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]我的妹妹也快要回到我身边了。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]就当是，为了滋养我们之间的土壤，排除一些不必要的变数吧。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#5$1\",focus=\"m\")]\n[name=\"“校官”\"]我们可以——\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]那是一条德拉克。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#3$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]呵呵……我从没和家人以外的德拉克接触过。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",focus=\"m\")]\n[name=\"“校官”\"]……\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]你们在这里等着。"
+        }
+      ],
+      "description": "“校官”具体锁定塔露拉。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "塔露拉尚未发现“校官”。",
+          "status": "not_established",
+          "to": "npc_974bc7361c242057"
+        },
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_974bc7361c242057",
+          "reason": "“校官”掌握幸存德拉克目标的情报并部署针对她的行动。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 520,
+          "kind": "story",
+          "line": 480,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆外围",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "npc_69395c50206899b0|npc_974bc7361c242057"
+}

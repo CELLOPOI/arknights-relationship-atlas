@@ -1,0 +1,175 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 67,
+          "line": 48,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-06_beg.txt",
+          "quote": "[name=\"陈\"]   PC94172，你带近卫局的队伍包围矿场！\n[name=\"陈\"]   星熊，去挑几个人。\n[name=\"陈\"]   我们各带一支小队，和罗德岛一起去。\n[name=\"陈\"]   星熊你和罗德岛分两路，同时摧毁他们的阵地，扰乱他们的防线。\n[name=\"陈\"]   我去处理火力点。\n[name=\"陈\"]   为了龙门，我必须把米莎——\n[name=\"陈\"]   ……\n[name=\"陈\"]   ……夺回来。\n[Character(name=\"char_010_chen_1\", name2=\"char_002_amiya_1\", focus=2)]\n[name=\"阿米娅\"]   ——明白。\n[name=\"阿米娅\"]   我去召集罗德岛干员。\n[Character(name=\"char_010_chen_1\", name2=\"char_136_hsguma\", focus=2)]\n[name=\"星熊\"]   老陈，矿场边缘——有波整合运动正向外移动。\n[name=\"星熊\"]   ——动作还挺快的。\n[name=\"星熊\"]   我先去了，否则会赶不上。\n[Character(name=\"char_010_chen_1\", name2=\"char_136_hsguma\", focus=1)]\n[name=\"陈\"]   快去。一个也别漏掉。\n[Character(name=\"char_002_amiya_1\", name2=\"char_136_hsguma\", focus=1)]\n[name=\"阿米娅\"]   啊，星熊督察，请稍等。\n[name=\"阿米娅\"]   敌人针对我们罗德岛设下的埋伏中，混有整合运动的术师。"
+        }
+      ],
+      "description": "陈明确计划夺回米莎，反向无证。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "char_010_chen",
+          "reason": "同场、直接称呼或具体转述支持该方向。",
+          "status": "supported",
+          "to": "npc_c69ca5bb5983a16b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c69ca5bb5983a16b",
+          "reason": "本窗未建立该方向。",
+          "status": "not_established",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_a05b4e35a7bcd8a2.json",
+      "sources": [
+        {
+          "endLine": 67,
+          "kind": "story",
+          "line": 48,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "龙门矿场战役相关场景",
+      "title": "二次呼吸"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 75,
+          "line": 52,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-09_end.txt",
+          "quote": "[name=\"米莎\"]   ……长官。\n[name=\"米莎\"]   ——贫民区……里有一些被感染的孩子。\n[name=\"米莎\"]   如果可以的话……\n[name=\"米莎\"]   希望你能……照看他们。\n[Character(name=\"char_010_chen_1\", name2=\"char_012_misa_1\", focus=1)]\n[name=\"陈\"]   保护龙门是近卫局的责任。\n[name=\"陈\"]   感染者，并非是龙门公民。\n[Character(name=\"char_010_chen_1\", name2=\"char_012_misa_1\", focus=2)]\n[name=\"米莎\"]   ……\n[Character(name=\"char_010_chen_1\", name2=\"char_012_misa_1\", focus=1)]\n[name=\"陈\"]   ……\n[name=\"陈\"]   但龙门的感染者依然属于龙门。\n[name=\"陈\"]   我没任何理由向你保证，但我会尽到我的职责。\n[name=\"陈\"]   毕竟——\n[Character(name=\"char_010_chen_1\", name2=\"char_012_misa_1\", focus=2)]\n[name=\"米莎\"]  他们说过，以前也——\n[Character(name=\"char_010_chen_1\", name2=\"char_012_misa_1\", focus=1)]=\n[name=\"陈\"]   这是我们一直在做的事情。\n[Character(name=\"char_010_chen_1\", name2=\"char_012_misa_1\", focus=2)]\n[name=\"米莎\"]   ……\n[name=\"米莎\"]   谢谢你……\n[Character(name=\"char_010_chen_1\", name2=\"char_012_misa_1\", focus=1)]\n[name=\"陈\"]   ……\n[name=\"陈\"]   ——你知道我们找你的原因吗？"
+        }
+      ],
+      "description": "护送途中米莎请陈照顾感染者孩子，陈答复。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "char_010_chen",
+          "reason": "护送途中米莎请陈照顾感染者孩子，陈答复。",
+          "status": "supported",
+          "to": "npc_c69ca5bb5983a16b"
+        },
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "npc_c69ca5bb5983a16b",
+          "reason": "护送途中米莎请陈照顾感染者孩子，陈答复。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_e13e294bac851642.json",
+      "sources": [
+        {
+          "endLine": 75,
+          "kind": "story",
+          "line": 52,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "异卵同生"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 179,
+          "line": 41,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-06_beg.txt",
+          "quote": "[Character(name=\"char_017_homura_3#6\")]\n[name=\"煌\"]  ……\n[name=\"煌\"]  我很准时的！不要慌！马上就到！\n[Dialog]\n[Character]\n[Decision(options=\"阿米娅！她在抓我的外套！;……;请问能不能把我放下来再通讯呢？\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[name=\"阿米娅\"]  煌！\n[Character(name=\"char_017_homura_3#5\")]\n[name=\"煌\"]  我也没办法，这不是要赶路吗……\n[name=\"煌\"]  （你给我记住了，一会儿有你好果子吃！）\n[Predicate(references=\"2\")]\n[name=\"阿米娅\"]  博士怎么没声音了？\n[name=\"阿米娅\"]  ……煌！\n[Character(name=\"char_017_homura_3#4\")]\n[name=\"煌\"]  我什么都没做啊！这个人自己不说话！\n[name=\"煌\"]  你说两句给她听听啊！\n[name=\"煌\"]  快说啊，为啥不说话啊……！\n[Predicate(references=\"3\")]\n[name=\"阿米娅\"]  啊……\n[name=\"阿米娅\"]  抱歉博士，我忘了你和煌一起行动一定会是这种样子了……\n[Character(name=\"char_017_homura_3#7\")]\n[name=\"煌\"]  因地制宜嘛。\n[Character]\n[name=\"阿米娅\"]  你在得意个什么劲，谁是地啊……\n[Predicate(references=\"1;2;3\")]\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[Character]\n[name=\"阿米娅\"]  可以了，我只要知道你们的位置和行动就好。\n[name=\"阿米娅\"]  你们的关系还变得挺好的。\n[Character(name=\"char_017_homura_3#7\")]\n[name=\"煌\"]  是啊！\n[Character]\n[name=\"阿米娅\"]  ……是吗？\n[Character(name=\"char_017_homura_3#9\")]\n[name=\"煌\"]  ……\n[name=\"煌\"]  （不对，怎么回事？我该怎么回答？）\n[Decision(options=\"（不知道）;（不说话）;（不清楚）\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[name=\"煌\"]  （很危险！现在很危险！我心态有损，我急需指点！）\n[Character]\n[name=\"阿米娅\"]  你们加油。\n[Dialog]\n[playsound(key=\"$transmission\", volume=0.4)]\n[delay(time=1)]\n[Character(name=\"char_017_homura_3#5\")]\n[name=\"煌\"]  她挂断了！\n[name=\"煌\"]  完了。我也完了。\n[name=\"煌\"]  反正已经到了，我们坐会儿吧。\n[Dialog]\n[Character]\n[delay(time=1)]\n[Decision(options=\"可这里是区域内的最高点啊？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_017_homura_3#4\")]\n[name=\"煌\"]  啊~完蛋了。\n[name=\"煌\"]  我喜欢高处啊。反正两点间直线最短，我们一会儿跳下去就行了。\n[Decision(options=\"这么高？跳下去？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"煌\"]  是啊。哈欠。\n[Character(name=\"char_017_homura_3#5\")]\n[name=\"煌\"]  等等。我没看错的话……正在向埋伏圈移动的，东边的是梅菲斯特带着的队伍。\n[name=\"煌\"]  另一边……长鳞的小子？\n[name=\"煌\"]  他还在带着队伍和什么交战。那黑压压一片是啥？\n[Character(name=\"char_017_homura_3#6\")]\n[name=\"煌\"]  ……是牧群？这个数量是怎么回事？！\n[Character(name=\"char_017_homura_3#9\")]\n[name=\"煌\"]  看来没法在这闲着了。走了，博士，这就是最后一战了！\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[name=\"煌\"]  喂，阿米娅，喂！\n[name=\"煌\"]  我马上就和博士一起加入战场！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(screenadapt=\"coverall\", image=\"bg_indoor_n\", width=1, height=1)]\n[Blocker(a=0, r=0, g=0, b=0,  fadetime=1, block=true)]\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  你有什么打算？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  ……\n[name=\"陈\"]  我要放走一小部分整合运动，然后我们进贫民区追踪它们。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  你这不是给了那些特殊部队把柄？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  但我们也可以顺势再进入贫民区作业。\n[name=\"陈\"]  我已经去探查过一次情况，有一点可以明确：只要我们还在，特殊部队就没法明目张胆地行动。\n[name=\"陈\"]  撑到战事结束，特殊部队也不好再动手。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  你不怕上司给你下命令？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  谁敢站出来声称“这支队伍是我的”？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  行啊，算盘打得挺好的。贫民区里的情况怎么样？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我的线人们一直在调查。除了少数失联的区域，我们掌握的情报会比其他人多得多。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  这把赌的有点大，但我们确实得赌了。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  现在能让特殊部队回避的也就只有近卫局。\n[name=\"陈\"]  阿米娅，听得见吗？\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[Character]\n[name=\"阿米娅\"]  陈长官，我们已经就位！\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  ……嗯。\n[name=\"陈\"]  之前，整合运动掳走感染者的事件，我向你致歉。如果我们考虑的更周到，这种事就不会发生。\n[Character]\n[name=\"阿米娅\"]  ……正是因为近卫局在贫民区的先期行动，龙门才能提前规划出对抗整合运动渗透的方法。\n[name=\"阿米娅\"]  在战略上，我认为陈长官没有责任。至于个人的问题……\n[name=\"阿米娅\"]  陈长官，米莎是没法死而复生的。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  ……\n[Character]\n[name=\"阿米娅\"]  而且，我不会同意陈长官对感染者的看法。甚至陈长官自己也很清楚……\n[name=\"阿米娅\"]  在龙门，热爱龙门的龙门人会为龙门而战，不分身份。\n[Character(name=\"char_308_swire_1#3\")]\n[name=\"诗怀雅\"]  哎，这只小兔子，好厉害啊。\n[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]\n[Character]\n[name=\"阿米娅\"]  那是诗怀雅小姐的声音吗？\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  别管她。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  喂！\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  我认同你的看法，阿米娅，为龙门而战确实能团结起各种各样的人——那些投向整合运动的除外。\n[name=\"陈\"]  但想要在龙门生活，又是另一件事。我不认为时间能改变一切。\n[Character]\n[name=\"阿米娅\"]  当然不能。是我们去改变一切。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  这种想法太天真了。感染者和普通人之间有着巨大的隔阂。\n[Character]\n[name=\"阿米娅\"]  米莎的死，无数感染者的死，这种事由不得我去天真什么，陈长官。\n[name=\"阿米娅\"]  就是这种隔阂把他们逼上死路。我们难道要让这个隔阂本身，成为我们不应该去消灭隔阂的理由？\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  ……\n[Character]\n[name=\"阿米娅\"]  希望陈长官能真的理解……为什么我们罗德岛的感染者与非感染者，会为龙门而战。\n[name=\"阿米娅\"]  来了。陈长官。"
+        }
+      ],
+      "description": "陈与米莎有明确既往案件互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "char_010_chen",
+          "reason": "陈与米莎有明确既往案件互动。",
+          "status": "supported",
+          "to": "npc_c69ca5bb5983a16b"
+        },
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "npc_c69ca5bb5983a16b",
+          "reason": "陈与米莎有明确既往案件互动。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 179,
+          "kind": "story",
+          "line": 41,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "局部坏死"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 165,
+          "line": 34,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-02_end.txt",
+          "quote": "[name=\"星熊\"]  最后还是变成了这种小打小闹。\n[name=\"星熊\"]  我拦不住你了。你走吧。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Image(image=\"avg_7_6\",x=-30, y=0, xScale=1.1, yScale=1.1, fadetime=0)]\n[ImageTween(xFrom=-30,xTo=0,xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=0.87, yScaleTo=0.87, duration=40, block=false)]\n[Blocker(a=0, fadetime=2, block=true)]\n[name=\"陈\"]  ……\n[name=\"陈\"]  抱歉，星熊。\n[name=\"陈\"]  我走以后，请你代我去贫民区。贫民区的居民惊魂未定，该有人代表近卫局去保护他们。\n[name=\"陈\"]  如果有感染者的孩子，送你玩具小熊的话……\n[name=\"陈\"]  收下吧。那是乌萨斯人教她们做的。因我们的失误而丧生的米莎，教她们做的。\n[name=\"星熊\"]  好。我会做到。\n[name=\"陈\"]  对不起。我欠你的。\n[name=\"星熊\"]  我不想听你道歉。说实在的，你不适合。\n[name=\"陈\"]  星熊……\n[name=\"星熊\"]  ……该说都说完了。\n[name=\"星熊\"]  走！别再回来。\n[name=\"陈\"]  ——\n[name=\"陈\"]  ……珍重。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[image]\n[Background(image=\"bg_black\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"星熊\"]  “无法忍受这座城市？”\n[name=\"星熊\"]  ……有几个人比你更在乎这座城市？\n[name=\"星熊\"]  谎话精……\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_turf\",screenadapt=\"coverall\")]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"char_136_hsguma\",name2=\"char_015_lmg\",focus=2)]\n[name=\"近卫局成员\"]  星熊督察！\n[name=\"近卫局成员\"]  ……什么？督察，你，你受伤了？谁能……\n[name=\"近卫局成员\"]  对了，我们刚刚、刚刚看见陈长官她——\n[Character(name=\"char_136_hsguma\",name2=\"char_015_lmg\",focus=1)]\n[name=\"星熊\"]  啊，那个，抱歉。\n[name=\"星熊\"]  你们有没有时间好好聊聊？\n[Character(name=\"char_136_hsguma\",name2=\"char_015_lmg\",focus=2)]\n[name=\"近卫局成员\"]  督察……意思是你也要妨碍公务哈？\n[Character(name=\"char_136_hsguma\",name2=\"char_015_lmg\",focus=1)]\n[name=\"星熊\"]  ……也不能这么说吧。\n[Dialog]\n[image]\n[stopmusic(fadetime=1)] \n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Background(image=\"bg_lungmen_o\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  出去吧。\n[Character(name=\"avg_npc_038\")]\n[name=\"？？？\"]  是，魏公。\n[Character(name=\"char_2005_weiyw_1#5\")]\n[name=\"魏彦吾\"]  我说过……别再那么称呼我。\n[Character(name=\"avg_npc_038\")]\n[name=\"？？？\"]  是。随时听候您的吩咐。\n[Dialog]\n[PlaySound(key=\"$doorclosequite\", volume=0.9)]\n[Character(fadetime=1,block=true)]\n[Delay(time=2)]\n[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.4)]\n[Character(name=\"char_2006_weiywfmzuki_1\")]\n[name=\"文月\"]  ……\n[name=\"文月\"]  凯尔希小姐和阿米娅妹妹，在你们说话前，我能先和他说上两句吗？\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_002_amiya_1\",focus=2)]\n[name=\"阿米娅\"]  嗯，您说吧，文月小姐。\n[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_003_kalts_1\",focus=2)]\n[name=\"凯尔希\"]  请便。\n[Character(name=\"char_2006_weiywfmzuki_1\")]\n[name=\"文月\"]  我们相处很多年了，魏彦吾。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  为什么说这个——为什么是现在？\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  我可是能从你眼睛里看出你在想什么的。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  ……文月。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  哎，哎。我向来都看得出。\n[name=\"文月\"]  我知道龙门对你来说是你的一切，你的心血你的梦想。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  不，文月……\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  但今天这一切不是你想要的吧？\n[name=\"文月\"]  啊，（东国语道歉）。我不是在说我们进退两难的处境。\n[name=\"文月\"]  我说的是……你这拿自己一切换来的繁荣。\n[name=\"文月\"]  你已经失去两位亲人了。不，用你的话说，三位，甚至是十几位。\n[name=\"文月\"]  现在你总不会还想让自己的侄女也死在那吧？\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  她痛恨影卫们。一旦让他们去抓陈，她只会拼死反抗。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  不，魏彦吾……我也不是在说这个。\n[name=\"文月\"]  你不后悔吗？你要让她们两个全都死在异国的城市吗？\n[name=\"文月\"]  感染者又怎么了？成了感染者，她们就不是你的侄女了？\n[name=\"文月\"]  如果我们有了孩子，难道也会被你这样对待……？\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  我所做的一切都是为了让这片土地能够变得更好，也从没要陈晖洁去做该我做的事情。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  但她就是这个性子！\n[name=\"文月\"]  不，对她隐瞒，只是在她的心上继续割肉而已。她只会觉得自己不属于这里……\n[name=\"文月\"]  你期望她去做的那些事情，太遥远了，太难了。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  那我能够停手吗？\n[name=\"魏彦吾\"]  我身后的这些人，我脚下的这座城，我与他们角力了那么久，却也只能搏到这种结果。\n[name=\"魏彦吾\"]  ……龙门能允许我停手吗？\n[name=\"魏彦吾\"]  是她想要这么做，是她想要正本清源，是她想要这座城邦不再是我治下的模样。\n[name=\"魏彦吾\"]  我只是教她如果那么做，需要些什么，又要放弃什么。\n[Character(name=\"char_2005_weiyw_1#5\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  行了，行了。还解释些什么，耳朵都起茧子了。\n[name=\"文月\"]  我去把她抓回来。我可不能看着她去送死。\n[name=\"文月\"]  你做不了的事，我来做。\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  荒唐！不许……！\n[name=\"魏彦吾\"]  我已经拟好了方案。我会把她带回来，而你，文月，你不准走出这里一步。\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  嚯，你要拦我？\n[name=\"文月\"]  （东国语）？！\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  唔哦。\n[Character(name=\"char_002_amiya_1#6\",name2=\"char_003_kalts_1\",focus=1)]\n[name=\"阿米娅\"]  啊？医生，文月小姐刚说了什么？\n[Character(name=\"char_002_amiya_1#6\",name2=\"char_003_kalts_1\",focus=2)]\n[name=\"凯尔希\"]  如果不是她提，我都快不记得东国有这么粗鲁的词汇了。\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  魏彦吾，是不是忘了我是谁？\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=1)]\n[name=\"魏彦吾\"]  文月，我有底线。\n[Character(name=\"char_2005_weiyw_1#4\",name2=\"char_2006_weiywfmzuki_1\",focus=2)]\n[name=\"文月\"]  你还记不记得自己是谁？"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_010_chen",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_c69ca5bb5983a16b"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_c69ca5bb5983a16b",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 165,
+          "kind": "story",
+          "line": 34,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_c69ca5bb5983a16b"
+}

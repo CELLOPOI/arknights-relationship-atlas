@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 134,
+          "line": 76,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_07_end.txt",
+          "quote": "[name=\"教宗\"]安多恩，你来了。\n[character(name=\"avg_npc_351_1#1$1\")]\n[name=\"安多恩\"]你似乎并不意外。\n[Character(name=\"avg_npc_356_1#10$1\")]\n[name=\"教宗\"]我不会将这称为某种指引的结果。生活给我的最大教训就是，人们总会相遇，无论本意为何。\n[character(name=\"avg_npc_351_1#1$1\")]\n[name=\"安多恩\"]但终归各怀目的。\n[character(name=\"avg_npc_351_1#1$1\")]\n[name=\"安多恩\"]至高律法的看守者、监督者、践行者。\n[name=\"安多恩\"]承袭了拥有牺牲与团结美德的伊万杰利斯塔之名的第十一世圣徒，立于拉特兰圣迹顶点的教宗阁下。\n[Character(name=\"avg_npc_356_1#1$1\")]\n[name=\"伊万杰利斯塔十一世\"]何必背诵你不相信的礼辞？\n[Character(name=\"avg_npc_356_1#1$1\")]\n[name=\"伊万杰利斯塔十一世\"]那个女孩没有留在你们之中。\n[character(name=\"avg_npc_351_1#1$1\")]\n[name=\"安多恩\"]她还小，还有许多事要经历。\n[Character(name=\"avg_npc_356_1#2$1\")]\n[name=\"伊万杰利斯塔十一世\"]我们却已经老了，老到娴熟于阴谋、权术、挑拨和倾轧。\n[character(name=\"avg_npc_351_1#1$1\")]\n[name=\"安多恩\"]你打算怎么办，好好对她使用一番这些岁月的礼物吗？\n[Character(name=\"avg_npc_356_1#2$1\")]\n[name=\"伊万杰利斯塔十一世\"]我还没有糊涂到去挡一个小女孩的路。\n[character(name=\"avg_npc_351_1#1$1\")]\n[name=\"安多恩\"]就算她引发了某种“奇迹”？\n[Character(name=\"avg_npc_356_1#1$1\")]\n[name=\"伊万杰利斯塔十一世\"]不，奇迹属于拉特兰，奇迹只属于拉特兰。恩典降临了，仅此而已。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Background(image=\"26_g3_laterano_cathedralballroom\",screenadapt=\"showall\")]\n[Delay(time=1)]\n[playsound(key=\"$d_gen_walk_n\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_356_1#10$1\")]\n[name=\"伊万杰利斯塔十一世\"]你喜欢读历史吗？我相当喜欢。历史要成为历史，通常需要一个原点，混杂一些变量，再激起阵阵涟漪——那些涟漪就是历史。\n[name=\"伊万杰利斯塔十一世\"]至于最初投进水中的是什么，也许历史并不在乎。\n[name=\"伊万杰利斯塔十一世\"]我也不在乎。\n[name=\"伊万杰利斯塔十一世\"]名叫塞茜莉亚的女孩会去到她想去的地方，做她想做的事，将来的某天，塞茜莉亚这个名字可能会大放异彩——也可能默默无闻。\n[name=\"伊万杰利斯塔十一世\"]但这些，与你我无关了。\n[Character(name=\"avg_npc_356_1#1$1\")]\n[name=\"伊万杰利斯塔十一世\"]与你我无关，这是我们的共识，对吗？\n[character(name=\"avg_npc_351_1#5$1\")]\n[name=\"安多恩\"]……你把自己描述得像是送孙女出门的温柔爷爷。\n[name=\"安多恩\"]算了吧，这只是各取所需。你掌握了奇迹的解释权，以此为代价，塞茜莉亚换得离开这里的自由。\n[character(name=\"avg_npc_351_1#5$1\")]\n[name=\"安多恩\"]这甚至不能算是一场交易，她根本没得选。\n[Character(name=\"avg_npc_356_1#1$1\")]\n[name=\"伊万杰利斯塔十一世\"]不，我从没打算对她做些什么。矗立数千年的拉特兰不应、不会，也不可能因一个混血儿动摇。\n[character(name=\"avg_npc_351_1#5$1\")]\n[name=\"安多恩\"]愿你的前任和继任们也都这么想，愿那些被抹去的名字不是白白消亡。\n[Character(name=\"avg_npc_356_1#1$1\")]\n[name=\"伊万杰利斯塔十一世\"]我们无法奢求得太多，安多恩。罪孽永远都是罪孽。只是时间会将它冲刷得淡漠。\n[character(name=\"avg_npc_351_1#6$1\")]\n[name=\"安多恩\"]淡漠到所有人都忘了这曾是罪孽。\n[Character(name=\"avg_npc_356_1#2$1\")]\n[name=\"伊万杰利斯塔十一世\"]我无法责怪前人的谨慎。不过，我也不会为了掩盖而把罪孽化为成规。\n[character(name=\"avg_npc_351_1#6$1\")]\n[name=\"安多恩\"]前提是你口中的那个“共识”，对吧？"
+        }
+      ],
+      "description": "二人在大教堂直接会面并长谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "二人在大教堂直接会面并长谈。",
+          "status": "supported",
+          "to": "npc_bfbfb9398ba6ef19"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_bfbfb9398ba6ef19",
+          "reason": "二人在大教堂直接会面并长谈。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_067ec4b5197c9515.json",
+      "sources": [
+        {
+          "endLine": 134,
+          "kind": "story",
+          "line": 76,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act16side/level_act16side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“吾导先路”事件期间",
+      "title": "吾导先路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 330,
+          "line": 248,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_08_end.txt",
+          "quote": "[name=\"费德里科\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]别着急，执行者。那支队伍里姑且还有我想杀的人，我答应帮你打的架，不论如何都要打。\n[charslot(slot=\"m\",name=\"avg_245_cello_1#9$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]看起来，他们想做的确实是重塑整座城市。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]如果他们重塑的方式就是把那些异色的投影铺满整座城市，通过结成一支密集的队伍来达成未免效率太低。\n[name=\"费德里科\"]但他们依然在梦境崩毁后的第一时间选择聚集起来……或许他们重塑城市的方式从来都不只是引导异色的投影在城市中蔓延。\n[name=\"费德里科\"]这支队伍理应还有另一种我们所不知的、重塑城市的手段。为此，他们需要抵达一个共同的终点。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#2$2 \",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[multiline(name=\"安多恩\")]咳咳……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#10$2 \",focus=\"m\")]\n[multiline(name=\"安多恩\")]如果，他们想要颠覆整个拉特兰，或许我知晓那支队伍将去往何处——\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$2 \",focus=\"m\")]\n[name=\"安多恩\"]大教堂。\n[name=\"安多恩\"]我与教宗伊万杰利斯塔十一世在那里有过一次谈话，我曾因此得窥一些存在，知晓一些真相。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1 \",focus=\"m\")]\n[name=\"费德里科\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$2 \",focus=\"m\")]\n[name=\"安多恩\"]执行者先生，你无需怀疑……\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1 \",focus=\"m\")]\n[name=\"费德里科\"]我没有怀疑，你的案卷确实是由教宗阁下亲自签名封存。\n[Dialog]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]安多恩，我会带你前往。\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]等等，费德里科——\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]现在全城一片混乱，没有人知道到底发生了什么，我们凭什么相信你？\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]别抢我的话！\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]如果各位顾虑的是权责归属——在场诸位几乎都在某种程度上触犯了律法，作为执行者，我有权对你们实施临时管控。\n[name=\"费德里科\"]如果各位只是因眼前的灾异感到恐慌，无法做出任何有效的判断与行动……\n[name=\"费德里科\"]费德里科·吉亚洛，是历任教宗之外，首位获封的圣徒。\n[name=\"费德里科\"]我并不觉得这个身份有任何特殊的意义，但如果你们需要一个理由，没有比它更合适的了。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$2 \",focus=\"m\")]\n[name=\"安多恩\"]从育婴圣堂到大教堂，那支队伍会最先经过这里。\n[name=\"安多恩\"]歧法——也就是那只怪物，她的共感能力异常强大，启示石塔的钟声也无法帮助你们隔绝其影响。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]帕蒂亚，带着其他寻路者，还有这些离群者离开这里，往相反的方向走。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#10$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]你一个人？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]相信我，兄弟姐妹，这是我当行的路。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]……至少别这么狼狈地去，换身衣服吧。还是说你想一直穿着这件血袍子？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]……我的衣物不多，原本的修士服眼下亦不知在何处。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[PlaySound(key=\"$d_avg_cloakmovement\", volume=1)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]……拿着。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#7$2 \",focus=\"m\")]\n[name=\"安多恩\"]这是……你，一直收着？\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]占不了多少地方。我……我不知道。我只是觉得……这不是那么轻易能丢掉的东西。总之，还给你。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#11$2 \",focus=\"m\")]\n[name=\"安多恩\"]这许多年来，谢谢你，帕蒂亚。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]不过，我们还须设法安置这些刚脱离梦境的孩子……\n[charslot(slot=\"m\",name=\"avg_245_cello_1#1$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]……\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1 \",focus=\"m\")]\n[name=\"费德里科\"]阿尔图罗，你和安多恩都需要特别监管，我需要确保你们在我的视线范围内。\n[charslot(slot=\"m\",name=\"avg_245_cello_1#4$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]我还什么都没说呢，“圣徒”阁下。\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#16$1\",focus=\"m\")]\n[name=\"努艾达\"]或、或许，可以交给我？\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#12$1\",focus=\"m\")]\n[name=\"努艾达\"]我虽然不是萨科塔，也不是拉特兰人，但照顾孩子……还算擅长。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]那么，行动。"
+        }
+      ],
+      "description": "安多恩追述自己与教宗在大教堂的谈话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L25"
+          ],
+          "from": "npc_5a3183cc75e97ddb",
+          "reason": "双方直接互动、追述明确的共同经历，或实际处于同一局部场景。",
+          "status": "supported",
+          "to": "npc_bfbfb9398ba6ef19"
+        },
+        {
+          "evidenceIds": [
+            "L25"
+          ],
+          "from": "npc_bfbfb9398ba6ef19",
+          "reason": "双方直接互动、追述明确的共同经历，或实际处于同一局部场景。",
+          "status": "supported",
+          "to": "npc_5a3183cc75e97ddb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 330,
+          "kind": "story",
+          "line": 248,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "npc_5a3183cc75e97ddb|npc_bfbfb9398ba6ef19"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 128,
+          "line": 109,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "quote": "[name=\"Alty\"]  呼，这是第几曲了？晚上还有演出呀，怎么提前就兴奋起来了。\n[Character(name=\"npc_2001_Aya_1\")]\n[name=\"Aya\"]  不知道，不过我还挺开心的，Frost也是吧。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]  （拨弦）\n[Character(name=\"npc_2002_Dan_1\")]\n[name=\"Dan\"]  反正也没什么关系吧，我们又不会累。\n[Character(name=\"npc_2004_Alty\")]\n[name=\"Alty\"]  哎呀，哈哈，也有道理。\n[name=\"Alty\"]  行啦，那么，在夜晚到来之前——\n[name=\"Alty\"]  就让我们提前狂欢吧！！\n[Dialog]\n[Character]\n[PlaySound(key=\"$livecrowd\")]\n[delay(time=2)]\n[Character(name=\"char_293_thorns_1\")]\n[name=\"棘刺\"]  （这就是那家伙喜欢的乐队？这个风格，果然很吵。）\n[name=\"棘刺\"]  （而且……）\n[name=\"棘刺\"]  （很奇怪，有什么东西不对劲。)\n[name=\"棘刺\"]  （是因为这首歌？这种熟悉的感觉是……什么？）"
+        }
+      ],
+      "description": "棘刺现场观看由具名成员参加的乐队演出；仅支持棘刺知晓演出者，不能反推艺人识别个别观众。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "char_293_thorns",
+          "reason": "棘刺现场观看由具名成员参加的乐队演出；仅支持棘刺知晓演出者，不能反推艺人识别个别观众。",
+          "status": "supported",
+          "to": "npc_f6f9eff5d6333a55"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_f6f9eff5d6333a55",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_293_thorns"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 128,
+          "kind": "story",
+          "line": 109,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "char_293_thorns|npc_f6f9eff5d6333a55"
+}

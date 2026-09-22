@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 415,
+          "line": 393,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lumen_1_1.txt",
+          "quote": "[name=\"阿玛雅\"]你好，礼拜堂的乔迪。\n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_4042_lumen_1#1$1\", duration = 1.5)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[delay(time=2)]\n[charslot(slot = \"m\", name = \"avg_4042_lumen_1#7$1\")]\n[name=\"乔迪\"]……呃，您好。\n[name=\"乔迪\"]我想问一下……这个是不是寄给您的东西？\n[charslot(slot = \"m\", name = \"avg_npc_449_1#11$1\")]\n[name=\"阿玛雅\"]嗯，多谢。\n[charslot(slot = \"m\", name = \"avg_4042_lumen_1#2$1\")]\n[name=\"乔迪\"]呼……太好了。\n[charslot(slot = \"m\", name = \"avg_4042_lumen_1#12$1\")]\n[name=\"乔迪\"]那我就先走了。\n[charslot(slot = \"m\", name = \"avg_npc_449_1#6$1\")]\n[name=\"阿玛雅\"]你不想知道里面是什么吗？\n[charslot(slot = \"m\", name = \"avg_4042_lumen_1#8$1\")]\n[name=\"乔迪\"]欸？……不，我怎么可能怀疑您呢，阿玛雅小姐。\n[charslot(slot = \"m\", name = \"avg_4042_lumen_1#12$1\")]\n[name=\"乔迪\"]在格兰法洛，您懂的比大家都多，蒂亚戈叔叔也说，您帮他想了很多办法。\n[charslot(slot = \"m\", name = \"avg_npc_449_1#11$1\")]\n[name=\"阿玛雅\"]没关系，进来看看吧，我希望你能心安一些。"
+        }
+      ],
+      "description": "乔迪与阿玛雅直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4042_lumen",
+          "reason": "乔迪点名阿玛雅并与她交谈。",
+          "status": "supported",
+          "to": "npc_549ec9bf1f5326b6"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_549ec9bf1f5326b6",
+          "reason": "阿玛雅点名乔迪并邀请他阅读和协助翻译。",
+          "status": "supported",
+          "to": "char_4042_lumen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_8725d283774c0b5e.json",
+      "sources": [
+        {
+          "endLine": 415,
+          "kind": "story",
+          "line": 393,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lumen_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "流明干员密录中格兰法洛时期",
+      "title": "流明"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 640,
+          "line": 630,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st01.txt",
+          "quote": "[name=\"蒂亚戈\"]阿玛雅说，外面的一些地方，伊比利亚的其他地方，对阿戈尔人没那么残酷。\n[Character(name=\"avg_4042_lumen_1#10$1\",name2=\"avg_npc_451_1#1$1\",focus=1)]\n[name=\"乔迪\"]可我总要找到我自己的家。有些东西，有些联系，我没办法……那么简单地下决定。\n[Character(name=\"avg_4042_lumen_1#5$1\",name2=\"avg_npc_451_1#1$1\",focus=1)]\n[name=\"乔迪\"]我……还没准备好。\n[Character(name=\"avg_4042_lumen_1#5$1\",name2=\"avg_npc_451_1#2$1\",focus=2)]\n[name=\"蒂亚戈\"]……好吧。\n[Character(name=\"avg_4042_lumen_1#5$1\",name2=\"avg_npc_451_1#8$1\",focus=2)]\n[name=\"蒂亚戈\"]对了，阿玛雅又给了我一本书，她翻译的书，反正我看不懂，你应该带去礼拜堂打发时间。\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_451_1#8$1\",focus=1)]\n[name=\"乔迪\"]嗯。"
+        }
+      ],
+      "description": "乔迪实际读完阿玛雅赠予其家庭的书，阿玛雅此前也与蒂亚戈具体谈论乔迪。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S39"
+          ],
+          "from": "char_4042_lumen",
+          "reason": "乔迪实际读完阿玛雅赠予其家庭的书，阿玛雅此前也与蒂亚戈具体谈论乔迪。",
+          "status": "supported",
+          "to": "npc_549ec9bf1f5326b6"
+        },
+        {
+          "evidenceIds": [
+            "S39"
+          ],
+          "from": "npc_549ec9bf1f5326b6",
+          "reason": "乔迪实际读完阿玛雅赠予其家庭的书，阿玛雅此前也与蒂亚戈具体谈论乔迪。",
+          "status": "supported",
+          "to": "char_4042_lumen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 640,
+          "kind": "story",
+          "line": 630,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_4042_lumen|npc_549ec9bf1f5326b6"
+}

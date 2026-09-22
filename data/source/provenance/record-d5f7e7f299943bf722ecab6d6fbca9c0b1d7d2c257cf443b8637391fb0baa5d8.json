@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 44,
+          "line": 39,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_st01.txt",
+          "quote": "[name=\"缪尔赛思\"]确实，她十分聪明，观察力很敏锐，而且过去也有不少项目成功的经验。\n[name=\"缪尔赛思\"]据我所知，结构科的那位主任是希望赫默能够接过他的衣钵的。\n[Character(name=\"char_249_muesys_1#5\",name2=\"char_242_mayer#4\",focus=2)]\n[name=\"梅尔\"]哇，那赫默岂不是下一任的结构科主任，好厉害！\n[Character(name=\"char_249_muesys_1#6\",name2=\"char_242_mayer#2\",focus=1)]\n[name=\"缪尔赛思\"]是啊，连我都忍不住想要巴结她一下了呢~"
+        }
+      ],
+      "description": "",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_d3677f4f84318d10",
+          "reason": "本活动未找到该方向的具体人物知晓、信息接收或实际局部同场依据；不表示此人从来不认识对方。",
+          "status": "not_established_in_batch",
+          "to": "char_242_otter"
+        },
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_242_otter",
+          "reason": "梅尔听到并回应结构科主任的具体继任期待。",
+          "status": "supported",
+          "to": "npc_d3677f4f84318d10"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 44,
+          "kind": "story",
+          "line": 39,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "越狱后的梅尔—缪尔赛思酒吧谈话。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_242_otter|npc_d3677f4f84318d10"
+}

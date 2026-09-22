@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 367,
+          "line": 350,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_st03.txt",
+          "quote": "[name=\"米奥\"]……那么，你还要留在这里吗？\n[name=\"米奥\"]祖拜尔已经安息并离开，沙阿的后人取得了宝库的真相，那些在漫长时光中回响的呓语……\n[name=\"米奥\"]还有，你也把梦魇带去看那些金银珠宝了，对吧？\n[charslot(slot = \"m\", name = \"avg_npc_1483_1#1$1\")]\n[name=\"沃奥\"]她跳进地下水道深处，已经证明了自己的勇气，所以，我履行了对祖拜尔的承诺。\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#1$1\")]\n[name=\"米奥\"]承诺……祖拜尔离开之后，我们的承诺也算是全部完成了吧。\n[name=\"米奥\"]现在的，千年之前的，都完成了。这座城市已经和我们最初的承诺没有任何关系了。\n[charslot(slot = \"m\", name = \"avg_npc_1483_1#1$1\")]\n[name=\"沃奥\"]但我还是会留下来，因为现在这座城市活着。\n[name=\"沃奥\"]我承诺守护死者，是为了他们的苏生。\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#1$1\")]\n[name=\"米奥\"]我还以为你会怀念黄金之城。\n[charslot(slot = \"m\", name = \"avg_npc_1483_1#1$1\")]\n[name=\"沃奥\"]如今那座沉默的黄金之城吗？它已经不需要我们了。\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#4$1\")]\n[name=\"米奥\"]哼，是啊，一整座城市都像被万王之王割掉了舌头，我不喜欢。\n[name=\"米奥\"]所以我和你的想法不一样。我偏要去看看。"
+        }
+      ],
+      "description": "米奥单向知晓祖拜尔。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E07"
+          ],
+          "from": "npc_08a5376de9194cbe",
+          "reason": "米奥明确回忆祖拜尔及双方承诺。",
+          "status": "supported",
+          "to": "npc_3e55517d198677e1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3e55517d198677e1",
+          "reason": "已读窗口未见祖拜尔点名或识别米奥。",
+          "status": "not_established",
+          "to": "npc_08a5376de9194cbe"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_204b53066b797ab8.json",
+      "sources": [
+        {
+          "endLine": 367,
+          "kind": "story",
+          "line": 350,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "祖拜尔离去后",
+      "title": "太阳甩在身后"
+    }
+  ],
+  "relationship_id": "npc_08a5376de9194cbe|npc_3e55517d198677e1"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 330,
+          "line": 292,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lmlee_1_1.txt",
+          "quote": "[name=\"文月\"]鲤先生是这里的常客？\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#10$1\",focus=\"r\")]\n[name=\"老鲤\"]好久不见，夫人今天怎么想到光顾这里了？\n[charslot(slot=\"l\",name=\"char_2006_weiywfmzuki_1\",focus=\"l\")]\n[name=\"文月\"]这是龙门最大，也是货物最齐全的菜市场。我想，买食材的话，这里自然是不二之选。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#4$1\",focus=\"r\")]\n[name=\"老鲤\"]什么事需要夫人亲自来采买食材？\n[charslot(slot=\"l\",name=\"char_2006_weiywfmzuki_1\",focus=\"l\")]\n[name=\"文月\"]嗯，彦吾几天后要过生日，我想下厨为他做几道菜。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#1$1\",focus=\"r\")]\n[name=\"老鲤\"]夫人想做什么菜？\n[charslot(slot=\"l\",name=\"char_2006_weiywfmzuki_1\",focus=\"l\")]\n[name=\"文月\"]……还没有想好，无非是彦吾常吃的那几道。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#9$1\",focus=\"r\")]\n[name=\"老鲤\"]魏大人爱吃的那几样……可能有些考验夫人的厨艺了。\n[charslot(slot=\"l\",name=\"char_2006_weiywfmzuki_1\",focus=\"l\")]\n[name=\"文月\"]咳咳，我想……有心不怕费功夫。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#10$1\",focus=\"r\")]\n[name=\"老鲤\"]也是。\n[charslot(slot=\"l\",name=\"char_2006_weiywfmzuki_1\",focus=\"l\")]\n[name=\"文月\"]不过……我第一次来菜市场，确实不知道怎么挑，劳烦鲤先生略施援手。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#10$1\",focus=\"r\")]\n[name=\"老鲤\"]没问题，就比如说这番茄，要是拿它当水果生吃，就买粉红色的，吃着口感略脆；要是炒菜，就选深红色的，味道浓厚，也容易出汁。\n[charslot(slot=\"l\",name=\"char_2006_weiywfmzuki_1\",focus=\"l\")]\n[name=\"文月\"]嗯，我记住了。那边有芋头，我想买一些做芋泥烟肉脯。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#9$1\",focus=\"r\")]\n[name=\"老鲤\"]芋头啊，如果个头差不多的话，就买重一些的那个，水多淀粉也多，吃起来软糯。\n[charslot(slot=\"l\",name=\"char_2006_weiywfmzuki_1\",focus=\"l\")]\n[name=\"文月\"]好。那香菇呢，我该买干的，还是新鲜的？\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#10$1\",focus=\"r\")]\n[name=\"老鲤\"]各有各的好，看夫人要做什么菜。\n[charslot(slot=\"l\",name=\"char_2006_weiywfmzuki_1\",focus=\"l\")]\n[name=\"文月\"]仔姜鲜肉酿香菇。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#10$1\",focus=\"r\")]\n[name=\"老鲤\"]那要用干香菇，泡发之后香味更足。\n[charslot(slot=\"l\",name=\"char_2006_weiywfmzuki_1\",focus=\"l\")]\n[name=\"文月\"]哦……原来如此。\n[charslot(slot=\"r\",name=\"avg_322_lmlee_1#10$1\",focus=\"r\")]\n[name=\"老鲤\"]对了，往前走还有一家卖豉油的店，正好买来制成豉油汁烧羽兽。"
+        }
+      ],
+      "description": "老鲤与文月久别重逢并一起采购。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_322_lmlee",
+          "reason": "老鲤称文月为夫人并提供采买建议。",
+          "status": "supported",
+          "to": "npc_0390092af6e7eaa6"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_0390092af6e7eaa6",
+          "reason": "文月称呼鲤先生并请他帮忙挑选食材。",
+          "status": "supported",
+          "to": "char_322_lmlee"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_95d6793c5e31c1a6.json",
+      "sources": [
+        {
+          "endLine": 330,
+          "kind": "story",
+          "line": 292,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lmlee_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇菜市场第二段",
+      "title": "老鲤"
+    }
+  ],
+  "relationship_id": "char_322_lmlee|npc_0390092af6e7eaa6"
+}

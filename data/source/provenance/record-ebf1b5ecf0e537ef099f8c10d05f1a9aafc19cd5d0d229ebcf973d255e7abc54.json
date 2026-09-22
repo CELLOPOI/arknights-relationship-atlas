@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 330,
+          "line": 248,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_08_end.txt",
+          "quote": "[name=\"费德里科\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]别着急，执行者。那支队伍里姑且还有我想杀的人，我答应帮你打的架，不论如何都要打。\n[charslot(slot=\"m\",name=\"avg_245_cello_1#9$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]看起来，他们想做的确实是重塑整座城市。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]如果他们重塑的方式就是把那些异色的投影铺满整座城市，通过结成一支密集的队伍来达成未免效率太低。\n[name=\"费德里科\"]但他们依然在梦境崩毁后的第一时间选择聚集起来……或许他们重塑城市的方式从来都不只是引导异色的投影在城市中蔓延。\n[name=\"费德里科\"]这支队伍理应还有另一种我们所不知的、重塑城市的手段。为此，他们需要抵达一个共同的终点。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#2$2 \",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[multiline(name=\"安多恩\")]咳咳……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#10$2 \",focus=\"m\")]\n[multiline(name=\"安多恩\")]如果，他们想要颠覆整个拉特兰，或许我知晓那支队伍将去往何处——\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$2 \",focus=\"m\")]\n[name=\"安多恩\"]大教堂。\n[name=\"安多恩\"]我与教宗伊万杰利斯塔十一世在那里有过一次谈话，我曾因此得窥一些存在，知晓一些真相。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1 \",focus=\"m\")]\n[name=\"费德里科\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$2 \",focus=\"m\")]\n[name=\"安多恩\"]执行者先生，你无需怀疑……\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1 \",focus=\"m\")]\n[name=\"费德里科\"]我没有怀疑，你的案卷确实是由教宗阁下亲自签名封存。\n[Dialog]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]安多恩，我会带你前往。\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]等等，费德里科——\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]现在全城一片混乱，没有人知道到底发生了什么，我们凭什么相信你？\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]别抢我的话！\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]如果各位顾虑的是权责归属——在场诸位几乎都在某种程度上触犯了律法，作为执行者，我有权对你们实施临时管控。\n[name=\"费德里科\"]如果各位只是因眼前的灾异感到恐慌，无法做出任何有效的判断与行动……\n[name=\"费德里科\"]费德里科·吉亚洛，是历任教宗之外，首位获封的圣徒。\n[name=\"费德里科\"]我并不觉得这个身份有任何特殊的意义，但如果你们需要一个理由，没有比它更合适的了。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#6$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1782_1#12$1\",focus=\"m\")]\n[name=\"奥罗拉\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#6$2 \",focus=\"m\")]\n[name=\"安多恩\"]从育婴圣堂到大教堂，那支队伍会最先经过这里。\n[name=\"安多恩\"]歧法——也就是那只怪物，她的共感能力异常强大，启示石塔的钟声也无法帮助你们隔绝其影响。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]帕蒂亚，带着其他寻路者，还有这些离群者离开这里，往相反的方向走。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#10$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]你一个人？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]相信我，兄弟姐妹，这是我当行的路。\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]……至少别这么狼狈地去，换身衣服吧。还是说你想一直穿着这件血袍子？\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]……我的衣物不多，原本的修士服眼下亦不知在何处。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[PlaySound(key=\"$d_avg_cloakmovement\", volume=1)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]……拿着。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#7$2 \",focus=\"m\")]\n[name=\"安多恩\"]这是……你，一直收着？\n[charslot(slot=\"m\",name=\"avg_npc_357_1#1$1 \",focus=\"m\")]\n[name=\"帕蒂亚\"]占不了多少地方。我……我不知道。我只是觉得……这不是那么轻易能丢掉的东西。总之，还给你。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#11$2 \",focus=\"m\")]\n[name=\"安多恩\"]这许多年来，谢谢你，帕蒂亚。\n[charslot(slot=\"m\",name=\"avg_npc_1800_1#1$2 \",focus=\"m\")]\n[name=\"安多恩\"]不过，我们还须设法安置这些刚脱离梦境的孩子……\n[charslot(slot=\"m\",name=\"avg_245_cello_1#1$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]……\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#1$1 \",focus=\"m\")]\n[name=\"费德里科\"]阿尔图罗，你和安多恩都需要特别监管，我需要确保你们在我的视线范围内。\n[charslot(slot=\"m\",name=\"avg_245_cello_1#4$1\",focus=\"m\")]\n[name=\"阿尔图罗\"]我还什么都没说呢，“圣徒”阁下。\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#16$1\",focus=\"m\")]\n[name=\"努艾达\"]或、或许，可以交给我？\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#12$1\",focus=\"m\")]\n[name=\"努艾达\"]我虽然不是萨科塔，也不是拉特兰人，但照顾孩子……还算擅长。\n[charslot(slot=\"m\",name=\"avg_1032_excu2_1#10$1 \",focus=\"m\")]\n[name=\"费德里科\"]那么，行动。"
+        }
+      ],
+      "description": "努艾达与帕蒂亚同处局部行动场景。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "L25"
+          ],
+          "from": "char_4187_graceb",
+          "reason": "双方直接互动、追述明确的共同经历，或实际处于同一局部场景。",
+          "status": "supported",
+          "to": "npc_3c8f43525fff2778"
+        },
+        {
+          "evidenceIds": [
+            "L25"
+          ],
+          "from": "npc_3c8f43525fff2778",
+          "reason": "双方直接互动、追述明确的共同经历，或实际处于同一局部场景。",
+          "status": "supported",
+          "to": "char_4187_graceb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_688fe24a1d6aaad6.json",
+      "sources": [
+        {
+          "endLine": 330,
+          "kind": "story",
+          "line": 248,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act42side/level_act42side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "当前及追述场景",
+      "title": "众生行记"
+    }
+  ],
+  "relationship_id": "char_4187_graceb|npc_3c8f43525fff2778"
+}

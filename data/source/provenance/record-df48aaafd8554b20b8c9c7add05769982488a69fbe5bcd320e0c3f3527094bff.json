@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 449,
+          "line": 426,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_01_beg.txt",
+          "quote": "[name=\"？？？\"]你很少在天黑之前联系我，斐尔迪南。\n[character(name=\"avg_npc_522_1#6$1\",name2=\"char_empty\",focus=1)]\n[name=\"斐尔迪南\"]……霍尔海雅。\n[name=\"斐尔迪南\"]叫你做的事情，你都处理好了吗？\n[character(name=\"avg_npc_522_1#6$1\",name2=\"char_empty\",focus=-1)]\n[name=\"霍尔海雅\"]嗯……今天莱茵生命的十科会议上，至少有三个空位吧？\n[character(name=\"avg_npc_522_1#6$1\",name2=\"char_empty\",focus=1)]\n[name=\"斐尔迪南\"]不，不够。\n[character(name=\"avg_npc_522_1#6$1\",name2=\"char_empty\",focus=-1)]\n[name=\"霍尔海雅\"]哦？下一位是哪一科的主任？\n[name=\"霍尔海雅\"]是你终于厌烦了负责嵌合生命体实验的老山羊，还是你希望基地里的那位梦想家也永远别再回来？\n[character(name=\"avg_npc_522_1#6$1\",name2=\"char_empty\",focus=1)]\n[name=\"斐尔迪南\"]……我听说罗德岛的人去了基地。\n[name=\"斐尔迪南\"]实验就快完成了。在此之前，我不想让任何人阻挠我们，明白吗？\n[character(name=\"avg_npc_522_1#6$1\",name2=\"char_empty\",focus=-1)]\n[name=\"霍尔海雅\"]你想让我去基地？\n[character(name=\"avg_npc_522_1#6$1\",name2=\"char_empty\",focus=1)]\n[name=\"斐尔迪南\"]不，没那个必要。\n[character(name=\"avg_npc_522_1#6$1\",name2=\"char_empty\",focus=-1)]\n[name=\"霍尔海雅\"]真绝情啊。被绑架的还有你的助手吧？那个叫埃琳娜的小姑娘我见过一次，真是既漂亮又勤奋。\n[name=\"霍尔海雅\"]我还以为你很喜欢她。\n[character(name=\"avg_npc_522_1#6$1\",name2=\"char_empty\",focus=1)]\n[name=\"斐尔迪南\"]作为能量科的人，她能搞定拓荒者。\n[name=\"斐尔迪南\"]你继续盯着城内的情况。"
+        }
+      ],
+      "description": "双方直接通信并商议行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "npc_89d26c84069133ae",
+          "reason": "双方直接通信并商议行动。",
+          "status": "supported",
+          "to": "char_4027_heyak"
+        },
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "char_4027_heyak",
+          "reason": "双方直接通信并商议行动。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 449,
+          "kind": "story",
+          "line": 426,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "绿野幻梦"
+    }
+  ],
+  "relationship_id": "char_4027_heyak|npc_89d26c84069133ae"
+}

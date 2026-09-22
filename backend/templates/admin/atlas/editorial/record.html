@@ -1,0 +1,6 @@
+{% extends "admin/atlas/editorial/base.html" %}
+{% block workspace %}
+<p><a href="{% url 'admin:atlas_changeset_change' original.pk %}">返回修订：{{ original.title }}</a></p>
+<form method="get"><label for="record-section">资料类型</label> <select name="section" id="record-section">{% for value,label in sections %}<option value="{{ value }}"{% if value == section %} selected{% endif %}>{{ label }}</option>{% endfor %}</select> <button type="submit">选择类型</button></form>
+<form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit">添加并编辑</button></form>
+{% endblock %}

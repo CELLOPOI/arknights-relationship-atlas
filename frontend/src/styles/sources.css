@@ -1,0 +1,11 @@
+.evidence-sources h4 { margin: 20px 0 4px; font-size: 13px; font-weight: 500; color: var(--text-muted); }
+.evidence-source-list, .record-evidence .evidence-source-list { list-style: none; padding: 0; margin: 0; }
+.evidence-source-item { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 14px 0; border-bottom: 1px solid var(--border-subtle); overflow-wrap: anywhere; }
+.evidence-source-title { color: var(--text-primary); font-size: 14px; line-height: 1.8; }
+.evidence-source-link { color: var(--accent-cyan); font-size: 12px; min-height: 32px; display: inline-flex; align-items: center; text-decoration: underline; text-underline-offset: 3px; }
+.evidence-source-link:hover { color: #f5f5f3; }
+.evidence-source-record, .record-evidence .evidence-source-record { width: 100%; border: 0; padding: 0; color: #a4b0b3; font-size: 12px; }
+.evidence-source-record summary { cursor: pointer; width: fit-content; min-height: 36px; align-content: center; color: #c6cecf; }
+.evidence-source-record > div { display: flex; flex-direction: column; gap: 8px; padding: 4px 0 8px; line-height: 1.7; }
+.evidence-source-record code { white-space: normal; font-family: var(--font-mono, monospace); overflow-wrap: anywhere; }
+.evidence-source-link:focus-visible, .evidence-source-record summary:focus-visible { outline: 2px solid var(--accent-cyan); outline-offset: 3px; }

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 280,
+          "line": 241,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_01_end.txt",
+          "quote": "[name=\"修道院主教\"]不必了。\n[name=\"修道院主教\"]感谢两位的帮助，你们要找的人是我。\n[charslot(slot = \"left\", name = \"avg_npc_926_1#1$2\",focus=\"l\")]\n[name=\"杰拉尔德\"]抱歉，来迟一步。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_924_1#3$1\")]\n[name=\"克莱芒\"]主教阁下！还有杰拉尔德……\n[charslot(slot = \"m\", name = \"avg_npc_931_1#11$2\")]\n[name=\"莱蒙德\"]杰拉尔德老大！\n[charslot(slot = \"m\", name = \"avg_npc_372_1#1$1\")]\n[name=\"里凯莱\"]您就是这座修道院的主教阁下？这位，呃，杰拉尔德先生也是这里的负责人吗？\n[charslot(slot = \"m\", name = \"avg_1032_excu2_1#6$1\")]\n[name=\"费德里科\"]……不。\n[charslot(slot = \"m\", name = \"avg_1032_excu2_1#1$1\")]\n[name=\"费德里科\"]他不是。\n[charslot(slot = \"m\", name = \"avg_npc_926_1#10$2\")]\n[name=\"杰拉尔德\"]哈哈，我确实不是那么了不起的人物。\n[charslot(slot = \"m\", name = \"avg_npc_923_1#1$1\")]\n[name=\"修道院主教\"]……\n[charslot(slot = \"m\", name = \"avg_npc_923_1#10$1\")]\n[name=\"修道院主教\"]我知道各位一定有许多问题想问。\n[name=\"修道院主教\"]请移步，让我们换一个更适合的地方谈话。\n[StopMusic(fadetime=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[delay(time=2)]\n[Background(image=\"39_g7_chapel\",screenadapt=\"coverall\")]\n[playMusic(key=\"$monastery_sad_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_npc_923_1#1$1\")]\n[name=\"修道院主教\"]克莱芒，请把大门关上，暂时不要让其他人靠近这里。\n[charslot(slot = \"m\", name = \"avg_npc_924_1#10$1\")]\n[name=\"克莱芒\"]可是，主教阁下……\n[charslot(slot = \"m\", name = \"avg_npc_926_1#1$2\")]\n[name=\"杰拉尔德\"]有我在。\n[name=\"杰拉尔德\"]莱蒙德，你继续去做你该做的。\n[charslot(slot = \"m\", name = \"avg_npc_931_1#1$2\")]\n[name=\"莱蒙德\"]……行，老大你多小心。"
+        }
+      ],
+      "description": "char_279_excu与杰拉尔德直接会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_279_excu",
+          "reason": "双方直接对话或明确局部共处。",
+          "status": "supported",
+          "to": "npc_bca27cc42d04b865"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_bca27cc42d04b865",
+          "reason": "双方直接对话或明确局部共处。",
+          "status": "supported",
+          "to": "char_279_excu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d3659cc008c9f040.json",
+      "sources": [
+        {
+          "endLine": 280,
+          "kind": "story",
+          "line": 241,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "空想花庭事件现实场景",
+      "title": "空想花庭"
+    }
+  ],
+  "relationship_id": "char_279_excu|npc_bca27cc42d04b865"
+}

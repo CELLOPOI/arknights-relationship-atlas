@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 413,
+          "line": 400,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12mini/level_act12mini_st07.txt",
+          "quote": "[name=\"玛恩纳\"]……罗德岛的信？\n[Character(name=\"avg_4064_mlynar_1#4$2\", name2=\"avg_npc_625_1#2$1\",focus=2)]\n[name=\"托兰\"]虽说是境外企业，但你跟他们也算熟得很了，对吧。\n[Character(name=\"avg_4064_mlynar_1#4$2\", name2=\"avg_npc_625_1#1$1\",focus=2)]\n[name=\"托兰\"]我知道你对这个罗德岛的业务没什么兴趣……不过，先把信留着吧。\n[name=\"托兰\"]这次从征战骑士手里劫人，他们其实也帮了点忙。\n[Character(name=\"avg_4064_mlynar_1#4$2\", name2=\"avg_npc_625_1#13$1\",focus=2)]\n[name=\"托兰\"]不说那些原来红松骑士团的年轻人从战斗力上提供了多少支持，光是借用罗德岛的通行许可给我打掩护，就算是一大笔人情账啦。\n[name=\"托兰\"]你知道，我当然还是想优先拉你入伙的，可惜，看你也没有改变主意的样子，不如我顺水推舟把这个人情还了。\n[Character(name=\"avg_4064_mlynar_1#4$2\", name2=\"avg_npc_625_1#1$1\",focus=2)]\n[name=\"托兰\"]而且我猜，他们那位“博士”应该还跟你说了点……关于你兄嫂的事。\n[name=\"托兰\"]是替大骑士长传话？或许罗素的原意，是想暗示给玛嘉烈，结果那位谈判者却选择了转告你？\n[Character(name=\"avg_4064_mlynar_1#10$2\", name2=\"avg_npc_625_1#1$1\",focus=1)]\n[name=\"玛恩纳\"]即使是猜测，你也该适可而止。"
+        }
+      ],
+      "description": "博士曾向玛恩纳转告其兄嫂相关消息，双方互相知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "char_4064_mlynar",
+          "reason": "玛恩纳知道博士曾向自己转告兄嫂消息。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "托兰明确称博士选择把相关消息转告玛恩纳。",
+          "status": "supported",
+          "to": "char_4064_mlynar"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_b16db323de5be723.json",
+      "sources": [
+        {
+          "endLine": 413,
+          "kind": "story",
+          "line": 400,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12mini/level_act12mini_st07.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇结尾所述此前联络与当下谈话",
+      "title": "日暮寻路"
+    }
+  ],
+  "relationship_id": "char_4064_mlynar|npc_b99957887950ebfd"
+}

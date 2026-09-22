@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 81,
+          "line": 61,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st10.txt",
+          "quote": "[name=\"最后的骑士\"]（尖啸）群星……墓地……\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]你手下留情了。他怎么还站着？\n[Character(name=\"avg_474_gladiia_1#2\")]\n[name=\"歌蕾蒂娅\"]……不。\n[Character(name=\"avg_474_gladiia_1#2\")]\n[name=\"歌蕾蒂娅\"]他只是比我想象中要更结实一些。\n[Character(name=\"avg_npc_448_1#1$1\")]\n[name=\"最后的骑士\"]……\n骑士没有还击。他突然呆立在原地，随后抬头，蹒跚着，盘旋着，看着上方。\n歌蕾蒂娅本打算乘机结束这场追逐，但下一刻，她同样产生了一股隐隐的预感。\n[Character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]……海嗣的气味，在变化。\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]你已经敏锐到能捕捉到它们的变化了吗？\n[Character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]……\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]这就对了，歌蕾蒂娅。\n[Character(name=\"avg_npc_445_1#1$1\")]\n[name=\"乌尔比安\"]无论你怎么安慰其他人和你自己，这才是我们迟早要面对的难题——我们自己。"
+        }
+      ],
+      "description": "乌尔比安与歌蕾蒂娅共同近距离面对最后的骑士并直接评论其状态。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S27"
+          ],
+          "from": "char_4145_ulpia",
+          "reason": "乌尔比安与歌蕾蒂娅共同近距离面对最后的骑士并直接评论其状态。",
+          "status": "supported",
+          "to": "npc_58c708dd33128fbf"
+        },
+        {
+          "evidenceIds": [
+            "S27"
+          ],
+          "from": "npc_58c708dd33128fbf",
+          "reason": "乌尔比安与歌蕾蒂娅共同近距离面对最后的骑士并直接评论其状态。",
+          "status": "supported",
+          "to": "char_4145_ulpia"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 81,
+          "kind": "story",
+          "line": 61,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st10.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_4145_ulpia|npc_58c708dd33128fbf"
+}

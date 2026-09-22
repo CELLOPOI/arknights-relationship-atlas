@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 216,
+          "line": 196,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_08_beg.txt",
+          "quote": "[name=\"洛洛\"]队长，洛克十八把通道最后一段路的扫描图上传到PRTS了，你有收到吗？\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#10$1\",focus=\"none\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"235,0\", pto=\"235,0\", name = \"avg_4072_ironmn_1#10$1\", duration = 0)]\n[name=\"费斯特\"]收到了！洛洛，我们已经在检修最后一个变轨节点。\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#10$1\",focus=\"l\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = false, pfrom = \"235,0\", pto=\"235,0\", name = \"avg_4072_ironmn_1#10$1\", duration = 0)]\n[name=\"洛洛\"]按照现在的损坏程度，预计多长时间能全部检修完成？\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#10$1\",focus=\"none\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"235,0\", pto=\"235,0\", name = \"avg_4072_ironmn_1#10$1\", duration = 0)]\n[name=\"费斯特\"]十分钟。\n[name=\"费斯特\"]奶奶他们的位置确认了吗？我们必须尽快取回那件武器，典范军在前线会需要我们的协助。\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#11$1\",focus=\"l\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = false, pfrom = \"235,0\", pto=\"235,0\", name = \"avg_4072_ironmn_1#10$1\", duration = 0)]\n[name=\"洛洛\"]还在尝试定位正确位置。\n[name=\"洛洛\"]这几天我们找到的都是他们留下的诱饵信标，想要恢复联络可能还得花上点时间。\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#11$1\",focus=\"none\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"235,0\", pto=\"235,0\", name = \"avg_4072_ironmn_1#1$1\", duration = 0)]\n[name=\"费斯特\"]那至少证明奶奶他们暂时还是安全的……\n[charslot(slot=\"l\",name=\"avg_4040_rockr_1#1$1\",focus=\"l\")]\n[interlude(channel = 3, type = 3, slot = \"m\", switch = false, pfrom = \"235,0\", pto=\"235,0\", name = \"avg_4072_ironmn_1#1$1\", duration = 0)]\n[name=\"洛洛\"]如果，队长，我是说如果，我们没能联系上凯瑟琳女士，接下来该怎么办？"
+        }
+      ],
+      "description": "char_4040_rockr知晓并使用PRTS；仅支持人物方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "char_4040_rockr",
+          "reason": "双方明确围绕向PRTS上传的扫描图交流。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "PRTS没有在本窗具名回应。",
+          "status": "not_established",
+          "to": "char_4040_rockr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 216,
+          "kind": "story",
+          "line": 196,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "城墙通道检修期间",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_4040_rockr|npc_c8a2caad4366c8fa"
+}

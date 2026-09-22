@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 374,
+          "line": 360,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "quote": "[Decision(options=\"晚上好，干员查德、干员迪伦、干员巴蒂、干员黑角。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_089\")]\n[name=\"干员查德\"]  博士你……你居然记得我们全部人的名字？！\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  博士的记性还是这么好啊。\n[name=\"黑角\"]  要熟悉山一样高的文件，还要一下子记住俺们这么多人的名字，可不大容易。博士，您别累着。\n[Decision(options=\"这是应该的。;……;PRTS会帮我。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_090\")]\n[name=\"干员巴蒂\"]  博士，我们正准备收摊了，就不打扰您了。\n[Character(name=\"avg_npc_012\")]\n[name=\"干员迪伦\"]  嗯，博士，外勤任务见！\n[Character(name=\"avg_npc_012\", name2=\"avg_npc_089\", focus=1)]\n[name=\"干员迪伦\"]  溜了溜了，查德，你还杵着干什么？"
+        }
+      ],
+      "description": "博士谈及PRTS时迪伦仍在同桌，随后道别；仅支持选中该答复时的单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "npc_090185751b884944",
+          "reason": "博士谈及PRTS时迪伦仍在同桌，随后道别；仅支持选中该答复时的单向知晓。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_090185751b884944"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_77447b339e70b7d0.json",
+      "sources": [
+        {
+          "endLine": 374,
+          "kind": "story",
+          "line": 360,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "博士选择“PRTS会帮我”的对话分支",
+      "title": "黑角"
+    }
+  ],
+  "relationship_id": "npc_090185751b884944|npc_c8a2caad4366c8fa"
+}

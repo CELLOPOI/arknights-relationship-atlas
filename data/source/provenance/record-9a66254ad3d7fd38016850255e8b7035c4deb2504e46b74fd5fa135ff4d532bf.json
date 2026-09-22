@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 83,
+          "line": 50,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_07_end.txt",
+          "quote": "[name=\"艾雅法拉\"]   博士，能听到吗！火山的分析研究完成了！\n[name=\"艾雅法拉\"]   如果现在的话，还有机会能争取到更多的时间！\n[name=\"普罗旺斯\"]   博士，我们已经把火山活动的原因找到了，这次的火山活动很有可能是可以被阻止的！\n[name=\"艾雅法拉\"]   现在大家冷静下来听我说，只要按照这个方法来，一定能把火山爆发的时间推迟！\n[Character(name=\"char_188_helage_1\")]\n[name=\"赫拉格\"]   我们可以帮忙，如果真的是人力所及的话。\n[Character(name=\"char_340_shwaz_2#2\")]\n[name=\"黑\"]   ……嗯。\n[Character(name=\"char_348_ceylon_4#3\",name2=\"char_340_shwaz_2#2\",focus=1)]\n[name=\"锡兰\"]   不，这件事就交给我们吧。\n[name=\"锡兰\"]   克洛宁已经蛰伏了这么长的时间，他的残党必然布及整座城市。\n[name=\"锡兰\"]   现在正是最关键的时刻。黑，赫拉格爷爷，你们都有自己的事情要做。\n[Character(name=\"char_348_ceylon_4#2\",name2=\"char_340_shwaz_2#2\",focus=2)]\n[name=\"黑\"]   这些事情交给其他人去做就可以——\n[Character(name=\"char_348_ceylon_4#3\",name2=\"char_340_shwaz_2#2\",focus=1)]\n[name=\"锡兰\"]   但这是我们的任务。\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]   锡兰……\n[Character]\n[name=\"普罗旺斯\"]   同意。\n[name=\"普罗旺斯\"]   天灾信使，火山学家，源石学者，我们之中谁都不能容忍让有所预兆的危机威胁到市民。\n[name=\"普罗旺斯\"]   更何况竟然有人利用自己的知识，蒙蔽他人，中饱私囊。作为天灾信使，我可不能忍受自己在这种人面前还依然袖手旁观！\n[Character(name=\"char_188_helage_1\")]\n[name=\"赫拉格\"]   你竟然也会有这么认真的一面，我明白了。那么市长先生，疏散群众的任务，请容我助你一臂之力。\n[Character(name=\"char_340_shwaz_2#2\",name2=\"avg_npc_024\",focus=2)]\n[name=\"赫尔曼\"]   ……嗯。黑，你也来吧。\n[Character(name=\"char_340_shwaz_2#3\",name2=\"avg_npc_024\",focus=1)]\n[name=\"黑\"]   我——\n[Character(name=\"char_340_shwaz_2#3\",name2=\"avg_npc_024\",focus=2)]\n[name=\"赫尔曼\"]   锡兰说她可以做到。\n[Character(name=\"char_340_shwaz_2#2\")]\n[name=\"黑\"]   ……小姐，请务必小心。\n[Character]\n[name=\"艾雅法拉\"]   讨论好了吗？我们的时间不多了！"
+        }
+      ],
+      "description": "赫尔曼参与现场指挥，听到远端专家具名报告；未见远端人物直接识别赫尔曼。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼参与现场指挥，听到远端专家具名报告；未见远端人物直接识别赫尔曼。",
+          "status": "supported",
+          "to": "char_180_amgoat"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_180_amgoat",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_ba4ddfafe7c93381"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 83,
+          "kind": "story",
+          "line": 50,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 629,
+          "line": 617,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_st01.txt",
+          "quote": "[name=\"阿黛尔\"]我记得您是汐斯塔人。\n[charslot(slot=\"r\",name=\"avg_npc_999_1#2$1\",focus=\"r\")]\n[name=\"凯勒\"]嗯，去年的时候，赫尔曼邀请我回到汐斯塔，来建立这座博物馆。\n[name=\"凯勒\"]本来火山对于汐斯塔人来说，既是使人被迫离开家园的灾害，也是过去的回忆，火山与这座城市息息相关。\n[charslot(slot=\"r\",name=\"avg_npc_999_1#1$1\",focus=\"r\")]\n[name=\"凯勒\"]“能让人们凝聚在一起的，除了客观的自然环境，还有共同的记忆。”\n[charslot(slot=\"l\",name=\"avg_180_amgoat_1#11$1\",focus=\"l\")]\n[name=\"阿黛尔\"]……这是大学通识课本《地质学与城邦历史》中序言中的一句话。\n[charslot(slot=\"r\",name=\"avg_npc_999_1#9$1\",focus=\"r\")]\n[name=\"凯勒\"]我想这是一个机会，我希望这座博物馆，能成为既承载汐斯塔的回忆，也展示许多火山学者研究成果的地方。\n[name=\"凯勒\"]我在查找汐斯塔火山资料的时候，发现了两年前你写的意见报告——或许也是缘分吧。\n[charslot(slot=\"r\",name=\"avg_npc_999_1#8$1\",focus=\"r\")]\n[name=\"凯勒\"]现在汐斯塔火山临近爆发，所以我还想邀请你，一起完成这次观测，还有这个博物馆的布置。"
+        }
+      ],
+      "description": "阿黛尔当面听凯勒讲述赫尔曼的邀请。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "char_180_amgoat",
+          "reason": "阿黛尔当面听凯勒讲述赫尔曼的邀请。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_180_amgoat"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 629,
+          "kind": "story",
+          "line": 617,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    }
+  ],
+  "relationship_id": "char_180_amgoat|npc_ba4ddfafe7c93381"
+}

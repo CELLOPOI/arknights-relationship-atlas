@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 493,
+          "line": 437,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_09_end.txt",
+          "quote": "[name=\"阿娜特\"]那也有可能只是堵住了！\n[charslot(slot=\"m\", name=\"avg_npc_1478_1#9$1\")]\n[name=\"梅捷缇克缇\"]别担心，宝石构装体也不再活动了。\n[name=\"梅捷缇克缇\"]源石回路没有释放任何能量的迹象……它也许不会再醒过来了。\n[charslot(slot=\"m\", name=\"avg_4139_papyrs_1#2$2\")]\n[name=\"阿娜特\"]……你还偷偷把你的小宠物带在身边了？\n[charslot(slot=\"m\", name=\"avg_npc_1478_1#9$1\")]\n[name=\"梅捷缇克缇\"]我相信佩佩嘛。\n[charslot(slot=\"m\", name=\"avg_4139_papyrs_1#10$2\")]\n[name=\"阿娜特\"]好吧，我们能做的也都做完了……\n[charslot(slot=\"m\", name=\"avg_npc_1477_1#2$1\")]\n[name=\"阿斯帕齐娅\"]目前城市的混乱状况的确得到了缓解，不过，没有人敢断定这次异常到此为止了。\n[charslot(slot=\"m\", name=\"avg_4139_papyrs_1#1$2\")]\n[name=\"阿娜特\"]是啊，所有人的心都还悬着。\n[charslot(slot=\"m\", name=\"avg_npc_1477_1#1$1\")]\n[name=\"阿斯帕齐娅\"]……\n[charslot(slot=\"m\", name=\"avg_4139_papyrs_1#12$2\")]\n[name=\"阿娜特\"]……谢谢你的那位朋友。\n[name=\"阿娜特\"]我保证，会把她和佩佩的事迹一起写进报告，让她们名扬辉煌之城，被写进本地的历史……\n[dialog]\n[PlaySound(key=\"$blooddrop\", volume=1)]\n[name=\"？？？\"]名扬辉煌之城不错，但是留在史书上……是不是最好等我死了再说？\n[charslot(slot=\"m\", name=\"avg_npc_1477_1#4$1\")]\n[name=\"阿斯帕齐娅\"]娜仁图亚？！\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot=\"m\", name=\"avg_4138_narant_1#12$1\", duration=1, isblock=true)]\n[name=\"娜仁图亚\"]嘿，搭把手，扶着这丫头。\n[charslot(slot=\"m\", name=\"avg_4139_papyrs_1#5$2\")]\n[name=\"阿娜特\"]……佩佩？\n[charslot(slot=\"m\", name=\"avg_4138_narant_1#4$1\")]\n[name=\"娜仁图亚\"]要不是我向外游的时候遇上了她，她估计就交待在里面了。\n[charslot(slot=\"m\", name=\"avg_4138_narant_1#2$1\")]\n[name=\"娜仁图亚\"]也是想不到，一路顺着往上游，最后居然通向了这里。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=0.4)]\n[charslot(slot=\"m\", name=\"avg_4058_pepe_1#5$1\", posfrom=\"0,-30\", posto=\"0,0\", duration=1.5, isblock=true)]\n[name=\"佩佩\"]……\n[charslot(slot=\"m\", name=\"avg_4139_papyrs_1#1$2\")]\n[name=\"阿娜特\"]你的脸色好差……\n[charslot(slot=\"m\", name=\"avg_4058_pepe_1#5$1\")]\n[name=\"佩佩\"]祖拜尔他……\n[dialog]\n[charslot]\n佩佩的视线移向了身边的水池。\n哈拉赫特，愿你保佑他的灵魂安息。\n让时光重新开始流动吧，让我们都往前走吧。\n[dialog]\n[charslot(slot=\"m\", name=\"avg_4058_pepe_1#5$1\", duration=1.5, isblock=true)]\n[delay(time=1.5)]\n[charslot(slot=\"m\", name=\"avg_4058_pepe_1#3$2\")]\n[name=\"佩佩\"]哎呀，我可是差点淹死了，脸色发青嘴唇发紫也很正常！\n[Effect(name=\"$e_emoji_proud\", layer = 1, x=40, y=180)]\n[charslot(slot=\"m\", name=\"avg_4058_pepe_1#7$2\")]\n[name=\"佩佩\"]比起这个，还不快让我看看我的成果？街上的沙子是不是消失了？水渠是不是也变干净了？"
+        }
+      ],
+      "description": "二人在事件后同处小队场景。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4139_papyrs",
+          "reason": "二人在事件后同处小队场景。",
+          "status": "supported",
+          "to": "npc_9742ae2838474e3a"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_9742ae2838474e3a",
+          "reason": "二人在事件后同处小队场景。",
+          "status": "supported",
+          "to": "char_4139_papyrs"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_204b53066b797ab8.json",
+      "sources": [
+        {
+          "endLine": 493,
+          "kind": "story",
+          "line": 437,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "太阳甩在身后事件期间",
+      "title": "太阳甩在身后"
+    }
+  ],
+  "relationship_id": "char_4139_papyrs|npc_9742ae2838474e3a"
+}

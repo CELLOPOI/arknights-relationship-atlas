@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 95,
+          "line": 20,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-04_end.txt",
+          "quote": "[name=\"阿米娅\"]我们离研究所很近了。\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#7$1\")]\n[name=\"阿米娅\"]可是一路上都好安静……这周围真的有人居住吗？\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]三天前女大公才突然下令，要求中心矿区附近三十公里内的居民在二十四小时内撤离。\n[name=\"阿洛伊泽\"]虽说远北地区本来就地广人稀，但短时间撤离这么大范围内的居民，也绝不是一件容易的事。\n[name=\"阿洛伊泽\"]更何况要在撤离的同时，让所有人保持缄默……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#3$1\")]\n[name=\"阿洛伊泽\"]不过根据传闻，这位女大公对远北一应事务向来拥有绝对的掌控力。还有人说，她在这里的威望甚至超过了……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]陛下在上，我不该失言的。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"她最终愿意放行……;说明她根本不担忧我们进行调查。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]也不尽然。\n[name=\"阿洛伊泽\"]面对来自圣骏堡的近卫军，女大公当然不能在明面上表现出抗拒。\n[name=\"阿洛伊泽\"]客观来讲，这些年来女大公始终扮演着北方集团军与议会之间的润滑剂，使得双方的芥蒂不至于演化为对抗。\n[name=\"阿洛伊泽\"]不得不承认，这需要高明的手段。\n[name=\"阿洛伊泽\"]她收获了双方的信任，但这也决定了她绝不能向任何一方表现出偏倚。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"你并不避讳谈论这些话题。;我以为这在乌萨斯是不能随便谈论的话题。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#13$1\")]\n[name=\"阿洛伊泽\"]哈哈……很惊讶吗？Dr.{@nickname}，你大概对乌萨斯有些误解。\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]我说的这些，不过是在圣骏堡任何一个贵族宴席上都能听到的闲谈。\n[name=\"阿洛伊泽\"]只是，若不能对闲谈中的故事了如指掌，又如何能加入饭桌上的那些讨论呢？\n[name=\"阿洛伊泽\"]当然，闲谈归闲谈，如果有人真的以为凭这些就能掌握某种向上攀爬的方法，并且试图付诸行动的话，就要另当别论了。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"很有意思的观点。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#1$1\")]\n[name=\"阿洛伊泽\"]话说回来，不管女大公是真的没有藏私还是自认为掩盖好了所有踪迹……\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#4$1\")]\n[name=\"阿洛伊泽\"]奉命研究变异感染者的研究所里必然会留下些什么。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[playsound(key=\"$d_avg_riot\", loop=true, channel=\"bgs\",volume=0)]\n[SoundVolume(volume=0.1, channel=\"bgs\",fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$1\",duration=1)]\n[delay(time=2)]\n[name=\"阿米娅\"]各位……我好像听到了战斗的声音？\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#10$1\")]\n[name=\"阿米娅\"]前面……是矿工和纠察队？\n[charslot]\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"不能坐视不理。;所有人准备营救。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"char_401_elysm_na_1#8\",duration=0.5)]\n[delay(time=1)]\n[name=\"极境\"]等、等一下！\n[name=\"极境\"]我眼神好一点，我能看清楚！\n[charslot(slot=\"m\",name=\"char_401_elysm_na_1#6\")]\n[name=\"极境\"]那些挨打的人……是纠察队的？\n[charslot(slot=\"m\",name=\"avg_npc_1966_1#11$1\")]\n[name=\"阿洛伊泽\"]……什么？\n[charslot(duration=0.5)]\n顺着极境手指的方向，远远可见两伙人打成一团，你们看到了有些荒唐的一幕——\n一支纠察队正在被人数比他们多出几倍的感染者矿工们追打。\n纠察队手中并不算精良的装备完全没派上用场，矿工们举着的木棍镐头正接连落在他们身上。\n[charslot(slot=\"m\",name=\"avg_4179_monstr_1#5$1\")]\n[name=\"Mon3tr\"]呃……\n[name=\"Mon3tr\"]博士，这种情况……我们还要去营救吗？\n[charslot]\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"先尽量避免事件升级。;再进一步了解情况。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]"
+        }
+      ],
+      "description": "极境与博士同行并共同执行调查。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_401_elysm",
+          "reason": "极境与博士同行并共同执行调查。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "极境与博士同行并共同执行调查。",
+          "status": "supported",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_ef827cdde49f2fd2.json",
+      "sources": [
+        {
+          "endLine": 95,
+          "kind": "story",
+          "line": 20,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "反常光谱所述时段或明确既往互动",
+      "title": "反常光谱"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 27,
+          "line": 24,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "quote": "[name=\"极境\"]  你现在应该已经到那边了吧？怎么样，汐斯塔如何？\n[name=\"极境\"]  我听博士说，那边热得随时有人会晕倒在大街上，然后被免费的啤酒浇醒，是不是真的？\n[name=\"极境\"]  哎对了，这次的音乐节都来了哪些名人？大帝是不是要来？\n[name=\"极境\"]  哎，你见到日落即逝的成员了吗，我都用她们的曲子做背景音乐，你听这首——"
+        }
+      ],
+      "description": "极境明确说听博士描述汐斯塔，报告此前双方交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "char_401_elysm",
+          "reason": "极境明确说听博士描述汐斯塔，报告此前双方交流。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E16"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "极境明确说听博士描述汐斯塔，报告此前双方交流。",
+          "status": "supported",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 27,
+          "kind": "story",
+          "line": 24,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 496,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "quote": "[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"罗德岛干员\"]  ……怎么回事！\n[name=\"罗德岛干员\"]  可露希尔，生物处理室13号舱，给我图表！\n[name=\"罗德岛干员\"]  舱室的内部温度急剧升高！能量在外放！\n[name=\"罗德岛干员\"]  等等，它的形态在转化！经过十四小时的处理，为什么还会进入到这一阶段？\n[name=\"罗德岛干员\"]  PRTS，刚才是谁使用了这个舱位？\n[name=\"罗德岛干员\"]  Dr.{@nickname}？我们在龙门攻防战里有干员伤亡吗？这处理的是谁？\n[name=\"罗德岛干员\"]  什么？\n[name=\"罗德岛干员\"]  等等，你慢点说，你说Dr.{@nickname}在舱位里安置了谁？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\", fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  勋爵！\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我在听，博卓卡斯替。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我们温迪戈，自我流放，失去一切。\n[name=\"爱国者\"]  但我们身负，萨卡兹的传统。\n[name=\"爱国者\"]  先祖，塑造我，培育我，注视我。所以，请替我见证。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  博卓卡斯替……\n[name=\"凯尔希\"]  ……我不知道自己够不够格。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  我认为你是，最好人选。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  ……\n[name=\"凯尔希\"]  “……我在此担当一位萨卡兹的见证者。博卓卡斯替，卡兹戴尔的温迪戈，一生从未背叛过血肉，也从未愧对亲族。”\n[name=\"凯尔希\"]  “他将把一生留在光芒下的身体里……”\n[name=\"凯尔希\"]  “……而他的精魂，则将回到温迪戈温热的血脉中去。”\n[name=\"凯尔希\"]  这是个诅咒。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  对我，并不是。\n[name=\"爱国者\"]  啊——我感到……我感到，我清晰的视野，开始模糊。\n[name=\"爱国者\"]  谢谢你，勋爵。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=1)]\n[name=\"凯尔希\"]  我以为你讨厌这些。\n[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_025_1\", focus=2)]\n[name=\"爱国者\"]  可我，已经老了。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_perimeter\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  不……\n[name=\"幻影弩手\"]  这里是哪里？\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  哈，原来是这样。哈。\n[name=\"幻影弩手\"]  塔露拉真的背叛我们了。\n[name=\"幻影弩手\"]  你以为我们会坐以待毙吗？！\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  你们不是对手。\n[name=\"萨卡兹战士\"]  有来世的话，向我报仇。\n[Character(name=\"avg_npc_016\", name2=\"avg_npc_053\", focus=1)]\n[name=\"幻影弩手\"]  就因为知道会死，所以就要放弃了吗？\n[name=\"幻影弩手\"]  就这样被你们无故杀了而——\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  别杀他们。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  梅菲斯特……？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  魔族人，我会给你们不知疼痛的身躯。让他们走。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  我们比你的牧群强大得多。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  我可以把我的生命拿出来和你们分享，你们能真正地永远战斗，不知疲倦地战斗。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  ……可以。\n[name=\"萨卡兹战士\"]  但他们要出去，也必须由我的同伴看着。现在还不能违背塔露拉的命令。\n[name=\"萨卡兹战士\"]  你们，弩手。出去。\n[Character(name=\"avg_npc_016\")]\n[name=\"幻影弩手\"]  梅菲斯特？！\n[name=\"幻影弩手\"]  （为什么他会救我们……？难道塔露拉还有什么阴谋？）\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=2)]\n[name=\"萨卡兹战士\"]  不过，你为什么特意要到这里来？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_053\", focus=1)]\n[name=\"梅菲斯特\"]  ……因为我想进去这里。我想知道这里有什么样的秘密。我想知道罗德岛究竟为什么会从这里带走一个人。\n[name=\"梅菲斯特\"]  因为我从录像里看到那个人从这里出来。\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  梅菲斯特……？为什么？\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  你们，想听歌吗？\n[Character(name=\"char_1507_Mephisto_1#2\", name2=\"avg_npc_016\", focus=2)]\n[name=\"幻影弩手\"]  可是，浮士德队长他说，他说……\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]  是啊，是的。我已经不会唱了。\n[name=\"梅菲斯特\"]  嗯，但我可以试试。\n[name=\"梅菲斯特\"]  应该是首摇篮曲吧？不记得是有谁教过我这首曲子……我不记得了。\n[name=\"梅菲斯特\"]  只是有人在我的梦里，一直地哼。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉睡吧，沉睡吧♪\n刺猬玩偶与小熊们……\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  乌萨斯的，感染者，又要走去哪里？\n[name=\"爱国者\"]  晦暗的夜晚，还会遮蔽……多少明星？\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  ……大尉，大尉！\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  最后的命令。\n[Character(name=\"avg_npc_058\")]\n[name=\"盾卫\"]  大尉……\n[Character(name=\"avg_npc_025_1\")]\n[name=\"爱国者\"]  战斗下去。活下去。\n[name=\"爱国者\"]  你们的路，只有你们……自己去走。\n[name=\"爱国者\"]  走了，才有路。\n[name=\"爱国者\"]  我必定要死。只是不知道，是否该是现在。\n[name=\"爱国者\"]  我们的死，究竟能，改变什么？\n[name=\"爱国者\"]  也许这个问题，你们，才能回答。\n[Dialog]\n[Character]\n[delay(time=1)]\n沉进静静的黑色……"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_401_elysm",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 496,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_b99957887950ebfd"
+}

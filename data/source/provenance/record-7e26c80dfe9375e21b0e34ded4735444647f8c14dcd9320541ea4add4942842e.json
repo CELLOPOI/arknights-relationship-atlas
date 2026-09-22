@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 183,
+          "line": 162,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_06_beg.txt",
+          "quote": "[name=\"埃利西奥\"]……我很敬佩您，茉莉女士。\n[name=\"埃利西奥\"]在我的家乡，一个小感染者能够像这里的孩子们一样有活力，往往意味着他的家庭能为他投入大笔资金。\n[name=\"埃利西奥\"]而这里……我听说，有些孩子无处可去，是您收留在学校里。他们在您的指导下，排演出了鼓舞人心的戏剧，甚至鼓励了许多市民。\n[name=\"埃利西奥\"]您很了不起。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#2$1\",focus=\"l\")]\n[name=\"茉莉\"]您过奖了，埃利西奥先生。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#8$1\",focus=\"l\")]\n[name=\"茉莉\"]我只是尽力模仿那几位再也无法回到学校的老师……尤其是我最尊敬的一位女士。\n[charslot(slot=\"r\",name=\"avg_487_bobb_1#9$1\",focus=\"r\")]\n[name=\"埃利西奥\"]是戈尔丁女士吗？我听海蒂小姐提起过她。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#8$1\",focus=\"l\")]\n[name=\"茉莉\"]是的。我们正在彩排的这出戏剧，就是她最后在这间教室里写下的——\n[name=\"茉莉\"]一个可爱的故事，两个孩子为了寻找一只能带走病痛的羽兽而展开了冒险，最终挽救了他们生病的朋友。\n[name=\"茉莉\"]海蒂女士曾经问我，戈尔丁女士在写这个故事的时候，是否曾将它称为“毫无意义的自我安慰”……\n[charslot(slot=\"r\",name=\"avg_487_bobb_1#8$1\",focus=\"r\")]\n[name=\"埃利西奥\"]……怎么会呢？\n[name=\"埃利西奥\"]女士，我可以留下看看孩子们的彩排吗？\n[name=\"埃利西奥\"]为了孩子们，也是为了向您和那位女士表达敬意。\n[name=\"埃利西奥\"]我想，或许在这，在伦蒂尼姆，我能帮上的忙还有很多。\n[name=\"埃利西奥\"]……致戈尔丁女士。\n[charslot(slot=\"l\",name=\"avg_npc_657_1#1$1\",focus=\"l\")]\n[name=\"茉莉\"]……致戈尔丁女士。"
+        }
+      ],
+      "description": "char_487_bobb知晓戈尔丁；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_487_bobb",
+          "reason": "当事人明确讨论并向戈尔丁女士致意。",
+          "status": "supported",
+          "to": "npc_faa340cbad10d05b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_faa340cbad10d05b",
+          "reason": "戈尔丁未在当前时点出场，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_487_bobb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 183,
+          "kind": "story",
+          "line": 162,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "战后学校谈话",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_487_bobb|npc_faa340cbad10d05b"
+}

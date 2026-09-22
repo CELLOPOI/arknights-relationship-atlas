@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 270,
+          "line": 230,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act44side/level_act44side_05_end.txt",
+          "quote": "[name=\"澪\"]该站住的是你。\n[dialog]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[charslot(slot = \"r\", name = \"avg_npc_1901_1#5$2\", posfrom=\"0,0\", posto=\"-150,0\", afrom=1, ato=0, duration=0.5)]\n[charslot(slot = \"l\", name = \"avg_1044_hsgma2_1#7$1\", posfrom=\"0,0\", posto=\"150,0\", afrom=1, ato=0, duration=0.5)]\n[Delay(time=0.3)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[charslot]\n[PlaySound(key=\"$swordtsing6\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$swordtsing1\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$swordtsing4\", volume=1)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n火光。嗡鸣。\n一排排屏风依然错落地伫立在目及之处，纹丝不动。\n[dialog]\n[charslot(slot = \"m\", name = \"avg_npc_1901_1#1$2\", duration=0.5, isblock=true)]\n[name=\"澪\"]他们已经护送三船先生走了。你现在的对手是我。\n[name=\"澪\"]你的刀。出鞘。\n[charslot(slot = \"m\", name = \"avg_1044_hsgma2_1#2$1\")]\n[name=\"星熊\"]……对付你还用不着。\n[charslot(slot = \"m\", name = \"avg_npc_1901_1#5$2\")]\n[name=\"澪\"]是吗？\n[dialog]\n[PlaySound(key=\"$d_avg_darkmagic\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1.5, block=false)]\n[charslot(duration=1.5, isblock=true)]\n[delay(time=1)]\n澪的身后传来刺耳的金属摩擦声，一只黑色的“鬼手”从她的身后钻出，不急不慢地绕在白色的短刀上。\n一个人，三只手，三把刀。\n[name=\"澪\"]你的确很强，但这不代表着此时此刻你能从我这里脱身，更别说你连刀都不愿意出鞘了。"
+        }
+      ],
+      "description": "澪当面拦下星熊，两人直接交锋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_136_hsguma",
+          "reason": "澪当面拦下星熊，两人直接交锋。",
+          "status": "supported",
+          "to": "npc_bc7d9b1e0e672b48"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_bc7d9b1e0e672b48",
+          "reason": "澪当面拦下星熊，两人直接交锋。",
+          "status": "supported",
+          "to": "char_136_hsguma"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_7fe38ab19310cba1.json",
+      "sources": [
+        {
+          "endLine": 270,
+          "kind": "story",
+          "line": 230,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act44side/level_act44side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "墟所述时段",
+      "title": "墟"
+    }
+  ],
+  "relationship_id": "char_136_hsguma|npc_bc7d9b1e0e672b48"
+}

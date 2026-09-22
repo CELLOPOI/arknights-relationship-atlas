@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 145,
+          "line": 138,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "quote": "[name=\"菈玛莲\"]对了，这里还有另一封弗莱蒙特交给将军的私人信件。\n[charslot(slot=\"m\",name=\"avg_npc_1297_1#1$1\")]\n[name=\"特雷西斯\"]……可是，菈玛莲，你可不是谁的信使。\n[name=\"特雷西斯\"]你还没有表达女妖王庭的态度。\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#1$1\")]\n[name=\"菈玛莲\"]将军，我想昨日叙旧时我们已经达成了共识——女妖不会参与其中。\n[charslot(slot=\"m\",name=\"avg_npc_1071_1#2$1\")]\n[name=\"菈玛莲\"]我们至今仍在缓慢疗治着那一战中留下的创伤。"
+        }
+      ],
+      "description": "菈玛莲和将军直接交谈并提昨日叙旧。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_751dc5e345c5cbe2",
+          "reason": "菈玛莲和将军直接交谈并提昨日叙旧。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "菈玛莲和将军直接交谈并提昨日叙旧。",
+          "status": "supported",
+          "to": "npc_751dc5e345c5cbe2"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 145,
+          "kind": "story",
+          "line": 138,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    }
+  ],
+  "relationship_id": "npc_751dc5e345c5cbe2|npc_c573b8884914fc60"
+}

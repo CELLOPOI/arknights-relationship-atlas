@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 153,
+          "line": 132,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st02.txt",
+          "quote": "[name=\"圣徒卡门\"]在恐惧中昏厥，你们的梦境不会好受。\n[name=\"圣徒卡门\"]凯尔希，他们交给我。很快他们就会坦白，那些阴暗潮湿的阴谋盘踞何处。\n[Character(name=\"char_003_kalts_1#1\",name2=\"npc_2004_Alty\",focus=1)]\n[name=\"凯尔希\"]当然。\n[Character(name=\"char_003_kalts_1#1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]（哇哦，这个酷老头和你是一伙的？医生？）\n[Character(name=\"avg_npc_447_1#8$1\")]\n[name=\"圣徒卡门\"]你们就是……日落即逝。摇滚乐队，我不理解这些年轻人的玩意。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]我希望你将其理解为音乐的神圣性。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"npc_2004_Alty\",focus=1)]\n[name=\"圣徒卡门\"]近几百年伊比利亚都不曾有直接目睹巨兽的记录，更妄言交流，若你们的音乐意味着你们对人类社会的看法，我倒是颇有兴趣。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"npc_2004_Alty\",focus=2)]\n[name=\"Alty\"]《海中深色》之后，我们就没有把注意力放在这些熟悉到失去兴趣的事情上了哦。\n[Character(name=\"avg_npc_447_1#8$1\",name2=\"npc_2004_Alty\",focus=1)]\n[name=\"圣徒卡门\"]呵呵……我很好奇在你们眼中，伊比利亚是什么音色。看来漫长的生命还是可以为我带来一些惊喜。\n[Character(name=\"avg_npc_447_1#8$1\")]\n[name=\"圣徒卡门\"]那么凯尔希，如我们先前所说的那样，审判庭会尽快为你准备好前往伊比利亚之眼的手段。\n[name=\"圣徒卡门\"]在那之前准备好，然后尽可能扫清所有的障碍。\n[Character(name=\"npc_2004_Alty\")]\n[name=\"Alty\"]……那只恐鱼，对，就是现在嵌在那个怪人身体里的那个。\n[name=\"Alty\"]它身上有阿戈尔人的气味。不一样的阿戈尔人，接近我们的气味，海的气味。"
+        }
+      ],
+      "description": "圣徒卡门认出日落即逝并与Alty直接讨论音乐。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S32"
+          ],
+          "from": "npc_8bb239b319aad399",
+          "reason": "圣徒卡门认出日落即逝并与Alty直接讨论音乐。",
+          "status": "supported",
+          "to": "npc_c7121f5df30f84f6"
+        },
+        {
+          "evidenceIds": [
+            "S32"
+          ],
+          "from": "npc_c7121f5df30f84f6",
+          "reason": "圣徒卡门认出日落即逝并与Alty直接讨论音乐。",
+          "status": "supported",
+          "to": "npc_8bb239b319aad399"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 153,
+          "kind": "story",
+          "line": 132,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "npc_8bb239b319aad399|npc_c7121f5df30f84f6"
+}

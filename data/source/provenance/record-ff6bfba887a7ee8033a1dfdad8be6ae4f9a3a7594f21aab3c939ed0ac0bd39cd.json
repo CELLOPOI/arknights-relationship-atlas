@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 369,
+          "line": 351,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "quote": "[name=\"录武官\"]老师，您没事吧？\n[charslot(slot=\"l\",name=\"avg_npc_787_1#1$1\",focus=\"l\")]\n[name=\"仇白\"]打死我也不相信，这世上还有能伤到他的人。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#4$1\",focus=\"m\")]\n[name=\"重岳\"]你还真是信任我……\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]看来，你们都已经听说了。\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_791_1#1$1\",focus=\"l\")]\n[charslot(slot=\"l\",name=\"avg_npc_787_1#1$1\",focus=\"l\")]\n[name=\"仇白\"]城外领兵暂且不论。城内的治安布防，本来就是你的职责范围。左宣辽这样安排，摆明了不信你。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]左将军的意思，我当然明白，也能体谅。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]所以这几天，有些事还得拜托你替我走动。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]这次事态非常，敌人也格外棘手，左乐那边，你最好能多帮帮他。"
+        }
+      ],
+      "description": "仇白具体评价左宣辽对重岳的安排，反向未见。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E65"
+          ],
+          "from": "char_4082_qiubai",
+          "reason": "仇白具体评价左宣辽对重岳的安排，反向未见。",
+          "status": "supported",
+          "to": "npc_8ce7f1257163071b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8ce7f1257163071b",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4082_qiubai"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 369,
+          "kind": "story",
+          "line": 351,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_4082_qiubai|npc_8ce7f1257163071b"
+}

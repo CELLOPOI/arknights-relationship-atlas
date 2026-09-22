@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 536,
+          "line": 524,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "quote": "[name=\"阿米娅\"]  你是说米莎。\n[Character(name=\"char_002_amiya_1\", name2=\"avg_npc_046#4\", focus=2)]\n[name=\"W\"]  不，是亚历克斯。碎骨。嗯。\n[name=\"W\"]  是他父亲在死前和他这么说的。他的父亲并不傻。整合运动要做什么，他大概也知道了。\n[name=\"W\"]  但他没有能力阻止什么，就像他既没有阻止乌萨斯屠杀他的同事，也没能阻止自己的儿女双双死去。哈。\n[name=\"W\"]  只是那时我们都没能理解，至少我到刚刚才理解……在这之前，科西切这个老骗子骗了我们所有人。\n[name=\"W\"]  我，爱国者老爷子，霜星，浮士德，梅菲斯特，碎骨，弑君者，全都被骗了。\n[name=\"W\"]  米莎原本是不用死的。我一开始为了让切城动不起来，就那么害了她，后来又因为停不下切城，后悔杀了她。\n[name=\"W\"]  就那个时候，我已经觉得我的白痴会毁掉所有人，幸亏那龙女还算有点良知。\n[name=\"W\"]  这是我的错。对了，我可不会乞求原谅什么的。当时我可一点没觉得自己做错了什么事。如果每个人都按常理办事，这片大地早死了。\n[Character(name=\"char_002_amiya_1\", name2=\"avg_npc_046#4\", focus=1)]\n[name=\"阿米娅\"]  但是米莎已经死去了。我们永远没法弥补这个错误。\n[name=\"阿米娅\"]  W，以后这一切都不会再发生。我不会允许你再这样做。"
+        }
+      ],
+      "description": "W逐一列举被骗的具体人物，阿米娅同场听到并回应；死者不在现场，只有单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E53"
+          ],
+          "from": "char_113_cqbw",
+          "reason": "W逐一列举被骗的具体人物，阿米娅同场听到并回应；死者不在现场，只有单向知晓。",
+          "status": "supported",
+          "to": "npc_cff4ec0fb14b9ffb"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_cff4ec0fb14b9ffb",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_113_cqbw"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 536,
+          "kind": "story",
+          "line": 524,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    }
+  ],
+  "relationship_id": "char_113_cqbw|npc_cff4ec0fb14b9ffb"
+}

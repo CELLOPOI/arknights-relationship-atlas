@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 421,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "quote": "[Decision(options=\"Sharp。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]这也是工作的一部分？\n[Dialog]\n[Character(name=\"avg_npc_252\",focus=-1)]\n[Decision(options=\"是的。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]说得这么轻松，你真的有把握吗？\n[Character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]不知道，但我应该能拖住她十几分钟吧。\n[Character(name=\"avg_npc_253_1#2$1\")]\n[name=\"菈塔托丝\"]……你也是个怪物。\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]……所以，罗德岛的博士，你就这么笃定我会帮你？\n[Dialog]\n[Character(name=\"avg_npc_253_1#7$1\",focus=-1)]\n[Decision(options=\"我不会强迫你。;这套计划中，没有你一定要参与的环节。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_253_1#6$1\")]\n[name=\"菈塔托丝\"]你这个人，有些地方和恩希欧迪斯倒是挺像的。\n[Character(name=\"avg_npc_253_1#9$1\")]\n[name=\"菈塔托丝\"]你把你的计划这么轻易地告诉了我，还和我说不会强迫我。\n[Predicate(references=\"2\")]\n[Character(name=\"avg_npc_253_1#9$1\")]\n[name=\"菈塔托丝\"]但我已经知道了每一个环节。\n[name=\"菈塔托丝\"]没有人会放这样的人离开。\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_253_1#9$1\")]\n[name=\"菈塔托丝\"]……\n[name=\"菈塔托丝\"]算了……\n[Character(name=\"avg_npc_262_1#7$1\")]\n[name=\"休露丝\"]我替你去。\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]休露丝，别闹了。\n[Character(name=\"avg_npc_262_1#2$1\")]\n[name=\"休露丝\"]你先照照镜子看看你现在的样子再说这话吧，菈塔托丝。\n[name=\"休露丝\"]疲惫，苍白，双眼无神。\n[Character(name=\"avg_npc_262_1#6$1\")]\n[name=\"休露丝\"]我怎么可能放心让你以这副样子去救我的丈夫？\n[Character(name=\"avg_npc_253_1#4$1\")]\n[name=\"菈塔托丝\"]……\n[Character(name=\"avg_npc_262_1#9$1\")]\n[name=\"休露丝\"]而且我不知道你在那间屋子里和恩希欧迪斯说了什么。\n[Character(name=\"avg_npc_262_1#8$1\")]\n[name=\"休露丝\"]但我可不想看着布朗陶家就这么被你交到恩希欧迪斯手上！\n[Character(name=\"avg_npc_253_1#6$1\")]\n[name=\"菈塔托丝\"]……\n[Character(name=\"avg_npc_262_1#9$1\")]\n[name=\"休露丝\"]瞪我干嘛，想吵架吗？\n[Character(name=\"avg_npc_253_1#10$1\")]\n[name=\"菈塔托丝\"]这一次，你倒是没错。\n[name=\"菈塔托丝\"]……\n[Character(name=\"avg_npc_253_1#1$1\")]\n[name=\"菈塔托丝\"]好吧，罗德岛的博士，休露丝会代表我协助你的计划。"
+        }
+      ],
+      "description": "Sharp在计划商议现场，休露丝随后当面加入表示承担任务。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E87"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp在计划商议现场，休露丝随后当面加入表示承担任务。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "E87"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "Sharp在计划商议现场，休露丝随后当面加入表示承担任务。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 421,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_508_aguard|npc_be787f1ec784bbc7"
+}

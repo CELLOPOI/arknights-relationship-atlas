@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 821,
+          "line": 811,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st02.txt",
+          "quote": "[name=\"医生\"]看他可怜，我免费治好了他的宠物，他竟然还想拜托我收留这小家伙。\n[Character(name=\"avg_lolxh_4067_1#10$1\")]\n[name=\"小黑\"]你没收留它。\n[Character(name=\"avg_npc_331_1#1$1\")]\n[name=\"医生\"]当然了，我是医生，又不是慈善家。\n[Character(name=\"char_105_emper\")]\n[name=\"大帝\"]难道不是因为你自己也没钱养。\n[Character(name=\"avg_npc_331_1#1$1\")]\n[name=\"医生\"]看，我说什么来着，最诚实的人也就是最残忍的人。\n[Character(name=\"avg_lolxh_4067_1#1$1\")]\n[name=\"小黑\"]......呃，是吧。"
+        }
+      ],
+      "description": "医生与大帝当面互相插话回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_4125_rdoc",
+          "reason": "医生与大帝当面互相插话回应。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "医生与大帝当面互相插话回应。",
+          "status": "supported",
+          "to": "char_4125_rdoc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_56004ab0da71157f.json",
+      "sources": [
+        {
+          "endLine": 821,
+          "kind": "story",
+          "line": 811,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示时段",
+      "title": "好久不见"
+    }
+  ],
+  "relationship_id": "char_4125_rdoc|npc_2b6410ed62fdecf2"
+}

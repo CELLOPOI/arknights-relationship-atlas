@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 79,
+          "line": 73,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_beg.txt",
+          "quote": "[name=\"乌有\"]  （我才反应过来，梁大人，说的是尚蜀知府！？）\n[Character(name=\"avgnew_455_nothing_1#6$1\",name2=\"avg_1021_kroos2_1#5$1\",focus=2)]\n[name=\"克洛丝\"]  （我已经习惯你才反应过来这件事了。这算是个什么概念？）\n[Character(name=\"avgnew_455_nothing_1#6$1\",name2=\"avg_1021_kroos2_1#5$1\",focus=1)]\n[name=\"乌有\"]  （哦，就是市长！）\n[Character(name=\"avgnew_455_nothing_1#6$1\",name2=\"avg_1021_kroos2_1#5$1\",focus=2)]\n[name=\"克洛丝\"]  （……可按大炎官职，不该比魏彦吾低多了吗？）"
+        }
+      ],
+      "description": "乌有在耳语中听克洛丝提及魏彦吾。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_455_nothin",
+          "reason": "乌有在耳语中听克洛丝提及魏彦吾。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_455_nothin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 79,
+          "kind": "story",
+          "line": 73,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_455_nothin|npc_08bc2cc38b820ef0"
+}

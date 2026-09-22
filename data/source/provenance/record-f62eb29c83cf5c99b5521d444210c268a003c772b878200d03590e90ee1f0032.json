@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 74,
+          "line": 29,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "quote": "[name=\"曼弗雷德\"]你们已经不剩下几个人了。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]放在以往的战场上，想要拖住我，维多利亚至少要出动两个以上的蒸汽骑士。\n[character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"]再看看你们——\n[character(name=\"avg_npc_404_1#9$1\")]\n[name=\"曼弗雷德\"]你们只是一群普通的士兵而已。\n[SoundVolume(channel=\"bgs\", volume=1, fadetime=2)]\n[character(name=\"avg_npc_229_1#7\")]\n[name=\"号角\"]——保持阵型！\n[name=\"号角\"]盾还有能量的，跟我站在一起！\n[name=\"号角\"]狙击手，保持火力输出，牵制敌人！\n[character(name=\"avg_npc_414_1#1$1\")]\n[name=\"罗本\"]是，号角！\n[character(name=\"avg_npc_229_1#7\")]\n[name=\"号角\"]我说过——他再强，也只是一个肉体凡躯的萨卡兹感染者而已，他的源石技艺会有极限！\n[character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"]想等法术消耗我的身体？\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"]你们根本活不到让我力竭的时候。\n[dialog]\n[character(name=\"avg_npc_408_1#1$2\")]\n[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_atk_circleatk_n\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[name=\"维多利亚士兵\"]呃！\n[dialog]\n[character(fadetime=1.5)]\n[playsound(key=\"$bodyfalldown2\")]\n[delay(time=2)] \n[character(name=\"avg_npc_229_1#7\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"号角\"]布莱克！\n[character(name=\"avg_npc_409_1#1$2\")]\n[playsound(key=\"$d_avg_clothmovement\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"维多利亚士兵\"]号角，接着我的剑——\n[character(name=\"avg_npc_229_1#1\")]\n[name=\"号角\"]——好。\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"]在倒下的时候，他们向你投去的目光中，竟然还带着希望。\n[character(name=\"avg_npc_404_1#3$1\")]\n[name=\"曼弗雷德\"]这样的光芒，我以为不会在伦蒂尼姆再见到了。"
+        }
+      ],
+      "description": "布莱克在号角小队阵中受曼弗雷德攻击倒下，号角点名呼叫，他递剑回应；将军正对该阵攻击。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E81"
+          ],
+          "from": "npc_9d5d29c1bb701a7f",
+          "reason": "布莱克在号角小队阵中受曼弗雷德攻击倒下，号角点名呼叫，他递剑回应；将军正对该阵攻击。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E81"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "布莱克在号角小队阵中受曼弗雷德攻击倒下，号角点名呼叫，他递剑回应；将军正对该阵攻击。",
+          "status": "supported",
+          "to": "npc_9d5d29c1bb701a7f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 74,
+          "kind": "story",
+          "line": 29,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_9d5d29c1bb701a7f"
+}

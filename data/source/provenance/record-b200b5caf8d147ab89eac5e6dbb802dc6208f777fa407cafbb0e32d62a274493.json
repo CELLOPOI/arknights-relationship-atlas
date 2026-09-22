@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 649,
+          "line": 647,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_02_beg.txt",
+          "quote": "[name=\"德克萨斯\"]趴下。\n[Character(name=\"avg_npc_689_1#3$1\",name2=\"avg_1028_texas2_1#4$1\",focus=1)]\n[name=\"卢比奥\"]噫，好！"
+        }
+      ],
+      "description": "德克萨斯叫卢比奥趴下并救援。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "char_102_texas",
+          "reason": "德克萨斯叫卢比奥趴下并救援。",
+          "status": "supported",
+          "to": "npc_c345198442adc2b7"
+        },
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "npc_c345198442adc2b7",
+          "reason": "德克萨斯叫卢比奥趴下并救援。",
+          "status": "supported",
+          "to": "char_102_texas"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 649,
+          "kind": "story",
+          "line": 647,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_102_texas|npc_c345198442adc2b7"
+}

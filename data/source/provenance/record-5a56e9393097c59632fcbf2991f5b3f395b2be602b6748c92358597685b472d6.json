@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 146,
+          "line": 105,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-03.txt",
+          "quote": "[name=\"赦罪师\"]没想到你回来得这么迟，大君。\n[character(name=\"avg_npc_410_1#9$1\")]\n[name=\"血魔大君\"]……呵。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]你似乎有一些……疲惫。\n[character(name=\"avg_npc_410_1#5$1\")]\n[name=\"血魔大君\"]赦罪师，你没告诉我，女妖也去了那里。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]啊……我还以为你会猜到。\n[character(name=\"avg_npc_410_1#6$1\")]\n[name=\"血魔大君\"]哼。\n[name=\"血魔大君\"]女妖有时候真比食腐者还难缠。那小家伙的天赋也有些惊人……\n[character(name=\"avg_npc_410_1#4$1\")]\n[name=\"血魔大君\"]不过，再有下次的话，我会把他的舌头装在水晶匣里，作为给他母亲的贺礼。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]摄政王殿下和食腐者之王不会喜欢你的这个计划，大君。\n[character(name=\"avg_npc_410_1#7$1\")]\n[name=\"血魔大君\"]那他们就不该知道。\n[character(name=\"avg_npc_410_1#1$1\")]\n[name=\"血魔大君\"]还有曼弗雷德……他竟敢在我头顶启动那些城墙上的小玩具。\n[name=\"血魔大君\"]我这一身尘土，一半都是因为他。或许我也应当给他一些教训。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]我理解你的恼怒，大君。\n[name=\"赦罪师\"]这样吧，作为对这次情报缺漏的小小补偿，我会向摄政王建议，将追捕“魔王”的任务交到你手上。\n[character(name=\"avg_npc_410_1#7$1\")]\n[name=\"血魔大君\"]呵，那家伙果然失败了。我早就跟特雷西斯说过，他就是个心慈手软的废物。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]没关系，这都在摄政王的计划之内。\n[name=\"赦罪师\"]就让那些人为逃过一劫而欢庆吧。想要摧毁一个人的希望与信念，最有效的方式正是令它实现。\n[character(name=\"avg_npc_410_1#8$1\")]\n[name=\"血魔大君\"]哈……城内的贵族们的确又在蠢蠢欲动。你说得对，就让他们再多做一些蠢事吧。\n[name=\"血魔大君\"]等宴会到了最高潮，戛然而止的笑语转变成惊叫，那样的气味……才最迷人。\n[character(name=\"avg_npc_410_1#6$1\")]\n[name=\"血魔大君\"]不过，说到贵族——\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]你还有什么想报告给摄政王的吗，大君？\n[dialog]\n[character(name=\"avg_npc_410_1#1$1\")]\n[delay(time=1)]\n[character(name=\"avg_npc_410_1#7$1\")]\n[name=\"血魔大君\"]不，什么都没有。\n[name=\"血魔大君\"]告诉特雷西斯……我等着下一次宴会开场。"
+        }
+      ],
+      "description": "大君返回与赦罪师首领当面对谈情报与行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E104"
+          ],
+          "from": "npc_2d30a11ec7e30f39",
+          "reason": "大君返回与赦罪师首领当面对谈情报与行动。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [
+            "E104"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "大君返回与赦罪师首领当面对谈情报与行动。",
+          "status": "supported",
+          "to": "npc_2d30a11ec7e30f39"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 146,
+          "kind": "story",
+          "line": 105,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_2d30a11ec7e30f39|npc_aa980d6791c26c93"
+}

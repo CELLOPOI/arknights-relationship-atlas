@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 447,
+          "line": 444,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_02_beg.txt",
+          "quote": "[name=\"莱昂图索\"]趴下！\n[Character(name=\"avg_npc_689_1#3$1\")]\n[characteraction(name=\"middle\", type=\"shake\", power=10, times=100, fadetime=0.3, block=false)]\n[name=\"卢比奥\"]噫——！"
+        }
+      ],
+      "description": "袭击时莱昂图索叫卢比奥躲开，卢比奥回答。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_427_vigil",
+          "reason": "袭击时莱昂图索叫卢比奥躲开，卢比奥回答。",
+          "status": "supported",
+          "to": "npc_c345198442adc2b7"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_c345198442adc2b7",
+          "reason": "袭击时莱昂图索叫卢比奥躲开，卢比奥回答。",
+          "status": "supported",
+          "to": "char_427_vigil"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 447,
+          "kind": "story",
+          "line": 444,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_427_vigil|npc_c345198442adc2b7"
+}

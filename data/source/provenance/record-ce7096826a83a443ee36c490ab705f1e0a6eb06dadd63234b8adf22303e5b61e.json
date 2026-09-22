@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 947,
+          "line": 935,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "quote": "[name=\"左乐\"] 难怪宁小姐始终按兵不动……原来是你先去说服了那位白天师。\n[Character(name=\"avg_npc_297_1#6$1\")]\n[name=\"左乐\"] ……可天师府何时能为此事做主了？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 自然不能。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 只是眼下，司岁台恐怕也不能妄下定夺。\n[Character(name=\"avg_npc_297_1#4$1\")]\n[name=\"左乐\"] 什么？\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 太傅已至尚蜀。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 司岁台秉烛人左乐，礼部左侍郎宁辞秋，肃政院副监察御史太合，尚蜀知府梁洵，以及我本人，都须在今夜子时之前，回到梁府。"
+        }
+      ],
+      "description": "惊蛰具体传达礼部侍郎宁辞秋须到場的指令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "char_306_leizi",
+          "reason": "惊蛰具体传达礼部侍郎宁辞秋须到場的指令。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_306_leizi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 947,
+          "kind": "story",
+          "line": 935,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_306_leizi|npc_906d6f310e0f648e"
+}

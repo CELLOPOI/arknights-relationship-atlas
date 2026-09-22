@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 164,
+          "line": 127,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "quote": "[charslot(slot = \"l\", name = \"avg_npc_891_1#1$1\",focus=\"l\")]\n[name=\"娜斯提\"]小心。我的计算不可能出错，所以，我们目前就踩在哥伦比亚……不，所有现代国家最伟大的考古发现正上方。\n[charslot(slot = \"r\", name = \"avg_npc_537_1#2$1\",focus=\"r\")]\n[name=\"克丽斯腾\"]那立刻穿一个洞，将导能电缆和我一起送到下面去，如何？\n[charslot(slot = \"l\", name = \"avg_npc_891_1#1$1\",focus=\"l\")]\n[name=\"娜斯提\"]马里亚姆不会高兴的。他一定更希望我们小心地探索和发掘。\n[charslot(slot = \"l\", name = \"avg_npc_891_1#8$1\",focus=\"l\")]\n[name=\"娜斯提\"]不过，谁让他一直待在北地不回来呢？负责干这活的是工程科。\n[name=\"娜斯提\"]在通知你之前，我的人已经开工了。\n[charslot(slot = \"r\", name = \"avg_npc_537_1#2$1\",focus=\"r\")]\n[name=\"克丽斯腾\"]很好。\n[name=\"克丽斯腾\"]介意我做第一个下去的人吗？\n[Dialog]\n[charslot(slot = \"l\", name = \"avg_npc_891_1#1$1\",focus=\"l\")]\n[PlaySound(key=\"$d_avg_originiumcastshort\", volume=0.6)]\n[delay(time=1)]\n[name=\"娜斯提\"]（萨卡兹语）“卫护”。\n[charslot(slot = \"r\", name = \"avg_npc_537_1#1$1\",focus=\"r\")]\n[name=\"克丽斯腾\"]嗯？你很少在工作场合使用咒术。\n[charslot(slot = \"l\", name = \"avg_npc_891_1#8$1\",focus=\"l\")]\n[name=\"娜斯提\"]首先我得确保面前的人不会被这些萨卡兹的小把戏吓垮。\n[name=\"娜斯提\"]总辖女士，我本该再念几句安全须知，但你也不会有心思听的。\n[name=\"娜斯提\"]军队和梅兰德的人马上就要找过来了。无论你希望找到什么——都必须抓紧了。\n[charslot(slot = \"r\", name = \"avg_npc_537_1#1$1\",focus=\"r\")]\n[name=\"克丽斯腾\"]我会的。\n[charslot(slot = \"r\", name = \"avg_npc_537_1#4$1\",focus=\"r\")]\n[name=\"克丽斯腾\"]在死亡的阴翳蒙上我的双眼之前……我会尽力去看我想看见的一切。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"38_g8_storage\",screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=0.5)]\n特蕾西娅看见了。\n时间又前进了些。她能感到这个地方在拒斥着她。\n她想起多年前，自己跟着凯尔希，第一次靠近罗德岛本舰的最深处。"
+        }
+      ],
+      "description": "特蕾西娅在远行中具体看见这一人物及其行为，支持她在这次观察时的单向知晓；不推断被观察者认识她，也不倒推往昔会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR04"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅在远行中具体看见这一人物及其行为，支持她在这次观察时的单向知晓；不推断被观察者认识她，也不倒推往昔会面。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 164,
+          "kind": "story",
+          "line": 127,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_spst_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本次远见所获知；不倒推观察内容发生时已有往来",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "npc_c0e49cc5a9477cf1|npc_ebd7747563277517"
+}

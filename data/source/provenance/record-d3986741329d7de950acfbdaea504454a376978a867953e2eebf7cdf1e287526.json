@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 188,
+          "line": 181,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_04_beg.txt",
+          "quote": "[name=\"老工匠\"]  怎么又是这个家伙？他不该老老实实呆在呼啸守卫的地盘吗？\n[Character(name=\"avg_npc_107\", name2=\"avg_npc_101\", focus=1)]\n[name=\"光头马丁\"]  他也跟着平步青云了。\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101\", focus=1)]\n[name=\"老骑士\"]  但是……扣分？以往的混战赛有“扣分”这个说法吗？\n[name=\"老骑士\"]  在比赛前才宣布新增赛制，这种事情他们也干得出来！？\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101#2\", focus=2)]\n[name=\"光头马丁\"]  看来我们还是低估了协会的肆意妄为……这可不是什么好兆头。"
+        }
+      ],
+      "description": "老工匠单向知晓赛事主持人大嘴莫布。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "npc_21902e0a93f3a7c6",
+          "reason": "老工匠从转播认出大嘴莫布，并评价“怎么又是这个家伙”。",
+          "status": "supported",
+          "to": "npc_157e6b20d3e8c379"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_157e6b20d3e8c379",
+          "reason": "大嘴莫布不知道酒吧里的老工匠正在观看和评价他。",
+          "status": "not_established",
+          "to": "npc_21902e0a93f3a7c6"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_89f9ae4a0acf0209.json",
+      "sources": [
+        {
+          "endLine": 188,
+          "kind": "story",
+          "line": 181,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "酒吧观看混战赛转播",
+      "title": "玛莉娅·临光"
+    }
+  ],
+  "relationship_id": "npc_157e6b20d3e8c379|npc_21902e0a93f3a7c6"
+}

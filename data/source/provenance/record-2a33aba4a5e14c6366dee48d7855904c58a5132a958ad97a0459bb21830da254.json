@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 308,
+          "line": 290,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "quote": "[name=\"魏斯\"]啊，您来得正好，博士。\n[dialog]\n[character(name=\"avg_198_blackd_1#1$1\",focus=-1)]\n[Decision(options=\"讯使？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_198_blackd_1#1$1\")]\n[name=\"魏斯\"]多日不见了，博士。这次竟把您也卷到我们当地的琐事中来，实在是过意不去。\n[character(name=\"avg_198_blackd_1#1$1\")]\n[name=\"魏斯\"]但还是得请您再坚持一下，只要等大典结束，希瓦艾什家一定为您正式接风洗尘。\n[character(name=\"avg_198_blackd_1#1$1\")]\n[name=\"魏斯\"]不过眼下有件事也许还需要您帮个忙。\n[dialog]\n[character(name=\"avg_198_blackd_1#1$1\",focus=-1)]\n[Decision(options=\"我来帮忙安抚这些群众的情绪？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_198_blackd_1#8$1\")]\n[name=\"魏斯\"]……\n[character(name=\"avg_198_blackd_1#8$1\")]\n[name=\"魏斯\"]博士真是慧眼如炬。"
+        }
+      ],
+      "description": "魏斯被博士称为讯使并相互对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_198_blackd",
+          "reason": "魏斯被博士称为讯使并相互对话。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "魏斯被博士称为讯使并相互对话。",
+          "status": "supported",
+          "to": "char_198_blackd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 308,
+          "kind": "story",
+          "line": 290,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_198_blackd|npc_b99957887950ebfd"
+}

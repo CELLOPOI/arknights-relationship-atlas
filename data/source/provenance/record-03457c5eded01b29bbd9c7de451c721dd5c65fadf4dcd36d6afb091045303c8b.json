@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 94,
+          "line": 63,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-03.txt",
+          "quote": "[name=\"赦罪师\"]摄政王殿下，你还是让“她”去了城墙边？\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯\"]你清楚“魔王”的威胁。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]确实。无论是曼弗雷德，还是大君，都未必能顺利抓住那股力量的继承人。\n[name=\"赦罪师\"]——要击败一个“魔王”，最稳妥的人选自然是另一个。\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯\"]你向我提出那个建议的时候，不正是有此打算？\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]我也记得，当我第一次提议将“她”带回来的时候，你差点杀死了我。\n[name=\"赦罪师\"]“令人作呕”——你这样说道。那样的怒火，我很难忘记。\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯\"]我的评价并未改变。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]但我们依然需要“她”，不是吗？\n[name=\"赦罪师\"]只有看到你们站在一起，将士们才会愿意相信，上一个混乱而黑暗的时代已经结束。\n[name=\"赦罪师\"]他们不会再质疑你发出的每一个指令的正当性。萨卡兹的心中，以后都不会再有两个不同的声音。\n[name=\"赦罪师\"]为此，我们也必须尽早将另一个“魔王”握在手里。\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯\"]那就去确保这一点。\n[name=\"特雷西斯\"]将士们必须将注意力集中在眼前的战争上。\n[name=\"特雷西斯\"]他们该明白，自己追随的是能率领他们走出困境的君王，而不仅仅只是一股不确定握在谁手中的力量。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]我知道，我知道。你向来瞧不上那顶黑色的冠冕。\n[name=\"赦罪师\"]为了让你满意，我对“魔王”的研究也从未停止。\n[name=\"赦罪师\"]多亏了“她”，我的确颇有进展。假使接下来我们也能得到那个卡特斯……或许要不了多久，我们就能真正理解“魔王”的力量。\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯\"]萨卡兹不该是任何人，任何力量的奴隶。\n[name=\"特雷西斯\"]如果“魔王”的冠冕也是枷锁——\n[name=\"特雷西斯\"]那么，打破它。\n[character(name=\"avg_npc_427_1#1$1\")]\n[name=\"赦罪师\"]你的理想也恰好是我的理想……我会的，摄政王。"
+        }
+      ],
+      "description": "赦罪师首领与特雷西斯当面对谈复生建议，并回忆对方此前欲杀自己。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E103"
+          ],
+          "from": "npc_2d30a11ec7e30f39",
+          "reason": "赦罪师首领与特雷西斯当面对谈复生建议，并回忆对方此前欲杀自己。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "E103"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "赦罪师首领与特雷西斯当面对谈复生建议，并回忆对方此前欲杀自己。",
+          "status": "supported",
+          "to": "npc_2d30a11ec7e30f39"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 94,
+          "kind": "story",
+          "line": 63,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_2d30a11ec7e30f39|npc_c573b8884914fc60"
+}

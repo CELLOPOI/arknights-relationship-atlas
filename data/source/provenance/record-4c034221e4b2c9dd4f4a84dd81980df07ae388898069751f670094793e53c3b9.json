@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 238,
+          "line": 226,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "quote": "[name=\"子月\"]不想死的话，就集中精神。\n[Character(name=\"avg_npc_690_1#5$1\")]\n[name=\"德米特里\"]你是——\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]阿涅塞的獠牙，弱小的獠牙。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]你以为你窥探了我的獠牙之死，就可以站在我的面前了吗？\n[Character(name=\"avg_4014_lunacu_1#7$2\")]\n[name=\"子月\"]我答应了贝纳尔多，我会帮助他的子嗣。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]阿涅塞培养出了一个软弱的獠牙。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]今天我就在这里，让她也退出这场游戏吧。"
+        }
+      ],
+      "description": "子月出手与扎罗当面交战对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_4014_lunacu",
+          "reason": "子月出手与扎罗当面交战对话。",
+          "status": "supported",
+          "to": "npc_9649533c7a060d36"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_9649533c7a060d36",
+          "reason": "子月出手与扎罗当面交战对话。",
+          "status": "supported",
+          "to": "char_4014_lunacu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 238,
+          "kind": "story",
+          "line": 226,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_4014_lunacu|npc_9649533c7a060d36"
+}

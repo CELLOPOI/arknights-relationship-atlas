@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 983,
+          "line": 912,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"菈塔托丝\"]……\n[name=\"菈塔托丝\"]啧。\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]阿克托斯。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]干什么？\n[Character(name=\"avg_npc_253_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"菈塔托丝\"]你是相信我，还是相信恩希欧迪斯？！\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]你们两个，我一个都不相信！\n[Character(name=\"avg_npc_253_1#8$1\")]\n[name=\"菈塔托丝\"]那你至少也该知道，眼下谁才是敌人！\n[name=\"菈塔托丝\"]布朗陶家的战士们，准备战斗！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\")]\n[Character(name=\"avg_npc_285_1#1$1\", name2=\"avg_npc_285_1#1$1\",fadetime=1.5)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_253_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"菈塔托丝\"]先救出休露丝，再把恩希欧迪斯给我拿下！\n[Character(name=\"avg_npc_285_1#1$1\", name2=\"avg_npc_285_1#1$1\")]\n[name=\"布朗陶家战士\"]是！\n[Character(name=\"avg_npc_254_1#8$1\")]\n[name=\"阿克托斯\"]……*谢拉格俚语*，佩尔罗契家的战士们，列阵！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\")]\n[Character(name=\"avg_npc_286_1#1$1\", name2=\"avg_npc_286_1#1$1\",fadetime=1.5)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_254_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"阿克托斯\"]把恩希欧迪斯这个逆贼拿下！让民众们知道，他才是那个叛徒！\n[Character(name=\"avg_npc_260_1#6$1\")]\n[name=\"古罗\"]是！\n[Character(name=\"avg_npc_286_1#1$1\", name2=\"avg_npc_286_1#1$1\")]\n[name=\"佩尔罗契家战士\"]是！\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]锏。\n[name=\"恩希欧迪斯\"]把诺希斯押下去。\n[Character(name=\"avg_npc_257_1#2$1\")]\n[name=\"锏\"]不用我？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]不用。\n[Character(name=\"avg_npc_257_1#1$1\")]\n[name=\"锏\"]行吧。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]角峰。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_199_yak_1#6$1\",fadetime=1.5)]\n[Delay(time=1.5)]\n[name=\"角峰\"]在。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]照看住大长老和圣女大人。\n[Character(name=\"avg_199_yak_1#6$1\")]\n[name=\"角峰\"]是。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]魏斯。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_198_blackd_1#9$1\",fadetime=1.5)]\n[Delay(time=1.5)]\n[name=\"魏斯\"]在。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]把阿克托斯与菈塔托丝拿下。\n[name=\"恩希欧迪斯\"]尽量不要出人命，现在还不是时候。\n[Character(name=\"avg_198_blackd_1#9$1\")]\n[name=\"魏斯\"]是。"
+        }
+      ],
+      "description": "广场双方列阵，古罗回应阿克托斯，菈塔托丝呼救休露丝，银灰锏讯使回应并部署冲突。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E65"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "广场双方列阵，古罗回应阿克托斯，菈塔托丝呼救休露丝，银灰锏讯使回应并部署冲突。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "E65"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "广场双方列阵，古罗回应阿克托斯，菈塔托丝呼救休露丝，银灰锏讯使回应并部署冲突。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 983,
+          "kind": "story",
+          "line": 912,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 44,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_04_end.txt",
+          "quote": "[name=\"阿克托斯\"]古罗，头上纱布还没揭，怎么就回来了？\n[charslot(slot=\"l\",name=\"avg_npc_254_1#7$1\",focus=\"l\")]\n[name=\"阿克托斯\"]总是这么鲁莽，说了多少遍了，行动之前要三思！你现在就给我回去医院好好躺着。\n[charslot(slot=\"r\",name=\"avg_npc_260_1#1$1\",focus=\"r\")]\n[name=\"古罗\"]老爷……我是听说您要应布朗陶家的约去和菈塔托丝谈判。\n[name=\"古罗\"]老爷，您千万不能去……\n[charslot(slot=\"l\",name=\"avg_npc_254_1#7$1\",focus=\"l\")]\n[name=\"阿克托斯\"]怎么，我还怕她不成？\n[name=\"阿克托斯\"]菈塔托丝那个毒女人说要跟我挑明真相，我倒要看看她嘴巴里能吐出什么货色。\n[charslot(slot=\"r\",name=\"avg_npc_260_1#1$1\",focus=\"r\")]\n[name=\"古罗\"]可是老爷……布朗陶把约见的地方选在了自家领地，明摆着就是有阴谋。\n[charslot(slot=\"l\",name=\"avg_npc_254_1#7$1\",focus=\"l\")]\n[name=\"阿克托斯\"]哼，你以为我什么都不知道吗？\n[name=\"阿克托斯\"]就算她真敢动手，我佩尔罗契家何时忌惮过任何一场战斗？\n[name=\"阿克托斯\"]就算是她的地盘，我佩尔罗契家就无计可施？\n[name=\"阿克托斯\"]倒是你小子，不来倒好，来了，我看到你的那个头就来气。\n[charslot(slot=\"r\",name=\"avg_npc_260_1#6$1\",focus=\"r\")]\n[name=\"古罗\"]老爷生气我也得劝老爷！我就坐在门口，不走了。\n[charslot(slot=\"l\",name=\"avg_npc_254_1#7$1\",focus=\"l\")]\n[name=\"阿克托斯\"]跟你有什么关系？\n[charslot(slot=\"r\",name=\"avg_npc_260_1#6$1\",focus=\"r\")]\n[name=\"古罗\"]属下没本事，自己伤成这副模样，没办法保护老爷，只能让老爷别去冒险。\n[charslot(slot=\"l\",name=\"avg_npc_254_1#2$1\",focus=\"l\")]\n[name=\"阿克托斯\"]哎……！我说的生气不是生你的气，是布朗陶那帮杂碎。\n[charslot(slot=\"l\",name=\"avg_npc_254_1#7$1\",focus=\"l\")]\n[name=\"阿克托斯\"]放心，古罗，我这就帮你去找他们算账。我会让他们知道，没人能欺负到佩尔罗契家头上！\n[name=\"阿克托斯\"]古罗，是我佩尔罗契家的兄弟，你就让开。\n[charslot(slot=\"r\",name=\"avg_npc_260_1#1$1\",focus=\"r\")]\n[name=\"古罗\"]老爷……\n[charslot(slot=\"l\",name=\"avg_npc_254_1#1$1\",focus=\"l\")]\n[name=\"阿克托斯\"]来人，送古罗将军回房间。"
+        }
+      ],
+      "description": "古罗明确获知菈塔托丝的行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N12"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "古罗明确知道菈塔托丝的约见与地点安排。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "菈塔托丝未在场。",
+          "status": "not_established",
+          "to": "npc_7144babb98dd293d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 44,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "赴约前夕",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 773,
+          "line": 740,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "quote": "[name=\"恩雅\"]诸位，请上前来。\n[name=\"恩雅\"]在耶拉冈德的见证下，仪式即将开始。\n[name=\"恩雅\"]让我们一同祈祷——\n[Dialog]\n[playsound(key=\"$d_avg_crwddiscuss_outside\",channel=\"1\",loop=true)]\n[Delay(time=2.5)]\n[stopsound(fadetime=1,channel=\"1\")]\n[Delay(time=1.5)]\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_250_1#2$1\",focus=\"m\")]\n[name=\"雅儿\"]……看来是急性子的客人们等不及了呢。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#8$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]什么人在喧哗？\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]（啧，真能添乱！）\n[name=\"菈塔托丝\"]尤卡坦！你老婆怎么还没过来？！\n[charslot(slot=\"m\",name=\"avg_npc_263_1#3$1\",focus=\"m\")]\n[name=\"尤卡坦\"]我刚刚才联系过露丝，她说很快就来……！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]来什么来！\n[charslot(slot=\"m\",name=\"avg_npc_253_1#8$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]现在立刻联系她，让她有多远走多远，别过来了！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#8$1\",focus=\"m\")]\n[name=\"阿克托斯\"]发生什么事了？！吵吵嚷嚷，像什么样子！\n[charslot(slot=\"m\",name=\"avg_npc_260_1#1$1\",focus=\"m\")]\n[name=\"古罗\"]老爷！那群维多利亚人和往常不太一样！\n[name=\"古罗\"]我看他们像是带着什么大型武器，好像是来真的！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#7$1\",focus=\"m\")]\n[name=\"阿克托斯\"]我就知道那群人不会老实！\n[name=\"阿克托斯\"]来得好！我早就吩咐佩尔罗契家的儿郎准备好家伙预备着了，让我去会会他们！\n[charslot(slot=\"m\",name=\"avg_174_slbell_1#9$1\",focus=\"m\")]\n[name=\"恩雅\"]阿克托斯大人！不要妄动！\n[charslot(slot=\"m\",name=\"avg_npc_254_1#5$1\",focus=\"m\")]\n[name=\"阿克托斯\"]可是……圣女大人！"
+        }
+      ],
+      "description": "古罗与菈塔托丝明确局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "双方在银心湖仪式突发冲突的同一局部现场共同响应。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "双方在银心湖仪式突发冲突的同一局部现场共同响应。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 773,
+          "kind": "story",
+          "line": 740,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "银心湖仪式冲突",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "npc_7144babb98dd293d|npc_a43cec0eaa3f04c8"
+}

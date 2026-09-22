@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 925,
+          "line": 915,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_08_beg.txt",
+          "quote": "[charslot(slot = \"m\", name = \"avg_npc_2036_1#3$1\")]\n[name=\"拂哀菈\"]这棵栖脚树，它向我分享了你的回忆，你去了哪，做了什么……\n[name=\"拂哀菈\"]它一定还能向我分享更多……更重要的事。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[charslot]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]\n[Background(image=\"44_g4_towerroom\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[name=\"拂哀菈\"]我看到你不眠不休地埋头在巫妖的大图书馆里寻找答案……把眼睛都看坏了，但弗莱蒙特那个暴脾气最后还是把你赶了出去。\n[name=\"拂哀菈\"]我该让他知道的，你从来不是愚痴的孩子，只是因为我……"
+        }
+      ],
+      "description": "娜斯提与弗莱蒙特在巫妖大图书馆时期曾直接发生冲突。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4212_nasti",
+          "reason": "拂哀菈复述的娜斯提本人回忆表明，娜斯提曾在巫妖大图书馆与弗莱蒙特发生冲突。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "“弗莱蒙特把你赶了出去”明确记述弗莱蒙特曾亲自驱逐娜斯提，构成既往直接互动。",
+          "status": "supported",
+          "to": "char_4212_nasti"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 925,
+          "kind": "story",
+          "line": 915,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "娜斯提在巫妖大图书馆求学时期",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "char_4212_nasti|npc_732d802fa042a0c2"
+}

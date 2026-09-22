@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 171,
+          "line": 42,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_05_beg.txt",
+          "quote": "[name=\"吉阿达\"]人到齐了？那就开始吧。\n[name=\"吉阿达\"]先和你们交代一下基本的情况。这里是拉特兰的第一座安魂殡仪堂，现在还没有正式开放。\n[name=\"吉阿达\"]虽然和安魂教堂的名字相似，但实际上二者的工作有所不同……\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]\n[name=\"裘里奥\"]工作重点不一样哦。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#9$1\",focus=\"m\")]\n[name=\"吉阿达\"]不要插嘴，裘里奥。讲解这部分是我的工作。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#12$1\",focus=\"m\")]\n[name=\"裘里奥\"]抱歉……\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]虽然和孩子们说这些有点……不过，是你们自己选择了来这里进行实习，我不会照顾你们的心情。\n[name=\"吉阿达\"]要以此为工作志愿，接下来的内容就是你们应当了解的。\n[name=\"吉阿达\"]你们知道土葬和火葬的区别吗？\n[charslot(slot=\"m\",name=\"avg_4218_aigis_1#11$3\",focus=\"m\")]\n[name=\"埃癸斯\"]葬于土中，葬于火中，是对死者遗体的不同处置方式……除此以外的区别是？\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]从殡仪从业者的角度讲，这两者区别很大。成本、耗时、流程的复杂程度、对公共设施的要求……都不能同日而语。\n[name=\"吉阿达\"]拉特兰传统的丧葬方式是以安魂教堂系统进行的土葬为主，其他丧葬方式作为补充。\n[name=\"吉阿达\"]在拉特兰城原本的固定航线停驻点，设有各区安魂教堂来处理包括葬礼和墓地管理在内的事务……目前，这个系统也在继续运行。\n[name=\"吉阿达\"]而这座殡仪堂……将会是拉特兰在移动城市之内规模化推广火葬的开始。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#11$1\",focus=\"m\")]\n[name=\"吉阿达\"]……\n[charslot(slot=\"m\",name=\"avg_npc_2388_1#13$4\",focus=\"m\")]\n[name=\"天田乾\"]……在移动城市内进行火葬……那，要怎么扫墓呢……？\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]殡仪堂中会有安放遗骨的场所以供追思，纪念逝者的活动可以在殡仪堂中进行。\n[charslot(slot=\"m\",name=\"avg_4219_yukari_1#2$4\",focus=\"m\")]\n[name=\"岳羽由加莉\"]……也就是说，殡仪堂相当于是选择了火葬的那些人的墓地……\n[charslot(slot=\"m\",name=\"avg_4219_yukari_1#8$4\",focus=\"m\")]\n[name=\"岳羽由加莉\"]吉阿达小姐刚才好像有提到，拉特兰的传统方式是土葬吧。第一座安魂殡仪堂……那个，冒昧问一下，为什么会想要新建这样的设施呢？\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]……简单来说，根本的原则是：在拉特兰的规则之内，拉特兰人有充分的选择权，而拉特兰城会保障每一位拉特兰公民的权益。\n[name=\"吉阿达\"]火葬与土葬一样，是一种合理的选项。殡仪堂之所以建立，是为了让选择这个选项的人能获得更方便的公共服务。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#11$1\",focus=\"m\")]\n[name=\"吉阿达\"]不过，近来无遗嘱逝者的增加给安魂教堂系统造成了很大压力应该也是一个因素……\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]但无论是怎样的丧葬方式，都要给死者以尊严，给生者以慰藉，这一点是不会变的。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#11$1\",focus=\"m\")]\n[name=\"裘里奥\"]吉阿达小姐，我能说话了吗？\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]不能。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#12$1\",focus=\"m\")]\n[name=\"裘里奥\"]就一句行吗？\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#2$1\",focus=\"m\")]\n[name=\"吉阿达\"]……你说吧。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#3$1\",focus=\"m\")]\n[name=\"裘里奥\"]其实不用担心，像哥伦比亚的火葬业就已经很成熟了，不会不方便祭拜——不如说是非常方便！我回来的行李里就带着爸爸的骨灰盒。\n[charslot]\n[name=\"众人\"]……\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#6$1\",focus=\"m\")]\n[name=\"吉阿达\"]……你从没提过这件事。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]\n[name=\"裘里奥\"]我一直没拆完行李嘛。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#12$1\",focus=\"m\")]\n[name=\"吉阿达\"]——这算原因？算了……你的私事之后再说。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]关于殡仪堂，刚才介绍的内容里，大家有什么疑问吗？\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#7$3\",focus=\"m\")]\n[name=\"山岸风花\"]……吉阿达小姐刚才说，殡仪堂还没有正式开放，那我们现在要做什么工作呢？\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]你们只需要跟着我——还有裘里奥先生，熟悉一些流程，做些协助工作就好。毕竟只是实习，不会给你们安排要独自完成的工作的。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#11$1\",focus=\"m\")]\n[name=\"吉阿达\"]至于殡仪堂正式开放……则是在举办完第一场葬礼之后。\n[name=\"吉阿达\"]也就是你们接下来要参与的工作项目，维韦塔女士的葬礼。\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[playMusic(intro=\"$m_sys_act16side_intro\",key=\"$m_sys_act16side_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]\n[multiline(name=\"裘里奥\")]好了，吉阿达带你们看过殡仪堂各类设施的位置，也介绍过准备室的功能了，现在该轮到我了。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#3$1\",focus=\"m\")]\n[multiline(name=\"裘里奥\")]孩子们，准备好了吗！\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#9$1\",focus=\"m\")]\n[name=\"吉阿达\"]又在主持派对了？\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_370_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[name=\"殡仪堂员工\"]吉阿达，司务叫你过去一趟，有新来的案子。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]\n[name=\"裘里奥\"]放心去吧吉阿达，剩下的我来介绍就可以！\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#12$1\",focus=\"m\")]\n[multiline(name=\"吉阿达\")]很难放心……\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[multiline(name=\"吉阿达\")]没事，我很快就回来。\n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(duration=1)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#1$1\",focus=\"m\")]\n[name=\"裘里奥\"]其实余下的部分也不多了，主要是今天的工作内容……\n[name=\"裘里奥\"]今天我们要过一遍葬礼流程的设计案，确定当天的仪式环节，把还没确定的供应商需求定下来，提交给殡仪堂相关的部门。\n[name=\"裘里奥\"]在拉特兰真是方便多了，殡仪堂的分发效率很高，明明是刚设立的新部门……\n[charslot(slot=\"m\",name=\"avg_4218_aigis_1#11$3\",focus=\"m\")]\n[name=\"埃癸斯\"]我有疑问。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]\n[name=\"裘里奥\"]请讲！\n[charslot(slot=\"m\",name=\"avg_4218_aigis_1#11$3\",focus=\"m\")]\n[name=\"埃癸斯\"]吉阿达小姐是殡仪堂的葬礼经纪，我已经了解了。裘里奥先生也是吗？你和她很不一样。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#11$1\",focus=\"m\")]\n[name=\"裘里奥\"]咦，这么明显？我确实不是葬礼经纪，之前和理说过，好像还没和你们大家讲。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#1$1\",focus=\"m\")]\n[name=\"裘里奥\"]我的本职是派对设计师，现在是出于特殊原因暂时在这里工作，和吉阿达一起策划这场葬礼……\n[name=\"裘里奥\"]唔，她应该不愿意我这么说。严格来说，我是根据死者——也就是我姨妈——遗嘱中的要求，要在她的葬礼上办一场派对。\n[name=\"裘里奥\"]即使吉阿达不愿意承认，实际操作上，这场“葬礼”和“派对”的很多部分都是重合的。\n[name=\"裘里奥\"]场地选择、流程设计、设施和物料筹备、规划和邀请宾客、餐饮和音乐的安排……\n[name=\"裘里奥\"]我要办的这场派对，和吉阿达负责的这场葬礼，在物理层面上就是同一件事啦。\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#9$5\",focus=\"m\")]\n[name=\"结城理\"]这么说……好像也能理解。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]\n[multiline(name=\"裘里奥\")]对吧对吧，吉阿达老是要把这两件事划清界限，\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#2$1\",focus=\"m\")]\n[multiline(name=\"裘里奥\")]唉……\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#2$1\",focus=\"m\")]\n[name=\"裘里奥\"]吉阿达对这场葬礼很紧张……其实我知道的啦，又是她负责的第一场葬礼，又是殡仪堂的第一场葬礼什么的……\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#12$3\",focus=\"m\")]\n[name=\"山岸风花\"]裘里奥先生很体谅吉阿达小姐的心情呢，为什么平时要那样争执呢……要是两边都能解释清楚，是不是就可以好好相处……\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#1$1\",focus=\"m\")]\n[name=\"裘里奥\"]你们真的很担心我和吉阿达呢。\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#2$1\",focus=\"m\")]\n[name=\"裘里奥\"]我想，吉阿达之所以那么紧张，是因为她知道这场葬礼可能意味着什么——\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#11$1\",focus=\"m\")]\n[name=\"裘里奥\"]新的丧葬方式、黎博利葬礼经纪，乃至这座殡仪堂能不能为拉特兰人所接受。\n[name=\"裘里奥\"]但正因为是这样……我不明白，难道不更应该尊重拉特兰的传统做法吗？越是翻天覆地的变化，大家才越是难以接受啊。\n[name=\"裘里奥\"]葬礼就应该沉默肃穆吗？可葬礼也是许多人相聚的时候，为什么不能是一个共同享受当下的机会？"
+        }
+      ],
+      "description": "埃癸斯直接询问裘里奥的职业，裘里奥向她详细解释。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "char_4218_aigis",
+          "reason": "埃癸斯直接询问裘里奥的职业，裘里奥向她详细解释。",
+          "status": "supported",
+          "to": "npc_9c740ff67eedab47"
+        },
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "npc_9c740ff67eedab47",
+          "reason": "埃癸斯直接询问裘里奥的职业，裘里奥向她详细解释。",
+          "status": "supported",
+          "to": "char_4218_aigis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2be69585e5326764.json",
+      "sources": [
+        {
+          "endLine": 171,
+          "kind": "story",
+          "line": 42,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇联动叙事所示时段",
+      "title": "月行水上"
+    }
+  ],
+  "relationship_id": "char_4218_aigis|npc_9c740ff67eedab47"
+}

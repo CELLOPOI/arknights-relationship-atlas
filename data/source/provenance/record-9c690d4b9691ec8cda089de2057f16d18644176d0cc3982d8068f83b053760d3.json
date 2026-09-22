@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 143,
+          "line": 111,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-10_beg.txt",
+          "quote": "[Background(image=\"bg_rhodesengineeringroom\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#11$1\")]\n[name=\"可露希尔\"]弗里斯顿先生，我现在没有时间和你争论！\n[name=\"可露希尔\"]我可以非常明确地向你保证，我绝对绝对没有给你上传任何能让你做梦的固件。\n[name=\"可露希尔\"]PRTS的异常越来越严重，备用指挥系统上线也还需要时间。\n[name=\"可露希尔\"]……还得手动分配工作项，我现在眼睛已经快盯不过来了！而且某些区域已经完全失去了联系，情况完全不明——\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]放轻松，可露希尔。\n[name=\"Friston-3\"]我并不是想要和你争论，只不过是在尝试排除引发我身体出现罕见故障的原因。\n[name=\"Friston-3\"]我们既然已经排除了固件报错和硬件故障的可能性，那——\n[name=\"Friston-3\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#8$1\")]\n[name=\"可露希尔\"]怎么了？\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]可露希尔，回答我一个很重要的问题……\n[name=\"Friston-3\"]驱动我核心运转的能源是什么？\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#8$1\")]\n[name=\"可露希尔\"]欸，当然是源石。\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]你们的改型作业平台几乎都是源石驱动？\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#11$1\")]\n[name=\"可露希尔\"]……弗里斯顿先生，你的语气很可怕。你想说什么？\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]可露希尔，你是一个天才。\n[charslot(slot=\"m\",name=\"avg_npc_1723_1#11$1\")]\n[name=\"可露希尔\"]啊？\n[charslot(slot=\"m\",name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]你能想到提前切断所有改型作业平台与PRTS的连接，但恐怕这远远不够。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=0.7)]\n[CameraShake(duration=1.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=true)]"
+        }
+      ],
+      "description": "Friston-3直接分析并覆写PRTS相关控制。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D11"
+          ],
+          "from": "char_4093_frston",
+          "reason": "Friston-3直接分析并覆写PRTS相关控制。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [
+            "D11"
+          ],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "Friston-3直接分析并覆写PRTS相关控制。",
+          "status": "supported",
+          "to": "char_4093_frston"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 143,
+          "kind": "story",
+          "line": 111,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4093_frston|npc_c8a2caad4366c8fa"
+}

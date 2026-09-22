@@ -1,0 +1,50 @@
+{
+  "contributions": [
+    {
+      "assignmentId": "review-04",
+      "description": "片中阿米娅向博士说明抵达龙门，博士选项回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "char_002_amiya",
+          "reason": "片中阿米娅向博士说明抵达龙门，博士选项回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "片中阿米娅向博士说明抵达龙门，博士选项回应。",
+          "status": "supported",
+          "to": "char_002_amiya"
+        }
+      ],
+      "groupId": "group_f0cd623c8eb0c2e9",
+      "key": "char_002_amiya|npc_b99957887950ebfd",
+      "label": "确认相识",
+      "personIds": [
+        "char_002_amiya",
+        "npc_b99957887950ebfd"
+      ],
+      "realityScope": "fictional_film",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+      "temporalScope": "洪炉示岁所述时段",
+      "title": "洪炉示岁"
+    }
+  ],
+  "groupId": "group_f0cd623c8eb0c2e9",
+  "key": "char_002_amiya|npc_b99957887950ebfd",
+  "names": [
+    "阿米娅",
+    "博士"
+  ],
+  "personIds": [
+    "char_002_amiya",
+    "npc_b99957887950ebfd"
+  ],
+  "realityScope": "fictional_film"
+}

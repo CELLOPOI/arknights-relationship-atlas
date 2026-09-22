@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 909,
+          "line": 885,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_06_beg.txt",
+          "quote": "[name=\"锏\"]不过，我还没见过你慷慨激昂的样子。\n[Character(name=\"avg_npc_257_1#8$1\")]\n[name=\"锏\"]演得不错。\n[dialog]\n[delay(time=1.5)]\n[Character(name=\"avg_npc_257_1#7$1\",fadetime=1)]\n[name=\"锏\"]虽然你没有在演戏。\n[Dialog]\n[Character(fadetime=1)]\n[playsound(key=\"$d_gen_walk_n\")]\n[Delay(time=1.5)]\n[Character(name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]……\n[Character(name=\"avg_198_blackd_1#6$1\")]\n[name=\"魏斯\"]诺希斯，接下来……\n[Character(name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]……莫希在哪里？\n[Character(name=\"avg_198_blackd_1#6$1\")]\n[name=\"魏斯\"]……莫希被软禁在别的房间，我可以带路。\n[Character(name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]她知道了吗？\n[Character(name=\"avg_198_blackd_1#6$1\")]\n[name=\"魏斯\"]老爷说，最好由你亲自告诉她。\n[Character(name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]……带路吧。"
+        }
+      ],
+      "description": "人工复核：确认相识。采用已保存的人工判断；下方为复核时提供的原文上下文。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "char_4116_blkkgt",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_5b6d9a80bb2c7211",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "manualCaseId": "review_3e384dd7cad18f09",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 909,
+          "kind": "story",
+          "line": 885,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "kind": "manual",
+          "source": "ArknightsNpcCatalog/关系审读/人工复核/用户意见/复核意见.json#review_3e384dd7cad18f09",
+          "version": "revision:1; 2026-09-20T04:14:22.942Z"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_4116_blkkgt|npc_5b6d9a80bb2c7211"
+}

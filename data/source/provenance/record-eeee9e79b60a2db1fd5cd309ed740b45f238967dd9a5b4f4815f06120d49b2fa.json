@@ -1,0 +1,106 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 622,
+          "line": 549,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st04.txt",
+          "quote": "[name=\"云青萍\"]……\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"none\")]\n[name=\"？？？\"]是你破开了棋局吗？\n[Dialog]\n[charslot]\n[stopmusic(fadetime=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",duration=1.5)]\n[Delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"m\")]\n[name=\"云青萍\"]请问您是？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"？？？\"]应付琐事的半身，当是个苦力伥就好。\n[name=\"？？？\"]你是大……重岳身边负责记录的人类吧。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"m\")]\n[name=\"云青萍\"]想必您也是岁兽代理人中的一位了。\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"？？？\"]抱歉以这种方式把你请来，上山吧，有客人在山顶等你。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"m\")]\n[name=\"云青萍\"]所以“请”我来的……？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"？？？\"]正是。本来是为了一些别的事情……但没想到你这一遭，还顺便把这局棋给破了。\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=45, randomness=90, fadeout=true, block=false)]\n[name=\"？？？\"]（大声）又让你算准了，开心吗，臭棋篓子！\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#7$1\",focus=\"m\")]\n[name=\"云青萍\"]破这棋局纯属巧合，怎会是他人的筹谋？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"？？？\"]当初二哥在这里留下棋局的时候，就说将来只有真正有慧根的人类才能破局。\n[name=\"？？？\"]现在想想，他特地将棋局布在此处——兄弟姐妹里最接近“人身”的，也就大哥他一个，引他教出的徒弟过来……这一手也算不得奇手。\n[name=\"？？？\"]我们上山吧。\n[name=\"？？？\"]走的时候记得把棋盘带上，棋已下完，现在它是你的了。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#10$1\",focus=\"m\")]\n[name=\"云青萍\"]是……\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"63_mini04_mountaintop\",screenadapt=\"coverall\")]\n[Delay(time=2)]\n[playMusic(key=\"$calm_loop\", volume=0.6)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"l\",name=\"avg_npc_1870_1#1$1\",duration=2)]\n[charslot(slot=\"r\",name=\"avg_4196_reckpr_1#1$1\",duration=2)]\n[Delay(time=2.5)]\n[charslot(slot=\"r\",name=\"avg_4196_reckpr_1#1$1\",focus=\"r\")]\n[name=\"云青萍\"]不知您如何称呼。\n[charslot(slot=\"l\",name=\"avg_npc_1870_1#1$1\",focus=\"l\")]\n[name=\"梁\"]单字一个梁，横梁的梁。\n[charslot(slot=\"r\",name=\"avg_4196_reckpr_1#1$1\",focus=\"r\")]\n[name=\"云青萍\"]梁先生，方才您说只有老师的学生才能破此局。可这棋局在我之前就有人在下了。\n[charslot(slot=\"l\",name=\"avg_npc_1870_1#1$1\",focus=\"l\")]\n[name=\"梁\"]你是说那个兰可？\n[name=\"梁\"]当初那位确实有允诺，留了他在此处下棋。\n[charslot(slot=\"r\",name=\"avg_4196_reckpr_1#5$1\",focus=\"r\")]\n[name=\"云青萍\"]这局棋分明是越执着于劫，就越没破局的可能。明知棋手会执着于此但仍让他入了局……\n[name=\"云青萍\"]该说这布局的人想要的就是游戏人间，还是说……\n[charslot(slot=\"r\",name=\"avg_4196_reckpr_1#1$1\",focus=\"r\")]\n[name=\"云青萍\"]布棋如见人，他的内心，也如这棋局般执拗？\n[charslot(slot=\"l\",name=\"avg_npc_1870_1#1$1\",focus=\"l\")]\n[name=\"梁\"]啊，这是个好观点，好，很好。\n[name=\"梁\"]（努力控制构造的抖动）\n[name=\"梁\"]请你下次务必当着他的面说这番话。\n[name=\"梁\"]我们到了。\n[name=\"梁\"]这位就是要见你的人。\n[Dialog]\n[charslot]\n[stopmusic(fadetime=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#5$1\",duration=2)]\n[Delay(time=3.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"伶俐的少女\"]机缘至此，也算是天意吧。\n[name=\"伶俐的少女\"]很高兴再见到您，云先生。"
+        },
+        {
+          "endLine": 380,
+          "line": 320,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "quote": "[name=\"伶俐的少女\"]算下来，应该是和云先生第二次打照面了。\n[name=\"伶俐的少女\"]机缘至此，也算是天意吧。很高兴再见到您，云先生。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"m\")]\n[name=\"云青萍\"]这位姑娘……\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#6$1\",focus=\"m\")]\n[name=\"伶俐的少女\"]您可以叫我莫佚。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"m\")]\n[name=\"云青萍\"]不知莫小姐请我过来，是为了何事？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]云先生作为那位宗师的亲传弟子，应该是最了解他的人吧。所以想请您帮忙鉴定一件宝物。\n[name=\"莫佚\"]麻烦您看看，这本书是不是他的手笔？\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#6$1\",focus=\"m\")]\n[name=\"云青萍\"]原来……\n[name=\"云青萍\"]最近这座小镇上为这本秘籍闹出了不少风波，应该都是莫小姐有意为之的吧？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#11$1\",focus=\"m\")]\n[name=\"莫佚\"]哈哈，我姑且不否认就是了。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#6$1\",focus=\"m\")]\n[name=\"莫佚\"]总之，请您现在当着这位梁先生的面，鉴定一下这本《武典》的真伪。\n[Dialog]\n[charslot]\n莫佚从口袋中掏出了那本秘籍交给了云青萍。\n这是云青萍来到小镇后第二次见到这本书，在那座茶馆中他见到这本书被那位跑堂的抢走，此时却不知为何又落在了她的手里。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#7$1\",focus=\"m\")]\n[name=\"云青萍\"]（仔细地翻阅）\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"m\")]\n[name=\"云青萍\"]不错，这本书正是由宗师口述，我亲笔所写。每个字都分毫不差。\n[name=\"云青萍\"]我想问问姑娘，这本书是宗师送给玉门左宣辽左将军的礼物，姑娘又是如何拿到手的呢？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#6$1\",focus=\"m\")]\n[name=\"莫佚\"]这个话题稍后告诉你也无妨——梁先生，界园主人对这样宝物是否感兴趣呢？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"梁\"]莫姑娘既然能拿到这本书，想必是有过人的手段，其中细节，我也不必过问了。\n[name=\"梁\"]剩下的事，待我转告先生，再由他判断吧。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]既然已经可以确定是那位宗师宝典的原本，你家先生还是不愿意现身吗？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"梁\"]先生性格在下可琢磨不透，是不是宝物，他自有一套评判标准。\n[name=\"梁\"]还是等我去找到他，再给姑娘答复吧。\n[Dialog]\n[charslot(duration=2)]\n[Delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#10$1\",focus=\"m\")]\n[name=\"莫佚\"]可惜……\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#6$1\",focus=\"m\")]\n[name=\"云青萍\"]莫小姐，现在能否容在下问一个问题了？\n[name=\"云青萍\"]你盗取秘籍，又在江湖上散播种种谣言，究竟是为了什么？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]云先生应该也算半个武林中人吧。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#6$1\",focus=\"m\")]\n[name=\"云青萍\"]早些年跟着老师游历过一些地方，不敢自称是武林人。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#3$1\",focus=\"m\")]\n[name=\"莫佚\"]是啊……我也不算什么武林人，最多就是个跑江湖的，对武功什么的更是一窍不通。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#6$1\",focus=\"m\")]\n[name=\"莫佚\"]可我最喜欢看那些自诩武林豪杰的人争得你死我活，为一点名声、一点羽毛蒜皮的恩恩怨怨打得头破血流。\n[name=\"莫佚\"]活生生的人情人性啊，可比戏里的好看。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#6$1\",focus=\"m\")]\n[name=\"云青萍\"]可是为了莫小姐想看的这一场戏，就要有不少人流血。\n[name=\"云青萍\"]莫小姐这样的做法，是不是有些不仁义了？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#11$1\",focus=\"m\")]\n[name=\"莫佚\"]天地本就不仁，我又何必假装仁义？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]等着瞧吧，接下来这出好戏，云先生应该也会喜欢的。"
+        }
+      ],
+      "description": "录武官与梁直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01",
+            "E06"
+          ],
+          "from": "char_4196_reckpr",
+          "reason": "直接对话或具体提及支持。",
+          "status": "supported",
+          "to": "npc_c25f824eec4935b3"
+        },
+        {
+          "evidenceIds": [
+            "E01",
+            "E06"
+          ],
+          "from": "npc_c25f824eec4935b3",
+          "reason": "直接对话或具体提及支持。",
+          "status": "supported",
+          "to": "char_4196_reckpr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 622,
+          "kind": "story",
+          "line": 549,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 380,
+          "kind": "story",
+          "line": 320,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "邙山山顶会面",
+      "title": "镜中集"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 44,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro5/level_rogue5_entry.txt",
+          "quote": "[name=\"梁\"]多谢诸位前来。请跟我来，前方就是界园入口了。\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#14$1\",focus=\"m\")]\n[name=\"麟青砚\"]这里就是举行镇抚仪式的地点？看上去和普通的园林也没有什么区别……难道不会有百姓误入其中？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"梁\"]易当初选中这块宝地，本就是打算修建一座普通的园林。\n[name=\"梁\"]与“岁”无缘的人误入其中，看到的便只是座普通的园林；与“雅趣”无缘的人，也寻不到这处园林。\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#1$1\",focus=\"m\")]\n[name=\"左乐\"]多年来司岁台一直严密监控着这座山，同僚们已尽可能将岁兽的影响控制到最低。\n[name=\"左乐\"]从山脚至山巅祠堂，这本是司岁台给秉烛人设下的历练之路。\n[name=\"左乐\"]别看山脚无甚危险，都是往来踏青游览的百姓，但越往上走，越是变幻莫测。\n[name=\"左乐\"]只有知识渊博、善于应变的秉烛人，方能登至山巅，完成仪式，从而通过历练。\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#1$1\",focus=\"m\")]\n[name=\"麟青砚\"]你先前通过了历练没有？\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#3$1\",focus=\"m\")]\n[name=\"左乐\"]我申请过许多次……等时间合适的时候，我自然会通过的。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#10$1\",focus=\"m\")]\n[name=\"云青萍\"]梁先生，我还是有些好奇，邀请我们到此处的那位易先生，他与我们素不相识，为何却如此相信我们呢？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"梁\"]各位入了园，有缘自会遇见他。到时候，你自己问他便是。\n[name=\"梁\"]对了，虽说请各位入园是为了完成镇抚仪式，但这座园子本身也藏着许多易的宝贝。\n[name=\"梁\"]好东西也需有缘人的眼睛来欣赏。各位上山的时候，不妨将这趟旅程当作是踏青，随意游览。\n[name=\"梁\"]只不过——“物”的背后往往缠绕着“人”的往事，有的碰得，有的碰不得，还请各位小心应变。\n[name=\"梁\"]这点小心意，请各位笑纳。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#10$1\",focus=\"m\")]\n[name=\"云青萍\"]这些是？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"梁\"]一些特殊的通宝，算是点小保障。\n[charslot(slot=\"m\",name=\"avg_1043_leizi2_1#11$1\",focus=\"m\")]\n[name=\"麟青砚\"]多谢梁先生。仪式也快开始了，那么，我们启程了。\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"梁\"]慢走。"
+        }
+      ],
+      "description": "云青萍向梁提问并得到直接回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4196_reckpr",
+          "reason": "云青萍向梁提问并得到直接回应。",
+          "status": "supported",
+          "to": "npc_c25f824eec4935b3"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_c25f824eec4935b3",
+          "reason": "云青萍向梁提问并得到直接回应。",
+          "status": "supported",
+          "to": "char_4196_reckpr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_e1390d9deb27ce1b.json",
+      "sources": [
+        {
+          "endLine": 44,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/roguelike/ro5/level_rogue5_entry.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇界园行仪及其后场景",
+      "title": "岁的界园志异"
+    }
+  ],
+  "relationship_id": "char_4196_reckpr|npc_c25f824eec4935b3"
+}

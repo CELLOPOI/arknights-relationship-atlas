@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 609,
+          "line": 603,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flint_1_1.txt",
+          "quote": "[name=\"燧石\"]之前有一次……呃，我作为护卫，陪同博士和一家公司商谈，对面派人要给我们下马威。\n[Character(name=\"char_356_broca#3\")]\n[name=\"布洛卡\"]常有的事。\n[Character(name=\"char_415_flint_1\")]\n[name=\"燧石\"]我一不小心，就把人全打了。\n[Character(name=\"char_356_broca\")]\n[name=\"布洛卡\"]……常有的事。"
+        }
+      ],
+      "description": "布洛卡听取燧石关于具体博士的护卫经历并回应；无博士知晓布洛卡的反向证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_356_broca",
+          "reason": "布洛卡听取燧石关于具体博士的护卫经历并回应；无博士知晓布洛卡的反向证据。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_356_broca"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_9e81d286a8a5d2d6.json",
+      "sources": [
+        {
+          "endLine": 609,
+          "kind": "story",
+          "line": 603,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_flint_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "燧石所述时段",
+      "title": "燧石"
+    }
+  ],
+  "relationship_id": "char_356_broca|npc_b99957887950ebfd"
+}

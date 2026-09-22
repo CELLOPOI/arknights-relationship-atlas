@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 357,
+          "line": 344,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "quote": "[name=\"宁辞秋\"]大荒城建设工程重新启动的事，左公子听说了吗？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#3$1\",focus=\"l\")]\n[name=\"左乐\"]是那个商人的补给物资……他不该去干涉这些事务。\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]我只知道，他回来以后，与工部的万侍郎见过一回——左公子对这位大人是否有印象？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#3$1\",focus=\"l\")]\n[name=\"左乐\"]我记得……这些年他一直在负责大荒城的移动地块建设，但是数月前，他还分出功夫去处理了玉门城的修复工作……\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$1\",focus=\"l\")]\n[name=\"左乐\"]绩，他究竟想做什么？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]根据记载，绩、黍二人交好，千年前，二人一同在大荒城耕作。但是不久后，他便离开了大荒城，开始经营生意。\n[name=\"宁辞秋\"]他每隔数十年，都会回到大荒城一次，而他上一次回来已经是六十年前的事了。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#3$1\",focus=\"l\")]\n[multiline(name=\"左乐\")]宁侍郎对于这些记载倒是记得很清楚……"
+        }
+      ],
+      "description": "宁辞秋引用绩与黍过去一同耕作的记载，明确知道黍；仅提名不能反推黍知道宁辞秋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "宁辞秋引用绩与黍过去一同耕作的记载，明确知道黍；仅提名不能反推黍知道宁辞秋。",
+          "status": "supported",
+          "to": "char_2025_shu"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_2025_shu",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_906d6f310e0f648e"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 357,
+          "kind": "story",
+          "line": 344,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "char_2025_shu|npc_906d6f310e0f648e"
+}

@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 257,
+          "line": 229,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-07_end.txt",
+          "quote": "[Decision(options=\"这个位置是什么地方？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_401_1#6$1\")]\n[name=\"克洛维希娅\"]一家废弃工厂。以前据说是炼糖用的……对了，请不要误会，这只是流传在民用工业地带的一种俗称。\n[name=\"克洛维希娅\"]他们炼制的是一种名为扭转醇的有机化合物，只是因为包装与深受孩子们喜爱的糖果近似，大家才戏称他们在“炼糖”。\n[Character(name=\"avg_npc_394_1#5$1\")]\n[name=\"阿米娅\"]炼糖厂？听起来好耳熟……\n[dialog]\n[character]\n[Decision(options=\"请把这里列为首要排查的目标。;我们或许接近答案了。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_401_1#5$1\")]\n[name=\"克洛维希娅\"]{@nickname}博士，能让我知道为什么吗？\n[dialog]\n[character]\n[Decision(options=\"我们可能认识这家炼糖厂的主人。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_394_1#5$1\")]\n[name=\"阿米娅\"]啊……我想起来了。您是说……托马斯先生？\n[name=\"阿米娅\"]托马斯先生一直在为萨卡兹干活，对不对？他说他看见萨卡兹在利用他的炼糖厂做一些事，而且他还因此差点被萨卡兹灭口。\n[name=\"阿米娅\"]再加上深池……深池也想要托马斯先生身上的情报。\n[dialog]\n[character]\n[Decision(options=\"所有站在萨卡兹对立面的势力都想要……;……萨卡兹不希望别人得到的情报。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_401_1#6$1\")]\n[name=\"克洛维希娅\"]我明白了。\n[Character(name=\"avg_npc_401_1#6$1\")]\n[name=\"克洛维希娅\"]通知费斯特，我们的第一目标是制醇厂。"
+        }
+      ],
+      "description": "博士指出炼糖厂，克洛维希娅具名问理由并采纳。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士指出炼糖厂，克洛维希娅具名问理由并采纳。",
+          "status": "supported",
+          "to": "npc_1f201a858b188fce"
+        },
+        {
+          "evidenceIds": [
+            "E32"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "博士指出炼糖厂，克洛维希娅具名问理由并采纳。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 257,
+          "kind": "story",
+          "line": 229,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 241,
+          "line": 191,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "quote": "[name=\"克洛维希娅\"]阿米娅，博士，城外的信使刚刚发回了一份关键情报。萨卡兹的主力部队正在回城，这极有可能意味着他们即将与公爵部队开战。\n[name=\"克洛维希娅\"]按之前的情报来看，即便主力部队回到伦蒂尼姆，萨卡兹的军事力量也不足以正面与全部公爵抗衡。\n[name=\"克洛维希娅\"]萨卡兹选择在这个时间动手，显然是因为他们认为自己掌握了能左右战局的关键力量。\n[Dialog]\n[Character(name=\"avg_npc_394_1#1$1\",name2=\"avg_npc_401_1#1$1\",focus=3)]\n[Decision(options=\"碎片大厦。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_394_1#1$1\",name2=\"avg_npc_401_1#9$1\",focus=2)]\n[name=\"克洛维希娅\"]那栋被萨卡兹占领的建筑？我们确实得知那座大厦藏着武器，可是，左右战局？\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]是的，克洛维希娅。你们有注意过……碎片大厦顶部的风暴吗？\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#5$1\",focus=2)]\n[name=\"克洛维希娅\"]唔……那些阴云看起来很异样。\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#5$1\",focus=1)]\n[name=\"阿米娅\"]从我们得到的情报来看，那确实并不是普通的风暴。那是碎片大厦诱发的天灾。虽然和真正的天灾还有差别……\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#6$1\",focus=2)]\n[name=\"克洛维希娅\"]萨卡兹想引起一场天灾？他们自己还在伦蒂尼姆，毁掉这座城市对他们而言有什么好处？\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#6$1\",focus=3)]\n[Dialog]\n[Decision(options=\"他们打算把风暴当作武器。;如果他们能控制天灾的落点呢？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#9$1\",focus=2)]\n[name=\"克洛维希娅\"]……唔。\n[Character(name=\"avg_npc_394_1#7$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]碎片大厦的作用并非只是我们的猜想。这件武器……或者说这项技术正是罗德岛进入伦蒂尼姆的首要目标。\n[Character(name=\"avg_npc_394_1#7$1\",name2=\"avg_npc_401_1#9$1\",focus=2)]\n[name=\"克洛维希娅\"]……罗德岛是为了笼罩着伦蒂尼姆的阴云而来。\n[Character(name=\"avg_npc_394_1#7$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]嗯，这不仅是一个比喻。\n[name=\"阿米娅\"]万一特雷西斯真的启用了碎片大厦，他会将战火与风暴一起引向他眼中萨卡兹的敌人。\n[name=\"阿米娅\"]没有天灾信使能够预测人为天灾的走向。没有一座移动城市能逃脱这样的天灾的打击。\n[name=\"阿米娅\"]无数萨卡兹和维多利亚人都将死在这场战争中，而活下来的那些可能更悲惨。他们大多数会变成感染者。\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]以及……碎片大厦，没有被安设在边境，而是在作为一国首都的伦蒂尼姆……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#8$1\",focus=2)]\n[name=\"克洛维希娅\"]这意味着……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#8$1\",focus=3)]\n[Dialog]\n[Decision(options=\"当这项技术完成的时候，它能够碰触泰拉的任何角落。;……;我们只能祈祷这项技术遭遇更多的瓶颈。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#6$1\",focus=2)]\n[name=\"克洛维希娅\"]萨卡兹……会用维多利亚的力量，摧毁维多利亚。\n[name=\"克洛维希娅\"]真到了那个地步的话，自救军之前所做的一切都是徒劳。\n[name=\"克洛维希娅\"]即便我们能和罗德岛一样，在天灾下救人，伦蒂尼姆和我们的生活也都回不到过去了……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#6$1\",focus=1)]\n[name=\"阿米娅\"]克洛维希娅，罗德岛很感激自救军。缺少你们的帮助的话，我们没法顺利进入中央城区。\n[name=\"阿米娅\"]但我和博士也不会欺骗你们。无论罗德岛接下来计划如何接近碎片大厦，等待着我们的战斗只会一场比一场凶险。\n[name=\"阿米娅\"]假如罗德岛没能在这几天之内阻止特雷西斯，全面战争开始，大公爵们必然会向伦蒂尼姆城内进军。\n[name=\"阿米娅\"]要是自救军选择等待公爵军队的话……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#1$1\",focus=2)]\n[name=\"克洛维希娅\"]……阿米娅，我们做不到。"
+        }
+      ],
+      "description": "克洛维希娅与博士直接合作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "双方在自救军会议中共同分析行动。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "双方在自救军会议中共同分析行动。",
+          "status": "supported",
+          "to": "npc_1f201a858b188fce"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 241,
+          "kind": "story",
+          "line": 191,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "自救军会议",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "npc_1f201a858b188fce|npc_b99957887950ebfd"
+}

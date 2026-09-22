@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 81,
+          "line": 64,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_quercu_2_1.txt",
+          "quote": "[name=\"苦根\"]你的伤怎么样了？\n[charslot(slot=\"r\",name=\"avg_492_quercu_1#1$1\",focus=\"r\")]\n[name=\"夏栎\"]没什么大事。\n[name=\"夏栎\"]博士还是没有消息吗？\n[charslot(slot=\"l\",name=\"avg_npc_012\",focus=\"l\")]\n[name=\"苦根\"]从他们进入伦蒂尼姆以后就断了联系，目前所有的通讯手段都失效了。\n[name=\"苦根\"]你那边情况怎么样？\n[charslot(slot=\"r\",name=\"avg_492_quercu_1#10$1\",focus=\"r\")]\n[name=\"夏栎\"]消息已经散布出去了。\n[name=\"夏栎\"]不管有多少人相信，起码现在，公爵的人默许我们以调查的名义驻扎在公爵领北面边界。 \n[name=\"夏栎\"]在必要的情况下，可以随时接应博士他们。\n[charslot(slot=\"l\",name=\"avg_npc_012\",focus=\"l\")]\n[name=\"苦根\"]嗯……那就好。\n[charslot(slot=\"r\",name=\"avg_492_quercu_1#1$1\",focus=\"r\")]\n[name=\"夏栎\"]先把这些信息通报给本舰那边吧。\n[name=\"夏栎\"]博士他们一定会没事的。\n[charslot(slot=\"l\",name=\"avg_npc_012\",focus=\"l\")]\n[name=\"苦根\"]一定。"
+        }
+      ],
+      "description": "苦根报告博士入伦蒂尼姆后失联情况，本段未建立博士反向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "npc_e3878a71089209c5",
+          "reason": "苦根报告博士入伦蒂尼姆后失联情况，本段未建立博士反向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_e3878a71089209c5"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_e552167ef6e5d137.json",
+      "sources": [
+        {
+          "endLine": 81,
+          "kind": "story",
+          "line": 64,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_quercu_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "夏栎"
+    }
+  ],
+  "relationship_id": "npc_b99957887950ebfd|npc_e3878a71089209c5"
+}

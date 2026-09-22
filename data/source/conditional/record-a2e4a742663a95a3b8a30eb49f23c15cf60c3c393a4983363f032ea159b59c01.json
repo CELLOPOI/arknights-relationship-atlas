@@ -1,0 +1,50 @@
+{
+  "contributions": [
+    {
+      "assignmentId": "review-04",
+      "description": "片中魏文月接见陈与雪雉并直接对话；旁白明确此角色为文月。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_010_chen",
+          "reason": "片中魏文月接见陈与雪雉并直接对话；旁白明确此角色为文月。",
+          "status": "supported",
+          "to": "npc_0390092af6e7eaa6"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_0390092af6e7eaa6",
+          "reason": "片中魏文月接见陈与雪雉并直接对话；旁白明确此角色为文月。",
+          "status": "supported",
+          "to": "char_010_chen"
+        }
+      ],
+      "groupId": "group_f0cd623c8eb0c2e9",
+      "key": "char_010_chen|npc_0390092af6e7eaa6",
+      "label": "确认相识",
+      "personIds": [
+        "char_010_chen",
+        "npc_0390092af6e7eaa6"
+      ],
+      "realityScope": "fictional_film",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+      "temporalScope": "洪炉示岁所述时段",
+      "title": "洪炉示岁"
+    }
+  ],
+  "groupId": "group_f0cd623c8eb0c2e9",
+  "key": "char_010_chen|npc_0390092af6e7eaa6",
+  "names": [
+    "陈",
+    "文月"
+  ],
+  "personIds": [
+    "char_010_chen",
+    "npc_0390092af6e7eaa6"
+  ],
+  "realityScope": "fictional_film"
+}

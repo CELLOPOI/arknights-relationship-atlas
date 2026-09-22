@@ -1,0 +1,128 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 244,
+          "line": 232,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_yuki_1_1.txt",
+          "quote": "[name=\"凯尔希\"]  阿米娅，今天的工作就先告一段落吧。\n[Character(name=\"char_002_amiya_1#6\", name2=\"char_003_kalts_1\", focus=1)]\n[name=\"阿米娅\"]  好的，凯尔希医生。\n[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=1)]\n[name=\"阿米娅\"]  这个时间博士不知道睡了没有，我去看一眼吧。\n[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=2)]\n[name=\"凯尔希\"]  Dr.{@nickname}有自己的分寸。\n[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=1)]\n[name=\"阿米娅\"]  虽然是这么说，但是博士的身体健康也是很重要的！\n[Character(name=\"char_002_amiya_1#3\", name2=\"char_003_kalts_1\", focus=1)]\n[name=\"阿米娅\"]  我看完博士就去睡觉，好不好，凯尔希医生？\n[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1#4\", focus=2)]\n[name=\"凯尔希\"]  ……随你。"
+        }
+      ],
+      "description": "白雪通过现场旁听知晓博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_118_yuki",
+          "reason": "白雪在潜行观察中听到阿米娅和凯尔希围绕博士的具体谈话，因此知晓她们指向的具体人物。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在场，且无证据表明博士知道白雪。",
+          "status": "not_established",
+          "to": "char_118_yuki"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_56462f66d428f847.json",
+      "sources": [
+        {
+          "endLine": 244,
+          "kind": "story",
+          "line": 232,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_yuki_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇白雪潜行观察时点",
+      "title": "白雪"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 286,
+          "line": 267,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d5/level_act15d5_st01.txt",
+          "quote": "[name=\"白雪\"]  （点头）\n[name=\"白雪\"]  星熊长官。\n[Character(name2=\"char_118_yuki\",name=\"char_136_hsguma_ns_1\",focus=1)]\n[name=\"星熊\"]  不必这么客气，白雪阁下怎么在这？\n[Character(name2=\"char_118_yuki\",name=\"char_136_hsguma_ns_1\",focus=2)]\n[name=\"白雪\"]  夫人，暂离。命我守此。\n[Character(name2=\"char_118_yuki\",name=\"char_136_hsguma_ns_1\",focus=1)]\n[name=\"星熊\"]  原来如此。\n[name=\"星熊\"]  听说白雪阁下前段时间被夫人指派去了罗德岛？\n[name=\"星熊\"]  怎么样，阿米娅小妹妹还好吗？还有她身边的博士……我还记得那人当时贴在遮蔽物上指挥，怪聪明也怪狼狈的。他们现在都如何了？\n[Character(name2=\"char_118_yuki#4\",name=\"char_136_hsguma_ns_1\",focus=2)]\n[name=\"白雪\"]  精力充沛，意气高昂。\n[name=\"白雪\"]  叽哩哇啦。\n[Character(name2=\"char_118_yuki#3\",name=\"char_136_hsguma_ns_1\",focus=2)]\n[name=\"白雪\"]  吵人。\n[Character(name2=\"char_118_yuki#3\",name=\"char_136_hsguma_ns_1#5\",focus=1)]\n[name=\"星熊\"]  哈哈哈哈，还是那么有精神。\n[name=\"星熊\"]  看起来白雪阁下也对罗德岛印象挺好。\n[Character(name2=\"char_118_yuki\",name=\"char_136_hsguma_ns_1#5\",focus=2)]\n[name=\"白雪\"]  罗德岛确实不错。"
+        }
+      ],
+      "description": "白雪听到星熊具体询问博士，并回答罗德岛近况。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_118_yuki",
+          "reason": "白雪听到星熊具体询问博士，并回答罗德岛近况。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_118_yuki"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_6fcdbd26f39c21fe.json",
+      "sources": [
+        {
+          "endLine": 286,
+          "kind": "story",
+          "line": 267,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d5/level_act15d5_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "此地之外"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 411,
+          "line": 320,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_st01.txt",
+          "quote": "[name=\"陈\"]刚才在路上好像看到了罗德岛的其他人，难道他们也来汐斯塔了……\n[name=\"陈\"]等会去确认一下吧。\n[dialog]\n[playsound(key=\"$doorknockquite\")]\n[delay(time=1.5)]\n[name=\"陈\"]谁？\n[dialog]\n[character]\n[name=\"白雪\"]陈小姐，休假之中打扰，万分抱歉。\n[dialog]\n[delay(time=1)]\n[playsound(key=\"$dooropenquite\")]\n[character(name=\"char_118_yuki\",fadetime=1)]\n[delay(time=1.5)]\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]白雪？你怎么来了？\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]夫人有一封信给您，十万火急。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]龙门出事了？！\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]并非如此，读信便知。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]……信呢？\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]这里。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]……里面还有一封请帖？还是先读一下信吧。\n[dialog]\n[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"小陈。见字如晤。 你在罗德岛过得还好吗？有好好吃饭和保重身体吗？\", x=300, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=1)]\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]文月夫人还是那么爱操心。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"是这样的。随信一起有一张请帖，是玻利瓦尔一座城市的市长给我们夫妇发来的。 但我们夫妇没有时间赴约，所以我和彦吾讨论了一下，想要让你代替我们去这座城市。\", x=300, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=1)]\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]……\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"这座城市叫多索雷斯，你可能听说过，那里有一座巨大的人工湖，还有许多娱乐设施，是个度假的好地方。 你平日在罗德岛工作四处奔波想必累积了相当的疲劳，就趁这个机会好好放松一下吧。 罗德岛那边我会出面帮你解释，不用担心。 魏文月\", x=300, y=370, alignment=\"left\", size=24, delay=0.04, width=700)]\n[subtitle]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=1)]\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]这……我现在就在度假中呢。\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]夫人想来并不知晓此事。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]也是。不过，多索雷斯啊……白雪，你知道距离这里有多远吗？\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]此城位于玻利瓦尔西北，现在出发的话，15日左右。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]请帖上也没有写日期，看起来什么时候去都来得及……\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]陈小姐打算接受吗？\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]……既然是文月夫人的好意，我也没有拒绝的道理，反正也只是换个地方度假而已。\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]白雪替夫人谢过小姐。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]说了多少次了，我们现在同为干员，就别叫我小姐了。\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]白雪的回复也不会变，不可，小姐始终是小姐。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]唉，随你。\n[name=\"陈\"]你跟我一起去吗？\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]不，白雪另有要务在身，抱歉。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]好吧，看来我得一个人出发了。\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]另外，我出发时得知，博士以及一些其他干员似乎在任务结束后也来到了这座城市，陈小姐若是想，可与他们见一面再走。\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]嗯？看来我刚才没有看错……\n[name=\"陈\"]不过算了，反正回到罗德岛也见得到。\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]也是，那……\n[character(name=\"char_010_chen_summer\")]\n[name=\"陈\"]别急着走，留一晚上的时间还是有的吧？今晚和我一起吃顿饭，明天一起出发吧。\n[character(name=\"char_118_yuki\")]\n[name=\"白雪\"]……恭敬不如从命。"
+        }
+      ],
+      "description": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_118_yuki",
+          "reason": "原文提供直接对话、已收信件、明确关系陈述或在场接收的具体依据。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_118_yuki"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_a2ee9e247fcb3cb6.json",
+      "sources": [
+        {
+          "endLine": 411,
+          "kind": "story",
+          "line": 320,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12side/level_act12side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "多索雷斯假日"
+    }
+  ],
+  "relationship_id": "char_118_yuki|npc_b99957887950ebfd"
+}

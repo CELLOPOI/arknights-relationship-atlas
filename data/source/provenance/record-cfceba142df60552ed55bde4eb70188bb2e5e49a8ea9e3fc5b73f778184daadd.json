@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 240,
+          "line": 164,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_beg.txt",
+          "quote": "[name=\"槐天裴\"]好好好。\n[name=\"槐天裴\"]你终于肯应战了。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]让你等了这么久，见谅。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#9$1\")]\n[name=\"槐天裴\"]三年而已，算不上多久。你要是还有事情没做完，我可以再等。\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n三年前\n[dialog]\n[delay(time=1)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_punch\",volume=0.8)]\n[delay(time=1)]\n[CameraShake(duration=0.6, xstrength=20, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$punch_n1\")]\n[PlaySound(key=\"$d_avg_punch02\",volume=0.8,delay=0.2)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_785_1#3$1\",duration=0.3)]\n[name=\"槐天裴\"]停停停。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#6$1\")]\n[name=\"重岳\"]……\n[name=\"重岳\"]这才第一合。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]已经够了。\n[name=\"槐天裴\"]刚才一合之内我们对了三拳，以你我的功力，真打实了，这会儿大概已经有人见了伤。\n[name=\"槐天裴\"]但你收着劲，我也不能出全力。\n[name=\"槐天裴\"]没意思，不痛快。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#6$1\")]\n[name=\"重岳\"]比武试招，点到即止……\n[charslot(slot=\"m\",name=\"avg_npc_785_1#1$1\")]\n[name=\"槐天裴\"]谁跟你比武试招，哪儿来的点到即止，要打就要全力以赴地打！\n[charslot(slot=\"m\",name=\"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]天下武功，都是搏杀之术，哪一样不是在真正的生死历练中演化成型。你这话，不像是玉门擂台榜上第一名会说的。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]在理。不过……\n[charslot(slot=\"m\",name=\"avg_npc_785_1#8$1\")]\n[name=\"槐天裴\"]算了，知道你还有职责在身，真打起来难免束手束脚。\n[name=\"槐天裴\"]你什么时候卸任？我们把这一场续上。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#9$1\")]\n[name=\"重岳\"]那不知道要等到何年何月了。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]你说一个时间。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]……短则三五年，长则十几年。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]好，那我等着。\n[name=\"槐天裴\"]反正你就在这城里，我也不怕你跑了。\n[dialog]\n[charslot]\n[CameraEffect(effect=\"Grayscale\", fadetime=3, amount=0, block=true)]\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",duration=1)]\n[delay(time=2)]\n[name=\"重岳\"]事情永远是做不完的，欠下的这一战，放在此时此地，刚刚好。\n[name=\"重岳\"]这里面有我的一点私心，应该向你说明。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#12$1\")]\n[name=\"槐天裴\"]嗯？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\")]\n[name=\"重岳\"]过去三军出征，有先锋将领在校场演武，激励士气的传统。\n[name=\"重岳\"]如今玉门即将迎战天灾，你我在阵前比这一场，就当为全城的将士们壮壮胆色。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#9$1\")]\n[name=\"槐天裴\"]我无所谓，就怕你在全城人面前被我打趴下，面子上过不去。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#10$1\")]\n[name=\"重岳\"]哈哈……\n[name=\"重岳\"]说起来，已经有很多年，没人像你这样向我挑战了。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#9$1\")]\n[name=\"槐天裴\"]已经有很多年，没人像你这样值得我挑战了。\n[name=\"槐天裴\"]放开手脚？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#8$1\")]\n[name=\"重岳\"]当尽全力。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#11$1\")]\n[name=\"槐天裴\"]胜负在己。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#8$1\")]\n[name=\"重岳\"]生死有命。"
+        }
+      ],
+      "description": "两人当面兑现比武约定，当前与三年前回忆均明确直接交手。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E57"
+          ],
+          "from": "char_2024_chyue",
+          "reason": "两人当面兑现比武约定，当前与三年前回忆均明确直接交手。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E57"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "两人当面兑现比武约定，当前与三年前回忆均明确直接交手。",
+          "status": "supported",
+          "to": "char_2024_chyue"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 240,
+          "kind": "story",
+          "line": 164,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_2024_chyue|npc_2a2f1f3b7bd9ed61"
+}

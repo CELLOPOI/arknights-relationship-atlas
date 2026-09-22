@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1271,
+          "line": 1260,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[Decision(options=\"还有，我刚整理了一份关于现有情报的资料。;一旦联络上可露希尔，就将情报同步给他们。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"罗德岛其他干员的布置我也上传到了PRTS。;通知他们尽快同步手中的PRTS数据。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_npc_400_1#4$1\",focus=\"m\")]\n[name=\"海蒂\"]抢占先机？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_400_1#4$1\",focus=\"none\")]\n[Decision(options=\"是的。;如今在伦蒂尼姆的各方都存在自己的盲区。;争取时间，提前反应。这也是我们的机会。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot = \"m\", name = \"avg_npc_400_1#10$1\",focus=\"m\")]\n[name=\"海蒂\"]了解了，我会去办。现在对城内重建的联络网最熟悉的人，是我。"
+        }
+      ],
+      "description": "博士向海蒂与凯尔希说明上传和同步PRTS数据，海蒂回应执行；系统本身未发话，仅知晓与使用。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E161"
+          ],
+          "from": "char_4045_heidi",
+          "reason": "博士向海蒂与凯尔希说明上传和同步PRTS数据，海蒂回应执行；系统本身未发话，仅知晓与使用。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4045_heidi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 1271,
+          "kind": "story",
+          "line": 1260,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "char_4045_heidi|npc_c8a2caad4366c8fa"
+}

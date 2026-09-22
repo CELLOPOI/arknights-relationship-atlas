@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 269,
+          "line": 246,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-10_end.txt",
+          "quote": "[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=2)]\n[name=\"弑君者\"]  别说了！为什么要和我说这些，为什么，我不想听，我不关心！\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=1)]\n[name=\"凯尔希\"]  你想。因为你一直在怀疑自己。\n[name=\"凯尔希\"]  你没有给谢尔盖解释的机会，所以我替他说。\n[name=\"凯尔希\"]  ——我不会出卖任何人，哪怕是谢尔盖。\n[name=\"凯尔希\"]  谢尔盖是个优柔寡断的人，但他并不贪婪。\n[name=\"凯尔希\"]  他刚出生的儿女被乌萨斯掌握在手里，他为了拯救自己的亲人，把你父亲他们的行踪告知了当局。\n[name=\"凯尔希\"]  时至今日，米莎和亚历克斯都死了。他出卖了秘密，却谁也没能保住。\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=2)]\n[name=\"弑君者\"]  如果……如果之前是我去救米莎，也许她和碎骨……都不会死。\n[name=\"弑君者\"]  不……不对，不对！你明明拥有这种力量，为什么不救我父亲？！\n[Character]\n[name=\"Mon3tr\"]  （威胁的低鸣）\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=1)]\n[name=\"凯尔希\"]  ……\n[name=\"凯尔希\"]  因为我做不到。\n[name=\"凯尔希\"]  我没法说服你父亲离开研究所。\n[name=\"凯尔希\"]  柳德米拉，我在离开切尔诺伯格前把你送去了叙拉古，你却自己回到了那座城市。\n[name=\"凯尔希\"]  你看，你就像你父亲一样，有时候，意志连时间都能战胜。\n[name=\"凯尔希\"]  你总会回到切尔诺伯格，就像你会在这里遇到我。\n[Character(name=\"char_003_kalts_1\",name2=\"char_1502_crowns\",focus=2)]\n[name=\"弑君者\"]  ……\n[name=\"弑君者\"]  所以，这一切一点意义都没有？我父亲和我做的一切……都毫无意义？"
+        }
+      ],
+      "description": "Mon3tr在场听凯尔希与弑君者具体谈米莎。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C18"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "Mon3tr在场听凯尔希与弑君者具体谈米莎。",
+          "status": "supported",
+          "to": "npc_c69ca5bb5983a16b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c69ca5bb5983a16b",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 269,
+          "kind": "story",
+          "line": 246,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "局部坏死"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_c69ca5bb5983a16b"
+}

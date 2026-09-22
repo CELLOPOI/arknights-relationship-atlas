@@ -1,0 +1,15 @@
+{
+  "id": "import:npc_17db81f47ae22715|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【生路】\n克莱门莎：我曾经想要向歌蕾蒂娅表达这些情绪，但我意识到自己没有资格。\n克莱门莎：我对她做出了纯粹出自理性的决断，自然没有资格求得感性的原谅。\n克莱门莎：此时此刻，也是如此。\n克莱门莎：所以，我“平静”地接受了自己的决断。\n凯尔希：……\n选项：\n1：……\n分支条件（原选项编号）：1\n“小帮手”：已经为您连线指定人员。布兰都斯顾问没有接听。\n克莱门莎：……\n克莱门莎：凯尔希医生，博士。很抱歉没能给出得体的答复。",
+  "relationship_id": "npc_17db81f47ae22715|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 440,
+      "kind": "story",
+      "line": 421,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_06_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

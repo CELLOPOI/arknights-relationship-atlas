@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 672,
+          "line": 623,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_07_beg.txt",
+          "quote": "[name=\"埃琳娜\"]——是一个骗了我很久，把我耍得团团转的人。\n[name=\"埃琳娜\"]他想把你们拓荒者的遭遇……还有整个基地发生的事情全部抹消。\n[name=\"埃琳娜\"]莱茵生命的人都有可能站在他那边……\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]警局大概也都被买通了。\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]我打赌没有任何一家媒体敢报道这条新闻。\n[character(name=\"avg_1027_greyy2_1#7$2\")]\n[name=\"格雷伊\"]埃琳娜小姐，您知道我们该把信息传给谁。\n[character(name=\"avg_135_halo_1#9$1\")]\n[name=\"埃琳娜\"]……罗德岛。\n[character(name=\"avg_1027_greyy2_1#7$2\")]\n[name=\"格雷伊\"]我这就去找赫默医生。这将是我们本次行动最关键的任务。\n[character(name=\"avg_135_halo_1#6$1\")]\n[name=\"埃琳娜\"]那样的话， 你会被困在这里……你们甚至会有生命危险！\n[character(name=\"avg_1027_greyy2_1#9$2\")]\n[name=\"格雷伊\"]……我相信博士，也相信您，埃琳娜小姐。\n[character(name=\"avg_1027_greyy2_1#9$2\")]\n[name=\"格雷伊\"]我们一定能做到。\n[dialog]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[character(fadetime=1)]\n[delay(time=1.5)]\n[character(name=\"avg_135_halo_1#11$1\")]\n[name=\"埃琳娜\"]……相信我？\n[name=\"埃琳娜\"]我能做的事……\n[character(name=\"avg_135_halo_1#9$1\")]\n[name=\"埃琳娜\"]监控站……我得去监控站。\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]……需要搭车吗？\n[character(name=\"avg_135_halo_1#9$1\")]\n[name=\"埃琳娜\"]那边的载具……\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]我问你们莱茵生命借的。\n[character(name=\"avg_npc_527_1#1$1\")]\n[name=\"玛丽\"]正好，我也要回去找这次事件真正的犯人。我们应该顺路吧？\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]能不能算我一个？\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]不管怎么说，警官，我还是你抓住的嫌犯……\n[dialog]\n[character]\n玛丽没有回答，但是她向桑尼伸出了手。\n一旁的埃琳娜也做出了一模一样的举动。\n桑尼拉住了两只手，跃上发动了的载具。\n[dialog]\n[PlaySound(key=\"$sportscarstart\")]\n[delay(time=1)]\n[PlaySound(key=\"$drift\")]\n警察，拓荒者，研究员——三个人一起冲向基地边缘。"
+        }
+      ],
+      "description": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "char_135_halo",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_135_halo"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 672,
+          "kind": "story",
+          "line": 623,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "绿野幻梦"
+    }
+  ],
+  "relationship_id": "char_135_halo|npc_b99957887950ebfd"
+}

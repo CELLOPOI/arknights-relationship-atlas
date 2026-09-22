@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 983,
+          "line": 912,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"菈塔托丝\"]……\n[name=\"菈塔托丝\"]啧。\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]阿克托斯。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]干什么？\n[Character(name=\"avg_npc_253_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"菈塔托丝\"]你是相信我，还是相信恩希欧迪斯？！\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]你们两个，我一个都不相信！\n[Character(name=\"avg_npc_253_1#8$1\")]\n[name=\"菈塔托丝\"]那你至少也该知道，眼下谁才是敌人！\n[name=\"菈塔托丝\"]布朗陶家的战士们，准备战斗！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\")]\n[Character(name=\"avg_npc_285_1#1$1\", name2=\"avg_npc_285_1#1$1\",fadetime=1.5)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_253_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"菈塔托丝\"]先救出休露丝，再把恩希欧迪斯给我拿下！\n[Character(name=\"avg_npc_285_1#1$1\", name2=\"avg_npc_285_1#1$1\")]\n[name=\"布朗陶家战士\"]是！\n[Character(name=\"avg_npc_254_1#8$1\")]\n[name=\"阿克托斯\"]……*谢拉格俚语*，佩尔罗契家的战士们，列阵！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\")]\n[Character(name=\"avg_npc_286_1#1$1\", name2=\"avg_npc_286_1#1$1\",fadetime=1.5)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_254_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"阿克托斯\"]把恩希欧迪斯这个逆贼拿下！让民众们知道，他才是那个叛徒！\n[Character(name=\"avg_npc_260_1#6$1\")]\n[name=\"古罗\"]是！\n[Character(name=\"avg_npc_286_1#1$1\", name2=\"avg_npc_286_1#1$1\")]\n[name=\"佩尔罗契家战士\"]是！\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]锏。\n[name=\"恩希欧迪斯\"]把诺希斯押下去。\n[Character(name=\"avg_npc_257_1#2$1\")]\n[name=\"锏\"]不用我？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]不用。\n[Character(name=\"avg_npc_257_1#1$1\")]\n[name=\"锏\"]行吧。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]角峰。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_199_yak_1#6$1\",fadetime=1.5)]\n[Delay(time=1.5)]\n[name=\"角峰\"]在。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]照看住大长老和圣女大人。\n[Character(name=\"avg_199_yak_1#6$1\")]\n[name=\"角峰\"]是。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]魏斯。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[Character(name=\"avg_198_blackd_1#9$1\",fadetime=1.5)]\n[Delay(time=1.5)]\n[name=\"魏斯\"]在。\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]把阿克托斯与菈塔托丝拿下。\n[name=\"恩希欧迪斯\"]尽量不要出人命，现在还不是时候。\n[Character(name=\"avg_198_blackd_1#9$1\")]\n[name=\"魏斯\"]是。"
+        }
+      ],
+      "description": "广场双方列阵，古罗回应阿克托斯，菈塔托丝呼救休露丝，银灰锏讯使回应并部署冲突。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E68"
+          ],
+          "from": "char_198_blackd",
+          "reason": "广场双方列阵，古罗回应阿克托斯，菈塔托丝呼救休露丝，银灰锏讯使回应并部署冲突。",
+          "status": "supported",
+          "to": "npc_e69f1ad171a29fd0"
+        },
+        {
+          "evidenceIds": [
+            "E68"
+          ],
+          "from": "npc_e69f1ad171a29fd0",
+          "reason": "广场双方列阵，古罗回应阿克托斯，菈塔托丝呼救休露丝，银灰锏讯使回应并部署冲突。",
+          "status": "supported",
+          "to": "char_198_blackd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 983,
+          "kind": "story",
+          "line": 912,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_198_blackd|npc_e69f1ad171a29fd0"
+}

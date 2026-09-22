@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 944,
+          "line": 882,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"塔露拉\"]  ……罗德岛。\n[name=\"塔露拉\"]  我并不打算说服任何人，也不打算强迫任何人接受我的想法。\n[name=\"塔露拉\"]  只是，事情未了。\n[name=\"塔露拉\"]  我会等着那一天来临，无论是她说的，还是你说的，我会等着所谓的审判来临。\n[name=\"塔露拉\"]  但是在那之前——\n[Dialog]\n[PlaySound(key=\"$firestorm\", volume=1)] \n[PlaySound(key=\"$b_char_defboost\", volume=0.5, Delay=0.4)]\n[PlaySound(key=\"$firestorm\", volume=1)] \n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, block=false)]\n[Blocker(a=0.3, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.3, r=1, g=0.4, b=0.4, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0.1, r=1, g=0.4, b=0.1, afrom=1, rfrom=1, gfrom=0.4, bfrom=0.4, fadetime=0.2, block=true)]\n[Blocker(a=0.1, r=0, g=0, b=0, afrom=0.8, rfrom=1, gfrom=1, bfrom=1, fadetime=0.3, block=true)]\n[Blocker(a=0.1, r=0, g=0, b=0, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.3, block=true)]\n[Blocker(a=0.2, r=0.92, g=0.5, b=0.3, fadetime=0.02, block=true)]\n[PlaySound(key=\"$burningloop1\", volume=1, loop=true, channel=\"bgs\")]\n火焰从她的指尖腾起。\n仿佛一堵愤怒的高墙。\n[Character(name=\"npc_10002\")]\n[name=\"Mon3tr\"]  ——（极短的畏缩）！\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  我会活下去。\n[Dialog]\n[delay(time=1)]\n[Character(name=\"char_011_talula_1#3\",focus=-1)]\n[Decision(options=\"阿米娅！;塔露拉！\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"别想碰阿米娅！;除非你杀了我！\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character]\n你挡在了阿米娅的身前。\n高温带来的窒息感让你片刻恍惚，但奔袭的焰苗仍旧绕过了你们二人。\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  ……放心吧，火绕过了她。\n[name=\"塔露拉\"]  你们还会有更长的路要走，但愿……你们的心底没有阴霾。\n[Dialog]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[character(fadetime=0.8)]\n[delay(time=1)]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[Character(name=\"avg_npc_059\",fadetime=1.5,block=true)]\n[delay(time=1.5)]\n[name=\"Guard\"]  时间到了！九！等不了了！\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  我知道。\n[name=\"九\"]  那么……后会有期，罗德岛。\n[Dialog]\n[Decision(options=\"等等！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=1)]\n[character(fadetime=1,block=true)]\n[delay(time=2)]\n[Decision(options=\"那是——近地飞行器？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[Character(name=\"char_003_kalts_1#3\",fadetime=1.5,block=true)]\n[delay(time=1.5)]\n[name=\"凯尔希\"]  把它打下来。\n[Character(name=\"npc_10002\")]\n[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"Mon3tr\"]  （尖啸）"
+        }
+      ],
+      "description": "博士与九同处对峙，博士呼喝停下，九在场回应撤离。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S17"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "S17"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 944,
+          "kind": "story",
+          "line": 882,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "舰桥战斗",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "npc_b554345833235f79|npc_b99957887950ebfd"
+}

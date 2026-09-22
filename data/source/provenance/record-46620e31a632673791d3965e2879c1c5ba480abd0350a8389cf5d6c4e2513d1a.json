@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 646,
+          "line": 583,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-12_end.txt",
+          "quote": "[name=\"摩根\"]汉娜，看你前面的路！\n[CharacterCutin(widgetID=\"3\", name=\"avg_155_tiger_1#9$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=-300, width=200, block=true)]\n[name=\"因陀罗\"]好吧好吧——！\n[Dialog]\n[CharacterCutin(widgetID=\"3\",fadetime=0.2,block=false)]\n[CharacterCutin(widgetID=\"4\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[Dialog]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#7$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=0, width=200, block=true)]\n[name=\"推进之王\"]让战车尽量抵近法阵的核心，我来搞定那东西！\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[CharacterCutin(widgetID=\"4\", name=\"avg_npc_405_1#4$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"摩根\"]维娜！\n[Dialog]\n[CharacterCutin(widgetID=\"4\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#10$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"推进之王\"]你们还有其他的任务。\n[name=\"推进之王\"]所有人员按照常规部署整队。摩根，汉娜，你们和号角小姐按原计划指挥战车开路。\n[name=\"推进之王\"]希勒少尉、达格达、戴菲恩，麻烦你们指挥地面编队组织防线，拦住那些血魔大君的小虫。\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"3\", name=\"avg_4110_delphn_1#1$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=-300, width=200, block=true)]\n[name=\"戴菲恩\"]放心。\n[Dialog]\n[CharacterCutin(widgetID=\"3\",fadetime=0.1,block=false)]\n[delay(time=0.2)]\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"4\", name=\"avg_npc_1070_1#1$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=0, width=200, block=true)]\n[name=\"希勒少尉\"]收到。\n[Dialog]\n[CharacterCutin(widgetID=\"4\",fadetime=0.1,block=false)]\n[delay(time=0.2)]\n[Dialog]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"5\", name=\"avg_npc_396_1#1$1\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.2, offsetx=300, width=200, block=true)]\n[name=\"达格达\"]收到。\n[Dialog]\n[CharacterCutin(widgetID=\"5\",fadetime=0.1,block=false)]\n[delay(time=0.2)]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#10$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"推进之王\"]Misery先生，敌方部队的指挥官交给你了。\n[Dialog]\n[CharacterCutin(widgetID=\"2\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"6\", name=\"avg_npc_235\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=0, width=200, block=true)]\n[name=\"Misery\"]你大胆执行你的计划即可。\n[Dialog]\n[CharacterCutin(widgetID=\"6\",fadetime=0.2,block=false)]\n[delay(time=0.3)]\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"n\")]\n[CharacterCutin(widgetID=\"2\", name=\"avgnew_112_siege_1#10$2\", style=\"cutin\",fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=-300, width=200, block=true)]\n[name=\"推进之王\"]费斯特，好久不见，寒暄放在之后。我需要自救军帮我布置滑索到法阵上方。\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"r\")]\n[name=\"费斯特\"]没问题！\n[charslot(slot=\"r\",name=\"avg_4072_ironmn_1#10$1\",focus=\"n\")]\n[name=\"推进之王\"]事不宜迟，先把那个奇怪的法阵给解决了再说。\n[name=\"推进之王\"]我的背后就交给各位了。"
+        }
+      ],
+      "description": "双方参加同一联合进攻部署。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "char_154_morgan",
+          "reason": "双方参加同一联合进攻部署。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        },
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "双方参加同一联合进攻部署。",
+          "status": "supported",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 646,
+          "kind": "story",
+          "line": 583,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "布伦特伍德联合行动",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_154_morgan|npc_2a519e8c8e7b4e11"
+}

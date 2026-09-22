@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 53,
+          "line": 43,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_beg.txt",
+          "quote": "[name=\"陈\"] ……从我姐姐的身体里滚出去。\n[name=\"陈\"] ……我本想这么说，但这似乎是在给你找理由。如果有理由，也等到你能活着上了法庭再说。\n[name=\"陈\"] 阿米娅，拿好你的剑，我们要上了！\n[Character(name=\"char_011_talula_1\")]\n[name=\"塔露拉？\"]  你们是不是……被我现在的法术展现出的力量……迷惑了？\n[name=\"塔露拉？\"] 我再重述一遍。这座城里能杀我的人已经死了。除了爱国者，切尔诺伯格核心城中没人能杀我。\n[name=\"塔露拉？\"] 冻原的冰雪噩梦，霜星，也死在了龙门，正如我所规划的那样。\n[name=\"塔露拉？\"] 即使你们用着这两把剑……你们也不可能与他们并称。\n[name=\"塔露拉？\"] 我让你们产生太多错觉了。\n[name=\"塔露拉？\"] 假若这具身体并不愿意，我是什么事都做不成的。\n[name=\"塔露拉？\"] 可是现在，我的身躯究竟是在克制什么？我不能理解。"
+        }
+      ],
+      "description": "在面对黑蛇占据的塔露拉时听到霜星的具体死讯，仅证明接收者知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E41"
+          ],
+          "from": "char_010_chen",
+          "reason": "在面对黑蛇占据的塔露拉时听到霜星的具体死讯，仅证明接收者知晓。",
+          "status": "supported",
+          "to": "npc_e4fe2d3b4e1c0e5b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_e4fe2d3b4e1c0e5b",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_010_chen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_9da96a3980c3df2e.json",
+      "sources": [
+        {
+          "endLine": 53,
+          "kind": "story",
+          "line": 43,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_08-17_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "怒号光明"
+    }
+  ],
+  "relationship_id": "char_010_chen|npc_e4fe2d3b4e1c0e5b"
+}

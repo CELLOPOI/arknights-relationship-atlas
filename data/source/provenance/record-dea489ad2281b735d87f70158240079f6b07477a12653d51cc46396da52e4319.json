@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 620,
+          "line": 607,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_beg.txt",
+          "quote": "[name=\"极境\"]咳咳，这位先生，请问你们这是要发动一场叛变还是怎么的？我有点不是太理解现在的状况。\n[name=\"极境\"]谁能给我解释一下？\n[charslot(slot = \"m\", name = \"avg_npc_1590_1#1$1\",focus=\"m\")]\n[name=\"鲁斯\"]我们要把他一起交出去吗？\n[charslot(slot = \"m\", name = \"avg_npc_1579_1#1$2\",focus=\"m\")]\n[name=\"哈维尔\"]交出去吧。\n[charslot(slot = \"m\", name = \"avg_npc_450_1#8$1\",focus=\"m\")]\n[multiline(name=\"极境\")]棘刺不会……\n[charslot(slot = \"m\", name = \"avg_npc_450_1#5$1\",focus=\"m\")]\n[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=60,duration=0.5)]\n[multiline(name=\"极境\")]我……唔！唔！\n[Dialog]\n[charslot(slot = \"m\", name = \"avg_npc_1590_1#1$1\",focus=\"m\")]\n[name=\"鲁斯\"]我把他的嘴堵上了，不然这房间没法清静。"
+        }
+      ],
+      "description": "鲁斯当场堵住极境嘴。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "char_401_elysm",
+          "reason": "鲁斯当场堵住极境嘴。",
+          "status": "supported",
+          "to": "npc_0a8b187bfc318db9"
+        },
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_0a8b187bfc318db9",
+          "reason": "鲁斯当场堵住极境嘴。",
+          "status": "supported",
+          "to": "char_401_elysm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 620,
+          "kind": "story",
+          "line": 607,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_401_elysm|npc_0a8b187bfc318db9"
+}

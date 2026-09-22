@@ -1,0 +1,15 @@
+{
+  "id": "import:npc_03f95afb5dd17c3f|npc_0957af9bf990438d",
+  "published": true,
+  "quote": "【巴别塔】\nScout：那么，殿下，这次的简报就只有这些。\n特蕾西娅：看来军事委员会笃定我们会收复C8—10区域的村庄和物资，并在那里建立哨站，他们已经落入了圈套。\nScout：但……有一些军官，开始表露出与曼弗雷德大不相同的军事策略。这很不寻常。\nScout：间谍提出，曾看见过食腐者出入军队的营帐。\n特蕾西娅：孽茨雷……\n特蕾西娅：博士怎么看待这件事？\nScout：博士认为，在萨卡兹的战争之神表露出任何形式的参与意图后，我们的布置会被全盘打乱。",
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_0957af9bf990438d",
+  "sources": [
+    {
+      "endLine": 147,
+      "kind": "story",
+      "line": 136,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

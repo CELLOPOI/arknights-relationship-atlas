@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 854,
+          "line": 838,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "quote": "[name=\"？？？\"]号角，你还能动吗？快抓住我的手！\n[dialog]\n[ImageTween(xScaleTo=1, yScaleTo=1, duration=5, xTo=0, yTo=0, ease=\"InOutQuint\", block=false)]\n[delay(time=1.5)]\n[soundvolume(channel=\"bgs\",volume=0.4,fadetime=1)]\n[playMusic(intro=\"$newhope02_intro\", key=\"$newhope02_loop\", volume=0.4)]\n[delay(time=2)]\n[name=\"号角\"]……罗本？\n[name=\"号角\"]你……没……\n[name=\"罗本\"]是的，我没死！我运气好，摔下去的时候抓住了外墙结构，然后又被Misery先生救了！\n[name=\"Misery\"]来吧，士兵，你的仗还没有打完。\n[name=\"号角\"]……你们啊，就真的不打算让我休息一会吗？\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"罗本\"]不行！\n[name=\"罗本\"]号角，你别闭眼睛，别忘了，你的士兵还在这里！你不能倒下！\n[name=\"号角\"]罗本，你变得就和……和我的某个队员一样吵闹。\n[name=\"号角\"]算了……我从来就拿你们没办法。"
+        }
+      ],
+      "description": "Misery再次救援号角并当面叫她继续战斗，号角回应，确认双方直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E94"
+          ],
+          "from": "char_4039_horn",
+          "reason": "Misery再次救援号角并当面叫她继续战斗，号角回应，确认双方直接相识。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E94"
+          ],
+          "from": "char_615_acspec",
+          "reason": "Misery再次救援号角并当面叫她继续战斗，号角回应，确认双方直接相识。",
+          "status": "supported",
+          "to": "char_4039_horn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 854,
+          "kind": "story",
+          "line": 838,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 168,
+          "line": 95,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-03_beg.txt",
+          "quote": "[name=\"自救军战士\"]撤离已经基本完成了！\n[charslot(slot=\"l\",name=\"avg_npc_229_1#6\",focus=\"l\")]\n[name=\"号角\"]很好，我们也必须离开这里。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#3$1\",focus=\"m\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$e_skill_ignite_cast\", volume=0.6)]\n[PlaySound(key=\"$p_aoe_nmag_h\", volume=1,delay=0.6)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[Delay(time=0.2)]\n[musicvolume(volume=0, fadetime=0.5)]\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_419_1#1$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_419_1#1$1\",focus=\"all\")]\n[delay(time=0.2)]\n[PlaySound(key=\"$bodyfalldown1\", volume=1)]\n[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"l\",name=\"avg_npc_419_1#1$1\",afrom=1,ato=0,duration=0.5)]\n[charslot(slot=\"r\",name=\"avg_npc_419_1#1$1\",afrom=1,ato=0,duration=0.5)]\n[Delay(time=1.5)]\n[musicvolume(volume=0.6, fadetime=1)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_414_1#1$1\",focus=\"m\")]\n[name=\"罗本\"]那个罗德岛的萨卡兹，是叫Logos吗？\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"m\")]\n[name=\"号角\"]我还以为，在与Misery先生并肩作战这么久以后，我们都已经不会再为罗德岛的作战方式感到惊讶了。\n[charslot(slot=\"m\",name=\"avg_npc_414_1#1$1\",focus=\"m\")]\n[name=\"罗本\"]也对。不管那位Logos先生是什么身份，他的那些咒术都帮了我们大忙。\n[charslot(slot=\"m\",name=\"avg_npc_398_1#1$1\",focus=\"m\")]\n[name=\"自救军战士\"]……哈，而且他玩飞镖很有一手。\n[name=\"自救军战士\"]我有幸跟他比过几次，他的准头可能和他的那些法术一样恐怖。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\",duration=1)]\n[delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]……我的一位朋友，教过我一些小技巧罢了。\n[name=\"Logos\"]那家伙圆凳滑行赛比不过我，但玩起飞镖来……不差。\n[name=\"Logos\"]号角女士，萨卡兹的部队已经暂时退却，抓紧机会。\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"m\")]\n[name=\"号角\"]根据计划，罗德岛和自救军会通过补给线，撤往那条运输通道的起点，一个叫布伦特伍德的镇子附近，并尝试重新建立安全屋。\n[name=\"号角\"]我们去那里与他们会合。\n[name=\"号角\"]我建议向城墙的方向突围，诺伯特区被抛离了，萨卡兹虽然合拢了城墙，但还来不及新建一个地块填补那里。\n[name=\"号角\"]那些裸露的地下结构会帮上我们的忙的。\n[Dialog]\n[charslot]\n[stopmusic(fadetime=1)]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_657_1#1$1\",posfrom=\"200,0\",posto=\"0,0\",afrom=0,ato=1,duration=1,isblock=true)]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_657_1#1$1\",posfrom=\"0,0\",posto=\"-300,0\",duration=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_657_1#1$1\",afrom=1,ato=0,duration=0.4,isblock=true)]\n[Delay(time=1)]\n[Dialog]\n[charslot]\n[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_650_1#4$1\",focus=\"m\")]\n[name=\"Logos\"]……\n[charslot(slot=\"m\",name=\"avg_npc_650_1#3$1\",focus=\"m\")]\n[name=\"Logos\"]看来，我又遇到了一位故人。\n[charslot(slot=\"m\",name=\"avg_npc_398_1#1$1\",focus=\"m\")]\n[name=\"自救军战士\"]是那位教飞镖的朋友吗？\n[charslot(slot=\"m\",name=\"avg_npc_650_1#3$1\",focus=\"m\")]\n[name=\"Logos\"]很遗憾，并不是。\n[name=\"Logos\"]与这位故人不同，我的朋友们至死如一。\n[name=\"Logos\"]各位，我在城内恐怕还有些小事需要处理，号角女士有能力带你们离开伦蒂尼姆。我的同事Misery也会在必要时刻支援你们。\n[charslot(slot=\"m\",name=\"avg_npc_229_1#1\",focus=\"m\")]\n[name=\"号角\"]……我明白了。\n[name=\"号角\"]各位，保持隐蔽，跟我来。"
+        }
+      ],
+      "description": "号角与Misery并肩作战并直接交接队伍。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_4039_horn",
+          "reason": "二人在同一连续场景中直接交流或共同制定行动。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_615_acspec",
+          "reason": "二人在同一连续场景中直接交流或共同制定行动。",
+          "status": "supported",
+          "to": "char_4039_horn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 168,
+          "kind": "story",
+          "line": 95,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "char_4039_horn|char_615_acspec"
+}

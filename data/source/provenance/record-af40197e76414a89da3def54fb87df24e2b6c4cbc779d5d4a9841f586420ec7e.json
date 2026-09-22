@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 381,
+          "line": 361,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18d3/level_act18d3_03_end.txt",
+          "quote": "[name=\"安妮塔\"]况且没什么人能坚持那么长的时间。\n[character(name=\"avg_1012_skadiSP_1#4\")]\n[name=\"斯卡蒂\"]你这是在说什么？\n[character(name=\"avg_npc_180#1\")]\n[name=\"安妮塔\"]我说，你说不定是命特别好的那种人。你不用再找她了。\n[character(name=\"avg_1012_skadiSP_1#5\")]\n[name=\"斯卡蒂\"]……\n[character(name=\"avg_npc_180#1\")]\n[name=\"安妮塔\"]在我们这里，只有没包袱的人才能活得久些。要是脑子里一直想一件事情，人就会发疯。\n[name=\"安妮塔\"]你别看我没活多少年，我见过发疯的人可多哩。\n[character(name=\"avg_1012_skadiSP_1#5\")]\n[name=\"斯卡蒂\"]你不懂。\n[character(name=\"avg_npc_180#4\")]\n[name=\"安妮塔\"]我是不懂你们过去发生过什么。但过去的事，好的不好的，积得多了，都会把人压坏。\n[name=\"安妮塔\"]就像佩特拉奶奶每提一次曼纽尔这个名字，我都知道她的病又重了一些。\n[name=\"安妮塔\"]你还年轻，你不用过得这么辛苦。\n[character(name=\"avg_1012_skadiSP_1#5\")]\n[name=\"斯卡蒂\"]……没那么简单。\n[character(name=\"avg_npc_180#3\")]\n[name=\"安妮塔\"]简单不简单的，你可以说说看啊。\n[name=\"安妮塔\"]我就在这里，我想听。"
+        }
+      ],
+      "description": "斯卡蒂与安妮塔直接相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_263_skadi",
+          "reason": "斯卡蒂直接回应安妮塔。",
+          "status": "supported",
+          "to": "npc_ea1bda26ea379484"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_ea1bda26ea379484",
+          "reason": "安妮塔直接劝说并询问斯卡蒂。",
+          "status": "supported",
+          "to": "char_263_skadi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_a4822f3498b97894.json",
+      "sources": [
+        {
+          "endLine": 381,
+          "kind": "story",
+          "line": 361,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18d3/level_act18d3_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "盐风城相处期间",
+      "title": "覆潮之下"
+    }
+  ],
+  "relationship_id": "char_263_skadi|npc_ea1bda26ea379484"
+}

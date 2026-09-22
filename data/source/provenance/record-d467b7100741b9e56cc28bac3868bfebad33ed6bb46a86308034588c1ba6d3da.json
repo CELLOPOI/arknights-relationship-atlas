@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 380,
+          "line": 320,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "quote": "[name=\"伶俐的少女\"]算下来，应该是和云先生第二次打照面了。\n[name=\"伶俐的少女\"]机缘至此，也算是天意吧。很高兴再见到您，云先生。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"m\")]\n[name=\"云青萍\"]这位姑娘……\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#6$1\",focus=\"m\")]\n[name=\"伶俐的少女\"]您可以叫我莫佚。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"m\")]\n[name=\"云青萍\"]不知莫小姐请我过来，是为了何事？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]云先生作为那位宗师的亲传弟子，应该是最了解他的人吧。所以想请您帮忙鉴定一件宝物。\n[name=\"莫佚\"]麻烦您看看，这本书是不是他的手笔？\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#6$1\",focus=\"m\")]\n[name=\"云青萍\"]原来……\n[name=\"云青萍\"]最近这座小镇上为这本秘籍闹出了不少风波，应该都是莫小姐有意为之的吧？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#11$1\",focus=\"m\")]\n[name=\"莫佚\"]哈哈，我姑且不否认就是了。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#6$1\",focus=\"m\")]\n[name=\"莫佚\"]总之，请您现在当着这位梁先生的面，鉴定一下这本《武典》的真伪。\n[Dialog]\n[charslot]\n莫佚从口袋中掏出了那本秘籍交给了云青萍。\n这是云青萍来到小镇后第二次见到这本书，在那座茶馆中他见到这本书被那位跑堂的抢走，此时却不知为何又落在了她的手里。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#7$1\",focus=\"m\")]\n[name=\"云青萍\"]（仔细地翻阅）\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#1$1\",focus=\"m\")]\n[name=\"云青萍\"]不错，这本书正是由宗师口述，我亲笔所写。每个字都分毫不差。\n[name=\"云青萍\"]我想问问姑娘，这本书是宗师送给玉门左宣辽左将军的礼物，姑娘又是如何拿到手的呢？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#6$1\",focus=\"m\")]\n[name=\"莫佚\"]这个话题稍后告诉你也无妨——梁先生，界园主人对这样宝物是否感兴趣呢？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"梁\"]莫姑娘既然能拿到这本书，想必是有过人的手段，其中细节，我也不必过问了。\n[name=\"梁\"]剩下的事，待我转告先生，再由他判断吧。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]既然已经可以确定是那位宗师宝典的原本，你家先生还是不愿意现身吗？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\",focus=\"m\")]\n[name=\"梁\"]先生性格在下可琢磨不透，是不是宝物，他自有一套评判标准。\n[name=\"梁\"]还是等我去找到他，再给姑娘答复吧。\n[Dialog]\n[charslot(duration=2)]\n[Delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#10$1\",focus=\"m\")]\n[name=\"莫佚\"]可惜……\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#6$1\",focus=\"m\")]\n[name=\"云青萍\"]莫小姐，现在能否容在下问一个问题了？\n[name=\"云青萍\"]你盗取秘籍，又在江湖上散播种种谣言，究竟是为了什么？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]云先生应该也算半个武林中人吧。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#6$1\",focus=\"m\")]\n[name=\"云青萍\"]早些年跟着老师游历过一些地方，不敢自称是武林人。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#3$1\",focus=\"m\")]\n[name=\"莫佚\"]是啊……我也不算什么武林人，最多就是个跑江湖的，对武功什么的更是一窍不通。\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#6$1\",focus=\"m\")]\n[name=\"莫佚\"]可我最喜欢看那些自诩武林豪杰的人争得你死我活，为一点名声、一点羽毛蒜皮的恩恩怨怨打得头破血流。\n[name=\"莫佚\"]活生生的人情人性啊，可比戏里的好看。\n[charslot(slot=\"m\",name=\"avg_4196_reckpr_1#6$1\",focus=\"m\")]\n[name=\"云青萍\"]可是为了莫小姐想看的这一场戏，就要有不少人流血。\n[name=\"云青萍\"]莫小姐这样的做法，是不是有些不仁义了？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#11$1\",focus=\"m\")]\n[name=\"莫佚\"]天地本就不仁，我又何必假装仁义？\n[charslot(slot=\"m\",name=\"avg_npc_1871_1#1$1\",focus=\"m\")]\n[name=\"莫佚\"]等着瞧吧，接下来这出好戏，云先生应该也会喜欢的。"
+        }
+      ],
+      "description": "莫佚听取并回应《武典》属于左宣辽的具体事实，反向无证。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_8ce7f1257163071b",
+          "reason": "本窗未建立。",
+          "status": "not_established",
+          "to": "npc_f3a46713520eb64b"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_f3a46713520eb64b",
+          "reason": "直接对话或具体提及支持。",
+          "status": "supported",
+          "to": "npc_8ce7f1257163071b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_de253c01830c5b8d.json",
+      "sources": [
+        {
+          "endLine": 380,
+          "kind": "story",
+          "line": 320,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19mini/level_act19mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "邙山山顶会面",
+      "title": "镜中集"
+    }
+  ],
+  "relationship_id": "npc_8ce7f1257163071b|npc_f3a46713520eb64b"
+}

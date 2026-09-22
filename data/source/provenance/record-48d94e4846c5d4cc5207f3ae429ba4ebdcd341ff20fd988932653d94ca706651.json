@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 409,
+          "line": 247,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_02_end.txt",
+          "quote": "[dialog]\n[Character(name=\"avg_npc_225\")]\n沉默的骑士环顾四周，视线所及，灯光都在试图避让。\n[dialog]\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#2\", focus=2)]\n[name=\"老骑士\"]  回答我，你为什么知道那个名字……？\n[Character(name=\"avg_npc_120#2\", name2=\"avg_npc_101#3\", focus=2)]\n[name=\"老工匠\"]  喂老弗，这是你熟人吗？\n[Character(name=\"avg_npc_225\")]\n[name=\"？？？\"]  ……\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_107#2\", focus=2)]\n[name=\"光头马丁\"]  要喝点什么吗？客人？如果没什么事的话，这里可能不太欢迎手提兵器的骑士。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_107#2\", focus=1)]\n[name=\"？？？\"]  （古老的语言）……遗憾。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#2\", focus=2)]\n[PlaySound(key=\"$dooropenquite\", volume=0.6)]\n[name=\"老骑士\"]  等等，别急着走——\n[dialog]\n[character]\n[PlaySound(key=\"$rungeneral\", volume=0.6)]\n[Character(name=\"avg_npc_064_weapon_1\",fadetime=1,block=true)]\n[delay(time=1)]\n[characteraction(name=\"middle\", type=\"move\", xpos=200, fadetime=2,block=false)]\n[name=\"佐菲娅\"]  科瓦尔，玛莉娅要继续借用你的工坊——\n[Character(name=\"avg_npc_064_weapon_1\")]\n[name=\"佐菲娅\"]  ——呃。\n[Dialog]\n[Character(name=\"char_empty\", name2=\"avg_npc_064_weapon_1#5\")]\n[PlaySound(key=\"$rungeneral\", volume=0.6)]\n[characteraction(name=\"left\", type=\"move\", xpos=-200, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[characteraction(name=\"left\", type=\"move\", xpos=380, fadetime=1, block=false)]\n[Character(name=\"avg_npc_061#3\", name2=\"avg_npc_064_weapon_1#5\",fadetime=0.7)]\n[delay(time=1.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"玛莉娅\"]  佐、佐菲娅姐姐，慢点……呀！\n[characteraction(name=\"left\", type=\"move\", xpos=-80, fadetime=1.5, block=true)]\n[name=\"玛莉娅\"]  怎么突、突然停下，怎么了？\n[Character(name=\"avg_npc_225\")]\n[name=\"？？？\"]  ……你是……\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_064_weapon_1#5\", focus=2)]\n[name=\"佐菲娅\"]  ……逐魇骑士？\n[name=\"佐菲娅\"]  崭露头角的本届新星来这里做什么？是来打探玛莉娅和玛嘉烈的情报的吗？\n[name=\"佐菲娅\"]  如果是这样——\n[Character(name=\"avg_npc_225\")]\n[name=\"逐魇骑士\"]  聒噪。\n[Character(name=\"avg_npc_064_weapon_1#2\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"佐菲娅\"]  ——！\n[dialog]\n[Character(name=\"avg_npc_225\")]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"avg_npc_061#5\", name2=\"avg_npc_064_weapon_1#2\", focus=1)]\n[characteraction(name=\"left\", type=\"move\", xpos=180, fadetime=1,block=false)]\n[name=\"玛莉娅\"]  小心！\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[dialog]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"avg_npc_061#6\")]\n[name=\"玛莉娅\"]  你……你突然做什么！？\n[Character(name=\"avg_npc_225\")]\n[name=\"逐魇骑士\"]  ……天马……软弱的种族。只有流淌着黄金之血的天马才配称得上对手。\n[name=\"逐魇骑士\"]  但在天马退位之后，这所谓的“骑士之国”……\n[name=\"逐魇骑士\"]  草原在衰弱，你们难道都视而不见吗，库兰塔？\n[name=\"逐魇骑士\"]  现在的卡西米尔，你们这些人，都被称为骑士吗？\n[name=\"逐魇骑士\"]  都会在那座……浮夸的竞技场上，比拼武艺吗？\n[PlaySound(key=\"$d_gen_soldiersrun\", volume=0.6)]\n[dialog]\n[delay(time=1)]\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_225\", focus=1)]\n[name=\"光头马丁\"]  我很难在你做出刚才的行为后，还老老实实和你对话。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#3\", focus=2)]\n[name=\"老骑士\"]  别动……小子，我还有话问你，我可不想现在射穿你的脑袋。\n[Character(name=\"avg_npc_225\")]\n[name=\"逐魇骑士\"]  不错……还有战斗的意志。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_225\", focus=2)]\n[name=\"逐魇骑士\"]  那么，你呢？\n[Character(name=\"avg_npc_209_1#3\", name2=\"avg_npc_225\", focus=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"罗伊\"]  欸，我、我？我就是个路过的骑士粉丝，您高抬贵手，当我不存在就好。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_225\", focus=1)]\n[name=\"罗伊\"]  我也什么都不会做，什么都不会，嗯。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_225\", focus=2)]\n[name=\"逐魇骑士\"]  ……\n[Character(name=\"avg_npc_209_1#2\")]\n[name=\"罗伊\"]  （颤铁马丁，善用战锤，弗格瓦尔德，征战骑士的射手，鞭刃骑士，受了伤之后不算什么威胁……玛莉娅，暂时没有关注的必要。）\n[name=\"罗伊\"]  （但这些其实不关键……嗯……梦魇果然是来找弗格瓦尔德的……）\n[Character(name=\"avg_npc_209_1#6\")]\n[name=\"罗伊\"]  （好了……接下来……该怎么做呢。耀骑士会来吗？）\n[Character(name=\"avg_npc_225\")]\n[name=\"逐魇骑士\"]  ……这里不值得停留，与你们为伍，令人坐立难安。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#2\", focus=2)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"老骑士\"]  你小子，看不起谁呢？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#2\", focus=1)]\n[name=\"逐魇骑士\"]  （古老的语言）巴特巴雅尔，你曾征战沙场，亲临战争，却只是勉强卫护了家园。\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_101#3\", focus=2)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"老工匠\"]  （他在说啥！？）\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#3\", focus=2)]\n[name=\"老骑士\"]  战争……你是征战骑士？你认识我？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#3\", focus=1)]\n[name=\"逐魇骑士\"]  （古老的语言）不，我并不是“骑士”，这太过可笑，只不过，战争是你唯一不曾令先祖蒙羞的行径，末裔。\n[name=\"逐魇骑士\"]  （古老的语言）即使是在这里……钢筋水泥的城市，阴雨穿过霓虹，末裔，我希望你还记得草原的呼吸与可汗许下的誓言……\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#3\", focus=2)]\n[name=\"老骑士\"]  ……可汗？啊……？\n[name=\"老骑士\"]  你在说什么陈芝麻烂谷子的事儿？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#3\", focus=1)]\n[name=\"逐魇骑士\"]  （古老的语言）本想……在再次启程之前，在这所谓的骑士之国寻找残存的同胞，如今看来，是我异想天开。\n[name=\"逐魇骑士\"]  （古老的语言）无妨。\n[Character(name=\"avg_npc_225\")]\n[name=\"逐魇骑士\"]  （古老的语言）卡西米尔的懦弱是对可汗功绩的不敬，这种行为必须有人去纠正。\n[Character(name=\"avg_npc_120#2\")]\n[name=\"老骑士\"]  站住！你还没有回答我的问题！\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#2\", focus=1)]\n[name=\"逐魇骑士\"]  ……嗯，虽然如今已泯然众人，但至少也算半个同胞……我该回答你的问题。\n[name=\"逐魇骑士\"]  ……你的名字是一个老兵告诉我的，而他，已经年老体衰，甚至无法奔跑。\n[name=\"逐魇骑士\"]  我寻找着卡西米尔内的每一个同胞，无论关系多么微弱，只是在寻找同胞而已。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  哈？同胞？在卡西米尔吗？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  ……已经与你无关了，卡西米尔人。\n[dialog]\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_064_weapon_1#5\", focus=2)]\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=25, randomness=70, fadeout=true, block=false)]\n[name=\"佐菲娅\"]  站住。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_064_weapon_1#5\", focus=1)]\n[name=\"逐魇骑士\"]  ……\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_064_weapon_1#5\", focus=2)]\n[name=\"佐菲娅\"]  逐魇骑士……早听说是个行事乖张的新人。\n[name=\"佐菲娅\"]  可是被你这么刀剑相向，我们怎么可能会轻易放你走啊。\n[name=\"佐菲娅\"]  把头盔摘下来谈话如何？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_064_weapon_1#5\", focus=1)]\n[name=\"逐魇骑士\"]  ……“逐魇”……？啊，是那群城市的奴隶为我擅自颁发的名号吗。\n[name=\"逐魇骑士\"]  可笑……骑士需要如此在乎名号吗……\n[name=\"逐魇骑士\"]  只因其与生俱来的信仰和对掌握命运的渴望，才催促着骑士踏上旅途。\n[Character(name=\"avg_npc_061#5\")]\n[CameraShake(duration=0.2, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"玛莉娅\"]  ……！\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_064_weapon_1#5\", focus=2)]\n[name=\"佐菲娅\"]  你这样寻衅滋事，骑士协会可不会善罢甘休，你想被剥夺特锦赛资格吗？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_064_weapon_1#5\", focus=1)]\n[name=\"逐魇骑士\"]  ……如果……卡西米尔只剩下你这样无趣的骑士……那我确实在白费力气，无用的资格被剥夺又何妨。\n[name=\"逐魇骑士\"]  不过，你身边这匹天马……似乎，和我想找的某个人很像……\n[Character(name=\"avg_npc_061#6\", name2=\"avg_npc_225\", focus=1)]\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=25, randomness=70, fadeout=true, block=false)]\n[name=\"玛莉娅\"]  ……！你是说……姐姐……？\n[Character(name=\"avg_npc_061#5\", name2=\"avg_npc_225\", focus=1)]\n[name=\"玛莉娅\"]  ——你找耀骑士想做什么？\n[Character(name=\"avg_npc_061#5\", name2=\"avg_npc_225\", focus=2)]\n[name=\"逐魇骑士\"]  做什么……？被卡西米尔奉为大骑士的各位冠军——如果说当今的卡西米尔还能有什么值得征服的对手，恐怕就在他们之中。\n[name=\"逐魇骑士\"]  当然……也可能，他们全都令人失望。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#2\", focus=2)]\n[name=\"老骑士\"]  ……疯了吧你，你是来找架打的？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#2\", focus=1)]\n[name=\"逐魇骑士\"]  （古老的语言）疯了……？\n[name=\"逐魇骑士\"]  （古老的语言）对……选择活在当下的卡西米尔人，时常这么和我说……\n[name=\"逐魇骑士\"]  （古老的语言）……所以我们不再是同胞了。"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_21902e0a93f3a7c6",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_5b3693e67197379a"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_5b3693e67197379a",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "npc_21902e0a93f3a7c6"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 409,
+          "kind": "story",
+          "line": 247,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "npc_21902e0a93f3a7c6|npc_5b3693e67197379a"
+}

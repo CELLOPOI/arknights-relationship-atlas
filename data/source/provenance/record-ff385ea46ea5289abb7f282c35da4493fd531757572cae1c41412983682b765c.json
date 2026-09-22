@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 556,
+          "line": 527,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_04_beg.txt",
+          "quote": "[name=\"埃尼斯\"]怎么这么随意……\n[name=\"埃尼斯\"]总感觉比起峯驰物流的那位小哥，你不像是真心打算来竞标的……\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#7$1\",focus=\"l\")]\n[name=\"诗怀雅\"]哼，很多和我竞争的人都有过这样的想法。\n[charslot(slot=\"r\",name=\"avg_4106_bryota_1#8$1\",focus=\"r\")]\n[name=\"埃尼斯\"]那后来呢？\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#7$1\",focus=\"l\")]\n[name=\"诗怀雅\"]他们都输给我了。\n[charslot(slot=\"r\",name=\"avg_4106_bryota_1#1$1\",focus=\"r\")]\n[name=\"埃尼斯\"]……噗，真厉害啊。\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_4106_bryota_1#1$1\",focus=\"none\")]\n[name=\"哈莉\"]埃尼斯！过来帮我给招牌上点油漆，博览会就快要开幕了，招牌可要保持最好的样子才行。\n[charslot(slot=\"r\",name=\"avg_4106_bryota_1#1$1\",focus=\"r\")]\n[name=\"埃尼斯\"]马上来！\n[name=\"埃尼斯\"]对了，上回的油漆还有剩，我前几天还低价买了几条灯条，要不我待会儿一起挂上去？\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_4106_bryota_1#1$1\",focus=\"none\")]\n[name=\"哈莉\"]好啊，再有剩的油漆，把桌椅画框也重新漆一遍，路特和丽芙不是说最近和谁学了画画嘛，让他们也来一起？\n[charslot(slot=\"r\",name=\"avg_4106_bryota_1#1$1\",focus=\"r\")]\n[name=\"埃尼斯\"]好，马上！\n[Dialog]\n[charslot(slot=\"r\",posfrom=\"0,0\",posto=\"200,0\",duration=1.5)]\n[charslot(slot=\"r\",afrom=1,ato=0,duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#8$1\",focus=\"l\")]\n[name=\"诗怀雅\"]……\n[charslot(slot=\"l\",name=\"avg_1033_swire2_1#7$1\",focus=\"l\")]\n[name=\"诗怀雅\"]喂，埃尼斯！\n[name=\"诗怀雅\"]把招牌漆成橙色吧，相信我的眼光，肯定会比现在的更吸引顾客一点。"
+        }
+      ],
+      "description": "诗怀雅在店门与埃尼斯谈话，哈莉来到同一招牌处催促帮忙，诗怀雅随后建议颜色，真实局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "char_308_swire",
+          "reason": "诗怀雅在店门与埃尼斯谈话，哈莉来到同一招牌处催促帮忙，诗怀雅随后建议颜色，真实局部同场。",
+          "status": "supported",
+          "to": "npc_9371ba187ed1cfd7"
+        },
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "npc_9371ba187ed1cfd7",
+          "reason": "诗怀雅在店门与埃尼斯谈话，哈莉来到同一招牌处催促帮忙，诗怀雅随后建议颜色，真实局部同场。",
+          "status": "supported",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 556,
+          "kind": "story",
+          "line": 527,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    }
+  ],
+  "relationship_id": "char_308_swire|npc_9371ba187ed1cfd7"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 465,
+          "line": 448,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_08_beg.txt",
+          "quote": "[name=\"费尔南\"]呼……还好赶上了。\n[charslot(slot = \"right\", name = \"avg_npc_2041_1#5$1\",focus=\"r\")]\n[name=\"雅斯彭\"]现在这个情况，你们确定要从这里走？\n[charslot(slot = \"left\", name = \"avg_4214_cairn_1#8$1\",focus=\"l\")]\n[name=\"费尔南\"]没错，这是去云中餐厅的唯一通路。\n[name=\"费尔南\"]穿上我的伞包吧，雅斯彭先生，接下来的旅途可能会很危险。\n[charslot(slot = \"right\", name = \"avg_npc_2041_1#5$1\",focus=\"r\")]\n[name=\"雅斯彭\"]那你呢？\n[charslot(slot = \"left\", name = \"avg_4214_cairn_1#3$1\",focus=\"l\")]\n[name=\"费尔南\"]我？\n[charslot(duration=1)]\n费尔南看着梅兰德特工拉起的封锁线，仿佛见到了一位亲切的对手，难得地露出了饶有兴味的表情。\n用于拍摄的无人机早在半小时之前就退出了七号平台，这里即将上演的一切都不会被演播室青睐。\n每个人都知道正面冲突在所难免，拖延对双方来说都是下策。\n他们盯着彼此的动作，默契地等待一个信号。\n[stopmusic(fadetime=2)]\n[charslot(slot = \"m\", name = \"avg_4214_cairn_1#1$1\")]\n[name=\"费尔南\"]我还有一个旅行团，正在等我的信号。"
+        }
+      ],
+      "description": "响石以费尔南身份与雅斯彭结伴行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_4214_cairn",
+          "reason": "费尔南直接称呼雅斯彭先生并安排其装备与路线。",
+          "status": "supported",
+          "to": "npc_6a8d9a0f38c0d0a0"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_6a8d9a0f38c0d0a0",
+          "reason": "雅斯彭直接回应费尔南并询问她的安排。",
+          "status": "supported",
+          "to": "char_4214_cairn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 465,
+          "kind": "story",
+          "line": 448,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "园区危机期间",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "char_4214_cairn|npc_6a8d9a0f38c0d0a0"
+}

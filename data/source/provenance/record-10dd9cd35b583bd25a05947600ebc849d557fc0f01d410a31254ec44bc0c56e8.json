@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 425,
+          "line": 383,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st01.txt",
+          "quote": "[name=\"斐尔迪南\"]就开门见山吧，布莱克上校。\n[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\",focus=\"r\")]\n[name=\"斐尔迪南\"]你们需要我的帮助，我也需要你们的，这很合理。\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]帮助……嗯……的确。\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]那本该是为掣肘伦蒂尼姆那座该死的塔而准备的超级武器，天知道军方砸进去多少钱。\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]可现在，克丽斯腾本人和相关技术人员全都消失了，一夜之间，杳无音讯。\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]还有那座——技术手册里是怎么称呼那个大圆环来着，“聚焦发生器”？该死，克丽斯腾到底是怎么把那一整个大家伙藏起来的？\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]军方没有让高速军舰包围特里蒙，已经是很温和的选择了。\n[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\",focus=\"r\")]\n[name=\"斐尔迪南\"]这就是我来找你的原因。\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]……克丽斯腾把我耍得团团转，我承认。可我又凭什么相信你这样一个失败者能帮我们解决问题？\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]哥伦比亚能够比肩莱茵生命的公司不胜枚举，我们完全可以靠武力解决问题，然后把这一切交给某个下家来兜底——\n[charslot(slot = \"r\", name = \"avg_npc_890_1#6$1\",focus=\"r\")]\n[name=\"斐尔迪南\"]——你说得没错，布莱克上校，我确实失败了，但我并不蠢。\n[charslot(slot = \"r\", name = \"avg_npc_890_1#6$1\",focus=\"r\")]\n[name=\"斐尔迪南\"]如果军方能这么强硬，你们早就这么做了。你们可从来都不是什么温顺的人道主义者。\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]……\n[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\",focus=\"r\")]\n[name=\"斐尔迪南\"]而我，能量科的……“前主任”，我熟悉莱茵生命，有我帮助，你们的行动才能更有效率。\n[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\",focus=\"r\")]\n[name=\"斐尔迪南\"]特别是，如果你真的想“迅速”“安静”地解决问题的话。\n[charslot(slot = \"l\", name = \"avg_npc_899_1#6$1\",focus=\"l\")]\n[name=\"布莱克\"]我凭什么再相信你一次？\n[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\",focus=\"r\")]\n[name=\"斐尔迪南\"]难道还有什么比一个一无所有的失败者更好控制的吗？\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]……\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]我确实从未想过有一天，会听你自称“失败者”，斐尔迪南。为什么你这么执着？\n[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\",focus=\"r\")]\n[name=\"斐尔迪南\"]高高在上，秘不示人，将所有人的努力与成果都弃之不顾，让整个莱茵生命都成为牺牲品……\n[charslot(slot = \"r\", name = \"avg_npc_890_1#6$1\",focus=\"r\")]\n[name=\"斐尔迪南\"]克丽斯腾没有这个资格。没有人有这个资格。\n[charslot(slot = \"l\", name = \"avg_npc_899_1#1$1\",focus=\"l\")]\n[name=\"布莱克\"]……好吧，这是你今天最具说服力的台词，斐尔迪南。"
+        }
+      ],
+      "description": "斐尔迪南与布莱克直接协商军方行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_89d26c84069133ae",
+          "reason": "斐尔迪南与布莱克直接协商军方行动。",
+          "status": "supported",
+          "to": "npc_9d5d29c1bb701a7f"
+        },
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "npc_9d5d29c1bb701a7f",
+          "reason": "斐尔迪南与布莱克直接协商军方行动。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 425,
+          "kind": "story",
+          "line": 383,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    }
+  ],
+  "relationship_id": "npc_89d26c84069133ae|npc_9d5d29c1bb701a7f"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 147,
+          "line": 124,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_f12yin_1_1.txt",
+          "quote": "[Character(name=\"char_013_riop\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"近卫干员B\"]山，我们帮你把几个逃跑的抓回来了。\n[character(name=\"char_264_Mountain_1#11\")]\n[name=\"山\"]非常感谢。\n[Character(name=\"avg_npc_012\",name2=\"char_013_riop\",focus=1)]\n[name=\"近卫干员A\"]哇，都被打得四仰八叉的，好惨……\n[name=\"近卫干员A\"]这棵树都被折断了，啧啧，我算是理解了为什么说不用担心了。\n[Character(name=\"avg_npc_012\",name2=\"char_013_riop\",focus=2)]\n[name=\"近卫干员B\"]对吧。\n[character(name=\"char_264_Mountain_1#8\")]\n[name=\"山\"]我还不太习惯团队协作，抱歉，我应该中途就联络你们来协助我的。\n[Character(name=\"avg_npc_012\",name2=\"char_013_riop\",focus=2)]\n[name=\"近卫干员B\"]没事没事，你这不是干得很漂亮吗。\n[character(name=\"char_264_Mountain_1#7\")]\n[name=\"山\"]不能这么说，任务的目标是解决赏金猎人给附近村庄带来的困扰，如果有人逃跑了那就会留下隐患。\n[character(name=\"char_264_Mountain_1#11\")]\n[name=\"山\"]如果不是有你们帮我善后，这次任务可能就失败了。\n[Character(name=\"avg_npc_012\",name2=\"char_013_riop\",focus=1)]\n[name=\"近卫干员A\"]你这家伙，真认真啊。\n[character(name=\"char_264_Mountain_1#7\")]\n[name=\"山\"]难道不该这样吗？\n[Character(name=\"avg_npc_012\",name2=\"char_013_riop\",focus=2)]\n[name=\"近卫干员B\"]没，是该这样。就是好久没见到你这么认真的新人了，有点感慨。"
+        }
+      ],
+      "description": "山与Guard共同执行赏金猎人任务。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_264_f12yin",
+          "reason": "山向Guard道谢并与其讨论任务。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "Guard点名山并熟悉其任务表现。",
+          "status": "supported",
+          "to": "char_264_f12yin"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_7eac560dd87929be.json",
+      "sources": [
+        {
+          "endLine": 147,
+          "kind": "story",
+          "line": 124,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_f12yin_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "山干员密录所述罗德岛时期",
+      "title": "山"
+    }
+  ],
+  "relationship_id": "char_264_f12yin|npc_8a4ed8ad1c6f8c69"
+}

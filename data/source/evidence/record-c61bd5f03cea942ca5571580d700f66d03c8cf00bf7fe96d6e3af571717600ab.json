@@ -1,0 +1,22 @@
+{
+  "id": "import:char_4065_judge|npc_e565b7639574735d",
+  "published": true,
+  "quote": "【叙拉古人】\n拉维妮娅：……你们两个认识她吗？\n拉普兰德：嗨。\n卡彭：啧，拉普兰德，我就知道跟你扯上关系绝对不会有好事。\n拉普兰德：在叙拉古坐牢，难道不是一种新奇的体验吗？\n拉维妮娅：……\n拉维妮娅：把他们两个关起来。\n\n【揭幕者们】\n卡彭：……我觉得我们得避一避，那个法官过来了。\n卡彭：哦，她好像不是冲咱们来的——\n拉维妮娅：你就打算这么一声不吭地走掉吗？\n英格丽：拉维妮娅。",
+  "relationship_id": "char_4065_judge|npc_e565b7639574735d",
+  "sources": [
+    {
+      "endLine": 89,
+      "kind": "story",
+      "line": 79,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_st02.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 345,
+      "kind": "story",
+      "line": 327,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_st04.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

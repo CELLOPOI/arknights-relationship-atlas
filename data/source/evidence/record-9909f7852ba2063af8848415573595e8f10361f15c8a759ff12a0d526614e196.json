@@ -1,0 +1,15 @@
+{
+  "id": "import:char_508_aguard|npc_e93a864a5413aa6c",
+  "published": true,
+  "quote": "【风雪过境】\n切斯特：博士，这……\n选项：\n1：不是真的。\n2：……\n3：你觉得呢？\n分支条件（原选项编号）：1\n切斯特：……我可以相信吗？\n分支条件（原选项编号）：2\n武装的领民：怎么，说不出话了？\n分支条件（原选项编号）：3\n武装的领民：少在这里油嘴滑舌的！\n分支条件（原选项编号）：1 / 2 / 3\n武装的领民：不必多说了，我要你给我们一个交代！\n瓦莱丝：卫兵！保护客人！把他们拿下！\n武装的领民：先抓住那个外国人！\n武装的领民：你、你从哪儿冒出来的！\nSharp：这里不安全！\n极光：该跑了博士！\n乌萨斯干员将你扛在了肩膀上，大步向树林里冲去。",
+  "relationship_id": "char_508_aguard|npc_e93a864a5413aa6c",
+  "sources": [
+    {
+      "endLine": 186,
+      "kind": "story",
+      "line": 125,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_03_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

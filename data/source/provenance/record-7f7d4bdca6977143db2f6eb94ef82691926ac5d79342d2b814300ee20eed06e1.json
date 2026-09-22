@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 92,
+          "line": 72,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_poca_1_1.txt",
+          "quote": "[name=\"古米\"]大家好！\n[charslot(slot=\"m\",name=\"char_016_medic\")]\n[name=\"Medic\"]啊，古米，今天是你给病人们做慰问餐吗？\n[charslot(slot=\"m\",name=\"char_196_sunbr_1#1\")]\n[name=\"古米\"]不只是我，还有早露姐哦！\n[charslot(slot=\"m\",name=\"char_016_medic\")]\n[name=\"Medic\"]真的吗？\n[charslot(slot=\"m\",name=\"char_197_poca_1#1\")]\n[name=\"早露\"]其实只是想找个借口向古米学习厨艺而已。\n[charslot(slot=\"m\",name=\"char_196_sunbr_1#2\")]\n[name=\"古米\"]Medic姐姐，我跟你说哦，早露姐为了做好这几道菜，花了许多功夫呢。\n[charslot(slot=\"m\",name=\"char_196_sunbr_1#5\")]\n[name=\"古米\"]古米我啊，作为师父，有这样的徒弟可开心了。\n[charslot(slot=\"m\",name=\"char_016_medic\")]\n[name=\"Medic\"]看来，罗德岛上又要多出一个大厨了。\n[charslot(slot=\"m\",name=\"char_197_poca_1#1\")]\n[name=\"早露\"]我要学的还多着呢。我们先去给病人们送饭吧。\n[charslot(slot=\"m\",name=\"char_196_sunbr_1#2\")]\n[name=\"古米\"]嗯嗯。\n[charslot(slot=\"m\",name=\"char_016_medic\")]\n[name=\"Medic\"]跟我来。"
+        }
+      ],
+      "description": "古米与 Medic 在病房直接交谈；古米是允许的干员端点。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_196_sunbr",
+          "reason": "古米与 Medic 在病房直接交谈；古米是允许的干员端点。",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "古米与 Medic 在病房直接交谈；古米是允许的干员端点。",
+          "status": "supported",
+          "to": "char_196_sunbr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_51df6d8a93defec3.json",
+      "sources": [
+        {
+          "endLine": 92,
+          "kind": "story",
+          "line": 72,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_poca_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "早露"
+    }
+  ],
+  "relationship_id": "char_196_sunbr|npc_30c8dcf1e7b8383d"
+}

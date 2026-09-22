@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 462,
+          "line": 398,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"煌\"]  啧，要是阿斯卡纶和Logos他们还在这里，可不会让你们这么恣意妄为——\n[Character(name=\"char_017_homura_3#6\")]\n[name=\"煌\"]  ——喂！出来。\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"煌\"]  我知道你们埋伏在走廊两侧，但这里可是罗德岛，你们怎么可能骗得过我？\n[Dialog]\n[character]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[Character(name=\"avg_npc_059\",fadetime=1.5,block=true)]\n[delay(time=1.5)]\n[name=\"Guard\"]  是，煌姐，这里是罗德岛。\n[name=\"Guard\"]  我曾经就在这条走廊上，第一次，见到您和其他精英干员们凯旋归来。\n[Character(name=\"char_017_homura_3#9\")]\n[name=\"煌\"]  ——\n[name=\"煌\"]  Guard……？\n[Character(name=\"char_017_homura_3#9\",name2=\"avg_npc_059\",focus=2)]\n[name=\"Guard\"]  我犹豫过。当我得知袭击罗德岛的计划时，我当然犹豫过。\n[name=\"Guard\"]  这不是给自己找借口。但我觉得，正因如此，我反而该来。该来背负这个责任，该来见证这个计划。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_059\",focus=1)]\n[name=\"煌\"]  “责任”……是吗？\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_059\",focus=2)]\n[name=\"Guard\"]  是的。出现在这里，我就没打算给自己找什么道德上的借口。\n[name=\"Guard\"]  只要有任何一个干员这么想，那么我就确实是“叛徒”。\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_059\",focus=1)]\n[name=\"煌\"]  ……那么作为整合运动的你，如今回到这里来又打算做什么？\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_059\",focus=2)]\n[name=\"Guard\"]  为数不多的幸存者离开了乌萨斯，我们游荡在无国界的荒野上。\n[name=\"Guard\"]  先是哥伦比亚，然后是莱塔尼亚，然后是叙拉古，维多利亚……这些国家，这些地方，都有感染者的身影，都在尝试与我们建立联系。\n[name=\"Guard\"]  整合运动点燃了一把火。从冻土，烧向整片大地。\n[name=\"Guard\"]  可我们……我们要如何告诉那些曾因塔露拉而站起来的感染者们，因乌萨斯的整合运动而选择对抗命运的感染者们——\n[name=\"Guard\"]  如何告诉他们我们在切尔诺伯格遭到了怎样的失败？如何告诉他们整合运动不过是又一个被大国利用的弃子？\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_059\",focus=1)]\n[name=\"煌\"]  ……\n[Character(name=\"char_017_homura_3#5\",name2=\"avg_npc_059\",focus=2)]\n[name=\"Guard\"]  有太多不明所以的感染者在那场战争中失去了战友和同胞……\n[name=\"Guard\"]  所以整合运动需要那个真相。需要“领袖”给出一个答复。\n[Character(name=\"avg_npc_059\")]\n[name=\"Guard\"]  然后……\n[stopmusic(fadetime=3)]\n[Character]\n[Dialog]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=1)]\n[Character(name=\"avg_npc_053\",name2=\"avg_npc_053\",fadetime=2,block=true)]\n[Delay(time=3)]\n[Dialog]\n[character]\n[PlayMusic(intro=\"$industv2_intro\", key=\"$industv2_loop\", volume=0.4)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[Character(name=\"avg_npc_054\",fadetime=1.5,block=true)]\n[delay(time=2)]\n[name=\"游击队萨卡兹\"]  然后，我们会重新开始。\n[Character(name=\"char_017_homura_3#6\")]\n[name=\"煌\"]  ——萨卡兹？\n[name=\"煌\"]  不，你们不是普通的雇佣兵——\n[Character(name=\"avg_npc_054\")]\n[name=\"游击队萨卡兹\"]  当然。\n[name=\"游击队萨卡兹\"]  听说W那个疯子后来和你们有什么牵连来着？随便吧。\n[name=\"游击队萨卡兹\"]  大尉死后，也并非所有的游击队战士，都选择与整合运动分道扬镳……\n[name=\"游击队萨卡兹\"]  把塔露拉交给我们。既然整合运动还没有消失，那她就该在我们手里。\n[Character(name=\"char_017_homura_3#5\")]\n[name=\"煌\"]  ……哈。\n[name=\"煌\"]  难道我们真打算靠嘴皮子说服对方吗？\n[Character(name=\"avg_npc_054\")]\n[name=\"游击队萨卡兹\"]  当然不。\n[name=\"游击队萨卡兹\"]  只是，就像塔露拉背负着你们罗德岛与龙门人的性命一样，别忘了，你们的手上，也欠着大尉和叶莲娜的命。"
+        }
+      ],
+      "description": "煌与 Guard 直接对话并交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S13"
+          ],
+          "from": "char_017_huang",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        },
+        {
+          "evidenceIds": [
+            "S13"
+          ],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "同一局部场景直接互动或共同对峙。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 462,
+          "kind": "story",
+          "line": 398,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "走廊阻击",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "char_017_huang|npc_8a4ed8ad1c6f8c69"
+}

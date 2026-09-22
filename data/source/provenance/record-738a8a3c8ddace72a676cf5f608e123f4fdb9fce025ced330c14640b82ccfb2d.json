@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 712,
+          "line": 700,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mudrok_1_1.txt",
+          "quote": "[name=\"大鲍勃\"]那你呢，要在这里一直住下去吗？\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\")]\n[name=\"泥岩\"]不。总有一天，我们会离开，我们会反抗。\n[charslot(slot=\"m\",name=\"avg_npc_010\")]\n[name=\"大鲍勃\"]反抗谁？\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\")]\n[name=\"泥岩\"]乌萨斯的领主，莱塔尼亚的贵族……还不够。\n[charslot(slot=\"m\",name=\"avg_npc_010\")]\n[name=\"大鲍勃\"]那可太好了，能把烟酒施术单元以及源石制品管理局也加进去吗？\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\")]\n[name=\"泥岩\"]（微笑）假如我们真去哥伦比亚的话。\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\")]\n[name=\"泥岩\"]但我们不得不反抗的东西，可能比看得见摸得着的东西……要难对付得多。"
+        }
+      ],
+      "description": "泥岩与大鲍勃当面交谈，确认双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_311_mudrok",
+          "reason": "泥岩直接回应大鲍勃，并以“我们”讨论共同未来。",
+          "status": "supported",
+          "to": "npc_d5c7fa0eb2b4fffa"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_d5c7fa0eb2b4fffa",
+          "reason": "大鲍勃连续向泥岩提问并听取回答。",
+          "status": "supported",
+          "to": "char_311_mudrok"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_409bb8dcd99594ab.json",
+      "sources": [
+        {
+          "endLine": 712,
+          "kind": "story",
+          "line": 700,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mudrok_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇卡兹戴尔火炉边场景",
+      "title": "泥岩"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 132,
+          "line": 70,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "quote": "[name=\"泥岩\"]辛苦了。\n[charslot(slot=\"m\",name=\"avg_npc_090\",focus=\"m\")]\n[name=\"先锋干员\"]没事。对了，我们刚刚还遇到了四个来求助的人，穿着打扮都挺奇怪的，说是和刻俄柏认识，想让罗德岛帮他们回家。\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]嗯？回家？\n[charslot(slot=\"m\",name=\"avg_npc_090\",focus=\"m\")]\n[name=\"先锋干员\"]大概是这个意思，总之辛苦你给他们带一下路，我去和外勤部对接了。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[Delay(time=2)]\n[name=\"莱欧斯小队\"]……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#1$1\",focus=\"m\")]\n[name=\"莱欧斯\"]你好！\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]如果你们是专门来罗德岛求助的，应该是要找博士或者是阿米娅吧？\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#1$1\",focus=\"m\")]\n[name=\"玛露西尔\"]嗯……小刻倒是说过“博士”，我们可能是要找这个人……\n[name=\"玛露西尔\"]你能带我们去见这个博士吗？\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]……我还需要确认下你们的身份，你们先跟我……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#1$1\",focus=\"m\")]\n[CameraShake(duration=0.3 ,xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$book_close\",volume=1,channel=\"1\")]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_paper2\",volume=1,channel=\"2\")]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#8$1\",focus=\"m\")]\n[name=\"莱欧斯\"]哦哦……！不好意思，我的东西掉了……\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]《鲍勃的美食指南》？\n[name=\"泥岩\"]你们认识大鲍勃？\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#18$1\",focus=\"m\")]\n[name=\"莱欧斯\"]嗯，我们来这里吃到的第一顿饭就是他做的。\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#3$1\",focus=\"m\")]\n[name=\"森西\"]能把那样坚硬的虫子处理成一道道美味的食物，老夫很敬佩那个人。\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]我明白了……原来他说的“那些朋友”就是你们。\n[charslot(slot=\"m\",name=\"avg_4142_laios_1#8$1\",focus=\"m\")]\n[name=\"莱欧斯\"]……什么？\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]我叫泥岩，大鲍勃和我讲过你们。当初他们刚决定不再当佣兵，想要换一个活法，但完全不知道开农场的事能不能行。\n[name=\"泥岩\"]荒野上的农场经常会遭到洗劫，大鲍勃也不认识几个做生意的人，啤酒做出来也不知道好不好。\n[name=\"泥岩\"]但你们当时吃他的料理的样子很幸福，给了他不少信心。\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#1$1\",focus=\"m\")]\n[name=\"森西\"]老夫当时并没有看出来他这样窘迫……\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#1$1\",focus=\"m\")]\n[name=\"玛露西尔\"]那……那他现在怎么样……？\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]不知道，我们也很久没见过了。\n[name=\"泥岩\"]我只是听说他后来源石虫啤酒厂办得很好，赚了不少钱，也过上好日子了。\n[charslot(slot=\"m\",name=\"avg_4143_sensi_1#2$1\",focus=\"m\")]\n[name=\"森西\"]那就好……\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]但后来又听说好像是挣钱的时候得罪了当地政府，说是税务还是什么问题，被关进监狱里了。\n[charslot(slot=\"m\",name=\"avg_4144_chilc_1#1$1\",focus=\"m\")]\n[name=\"齐尔查克\"]……啊？\n[charslot(slot=\"m\",name=\"avg_4141_marcil_1#11$1\",focus=\"m\")]\n[name=\"玛露西尔\"]监狱？那他们现在还好吗……？\n[charslot(slot=\"m\",name=\"avg_npc_942_1#1$1\",focus=\"m\")]\n[name=\"泥岩\"]前段时间又听说他们好像越狱还是保释出来了，人没什么问题。"
+        }
+      ],
+      "description": "泥岩说明大鲍勃曾向自己讲过四位朋友，二人有既往通信。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_311_mudrok",
+          "reason": "泥岩说明大鲍勃曾向自己讲过四位朋友，二人有既往通信。",
+          "status": "supported",
+          "to": "npc_d5c7fa0eb2b4fffa"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_d5c7fa0eb2b4fffa",
+          "reason": "泥岩说明大鲍勃曾向自己讲过四位朋友，二人有既往通信。",
+          "status": "supported",
+          "to": "char_311_mudrok"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4b8f03fa1aa37d85.json",
+      "sources": [
+        {
+          "endLine": 132,
+          "kind": "story",
+          "line": 70,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act36side/level_act36side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所示旅程时段",
+      "title": "泰拉饭"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 185,
+          "line": 134,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d0/level_act11d0_sub-1-2_end.txt",
+          "quote": "[name=\"泥岩\"]  ……\n[Character(name=\"char_367_swllow_1\")]\n[name=\"灰喉\"]  你果然来了。\n[Character(name=\"char_367_swllow_1\", name2=\"avg_npc_011#2\",focus=2)]\n[name=\"泥岩\"]  这是，新摘的野花……\n[Character(name=\"char_367_swllow_1\", name2=\"avg_npc_011#2\",focus=1)]\n[name=\"灰喉\"]  你应该清楚眼下的状况，清扫任务已经接近尾声，而罗德岛近期就会离开这里，试着联络资源调度进行援助。\n[name=\"灰喉\"]  但到那时候……\n[Character(name=\"char_367_swllow_1\", name2=\"avg_npc_011#2\",focus=2)]\n[name=\"泥岩\"]  没有人会为我们说话，我知道。\n[name=\"泥岩\"]  ……我不会怪塞弗林。他只能这么向贵族们汇报，否则要遭殃的是他们……\n[name=\"泥岩\"]  我们会尽快离开这里，很快。只是，这里还有我们死去的同伴……我不想不辞而别。\n[Character(name=\"char_345_folnic_1#4\")]\n[name=\"亚叶\"]  ……八名感染者。\n[name=\"亚叶\"]  现在，沃伦姆德死伤的人数，可比“八名”多上几百倍——\n[Character(name=\"avg_npc_011#2\")]\n[name=\"泥岩\"]  ……抱歉。\n[Character(name=\"char_345_folnic_1#4\")]\n[name=\"亚叶\"]  不……这不是你的问题……我没有在责难你。\n[name=\"亚叶\"]  我只是在反思，反思到底是什么让事情变成这样。\n[name=\"亚叶\"]  我当然知道这片大地可不是做好事有好报这么天真，但我也……很少见过这种，这种自我毁灭。\n[name=\"亚叶\"]  被煽动的怒火和复仇欲差点摧毁了一切……连我自己也……\n[Character(name=\"char_367_swllow_1\")]\n[name=\"灰喉\"]  你还是在自责。\n[Character(name=\"char_345_folnic_1#4\")]\n[name=\"亚叶\"]  不……我已经冷静下来了。我只是在想，也许不是“没做好”，而是“做不到”。\n[name=\"亚叶\"]  罗德岛一直以来……凯尔希医生教导我的……我做不到。\n[Character(name=\"avg_npc_011#2\")]\n[name=\"泥岩\"]  ——没人做得到。\n[name=\"泥岩\"]  我阻止过他们过激的行径，但一两次阻止并不能浇灭他们复仇的怒火。\n[name=\"泥岩\"]  所以……事情还是变成了这样。\n[Character(name=\"char_345_folnic_1#4\")]\n[name=\"亚叶\"]  ……\n[Character(name=\"char_367_swllow_1\", name2=\"avg_npc_011#2\",focus=1)]\n[name=\"灰喉\"]  你接下来要怎么做？“整合运动”仍旧是大部分人的眼中钉，你应该彻底抛弃这个标志。\n[Character(name=\"char_367_swllow_1\", name2=\"avg_npc_011#2\",focus=2)]\n[name=\"泥岩\"]  你说得对……但“整合运动”并没有消亡，这一消息已经在莱塔尼亚的感染者间传开。\n[name=\"泥岩\"]  抗争的火种延续了下去……尽管它，扭曲变形。而我们也必须稍作喘息。\n[name=\"泥岩\"]  我的队伍里有太多不是战士的人，我不能擅自帮他们决定他们的命运……他们也许，只是想平静地生活。\n[Character(name=\"avg_npc_011#2\", name2=\"char_345_folnic_1#4\",focus=1)]\n[name=\"泥岩\"]  对了……罗德岛，你们听说过大鲍勃吗？\n[Character(name=\"avg_npc_011#2\", name2=\"char_345_folnic_1#4\",focus=2)]\n[name=\"亚叶\"]  ——没有。\n[name=\"亚叶\"]  如果有什么关联的话，我可以去调查档案。\n[Character(name=\"avg_npc_011#2\", name2=\"char_345_folnic_1#4\",focus=1)]\n[name=\"泥岩\"]  不，没有，只是我的一个朋友……\n[Character(name=\"avg_npc_011#2\", name2=\"char_345_folnic_1#4\",focus=2)]\n[name=\"亚叶\"]  整合运动？还是萨卡兹？\n[Character(name=\"avg_npc_011#2\", name2=\"char_345_folnic_1#4\",focus=1)]\n[name=\"泥岩\"]  ——整合运动。他是一个经验丰富的赏金猎人。\n[name=\"泥岩\"]  他们不是战士，所以，他们有理由脱身……他们应当从压迫中喘口气，去哥伦比亚拓荒的队伍里寻找一席之地……\n[name=\"泥岩\"]  啊……想起来了，他们还有啤酒花。"
+        }
+      ],
+      "description": "泥岩明确称大鲍勃是自己的朋友，并介绍其经历；该关系陈述支持双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_311_mudrok",
+          "reason": "泥岩明确称大鲍勃是自己的朋友，并介绍其经历；该关系陈述支持双方相识。",
+          "status": "supported",
+          "to": "npc_d5c7fa0eb2b4fffa"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_d5c7fa0eb2b4fffa",
+          "reason": "泥岩明确称大鲍勃是自己的朋友，并介绍其经历；该关系陈述支持双方相识。",
+          "status": "supported",
+          "to": "char_311_mudrok"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_0ae5b402eb9240bc.json",
+      "sources": [
+        {
+          "endLine": 185,
+          "kind": "story",
+          "line": 134,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d0/level_act11d0_sub-1-2_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泥岩讲述的既往关系",
+      "title": "沃伦姆德的薄暮"
+    }
+  ],
+  "relationship_id": "char_311_mudrok|npc_d5c7fa0eb2b4fffa"
+}

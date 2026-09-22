@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 317,
+          "line": 244,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_05_end.txt",
+          "quote": "[name=\"大帝\"]戏一般，但在街头演出的形式值得鼓励！你瞧瞧这探照灯，瞧瞧这装饰，听听这音乐……\n[dialog]\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#1$1\",duration = 1)]\n[delay(time=2)]\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#1$1\",focus=\"r\")]\n[name=\"子月\"]是大帝？你怎么在这里？\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]你不也回来了吗，小狼崽？\n[name=\"大帝\"]这种热闹的派对，和我这样的天才艺术家刚好相配！我当然要出现在这里！\n[name=\"大帝\"]看看，年轻人的派对比你们像样多了，阿涅塞。\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#1$1\",focus=\"r\")]\n[name=\"子月\"]……你是来参加派对的，还是来找阿涅塞的？\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]孩子，你的阿涅塞教了你这么多，就愣是没介绍过，派对正是见老朋友的好地方吗？\n[dialog]\n[charslot(slot = \"l\", action=\"jump\",posto = \"-100,0\",power=-30,times=1,duration = 0.4,isblock=true)]\n[charslot(slot = \"l\", action=\"jump\",posto = \"100,0\",power=-30,times=1,duration = 0.4)]\n[delay(time=0.41)]\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]这就是大帝♪眼睛超灵敏♪朋友走遍地♪……一个不注意就要把你击毙♪这歌词怎么样？\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#6$1\",focus=\"r\")]\n[name=\"子月\"]这就是你随便唱出来的吧……\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]即兴，即兴不就是这样吗！阿涅塞，你是不是没教过你的小朋友什么叫流行音乐啊！\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#8$1\",focus=\"r\")]\n[name=\"子月\"]不许你说她！阿涅塞很好，她教我的歌比你唱的好听！\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]是吗？她还教了你什么？\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#9$1\",focus=\"r\")]\n[name=\"子月\"]阿涅塞教我的可多了！她教我生火教我找过夜的地方，教我怎么拿弓怎么用刀子，教我怎么狩猎怎么放干猎物的血！\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]怎么总是这种打打杀杀的……\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#10$1\",focus=\"r\")]\n[name=\"子月\"]……她还教我风的方向、花的味道，教我怎么和牙兽说话。\n[name=\"子月\"]她还教我怎么和人类对话，教我怎么在人类之间活下去。\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]看得出来，你口齿还挺利索，不像那个红色的家伙，每说半句话就能把人急死。\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#10$1\",focus=\"r\")]\n[name=\"子月\"]阿涅塞还教我人类的狂欢节有多好玩，教我怎么在城市里也能过得开心自在，像在荒野里一样……\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]……你还真是学到了不少东西。运气真好，其他的獠牙可学不到这些。\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#9$1\",focus=\"r\")]\n[name=\"子月\"]其他的獠牙……\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]我之前还遇见过其他的狼和他们的獠牙，开口第一个字就让人抓狂。\n[name=\"大帝\"]唉，说实话，阿涅塞，要不是真有要紧的事情，我是绝对不想再和你们这些什么“狼之主”打交道了。\n[name=\"大帝\"]虽然狼群野蛮又顽固，但这一次同族的会面，你们不能缺席。\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#9$1\",focus=\"r\")]\n[name=\"子月\"]阿涅塞的同族……\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]“我的意愿不足以扭转整个狼群的目光……”阿涅塞，你什么意思？说好的“挣脱道路”，说好的“新的生活”呢？\n[name=\"大帝\"]“游戏是狼群的决议，游戏不结束，狼群的意志就不会投向别处，这是我们的天性……”怎么又扯到你们那无聊的游戏了！\n[name=\"大帝\"]“扭转天性是漫长的过程……”，真是够麻烦的！真不想跟你们打交道，一说到正经事就开始扯什么天性。\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#8$1\",focus=\"r\")]\n[name=\"子月\"]阿涅塞说过，“这场游戏，必须有个赢家。”\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]真是蠢狼，我白夸你一通了！\n[dialog]\n[delay(time=1.5)]\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]算了……你教了这孩子这么多厮杀之外的本领，难道还希望她和其他獠牙一样厮杀到死？当初让我送她去罗德岛，也不是为了今天吧？\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#1$1\",focus=\"r\")]\n[name=\"子月\"]……\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]你要是担心她的安危，还是赶紧把她送回罗德岛去吧。真是的，怎么就非要到处乱跑呢！\n[charslot(slot = \"right\", name = \"avg_4014_lunacu_1#6$1\",focus=\"r\")]\n[name=\"子月\"]罗德岛……\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[PlaySound(key=\"$d_avg_wolflordthreat\", volume=1)]\n[delay(time=1.5)]\n[charslot(slot = \"l\", action=\"jump\",posto = \"0,0\",power=30,times=1,duration = 0.3)]\n[charslot(slot = \"left\", name = \"char_105_emper\",focus=\"l\")]\n[name=\"大帝\"]——哇！这些牙兽什么时候出现的，龇着大牙想要吓唬谁呢！"
+        }
+      ],
+      "description": "子月与大帝互相认出并直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "char_4014_lunacu",
+          "reason": "子月与大帝互相认出并直接交谈。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "C10"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "子月与大帝互相认出并直接交谈。",
+          "status": "supported",
+          "to": "char_4014_lunacu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 317,
+          "kind": "story",
+          "line": 244,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "揭幕者们"
+    }
+  ],
+  "relationship_id": "char_4014_lunacu|npc_2b6410ed62fdecf2"
+}

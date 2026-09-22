@@ -1,0 +1,22 @@
+{
+  "id": "import:char_508_aguard|npc_a43cec0eaa3f04c8",
+  "published": true,
+  "quote": "【风雪过境】\n菈塔托丝：你是……什么人？\n阿克托斯：你们是……那个博士的……\n菈塔托丝：……为什么救我们？\nSharp：解释现状不是我的工作。\nSharp：门在那边，外面的人我已经解决了。\nSharp：极光，带他们走。\n极光：好的！\n\n【雪山降临1101】\n阿尔贝塔：啊……！\n阿尔贝塔：这……这是……好多血……\n菈塔托丝：……锏！\nSharp：她需要紧急治疗，这里是否有更多的绷带？\n菈塔托丝：我……我这就找找！\n阿尔贝塔：锏小姐……怎么会受这么重的伤。\nSharp：她一人拖住了十七个“灰礼帽”的进攻……了不起。\nSharp：敌人暂时撤退了，我的小队会接替她保卫这里。\n阿尔贝塔：可是外面还有那么多的维多利亚军队……您要怎么……\nSharp：我会坚持到完成任务为止。",
+  "relationship_id": "char_508_aguard|npc_a43cec0eaa3f04c8",
+  "sources": [
+    {
+      "endLine": 1311,
+      "kind": "story",
+      "line": 1301,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 638,
+      "kind": "story",
+      "line": 621,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_10_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

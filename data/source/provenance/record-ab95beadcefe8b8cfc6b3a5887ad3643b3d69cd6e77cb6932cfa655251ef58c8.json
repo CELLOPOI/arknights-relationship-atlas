@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 246,
+          "line": 172,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-03.txt",
+          "quote": "[name=\"洛洛\"]费斯特！\n[character(name=\"avg_4072_ironmn_1#4$1\")]\n[name=\"费斯特\"]洛洛……哈哈，自救军十一小队又集合了。\n[character(name=\"avg_4040_rockr_1#8$1\")]\n[name=\"洛洛\"]说是又集合了，可十一小队……不就只剩下我们两个人。\n[character(name=\"avg_4072_ironmn_1#9$1\")]\n[name=\"费斯特\"]……嗯。\n[character(name=\"avg_4072_ironmn_1#1$1\")]\n[name=\"费斯特\"]不过，我相信很快我们的队伍又会壮大起来的。\n[character(name=\"avg_4072_ironmn_1#4$1\")]\n[name=\"费斯特\"]毕竟……有博士和指挥官在呢。\n[Dialog]\n[Character]\n[Decision(options=\"克洛维希娅，情况如何？;克洛维希娅，自救军还好吗？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_401_1#1$1\")]\n[name=\"克洛维希娅\"]……撤退得还算及时，但伤亡依然很惨重。\n[name=\"克洛维希娅\"]还有……阿勒黛失踪之后，自救军还将面临严峻的物资问题。\n[name=\"克洛维希娅\"]呼……要是有更多人手就好了……\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[character(name=\"avg_npc_399_1#1$1\",fadetime=1)]\n[Delay(time=1.5)]\n[character(name=\"avg_npc_399_1#1$1\")]\n[name=\"维多利亚雇佣兵\"]把我们也算上呗。\n[character(name=\"avg_npc_401_1#4$1\")]\n[name=\"克洛维希娅\"]铅踝先生？\n[character(name=\"avg_4062_totter_1#1$1\")]\n[name=\"铅踝\"]雇主失踪，合同作废。\n[character(name=\"avg_npc_401_1#9$1\")]\n[name=\"克洛维希娅\"]你们确定愿意留下来吗？\n[character(name=\"avg_4062_totter_1#1$1\")]\n[name=\"铅踝\"]……来都来了。得罪了萨卡兹，要走也麻烦。\n[name=\"铅踝\"]而且，我们和达格达小姐她们在那个墓穴里并肩作战了。\n[name=\"铅踝\"]没有她们的话，我也未必能活着出来。\n[name=\"铅踝\"]我又欠下了一份人情……退休时间得推后了。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[character(name=\"avg_npc_235\",fadetime=1)]\n[Delay(time=1)]\n[name=\"Misery\"]……博士，我们也来了。\n[Dialog]\n[character(name=\"avg_npc_235\",focus=-1)]\n[Decision(options=\"你好，Misery。;你依然很准时。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_229_1#2\")]\n[name=\"号角\"]抱歉，我们原本还可以行动得更快一些……这样的话，说不定能在之前的指挥塔战场上帮到您。\n[character(name=\"avg_npc_401_1#9$1\")]\n[name=\"克洛维希娅\"]这位是……\n[character(name=\"avg_npc_229_1#1\")]\n[name=\"号角\"]维多利亚风暴突击队第二分队指挥官号角，向您报到。\n[name=\"号角\"]几个小时前，Misery先生协助我们突袭了位于奥克特里格区和海布里区交界处的一处监狱。\n[name=\"号角\"]我们成功解救了一支不愿为萨卡兹作战的城防军小队。他们差一点就要被处决了。\n[name=\"号角\"]日后我们将与罗德岛和自救军一起行动。\n[Dialog]\n[character]\n[Decision(options=\"克洛维希娅，看来我们有了一些新朋友。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_npc_401_1#10$1\")]\n[name=\"克洛维希娅\"]感谢大家。\n[name=\"克洛维希娅\"]你们让我惊喜，也让我感到了许多可能性。\n[name=\"克洛维希娅\"]此外，虽然承受了不轻的损失，可我们依然成功取得了关于萨卡兹补给线的重要情报。\n[character(name=\"avg_4072_ironmn_1#10$1\")]\n[name=\"费斯特\"]指挥官，博士，这是海布里区那几个可能的停靠站的详细信息。我已经整理好了。\n[name=\"费斯特\"]再加上可露希尔小姐从城防军指挥塔得到的数据……\n[Character]\n[Dialog]\n[Decision(options=\"通过这些情报，我们就能找到这条补给线。;我们的下一步行动目标就藏在这些信息中。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"avg_npc_401_1#6$1\")]\n[name=\"克洛维希娅\"]嗯，博士。\n[StopMusic(fadetime=2)]\n[name=\"克洛维希娅\"]我们会做好准备，去迎接下一场战斗。"
+        }
+      ],
+      "description": "铅踝与博士共同参加作战会议。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "char_4062_totter",
+          "reason": "铅踝在博士出席的作战会议中直接参与讨论。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士在同一局部会议中与铅踝共同部署。",
+          "status": "supported",
+          "to": "char_4062_totter"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 246,
+          "kind": "story",
+          "line": 172,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛—自救军作战会议",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_4062_totter|npc_b99957887950ebfd"
+}

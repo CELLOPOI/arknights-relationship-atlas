@@ -1,0 +1,20 @@
+{
+  "id": "import:char_112_siege|char_487_bobb",
+  "published": true,
+  "quote": "维娜：……\n埃利西奥：……嗯？\n黛安：等等，埃利西奥先生你也在这？！\n黛安：——你怎么不拦住她？你不是之前急着要找她本人吗？\n埃利西奥：谁……？\n黛安：议长阁下。\n埃利西奥：——议长？！我看到她从地下酒馆出来……\n黛安：我也从那里出来。刚刚凑巧遇上她来找以前的老朋友们喝酒。\n\n戴菲恩：维娜很理解你的心情，她希望亲自来见你，但是被我拦下了。\n戴菲恩：抱歉，但现在她的确有更要紧的事需要处理。",
+  "relationship_id": "char_112_siege|char_487_bobb",
+  "sources": [
+    {
+      "endLine": 425,
+      "kind": "story",
+      "line": 400,
+      "source": "activities/act37side/level_act37side_04_end.txt"
+    },
+    {
+      "endLine": 464,
+      "kind": "story",
+      "line": 463,
+      "source": "activities/act37side/level_act37side_08_end.txt"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 786,
+          "line": 732,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "quote": "[name=\"槐琥\"]是你？\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[charslot]\n[musicvolume(volume=0.2, fadetime=1)]\n[Background(image=\"35_g6_yumengate\",screenadapt=\"coverall\")]\n[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"玉门路人\"]哇，使金瓜的丰蹄汉子直接被踹飞出擂台了。\n[name=\"玉门路人\"]算下来，那个菲林女孩已经连赢了五场！\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#1$1\",focus=\"m\")]\n[name=\"槐琥\"]呼——\n[charslot(slot=\"m\",name=\"avg_npc_296_1#8$1\")]\n[name=\"杜遥夜\"]喂，你好，认识一下，今天你的比赛我全都看了。\n[charslot(slot=\"m\",name=\"avg_npc_296_1#8$1\")]\n[name=\"杜遥夜\"]这么厉害的功夫，要不要考虑加入我的镖局？\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#1$1\",focus=\"m\")]\n[name=\"槐琥\"]镖局？\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#1$1\",focus=\"m\")]\n[name=\"槐琥\"]我拒绝。\n[charslot(slot=\"m\",name=\"avg_npc_296_1#2$1\")]\n[name=\"杜遥夜\"]别拒绝这么快啊，凭你的身手，我可以给你开一份说得过去的工资！\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#1$1\",focus=\"m\")]\n[name=\"槐琥\"]我没有打算靠拳脚吃饭，我可是正经机械工程专业的大学毕业生。\n[charslot(slot=\"m\",name=\"avg_npc_296_1#9$1\")]\n[name=\"杜遥夜\"]机械什么……？\n[charslot(slot=\"m\",name=\"avg_npc_296_1#4$1\")]\n[name=\"杜遥夜\"]算了！反正你是说自己是理科生对吧？理科生好啊，我说的镖局，是新型物流公司，理科生正好大有作为。\n[charslot(slot=\"m\",name=\"avg_npc_296_1#5$1\")]\n[name=\"杜遥夜\"]哎你别走啊，我说真的……\n[stopmusic(fadetime=1)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]\n[Background(screenadapt=\"showall\", image=\"35_g2_yumenstreet_n\",x=0, y=50, xScale=1.2, yScale=1.2)]\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#1$1\",focus=\"m\")]\n[playMusic(key=\"$m_avg_yumennormal_loop\", volume=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[musicvolume(volume=0.4, fadetime=1)]\n[Delay(time=1)]\n[name=\"槐琥\"]原来还发生了这样的事……\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#5$1\",focus=\"m\")]\n[name=\"槐琥\"]那几位朋友的遗物和讣告，也只能等到戒严结束后才能送回尚蜀了……\n[charslot(slot=\"m\",name=\"avg_npc_296_1#1$1\")]\n[name=\"杜遥夜\"]是我带他们出来的，不管用什么方式，我都会带他们回去。\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#1$1\",focus=\"m\")]\n[name=\"槐琥\"]来玉门之前，我在尚蜀碰巧见过郑前辈一面。\n[charslot(slot=\"m\",name=\"avg_243_waaifu_1#1$1\",focus=\"m\")]\n[name=\"槐琥\"]郑前辈告诉过我，等到人人都不需要习武来保护自己的那一天，才算是真正的太平日子。\n[charslot(slot=\"m\",name=\"avg_npc_296_1#1$1\")]\n[name=\"杜遥夜\"]爹说的这些道理都对，但现在，我更喜欢另外一句江湖老话，血债血偿。\n[charslot(slot=\"m\",name=\"avg_npc_296_1#6$1\")]\n[name=\"杜遥夜\"]我一定会把凶手找出来。"
+        }
+      ],
+      "description": "杜遥夜曾当面邀请槐琥加入镖局，当前再度相遇交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "char_243_waaifu",
+          "reason": "杜遥夜曾当面邀请槐琥加入镖局，当前再度相遇交谈。",
+          "status": "supported",
+          "to": "npc_ebce98658cbda852"
+        },
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_ebce98658cbda852",
+          "reason": "杜遥夜曾当面邀请槐琥加入镖局，当前再度相遇交谈。",
+          "status": "supported",
+          "to": "char_243_waaifu"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 786,
+          "kind": "story",
+          "line": 732,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_243_waaifu|npc_ebce98658cbda852"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 58,
+          "line": 48,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/ui_act5d0_firstenter.txt",
+          "quote": "[name=\"甘比诺\"]   只有叙拉古的土地会尊重我们，卡彭，别忘了被赶出那张桌子，夹着尾巴离开叙拉古的耻辱。\n[Character(name=\"avg_npc_028\",name2=\"avg_npc_027\",focus=2)]\n[name=\"卡彭\"]   信条喂不饱任何人。\n[Character(name=\"avg_npc_028\",name2=\"avg_npc_027\",focus=1)]\n[name=\"甘比诺\"]   哼。\n[Character(name=\"avg_npc_028\",name2=\"avg_npc_027\",focus=2)]\n[name=\"卡彭\"]   魏彦吾在这座城市定下了规则，只要不过界，我们依旧可以在这里大展拳脚，龙门需要一些“人情产业”。\n[Character(name=\"avg_npc_028\",name2=\"avg_npc_027\",focus=1)]\n[name=\"甘比诺\"]   ……有几年没见，你越来越让我感到厌倦了。\n[Character(name=\"avg_npc_028\",name2=\"avg_npc_027#2\",focus=2)]\n[name=\"卡彭\"]   彼此彼此，首领。"
+        }
+      ],
+      "description": "仅确认卡彭知晓魏彦吾。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭明确知道魏彦吾及其制定的规则。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "魏彦吾不在场，本窗无其知晓卡彭的证据。",
+          "status": "not_established",
+          "to": "npc_e565b7639574735d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 58,
+          "kind": "story",
+          "line": 48,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/ui_act5d0_firstenter.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "喧闹法则开篇酒吧谈话",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "npc_08bc2cc38b820ef0|npc_e565b7639574735d"
+}

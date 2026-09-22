@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 550,
+          "line": 547,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "quote": "锏摇了摇头，像是叹息一般陈述着在她看来的事实。\nSharp看着眼前的女性，不知为何，回想起了自己的朋友，同为精英干员的Stormeye。\n如果Stormeye也在场，见到这样的对手，应该会十分喜悦吧。\n不过对他来说，混迹在这支队伍中也好，应付眼前的锏也好，都只是任务的一部分。"
+        }
+      ],
+      "description": "叙述明确称Stormeye为Sharp的朋友，支持相识而非现场在场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E108"
+          ],
+          "from": "char_508_aguard",
+          "reason": "叙述明确称Stormeye为Sharp的朋友，支持相识而非现场在场。",
+          "status": "supported",
+          "to": "char_511_asnipe"
+        },
+        {
+          "evidenceIds": [
+            "E108"
+          ],
+          "from": "char_511_asnipe",
+          "reason": "叙述明确称Stormeye为Sharp的朋友，支持相识而非现场在场。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 550,
+          "kind": "story",
+          "line": 547,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 36,
+          "line": 11,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/sandboxperm/sandbox_2/sandbox_2_xb2smy.txt",
+          "quote": "[name=\"Stormeye\"]他抢在我前面射杀了我选择的猎物，还对着我们射箭，我这都不去会会他？\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]第一次的时候他还只觉得我是“箭法还可以”，后面才真的发现我们真能解决那头猛兽。\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]不过他确实是一个值得敬佩的人，“穿着宝石衣服的废物”，这话说得很对……\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"Stormeye\"]你说我喝多了？不可能！\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"Sharp\"]哈哈！\n[Dialog]\n[stopmusic(fadetime=4)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_campsite_d\",screenadapt=\"coverall\")]\n[delay(time=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_167\",duration=2)]\n[delay(time=3)]\n[PlayMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.4)]\n[name=\"Stormeye\"]……你是说，我昨天对着新来的小干员说了一晚上，自己是怎么打猎的？\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]有很多人都可以作证。\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]……"
+        }
+      ],
+      "description": "Sharp 与 Stormeye 在营地连续直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_508_aguard",
+          "reason": "双方在同一局部场景直接交流或发生明确互动。",
+          "status": "supported",
+          "to": "char_511_asnipe"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_511_asnipe",
+          "reason": "双方在同一局部场景直接交流或发生明确互动。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0f8dd85e1a9c2527.json",
+      "sources": [
+        {
+          "endLine": 36,
+          "kind": "story",
+          "line": 11,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/sandboxperm/sandbox_2/sandbox_2_xb2smy.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“重启锚点”所示罗德岛新基地时期",
+      "title": "重启锚点"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 517,
+          "line": 454,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "quote": "[name=\"Sharp\"]这是今天第几批袭击我们的佣兵了？\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]第七批。\n[name=\"Stormeye\"]虽然威胁性并不高，但近一周来，每天都有如此高频率的袭击也太过诡异了。\n[name=\"Stormeye\"]这才刚刚进入卡兹戴尔的边境范围……\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]这些人不怕死的样子，让我想起以前在萨尔贡认识的那些佣兵。\n[name=\"Sharp\"]毫无信念。\n[name=\"Sharp\"]Misery怎么花了这么长时间？已经过了预计的返程时间了。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_235\",duration=1)]\n[Delay(time=1.5)]\n[name=\"Misery\"]你要知道，这里离疤痕商场还是有些距离。\n[name=\"Misery\"]哪怕我熟悉这里的每条捷径，也得耗费点时间。\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]调查结果如何？\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]近两周，有人通过层层外包，将疤痕商场的大部分订单都聚集在了这一片区域。\n[name=\"Misery\"]委托人完全查不出来，隐藏得很好。\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]也就是说，我们只是“运气不好”撞上了这些佣兵。\n[name=\"Sharp\"]他们并非冲我们而来？\n[charslot(slot=\"m\",name=\"avg_npc_167\")]\n[name=\"Stormeye\"]恐怕是这样的。\n[name=\"Stormeye\"]博士临出发前的担忧看来并非全无道理。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#1$1\",duration=0.5)]\n[Delay(time=1)]\n[name=\"芬\"]各位，哨岗有新消息传回来。\n[name=\"芬\"]又有一伙佣兵的行动轨迹开始向我们的位置偏移，极有可能会马上再次接敌。\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]（叹气）\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#6$1\")]\n[name=\"芬\"]Misery先生，我感觉情况不对劲。\n[name=\"芬\"]这些源源不断的佣兵似乎并不是想要给我们造成损失，更像是……\n[charslot(slot=\"m\",name=\"avg_npc_252\")]\n[name=\"Sharp\"]拖延。\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#6$1\")]\n[name=\"芬\"]我们可以留在这里继续护送队伍前进，各位可以先行返回本舰——\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]别着急，芬。\n[name=\"Misery\"]有些人的打算并没有那么容易得逞。\n[charslot]\n空气在波动。\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#7$1\")]\n[name=\"芬\"]……起风了？\n[charslot(slot=\"m\",name=\"avg_1036_fang2_1#4$1\")]\n[name=\"芬\"]不……那是，“生命脊椎”？！\n[charslot]\n[dialog]\n[PlaySound(key=\"$d_avg_erthshkng\")]\n[CameraShake(duration=2, xstrength=5, ystrength=5, vibrato=15, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.3, r=0, g=0, b=0, fadetime=2, block=true)]\n苍穹之上，庞大的骸骨荡漾着历史的尘埃显现，投下了巨大的阴影。\n那是罗德岛的许多人第一次亲眼目睹这个曾在维多利亚的混乱中出现的巨大骨架。\n[charslot(slot=\"m\",name=\"avg_npc_971_1#1$1\")]\n[name=\"罗德岛工程部干员\"]……真是壮观……\n[charslot(slot=\"m\",name=\"avg_npc_235\")]\n[name=\"Misery\"]调查疤痕商场时，我顺便去了趟卡兹戴尔，见了几位老朋友。\n[name=\"Misery\"]接下来就交给他们吧。\n[name=\"Misery\"]我们该回家了。"
+        }
+      ],
+      "description": "Sharp与Stormeye直接同行交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D18"
+          ],
+          "from": "char_508_aguard",
+          "reason": "Sharp与Stormeye直接同行交谈。",
+          "status": "supported",
+          "to": "char_511_asnipe"
+        },
+        {
+          "evidenceIds": [
+            "D18"
+          ],
+          "from": "char_511_asnipe",
+          "reason": "Sharp与Stormeye直接同行交谈。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 517,
+          "kind": "story",
+          "line": 454,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_508_aguard|char_511_asnipe"
+}

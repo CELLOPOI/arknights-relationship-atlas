@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 212,
+          "line": 190,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act44side/level_act44side_07_end.txt",
+          "quote": "[name=\"澪\"]另一个监视我的人，麻烦去告诉三船先生，星熊一定会来，我会在这儿等她。\n[charslot(slot = \"m\", name = \"avg_npc_1901_1#3$2\")]\n[name=\"澪\"]现在，萌萌香，吉星小姐，还有我不知道名字的，躲在控制台那边的小姐。\n[name=\"澪\"]我建议你们不要轻举妄动，直到星熊前来。\n[charslot(slot = \"m\", name = \"avg_npc_1901_1#5$2\")]\n[name=\"澪\"]三船先生和金石会的确有许多对不住你们的地方，但这里是我，还有其他一些人的容身之处。\n[name=\"澪\"]我不能放任你们毁了它。\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"avg_npc_1897_1#7$1\")]\n[name=\"吉星\"]别听她吓唬人！萌萌香——\n[dialog]\n[PlaySound(key=\"$d_avg_darkmagic\", volume=1)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]\n[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"-200,30\", afrom=1, ato=0, duration=0.5)]\n[Delay(time=1)]\n黑色的鬼手忽然出现在吉星脖颈之前，吉星下意识地往后退了一步，扣动扳机。\n[dialog]\n[PlaySound(key=\"$grenade_launcher_shot\", volume=0.5)]\n[Delay(time=1)]\n[PlaySound(key=\"$grenade_launcher_shot\", volume=1)]\n[charslot]\n鬼手直接撕开钢珠形状的榴弹。"
+        }
+      ],
+      "description": "澪直呼吉星并试图阻拦，吉星回应并攻击她。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_4203_kichi",
+          "reason": "澪直呼吉星并试图阻拦，吉星回应并攻击她。",
+          "status": "supported",
+          "to": "npc_bc7d9b1e0e672b48"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_bc7d9b1e0e672b48",
+          "reason": "澪直呼吉星并试图阻拦，吉星回应并攻击她。",
+          "status": "supported",
+          "to": "char_4203_kichi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_7fe38ab19310cba1.json",
+      "sources": [
+        {
+          "endLine": 212,
+          "kind": "story",
+          "line": 190,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act44side/level_act44side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "墟所述时段",
+      "title": "墟"
+    }
+  ],
+  "relationship_id": "char_4203_kichi|npc_bc7d9b1e0e672b48"
+}

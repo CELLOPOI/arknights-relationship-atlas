@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 367,
+          "line": 365,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "quote": "[name=\"黑角\"]  博士的记性还是这么好啊。\n[name=\"黑角\"]  要熟悉山一样高的文件，还要一下子记住俺们这么多人的名字，可不大容易。博士，您别累着。\n[Decision(options=\"这是应该的。;……;PRTS会帮我。\", values=\"1;2;3\")]"
+        }
+      ],
+      "description": "黑角与博士面对面交谈，博士可选回答PRTS会帮我，黑角获知具体PRTS；限定该选项。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_500_noirc",
+          "reason": "黑角与博士面对面交谈，博士可选回答PRTS会帮我，黑角获知具体PRTS；限定该选项。",
+          "status": "supported",
+          "to": "npc_c8a2caad4366c8fa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c8a2caad4366c8fa",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_500_noirc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_77447b339e70b7d0.json",
+      "sources": [
+        {
+          "endLine": 367,
+          "kind": "story",
+          "line": 365,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑角所述时段",
+      "title": "黑角"
+    }
+  ],
+  "relationship_id": "char_500_noirc|npc_c8a2caad4366c8fa"
+}

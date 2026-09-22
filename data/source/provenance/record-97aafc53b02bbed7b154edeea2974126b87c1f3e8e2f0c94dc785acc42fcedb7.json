@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 364,
+          "line": 349,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_01_end.txt",
+          "quote": "[name=\"桑尼\"]果然是你。\n[Character(name=\"avg_npc_535_1#1$1\",name2=\"char_empty\",focus=-1)]\n[name=\"玛丽\"]这句话该换我来说。\n[Character(name=\"avg_npc_535_1#1$1\",name2=\"char_empty\",focus=1)]\n[name=\"桑尼\"]你现在是……警长了吧？我还没有机会说一声恭喜。\n[Character(name=\"avg_npc_535_1#2$1\",name2=\"char_empty\",focus=1)]\n[name=\"桑尼\"]没想到，你会自愿在这个辖区待这么久……拓荒区的麻烦事一直都这么多。\n[Character(name=\"avg_npc_535_1#2$1\",name2=\"char_empty\",focus=-1)]\n[name=\"玛丽\"]我也没想到……你会堕落成这样。\n[name=\"玛丽\"]你还记得你上过的那些课吗？那些跟法律相关的课程？\n[name=\"玛丽\"]你还记得……我成为警察的那一天，你都跟我说了些什么吗？\n[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=1)]\n[name=\"桑尼\"]……\n[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=-1)]\n[name=\"玛丽\"]“太好了，我们又是搭档了，就跟我们小时候玩的游戏那样，我们会一起维护哥伦比亚的秩序，将所有罪恶绳之以法——”\n[name=\"玛丽\"]哈……多么讽刺啊，眼下那个最该被绳之以法的罪犯就是你自己。"
+        }
+      ],
+      "description": "玛丽与桑尼是旧友，事件中直接相认。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_68a1f7893aebd5bc",
+          "reason": "同场直接对话或互相回应",
+          "status": "supported",
+          "to": "npc_c7c0439b89b957d3"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_c7c0439b89b957d3",
+          "reason": "同场直接对话或互相回应",
+          "status": "supported",
+          "to": "npc_68a1f7893aebd5bc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 364,
+          "kind": "story",
+          "line": 349,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "《绿野幻梦》本篇事件期间",
+      "title": "绿野幻梦"
+    }
+  ],
+  "relationship_id": "npc_68a1f7893aebd5bc|npc_c7c0439b89b957d3"
+}

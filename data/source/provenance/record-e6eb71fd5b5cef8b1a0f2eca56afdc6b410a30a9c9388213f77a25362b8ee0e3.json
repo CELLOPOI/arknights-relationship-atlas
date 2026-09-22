@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 274,
+          "line": 261,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "quote": "[name=\"Lancet-2\"]……？！\n[name=\"Lancet-2\"]罗德岛……怎么变成了这样？\n[charslot(slot=\"m\", name=\"avg_017_huang_1#8$2\")]\n[name=\"煌\"]欸，Friston-3，他们都已经恢复了吗？\n[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]暂时如此。\n[name=\"Friston-3\"]我覆写了目前他们所有代码中与PRTS相关的部分，用我的核心代码来保证他们的基本运作。\n[charslot(slot=\"m\", name=\"avg_017_huang_1#11$2\")]\n[name=\"煌\"]太好了，小猫，这下我们可以放心去支援Misery他们了。\n[charslot(slot=\"m\",name=\"avg_391_rosmon_1#1$2\")]\n[name=\"迷迭香\"]Friston-3，接下来你要去哪？\n[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\")]\n[name=\"Friston-3\"]和这几位刚刚清醒过来的家伙商量一下，我想我们多少还能帮上点忙。\n[name=\"Friston-3\"]可露希尔那边我会沟通。我还准备找她算账呢。"
+        }
+      ],
+      "description": "Friston-3在场听煌具体说明将支援Misery。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D33"
+          ],
+          "from": "char_4093_frston",
+          "reason": "Friston-3在场听煌具体说明将支援Misery。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4093_frston"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 274,
+          "kind": "story",
+          "line": 261,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4093_frston|char_615_acspec"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "import:npc_0957af9bf990438d|npc_cff4ec0fb14b9ffb",
+  "published": true,
+  "quote": "【生于黑夜】\n伊内丝：……你在巷战的过程中还抽空救了个人。但现在，那不是我们的管辖范围。\n伊内丝：但是爱国者在那里，你不需要过问。\nScout：……这样，就好。\nScout：你们……变了，过去的W不是个会刻意记住死者名讳的人。\n伊内丝：她确实变了，但更多时候是变得更像个疯子。\n伊内丝：你纯粹的战地经验就堪比浮士德的源石技艺，说不定只是为了让你动摇，好让我用法术捕捉你才故意记下名字的呢？\nScout：……老样子，总不放过任何取乐的机会。\n伊内丝：彼此，你不是也接受了这种W才能想出来的疯狂交易。\nScout：用我的命换取一个机会，再让该把握住这个机会的人把握住它，这并不疯狂。\nScout：还有我牺牲的队员们，也一样。他们为了自己的理念而死，没有他们，我无法成功。\n伊内丝：……看来时过境迁，大家都有一些变化。\nScout：你也是，过去的你绝不会像现在这样，给敌人喘息的空间。\nScout：赫德雷应该提醒过你。\n\n【靶向药物】\n煌：通过空气折射让身形变得透明啊，好手法。\n煌：不过你掩盖不了自己的行踪，又或者是动作幅度太大，也会导致这个源石技艺失效。\n煌：我说得对吗？\n浮士德：……你很聪明。\n煌：是罗德岛情报做得好。你没戏唱了，投降吧。\n煌：如果还要打的话，哼，不管有没有你的份，你都得为Ace和Scout抵命，小子。\n幻影弩手：浮士德，我们还有弹药。\n浮士德：撤退。我们已经失去了情报优势。我会狙击他们，你们立刻转移。\n幻影弩手：明白。",
+  "relationship_id": "npc_0957af9bf990438d|npc_cff4ec0fb14b9ffb",
+  "sources": [
+    {
+      "endLine": 111,
+      "kind": "story",
+      "line": 92,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 105,
+      "kind": "story",
+      "line": 90,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

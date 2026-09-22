@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 721,
+          "line": 680,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_03_beg.txt",
+          "quote": "[name=\"煌\"]调料包，蔬菜包……还能加两根火腿肠，嘿嘿……食堂怎么没开灯？\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"char_017_homura_3#6\")]\n[name=\"煌\"]喂！你们在这儿干吗？吓我一跳！\n[charslot(slot = \"m\", name = \"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]嘘，小点声。\n[charslot(slot = \"m\", name = \"char_017_homura_3#10\")]\n[name=\"煌\"]我说，都这么晚了，你们不睡觉，躲在食堂干什么？\n[name=\"煌\"]……Ace，你怎么一脸严肃地看着我……不会是又有什么紧急任务吧？\n[charslot(slot = \"m\", name = \"char_014_riope\")]\n[name=\"Ace\"]你手里拿的是什么？泡面？\n[charslot(slot = \"m\", name = \"char_017_homura_3#4\")]\n[name=\"煌\"]下午在训练场待了太久，晚饭没吃饱啊……！\n[name=\"煌\"]怎么，难道当上精英干员就连泡面也不能吃了吗？\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]你的队长不是在责备你又在猛塞垃圾食品，他的意思是……\n[name=\"Touch\"]今天你过生日欸，难道就吃这个？\n[charslot(slot = \"m\", name = \"char_017_homura_3#10\")]\n[name=\"煌\"]生日……？\n[name=\"煌\"]可是凯尔希医生不是说……\n[charslot(slot = \"m\", name = \"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]所以才让你小声点。\n[name=\"Scout\"]只要动静别闹太大，我猜就算她听到了，也会装作不知情的吧？\n[Character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]我甚至怀疑，她故意将我们外勤任务的空档调到一起，就是为了给你办一场生日会。\n[name=\"Mechanist\"]你就当这也是她给你的生日祝福吧……虽然很难想象。\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]煌，你是我们中的一员，是罗德岛的一员。你不是一个人。\n[charslot(slot = \"m\", name = \"char_017_homura_3#8\")]\n[name=\"煌\"]大家……我，那个，谢谢你们！\n[charslot(slot = \"m\", name = \"char_014_riope\")]\n[name=\"Ace\"]好了，现在已经到零点了。生日快乐，煌。\n[charslot(slot = \"m\", name = \"avg_npc_1311_1#1$1\")]\n[name=\"Scout\"]大猫，生日快乐！\n[Character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]生日快乐。\n[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]\n[name=\"Touch\"]生日快乐！还有，阿米娅不在本舰上，她让我替她送上祝福，生日快乐，她希望你永远开心健康。\n[charslot(slot = \"m\", name = \"char_017_homura_3#10\")]\n[name=\"煌\"]小兔子……\n[charslot(slot = \"m\", name = \"char_014_riope\")]\n[name=\"Ace\"]现在，你是准备来吹蜡烛切蛋糕，还是继续吃你的泡面？"
+        }
+      ],
+      "description": "二人在同一生日会中共同筹备并交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "J03"
+          ],
+          "from": "char_510_amedic",
+          "reason": "二人在同一生日会中共同筹备并交流。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [
+            "J03"
+          ],
+          "from": "npc_0957af9bf990438d",
+          "reason": "二人在同一生日会中共同筹备并交流。",
+          "status": "supported",
+          "to": "char_510_amedic"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_1249ed24b2a3f843.json",
+      "sources": [
+        {
+          "endLine": 721,
+          "kind": "story",
+          "line": 680,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act40side/level_act40side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“相见欢”事件及本篇明确回忆",
+      "title": "相见欢"
+    }
+  ],
+  "relationship_id": "char_510_amedic|npc_0957af9bf990438d"
+}

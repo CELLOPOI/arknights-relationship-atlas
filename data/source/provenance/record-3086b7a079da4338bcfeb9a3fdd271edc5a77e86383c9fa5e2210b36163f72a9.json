@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 520,
+          "line": 356,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act48side/level_act48side_st01.txt",
+          "quote": "[charslot(slot=\"r\",name=\"avg_npc_2067_1#2$1\",focus=\"r\")]\n[name=\"里底娅\"]这样吧，使节团的各位先在城内随便逛逛，雅赛努斯风物无限，相信能让尊贵的客人们不虚此行。\n[name=\"里底娅\"]哦对了，或许您可以顺便去第一神殿的重建现场看看……你们送还的正是克瑞斯拉的旧物，也是一种缘分。\n[charslot(slot=\"r\",name=\"avg_npc_2067_1#6$1\",focus=\"r\")]\n[name=\"里底娅\"]米诺斯人爱好戏剧与哲学，我们享受谨严的编排与推敲，却也期待意外的惊喜。\n[charslot(slot=\"r\",name=\"avg_npc_2067_1#2$1\",focus=\"r\")]\n[name=\"里底娅\"]至于交换一事嘛，稍等两天，我会安排一场隆重的仪式。\n[name=\"里底娅\"]按米诺斯的传统，重要的场合应以祭司主导的一场戏剧开场，请众英雄庇佑万事顺利。\n[name=\"里底娅\"]不过，雅赛努斯在两年前新设理事官一职就是为了替神殿祭司们排忧解难，简化流程。所以我已经提前派人筹备了。\n[name=\"里底娅\"]在这期间，我会指派我可靠的助手、我的执笔人为您安排所有行程。有任何问题，您都可以让他解决……赫卡德墨！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$dooropenquite\")]\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#1$1\",duration=1)]\n[Delay(time=2)]\n[name=\"赫卡德墨\"]我在的。\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#7$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]米诺斯的无名小辈，狂响的声筒，赫卡德墨，愿意为您效劳……只要在我的上班时间内。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_2077_1#6$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_2067_1#2$1\",focus=\"all\")]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_npc_2077_1#6$1\",focus=\"l\")]\n[name=\"贝赫努\"]呵呵。我用不着这种小白脸。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2070_1#7$1\",focus=\"m\")]\n[name=\"赫卡德墨\"]……\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_2077_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_2067_1#2$1\",focus=\"l\")]\n[name=\"贝赫努\"]我的意思是，舟车劳顿，我已经很累了，就在宾馆里等你们安排好交换仪式。\n[name=\"贝赫努\"]至于参观第一神殿的重建现场，这种有趣的活动我就不和真正的大使抢了。她干劲满满，还是个博物馆学家，会对此感兴趣的。\n[charslot(slot=\"r\",name=\"avg_npc_2067_1#2$1\",focus=\"r\")]\n[name=\"里底娅\"]如您所愿，贝赫努先生。我会让赫卡德墨直接去找梅捷缇克缇小姐。\n[charslot(slot=\"l\",name=\"avg_npc_2077_1#1$1\",focus=\"l\")]\n[name=\"贝赫努\"]里底娅理事官，我期待你的“惊喜”。\n[name=\"贝赫努\"]但——最好别让我发现你是在刻意拖延，或者另有所图。\n[charslot(slot=\"r\",name=\"avg_npc_2067_1#1$1\",focus=\"r\")]\n[name=\"里底娅\"]同样的话，我也想对您说，贝赫努先生。\n[charslot(slot=\"l\",name=\"avg_npc_2077_1#1$1\",focus=\"l\")]\n[name=\"贝赫努\"]……\n[charslot(slot=\"r\",name=\"avg_npc_2067_1#2$1\",focus=\"r\")]\n[name=\"里底娅\"]您推开窗往外看，特尔斐运河上的晨雾才刚散。这份宁静来之不易，愿我们都能以诚相待。\n[charslot(slot=\"r\",name=\"avg_npc_2067_1#6$1\",focus=\"r\")]\n[name=\"里底娅\"]说起来，今天没见到梅捷缇克缇大使，真可惜啊。如此年轻有为，却又如此随性……她究竟是个怎样的人呢？\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"69_g1_rivercrossing\",screenadapt=\"coverall\", block=true)]\n[delay(time=2)]\n[playMusic(key=\"$comedy_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",duration=1)]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"none\")]\n[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"缇缇\"]哕——\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"l\")]\n[name=\"米奥\"]呃……拜托，你才把一只脚踏在了船舷上，有点出息好不好。\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#7$1\",duration=1)]\n[Delay(time=2)]\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#7$1\",focus=\"r\")]\n[name=\"缇缇\"]（小声）船在晃。\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"l\")]\n[name=\"米奥\"]船当然会晃。\n[name=\"米奥\"]你不是说自己在麦克斯特区读书的时候，还专门报名参加了学校的帆船社？\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#11$1\",focus=\"r\")]\n[name=\"缇缇\"]（小声）专业课的活动太多了啦，不是在古籍修复室就是在考古现场，我、我最终就去了，两次。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"l\",name=\"avg_npc_2069_1#1$1\",duration=1.5)]\n[charslot(slot=\"r\",name=\"avg_4166_varkis_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"r\",name=\"avg_4166_varkis_1#1$1\",focus=\"r\")]\n[name=\"赞索斯\"]原来是哥伦比亚来的，看这身装扮，我还以为……\n[charslot(slot=\"l\",name=\"avg_npc_2069_1#1$1\",focus=\"l\")]\n[name=\"吕刻伊昂\"]赞索斯老师。\n[charslot(slot=\"r\",name=\"avg_4166_varkis_1#1$1\",focus=\"r\")]\n[name=\"赞索斯\"]嗯？\n[charslot(slot=\"l\",name=\"avg_npc_2069_1#3$1\",focus=\"l\")]\n[name=\"吕刻伊昂\"]这位小姐晕船。\n[charslot(slot=\"r\",name=\"avg_4166_varkis_1#1$1\",focus=\"r\")]\n[name=\"赞索斯\"]很少见的现象。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#12$1\",focus=\"r\")]\n[name=\"缇缇\"]我、没、有。只是，只是走了太远的路太累了，脚一下子没踩到实地，就……\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_2069_1#3$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_4166_varkis_1#1$1\",focus=\"l\")]\n[name=\"吕刻伊昂\"]怎么办？\n[charslot(slot=\"r\",name=\"avg_4166_varkis_1#1$1\",focus=\"r\")]\n[name=\"赞索斯\"]你帮客人们把行李搬上船，我去拿个小东西。\n[name=\"赞索斯\"]让这位小姐往船舱靠里些坐，今天的风浪不大，行船应该稳当。特尔斐运河会善待每一位善良的客人。\n[charslot(slot=\"r\",name=\"avg_4166_varkis_1#10$1\",focus=\"r\")]\n[name=\"赞索斯\"]等送完她过河，我们再去主渡口，去会会那个萨尔贡的大使……可不能辜负了里底娅理事官的好意。\n[charslot(slot=\"l\",name=\"avg_npc_2069_1#1$1\",focus=\"l\")]\n[name=\"吕刻伊昂\"]我陪您，赞索斯老师。我得看住您。\n[charslot(slot=\"r\",name=\"avg_4166_varkis_1#1$1\",focus=\"r\")]\n[name=\"赞索斯\"]……先帮客人搬行李吧。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"l\",posfrom=\"0,0\",posto=\"200,0\",afrom=1,ato=0,duration=1.5)]\n[charslot(slot=\"r\",posfrom=\"0,0\",posto=\"200,0\",afrom=1,ato=0,duration=1.5)]\n[delay(time=2.5)]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#5$1\",focus=\"r\")]\n[name=\"缇缇\"]……完全没有听我说话。\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"l\")]\n[name=\"米奥\"]（小声）你又抓错重点了，他们分明是和你有仇啊！\n[name=\"米奥\"]（小声）你现在加入哥伦比亚国籍还来得及，可千万别——\n[Dialog]\n[PlaySound(key=\"$d_avg_dragsofa\",volume=0.6,channel=\"1\")]\n[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=2.5)]\n[stopsound(channel=\"1\")]\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#7$1\",focus=\"r\")]\n[name=\"缇缇\"]欸，麻烦两位小心点，这可是很重要的东西。\n[Dialog]\n[PlaySound(key=\"$rungeneral\",volume=0.6)]\n[charslot(slot=\"r\",posfrom=\"0,0\",posto=\"200,0\",afrom=1,ato=0,duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"l\")]\n[multiline(name=\"米奥\")]喂——你——\n[multiline(name=\"米奥\")]唉，先上船吧。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"27_g24_cloudy_sea\",screenadapt=\"coverall\",  xScale=1.05, yScale=1.05,block=true)]\n[CameraShake(duration=-1, xstrength=0.5, ystrength=0.5, vibrato=1, randomness=1, fadeout=false, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=2, block=true)]\n[PlaySound(key=\"$d_avg_sea\",loop=true,channel=\"1\")]\n[charslot(slot=\"m\",name=\"avg_4166_varkis_1#1$1\",focus=\"m\")]\n[name=\"赞索斯\"]什么东西，这么重？\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#5$1\",focus=\"r\")]\n[name=\"缇缇\"]是……\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"l\")]\n[name=\"米奥\"]是货物。我们从蓝卡坞运过来的电影角色模型，里面甚至包括了新上映的《杜邦夫人》里的角色，打算在你们这儿倒卖。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4166_varkis_1#1$1\",focus=\"m\")]\n[name=\"赞索斯\"]可是雅赛努斯一家电影院都没有。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_1482_1#1$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#5$1\",focus=\"l\")]\n[name=\"米奥\"]那正好。好的推销员当然是要去光脚的地方卖鞋。\n[charslot(slot=\"r\",name=\"avg_4056_titi_1#1$1\",focus=\"r\")]\n[name=\"缇缇\"]摆渡人先生，您刚刚说，“特尔斐运河会善待每一位善良的客人”？\n[Dialog]"
+        }
+      ],
+      "description": "同乘小船并连续交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4056_titi",
+          "reason": "同乘小船并连续交谈。",
+          "status": "supported",
+          "to": "npc_08a5376de9194cbe"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_08a5376de9194cbe",
+          "reason": "同乘小船并连续交谈。",
+          "status": "supported",
+          "to": "char_4056_titi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_04151079098ee9e5.json",
+      "sources": [
+        {
+          "endLine": 520,
+          "kind": "story",
+          "line": 356,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act48side/level_act48side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇雅赛努斯事件期间",
+      "title": "雅赛努斯复仇记"
+    }
+  ],
+  "relationship_id": "char_4056_titi|npc_08a5376de9194cbe"
+}

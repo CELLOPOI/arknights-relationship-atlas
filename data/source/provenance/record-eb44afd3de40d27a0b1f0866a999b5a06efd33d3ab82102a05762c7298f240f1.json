@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 304,
+          "line": 219,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "quote": "[name=\"魏彦吾\"]……\n[charslot(slot=\"l\",name=\"avg_npc_788_1#9$1\",focus=\"l\")]\n[name=\"左宣辽\"]魏公莫非又看上我这军帐里的哪样兵器了？\n[name=\"左宣辽\"]罢了，反正我是都用不着了，你要是喜欢，不如连我那军武库整个搬到龙门去。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]平祟侯说笑了。这些兵器，即使左兄用不着，也是要留给玉门的。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]如果记得没错，十年前魏公和我打赌，赚走了我刚寻来的一把名剑。五年前，魏公又趁酒后带走了天师府送我的一张弓。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]那我们今天喝酒对赌，你尽管赢，别再让着我了。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]不过是些玩笑话。这么多年，龙门持续为玉门供应物资，一次都没有耽误过。单冲这一点，我也该送魏公几件礼物。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]分内的事。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]可魏兄身为龙门总督，事务繁忙……今天还特意来到玉门巡视，总该不是分内的事？\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#2\",focus=\"r\")]\n[name=\"魏彦吾\"]算是私事。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]龙门离了魏总督几天，还不至于起什么乱子，但魏彦吾能趁机看看老朋友，倒也不是一件坏事。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#2\",focus=\"r\")]\n[name=\"魏彦吾\"]宗师离任的日子快到了，我正好送送他。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]宗师的离任，可的确是件麻烦事。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#8$1\",focus=\"l\")]\n[name=\"左宣辽\"]他的那把剑，需要妥善处理。\n[charslot]\n[name=\"重岳\"]哎，说来说去，这麻烦的话题还是回到了我头上。\n[stopmusic(fadetime=1)]\n[dialog]\n[charslot]\n[delay(time=1)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"l\",name=\"avg_2023_ling_1#1$1\",duration=1.5)]\n[charslot(slot=\"r\",name=\"avg_2024_chyue_1#1$1\",duration=1.5)]\n[playMusic(key=\"$midautumn\", volume=0.4)]\n[delay(time=2)]\n[charslot]\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#1\",focus=\"m\")]\n[name=\"魏彦吾\"]宗师，令小姐，好久不见。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]的确有些日子了。\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#3$1\",focus=\"m\")]\n[name=\"令\"]呀！\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#8$1\",focus=\"m\")]\n[name=\"令\"]今日这么多故人重逢，正当痛饮，不知道左将军提前备好了酒没有？\n[charslot(slot=\"m\",name=\"avg_npc_788_1#9$1\",focus=\"m\")]\n[name=\"左宣辽\"]凭令小姐在玉门的功劳，按道理是该陪你多喝几杯。 \n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\",focus=\"m\")]\n[name=\"左宣辽\"]不过今日，饮酒的事还得稍微等一等。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\",focus=\"m\")]\n[name=\"左宣辽\"]听说宗师心意已决，要将剑交给比武选出来的第一人？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]武功只是第一道考验，值不值得将剑托付出去，我还有别的考量。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#4$1\",focus=\"m\")]\n[name=\"重岳\"]我还以为这件事，左将军早就是知道了的。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\",focus=\"m\")]\n[name=\"左宣辽\"]宗师上次提起这件事的时候，局势也不同今日。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]可对我而言，这把剑总归是要托付给一个合适的人，而非合适的局势。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#7$1\",focus=\"m\")]\n[name=\"左宣辽\"]宗师是觉得，这么久以来，军队上下，朝堂内外，身后眼前，竟无一个人合适了？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]……\n[charslot]\n[name=\"？？？\"]好生热闹。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",duration=1.5)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_788_1#2$1\",focus=\"m\")]\n[name=\"左宣辽\"]有失远迎，太傅见谅。\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#1\",focus=\"m\")]\n[name=\"魏彦吾\"]多年未见，太傅的精神还是好得很。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",focus=\"m\")]\n[name=\"太傅\"]诸位都是替大炎镇守边疆的有功之臣，风貌非常，现在齐聚一堂，也让我眼前一亮。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",focus=\"m\")]\n[name=\"太傅\"]只是今天有一些紧急事务，没有时间闲聊许久了。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#4$1\",focus=\"m\")]\n[name=\"太傅\"]人已到齐，左将军，让旁人退下吧。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.7)]\n[delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",focus=\"m\")]\n[name=\"太傅\"]我来的路上，正好遇见从城外归来的巡防营斥候。听他说说情况吧。"
+        }
+      ],
+      "description": "军帐中左宣辽、魏彦吾、重岳、令与太傅先后入席，直接互相招呼后讨论事务，真实同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_8ce7f1257163071b",
+          "reason": "军帐中左宣辽、魏彦吾、重岳、令与太傅先后入席，直接互相招呼后讨论事务，真实同场。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "军帐中左宣辽、魏彦吾、重岳、令与太傅先后入席，直接互相招呼后讨论事务，真实同场。",
+          "status": "supported",
+          "to": "npc_8ce7f1257163071b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 304,
+          "kind": "story",
+          "line": 219,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 359,
+          "line": 230,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_10_beg.txt",
+          "quote": "[name=\"左乐\"]……父亲。  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#5$1\",focus=\"r\")]\n[name=\"左宣辽\"]左乐？！你如何能进城来！  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#1$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]自沙渠攀援而上——不，先不用说这个……  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#9$1\",focus=\"r\")]\n[name=\"左宣辽\"]你安全无事就好……  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#1$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]父亲，兵部的人在哪里？  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#5$1\",focus=\"r\")]\n[name=\"左宣辽\"]你……找他们干什么？ \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#3$1\",focus=\"l\",isblock=true)] \n[name=\"左乐\"]向岁陵进军，乃至炮轰岁陵的命令，不是父亲所下，而是他们下的吧？  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#10$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]不然，父亲怎么会孤身一人待在这里，形同软禁？  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#4$1\",focus=\"r\")]\n[name=\"左宣辽\"]住口，不可妄议军机——  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#4$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]父亲！太尉之所以这么做，是因为他已经越过陛下，妄图直接向岁兽开炮，引发战端！  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#4$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]太尉结党营私，勾结司岁台监正，坐视百灶城内字伥骚乱。  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#4$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]不仅如此，他还试图夺取天镜阁内的代理人遗物，胁迫龙门魏总督用秘术攻击岁兽，均未得逞，这才催逼玉门主动向岁陵开火。  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#5$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]陛下从未下达开战旨意，玉门启动和开炮都是乱命，父亲切不可遭其蒙蔽！  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#5$1\",focus=\"r\")]\n[name=\"左宣辽\"]他为了与岁开战，竟然做下这许多事……？  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#1$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]父亲难道不相信我的话？  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#2$1\",focus=\"r\")]\n[name=\"左宣辽\"]……不，我怎会不信你。  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#8$1\",focus=\"r\")]\n[name=\"左宣辽\"]可你要知道，现下玉门面前是岁陵，身后便是百灶，无论命令如何，玉门城自己首先决不能乱！  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#7$1\",focus=\"r\")]\n[name=\"左宣辽\"]上面要前进，下面要观望，两相冲撞，玉门城自乱阵脚，万一岁兽真的醒来，一城同袍都将遭受灭顶之灾！  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#4$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]可这一城同袍，知道自己在为太尉的乱命，而不是大炎的意志而战吗？  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#4$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]进军前将军照例该去城头擂鼓以壮军威，左将军去了吗？  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#5$1\",focus=\"r\")]\n[name=\"左宣辽\"]……  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#4$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]现下缺了主将的鼓舞，军队的士气并不高涨，兵士反而感到迷惑。他们真的是为了从岁兽利爪下保护百灶而战吗？  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#3$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]还是说，他们只是太尉为了他眼中那个穷兵黩武的大炎，而不得不消耗的第一批牺牲品？  \n[charslot(slot = \"r\", name = \"avg_npc_788_1#4$1\",focus=\"r\")]\n[name=\"左宣辽\"]左乐——  \n[charslot(slot = \"l\",name = \"avg_4121_zuole_1#4$1\",focus=\"l\",isblock=true)]\n[name=\"左乐\"]父亲，你不只是玉门的左将军，更是大炎的平祟侯——\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_soldiersrun\", volume=1)]\n[charslot(slot = \"r\", name = \"avg_npc_1637_1#1$1\",posfrom=\"100,0\",posto=\"0,0\",duration=1.5)]\n[charslot(slot = \"l\", name = \"avg_npc_1637_1#1$1\",posfrom=\"-100,0\",posto=\"0,0\",duration=1.5)]\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot=\"m\",name = \"avg_npc_1632_1#1$1\",duration=0.8,isblock=true)]\n[name=\"监军御史\"]刚刚外面急报有可疑人员潜入玉门，原来就在左将军府上。  \n[name=\"监军御史\"]左将军，令郎擅闯军事禁地，该当何罪？  \n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_drawswordlong\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#4$1\",posfrom=\"-50,0\",posto=\"0,0\",duration=0.2, isblock=true)]\n左宣辽正要开口，左乐已然上前半步，腰中佩刀抽出一半。  \n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#4$1\")]\n[name=\"左乐\"]看来尊使把刚才的话都听见了。听完还这么说，想必是和太尉一党了。  \n[charslot(slot=\"m\",name = \"avg_npc_1632_1#1$1\")]\n[name=\"监军御史\"]黄口小儿，胡言乱语！  \n[charslot(slot=\"m\",name = \"avg_npc_1632_1#1$1\")]\n[name=\"监军御史\"]左将军，令郎如此跋扈，你要视若无睹吗？  \n[charslot(slot = \"M\", name = \"avg_npc_788_1#7$1\")]\n[name=\"左宣辽\"]尊使，在下确实想问，太尉大人如此急于与岁开战，到底为了什么？  \n[charslot(slot=\"m\",name = \"avg_npc_1632_1#1$1\")]\n[name=\"监军御史\"]事到如今，左将军还要质疑军令？  \n[name=\"监军御史\"]乱世动荡，朝廷上下一致定下二十八策。而二十八策之外的两条隐策之首，便是岁兽之祸必须先除！\n[name=\"监军御史\"]此时不除岁兽，难道还要留待外敌来犯时再解决吗？！  \n[name=\"监军御史\"]实话告诉将军，不止太尉，朝中百官，大半支持此策！ \n[charslot(slot=\"m\",name=\"avg_4121_zuole_1#5$1\")] \n[name=\"左乐\"]……太傅大人如何说，陛下又如何说？  \n[charslot(slot=\"m\",name = \"avg_npc_1632_1#1$1\")]\n[name=\"监军御史\"]这里没你说话的地方！  \n[charslot(slot = \"M\", name = \"avg_npc_788_1#7$1\")]\n[name=\"左宣辽\"]尊使，这个问题，我也想问。  \n[charslot(slot = \"M\", name = \"avg_npc_788_1#8$1\")]\n[name=\"左宣辽\"]除了太尉和兵部，其余内阁六部的官员，乃至陛下，他们对此是否知情，是否同意？  \n[charslot(slot=\"m\",name = \"avg_npc_1632_1#1$1\")]\n[name=\"监军御史\"]左宣辽，这不是你作为守将该管的事！  \n[charslot(slot = \"M\", name = \"avg_npc_788_1#10$1\")]\n[name=\"左宣辽\"]那就是不知情了。  \n[charslot(slot=\"m\",name = \"avg_npc_1632_1#1$1\")]\n[name=\"监军御史\"]……\n[charslot(slot = \"M\", name = \"avg_npc_788_1#2$1\")]\n[name=\"左宣辽\"]军队必须听令，玉门更不能乱，所以我可以忍让，坐视你们临阵换将……  \n[charslot(slot = \"M\", name = \"avg_npc_788_1#4$1\")]\n[name=\"左宣辽\"]可接下来若真是大争之世，你们的所作所为对大炎来说，又何尝不是自乱阵脚，祸起萧墙？！  \n[charslot(slot = \"M\", name = \"avg_npc_788_1#4$1\")]\n[name=\"左宣辽\"]我确实是一介武夫，可也是大炎的平祟侯。这等乱命，恕我不能奉诏！  \n[charslot(slot=\"m\",name = \"avg_npc_1632_1#1$1\")]\n[name=\"监军御史\"]……自寻死路。给我拿下！  \n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_299_1#1$1\",bstart=0.2,bend=0.7)]\n[name=\"？？？\"]看来各位是当真准备犯上作乱了。  \n[charslot(slot=\"m\",name = \"avg_npc_1632_1#1$1\")]\n[name=\"监军御史\"]谁？！  \n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_299_1#1$1\",bstart=0.2,bend=0.7)]\n[charslot(slot = \"l\", name = \"avg_npc_299_1#1$1\",posfrom = \"200,0\", posto = \"200,0\",focus=\"n\")]\n[charslot(slot = \"m\", name = \"avg_npc_299_1#1$1\",bstart=0,bend=0,duration=2,focus=\"m\")]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_299_1#1$1\",focus=\"m\")]\n[name=\"太合\"]太合，肃政院副监察御史，偶然在此养伤，不想竟撞见兵部擅自行动，欲在玉门城掀起内乱。 \n[charslot(slot=\"m\",name=\"avg_npc_299_1#2$1\",focus=\"m\")] \n[name=\"太合\"]诸位不必在乎我，我也不会干涉诸位的行动。  \n[charslot(slot=\"m\",name=\"avg_npc_299_1#1$1\",focus=\"m\")]\n[name=\"太合\"]可只要今天我太合活着离开这间议事厅，诸位就别想当今天的事情没发生过。  \n[dialog]\n[charslot]\n兵部的特使和他带来的兵士一时僵在原地。  \n[charslot(slot = \"M\", name = \"avg_npc_788_1#1$1\")]\n[name=\"左宣辽\"]……够了。  \n[charslot(slot = \"M\", name = \"avg_npc_788_1#1$1\")]\n[name=\"左宣辽\"]此时此刻，我还是玉门的守将。若事后太尉有意对我军法处置，无论是革职流放还是什么惩罚，左某自当服法。  \n[charslot(slot = \"M\", name = \"avg_npc_788_1#4$1\")]\n[name=\"左宣辽\"]现在，让开路。我要去见我的将士。  \n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_drawswordlong\", volume=1)]\n左乐抽出腰间佩刀，护在父亲身前，两人径直走向议事厅外。"
+        }
+      ],
+      "description": "前者在已读场景中明确点名、讨论或接受后者的具体委托；本篇未见反向依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C20"
+          ],
+          "from": "npc_8ce7f1257163071b",
+          "reason": "前者在已读场景中明确点名、讨论或接受后者的具体委托；本篇未见反向依据。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_92c92c1606519db1",
+          "reason": "本篇候选窗口未建立反向知晓或往来。",
+          "status": "not_established",
+          "to": "npc_8ce7f1257163071b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 359,
+          "kind": "story",
+          "line": 230,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "npc_8ce7f1257163071b|npc_92c92c1606519db1"
+}

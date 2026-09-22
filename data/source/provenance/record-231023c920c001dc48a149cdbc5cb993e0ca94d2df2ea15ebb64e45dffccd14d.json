@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 958,
+          "line": 912,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"菈塔托丝\"]……\n[name=\"菈塔托丝\"]啧。\n[Character(name=\"avg_npc_253_1#7$1\")]\n[name=\"菈塔托丝\"]阿克托斯。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]干什么？\n[Character(name=\"avg_npc_253_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"菈塔托丝\"]你是相信我，还是相信恩希欧迪斯？！\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]你们两个，我一个都不相信！\n[Character(name=\"avg_npc_253_1#8$1\")]\n[name=\"菈塔托丝\"]那你至少也该知道，眼下谁才是敌人！\n[name=\"菈塔托丝\"]布朗陶家的战士们，准备战斗！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\")]\n[Character(name=\"avg_npc_285_1#1$1\", name2=\"avg_npc_285_1#1$1\",fadetime=1.5)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_253_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"菈塔托丝\"]先救出休露丝，再把恩希欧迪斯给我拿下！\n[Character(name=\"avg_npc_285_1#1$1\", name2=\"avg_npc_285_1#1$1\")]\n[name=\"布朗陶家战士\"]是！\n[Character(name=\"avg_npc_254_1#8$1\")]\n[name=\"阿克托斯\"]……*谢拉格俚语*，佩尔罗契家的战士们，列阵！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\")]\n[Character(name=\"avg_npc_286_1#1$1\", name2=\"avg_npc_286_1#1$1\",fadetime=1.5)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_254_1#8$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"阿克托斯\"]把恩希欧迪斯这个逆贼拿下！让民众们知道，他才是那个叛徒！\n[Character(name=\"avg_npc_260_1#6$1\")]\n[name=\"古罗\"]是！\n[Character(name=\"avg_npc_286_1#1$1\", name2=\"avg_npc_286_1#1$1\")]\n[name=\"佩尔罗契家战士\"]是！\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]锏。\n[name=\"恩希欧迪斯\"]把诺希斯押下去。\n[Character(name=\"avg_npc_257_1#2$1\")]\n[name=\"锏\"]不用我？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]不用。\n[Character(name=\"avg_npc_257_1#1$1\")]\n[name=\"锏\"]行吧。"
+        }
+      ],
+      "description": "菈塔托丝当场号令反抗，锏在同一冲突中回应银灰并押人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E69"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "菈塔托丝当场号令反抗，锏在同一冲突中回应银灰并押人。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "E69"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "菈塔托丝当场号令反抗，锏在同一冲突中回应银灰并押人。",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 958,
+          "kind": "story",
+          "line": 912,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 176,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st03.txt",
+          "quote": "[name=\"菈塔托丝\"]那么按照你的说法，那位开斯特公爵一早就在谢拉格派布了大量的特工。而这一切都是为了她将来吞并谢拉格而做的准备？\n[name=\"菈塔托丝\"]可是她如何能做到？\n[charslot(slot=\"m\",name=\"avg_npc_2006_1#5$1\",focus=\"m\")]\n[name=\"维多利亚记者\"]应该说……这都是我根据在谢拉格的见闻做出的合理推测。\n[charslot(slot=\"m\",name=\"avg_npc_253_1#1$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]那么在这一众卧底在谢拉格的维多利亚人当中，偏偏有你这样一位追求正义的记者？\n[charslot(slot=\"m\",name=\"avg_npc_2006_1#7$1\",focus=\"m\")]\n[CameraShake(duration=0.5, xstrength=5, ystrength=5, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"维多利亚记者\"]这样的说法太失礼了！\n[charslot(slot=\"m\",name=\"avg_npc_2006_1#10$1\",focus=\"m\")]\n[name=\"维多利亚记者\"]我的名字叫阿尔贝塔，如果您对维多利亚的新闻业稍有了解的话，就该听说过这个名字写过多少篇不被允许见诸报纸的真实报道。\n[name=\"阿尔贝塔\"]无论如何，我为我的工作感到骄傲。\n[charslot(slot=\"m\",name=\"avg_npc_253_1#2$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]哼……\n[charslot(slot=\"m\",name=\"avg_npc_253_1#7$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]记者小姐，我姑且相信你的自述，但这不意味着你完全洗脱了嫌疑。\n[name=\"菈塔托丝\"]自从那次爆炸之后，你们派的探子，一直由我指挥护卫们拔除。\n[name=\"菈塔托丝\"]如果你所言属实，那就把我们带去摄制组的驻地，我和你所说的特工会有很多话题可聊。\n[charslot(slot=\"m\",name=\"avg_npc_253_1#1$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]你肯定不会推辞吧？\n[charslot(slot=\"m\",name=\"avg_npc_2006_1#11$1\",focus=\"m\")]\n[name=\"阿尔贝塔\"]可是——\n[Dialog]\n[stopmusic(fadetime=2)]\n[PlaySound(key=\"$d_avg_gnrtrllng\", volume=1)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_253_1#4$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]？！\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#3$1\",afrom=0, ato=1, duration=0.3)]\n[charslot(slot=\"m\",posfrom=\"-150,0\", posto=\"0,0\", duration=0.5)]\n[Delay(time=0.5)]\n[name=\"锏\"]闪开！\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]\n[charslot(slot=\"m\",afrom=1, ato=0, duration=0.3)]\n[charslot(slot=\"m\",posfrom=\"0,0\", posto=\"150,0\", duration=0.5)]\n[Delay(time=1)]\n[PlayMusic(intro=\"$kjerag_n_intro\",key=\"$kjerag_n_loop\", volume=0.6)]\n[PlaySound(key=\"$d_avg_gnrtrspbm\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n锏揪住身旁的菈塔托丝和记者，躲进身后的房间，而不知何处投来的闪光弹在审讯室内炸开。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$bodyfalldown1\", volume=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Delay(time=1)]\n远处避让不及的布朗陶家护卫惨叫一声——一柄飞刀直插他的心脏。\n[charslot(slot=\"m\",name=\"avg_npc_253_1#8$1\",focus=\"m\")]\n[name=\"菈塔托丝\"]该死！\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#6$1\",afrom=0, ato=1, duration=0.3)]\n[charslot(slot=\"m\",posfrom=\"50,0\", posto=\"0,0\", duration=0.5)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_knifeplank\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#6$1\",focus=\"none\")]\n锏从门边探出身子，旋即再次飞来一柄刀，她侧身躲开，看着飞刀插入门框。\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#7$1\",focus=\"m\")]\n[name=\"锏\"]使用这种刀具，对手是“灰礼帽”。\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#1$1\",focus=\"m\")]\n[name=\"锏\"]你们先在这里躲好，我去确认袭击的规模和作战方式。\n[Dialog]\n[PlaySound(key=\"$d_avg_jandrg\", volume=1)]\n[Delay(time=1)]\n[PlaySound(key=\"$swordtsing1\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[PlaySound(key=\"$swordtsing3\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]\n[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#3$1\",afrom=1, ato=0, duration=0.3)]\n[charslot(slot=\"m\",posfrom=\"0,0\", posto=\"-150,0\", duration=0.5)]\n[Delay(time=1)]\n语毕，她猛地抽出腰间的双锏，正正击落两柄刚从暗处飞来的短刀，随后纵身一跃向前冲去，踏起的风尘让记者下意识地眯起眼睛。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_253_1#7$1\",duration=1.5)]\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#12$1\",duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_npc_253_1#7$1\",focus=\"l\")]\n[name=\"菈塔托丝\"]你——\n[name=\"菈塔托丝\"]这是怎么回事？“灰礼帽”是怎么知道这里的？\n[name=\"菈塔托丝\"]你向他们报信了？我一直盯着，这怎么可能……\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#10$1\",focus=\"r\")]\n[name=\"阿尔贝塔\"]不对，我检查过带出来的所有东西，也确定没有人跟着。\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#7$1\",focus=\"r\")]\n[name=\"阿尔贝塔\"]小心！\n[Dialog]\n[charslot(slot=\"r\",posfrom=\"0,0\", posto=\"-100,0\", duration=0.5)]\n[Delay(time=0.3)]\n[charslot(slot=\"l\",posfrom=\"0,0\", posto=\"-50,0\", duration=0.5)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$a_bat_buildingshaking_1\", volume=1)]\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#10$1\",posfrom=\"-100,0\", posto=\"-100,0\")]\n[charslot(slot=\"l\",name=\"avg_npc_253_1#4$1\",posfrom=\"-50,0\", posto=\"-50,0\")]\n[CameraShake(duration=1.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[PlaySound(key=\"$d_avg_explosion_stone\", volume=1)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.05, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[charslot(slot=\"r\",focus=\"none\")]\n房间剧烈晃动。记者拽住菈塔托丝的衣袖，往旁边一避，破损的天花板掉落下的碎块，正正砸中刚才她们所停留的位置。\n[Dialog]\n[charslot(slot=\"r\",posfrom=\"-100,0\", posto=\"0,0\", duration=1)]\n[charslot(slot=\"l\",posfrom=\"-50,0\", posto=\"0,0\", duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"l\",name=\"avg_npc_253_1#4$1\",focus=\"l\")]\n[name=\"菈塔托丝\"]……那该怎么解释？\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#10$1\",focus=\"r\")]\n[name=\"阿尔贝塔\"]……等等！还有一个地方。\n[Dialog]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#10$1\",focus=\"none\")]\n她拿起胸前的相机，取下镜头、按住快门，反光板抬起，内部隐约冒着红光。\n记者抠出里面可疑的部件，竟是一个小型定位追踪器。\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#10$1\",focus=\"r\")]\n[name=\"阿尔贝塔\"]居然藏在这里……\n[Dialog]\n[charslot]\n[CameraShake(duration=1.5, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$d_gen_explo_n\", volume=1)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]\n[delay(time=2.5)]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#1$1\",duration=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#1$1\",focus=\"none\")]\n爆炸声响起，浓烟渐渐弥散到两人躲藏的房间，锏从烟中走出，她的呼吸微微发沉。\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#7$1\",focus=\"m\")]\n[name=\"锏\"]第一批有三个“灰礼帽”，我暂时击退了，但他们呼叫的增援小队已经在路上。\n[charslot(slot=\"m\",name=\"avg_4116_blkkgt_1#1$1\",focus=\"m\")]\n[name=\"锏\"]菈塔托丝，我要保证你的安全，得离开这个地方。\n[Dialog]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_253_1#9$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#6$1\",focus=\"l\")]\n[name=\"菈塔托丝\"]……\n[name=\"菈塔托丝\"]去蔓珠院，附近有一条山路可以直通内部密道。\n[name=\"菈塔托丝\"]无论如何，他们应该不敢贸然对蔓珠院出手，这能为我们争取时间。\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#10$1\",focus=\"r\")]\n[name=\"阿尔贝塔\"]等一下，我得和你们一起走。\n[name=\"阿尔贝塔\"]“灰礼帽”还会追上来，我会记录下他们在谢拉格的刺杀行动，与先前的素材汇总在一起，托付给国内的熟人发出去。\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#5$1\",focus=\"r\")]\n[name=\"阿尔贝塔\"]这样能向大家揭露维多利亚的所作所为——\n[charslot(slot=\"r\",name=\"avg_npc_2006_1#10$1\",focus=\"r\")]\n[name=\"阿尔贝塔\"]我绝不能被他们带回去！\n[charslot(slot=\"l\",name=\"avg_npc_253_1#7$1\",focus=\"l\")]\n[name=\"菈塔托丝\"]……少废话，我还得找恩希欧迪斯一块审你呢。"
+        }
+      ],
+      "description": "锏与菈塔托丝当面配合。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N21"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "锏亲自保护菈塔托丝突围。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [
+            "N21"
+          ],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "菈塔托丝直接回应锏的撤离建议。",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 176,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "府邸遇袭",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 143,
+          "line": 131,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_05_end.txt",
+          "quote": "[name=\"恩希欧迪斯\"]我并没有编造谎言，锏。\n[CharacterCutin(widgetID=\"1\", name=\"avg_172_svrash_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=350, width=300, block=true)]\n[name=\"恩希欧迪斯\"]“灰礼帽”是为公爵搜集情报的密探，一般的谎言瞒不过他们。\n[name=\"恩希欧迪斯\"]但我深知，这种人往往最懂得“猜忌”。\n[name=\"恩希欧迪斯\"]“佩尔罗契家的继承人秘密归国”，这是他自己最先发现的事实，所以他一定会相信。\n[name=\"恩希欧迪斯\"]对方一定会盯上罗莎琳·塔季扬诺夫娜·拉里娜。\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#7$1\")]\n[name=\"锏\"]你总能猜对。\n[name=\"锏\"]那女孩已经上山，菈塔托丝也联系了阿克托斯。\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#11$1\")]\n[name=\"锏\"]我接到消息，那个“灰礼帽”也跟上去了。\n[charslot(slot=\"l\",name=\"avg_4116_blkkgt_1#1$1\")]\n[name=\"锏\"]他在躲着我。"
+        }
+      ],
+      "description": "锏知晓菈塔托丝已联络阿克托斯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "锏明确掌握菈塔托丝的联络行动。",
+          "status": "supported",
+          "to": "npc_a43cec0eaa3f04c8"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_a43cec0eaa3f04c8",
+          "reason": "菈塔托丝不在场。",
+          "status": "not_established",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 143,
+          "kind": "story",
+          "line": 131,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "庆典前的密探安排",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_4116_blkkgt|npc_a43cec0eaa3f04c8"
+}

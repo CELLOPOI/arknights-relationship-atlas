@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 112,
+          "line": 98,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "quote": "[name=\"令\"]还是让她逃了。\n[charslot(slot=\"m\",name=\"avg_npc_034#1\",focus=\"m\")]\n[name=\"林\"]受了那么重的伤，总该跑不远。\n[charslot(slot=\"m\",name=\"avg_npc_034#1\",focus=\"m\")]\n[name=\"林\"]魏老二，你这把老骨头也是不顶用了。\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#5\",focus=\"m\")]\n[name=\"魏彦吾\"]有劳林先生搭救。\n[charslot(slot=\"m\",name=\"avg_npc_034#1\",focus=\"m\")]\n[name=\"林\"]堂堂赤霄剑主人，被仇家找上门来，也要靠他人搭救了？\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#2\",focus=\"m\")]\n[name=\"魏彦吾\"]我可真不记得，我还有这么一号仇家——\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]……\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#7$1\",focus=\"m\")]\n[name=\"重岳\"]声东击西！"
+        }
+      ],
+      "description": "三人与林先生共同追击刺客后交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_2024_chyue",
+          "reason": "三人与林先生共同追击刺客后交谈。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "三人与林先生共同追击刺客后交谈。",
+          "status": "supported",
+          "to": "char_2024_chyue"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 112,
+          "kind": "story",
+          "line": 98,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_2024_chyue|npc_83e2c28380c1c6fb"
+}

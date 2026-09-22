@@ -1,0 +1,343 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 640,
+          "line": 559,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-01.txt",
+          "quote": "[name=\"特雷西斯\"]准备都已完成，飞空艇随时可以启航。\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#1$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]嗯。\n[charslot(slot=\"r\",name=\"avg_npc_1297_1#3$1\",focus=\"r\")]\n[name=\"特雷西斯\"]快要结束了。\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#8$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]最后，再陪我走走吧，特雷西斯。\n[charslot(slot=\"r\",name=\"avg_npc_1297_1#6$1\",focus=\"r\")]\n[name=\"特雷西斯\"]……好。\n[Dialog]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n卡兹戴尔军事委员会在伦蒂尼姆数个区块的支持层中秘密修建了这样的飞空艇船坞，这一处是最大的一个，也是飞空艇最终诞生的地方。\n这艘船被视作恐怖的战争兵器，毁灭的使者，飞在空中的要塞。\n但很少有人知道，飞空艇建设的初衷，是要探寻一个湮没的秘密……\n更是要挣脱一副永恒的枷锁。\n兄妹二人行走在偌大的船坞之中，走过漫长的步道，每一个路过的萨卡兹都停下脚步，向他们致意。\n上次这样肩并肩地散步是什么时候？细细想来，间隔的天数比起他们曾一起跨越的时间算得上短暂。\n但也足够漫长。\n[Dialog]\n[playsound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#3$1\",duration=1.5)]\n[charslot(slot=\"r\",name=\"avg_npc_1297_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"r\",name=\"avg_npc_1297_1#1$1\",focus=\"r\")]\n[name=\"特雷西斯\"]你在想什么，特蕾西娅？\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#3$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]我突然想起，卡兹戴尔改建成移动城市的时候，我们也是像这样并肩站在城墙上。\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#6$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]本该是个所有人都很开心的日子，却下起了雨。\n[name=\"特蕾西娅\"]有人说那不是个好兆头，可是我记得很清楚，魂灵熔炉的炉火，在雨幕中反而很明亮。\n[name=\"特蕾西娅\"]其实不只这些，我突然想起了许多，许多……已经太久了。\n[charslot(slot=\"r\",name=\"avg_npc_1297_1#2$1\",focus=\"r\")]\n[name=\"特雷西斯\"]已经太久了。\n[charslot(slot=\"r\",name=\"avg_npc_1297_1#1$1\",focus=\"r\")]\n[name=\"特雷西斯\"]……从卡兹戴尔到卡兹戴尔，我们的终点近在眼前。我们的计划，只剩下最后一步。\n[name=\"特雷西斯\"]后人会看见一座伟大的城市屹立于大地，萨卡兹会如我们所愿，掌握自己的命运。\n[name=\"特雷西斯\"]我需要你。\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#3$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]嗯……我知道。\n[charslot(slot=\"r\",name=\"avg_npc_1297_1#1$1\",focus=\"r\")]\n[name=\"特雷西斯\"]那些曾坚信你的道路的战士，那位被称作“魔王”的孩子，如今都走到了你的面前。\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#2$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]他们当然会来，我一直如此深信。\n[charslot(slot=\"r\",name=\"avg_npc_1297_1#3$1\",focus=\"r\")]\n[name=\"特雷西斯\"]你决定好如何面对他们了？\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#1$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]我从未有过迷茫，只是……我曾希望这一天晚些到来。不过事到如今，我反而觉得……\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#8$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]是我低估了我本该深信的人们。\n[name=\"特蕾西娅\"]特雷西斯，我很欣慰。\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#9$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]我很欣慰在我们做出了眼下的选择后，他们仍然站起来对抗我们。\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#8$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]他们坚韧，强大，成长的速度匪夷所思。也许最终，也会抵达你的座前。\n[name=\"特蕾西娅\"]特雷西斯，现在的他们，也许已经比那个什么都没来得及完成的我……要强大许多了。\n[charslot(slot=\"r\",name=\"avg_npc_1297_1#1$1\",focus=\"r\")]\n[name=\"特雷西斯\"]……拭目以待。\n[charslot(slot=\"l\",name=\"avg_npc_1296_1#1$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]那么……我也该动身了。\n[Dialog]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n特蕾西娅登上飞空艇的舷梯，特雷西斯站在原地，静静地看着她。\n[charslot(slot=\"m\",name=\"avg_npc_1297_1#1$1\",focus=\"m\")]\n[name=\"特雷西斯\"]特蕾西娅。\n[charslot(slot=\"m\",name=\"avg_npc_1297_1#6$1\",focus=\"m\")]\n[name=\"特雷西斯\"]这一次，我们应该有一个正式的告别。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#6$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1297_1#6$1\",focus=\"m\")]\n[name=\"特雷西斯\"]……\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_clothmovement\",volume=1)]\n[Delay(time=1.5)]\n特蕾西娅伸出手，抚平了特雷西斯披肩上的褶皱。\n[charslot(slot=\"m\",name=\"avg_npc_1297_1#1$1\",focus=\"m\")]\n[name=\"特雷西斯\"]……（古老的萨卡兹语）再见。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#1$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]（古老的萨卡兹语）再见。"
+        }
+      ],
+      "description": "兄妹在船坞直接交谈并正式告别。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "兄妹在船坞直接交谈并正式告别。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "兄妹在船坞直接交谈并正式告别。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 640,
+          "kind": "story",
+          "line": 559,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 430,
+          "line": 414,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "quote": "会议结束之后，特雷西斯一直默默留在特蕾西娅身边。\n他知道，自己需要对她有一个回答。\n[charslot(slot = \"left\", name = \"avg_npc_1296_1#1$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]你从未提过，要当着王庭之主的面宣布那场战争的计划。\n[charslot(slot = \"right\", name = \"avg_npc_1297_1#1$1\",focus=\"r\")]\n[name=\"特雷西斯\"]你刚才也没有反驳我。\n[charslot(slot = \"left\", name = \"avg_npc_1296_1#1$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]我能够反驳吗？\n[charslot(slot = \"right\", name = \"avg_npc_1297_1#1$1\",focus=\"r\")]\n[name=\"特雷西斯\"]你对我的想法心知肚明。如果你想驳斥些什么，几年前你就该说了。\n[name=\"特雷西斯\"]现在我还能拉住他们的缰绳。但不只他们，这座城市也已经饿极了。\n[charslot(slot = \"left\", name = \"avg_npc_1296_1#3$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]我会避免让事情变成最差的情况……那样泰拉存续的可能性会变得无限小。\n[charslot(slot = \"right\", name = \"avg_npc_1297_1#1$1\",focus=\"r\")]\n[name=\"特雷西斯\"]……尽快吧。\n[charslot(slot = \"left\", name = \"avg_npc_1296_1#1$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]嗯。"
+        }
+      ],
+      "description": "兄妹在会后直接讨论战争计划。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "兄妹在会后直接讨论战争计划。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "兄妹在会后直接讨论战争计划。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 430,
+          "kind": "story",
+          "line": 414,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 171,
+          "line": 156,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-01.txt",
+          "quote": "[name=\"特雷西斯\"]如果萨卡兹还能有获得新生的机会，那么眼下就是那个唯一的机会。\n[name=\"特蕾西娅\"]……又会有很多人死去。 \n[name=\"特蕾西娅\"]很多……维多利亚人，也有很多萨卡兹。人们的鲜血将会彻底改变这座灰色的城市，人们的哀嚎甚至将盖过雷声。\n[name=\"特雷西斯\"]这是一场战争。一场我们与他们之间的战争，持续了近万年，从未结束。\n[name=\"特蕾西娅\"]是啊，战争……这从来就是我们萨卡兹存续下去的方式。\n[name=\"特雷西斯\"]你有任何异议的话，说出来。\n[name=\"特雷西斯\"]就像过去无数次那样，指出我计划中的风险。\n[name=\"特蕾西娅\"]我没有异议。\n[name=\"特雷西斯\"]没有……吗？\n[name=\"特蕾西娅\"]如果你能听到我脑海里的声音，你就会知道，他们不会让我有第二种选择。\n[name=\"特蕾西娅\"]倘若这场战争真的能让卡兹戴尔摆脱毁灭的循环……倘若这场风暴真的能浇灭萨卡兹的恨火，令无数亡灵重归自由……\n[name=\"特蕾西娅\"]那我会与你一起，确保我们的理想能够实现。\n[name=\"特雷西斯\"]……\n[name=\"特雷西斯\"]这样也好。\n[name=\"特雷西斯\"]还有一件事——\n[name=\"特雷西斯\"]罗德岛的人，他们已经在路上了。"
+        }
+      ],
+      "description": "复生后的特蕾西娅与特雷西斯直接对谈当前战争，并承诺共同实现理想。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "复生后的特蕾西娅与特雷西斯直接对谈当前战争，并承诺共同实现理想。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "复生后的特蕾西娅与特雷西斯直接对谈当前战争，并承诺共同实现理想。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 171,
+          "kind": "story",
+          "line": 156,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1299,
+          "line": 1263,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "quote": "[name=\"特蕾西娅\"]老师，您选择了响应特雷西斯的战争。\n[charslot(slot=\"m\",name =\"avg_npc_1296_1#2$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]即使那场战争会摧毁您自身……\n[charslot(slot=\"m\",name =\"avg_npc_420_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]殿下，那顶王冠向您展示了我的结局？\n[charslot(slot=\"m\",name =\"avg_npc_1296_1#3$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]不。我们都清楚，毁灭是战争的唯一结果。\n[charslot(slot=\"m\",name =\"avg_npc_420_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]哈哈，毁灭又有何惧？\n[name=\"孽茨雷\"]第一个食腐者从战争的废墟中爬起来时，他就明白了我们族群的命运。\n[name=\"孽茨雷\"]“我是万物的终点。”\n[name=\"孽茨雷\"]名为“战争”的巨石早就悬于我们头顶，在“时间”的山坡上，我们唯有竭力去推动它。\n[name=\"孽茨雷\"]但这一次，特雷西斯向我允诺了终止这个轮回的机会。\n[name=\"孽茨雷\"]您也曾许诺过，记得吗？\n[charslot(slot=\"m\",name =\"avg_npc_1296_1#6$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]我记得，在军事委员会成立的那次会议上。\n[name=\"特蕾西娅\"]但我们已经找到了另一条路，老师。\n[charslot(slot=\"m\",name =\"avg_npc_420_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]……\n[name=\"孽茨雷\"]那便向我证明，殿下。我会等您。\n[name=\"孽茨雷\"]但即使您的道路走不到终点，我也会为萨卡兹走出另一条路——\n[charslot(slot=\"m\",name =\"avg_npc_1296_1#3$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]我能看到您的情绪，您正为那条道路而兴奋。\n[charslot(slot=\"m\",name =\"avg_npc_420_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]自两百年前那一战后，我已经等待了太久。\n[name=\"孽茨雷\"]再会，殿下。我会见证您与摄政王争论的结果。\n[charslot(slot=\"m\",name =\"avg_npc_1296_1#2$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]……巴别塔会回来的，老师。\n[charslot(slot=\"m\",name =\"avg_npc_420_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]我从不质疑这一点，因为这是特蕾西娅给我的承诺。\n[Dialog]\n[charslot(duration=1.5)]\n[delay(time=2)]\n[charslot(slot=\"m\",name =\"avg_npc_1296_1#3$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]……\n[charslot(slot=\"m\",name =\"avg_npc_1296_1#6$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]再见，老师。"
+        }
+      ],
+      "description": "特蕾西娅主动谈到特雷西斯所发动的战争；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E20"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅主动谈到特雷西斯所发动的战争",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "对方未在该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 1299,
+          "kind": "story",
+          "line": 1263,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "军事委员会成立时期的回忆",
+      "title": "我们明日见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 201,
+          "line": 44,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-18_end.txt",
+          "quote": "[name=\"血魔大君\"]……特雷西斯。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]血魔。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]如果我的印象没错的话，我在你的那个虚伪的“军事委员会”里，似乎也有个职务。\n[name=\"血魔大君\"]可你是不是已经很久没有送战报给我了？\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]是你太久没有出席军事委员会的相关会议了。\n[name=\"特雷西斯\"]你一直拥有相应的指挥权。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#7$1\",focus=\"l\")]\n[name=\"血魔大君\"]“指挥权”。\n[name=\"血魔大君\"]我不需要指挥我的子嗣们，他们天生就归于我，归于他们侍奉的王庭。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]……\n[name=\"特雷西斯\"]那么，你需要更好地看管他们。\n[name=\"特雷西斯\"]战争的终局已经临近，你的部属需要发挥更重要的作用，他们的肆意妄为让我厌烦。\n[name=\"特雷西斯\"]西线战场花费了太多时间。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#7$1\",focus=\"l\")]\n[name=\"血魔大君\"]这是仪式的需要。\n[name=\"血魔大君\"]如果没有足够的血与泪，我们又怎么能积攒这么多的巫术材料呢？\n[name=\"血魔大君\"]你和特蕾西娅向我声称，你们找到了那一扇遍结疮痂的、古老的门。\n[name=\"血魔大君\"]萨卡兹苦难的源头，命运的起点，真的就在那扇门之后吗？\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]仪式的准备已经完成。\n[name=\"特雷西斯\"]但其中的一个节点，那座叫布伦特伍德的镇子，正在被我们的敌人进攻。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#9$1\",focus=\"l\")]\n[name=\"血魔大君\"]你是在指派我为你解决这些小麻烦吗，特雷西斯？\n[name=\"血魔大君\"]哦，您倒是提醒我了，军事委员会德高望重的“摄政王”——\n[name=\"血魔大君\"]既然军事委员会记得那么一个“关键”的城镇，为何并无像样的布防？\n[name=\"血魔大君\"]裹缠尸布的术师，骨肉傀儡，或是随便什么巫术加持、挥舞皮肉的莽汉？\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]……\n[charslot(slot=\"l\",name=\"avg_npc_410_1#9$1\",focus=\"l\")]\n[name=\"血魔大君\"]……我纵容你和你的妹妹，因你们的灵魂强大耀眼。\n[name=\"血魔大君\"]软弱的萨卡兹会称呼你为摄政王，赦罪师们簇拥在你的身边，还为你带回了特蕾西娅。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#2$1\",focus=\"l\")]\n[name=\"血魔大君\"]摄政王，死而复归的“魔王”，你们是一对有趣的兄妹。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]但，这都是因为，你们的举止、力量，而不是你的……“地位”。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]“力量”。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]哼。\n[name=\"血魔大君\"]为了降下最宏伟的诅咒，我已在这片战场上布下赐福。\n[name=\"血魔大君\"]作为最古老的王庭之一，我仁慈地唤起萨卡兹们血脉中本就潜藏的力量。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#7$1\",focus=\"l\")]\n[name=\"血魔大君\"]那么，特雷西斯，你感受到了吗？你为我的恩赐而喜悦吗？\n[name=\"血魔大君\"]哦，你那驳杂的血液中，又能被沥起几分力量呢？\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]……\n[name=\"特雷西斯\"]终局将近，让你心浮气躁。\n[name=\"特雷西斯\"]藏好你的弱点。\n[name=\"特雷西斯\"]或者说，你需要一些提醒？\n[charslot(slot=\"l\",name=\"avg_npc_410_1#7$1\",focus=\"l\")]\n[name=\"血魔大君\"]呵。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]我会为你完成仪式的最后一部分，高傲的摄政王。\n[name=\"血魔大君\"]但这不是为了你们兄妹那狭小的雄心壮志，你们总是盯着那座拥有卡兹戴尔虚名的移动城市。\n[name=\"血魔大君\"]那只算得上痛楚的长河中的又一个歇脚处罢了。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]特蕾西娅已经准备好了。\n[name=\"特雷西斯\"]这座碎片大厦也将发挥出维多利亚永远也设想不到的力量。\n[name=\"特雷西斯\"]那具骸骨正在城外军营下的枢纽中等待，你可以从那里前往布伦特伍德。\n[charslot(slot=\"l\",name=\"avg_npc_410_1#8$1\",focus=\"l\")]\n[name=\"血魔大君\"]……令人兴奋，不是吗？特雷西斯，你总是这么一张了无生气的面孔。\n[name=\"血魔大君\"]我已经看见了。从地平线那头腾起的黑色光芒，像是一堵黑曜石墙，终将堆砌真正的城。\n[charslot(slot=\"r\",name=\"avg_npc_062\",focus=\"r\")]\n[name=\"特雷西斯\"]……\n[charslot(slot=\"l\",name=\"avg_npc_410_1#8$1\",focus=\"l\")]\n[name=\"血魔大君\"]……呵。你笑我急躁，可沉默不正是你遮掩内心的最佳手段吗？\n[charslot(slot=\"l\",name=\"avg_npc_410_1#1$1\",focus=\"l\")]\n[name=\"血魔大君\"]但愿我还来得及回来，目睹那番盛况。\n[name=\"血魔大君\"]若你真的能找回那种足以重塑这片大地的伟力，萨卡兹最初接触到的……“源石”。\n[name=\"血魔大君\"]那我会为你，把卡兹戴尔的名号，铺满我将触及的每片土地。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[musicvolume(volume=0.3, fadetime=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=0.5)]\n[Sticker(id=\"st1\", multi = true, text=\"萨卡兹，我的同胞们，背弃自己的过往太久了。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们愤恨，他们怨诅，他们将报复施加于我们的敌人之身。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"多么让人失望。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我的同胞们甚至忘记了血脉的来源，忘记了先祖的名讳。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们在麻木与悲哀中交媾，诞下一代代丑陋的、混血的子孙。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们把自己投入移动城市的阴影之中，藏身于街巷，从侵略者手中乞食。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"我对维多利亚人的血越发失去兴致，我对满足于此的萨卡兹们……则更加怒其不争。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n萨卡兹自称萨卡兹的那一刻起，接受了这个“世界”异化他们的那一刻起——\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n就让人怒不可遏。\",block = true)]\n[Sticker(id=\"st1\")]\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"43_g1_giantmonstercockpit\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[PlayMusic(intro=\"$suspenseful_intro\", key=\"$suspenseful_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=0.5)]\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#1$1\",duration=0.7)]\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",duration=0.7)]\n[delay(time=1)]\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#1$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]血魔大君阁下，巨兽的漂航即将结束，我们很快就会抵达布伦特伍德附近的停靠站。\n[name=\"厄尔苏拉\"]那座小镇已经被维多利亚人攻陷，您的造物也正被他们清扫。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]……造物？\n[name=\"血魔大君\"]那些无智的虫豸，不过是鲜血王庭的子裔们为晶石涂画咒文时，无意间洒下的几滴残血。\n[name=\"血魔大君\"]就让维多利亚人去庆祝他们的“胜利”吧。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#4$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]是我误会了，抱歉，阁下。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我看了眼这位军事委员会的少校，萨卡兹。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n特雷西斯在他建立的这套系统里，布置了这么多游荡在王庭之外的孩子。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]你叫厄尔苏拉。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#10$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]……是的，阁下。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]你的血液中掺杂了太多酒精，我原谅贪婪与享乐。\n[name=\"血魔大君\"]但你的犹疑，让人失望。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#8$1\",focus=\"r\")]\n[name=\"血魔大君\"]我可以为你洗去它们，“少校”。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#7$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]……感谢您的好意，血魔大君阁下，我自己……能处理。我……会尽力改正。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"她因紧张而低下头颅。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n但至少，这些混血儿们还懂得抗争，这能稍微弥补他们的愚昧。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"r\",name=\"avg_npc_410_1#7$1\",focus=\"r\")]\n[name=\"血魔大君\"]厄尔苏拉……厄尔苏拉。\n[name=\"血魔大君\"]窃取时间的厄尔苏拉。家喻户晓的故事。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#9$1\",focus=\"r\")]\n[name=\"血魔大君\"]呵，“厄尔苏拉”居然挽起了这具骸骨的缰绳，小小的风趣。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#4$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]阁下，这只是个巧合。我在为自己起名时，从未料到会真的如英雄一般——\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]英雄？\n[charslot(slot=\"r\",name=\"avg_npc_410_1#5$1\",focus=\"r\")]\n[name=\"血魔大君\"]厄尔苏拉是个懦夫。\n[name=\"血魔大君\"]他甚至无法直视这只巨兽的双眼，只敢躲藏在它激起的乱流中，摇醒几个沉湎于幻象的人。\n[charslot(slot=\"r\",name=\"avg_npc_410_1#1$1\",focus=\"r\")]\n[name=\"血魔大君\"]所以我派给了他这样的任务，当然了，“拯救了很多人”。\n[charslot(slot = \"l\", name = \"avg_npc_1067_1#4$1\",focus=\"l\")]\n[name=\"厄尔苏拉\"]……"
+        }
+      ],
+      "description": "特雷西斯具体掌握特蕾西娅的准备。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅未在场。",
+          "status": "not_established",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "特雷西斯明确说明特蕾西娅已准备好并参与计划。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 201,
+          "kind": "story",
+          "line": 44,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-18_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "碎片大厦会谈",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 437,
+          "line": 371,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st05.txt",
+          "quote": "[name=\"特蕾西娅\"]凯尔希，你还是这么会关心人……啊，博士，请进来吧，我们没有在讨论机密事项。\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_048\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"博士\"]我都听到了。殿下，你是该保证足够的睡眠时间。\n[name=\"博士\"]昨晚的作战会议气氛很微妙，想必消耗了你大量的精力。\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]不必担心。倒是博士，我要为一些与会者的言辞道歉，他们无意冒犯，只是情绪稍有激动。\n[name=\"特蕾西娅\"]他们担心我的安全，但我心里明白，博士一定考虑了所有可能的情况。这是最优解。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]特雷西斯想夺回战争的主动权。他深知你的优势同时也是你的软肋。\n[name=\"博士\"]但他想不到的是，你会为萨卡兹人作出多大的牺牲。\n[name=\"博士\"]当阿斯卡纶率领的部队出现在小镇上时，他将会意识到自己败局已定。\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]你总是这么令人安心。博士，听你说话可比睡一觉让人精神多了。\n特蕾西娅疲惫的脸上展露出一丝欣慰的笑，这份笑容在她看向门外时变得更加温柔了。\n[dialog]\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]快进来。来这边，坐我边上。\n[Character]\n[name=\"娇小的卡特斯\"]可……可是……\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]别探头张望了，这里没有外人，阿米娅。\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_051\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"阿米娅\"]博士，凯尔希医生，晚……晚上好。\n[name=\"阿米娅\"]我不是故意这么晚还没休息的。\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]没人会责怪你。让我猜猜，做噩梦了？\n[Character(name=\"avg_npc_051\")]\n[name=\"阿米娅\"]不……不是的。我是听到军队的集合声醒过来的。\n[name=\"阿米娅\"]我趴在窗户上看，阿斯卡纶姐姐似乎带着其他战士在为远行做准备……\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]他们是有任务在身。\n[Character(name=\"avg_npc_051\")]\n[name=\"阿米娅\"]可是……可是阿斯卡纶姐姐说过，她绝对不会离开殿下和我哪怕一步。\n[name=\"阿米娅\"]我担心发生了什么事，就想着偷偷来指挥室看一眼……\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]阿米娅呀阿米娅，是博士交给了阿斯卡纶一个小任务，他们不用多久就会回来的。\n[name=\"特蕾西娅\"]你想想，博士指挥的战斗，哪一次不是速战速决？\n[Character(name=\"avg_npc_051\")]\n[name=\"阿米娅\"]确……确实，如果是博士的意见，我就放心了。\n[name=\"阿米娅\"]博士是最能给人安全感的。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]阿米娅，你该休息了。\n[Character(name=\"avg_npc_051\")]\n[name=\"阿米娅\"]我这就回去！大家晚安。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=1.5)]\n[delay(time=1.5)]\n[dialog]\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]真是令人怜爱的孩子……\n[name=\"特蕾西娅\"]博士，你来之前我确实在担心……阿斯卡纶离开期间罗德岛舰船的安全问题。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]担心是正常的。\n[name=\"博士\"]拉长战线的同时，包围一个毫无战略意义的小镇。特雷西斯的真正目的无从得知。\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]我的安危倒是其次，更多的是担心连累到舰上的研究人员和孩子们。\n[name=\"特蕾西娅\"]但正如阿米娅所说，你确实能给人带来安全感。在你指挥下所取得的战果也令人无从置疑。\n[name=\"特蕾西娅\"]博士，凯尔希，战争胜利的那天，应该不远了吧？"
+        }
+      ],
+      "description": "特蕾西娅听取并回应博士对特雷西斯战略的分析，特雷西斯不在场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C17"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅听取并回应博士对特雷西斯战略的分析，特雷西斯不在场。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "本篇候选窗口未见反向知晓或往来证据。",
+          "status": "not_established",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 437,
+          "kind": "story",
+          "line": 371,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 175,
+          "line": 54,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "quote": "[name=\"？？？\"]特雷……\n[name=\"？？？\"]……\n[name=\"？？？\"]特雷西斯。\n[Character(name=\"avg_npc_062\")]\n[name=\"特雷西斯\"]——\n[name=\"特雷西斯\"]是你啊。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]你睡着了？\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]……也许。\n[name=\"特雷西斯\"]维多利亚的公爵们都很狡诈，他们精心筛选出每一条流入伦蒂尼姆的情报，让萨卡兹自乱阵脚。\n[name=\"特雷西斯\"]我们在博弈中并不占据优势。但也未曾落了下风。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]军事委员会总有无尽的事务。我们的历史就是脆弱如斯，任何一份情报上的批注有了偏差，都足以让卡兹戴尔万劫不复。\n[name=\"特蕾西娅\"]而现在……现在我们身在伦蒂尼姆，情况却并没有太大变化。你依然如此疲惫。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]不，有一点变了。\n[name=\"特雷西斯\"]你在这里。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]……啊。\n[name=\"特蕾西娅\"]是啊，我在这里。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]我并非没有想过，你取下我头颅后的种种可能。也许你会做得比我还要利落。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]这一定不是你会去想的事情。是曼弗雷德提出的假设。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]我总需要一些不同的声音。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]你在想什么？\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]……一个梦。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]嗯？\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]我看见我们仍在伦蒂尼姆，却并非披坚执锐而来。\n[name=\"特雷西斯\"]阴云笼罩了这座城市，黑色的石头长得到处都是，而萨卡兹……萨卡兹挡在天灾与人群之间。\n[name=\"特雷西斯\"]灾难结束后，伦蒂尼姆的城门向我们敞开，维多利亚人站在街道两侧，欢呼着迎接我们到来。\n[name=\"特雷西斯\"]进入这座宫殿之后，坐在王座上的人不再忌惮我们身上的黑色石头，握住了我们的手。\n[name=\"特雷西斯\"]他们称萨卡兹为——\n[name=\"特雷西斯\"]“朋友”。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]听起来很不可思议。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]不止如此。\n[name=\"特雷西斯\"]我看见血魔、食腐者与温迪戈一起踏上比乌萨斯更北的北方，将精怪的碎片掷回寒冷的天空。\n[name=\"特雷西斯\"]我还看见女妖和变形者去往比伊比利亚更南的南方，将大海的异议堵在无边的水中。\n[name=\"特雷西斯\"]无数萨卡兹为了这片大地而牺牲——\n[name=\"特雷西斯\"]而阿斯兰，德拉克，菲林，卡普里尼，黎博利……他们全都与萨卡兹站在一起。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]站在一起？\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]是的，萨卡兹不再是被排斥的漂泊者。大地拥抱了我们，我们重新有了根。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]这个梦……\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]这并非我的梦。\n[name=\"特雷西斯\"]这些场景都来自你曾经对我描绘过的……萨卡兹可能拥有的未来。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]我记得。\n[name=\"特蕾西娅\"]可那时你对我说，我的理想太过遥远，无法理解我的不仅有我们曾经的仇敌，还有萨卡兹。\n[name=\"特蕾西娅\"]万年的积怨会化作刀枪剑戟，统统加诸我身。\n[name=\"特蕾西娅\"]你还说，比起我描绘的未来，更有可能的是在我带着萨卡兹走到那个未来之前，萨卡兹就已被内部爆发的战火撕碎。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]而你不愿放弃任何可能性，即便那只是一粒初生的火种。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]……\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]……你也说过。\n[name=\"特雷西斯\"]这个世界，曾经只属于萨卡兹。是先民和神民从我们的祖先手里夺走了家园。\n[name=\"特雷西斯\"]死魂灵至今仍呢喃着萨科塔的背叛，王庭如秋叶不断凋敝，血脉遗失在哀嚎声中，罪人们可笑地忘却历史，卡兹戴尔的废墟遍布泰拉。\n[name=\"特雷西斯\"]然后，他们，嚷嚷着——\n[name=\"特雷西斯\"]——“萨卡兹入侵了我们的家园”。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]……\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]那么萨卡兹宁愿相信斗争，斗争能让我们的命运拧成一股，而非……\n[name=\"特雷西斯\"]……和平。\n[name=\"特雷西斯\"]这不公平。统治也是共存的手段。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]泰拉会在迎接那些古老的问题前自取灭亡。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]但我们的家园将比海嗣的大群更加壮美，我们的巫师将遏制北域的邪恶，我们的知识无所不涉，将源石化解，消弭天灾……\n[name=\"特雷西斯\"]在那之前，萨卡兹必须得出答案。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]是啊……是的。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]这样的对话发生过无数次，但现在，你能清楚听见他们的声音，你能切实碰触古老灵魂的触须，那么告诉我，特蕾西娅——\n[name=\"特雷西斯\"]——这万年来提卡兹众生众魂的意志，穿过生与死的彼岸，他们得到过片刻宁静吗？\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]……\n[name=\"特蕾西娅\"]我已经失败了，特雷西斯。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]因为你棋差一着。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]因为此时此刻站在这里的是我们。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]这里……\n[name=\"特雷西斯\"]伦蒂尼姆。\n[name=\"特雷西斯\"]告诉我，特蕾西娅。\n[name=\"特雷西斯\"]当你站在碎片大厦的顶部去看这座城市的时候，你看到的是什么？\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]维多利亚是一个极富创造力的国家。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]毫无疑问。短短数百年间，他们建起了移动城市，抵御住了天灾，甚至还试图掌握风暴——\n[name=\"特雷西斯\"]还有那些喷着白色蒸汽的骑士。两百年前，钢铁甲胄们踏上卡兹戴尔的时候，还远不及后来我见到的那般强悍。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]啊……或许是因为特殊的血脉给予了我们之中的许多人过于漫长的岁月。\n[name=\"特蕾西娅\"]在一次又一次战争间隙抬起头时，我们会突然发现，除了萨卡兹之外，所有人都在前进。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]不，与个体生命的长短无关。\n[name=\"特雷西斯\"]他们有机会前进，只因为过去他们独享着选择和平或者战争的自由。\n[name=\"特雷西斯\"]特蕾西娅，当我看着伦蒂尼姆的时候，我看到的是这个国家错失了多少机会。\n[name=\"特雷西斯\"]维多利亚人鄙夷着萨卡兹的原始，但本质上不过是在用自己设立的文明规则虚饰骨子里的贪婪与暴力。\n[name=\"特雷西斯\"]他们互相撕咬，一刻不停。最终他们创造的一切，都将毁在自己手里。\n[name=\"特雷西斯\"]所以我们才争取到了这个获得自由的机会。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]即便希望依然渺茫？\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=1)]\n[name=\"特雷西斯\"]——\n[name=\"特雷西斯\"]我不会放弃任何可能性。\n[Character(name=\"avg_npc_062\",name2=\"avg_npc_056\",focus=2)]\n[name=\"特蕾西娅\"]嗯……在这一点上，我们从来都很相似。"
+        }
+      ],
+      "description": "特蕾西娅与特雷西斯直接长谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅持续直接回应特雷西斯。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "特雷西斯直接向特蕾西娅阐述理念。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 175,
+          "kind": "story",
+          "line": 54,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆碎片大厦内",
+      "title": "淬火尘霾"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 270,
+          "line": 161,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "quote": "[charslot(slot=\"m\",focus=\"n\")]\n[dialog]\n[Decision(options=\"凯尔希，他们成功的概率有多大？;凯尔希，我们现在是否具备应对后续意外的条件？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]从我们在内化宇宙中的遭遇来判断，特蕾西娅已经极大程度地掌控了其中的规则。\n[name=\"凯尔希\"]解析规则，重建秩序，和特雷西斯配合夺下最初的源石……我相信，以她的能力而言，这并非天方夜谭。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]有关最初的源石的更详细信息我也无从了解，自然也无法确切地提出有效的应对手段。\n[name=\"凯尔希\"]换而言之，事态发展到当下，我们已经很难依据过往的经验与知识来判断局势。\n[Predicate(references=\"1;2\")]\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]凯尔希医生，难道我们对此束手无策吗？\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]并非如此。如果他们的计划成功，特雷西斯与特蕾西娅所求依旧在我们的认知范围之内，事态不一定会走向最坏的结果。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#4$1\")]\n[name=\"凯尔希\"]但如果他们失败……\n[charslot(slot=\"m\",focus=\"n\")]\n凯尔希看向了你，眼神中充满了担忧。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\")]\n[name=\"凯尔希\"]Dr.{@nickname}，我们必须以最快的速度赶回罗德岛本舰。\n[name=\"凯尔希\"]我们也许还能做最后的尝试来为泰拉争取片刻的喘息时间。\n[charslot]\n[dialog]\n[Decision(options=\"好，先控制住曼弗雷德。;与其担忧未发生的意外，不如排除已有的变数。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[playsound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（兴奋的高鸣）\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]我会护住博士，同时尽可能限制曼弗雷德的活动范围。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]速战速决。小心他手上的“提卡兹之根”。\n[charslot]\n当曼弗雷德手中的“提卡兹之根”刚刚亮起红光时，魔王的法术与阿斯卡纶的锋刃已经逼近到了他的面前。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]该结束了。\n[dialog]\n[charslot]\n[stopmusic(fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\")]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovementsp\")]\n[charslot(slot = \"right\", name = \"avg_4132_ascln_1#4$1\",posfrom = \"200,0\", posto = \"0,0\",duration = 0.5,afrom=0.5,ato=0.5,focus=\"m\")]\n[delay(time=0.6)]\n[CameraShake(duration=0.2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=1,g=1, b=1, fadetime=0.5, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[image(image=\"32_i08_2\",screenadapt=\"coverall\",block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[delay(time=0.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"凯尔希\"]——躲开！\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1,  fadetime=1, block=true)]\n[image]\n[Background(image=\"60_g7_westlobbyundergroundthrone\",screenadapt=\"coverall\")]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[Blocker(a=0, r=0, g=0, b=0,  fadetime=1, block=true)]\n[name=\"曼弗雷德\"]——！\n[charslot]\n[dialog]\n[Blocker(a=0.2, r=0.2, g=0, b=0.5, fadetime=1, block=false)]\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\",afrom=0.5,ato=0,duration=1)]\n[delay(time=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n阿斯卡纶瞬间化作紫色的烟雾，在剑光中散开又重聚。\n阿米娅所编织的屏障护住了你和凯尔希，却也在剑光中变得脆弱。\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=false)]\n[playsound(key=\"$Mon3tr_n\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（愤怒的嘶鸣）\n[name=\"Mon3tr\"]（全力保护）\n[dialog]\n[charslot]\n[playMusic(intro=\"$sacrifice_intro\",key=\"$sacrifice_loop\", volume=0.6)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot = \"m\", focus = \"n\")]\n剑光的主人缓缓从黑暗中走了出来，在微弱的光线下显得格外恐怖。\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]你让自己陷入了愚蠢的境地。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"]……殿下……你……\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]看来孽茨雷履行了与我的约定……\n[name=\"特雷西斯\"]你们来到我面前。很好。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#6$1\")]\n[name=\"阿斯卡纶\"]……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]……\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#2$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n你看到了王座前那个面目平静的人——特雷西斯。\n他绝非你所熟悉的模样。而他的手中，紧紧地握着一枚鲜艳的晶石。\n[charslot]\n[dialog]\n[Decision(options=\"“阿喃那”……;你们成功了。\", values=\"1;2\")]"
+        }
+      ],
+      "description": "特蕾西娅与特雷西斯共同实施夺取“阿喃那”的计划，存在明确既往互动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅与特雷西斯共同实施夺取“阿喃那”的计划，存在明确既往互动。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "特蕾西娅与特雷西斯共同实施夺取“阿喃那”的计划，存在明确既往互动。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 270,
+          "kind": "story",
+          "line": 161,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前战斗或明确既往关系",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "npc_c0e49cc5a9477cf1|npc_c573b8884914fc60"
+}

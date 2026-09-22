@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 248,
+          "line": 158,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "quote": "[name=\"烈夏\"]停手了，真的停手了。\n[name=\"烈夏\"]还真和博士你说的一样，那个西装男一开口说话，没多久，两边就都停下来了！\n[charslot(slot=\"m\",name=\"avg_194_leto_1#5$1\",focus=\"m\")]\n[name=\"烈夏\"]我本来还以为我们能大干一场呢，银灰他不是还特地联系上你们，说什么要你们尽快赶到？\n[name=\"烈夏\"]结果就这么简单？\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"m\")]\n[name=\"烈夏\"]博士，为什么那人一到场，维多利亚和谢拉格就打不起来了？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"n\")]\n[Decision(options=\"因为他是卡西米尔商业联合会的发言人。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#6$1\",focus=\"m\")]\n[name=\"烈夏\"]卡西米尔商业联合会的发言人……呃，有啥厉害的？\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]哦，等会，我知道了！\n[name=\"烈夏\"]重点是，那家伙是从卡西米尔来的，对不？\n[name=\"烈夏\"]维多利亚敢欺负谢拉格要好处，但碰上同样来要好处的卡西米尔，就得掂量一下再动手……之前安娜给我出的试卷上好像有类似的题目。\n[charslot(slot=\"m\",name=\"avg_194_leto_1#6$1\",focus=\"m\")]\n[name=\"烈夏\"]等会，那银灰他联系你们，还有这次喊缪尔赛思来……也是为了这个？\n[name=\"烈夏\"]你们原来也是他的后手？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#6$1\",focus=\"n\")]\n[Decision(options=\"你进步了，烈夏。;不过现在用不着了。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\",focus=\"m\")]\n[name=\"烈夏\"]怪不得博士你要抓紧赶路。\n[name=\"烈夏\"]这些弯弯绕绕真麻烦。\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"m\")]\n[name=\"烈夏\"]不过博士，你怎么知道那个西装男是什么发言人的？\n[name=\"烈夏\"]你们认识？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"n\")]\n[Decision(options=\"有过几面之缘。;他的外表变化很大，但声音没变。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"m\")]\n[name=\"烈夏\"]也对，我记得博士你和阿米娅确实有段时间是去了卡西米尔。\n[name=\"烈夏\"]下次有机会我也想和老妈一起去那边转转。\n[name=\"烈夏\"]别的不提……我有好几个喜欢的骑士，他们打起来实在是太帅了！\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#6$1\",focus=\"m\")]\n[name=\"烈夏\"]外表……声音……？\n[charslot(slot=\"m\",name=\"avg_194_leto_1#13$1\",focus=\"m\")]\n[name=\"烈夏\"]呃，那人的声音确实挺特别的，特别大声。\n[name=\"烈夏\"]也不知道是怎么办到的，我站在这都能听见他的声音。\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"m\")]\n[name=\"烈夏\"]对了，博士。\n[name=\"烈夏\"]当时你在车站，是不是给了那个西装男什么东西？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"n\")]\n[Decision(options=\"是可露希尔没事的时候自己改装的小玩具。;只是一点小小的帮助。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#6$1\",focus=\"m\")]\n[name=\"烈夏\"]真的假的？\n[name=\"烈夏\"]总觉得没你说的那么简单。\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"m\")]\n[name=\"烈夏\"]哦……缪尔赛思和那边搭上话了，他们好像聊得不错。\n[name=\"烈夏\"]博士，我们不用过去吗？\n[name=\"烈夏\"]还有Sharp大哥，你在这也有熟人吧？\n[charslot(slot=\"m\",name=\"avg_npc_252\",focus=\"m\")]\n[name=\"Sharp\"]现在是工作时间。\n[Dialog]\n[charslot]\n[Decision(options=\"邀请我来的人现在大概分身乏术。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"在这里安静地赏一会景也不错。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"m\")]\n[name=\"烈夏\"]也成。\n[name=\"烈夏\"]那我陪你一起。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\",focus=\"n\")]\n[Decision(options=\"这恐怕不行。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"那边好像有人正在等你。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#6$1\",focus=\"m\")]\n[name=\"烈夏\"]等我？谁啊……呃！\n[charslot(slot=\"m\",name=\"avg_194_leto_1#4$1\",focus=\"m\")]\n[name=\"烈夏\"]啧，怎么是那家伙。\n[name=\"烈夏\"]……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#4$1\",focus=\"n\")]\n[Decision(options=\"不过去吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_194_leto_1#13$1\",focus=\"m\")]\n[name=\"烈夏\"]我和那家伙也没什么好说的……\n[charslot(slot=\"m\",name=\"avg_194_leto_1#4$1\",focus=\"m\")]\n[name=\"烈夏\"]啧，啊啊啊，烦死了！\n[name=\"烈夏\"]博士，Sharp大哥，抱歉，等我一会！\n[name=\"烈夏\"]我很快就回来！"
+        }
+      ],
+      "description": "烈夏与博士直接同行交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_194_leto",
+          "reason": "烈夏反复直接称呼并询问博士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士以对话选项直接回应烈夏。",
+          "status": "supported",
+          "to": "char_194_leto"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 248,
+          "kind": "story",
+          "line": 158,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "冲突停止后的湖边",
+      "title": "银心湖列车"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 554,
+          "line": 506,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "quote": "[charslot(slot=\"m\",name=\"char_196_sunbr_1#6\")]\n[name=\"古米\"]唔唔——吃、吃不下了，烈夏姐！\n[charslot(slot=\"m\",name=\"avg_194_leto_1#1$1\")]\n[name=\"烈夏\"]话说回来，凛冬你有什么个人用品要我帮忙一起带着吗？我带了超超大的箱子。\n[charslot(slot=\"m\",name=\"char_115_headbr_9#7\")]\n[name=\"凛冬\"]那把娜塔莉娅送我的吉他带上，省得她到时候又问东问西。\n[name=\"凛冬\"]其他东西先扔家里吧，又不是不回来。\n[charslot(slot=\"m\",name=\"char_195_glassb_2#1\")]\n[name=\"真理\"]烈夏，你刚开始不是说什么都不拿吗？\n[charslot(slot=\"m\",name=\"avg_194_leto_1#8$1\")]\n[name=\"烈夏\"]想起来有些破烂得扔给某个人。我们能顺道去一趟谢拉格吗，索尼娅？\n[charslot(slot=\"m\",name=\"char_115_headbr_9#7\")]\n[name=\"凛冬\"]……行吧，我去给博士申报我们的行程——\n[charslot]\n[name=\"坚定的声音\"]各位，请问，我能和你们一起去乌萨斯行动吗？\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_405_absin_1#1$1\",duration=1.5)]\n[delay(time=2)]\n[name=\"苦艾\"]抱歉，虽然我的提议有点唐突……\n[charslot(slot=\"m\",name=\"avg_405_absin_1#9$1\")]\n[name=\"苦艾\"]但是我……\n[charslot]\n[dialog]\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#8$2\",duration = 1)]\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",duration = 1)]\n[delay(time=1.5)]\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]索尼娅，让卓娅和我们同行吧。\n[name=\"早露\"]这次增援任务会很漫长，我们可以互相照应。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_405_absin_1#4$1\")]\n[name=\"苦艾\"]娜塔莉娅你已经知道了？\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$2\")]\n[name=\"阿米娅\"]我已经和早露小姐沟通过了。\n[charslot(slot=\"m\",name=\"char_115_headbr_9#7\")]\n[name=\"凛冬\"]哈哈，不用担心，卓娅。这又不是我们第一次合作出外勤——\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_2013_cerber_1#1$1\",duration=0.2)]\n[charslot(slot = \"m\",posfrom = \"-200,0\", posto = \"0,0\",duration = 0.5)]\n[delay(time=0.3)]\n[charslot(duration=0.2)]\n[delay(time=0.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"char_195_glassb_2#4\")]\n[name=\"真理\"]刻俄柏，等等，那些饼干还没有完全烤熟！\n[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$2\")]\n[name=\"阿米娅\"]欸？"
+        }
+      ],
+      "description": "烈夏属于博士审阅并批准的外勤申请成员。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D06"
+          ],
+          "from": "char_194_leto",
+          "reason": "烈夏属于博士审阅并批准的外勤申请成员。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D06"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "烈夏属于博士审阅并批准的外勤申请成员。",
+          "status": "supported",
+          "to": "char_194_leto"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 554,
+          "kind": "story",
+          "line": 506,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_194_leto|npc_b99957887950ebfd"
+}

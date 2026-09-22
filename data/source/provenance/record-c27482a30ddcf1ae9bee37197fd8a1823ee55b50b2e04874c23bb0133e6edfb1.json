@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 43,
+          "line": 37,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_end.txt",
+          "quote": "[playsound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"1\", name=\"avg_npc_235\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=0, width=200, block=true)]\n[name=\"Misery\"]我正在侦察萨卡兹的动向，暂时没有发现他们留下的痕迹。\n[Dialog]\n[CharacterCutin(widgetID=\"1\", fadetime=0.5, block=true)]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$2\",focus=\"m\")]\n[name=\"推进之王\"]感谢你，Misery先生，请继续布置哨位。"
+        }
+      ],
+      "description": "推进之王和Misery实际双向通讯，并非本地同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E175"
+          ],
+          "from": "char_112_siege",
+          "reason": "推进之王和Misery实际双向通讯，并非本地同场。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E175"
+          ],
+          "from": "char_615_acspec",
+          "reason": "推进之王和Misery实际双向通讯，并非本地同场。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 43,
+          "kind": "story",
+          "line": 37,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 59,
+          "line": 17,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-02_end.txt",
+          "quote": "[name=\"因陀罗\"]这帮烦人精！\n[Character(name=\"avg_155_tiger_1#9$1\")]\n[name=\"因陀罗\"]我这就去把人捞回来。\n[Character(name=\"avg_npc_396_1#7$1\")]\n[name=\"达格达\"] ……不行。\n[Character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]干嘛抓着我？这人不是我们救回来的吗？\n[Character(name=\"avg_npc_396_1#1$1\")]\n[name=\"达格达\"] 情况不同。我们不能让推进之王暴露在这些敌人面前。\n[Character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]你让我们把人丢了不管？这可不是我们格拉斯哥帮的作风！\n[Character(name=\"avg_npc_405_1#5$1\")]\n[name=\"摩根\"]你们两个，别在这里吵架。\n[Character(name=\"avg_npc_405_1#5$1\")]\n[name=\"摩根\"]维娜……\n[Character(name=\"avg_npc_407_1#1$1\")]\n[name=\"推进之王\"]……听博士和阿米娅的。\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ——\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 狙击干员，瞄准挟持目标的敌人！\n[dialog]\n[Character(name=\"avg_npc_394_1#7$1\",focus=-1)]\n[Decision(options=\"那个术师是关键。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_394_1#7$1\")]\n[multiline(name=\"阿米娅\")] 术师……\n[Character(name=\"avg_npc_394_1#5$1\")]\n[multiline(name=\"阿米娅\",end=true)] 博士，我想起来了。\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 根据Misery的消息和风笛的报告，她就是伦蒂尼姆这支深池部队的头目。\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] ……也是小丘郡事件的始作俑者之一。\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 罗德岛并不打算把Outcast的牺牲完全怪罪在她一个人头上，但不光Misery和风笛，我们许多干员都对她抱有强烈的敌意。\n[dialog]\n[Character(name=\"avg_npc_394_1#7$1\",focus=-1)]\n[Decision(options=\"蔓德拉。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_394_1#7$1\")]\n[name=\"阿米娅\"] 风笛说，她很难缠。\n[Character(name=\"avg_npc_394_1#1$1\")]\n[name=\"阿米娅\"] 我们可以在这里和深池作战，救回托马斯先生，甚至排除蔓德拉这个对之后的行动有重大威胁的劲敌。"
+        }
+      ],
+      "description": "行动讨论中，推进之王让大家听博士和阿米娅安排；阿米娅随即具体提及Misery及Outcast，现场听者已获知具体人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR01"
+          ],
+          "from": "char_112_siege",
+          "reason": "行动讨论中，推进之王让大家听博士和阿米娅安排；阿米娅随即具体提及Misery及Outcast，现场听者已获知具体人物。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_615_acspec",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 59,
+          "kind": "story",
+          "line": 17,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_112_siege|char_615_acspec"
+}

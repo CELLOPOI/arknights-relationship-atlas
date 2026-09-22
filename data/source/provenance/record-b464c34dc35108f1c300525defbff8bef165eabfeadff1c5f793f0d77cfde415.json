@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 744,
+          "line": 727,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_slchan_2_1.txt",
+          "quote": "[name=\"薇尔丽芙\"]以及，你的真诚十分动人，恩希亚小姐。\n[name=\"薇尔丽芙\"]你的话让我确信了一件事，虽然我们身处不同的信仰之中，虽然我们的生活环境并不相同，但我们面临的问题始终是有共通之处的。\n[charslot(slot=\"m\",name=\"avgnew_173_slchan_1#1$1\")]\n[name=\"崖心\"]……嗯，我也这么想。\n[name=\"崖心\"]我一直以为萨科塔都是像能天使那样的性格，现在我知道了，萨科塔之间也会有各种各样的问题。\n[charslot(slot=\"m\",name=\"avg_npc_361_1#2$1\")]\n[name=\"薇尔丽芙\"]相信我，能够理解这一点，将会是你真正理解拉特兰的第一步。\n[name=\"薇尔丽芙\"]说起来，如果我没记错的话，谢拉格花费三年建造的耶拉冈德像即将落成，你应当要启程返回谢拉格参加落成典礼了吧？\n[name=\"薇尔丽芙\"]如果你愿意的话，我可以送你一程。\n[charslot(slot=\"m\",name=\"avgnew_173_slchan_1#8$1\")]\n[name=\"崖心\"]……\n[name=\"崖心\"]关于这一点，我有一个不情之请。\n[charslot(slot=\"m\",name=\"avg_npc_361_1#4$1\")]\n[name=\"薇尔丽芙\"]哦？\n[charslot(slot=\"m\",name=\"avgnew_173_slchan_1#1$1\")]\n[name=\"崖心\"]我想跟着萨玛拉小姐四处走走，多了解一些拉特兰和萨科塔的事情，可以吗？\n[charslot(slot=\"m\",name=\"avg_npc_361_1#4$1\")]\n[name=\"薇尔丽芙\"]哦？你不打算回去了吗？"
+        }
+      ],
+      "description": "薇尔丽芙与崖心当面讨论拉特兰并询问返程。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "char_173_slchan",
+          "reason": "薇尔丽芙与崖心当面讨论拉特兰并询问返程。",
+          "status": "supported",
+          "to": "npc_0ce6ed6bdcaa7258"
+        },
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_0ce6ed6bdcaa7258",
+          "reason": "薇尔丽芙与崖心当面讨论拉特兰并询问返程。",
+          "status": "supported",
+          "to": "char_173_slchan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_031e68fa4da28aab.json",
+      "sources": [
+        {
+          "endLine": 744,
+          "kind": "story",
+          "line": 727,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_slchan_2_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "崖心"
+    }
+  ],
+  "relationship_id": "char_173_slchan|npc_0ce6ed6bdcaa7258"
+}

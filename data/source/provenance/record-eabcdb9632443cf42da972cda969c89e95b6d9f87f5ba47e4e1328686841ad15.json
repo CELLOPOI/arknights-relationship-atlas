@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 269,
+          "line": 237,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_06_beg.txt",
+          "quote": "[Character(name=\"avg_npc_122\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"索娜\"]  有人吗——！抱歉，我们这儿有个伤员——\n[Character(name=\"avg_npc_122\", name2=\"avg_npc_061#2\", focus=2)]\n[name=\"玛莉娅\"]  ……焰尾骑士？\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]\n[Character(name=\"avg_npc_122\", name2=\"avg_npc_061#2\", focus=1)]\n[name=\"索娜\"]  临光……？呃，长话短说，现在能帮我们一把吗？\n[Character(name=\"avg_npc_061#2\", name2=\"avg_npc_123\", focus=2)]\n[name=\"灰毫骑士\"]  嘁……真是丢脸……我本来想在赛场上和你分出胜负的，结果要先被照顾一次吗？\n[Character(name=\"avg_npc_061#5\")]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"玛莉娅\"]  你、你们的伤！请别说话了，跟我来——\n[Character(name=\"avg_npc_061#2\")]\n[name=\"玛莉娅\"]  欸，大家怎么——\n[Character(name=\"avg_npc_107#2\", name2=\"avg_npc_061#2\", focus=1)]\n[name=\"光头马丁\"]  玛莉娅，看护好伤员，别的你不用管。\n[Character(name=\"avg_npc_120#2\", name2=\"avg_npc_101#4\", focus=1)]\n[name=\"老骑士\"]  科瓦尔！\n[Character(name=\"avg_npc_120#2\", name2=\"avg_npc_101#2\", focus=2)]\n[name=\"老工匠\"]  你的弓，老东西！\n[Character(name=\"avg_npc_120#3\", name2=\"avg_npc_101#2\", focus=1)]\n[name=\"老骑士\"]  好像不止一个。\n[Character(name=\"avg_npc_101#4\")]\n[name=\"老工匠\"]  ……\n[Character(name=\"avg_npc_120#3\")]\n[name=\"老骑士\"]  ……\n[Character(name=\"avg_npc_107#2\")]\n[name=\"光头马丁\"]  ……\n[Character(name=\"avg_npc_120#3\", name2=\"avg_npc_101#4\", focus=1)]\n[name=\"老骑士\"]  ……没跟过来。\n[Character(name=\"avg_npc_120#3\", name2=\"avg_npc_101#4\", focus=2)]\n[name=\"老工匠\"]  呸，什么人？敢这么明目张胆地对竞技骑士动手？"
+        }
+      ],
+      "description": "索娜向酒吧众人求助，马丁组织应对。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E29"
+          ],
+          "from": "char_420_flamtl",
+          "reason": "索娜进入马丁的酒吧向在场众人求助。",
+          "status": "supported",
+          "to": "npc_2a519e8c8e7b4e11"
+        },
+        {
+          "evidenceIds": [
+            "E29"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "马丁因索娜带来的伤情立即安排照料与戒备。",
+          "status": "supported",
+          "to": "char_420_flamtl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_89f9ae4a0acf0209.json",
+      "sources": [
+        {
+          "endLine": 269,
+          "kind": "story",
+          "line": 237,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "酒吧紧急求助",
+      "title": "玛莉娅·临光"
+    }
+  ],
+  "relationship_id": "char_420_flamtl|npc_2a519e8c8e7b4e11"
+}

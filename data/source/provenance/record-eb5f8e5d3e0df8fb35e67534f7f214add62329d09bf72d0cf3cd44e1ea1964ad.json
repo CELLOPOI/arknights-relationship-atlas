@@ -1,0 +1,61 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 444,
+          "line": 408,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "quote": "[name=\"梁洵\"] ……老鲤？你为什么……\n[character(name=\"avg_322_lmlee_1#4$1\")]\n[name=\"老鲤\"] 梁洵！？呃，还有宁小姐……\n[character(name=\"avg_npc_298_1#1$1\")]\n[name=\"宁小姐\"] ……\n[Character(name=\"avg_npc_297_1#2$1\")]\n[name=\"左乐\"] ……见过宁侍郎。\n[character(name=\"avg_npc_298_1#1$1\")]\n[name=\"宁小姐\"] 虽然有很多事想询问秉烛人，不过似乎不该是现在。\n[character(name=\"avg_1021_kroos2_1#2$1\")]\n[name=\"克洛丝\"] （侍郎！？）\n[character(name=\"avg_322_lmlee_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"老鲤？\"] 请坐，请坐。\n[character(name=\"avg_322_lmlee_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"老鲤？\"] 如此一来，便差不多了吧。\n[character(name=\"avg_npc_295_1#7$1\")]\n[name=\"梁洵\"] ……你要做什么？\n[character(name=\"avg_322_lmlee_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"老鲤？\"] 与各位下一盘棋。\n[character]\n[character(name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"] 你不喜欢下棋，却要拉着这么多人陪你下棋？\n[character]\n[character(name=\"avg_322_lmlee_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"老鲤？\"] 算是吧。\n[character]\n[character(name=\"avg_322_lmlee_1#2$1\")]\n[name=\"老鲤\"] 你这只酒盏可害我不浅。\n[character(name=\"avg_322_lmlee_1#1$1\")]\n[name=\"老鲤\"] 如果最后那位小姐没有替我点破真相……我会变成什么样？\n[character]\n[character(name=\"avg_322_lmlee_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"老鲤？\"] 说不准，也许你某次醒来，会发现自己才是那个梦幻泡影。泡沫一碎，睁开眼的人，是我。\n[character(name=\"avg_npc_295_1#1$1\")]\n[name=\"梁洵\"] ……什么？\n[character(name=\"avg_1021_kroos2_1#10$1\")]\n[name=\"克洛丝\"] 这也太可怕了。"
+        },
+        {
+          "endLine": 986,
+          "line": 973,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "quote": "[name=\"梁洵\"] ……唔。\n[character(name=\"avg_npc_298_1#1$1\")]\n[name=\"宁小姐\"] 你醒了。\n[character(name=\"avg_npc_295_1#2$1\")]\n[name=\"梁洵\"] ……一场白日梦。\n[character(name=\"avg_npc_298_1#6$1\")]\n[name=\"宁小姐\"] 你我知道，这是她们的手段。\n[name=\"宁小姐\"] 那局棋……\n[character(name=\"avg_npc_295_1#7$1\")]\n[name=\"梁洵\"] 毕竟，我们侥幸未输。\n[name=\"梁洵\"] ……只是众人合力，对面却只有一人纹枰，终究是不太光彩。\n[character(name=\"avg_npc_298_1#6$1\")]\n[name=\"宁小姐\"] 光彩……\n[name=\"宁小姐\"] 与他斗，还谈什么光彩不光彩呢。"
+        }
+      ],
+      "description": "克洛丝在术法棋局中与被带来的宁小姐实际共同对话；梁宁醒后共同承认棋局经历，非仅老鲤单方梦见。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E62"
+          ],
+          "from": "char_124_kroos",
+          "reason": "克洛丝在术法棋局中与被带来的宁小姐实际共同对话；梁宁醒后共同承认棋局经历，非仅老鲤单方梦见。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "E62"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "克洛丝在术法棋局中与被带来的宁小姐实际共同对话；梁宁醒后共同承认棋局经历，非仅老鲤单方梦见。",
+          "status": "supported",
+          "to": "char_124_kroos"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 444,
+          "kind": "story",
+          "line": 408,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 986,
+          "kind": "story",
+          "line": 973,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_124_kroos|npc_906d6f310e0f648e"
+}

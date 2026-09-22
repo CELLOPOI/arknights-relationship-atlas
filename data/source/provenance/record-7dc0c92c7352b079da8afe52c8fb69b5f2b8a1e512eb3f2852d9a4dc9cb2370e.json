@@ -1,0 +1,341 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 254,
+          "line": 252,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-20_end.txt",
+          "quote": "[name=\"特蕾西娅\"]偷偷拍照？不止哦，我也没有想到当年那个冒冒失失的佣兵会成长为今天这样。\n[charslot(slot=\"m\",name=\"avg_npc_1296_1#8$1\",focus=\"m\")]\n[name=\"特蕾西娅\"]切尔诺伯格与龙门的冲突得以平息的真相，曼弗雷德近几年头疼不已的佣兵团，当然还有出现在这处本不该被你们触及的地方……"
+        }
+      ],
+      "description": "特蕾西娅明确知道曼弗雷德数年与佣兵团交锋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E146"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅明确知道曼弗雷德数年与佣兵团交锋。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_c0e49cc5a9477cf1"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 254,
+          "kind": "story",
+          "line": 252,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-20_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 440,
+          "line": 363,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+          "quote": "[name=\"特蕾西娅\"]曼弗雷德，注意自己的脚步。阿斯卡纶，别总是打他的头呀。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1301_1#3$1\")]\n[name=\"阿斯卡纶\"]头是要害，是他自己避不开。\n[charslot(slot=\"m\",name=\"avg_npc_1301_1#1$1\")]\n[name=\"阿斯卡纶\"]如果他自己躲不开，这些疼痛他就必须要学会承受。\n[dialog]\n[charslot]\n[charslot(slot = \"right\", name = \"avg_npc_1297_1#8$1\",focus=\"l\")]\n[charslot(slot = \"left\", name = \"avg_npc_1296_1#9$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]唉……\n[charslot(slot = \"right\", name = \"avg_npc_1297_1#8$1\",focus=\"r\")]\n[name=\"特雷西斯\"]阿斯卡纶，你说得没错，可你怎么能在叫停前停手分心？\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1302_1#9$1\")]\n[name=\"曼弗雷德\"]呜……我能挺住，殿下！再来！\n[charslot(slot=\"m\",name=\"avg_npc_1301_1#4$1\")]\n[name=\"阿斯卡纶\"]嘁。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_punch02\")] \n[CameraShake(duration=0.3, xstrength=25, ystrength=25, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1302_1#7$1\")]\n[name=\"曼弗雷德\"]欸……击中了？殿下，我打中——\n[charslot(slot=\"m\",name=\"avg_npc_1301_1#4$1\")]\n[name=\"阿斯卡纶\"]是吗？\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_punchsp5\")] \n[CameraShake(duration=0.5, xstrength=20, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=1.5)]\n[name=\"曼弗雷德\"]放我下来，阿斯卡纶！\n[dialog]\n[charslot]\n[charslot(slot = \"right\", name = \"avg_npc_1297_1#8$1\",focus=\"l\")]\n[charslot(slot = \"left\", name = \"avg_npc_1296_1#8$1\",focus=\"l\")]\n[name=\"特蕾西娅\"]阿斯卡纶，小心别伤到他。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Delay(time=1)]\n[image(image=\"49_i04\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n高瘦的曼弗雷德凌空扑腾着，他的身体已经被绑缚在木桩之上。\n[name=\"曼弗雷德\"]不可能这么快，你怎么做到的！\n[name=\"阿斯卡纶\"]从殿下织衣服的手法里找到了些灵感。\n曼弗雷德试图挣扎摆脱束缚，但却被越缚越紧。\n他不理解，这个同样瘦弱的姑娘为何不只力量如此惊人……连行动的速度他都难以企及。\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=70, fadeout=true, block=false)]\n[name=\"曼弗雷德\"]放——我——下——来！\n[name=\"阿斯卡纶\"]殿下，看，我又赢了！\n阿斯卡纶高举着手中的武器，咧嘴向两位殿下宣示着自己的胜利。\n[name=\"特蕾西娅\"]阿斯卡纶开朗了许多。\n[name=\"特雷西斯\"]……\n[name=\"特蕾西娅\"]你在想什么？\n[name=\"特雷西斯\"]他们和其他的萨卡兹孩子相比，很不一样。\n[name=\"特雷西斯\"]我们的确能够潜移默化改变他们，但我们又如何能顾及卡兹戴尔的所有孩子？\n[name=\"特蕾西娅\"]给我一些时间。巴别塔能做到的。\n[name=\"特雷西斯\"]时间是最珍贵的耗材。\n[name=\"特蕾西娅\"]我知道。但教育并非急功近利的事业，我们所做的，无非是将希望留给后来人。\n[name=\"特蕾西娅\"]只要卡兹戴尔还有一位老师愿意将我们最美好的未来讲述给这些孩子，希望的火种就永远不会熄灭。\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Delay(time=1)]\n[image(image=\"49_i04\",screenadapt=\"coverall\",xScale=1.5,yScale=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n将目光投向那两个玩闹的孩子，特蕾西娅依旧对未来充满期盼。\n[name=\"阿斯卡纶\"]你现在认输吗？\n[name=\"曼弗雷德\"]不！呜……放我下来，我们再来！\n[name=\"阿斯卡纶\"]认输我就放。\n[name=\"曼弗雷德\"]你休想！\n[name=\"特蕾西娅\"]曼弗雷德，我来帮你解开。\n[name=\"曼弗雷德\"]谢谢殿下！欸……我怎么感觉快飞起来了……殿、殿下！"
+        }
+      ],
+      "description": "真实童年回忆：特蕾西娅指导曼弗雷德练武，随后帮他解开束缚，他当面致谢。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E62"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "真实童年回忆：特蕾西娅指导曼弗雷德练武，随后帮他解开束缚，他当面致谢。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [
+            "E62"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "真实童年回忆：特蕾西娅指导曼弗雷德练武，随后帮他解开束缚，他当面致谢。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 440,
+          "kind": "story",
+          "line": 363,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 32,
+          "line": 11,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-03.txt",
+          "quote": "[name=\"曼弗雷德\"]……殿下。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]很可惜……我还是来晚了呢。\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"]您……您的意思是，您与我有着相同的遗憾吗？为了我们没能在这里就拦下那些人？\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]曼弗雷德……\n[name=\"特蕾西娅\"]过去……在卡兹戴尔，你和我说话的时候，还不像这样拘谨。\n[character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"]……\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]你那时候会直视我的眼睛。\n[character(name=\"avg_npc_404_1#10$1\")]\n[name=\"曼弗雷德\"]殿下，当时的卡兹戴尔，还仅仅只是一片杂乱的废墟，加上一沓厚厚的设计图而已。那些年里，您与将军……\n[character(name=\"avg_npc_404_1#3$1\")]\n[name=\"曼弗雷德\"]不，时至今日，已经没有必要再提那些旧事。\n[character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"]您回来了，回到了将军身边，你们会一起统率王庭，就像过去无数次那样，为萨卡兹带来胜利。\n[name=\"曼弗雷德\"]对我和其他将士们来说，我们只需要记住这一点。\n[character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]嗯……\n[name=\"特蕾西娅\"]可是，曼弗雷德……我是真的很想见见那个孩子。"
+        }
+      ],
+      "description": "两人当面对话并明确过去在卡兹戴尔直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E85"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "两人当面对话并明确过去在卡兹戴尔直接交流。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [
+            "E85"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "两人当面对话并明确过去在卡兹戴尔直接交流。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 32,
+          "kind": "story",
+          "line": 11,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 275,
+          "line": 228,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_12-01.txt",
+          "quote": "[name=\"特蕾西娅\"]相比起王庭之主们，我更喜欢与他们待在一起。\n[name=\"特蕾西娅\"]萨卡兹的众魂让我无时无刻不俯下身去，没入我们漫长而苦痛的历史中。\n[name=\"特蕾西娅\"]而他们……这些新成长起来的孩子们，却能让我感觉到一种切实的未来。\n[name=\"特蕾西娅\"]我们……该把这未来置于何处？又一轮席卷大地的战火之中吗？\n[name=\"特蕾西娅\"]待到焦土遍及我们目力所及的一切地方，那些新芽真的会如我们所愿地生发出来吗？\n[name=\"特蕾西娅\"]希望向来沉重，曼弗雷德。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#6$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……殿下。\n[name=\"曼弗雷德\"]依照军事委员会的安排，一部分地块已经从伦蒂尼姆城内脱离，现在已经进入指定位置，停在主城区与大公爵们的包围网之间。\n[name=\"曼弗雷德\"]那里会成为接下来我们攻势的依仗和支点，这艘飞空艇也会暂时停靠在那里。\n[name=\"曼弗雷德\"]温德米尔公爵很快会收到她的高速战舰被摧毁的消息，但她无法忽视飞空艇的威慑，这有助于食腐者之王阁下阵线的展开。\n[name=\"曼弗雷德\"]按照摄政王的指示，接下来我们需要……\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]看看窗外吧，将军。\n[Dialog]\n[charslot]\n曼弗雷德扭头望向窗外。\n不得不承认，当计划中的火焰真的在眼前熊熊燃烧时，他并没有想象中那么地……心潮澎湃。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……火光让人睁不开眼睛。\n[name=\"曼弗雷德\"]我们的战争终于爆发了。\n[name=\"曼弗雷德\"]按照军事委员会的推测，接下来的十六个小时之内，大公爵们会谨慎地展开军事行动。我们已经做好了准备。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]不，战争从未停止。\n[name=\"特蕾西娅\"]不是只有军阵与军阵的撕扯才配得上战争之名，那些躲在窗帘后的眼睛，那些暗夜里低声的诅咒，那些压抑的哭声，都是战争。\n[name=\"特蕾西娅\"]我们在荒野上独自倒毙的同胞，黑色庆典里拖行的长袍，被收藏家锁进玻璃柜的来自某一座卡兹戴尔的砖瓦，亦是战争。\n[name=\"特蕾西娅\"]它从来是我们的一部分，我们只是……再次将它推到了所有人的面前。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#6$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]即便战火是从维多利亚燃起，卡兹戴尔也从来都是战争中的一部分。关于这点，我与将军已有许多计划……\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]不，曼弗雷德，我问的不是这个。\n[name=\"特蕾西娅\"]我看到，我们脚下，这艘飞空艇的阴影正平等地笼罩每一个人。\n[name=\"特蕾西娅\"]结束它吧，将军，如果这终究被证明是萨卡兹唯一的方法。\n[name=\"特蕾西娅\"]那么，就用泪水淹没泪水，用苦难填埋苦难。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#9$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……\n[name=\"曼弗雷德\"]这……是唯一的方法。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]我会如您所愿的，殿下。"
+        }
+      ],
+      "description": "曼弗雷德与特蕾西娅直接讨论战争计划。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德直接回应特蕾西娅并汇报军事安排。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅直接称呼曼弗雷德并向其说明自己的战争判断。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 275,
+          "kind": "story",
+          "line": 228,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_12-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事再起时",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 299,
+          "line": 233,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "quote": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#5$1\",focus=\"m\")]\n[name=\"维什戴尔\"]“阿喃那”这小玩意儿还挺好用，竟然转眼就能把天灾给人送到家门口。\n[name=\"维什戴尔\"]啧，难怪我们要带走它的时候，博士和老女人会那么紧张，小兔子还非要跟上来看着我。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]嗯……要是我们干脆一鼓作气把那几个核心圈国家的首都给毁了……\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"none\")]\n[name=\"？？？\"]它或许的确能将恐惧降临在核心圈国家的首都，但那不代表能摧毁那些国家。\n[name=\"？？？\"]我很肯定，这份侮辱能换回来的，只有对卡兹戴尔的报复。我们最初的历史已经证明了这一点。\n[name=\"？？？\"]这不是个明智的决定，维什戴尔。况且，谨慎使用它，它对思维和身体造成的负担远超我的想象。\n[name=\"？？？\"]你刚刚才切身体会过那种痛苦。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#12$1\",focus=\"m\")]\n[name=\"维什戴尔\"]轮不到你来告诉我，曼弗雷德。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]如果我们能理解“阿喃那”正确的使用方式，它所能做到的，远非只有恐吓这么简单。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]两位殿下所期许的，也并非如此。它的确是武器，是威慑，但更是摆脱我们宿命的基石——\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#12$1\",focus=\"m\")]\n[name=\"维什戴尔\"]你比赫德雷更烦人。\n[name=\"维什戴尔\"]曼弗雷德，不要忘了自己的身份。你只是一个囚徒，你现在还活着的唯一原因是卡兹戴尔需要你活着。\n[name=\"维什戴尔\"]而军事委员会还能够存在的唯一原因，也只是还活着的萨卡兹依旧需要一个信念支撑他们回到家。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]妈的，特雷西斯真是好算计。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#3$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……赫德雷早猜到了，不是吗？\n[name=\"曼弗雷德\"]这本就是摄政王殿下的阳谋，被仇恨再次凝聚在一起的族群，重新团结在卡兹戴尔的周围——\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]巴别塔和军事委员会的再一次合作，为了同一个目标。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]不要妄想这样你就能躲过审判，曼弗雷德。记住我的话。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]维什戴尔……\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]你还没说完？\n[charslot(slot=\"m\",name=\"avg_npc_404_1#10$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]如果卡兹戴尔真有和其他国家恢复正常关系的那一天，就如特蕾西娅殿下曾努力的那样……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]我，还有军事委员会的其他人都必须和卡兹戴尔划清界线。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]对萨卡兹而言，外族人是为我们带来仇恨的人，而我们对那些国家的人亦然。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#8$1\",focus=\"m\")]\n[name=\"维什戴尔\"]……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]他们迟早会宣称我们犯下的罪并未清洗，而我会等着那些复仇者找到我们——\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#9$1\",focus=\"m\")]\n[name=\"维什戴尔\"]闭嘴吧，曼弗雷德。少摆出一副好好先生的模样。\n[name=\"维什戴尔\"]特雷西斯和你们干了蠢事，蠢到我恨不得把你们全都挫骨扬灰。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]别忘了，那些真心相信你们计划的战争疯子可几乎都陪食腐者死在了伦蒂尼姆。\n[name=\"维什戴尔\"]你们亲手坑死了那些蠢货。我们能救下来、能带着撤走的人已经不剩多少。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#10$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]但萨卡兹犯下的错，萨卡兹自然会承担。\n[name=\"维什戴尔\"]巴别塔还没有懦弱到会为了一群敢来挑衅卡兹戴尔的杂碎，就把军事委员会一股脑全扔到城外。\n[name=\"维什戴尔\"]殿下绝不会这么干，我也不会。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#13$1\",focus=\"m\")]\n[name=\"维什戴尔\"]他们要是敢来，我不介意再打一架。\n[name=\"维什戴尔\"]你要是继续啰哩啰嗦，我就把你扔给某个愿意和你扯这些蠢事的人。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……"
+        }
+      ],
+      "description": "曼弗雷德明确谈到特蕾西娅曾努力促成的愿景；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E24"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德明确谈到特蕾西娅曾努力促成的愿景",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "本组没有反向识别证据。",
+          "status": "not_established",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 299,
+          "kind": "story",
+          "line": 233,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "萨卡兹撤军及战后余波",
+      "title": "我们明日见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1674,
+          "line": 1630,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "quote": "[name=\"特蕾西娅\"]……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]殿下，您在看什么？\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]阴云。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……碎片大厦的聚能已经完成，根据赦罪师们的研究，这种能够操纵源石反应的装置，也能控制那片“源石”。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#3$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]大公爵们的军队已经开始调动，数天后……\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]不，不是这里的阴云。\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]伦蒂尼姆将要发生的事，已经不可改变。\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]……\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]曼弗雷德，你出生在卡兹戴尔，你记忆中的那里，是什么样子？\n[charslot(slot=\"m\",name=\"avg_npc_404_1#6$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]在我成长的时代，卡兹戴尔就已经被您搬上了移动城市的轮毂。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]我印象中的那里……天也总是很阴沉，说实话，比维多利亚还要糟。空气中永远是刺鼻的工业废气的味道。\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]你会把那里称作……“家”吗？\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]我会。\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]是吗。\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]我在想，萨卡兹总是在阴霾中穿行。\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]我们立志于撕破这片阴霾……\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]可，等到一切终被揭露——\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]真正的灾难才会尾随而来。\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]……我们来得及吗？\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]……\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]希望我看向的光，在彼时仍能闪耀。\n[charslot(slot=\"m\",name=\"avg_npc_056\",focus=\"m\")]\n[name=\"特蕾西娅\"]即使，我已在黑暗深处。"
+        }
+      ],
+      "description": "双方直接谈论计划与故乡。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德直接向特蕾西娅汇报。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅直接询问并回应曼弗雷德。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 1674,
+          "kind": "story",
+          "line": 1630,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "碎片大厦决战前",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 190,
+          "line": 120,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_beg.txt",
+          "quote": "[name=\"曼弗雷德\"]海布里区的雇佣兵大概死在你的手上。\n[name=\"曼弗雷德\"]战争近在眼前。你我心知肚明。\n[character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]……\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"]阿斯卡纶，你生在卡兹戴尔，长在卡兹戴尔，将军把你从死人堆里抱出来，殿下教你如何握紧武器保护自己、保护家园。\n[name=\"曼弗雷德\"]可在这个萨卡兹最需要团结一致的时刻，你和罗德岛那些萨卡兹在做什么？\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"]你准备把我们的情报交给维多利亚人吗？交给……一群曾经践踏过卡兹戴尔的异族人？\n[Dialog]\n[Character]\n[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]\n[Blocker(a=0.7, r=0.95, g=0.2, b=0.2, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_atk_circleatk_n\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]\n[character(name=\"avg_npc_395_1#1$1\")]\n[playsound(key=\"$e_atk_magic_n\", volume=1)]\n[playsound(key=\"$e_atk_magic_m\", volume=1)]\n[characteraction(name=\"middle\", type=\"jump\", xpos=-100, power=0, times=1, fadetime=0.4,block=true)]\n[characteraction(name=\"middle\", type=\"jump\", xpos=100, power=0, times=1, fadetime=0.1,block=true)]\n[delay(time=0.56)]\n[Character(fadetime=0)]\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"]你背叛了你自己曾经许下的诺言，背叛了卡兹戴尔。\n[character(name=\"avg_npc_395_1#1$1\")]\n[name=\"阿斯卡纶\"]……卡兹戴尔距离此处有数千公里。\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"]在内战时期，你选择成为巴别塔的刺客，我阻止不了你，也没有理由阻止你。\n[name=\"曼弗雷德\"]因为你当时效忠的是特蕾西娅殿下，萨卡兹唯一的君主。\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"]而现在呢，阿斯卡纶？你效忠的是什么……往日的幻影吗？\n[character(name=\"avg_npc_404_1#10$1\")]\n[name=\"曼弗雷德\"]明明内战早已结束，就连特蕾西娅殿下都已经回到了我们身边……\n[Dialog]\n[PlaySound(key=\"$d_avg_bldwhoosh\")]\n[delay(time=0.2)]\n[character(name=\"avg_npc_404_1#2$1\")]\n[delay(time=0.2)]\n[CameraShake(duration=0.5,xstrength=15,ystrength=8,vibrato=30,randomness=90,fadeout=true,block=false)]\n[characteraction(name=\"middle\", type=\"move\", xpos=300, fadetime=0.5, block=false)]\n[Character(time=0.1)]\n[delay(time=0.5)]\n[character]\n[theater(mode=true)]\n[character(name=\"avg_npc_395_1#6$1\",name2=\"char_empty\")]\n[characteraction(name=\"left\", type=\"move\", xpos=200, fadetime=0,block=false)]\n[characteraction(name=\"right\", type=\"move\", xpos=-100,fadetime=0,block=false)]\n[name=\"阿斯卡纶\"]……四年前，是你们杀死了她。\n[character(name=\"avg_npc_395_1#6$1\",name2=\"avg_npc_395_1#6$1\",fadetime=10)]\n[name=\"阿斯卡纶\"]现在，你们又用这种毫无荣耀的方式玷污了她的死亡。\n[Dialog]\n[playsound(key=\"$e_atk_magic_n\", volume=1)]\n[playsound(key=\"$e_atk_magic_m\", volume=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=-1000,fadetime=0.5,block=false)]\n[character(name=\"char_empty\",name2=\"avg_npc_395_1#6$1\",fadetime=0.5)]\n[delay(time=1)]\n[theater(mode=false)]\n[Dialog]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[character(name=\"avg_npc_404_1#2$1\",name2=\"char_empty\")]\n[characteraction(name=\"left\", type=\"move\", xpos=200, fadetime=0,block=false)]\n[characteraction(name=\"right\", type=\"move\", xpos=-100,fadetime=0,block=false)]\n[character(name=\"avg_npc_404_1#2$1\",name2=\"avg_npc_395_1#6$1\",fadetime=1,focus=1)]\n[delay(time=2)]\n[name=\"阿斯卡纶\"]真正的背叛者，是谁？"
+        }
+      ],
+      "description": "曼弗雷德明确知晓特蕾西娅旧事。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德与阿斯卡纶对战时明确谈及特蕾西娅之死。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "特蕾西娅不在场。",
+          "status": "not_established",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 190,
+          "kind": "story",
+          "line": 120,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "城防塔决战",
+      "title": "淬火尘霾"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 270,
+          "line": 161,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "quote": "[charslot(slot=\"m\",focus=\"n\")]\n[dialog]\n[Decision(options=\"凯尔希，他们成功的概率有多大？;凯尔希，我们现在是否具备应对后续意外的条件？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]从我们在内化宇宙中的遭遇来判断，特蕾西娅已经极大程度地掌控了其中的规则。\n[name=\"凯尔希\"]解析规则，重建秩序，和特雷西斯配合夺下最初的源石……我相信，以她的能力而言，这并非天方夜谭。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]有关最初的源石的更详细信息我也无从了解，自然也无法确切地提出有效的应对手段。\n[name=\"凯尔希\"]换而言之，事态发展到当下，我们已经很难依据过往的经验与知识来判断局势。\n[Predicate(references=\"1;2\")]\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]凯尔希医生，难道我们对此束手无策吗？\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]并非如此。如果他们的计划成功，特雷西斯与特蕾西娅所求依旧在我们的认知范围之内，事态不一定会走向最坏的结果。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#4$1\")]\n[name=\"凯尔希\"]但如果他们失败……\n[charslot(slot=\"m\",focus=\"n\")]\n凯尔希看向了你，眼神中充满了担忧。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\")]\n[name=\"凯尔希\"]Dr.{@nickname}，我们必须以最快的速度赶回罗德岛本舰。\n[name=\"凯尔希\"]我们也许还能做最后的尝试来为泰拉争取片刻的喘息时间。\n[charslot]\n[dialog]\n[Decision(options=\"好，先控制住曼弗雷德。;与其担忧未发生的意外，不如排除已有的变数。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[playsound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（兴奋的高鸣）\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]我会护住博士，同时尽可能限制曼弗雷德的活动范围。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]速战速决。小心他手上的“提卡兹之根”。\n[charslot]\n当曼弗雷德手中的“提卡兹之根”刚刚亮起红光时，魔王的法术与阿斯卡纶的锋刃已经逼近到了他的面前。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]该结束了。\n[dialog]\n[charslot]\n[stopmusic(fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\")]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovementsp\")]\n[charslot(slot = \"right\", name = \"avg_4132_ascln_1#4$1\",posfrom = \"200,0\", posto = \"0,0\",duration = 0.5,afrom=0.5,ato=0.5,focus=\"m\")]\n[delay(time=0.6)]\n[CameraShake(duration=0.2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=1,g=1, b=1, fadetime=0.5, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[image(image=\"32_i08_2\",screenadapt=\"coverall\",block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[delay(time=0.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"凯尔希\"]——躲开！\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1,  fadetime=1, block=true)]\n[image]\n[Background(image=\"60_g7_westlobbyundergroundthrone\",screenadapt=\"coverall\")]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[Blocker(a=0, r=0, g=0, b=0,  fadetime=1, block=true)]\n[name=\"曼弗雷德\"]——！\n[charslot]\n[dialog]\n[Blocker(a=0.2, r=0.2, g=0, b=0.5, fadetime=1, block=false)]\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\",afrom=0.5,ato=0,duration=1)]\n[delay(time=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n阿斯卡纶瞬间化作紫色的烟雾，在剑光中散开又重聚。\n阿米娅所编织的屏障护住了你和凯尔希，却也在剑光中变得脆弱。\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=false)]\n[playsound(key=\"$Mon3tr_n\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（愤怒的嘶鸣）\n[name=\"Mon3tr\"]（全力保护）\n[dialog]\n[charslot]\n[playMusic(intro=\"$sacrifice_intro\",key=\"$sacrifice_loop\", volume=0.6)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot = \"m\", focus = \"n\")]\n剑光的主人缓缓从黑暗中走了出来，在微弱的光线下显得格外恐怖。\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]你让自己陷入了愚蠢的境地。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"]……殿下……你……\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]看来孽茨雷履行了与我的约定……\n[name=\"特雷西斯\"]你们来到我面前。很好。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#6$1\")]\n[name=\"阿斯卡纶\"]……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]……\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#2$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n你看到了王座前那个面目平静的人——特雷西斯。\n他绝非你所熟悉的模样。而他的手中，紧紧地握着一枚鲜艳的晶石。\n[charslot]\n[dialog]\n[Decision(options=\"“阿喃那”……;你们成功了。\", values=\"1;2\")]"
+        }
+      ],
+      "description": "曼弗雷德在场听到特蕾西娅及其计划。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德在场听到特蕾西娅及其计划。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 270,
+          "kind": "story",
+          "line": 161,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前战斗",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_c0e49cc5a9477cf1"
+}

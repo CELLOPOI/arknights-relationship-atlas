@@ -1,0 +1,15 @@
+{
+  "id": "import:char_102_texas|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【急性衰竭】\n阿米娅：啊……博士，你来了。\n德克萨斯：来得刚好，Dr.{@nickname}。\n能天使：我们这边的活儿也干的差不多了，得暂时离开一段时间~\n选项：\n1：要走了吗？\n2：……知道了。\n3：我会想你们的。\n分支条件（原选项编号）：1 / 2 / 3\n雷蛇：很快就能再见面的。\n芙兰卡：只要过一小段时间，我们就能回到罗德岛重新待命。\n芙兰卡：可不用太想我哦。\n能天使：唉唉，可惜可惜，我们这边没有那样的正经理由呢，德克萨斯。\n德克萨斯：你给我等等……\n能天使：企鹅物流，马上要回去休假咯！",
+  "relationship_id": "char_102_texas|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 83,
+      "kind": "story",
+      "line": 65,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_04-01_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 51,
+          "line": 24,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "quote": "[name=\"魏斯\"]诺希斯，有情况。\n[name=\"魏斯\"]古罗从博士的队伍里分出来，带着一部分人急行军直接绕过了圣山，突破关口，占领了车站！\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]你说什么？！\n[Character(name=\"avg_198_blackd_1#9$1\")]\n[name=\"魏斯\"]现在，古罗的队伍驱赶了车站里的人，而且，还有一支队伍向着科林斯镇去。\n[Character(name=\"avg_npc_255_1#8$1\")]\n[name=\"莫希\"]尤卡坦现在被关押在那里……他们的目的是救人？\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]不可能。这样的效率太低了，他们必然有别的目的。\n[name=\"诺希斯\"]莫希，你认为，你所看到的那个博士的行进路线，是向哪里靠近的？\n[Character(name=\"avg_npc_255_1#8$1\")]\n[name=\"莫希\"]……他们挑选了一条可以通往圣山，也可以通往关口的路线。\n[Character(name=\"avg_198_blackd_1#6$1\")]\n[name=\"魏斯\"]嘶——难道说，博士的目的真的是直接绕过圣山，进攻我们的领地……\n[Character(name=\"avg_206_gnosis_1#2$1\")]\n[name=\"诺希斯\"]我应该警告过你们这种可能性。\n[Character(name=\"avg_206_gnosis_1#8$1\")]\n[name=\"诺希斯\"]不，我自己也大意了，应该在关口驻扎更多的兵力。\n[Character(name=\"avg_198_blackd_1#7$1\")]\n[name=\"魏斯\"]博士……\n[Character(name=\"avg_206_gnosis_1#8$1\")]\n[name=\"诺希斯\"]但是，阿克托斯人还不见踪影，还不能完全断定他们的目的……\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]……啧，派瓦莱丝去车站解决古罗，然后让魏斯去科林斯镇。\n[name=\"诺希斯\"]把山下的队伍分出一部分，去关口驻扎，防止博士的队伍突破关口进入我们的领地。\n[Character(name=\"avg_198_blackd_1#6$1\")]\n[name=\"魏斯\"]我明白了。"
+        }
+      ],
+      "description": "三人在指挥室交换具名目标的行军、关押及调遣情报，支持各发言/接收者对具体人物的知晓，不反推不在场者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E99"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "三人在指挥室交换具名目标的行军、关押及调遣情报，支持各发言/接收者对具体人物的知晓，不反推不在场者。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_7144babb98dd293d",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_5b6d9a80bb2c7211"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 51,
+          "kind": "story",
+          "line": 24,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "npc_5b6d9a80bb2c7211|npc_7144babb98dd293d"
+}

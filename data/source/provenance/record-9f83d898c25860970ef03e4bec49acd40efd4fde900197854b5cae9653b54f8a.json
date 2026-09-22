@@ -1,0 +1,128 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 668,
+          "line": 650,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "quote": "[name=\"阿米娅\"]这里居然有一座血魔的法阵。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]它依然在运作。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]我们和“灵幛”作战的时候，凭空出现的血魔法术……是不是就是它的作用？\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#2$1\",focus=\"m\")]\n[name=\"凯尔希\"]恐怕没有那么简单。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]阿米娅，你很清楚。刚刚的法术，就来自血魔。\n[Dialog]\n[charslot]\n[playsound(key=\"$d_avg_clothmovement\",volume=1,channel=\"1\")]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_cnstrctnck\",channel=\"1\")]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#5$1\",focus=\"m\")]\n[name=\"阿米娅\"]是……血魔的子裔？\n[charslot(slot=\"m\",name=\"avg_npc_394_1#18$1\",focus=\"m\")]\n[name=\"阿米娅\"]我设想过，血魔大君已经离开了这片战场，但他的恩赐不会轻易消失。"
+        }
+      ],
+      "description": "凯尔希与阿米娅直接讨论血魔大君离开后的法术。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E48"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希与阿米娅直接讨论血魔大君离开后的法术。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 668,
+          "kind": "story",
+          "line": 650,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 173,
+          "line": 136,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "quote": "[name=\"Scout\"]那么，殿下，这次的简报就只有这些。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]看来军事委员会笃定我们会收复C8—10区域的村庄和物资，并在那里建立哨站，他们已经落入了圈套。\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]但……有一些军官，开始表露出与曼弗雷德大不相同的军事策略。这很不寻常。\n[name=\"Scout\"]间谍提出，曾看见过食腐者出入军队的营帐。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#3$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]孽茨雷……\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]博士怎么看待这件事？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]博士认为，在萨卡兹的战争之神表露出任何形式的参与意图后，我们的布置会被全盘打乱。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#10$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]你呢？\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]……一直以来，诸多强大的王庭成员都更青睐主张反击和暴力的军事委员会，这任谁都心知肚明。\n[name=\"Scout\"]但出于某种约束——甚至可以说是约定俗成的规则——没有任何一个王庭主动参与到内战中来。\n[name=\"Scout\"]若是王庭之主们真的决定在卡兹戴尔与我们开战，那些仍旧没有回归的萨卡兹们，再无法在地图上看见任何巴别塔的标识。\n[name=\"Scout\"]而说点现实的，王庭的加入形成的兵力差距同样令人担忧，支持我们的人，大多并非战士或士兵。\n[name=\"Scout\"]我们的队伍里也有不少人第一次拿起武器。\n[name=\"Scout\"]所以，要说心里话——无论真相是什么，我们的处境都在急转直下。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"n\")]\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#4$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]……我明白了。\n[name=\"特蕾西娅\"]继续观察食腐者王庭的行踪。\n[charslot]\n[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]若是孽茨雷真的按捺不住，那么杜卡雷同样会有所动作。\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#1$1\", focus=\"n\")]\n[charslot(slot = \"l\", name = \"avg_npc_1311_1#1$1\", focus=\"l\")]\n[name=\"Scout\"]连续三周，“玫瑰河畔并无航船”。\n[charslot(slot = \"r\", name = \"avg_npc_1296_1#4$1\", focus=\"r\")]\n[name=\"特蕾西娅\"]玫瑰河畔已经是十分优秀的间谍系统，她们可以骗过任何人，但唯独骗不过自己的君主。"
+        }
+      ],
+      "description": "简报中Scout具体提及曼弗雷德，凯尔希在同一场合具称杜卡雷，Scout紧接着回应情报；支持各自单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR06"
+          ],
+          "from": "char_003_kalts",
+          "reason": "简报中Scout具体提及曼弗雷德，凯尔希在同一场合具称杜卡雷，Scout紧接着回应情报；支持各自单向知晓。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 173,
+          "kind": "story",
+          "line": 136,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 391,
+          "line": 227,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "quote": "[name=\"W\"]真晦气。\n[playMusic(key=\"$calm_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_412_1#6$1\",focus=\"m\")]\n[name=\"W\"]唉，本来只是想回来的时候，给自己放一发礼炮——\n[charslot(slot=\"m\",name=\"avg_npc_412_1#6$1\",focus=\"m\")]\n[name=\"W\"]结果这骨头架子一停稳，就要看见臭脸色的老女人。\n[dialog]\n[charslot]\n[charslot(slot=\"r\",name=\"avg_4087_ines_1#1$1\",duration=1.5)]\n[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#1$1\",duration=1.5)]\n[delay(time=3)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]W，无论你在这里炸坏了多少结构，别忘了，我们在占领它以后，还要修好它。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]谁弄坏的谁修。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#4$1\",focus=\"m\")]\n[name=\"W\"]啊？我怎么会修这玩意？！\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]凯尔希，博士。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]巨兽的骸骨已经被我们夺取，指挥官厄尔苏拉也被俘虏。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]其余的骸骨驻军，都已经阵亡。\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]你就是那位凯尔希勋爵？\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]我可听过不少你的故事。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]你是疤痕商场的人。\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]……远在维多利亚的你，也能对卡兹戴尔的一草一木掌握得一清二楚。\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#2$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]看来，那些老家伙说得没错。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]等这里的事务结束，我会通过你，与你口中的那些“老家伙”谈谈。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]留守卡兹戴尔的是他们，而巫妖已经接触到现在管理卡兹戴尔的军事委员会成员。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]他们就快要做出自己的选择了。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅和Logos呢？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[charslot]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#9$1\",focus=\"m\",duration=1)]\n[daley(time=2)]\n[name=\"阿米娅\"]博士！\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[Sticker(id=\"st1\", multi = true, text=\"娇小的卡特斯女孩撞入了你的怀中。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[dialog]\n[Decision(options=\"欢迎回来。;……;你身上都是血，受伤了吗？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]我没事。这些血只是……血魔留下的。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]阿米娅。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]你的戒指……你使用了力量。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]嗯。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]阿米娅，让我看看你的手。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"阿米娅手上的一枚戒指已经崩解，连碎片都无影无踪。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]这是……直面他所必需的，抱歉。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]……你对于情感与记忆的运用越来越熟练了。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅，你之前还因为解放戒指晕倒过。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"凯尔希，我们需要帮阿米娅再做一次检查。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]不，博士，别担心。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]我只是……有些累。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]仍然是右手食指的戒指碎裂。还好，只是力量使用过度的结果。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]你又一次因愤怒而燃烧。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]我……愤怒吗？\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]我以为我会很生气，血魔大君，他残害过很多人。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]可我所感受到的，远远不只是愤怒。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]还有……悲伤。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"悲伤。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n恍惚间，一双永远藏着悲伤的粉色眸子在凯尔希的回忆间闪过。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n凯尔希停顿了几秒，又再度端详起阿米娅的手指。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]这些戒指，本意是为了帮你适应魔王的力量，和伴随而来的汹涌情感。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]又一枚戒指有了裂痕。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]也许……我们只能一次次目睹这些淋漓的伤口。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]凯尔希医生，请放心。无论我面对过谁，又即将要面对谁……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]我不会比他们更早倒下。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]血魔大君坠落于未知之地。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]他的王庭，尚有余息。但他的威胁，不复存在。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]只是，我们还是没能阻止，那个诅咒的降临。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#6$1\",focus=\"m\")]\n[name=\"阿米娅\"]伦蒂尼姆的方向……到底发生了什么？\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……原本，自救军认为切断这条物资补给线，将会成为终结战争的手段。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]现在情况有变。这场“战争”，无论如何都不会长久。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]我们需要尽快赶往那里。这具骸骨，或许能成为新的据点，或是，出其不意的交通工具。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……但愿，它能派上想象中的用场。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$1\",focus=\"m\")]\n[name=\"推进之王\"]决战就在眼前。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]嗯。萨卡兹不能成为下一轮浩劫的元凶。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]而且……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]\n[name=\"阿米娅\"]凯尔希医生。血魔的执念，他的期许，他所说的诅咒，是“源石”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……嗯。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]最古老的卡兹戴尔比任何文明聚落都先一步接触到了“源石”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]那并非天灾的遗迹，并非堆积在岩层中沉默的矿物。那是一枚古老的“源石”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]由它，诞生了最古老的巫术，最古老的……感染者。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]假如血魔真的对这件事有所认知，甚至为此抱有执念，认为它能带来力量……\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]……那接下来所决定的，就远不是伦蒂尼姆一城的命运了。"
+        }
+      ],
+      "description": "凯尔希掌握血魔大君战况。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希当面听取血魔大君坠落及王庭余息的汇报。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "血魔大君已坠落。",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 391,
+          "kind": "story",
+          "line": 227,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "战后会议",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_003_kalts|npc_aa980d6791c26c93"
+}

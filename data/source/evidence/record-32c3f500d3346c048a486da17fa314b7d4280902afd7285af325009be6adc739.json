@@ -1,0 +1,15 @@
+{
+  "id": "import:char_511_asnipe|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【离解复合】\n选项：\n1：所有人测试通讯设备。\n分支条件（原选项编号）：1\nRaidian：已就位。\nMantra：收到。\nMisery：在前线等你们。\nLogos：前往集合。\nMechanist：马上到。\n迷迭香：我在，博士。\n煌：好久没一起干架了！\nSharp：“坏家伙”号已返回本舰，马上集合。\nStormeye：稍等片刻。\nPith：在。\nTouch：正在集合。\n阿斯卡纶：等你。\n选项：\n1：各位，目标已同步。\n分支条件（原选项编号）：1\n选项：\n1：优先目标——支援凯尔希。\n分支条件（原选项编号）：1\n选项：\n1：核心任务——进入Abyss，切断PRTS的核心能源。",
+  "relationship_id": "char_511_asnipe|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 526,
+      "kind": "story",
+      "line": 449,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-13_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

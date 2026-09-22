@@ -1,0 +1,20 @@
+{
+  "id": "import:char_4102_threye|char_499_kaitou",
+  "published": true,
+  "quote": "凛视：请让我来助您扫清阻碍。\n凛视：我是巫役，可以对敌人造成元素损伤。\n凛视：这些敌人的命运，我已然洞见。\n干员凛视的技能可以造成凋亡损伤，凋亡损伤爆发时可以对敌人持续造成少量元素伤害，并且暂时赋予敌方逐渐衰减的虚弱效果。\n请注意，处于虚弱状态的敌人，攻击力会降低。\n\n折光：与您约定的时间到了，我已就位。\n折光：我是本源术师，在敌人凋亡损伤爆发阶段，我会造成更高的伤害。\n折光：请您安排。\n干员折光的技能在敌方处于凋亡损伤爆发期间时可以造成额外的元素伤害。\n因此，您可以开启凛视的技能来配合折光，以达成更佳的作战效果。",
+  "relationship_id": "char_4102_threye|char_499_kaitou",
+  "sources": [
+    {
+      "endLine": 27,
+      "kind": "story",
+      "line": 9,
+      "source": "obt/tutorial/training/mechanism_7_c.txt"
+    },
+    {
+      "endLine": 28,
+      "kind": "story",
+      "line": 9,
+      "source": "obt/tutorial/training/mechanism_7_d.txt"
+    }
+  ]
+}

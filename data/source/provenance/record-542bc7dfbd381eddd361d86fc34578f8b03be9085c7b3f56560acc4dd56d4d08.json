@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 570,
+          "line": 525,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-07_beg.txt",
+          "quote": "[name=\"爱布拉娜\"]食腐者孽茨雷，他自称战争与死亡的王。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#5$1\",focus=\"m\")]\n[name=\"“校官”\"]萨卡兹王庭很喜欢这类夸大的称谓。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]夸大？……不。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#1$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]他只是足够古老。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#5$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]但活着的传说，不是只有他一个。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#3$1\",focus=\"m\")]\n[name=\"“校官”\"]……当然！\n[dialog]\n[charslot]\n不远处，舰炮轰鸣。\n能让山峦崩裂的力量，自然从不独属于古老的巫术。\n[charslot(slot=\"m\",name=\"avg_npc_722_1#5$1\",focus=\"m\")]\n[name=\"爱布拉娜\"]就让战争对战争……死亡对死亡吧。\n[dialog]\n[charslot]\n[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_sp_ballista\",volume=0.5)]\n[PlaySound(key=\"$d_gen_explo_n\")]\n[PlaySound(key=\"$fireburst\", volume=1)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=2)]\n[image]\n[Character(fadetime=0)]\n[Background(image=\"50_g3_mainbattlefield_ex\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]\n[name=\"“灵幛”\"]宗长，围猎被打断了。\n[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]\n[name=\"“灵幛”\"]那条德拉克的火，截断了我们的阵型。\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]……德拉克。\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]数千年前，刚刚失去家园的萨卡兹，也曾在这片土地上与红龙交战。\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]成千上万的萨卡兹在火焰下化作焦黑的石头。它们此刻就在我们脚下，我们身边。\n[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]\n[name=\"“灵幛”\"]我们去杀死她。\n[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]\n[name=\"“灵幛”\"]一条红龙，够我们饱腹一阵了。\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",focus=\"m\")]\n[name=\"孽茨雷\"]正驱使着这场战争的，并不是她。"
+        }
+      ],
+      "description": "爱布拉娜具名知道孽茨雷，孽茨雷在后场明确评论正在用火破坏阵型的这位德拉克；两向独立识别同一对手，并非单靠隔场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E92"
+          ],
+          "from": "char_450_necras",
+          "reason": "爱布拉娜具名知道孽茨雷，孽茨雷在后场明确评论正在用火破坏阵型的这位德拉克；两向独立识别同一对手，并非单靠隔场。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        },
+        {
+          "evidenceIds": [
+            "E92"
+          ],
+          "from": "npc_84fdad316566923c",
+          "reason": "爱布拉娜具名知道孽茨雷，孽茨雷在后场明确评论正在用火破坏阵型的这位德拉克；两向独立识别同一对手，并非单靠隔场。",
+          "status": "supported",
+          "to": "char_450_necras"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 570,
+          "kind": "story",
+          "line": 525,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 683,
+          "line": 668,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st01.txt",
+          "quote": "“加斯特里尔”号的舰首上，深池的“领袖”屹立，紫色的烈火从她的枪尖延烧至整片城墙。\n死火源源不断地从城墙上的萨卡兹的身上冒出，再蔓延到旁人身上，肆无忌惮地寻找下一个人，唯独无法接近半空中的食腐者。\n[name=\"爱布拉娜\"]食腐者，“战争之神”“战争与死亡的王”？\n[name=\"爱布拉娜\"]真遗憾，这里已经没有足够的死亡供你驱驰。\n[name=\"爱布拉娜\"]活着的传说也终有一死，最好的下场，也不过是免于腐坏的命运，成为新传说的薪柴。\n[name=\"孽茨雷\"]哦，野心勃勃的年轻德拉克。\n[name=\"孽茨雷\"]很好。\n[name=\"孽茨雷\"]在枪尖把玩生死的红龙，你又能将死亡理解到何种地步呢？\n[name=\"孽茨雷\"]在战争彻底结束之前，这倒也是不坏的消遣。\n[name=\"爱布拉娜\"]食腐者，坚持得再久些。\n[name=\"爱布拉娜\"]在那些舰炮的轰鸣停下之前，让我们好好向那些维多利亚人展示何为死亡。\n[name=\"孽茨雷\"]我已经等了很久了，年轻的德拉克。\n[name=\"孽茨雷\"]你比其他人更有胆量。\n[name=\"孽茨雷\"]那就用你的火来当作留给围城的懦弱者的讯号吧——\n[name=\"孽茨雷\"]我就在这。\n[name=\"孽茨雷\"]战争就在这。"
+        }
+      ],
+      "description": "爱布拉娜与孽茨雷直接交锋。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_450_necras",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_84fdad316566923c",
+          "reason": "双方直接对话。",
+          "status": "supported",
+          "to": "char_450_necras"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 683,
+          "kind": "story",
+          "line": 668,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆城外战役期间",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_450_necras|npc_84fdad316566923c"
+}

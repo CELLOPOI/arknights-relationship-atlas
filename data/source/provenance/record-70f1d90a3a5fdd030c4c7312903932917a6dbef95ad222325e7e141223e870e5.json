@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 416,
+          "line": 390,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "quote": "院落里突然多了个魁梧的汉子。\n以拳击刀背，护人，一气呵成。\n他像是一盆冷水泼地，逼得在场众人散开。\n暑气顿消。\n[dialog]\n[Delay(time=1)]\n[charslot(slot=\"r\",name=\"avg_4078_bdhkgt_1#7$1\",duration=1)]\n[charslot(slot=\"l\",name=\"avg_npc_785_1#1$1\",duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"r\",name=\"avg_4078_bdhkgt_1#7$1\",focus=\"n\")]\n[charslot(slot=\"l\",name=\"avg_npc_785_1#1$1\",focus=\"l\")]\n[name=\"魁梧的男人\"]你让我好找。\n[charslot(slot=\"r\",name=\"avg_4078_bdhkgt_1#5$1\",focus=\"r\")]\n[name=\"截云\"]放开我！\n[charslot(slot=\"l\",name=\"avg_npc_785_1#1$1\",focus=\"l\")]\n[name=\"魁梧的男人\"]你差点没命。\n[name=\"魁梧的男人\"]让你在医馆养病，跑什么跑，伤又加重了。\n[charslot(slot=\"r\",name=\"avg_4078_bdhkgt_1#2$1\",focus=\"r\")]\n[name=\"截云\"]……\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_787_1#11$1\")]\n[name=\"仇白\"]槐武痴，你竟然还在玉门城？\n[charslot(slot=\"m\",name=\"avg_npc_785_1#1$1\")]\n[name=\"槐姓男子\"]哦，是你呀。\n[name=\"槐姓男子\"]你师父要卸任后才肯和我痛痛快快分个胜负，我自然要在这里等他。\n[charslot(slot=\"m\",name=\"avg_npc_787_1#11$1\")]\n[name=\"仇白\"]这三年你哪儿都没去？"
+        }
+      ],
+      "description": "仇白称槐武痴，槐姓男子认出她并回应久留玉门缘由。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E37"
+          ],
+          "from": "char_4082_qiubai",
+          "reason": "仇白称槐武痴，槐姓男子认出她并回应久留玉门缘由。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        },
+        {
+          "evidenceIds": [
+            "E37"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "仇白称槐武痴，槐姓男子认出她并回应久留玉门缘由。",
+          "status": "supported",
+          "to": "char_4082_qiubai"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 416,
+          "kind": "story",
+          "line": 390,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_4082_qiubai|npc_2a2f1f3b7bd9ed61"
+}

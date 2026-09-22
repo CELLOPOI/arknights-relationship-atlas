@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 125,
+          "line": 109,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "quote": "[name=\"能天使\"]德克萨斯，欢迎回来！\n[Character(name=\"avg_103_angel_1#9$1\")]\n[name=\"能天使\"]你那边搞定了？\n[Character(name=\"avg_1028_texas2_1#1$1\")]\n[name=\"德克萨斯\"]嗯。\n[Character(name=\"avg_1028_texas2_1#1$1\")]\n[name=\"德克萨斯\"]该解决这边的麻烦了。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]最后的德克萨斯。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]不要忘记，当年是谁许诺你可以离开叙拉古的掌控。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]现在，你竟敢忤逆我？\n[Character(name=\"avg_1028_texas2_1#1$1\")]\n[name=\"德克萨斯\"]我已经完成了与贝纳尔多的约定，我不再欠你什么。\n[Character(name=\"avg_npc_688_1#1$1\")]\n[name=\"扎罗\"]愚昧！"
+        }
+      ],
+      "description": "能天使在扎罗战斗现场迎接德克萨斯；连续战斗中的真实共同在场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "char_103_angel",
+          "reason": "能天使在扎罗战斗现场迎接德克萨斯；连续战斗中的真实共同在场。",
+          "status": "supported",
+          "to": "npc_9649533c7a060d36"
+        },
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_9649533c7a060d36",
+          "reason": "能天使在扎罗战斗现场迎接德克萨斯；连续战斗中的真实共同在场。",
+          "status": "supported",
+          "to": "char_103_angel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 125,
+          "kind": "story",
+          "line": 109,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    }
+  ],
+  "relationship_id": "char_103_angel|npc_9649533c7a060d36"
+}

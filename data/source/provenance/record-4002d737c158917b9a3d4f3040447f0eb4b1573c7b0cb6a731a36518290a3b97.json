@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 611,
+          "line": 453,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act50side/level_act50side_st01.txt",
+          "quote": "[name=\"空爆\"]泡普卡，你没事……吧？\n[charslot(slot=\"m\",name=\"avg_282_catap_1#3$1\",focus=\"m\")]\n[name=\"空爆\"]呃，你什么时候换衣服了？还怪好看的。\n[charslot(slot=\"m\",name=\"avg_282_catap_1#8$1\",focus=\"m\")]\n[name=\"空爆\"]这些人又是谁？长得不像我们刚才要收拾的沙盗啊？\n[Dialog]\n[charslot]\n[PlaySound(key=\"$rungeneral\", volume=1,channel=\"8\")]\n[StopSound(channel=\"8\",fadetime=1.5)]\n[charslot(slot=\"m\",name=\"char_278_orchid_1#1\",posfrom=\"-150,0\",posto=\"0,0\",afrom=0, ato=1,duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"char_278_orchid_1#3\",focus=\"m\")]\n[name=\"梓兰\"]泡普卡……？\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#10$1\",focus=\"m\")]\n[name=\"宝巫迦\"]（东国语？）你们是何人，为什么会知道吾的名字叫宝巫迦？\n[charslot]\n[charslot(slot=\"r\",name=\"avg_282_catap_1#5$1\",focus=\"r\")]\n[charslot(slot=\"l\",name=\"char_278_orchid_1#1\",focus=\"r\")]\n[name=\"空爆\"]梓兰姐说的还真没错，仔细一听居然真的是东国语，月见夜教我的我都要忘了……\n[charslot(slot=\"l\",name=\"char_278_orchid_1#2\",focus=\"l\")]\n[name=\"梓兰\"]你就是忘了吧。\n[charslot(slot=\"r\",name=\"avg_282_catap_1#1$1\",focus=\"r\")]\n[name=\"空爆\"]哪有！我还等着哪天去东国旅游呢，不信你听着！\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_282_catap_1#2$1\",focus=\"r\")]\n[Delay(time=1)]\n[multiline(name=\"空爆\")]（东国语）咳咳，\n[charslot(slot=\"r\",name=\"avg_282_catap_1#9$1\",focus=\"r\")]\n[multiline(name=\"空爆\")]泡普卡，你到底跑哪里去了，我们找你找得好辛苦！\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#1$1\",focus=\"m\")]\n[name=\"宝巫迦\"]吾一直就在这里——\n[charslot]\n[charslot(slot=\"l\",name=\"char_278_orchid_1#1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_282_catap_1#3$1\",focus=\"r\")]\n[name=\"空爆\"]你看，我说我会吧！\n[charslot(slot=\"l\",name=\"char_278_orchid_1#3\",focus=\"l\")]\n[name=\"梓兰\"]不，事情好像没那么简单……\n[charslot(slot=\"l\",name=\"char_278_orchid_1#1\",focus=\"l\")]\n[name=\"梓兰\"]泡普卡，你不认识我们了吗？\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#9$1\",focus=\"m\")]\n[multiline(name=\"宝巫迦\")]吾为何要认识你们……\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#5$1\",focus=\"m\")]\n[multiline(name=\"宝巫迦\")]等等，你们的装扮，还有刚才所用的语言……莫非……\n[stopmusic(fadetime=0.5)]\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_fsmummy\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_2112_1#1$1\",afrom=0, ato=1,duration=1.5)]\n[Delay(time=2.5)]\n[PlayMusic(intro=\"$tense_intro\", key=\"$tense_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#6$1\",focus=\"m\")]\n[name=\"宝巫迦\"]这是——“诅咒”！\n[charslot(slot=\"m\",name=\"avg_282_catap_1#5$1\",focus=\"m\")]\n[name=\"空爆\"]“诅咒”？\n[charslot(slot=\"m\",name=\"avg_npc_2106_1#1$1\",focus=\"m\")]\n[name=\"领头武士\"]陛下，这里交给我们——\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#6$1\",focus=\"m\")]\n[name=\"宝巫迦\"]说什么蠢话。\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#9$1\",focus=\"m\")]\n[name=\"宝巫迦\"]吾岂有丢下尔等独自离开的道理？\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#4$1\",focus=\"m\")]\n[name=\"宝巫迦\"]况且，吾要找的“异兽猎人”已经找到了。\n[charslot(slot=\"m\",name=\"avg_npc_2106_1#1$1\",focus=\"m\")]\n[name=\"领头武士\"]难道这两位就是——\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#8$1\",focus=\"m\")]\n[name=\"宝巫迦\"]不会错的。\n[charslot]\n[charslot(slot=\"l\",name=\"char_278_orchid_1#1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_282_catap_1#11$1\",focus=\"r\")]\n[name=\"空爆\"]梓兰姐，是不是有什么地方不太对……？这还是我们认识的泡普卡吗？\n[charslot(slot=\"l\",name=\"char_278_orchid_1#5\",focus=\"l\")]\n[name=\"梓兰\"]倒不如说，就没有对的地方……\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#1$1\",focus=\"m\")]\n[name=\"宝巫迦\"]两位旅人……你们可愿意协助吾狩猎这些被“诅咒”的野兽？\n[charslot]\n[charslot(slot=\"l\",name=\"char_278_orchid_1#3\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_282_catap_1#11$1\",focus=\"l\")]\n[name=\"梓兰\"]……泡普卡，你到底——\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#1$1\",focus=\"m\")]\n[name=\"宝巫迦\"]若吾的猜测没有错，两位现在恐怕充满困惑。\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#3$1\",focus=\"m\")]\n[name=\"宝巫迦\"]待狩猎结束后，吾自当为两位解惑。\n[charslot]\n[charslot(slot=\"l\",name=\"char_278_orchid_1#3\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_282_catap_1#11$1\",focus=\"r\")]\n[name=\"空爆\"]怎么办，梓兰姐？\n[charslot(slot=\"l\",name=\"char_278_orchid_1#2\",focus=\"l\")]\n[name=\"梓兰\"]还能怎么办？准备战斗吧。\n[charslot(slot=\"r\",name=\"avg_282_catap_1#3$1\",focus=\"r\")]\n[name=\"空爆\"]哈，这个我擅长！\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=2, block=true)]\n[charslot]\n[charslot(slot=\"m\",name=\"char_278_orchid_1#1\",focus=\"m\")]\n[Blocker(a=0, r=0, g=0, b=0, style = \"slider\", inverse = false, fadetime=2, block=true)]\n[PlaySound(key=\"$d_avg_cndlextngsh\", volume=1)]\n[charslot(slot=\"m\",name=\"char_278_orchid_1#3\",focus=\"m\")]\n[Delay(time=1)]\n[name=\"梓兰\"]……\n[charslot(slot=\"m\",name=\"avg_282_catap_1#5$1\",focus=\"m\")]\n[name=\"空爆\"]梓兰姐，你怎么了？\n[charslot(slot=\"m\",name=\"char_278_orchid_1#5\",focus=\"m\")]\n[name=\"梓兰\"]我的伞好像出了点问题——\n[charslot(slot=\"m\",name=\"avg_282_catap_1#11$1\",focus=\"m\")]\n[name=\"空爆\"]啊？\n[charslot(slot=\"m\",name=\"avg_282_catap_1#4$1\",focus=\"m\")]\n[name=\"空爆\"]那就交给我吧！吃我一发！\n[Dialog]\n[PlaySound(key=\"$grenade_launcher_shot\", volume=1)]\n[charslot(slot=\"m\",posfrom=\"0,0\",posto=\"-30,0\",focus=\"m\",duration=1)]\n[Delay(time=1.5)]\n[charslot]\n[PlaySound(key=\"$grenade_explosion\", volume=1)]\n[CameraShake(duration=0.5, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"avg_npc_2112_1#1$1\",focus=\"m\")]\n[Delay(time=1.5)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_282_catap_1#11$1\",focus=\"m\")]\n[name=\"空爆\"]梓兰姐，有点奇怪！\n[name=\"空爆\"]这些钳兽怎么会这么顽强？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_2112_1#1$1\",focus=\"m\")]\n[Delay(time=2)]\n[charslot]\n[charslot(slot=\"m\",name=\"char_278_orchid_1#1\",focus=\"m\")]\n[name=\"梓兰\"]那些黑气……\n[charslot(slot=\"m\",name=\"char_278_orchid_1#3\",focus=\"m\")]\n[name=\"梓兰\"]泡普卡，你刚才说的“诅咒”是怎么回事！\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#9$1\",focus=\"m\")]\n[name=\"宝巫迦\"]“诅咒”，是“异兽”带来的灾厄，它会依附于野兽之上，让野兽变得极为凶暴。\n[charslot(slot=\"m\",name=\"avg_282_catap_1#8$1\",focus=\"m\")]\n[name=\"空爆\"]我怎么越听越迷糊？！\n[charslot(slot=\"m\",name=\"char_278_orchid_1#2\",focus=\"m\")]\n[name=\"梓兰\"]简单来说，就是让野兽变得更加狂暴的东西……\n[charslot(slot=\"m\",name=\"char_278_orchid_1#1\",focus=\"m\")]\n[name=\"梓兰\"]没有什么解决方法吗？\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#9$1\",focus=\"m\")]\n[name=\"宝巫迦\"]一旦野兽被“诅咒”，就只能用尽全力将其消灭。\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#6$1\",focus=\"m\")]\n[name=\"宝巫迦\"]否则的话，一旦“诅咒”传播开，就会引发一些让人匪夷所思的现象！\n[charslot(slot=\"m\",name=\"char_278_orchid_1#3\",focus=\"m\")]\n[name=\"梓兰\"]居然有这种事？！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$leaveshake\")]\n[charslot(slot=\"l\",name=\"avg_npc_2112_1#1$1\",afrom=0, ato=1,duration=1)]\n[charslot(slot=\"r\",name=\"avg_npc_2112_1#1$1\",afrom=0, ato=1,duration=1.3)]\n[Delay(time=2)]\n[charslot]\n[charslot(slot=\"m\",name=\"char_278_orchid_1#4\",focus=\"m\")]\n[name=\"梓兰\"]不行，这样下去没完没了了！\n[charslot(slot=\"m\",name=\"avg_npc_2100_1#9$1\",focus=\"m\")]\n[name=\"宝巫迦\"]必须把这些被“诅咒”的野兽在这里消灭，否则的话，“诅咒”会蔓延，而且——"
+        }
+      ],
+      "description": "空爆与宝巫迦相遇、交谈并共同战斗。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_282_catap",
+          "reason": "双方在泡影国场景中直接交谈或共同应对事件。",
+          "status": "supported",
+          "to": "npc_6197e84dcc45be9c"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_6197e84dcc45be9c",
+          "reason": "双方在泡影国场景中直接交谈或共同应对事件。",
+          "status": "supported",
+          "to": "char_282_catap"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_abacb245d974cd23.json",
+      "sources": [
+        {
+          "endLine": 611,
+          "kind": "story",
+          "line": 453,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act50side/level_act50side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "“泡影苍霆”中进入泡影国后的现实叙事时段",
+      "title": "泡影苍霆"
+    }
+  ],
+  "relationship_id": "char_282_catap|npc_6197e84dcc45be9c"
+}

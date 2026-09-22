@@ -1,0 +1,128 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 42,
+          "line": 26,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_end.txt",
+          "quote": "[name=\"赫德雷\"]  她没有追上来。\n[name=\"赫德雷\"]  ……如果我们真的和她正面碰上，事情就麻烦了。\n[name=\"赫德雷\"]  你不该对塔露拉使用法术，这也不是第一次了，我们要时常小心自己看见的东西。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_047\",focus=1)]\n[name=\"伊内丝\"]  ……塔露拉的身上一定发生了什么，这件事必须告诉W。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_047\",focus=2)]\n[name=\"赫德雷\"]  多亏了W几次的小动作，我们已经遭到那些暴徒的猜忌了，这还不够吗？\n[name=\"赫德雷\"]  你到底看到了什么？\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_047\",focus=1)]\n[name=\"伊内丝\"]  过去的塔露拉只是个反抗者。她把反抗的机会带给那些被解放的感染者。\n[name=\"伊内丝\"]  现在呢？他们几乎毫不收敛自己的欲望，单纯的破坏，滥杀。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_047\",focus=2)]\n[name=\"赫德雷\"]  这不足以说明什么，萨卡兹之外的种族对感染者素来如此。\n[Character(name=\"avg_npc_052\",name2=\"avg_npc_047\",focus=1)]\n[name=\"伊内丝\"]  ……你不明白。\n[name=\"伊内丝\"]  我不是在说这种行为本身怎么了，我是在说这样的行为会招致什么后果……\n[name=\"伊内丝\"]  塔露拉她……在葬送整合运动，刻意的。"
+        }
+      ],
+      "description": "赫德雷直呼塔露拉，告诫伊内丝不要再对其施术。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "赫德雷直呼塔露拉，告诫伊内丝不要再对其施术。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 42,
+          "kind": "story",
+          "line": 26,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "生于黑夜所述时段",
+      "title": "生于黑夜"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 133,
+          "line": 130,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-09_end.txt",
+          "quote": "[name=\"赫德雷\"]换作以前的你，一定会毫不犹豫地把那几个拖后腿的反抗军抓过来，当作送给我们的活饵。\n[name=\"赫德雷\"]要是有人告诉我，W自愿留下殿后——我一定会告诉他，这个笑话一点都不好笑。\n[name=\"赫德雷\"]在切尔诺伯格核心城的那段经历让你彻底疯了吗，W？\n[name=\"赫德雷\"]是塔露拉烧坏了你的大脑，还是你自己出现了一些不该出现的幻觉，在某个人身上看到了死去已久的影子？"
+        }
+      ],
+      "description": "赫德雷明确谈塔露拉与W切尔诺伯格经历。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E51"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "赫德雷明确谈塔露拉与W切尔诺伯格经历。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 133,
+          "kind": "story",
+          "line": 130,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 287,
+          "line": 260,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-15_beg.txt",
+          "quote": "[name=\"伊内丝\"]不止特雷西斯——\n[name=\"伊内丝\"]别忘了，还有特蕾西娅。\n[name=\"赫德雷\"]所以，从所有角度来说，我们都……只能是他们的继承者，是他们理念的延伸。\n[name=\"赫德雷\"]他们两人，才是萨卡兹能团结起来的原因。\n[name=\"W\"]……\n[name=\"W\"]那不是真的特蕾西娅。\n[name=\"W\"]那不过是特雷西斯造出来的冒牌货，他骗不过我。\n[name=\"赫德雷\"]W。\n[name=\"赫德雷\"]正视你自己。\n[name=\"W\"]你以为你是谁——\n[name=\"赫德雷\"]你不能接受特蕾西娅的死，你习惯了当巴别塔的影子。\n[name=\"赫德雷\"]甚至……\n[name=\"W\"]住嘴。\n[name=\"赫德雷\"]你觉得有阿米娅走在你的前面。你觉得，她才是特蕾西娅选定的继承人，“魔王”才该考虑这些事情。\n[name=\"赫德雷\"]你把她看作另一个特蕾西娅，你觉得，只需要追随“魔王”就好。\n[name=\"W\"]住嘴！你在故意恶心我吗？！\n[name=\"赫德雷\"]……你觉得自己不配继承什么。\n[name=\"W\"]……开什么玩笑，你自以为你了解我吗？你真把自己当成教育我的人了，赫德雷？\n[name=\"W\"]你也只是个雇佣兵，比我高不到哪里去。你就能自诩为什么什么继承者了？\n[name=\"W\"]呸，恶心死了！小兔子？还我追随她？\n[name=\"W\"]她就是个机缘巧合之下才被——\n[name=\"赫德雷\"]——才被特蕾西娅选中，成了阻止整合运动和塔露拉，今天又打进了伦蒂尼姆的罗德岛领导人。\n[name=\"赫德雷\"]那么你呢？\n[name=\"赫德雷\"]W，特蕾西娅对于你到底意味着什么？\n[name=\"赫德雷\"]只是个曾经让你有个容身之所的遥远象征，那个具体的有血有肉的殿下，还是——她所代表的路？\n[name=\"W\"]……我……\n[name=\"W\"]“为了这片大地……能够安稳入眠。”\n[name=\"W\"]……啧。"
+        }
+      ],
+      "description": "明确知晓塔露拉的经历。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "在三人会谈中具体讨论塔露拉及她被阿米娅阻止的经历。",
+          "status": "supported",
+          "to": "npc_69395c50206899b0"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_69395c50206899b0",
+          "reason": "塔露拉不在场。",
+          "status": "not_established",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 287,
+          "kind": "story",
+          "line": 260,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "突入生命脊椎前",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_4088_hodrer|npc_69395c50206899b0"
+}

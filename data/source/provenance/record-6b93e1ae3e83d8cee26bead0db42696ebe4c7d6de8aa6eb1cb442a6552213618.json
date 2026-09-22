@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 470,
+          "line": 426,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_malist_1_1.txt",
+          "quote": "[name=\"耶奇·地心\"]斯第奇，你看，这湖就是这样。我是想不出该在这建点什么，你的假期也不剩多少了，好好休息休息，下次再说吧。\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"m\")]\n[name=\"至简\"]可我已经有想法了。\n[charslot(slot=\"m\",name=\"avg_4055_bgsnow_1#6$1\",focus=\"m\")]\n[name=\"鸿雪\"]真的？你要在这建什么？\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"m\")]\n[name=\"至简\"]新际崖城。\n[charslot(slot=\"m\",name=\"avg_npc_566_1#10$1\",focus=\"m\")]\n[name=\"克罗绮·砖石\"]斯第奇，你来之前喝酒了？\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#8$1\",focus=\"m\")]\n[name=\"至简\"]怎么会。产能问题一时半会解决不了，但笨蛋市民朋友们的审美必须要纠正。\n[charslot(slot=\"m\",name=\"avg_npc_569_1#5$1\",focus=\"m\")]\n[name=\"黛柯绮·银币\"]唔，你是说要建一座新际崖城的模型。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#1$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]时间这么仓促，你打算用什么来做模型？我回去帮你筹措材料，召集一些工匠……\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#8$1\",focus=\"m\")]\n[name=\"至简\"]不用，我可以直接用沙堡来建。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_564_1#5$1\",focus=\"m\")]\n[delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_564_1#6$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]该不会刚才那两个笨蛋打架的时候，你一直在打瞌睡吧。\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#1$1\",focus=\"m\")]\n[name=\"至简\"]湖水的水位和波浪先不论，这里确实很适合堆沙堡。\n[name=\"至简\"]耶奇大师，你不是总说我的假期没多少时间了嘛。既然时间不够，那建些不需要大动干戈的东西，不是正好吗？\n[charslot(slot=\"m\",name=\"avg_npc_564_1#1$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]明知道沙堡很快就会被水冲走？\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#8$1\",focus=\"m\")]\n[name=\"至简\"]是啊。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#6$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]……斯第奇，你到底是成长了还是出什么事了？我感觉自己都快不认识你了。\n[charslot(slot=\"m\",name=\"avg_4055_bgsnow_1#10$1\",focus=\"m\")]\n[name=\"鸿雪\"]耶奇大师，让他做吧。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#5$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]阿芙朵嘉？\n[charslot(slot=\"m\",name=\"avg_4055_bgsnow_1#10$1\",focus=\"m\")]\n[name=\"鸿雪\"]斯第奇没出什么事，就是最近心态发生了一些变化。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#5$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]真的？\n[charslot(slot=\"m\",name=\"avg_4055_bgsnow_1#10$1\",focus=\"m\")]\n[name=\"鸿雪\"]真的。\n[charslot(slot=\"m\",name=\"avg_npc_564_1#1$1\",focus=\"m\")]\n[name=\"耶奇·地心\"]……看在阿芙朵嘉的面子上，我姑且相信你一回。斯第奇，你说话可得算数。\n[charslot(slot=\"m\",name=\"avg_4054_malist_1#8$1\",focus=\"m\")]\n[name=\"至简\"]那当然。"
+        }
+      ],
+      "description": "湖畔模型讨论中五人实际局部同场，NPC 相关端点均有具名发言；不扩至场外人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_e6ff84ea498826b3",
+          "reason": "湖畔模型讨论中五人实际局部同场，NPC 相关端点均有具名发言；不扩至场外人物。",
+          "status": "supported",
+          "to": "char_4054_malist"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4054_malist",
+          "reason": "湖畔模型讨论中五人实际局部同场，NPC 相关端点均有具名发言；不扩至场外人物。",
+          "status": "supported",
+          "to": "npc_e6ff84ea498826b3"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_56b0dd5bc7e9e890.json",
+      "sources": [
+        {
+          "endLine": 470,
+          "kind": "story",
+          "line": 426,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_malist_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "至简"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 77,
+          "line": 53,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_beg.txt",
+          "quote": "[name=\"卡奇·叙光\"]你不同意我碰穹顶，可以，我完全理解你对穹顶的感情，那我们就讨论大滑梯之后的下一个地标是什么。\n[Character(name=\"avg_npc_567_1#1$1\", name2=\"avg_4054_malist_1#1$1\",focus=2)]\n[name=\"斯第奇·画布\"]我们完全可以更简洁优美地处理这个问题，它可以充满象征性！\n[Character(name=\"avg_npc_567_1#5$1\", name2=\"avg_4054_malist_1#1$1\",focus=1)]\n[name=\"卡奇·叙光\"]也可以更刺激！\n[Character(name=\"avg_npc_567_1#5$1\", name2=\"avg_4054_malist_1#6$1\",focus=2)]\n[name=\"斯第奇·画布\"]也可以更刺激地充满象征性！\n[Character(name=\"avg_npc_567_1#5$1\", name2=\"avg_4054_malist_1#6$1\",focus=2)]\n[name=\"斯第奇·画布\"]呼，卡奇，我们在这里争不出什么东西。要比设计搞竞标？完全可以，我们给彼此留出创作时间，然后让际崖城的市民做选择。\n[Character(name=\"avg_npc_567_1#1$1\", name2=\"avg_4054_malist_1#6$1\",focus=1)]\n[name=\"卡奇·叙光\"]可以，就和当年一样。\n[Character(name=\"avg_npc_566_1#1$1\")]\n[name=\"克罗绮·砖石\"]我也赞同——\n[Character(name=\"avg_npc_567_1#1$1\", name2=\"avg_4054_malist_1#1$1\",focus=1)]\n[name=\"卡奇·叙光\"]克罗绮小姐？你这是喝酒了吗？\n[Character(name=\"avg_npc_566_1#9$1\")]\n[name=\"克罗绮·砖石\"]没事啦，就喝了一点点。\n[Character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]喝了三桶。\n[Character(name=\"avg_npc_566_1#8$1\")]\n[name=\"克罗绮·砖石\"]斯第奇，你的方案我听说了，我很有兴趣。\n[Character(name=\"avg_npc_566_1#8$1\")]\n[name=\"克罗绮·砖石\"]既然卡奇也不太反对，那事情就好办了！\n[Character(name=\"avg_npc_566_1#9$1\")]\n[name=\"克罗绮·砖石\"]只要再找到黛柯绮，我们就能推着际崖城搞出点新东西啦！"
+        }
+      ],
+      "description": "克罗绮加入关于设计方案的讨论，与至简及依娜姆直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_4054_malist",
+          "reason": "克罗绮加入关于设计方案的讨论，与至简及依娜姆直接对话。",
+          "status": "supported",
+          "to": "npc_e6ff84ea498826b3"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_e6ff84ea498826b3",
+          "reason": "克罗绮加入关于设计方案的讨论，与至简及依娜姆直接对话。",
+          "status": "supported",
+          "to": "char_4054_malist"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 77,
+          "kind": "story",
+          "line": 53,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "理想城：长夏狂欢季所述时段",
+      "title": "理想城：长夏狂欢季"
+    }
+  ],
+  "relationship_id": "char_4054_malist|npc_e6ff84ea498826b3"
+}

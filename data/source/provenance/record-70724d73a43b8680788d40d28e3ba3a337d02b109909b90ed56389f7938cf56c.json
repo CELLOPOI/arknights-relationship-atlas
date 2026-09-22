@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 40,
+          "line": 11,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st02.txt",
+          "quote": "[name=\"砾\"]……博士？\n[name=\"砾\"]您从餐厅回来之后，就一直紧锁着眉头哦？\n[Character(name=\"avg_237_gravel_1#3\")]\n[name=\"砾\"]如果感到疲惫的话，我可以——\n[dialog]\n[Decision(options=\"你怎么看待今天这场晚宴？;你觉得，马克维茨是个怎样的人？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]很得体，博士。看来您已经习惯这类交际了？\n[name=\"砾\"]看得出，虽然常务董事没有亲自露面，但那些企业高管都对您青睐有加……\n[dialog]\n[Predicate(references=\"2\")]\n[name=\"砾\"]……如我之前对您说的，因为耀骑士的事件，有一位发言人引咎辞职。\n[name=\"砾\"]马克维茨是临时顶上这个位置的，在此之前，他只是一个默默无闻的小角色……\n[name=\"砾\"]虽然他的身上还保留有一些未经洗礼的人情味……不过在现在这个环境，能持续多久可说不太好。\n[Predicate(references=\"1;2\")]\n[Dialog]\n[Decision(options=\"你认为罗德岛的计划，有可行性吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1#2\")]\n[name=\"砾\"]……\n[Character(name=\"avg_237_gravel_1#6\")]\n[name=\"砾\"]先不提这个……您真的信任我吗？\n[name=\"砾\"]联合会的渗透并非某种组织形式上的渗透……在金钱和确实发生改变的社会面前，即使联合会什么也不做，骑士也会倒向资本。\n[Character(name=\"avg_237_gravel_1#3\")]\n[name=\"砾\"]监正会对罗德岛礼遇的原因几乎和耀骑士密不可分。即使如此，您这样缜密的人……如果不小心对待监正会，是会吃亏的。\n[Dialog]\n[Decision(options=\"感谢你的提醒。;这我当然知道。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"那么，能告诉我你的意见吗？;所以你的意见是？\", values=\"1;2\")]"
+        }
+      ],
+      "description": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_237_gravel",
+          "reason": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+          "status": "supported",
+          "to": "npc_d9e6a25fb83f9874"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_d9e6a25fb83f9874",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_237_gravel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5af6c879983dcc5a.json",
+      "sources": [
+        {
+          "endLine": 40,
+          "kind": "story",
+          "line": 11,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "char_237_gravel|npc_d9e6a25fb83f9874"
+}

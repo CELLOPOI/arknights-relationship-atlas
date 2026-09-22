@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 225,
+          "line": 173,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_st01.txt",
+          "quote": "[name=\"奥克里\"]各位来宾好，我是你们的园区讲解员奥克里！\n[name=\"奥克里\"]我理解，被关在这么个小黑匣子里实在是无聊又吊人胃口……不过为了登上六百米的高空欣赏全泰拉独一无二的景致，一切都是值得的！\n[dialog]\n[cgitem(image=\"cgitem_68_i01_2\", style=\"cg\",pfrom = \"0,-10\",pto = \"0,-600\",pduration = 0.5,aFrom=1,aTo=0,aduration=0.5,layer = 2,block=true)]\n[hidecgitem(image=\"cgitem_68_i01_2\",block=true)]\n[PlaySound(key=\"$d_avg_bubble_cartoon_2\")]\n[cgitem(image=\"cgitem_68_i01_1\", style=\"cg\",pfrom = \"0,-300\",pto = \"0,10\",pduration =0.5, sfrom =0.8 ,sto = 1, sduration = 0.5, layer = 2,block=true)]\n[cgitem(image=\"cgitem_68_i01_1\", style=\"cg\",pfrom = \"0,10\",pto = \"0,-10\",pduration =0.2, layer = 2,block=true)]\n[name=\"奥克里\"]四十秒后，我们将踏上园区的浮空结构层。在此之前，请各位思考一个问题——天空究竟会为我们的生活带来什么样的不同？\n[dialog]\n[hidecgitem(image=\"cgitem_68_i01_1\",block=true)]\n[delay(time=0.3)]\n[PlaySound(key=\"$d_avg_OriginiumArts_llfather\", volume=0.6)]\n[cgitem(image=\"cgitem_68_i01_7\", style=\"cg\",pfrom = \"-300,-500\",pto = \"-300,0\",pduration =1,layer =1,block=true)]\n[cgitem(image=\"cgitem_68_i01_7\", style=\"cg\",pfrom = \"-300,0\",pto = \"-300,-20\",pduration =0.5, layer =1,block=true)]\n[name=\"奥克里\"]今天在下层展区参观的时候，各位或许已经体验过把四只轮胎替换成源石推进器的“飞车”。\n[dialog]\n[PlaySound(key=\"$d_avg_slip\",volume=1)]\n[delay(time=0.3)]\n[cgitem(image=\"cgitem_68_i01_7\", style=\"cg\",pfrom = \"-300,-20\",pto = \"900,-20\",pduration =0.8,layer =1,block=true)]\n[hidecgitem(image=\"cgitem_68_i01_7\",block=true)]\n[name=\"奥克里\"]很快，我们就会把所有带轮子和履带的东西统统扔进博物馆，不管是婴儿车，还是移动城市。\n[dialog]\n[PlaySound(key=\"$clink\", volume=1)]\n[cgitem(image=\"cgitem_68_i01_4\", style=\"cg\",pfrom = \"0,-200\",pto = \"0,10\",pduration =0.5, layer =1,block=true)]\n[cgitem(image=\"cgitem_68_i01_4\", style=\"cg\",pfrom = \"0,10\",pto = \"0,-10\",pduration =0.5, layer =1,block=true)]\n[PlaySound(key=\"$d_avg_drinksoda_straw\", volume=1)]\n[name=\"奥克里\"]今天我们还在纠结，在即将到来的夏日，度假究竟是去米诺斯还是汐斯塔。\n[name=\"奥克里\"]但很快，各位的选择困难症就会急速加重，每颗星星都会成为可选的旅行目的地。\n[dialog]\n[cgitem(image=\"cgitem_68_i01_4\", style=\"cg\",pfrom = \"0,0\",pto = \"0,-500\",pduration =0.5,layer =1,block=true)]\n[hidecgitem(image=\"cgitem_68_i01_4\",block=true)]\n[PlaySound(key=\"$d_avg_plane\",volume=0.8)]\n[cgitem(image=\"cgitem_68_i01_5\", style=\"cg\",pfrom = \"90,-500\",pto = \"90,0\",pduration =1, layer =1,block=true)]\n[name=\"奥克里\"]今天的参观结束之后，我们带回去给孩子的礼物，或许是环形实验室的微缩模型，又或许是自制小型火箭的工具箱。\n[name=\"奥克里\"]但很快，给孩子征集一位外泰拉的住民作为玩伴，才会是学前教育的潮流之选。\n[dialog]\n[cgitem(image=\"cgitem_68_i01_5\", style=\"cg\",pfrom = \"90,0\",pto = \"90,700\",pduration =1,aFrom=1,aTo=0,aduration=1,layer =1,block=true)]\n[hidecgitem(image=\"cgitem_68_i01_5\",block=true)]\n[PlaySound(key=\"$d_avg_inspiration\", volume=1)]\n[cgitem(image=\"cgitem_68_i01_6\", style=\"cg\",pfrom = \"-100,500\",pto = \"200,100\",pduration =1,layer =1,block=true)]\n[cgitem(image=\"cgitem_68_i01_6\", style=\"cg\",pfrom = \"200,100\",pto = \"-50,0\",pduration =1,layer =1,block=true)]\n[name=\"奥克里\"]今晚，我们还会守在收音机旁，打赌电台会不会从成千上万首歌唱天空的歌曲中，选中我们最爱的《晚安，克丽斯腾》来播放。\n[name=\"奥克里\"]但很快，我们就会把贝斯和沙哑的嗓音抛在脑后，太阳风会成为新的弦乐，一个星系就是一个定制的八音盒。\n[dialog]\n[PlaySound(key=\"$d_avg_kalimbapizz\", volume=1)]\n[cgitem(image=\"cgitem_68_i01_6\", style=\"cg\",pfrom = \"-50,0\",pto = \"300,-500\",pduration =1,afrom=1,ato=0,aduration=0.5,layer =1,block=true)]\n[hidecgitem(image=\"cgitem_68_i01_6\",block=true)]\n[PlaySound(key=\"$d_avg_bubble_cartoon_1\")]\n[cgitem(image=\"cgitem_68_i01_3\", style=\"cg\",sfrom =0.8 ,sto = 1, sduration = 0.5, pfrom = \"0,-300\",pto = \"0,10\",pduration = 0.5,layer = 2,block=true)]\n[cgitem(image=\"cgitem_68_i01_3\", style=\"cg\",pfrom = \"0,10\",pto = \"0,-10\",pduration = 0.2,layer = 2,block=true)]\n[name=\"奥克里\"]“天空是哥伦比亚的下一个开拓区”，这不仅仅是杰克逊副总统如今的竞选口号。\n[name=\"奥克里\"]“螺旋桨天堂”的存在证明了每个哥伦比亚人都能成为伟大的开拓者，都可以在星荚之外找到一席之地。"
+        }
+      ],
+      "description": "奥克里单向知道克丽斯腾这一公众人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_26573f19d0a6c0b5",
+          "reason": "奥克里在面向游客的讲解中明确提及以克丽斯腾命名的歌曲。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "克丽斯腾未出场，也没有得知奥克里。",
+          "status": "not_established",
+          "to": "npc_26573f19d0a6c0b5"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 225,
+          "kind": "story",
+          "line": 173,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "天空生活展会预展",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "npc_26573f19d0a6c0b5|npc_ebd7747563277517"
+}

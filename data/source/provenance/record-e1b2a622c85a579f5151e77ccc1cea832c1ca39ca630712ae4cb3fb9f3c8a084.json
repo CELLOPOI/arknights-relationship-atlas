@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 655,
+          "line": 602,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "quote": "[name=\"？？？\"] 萨卡兹，你别想追上去。\n[name=\"？？？\"] 你的对手在这里。\n[character(name=\"avg_npc_404_1#2$1\")]\n[name=\"曼弗雷德\"] ……\n[name=\"曼弗雷德\"] 白狼，我没想到你会再次来到我的面前。\n[name=\"曼弗雷德\"] 这通道竟然是双向的，在带走他们的同时，把你送了上来？\n[character(name=\"avg_npc_229_1#7\")]\n[name=\"号角\"] ……不是我，是我们。\n[Dialog]\n[character]\n[Dialog]\n[character]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]\n[Background]\n[playMusic(intro=\"$ghosthunter01_intro\", key=\"$ghosthunter01_loop\", volume=0.4)]\n[Image(image=\"27_i07\",xScale=1.2, yScale=1.2)]\n[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=80)]\n[Blocker(a=0, fadetime=3, block=false)]\n[playsound(key=\"$d_gen_walk_n\")]\n在号角身后，一个士兵站了起来。\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[CameraShake(duration=0.1, xstrength=5, ystrength=5, vibrato=10, randomness=90, fadeout=true, block=false)]\n然后是第二个，第三个。\n[playsound(key=\"$d_gen_soldiersrun\")]\n[CameraShake(duration=1.5, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]\n十多个维多利亚士兵挡在萨卡兹将军的身前。\n所有人都不再伪装。\n他们的制服各式各样，多数都有着多次战火灼烧的痕迹，有的沾满了泥土和蛛网，有的沾上了自己和战友的鲜血。\n他们手上的武器也各不相同，有的尚拿着制式刀剑，有的却只能举着自己做的弓弩。\n但他们脸上都有着相同的神采。\n这一次，除非永远倒下，否则他们绝不会再后退。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[character]\n[image]\n[Background(image=\"27_g4_giantwall\",screenadapt=\"coverall\")]\n[character(name=\"avg_npc_404_1#4$1\")]\n[delay(time=0.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[name=\"曼弗雷德\"] ……一群残兵，也想战胜我？\n[character(name=\"avg_npc_229_1#2\")]\n[name=\"号角\"] ——\n[dialog]\n[character(name=\"avg_npc_404_1#2$1\")]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]\n[name=\"曼弗雷德\"] 拿上武器的你也不是我的对手。\n[name=\"曼弗雷德\"] 你难道忘了，上一次你能从我手上侥幸逃脱，全凭那个罗德岛的萨卡兹插手？\n[character(name=\"avg_npc_229_1#7\")]\n[name=\"号角\"] 别再东张西望了，萨卡兹。\n[name=\"号角\"] 在战场上，不尊重对手的人，一定是先倒下的那一个。"
+        }
+      ],
+      "description": "号角持盾阻截曼弗雷德，两人互认并交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E80"
+          ],
+          "from": "char_4039_horn",
+          "reason": "号角持盾阻截曼弗雷德，两人互认并交战。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E80"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "号角持盾阻截曼弗雷德，两人互认并交战。",
+          "status": "supported",
+          "to": "char_4039_horn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 655,
+          "kind": "story",
+          "line": 602,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_4039_horn|npc_03f95afb5dd17c3f"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 409,
+          "line": 395,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st01.txt",
+          "quote": "[name=\"苇草\"]威灵顿公爵阁下？\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#1$1\",focus=\"r\")]\n[name=\"苇草\"]我以为在这里等着我的人会是……姐姐。\n[charslot(slot=\"l\",name=\"avg_npc_652_1#1$1\",focus=\"l\")]\n[name=\"威灵顿公爵\"]爱布拉娜殿下还不方便亲自见你，拉芙希妮小姐。\n[charslot(slot=\"l\",name=\"avg_npc_652_1#10$1\",focus=\"l\")]\n[name=\"威灵顿公爵\"]我更感兴趣的是，你是如何获取G-0高地的确切坐标的？你栖身的那家医药公司？那位博士？\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#1$1\",focus=\"r\")]\n[name=\"苇草\"]……没错。\n[charslot(slot=\"l\",name=\"avg_npc_652_1#1$1\",focus=\"l\")]\n[name=\"威灵顿公爵\"]那么，拉芙希妮小姐，请替我转达，那位博士想从塔拉得到的东西，要自己来取。\n[charslot(slot=\"r\",name=\"avg_1020_reed2_1#1$1\",focus=\"r\")]\n[name=\"苇草\"]博士帮助我面见姐姐，不是想从塔拉攫取任何利益，只是为了战争能够尽早结束。而我和博士看法相同。\n[charslot(slot=\"l\",name=\"avg_npc_652_1#1$1\",focus=\"l\")]\n[name=\"威灵顿公爵\"]恕我直言，拉芙希妮小姐，现在我只看到一个说客，而说客无权提出条件。"
+        }
+      ],
+      "description": "苇草知晓博士；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_261_sddrag",
+          "reason": "苇草明确谈到博士对她的帮助及共同看法。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在该场景出场，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_261_sddrag"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 409,
+          "kind": "story",
+          "line": 395,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "加斯特里尔号会谈",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_261_sddrag|npc_b99957887950ebfd"
+}

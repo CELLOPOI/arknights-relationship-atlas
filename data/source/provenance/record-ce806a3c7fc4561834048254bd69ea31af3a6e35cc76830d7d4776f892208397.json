@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 367,
+          "line": 331,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st04.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_npc_1664_1#1$1\",focus=\"m\")]\n[name=\"弥尔顿\"]不，我看不惯你的傲慢。\n[name=\"弥尔顿\"]你觉得自己能一个人背下玫瑰河畔所有的血债。\n[charslot(slot=\"m\",name=\"avg_npc_1522_1#8$1\",focus=\"m\")]\n[name=\"隐德来希\"]……我怎么会这么想呢？\n[charslot(slot=\"m\",name=\"avg_npc_1522_1#4$1\",focus=\"m\")]\n[name=\"隐德来希\"]要是我真有一手遮天的本事，我无论如何都会拉住姐妹们，让她们陪同我留在这条血河上。\n[charslot(slot=\"m\",name=\"avg_npc_1522_1#3$1\",focus=\"m\")]\n[name=\"隐德来希\"]玫瑰河畔本不该那么早地消散……\n[name=\"隐德来希\"]我也并不希望在内战局势急转直下的时刻，自己只来得及尽善后人的职责，没有捕捉到任何风声。\n[name=\"隐德来希\"]但事实如此。我没有能力救特蕾西娅，也没有能力救任何一艘航船。\n[charslot(slot=\"m\",name=\"avg_npc_1522_1#8$1\",focus=\"m\")]\n[name=\"隐德来希\"]就像眼下你想为你姐姐做的事情，也是我办不到的。\n[charslot(slot=\"m\",name=\"avg_npc_1664_1#1$1\",focus=\"m\")]\n[name=\"弥尔顿\"]……\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.2, r=1, g=0, b=0, fadetime=0.05, block=true)]\n[PlaySound(key=\"$d_avg_jewelryimpact\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1.5)]\n[name=\"弥尔顿\"]——你？！\n[charslot(slot=\"m\",name=\"avg_npc_1522_1#1$1\",focus=\"m\")]\n[name=\"隐德来希\"]嘘。\n[Dialog]\n[charslot]\n一枚晶莹的血红色宝石缓缓落在了弥尔顿的面前，而隐德来希的面容却更加雪白。\n[charslot(slot=\"m\",name=\"avg_npc_1522_1#1$1\",focus=\"m\")]\n[name=\"隐德来希\"]拿着它去找你认为能保下你姐姐的人交差。我向你保证，这片大地上只有两个人能分辨出它和我的“小石榴”的差别。\n[charslot(slot=\"m\",name=\"avg_npc_1664_1#1$1\",focus=\"m\")]\n[name=\"弥尔顿\"]……你的耳坠？\n[charslot(slot=\"m\",name=\"avg_npc_1522_1#1$1\",focus=\"m\")]\n[name=\"隐德来希\"]并非只是耳坠……你不需要知道更多。走。\n[charslot(slot=\"m\",name=\"avg_npc_1522_1#9$1\",focus=\"m\")]\n[name=\"隐德来希\"]祝你好运，也祝我的姐妹好运……\n[charslot(slot=\"m\",name=\"avg_npc_1664_1#1$1\",focus=\"m\")]\n[name=\"弥尔顿\"]你呢？"
+        }
+      ],
+      "description": "隐德来希明确回顾自己未能救下特蕾西娅；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_4010_etlchi",
+          "reason": "隐德来希明确回顾自己未能救下特蕾西娅",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "对方未在本组该场景出场，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_4010_etlchi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 367,
+          "kind": "story",
+          "line": 331,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔覆灭后的回顾",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_4010_etlchi|npc_c0e49cc5a9477cf1"
+}

@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 730,
+          "line": 700,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_05_beg.txt",
+          "quote": "[name=\"娜斯提\"]……\n[charslot(slot=\"m\",name=\"avg_npc_892_1#1$1\",bstart=0.1,bend=0.5)]\n[name=\"？？？\"]刚才那是谁的电话？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]一个孤独的渴望找到同伴的人。\n[charslot(slot=\"m\",name=\"avg_npc_892_1#1$1\",bstart=0.1,bend=0.5)]\n[name=\"？？？\"]你们俩的关系什么时候变得这么好了？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#7$1\")]\n[name=\"娜斯提\"]只是暂时同行罢了。\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]你也是。打算什么时候离开我的实验室？你身上酒精的味道会影响设备的准确度。\n[charslot(slot=\"m\",name=\"avg_npc_892_1#1$1\",bstart=0.1,bend=0.5)]\n[name=\"？？？\"]真绝情啊。\n[name=\"？？？\"]拜你和那位特工女士的“临时计划”所赐，为了确保你不会进监狱，我今天晚上还得再多开十几个电话会议，当然需要酒精提提神。\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]你也得到你想要的了。克丽斯腾允诺的价码，理应让你这个生意人感到满足。\n[charslot(slot=\"m\",name=\"avg_npc_892_1#1$1\",bstart=0.1,bend=0.5)]\n[name=\"？？？\"]价码？你是在提醒我为了这个疯狂的计划承受了多少损失吗？\n[charslot(slot=\"m\",name=\"avg_npc_891_1#7$1\")]\n[name=\"娜斯提\"]……那你早该去卡西米尔了。\n[charslot(slot=\"m\",name=\"avg_npc_892_1#1$1\",bstart=0.1,bend=0.5)]\n[name=\"？？？\"]加入商业联合会，拨弄那群骑士和投机者的命运？\n[name=\"？？？\"]是啊，这个计划在我的终端里躺了好几年了。我可以挣更多的钱，而且还安全得多。\n[name=\"？？？\"]但那所有的宏图伟业……都只关乎一个国家，一个时代。\n[name=\"？？？\"]我还是更想把握住眼前的机会，亲眼看着超越任何人想象的未来从自己的掌心冲天而起。\n[charslot(slot=\"m\",name=\"avg_npc_891_1#1$1\")]\n[name=\"娜斯提\"]一个极端务实的人也会做梦？\n[charslot(slot=\"m\",name=\"avg_npc_892_1#1$1\",bstart=0.1,bend=0.5)]\n[name=\"？？？\"]每一个人都有做梦的权利，尤其是……当面对的是最为变幻莫测的命运时。\n[name=\"？？？\"]你刚刚说得很好啊。暂时同行……同行者。\n[name=\"？？？\"]看着那些科学家，从最初到最后，经历了那么多的纷争，无论从朋友变成敌人，还是从敌人变成朋友，都还是走到了同一条路上。"
+        }
+      ],
+      "description": "娜斯提与小贾斯汀直接讨论克丽斯腾计划并称彼此为同行者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C19"
+          ],
+          "from": "char_4212_nasti",
+          "reason": "娜斯提与小贾斯汀直接讨论克丽斯腾计划并称彼此为同行者。",
+          "status": "supported",
+          "to": "npc_702a534ce16015aa"
+        },
+        {
+          "evidenceIds": [
+            "C19"
+          ],
+          "from": "npc_702a534ce16015aa",
+          "reason": "娜斯提与小贾斯汀直接讨论克丽斯腾计划并称彼此为同行者。",
+          "status": "supported",
+          "to": "char_4212_nasti"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 730,
+          "kind": "story",
+          "line": 700,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 102,
+          "line": 49,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_01_beg.txt",
+          "quote": "[name=\"塞雷娅\"]呼——就到这里吧，谢谢你当我的陪练，娜斯提。\n[playMusic(intro=\"$m_dia_street_intro\",key=\"$m_dia_street_loop\", volume=0)]\n[MusicVolume(volume=0.6, fadetime=2)]\n[stopsound(channel=\"lab\",fadetime=2)]\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]这才到你平日运动量的一半。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#1$1\")]\n[name=\"塞雷娅\"]是你该出发了。和其他人道过别了？\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]我没通知他们。马里亚姆就不用说了，缪尔赛思人在谢拉格，人事科和结构科的两位新主任我还不太熟。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#8$1\")]\n[name=\"娜斯提\"]至于小贾斯汀和斐尔迪南，还是让他俩单独见面吧……\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]这样不管是对自己刚从哪位高官的宴会上离开夸夸其谈，还是宣讲那些能让一个人成为科学界国王的新理论，两个人都有听众。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]再说，我只是出一趟差而已。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#6$1\")]\n[name=\"塞雷娅\"]需要工程科主任出的差可不多。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#5$1\")]\n[name=\"塞雷娅\"]特区政府批准了我们的申请，整合“地平弧光计划”的资源，以万星园的技术遗留为基础，继续推进浮空科技领域的革新。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]但他们同时对哥伦比亚全境的科技公司大开方便之门，甚至为此特批了一整个地块。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]进驻人员名单中不仅有烟酒施术单元以及源石制品管理局的官员，连梅兰德也下场了。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]我们的计划书，变成了万千计划书中的一份。让莱茵为整个地块提供基础工程支持，已经是他们对莱茵生命这个发起方最大的尊重了。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#9$1\")]\n[name=\"塞雷娅\"]政府官员、科技公司代表……毫无疑问，那个地块会很热闹。娜斯提，你并不擅长处理这类事情。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#1$1\")]\n[name=\"娜斯提\"]这段时间，我也没有听你抱怨过什么……总辖。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#1$1\")]\n[name=\"塞雷娅\"]……\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#8$1\")]\n[name=\"娜斯提\"]星荚已经慢慢恢复如初，但人们望向天空的目光不会收回来。常识被颠覆之后，原本被忽视的地方便自然而然成了热土。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]自然而然？特殊贷款政策出台后，三分之一的企业增加了天空事业部门，中小型企业也纷纷转型，为了搭上“天空热”的便车不计代价。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#1$1\")]\n[name=\"娜斯提\"]你意有所指，但我对政治游戏不感兴趣。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#2$1\")]\n[name=\"娜斯提\"]哪怕一切的发展不是我们所能控制的，莱茵生命也必须做这个发起方。尽可能地掌握主动权，才能尽可能地守住克丽斯腾留下的东西。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#2$1\")]\n[name=\"娜斯提\"]这并不难理解。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#6$1\")]\n[name=\"塞雷娅\"]嗯。那么，辛苦了。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#11$1\")]\n[name=\"娜斯提\"]顺便问一句，你为什么不搬去克丽斯腾的办公室，而是在这间旧办公室外面加挂了一块“总辖构件科”的标牌？\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#6$1\")]\n[name=\"塞雷娅\"]我习惯了这里。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#6$1\")]\n[name=\"塞雷娅\"]缪尔赛思也这样问过。她红着眼睛，掐着我的胳膊问我是不是因为怀念克丽斯腾，以及莱茵是不是总会为克丽斯腾留一个位置。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]看来，你只是觉得老地方比较舒适。毕竟这里的每一个细节都是你亲自确认过的。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]当初替你装修办公室的时候，你在我身后从头盯到尾，我一度怀疑你的强迫症比帕尔维斯还要严重。"
+        }
+      ],
+      "description": "娜斯提单向提及同事贾斯汀。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4212_nasti",
+          "reason": "娜斯提直接提及小贾斯汀并评价他的社交活动。",
+          "status": "supported",
+          "to": "npc_702a534ce16015aa"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_702a534ce16015aa",
+          "reason": "贾斯汀未在场。",
+          "status": "not_established",
+          "to": "char_4212_nasti"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 102,
+          "kind": "story",
+          "line": 49,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "娜斯提出差前",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "char_4212_nasti|npc_702a534ce16015aa"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 171,
+          "line": 156,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_05_end.txt",
+          "quote": "[name=\"黑键\"]刚刚……发生了什么？密室升了起来……然后就……\n[charslot(slot = \"m\", name = \"avg_4011_lessng_1#1$1\")]\n[name=\"莱辛\"]是我抓着你跳了下来。\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#10$1\")]\n[name=\"弗莱蒙特\"]是，说跳就跳，都没看你爷爷我一眼。\n[charslot(slot = \"m\", name = \"avg_4011_lessng_1#1$1\")]\n[name=\"莱辛\"]您不可能有事。\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#5$1\")]\n[name=\"弗莱蒙特\"]……没良心的小羊崽子。\n[name=\"弗莱蒙特\"]赫琳玛特这一剑，真是一点都没收力。要不是我及时拉了你们一把，你俩就和那群戴面具的人一样，给埋地里了。\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#13$1\")]\n[name=\"黑键\"]格哈德……呢？\n[name=\"黑键\"]他死了吗？\n[charslot(slot = \"m\", name = \"avg_npc_1114_1#12$1\")]\n[name=\"弗莱蒙特\"]跑了。\n[name=\"弗莱蒙特\"]但也跑不了几步了。他的身体承受不了赫尔昏佐伦的术式，就跟急速恶化的感染者一样，再过一会就该崩毁了。"
+        }
+      ],
+      "description": "黑键与弗莱蒙特直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_4046_ebnhlz",
+          "reason": "双方直接对话或共同参与连续局部场景。",
+          "status": "supported",
+          "to": "npc_732d802fa042a0c2"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_732d802fa042a0c2",
+          "reason": "双方直接对话或共同参与连续局部场景。",
+          "status": "supported",
+          "to": "char_4046_ebnhlz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_3a60825ada2e8d44.json",
+      "sources": [
+        {
+          "endLine": 171,
+          "kind": "story",
+          "line": 156,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "崔林特尔梅事件现实场景",
+      "title": "崔林特尔梅之金"
+    }
+  ],
+  "relationship_id": "char_4046_ebnhlz|npc_732d802fa042a0c2"
+}

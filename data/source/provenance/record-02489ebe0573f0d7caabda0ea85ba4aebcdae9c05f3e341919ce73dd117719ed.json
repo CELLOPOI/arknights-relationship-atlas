@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 805,
+          "line": 765,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "quote": "[name=\"诺希斯\"]看看你的妹妹，她就要被恩希欧迪斯带走了！\n[dialog]\n[character]\n[name=\"休露丝\"]放开我，你们放开我！\n[Dialog]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"char_empty\")]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=200, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=1, block=false)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#5$1\",focus=2)]\n[name=\"尤卡坦\"]……不要伤害我的妻子！\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#5$1\",focus=1)]\n[name=\"希瓦艾什家战士\"]哼。\n[characteraction(name=\"left\", type=\"move\", xpos=200, fadetime=0.3, block=true)]\n[delay(time=0.51)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.7)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#5$1\")]\n[characteraction(name=\"left\", type=\"jump\", xpos=100, power=5, times=1, fadetime=0.5, block=true)]\n[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.7)] \n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]\n[characteraction(name=\"left\", type=\"jump\", xpos=-100, power=5, times=1, fadetime=1,block=true)]\n[Character(name=\"avg_npc_283_1#1$1\", name2=\"avg_npc_263_1#3$1\",focus=2)]\n[name=\"尤卡坦\"]咕……\n[dialog]\n[Delay(time=1)]\n[Character(name=\"avg_npc_262_1#7$1\")]\n[name=\"休露丝\"]尤卡坦！\n[Character(name=\"avg_npc_253_1#8$1\")]\n[name=\"菈塔托丝\"]休露丝！尤卡坦！\n[Character(name=\"avg_206_gnosis_1#7$1\")]\n[name=\"诺希斯\"]现在，是你最后的机会了。\n[name=\"诺希斯\"]恩希欧迪斯说信你，他当真是信你吗？"
+        }
+      ],
+      "description": "灵知当面提醒休露丝被捕并介入营救，她与丈夫具名回应同一事件。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E61"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "灵知当面提醒休露丝被捕并介入营救，她与丈夫具名回应同一事件。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "E61"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "灵知当面提醒休露丝被捕并介入营救，她与丈夫具名回应同一事件。",
+          "status": "supported",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 805,
+          "kind": "story",
+          "line": 765,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1045,
+          "line": 1020,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "quote": "[name=\"恩希欧迪斯\"]确实，休露丝夫人手段高明，令人敬佩。\n[name=\"恩希欧迪斯\"]菈塔托丝，你太小看休露丝夫人了。\n[charslot(slot=\"m\",name=\"avg_npc_253_1#5$1\")]\n[name=\"菈塔托丝\"]……你这是什么意思？\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",duration=1)]\n[Delay(time=2)]\n[name=\"莫希\"]夫人，客人平安到达。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]好！快带人过来！\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]……\n[charslot(slot=\"m\",name=\"avg_npc_255_1#8$1\")]\n[name=\"莫希\"]……\n[name=\"莫希\"]我这就去。\n[Dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#1$1\")]\n[name=\"魏斯\"]老爷！\n[name=\"魏斯\"]客人已经带到了！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]乱说什么？那是我请来的客人！"
+        }
+      ],
+      "description": "诺希斯与休露丝明确局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "char_206_gnosis",
+          "reason": "双方在客人抵达的同一局部现场直接参与汇报与回应。",
+          "status": "supported",
+          "to": "npc_be787f1ec784bbc7"
+        },
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "npc_be787f1ec784bbc7",
+          "reason": "双方在客人抵达的同一局部现场直接参与汇报与回应。",
+          "status": "supported",
+          "to": "char_206_gnosis"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 1045,
+          "kind": "story",
+          "line": 1020,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "银心湖冲突尾声",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_206_gnosis|npc_be787f1ec784bbc7"
+}

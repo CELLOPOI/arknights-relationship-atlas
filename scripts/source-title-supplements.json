@@ -1,0 +1,475 @@
+{
+  "sourceCommit": "0ef7f952dfd018392200157a5c79a6511ba69122",
+  "reviewedOn": "2026-09-21",
+  "notes": "仅补足名称定位。任务标题来自游戏配置；对话前段、后段、关卡内教学为定位说明，不是新增官方剧情名。PRTS 路径对应由公开 Cargo story 表及原始剧情页核对。",
+  "activityNames": {
+    "act17d7": "泰拉 说唱之夜！",
+    "act3fun": "狂弹要塞！罗德大兵集结",
+    "act4fun": "主播U：全能系美少女",
+    "act8d2": "断罪者的挑战状"
+  },
+  "sandboxDialogs": [
+    {
+      "topicId": "sandbox_1",
+      "dialogId": "dialog_sandbox_1_main2_2_op",
+      "questId": "mainline2_2",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_1",
+      "dialogId": "dialog_sandbox_1_main3_3_ed",
+      "questId": "mainline3_3",
+      "part": "对话后段"
+    },
+    {
+      "topicId": "sandbox_1",
+      "dialogId": "dialog_sandbox_1_miner_1_ed",
+      "questId": "sideline_miner_1",
+      "part": "对话后段"
+    },
+    {
+      "topicId": "sandbox_1",
+      "dialogId": "dialog_sandbox_1_miner_1_op",
+      "questId": "sideline_miner_1",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main1_3a_op",
+      "questId": "mainline1_3a",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main1_3b_op",
+      "questId": "mainline1_3b",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main1_4b_ed",
+      "questId": "mainline1_4b",
+      "part": "对话后段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main1_4b_op",
+      "questId": "mainline1_4b",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main2_1_op",
+      "questId": "mainline2_1",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main2_2_op",
+      "questId": "mainline2_2",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main2_3_op",
+      "questId": "mainline2_3",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main2_4_ed",
+      "questId": "mainline2_4",
+      "part": "对话后段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main2_4_op",
+      "questId": "mainline2_4",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main3_1_op",
+      "questId": "mainline3_1",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main3_2_op",
+      "questId": "mainline3_2",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main3_3_ed",
+      "questId": "mainline3_3",
+      "part": "对话后段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main3_3_op",
+      "questId": "mainline3_3",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main3_4_ed",
+      "questId": "mainline3_4",
+      "part": "对话后段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main3_4_op",
+      "questId": "mainline3_4",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main4_1_ed",
+      "questId": "mainline4_1",
+      "part": "对话后段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main4_1_op",
+      "questId": "mainline4_1",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox_2_main4_2_op",
+      "questId": "mainline4_2",
+      "part": "对话前段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox2_branch2_1_ed",
+      "questId": "sideline_xb2tex_1",
+      "part": "对话后段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox2_branch2_2_ed",
+      "questId": "sideline_xb2tex_2",
+      "part": "对话后段"
+    },
+    {
+      "topicId": "sandbox_2",
+      "dialogId": "dialog_sandbox2_branch2_2_op",
+      "questId": "sideline_xb2tex_2",
+      "part": "对话前段"
+    }
+  ],
+  "stories": [
+    {
+      "source": "activities/act17d1/level_act17d1_entry",
+      "title": "多维合作《罗德岛防御协议》 · 行动开始",
+      "basis": [
+        "activity_table.json#basicInfo/act17d1"
+      ],
+      "referenceUrl": "https://prts.wiki/w/%E5%A4%9A%E7%BB%B4%E5%90%88%E4%BD%9C%2F%E5%89%A7%E6%83%85"
+    },
+    {
+      "source": "activities/act1lock/level_act1lock_entry",
+      "title": "《荷谟伊智境》 · 行动开始·上",
+      "basis": [
+        "activity_table.json#basicInfo/act1lock"
+      ],
+      "referenceUrl": "https://prts.wiki/w/CR-BEG%2FNBT"
+    },
+    {
+      "source": "activities/act1lock/level_act1lock_st01",
+      "title": "《荷谟伊智境》 · 行动开始·下",
+      "basis": [
+        "https://prts.wiki/w/模板:剧情导航"
+      ],
+      "referenceUrl": "https://prts.wiki/w/CR-ST1%2FNBT"
+    },
+    {
+      "source": "activities/act1lock/level_act1lock_st02",
+      "title": "《荷谟伊智境》 · 行动结束",
+      "basis": [
+        "https://prts.wiki/w/模板:剧情导航"
+      ],
+      "referenceUrl": "https://prts.wiki/w/CR-ST2%2FNBT"
+    },
+    {
+      "source": "activities/act1vautochess/level_act1vautochess_entry",
+      "title": "卫戍协议 · 行动开始",
+      "basis": [
+        "activity_table.json#basicInfo/act1vautochess"
+      ],
+      "referenceUrl": "https://prts.wiki/w/AC01%2FENTRY"
+    },
+    {
+      "source": "activities/act8d2/level_act8d2_entry",
+      "title": "《断罪者的挑战状》 · 艺术之神",
+      "basis": [
+        "https://prts.wiki/w/模板:剧情导航"
+      ],
+      "referenceUrl": "https://prts.wiki/w/APF-2020%2FNBT"
+    },
+    {
+      "source": "activities/act17d7/level_act17d7_entry",
+      "title": "《泰拉 说唱之夜！》 · 嘻哈之王",
+      "basis": [
+        "https://prts.wiki/w/模板:剧情导航"
+      ],
+      "referenceUrl": "https://prts.wiki/w/APF-2021%2FNBT"
+    },
+    {
+      "source": "activities/act17d7/level_act17d7_01_end",
+      "title": "《泰拉 说唱之夜！》 · LTTB Extraordinary rap battle! · 行动后",
+      "basis": [
+        "stage_table.json#stages/act17d7_01"
+      ],
+      "referenceUrl": "https://prts.wiki/w/LTTB%20Extraordinary%20rap%20battle!%2FEND"
+    },
+    {
+      "source": "activities/act3fun/level_act3fun_entry",
+      "title": "《狂弹要塞！罗德大兵集结》 · 狂弹要塞",
+      "basis": [
+        "https://prts.wiki/w/模板:剧情导航"
+      ],
+      "referenceUrl": "https://prts.wiki/w/APF-2022%2FNBT"
+    },
+    {
+      "source": "activities/act3fun/level_act3fun_03_end",
+      "title": "《狂弹要塞！罗德大兵集结》 · BF-3 没想到还有一关 · 行动后",
+      "basis": [
+        "activity_table.json#actFunData/stages/act3fun_03"
+      ],
+      "referenceUrl": "https://prts.wiki/w/BF-3%20%E6%B2%A1%E6%83%B3%E5%88%B0%E8%BF%98%E6%9C%89%E4%B8%80%E5%85%B3%2FEND"
+    },
+    {
+      "source": "activities/act4fun/level_act4fun_entry",
+      "title": "《主播U：全能系美少女》 · 新星主播",
+      "basis": [
+        "https://prts.wiki/w/模板:剧情导航"
+      ],
+      "referenceUrl": "https://prts.wiki/w/APF-2023%2FNBT"
+    },
+    {
+      "source": "activities/act4fun/level_act4fun_07_end",
+      "title": "《主播U：全能系美少女》 · “就那样吧”",
+      "basis": [
+        "https://prts.wiki/w/模板:剧情导航"
+      ],
+      "referenceUrl": "https://prts.wiki/w/UO-END-7%2FNBT"
+    },
+    {
+      "source": "activities/act5d1/ui_act5d1_cc",
+      "title": "危机合约2019 · 行动开始",
+      "basis": [
+        "activity_table.json#basicInfo/act5d1"
+      ],
+      "referenceUrl": "https://prts.wiki/w/%E5%8D%B1%E6%9C%BA%E5%90%88%E7%BA%A6%2F%E5%89%A7%E6%83%85"
+    },
+    {
+      "source": "obt/legion/system_legion_01",
+      "title": "保全派驻 · 行动开始",
+      "basis": [
+        "https://prts.wiki/w/模板:剧情导航"
+      ],
+      "referenceUrl": "https://prts.wiki/w/SL01%2FENTRY"
+    },
+    {
+      "source": "obt/roguelike/ro5/level_rogue5_entry",
+      "title": "《岁的界园志异》 · 序章",
+      "basis": [
+        "roguelike_topic_table.json#topics/rogue_5"
+      ],
+      "referenceUrl": "https://prts.wiki/w/RO5-BEG%2FNBT"
+    },
+    {
+      "source": "obt/tutorial/training/training_6_c",
+      "title": "作战训练 · TR-6 范围杀伤 · 教学补充片段",
+      "basis": [
+        "zh_CN/gamedata/story/obt/tutorial/training/training_6_c.txt#HEADER 训练关卡6c"
+      ]
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_1/battleavg/dialog_sandbox_1_tr01_op",
+      "title": "《沙洲遗闻》 · 狩猎训练 · 开场对话",
+      "basis": [
+        "sandbox_perm_table.json#detail/SANDBOX_V2/sandbox_1/stageData/sandbox_1_34"
+      ]
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_1/battleavg/dialog_sandbox_1_tr03_op",
+      "title": "《沙洲遗闻》 · 工具训练 · 开场对话",
+      "basis": [
+        "sandbox_perm_table.json#detail/SANDBOX_V2/sandbox_1/stageData/sandbox_1_36"
+      ]
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/battleavg/sandbox2_01/dialog_sandbox2_tr01_b",
+      "title": "《重启锚点》 · RA-1 起点 · 关卡内教学",
+      "basis": [
+        "sandbox_perm_table.json#detail/SANDBOX_V3/sandbox_2/stageData/sandbox_2_01"
+      ]
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/battleavg/sandbox2_03/dialog_sandbox_03_room",
+      "title": "《重启锚点》 · RA-3 齐心 · 关卡内教学",
+      "basis": [
+        "sandbox_perm_table.json#detail/SANDBOX_V3/sandbox_2/stageData/sandbox_2_03"
+      ]
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/battleavg/sandbox2_17/level_sandbox_17_a",
+      "title": "《重启锚点》 · RA-17 增援 · 关卡内教学",
+      "basis": [
+        "sandbox_perm_table.json#detail/SANDBOX_V3/sandbox_2/stageData/sandbox_2_17"
+      ]
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/battleavg/sandbox2_26/dialog_sandbox_2_finish_quest_26_b",
+      "title": "《重启锚点》 · RA-B-1 热情 · 清除暴走食虫花后对话",
+      "basis": [
+        "sandbox_perm_table.json#detail/SANDBOX_V3/sandbox_2/stageData/sandbox_2_26"
+      ]
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/battleavg/sandbox2_27/dialog_sandbox_2_finish_quest_27_a",
+      "title": "《重启锚点》 · RA-B-2 不灭 · 任务完成后对话",
+      "basis": [
+        "sandbox_perm_table.json#detail/SANDBOX_V3/sandbox_2/stageData/sandbox_2_27"
+      ]
+    }
+  ],
+  "prtsPages": [
+    {
+      "source": "activities/act1vautochess/level_act1vautochess_entry",
+      "page": "AC01/ENTRY"
+    },
+    {
+      "source": "activities/act8d2/level_act8d2_entry",
+      "page": "APF-2020/NBT"
+    },
+    {
+      "source": "activities/act17d7/level_act17d7_entry",
+      "page": "APF-2021/NBT"
+    },
+    {
+      "source": "activities/act3fun/level_act3fun_entry",
+      "page": "APF-2022/NBT"
+    },
+    {
+      "source": "activities/act4fun/level_act4fun_entry",
+      "page": "APF-2023/NBT"
+    },
+    {
+      "source": "activities/act3fun/level_act3fun_03_end",
+      "page": "BF-3 没想到还有一关/END"
+    },
+    {
+      "source": "activities/act1lock/level_act1lock_st01",
+      "page": "CR-ST1/NBT"
+    },
+    {
+      "source": "activities/act1lock/level_act1lock_st02",
+      "page": "CR-ST2/NBT"
+    },
+    {
+      "source": "obt/main/level_main_9_chapter_recap",
+      "page": "EP09/ENTRY"
+    },
+    {
+      "source": "activities/act17d7/level_act17d7_01_end",
+      "page": "LTTB Extraordinary rap battle!/END"
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_1/sandbox_1_ending_2",
+      "page": "RA1-END-2/NBT"
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_1/sandbox_1_ending_3",
+      "page": "RA1-END-3/NBT"
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/sandbox_2_ending_1",
+      "page": "RA2-END-1/NBT"
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/sandbox_2_ending_2",
+      "page": "RA2-END-2/NBT"
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/sandbox_2_ending_3",
+      "page": "RA2-END-3/NBT"
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/sandbox_2_ending_4",
+      "page": "RA2-END-4/NBT"
+    },
+    {
+      "source": "obt/sandboxperm/sandbox_2/sandbox_2_entry",
+      "page": "RA2/ENTRY"
+    },
+    {
+      "source": "obt/roguelike/ro2/level_rogue2_ending_1",
+      "page": "RO2-END-1/NBT"
+    },
+    {
+      "source": "obt/roguelike/ro4/level_rogue4_ending_1",
+      "page": "RO4-END-1/NBT"
+    },
+    {
+      "source": "obt/roguelike/ro4/level_rogue4_ending_2",
+      "page": "RO4-END-2/NBT"
+    },
+    {
+      "source": "obt/roguelike/ro4/level_rogue4_ending_3",
+      "page": "RO4-END-3/NBT"
+    },
+    {
+      "source": "obt/roguelike/ro4/level_rogue4_ending_5",
+      "page": "RO4-END-5/NBT"
+    },
+    {
+      "source": "obt/roguelike/ro5/level_rogue5_entry",
+      "page": "RO5-BEG/NBT"
+    },
+    {
+      "source": "obt/roguelike/ro5/level_rogue5_ending_1",
+      "page": "RO5-END-1/NBT"
+    },
+    {
+      "source": "obt/roguelike/ro5/level_rogue5_ending_3",
+      "page": "RO5-END-3/NBT"
+    },
+    {
+      "source": "obt/roguelike/ro5/level_rogue5_ending_5",
+      "page": "RO5-END-5/NBT"
+    },
+    {
+      "source": "obt/legion/system_legion_01",
+      "page": "SL01/ENTRY"
+    },
+    {
+      "source": "activities/act4fun/level_act4fun_07_end",
+      "page": "UO-END-7/NBT"
+    },
+    {
+      "source": "activities/act5d1/ui_act5d1_cc",
+      "page": "危机合约/剧情"
+    },
+    {
+      "source": "activities/act17d1/level_act17d1_entry",
+      "page": "多维合作/剧情"
+    }
+  ],
+  "storyQualifiers": [
+    {
+      "source": "obt/main/level_main_15-15_end_variation01",
+      "qualifier": "SIDE:ACCEPT",
+      "page": "15-17 “她”/END/SP1"
+    },
+    {
+      "source": "obt/main/level_main_15-15_end_variation02",
+      "qualifier": "SIDE:REJECT",
+      "page": "15-17 “她”/END/SP2"
+    }
+  ]
+}

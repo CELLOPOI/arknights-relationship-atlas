@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 255,
+          "line": 249,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ebnhlz_1_1.txt",
+          "quote": "[name=\"芙蓉\"]一回罗德岛，我就去找博士。他一定有办法。\n[Character(name=\"avg_4046_ebnhlz_1#1$1\",name2=\"avg_1024_hbisc2_1#6$1\",focus=1)]\n[name=\"黑键\"]那个人很厉害吗？\n[Character(name=\"avg_4046_ebnhlz_1#1$1\",name2=\"avg_1024_hbisc2_1#8$1\",focus=2)]\n[name=\"芙蓉\"]很厉害。\n[Character(name=\"avg_4046_ebnhlz_1#6$1\",name2=\"avg_1024_hbisc2_1#8$1\",focus=1)]\n[name=\"黑键\"]这么厉害的人，为什么要为了我想办法？"
+        }
+      ],
+      "description": "芙蓉向黑键介绍能帮忙的博士，黑键追问此具体人物；尚无博士知晓黑键证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_4046_ebnhlz",
+          "reason": "芙蓉向黑键介绍能帮忙的博士，黑键追问此具体人物；尚无博士知晓黑键证据。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4046_ebnhlz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_da779f1204d8d0ff.json",
+      "sources": [
+        {
+          "endLine": 255,
+          "kind": "story",
+          "line": 249,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ebnhlz_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑键所述时段",
+      "title": "黑键"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 259,
+          "line": 245,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_st03.txt",
+          "quote": "[name=\"黑键\"]……\n[charslot(slot = \"m\", name = \"avg_1024_hbisc2_1#5$1\")]\n[name=\"芙蓉\"]干员离舰必须经过严格的审批手续，你怎么能留下这样一封不知所云的信，说走就走呢？\n[name=\"芙蓉\"]我还没来得及转交。\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#5$1\")]\n[name=\"黑键\"]……芙蓉，还给我吧。\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#1$1\")]\n[name=\"黑键\"]接下来很长一段时间，我都会留在莱塔尼亚。我会重新回到乌提卡领。\n[name=\"黑键\"]我想重新提交一份正式的离舰申请，劳烦你替我……\n[charslot(slot = \"m\", name = \"avg_1024_hbisc2_1#11$1\")]\n[name=\"芙蓉\"]呃，你最好亲自去跟博士或者凯尔希医生说。\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#3$1\")]\n[name=\"黑键\"]罗德岛的本舰，就在附近？\n[charslot(slot = \"m\", name = \"avg_1024_hbisc2_1#1$1\")]\n[name=\"芙蓉\"]不然我为什么会出现在这儿？倒也没那么近，但接下来，我们确实在莱塔尼亚周边有些事务需要处理。"
+        }
+      ],
+      "description": "char_4046_ebnhlz知晓博士；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_4046_ebnhlz",
+          "reason": "黑键当面听到芙蓉具体提及博士并就本舰位置回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在本组出场，缺少反向识别证据。",
+          "status": "not_established",
+          "to": "char_4046_ebnhlz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_3a60825ada2e8d44.json",
+      "sources": [
+        {
+          "endLine": 259,
+          "kind": "story",
+          "line": 245,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "事件结束后的罗德岛离舰谈话",
+      "title": "崔林特尔梅之金"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 410,
+          "line": 360,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_st03.txt",
+          "quote": "[name=\"黑键\"]博士？亏你能找到我。\n[Dialog]\n[character(name=\"avg_4046_ebnhlz_1#3$2\",focus=-1)]\n[Decision(options=\"这里很适合吹风。很减压。;……;有干员在这儿见过你。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[character(name=\"avg_4046_ebnhlz_1#2$2\")]\n[name=\"黑键\"]我没什么压力可减。\n[Dialog]\n[Predicate(references=\"2\")]\n[character(name=\"avg_4046_ebnhlz_1#2$2\")]\n[name=\"黑键\"]和我无话可说？\n[Dialog]\n[Predicate(references=\"3\")]\n[character(name=\"avg_4046_ebnhlz_1#2$2\")]\n[name=\"黑键\"]哪位？我不介意和他聊聊。\n[Dialog]\n[Predicate(references=\"1;2;3\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Delay(time=1)]\n[Background(screenadapt=\"coverall\", image=\"bg_0_rhodes3\",x=50,y=0,xScale=1.1, yScale=1.1,fadetime=5)]\n[backgroundTween(xFrom=50, yFrom=0, xTo=-50, yTo=0,xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1.1, yScaleTo=1.1, duration=40, block=false)]\n[PlaySound(key=\"$blizzard\",channel=\"bgs\", volume=1,block=false,loop=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=2)]\t\n[Decision(options=\"言归正传，我来充当一回信使。这是你的信。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"黑键\"]信？从哪儿寄来的？\n[Dialog]\n[Decision(options=\"莱塔尼亚。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"黑键\"]我知道是什么了，把信给我吧。\n[Dialog]\n[Decision(options=\"需要陪拆服务吗？\", values=\"1\")]\n[Predicate(references=\"1\")] \n[name=\"黑键\"]……你还挺有趣的。\n[Dialog]\n[Decision(options=\"过奖。\", values=\"1\")]\n[Predicate(references=\"1\")] \n[name=\"黑键\"]很难想象你指挥作战的时候是什么样的……也像现在这样不正经？\n[Dialog]\n[Decision(options=\"哈哈。;……;我不介意在你出任务的时候更不正经一些。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")] \n[name=\"黑键\"]这是你感到尴尬时的标准反应？\n[Dialog]\n[Predicate(references=\"2\")] \n[name=\"黑键\"]一个戴着兜帽、一言不发的人，啧啧啧，还挺恐怖。\n[Dialog]\n[Predicate(references=\"3\")] \n[name=\"黑键\"]那还挺让人期待的。"
+        }
+      ],
+      "description": "黑键与博士直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "char_4046_ebnhlz",
+          "reason": "黑键认出博士并持续回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E08"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士找到黑键并送交其信件。",
+          "status": "supported",
+          "to": "char_4046_ebnhlz"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9c4c498e9c50a10e.json",
+      "sources": [
+        {
+          "endLine": 410,
+          "kind": "story",
+          "line": 360,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛甲板谈话",
+      "title": "尘影余音"
+    }
+  ],
+  "relationship_id": "char_4046_ebnhlz|npc_b99957887950ebfd"
+}

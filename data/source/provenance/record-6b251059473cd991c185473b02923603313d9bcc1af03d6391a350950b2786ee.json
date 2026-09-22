@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 19,
+          "line": 6,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-10_beg.txt",
+          "quote": "[name=\"梅菲斯特\"]   这女人……怎么回事……\n[Dialog]\n[Delay(time=0.6)]\n[Character(name=\"char_148_nearl_1\")]\n[name=\"临光\"]   ————你。\n[name=\"临光\"]   制压切尔诺伯格军事据点的整合运动像机器一样高效——\n[name=\"临光\"]   而你领着的这批各个都像神经错乱的暴徒。\n[name=\"临光\"]   屠杀，纵火，围猎……只不过是为了满足你自己残忍的趣味而已吧？\n[name=\"临光\"]   会在这时煽动如此不堪之事的人，没可能策划出足以击溃整座城市的方案。\n[name=\"临光\"]   你的指挥官大概是命令你制造混乱，而你，顺应着自己低劣的品味肆意妄为。\n[Character(name=\"char_1507_Mephisto_1#2\")]\n[name=\"梅菲斯特\"]   ——\n[name=\"梅菲斯特\"]   ——浮士德。\n[name=\"梅菲斯特\"]   把她那张嘴给我打穿。"
+        }
+      ],
+      "description": "临光直接谴责梅菲斯特，梅菲斯特令浮士德向其开火。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "char_148_nearl",
+          "reason": "临光直接谴责梅菲斯特，梅菲斯特令浮士德向其开火。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "E30"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "临光直接谴责梅菲斯特，梅菲斯特令浮士德向其开火。",
+          "status": "supported",
+          "to": "char_148_nearl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 19,
+          "kind": "story",
+          "line": 6,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    }
+  ],
+  "relationship_id": "char_148_nearl|npc_03efe1bf09e24b53"
+}

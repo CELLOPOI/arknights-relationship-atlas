@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 85,
+          "line": 76,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_06_beg.txt",
+          "quote": "[name=\"？？？\"]  只是，在很久以前，我见过，特蕾西娅。\n[Character(name=\"avg_npc_025_1\", name2=\"avg_npc_046#2\", focus=2)]\n[name=\"W\"]  ——嚯。\n[Character(name=\"avg_npc_025_1\")]\n[name=\"？？？\"]  你们的反应，我明白。她也在你们这，留下了痕迹。毕竟，你们也是，萨卡兹。\n[name=\"？？？\"]  泥泞的，也好，血腥的，也罢。\n[name=\"？？？\"]  她是英雄，至少，被如此推崇。她，伟大的战士，也是，难得的君主。\n[name=\"？？？\"]  我的血肉，忠于乌萨斯，我的族群，自我流放，但我，还是萨卡兹。\n[name=\"？？？\"]  我想知道，她的，卡兹戴尔，发生了什么。\n[name=\"？？？\"]  我只是，想要知道。"
+        }
+      ],
+      "description": "爱国者明确说很久以前见过特蕾西娅并评价她，支持他知道此人；本段未具体展开其昔日交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR03"
+          ],
+          "from": "npc_e877f731a67498e3",
+          "reason": "爱国者明确说很久以前见过特蕾西娅并评价她，支持他知道此人；本段未具体展开其昔日交流。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "npc_e877f731a67498e3"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_c22bfbc7aca70523.json",
+      "sources": [
+        {
+          "endLine": 85,
+          "kind": "story",
+          "line": 76,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act9d0/level_act9d0_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "生于黑夜"
+    }
+  ],
+  "relationship_id": "npc_c0e49cc5a9477cf1|npc_e877f731a67498e3"
+}

@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 65,
+          "line": 10,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-07_end.txt",
+          "quote": "[name=\"整合运动成员\"]   不能让他们过去！！\n[name=\"整合运动成员\"]   W应该带走米莎了——————！\n[name=\"整合运动成员\"]   不能让这些家伙得逞！！\n[Dialog]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]\n[playsound(key=\"$p_imp_blunt_h\")]\n[Character(name=\"char_136_hsguma\")]\n[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[name=\"星熊\"]   ——给我让开！别急着寻死！\n[Character(fadetime=0)]\n[Dialog]\n[name=\"整合运动成员\"]   呃，呃啊！！\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=1)]\n[name=\"芙兰卡\"]   哦，哦哦……这么粗暴的作战方式，让我想起了罗德岛的一个人。\n[name=\"芙兰卡\"]   她和星熊长官大概，大概会很有共同话题吧？\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=2)]\n[name=\"雷蛇\"]   不要光站在那里，芙兰卡！\n[name=\"雷蛇\"]   快做点什么！\n[Character(name=\"char_106_franka_1\", name2=\"char_107_liskam_1\", focus=1)]\n[name=\"芙兰卡\"]   好啦，好啦。\n[Character(fadetime=0)]\n[Dialog]\n[Delay(time=0.5)]\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   哈，龙门的督察传说看来是真的啊……\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=1)]\n[name=\"德克萨斯\"]   别分心。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   没光是——\n[name=\"能天使\"]   在看别人哦！砰！\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$p_atk_smg_h\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Character(fadetime=0)]\n[Dialog]\n[name=\"整合运动术师\"]   唔啊！\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   废墟二楼的那些火力小组，可是我发现的哦？\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=1)]\n[name=\"德克萨斯\"]   很棒。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=2)]\n[name=\"能天使\"]   嘿嘿。\n[Character(name=\"char_102_texas_1\", name2=\"char_103_angel_1\", focus=1)]\n[name=\"德克萨斯\"]   ……我们走。\n[name=\"德克萨斯\"]   不能让雇主孤身奋战。\n[Character(fadetime=0)]\n[Dialog]\n[Delay(time=0.5)]\n[Character(name=\"char_106_franka_1\", name2=\"char_002_amiya_1\", focus=2)]\n[name=\"阿米娅\"]   芙兰卡，有没有找到米莎？\n[Character(name=\"char_106_franka_1\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"芙兰卡\"]   到处都没有她的踪迹。\n[name=\"芙兰卡\"]   W可能，已经把她带走了——"
+        }
+      ],
+      "description": "雷蛇明确获知米莎，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "char_107_liskam",
+          "reason": "雷蛇在追击小队中听见米莎的具体名字和去向。",
+          "status": "supported",
+          "to": "npc_c69ca5bb5983a16b"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c69ca5bb5983a16b",
+          "reason": "本窗未见米莎具体获知雷蛇。",
+          "status": "not_established",
+          "to": "char_107_liskam"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_a05b4e35a7bcd8a2.json",
+      "sources": [
+        {
+          "endLine": 65,
+          "kind": "story",
+          "line": 10,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_03-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "追击米莎的战斗场景",
+      "title": "二次呼吸"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 36,
+          "line": 16,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-03_end.txt",
+          "quote": "[name=\"阿米娅\"]   是米莎小姐吗？\n[Character(name=\"char_002_amiya_1#2\", name2=\"char_012_misa_1#4\", focus=2)]\n[name=\"米莎\"]   ……咦？\n[Dialog]\n[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character(fadetime=0)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_012_misa_1\")]\n[name=\"米莎\"]   ……\n[Character(name=\"char_002_amiya_1\", name2=\"char_012_misa_1\", focus=1)]\n[name=\"阿米娅\"]   抱歉，米莎小姐，希望没有吓到你……\n[name=\"阿米娅\"]   这是我的同事，芙兰卡小姐和雷蛇小姐。\n[Character(name=\"char_106_franka_1\")]\n[name=\"芙兰卡\"]   你好呀。\n[Character(name=\"char_107_liskam_1\")]\n[name=\"雷蛇\"]   中午好。\n[Character(name=\"char_002_amiya_1\")]\n[name=\"阿米娅\"]   我们是罗德岛制药。作为一个为感染者服务的组织，至少……\n[name=\"阿米娅\"]   我们也希望能帮到你什么。所以想和你，交流一下。\n[Character(name=\"char_002_amiya_1\", name2=\"char_012_misa_1\", focus=2)]\n[name=\"米莎\"]   交流一下？"
+        }
+      ],
+      "description": "阿米娅当面向米莎介绍芙兰卡与雷蛇，两人问候，米莎回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_107_liskam",
+          "reason": "阿米娅当面向米莎介绍芙兰卡与雷蛇，两人问候，米莎回应。",
+          "status": "supported",
+          "to": "npc_c69ca5bb5983a16b"
+        },
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "npc_c69ca5bb5983a16b",
+          "reason": "阿米娅当面向米莎介绍芙兰卡与雷蛇，两人问候，米莎回应。",
+          "status": "supported",
+          "to": "char_107_liskam"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_e13e294bac851642.json",
+      "sources": [
+        {
+          "endLine": 36,
+          "kind": "story",
+          "line": 16,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_02-03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "异卵同生"
+    }
+  ],
+  "relationship_id": "char_107_liskam|npc_c69ca5bb5983a16b"
+}

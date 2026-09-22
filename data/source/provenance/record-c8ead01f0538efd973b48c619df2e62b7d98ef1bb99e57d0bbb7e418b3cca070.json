@@ -1,0 +1,263 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 328,
+          "line": 284,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "quote": "[name=\"凯尔希\"]可露希尔？\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_transmissionget\",volume=1)]\n[CharacterCutin(widgetID=\"1\", name=\"avg_npc_411_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=0, width=200, block=true)]\n[name=\"可露希尔\"]你怎么知道我都准备好了？\n[CharacterCutin(widgetID=\"1\", name=\"avg_npc_411_1#3$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"可露希尔\"]总之呢，你们可靠的首席工程师可露希尔和她的团队已经研究出了七种抗干扰的通讯方案。\n[CharacterCutin(widgetID=\"1\", name=\"avg_npc_411_1#7$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"可露希尔\"]我部署的设备也已经在分析这场超级天灾的趋势和产生的影响了。\n[name=\"可露希尔\"]哪怕再剧烈，源石引发的反应也有迹可循，粉尘的浓度啦，活性化的指数啦，还有蔓延的状态——\n[CharacterCutin(widgetID=\"1\", name=\"avg_npc_411_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"可露希尔\"]当然，这里恐怕所有的读数都很高，所以我们没办法算出最危险的那些区域会发生什么。\n[name=\"可露希尔\"]但我们能推测出这片战场上，哪里相对比较安全。\n[name=\"可露希尔\"]前提是，我们要更加深入这片战场的中心，拿到更多的数据才行。\n[name=\"可露希尔\"]虽然Misery答应做我们的保镖啦，但我想，既然大家都要去飞着巫术和炮弹的战场中心，那我们就是同路。\n[CharacterCutin(widgetID=\"1\", name=\"avg_npc_411_1#7$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"可露希尔\"]也许能劳烦典范军的各位稍微当一下我们的护卫？\n[Dialog]\n[CharacterCutin(widgetID=\"1\", fadetime=0, block=true)]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]义不容辞。\n[Dialog]\n[charslot]\n[CharacterCutin(widgetID=\"1\", name=\"avg_npc_411_1#7$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0, offsetx=0, width=200, block=true)]\n[name=\"可露希尔\"]阻止事情变得更坏，是罗德岛的使命，对吧，凯尔希？\n[Dialog]\n[playsound(key=\"$transmission\",volume=1)]\n[CharacterCutin(widgetID=\"1\", fadetime=0.5, block=true)]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#11$1\",focus=\"m\")]\n[name=\"凯尔希\"]感谢你，可露希尔。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]……博士。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"none\")]\n[Decision(options=\"我和你，还有阿米娅一起走。;我能去帮助推进之王和可露希尔吗？;我更倾向于留在骸骨这边。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]也许我们这条路是最危险的。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#21$1\",focus=\"m\")]\n[name=\"阿米娅\"]但我会确保博士的安全……就和以前每一次一样。\n[Dialog]\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]博士，感谢你的信任。"
+        }
+      ],
+      "description": "可露希尔加入连续近前会议，博士回答凯尔希，推进之王直接向博士致谢。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E41"
+          ],
+          "from": "char_112_siege",
+          "reason": "可露希尔加入连续近前会议，博士回答凯尔希，推进之王直接向博士致谢。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E41"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "可露希尔加入连续近前会议，博士回答凯尔希，推进之王直接向博士致谢。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 328,
+          "kind": "story",
+          "line": 284,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 141,
+          "line": 118,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-02_beg.txt",
+          "quote": "[Decision(options=\"外面那些大贵族不介意？;维多利亚议会的情况如何？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_407_1#2$1\")]\n[name=\"推进之王\"]我想，他们无疑时时刻刻都在关注伦蒂尼姆的动向。这正是他们在城外屯兵的原因。\n[Character(name=\"avg_npc_407_1#2$1\")]\n[name=\"推进之王\"]但他们更在意彼此的动作。\n[Character(name=\"avg_npc_407_1#1$1\")]\n[name=\"推进之王\"]对有意入主伦蒂尼姆的各大公爵来说，无论谁率先对城内的萨卡兹发起进攻，都可能在这场持续了二十多年的竞赛中占得先机。\n[Character(name=\"avg_npc_407_1#6$1\")]\n[name=\"推进之王\"]他们之中，有谁乐意看到本可能属于自己的王座被别人捷足先登？\n[Character(name=\"avg_npc_407_1#1$1\")]\n[name=\"推进之王\"]在这种情况下，任意一位公爵表露出进攻的意向，都可能会被几则通讯、一场聚会邀请和一系列的来自自己领地的不利消息打断。\n[Character(name=\"avg_npc_407_1#1$1\")]\n[name=\"推进之王\"]而若是他执意进军，等待着他的一定是一场失利，这场失利甚至不需要耗费城内的萨卡兹摄政王一兵一卒。\n[Predicate(references=\"2\")]\n[Character(name=\"avg_npc_407_1#2$1\")]\n[name=\"推进之王\"]……我不知道。\n[Character(name=\"avg_npc_407_1#2$1\")]\n[name=\"推进之王\"]我们离开伦蒂尼姆的时候，那一天的伦蒂尼姆，与之前的任何一天都没有太大不同。\n[Character(name=\"avg_npc_407_1#5$1\")]\n[name=\"推进之王\"]而且，我曾经以为，只要议会仍在运作一天，伦蒂尼姆就并不会陷入真正的混乱。\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_407_1#1$1\")]\n[name=\"推进之王\"]至于城内的具体情况，我们只有在进去之后才能看清楚了。"
+        }
+      ],
+      "description": "博士提问维多利亚贵族/议会，推进之王直接解释。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "char_112_siege",
+          "reason": "博士提问维多利亚贵族/议会，推进之王直接解释。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E7"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士提问维多利亚贵族/议会，推进之王直接解释。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 141,
+          "kind": "story",
+          "line": 118,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 148,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_beg.txt",
+          "quote": "[name=\"克洛维希娅\"]阿米娅，博士，你们来了。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#5$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]哈哈，如你们所见，我们的士气……很低迷。\n[name=\"克洛维希娅\"]这里乱糟糟的，请别介意。自从阿勒黛……离开后，我们的后勤补给一直是个问题。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]不过，在眼下的麻烦面前，这算是最好解决的一个了。\n[name=\"克洛维希娅\"]在上一场战斗中，我们的减员很严重。我们曾经以为这些牺牲不会白费，只要阻止萨卡兹推进那些工程，一切就还有挽回余地。\n[name=\"克洛维希娅\"]很遗憾，他们的行动比我们预计的快得多。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]萨卡兹们……他们不仅有碎片大厦，他们还制造了那艘“飞空艇”。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]简报已经分发到了大家手上，飞空艇不加掩饰地袭击了温德米尔公爵的军队，和平的假象已不复存在。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#5$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]而碎片大厦……萨卡兹既然主动挑起了这场战争，那么，他们对于碎片大厦的掌控……很可能比我们预想的进度还要快。\n[name=\"克洛维希娅\"]我不敢赌。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#9$1\",focus=\"m\")]\n[name=\"推进之王\"]……阿勒黛和我提起过这把剑的传说。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]她说可以劈开天灾的诸王之息是维多利亚最牢固的盾，足以抵挡被牵引而来的风暴。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]那她也一定告诉过你，正因为能激发这种力量的人实在罕有，才有了王宫地下“剑座”的存在。\n[charslot(slot=\"m\",name=\"avg_npc_396_1#10$1\",focus=\"m\")]\n[name=\"达格达\"]推进之王，你真的没从这把剑里感受到什么吗？\n[name=\"达格达\"]也许是……我不知道，一种召唤？或者微微发热的感觉？或者是突然能够运用什么厉害的源石技艺之类的。\n[charslot(slot=\"m\",name=\"avg_npc_396_1#9$1\",focus=\"m\")]\n[name=\"达格达\"]说不定，你确实可以……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_407_1#6$1\",focus=\"m\")]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_clothmovementsp\",volume=0.8)]\n[PlaySound(key=\"$d_avg_swordy\",volume=0.5,delay=0.2)]\n[Delay(time=1.5)]\n[name=\"推进之王\"]……\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]不，什么都没有。\n[name=\"推进之王\"]这把剑很冷，很硬，挥动起来比锤子要轻一点，不太好掌控力道。\n[charslot(slot=\"m\",name=\"avg_npc_396_1#10$1\",focus=\"m\")]\n[name=\"达格达\"]没有别的吗？哪怕只是一点点别扭的地方——\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]……它在上战场前应该好好地打磨一下，已经有点钝了。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#7$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]看来，我们暂时没办法指望这把剑能够直接派上用场，为我们免除碎片大厦的威胁了。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#7$1\",focus=\"none\")]\n[Decision(options=\"但它也不会再成为大公爵们互相倾轧的筹码。;萨卡兹们在启用碎片大厦前也许会多一些顾虑。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]是的，罗德岛的博士，这把剑掌握在我们手中总比在其他势力手中要好，我们最起码可以避免它沦为这场战争的帮凶，这已经足够重要。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]……足够重要，是吗，这已经足够重要。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#2$1\",focus=\"m\")]\n[name=\"推进之王\"]（小声）阿勒黛，如果我能……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#21$1\",focus=\"m\")]\n[name=\"阿米娅\"]不用灰心，推进之王小姐，也许你只是还没掌握方法，或者是还不到时候。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]……\n[charslot(slot=\"m\",name=\"avg_npc_411_1#1$1\",focus=\"m\")]\n[name=\"可露希尔\"]那条补给线我已经分析得差不多了，博士。\n[name=\"可露希尔\"]起点基本上可以确定是在伦蒂尼姆郊外的布伦特伍德，而终点有很多个。\n[name=\"可露希尔\"]除了海布里区的军工厂之外，很有可能有一条路线直接延伸到碎片大厦地下。\n[charslot(slot=\"m\",name=\"avg_npc_411_1#8$1\",focus=\"m\")]\n[name=\"可露希尔\"]啧，我们发现得太晚了，如果早一个月——不，哪怕早十天，事情可能都不会发展到如今的地步。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]但这条补给线的情报仍然有意义，博士。\n[name=\"阿斯卡纶\"]如果这是一条足够承担重型物资运输的线路，并且能够直通碎片大厦地底——\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"none\")]\n[Decision(options=\"那么，运别的也行。;这是个反攻的机会。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_395_1#9$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]没错。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]战争爆发后，特雷西斯的身边很可能没有太多戍卫，各王庭之主需要指挥自己的部属对抗各大公爵。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#7$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]巫妖的入局可能会是个问题……但据我对他们的了解，他们从不会真正选择支持谁，更何况，凯尔希女士应该已经与他们的信使谈过了。\n[name=\"阿斯卡纶\"]但愿他们听进去了凯尔希女士的忠告。\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]接下来，我们最好——\n[musicvolume(volume=0.3, fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#7$1\",focus=\"m\")]\n[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"因陀罗\"]维娜，你倒是提一句诺伯特区的事呀！\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#9$1\",focus=\"m\")]\n[name=\"因陀罗\"]被那帮萨卡兹混蛋抛出去的可是我们的街区！贝尔德还在那里！\n[name=\"因陀罗\"]该死，比起什么补给线大反攻，我们得去帮她！\n[charslot(slot=\"m\",name=\"avg_npc_396_1#9$1\",focus=\"m\")]\n[name=\"达格达\"]请冷静一些，我们需要考虑整体局势……\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#7$1\",focus=\"m\")]\n[name=\"因陀罗\"]怎么，骑士阁下想教训我以大局为重？我可管不了怎么干掉一个萨卡兹的老妖怪，现在老子的朋友有危险，老子的家有危险！\n[name=\"因陀罗\"]你想让我们袖手旁观？！\n[charslot(slot=\"m\",name=\"avg_npc_396_1#9$1\",focus=\"m\")]\n[name=\"达格达\"]不，我知道你很焦躁，可是我们必须考虑到任何可能的情况。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]我同样不建议你们独自行动，在我们确定那位想抢夺国剑的人彻底放弃计划之前，你们最好……\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#9$1\",focus=\"m\")]\n[name=\"因陀罗\"]最好躲在地下的夹层里当懦夫？得了吧！我们能应付那些鬼鬼祟祟的家伙们！现在，最重要的是——\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]够了，因陀罗。\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#2$1\",focus=\"m\")]\n[multiline(name=\"因陀罗\")]我……\n[charslot(slot=\"m\",name=\"avg_155_tiger_1#8$1\",focus=\"m\")]\n[multiline(name=\"因陀罗\")]好吧。\n[musicvolume(volume=0.6, fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_407_1#5$1\",focus=\"m\")]\n[name=\"推进之王\"]针对特雷西斯的行动会在什么时候开始？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]不会太快，我们需要侦察那些补给线的具体情况。\n[name=\"阿斯卡纶\"]碎片大厦内部的结构也需要调查。特雷西斯……很强大，任何一点松懈都会要了我们的命。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#5$1\",focus=\"m\")]\n[name=\"推进之王\"]具体时间呢？\n[charslot(slot=\"m\",name=\"avg_npc_395_1#1$1\",focus=\"m\")]\n[name=\"阿斯卡纶\"]半个月内，我希望能在碎片大厦被他真正启动前……了结这些事。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]足够了。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]Dr.{@nickname}，我申请在这次行动之前暂时离队。请放心，我会在任务开始时回来。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#7$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]所以，你还是坚持要前往诺伯特区。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#9$1\",focus=\"m\")]\n[name=\"推进之王\"]……我已经失去很多朋友了，克洛维希娅。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]我没有办法一次又一次地袖手旁观。\n[name=\"推进之王\"]这确实是个出于我个人情感的要求，我不会避讳这一点。\n[name=\"推进之王\"]但与此同时，我也认为这是个机会，在我们的正式行动开始之前，解决掉一些潜藏的隐患。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#10$1\",focus=\"m\")]\n[name=\"推进之王\"]……比如，那些伤害阿勒黛的人，那些想要诸王之息的人。\n[name=\"推进之王\"]那无疑是一位大公爵，无论他接下来打算摆出什么立场，我想……我都该和他好好“谈一谈”。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]阿斯卡纶小姐说了，我们的时间并不充裕。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#1$1\",focus=\"m\")]\n[name=\"推进之王\"]我知道。\n[charslot(slot=\"m\",name=\"avg_npc_407_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]我会处理好的。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]……博士，你怎么看？"
+        }
+      ],
+      "description": "推进之王与博士共同参与会议和行动部署。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_112_siege",
+          "reason": "二人在同一连续会议或对话中互相接收发言并共同制定行动。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "二人在同一连续会议或对话中互相接收发言并共同制定行动。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 148,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆自救军行动期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 391,
+          "line": 227,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "quote": "[name=\"W\"]真晦气。\n[playMusic(key=\"$calm_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_npc_412_1#6$1\",focus=\"m\")]\n[name=\"W\"]唉，本来只是想回来的时候，给自己放一发礼炮——\n[charslot(slot=\"m\",name=\"avg_npc_412_1#6$1\",focus=\"m\")]\n[name=\"W\"]结果这骨头架子一停稳，就要看见臭脸色的老女人。\n[dialog]\n[charslot]\n[charslot(slot=\"r\",name=\"avg_4087_ines_1#1$1\",duration=1.5)]\n[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#1$1\",duration=1.5)]\n[delay(time=3)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]W，无论你在这里炸坏了多少结构，别忘了，我们在占领它以后，还要修好它。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]谁弄坏的谁修。\n[charslot(slot=\"m\",name=\"avg_npc_412_1#4$1\",focus=\"m\")]\n[name=\"W\"]啊？我怎么会修这玩意？！\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]凯尔希，博士。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]巨兽的骸骨已经被我们夺取，指挥官厄尔苏拉也被俘虏。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]其余的骸骨驻军，都已经阵亡。\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]……\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]你就是那位凯尔希勋爵？\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]我可听过不少你的故事。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]你是疤痕商场的人。\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]……远在维多利亚的你，也能对卡兹戴尔的一草一木掌握得一清二楚。\n[charslot(slot = \"m\", name = \"avg_npc_1067_1#2$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]看来，那些老家伙说得没错。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]等这里的事务结束，我会通过你，与你口中的那些“老家伙”谈谈。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]留守卡兹戴尔的是他们，而巫妖已经接触到现在管理卡兹戴尔的军事委员会成员。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]他们就快要做出自己的选择了。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅和Logos呢？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[charslot]\n[PlaySound(key=\"$rungeneral\", volume=0.9)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#9$1\",focus=\"m\",duration=1)]\n[daley(time=2)]\n[name=\"阿米娅\"]博士！\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[Sticker(id=\"st1\", multi = true, text=\"娇小的卡特斯女孩撞入了你的怀中。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[dialog]\n[Decision(options=\"欢迎回来。;……;你身上都是血，受伤了吗？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]我没事。这些血只是……血魔留下的。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]阿米娅。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]你的戒指……你使用了力量。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]嗯。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]阿米娅，让我看看你的手。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"阿米娅手上的一枚戒指已经崩解，连碎片都无影无踪。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]这是……直面他所必需的，抱歉。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]……你对于情感与记忆的运用越来越熟练了。\n[dialog]\n[charslot]\n[Decision(options=\"阿米娅，你之前还因为解放戒指晕倒过。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"凯尔希，我们需要帮阿米娅再做一次检查。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]不，博士，别担心。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]我只是……有些累。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]仍然是右手食指的戒指碎裂。还好，只是力量使用过度的结果。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]你又一次因愤怒而燃烧。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]我……愤怒吗？\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]我以为我会很生气，血魔大君，他残害过很多人。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]可我所感受到的，远远不只是愤怒。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]还有……悲伤。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"悲伤。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n恍惚间，一双永远藏着悲伤的粉色眸子在凯尔希的回忆间闪过。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n凯尔希停顿了几秒，又再度端详起阿米娅的手指。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]这些戒指，本意是为了帮你适应魔王的力量，和伴随而来的汹涌情感。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]又一枚戒指有了裂痕。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#1\",focus=\"m\")]\n[name=\"凯尔希\"]也许……我们只能一次次目睹这些淋漓的伤口。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]凯尔希医生，请放心。无论我面对过谁，又即将要面对谁……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]我不会比他们更早倒下。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]血魔大君坠落于未知之地。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]他的王庭，尚有余息。但他的威胁，不复存在。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]只是，我们还是没能阻止，那个诅咒的降临。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#6$1\",focus=\"m\")]\n[name=\"阿米娅\"]伦蒂尼姆的方向……到底发生了什么？\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……原本，自救军认为切断这条物资补给线，将会成为终结战争的手段。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]现在情况有变。这场“战争”，无论如何都不会长久。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]我们需要尽快赶往那里。这具骸骨，或许能成为新的据点，或是，出其不意的交通工具。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……但愿，它能派上想象中的用场。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$1\",focus=\"m\")]\n[name=\"推进之王\"]决战就在眼前。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]\n[name=\"阿米娅\"]嗯。萨卡兹不能成为下一轮浩劫的元凶。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]而且……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]\n[name=\"阿米娅\"]凯尔希医生。血魔的执念，他的期许，他所说的诅咒，是“源石”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1\",focus=\"m\")]\n[name=\"凯尔希\"]……嗯。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]最古老的卡兹戴尔比任何文明聚落都先一步接触到了“源石”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]那并非天灾的遗迹，并非堆积在岩层中沉默的矿物。那是一枚古老的“源石”。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]由它，诞生了最古老的巫术，最古老的……感染者。\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]假如血魔真的对这件事有所认知，甚至为此抱有执念，认为它能带来力量……\n[charslot(slot=\"m\",name=\"char_003_kalts_1#2\",focus=\"m\")]\n[name=\"凯尔希\"]……那接下来所决定的，就远不是伦蒂尼姆一城的命运了。"
+        }
+      ],
+      "description": "推进之王与博士参加夺取巨兽后的同一联合会议并共同决定赶赴决战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_112_siege",
+          "reason": "推进之王与博士参加夺取巨兽后的同一联合会议并共同决定赶赴决战。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "推进之王与博士参加夺取巨兽后的同一联合会议并共同决定赶赴决战。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 391,
+          "kind": "story",
+          "line": 227,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "布伦特伍德联合行动",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 373,
+          "line": 327,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "quote": "[name=\"推进之王\"]……越来越近了啊。\n[dialog]\n[Character(name=\"char_112_seige_1\",focus=-1)]\n[Decision(options=\"维娜，你很紧张？;……;这一天我们都等了很久。\", values=\"1;2;3\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_112_seige_1\")]\n[name=\"推进之王\"]几个月前，凯尔希医生问我是否准备好了。\n[name=\"推进之王\"]……我的回答是，我不知道。\n[name=\"推进之王\"]而到了这时候……我依旧不知道。\n[name=\"推进之王\"]所以，我很难说自己不紧张。\n[Predicate(references=\"2\")]\n[Character(name=\"char_112_seige_1\")]\n[name=\"推进之王\"]博士，谢谢你在这里陪我。\n[name=\"推进之王\"]如果我还在贪图你身边的这份清静……我是不是显得太逃避了？\n[Predicate(references=\"3\")]\n[Character(name=\"char_112_seige_1\")]\n[name=\"推进之王\"]是啊，从我逃出来的那一天起，我就在等着回去的这一天。\n[Predicate(references=\"1;2;3\")]\n[name=\"推进之王\"]博士，我忍不住想，如果一个人离开他原本所属的环境太久，他真的还有家可回吗？\n[dialog]\n[Character(name=\"char_112_seige_1\",focus=-1)]\n[Decision(options=\"醒来的时候，我都不记得自己离开了多久。;阿米娅和大家都接纳了我。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_112_seige_1\")]\n[name=\"推进之王\"]我听你说起过那段日子。\n[name=\"推进之王\"]博士，你刚醒没多久，就不得不站在指挥的位置上，经历了切尔诺伯格那么严重的事件……几乎没人能够做到像你一样。\n[Predicate(references=\"2\")]\n[Character(name=\"char_112_seige_1\")]\n[name=\"推进之王\"]阿米娅……博士，你对阿米娅来说，是真正的家人。\n[Predicate(references=\"1;2\")]\n[name=\"推进之王\"]罗德岛需要你，我们这些干员也都需要你，这一点毋庸置疑。\n[dialog]\n[Character(name=\"char_112_seige_1\",focus=-1)]\n[Decision(options=\"在伦蒂尼姆，也有人等着你。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_112_seige_1\")]\n[name=\"推进之王\"]格拉斯哥帮。他们一定有了新的头领，否则，他们无法在伦蒂尼姆立足。\n[name=\"推进之王\"]至于其他人……\n[name=\"推进之王\"]我相信我离开这么久，伦蒂尼姆压根就不会少掉一枚钉子。\n[dialog]\n[Character(name=\"char_112_seige_1\",focus=-1)]\n[Decision(options=\"想知道答案的话，就只能一起往前了。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_112_seige_1\")]\n[name=\"推进之王\"]博士，你说过……你也想去伦蒂尼姆寻找真相。\n[name=\"推进之王\"]一起往前吗？\n[name=\"推进之王\"]是的，确定有你们同行，我也能打起精神了。"
+        }
+      ],
+      "description": "推进之王与博士当面长谈，双向确认。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S08"
+          ],
+          "from": "char_112_siege",
+          "reason": "推进之王直接称呼博士并说明心事。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "S08"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士通过决策选项直接回应推进之王。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 373,
+          "kind": "story",
+          "line": 327,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "前往伦蒂尼姆途中",
+      "title": "风暴瞭望"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 255,
+          "line": 252,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_end.txt",
+          "quote": "[name=\"推进之王\"]……钥匙。\n[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_397_1#1$1\",focus=1)]\n[name=\"推进之王\"]临行之前，博士给了我这把钥匙。\n[name=\"推进之王\"]博士说，这是凯尔希医生通过谈判得到的……只有它能打开我们面前这扇通往诸王长眠之所的门。"
+        }
+      ],
+      "description": "博士曾把钥匙具体交给维娜，双方均参与该交付。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "char_112_siege",
+          "reason": "博士曾把钥匙具体交给维娜，双方均参与该交付。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士曾把钥匙具体交给维娜，双方均参与该交付。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 255,
+          "kind": "story",
+          "line": 252,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_11-12_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前或明确旧事",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_112_siege|npc_b99957887950ebfd"
+}

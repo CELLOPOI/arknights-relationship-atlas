@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 66,
+          "line": 60,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_chen_1_1.txt",
+          "quote": "[name=\"诗怀雅\"]别装了，陈晖洁，九是你的后盾，新的感染者居住案是你今年最上心的事之一。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]而现在，九突然辞职，法案没有通过，你说我想看什么？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#5\",focus=2)]\n[name=\"陈\"]……\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]九不是我的后盾。"
+        }
+      ],
+      "description": "诗怀雅明确谈论九辞职及其与陈的关系。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "char_308_swire",
+          "reason": "诗怀雅明确谈论九辞职及其与陈的关系。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b554345833235f79",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_f17d745b9e0242cf.json",
+      "sources": [
+        {
+          "endLine": 66,
+          "kind": "story",
+          "line": 60,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_chen_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "陈"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 122,
+          "line": 52,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-08_beg.txt",
+          "quote": "[name=\"？？？\"]  现在我想清楚了，龙门就拜托你了。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  什么？我不理解你的意思。\n[Character]\n[name=\"？？？\"]  现在的我，早已经不再属于这里。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  Only-1！\n[Character]\n[name=\"？？？\"]  我会带一些龙门的感染者走。近卫局没法保护他们，这座城市不在乎他们。\n[name=\"？？？\"]  或者说，即使你是这么想的，这座城市也并不如你所愿。\n[Character(name=\"char_010_chen_1#2\")]\n[name=\"陈\"]  九！服从命令！\n[Character]\n[name=\"九\"]  ……三年前起，我就不属于近卫局了。\n[name=\"九\"]  再说，原本，理应是我命令你。\n[Character(name=\"char_010_chen_1#4\")]\n[name=\"陈\"]  九……！\n[Character]\n[name=\"九\"]  你说的特殊部队，我似乎已经看见过了。\n[name=\"九\"]  我还是把龙门想象得太好了。再见，陈。\n[name=\"九\"]  对了，别去检查排水系统。\n[playsound(key=\"$transmission\", volume=0.4)]\n[delay(time=1)]\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  ……\n[name=\"陈\"]  我声音是不是太大了？\n[Character]\n[name=\"诗怀雅\"]  那确实特别大，我感觉一条街都听见了。\n[Character(name=\"char_010_chen_1#1\")]\n[name=\"陈\"]  怎么也没你的嗓门大。\n[Character]\n[name=\"诗怀雅\"]  哎，阿陈，你过来。\n[Character(name=\"char_010_chen_1#1\")]\n[PlaySound(key=\"$d_gen_walk_n\")]\n[name=\"陈\"]  ……\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  坐啊。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  Miss诗怀雅居然不顾形象、不怕裙子脏，就这样子蹲坐在街边？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  无所谓啦！你怎么觉得我会在意那种事的！\n[name=\"诗怀雅\"]  ……我准备再给那只下水道老鼠打个电话。\n[name=\"诗怀雅\"]  虽然我没怎么来过这里，但我觉得特殊部队一定在做可怕的事。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  你见过贫民区的林吗？\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  我见过。是个很和善的老人，比我爷爷好多了。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  ……他可是“鼠王”。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  这几个人不都这样。但他真的是个好人。\n[name=\"诗怀雅\"]  我只是没想到雨霞她会变成现在这个样子。明明以前是个又胆小又腼腆的孩子，经常躲在你背后来着。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  我倒觉得她没有变。她只是……担负起了责任。也许并不该属于她的责任。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  就算你这么提醒她，也没用。我们已经被架在火上烤了。\n[Character(name=\"char_308_swire_1#5\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  她和她父亲的事情，我也没有头绪。只不过，她不会是那种冷血的人。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  所以我想再打个电话。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  ……\n[name=\"陈\"]  也许刚才的消息可以帮到我们。\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=1)]\n[name=\"诗怀雅\"]  怎么说的？\n[Character(name=\"char_308_swire_1#3\",name2=\"char_010_chen_1#1\",focus=2)]\n[name=\"陈\"]  一支有着特殊能力的整合运动力量进入了贫民区，他们甚至能指挥现在的整合运动。"
+        }
+      ],
+      "description": "诗怀雅在场听到陈与九的明确通讯。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C14"
+          ],
+          "from": "char_308_swire",
+          "reason": "诗怀雅在场听到陈与九的明确通讯。",
+          "status": "supported",
+          "to": "npc_b554345833235f79"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b554345833235f79",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_308_swire"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_752770fe9ecfed1a.json",
+      "sources": [
+        {
+          "endLine": 122,
+          "kind": "story",
+          "line": 52,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_06-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "局部坏死"
+    }
+  ],
+  "relationship_id": "char_308_swire|npc_b554345833235f79"
+}

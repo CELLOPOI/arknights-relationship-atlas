@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 239,
+          "line": 198,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-03_beg.txt",
+          "quote": "[name=\"推进之王\"]……\n[dialog]\n[PlaySound(key=\"$d_avg_singleblunt\", volume=0.9)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]\n[PlaySound(key=\"$d_avg_hammer\", volume=0.8)]\n[PlaySound(key=\"$e_imp_rock_n\",channel=\"HAMMER\",delay=0.3,volume=0.8)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=1)]\n[Character(name=\"avg_npc_407_1#3$2\")]\n[name=\"推进之王\"]小心一些，我们还没踏入高墙，博士不想看见有人受伤。\n[Character(name=\"avg_npc_012\")]\n[name=\"罗德岛干员\"] 好的……你们也是！\n[character(name=\"avg_npc_233_1#4\")]\n[name=\"蔓德拉\"]……一锤子把我的造物砸碎了？\n[character(name=\"avg_npc_233_1#7\")]\n[name=\"蔓德拉\"]这家伙……和维多利亚士兵一样可恶！\n[character(name=\"avg_npc_233_1#8\")]\n[name=\"蔓德拉\"]虽然我也没使什么力……尝尝这个！\n[Character(name=\"avg_npc_012\")]\n[name=\"罗德岛干员\"] 推进之王，闪开！\n[playsound(key=\"$d_avg_drone\")]\n[delay]\n[dialog]\n[character]\n[PlaySound(key=\"$d_avg_funnel\", volume=0.4)]\n[PlaySound(key=\"$d_avg_funnel\", channel=\"key\",volume=0.4,delay=0.1)]\n[delay(time=0.6)]\n[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_gen_explo_n\",volume=0.5)]\n[PlaySound(key=\"$e_imp_rock_n\",volume=0.8)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]\n[delay(time=2.5)]\n[Character(name=\"avg_npc_407_1#4$2\")]\n[name=\"推进之王\"]……有人替我打掉了威胁？\n[Character(name=\"avg_npc_407_1#1$2\")]\n[name=\"推进之王\"]白轮，你看到是谁了吗？"
+        }
+      ],
+      "description": "推进之王击碎蔓德拉造物，蔓德拉看见并继续向其攻击；现场交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_112_siege",
+          "reason": "推进之王击碎蔓德拉造物，蔓德拉看见并继续向其攻击；现场交战。",
+          "status": "supported",
+          "to": "npc_cb03e146518e01fb"
+        },
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_cb03e146518e01fb",
+          "reason": "推进之王击碎蔓德拉造物，蔓德拉看见并继续向其攻击；现场交战。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 239,
+          "kind": "story",
+          "line": 198,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_112_siege|npc_cb03e146518e01fb"
+}

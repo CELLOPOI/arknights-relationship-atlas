@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 169,
+          "line": 3,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_05_end.txt",
+          "quote": "[Dialog]\n[Delay(time=1)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G05\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1\", focus=2)]\n[name=\"莫妮克\"]  ……之前我还奇怪，为什么你们要带着那个路都走不了的萨卡兹。\n[name=\"莫妮克\"]  原来如此。\n[Character(name=\"avg_npc_209_1#4\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"罗伊\"]  呃……莫妮克阁下，我怎么什么都没感觉到……\n[Character(name=\"avg_npc_209_1#4\", name2=\"avg_npc_208_1#5\", focus=2)]\n[name=\"莫妮克\"]  ……那就少说话，少丢脸。\n[dialog]\n[Character(name=\"avg_1014_nearl2_1#1$1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"玛嘉烈\"]  ……无胄盟吗，有何贵干？\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#1$1\", focus=1)]\n[name=\"罗伊\"]  首先，请允许我向耀骑士道歉。\n[name=\"罗伊\"]  关于今天无胄盟绑架了玛莉娅一事——\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=2)]\n[name=\"玛嘉烈\"]  ——\n[Character(name=\"avg_npc_209_1#3\", name2=\"avg_1014_nearl2_1#7$1\", focus=1)]\n[name=\"罗伊\"]  ——喔，别冲动，再说也不是我干的啊。\n[Character(name=\"avg_npc_209_1#3\", name2=\"avg_1014_nearl2_1#7$1\", focus=2)]\n[name=\"玛嘉烈\"]  ……你们……卑劣的刽子手！\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#1$1\", focus=1)]\n[name=\"罗伊\"]  玛莉娅此时应该已经安全回家了，放心，没有后续针对你们的行动，就算有，也会尽量做得……不那么完美。\n[name=\"罗伊\"]  无胄盟也只是收钱办事，就算我们不想，毕竟上面的人也盯着，你说对吧？\n[Character(name=\"char_147_shining_1\", name2=\"avg_npc_209_1\", focus=1)]\n[name=\"闪灵\"]  ……你们在袭击感染者。\n[Character(name=\"char_147_shining_1\", name2=\"avg_npc_209_1\", focus=2)]\n[name=\"罗伊\"]  这也是上面的安排，别怪我们啊。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=2)]\n[name=\"玛嘉烈\"]  恶行不因为其缘由而洗刷罪孽。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=1)]\n[name=\"罗伊\"]  ……说的也是。\n[name=\"罗伊\"]  所以，我们今天这不是来打声招呼吗……\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=2)]\n[name=\"玛嘉烈\"]  我们没什么好聊的，要动手的话，随时奉陪。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=1)]\n[name=\"罗伊\"]  真是咄咄逼人，直说了吧，我们想摆脱商业联合会的控制。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#4$1\", focus=2)]\n[name=\"玛嘉烈\"]  ……什么？\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#4$1\", focus=1)]\n[name=\"罗伊\"]  今天来，我就是想把这话挑明的。我们是对立的立场，毕竟现在我们还是联合会的人……\n[name=\"罗伊\"]  但我们是否可以私下签订一份和平协议呢？\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#5$1\", focus=2)]\n[name=\"耀骑士\"]  ……\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#5$1\", focus=1)]\n[name=\"罗伊\"]  你，耀骑士，临光家族和那些附庸，以及“罗德岛”。我们希望你们不要影响到我们的计划。\n[name=\"罗伊\"]  相对的，无胄盟不会妨碍你的夺冠，更不会对和耀骑士相关的人物出手。\n[Character(name=\"char_179_cgbird_1\", name2=\"avg_npc_209_1\", focus=1)]\n[name=\"夜莺\"]  ……那些感染者呢？\n[Character(name=\"char_179_cgbird_1\", name2=\"avg_npc_209_1#2\", focus=2)]\n[name=\"罗伊\"]  ……遗憾，我们也不能做到所有事情。\n[Character(name=\"char_179_cgbird_1\", name2=\"avg_npc_209_1\", focus=2)]\n[name=\"罗伊\"]  感染者对我们而言也算是个威胁，但是请放心，现在的我们也需要那些感染者骑士——\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#4$1\", focus=2)]\n[name=\"玛嘉烈\"]  当你们的替罪者？\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_1014_nearl2_1#4$1\", focus=1)]\n[name=\"罗伊\"]  ……\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_1014_nearl2_1#7$1\", focus=2)]\n[name=\"玛嘉烈\"]  这不是我索求的东西，无胄盟。\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_1014_nearl2_1#7$1\", focus=1)]\n[name=\"罗伊\"]  ——无胄盟是什么？\n[name=\"罗伊\"]  古时候，为了对抗荒淫无道的骑士贵族，当地的农民和扈从们串通，雇佣了一批身经百战的杀手。\n[name=\"罗伊\"]  但是他们——全都失手了。\n[name=\"罗伊\"]  骑士把叛徒通通吊死，悬挂在城堡之上，以儆效尤。领地内的村民怒不敢言，只能忍气吞声，放弃抵抗。\n[name=\"罗伊\"]  不过后来，有一位弓手主动请缨，当时人们普遍认为弓箭手无法应对库兰塔骑士的速度，并不抱期望……\n[name=\"罗伊\"]  然而翌日清晨，那位暴虐骑士的家人们醒来后，却看见那位骑士保持着冲锋的姿势，仰面朝天，被一杆长枪钉在了广场地面——\n[name=\"罗伊\"]  等到人们靠近细看，才发现那并不是一杆长枪，而是一支利箭，由玄铁铸造而成的利箭。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=1)]\n[name=\"罗伊\"]  “玄铁”，是历史上第一位无胄盟。\n[Character(name=\"avg_npc_209_1#6\", name2=\"avg_1014_nearl2_1#7$1\", focus=1)]\n[name=\"罗伊\"]  虽然我对于我们只是被雇来的杀手这点还是有自觉的，不过呢……\n[name=\"罗伊\"]  有些传说，可不是空穴来风。\n[stopmusic]\n[Character(name=\"char_147_shining_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=1)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"闪灵\"]  ——临光！上面！\n[dialog]\n[character]\n耀骑士抬起头。\n路灯暗淡，今夜星光璀璨。\n而其中一颗流星，闪烁了数下之后，偏离了群星的轨道。\n直坠大地。\n[dialog]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_avg_arrowshot\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[playMusic(intro=\"$normal02_intro\", key=\"$normal02_loop\", volume=0.4)]\n[Character(name=\"avg_1014_nearl2_1#4$1\")]\n[name=\"玛嘉烈\"]  ——箭！？\n[Character(name=\"char_147_shining_1\", name2=\"avg_1014_nearl2_1#4$1\", focus=1)]\n[name=\"闪灵\"]  斩断它！\n[Character(name=\"char_147_shining_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=2)]\n[name=\"玛嘉烈\"]  明白——！\n[dialog]\n[Character(name=\"char_147_shining_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=0)]\n[PlaySound(key=\"$b_char_defboost\", volume=0.6)]\n[Blocker(a=0.8, r=1, g=1, b=1, fadetime=1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[PlaySound(key=\"$d_avg_arrow\")]\n[Background(image=\"bg_23_G05\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[delay(time=1)]\n[Character(name=\"char_179_cgbird_1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"夜莺\"]  咿呀——！？\n[Character(name=\"char_179_cgbird_1\", name2=\"avg_1014_nearl2_1#7$1\", focus=2)]\n[name=\"玛嘉烈\"]  丽兹，小心！\n[characteraction(name=\"right\", type=\"move\", xpos=-180, fadetime=1,block=false)]\n[PlaySound(key=\"$bodyfalldown2\", volume=0.6)]\n[delay(time=1)]\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]  （临光和我同时出剑……竟然，都没能砍断？）\n[name=\"闪灵\"]  ……\n[delay(time=0.6)]\n[Character(name=\"avg_1014_nearl2_1#5$1\")]\n[name=\"玛嘉烈\"]  ……没事吧，二位？\n[Character(name=\"char_179_cgbird_1\", name2=\"avg_1014_nearl2_1#5$1\", focus=1)]\n[name=\"夜莺\"]  没、没事……刚、刚才那是……\n[dialog]\n[character]\n玛嘉烈沉默地望向一旁。\n漆黑的箭矢，如长矛般的箭矢，没入水泥地面之中，悄无声息。\n[dialog]\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"罗伊\"]  了不起……能反应过来还挡开玄铁一箭的人，我还是头一次见。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1#4\", focus=2)]\n[name=\"莫妮克\"]  ……\n[Character(name=\"avg_npc_209_1\")]\n[name=\"罗伊\"]  耀骑士的剑术果然了得，那边那位赦罪师，也让人看到了一些别开生面的技巧……幸好箭矢是没有生命的——\n[name=\"罗伊\"]  ——那是灵魂的味道吗？萨卡兹？\n[name=\"罗伊\"]  你这个医师的剑术和法术……究竟到了什么地步？\n[Character(name=\"char_147_shining_1\")]\n[name=\"闪灵\"]  少说废话……这就是你们所谓的，停战协议吗？\n[Character(name=\"avg_npc_209_1#5\")]\n[name=\"罗伊\"]  你们心里清楚，这一箭并非冲着取你们的性命去的。否则，那边那位坐着的萨卡兹……已经死了。\n[Character(name=\"char_179_cgbird_1\")]\n[name=\"夜莺\"]  ……\n[Character(name=\"avg_npc_209_1\")]\n[name=\"罗伊\"]  招呼就到此为止，各位，请认真考虑一下我们的提议。\n[Character(name=\"avg_npc_208_1\")]\n[name=\"莫妮克\"]  ……还有，希望刚才那箭能让你们明白，无胄盟并非在向你们求饶——\n[Character(name=\"avg_npc_208_1#2\")]\n[name=\"莫妮克\"]  “玄铁”有三位。\n[Character(name=\"avg_npc_208_1\")]\n[name=\"莫妮克\"]  你们能挡下几箭？\n[Character(name=\"avg_1014_nearl2_1#7$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"玛嘉烈\"]  慢着！\n[dialog]\n[character]\n两位无胄盟的身影溶解在了霓虹与月光的间隙中。\n耳边只剩下爵士乐的声响。"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_148_nearl",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_5b3693e67197379a"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_5b3693e67197379a",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_148_nearl"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 169,
+          "kind": "story",
+          "line": 3,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "char_148_nearl|npc_5b3693e67197379a"
+}

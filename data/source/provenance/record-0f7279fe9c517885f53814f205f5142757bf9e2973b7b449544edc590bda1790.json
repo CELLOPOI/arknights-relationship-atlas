@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 91,
+          "line": 61,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-08_beg.txt",
+          "quote": "[name=\"萨卢斯\"]你总是这样到处播撒过剩的同理心，就和特蕾西娅一样。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]她输给特雷西斯的时候，首领本想借机回收“魔王”，不料她临死之前，硬是把王冠给了你。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]很隐蔽的谋划。我们那么多的探子，没有一人提前发现。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]你是不是也被她骗了过去——“博士”？\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"none\")]\n[Decision(options=\"……;我不知道你在说什么。;我对此一无所知。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]真可怜呀，你什么都不记得了。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]你拼命“侍奉”这位魔王，究竟是出于上一位魔王的操纵，还是发自内心地爱着她？\n[dialog]\n[charslot]\n[Decision(options=\"这我还是能分辨的。;你别胡说八道了。;我和阿米娅的关系，不是你能置喙的。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]\n[name=\"阿米娅\"]奎萨图什塔的野心会给萨卡兹带来更深重的伤害，特蕾西娅小姐不可能放任他篡夺“魔王”。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]……小兔子，别说这种不痛不痒的空话了。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]随便问一个卡兹戴尔街头的普通人都知道，对萨卡兹而言，魔王的离去才是更深重的灾难。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]对了，也不要谈论什么公平。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]魔王的传承本就充满了偶然，特蕾西娅做的事，和我们做的也没什么差别。我们都是想让这股力量变得更可控。\n[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]\n[name=\"萨卢斯\"]我们首领更相信血与灵魂的联系。"
+        }
+      ],
+      "description": "萨卢斯谈特蕾西娅输给特雷西斯及自己首领计划；阿米娅当面明确首领为奎萨图什塔。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E101"
+          ],
+          "from": "npc_a3dffd9098ba430b",
+          "reason": "萨卢斯谈特蕾西娅输给特雷西斯及自己首领计划；阿米娅当面明确首领为奎萨图什塔。",
+          "status": "supported",
+          "to": "npc_2d30a11ec7e30f39"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2d30a11ec7e30f39",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_a3dffd9098ba430b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 91,
+          "kind": "story",
+          "line": 61,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 345,
+          "line": 282,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "quote": "[name=\"萨卢斯\"]你不会不明白的。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……\n[Image(image=\"32_i05\", fadetime=1, xScale=1.1, yScale=1.1)]\n[ImageTween(image=\"32_i05\", fadetime=0.5, xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=20)]\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]你很清楚。也正因如此，你才会回应我的邀请，不是吗？\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]从源石入手，开辟通向“魔王”真相的道路，我们得到了更清晰的结论。\n[name=\"赦罪师\"]她只是一个古旧的牢笼，如有必要，我们甚至可以编织一个新的……\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]够了。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]——\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]唉。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]即使是当年，你趁乱打伤同僚，带走那个女人的时候，我也没见你真正愤怒过。\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]看来也不需要问这些年你经历了什么啦。总而言之呢……\n[Character(name=\"avg_npc_653_1#1$1\")]\n[name=\"萨卢斯\"]……你似乎把那些外人看得比家人还重要。\n萨卢斯将杯中的白水一饮而尽。\n她没有喝酒。她不喜欢喝酒。特别不喜欢在工作时喝酒。\n她的影子在光下摇曳。今天本不是工作的日子。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]你们不是我的家人。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]我说得还不够清楚吗？\n[Character(name=\"avg_npc_654_1#1$1\")]\n[name=\"赦罪师\"]足够清楚了。\n[character(fadetime=0)]\n[image(fadetime=1)]\n[delay(time=1)]\n[stopmusic(fadetime=1)]\n闪灵没有看一口未动的餐食，也没有看坐在一旁的其他两名赦罪师。\n[PlaySound(key=\"$d_avg_chairrub\", volume=1)]\n她只是抱着自己的剑站了起来。\n[PlayMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……你们派来监视丽兹的士兵，我已经请他们全部离开了。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]也不必再给我寄什么邀请函。\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]下次再见面……应该是在战场上。\n[Character(name=\"avg_npc_653_1#6$1\")]\n[name=\"萨卢斯\"]“请他们全部离开了”。\n[Character(name=\"avg_npc_653_1#6$1\")]\n[name=\"萨卢斯\"]闪灵呀……你真的打算这么一走了之？\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]我们无话可说了。\n[Character(name=\"avg_npc_653_1#2$1\")]\n[name=\"萨卢斯\"]如果我说……我不想你走呢？\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]你拦不住我。\n[Character(name=\"avg_npc_653_1#10$1\")]\n[name=\"萨卢斯\"]只是拉着你多说几句话嘛，这点事情我还是做得到的。\n[Character(name=\"avg_npc_653_1#8$1\")]\n[name=\"萨卢斯\"]不行吗？\n[character(name=\"char_147_shining_1#1\")]\n[name=\"闪灵\"]……\n[dialog]\n[character]\n赦罪师的首领无言地品着酒。"
+        }
+      ],
+      "description": "双方在家族聚餐中直接对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_a3dffd9098ba430b",
+          "reason": "双方在家族聚餐中直接对话。",
+          "status": "supported",
+          "to": "npc_2d30a11ec7e30f39"
+        },
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "npc_2d30a11ec7e30f39",
+          "reason": "双方在家族聚餐中直接对话。",
+          "status": "supported",
+          "to": "npc_a3dffd9098ba430b"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 345,
+          "kind": "story",
+          "line": 282,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前或明确旧事",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "npc_2d30a11ec7e30f39|npc_a3dffd9098ba430b"
+}

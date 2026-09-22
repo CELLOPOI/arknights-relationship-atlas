@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 106,
+          "line": 101,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "quote": "[name=\"古罗\"]哼，接应希瓦艾什家的女儿，要不是博士跟我说你是他的帮手，我可不想干这活。\n[name=\"古罗\"]你真的和你哥不是一伙的？\n[Character(name=\"avg_npc_260_1#1$1\",name2=\"avgnew_173_slchan_1#8$1\",focus=2)]\n[name=\"恩希亚\"]我是来阻止老哥的。\n[Character(name=\"avg_npc_260_1#1$1\",name2=\"avgnew_173_slchan_1#8$1\",focus=1)]\n[name=\"古罗\"]……我不相信你，但我相信博士，那位Sharp跟我说过，让我相信他带来的胜利。"
+        }
+      ],
+      "description": "古罗明确报告Sharp曾直接向自己保证，支持实际交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E104"
+          ],
+          "from": "npc_7144babb98dd293d",
+          "reason": "古罗明确报告Sharp曾直接向自己保证，支持实际交谈。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "E104"
+          ],
+          "from": "char_508_aguard",
+          "reason": "古罗明确报告Sharp曾直接向自己保证，支持实际交谈。",
+          "status": "supported",
+          "to": "npc_7144babb98dd293d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 106,
+          "kind": "story",
+          "line": 101,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_508_aguard|npc_7144babb98dd293d"
+}

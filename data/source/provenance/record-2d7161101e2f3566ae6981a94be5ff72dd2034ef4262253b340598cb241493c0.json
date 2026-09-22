@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 378,
+          "line": 362,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_beg.txt",
+          "quote": "[name=\"孽茨雷\"]我曾与菈玛莲并肩作战数十年，战场横跨城市与荒原。我们一起将维多利亚的甲胄和高卢的火炮在卡兹戴尔城墙下葬送。\n[name=\"孽茨雷\"]我也曾与特蕾西娅合力，在同一场战役中，斩下数千莱塔尼亚术师的头颅。\n[name=\"孽茨雷\"]她们都是最出色的战士，是卡兹戴尔的战争英雄。\n[name=\"孽茨雷\"]菈玛莲将女妖的未来交予你，特蕾西娅也视你为引以为傲的门徒。\n[name=\"孽茨雷\"]但你却躲在罗德岛，帮助藏匿魔王，又如窃贼般潜入伦蒂尼姆，躲在战场的夹缝中，四处破坏——\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#2$1\")]\n[name=\"Logos\"]战争并不能结束萨卡兹的痛苦。\n[charslot(slot=\"m\",name=\"avg_4133_logos_1#1$1\")]\n[name=\"Logos\"]我一路走来，只见到所有人正被你们拖入深渊。\n[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\")]\n[name=\"孽茨雷\"]所以你们选择逃避。\n[name=\"孽茨雷\"]我很多年前就对特蕾西娅说过，战争，避无可避。如果战场不在伦蒂尼姆，就必然在卡兹戴尔。\n[name=\"孽茨雷\"]特蕾西娅同意这一点，只是仍寄希望于在爆发前，能找到另外的解法。\n[name=\"孽茨雷\"]她的选择导向了一场新的战争。魔王之死，则是战争的代价与结果。\n[name=\"孽茨雷\"]我见证了她的死。她值得所有萨卡兹的尊重。\n[name=\"孽茨雷\"]你呢？\n[name=\"孽茨雷\"]除了这些软弱的言辞，你能给萨卡兹带来什么？你还想带来什么？"
+        }
+      ],
+      "description": "Logos与孽茨雷当面对话、交战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E110"
+          ],
+          "from": "char_4133_logos",
+          "reason": "Logos与孽茨雷当面对话、交战。",
+          "status": "supported",
+          "to": "npc_84fdad316566923c"
+        },
+        {
+          "evidenceIds": [
+            "E110"
+          ],
+          "from": "npc_84fdad316566923c",
+          "reason": "Logos与孽茨雷当面对话、交战。",
+          "status": "supported",
+          "to": "char_4133_logos"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 378,
+          "kind": "story",
+          "line": 362,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-10_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "char_4133_logos|npc_84fdad316566923c"
+}

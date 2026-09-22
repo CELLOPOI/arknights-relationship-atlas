@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 419,
+          "line": 363,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-06_end.txt",
+          "quote": "[name=\"推进之王\"]你们在这里。\n[charslot(slot = \"m\", name = \"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]刚才，我和维娜去查了下这座前线分基地内的情况。\n[name=\"戴菲恩\"]井然有序，士气高涨，公爵们终于拿出自己压箱底的本事了。\n[name=\"戴菲恩\"]他们似乎达成了真正的联合，深明大义地让自己的部队按照兵种间的协同，而不是按照所属的阵营，驻扎在了这座基地里。\n[charslot(slot = \"m\", name = \"avg_4110_delphn_1#2$1\",focus=\"m\")]\n[name=\"戴菲恩\"]可是……这只是表面功夫罢了。\n[charslot(slot = \"m\", name = \"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]仔细去看那些威灵顿公爵所属部队的营帐，旁边的哨位上一定是开斯特公爵麾下的精锐在站岗。\n[name=\"戴菲恩\"]而这些营帐的更远处，也一定会有两到三座有开斯特部队驻扎的据点。\n[charslot(slot = \"m\", name = \"avgnew_112_siege_1#1$2\",focus=\"m\")]\n[name=\"推进之王\"]……只能说，虚假的团结也是团结。\n[name=\"推进之王\"]公爵们起码在如今大敌当前的时刻，还知道自己真正的对手是谁。\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#1$1\",focus=\"m\")]\n[name=\"希勒少尉\"]还有个坏消息，我去看了前线医院，干净得和新的一样，里面没有一个伤员。\n[charslot(slot=\"m\",name=\"avg_npc_229_1#5\",focus=\"m\")]\n[name=\"号角\"]他们放弃救援伤兵？绝不可能，这样的话军队的士气不可能维持。\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#2$1\",focus=\"m\")]\n[name=\"希勒少尉\"]也许只是，前线没有伤兵呢？\n[charslot(slot=\"m\",name=\"avg_npc_229_1#7\",focus=\"m\")]\n[name=\"号角\"]怎么可能？典范军一路走来，这场战争的烈度我们亲眼目睹，而银石崖前线只会更加凶险——\n[charslot(slot=\"m\",name=\"avg_npc_229_1#5\",focus=\"m\")]\n[name=\"号角\"]不，你的意思是……\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#2$1\",focus=\"m\")]\n[name=\"希勒少尉\"]没有伤员能被抢救回后方。\n[charslot(slot = \"m\", name = \"avgnew_112_siege_1#9$2\",focus=\"m\")]\n[name=\"推进之王\"]……\n[charslot(slot = \"m\", name = \"avgnew_112_siege_1#1$2\",focus=\"m\")]\n[name=\"推进之王\"]我们确实需要尽快结束这里的惨剧了。\n[name=\"推进之王\"]哪怕典范军的力量相比整片噬人的战场而言，实在微不足道。但，“创造奇迹”，这就是我们的任务。\n[stopmusic(fadetime=1.5)]\n[Dialog]\n[charslot]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_strangeclap\", volume=1)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]精彩的战前演讲，你们的战车已经整备完毕了。\n[playMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.6)]\n[charslot(slot = \"m\", name = \"avgnew_112_siege_1#1$2\",focus=\"m\")]\n[name=\"推进之王\"]你终于现身了。\n[charslot(slot = \"m\", name = \"avg_npc_396_1#9$1\",focus=\"m\")]\n[name=\"达格达\"]等等，地上怎么都是红色……是你的血吗？还是……\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]这不重要，小姐。\n[name=\"“灰礼帽”\"]我接到的命令，是把诸王之息带去剑座。万一我死了，也会有人戴上我的帽子，站到你们面前。\n[name=\"“灰礼帽”\"]殿下，公爵阁下想让你知道，“开斯特永远兑现承诺”。\n[charslot(slot = \"m\", name = \"avgnew_112_siege_1#10$2\",focus=\"m\")]\n[name=\"推进之王\"]别说闲话了，剑座到底在哪里？\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]想来你们已经在营地观察过了，对于战场的局势，大概也有所了解。\n[name=\"“灰礼帽”\"]在这个节骨眼上告诉你们真相，是个糟透了的时机，但也别无办法。\n[name=\"“灰礼帽”\"]诸王之息的剑座，就在开斯特公爵的旗舰“荣光”号上。\n[charslot(slot = \"m\", name = \"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]什么……？"
+        }
+      ],
+      "description": "众人在同一营地听戴菲恩和灰礼帽说明开斯特部队与旗舰，具体知晓公爵而非同阵营推断。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E88"
+          ],
+          "from": "npc_4ce094568abc6a81",
+          "reason": "众人在同一营地听戴菲恩和灰礼帽说明开斯特部队与旗舰，具体知晓公爵而非同阵营推断。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_4ce094568abc6a81"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 419,
+          "kind": "story",
+          "line": 363,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 489,
+          "line": 449,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_beg.txt",
+          "quote": "[name=\"希勒少尉\"]通知后面的大伙，通过战壕的速度要快！\n[name=\"希勒少尉\"]虽然那些萨卡兹主力都被牵制去了正面，但留给我们通过的时间也并不充裕。\n[charslot(slot=\"m\",name=\"avg_npc_418_1#1$1\",focus=\"m\")]\n[name=\"典范军护士\"]长官，还有很多的设备在营地里，我们需要时间——\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#4$1\",focus=\"m\")]\n[name=\"希勒少尉\"]顾不上了！\n[name=\"希勒少尉\"]只要能回到城内，设备短缺问题一定能解决。\n[charslot(slot=\"m\",name=\"avg_npc_418_1#1$1\",focus=\"m\")]\n[name=\"典范军护士\"]可还有那些没法行动的伤员……担架搬运起来很困难。\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#4$1\",focus=\"m\")]\n[name=\"希勒少尉\"]你们继续沿着推进之王他们清理出来的道路前进，我留下指挥伤员的转移。走！\n[charslot(slot=\"m\",name=\"avg_npc_418_1#1$1\",focus=\"m\")]\n[name=\"典范军护士\"]我帮您，长官。每一位伤员的情况，我更熟悉。\n[name=\"典范军护士\"]而且，我答应过他们，我不会扔下他们不管。\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#1$1\",focus=\"m\")]\n[name=\"希勒少尉\"]……那这些抑制剂和防护设备你也分一点，都是为那些伤员准备的，聊胜于无。\n[name=\"希勒少尉\"]我们判断越靠近城墙附近，空气中源石粉尘浓度可能会越高，伤员比我们危险。\n[charslot(slot=\"m\",name=\"avg_npc_418_1#1$1\",focus=\"m\")]\n[name=\"典范军护士\"]是，长官。\n[name=\"典范军护士\"]……长官，他们都说你不是伦蒂尼姆人。为什么还要卷入危险？\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#1$1\",focus=\"m\")]\n[name=\"希勒少尉\"]……\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_gunboatscombat\", volume=0, loop=true, channel=\"atk1\")]\n[SoundVolume(volume=0.6, channel=\"atk1\",fadetime=1)]\n[delay(time=2)]\n[stopsound(channel=\"atk1\", fadetime=4)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_418_1#1$1\",focus=\"m\")]\n[name=\"典范军护士\"]看那边！那是谁的高速军舰在帮“加斯特里尔”号解围？\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#6$1\",focus=\"m\")]\n[name=\"希勒少尉\"]开斯特公爵……\n[charslot(slot=\"m\",name=\"avg_npc_418_1#1$1\",focus=\"m\")]\n[name=\"典范军护士\"]可不都说因为威灵顿公爵背叛了我们，他和开斯特公爵阁下他们都闹翻了吗？\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_horn\",volume=0.8)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1070_1#4$1\",focus=\"m\")]\n[name=\"希勒少尉\"]糟了！"
+        }
+      ],
+      "description": "npc_4ce094568abc6a81知晓npc_8c87697c59975883；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "npc_4ce094568abc6a81",
+          "reason": "希勒少尉识别并具体提及开斯特公爵。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "本组该证据未提供反向识别。",
+          "status": "not_established",
+          "to": "npc_4ce094568abc6a81"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 489,
+          "kind": "story",
+          "line": 449,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "追迹日落以西现实场景",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "npc_4ce094568abc6a81|npc_8c87697c59975883"
+}

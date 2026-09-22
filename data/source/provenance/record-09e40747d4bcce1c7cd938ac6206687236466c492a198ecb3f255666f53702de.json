@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 177,
+          "line": 150,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_08_beg.txt",
+          "quote": "[name=\"西昆妲\"]放松，放松，卢契拉小姐。\n[charslot(slot = \"m\", name = \"avg_4079_haini_1#10$1\")]\n[name=\"卢契拉\"]卡西娅她……\n[charslot(slot = \"m\", name = \"avg_4137_udflow_1#1$1\")]\n[name=\"西昆妲\"]暂时的麻痹。我失手射偏，只造成了擦伤，才导致毒素生效延迟了这么久。\n[name=\"西昆妲\"]抱歉，让你的安全受到了威胁。\n[dialog]\n[charslot(duration=0.5, isblock=true)]\n[PlaySound(key=\"$d_avg_mictest\", volume=1)]\n[delay(time=2)]\n[name=\"克莱门莎\"]执政官克莱门莎广播，弥利亚留姆全城听令！\n[name=\"克莱门莎\"]信标塔所在城市单元完成切割后，城市剩余部分向陆地方向迁移，撤出海嗣包围圈！\n[name=\"克莱门莎\"]迁移过程中重启城市单元骨架联动装置，进行结构性重组，力场全开，阻挡涌向陆地的海嗣潮！\n[name=\"克莱门莎\"]第八、第十军团以及海巡队，所有还能行驶的舰船轮流出港，为城市护航！\n[charslot(slot = \"m\", name = \"avg_4137_udflow_1#1$1\")]\n[name=\"西昆妲\"]卢契拉小姐，我想，关于卡西娅的事件报告，或许由你来完成比较合适。\n[charslot(slot = \"m\", name = \"avg_4079_haini_1#2$1\")]\n[name=\"卢契拉\"]您直接去港口枢纽吧，执政官发布的战斗任务更紧急。\n[charslot(slot = \"m\", name = \"avg_4079_haini_1#4$1\")]\n[name=\"卢契拉\"]卡西娅已经被制服，我会先带她去看医师，然后……她应该受到惩罚。\n[name=\"卢契拉\"]以及，我在想，如果城市要进行结构性重组的话，穹顶系统需要作为力场发生的原点，正面对抗海嗣潮，那边的人手……\n[name=\"卢契拉\"]或许我该提交一份回调岗位的紧急申请。\n[charslot(slot = \"m\", name = \"avg_4137_udflow_1#7$1\")]\n[name=\"西昆妲\"]卢契拉小姐，你很勇敢。\n[charslot(slot = \"m\", name = \"avg_4079_haini_1#9$1\")]\n[name=\"卢契拉\"]原来您听到了……\n[charslot(slot = \"m\", name = \"avg_4137_udflow_1#1$1\")]\n[name=\"西昆妲\"]嗯。在那之前，你或许也应该看一下医师，长须栉齿草确实有很强的神经毒性。"
+        }
+      ],
+      "description": "西昆妲单向接收并认识克莱门莎的广播命令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4137_udflow",
+          "reason": "西昆妲听取克莱门莎具名全城广播，并据其战斗命令安排下一步行动。",
+          "status": "supported",
+          "to": "npc_17db81f47ae22715"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_17db81f47ae22715",
+          "reason": "克莱门莎面向全城广播，当前局部没有识别该个人接收者的依据。",
+          "status": "not_established",
+          "to": "char_4137_udflow"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 177,
+          "kind": "story",
+          "line": 150,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "弥利亚留姆灾变撤离",
+      "title": "生路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 531,
+          "line": 515,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-18_end.txt",
+          "quote": "[name=\"西昆妲\"]感谢你能够提供这次罗德岛事件的详细资料，可露希尔。\n[charslot(slot = \"r\", name = \"avg_npc_1723_1#1$1\", focus=\"r\")]\n[name=\"可露希尔\"]看作我们的交易就好，罗德岛同样有所求。\n[charslot(slot = \"l\", name = \"avg_4137_udflow_1#7$1\", focus=\"l\")]\n[name=\"西昆妲\"]嗯，我会向克莱门莎执政官和歌蕾蒂娅执政官汇报并传达你们的预警。\n[charslot(slot = \"l\", name = \"avg_4137_udflow_1#1$1\", focus=\"l\")]\n[name=\"西昆妲\"]至于那个人的名字——\n[charslot(slot = \"r\", name = \"avg_npc_1723_1#6$1\", focus=\"r\")]\n[name=\"可露希尔\"]“普瑞赛斯”。\n[charslot(slot = \"l\", name = \"avg_4137_udflow_1#1$1\", focus=\"l\")]\n[name=\"西昆妲\"]我们会通过自己的渠道比对资料库。\n[name=\"西昆妲\"]如果这个名字同样出现在了阿戈尔的某些记录中，那证明你们面对的威胁绝不是偶然。\n[name=\"西昆妲\"]结果我会尽快带给你。除此之外，我们也会进一步审核其他执政官在海陆联合防线上的布置。\n[charslot(slot = \"l\", name = \"avg_4137_udflow_1#7$1\", focus=\"l\")]\n[name=\"西昆妲\"]待你们就绪，我们会全力配合护送包括医疗中心和天灾预警系统在内的所有设施。\n[charslot(slot = \"r\", name = \"avg_npc_1723_1#9$1\", focus=\"r\")]\n[name=\"可露希尔\"]感谢。"
+        }
+      ],
+      "description": "西昆妲明确说明会向克莱门莎汇报并传达预警。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D20"
+          ],
+          "from": "char_4137_udflow",
+          "reason": "西昆妲明确说明会向克莱门莎汇报并传达预警。",
+          "status": "supported",
+          "to": "npc_17db81f47ae22715"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_17db81f47ae22715",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_4137_udflow"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 531,
+          "kind": "story",
+          "line": 515,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-18_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_4137_udflow|npc_17db81f47ae22715"
+}

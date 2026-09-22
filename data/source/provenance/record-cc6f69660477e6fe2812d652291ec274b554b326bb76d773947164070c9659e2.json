@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 151,
+          "line": 111,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_05_end.txt",
+          "quote": "[name=\"梁\"]年姑娘，好久不见。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\",duration=0.5)]\n[delay(time=1)]\n[name=\"年\"]哟，圆脑袋。怎么监工的是你呀？\n[name=\"年\"]你家包工头呢？又跑哪里去偷懒了？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]\n[name=\"梁\"]年姑娘误会了，自从得知百灶要改成移动城市，先生便为了城市的设计操劳起来，最忙的时候，整整有一个月不曾合眼。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]嚯，那个慢性子还有这么上心的时候？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]\n[name=\"梁\"]先生说，这是炎国的第一座移动城市，意义非凡。留在城市中的每一笔设计，都需要深思熟虑。\n[name=\"梁\"]因此，必须要赶在年姑娘对他的设计动手之前，抢先一步完成。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#5$1\")]\n[name=\"年\"]唉我——！\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#4$1\")]\n[name=\"年\"]臭老八，亏我还总是惦记着和他分享点好东西，他在背后就这样说我坏话？！\n[name=\"年\"]那他现在人在哪？我倒要和他理论理论——\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]\n[name=\"梁\"]在补觉。\n[name=\"梁\"]先生已经睡了十天了，但是按着与工部的约定，今天是要给工部交付正门设计稿的日子。\n[name=\"梁\"]他交代过我，今天无论如何也要把工部的人拦在外面。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]哈哈哈……！我就知道，这才是我认识的那个易嘛。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#6$1\")]\n[name=\"年\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]\n[name=\"梁\"]还有什么事吗？\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#8$1\")]\n[name=\"年\"]你是说，易这会还在睡大觉……\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#7$1\")]\n[name=\"年\"]我突然想起来，几十年前，易他好像捡了一块陨铁来着……应该还留在他的园子里吧，放在哪里了？\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]\n[name=\"梁\"]年姑娘……我有先生交代的任务在身。今天无论是工部的官员还是你，在下都不能放进界园。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#8$1\")]\n[name=\"年\"]你怎么这么听他的话？细算起来，给你打造这副身体的材料还是我给他的，按理说你也得听我的话。\n[charslot(slot=\"m\",name=\"avgnew_2014_nian_1#1$1\")]\n[name=\"年\"]少说废话，快点让开！\n[charslot(slot=\"m\",name=\"avg_npc_1870_1#1$1\")]\n[name=\"梁\"]年姑娘，还是万万不可……请不要让在下为难——"
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "char_2014_nian",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_c25f824eec4935b3"
+        },
+        {
+          "evidenceIds": [
+            "C08"
+          ],
+          "from": "npc_c25f824eec4935b3",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "char_2014_nian"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 151,
+          "kind": "story",
+          "line": 111,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "char_2014_nian|npc_c25f824eec4935b3"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 854,
+          "line": 796,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "quote": "[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_204_platnm_1\")]\n[name=\"白金\"]  ……遭到青金的追击，不代表我就失去了无胄盟的立场……也许我还会受命于董事会……\n[name=\"白金\"]  你不会不明白，为什么……\n[dialog]\n[Decision(options=\"我相信这会是双赢的结果。;……;只是巧合罢了。\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_204_platnm_1#5\")]\n[name=\"白金\"]  ……\n[Character(name=\"char_120_hibisc_1\",name2=\"char_204_platnm_1#5\", focus=1)]\n[name=\"芙蓉\"]  哎呀！大家都帮你到这一步了，坦率地道个谢不就好了吗！\n[Character(name=\"char_120_hibisc_1\",name2=\"char_204_platnm_1#7\", focus=2)]\n[name=\"白金\"]  ……\n[Character(name=\"char_204_platnm_1#7\")]\n[name=\"白金\"]  谢、谢谢，博士……\n[dialog]\n[character]\n[Character(name=\"avg_237_gravel_1#5\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"砾\"]  呼……\n[name=\"砾\"]  您可真是给我出了个难题呀，博士。\n[Character(name=\"avg_npc_249_1$1\",name2=\"avg_237_gravel_1#5\", focus=1)]\n[name=\"Touch\"]  放轻松，札拉克，这样治疗会更有效。\n[Character(name=\"avg_npc_249_1$1\",name2=\"avg_237_gravel_1#3\", focus=2)]\n[name=\"砾\"]  谢谢……\n[delay(time=0.5)]\n[dialog]\n[Character(name=\"char_120_hibisc_1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"芙蓉\"]  砾小姐！你怎么会和Touch老师在一起呀！？\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  ……凑巧吧。\n[name=\"砾\"]  不好意思，能让我坐下聊吗？\n[Character(name=\"char_120_hibisc_1\")]\n[name=\"芙蓉\"]  请便！啊，Touch老师也……\n[Character(name=\"avg_npc_249_1$1\")]\n[name=\"Touch\"]  ……不必，只是找阿米娅汇报一下工作。\n[dialog]\n[character]\n[Decision(options=\"辛苦了，二位。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  对付青金本人，真的很辛苦呢。\n[Character(name=\"avg_237_gravel_1#3\",name2=\"char_204_platnm_1\", focus=1)]\n[name=\"砾\"]  不过，还算是有些成果，对吧。\n[Character(name=\"avg_237_gravel_1#3\",name2=\"char_204_platnm_1#7\", focus=2)]\n[name=\"白金\"]  ……\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  您可欠了我一个大大的人情哦，呵呵。\n[dialog]\n[Decision(options=\"该回罗德岛了。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  看来您和白金已经达成共识了呢。\n[Character(name=\"avg_237_gravel_1#6\")]\n[name=\"砾\"]  明明前一刻还是敌人，后一秒就能握手言谈。\n[name=\"砾\"]  真是神奇。\n[Character(name=\"avg_237_gravel_1#2\")]\n[name=\"砾\"]  嗯，我也该休息一会了……"
+        }
+      ],
+      "description": "白金与Touch处于同一连续交流现场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_204_platnm",
+          "reason": "白金与Touch处于同一连续交流现场。",
+          "status": "supported",
+          "to": "char_510_amedic"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_510_amedic",
+          "reason": "白金与Touch处于同一连续交流现场。",
+          "status": "supported",
+          "to": "char_204_platnm"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_2db98b901e9e88b6.json",
+      "sources": [
+        {
+          "endLine": 854,
+          "kind": "story",
+          "line": 796,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "救援结束后的罗德岛场景",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "char_204_platnm|char_510_amedic"
+}

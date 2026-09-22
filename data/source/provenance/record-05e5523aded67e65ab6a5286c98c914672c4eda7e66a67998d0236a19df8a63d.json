@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 639,
+          "line": 620,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_end.txt",
+          "quote": "[name=\"鲁斯\"]几天后船队要进入盐漠捕猎盐鳞，我希望那小子能够加入捕猎。\n[name=\"鲁斯\"]近一个月我们损失惨重，原本的船医与领航员都牺牲在审判庭的围剿中，我想让那小子接替他们的职务。\n[charslot(slot=\"m\",name=\"avg_npc_1581_1#8$1\",focus=\"m\")]\n[name=\"胡安娜\"]原来这就是你解决人力不足的办法吗？\n[name=\"胡安娜\"]蒂奇向我保证过，我才允许他加入发掘船帮助你们，但他今天却差点跑掉。\n[name=\"胡安娜\"]现在你们又和我说，要他加入捕鳞船。\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#6$1\",focus=\"m\")]\n[name=\"鲁斯\"]女士……我知道这小子是珍贵的炼金术师，但他也是使剑的好手，还会点医术，在捕鳞的过程中，他会派上大用场的！\n[charslot(slot=\"m\",name=\"avg_npc_1581_1#8$1\",focus=\"m\")]\n[name=\"胡安娜\"]这无异于放他离开，他肯定会找机会逃脱。\n[name=\"胡安娜\"]我是个海盗，鲁斯，没有那样的好心肠。\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#2$1\",focus=\"m\")]\n[name=\"鲁斯\"]女士，求您，经历几次围剿后我们已经损失了太多人手。\n[name=\"鲁斯\"]在船队里，不是只有您需要他……我们也需要他。\n[charslot(slot=\"m\",name=\"avg_npc_1581_1#2$1\",focus=\"m\")]\n[name=\"胡安娜\"]鲁斯，他不是什么老实孩子，调皮得很，你要怎么保证他能乖乖的？\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#6$1\",focus=\"m\")]\n[name=\"鲁斯\"]他与帕斯卡拉素昧平生，却愿意在她被审判庭追杀时出手相救，将她安全送往镇子后，也从未索取任何报酬。\n[name=\"鲁斯\"]他本可以放弃营救塞斯克独自离开，但他没有。他选择折返回来，帮助我们救下他。\n[name=\"鲁斯\"]他……他其实是个热心的好孩子，非常善良。"
+        }
+      ],
+      "description": "鲁斯当面请求胡安娜让伊西多加入捕鳞船。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_0a8b187bfc318db9",
+          "reason": "鲁斯当面请求胡安娜让伊西多加入捕鳞船。",
+          "status": "supported",
+          "to": "npc_2bb59166b0c1e841"
+        },
+        {
+          "evidenceIds": [
+            "E8"
+          ],
+          "from": "npc_2bb59166b0c1e841",
+          "reason": "鲁斯当面请求胡安娜让伊西多加入捕鳞船。",
+          "status": "supported",
+          "to": "npc_0a8b187bfc318db9"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 639,
+          "kind": "story",
+          "line": 620,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "npc_0a8b187bfc318db9|npc_2bb59166b0c1e841"
+}

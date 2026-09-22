@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 343,
+          "line": 316,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "quote": "[name=\"森蚺\"]因为他们答应我，一拿到酿酒工具就派他们协会的技工来，帮我用杜林科技调试机器人……\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_1026_gvial2_1#8$1\",focus=2)]\n[name=\"嘉维尔\"]死心吧。\n[Character(name=\"char_416_zumama_1#3\",name2=\"avg_1026_gvial2_1#8$1\",focus=1)]\n[name=\"森蚺\"]唔……\n[Character(name=\"char_416_zumama_1#3\",name2=\"avg_1026_gvial2_1#8$1\",focus=2)]\n[name=\"嘉维尔\"]不过，他们连你都动员起来了，这我可真没想到。\n[name=\"嘉维尔\"]他们还找谁了？\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_1026_gvial2_1#8$1\",focus=1)]\n[name=\"森蚺\"]让我想想……\n[name=\"森蚺\"]他们去找过特米米，但是被轰出来了。\n[name=\"森蚺\"]耶奇·地心长老和际崖城的其他人他们也去找过。\n[name=\"森蚺\"]他们自己说的，除了阿芙朵嘉之外，其他人的态度都有些松动，至少是……暧昧。\n[Character(name=\"char_416_zumama_1#4\",name2=\"avg_1026_gvial2_1#6$1\",focus=2)]\n[name=\"嘉维尔\"]暧昧？\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#6$1\",focus=1)]\n[name=\"森蚺\"]据说，就连一开始厉行禁酒的耶奇长老自己，现在也已经有点被他们说动了。毕竟我们也见识过际崖城里的酒有多畅销。\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#4$1\",focus=2)]\n[name=\"嘉维尔\"]这样下去绝对不行！\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#8$1\",focus=2)]\n[name=\"嘉维尔\"]看来一味地跟这些家伙纠缠下去已经不是个办法了。他们自己颁布的禁酒令，当然也可以自己推翻。\n[name=\"嘉维尔\"]真走到那一步，杜林聚落离建成怕是就遥遥无期了……我可不想等依娜姆回来之后，给她展示全阿卡胡拉独一无二的烂尾建筑群！\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#8$1\",focus=1)]\n[name=\"森蚺\"]……哇。\n[Character(name=\"char_416_zumama_1#1\",name2=\"avg_1026_gvial2_1#2$1\",focus=2)]\n[name=\"嘉维尔\"]你肯定也不想那样吧？\n[Character(name=\"char_416_zumama_1#5\",name2=\"avg_1026_gvial2_1#2$1\",focus=1)]\n[name=\"森蚺\"]我倒是无所谓……不过我听你的。"
+        }
+      ],
+      "description": "森蚺具体知道并转述耶奇长老的动向；反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_416_zumama",
+          "reason": "森蚺具体转述耶奇长老被杜林人说动及其对禁酒的态度。",
+          "status": "supported",
+          "to": "npc_3b2937f62c55f178"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3b2937f62c55f178",
+          "reason": "已读窗口未建立耶奇对森蚺的具体知晓。",
+          "status": "not_established",
+          "to": "char_416_zumama"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_442d4ba2a3a71a0d.json",
+      "sources": [
+        {
+          "endLine": 343,
+          "kind": "story",
+          "line": 316,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gvial2_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "杜林人争取恢复酿酒期间",
+      "title": "百炼嘉维尔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 486,
+          "line": 446,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_07_end.txt",
+          "quote": "[name=\"大祭司\"]噢，在你们为了嘉维尔吵得不可开交的时候，只有我这把老骨头和这些机器人在认真寻找着地图。\n[name=\"大祭司\"]并且，我从刚才就发现了，这面书架上的书，和游记根本没有关系。\n[name=\"大祭司\"]所以，我就去了书架的另一面找了找，一下子就找到了。\n[name=\"大祭司\"]是这个没错吧？\n[Dialog]\n[Character(name=\"avg_4055_bgsnow_1#1$1\")]\n[PlaySound(key=\"$d_avg_paper2\")]\n[Delay(time=2)]\n[Character(name=\"avg_4055_bgsnow_1#10$1\")]\n[name=\"阿芙朵嘉\"]没错。\n[Character(name=\"char_416_zumama_1#4\")]\n[name=\"森蚺\"]……\n[Character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]……\n[playMusic(intro=\"$holiday_intro\",key=\"$holiday_loop\", volume=0.4)]\n[Character(name=\"avg_npc_576_1#1$1\",name2=\"avg_npc_576_1#1$1\")]\n[name=\"奇怪的机械\"]阿芙朵嘉，笨蛋，阿芙朵嘉。\n[Character(name=\"avg_4055_bgsnow_1#3$1\")]\n[name=\"阿芙朵嘉\"]……好啦，我知道错啦，对不起！\n[Character(name=\"avg_4055_bgsnow_1#8$1\")]\n[name=\"阿芙朵嘉\"]这样可以了吧！\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.7)]\n[Character(name=\"avg_npc_566_1#1$1\",fadetime=0.5)]\n[characteraction(name=\"middle\", type=\"move\", xpos=200, fadetime=0, block=false)]\n[characteraction(name=\"middle\", type=\"move\", xpos=-200, fadetime=1.5, block=true)]\n[Delay(time=2)]\n[Character(name=\"avg_npc_566_1#4$1\")]\n[name=\"克罗绮·砖石\"]啊，阿芙朵嘉，太好了，你还在这里。\n[Character(name=\"avg_npc_566_1#1$1\")]\n[name=\"克罗绮·砖石\"]耶奇大师刚才发来了通讯，他提议现在就在广场举行全体大会，其他代表都已经同意了，问问你的意见。\n[Character(name=\"avg_4055_bgsnow_1#1$1\")]\n[name=\"阿芙朵嘉\"]……\n[name=\"阿芙朵嘉\"]谢谢你，祖玛玛。\n[Character(name=\"avg_4055_bgsnow_1#6$1\")]\n[name=\"阿芙朵嘉\"]我虽然还是没有完全接受，但或许——我确实可以尝试一下。\n[Character(name=\"char_416_zumama_1#5\")]\n[name=\"森蚺\"]嗯。\n[Character(name=\"avg_4055_bgsnow_1#10$1\")]\n[name=\"阿芙朵嘉\"]克罗绮，告诉耶奇大师，就说，我没有问题，并且，我会来说服际崖城的居民们。"
+        }
+      ],
+      "description": "图书馆找图众人仍在原地，克罗绮到来传达耶奇大师的会议提议；大祭司、森蚺得知具体人物，不跨回另一处会议推双向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "PR02"
+          ],
+          "from": "char_416_zumama",
+          "reason": "图书馆找图众人仍在原地，克罗绮到来传达耶奇大师的会议提议；大祭司、森蚺得知具体人物，不跨回另一处会议推双向。",
+          "status": "supported",
+          "to": "npc_3b2937f62c55f178"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3b2937f62c55f178",
+          "reason": "已核对的本篇证据未建立该方向。",
+          "status": "not_established",
+          "to": "char_416_zumama"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_689cd1719e967667.json",
+      "sources": [
+        {
+          "endLine": 486,
+          "kind": "story",
+          "line": 446,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act20side/level_act20side_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "理想城：长夏狂欢季"
+    }
+  ],
+  "relationship_id": "char_416_zumama|npc_3b2937f62c55f178"
+}

@@ -1,0 +1,50 @@
+{
+  "contributions": [
+    {
+      "assignmentId": "review-04",
+      "description": "片中文月直接回应博士并向雪雉介绍其指挥官身份。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "npc_0390092af6e7eaa6",
+          "reason": "片中文月直接回应博士并向雪雉介绍其指挥官身份。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "片中文月直接回应博士并向雪雉介绍其指挥官身份。",
+          "status": "supported",
+          "to": "npc_0390092af6e7eaa6"
+        }
+      ],
+      "groupId": "group_f0cd623c8eb0c2e9",
+      "key": "npc_0390092af6e7eaa6|npc_b99957887950ebfd",
+      "label": "确认相识",
+      "personIds": [
+        "npc_0390092af6e7eaa6",
+        "npc_b99957887950ebfd"
+      ],
+      "realityScope": "fictional_film",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+      "temporalScope": "洪炉示岁所述时段",
+      "title": "洪炉示岁"
+    }
+  ],
+  "groupId": "group_f0cd623c8eb0c2e9",
+  "key": "npc_0390092af6e7eaa6|npc_b99957887950ebfd",
+  "names": [
+    "文月",
+    "博士"
+  ],
+  "personIds": [
+    "npc_0390092af6e7eaa6",
+    "npc_b99957887950ebfd"
+  ],
+  "realityScope": "fictional_film"
+}

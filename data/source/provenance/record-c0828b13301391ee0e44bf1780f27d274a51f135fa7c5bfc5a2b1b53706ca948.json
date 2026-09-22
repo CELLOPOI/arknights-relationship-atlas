@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 629,
+          "line": 617,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_st01.txt",
+          "quote": "[name=\"阿黛尔\"]我记得您是汐斯塔人。\n[charslot(slot=\"r\",name=\"avg_npc_999_1#2$1\",focus=\"r\")]\n[name=\"凯勒\"]嗯，去年的时候，赫尔曼邀请我回到汐斯塔，来建立这座博物馆。\n[name=\"凯勒\"]本来火山对于汐斯塔人来说，既是使人被迫离开家园的灾害，也是过去的回忆，火山与这座城市息息相关。\n[charslot(slot=\"r\",name=\"avg_npc_999_1#1$1\",focus=\"r\")]\n[name=\"凯勒\"]“能让人们凝聚在一起的，除了客观的自然环境，还有共同的记忆。”\n[charslot(slot=\"l\",name=\"avg_180_amgoat_1#11$1\",focus=\"l\")]\n[name=\"阿黛尔\"]……这是大学通识课本《地质学与城邦历史》中序言中的一句话。\n[charslot(slot=\"r\",name=\"avg_npc_999_1#9$1\",focus=\"r\")]\n[name=\"凯勒\"]我想这是一个机会，我希望这座博物馆，能成为既承载汐斯塔的回忆，也展示许多火山学者研究成果的地方。\n[name=\"凯勒\"]我在查找汐斯塔火山资料的时候，发现了两年前你写的意见报告——或许也是缘分吧。\n[charslot(slot=\"r\",name=\"avg_npc_999_1#8$1\",focus=\"r\")]\n[name=\"凯勒\"]现在汐斯塔火山临近爆发，所以我还想邀请你，一起完成这次观测，还有这个博物馆的布置。"
+        }
+      ],
+      "description": "凯勒明确回顾赫尔曼邀请自己回汐斯塔建博物馆，双方具体交往。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_427702546526b6c4",
+          "reason": "凯勒明确回顾赫尔曼邀请自己回汐斯塔建博物馆，双方具体交往。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "凯勒明确回顾赫尔曼邀请自己回汐斯塔建博物馆，双方具体交往。",
+          "status": "supported",
+          "to": "npc_427702546526b6c4"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 629,
+          "kind": "story",
+          "line": 617,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    }
+  ],
+  "relationship_id": "npc_427702546526b6c4|npc_ba4ddfafe7c93381"
+}

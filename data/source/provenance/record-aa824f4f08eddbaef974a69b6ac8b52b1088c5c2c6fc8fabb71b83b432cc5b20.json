@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 285,
+          "line": 269,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "quote": "[name=\"号角\"]布莱克，汇报前面的情况。\n[Character(name=\"avg_4039_horn_1#1$1\",focus=-1)]\n[name=\"维多利亚士兵\"]前路畅通，汇报完毕。\n[Character(name=\"avg_4039_horn_1#1$1\")]\n[name=\"号角\"]罗本呢？\n[Character(name=\"avg_4039_horn_1#1$1\",focus=-1)]\n[name=\"罗本\"]狙击小队已就位。\n[Character(name=\"avg_4039_horn_1#1$1\")]\n[name=\"号角\"]好。敌人数量？\n[Character(name=\"avg_4039_horn_1#1$1\",focus=-1)]\n[name=\"罗本\"]在我视野内的有十二个。都是萨卡兹士兵。\n[Character(name=\"avg_4039_horn_1#2$1\")]\n[name=\"号角\"]敌人指挥官位置？\n[Character(name=\"avg_4039_horn_1#2$1\",focus=-1)]\n[name=\"罗本\"]不确定。\n[Character(name=\"avg_4039_horn_1#1$1\")]\n[name=\"号角\"]继续警戒，等我信号。"
+        }
+      ],
+      "description": "号角点名布莱克，维多利亚士兵立即汇报；同一潜入行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E41"
+          ],
+          "from": "char_4039_horn",
+          "reason": "号角点名布莱克，维多利亚士兵立即汇报；同一潜入行动。",
+          "status": "supported",
+          "to": "npc_9d5d29c1bb701a7f"
+        },
+        {
+          "evidenceIds": [
+            "E41"
+          ],
+          "from": "npc_9d5d29c1bb701a7f",
+          "reason": "号角点名布莱克，维多利亚士兵立即汇报；同一潜入行动。",
+          "status": "supported",
+          "to": "char_4039_horn"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 285,
+          "kind": "story",
+          "line": 269,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_4039_horn|npc_9d5d29c1bb701a7f"
+}

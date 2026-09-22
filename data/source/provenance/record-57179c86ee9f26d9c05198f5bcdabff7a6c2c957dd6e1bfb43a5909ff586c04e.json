@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 35,
+          "line": 9,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_05-01.txt",
+          "quote": "[name=\"魏彦吾\"]  陈警官，你身边的那位阿米娅小姐，能听到我的声音吗？\n[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=2)]\n[name=\"阿米娅\"]  可以，魏长官。\n[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]\n[name=\"魏彦吾\"]  那就好。\n[name=\"魏彦吾\"]  抱歉，罗德岛的领袖。我可以冒险让近卫局深入腹地，却不能冒险让更多的玩家参与进游戏。\n[Decision(options=\"更多的玩家是指？;……什么意思？;场面已经够混乱了。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]\n[name=\"魏彦吾\"]  Dr.{@nickname}——\n[name=\"魏彦吾\"]  有一张错综复杂的无形巨网，覆盖了整片大地。\n[name=\"魏彦吾\"]  没有任何一个城邦能和这片大地脱开干系、在阴谋诡局中独善其身，何况是夹在数个庞然巨物之间的这里。\n[name=\"魏彦吾\"]  你也许意识到了，也许没有。但至少，我是必须要考虑这些问题的那个人。\n[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=2)]\n[name=\"阿米娅\"]  如果魏长官想要任务更顺利地执行，本就应该和我们分享信息。\n[name=\"阿米娅\"]  至少必要的那些，我该知道。\n[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=1)]\n[name=\"魏彦吾\"]  再次向你道歉，阿米娅小姐。我的位置迫使我不能把情报全盘披露。\n[name=\"魏彦吾\"]  如果你处在我的位置上，你也会做出相同的选择。\n[name=\"魏彦吾\"]  切城废城的行动不甚圆满，但至少你们取得了相应的战果。\n[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]\n[name=\"煌\"]  你让我们吸引整合运动的注意力。\n[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]\n[name=\"魏彦吾\"]  错了，龙门近卫局本也与你们一起。\n[Decision(options=\"你利用我们所有人做诱饵。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[name=\"魏彦吾\"]  哦？"
+        }
+      ],
+      "description": "魏彦吾与罗德岛队伍直接通信，双方对话识别。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "char_017_huang",
+          "reason": "魏彦吾与罗德岛队伍直接通信，双方对话识别。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "魏彦吾与罗德岛队伍直接通信，双方对话识别。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 35,
+          "kind": "story",
+          "line": 9,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_05-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "靶向药物所述时段",
+      "title": "靶向药物"
+    }
+  ],
+  "relationship_id": "char_017_huang|npc_08bc2cc38b820ef0"
+}

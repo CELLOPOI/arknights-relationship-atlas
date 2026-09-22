@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 973,
+          "line": 966,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "quote": "[name=\"九\"]……本来有其他地方用得上你帮忙，但你反正也会跟过去的吧？\n[name=\"九\"]别动用你们的大家伙，避免战斗，去和珀茜瓦尔申请几套装备，保护好自己。\n[charslot(slot=\"m\",name=\"avg_npc_648_1#5$1\",focus=\"m\")]\n[name=\"凯瑟琳\"]你们怎么知道——\n[charslot(slot=\"m\",name=\"avg_npc_648_1#1$1\",focus=\"m\")]\n[name=\"凯瑟琳\"]不，算了。\n[charslot(slot=\"m\",name=\"avg_npc_648_1#7$1\",focus=\"m\")]\n[name=\"凯瑟琳\"]谢了。"
+        }
+      ],
+      "description": "九明确要求凯瑟琳向珀茜瓦尔申请装备，凯瑟琳当面回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E156"
+          ],
+          "from": "char_4162_cathy",
+          "reason": "九明确要求凯瑟琳向珀茜瓦尔申请装备，凯瑟琳当面回应。",
+          "status": "supported",
+          "to": "npc_a8905be8b6efb124"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_a8905be8b6efb124",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4162_cathy"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 973,
+          "kind": "story",
+          "line": 966,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 588,
+          "line": 577,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_02_beg.txt",
+          "quote": "[name=\"凯瑟琳\"]通知他们继续让工厂全功率运行，再挡住那些萨卡兹一会儿，一会儿就好！\n[name=\"凯瑟琳\"]那些公爵试图让所有人相信城内已经不剩几个活着的维多利亚人，他们妄图将围而不攻的行为合理化，那我们就得自己发出声音。\n[name=\"凯瑟琳\"]必须让城墙外的那些人看到，我们还没有放弃！\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_864_1#9$1\",duration=0.7)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_864_1#9$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]配合不错，凯瑟琳女士。试着相信我们的人，大家都是好手。\n[name=\"珀茜瓦尔\"]九他们也正在重启其他工厂，很快，整座城市都会沸腾起来了。\n[charslot(slot=\"m\",name=\"avg_4162_cathy_1#4$1\",focus=\"m\")]\n[name=\"凯瑟琳\"]……费斯特，你们也回来了吗？"
+        }
+      ],
+      "description": "凯瑟琳与珀茜瓦尔直接交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_4162_cathy",
+          "reason": "双方直接对话或共同参与连续局部场景。",
+          "status": "supported",
+          "to": "npc_a8905be8b6efb124"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_a8905be8b6efb124",
+          "reason": "双方直接对话或共同参与连续局部场景。",
+          "status": "supported",
+          "to": "char_4162_cathy"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 588,
+          "kind": "story",
+          "line": 577,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "追迹日落以西现实场景",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_4162_cathy|npc_a8905be8b6efb124"
+}

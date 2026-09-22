@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 949,
+          "line": 947,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "quote": "[name=\"惊蛰\"] 司岁台秉烛人左乐，礼部左侍郎宁辞秋，肃政院副监察御史太合，尚蜀知府梁洵，以及我本人，都须在今夜子时之前，回到梁府。\n[Character(name=\"avg_npc_039_1\")]\n[name=\"惊蛰\"] 等候太傅指令。"
+        }
+      ],
+      "description": "惊蛰具体传达梁洵须到场的指令。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E31"
+          ],
+          "from": "char_306_leizi",
+          "reason": "惊蛰具体传达梁洵须到场的指令。",
+          "status": "supported",
+          "to": "npc_3e28dece98b601de"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_3e28dece98b601de",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_306_leizi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 949,
+          "kind": "story",
+          "line": 947,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    }
+  ],
+  "relationship_id": "char_306_leizi|npc_3e28dece98b601de"
+}

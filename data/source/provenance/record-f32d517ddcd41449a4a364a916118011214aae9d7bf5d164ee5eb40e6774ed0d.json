@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 714,
+          "line": 670,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "quote": "[name=\"令\"]阁下倒是风雅，留下这一院落花便想洒然离开了？\n[charslot(slot=\"l\",name=\"avg_2023_ling_1#8$1\",focus=\"l\")]\n[name=\"令\"]既然有意叨扰筵席，那何不再多留片刻？\n[dialog]\n[charslot(slot=\"r\",name=\"avg_npc_786_1#1$2\",focus=\"r\",duration=0.5)]\n[name=\"冷漠的女性\"]看你拿什么留下我。\n[SoundVolume(volume=1, fadetime=1,channel=\"bgs\")]\n[dialog]\n[PlaySound(key=\"$tactfulboost\", volume=1)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.4, block=true)]\n[Background(image=\"25_g08_pavilion\",screenadapt=\"coverall\")]\n[delay(time=0.4)]\n[Blocker(a=0, fadetime=2, block=false)]\n[stopmusic(fadetime=1)]\n[charslot(slot=\"r\",name=\"avg_npc_786_1#1$2\",focus=\"r\")]\n[delay(time=1)]\n[name=\"冷漠的女性\"]梦？\n[charslot(slot=\"l\",name=\"avg_2023_ling_1#3$1\",focus=\"l\")]\n[name=\"令\"]你竟然能认出这是梦？\n[charslot(slot=\"r\",name=\"avg_npc_786_1#2$2\",focus=\"r\")]\n[name=\"冷漠的女性\"]将自己一分为十二，还能保持这种能力……\n[charslot(slot=\"l\",name=\"avg_2023_ling_1#3$1\",focus=\"l\")]\n[name=\"令\"]哦？你不仅知道我，还知道“他”。\n[charslot(slot=\"r\",name=\"avg_npc_786_1#1$2\",focus=\"r\")]\n[name=\"冷漠的女性\"]我要见的是他……你不是他。\n[charslot(slot=\"l\",name=\"avg_2023_ling_1#1$1\",focus=\"l\")]\n[name=\"令\"]我自然是我，你又为什么要见他？\n[charslot(slot=\"r\",name=\"avg_npc_786_1#1$2\",focus=\"r\")]\n[name=\"冷漠的女性\"]即便是在梦里，我也不愿意与你多浪费时间。\n[charslot(slot=\"r\",name=\"avg_npc_786_1#5$2\",focus=\"r\")]\n[name=\"冷漠的女性\"]这黄粱一梦，也困不住我。\n[dialog]\n[PlaySound(key=\"$tactfulboost\", volume=1)]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Background(image=\"35_g3_yumenobservationtower_n\",screenadapt=\"coverall\",fadetime=0.7)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[character]\n[dialog]\n[SoundVolume(volume=0, fadetime=1,channel=\"bgs\")]\n[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]\n[charslot(slot=\"r\",name=\"avg_npc_786_1#5$2\",focus=\"l\")]\n[charslot(slot=\"l\",name=\"avg_2023_ling_1#8$1\",focus=\"l\")]\n[name=\"令\"]看来阁下的梦，也做了很长时间，呵。\n[charslot(slot=\"l\",name=\"avg_2023_ling_1#1$1\",focus=\"l\")]\n[name=\"令\"]既然醒了，回到这纷扰尘世，就不免要真的刀兵相见了。"
+        }
+      ],
+      "description": "令现实中拦住睚，随后施术梦境交锋并返回现实，不只是虚构梦中人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E45"
+          ],
+          "from": "char_2023_ling",
+          "reason": "令现实中拦住睚，随后施术梦境交锋并返回现实，不只是虚构梦中人物。",
+          "status": "supported",
+          "to": "npc_540cd5c18cb7a9cf"
+        },
+        {
+          "evidenceIds": [
+            "E45"
+          ],
+          "from": "npc_540cd5c18cb7a9cf",
+          "reason": "令现实中拦住睚，随后施术梦境交锋并返回现实，不只是虚构梦中人物。",
+          "status": "supported",
+          "to": "char_2023_ling"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 714,
+          "kind": "story",
+          "line": 670,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    }
+  ],
+  "relationship_id": "char_2023_ling|npc_540cd5c18cb7a9cf"
+}

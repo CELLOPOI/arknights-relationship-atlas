@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 500,
+          "line": 478,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_graceb_1_1.txt",
+          "quote": "[PlaySound(key=\"$doorknockquite\", volume=1)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1779_1#3$2\",focus=\"m\")]\n[name=\"梵里妮\"]稍等，这就，来，来了……\n[Dialog]\n[charslot(duration=0.5)]\n[delay(time=0.7)]\n[PlaySound(key=\"$dooropenquite\", volume=1)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1781_1#3$1\",focus=\"m\")]\n[name=\"潘格尼尼\"]梵妮，谁让你开门了？无非又是教皇厅的人搞什么屁用没有的慰问……\n[Dialog]\n[charslot]\n[name=\"？？？\"]抱歉，打扰到你们了吗？\n[charslot(slot=\"m\",name=\"avg_npc_1781_1#3$1\",focus=\"m\")]\n[name=\"潘格尼尼\"]你谁啊你？\n[Dialog]\n[charslot]\n[delay(time=0.3)]\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#14$1\",duration=1)]\n[delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_4187_graceb_1#14$1\",focus=\"m\")]\n[name=\"努艾达\"]请叫我努艾达就好。请放心，我没带那些除了垫桌角之外什么用都没有的“慰问品”。"
+        }
+      ],
+      "description": "梵里妮为来访的努艾达开门，双方在门口相互知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_4187_graceb",
+          "reason": "努艾达在梵里妮开门后立即向屋内“你们”致歉并自报姓名，明确感知开门者。",
+          "status": "supported",
+          "to": "npc_4cb2a6da97143209"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_4cb2a6da97143209",
+          "reason": "梵里妮应努艾达的敲门声开门并与来访者处于同一连续局部场景。",
+          "status": "supported",
+          "to": "char_4187_graceb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_ead5e461d658ff8f.json",
+      "sources": [
+        {
+          "endLine": 500,
+          "kind": "story",
+          "line": 478,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_graceb_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "努艾达前往工坊探望潘格尼尼时",
+      "title": "聆音"
+    }
+  ],
+  "relationship_id": "char_4187_graceb|npc_4cb2a6da97143209"
+}

@@ -1,0 +1,175 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 723,
+          "line": 677,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-06_beg.txt",
+          "quote": "[name=\"曼弗雷德\"]你果然在这里。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]曼弗雷德……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]缓兵之计……你们真的以为，坚守住这具骸骨，就能给你们带来反败为胜的希望？\n[Dialog]\n[charslot]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.8)]\n[PlaySound(key=\"$swordtsing4\", volume=0.9,delay=0.2)]\n[CameraShake(duration=0.8, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Effect(name=\"$e_slash_cross\",rox=35,roy=-210,roz=65,layer = 1)]\n[Effect(name=\"$e_spark_02_large\",layer = 2)]\n[Effect(name=\"$e_spark_01_mid\",layer = 3)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]\n[PlaySound(key=\"$d_avg_spear\",volume=0.8)]\n[PlaySound(key=\"$swordtsing5\", volume=0.9,delay=0.2)]\n[CameraShake(duration=0.8, xstrength=25, ystrength=25, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Effect(name=\"$e_spark_01_large\",layer = 2)]\n[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#3$1\",afrom=0,ato=0, action=\"zoom\",poszoom=\"0.5,0.5\",scale=1.02,duration=0,isblock=true)]\n[charslot(slot=\"m\",afrom=0,ato=1,duration=0.3,isblock=false)]\n[CameraShake(duration=0.5, xstrength=25, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",afrom=1,ato=1,action=\"zoom\",poszoom=\"0.5,0.5\",scale=1,duration=0.3)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]为什么？\n[name=\"曼弗雷德\"]我给过你机会，我给过你太多次机会——你明明知道，最明智的选择是什么！\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]可悲，你又在让一批萨卡兹屠戮另一批萨卡兹，曼弗雷德。\n[name=\"赫德雷\"]这样的“战争”你还没有打够吗？\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]你真让我失望啊……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]不是我在杀死他们，是你的幼稚在杀死他们！\n[name=\"曼弗雷德\"]你早就应该离开。这不就是你一直渴望的吗？\n[name=\"曼弗雷德\"]而现在，你的雇佣兵们死在这里，我的战士们也死在这里，仅仅是为了这样无意义的目的……内战的教训还不够惨痛吗！\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#3$1\",focus=\"m\")]\n[name=\"赫德雷\"]正因为我们都看到过内战最终变成了什么样子，萨卡兹们才不该重蹈覆辙！\n[name=\"赫德雷\"]内战已经让我们失去了一整代年轻人，你们却还想杀死更多？\n[name=\"赫德雷\"]这场面对整个泰拉的战争不会有任何结果！\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]不，一定会有结果，也必须有结果。"
+        }
+      ],
+      "description": "真曼弗雷德进入骸骨与赫德雷具名对峙，区别于此前变形者伪装。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E79"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "真曼弗雷德进入骸骨与赫德雷具名对峙，区别于此前变形者伪装。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E79"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "真曼弗雷德进入骸骨与赫德雷具名对峙，区别于此前变形者伪装。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 723,
+          "kind": "story",
+          "line": 677,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 78,
+          "line": 38,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-03_beg.txt",
+          "quote": "[name=\"？？？\"]不用我下去看看？当然，只是一个建议。\n[Character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"]你担心我会失败。\n[Character(name=\"avg_npc_393_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"？？？\"]怎么会呢？你的计算从未失准。\n[Character(name=\"avg_npc_393_1#1$1\",blackstart=0.2,blackend=0.7)]\n[name=\"？？？\"]而我的工作，是确保我们通往胜利的道路上少一些变数。\n[Character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"]那么你已经做得足够好了，雇佣兵。\n[Character(name=\"avg_npc_404_1#4$1\")]\n[name=\"曼弗雷德\"]来吧，站到这边来。在试验正式开始之前，我需要让你也看看这高墙下的局面。\n[dialog]\n[character(fadetime=0.7)]\n[delay(time=1.5)]\n[Image(image=\"27_i16\", fadetime=2, xScale=1, yScale=1)]\n[ImageTween(image=\"27_i16\",  xfromScale=1, yfromScale=1,xScaleTo=0.9, yScaleTo=0.9, duration=40)]\n[Background]\n[name=\"赫德雷\"]……\n[name=\"赫德雷\"]很热闹。\n[name=\"曼弗雷德\"]与卡兹戴尔的战场相比，如何？\n[name=\"赫德雷\"]……不算新鲜。\n[name=\"赫德雷\"]不过……至少交手双方并不都是萨卡兹。\n[name=\"曼弗雷德\"]你在卡兹戴尔的时候，应该也猎过兽。\n[name=\"赫德雷\"]猎兽？对常年身处野外的雇佣兵来说，这也算是填饱肚子的必要选项。\n[name=\"曼弗雷德\"]那你一定知道，为何我要留下这些出入口。\n[name=\"赫德雷\"]……有的时候，陷阱虽然显眼，但因为处在必经之路上，野兽们还是会一个接着一个地踩上来。\n[name=\"赫德雷\"]要是找不到出路，它们反而会到处乱窜，让我们不得不分散人力去围追堵截。\n[name=\"曼弗雷德\"]嗯，这是荒地里的法则，但不止如此。\n[name=\"曼弗雷德\"]看看我们脚下的这座城市。它大到就像钢铁丛生的荒野。\n[name=\"曼弗雷德\"]谁有自信能封住一片荒野上的全部出路？谁又能找出丛林中每一处视野边缘的缝隙？\n[name=\"曼弗雷德\"]我不会这般自负。\n[name=\"赫德雷\"]所以你选择留下几个缺口，集中注意，等着敌人自己冒出来。这是效率最高的做法。\n[name=\"曼弗雷德\"]可也有一定风险。\n[name=\"赫德雷\"]不冒险的话，怎么会有收获？\n[name=\"赫德雷\"]换作是我，我也会这么选。\n[name=\"曼弗雷德\"]好。出色的雇佣兵头领，也一定是优秀的猎人。\n[name=\"曼弗雷德\"]比起那些王庭遗老，我更喜欢和你一起并肩作战，而这就是原因。\n[name=\"赫德雷\"]……看起来，你今天收获颇丰。\n[name=\"赫德雷\"]除了反抗军，还有深池……\n[name=\"赫德雷\"]等等，我见过那个术师，她来见过你。你们不是达成停战约定了吗？虽然可能你们都没太把这当回事。\n[name=\"曼弗雷德\"]既然你见过她，你就该知道，那样的人，从来不清楚自己该在何时停下。"
+        }
+      ],
+      "description": "曼弗雷德邀赫德雷同看高墙下战况并评战术。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "曼弗雷德邀赫德雷同看高墙下战况并评战术。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德邀赫德雷同看高墙下战况并评战术。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 78,
+          "kind": "story",
+          "line": 38,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 77,
+          "line": 64,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "quote": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#1$1\",focus=\"l\")]\n[name=\"赫德雷\"]这支队伍必须继续向所有势力展现出最强势的一面。一旦失去挥动武器的力气，这些人立马就会被吃得骨头都不剩。\n[name=\"赫德雷\"]那位新的“魔王”也一样。\n[name=\"赫德雷\"]主动权必须握在我们自己的手里。\n[Dialog]\n[charslot]\n透过骸骨看向外面，飞空艇若隐若现，舰炮的索敌状态也一直没有解除。\n而在它的周围，是一片随着撤军队伍移动的巨大天灾云。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#8$1\",focus=\"m\")]\n[name=\"伊内丝\"]但还有另一件事，我非常担心。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]你确定让W看守曼弗雷德是个好主意？\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]她的确是最合适的人选。"
+        }
+      ],
+      "description": "赫德雷直接回应曼弗雷德的看守安排；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E23"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "赫德雷直接回应曼弗雷德的看守安排",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "对方未在该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 77,
+          "kind": "story",
+          "line": 64,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "萨卡兹撤军途中",
+      "title": "我们明日见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 581,
+          "line": 521,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "quote": "[name=\"曼弗雷德\"]……\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.7)]\n[Character(name=\"avg_npc_419_1#1$1\")]\n[name=\"萨卡兹战士\"]行进！行进！\n[name=\"萨卡兹战士\"]保持队形！\n[dialog]\n[character]\n[delay(time=1.5)]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_393_1#1$1\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"赫德雷\"]……听说你在找我。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]伤恢复得怎么样？\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=1)]\n[name=\"赫德雷\"]老样子，不妨碍做任务就行。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]那就好。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#8$1\", focus=2)]\n[name=\"曼弗雷德\"]我刚收到了一条消息，你看看。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#8$1\", focus=1)]\n[name=\"赫德雷\"]……好。\n[Character(name=\"avg_npc_393_1#6$1\", name2=\"avg_npc_404_1#8$1\", focus=1)]\n[name=\"赫德雷\"]先前派去海布里区执行秘密任务的雇佣兵……出事了？\n[Character(name=\"avg_npc_393_1#6$1\", name2=\"avg_npc_404_1#6$1\", focus=2)]\n[name=\"曼弗雷德\"]他们本该在一个小时前汇报任务进展。\n[Character(name=\"avg_npc_393_1#7$1\", name2=\"avg_npc_404_1#6$1\", focus=1)]\n[name=\"赫德雷\"]……\n[Character(name=\"avg_npc_393_1#7$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]雇佣兵们最近的表现很难让军事委员会满意。\n[Character(name=\"avg_npc_393_1#7$1\", name2=\"avg_npc_404_1#9$1\", focus=2)]\n[name=\"曼弗雷德\"]士兵们需要把注意力集中在更大的战场上。殿下与我原本对雇佣兵……寄予厚望。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#9$1\", focus=1)]\n[name=\"赫德雷\"]……我这就去调查他们的下落。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#7$1\", focus=2)]\n[name=\"曼弗雷德\"]不必了，我都安排好了。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#3$1\", focus=2)]\n[name=\"曼弗雷德\"]对了……我有一个猜想。他们或许是撞上了你的老熟人。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]对萨卡兹的补给线那么关心的，除了我们自己以外，显然还有另一拨人。\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#1$1\", focus=2)]\n[name=\"曼弗雷德\"]你猜猜看，Dr.{@nickname}和阿斯卡纶……\n[Character(name=\"avg_npc_393_1#1$1\", name2=\"avg_npc_404_1#4$1\", focus=2)]\n[name=\"曼弗雷德\"]他们此刻是在海布里区调查军工厂，还是已经在准备突袭其他藏有补给线情报的枢纽了？\n[Character(name=\"avg_npc_393_1#6$1\", name2=\"avg_npc_404_1#4$1\", focus=1)]\n[name=\"赫德雷\"]……\n[Character(name=\"avg_npc_393_1#6$1\", name2=\"avg_npc_404_1#8$1\", focus=2)]\n[name=\"曼弗雷德\"]继续养伤吧，雇佣兵。\n[dialog]\n[delay(time=1)]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=1)]\n[Character(name=\"avg_npc_419_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"char_empty\",name2=\"avg_npc_419_1#1$1\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"avg_npc_419_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"avg_npc_419_1#1$1\",name2=\"avg_npc_419_1#1$1\")]\n[delay(time=1)]\n[Character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]在我把你的老朋友们一个个找出来之前，你不需要再受更多“伤”了。"
+        }
+      ],
+      "description": "赫德雷受曼弗雷德调度。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "赫德雷直接回应曼弗雷德的任务询问。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德直接召见并安排赫德雷。",
+          "status": "supported",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 581,
+          "kind": "story",
+          "line": 521,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "军事委员会行军期间",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_4088_hodrer|npc_03f95afb5dd17c3f"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 413,
+          "line": 397,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_03_beg.txt",
+          "quote": "[name=\"摩根\"]原来物资清点是这么痛苦的事情吗？\n[name=\"摩根\"]过去盘算我们地盘里厂子的物资也没有这么磨人吧……\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#3$1\",focus=\"m\")]\n[name=\"维娜\"]这要是算痛苦的话，我倒希望能再苦一点。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#12$1\",focus=\"m\")]\n[name=\"摩根\"]嘿嘿，不过确实蛮让人兴奋的，原来还有这么多人愿意支持我们——\n[charslot(slot=\"m\",name=\"avg_npc_405_1#2$1\",focus=\"m\")]\n[name=\"摩根\"]（哈欠）折腾太久了，都天亮了。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"维娜\"]……得加快速度了，不能拖太久。其他人能为我们争取的时间不会太多。\n[name=\"维娜\"]按维什戴尔那边传回来的消息，军事委员会的整个指挥系统被他们搅了个乱七八糟，但食腐者军队还在西部大堂区域严阵以待。\n[name=\"维娜\"]我们进城已经两天，但他们至今还没大动静。\n[charslot(slot=\"m\",name=\"avg_npc_405_1#3$1\",focus=\"m\")]\n[name=\"摩根\"]不是有消息说特雷西斯已经抛下他们躲起来了吗？说不定食腐者他们一直没动静就是这个原因。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\")]\n[name=\"维娜\"]只是猜测而已，甚至连博士他们都还没有确切的消息可以证实这个说法。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#3$1\",focus=\"m\")]"
+        }
+      ],
+      "description": "char_154_morgan知晓npc_c573b8884914fc60；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_154_morgan",
+          "reason": "摩根具体提及特雷西斯。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "本组该证据未提供反向识别。",
+          "status": "not_established",
+          "to": "char_154_morgan"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 413,
+          "kind": "story",
+          "line": 397,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "追迹日落以西现实场景",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_154_morgan|npc_c573b8884914fc60"
+}

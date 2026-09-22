@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 80,
+          "line": 14,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-09_end.txt",
+          "quote": "[name=\"医疗干员\"]   咿——！\n[Character(name=\"char_013_riop\", name2=\"char_016_medic\", focus=1)]\n[name=\"近卫干员\"]  小心！！\n[Character(name=\"char_013_riop\", name2=\"char_016_medic\", focus=2)]\n[name=\"医疗干员\"]  我没事，只是擦伤而已，不要紧……\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  还不够……再这样下去，包围圈会越来越小。\n[Character(name=\"char_002_amiya_1#7\", name2=\"char_130_doberm_ex\", focus=2)]\n[name=\"杜宾\"]  我们已经找到了突破口，但没有增援，我们只能采取守势，没法突围！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  ……请再坚持一下！优先用火力压制敌方射手！\n[name=\"阿米娅\"]  敌人的先锋，就由我们术师来处理！\n[Dialog]\n[Character]\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]  没错，没错！就该这样！接下来，f3，e5！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   可憎的小子……！\n[Dialog]\n[Character]\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]  很好！那么，b4，b5！\n[character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]  敌人正在向我们侧后方迂回！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  调两位重装干员和一位狙击干员！只要能牵制他们就足够了！\n[Dialog]\n[Character]\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]  之后！h2，h6！\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   他们，他们在冲击我们的阵线！\n[Character(name=\"char_014_riope\")]\n[name=\"Ace\"]   近卫干员，把敌人赶出掩体！\n[Dialog]\n[Character]\n[Character(name=\"char_1507_Mephisto_1#1\")]\n[name=\"梅菲斯特\"]  没错，再让我多看一会儿，你们挣扎的样子！\n[name=\"梅菲斯特\"]  现在，术师，c7，吃掉敌人的战车吧！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  敌人的术师现身了……！之前，一直躲在重装干员身后吗！\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   来不及了！趴下！\n[character]\n[Dialog]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[Delay(time=0.5)]\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]   呜啊啊啊！\n[character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]  咳……\n[Character(name=\"char_1507_Mephisto_1#5\")]\n[name=\"梅菲斯特\"]  然后就去死吧，就像雨夜中的火星一样！\n[Character(name=\"char_002_amiya_1#7\")]\n[name=\"阿米娅\"]  他，是在指挥自己的队伍吗……！仅仅运用象棋走法，就能下达精准的命令？\n[name=\"阿米娅\"]  明明都是些狂暴的感染者，战斗却完全由他一人指挥……！\n[name=\"阿米娅\"]  再这样下去，他会把指挥优势发挥到极致——\n[Character(name=\"char_130_doberm_ex\")]\n[name=\"杜宾\"]   相应的，只要能压制他的话，也就没什么大不了！\n[name=\"杜宾\"]   不要让整合运动打开哪怕一丁点缺口！"
+        }
+      ],
+      "description": "梅菲斯特近处指挥围攻，罗德岛队伍听见并评价其指令，Guard与Medic及Ace在同一掩体阵线上回应敌攻。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "梅菲斯特近处指挥围攻，罗德岛队伍听见并评价其指令，Guard与Medic及Ace在同一掩体阵线上回应敌攻。",
+          "status": "supported",
+          "to": "npc_03efe1bf09e24b53"
+        },
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "梅菲斯特近处指挥围攻，罗德岛队伍听见并评价其指令，Guard与Medic及Ace在同一掩体阵线上回应敌攻。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_55277db9a774a40f.json",
+      "sources": [
+        {
+          "endLine": 80,
+          "kind": "story",
+          "line": 14,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_00-09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑暗时代·上所述时段",
+      "title": "黑暗时代·上"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 105,
+          "line": 90,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "quote": "[Character(name=\"char_017_homura_3#1\")]\n[name=\"煌\"]  通过空气折射让身形变得透明啊，好手法。\n[name=\"煌\"]  不过你掩盖不了自己的行踪，又或者是动作幅度太大，也会导致这个源石技艺失效。\n[name=\"煌\"]  我说得对吗？\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=2)]\n[name=\"浮士德\"]  ……你很聪明。\n[Character(name=\"char_017_homura_3#1\",name2=\"char_1508_Faust_1#1\",focus=1)]\n[name=\"煌\"]  是罗德岛情报做得好。你没戏唱了，投降吧。\n[name=\"煌\"]  如果还要打的话，哼，不管有没有你的份，你都得为Ace和Scout抵命，小子。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  浮士德，我们还有弹药。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=1)]\n[name=\"浮士德\"]  撤退。我们已经失去了情报优势。我会狙击他们，你们立刻转移。\n[Character(name=\"char_1508_Faust_1#1\",name2=\"avg_npc_016\",focus=2)]\n[name=\"幻影弩手\"]  明白。\n[Character(name=\"char_1507_Mephisto_1#4\")]"
+        }
+      ],
+      "description": "煌当面要求敌人为Ace和Scout抵命，梅菲斯特、浮士德在同一交锋听取；不能推死者反向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E19"
+          ],
+          "from": "npc_03efe1bf09e24b53",
+          "reason": "煌当面要求敌人为Ace和Scout抵命，梅菲斯特、浮士德在同一交锋听取；不能推死者反向知晓。",
+          "status": "supported",
+          "to": "npc_ded4733bcc9da868"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ded4733bcc9da868",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_03efe1bf09e24b53"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_0fea733b830bb334.json",
+      "sources": [
+        {
+          "endLine": 105,
+          "kind": "story",
+          "line": 90,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_05-10_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "靶向药物所述时段",
+      "title": "靶向药物"
+    }
+  ],
+  "relationship_id": "npc_03efe1bf09e24b53|npc_ded4733bcc9da868"
+}

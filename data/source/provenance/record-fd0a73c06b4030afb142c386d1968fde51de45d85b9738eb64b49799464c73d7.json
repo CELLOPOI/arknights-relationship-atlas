@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 212,
+          "line": 203,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_03_beg.txt",
+          "quote": "[Character(name=\"avg_npc_107\")]\n[name=\"光头马丁\"]  唔？居然除了你们还有别的客人，真稀奇……\n[Character(name=\"avg_npc_120\", name2=\"avg_npc_107\", focus=1)]\n[name=\"老骑士\"]  你这样会倒闭的吧。\n[Dialog]\n[Character]\n[Character(name=\"avg_npc_109#2\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"企业员工\"]  ……呃。\n[name=\"企业员工\"]  请问……您是骑士玛莉娅·临光阁下吗？"
+        }
+      ],
+      "description": "马丁单向注意到来访的马克维茨。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E25"
+          ],
+          "from": "npc_2a519e8c8e7b4e11",
+          "reason": "马丁明确注意到马克维茨进入酒吧并称其为稀奇的新客人。",
+          "status": "supported",
+          "to": "npc_d9e6a25fb83f9874"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_d9e6a25fb83f9874",
+          "reason": "马克维茨随后只向玛莉娅与佐菲娅说明来意，没有回应或点名马丁。",
+          "status": "not_established",
+          "to": "npc_2a519e8c8e7b4e11"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_89f9ae4a0acf0209.json",
+      "sources": [
+        {
+          "endLine": 212,
+          "kind": "story",
+          "line": 203,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13d5/level_act13d5_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "酒吧合同会谈",
+      "title": "玛莉娅·临光"
+    }
+  ],
+  "relationship_id": "npc_2a519e8c8e7b4e11|npc_d9e6a25fb83f9874"
+}

@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 466,
+          "line": 409,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-12_beg.txt",
+          "quote": "[name=\"伊内丝\"]该死，这里的门被封上了。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#9$1\",focus=\"m\")]\n[name=\"伊内丝\"]博士，站在我的身后。\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_865_1#2$1\",focus=\"m\",duration=1)]\n[delay(time=1)]\n[name=\"考伯特\"]各位，欢迎来到日落街酒店，这里已经很久没有这么多大人物光顾了。\n[charslot(slot=\"m\",name=\"avg_npc_864_1#5$1\",focus=\"m\")]\n[name=\"珀茜瓦尔\"]考伯特！我不是叫你藏好吗！\n[charslot(slot=\"m\",name=\"avg_npc_865_1#1$1\",focus=\"m\")]\n[name=\"考伯特\"]有客人上门却不招待，这可是酒店经理的失职。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#1$1\",focus=\"m\")]\n[name=\"考伯特\"]真是抱歉，如今眼下的条件有限，要不然，我该给各位端上待客的茶水。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#1$1\",focus=\"m\")]\n[name=\"考伯特\"]请问，有什么可以帮助各位的吗？\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]……\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",focus=\"m\")]\n[name=\"“校官”\"]……\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]那有普通的水吗？我确实……有些渴。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#2$1\",focus=\"m\")]\n[name=\"考伯特\"]这我倒是能为您效力，戴菲恩小姐。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]老威灵顿果然不舍得放过这里。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",focus=\"m\")]\n[name=\"“校官”\"]开斯特公爵也一样。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]你们愿意放我离开吗？\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",focus=\"m\")]\n[name=\"“校官”\"]你和那位蓝色头发的菲林都不行。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]我想，开斯特公爵与威灵顿公爵，在对抗萨卡兹方面还是有一些默契的。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]对我们各自的目标……也有一些默契。\n[charslot(slot=\"m\",name=\"avg_npc_723_1#1$1\",focus=\"m\")]\n[name=\"“校官”\"]我只服从我接受的命令。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]塔拉人都和你一样死板吗？\n[charslot(slot=\"m\",name=\"avg_npc_723_1#2$1\",focus=\"m\")]\n[name=\"“校官”\"]我的幽默感只会留给我的朋友。\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]太好了，我很喜欢交朋友，同为维多利亚人，不如从抱怨天气开始怎么样？\n[charslot(slot=\"m\",name=\"avg_npc_865_1#7$1\",focus=\"m\")]\n[name=\"考伯特\"]是啊，天气……伦蒂尼姆的天气总是那么糟，越来越糟啦。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#7$1\",focus=\"m\")]\n[name=\"考伯特\"]要放在四十年前，出太阳的日子还要多些。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#2$1\",focus=\"m\")]\n[name=\"考伯特\"]那时候，这家酒店的情况也要好得多。多了不起的酒店啊！\n[charslot(slot=\"m\",name=\"avg_npc_865_1#2$1\",focus=\"m\")]\n[name=\"考伯特\"]直到今天，我还记得自己刚来应聘门童的时候呢。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#6$1\",focus=\"m\")]\n[name=\"考伯特\"]听说，那时候连公爵都喜欢住在这里！\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]这里没你的事，萨卡兹。\n[charslot(slot=\"m\",name=\"avg_npc_865_1#11$1\",focus=\"m\")]\n[name=\"考伯特\"]先生，真是抱歉，我更希望你把我看作一个和你一样的维多利亚人。"
+        }
+      ],
+      "description": "校官单向明确知晓开斯特公爵。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E29"
+          ],
+          "from": "npc_974bc7361c242057",
+          "reason": "校官在酒店交涉中多次明确谈到开斯特公爵及其命令。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "被谈及者未在该局部场景出场，缺少反向接收依据。",
+          "status": "not_established",
+          "to": "npc_974bc7361c242057"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 466,
+          "kind": "story",
+          "line": 409,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-12_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    }
+  ],
+  "relationship_id": "npc_8c87697c59975883|npc_974bc7361c242057"
+}

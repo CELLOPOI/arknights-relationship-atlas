@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 427,
+          "line": 414,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "quote": "[name=\"伦蒂尼姆市民\"]对了女士，还有消息说，除了今天中午就过来了的雇佣兵首领，那个萨卡兹将军也在这里。\n[Character(name=\"avg_npc_400_1#4$1\")]\n[name=\"海蒂\"]……曼弗雷德？\n[name=\"海蒂\"]连他都……糟了。\n[Character(name=\"avg_npc_417_1#1$1\")]\n[name=\"伦蒂尼姆市民\"]怎么了？\n[Character(name=\"avg_npc_400_1#8$1\")]\n[name=\"海蒂\"]这是个陷阱。克洛维希娅……或许还有他们……\n[Character(name=\"avg_npc_417_1#1$1\")]\n[name=\"伦蒂尼姆市民\"]你担心指挥官会在今天行动？我们得想个办法通知他们……呃……但这么多天了，我们找不到机会把消息传出这面墙。\n[Character(name=\"avg_npc_400_1#8$1\")]\n[name=\"海蒂\"]……\n[name=\"海蒂\"]不，他们一定也想过这会是陷阱。说不定……这同时是个机会。\n[name=\"海蒂\"]本尼，通知其他人，我们的行动可能也要提前了。所有能战斗的人，做好战斗准备。"
+        }
+      ],
+      "description": "海蒂由驻场将军消息明确辨识曼弗雷德并判断其设下陷阱。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E42"
+          ],
+          "from": "char_4045_heidi",
+          "reason": "海蒂由驻场将军消息明确辨识曼弗雷德并判断其设下陷阱。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_4045_heidi"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 427,
+          "kind": "story",
+          "line": 414,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "char_4045_heidi|npc_03f95afb5dd17c3f"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 565,
+          "line": 542,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st02.txt",
+          "quote": "[name=\"大帝\"]好了！我的耳朵都要起茧子了！\n[name=\"大帝\"]都闭嘴吧，我已经做好决定了！\n[Dialog]\n[Character]\n[Delay(time=0.51)]\n[PlaySound(key=\"$bullet_loading\", volume=1)]\n[Delay(time=1)]\n子弹上膛的声音响起，大帝举起了配铳对准了笼子里的鼷兽。这只鼷兽即将血溅当场的命运，让所有人的呼吸都变得急促。\n就在大帝扣动扳机前的一刹那，一只小手按住了铳管。\n[Dialog]\n[Character(name=\"avg_lolxh_4067_1#5$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]你不能杀它。\n[Character(name=\"avg_lolxh_4067_1#5$1\", name2=\"char_105_emper\", focus=2)]\n[name=\"大帝\"]你以为可以阻止我吗，小屁孩？或许你有两把刷子，但是你想好之后的结果了吗？\n[name=\"大帝\"]你可是代表老鲤来办事的，你也不想老鲤的招牌砸在你的手里吧？\n[Character(name=\"avg_lolxh_4067_1#5$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]你——\n[Character(name=\"avg_lolxh_4067_1#7$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]......我只是......\n[Character(name=\"avg_lolxh_4067_1#10$1\", name2=\"char_105_emper\", focus=1)]\n[name=\"小黑\"]只能这样做吗？\n[name=\"小黑\"]被迫离开自己的家，四处流浪......没人想要这样吧。\n[name=\"小黑\"]可以再想想别的办法吗？\n[name=\"小黑\"]一直被驱赶，真的很难受......"
+        }
+      ],
+      "description": "小黑与大帝围绕鼷兽直接对话并有按住铳管的行动接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "char_4067_lolxh",
+          "reason": "小黑与大帝围绕鼷兽直接对话并有按住铳管的行动接触。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "小黑与大帝围绕鼷兽直接对话并有按住铳管的行动接触。",
+          "status": "supported",
+          "to": "char_4067_lolxh"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_56004ab0da71157f.json",
+      "sources": [
+        {
+          "endLine": 565,
+          "kind": "story",
+          "line": 542,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "好久不见"
+    }
+  ],
+  "relationship_id": "char_4067_lolxh|npc_2b6410ed62fdecf2"
+}

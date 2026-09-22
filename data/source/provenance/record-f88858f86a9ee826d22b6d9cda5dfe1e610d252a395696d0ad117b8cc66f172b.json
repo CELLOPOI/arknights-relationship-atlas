@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 50,
+          "line": 38,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_st03.txt",
+          "quote": "[name=\"“桥夹”克里夫\"]三天。\n[name=\"“桥夹”克里夫\"]那些孩子看到我受伤了都很紧张，一时下手没轻重。你被推倒时脑袋撞在了阶梯上，当场就昏过去了。\n[charslot(slot = \"left\", name = \"avg_npc_1034_1#1$2\",focus = \"l\")]\n[name=\"伍德洛\"]杰西卡她们……\n[charslot(slot = \"right\", name = \"avg_npc_1036_1#8$2\",focus = \"r\")]\n[name=\"“桥夹”克里夫\"]放心，她毫发无损。至于海伦娜女士，我派了人护送。\n[name=\"“桥夹”克里夫\"]估计半个月后，她就能安然抵达那家赌场，将所有钱洗得干干净净，再交给那位早已等在拓荒地的西尔维娅。\n[charslot(slot = \"left\", name = \"avg_npc_1034_1#1$2\",focus = \"l\")]\n[name=\"伍德洛\"]……你没让人去追吗？\n[charslot(slot = \"right\", name = \"avg_npc_1036_1#10$2\",focus = \"r\")]\n[name=\"“桥夹”克里夫\"]伍迪，我一早就说了，我只关心合同上的事，上面要求我拖拽地块到指定的位置，并在拖拽期间维护地块治安。\n[charslot(slot = \"right\", name = \"avg_npc_1036_1#7$2\",focus = \"r\")]\n[name=\"“桥夹”克里夫\"]地块外的事情，里面没提到，我不关心。"
+        }
+      ],
+      "description": "克里夫具体提及西尔维娅，仅支持克里夫到西尔维娅。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_5ced1ba8cf75c26d",
+          "reason": "本组窗口没有西尔维娅知晓克里夫的独立证据。",
+          "status": "not_established",
+          "to": "npc_b9643057e24653f0"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_b9643057e24653f0",
+          "reason": "克里夫明确安排钱经西尔维娅转交。",
+          "status": "supported",
+          "to": "npc_5ced1ba8cf75c26d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_33ca7bdde9f73b0b.json",
+      "sources": [
+        {
+          "endLine": 50,
+          "kind": "story",
+          "line": 38,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act28side/level_act28side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "克里夫与伍德洛谈话时",
+      "title": "不义之财"
+    }
+  ],
+  "relationship_id": "npc_5ced1ba8cf75c26d|npc_b9643057e24653f0"
+}

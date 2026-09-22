@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 89,
+          "line": 79,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_st02.txt",
+          "quote": "[name=\"拉维妮娅\"]……你们两个认识她吗？\n[Character(name=\"avg_npc_683_1#9$1\")]\n[name=\"拉普兰德\"]嗨。\n[Character(name=\"avg_npc_698_1#1$1\",name2=\"avg_npc_541_1#1$1\",focus=2)]\n[name=\"卡彭\"]啧，拉普兰德，我就知道跟你扯上关系绝对不会有好事。\n[Character(name=\"avg_npc_683_1#9$1\")]\n[name=\"拉普兰德\"]在叙拉古坐牢，难道不是一种新奇的体验吗？\n[Character(name=\"avg_4065_judge_1#5$1\")]\n[name=\"拉维妮娅\"]……\n[Character(name=\"avg_4065_judge_1#1$1\")]\n[name=\"拉维妮娅\"]把他们两个关起来。"
+        }
+      ],
+      "description": "法官询问卡彭是否认识拉普兰德并处理拘押。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_4065_judge",
+          "reason": "法官询问卡彭是否认识拉普兰德并处理拘押。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        },
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "法官询问卡彭是否认识拉普兰德并处理拘押。",
+          "status": "supported",
+          "to": "char_4065_judge"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_11975334e772bee4.json",
+      "sources": [
+        {
+          "endLine": 89,
+          "kind": "story",
+          "line": 79,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act21side/level_act21side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "叙拉古人"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 345,
+          "line": 327,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_st04.txt",
+          "quote": "[name=\"卡彭\"]……我觉得我们得避一避，那个法官过来了。\n[charslot(slot = \"l\", name = \"avg_npc_541_1#1$1\", focus=\"l\")]\n[name=\"卡彭\"]哦，她好像不是冲咱们来的——\n[dialog]\n[StopSound(channel=\"car\", fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=2, block=true)]\n[charslot]\n[delay(time=0.1)]\n[Blocker(a=0, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=2, block=true)]\n[charslot(slot = \"l\", name = \"avg_4026_vulpis_1#2$1\", posfrom=\"300,0\", posto=\"0,0\", duration=2)]\n[delay(time=1.5)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"r\", name = \"avg_4065_judge_1#1$1\",  posfrom=\"300,0\", posto=\"0,0\", duration=1.5)]\n[Delay(time=2)]\n[charslot(slot = \"r\", name = \"avg_4065_judge_1#1$1\", focus=\"r\")]\n[name=\"拉维妮娅\"]你就打算这么一声不吭地走掉吗？\n[charslot(slot = \"l\", name = \"avg_4026_vulpis_1#2$1\", focus=\"l\")]\n[name=\"英格丽\"]拉维妮娅。"
+        }
+      ],
+      "description": "卡彭在街口辨认出斥罪法官。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭在街口辨认出斥罪法官。",
+          "status": "supported",
+          "to": "char_4065_judge"
+        },
+        {
+          "evidenceIds": [],
+          "from": "char_4065_judge",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_e565b7639574735d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 345,
+          "kind": "story",
+          "line": 327,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "揭幕者们"
+    }
+  ],
+  "relationship_id": "char_4065_judge|npc_e565b7639574735d"
+}

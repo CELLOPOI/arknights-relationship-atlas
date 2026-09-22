@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 645,
+          "line": 639,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_asbest_1_1.txt",
+          "quote": "[name=\"依娜姆\"]  喏，石棉托我给你们送来的杂志，每人都有一本！上面写了之前来这里探险的游记哦。\n[character]\n[name=\"阿达克利斯人们\"] ？\n[character(name=\"avg_npc_075\")]\n[name=\"依娜姆\"]  游记……就是在一个新地方的心情和见识的记录。\n[name=\"依娜姆\"]  我路上看了看，她对风景的评判可真是刁钻啊，明明从瀑布上下来的时候高兴得很呢。\n[name=\"依娜姆\"]  嗯……这上面是雷姆必拓语，我给你们翻译一下吧，我看那边宣传的可都是什么“石棉新增版块《当地人见闻》”，你们被写进去了哦！"
+        }
+      ],
+      "description": "石棉委托依娜姆转交自己的杂志，依娜姆收取、阅读并向当地人翻译。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_378_asbest",
+          "reason": "石棉将杂志具体托付给依娜姆转交，表明石棉认识并选定依娜姆为受托人。",
+          "status": "supported",
+          "to": "npc_e04ed917f7bcbf85"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_e04ed917f7bcbf85",
+          "reason": "依娜姆明确称石棉托她送杂志，且读过并评论石棉的游记。",
+          "status": "supported",
+          "to": "char_378_asbest"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_3a5a8e396bf33ae5.json",
+      "sources": [
+        {
+          "endLine": 645,
+          "kind": "story",
+          "line": 639,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_asbest_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇结尾“一个月后”",
+      "title": "石棉"
+    }
+  ],
+  "relationship_id": "char_378_asbest|npc_e04ed917f7bcbf85"
+}

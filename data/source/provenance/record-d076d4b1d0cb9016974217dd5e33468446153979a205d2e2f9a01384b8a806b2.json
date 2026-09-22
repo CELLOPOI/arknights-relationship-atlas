@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 370,
+          "line": 345,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_end.txt",
+          "quote": "[name=\"埃利西奥\"]没什么，莎拉女士，请您继续说。\n[name=\"埃利西奥\"]以及，您是徒手施法吗？我想医生也提醒过您，这样做不利于病情的控制。\n[charslot(slot=\"l\",name=\"avg_npc_418_1#1$1\",focus=\"l\")]\n[name=\"疗养院患者\"]呵呵，您就像黛安说的一样，是个爱操心的采访者。\n[name=\"疗养院患者\"]可我总是想用这种方式，在自己变得混沌不清的头脑里寻找那场战役的记忆。\n[charslot(slot=\"r\",name=\"avg_487_bobb_1#11$1\",focus=\"r\")]\n[name=\"埃利西奥\"]您是说城墙之战。\n[name=\"埃利西奥\"]您说过当时您还是个护士，想利用源石技艺阻挡巫术炸弹的爆炸，但……效果并不理想。\n[charslot(slot=\"l\",name=\"avg_npc_418_1#1$1\",focus=\"l\")]\n[name=\"疗养院患者\"]是的。我只记得那时我跟在希勒少尉身后，被巨大的冲击力扔了出去。\n[name=\"疗养院患者\"]我醒来的时候，就已经躺在临时医院，得知我和身边的人都是急性感染。\n[name=\"疗养院患者\"]怎么能这样呢，埃利西奥先生……我都不知道有多少巫术炸弹投到了典范军中间。\n[name=\"疗养院患者\"]那么多人的命运，在一瞬间面目全非……我却什么都没看清，也什么都想不起来……\n[Dialog]\n[PlaySound(key=\"$d_avg_originiumcastshort\", volume=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"r\",name=\"avg_487_bobb_1#11$1\",focus=\"r\")]\n[name=\"埃利西奥\"]……莎拉女士？\n[Dialog]\n[charslot]\n埃利西奥察觉到患者明显地震颤起来，并且无意识地施放出源石技艺。\n他并不确定这是不是创伤后应激障碍的表现形式之一，但他很迅速地着手尝试引导对方。\n[charslot(slot=\"m\",name=\"avg_487_bobb_1#1$1\",focus=\"m\")]\n[name=\"埃利西奥\"]——莎拉女士，请听我说。请跟着我深呼吸。\n[name=\"埃利西奥\"]你能感觉到花香，对吗？你的身体在这里，这是一家疗养院。\n[name=\"埃利西奥\"]战争已经结束了，典范军已经回家了。你已经回到了伦蒂尼姆。"
+        }
+      ],
+      "description": "埃利西奥知晓希勒少尉；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_487_bobb",
+          "reason": "埃利西奥听患者具体提及希勒少尉并继续采访。",
+          "status": "supported",
+          "to": "npc_4ce094568abc6a81"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_4ce094568abc6a81",
+          "reason": "希勒少尉未在该采访场景出现，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_487_bobb"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 370,
+          "kind": "story",
+          "line": 345,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "战后疗养院采访",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_487_bobb|npc_4ce094568abc6a81"
+}

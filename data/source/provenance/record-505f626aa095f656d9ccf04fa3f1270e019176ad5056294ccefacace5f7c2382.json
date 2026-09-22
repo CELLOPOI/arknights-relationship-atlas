@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 21,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act24side/level_act24side_06_end.txt",
+          "quote": "[name=\"夜刀\"]黑角干员，收到请回答，黑角。\n[name=\"夜刀\"]......联系不上，信号太差了。\n[name=\"夜刀\"]柏生先生......\n[name=\"夜刀\"]我执行任务的时候不喜欢带着累赘，要是跟不上前进的速度，麻烦您留在原地，或者原路返回营地。\n[Character(name=\"avg_npc_755_1#1$1\")]\n[name=\"柏生义冈\"]蠢货，我没想要和你们同行。\n[Character(name=\"avg_1029_Yato2_1#12$1\")]\n[name=\"夜刀\"]只要您要去找火龙，就请不要擅自离开我的身边，我必须确保您的安全。\n[Character(name=\"avg_npc_755_1#6$1\")]\n[name=\"柏生义冈\"]你——"
+        }
+      ],
+      "description": "二人直接同行与交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_502_nblade",
+          "reason": "夜刀直接称呼柏生先生并要求其同行。",
+          "status": "supported",
+          "to": "npc_8526d858c3bd0892"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_8526d858c3bd0892",
+          "reason": "柏生当面回应夜刀。",
+          "status": "supported",
+          "to": "char_502_nblade"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_72a06da52b73d3d9.json",
+      "sources": [
+        {
+          "endLine": 21,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act24side/level_act24side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇火龙调查期间",
+      "title": "落叶逐火"
+    }
+  ],
+  "relationship_id": "char_502_nblade|npc_8526d858c3bd0892"
+}

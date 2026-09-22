@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 374,
+          "line": 308,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "quote": "[name=\"赫拉格\"]   ——挑这种时候进入切尔诺伯格，罗德岛会被所有人当成敌人。\n[name=\"赫拉格\"]   他们为什么要这么做？\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   不论。只是我，没能阻止冲突。\n[name=\"爱国者\"]   刚刚有位战士，孤身对抗，萨卡兹佣兵。\n[name=\"爱国者\"]   意外，这位罗德岛人，也是个萨卡兹。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   同类相残……和整合运动的所作所为没什么区别。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   民众，被乌萨斯欺骗，不将我们，看作同胞。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   什么？萨卡兹……罗德岛的萨卡兹？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   但佣兵们，为战斗而战斗。罗德岛的战士，有战斗的理由。\n[name=\"爱国者\"]   他战败了。但他依然，射杀无数精锐。佣兵的新领头人，气急败坏。\n[name=\"爱国者\"]   而且，他把敌人，诱离身后废墟。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   ？！\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   他想藏住什么，他做到了。\n[name=\"爱国者\"]   灰烬里，剩下这件遗物。请转交他们。\n[name=\"爱国者\"]   真正的战士……没有姓名。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   我会的。\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_013_riop\")]\n[name=\"近卫干员\"]   萨卡兹……难道Scout先生为了保护我……？\n[Dialog]\n[Character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]\n[Character]\n[Delay(time=0.4)]\n[Blocker(a=0, fadetime=0.6, block=true)]\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=1)]\n[name=\"赫拉格\"]   真正的战士……\n[name=\"赫拉格\"]   对了。你以前也说过。\n[Character(name=\"char_188_helage_1\",name2=\"avg_npc_025_1\",focus=2)]\n[name=\"爱国者\"]   您说。"
+        }
+      ],
+      "description": "赫拉格通过战斗描述知晓具体的 Scout 并接下遗物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_188_helage",
+          "reason": "赫拉格听取 Scout 战斗经过并接受转交其遗物。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "Scout 已阵亡，未见他知晓赫拉格。",
+          "status": "not_established",
+          "to": "char_188_helage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 374,
+          "kind": "story",
+          "line": 308,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "Scout 阵亡后赫拉格与爱国者谈话",
+      "title": "战地秘闻"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 65,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_helage_1_1.txt",
+          "quote": "[name=\"临光\"]  赫拉格先生，我听说Scout先生最后的遗物，是经由你手回到了罗德岛。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1\", focus=1)]\n[name=\"赫拉格\"]  你想说，这是罗德岛普遍的品性？\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1\", focus=2)]\n[name=\"临光\"]  我不能如此断论。我想每一位干员，哪怕是我，与Scout先生所抱有的觉悟都有区别。\n[name=\"临光\"]  但每一位干员——此时此刻，愿意为感染者，为罗德岛而战的每一个人，都不会畏惧战斗。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1\", focus=1)]\n[name=\"赫拉格\"]  人总是为了不同的理由而战。\n[name=\"赫拉格\"]  ……所以当他们被许以一个过于宏大，甚至能吻合一切诉求的壮美愿景时，他们会迷失在洪流里。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1#4\", focus=2)]\n[name=\"临光\"]  您是说整合运动？\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1#4\", focus=1)]\n[name=\"赫拉格\"]  ……都是一样的。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1#3\", focus=2)]\n[name=\"临光\"]  赫拉格先生，前往那座城的干员们，都心怀信念，不曾动摇片刻。\n[name=\"临光\"]  我选择相信那个信念，他们的信念。\n[name=\"临光\"]  这是罗德岛干员的义务，以及，感谢您愿意费力带回Scout先生最后的通讯设备，当时切尔诺伯格的局势应该十分凶险。\n[Character(name=\"char_188_helage_1\", name2=\"char_148_nearl_1#3\", focus=1)]\n[name=\"赫拉格\"]  ……可惜，我与那位战士未曾谋面。\n[name=\"赫拉格\"]  他的牺牲足以让战士动容。这使我相信他的意志至今仍有迹可循。"
+        }
+      ],
+      "description": "赫拉格单向知晓Scout。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_188_helage",
+          "reason": "赫拉格知道Scout牺牲并评价其意志，且带回其通讯设备。",
+          "status": "supported",
+          "to": "npc_0957af9bf990438d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_0957af9bf990438d",
+          "reason": "赫拉格明确说二人未曾谋面，窗口无Scout知晓赫拉格的依据。",
+          "status": "not_established",
+          "to": "char_188_helage"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_e4a0f8282715fde0.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 65,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_helage_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇舰桥谈话时",
+      "title": "赫拉格"
+    }
+  ],
+  "relationship_id": "char_188_helage|npc_0957af9bf990438d"
+}

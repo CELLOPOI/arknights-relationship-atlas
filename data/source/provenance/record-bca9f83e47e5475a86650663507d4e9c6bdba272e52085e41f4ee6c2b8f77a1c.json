@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 71,
+          "line": 57,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st03.txt",
+          "quote": "[name=\"宁小姐\"] ……太合先生，左乐先生。幸会。\n[Character(name=\"avg_npc_297_1#1$1\", name2=\"avg_npc_299_1#1$1\", focus=1)]\n[name=\"左乐\"] 宁小姐，幸会。\n[Character(name=\"avg_npc_297_1#1$1\", name2=\"avg_npc_299_1#1$1\", focus=2)]\n[name=\"太合\"] 见过宁侍郎。\n[character(name=\"avg_npc_295_1#5$1\")]\n[name=\"梁洵\"] ……\n[character(name=\"avg_npc_298_1#9$1\")]\n[name=\"宁小姐\"] 尚蜀之行，未能礼待，失了礼数。\n[character(name=\"avg_npc_297_1#7$1\")]\n[name=\"左乐\"] 不请自来，多有打扰，冒犯在先。\n[character(name=\"avg_npc_298_1#10$1\")]\n[name=\"宁小姐\"] 左公子是承父命而来，代表司岁台处理酒盏与灰齐山两案，雷厉风行。\n[character(name=\"avg_npc_297_1#5$1\")]\n[name=\"左乐\"] 宁小姐慧眼如炬。"
+        }
+      ],
+      "description": "双方在梁府正式互相问候。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E46"
+          ],
+          "from": "char_4121_zuole",
+          "reason": "双方在梁府正式互相问候。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "E46"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "双方在梁府正式互相问候。",
+          "status": "supported",
+          "to": "char_4121_zuole"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_d6c73e6555cad0be.json",
+      "sources": [
+        {
+          "endLine": 71,
+          "kind": "story",
+          "line": 57,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15side/level_act15side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "将进酒"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 385,
+          "line": 325,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "quote": "[name=\"宁辞秋\"]左公子请坐。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$1\",focus=\"l\")]\n[name=\"左乐\"]……宁侍郎。\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]没想到这么碰巧。\n[name=\"宁辞秋\"]从尚蜀到玉门，再到这大荒城，左公子作为秉烛人一定是表现卓越，才会如此受重用。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$1\",focus=\"l\")]\n[name=\"左乐\"]宁侍郎有什么指教？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#10$1\",focus=\"r\")]\n[name=\"宁辞秋\"]岂敢。\n[name=\"宁辞秋\"]要是官身相见，我就不会在这种地方约见左公子了……有一件事，只能用这种形式委托左公子帮忙。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$1\",focus=\"l\")]\n[name=\"左乐\"]是关于岁兽代理人？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]十二楼五城的建设是大炎至关重要的工程，在这个时刻一座城里聚集了四位代理人，实在是件棘手的事。\n[name=\"宁辞秋\"]要是有人想要借机生事，后果不堪设想。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$1\",focus=\"l\")]\n[name=\"左乐\"]宁侍郎的意思是，已经知道有人想要借机生事？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]大荒城建设工程重新启动的事，左公子听说了吗？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#3$1\",focus=\"l\")]\n[name=\"左乐\"]是那个商人的补给物资……他不该去干涉这些事务。\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]我只知道，他回来以后，与工部的万侍郎见过一回——左公子对这位大人是否有印象？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#3$1\",focus=\"l\")]\n[name=\"左乐\"]我记得……这些年他一直在负责大荒城的移动地块建设，但是数月前，他还分出功夫去处理了玉门城的修复工作……\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$1\",focus=\"l\")]\n[name=\"左乐\"]绩，他究竟想做什么？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]根据记载，绩、黍二人交好，千年前，二人一同在大荒城耕作。但是不久后，他便离开了大荒城，开始经营生意。\n[name=\"宁辞秋\"]他每隔数十年，都会回到大荒城一次，而他上一次回来已经是六十年前的事了。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#3$1\",focus=\"l\")]\n[multiline(name=\"左乐\")]宁侍郎对于这些记载倒是记得很清楚……\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#4$1\",focus=\"l\")]\n[multiline(name=\"左乐\")]你怀疑他想对大荒城不利？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]需要先查明他当下返回大荒城的目的——这正是我想委托左公子的。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$1\",focus=\"l\")]\n[name=\"左乐\"]礼部与司岁台在处理岁兽问题上向来不合，现在宁侍郎要我来做这种事。\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]那左公子自己，是什么立场呢？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$1\",focus=\"l\")]\n[name=\"左乐\"]作为秉烛人，当然是奉命行事……\n[charslot(slot=\"r\",name=\"avg_npc_298_1#10$1\",focus=\"r\")]\n[name=\"宁辞秋\"]左公子是专心想当一把好刀。\n[name=\"宁辞秋\"]那即便砍错了目标，责任也不在刀上。\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$1\",focus=\"l\")]\n[name=\"左乐\"]我从来没有想过推诿责任——\n[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]\n[name=\"宁辞秋\"]那左公子可曾想过，司岁台究竟为何力主以强硬手段除“岁”？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#6$1\",focus=\"r\")]\n[name=\"宁辞秋\"]如果有朝一日，玉门开赴京城，两座城市与巨兽都在炮火声中灰飞烟灭……\n[name=\"宁辞秋\"]那些流离失所的百姓，战死的将士，难道真的只用一句“别无选择”来带过？\n[name=\"宁辞秋\"]难道真的没有别的手段来解决问题？\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#1$1\",focus=\"l\")]\n[name=\"左乐\"]……\n[charslot(slot=\"l\",name=\"avg_4121_zuole_1#10$1\",focus=\"l\")]\n[name=\"左乐\"]那宁小姐是出于什么立场让我做这件事？\n[charslot(slot=\"r\",name=\"avg_npc_298_1#10$1\",focus=\"r\")]\n[name=\"宁辞秋\"]并非官场龃龉，只是为社稷百姓，谋一份利。\n[name=\"宁辞秋\"]“光明磊落”，左公子心里应该会有一个答案。"
+        }
+      ],
+      "description": "宁辞秋与左乐直接讨论案情及绩。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "char_4121_zuole",
+          "reason": "宁辞秋与左乐直接讨论案情及绩。",
+          "status": "supported",
+          "to": "npc_906d6f310e0f648e"
+        },
+        {
+          "evidenceIds": [
+            "E5"
+          ],
+          "from": "npc_906d6f310e0f648e",
+          "reason": "宁辞秋与左乐直接讨论案情及绩。",
+          "status": "supported",
+          "to": "char_4121_zuole"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 385,
+          "kind": "story",
+          "line": 325,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "char_4121_zuole|npc_906d6f310e0f648e"
+}

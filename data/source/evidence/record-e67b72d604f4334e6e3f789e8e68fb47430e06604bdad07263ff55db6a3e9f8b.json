@@ -1,0 +1,22 @@
+{
+  "id": "import:char_4072_ironmn|npc_c8a2caad4366c8fa",
+  "published": true,
+  "quote": "【破碎日冕】\n费斯特：你不是说他们不在附近？呃，博士难道有什么特别的源石技艺？\n选项：\n1：不是，是PRTS在帮我。\n2：是的，我能透视。\n分支条件（原选项编号）：1\n费斯特：什么……什么神奇的技术？\n费斯特：博士，等回去以后，你可一定要好好跟我说一说。\n\n【追迹日落以西】\n洛洛：队长，洛克十八把通道最后一段路的扫描图上传到PRTS了，你有收到吗？\n费斯特：收到了！洛洛，我们已经在检修最后一个变轨节点。\n洛洛：按照现在的损坏程度，预计多长时间能全部检修完成？\n费斯特：十分钟。\n费斯特：奶奶他们的位置确认了吗？我们必须尽快取回那件武器，典范军在前线会需要我们的协助。\n洛洛：还在尝试定位正确位置。\n洛洛：这几天我们找到的都是他们留下的诱饵信标，想要恢复联络可能还得花上点时间。\n费斯特：那至少证明奶奶他们暂时还是安全的……\n洛洛：如果，队长，我是说如果，我们没能联系上凯瑟琳女士，接下来该怎么办？",
+  "relationship_id": "char_4072_ironmn|npc_c8a2caad4366c8fa",
+  "sources": [
+    {
+      "endLine": 517,
+      "kind": "story",
+      "line": 509,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-08_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 216,
+      "kind": "story",
+      "line": 196,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_08_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 226,
+          "line": 206,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "quote": "从病房搬到宿舍那天，尽管我还发着低烧，也没什么力气，照顾过我的医护们还是给我办了一场小小的庆祝会。\n华法琳医生来了，Medic干员来了，照顾过我的实习医生芙蓉来了，连凯尔希医生也短暂地露了一面，尽管很快就又离开了。\n她们说，多亏了博士，新药才得以顺利面世。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Delay(time=1)]\n[Background]\n[Image(image=\"76_i05_1\",x=0, y=-50, xScale=1.15, yScale=1.15)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Delay(time=1)]\n而我也就一直期待着博士出现，好让我当面说声感谢，但直到大家散去也未能如愿。\n[dialog]\n[Image(image=\"76_i05_4\",x=0, y=-50, xScale=1.15, yScale=1.15,fadetime=1, block=true)]\n[ImageTween(  yTo=0, duration=15)]\n[Delay(time=1)]\n半梦半醒之间，我忽然想起那天在重症病房里的场景。\n唔，原来是这样。\n博士的确是不该来的。\n博士给了我不切实际的希望，而这点不切实际的希望居然成了现实，这样的幸运，一个人一生恐怕也就只有一次了吧。\n所以，博士不来是对的。"
+        },
+        {
+          "endLine": 119,
+          "line": 102,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "quote": "[Decision(options=\"患者怎么样了？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_171_bldsk_1#7$1\",duration=0.5)]\n[Delay(time=1)]\n[name=\"华法琳\"]……\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"上次见面，她的状况还很稳定。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_171_bldsk_1#10$1\")]\n[name=\"华法琳\"]因为急着开会，虽然宣教按流程做完了，但有关矿石病人施术的问题强调得还不够……\n[name=\"华法琳\"]患者对感染者施术可能造成的后果没有概念，自告奋勇帮人搬东西，结果……激发的不是施术单元，而是自己体内的源石。\n[name=\"华法琳\"]这样的事情以前在她身上发生过许多次，只是一直没有爆发，直到刚才……\n[charslot(slot=\"m\",name=\"avg_171_bldsk_1#8$1\")]\n[name=\"华法琳\"]……是我的问题。\n[Dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"……不，是我催的你，我们都有责任。\", values=\"1\")]"
+        }
+      ],
+      "description": "安洁莉娜回忆重症病房博士给予她希望，并期待当面致谢；博士此前问及上次见面和她病情（109），存在既往接触。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "char_291_aglina",
+          "reason": "安洁莉娜回忆重症病房博士给予她希望，并期待当面致谢；博士此前问及上次见面和她病情（109），存在既往接触。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E9"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "安洁莉娜回忆重症病房博士给予她希望，并期待当面致谢；博士此前问及上次见面和她病情（109），存在既往接触。",
+          "status": "supported",
+          "to": "char_291_aglina"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_d41272e19d8ae683.json",
+      "sources": [
+        {
+          "endLine": 226,
+          "kind": "story",
+          "line": 206,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 119,
+          "kind": "story",
+          "line": 102,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act53side/level_act53side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "直到大地变成一颗酸橙所述时段",
+      "title": "直到大地变成一颗酸橙"
+    }
+  ],
+  "relationship_id": "char_291_aglina|npc_b99957887950ebfd"
+}

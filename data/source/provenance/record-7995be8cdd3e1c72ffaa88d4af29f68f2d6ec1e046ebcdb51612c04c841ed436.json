@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 187,
+          "line": 163,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_beg.txt",
+          "quote": "蒂奇本想说些什么，但她突然在人群中看到伊西多。\n她走上前去，粗暴地将伊西多拽到鲁斯面前。\n[PlaySound(key=\"$d_avg_clothmovement\")]\n[CameraShake(duration=0.3, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[Delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#3$1\",focus=\"m\")]\n[name=\"鲁斯\"]你怎么跑出来的？\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#10$1\",focus=\"m\")]\n[name=\"伊西多\"]看守不在门口……\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#1$1\",focus=\"m\")]\n[name=\"蒂奇\"]让他跟着一起去。\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#4$1\",focus=\"m\")]\n[name=\"伊西多\"]我？\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#1$1\",focus=\"m\")]\n[name=\"蒂奇\"]对。\n[charslot(slot=\"m\",name=\"avg_npc_1590_1#4$1\",focus=\"m\")]\n[name=\"鲁斯\"]我不同意。\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#3$1\",focus=\"m\")]\n[name=\"伊西多\"]我也不同意，这是你们的事，我不想插手。\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#5$1\",focus=\"m\")]\n[name=\"蒂奇\"]小伙子，这里的规矩是想吃饭就要干活，你既然不想炼金，那就来干些别的。\n[charslot(slot=\"m\",name=\"avg_293_thorns_1#2$1\",focus=\"m\")]\n[name=\"伊西多\"]直接让我离开不行吗？\n[charslot(slot=\"m\",name=\"avg_npc_1580_1#5$1\",focus=\"m\")]\n[name=\"蒂奇\"]想都别想，我们可是很缺人的，你就准备一直在这里干活干到死吧。"
+        }
+      ],
+      "description": "蒂奇把伊西多拉到鲁斯面前并分配工作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "char_293_thorns",
+          "reason": "蒂奇把伊西多拉到鲁斯面前并分配工作。",
+          "status": "supported",
+          "to": "npc_d3f3c14a8aa46fa9"
+        },
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_d3f3c14a8aa46fa9",
+          "reason": "蒂奇把伊西多拉到鲁斯面前并分配工作。",
+          "status": "supported",
+          "to": "char_293_thorns"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_15f22dbe1e456a68.json",
+      "sources": [
+        {
+          "endLine": 187,
+          "kind": "story",
+          "line": 163,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act39side/level_act39side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "出苍白海"
+    }
+  ],
+  "relationship_id": "char_293_thorns|npc_d3f3c14a8aa46fa9"
+}

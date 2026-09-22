@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 308,
+          "line": 279,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_09-02_end.txt",
+          "quote": "[name=\"Outcast\"]他们都叫我Outcast，美丽的瓦伊凡小姐。\n[Character(name=\"avg_npc_245_1#6\")]\n[name=\"Outcast\"]抱歉，我未经同意就品尝了你的茶水。看在我赶了这么远路的份上，但愿你不会太介意。\n[Character(name=\"avg_479_sleach_1#1$1\")]\n[name=\"简妮\"]我……\n[Character(name=\"avg_479_sleach_1#1$1\")]\n[name=\"简妮\"]您……您、您随意。如果您没吃早饭的话，想尝尝我烤的派吗？可能甜了点……\n[Character(name=\"avg_npc_245_1#6\")]\n[name=\"Outcast\"]当然。很多老朋友都知道，我最爱甜食——尤其是外观被烤制得如此精巧可爱的维多利亚甜食。\n[Character(name=\"avg_479_sleach_1#1$1\")]\n[name=\"简妮\"]哈哈……Outcast女士，谢谢您的鼓励。\n[Character(name=\"avg_npc_245_1#1\")]\n[name=\"Outcast\"]——Outcast。没什么人称我为女士，没这个必要。\n[Character(name=\"char_013_riop\")]\n[name=\"干员奥利弗\"]——！\n[Character(name=\"char_013_riop\")]\n[name=\"干员奥利弗\"]是、是您！我想起来了……威尔！快、快把桌子清干净——\n[Character(name=\"avg_npc_089\")]\n[name=\"干员碎纸机\"]……我以为您会晚两天才到。上次电讯里说，您才刚进入边境。\n[Character(name=\"avg_npc_245_1#1\")]\n[name=\"Outcast\"]没办法，我有十年没来过维多利亚了。一些地方拥挤了起来，另一些地方则和我一样变得没那么新。\n[Character(name=\"avg_npc_245_1#1\")]\n[name=\"Outcast\"]要不是在半岛郡搭车的时候走错了一段路，我昨天就该见到你们了。\n[Character(name=\"char_013_riop\")]\n[name=\"干员奥利弗\"]咳、咳咳，请您谅解，小丘郡这地方不算起眼，我们办事处不常有精英干员来。\n[name=\"干员奥利弗\"]上回我在米诺斯附近外勤的时候见到了Stormeye先生——那都已经是两年前的事啦。\n[Character(name=\"avg_479_sleach_1#4$1\")]\n[name=\"简妮\"]精英干员 ？光是听起来就好厉害。\n[Character(name=\"avg_npc_245_1#1\")]\n[name=\"Outcast\"]——只是罗德岛干员的不同分工而已。而且，我现在差不多就是个普通的文职人员，这次来小丘郡就是为了取几份资料。"
+        }
+      ],
+      "description": "Outcast 收到关于 Stormeye 的具体信息，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "char_511_asnipe",
+          "reason": "Stormeye 未在场。",
+          "status": "not_established",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [
+            "S02"
+          ],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "Outcast 当面听见 Stormeye 的具体任务往事。",
+          "status": "supported",
+          "to": "char_511_asnipe"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 308,
+          "kind": "story",
+          "line": 279,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_09-02_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "小丘郡办事处",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "char_511_asnipe|npc_617e6ed434c6e138"
+}

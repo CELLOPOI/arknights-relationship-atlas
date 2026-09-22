@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 159,
+          "line": 135,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "quote": "[name=\"阿米娅\"]下午好，薇洛小姐……还是应该叫你干员琴柳？\n[name=\"琴柳\"]啊……阿米娅小姐！\n[name=\"阿米娅\"]请和大家一样叫我阿米娅吧。\n[name=\"琴柳\"]真是不好意思……阿米娅这么忙，还要抽时间来见我。前两天体检的时候，亚叶小姐说你一天只休息五个小时……\n[name=\"阿米娅\"]亚叶姐姐总是很担心我的身体。不过没关系，我最近的健康状况很不错，而且我也一直很想再见见你。\n[name=\"琴柳\"]……这里就是Outcast以前的办公室？\n[name=\"阿米娅\"]嗯。其实她并没有在这里待很久，出事前两个月，我们刚刚说服她接受了岗位调动。\n[name=\"琴柳\"]她和我说过，在来小丘郡之前，她已经差不多半退休了……\n[name=\"阿米娅\"]但她依然坚持申请去执行这次任务。\n[name=\"琴柳\"]我时常回想她在那几天说的每一句话……我相信她早就做好了面对一切的准备。\n[name=\"阿米娅\"]Outcast确实是这样的人。\n[name=\"阿米娅\"]即便是在精英干员中，Outcast的性格都称得上特别——她总能轻松地做出一些普通人眼里很艰难的决定。\n[name=\"琴柳\"]是啊，她说……她曾经因为一次战争中的失败调停，放弃了教会里很高的职位。\n[name=\"阿米娅\"]唔……离开拉特兰教会的部分确有其事，但是失败的调停？\n[name=\"阿米娅\"]我不记得Outcast的档案里有这项记载，反而，这听起来很像Misery的一件往事。\n[name=\"琴柳\"]……\n[name=\"琴柳\"]哈……哈哈……不知道为什么，这很像她会做的事。\n[name=\"阿米娅\"]可能有些人会因此觉得Outcast不够真诚……\n[name=\"琴柳\"]不，即便你告诉我，她说的并不全是实话，她仍是我见过最真诚的人。\n[name=\"阿米娅\"]你真的这么想？嗯……我并不是很意外，毕竟Outcast看人的眼光从不出错。\n[name=\"琴柳\"]阿米娅，我理解你的时间很宝贵……但你愿不愿意再多跟我说一些她的故事？\n[name=\"阿米娅\"]当然。\n[name=\"阿米娅\"]只是，这故事会很长——\n[name=\"琴柳\"]只要你有空，我随时想听。\n[name=\"阿米娅\"]好啊，我相信……去伦蒂尼姆的路上，我们会有很多时间的。"
+        }
+      ],
+      "description": "琴柳明确知道 Outcast，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S07"
+          ],
+          "from": "char_479_sleach",
+          "reason": "琴柳具体追述 Outcast 的性格和往事。",
+          "status": "supported",
+          "to": "npc_617e6ed434c6e138"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_617e6ed434c6e138",
+          "reason": "Outcast已牺牲，本窗无反向证据。",
+          "status": "not_established",
+          "to": "char_479_sleach"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 159,
+          "kind": "story",
+          "line": 135,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "Outcast牺牲后追忆",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "char_479_sleach|npc_617e6ed434c6e138"
+}

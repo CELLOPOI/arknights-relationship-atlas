@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 84,
+          "line": 80,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_ex06_end.txt",
+          "quote": "[name=\"Alty\"]   Frost她啊，从小就只对音乐和食物这两样东西感兴趣。就连休息对她来说都是浪费时间。\n[Character(name=\"npc_2004_Alty\",name2=\"char_003_kalts_1\",focus=2)]\n[name=\"凯尔希\"]  这位朋友你可以等到我们真正会面了再介绍给我。\n[Character(name=\"npc_2004_Alty\",name2=\"char_003_kalts_1\",focus=1)]\n[name=\"Alty\"]   对不起，我的老毛病又犯了……"
+        }
+      ],
+      "description": "凯尔希听Alty具体介绍Frost，并说明尚未真正会面；仅此单向知晓。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E39"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希听Alty具体介绍Frost，并说明尚未真正会面；仅此单向知晓。",
+          "status": "supported",
+          "to": "npc_f1a37f4fb62f9ae9"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_f1a37f4fb62f9ae9",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 84,
+          "kind": "story",
+          "line": 80,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_ex06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 480,
+          "line": 458,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st12.txt",
+          "quote": "[name=\"凯尔希\"]Frost，请允许我表达我的谢意。你帮了乔迪，也帮了猎人们。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]没什么，只是体能训练。能改变浪尖方向的，不只是那些不听话的坏孩子。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]下次，记得来捧场。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]我会的。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]那么，我得去找Aya她们了。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]只是出个门，就不见了。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]（略感不满的独奏）\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]对了。凯尔希……\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]我们已经来了，我们总不能白来一趟。等你做好准备，我们随时可以醒来。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]Aya会这么说的。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]……感谢你们。我们迟早会真正建立起合作关系。\n[Character(name=\"npc_2003_Frost_1\")]\n[name=\"Frost\"]（表别离的独奏）"
+        }
+      ],
+      "description": "凯尔希与Frost战后直接交谈并约定未来合作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S29"
+          ],
+          "from": "char_003_kalts",
+          "reason": "凯尔希与Frost战后直接交谈并约定未来合作。",
+          "status": "supported",
+          "to": "npc_f1a37f4fb62f9ae9"
+        },
+        {
+          "evidenceIds": [
+            "S29"
+          ],
+          "from": "npc_f1a37f4fb62f9ae9",
+          "reason": "凯尔希与Frost战后直接交谈并约定未来合作。",
+          "status": "supported",
+          "to": "char_003_kalts"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 480,
+          "kind": "story",
+          "line": 458,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st12.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_003_kalts|npc_f1a37f4fb62f9ae9"
+}

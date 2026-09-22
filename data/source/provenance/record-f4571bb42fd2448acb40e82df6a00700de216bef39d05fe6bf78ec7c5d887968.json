@@ -1,0 +1,134 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 142,
+          "line": 88,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-04_end.txt",
+          "quote": "[name=\"煌\"]  迷迭香！等等！\n[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.4)]\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  啊……煌。\n[name=\"迷迭香\"]  你伤得好重，怎么还跑出来？快回去。快点回去。\n[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  你这次要出战？\n[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  嗯。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  我找人替你。让Misery去。他比你擅长攻坚战。\n[name=\"煌\"]  他一挥手就能解决的事，让他去。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  你不想我去？\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  对，你不该去。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  煌让人感觉很奇怪。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  这和你以前的任务可不一样！\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  因为可能会死？\n[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  说啥啊！\n[name=\"煌\"]  你怎么能，怎么……是怎么这么轻松地说出来啊！\n[name=\"煌\"]  你年纪太小了，这么危险的任务，你是不该去的！\n[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  可阿米娅也要去。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  因为她……！她是……！\n[name=\"煌\"]  她是……\n[name=\"煌\"]  阿米娅……\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  她和我一样，是感染者，也是干员。\n[name=\"迷迭香\"]  而且，我检查了日志。Ace和Scout都在切尔诺伯格，他们没回来。\n[name=\"迷迭香\"]  也就是说，他们已经不在了吧。\n[name=\"迷迭香\"]  我想去看看。我要明白是怎么回事。我要看看管整合运动的人，我要知道是谁做了什么。\n[name=\"迷迭香\"]  我要知道在Ace和Scout身上发生了什么。\n[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  迷迭香？这种事你……你可以不记的。\n[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  ……煌？\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  (粗口)，我他妈在说什么……\n[name=\"煌\"]  不，对不起，我不该这么说。我不应该。**，我这张臭嘴！\n[name=\"煌\"]  可是，他们的死……他们……\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  煌。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  错的是我。开心是记忆，伤心也是记忆。我的错。你不能不记。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]\n[name=\"迷迭香\"]  煌变得很奇怪。说的话也支离破碎的。\n[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]\n[name=\"煌\"]  ……我不想你那么痛苦。为什么非要去回头看它？如果是你的话……是可以把记忆放走的啊。\n[name=\"煌\"]  你可以把它就放在那里。让它就躺在那里，不要回头。"
+        }
+      ],
+      "description": "确认双方相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_017_huang",
+          "reason": "两端有直接交谈、已发生的具体互动或同一局部战场的互相感知。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_615_acspec",
+          "reason": "反向同样由直接对话、具体既往互动或战场感知支持。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_d533ca2f755b7a11.json",
+      "sources": [
+        {
+          "endLine": 142,
+          "kind": "story",
+          "line": 88,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_07-04_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "主线第七章及所示回忆时段",
+      "title": "苦难摇篮"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 72,
+          "line": 26,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_09-01_beg.txt",
+          "quote": "[name=\"煌\"]  Outcast，你是不是到了？\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#4\",focus=2)]\n[name=\"Outcast\"]  刚到一分钟。你是在我身上安了追踪器吗？\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#1\",focus=-1)]\n[name=\"煌\"] 我一晚上呼叫了你十几次！\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=2)]\n[name=\"Outcast\"]我在荒地赶路，信号自然不好。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=-1)]\n[name=\"煌\"] 哎，成吧。先说好，不是我着急，这都是Misery在催我。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=-1)]\n[name=\"煌\"] 他的性格你清楚，总是担心这担心那的。要我说，他不放心我就算了，连你出任务都这么操心，他怎么还没有多长几条皱纹啊？！\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=2)]\n[name=\"Outcast\"]——倘若他不是这样的人，他就不叫Misery了。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=-1)]\n[name=\"煌\"] 有道理。正经地说，你觉得这座城市怎么样？\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#1\",focus=2)]\n[name=\"Outcast\"]非常普通。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#1\",focus=-1)]\n[name=\"煌\"] 那情报会不会出错了啊，像这种规模的城市，在维多利亚起码有三四十座——\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#1\",focus=2)]\n[name=\"Outcast\"]伦蒂尼姆的太阳再怎么耀眼，都总有照不到的地方。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#1\",focus=2)]\n[name=\"Outcast\"]你也看过资料，应该知道，小丘郡的管辖权目前并不在任何一位大贵族手上。有两位伯爵对这座移动城市表示过兴趣，却均未付诸行动。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#1\",focus=-1)]\n[name=\"煌\"] 呃，因为这地方没什么油水可赚？\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#2\",focus=2)]\n[name=\"Outcast\"]嗯，或许正是因为它的普通。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#2\",focus=2)]\n[name=\"Outcast\"]而越是貌似普通的角落，就越容易潜藏暗流。无论罗德岛决定何时动身，这都是个一探前路的好机会。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#2\",focus=-1)]\n[name=\"煌\"] 好，需要我接应的话，随时说。我刚准备动身去康纳郡，现在离你还很近。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=2)]\n[name=\"Outcast\"]安置感染者的工作可不轻松。比起你们的工作，我只是来跑跑腿而已，说不定大半时间都在办事处里喝茶。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=-1)]\n[name=\"煌\"] 你别骗我，风暴当前，像你这样的萨科塔会甘于喝茶？！\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=2)]\n[name=\"Outcast\"]唉，我也想好好地过退休生活啊。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=-1)]\n[name=\"煌\"] ……我怎么就不信呢。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=-1)]\n[name=\"煌\"] 算啦，还是各自干完活，早点回家吧。Outcast，我记得还有好几个萨科塔的新干员等着你上射击课？\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=2)]\n[name=\"Outcast\"]放心，他们偶尔也需要一些自习时间。\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=-1)]\n[name=\"煌\"] 还有，虽然我知道没什么必要，但这是Misery逼我说的——\n[Character(name=\"char_empty\",name2=\"avg_npc_245_1#6\",focus=-1)]\n[name=\"煌\"] 请小心，Outcast，但愿前路没有危险。"
+        }
+      ],
+      "description": "煌传达 Misery 的具体嘱咐，支持双向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S01"
+          ],
+          "from": "char_017_huang",
+          "reason": "煌具体说明 Misery 催促和嘱咐的行为。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "S01"
+          ],
+          "from": "char_615_acspec",
+          "reason": "Misery 要求煌代为向 Outcast 传话，说明其具体知道煌。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 72,
+          "kind": "story",
+          "line": 26,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_09-01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "小丘郡行动前通讯",
+      "title": "风暴瞭望"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 485,
+          "line": 438,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "quote": "[name=\"Logos\"]——？\n[name=\"Mechanist\"]怎么了，Logos？\n[name=\"Logos\"]那并非我的光……\n[dialog]\n[playMusic(intro=\"$lab_intro\",key=\"$lab_loop\", volume=0.6)]\n[cgitem(image=\"cgitem_60_i16\", style=\"cg\",sfrom = 1, sto = 1.5, sduration = 0.01, pfrom = \"0,0\",pto = \"-55,-300\", pduration = 0.01, rfrom=-11, rto=-11, rduration=0.1, afrom = 0, ato = 1, aduration = 0.5, layer = 1)]\n[Delay(time=2)]\n黑暗中，高悬的菱形光环微微晃动着。\n如同一只冰冷的眼睛俯瞰着在场的所有人。\n[name=\"阿斯卡纶\"]戒备……\n[name=\"煌\"]……是凯尔希医生提到的“普瑞赛斯”吗？\n[name=\"Raidian\"]恐怕不是。\n[name=\"Raidian\"]我探测到突然出现了大量杂乱但熟悉的信号。\n[name=\"Raidian\"]那些信号来自罗德岛本身。\n[dialog]\n[StopSound(channel=\"en\", fadetime=4)]\n[cgitem(image=\"cgitem_60_i16\", style=\"cg\",sfrom = 1.5, sto = 1.2, sduration = 4, pfrom = \"-55,-300\",pto = \"-70,-45\", pduration = 4, rfrom=-11, rto=0, rduration=4, layer = 1)]\n[Delay(time=3)]\n[PlaySound(key=\"$d_avg_systemstart_weird\", volume=1)]\n[Delay(time=1)]\n[cgitem(image=\"cgitem_60_i16\", style=\"cg\",sfrom = 1.2, sto = 1, sduration = 22, pfrom = \"-70,-45\",pto = \"-55,0\", pduration = 22, layer = 1)]\n[Image(image=\"60_i16\", screenadapt=\"coverall\", xScale=1.2, yScale=1.2, y=-50, fadetime=0.5)]\n[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, yFrom=-50, yTo=0, duration=20, block=false)]\n[Delay(time=1)]\n[name=\"Misery\"]这是……什么东西？\n庞大的机械构造物在无尽的白噪中缓缓浮现在了所有人的面前——\n构成其主体的部件，在场之人都很熟悉。\n可露希尔曾许多次向大家展示这些她对罗德岛不同模块改造时所用的部件，甚至一些特殊部件就出自精英干员之手。\n[name=\"Touch\"]PRTS重组了罗德岛的设备作为武器。\n[name=\"Touch\"]可……这些部件是从哪冒出来的？Abyss里明明没有……\n[name=\"阿斯卡纶\"]源石。\n源石的晶簇不规则地遍布在这尊造型独特的机械上。\n它们不再仅仅吞噬，而是开始了创造。\n[name=\"Misery\"]等等，源石能做到复现罗德岛的东西？\nLogos想起了内化宇宙中那座高塔，也想起了殿下。\n[name=\"Logos\"]没这么简单。\n[name=\"Logos\"]PRTS并没有解码源石数据的能力，其中必然有他人介入。\n[name=\"阿斯卡纶\"]普瑞赛斯。\n[name=\"Raidian\"]它的数据正通过我无法理解的方式和PRTS的核心相连，这东西和之前那些源石结晶体不一样！\n[name=\"煌\"]无论如何，看上去怎么都得打一架了。\n[name=\"Stormeye\"]的确没有其他办法了。\n[name=\"Stormeye\"]各位？\n[dialog]\n[PlaySound(key=\"$d_avg_attack_ready\", volume=1)]\n[Delay(time=1.5)]\n[name=\"迷迭香\"]可以动手。\n此时，菱形的眼睛光芒更甚。\n由PRTS控制形成的拟态机械开始蓄积能量……"
+        }
+      ],
+      "description": "煌与Misery共同在Abyss直接协同行动。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D25"
+          ],
+          "from": "char_017_huang",
+          "reason": "煌与Misery共同在Abyss直接协同行动。",
+          "status": "supported",
+          "to": "char_615_acspec"
+        },
+        {
+          "evidenceIds": [
+            "D25"
+          ],
+          "from": "char_615_acspec",
+          "reason": "煌与Misery共同在Abyss直接协同行动。",
+          "status": "supported",
+          "to": "char_017_huang"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 485,
+          "kind": "story",
+          "line": 438,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-16_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_017_huang|char_615_acspec"
+}

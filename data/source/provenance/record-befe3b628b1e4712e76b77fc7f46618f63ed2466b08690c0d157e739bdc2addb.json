@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 945,
+          "line": 922,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_bison_1_1.txt",
+          "quote": "[name=\"德克萨斯\"]欧厄尔先生，你可是给我们出了好大一个难题啊。\n[name=\"德克萨斯\"]不过我们也算是顺利完成了。\n[dialog]\n[StopSound(channel=\"bgs\", fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Background(image=\"bg_ltroom\",screenadapt=\"coverall\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_npc_539_1#9$1\")]\n[name=\"欧厄尔\"]所以现在他在踢足球吗？\n[character(name=\"avg_npc_539_1#10$1\")]\n[name=\"欧厄尔\"]他好久都没有踢过了啊，还是和几个半大孩子，哈哈。\n[character(name=\"avg_npc_539_1#9$1\")]\n[name=\"欧厄尔\"]我知道，我知道，他也是个孩子……辛苦诸位了，事后我必然携重礼登门道谢。\n[character(name=\"avg_npc_539_1#3$1\")]\n[name=\"欧厄尔\"]……为什么我不自己说呢？\n[dialog]\n[character(name=\"avg_npc_539_1#7$1\")]\n[delay(time=1.5)]\n[name=\"欧厄尔\"]……好问题啊……这些话我能自己说就好了。\n[character(name=\"avg_npc_539_1#2$1\")]\n[name=\"欧厄尔\"]可惜不能啊……"
+        }
+      ],
+      "description": "德克萨斯报告任务完成，欧厄尔实时回应并致谢，属于已发生通信。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "char_102_texas",
+          "reason": "德克萨斯报告任务完成，欧厄尔实时回应并致谢，属于已发生通信。",
+          "status": "supported",
+          "to": "npc_e75c29c5060c7ab8"
+        },
+        {
+          "evidenceIds": [
+            "P01"
+          ],
+          "from": "npc_e75c29c5060c7ab8",
+          "reason": "德克萨斯报告任务完成，欧厄尔实时回应并致谢，属于已发生通信。",
+          "status": "supported",
+          "to": "char_102_texas"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_f8ea3040c966685e.json",
+      "sources": [
+        {
+          "endLine": 945,
+          "kind": "story",
+          "line": 922,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_bison_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "拜松"
+    }
+  ],
+  "relationship_id": "char_102_texas|npc_e75c29c5060c7ab8"
+}

@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 386,
+          "line": 338,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "quote": "[name=\"角峰\"]老爷！\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=1)]\n[name=\"恩希欧迪斯\"]情况怎么样？\n[Character(name=\"avg_199_yak_1#6$1\")]\n[name=\"角峰\"]都解决了。有人受了点伤，但没什么大碍。\n[name=\"角峰\"]魏斯那边刚刚传了消息——\n[Character(name=\"avg_199_yak_1#4$1\")]\n[name=\"角峰\"]Sharp先生，你怎么会在这里……？\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=2)]\n[name=\"Sharp\"]任务。\n[Character(name=\"avg_199_yak_1#4$1\")]\n[name=\"角峰\"]是博士的吩咐？难道博士竟预料到会有这样的事发生……？\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=2)]\n[name=\"Sharp\"]……\n[name=\"Sharp\"]你是怎么认出我的？\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=1)]\n[name=\"恩希欧迪斯\"]这不是难事。\n[name=\"恩希欧迪斯\"]我说过。我对存在本身就能破坏局面的战士，非常了解。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]恩希欧迪斯！\n[name=\"阿克托斯\"]你怎么样，刺客人呢？！\n[Character(name=\"avg_172_svrash_1#1$1\", name2=\"avg_npc_252\",focus=2)]\n[name=\"Sharp\"]……\n[dialog]\n[PlaySound(key=\"$d_avg_snowbootwalk\", volume=1)]\n[characteraction(name=\"right\", type=\"move\", xpos=300, fadetime=2,block=false)]\n[character(name=\"avg_172_svrash_1#1$1\",name2=\"char_empty\",fadetime=0.5)]\n[delay(time=2)]\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]阿克托斯，你会赶来实在出乎我的意料，这是否是希瓦艾什与佩尔罗契重归于好的征兆？\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]呸！我来，与你没有半点关系！\n[name=\"阿克托斯\"]我不过是要将胆敢在耶拉冈德的祭典上作乱的卑鄙小人亲手揪出！让他付出应有的代价！\n[Character(name=\"avg_172_svrash_1#7$1\")]\n[name=\"恩希欧迪斯\"]你确实是耶拉冈德最虔诚的信徒，阿克托斯。\n[name=\"恩希欧迪斯\"]不过，恐怕你来迟了。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]你这是什么意思？你恩希欧迪斯没道理会放走区区一个刺客，人到底被你藏哪里去了？\n[name=\"阿克托斯\"]等等，这片悬崖……难道？！\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]就是你想的那样，阿克托斯。我的部下会去搜索对方的踪迹。\n[name=\"恩希欧迪斯\"]继续狩猎吧。\n[Character(name=\"avg_npc_254_1#7$1\")]\n[name=\"阿克托斯\"]地上有血，你受伤了？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]小伤而已。\n[Character(name=\"avg_199_yak_1#6$1\")]\n[name=\"角峰\"]老爷，你的伤得立刻处理！\n[name=\"角峰\"]至少……至少要先止血！"
+        }
+      ],
+      "description": "刺杀后角峰认出Sharp，阿克托斯到场，与银灰和两人共同交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E47"
+          ],
+          "from": "char_199_yak",
+          "reason": "刺杀后角峰认出Sharp，阿克托斯到场，与银灰和两人共同交谈。",
+          "status": "supported",
+          "to": "char_508_aguard"
+        },
+        {
+          "evidenceIds": [
+            "E47"
+          ],
+          "from": "char_508_aguard",
+          "reason": "刺杀后角峰认出Sharp，阿克托斯到场，与银灰和两人共同交谈。",
+          "status": "supported",
+          "to": "char_199_yak"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 386,
+          "kind": "story",
+          "line": 338,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_199_yak|char_508_aguard"
+}

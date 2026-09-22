@@ -1,0 +1,177 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 437,
+          "line": 413,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gravel_1_1.txt",
+          "quote": "[Decision(options=\"砾。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_237_gravel\")]\n[playMusic(intro=\"$warm_intro\", key=\"$warm_loop\", volume=0.4)]\n[name=\"砾\"]  是，博士。\n[name=\"砾\"]  （果然，刚才的一切都是在梦里。）\n[name=\"砾\"]  （一次又一次地做着相似的梦，只不过……）\n[name=\"砾\"]  抱歉，我竟然……睡着了。\n[Dialog]\n[Decision(options=\"没事吧，你的表情不是非常安稳。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_237_gravel\")]\n[name=\"砾\"]  呼呼，您是在担心我吗？\n[name=\"砾\"]  真是难得，平常都是我盯着您看，没想到也会有被注视的时候。\n[Dialog]\n[Decision(options=\"……;只是关心一下。;不是那种意思，你别介意……\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_237_gravel\")]\n[name=\"砾\"]  我明白，博士工作的时候可不会分心。只是监督我这个护卫有没有好好工作，是吧？\n[name=\"砾\"]  啊~总之，不用在意我，还请继续努力工作吧。\n[Dialog]\n[Decision(options=\"其实砾……累了的话，睡一觉也没关系的。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_237_gravel\")]\n[name=\"砾\"]  嗯？这样不算我的失职吗，博士~"
+        }
+      ],
+      "description": "梦醒后砾称呼博士，博士询问并允许她休息。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_237_gravel",
+          "reason": "梦醒后砾称呼博士，博士询问并允许她休息。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "梦醒后砾称呼博士，博士询问并允许她休息。",
+          "status": "supported",
+          "to": "char_237_gravel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_89615a920196e33b.json",
+      "sources": [
+        {
+          "endLine": 437,
+          "kind": "story",
+          "line": 413,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_gravel_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "砾"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 483,
+          "line": 428,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "quote": "[name=\"白金\"]  ……\n[Character(name=\"avg_237_gravel_1#4\")]\n[name=\"砾\"]  ……你似乎遇到了什么事情，白金大位。\n[Character(name=\"char_204_platnm_1#6\")]\n[name=\"白金\"]  ……没你们的事……唔。\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[dialog]\n[Dialog]\n[PlaySound(key=\"$bodyfalldown2\", volume=0.6)]\n[Character(fadetime=1,block=true)]\n[Delay(time=2)]\n[Character(name=\"char_120_hibisc_1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"芙蓉\"]  路、路都走不稳了，但是没有明显的伤口……是单纯的疲劳吗？还是……\n[Character(name=\"avg_237_gravel_1#4\", name2=\"char_120_hibisc_1\", focus=1)]\n[name=\"砾\"]  ……是无胄盟。他们已经追上来了。\n[Character(name=\"avg_237_gravel_1#7\",name2=\"char_204_platnm_1\", focus=1)]\n[name=\"砾\"]  叛乱吗，还是说，你才是那个叛徒？\n[Character(name=\"char_120_hibisc_1\")]\n[name=\"芙蓉\"]  博、博士！\n[dialog]\n[character]\n你看着那个倒在地上的无胄盟，她和你印象里那一身潇洒的刺客截然不同。\n[Decision(options=\"……;……;……\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_204_platnm_1#4\")]\n[name=\"白金\"]  ……罗德岛的博士……\n[name=\"白金\"]  外面的大地上，都是……你们这样的人吗？\n[dialog]\n[Decision(options=\"砾。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  我在。\n[dialog]\n[Decision(options=\"我想无胄盟不会轻易地放过我们。;离开监正会的直接庇护后，我们可能会遭遇危险。;商业联合会只是一块挡箭牌，有时效的挡箭牌。\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_237_gravel_1#6\")]\n[name=\"砾\"]  不瞒您说，我正打算与您商议这些事情。\n[Character(name=\"avg_237_gravel_1#2\")]\n[name=\"砾\"]  毕竟敌暗我明，在卡西米尔，无胄盟有太多办法对一家企业下黑手。\n[dialog]\n[Decision(options=\"好。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"芙蓉，先救走她！;砾，拖住无胄盟！\",values=\"1;2;3\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_204_platnm_1#5\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"白金\"]  ……！\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  嘻，如您所愿。\n[Character(name=\"char_120_hibisc_1\",name2=\"char_204_platnm_1#5\", focus=1)]\n[name=\"芙蓉\"]  抓紧了啊，呃，无胄盟小姐——！\n[Character(name=\"char_204_platnm_1#2\")]\n[name=\"白金\"]  ……为什么……\n[dialog]\n[Decision(options=\"回头再解释吧，到时候再谈报酬。;……;我心善，帮人就是帮己。\",values=\"1;2;3\")]"
+        }
+      ],
+      "description": "砾与博士在救援现场直接交流或接受其安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_237_gravel",
+          "reason": "砾与博士在救援现场直接交流或接受其安排。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "砾与博士在救援现场直接交流或接受其安排。",
+          "status": "supported",
+          "to": "char_237_gravel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_2db98b901e9e88b6.json",
+      "sources": [
+        {
+          "endLine": 483,
+          "kind": "story",
+          "line": 428,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "零号地块救援现场",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 40,
+          "line": 11,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st02.txt",
+          "quote": "[name=\"砾\"]……博士？\n[name=\"砾\"]您从餐厅回来之后，就一直紧锁着眉头哦？\n[Character(name=\"avg_237_gravel_1#3\")]\n[name=\"砾\"]如果感到疲惫的话，我可以——\n[dialog]\n[Decision(options=\"你怎么看待今天这场晚宴？;你觉得，马克维茨是个怎样的人？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]很得体，博士。看来您已经习惯这类交际了？\n[name=\"砾\"]看得出，虽然常务董事没有亲自露面，但那些企业高管都对您青睐有加……\n[dialog]\n[Predicate(references=\"2\")]\n[name=\"砾\"]……如我之前对您说的，因为耀骑士的事件，有一位发言人引咎辞职。\n[name=\"砾\"]马克维茨是临时顶上这个位置的，在此之前，他只是一个默默无闻的小角色……\n[name=\"砾\"]虽然他的身上还保留有一些未经洗礼的人情味……不过在现在这个环境，能持续多久可说不太好。\n[Predicate(references=\"1;2\")]\n[Dialog]\n[Decision(options=\"你认为罗德岛的计划，有可行性吗？\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1#2\")]\n[name=\"砾\"]……\n[Character(name=\"avg_237_gravel_1#6\")]\n[name=\"砾\"]先不提这个……您真的信任我吗？\n[name=\"砾\"]联合会的渗透并非某种组织形式上的渗透……在金钱和确实发生改变的社会面前，即使联合会什么也不做，骑士也会倒向资本。\n[Character(name=\"avg_237_gravel_1#3\")]\n[name=\"砾\"]监正会对罗德岛礼遇的原因几乎和耀骑士密不可分。即使如此，您这样缜密的人……如果不小心对待监正会，是会吃亏的。\n[Dialog]\n[Decision(options=\"感谢你的提醒。;这我当然知道。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"那么，能告诉我你的意见吗？;所以你的意见是？\", values=\"1;2\")]"
+        }
+      ],
+      "description": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_237_gravel",
+          "reason": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "直接对话、战斗对峙、同一酒吧局部共处或具体转述支持该方向。",
+          "status": "supported",
+          "to": "char_237_gravel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5af6c879983dcc5a.json",
+      "sources": [
+        {
+          "endLine": 40,
+          "kind": "story",
+          "line": 11,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 641,
+          "line": 493,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_03_end.txt",
+          "quote": "[Character(name=\"avg_496_wdmane_1#10\", name2=\"avg_npc_213_1\", focus=1)]\n[name=\"艾沃娜\"]  但既然你刚才救了我一命，我倒是可以帮你引荐一下。\n[Character(name=\"avg_496_wdmane_1#10\", name2=\"avg_npc_213_1#6\", focus=2)]\n[name=\"托兰\"]  那就帮了大忙了。\n[Character(name=\"avg_4000_jnight_1#7\")]\n[name=\"“正义骑士号”\"]  （缓慢的滴滴声）\n[Character(name=\"avg_npc_213_1#3\", name2=\"avg_4000_jnight_1#7\", focus=1)]\n[name=\"托兰\"]  哦？哦？这是什么？一辆外卖车吗？\n[Character(name=\"avg_496_wdmane_1#8\", name2=\"avg_npc_213_1#3\", focus=1)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"艾沃娜\"]  什么外卖车！这是我最自豪的宠物！你说话注意点！\n[Character(name=\"avg_496_wdmane_1#8\", name2=\"avg_npc_213_1#6\", focus=2)]\n[name=\"托兰\"]  ……哈，骑士们真是变得有趣起来了。\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_23_G05\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1#2\", focus=2)]\n[name=\"莫妮克\"]  ……我突然明白为什么我会看托兰·卡什那么不顺眼了。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1#2\", focus=1)]\n[name=\"罗伊\"]  为什么？\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1\", focus=2)]\n[name=\"莫妮克\"]  因为他和你太像了。\n[Character(name=\"avg_npc_209_1#5\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"罗伊\"]  咳……你是在拐弯抹角骂我？\n[Character(name=\"avg_npc_209_1#5\", name2=\"avg_npc_208_1\", focus=2)]\n[name=\"莫妮克\"]  所以呢？把我叫停是为了什么？\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"罗伊\"]  最近太辛苦了嘛，偶尔放松一下不好吗？\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1#2\", focus=2)]\n[name=\"莫妮克\"]  我要回去工作了。\n[Character(name=\"avg_npc_209_1#4\", name2=\"avg_npc_208_1#2\", focus=1)]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"罗伊\"]  别，别，你最近越来越像个工作狂了……\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1#2\", focus=1)]\n[name=\"罗伊\"]  耀骑士的特锦赛之旅也拉开帷幕了，只交给白金我还是不放心。\n[name=\"罗伊\"]  监正会今年也安静得可怕。平时他们已经开始和董事会叫板了吧，在各种文件和会议上。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1\", focus=2)]\n[name=\"莫妮克\"]  这就是你偷懒的理由吗？\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"罗伊\"]  也不全是，“上头三位”让我们最近适当应付一下。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1#4\", focus=2)]\n[name=\"莫妮克\"]  唔。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1#4\", focus=1)]\n[name=\"罗伊\"]  严格来说，感染者在为我们创造机会。\n[name=\"罗伊\"]  玄铁们会借机除掉最后的知情者，嫁祸给感染者。\n[name=\"罗伊\"]  现在我们要做的不是去妨害感染者，甚至必要的时候，我们还要暗中帮他们一把。\n[Character(name=\"avg_npc_209_1#6\", name2=\"avg_npc_208_1#4\", focus=1)]\n[name=\"罗伊\"]  但这件事不能太明显，所以我也就由着你去找感染者的麻烦啦，做戏做全套嘛。\n[Character(name=\"avg_npc_209_1#6\", name2=\"avg_npc_208_1#2\", focus=2)]\n[name=\"莫妮克\"]  ……工作内容还真是千变万化啊。\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1#2\", focus=1)]\n[name=\"罗伊\"]  毕竟我们拿着董事会的钱嘛，那我们就只能当董事会的人。\n[Character(name=\"avg_npc_209_1#6\", name2=\"avg_npc_208_1#2\", focus=1)]\n[name=\"罗伊\"]  ……当然，暂时的。\n[Character(name=\"avg_npc_209_1#6\", name2=\"avg_npc_208_1\", focus=2)]\n[name=\"莫妮克\"]  ……哼。\n[name=\"莫妮克\"]  梦魇的事情怎么样了？\n[Character(name=\"avg_npc_209_1\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"罗伊\"]  没什么好担心的，只是个跟着古旧传统走路的傻瓜罢了。\n[name=\"罗伊\"]  之后会安排个单字封号的大骑士和他对决，“梦魇再现”的话题度炒得差不多之后，就可以放弃了。\n[Character(name=\"avg_npc_209_1#2\", name2=\"avg_npc_208_1\", focus=1)]\n[name=\"罗伊\"]  这就是“骑士”啊。活在现代城市里的梦魇遗孤，他也很痛苦吧。\n[stopmusic(fadetime=2.5)]\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]\n[Background(image=\"bg_kxstreet\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  ……\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  ……巴特巴雅尔，你跟着我做什么。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  别总是老气横秋地和我说话，你声音挺年轻的，多半比我年纪小吧。\n[name=\"老骑士\"]  你总是这么……漫无目的？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  ……\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  你没有住的地方吗？难道持有封号的特锦赛骑士，在卡瓦莱利亚基当流浪汉？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[playMusic(intro=\"$drift_intro\", key=\"$drift_loop\", volume=0.4)]\n[name=\"逐魇骑士\"]  ……\n[name=\"逐魇骑士\"]  ……我厌恶城市。\n[name=\"逐魇骑士\"]  行走有助于清醒，库兰塔常行于草原上。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  这里可不是草原。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  这里本该是。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  ……你就这么走？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  ……\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  走了多久？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  ……十几年，还是几年，我已经记不得了。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  ……呃……你总得是搭车来的卡瓦莱利亚基吧？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  ……\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#2\", focus=2)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"老骑士\"]  你徒步横穿了卡西米尔？！\n[name=\"老骑士\"]  不，不对，你真的没“停下来”过？你都不用休息的吗？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#2\", focus=1)]\n[name=\"逐魇骑士\"]  ……巴特巴雅尔，你知道“天途”吗？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#3\", focus=2)]\n[name=\"老骑士\"]  ……什……\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120#3\", focus=1)]\n[name=\"逐魇骑士\"]  那曾是……库兰塔至高的荣誉。\n[name=\"逐魇骑士\"]  战士成年的时刻，为了彰显身为库兰塔的荣耀，将在父母的陪同下，许下一个诺言。\n[name=\"逐魇骑士\"]  他们将从自己出生的地方，前往一处遥远的试炼之地。只带着一把父母赠予的武器，徒步前往。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  试炼之地……？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  试炼之地是由他们自己决定的。真正的勇气必须被自己承认。\n[name=\"逐魇骑士\"]  勇敢者的道路横跨千沟万壑，而胆怯的懦夫只敢选择家门前的树林。\n[name=\"逐魇骑士\"]  路途是否遥远并非唯一的标准，有的勇士带回了猎物的头颅；有的勇士割下了敌人的耳朵；有的勇士一无所获，但他满载赤金与香料。\n[name=\"逐魇骑士\"]  ……先祖们始终没有遗忘这一传统，这是勇气的证明，无数梦魇战士走过天途，作为他们征途的起点。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  所以，你现在……在独自完成你的成年礼？\n[name=\"老骑士\"]  你的父母呢？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  ……从我记事时起，我就举目无亲。\n[name=\"逐魇骑士\"]  巴特巴雅尔，我并不羞于承认，能和你，一位血亲，哪怕是遥远的血亲交谈，也能让我宽慰几分。\n[name=\"逐魇骑士\"]  ……至少，让人意识到，在这扭曲前行的时代，过去的同胞们……都还活着。\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=2)]\n[name=\"老骑士\"]  好吧……你要这么一直在大骑士领晃悠下去吗？\n[Character(name=\"avg_npc_225\", name2=\"avg_npc_120\", focus=1)]\n[name=\"逐魇骑士\"]  ……卡瓦莱利亚基，我从旅人口中得知，这里是骑士之国的中心，卡西米尔的荣耀。\n[name=\"逐魇骑士\"]  可如今看来，这不过是一座腐烂的堡垒，践踏着本应被尊重的荣光……\n[name=\"逐魇骑士\"]  过去，同胞在天途之中经受着野兽与天灾的考验，而我面对的，是轰鸣向前，轧过草原的金属巨物。\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_23_G02\",screenadapt=\"coverall\")]\n[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_225\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"逐魇骑士\"]  ……\n[dialog]\n[character]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Subtitle(text=\"冠军。\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]\n[subtitle]"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_237_gravel",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_237_gravel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 641,
+          "kind": "story",
+          "line": 493,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    }
+  ],
+  "relationship_id": "char_237_gravel|npc_b99957887950ebfd"
+}

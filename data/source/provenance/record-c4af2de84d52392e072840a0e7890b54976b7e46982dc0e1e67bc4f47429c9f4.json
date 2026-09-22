@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 616,
+          "line": 614,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-06_beg.txt",
+          "quote": "[name=\"变形者集群\"]和曼弗雷德预料的一点不差。\n[name=\"变形者集群\"]看上去，作为长久以来的对手，你还不够了解曼弗雷德。\n[name=\"变形者集群\"]但他的确很了解你们。"
+        }
+      ],
+      "description": "变形者明确说明按曼弗雷德预料实施替身计划，双方合作有具体行为及传达依据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E81"
+          ],
+          "from": "npc_d47c240cb2990691",
+          "reason": "变形者明确说明按曼弗雷德预料实施替身计划，双方合作有具体行为及传达依据。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E81"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "变形者明确说明按曼弗雷德预料实施替身计划，双方合作有具体行为及传达依据。",
+          "status": "supported",
+          "to": "npc_d47c240cb2990691"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 616,
+          "kind": "story",
+          "line": 614,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 145,
+          "line": 99,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "quote": "[name=\"曼弗雷德\"]请不要再同我开玩笑了，阁下。\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯？\"]哦？你又进步了嘛，这次我们只说了五句话，你就发现了我们不是特雷西斯。\n[character(name=\"avg_npc_404_1#9$1\")]\n[name=\"曼弗雷德\"]阁下……虽然殿下不会同你计较，但如果你这副样子被赦罪师的人看见，他们一定会再次向殿下申请，限制你的行动。\n[character(name=\"avg_npc_062\")]\n[name=\"特雷西斯？\"]好吧好吧，你说的对，军事委员会不能有两个发号施令的人——\n[dialog]\n[character(name=\"avg_npc_426_1#8$1\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"？？？\"]那就让我们换一个更舒服的模样吧。\n[character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"]……难得，你愿意用王庭会议时的形象来见我。\n[character(name=\"avg_npc_426_1#9$1\")]\n[name=\"？？？\"]我们答应你了，不用逝者的脸，也不再吓唬你和你的战士。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]你回来得比预定的时间更早。\n[name=\"曼弗雷德\"]虽然你帮我们找到了反抗军的窝点，但他们依然可能有其他我没注意到的后路。\n[name=\"曼弗雷德\"]假如你能跟说好的一样，一路跟着他们，直到最后一名反抗军落到我们手中……\n[character(name=\"avg_npc_426_1#5$1\")]\n[name=\"？？？\"]你真以为那个博士能让我们藏那么久？\n[name=\"？？？\"]更何况，曼弗雷德，你别忘了，我们不归你管。\n[character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"]……\n[character(name=\"avg_npc_404_1#3$1\")]\n[name=\"曼弗雷德\"]是我冒昧了，请阁下宽恕。\n[character(name=\"avg_npc_426_1#2$1\")]\n[name=\"？？？\"]也别用这种跟老红眼病说话的语气跟我们说话，早说过了，我们不吃这套。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]如你所愿，阁下。\n[name=\"曼弗雷德\"]既然你选择提前回到这里，那么，你在地下看到你想看见的了？\n[character(name=\"avg_npc_426_1#10$1\")]\n[name=\"？？？\"]唔……那个“魔王”比我们想象的要更坚强一些，不过还远远算不上成熟。\n[character(name=\"avg_npc_426_1#2$1\")]\n[name=\"？？？\"]她呀，她还不知道自己即将面对什么，我们想了解更多的话，至少要等她见一见那位殿下。\n[character(name=\"avg_npc_404_1#9$1\")]\n[name=\"曼弗雷德\"]……你这些话，最好别让赦罪师听见。\n[character(name=\"avg_npc_426_1#5$1\")]\n[name=\"？？？\"]听见又怎么样？\n[character(name=\"avg_npc_404_1#3$1\")]\n[name=\"曼弗雷德\"]他们会以为变形者集群的王庭有……摇摆之心。\n[character(name=\"avg_npc_426_1#5$1\")]\n[name=\"？？？\"]你觉得我们会在乎吗？\n[character(name=\"avg_npc_426_1#10$1\")]\n[name=\"？？？\"]曼弗雷德，我们答应你的事已经做完了，剩下的烂摊子，你和血魔自己收拾。\n[character(name=\"avg_npc_426_1#3$1\")]\n[name=\"？？？\"]对了……再有下次的话，给我们挑一个还活着的身份吧。"
+        }
+      ],
+      "description": "曼弗雷德识破伪装为摄政王的变形者，二人当面对谈共同作战。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E62"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德识破伪装为摄政王的变形者，二人当面对谈共同作战。",
+          "status": "supported",
+          "to": "npc_d47c240cb2990691"
+        },
+        {
+          "evidenceIds": [
+            "E62"
+          ],
+          "from": "npc_d47c240cb2990691",
+          "reason": "曼弗雷德识破伪装为摄政王的变形者，二人当面对谈共同作战。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 145,
+          "kind": "story",
+          "line": 99,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-13_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_03f95afb5dd17c3f|npc_d47c240cb2990691"
+}

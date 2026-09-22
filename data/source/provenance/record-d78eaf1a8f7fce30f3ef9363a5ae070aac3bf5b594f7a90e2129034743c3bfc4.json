@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 400,
+          "line": 340,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_05_end.txt",
+          "quote": "[name=\"卡车司机A\"]哇，你拿冰过的盐汽水冰我的脸干嘛，吓我一跳！\n[charslot(slot = \"r\",focus=\"r\", name = \"avg_npc_1561_1#1$1\")]\n[name=\"卡车司机B\"]你听柳德米拉讲故事听得太入迷了。\n[name=\"卡车司机B\"]后来呢？\n[name=\"卡车司机B\"]这个塔露拉，后来弑君者杀掉她了吗？\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#3$1\",duration=1.5)]\n[delay(time=2)]\n[name=\"柳德米拉\"]……\n[name=\"柳德米拉\"]没有。弑君者没有杀她。\n[charslot]\n[charslot(slot = \"left\", name = \"avg_npc_1550_1#1$1\",focus=\"r\")]\n[charslot(slot = \"right\", name = \"avg_npc_1561_1#1$1\",focus=\"r\")]\n[name=\"卡车司机B\"]真可惜，明明一直跟在塔露拉身边，却始终没有察觉所谓的领袖其实是一条满嘴谎话的恶龙……本来那么多人都可以得救的。\n[name=\"卡车司机B\"]话说，那个弑君者既没杀塔露拉，也没杀乌萨斯皇帝，为什么给自己取名字叫“弑君者”？\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#2$1\")]\n[name=\"柳德米拉\"]……\n[dialog]\n[charslot]\n[charslot(slot = \"left\", name = \"avg_npc_1550_1#1$1\",focus=\"l\")]\n[charslot(slot = \"right\", name = \"avg_npc_1561_1#1$1\",focus=\"l\")]\n[name=\"卡车司机A\"]说得轻巧，那是皇帝和恶龙啊，你杀过人吗罗米？\n[name=\"卡车司机A\"]不对，你不会真的杀过人吧？在给波吉亚家族干活的时候，你不会……\n[charslot(slot = \"r\",focus=\"r\", name = \"avg_npc_1561_1#1$1\")]\n[name=\"卡车司机B\"]我可没干过这种事。\n[name=\"卡车司机B\"]我一个司机，也就帮那些人开开夜车。杀人越货这种事，是不会轻易交给我这样的人去做的。\n[charslot(slot = \"l\",focus=\"l\", name = \"avg_npc_1550_1#1$1\")]\n[name=\"卡车司机A\"]真的假的，你车开得这么烂，能给大人物们开夜车？\n[name=\"卡车司机A\"]开夜车……不会是什么我不知道的家族黑话吧？\n[charslot(slot = \"r\",focus=\"r\", name = \"avg_npc_1561_1#3$1\")]\n[name=\"卡车司机B\"]当然只是字面意思而已！你这家伙，口气怎么和警察一模一样！再说，那都是过去的事了。\n[charslot(slot = \"l\",focus=\"l\", name = \"avg_npc_1550_1#1$1\")]\n[name=\"卡车司机A\"]不过说实在的，罗米，你最近吃的罚单是有点多了。\n[charslot(slot = \"r\",focus=\"r\", name = \"avg_npc_1561_1#1$1\")]\n[name=\"卡车司机B\"]狂欢节嘛，人多车多，大街小巷都不太好走，你又不是不知道。\n[name=\"卡车司机B\"]我又没在满是废墟的移动城市里一边开车一边躲天灾过！\n[charslot(slot = \"l\",focus=\"l\", name = \"avg_npc_1550_1#1$1\")]\n[name=\"卡车司机A\"]你还沉浸在柳德米拉的故事里呢？\n[name=\"卡车司机A\"]话说，柳德米拉，这些故事真的只是你在乌萨斯的时候听来的吗？你讲得有鼻子有眼的，好像亲身经历过一样……\n[charslot]\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#6$1\")]\n[name=\"柳德米拉\"]……\n[charslot]\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_1547_1#2$1\",duration=1)]\n[delay(time=1.5)]\n[name=\"索默尔\"]你们啊，喝人家的汽水，听人家的故事，还缠着人家问东问西，有没有点礼貌？\n[charslot(slot=\"m\",name=\"avg_npc_1550_1#1$1\")]\n[name=\"卡车司机A\"]啊，怪我怪我。不好意思啊，柳德米拉。\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#1$1\")]\n[name=\"柳德米拉\"]没事。\n[charslot(slot=\"m\",name=\"avg_npc_1547_1#1$1\")]\n[name=\"索默尔\"]柳德米拉，也没必要每周都是你请客吧？\n[name=\"索默尔\"]你来营地多长时间了，三个月，四个月？\n[charslot(slot=\"m\",name=\"avg_1502_crosly_1#1$1\")]\n[name=\"柳德米拉\"]记不清了，反正挺久了。\n[charslot(slot=\"m\",name=\"avg_npc_1547_1#1$1\")]\n[name=\"索默尔\"]互助会给你发的工资，你又全还给我们这些人了。为什么不听我的，省下来将来做点小买卖呢？"
+        }
+      ],
+      "description": "柳德米拉与索默尔相处数月并直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "柳德米拉与索默尔相处数月并直接交流。",
+          "status": "supported",
+          "to": "npc_349af4d923af44ee"
+        },
+        {
+          "evidenceIds": [
+            "C09"
+          ],
+          "from": "npc_349af4d923af44ee",
+          "reason": "柳德米拉与索默尔相处数月并直接交流。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 400,
+          "kind": "story",
+          "line": 340,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "揭幕者们"
+    }
+  ],
+  "relationship_id": "char_1502_crosly|npc_349af4d923af44ee"
+}

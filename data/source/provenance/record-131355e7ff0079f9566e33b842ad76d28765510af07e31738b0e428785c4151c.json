@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 339,
+          "line": 298,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#2$1\",focus=\"m\")]\n[name=\"赫德雷\"]这场战争已经失去了它最后一点夺人性命的理由，它该结束了。这与我曾经或现在的身份都无关。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]……\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#2$1\",focus=\"m\")]\n[name=\"戴菲恩\"]好，我会放你们过去。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]如果连罗德岛也如此信任你们……\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]戴菲恩阁下，注意您的言行，我有理由怀疑您有叛国的行为。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]这轮不到你来说。\n[name=\"戴菲恩\"]希勒少尉，通知周围的典范军队伍为这支萨卡兹队伍开路，护送他们进入指挥中心。\n[name=\"戴菲恩\"]顺带电联其他联军部队，明确这是来自戴菲恩·温德米尔的指令。\n[charslot(slot=\"m\",name=\"avg_npc_1520_1#5$1\",focus=\"m\")]\n[name=\"希勒少尉\"]是，温德米尔小姐！\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]希望等到公爵们追究下来，您能为自己的行为负责，阁下。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#2$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我比你们中的大多数人都更恨萨卡兹，阁下，但我至少看得清局势。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#1$1\",focus=\"m\")]\n[name=\"戴菲恩\"]一路走来，伦蒂尼姆流的血，已经够多了。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#2$1\",focus=\"m\")]\n[name=\"赫德雷\"]谢谢你帮我们。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#9$1\",focus=\"m\")]\n[name=\"戴菲恩\"]这不是为了帮你们，萨卡兹。过去吧，去结束这场战争。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[Delay(time=1)]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#2$1\",focus=\"m\")]\n[name=\"戴菲恩\"]阁下，你可以带着人继续和我耗在这里。或者我们都带人归队，准备参加最前线的战事。\n[name=\"戴菲恩\"]需要等你电联开斯特公爵阁下请求指示吗？\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]我想不必了，戴菲恩阁下，公爵阁下给予了我自行决策的权利。我们的主战场的确不在这里。\n[name=\"“灰礼帽”\"]不过我会如实向公爵阁下汇报这次行动。\n[charslot(slot=\"m\",name=\"avg_4110_delphn_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]随你的便。\n[name=\"戴菲恩\"]顺便麻烦阁下给开斯特公爵阁下送去典范军的承诺——\n[name=\"戴菲恩\"]当足以被视作决战号角的信息传遍整个战场的时候，典范军会毫不犹豫地率先行动。"
+        }
+      ],
+      "description": "赫德雷在现场听到戴菲恩与灰礼帽具体谈及开斯特公爵；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E13"
+          ],
+          "from": "char_4088_hodrer",
+          "reason": "赫德雷在现场听到戴菲恩与灰礼帽具体谈及开斯特公爵",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "对方未在本组该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_4088_hodrer"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 339,
+          "kind": "story",
+          "line": 298,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战役期间",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_4088_hodrer|npc_8c87697c59975883"
+}

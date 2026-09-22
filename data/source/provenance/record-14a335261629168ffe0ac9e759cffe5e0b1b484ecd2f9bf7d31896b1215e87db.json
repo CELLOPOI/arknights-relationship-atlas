@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 718,
+          "line": 708,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-07_end.txt",
+          "quote": "[name=\"Mon3tr？\"]你在特蕾西娅身边重生的时候，我们也在注视着你。\n[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]\n[name=\"Mon3tr？\"]你与上一个你，从样貌到性格，都有所不同。\n[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]\n[name=\"Mon3tr？\"]我们习惯于为了生存而不断变化。\n[name=\"Mon3tr？\"]在萨卡兹之中，变形者集群也很特殊。我们曾以为，你与我们是相似的。\n[name=\"Mon3tr？\"]我们认识很多个“凯尔希”，就如同凯尔希认识很多个我们。\n[name=\"Mon3tr？\"]然而变形者从来都是集群。每一个变形者都是我们感受这个世界的接收器。\n[name=\"Mon3tr？\"]而“凯尔希”不同。每一个凯尔希都是你自己。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]\n[name=\"凯尔希\"]我确实这么认为。"
+        }
+      ],
+      "description": "变形者明确知道凯尔希曾在特蕾西娅身边重生。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E95"
+          ],
+          "from": "npc_d47c240cb2990691",
+          "reason": "变形者明确知道凯尔希曾在特蕾西娅身边重生。",
+          "status": "supported",
+          "to": "npc_c0e49cc5a9477cf1"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c0e49cc5a9477cf1",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_d47c240cb2990691"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 718,
+          "kind": "story",
+          "line": 708,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "npc_c0e49cc5a9477cf1|npc_d47c240cb2990691"
+}

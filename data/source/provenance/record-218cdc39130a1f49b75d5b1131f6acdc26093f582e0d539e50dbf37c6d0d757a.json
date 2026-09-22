@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 122,
+          "line": 118,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_ex06_end.txt",
+          "quote": "[name=\"Alty\"]   只是你确实不像其他人。他们会被过多的感情束缚、被言论利用，甚至变成某种灾难。\n[name=\"Alty\"]   也难怪那个人让你作为最后的底牌来帮助小兔子和Dr.{@nickname}。\n[name=\"Alty\"]   你其实是台X光机对吧？\n[Character(name=\"npc_2004_Alty\",name2=\"char_003_kalts_1\",focus=2)]\n[name=\"凯尔希\"]  我也希望自己是台单纯的机器。"
+        }
+      ],
+      "description": "Alty具体提及博士和凯尔希援助之事。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E41"
+          ],
+          "from": "npc_c7121f5df30f84f6",
+          "reason": "Alty具体提及博士和凯尔希援助之事。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "npc_c7121f5df30f84f6"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 122,
+          "kind": "story",
+          "line": 118,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_ex06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    }
+  ],
+  "relationship_id": "npc_b99957887950ebfd|npc_c7121f5df30f84f6"
+}

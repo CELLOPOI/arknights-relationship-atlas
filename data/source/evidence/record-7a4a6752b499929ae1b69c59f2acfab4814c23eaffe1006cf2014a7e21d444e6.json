@@ -1,0 +1,15 @@
+{
+  "id": "import:char_4208_wintim|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【反常光谱】\n科谢尼娅：不过，我大概本来就没资格知道这些……\nMon3tr：科谢尼娅。\n科谢尼娅：嗯？\nMon3tr：你会再见到凯尔希的。肯定会。\n科谢尼娅：啊，这么说她确实还……\n科谢尼娅：太好了。\nMon3tr：无论如何，我们都会再见到凯尔希的。博士，对不对？\n选项：\n1：……没错。\n分支条件（原选项编号）：1\n科谢尼娅：我会期待的……",
+  "relationship_id": "char_4208_wintim|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 241,
+      "kind": "story",
+      "line": 222,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_16-08_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

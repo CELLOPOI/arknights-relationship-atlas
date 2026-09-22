@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 304,
+          "line": 219,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "quote": "[name=\"魏彦吾\"]……\n[charslot(slot=\"l\",name=\"avg_npc_788_1#9$1\",focus=\"l\")]\n[name=\"左宣辽\"]魏公莫非又看上我这军帐里的哪样兵器了？\n[name=\"左宣辽\"]罢了，反正我是都用不着了，你要是喜欢，不如连我那军武库整个搬到龙门去。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]平祟侯说笑了。这些兵器，即使左兄用不着，也是要留给玉门的。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]如果记得没错，十年前魏公和我打赌，赚走了我刚寻来的一把名剑。五年前，魏公又趁酒后带走了天师府送我的一张弓。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]那我们今天喝酒对赌，你尽管赢，别再让着我了。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]不过是些玩笑话。这么多年，龙门持续为玉门供应物资，一次都没有耽误过。单冲这一点，我也该送魏公几件礼物。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]分内的事。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]可魏兄身为龙门总督，事务繁忙……今天还特意来到玉门巡视，总该不是分内的事？\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#2\",focus=\"r\")]\n[name=\"魏彦吾\"]算是私事。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#1\",focus=\"r\")]\n[name=\"魏彦吾\"]龙门离了魏总督几天，还不至于起什么乱子，但魏彦吾能趁机看看老朋友，倒也不是一件坏事。\n[charslot(slot=\"r\",name=\"char_2005_weiyw_1#2\",focus=\"r\")]\n[name=\"魏彦吾\"]宗师离任的日子快到了，我正好送送他。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#1$1\",focus=\"l\")]\n[name=\"左宣辽\"]宗师的离任，可的确是件麻烦事。\n[charslot(slot=\"l\",name=\"avg_npc_788_1#8$1\",focus=\"l\")]\n[name=\"左宣辽\"]他的那把剑，需要妥善处理。\n[charslot]\n[name=\"重岳\"]哎，说来说去，这麻烦的话题还是回到了我头上。\n[stopmusic(fadetime=1)]\n[dialog]\n[charslot]\n[delay(time=1)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"l\",name=\"avg_2023_ling_1#1$1\",duration=1.5)]\n[charslot(slot=\"r\",name=\"avg_2024_chyue_1#1$1\",duration=1.5)]\n[playMusic(key=\"$midautumn\", volume=0.4)]\n[delay(time=2)]\n[charslot]\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#1\",focus=\"m\")]\n[name=\"魏彦吾\"]宗师，令小姐，好久不见。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]的确有些日子了。\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#3$1\",focus=\"m\")]\n[name=\"令\"]呀！\n[charslot(slot=\"m\",name=\"avg_2023_ling_1#8$1\",focus=\"m\")]\n[name=\"令\"]今日这么多故人重逢，正当痛饮，不知道左将军提前备好了酒没有？\n[charslot(slot=\"m\",name=\"avg_npc_788_1#9$1\",focus=\"m\")]\n[name=\"左宣辽\"]凭令小姐在玉门的功劳，按道理是该陪你多喝几杯。 \n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\",focus=\"m\")]\n[name=\"左宣辽\"]不过今日，饮酒的事还得稍微等一等。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\",focus=\"m\")]\n[name=\"左宣辽\"]听说宗师心意已决，要将剑交给比武选出来的第一人？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]武功只是第一道考验，值不值得将剑托付出去，我还有别的考量。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#4$1\",focus=\"m\")]\n[name=\"重岳\"]我还以为这件事，左将军早就是知道了的。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#1$1\",focus=\"m\")]\n[name=\"左宣辽\"]宗师上次提起这件事的时候，局势也不同今日。\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]可对我而言，这把剑总归是要托付给一个合适的人，而非合适的局势。\n[charslot(slot=\"m\",name=\"avg_npc_788_1#7$1\",focus=\"m\")]\n[name=\"左宣辽\"]宗师是觉得，这么久以来，军队上下，朝堂内外，身后眼前，竟无一个人合适了？\n[charslot(slot=\"m\",name=\"avg_2024_chyue_1#1$1\",focus=\"m\")]\n[name=\"重岳\"]……\n[charslot]\n[name=\"？？？\"]好生热闹。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",duration=1.5)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_788_1#2$1\",focus=\"m\")]\n[name=\"左宣辽\"]有失远迎，太傅见谅。\n[charslot(slot=\"m\",name=\"char_2005_weiyw_1#1\",focus=\"m\")]\n[name=\"魏彦吾\"]多年未见，太傅的精神还是好得很。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",focus=\"m\")]\n[name=\"太傅\"]诸位都是替大炎镇守边疆的有功之臣，风貌非常，现在齐聚一堂，也让我眼前一亮。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",focus=\"m\")]\n[name=\"太傅\"]只是今天有一些紧急事务，没有时间闲聊许久了。\n[charslot(slot=\"m\",name=\"avg_npc_301_1#4$1\",focus=\"m\")]\n[name=\"太傅\"]人已到齐，左将军，让旁人退下吧。\n[dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.7)]\n[delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_npc_301_1#1$1\",focus=\"m\")]\n[name=\"太傅\"]我来的路上，正好遇见从城外归来的巡防营斥候。听他说说情况吧。"
+        }
+      ],
+      "description": "军帐中左宣辽、魏彦吾、重岳、令与太傅先后入席，直接互相招呼后讨论事务，真实同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "军帐中左宣辽、魏彦吾、重岳、令与太傅先后入席，直接互相招呼后讨论事务，真实同场。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "E15"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "军帐中左宣辽、魏彦吾、重岳、令与太傅先后入席，直接互相招呼后讨论事务，真实同场。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_976988e5a85bd926.json",
+      "sources": [
+        {
+          "endLine": 304,
+          "kind": "story",
+          "line": 219,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act23side/level_act23side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "登临意所述时段",
+      "title": "登临意"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 398,
+          "line": 186,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_01_beg.txt",
+          "quote": "[name=\"魏彦吾\"]之前是信使，今天是太傅亲自到这来……  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]是有必须要和魏公说清的事。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]晖洁，回避。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]不必。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]一会要说的事，她最好也留下来听听。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]……  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]好。  \n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"l\")]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\",isblock=true)]\n[name=\"魏彦吾\"]如今百灶城中境况……  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]中秋后，陛下特准他进入岁陵，尝试平息岁兽之患。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]可望日临近，岁陵中依然没有动静。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]而此时此刻，大炎周遭还有五只巨兽盘踞，不知祂们意欲何为。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]天机阁的天师，还有大炎最精锐的战士已经前往巨兽所在的各地，大炎并不惮于这一战。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]但最坏的结果，不只是与五只巨兽同时开战。  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\")]\n[delay(time=0.5)]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#10$2\")]\n[name=\"陈\"]竟然……  \n[dialog]\n[avgdisplay(id = \"1\", style = \"bg\", name = \"bg_black\",afrom=0,ato=0.6,duration=2,slot = \"bgover\", layer = 1,isblock=true)]\n[delay(time=1)]\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"模糊的声音？\"]“不知意欲何为”——这白胡子老头倒是会说话。\n[name=\"模糊的声音？\"]上千年的血仇，这时候找上门，还能是来串门送礼的不成？\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#1$2\",focus=\"m\")]\n[name=\"陈\"]嗯……？  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]你……说什么？  \n[dialog]\n[avgdisplay(id = \"1\",style = \"bg\",name = \"bg_black\",afrom=0.6,ato=0,duration=1,slot = \"bgover\", layer = 1,block=true)]\n[delay(time=1)]\n[avgdisplay(id = \"1\")]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"l\")]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\",isblock=true)]\n[delay(time=0.5)]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\",isblock=true)]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]这时候，应当已经有不少人力主开战了。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]此刻重要的不再是某一派的意见。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]只怕大炎已经没有选择。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]朝廷应当对此有过无数种预案。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]在无数种预案中，也不存在一种惨胜之外的结果。 \n[charslot(slot = \"r\", name = \"avg_npc_301_1#2$1\", focus=\"r\")] \n[name=\"太傅\"]但依然还有我们不曾考虑过的手段。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]……！  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]太傅，告诉我，胞弟不曾想过要自己去开启“不反”——\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]他是真龙，大炎的真龙。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]如若大炎真到了不得已的时候，也只有他能行此事。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]……简直荒唐！  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]魏公。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]事已至此，我们不必再顾左右而言他。 \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")] \n[name=\"太傅\"]那封送到龙门的密信，在禁军动身前还无人知晓。而我今天来见魏公，却不曾掩人耳目。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]魏公应当明白。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]这些旧事……四十年的旧事，上千年的旧事……绝对不该以这种方式收场。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]……绝对不该，是由他去付出这个代价。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]无人愿意见到那个最坏的局面，但绝不可自欺欺人。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]我有必要提醒魏公——哪怕只是为大炎计，为天下计。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]当留后手。  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\")]\n[name=\"陈\"]请等一下。  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\")]\n[name=\"陈\"]我不明白，太傅说的“后手”是什么意思？  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#1$2\")]\n[name=\"陈\"]您刚刚说的这些事，和魏彦吾……有什么关系？  \n[dialog]\n[avgdisplay(id = \"1\", style = \"bg\", name = \"bg_black\",afrom=0,ato=0.6,duration=2,slot = \"bgover\", layer = 1,isblock=true)]\n[delay(time=1)]\n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"模糊的声音？\"]这还听不明白？\n[name=\"模糊的声音？\"]后手就是后手，事情办砸的时候该做的事就叫后手。\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\",focus=\"m\")]\n[name=\"陈\"]……什么……？  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\",focus=\"m\")]\n[name=\"陈\"]你们……这是在说什么？  \n[charslot(slot = \"m\", focus=\"n\")]\n[name=\"模糊的声音？\"]国不可一日无君，少了一位真龙，那自然得再补上一位真龙。\n[name=\"模糊的声音？\"]父死子替，兄退弟进，几千年来都是这么传过来的。\n[name=\"模糊的声音？\"]要是别人都不在了，这女娃自然也是要去当真龙的。\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#6$2\",focus=\"m\")]\n[name=\"陈\"]……你们在胡说八道什么？！  \n[dialog]\n[avgdisplay(id = \"1\",style = \"bg\",name = \"bg_black\",afrom=0.6,ato=0,duration=1,slot = \"bgover\", layer = 1,block=true)]\n[delay(time=1)]\n[avgdisplay(id = \"1\")]\n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"r\",isblock=true)]\n[name=\"太傅\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"l\")]\n[name=\"魏彦吾\"]……晖洁！  \n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#11$2\")]\n[name=\"陈\"]刚才的声音……  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]你们……都没听到？  \n[charslot(slot = \"m\", name = \"avg_1050_chen3_1#12$2\")]\n[name=\"陈\"]……我……  \n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#4\", focus=\"r\",isblock=true)]\n[name=\"太傅\"]魏公。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]我不苛求魏公在此刻想清万般利害。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]行事当三思，但时间毕竟紧迫。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]魏公，珍重。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]……我送太傅一程。  \n[charslot(slot = \"r\", name = \"avg_npc_301_1#1$1\", focus=\"r\")]\n[name=\"太傅\"]不必。  \n[PlaySound(key=\"$d_avg_woodfloor_fts\", volume=1)]\n[dialog]\n[charslot(slot = \"r\", afrom=1, ato=0, duration=1.5, isblock=true)]\n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=1)]\n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\",posfrom=\"150,0\",posto=\"80,0\",duration=1,isblock=true)]\n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\", focus=\"r\")]\n[name=\"陈\"]我不明白，那位太傅的意思。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\", focus=\"r\")]\n[name=\"陈\"]他特意让我留在这里，但我一点也听不明白你们所说的。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]晖洁……  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#11$2\", focus=\"r\")]\n[name=\"陈\"]什么叫炎国很有可能马上要大动干戈，却让你做好准备？  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#11$2\", focus=\"r\")]\n[name=\"陈\"]“不反”“巨兽”……你和这些事到底有什么联系？  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]晖洁。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]过去曾有许多错……有的是我亲自铸就，有的则是我无力阻止。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]我唯一在坚持的，是不让那些已经无力改变的错，祸及你们。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]只因我从不曾怀疑，你能做到的比我们更多。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#10$2\", focus=\"r\")]\n[name=\"陈\"]……别在这时候说这些。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]还有一事。  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]塔露拉……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]告诉我，你上一次见到塔露拉，她还好吗？  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\", focus=\"r\")]\n[name=\"陈\"]不，我才不会在这个时候告诉你。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#1$2\", focus=\"r\")]\n[name=\"陈\"]如果你真的还在乎她，就不要在这种时候问她的事。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#13$2\", focus=\"r\")]\n[name=\"陈\"]文月姨不愿意见你永远当那个老顽固，她在意你的安危，我也不想——  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#13$2\", focus=\"r\")]\n[name=\"陈\"]……如果你真的还在乎除了你自己之外的谁，就不要把他们全都抛在身后。  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#13$2\", focus=\"r\")]\n[name=\"陈\"]告诉我，舅舅……  \n[charslot(slot = \"r\", name = \"avg_1050_chen3_1#13$2\", focus=\"r\")]\n[name=\"陈\"]你到底准备做什么？  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#2\", focus=\"l\")]\n[name=\"魏彦吾\"]……  \n[charslot(slot = \"l\", name = \"char_2005_weiyw_1#5\", focus=\"l\")]\n[name=\"魏彦吾\"]听上去，她活得应当还好，至少不坏。  "
+        }
+      ],
+      "description": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_92c92c1606519db1"
+        },
+        {
+          "evidenceIds": [
+            "C03"
+          ],
+          "from": "npc_92c92c1606519db1",
+          "reason": "两端在已读连续场景中直接互相发话、协作或有具体既往往来。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_a2dcdb30ca5d9c93.json",
+      "sources": [
+        {
+          "endLine": 398,
+          "kind": "story",
+          "line": 186,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act49side/level_act49side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实与明确旧日回忆所示时段",
+      "title": "辞岁行"
+    }
+  ],
+  "relationship_id": "npc_08bc2cc38b820ef0|npc_92c92c1606519db1"
+}

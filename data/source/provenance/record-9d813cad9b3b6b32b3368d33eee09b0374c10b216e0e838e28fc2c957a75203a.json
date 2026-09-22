@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 416,
+          "line": 311,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_01_beg.txt",
+          "quote": "[name=\"？？？\"]结城哥？！\n[name=\"？？？\"]结城哥……是你吗？\n[name=\"结城理\"]虎狼丸，还有天田……！\n[name=\"？？？\"]太好了……虎狼丸真的找到结城哥了！\n[name=\"吉阿达\"]结城……？\n[name=\"结城理\"]嗯，这就是我的同伴……其中的两位。这位是天田乾，另一位……名叫虎狼丸。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Image]\n[Background(image=\"26_g9_laterano_street\",screenadapt=\"coverall\")]\n[Delay(time=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_2388_1#1$3\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[name=\"天田乾\"]……您好？\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4220_kormr_1#4$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[playsound(key=\"$d_avg_dogbarknormal\", volume=1)]\n[name=\"虎狼丸\"]汪呜汪呜！\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#5$1\",focus=\"r\")]\n[name=\"裘里奥\"]……\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#1$1\",focus=\"r\")]\n[name=\"裘里奥\"]啊哈哈哈，还好生活用品还没买，不用多跑一趟了……\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#12$1\",focus=\"l\")]\n[name=\"吉阿达\"]（小声）裘里奥，这是……循兽？\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]\n[name=\"裘里奥\"]（小声）……更像是佩洛兽亲？嗯……佩洛兽亲吃循兽粮吗？\n[dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4220_kormr_1#6$1\",focus=\"m\")]\n[name=\"虎狼丸\"]汪？\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Image]\n[Background(image=\"77_g1_dorm\",screenadapt=\"coverall\")]\n[Delay(time=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[playMusic(intro=\"$m_avg2_act54side_intro\",key=\"$m_avg2_act54side_loop\", volume=0.6)]\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#10$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#1$1\",focus=\"l\")]\n[name=\"吉阿达\"]……好了，和结城的老师联络过了，天田今天可以住在宿舍。之后也要去公证所和学校登记报到。\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]\n[name=\"裘里奥\"]啊哈哈……又多出来一个表弟啊……\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]\n[name=\"裘里奥\"]小理，你要不然，先稍微和我们讲一点你同伴的事？比如，一共有几个人之类的……？\n[name=\"裘里奥\"]我好确认一下我的亲戚数量。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#5$4\",focus=\"m\")]\n[multiline(name=\"结城理\")]包括我在内，这次一起行……\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$4\",focus=\"m\")]\n[multiline(name=\"结城理\")]一起来拉特兰的同伴应该有五名，再加上虎狼丸。\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#10$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]\n[name=\"裘里奥\"]那……吉阿达，咱俩分分？\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#11$1\",focus=\"l\")]\n[name=\"吉阿达\"]……不用每个人都装成亲戚吧，按照公民亲属的亲友身份登记应该也可以。\n[charslot]\n[charslot(slot=\"l\",name=\"avg_4217_makoto_1#1$4\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_2388_1#13$3\",focus=\"r\")]\n[name=\"天田乾\"]（小声）结城哥，这是怎么回事……？\n[charslot(slot=\"l\",name=\"avg_4217_makoto_1#2$4\",focus=\"l\")]\n[name=\"结城理\"]（轻微摇头）\n[charslot(slot=\"l\",name=\"avg_4217_makoto_1#1$4\",focus=\"l\")]\n[name=\"结城理\"]就按吉阿达小姐说的办吧。\n[charslot(slot=\"r\",name=\"avg_npc_2388_1#1$3\",focus=\"r\")]\n[name=\"天田乾\"]那……总之非常感谢！\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4220_kormr_1#3$1\",focus=\"m\")]\n[name=\"虎狼丸\"]汪！\n[charslot]\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#10$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#1$1\",focus=\"l\")]\n[name=\"吉阿达\"]今天很累了吧，你们早点休息。\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#5$1\",focus=\"r\")]\n[name=\"裘里奥\"]欸？不能再坐会儿吗，我也很累啊……\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#2$1\",focus=\"l\")]\n[name=\"吉阿达\"]这里是学生宿舍。\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]\n[multiline(name=\"裘里奥\")]好吧好吧……\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#10$1\",focus=\"r\")]\n[multiline(name=\"裘里奥\")]之后再来看你们，再见啦！\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[charslot(slot=\"l\",afrom=1, ato=0,duration=1.5)]\n[charslot(slot=\"r\",afrom=1, ato=0,duration=1.5)]\n[delay(time=3)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$4\",focus=\"m\")]\n[name=\"结城理\"]……天田，虎狼丸，去我房间说吧。\n[charslot]\n[stopmusic(fadetime=2)]\n[charslot(slot=\"l\",name=\"avg_npc_2388_1#3$3\")]\n[charslot(slot=\"r\",name=\"avg_4220_kormr_1#6$1\")]\n[name=\"天田乾&虎狼丸\"]嗯！/嗷！"
+        }
+      ],
+      "description": "结城理介绍虎狼丸后，虎狼丸当面回应，吉阿达参与接待并向他们道别。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "char_4220_kormr",
+          "reason": "结城理介绍虎狼丸后，虎狼丸当面回应，吉阿达参与接待并向他们道别。",
+          "status": "supported",
+          "to": "npc_956847e3d1955410"
+        },
+        {
+          "evidenceIds": [
+            "C02"
+          ],
+          "from": "npc_956847e3d1955410",
+          "reason": "结城理介绍虎狼丸后，虎狼丸当面回应，吉阿达参与接待并向他们道别。",
+          "status": "supported",
+          "to": "char_4220_kormr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2be69585e5326764.json",
+      "sources": [
+        {
+          "endLine": 416,
+          "kind": "story",
+          "line": 311,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇联动叙事所示时段",
+      "title": "月行水上"
+    }
+  ],
+  "relationship_id": "char_4220_kormr|npc_956847e3d1955410"
+}

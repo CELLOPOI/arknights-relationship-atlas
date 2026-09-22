@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 401,
+          "line": 389,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-04.txt",
+          "quote": "[name=\"九\"]那个恶神呢？你成功杀死他了吗？\n[character(name=\"avg_npc_043_1#2\",name2=\"char_011_talula_1#3\",focus=2)]\n[name=\"塔露拉\"]她说她不再是那个人了。\n[Character(name=\"avg_npc_043_1#2\",name2=\"char_011_talula_1#3\",focus=1)]\n[name=\"九\"]你相信？\n[character(name=\"avg_npc_043_1#2\",name2=\"char_011_talula_1#3\",focus=2)]\n[name=\"塔露拉\"]我不信。但我也不再是那个以为杀了她就能解决问题的塔露拉。\n[name=\"塔露拉\"]我不会允许她离开我的视线。有必要的时候，我会立刻动手。\n[name=\"塔露拉\"]可我总有一种预感……\n[Character(name=\"avg_npc_043_1#2\",name2=\"char_011_talula_1#3\",focus=1)]\n[name=\"九\"]预感？\n[character(name=\"avg_npc_043_1#2\",name2=\"char_011_talula_1#3\",focus=2)]\n[name=\"塔露拉\"]不死的恶神……终将死去。可杀死她的，不会是我。"
+        }
+      ],
+      "description": "九询问塔露拉是否杀死所会见恶神，并获其女性新躯体的具体答复；卡谢娜泛称城外朋友不证明反向知道九。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E91"
+          ],
+          "from": "npc_b554345833235f79",
+          "reason": "九询问塔露拉是否杀死所会见恶神，并获其女性新躯体的具体答复；卡谢娜泛称城外朋友不证明反向知道九。",
+          "status": "supported",
+          "to": "npc_05e9662da0c484f6"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_05e9662da0c484f6",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_b554345833235f79"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 401,
+          "kind": "story",
+          "line": 389,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_10-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    }
+  ],
+  "relationship_id": "npc_05e9662da0c484f6|npc_b554345833235f79"
+}

@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 367,
+          "line": 352,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "quote": "[name=\"黑角\"]  博士，真没想到你也会来酒吧啊。\n[Decision(options=\"阿米娅推荐我过来放松一下。;……;我的迷彩模块失效了吗？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_089\")]\n[name=\"干员查德\"]  干嘛捅我你们……\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"干员查德\"]  咳……博士，好久不……呃，晚上好！\n[name=\"干员查德\"]  呼……\n[Decision(options=\"晚上好，干员查德、干员迪伦、干员巴蒂、干员黑角。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_089\")]\n[name=\"干员查德\"]  博士你……你居然记得我们全部人的名字？！\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  博士的记性还是这么好啊。\n[name=\"黑角\"]  要熟悉山一样高的文件，还要一下子记住俺们这么多人的名字，可不大容易。博士，您别累着。\n[Decision(options=\"这是应该的。;……;PRTS会帮我。\", values=\"1;2;3\")]"
+        }
+      ],
+      "description": "黑角问候博士，博士选项具名回应同桌干员。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_500_noirc",
+          "reason": "黑角问候博士，博士选项具名回应同桌干员。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "黑角问候博士，博士选项具名回应同桌干员。",
+          "status": "supported",
+          "to": "char_500_noirc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_77447b339e70b7d0.json",
+      "sources": [
+        {
+          "endLine": 367,
+          "kind": "story",
+          "line": 352,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_noirc_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑角所述时段",
+      "title": "黑角"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 190,
+          "line": 125,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "quote": "[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=1)]\n[delay(time=3)]\n[Decision(options=\"休息吗……;……;真是奢侈的单词。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[delay(time=1)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_canteen\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n7:33 A.M.   \n罗德岛食堂\n[dialog]\n[Character(name=\"char_124_kroos_1\", name2=\"avg_123_fang_1\",fadetime=0.7)]\n[delay(time=0.7)]\n[Character(name=\"char_124_kroos_1\", name2=\"avg_123_fang_1\", focus=2)]\n[name=\"芬\"]  啊，博士！早上好。\n[Character(name=\"char_124_kroos_1#2\", name2=\"avg_123_fang_1\", focus=1)]\n[name=\"克洛丝\"]  咦？啊，是博士~\n[Character(name=\"char_124_kroos_1#2\", name2=\"avg_123_fang_1\", focus=-1)]\n[Dialog]\n[Decision(options=\"早上好。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_124_kroos_1#2\")]\n[name=\"克洛丝\"]  真难得，博士你居然有时间来食堂吃早饭，今天终于没那么忙了？\n[Dialog]\n[Decision(options=\"是……今天可以稍微休息一下。;……;我平时一直很忙吗？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  嘿，看看这是谁？\n[name=\"黑角\"]  这个点能在食堂看到您，可真是稀奇。\n[Character(name=\"char_500_noirc_1\",focus=-1)]\n[Dialog]\n[Decision(options=\"我平时在你们眼中都是什么印象啊……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  什么印象……大概就是全年加班无休的工作狂？\n[name=\"黑角\"]  说真的，俺觉得您也该歇歇了，从离开龙门后，您就一直这样，小心身体吃不消哦。\n[name=\"黑角\"]  对自己好一点吧，博士，毕竟当时我们可是——\n[Dialog]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]\n[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]\n[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$fightgeneral\", volume=1)]\n[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]\n[Dialog]\n[delay(time=0.51)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"黑角\"]  ——哎呦……痛痛痛，你干嘛！\n[dialog]\n[character]\n[Character(name=\"avg_502_nblade_1\",fadetime=0.5)]\n[delay(time=0.51)]\n[Character(name=\"avg_502_nblade_1\")]\n[name=\"夜刀\"]言多必失。 \n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=0.5)]\n[delay(time=1)]\n[Character(name=\"char_500_noirc_1\")]\n[name=\"黑角\"]  嗯？\n[Dialog]\n[Character(name=\"char_500_noirc_1\", focus=-1)]\n[Decision(options=\"没事……你说得对。;我这条命不光是自己的，我需要时刻提醒自己这一点。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")] "
+        }
+      ],
+      "description": "黑角与博士同桌并参与连续直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "char_500_noirc",
+          "reason": "黑角与博士同桌并参与连续直接交流。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C07"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "黑角与博士同桌并参与连续直接交流。",
+          "status": "supported",
+          "to": "char_500_noirc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 190,
+          "kind": "story",
+          "line": 125,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 212,
+          "line": 204,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act24side/level_act24side_tr01_beg.txt",
+          "quote": "[name=\"黑角\"]啊，俺记起来了！\n[Character(name=\"avg_502_Yato_1#4$1\",name2=\"char_500_noirc_1\",focus=1)]\n[name=\"夜刀\"]记起来什么？\n[Character(name=\"avg_502_Yato_1#4$1\",name2=\"char_500_noirc_1\",focus=2)]\n[name=\"黑角\"]之前博士让俺多读点书嘛，俺就找薄绿推荐了几本。有一本叫《源石虫都能读懂的泰拉生物百科》，里面好多插画，特别有意思！\n[Character(name=\"avg_502_Yato_1#2$1\",name2=\"char_500_noirc_1\",focus=1)]\n[name=\"夜刀\"]说重点。\n[Character(name=\"avg_502_Yato_1#2$1\",name2=\"char_500_noirc_1\",focus=2)]\n[name=\"黑角\"]那本书上有讲到水蝇的生活环境，水蝇在繁殖期时会在水洼里产卵，它们的小虫子就在浅浅的水里生活。"
+        }
+      ],
+      "description": "黑角单向知晓博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_500_noirc",
+          "reason": "黑角明确回忆博士对自己的嘱咐。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未出场，未见反向证据。",
+          "status": "not_established",
+          "to": "char_500_noirc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_72a06da52b73d3d9.json",
+      "sources": [
+        {
+          "endLine": 212,
+          "kind": "story",
+          "line": 204,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act24side/level_act24side_tr01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇调查任务前",
+      "title": "落叶逐火"
+    }
+  ],
+  "relationship_id": "char_500_noirc|npc_b99957887950ebfd"
+}

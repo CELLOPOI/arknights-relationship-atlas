@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 1057,
+          "line": 959,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "quote": "[name=\"凯尔希\"]  ……\n[dialog]\n[Character(name=\"char_003_kalts_1#3\",focus=-1)]\n[Decision(options=\"没有……命中？;他们不见了。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]  哥伦比亚标识的近地飞行器，他们始终在大雾天气等待着机会。\n[name=\"凯尔希\"]  现在先把阿米娅平放在地上，动作快。\n[dialog]\n[Character(name=\"char_003_kalts_1#3\",focus=-1)]\n[Decision(options=\"好的！\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]  ……\n[stopmusic(fadetime=4)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Background(image=\"bg_aircraft\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.6)]\n[Dialog]\n[Character(name=\"char_011_talula_1#3\")]\n[name=\"塔露拉\"]  ……\n[Character(name=\"avg_npc_043_1#2\")]\n[name=\"九\"]  那就是凯尔希。\n[name=\"九\"]  听Guard说，只要包括凯尔希在内，连带精英干员有超过三名在场，我们的袭击就不可能成功。\n[name=\"九\"]  所以今天，现在，是唯一的机会。\n[Character(name=\"avg_npc_043_1#2\",name2=\"char_011_talula_1#3\",focus=2)]\n[name=\"塔露拉\"]  ……你们准备了多久？\n[Character(name=\"avg_npc_043_1#2\",name2=\"char_011_talula_1#3\",focus=1)]\n[name=\"九\"]  很久。\n[Character(name=\"avg_npc_043_1#2\",name2=\"char_011_talula_1#3\",focus=2)]\n[name=\"塔露拉\"]  然后，我们去哪里？\n[Character(name=\"avg_npc_043_1#2\",name2=\"char_011_talula_1#3\",focus=1)]\n[name=\"九\"]  开始的地方。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Character]\n[Background(image=\"bg_bridge\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[character]\n[name=\"阿米娅\"]  唔……\n[Dialog]\n[Decision(options=\"阿米娅还好吗？;……;阿米娅没事吧？\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  别着急……只是睡着了而已。\n[name=\"凯尔希\"]  但并不是单纯的源石技艺，可能是植物毒素……煌。\n[Character(name=\"char_017_homura_3#10\")]\n[name=\"煌\"]  ……\n[dialog]\n[delay(time=1)]\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  把阿米娅抱进医疗室。\n[Character(name=\"char_017_homura_3#10\")]\n[name=\"煌\"]  ……嗯。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  你也不必摆出这种自责的表情，那些萨卡兹也非泛泛之辈。\n[Character(name=\"char_017_homura_3#10\")]\n[name=\"煌\"]  可我还是让他们逃了。\n[Character(name=\"char_017_homura_3#6\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"煌\"]  至少……至少如果能从Guard那家伙嘴里问出更多的事情——！\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  Guard……\n[name=\"凯尔希\"]  他们有备而来，而罗德岛，措手不及。\n[Dialog]\n[character]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[Character(name=\"char_007_closre_1#6\",fadetime=1.5,block=true)]\n[delay(time=1.5)]\n[name=\"可露希尔\"]  各、各位！情况如——\n[name=\"可露希尔\"]  阿、阿米娅……\n[Character(name=\"char_003_kalts_1\",name2=\"char_007_closre_1#6\",focus=1)]\n[name=\"凯尔希\"]  先清点损失，安置伤员，剩下的话一会再说。\n[Character(name=\"char_003_kalts_1\",name2=\"char_007_closre_1#6\",focus=2)]\n[name=\"可露希尔\"]  ……\n[name=\"可露希尔\"]  要不是被那家伙摆了一道，这次袭击……是可以制止的。\n[name=\"可露希尔\"]  可恶……！我明明是信任他才把那些——！\n[name=\"可露希尔\"]  凯尔希医生！\n[Character(name=\"char_003_kalts_1\",name2=\"char_007_closre_1#6\",focus=1)]\n[name=\"凯尔希\"]  我在听。\n[Character(name=\"char_003_kalts_1\",name2=\"char_007_closre_1#6\",focus=2)]\n[name=\"可露希尔\"]  这艘船……我们的罗德岛，也许会更频繁地面对更直接的威胁，就像过去那样！\n[name=\"可露希尔\"]  我需要立刻召开一次紧急会议。\n[Character(name=\"char_003_kalts_1\",name2=\"char_007_closre_1#6\",focus=1)]\n[name=\"凯尔希\"]  ……离我们进入维多利亚的预定日期已经很近了。\n[name=\"凯尔希\"]  你能调用的人手十分有限。\n[Character(name=\"char_003_kalts_1\",name2=\"char_007_closre_1#6\",focus=2)]\n[name=\"可露希尔\"]  我知道。\n[Character(name=\"char_003_kalts_1\")]\n[name=\"凯尔希\"]  ……那么，博士。\n[name=\"凯尔希\"]  劳烦先帮可露希尔这个忙吧。她是很少……露出这种眼神的。\n[Dialog]\n[Character(name=\"char_003_kalts_1\",focus=-1)]\n[Decision(options=\"嗯。;……;对不起，我也……\", values=\"1;2;3\")]"
+        }
+      ],
+      "description": "可露希明确获知 Guard，反向未建立。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S18"
+          ],
+          "from": "char_4228_closur",
+          "reason": "可露希在场听煌与凯尔希具名谈到 Guard。",
+          "status": "supported",
+          "to": "npc_8a4ed8ad1c6f8c69"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8a4ed8ad1c6f8c69",
+          "reason": "Guard未在此战后场景。",
+          "status": "not_established",
+          "to": "char_4228_closur"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_06cca2cdcfd351f0.json",
+      "sources": [
+        {
+          "endLine": 1057,
+          "kind": "story",
+          "line": 959,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_09-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "袭击后舰桥",
+      "title": "风暴瞭望"
+    }
+  ],
+  "relationship_id": "char_4228_closur|npc_8a4ed8ad1c6f8c69"
+}

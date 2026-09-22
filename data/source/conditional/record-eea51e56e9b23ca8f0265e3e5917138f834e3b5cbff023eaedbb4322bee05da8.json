@@ -1,0 +1,50 @@
+{
+  "contributions": [
+    {
+      "assignmentId": "review-04",
+      "description": "普通市民魏先生和退休老人同桌下棋并回顾共同警察经历；立绘分别char_2005_weiyw与avg_npc_034。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "普通市民魏先生和退休老人同桌下棋并回顾共同警察经历；立绘分别char_2005_weiyw与avg_npc_034。",
+          "status": "supported",
+          "to": "npc_83e2c28380c1c6fb"
+        },
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "npc_83e2c28380c1c6fb",
+          "reason": "普通市民魏先生和退休老人同桌下棋并回顾共同警察经历；立绘分别char_2005_weiyw与avg_npc_034。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        }
+      ],
+      "groupId": "group_f0cd623c8eb0c2e9",
+      "key": "npc_08bc2cc38b820ef0|npc_83e2c28380c1c6fb",
+      "label": "确认相识",
+      "personIds": [
+        "npc_08bc2cc38b820ef0",
+        "npc_83e2c28380c1c6fb"
+      ],
+      "realityScope": "fictional_film",
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+      "temporalScope": "洪炉示岁所述时段",
+      "title": "洪炉示岁"
+    }
+  ],
+  "groupId": "group_f0cd623c8eb0c2e9",
+  "key": "npc_08bc2cc38b820ef0|npc_83e2c28380c1c6fb",
+  "names": [
+    "魏彦吾",
+    "鼠王"
+  ],
+  "personIds": [
+    "npc_08bc2cc38b820ef0",
+    "npc_83e2c28380c1c6fb"
+  ],
+  "realityScope": "fictional_film"
+}

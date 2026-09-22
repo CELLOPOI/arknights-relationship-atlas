@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 76,
+          "line": 63,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st05.txt",
+          "quote": "[name=\"赫尔曼\"]   Dr.{@nickname}，你来了。\n[name=\"赫尔曼\"]   我听锡兰说了你们罗德岛的事情，我很想跟你聊聊。\n[name=\"赫尔曼\"]   如何，就陪我出去走走吧。\n[Decision(options=\"……好的。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Dialog]\n[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]\n[Character]\n[largebg(imagegroup=\"bg_beach_1/bg_beach_2\", solidwidth=\"920/920\", solidheight=720,x=-180)]\n[Blocker(a=0, fadetime=2, block=true)]\n[Character(name=\"avg_npc_024\")]\n[name=\"赫尔曼\"]   感谢你，罗德岛的博士。\n[name=\"赫尔曼\"]   这次如果没有你的帮助，小女的鲁莽行动恐怕只会惨淡收场。\n[Decision(options=\"那不是鲁莽。;我并没有做太多的事情。;你应该感谢的人是锡兰才对。\",values=\"1;2;3\")]"
+        }
+      ],
+      "description": "赫尔曼邀请博士散步并感谢，博士选项回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼邀请博士散步并感谢，博士选项回应。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "赫尔曼邀请博士散步并感谢，博士选项回应。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 76,
+          "kind": "story",
+          "line": 63,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act3d0/level_act3d0_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 336,
+          "line": 329,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_1_1.txt",
+          "quote": "[name=\"赫尔曼\"]  是啊，我以前也是这么想的。\n[name=\"赫尔曼\"]  但我稍微有点累了，黑。\n[name=\"赫尔曼\"]  新城区快要完成了，市民们办好手续就可以迁移过去。\n[name=\"赫尔曼\"]  我对那个罗德岛的博士说，名义上的汐斯塔将会继续在这片大地上存在下去。\n[name=\"赫尔曼\"]  但我没告诉那位博士，我心里的汐斯塔没了。\n[name=\"赫尔曼\"]  我和芭芭拉约定的汐斯塔，我为她建造的汐斯塔终究要被我抛弃了。\n[Character(name=\"char_340_shwaz_2\",name2=\"avg_npc_024\",focus=1)]\n[name=\"黑\"]  这也是……没有办法的事。"
+        }
+      ],
+      "description": "赫尔曼回述自己与博士就汐斯塔安排有过直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "赫尔曼所述为其当面对博士说话，既有定向交流意味着博士接触并知晓赫尔曼。",
+          "status": "supported",
+          "to": "npc_ba4ddfafe7c93381"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_ba4ddfafe7c93381",
+          "reason": "赫尔曼明确说自己向罗德岛博士说明过汐斯塔安排。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_52c2552faa23deab.json",
+      "sources": [
+        {
+          "endLine": 336,
+          "kind": "story",
+          "line": 329,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_shwaz_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "赫尔曼与黑谈话前已经发生的汐斯塔善后阶段",
+      "title": "黑"
+    }
+  ],
+  "relationship_id": "npc_b99957887950ebfd|npc_ba4ddfafe7c93381"
+}

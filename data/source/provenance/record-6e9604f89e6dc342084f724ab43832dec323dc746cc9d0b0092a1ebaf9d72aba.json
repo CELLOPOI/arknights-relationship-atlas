@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 430,
+          "line": 414,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_demkni_1_1.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_4048_doroth_1#8$1\")]\n[name=\"多萝西\"]很不可思议对吧？\n[charslot(slot=\"m\",name=\"avg_4048_doroth_1#8$1\")]\n[PlayMusic(key=\"$calm_loop\", volume=0.6)]\n[name=\"多萝西\"]第一次知道塞雷娅这个修剪钙质化盆栽的小爱好时，我们其他人都有些惊讶。\n[charslot(slot=\"m\",name=\"avg_npc_529_1#1$1\")]\n[name=\"秘书海伦\"]……多萝西主任？！您是什么时候——\n[charslot(slot=\"m\",name=\"avg_4048_doroth_1#2$1\")]\n[name=\"多萝西\"]嘘，不要打扰塞雷娅。\n[charslot(slot=\"m\",name=\"avg_npc_529_1#1$1\")]\n[name=\"秘书海伦\"]啊，好的。您为什么……\n[charslot(slot=\"m\",name=\"avg_4048_doroth_1#8$1\")]\n[name=\"多萝西\"]你之前是克丽斯腾的秘书对吧？\n[charslot(slot=\"m\",name=\"avg_npc_529_1#1$1\")]\n[name=\"秘书海伦\"]是的。\n[charslot(slot=\"m\",name=\"avg_4048_doroth_1#8$1\")]\n[name=\"多萝西\"]走之前，我来帮她调试一下这里的设备，你也可以学习一下，以后或许会用到。"
+        }
+      ],
+      "description": "多萝西单向知晓克丽斯腾。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_4048_doroth",
+          "reason": "多萝西知道海伦曾任克丽斯腾的秘书。",
+          "status": "supported",
+          "to": "npc_ebd7747563277517"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_ebd7747563277517",
+          "reason": "克丽斯腾未出场，未见本篇反向证据。",
+          "status": "not_established",
+          "to": "char_4048_doroth"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_9a24fcede00dc356.json",
+      "sources": [
+        {
+          "endLine": 430,
+          "kind": "story",
+          "line": 414,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_demkni_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇办公室场景",
+      "title": "塞雷娅"
+    }
+  ],
+  "relationship_id": "char_4048_doroth|npc_ebd7747563277517"
+}

@@ -1,0 +1,87 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 245,
+          "line": 151,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-16_end.txt",
+          "quote": "[name=\"克洛维希娅\"]也许这是个好的讯号，至少你还没被萨卡兹处死。\n[name=\"克洛维希娅\"]有时间聊聊吗？\n[Dialog]\n[charslot(duration=0.2)]\n[delay(time=0.3)]\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"r\")]\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[name=\"莱托中校\"]嗯，我认出你了……你是，自救军的那个小领袖克洛维希娅？\n[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]\n[name=\"莱托中校\"]自救军的据点都已经被我们清剿干净，剩下的人也应该全部撤出了伦蒂尼姆，你为什么还在这里？\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]多亏了城防军的手下留情，也多亏了开斯特的信守承诺。\n[name=\"克洛维希娅\"]她的“灰礼帽”们确实保证了自救军顺利撤出这座将死的城市。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]开斯特公爵……\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]……我早就对你的身份有所猜测，不过现在，不论你是哪位阁下的附庸或傀儡，我都不关心了。\n[name=\"莱托中校\"]我不知道你的本事到底有多大，但现在的伦蒂尼姆不适合一个造反的孩子到处游荡。\n[name=\"莱托中校\"]回你之前躲着的地方吧，趁还没被萨卡兹们逮到，我可以当作没看见你。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]……莱托。\n[name=\"克洛维希娅\"]你躲在伦蒂尼姆已经够久了。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]我和自救军失散以后，尽可能快地在伦蒂尼姆内重新找到了行动的目标。\n[name=\"克洛维希娅\"]我们也……遭到了背叛。我甚至还不清楚叛徒具体有哪些人。\n[name=\"克洛维希娅\"]但是我没有时间想这些，城内的情况远远超过了我们对“占领移动城市”的理解。\n[name=\"克洛维希娅\"]现在发生的事，你在历史书上，找不到。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]我比谁都清楚。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]可你看过城外的情况吗？\n[name=\"克洛维希娅\"]我看到萨卡兹的法阵，红光冲天而起，我看到形态各异的战争装置，绝非寻常国家的制式装备可比。\n[name=\"克洛维希娅\"]我看到巫师悬浮于半空，主宰领空，使得所有形式的无人机与源石技艺统统失效。\n[name=\"克洛维希娅\"]我本以为那些描述萨卡兹军队和那个所谓的“食腐者”的传说，多少都是些添油加醋来徒增恐怖色彩的文学手段。\n[name=\"克洛维希娅\"]我不再这么想了。\n[name=\"克洛维希娅\"]当死亡本身敞开大门，我们要面临什么样的人间地狱？\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]公爵们呢？\n[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]……公爵的军队。坚硬，宏伟，但是……\n[charslot(slot = \"l\", name = \"avg_npc_401_1#8$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]他们在地平线的那头。他们遥不可及。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]我猜测，你此时此刻，是不是心中怀着歉疚与悲哀，但又夹杂着一点点自豪？\n[name=\"克洛维希娅\"]你觉得，你做了许多残忍的选择，但是现在，你的使命完成了。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]我猜测，你向特雷西斯提出了一个交易，而特雷西斯答应了，有关那些曾经属于高卢的移动城市。\n[name=\"克洛维希娅\"]伦蒂尼姆太小，装不下萨卡兹的野心，他不过借着这里撩拨泰拉诸国蠢蠢欲动的心。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]你真的觉得他在乎你和你的高卢吗？\n[name=\"克洛维希娅\"]如今的伦蒂尼姆已经彻底沦陷，但你不是蠢货，你看得出来。\n[name=\"克洛维希娅\"]卡兹戴尔军事委员会根本没有占领维多利亚的计划。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]我不傻。我从一开始，就没有把希望寄托在特雷西斯的允诺上。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]但你还是参与了那么多手足相残的悲剧。\n[name=\"克洛维希娅\"]你是想创造机会？就像萨卡兹们正在为卡兹戴尔做的事情一样。\n[name=\"克洛维希娅\"]也许，这场将所有公爵的精力耗干的战争，将成为高卢的幽灵再度返回人间的契机。\n[name=\"克洛维希娅\"]但问题在于——\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]——你真的相信吗，勒内·莱托？\n[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]\n[name=\"莱托中校\"]……\n[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]\n[name=\"莱托中校\"]我还能相信什么呢？\n[name=\"莱托中校\"]我已经承认我的懦弱了，你还需要我承认我的愚蠢，我的绝望，我的毫无意义？\n[name=\"莱托中校\"]你想找我干嘛？\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]合作。\n[name=\"克洛维希娅\"]自救军，那些反抗萨卡兹，在维多利亚可笑的贵族之间挣扎求生的人，都还有一线生机。\n[name=\"克洛维希娅\"]而你所奢求的所谓的“高卢”，可能也存在于那一线生机之中。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#6$1\",focus=\"r\")]\n[name=\"莱托中校\"]……高卢啊，高卢。\n[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]\n[name=\"莱托中校\"]看来，你是一位仍旧愿意抗争的人。\n[name=\"莱托中校\"]对你们这样的人而言，就算是尘埃里的废墟，也能成为下一座壁垒的基石。\n[name=\"莱托中校\"]你们都是这样的人，你，军事委员会……\n[charslot(slot=\"r\",name=\"avg_npc_649_1#6$1\",focus=\"r\")]\n[name=\"莱托中校\"]你们如此强大，强大到能颠覆国家，操弄历史，更遑论……一两个我这样的人的命运。\n[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]停下你的自怨自艾吧，在地狱降临之前，我们还有很多可以做的事情。\n[name=\"克洛维希娅\"]无论你当作赎罪还是当作另一次抗争的开始，我都无所谓。\n[name=\"克洛维希娅\"]莱托，我希望我们能——\n[charslot(slot=\"r\",name=\"avg_npc_649_1#9$1\",focus=\"r\")]\n[name=\"莱托中校\"]那么，了不起的人啊，你能告诉我——\n[name=\"莱托中校\"]我该如何拯救自己吗？\n[charslot(slot = \"l\", name = \"avg_npc_401_1#5$1\",focus=\"l\")]\n[name=\"克洛维希娅\"]……"
+        }
+      ],
+      "description": "明确说明开斯特公爵履行承诺帮助自救军。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "明确说明开斯特公爵履行承诺帮助自救军。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "对方不在会谈现场。",
+          "status": "not_established",
+          "to": "npc_1f201a858b188fce"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 245,
+          "kind": "story",
+          "line": 151,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-16_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆撤离后",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 333,
+          "line": 243,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_st01.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_npc_397_1#9$1\",focus=\"m\")]\n[name=\"阿勒黛\"]赚取谁的眼泪？卡文迪许公爵阁下的还是那位萨卡兹摄政王的？\n[name=\"阿勒黛\"]眼泪会蒙蔽我们的双眼，阁下，不怀好意的流行创作往往是帮凶。\n[charslot(slot=\"m\",name=\"avg_npc_176\",focus=\"m\")]\n[name=\"莫里尔伯爵\"]真遗憾，我还以为女主角寄人篱下身不由己的命运，会让您有所共情呢。\n[charslot(slot=\"m\",name=\"avg_npc_397_1#6$1\",focus=\"m\")]\n[name=\"阿勒黛\"]……\n[charslot(slot=\"m\",name=\"avg_npc_176\",focus=\"m\")]\n[name=\"莫里尔伯爵\"]哦十分抱歉！请一定原谅我无意间的冒犯。您要知道，我的家族也曾与坎伯兰家族交好……\n[charslot(slot=\"m\",name=\"avg_npc_397_1#1$1\",focus=\"m\")]\n[name=\"阿勒黛\"]我不会在意。\n[name=\"阿勒黛\"]开斯特公爵阁下在我最落魄的时候给予了我帮助，这是人尽皆知的事。我对她只有感激，而对自己的际遇毫无愧疚。\n[charslot(slot=\"m\",name=\"avg_npc_176\",focus=\"m\")]\n[name=\"莫里尔伯爵\"]那么，您今天参加这场宴席，我可以将您的话语当作开斯特公爵的意思？\n[charslot(slot=\"m\",name=\"avg_npc_397_1#1$1\",focus=\"m\")]\n[name=\"阿勒黛\"]您可以当作一个善意的提醒。\n[name=\"阿勒黛\"]对待那些卡兹戴尔来的佣兵，伦蒂尼姆人应当抱有足够的警惕心，而非因为一个荒唐的故事就不自觉地施舍怜悯与同情。\n[name=\"阿勒黛\"]卡兹戴尔离我们的市民太远了，他们根本不了解那些萨卡兹。不要让眼泪干扰了他们的判断，阁下。\n[charslot(slot=\"m\",name=\"avg_npc_176\",focus=\"m\")]\n[name=\"莫里尔伯爵\"]那您这话可就是在扼杀一位才华横溢的剧作家了。\n[charslot(slot=\"m\",name=\"avg_npc_397_1#1$1\",focus=\"m\")]\n[name=\"阿勒黛\"]我想对于一位公爵来说，让市民们流下眼泪并不是一件难事。\n[charslot(slot=\"m\",name=\"avg_npc_176\",focus=\"m\")]\n[name=\"莫里尔伯爵\"]这也是开斯特公爵阁下的意思？\n[charslot(slot=\"m\",name=\"avg_npc_397_1#8$1\",focus=\"m\")]\n[name=\"阿勒黛\"]不管您如何评价那位剧作家，我都认为《温莎夫人》是一部难得的作品。诚挚建议您——或许还有卡文迪许公爵，都去读一读。\n[name=\"阿勒黛\"]“鳞无法拥有爬出泥沼的脚，人无法拥有超越时间的眼光。”\n[name=\"阿勒黛\"]如果卡文迪许公爵能认真理解这句话，并且为此怀有一些谦卑的保守，他就可以避免成为下一个“温莎公爵”。\n[name=\"阿勒黛\"]当然，我也无意冒犯。\n[charslot(slot=\"m\",name=\"avg_npc_176\",focus=\"m\")]\n[name=\"莫里尔伯爵\"]哦，我喜欢您犀利的见解，阿勒黛小姐。\n[name=\"莫里尔伯爵\"]超越时间的眼光……的确是难得的事物。相比之下，超越身份的野心就廉价多了，不是么？\n[charslot(slot=\"m\",name=\"avg_npc_397_1#1$1\",focus=\"m\")]\n[name=\"阿勒黛\"]很难不同意。\n[charslot(slot=\"m\",name=\"avg_npc_176\",focus=\"m\")]\n[name=\"莫里尔伯爵\"]已经过去了许多年，但显然还有人没有忘记，维多利亚曾经是有一位国王的。\n[name=\"莫里尔伯爵\"]也有人在惦记着本会继承王位的王储，还有那把代表着王权的剑。\n[name=\"莫里尔伯爵\"]开斯特公爵的动作并非无人知晓，当她想要提点别的公爵的时候，别忘了，也有目光在盯着她。\n[charslot(slot=\"m\",name=\"avg_npc_397_1#8$1\",focus=\"m\")]\n[name=\"阿勒黛\"]我会向开斯特公爵传达的，阁下。\n[name=\"阿勒黛\"]时候不早了，恐怕我得先走一步了。\n[charslot(slot=\"m\",name=\"avg_npc_176\",focus=\"m\")]\n[name=\"莫里尔伯爵\"]坎伯兰阁下不愿意赏光共用晚餐吗？\n[charslot(slot=\"m\",name=\"avg_npc_397_1#1$1\",focus=\"m\")]\n[name=\"阿勒黛\"]我约好了裁缝准备冬季的新衣，您也知道，伦蒂尼姆的夏天总是只有短短几天——\n[charslot(slot=\"m\",name=\"avg_npc_397_1#7$1\",focus=\"m\")]\n[name=\"阿勒黛\"]而冬天，却从不迟到。\n[charslot(slot=\"m\",name=\"avg_npc_176\",focus=\"m\")]\n[name=\"莫里尔伯爵\"]那便不多留您了，坎伯兰阁下。\n[name=\"莫里尔伯爵\"]首演那天的票，我会提前送到您手上。要是开斯特公爵阁下想看，卡文迪许公爵阁下也将资助剧团前往开斯特领巡演。\n[charslot(slot=\"m\",name=\"avg_npc_397_1#8$1\",focus=\"m\")]\n[name=\"阿勒黛\"]……那希望公爵阁下不会被自己的眼泪给蒙蔽吧。\n[Dialog]\n[PlaySound(key=\"$d_avg_higheldshosfts\", volume=0.6)]\n[charslot(duration=1)]\n[delay(time=2)]\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[Background(image=\"21_G7_decisivebattlealley_d\", screenadapt=\"coverall\", block=true)]\n[delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_397_1#2$1\",duration=0.5)]\n[Delay(time=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_397_1#2$1\",focus=\"m\")]\n[name=\"阿勒黛\"]……\n[Dialog]\n[charslot]\n[musicvolume(volume=0.3, fadetime=1)]\n[delay(time=1)]\n[name=\"？？？\"]令人窒息的宴会，不是吗？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_401_1#10$1\",duration=1)]\n[Delay(time=2)]\n[musicvolume(volume=0.6, fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_397_1#9$1\",focus=\"m\")]\n[name=\"阿勒黛\"]请问您是？\n[charslot(slot=\"m\",name=\"avg_npc_401_1#10$1\",focus=\"m\")]\n[name=\"？？？\"]您可以叫我克洛维希娅。看这标志性的白发，您一定就是阿勒黛·坎伯兰小姐了。\n[name=\"克洛维希娅\"]艾尔希女士从我们店里订购了公爵府上新一季的衣服，但为您准备的那套一直没有敲定。\n[name=\"克洛维希娅\"]抱歉，刚才无意听到了您和莫里尔伯爵的谈话，我才觉得，您在文艺评论上的造诣，果然名不虚传。\n[charslot(slot=\"m\",name=\"avg_npc_397_1#8$1\",focus=\"m\")]\n[name=\"阿勒黛\"]承蒙抬爱……想必您应该也在担心伦蒂尼姆如今的局势吧。\n[charslot(slot=\"m\",name=\"avg_npc_401_1#9$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]不不，只是裁缝铺里难免会听到老爷夫人们谈起最近的变化……\n[charslot(slot=\"m\",name=\"avg_npc_401_1#10$1\",focus=\"m\")]\n[name=\"克洛维希娅\"]欸，天快黑了，我该回去了。您要是选好了款式，可以随时让艾尔希女士找我。\n[name=\"克洛维希娅\"]啊对了，阿勒黛小姐，艾尔希女士还拜托我将今天的《伦蒂尼姆日报》带给您。\n[name=\"克洛维希娅\"]再会。"
+        }
+      ],
+      "description": "克洛维希娅知晓开斯特公爵；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_1f201a858b188fce",
+          "reason": "克洛维希娅明确说自己听到了阿勒黛等人关于开斯特公爵的谈话。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_8c87697c59975883",
+          "reason": "本组候选没有开斯特公爵识别克洛维希娅。",
+          "status": "not_established",
+          "to": "npc_1f201a858b188fce"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 333,
+          "kind": "story",
+          "line": 243,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆旧日宴会后",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "npc_1f201a858b188fce|npc_8c87697c59975883"
+}

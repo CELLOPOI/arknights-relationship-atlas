@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 73,
+          "line": 31,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_04_beg.txt",
+          "quote": "[name=\"槐天裴\"]你人没事？\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#7$1\",focus=\"m\")]\n[name=\"商队老板\"]多谢大侠，多谢。\n[name=\"商队老板\"]难得从北方买了些珍贵矿石，想卖到南方去，没想到在这碰上拦路的劫匪。要不是遇上大侠您，我这一趟生意可就血本无归了。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#1$1\",focus=\"m\")]\n[name=\"槐天裴\"]是商队，就别挑小路走。\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#7$1\",focus=\"m\")]\n[multiline(name=\"商队老板\")]这不是急着赶路……\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#9$1\",focus=\"m\")]\n[PlaySound(key=\"$d_avg_wadmoney\", volume=1)]\n[multiline(name=\"商队老板\")]唉，还得多谢您仗义出手，一点点心意，请笑纳。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#1$1\",focus=\"m\")]\n[name=\"槐天裴\"]没兴趣，走了。\n[Dialog]\n[PlaySound(key=\"$d_avg_walkfast\", volume=1)]\n[charslot(duration=0.7)]\n[delay(time=1)]\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#7$1\",focus=\"m\")]\n[name=\"商队老板\"]先生请留步！留步……\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#9$1\",focus=\"m\")]\n[name=\"商队老板\"]我看先生的身手可真是了不得——您是武林中人？\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[delay(time=0.5)]\n[charslot(slot=\"m\",name=\"avg_npc_785_1#11$1\",focus=\"m\")]\n[name=\"槐天裴\"]你要和我比划比划？\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#9$1\",focus=\"m\")]\n[name=\"商队老板\"]岂敢岂敢……您看到了，我就是个手无缚羽之力的商人，哪有和您比试的能耐。\n[name=\"商队老板\"]不过既然是武林中人……实在是巧，不久前我碰巧搜罗来一本珍贵的武学秘籍，先生说不定会感兴趣。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#12$1\",focus=\"m\")]\n[name=\"槐天裴\"]笑话，这世上有我用得上的武学秘籍？\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#9$1\",focus=\"m\")]\n[name=\"商队老板\"]别急嘛，先生要不先看一眼？在下做生意向来只卖客人用得上的商品。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#1$1\",focus=\"m\")]\n[name=\"槐天裴\"]不看。\n[charslot(slot=\"m\",name=\"avg_npc_1236_1#10$1\",focus=\"m\")]\n[name=\"商队老板\"]还是看一眼吧，不会耽误您几分钟时间，保证不让您后悔。\n[charslot(slot=\"m\",name=\"avg_npc_785_1#7$1\",focus=\"m\")]\n[name=\"槐天裴\"]你有完没——\n[Dialog]\n[PlaySound(key=\"$d_avg_magicchange\", volume=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]"
+        }
+      ],
+      "description": "槐天裴救下商队老板并与之交谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_2a2f1f3b7bd9ed61",
+          "reason": "槐天裴救下商队老板并与之交谈。",
+          "status": "supported",
+          "to": "npc_6ee68205c0c1758b"
+        },
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "npc_6ee68205c0c1758b",
+          "reason": "槐天裴救下商队老板并与之交谈。",
+          "status": "supported",
+          "to": "npc_2a2f1f3b7bd9ed61"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_b673955943d20e61.json",
+      "sources": [
+        {
+          "endLine": 73,
+          "kind": "story",
+          "line": 31,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act31side/level_act31side_04_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "怀黍离所述时段",
+      "title": "怀黍离"
+    }
+  ],
+  "relationship_id": "npc_2a2f1f3b7bd9ed61|npc_6ee68205c0c1758b"
+}

@@ -1,0 +1,112 @@
+x-logging: &local-logging
+  driver: local
+  options:
+    max-size: "10m"
+    max-file: "5"
+
+services:
+  database:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    logging: *local-logging
+    environment:
+      POSTGRES_DB: atlas
+      POSTGRES_USER: atlas
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - database:/var/lib/postgresql/data
+    networks:
+      - database
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U atlas -d atlas"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    logging: *local-logging
+    env_file: .env
+    environment:
+      DJANGO_DEBUG: "0"
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Set DJANGO_SECRET_KEY in .env}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:?Set DJANGO_ALLOWED_HOSTS in .env}
+      DJANGO_CSRF_TRUSTED_ORIGINS: ${DJANGO_CSRF_TRUSTED_ORIGINS:?Set DJANGO_CSRF_TRUSTED_ORIGINS in .env}
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:?Set PUBLIC_ORIGIN in .env}
+      DATABASE_URL: postgresql://atlas:${POSTGRES_PASSWORD}@database:5432/atlas
+      FORMAL_DATA_MANAGED: "1"
+      COMMUNITY_ENABLED: "0"
+      REGISTRATION_ENABLED: "0"
+      ASSET_MANIFEST_PATH: /app/assets/resource-manifest.json
+      # 必须与 web 的实际来源地址一致，不信任整个 Docker 私网。
+      FEEDBACK_TRUSTED_PROXY_IPS: ${CADDY_PROXY_IP:-172.30.90.2}
+    depends_on:
+      database:
+        condition: service_healthy
+    volumes:
+      - admin_static:/app/staticfiles
+      - type: bind
+        source: ./.runtime/releases
+        target: /releases
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ./.runtime/release-previews
+        target: /release-previews
+        bind:
+          create_host_path: false
+    networks:
+      - database
+      - proxy
+    healthcheck:
+      test:
+        - CMD
+        - .venv/bin/python
+        - -c
+        - >-
+          import json,os,urllib.request,urllib.parse;
+          host=urllib.parse.urlsplit(os.environ['PUBLIC_ORIGIN']).netloc;
+          request=urllib.request.Request('http://127.0.0.1:8000/api/ready/',headers={'Host':host,'X-Forwarded-Proto':'https'});
+          response=urllib.request.urlopen(request,timeout=4);
+          assert response.status == 200 and json.load(response)['status'] == 'ready'
+      interval: 30s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+  web:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    restart: unless-stopped
+    logging: *local-logging
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:?Set SITE_ADDRESS in .env}
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      api:
+        condition: service_healthy
+    networks:
+      proxy:
+        ipv4_address: ${CADDY_PROXY_IP:-172.30.90.2}
+    volumes:
+      - admin_static:/srv/admin:ro
+      - caddy_data:/data
+      - caddy_config:/config
+networks:
+  database:
+    internal: true
+  proxy:
+    ipam:
+      config:
+        - subnet: ${ATLAS_PROXY_SUBNET:-172.30.90.0/24}
+          ip_range: ${ATLAS_PROXY_DYNAMIC_RANGE:-172.30.90.128/25}
+volumes:
+  database:
+  admin_static:
+  caddy_data:
+  caddy_config:

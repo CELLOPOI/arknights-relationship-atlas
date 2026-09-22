@@ -1,0 +1,15 @@
+{
+  "id": "import:char_4133_logos|npc_617e6ed434c6e138",
+  "published": true,
+  "quote": "【慈悲灯塔】\nLogos：嗯。我只见Scout和Outcast示范过几回，可能动作不够纯熟，所以没起到很好的效果。\n选项：\n1：没想到你还有这样的一面。\n2：难不成，其实你很喜欢开玩笑？\n分支条件（原选项编号）：1 / 2\nLogos：博士，有时候我也会遗憾于我们之间相处的许多记忆消散无踪。",
+  "relationship_id": "char_4133_logos|npc_617e6ed434c6e138",
+  "sources": [
+    {
+      "endLine": 194,
+      "kind": "story",
+      "line": 188,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-02_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

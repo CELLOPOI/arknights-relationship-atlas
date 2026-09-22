@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 324,
+          "line": 290,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_07_beg.txt",
+          "quote": "[name=\"卡彭\"]   什——\n[Character(name=\"char_201_moeshd#2\")]\n[name=\"可颂\"]   哎呀？本想着破墙离开的……似乎撞到了不得了的现场？\n[Character(name=\"char_201_moeshd\")]\n[name=\"可颂\"]   没关系喔，你们继续，我们换条路。\n[Dialog]\n[Character]\n[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.5)]\n[name=\"黑帮\"]   快追！别让那两个人溜走了！！\n[Character(name=\"char_325_bison_1\")]\n[name=\"拜松\"]   ……好像不太有机会。\n[PlayMusic(intro=\"$chasing_intro\", key=\"$chasing_loop\", volume=0.8, crossfade=1.5)]\n[Character(name=\"avg_npc_028#4\")]\n[name=\"甘比诺\"]   正好，搅局者都到齐了，那就把你们——\n[Dialog]\n[Character]\n[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]\n[Blocker(a=0, fadetime=1.5, block=false)]\n[PlaySound(key=\"$char_emp\", volume=0.9)]\n[PlaySound(key=\"$char_emp\", volume=0.9)]\n[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"avg_npc_028#3\")]\n[name=\"甘比诺\"]   这次又怎么了！？\n[Character(name=\"char_103_angel_1#3\")]\n[name=\"能天使\"]   喂~我们来啦！\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   ……真巧，全都在这儿了。\n[Character(name=\"char_101_sora_1#2\")]\n[name=\"空\"]   唔，这架势是要最终决战了吗？是不是早了点？\n[Character(name=\"char_102_texas_1\")]\n[name=\"德克萨斯\"]   没关系，越早解决这出闹剧越好。\n[name=\"德克萨斯\"]   就按老板的意思，把他们扔进江里吧。\n[Character(name=\"avg_npc_027#2\")]\n[name=\"卡彭\"]   哼，越混乱，越合我意。\n[name=\"卡彭\"]   看来，谁能从这里站着出去，谁就会成为今晚的赢家。"
+        }
+      ],
+      "description": "空与卡彭在最终混战中相遇。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "char_101_sora",
+          "reason": "进入卡彭所在战场并参与对抗。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        },
+        {
+          "evidenceIds": [
+            "E05"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "卡彭面对企鹅物流众人宣告决战。",
+          "status": "supported",
+          "to": "char_101_sora"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_38f78311557a5280.json",
+      "sources": [
+        {
+          "endLine": 324,
+          "kind": "story",
+          "line": 290,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "甘比诺与卡彭决斗被打断后的混战",
+      "title": "喧闹法则"
+    }
+  ],
+  "relationship_id": "char_101_sora|npc_e565b7639574735d"
+}

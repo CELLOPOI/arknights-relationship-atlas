@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 327,
+          "line": 316,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-01.txt",
+          "quote": "[name=\"阿米娅\"]……军事委员会为何没有殊死一搏来保卫这最重要的运输载具？\n[name=\"阿米娅\"]也许是正面战场的压力迫使他们放弃，又或是因为血魔大君杜卡雷的轻敌……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]\n[name=\"阿米娅\"]但可能性更大的，是他们在伦蒂尼姆城内的计划已经到达了某个……无暇顾及外界的阶段。\n[name=\"阿米娅\"]血魔大君最后的仪式依然完成了，兴许正是这一点，使他们的目光不再围绕“生命脊椎”，而是投向了别处。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]\n[name=\"阿米娅\"]赫德雷先生已经与骸骨残留的意识完成了交涉，它会，嗯……“听从我们的建议”。借助它，我们可以随时返回战场。\n[charslot(slot=\"m\",name=\"avg_npc_229_1#2\",focus=\"m\")]\n[name=\"号角\"]最重要的是，它给了我们接近飞空艇和碎片大厦的机会。\n[name=\"号角\"]如果我们能更好地利用这张牌……也许，我们可以直接用空降的方式向伦蒂尼姆内部发起突袭。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#3$1\",focus=\"m\")]\n[name=\"推进之王\"]直接端掉他们的指挥部，挺好，我喜欢这个办法。"
+        }
+      ],
+      "description": "共同商议时阿米娅具称血魔大君杜卡雷的仪式，号角推进之王继续讨论。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E6"
+          ],
+          "from": "char_112_siege",
+          "reason": "共同商议时阿米娅具称血魔大君杜卡雷的仪式，号角推进之王继续讨论。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 327,
+          "kind": "story",
+          "line": 316,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 508,
+          "line": 465,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "quote": "[name=\"因陀罗\"]混蛋，怎么都甩不掉！\n[character(name=\"avg_155_tiger_1#9$1\", name2=\"avg_npc_405_1#4$1\", focus=2)]\n[name=\"摩根\"]不……他刚才的速度你们都看见了吧？\n[name=\"摩根\"]他像故意放慢了脚步，硬是……硬是看我们逃了这么久……\n[character(name=\"avg_155_tiger_1#6$1\", name2=\"avg_npc_405_1#4$1\", focus=1)]\n[name=\"因陀罗\"]这是什么变态啊？\n[dialog]\n[character]\n[playsound(key=\"$d_avg_blood\",volume=0.7)]\n[character(name=\"avg_npc_410_1#1$1\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"？？？\"]嗯……听听你们的呼吸声与心跳声。你们终于跑累了吗？\n[character(name=\"avg_npc_407_1#6$2\")]\n[name=\"推进之王\"]这就是……萨卡兹的荣耀吗？\n[name=\"推进之王\"]这根本称不上一场战斗。\n[character(name=\"avg_npc_410_1#5$1\")]\n[name=\"？？？\"]……战斗？\n[name=\"？？？\"]你对我有些误解。\n[name=\"？？？\"]既然“魔王”不在，那么这里就根本没有与我匹配的对手。\n[name=\"？？？\"]你会与一群肉兽谈论荣耀吗？在你明知道狩猎它们只能带来一些感官刺激，最终它们只配作为一道前菜出现在晚餐饭桌上的前提下？\n[character(name=\"avg_npc_407_1#6$2\")]\n[name=\"推进之王\"]你把我们……当成猎物？\n[name=\"推进之王\"]即便你是萨卡兹，这种为了个人喜好而大肆杀戮的行径，也未免太野蛮了……\n[character(name=\"avg_npc_410_1#2$1\")]\n[name=\"？？？\"]不要以你们所理解的文明揣度我。这对我而言是最可怕的污蔑。\n[character(name=\"avg_npc_410_1#8$1\")]\n[name=\"？？？\"]在肮脏的瓦砾把你们砸成肉末之前，试着反抗我吧。\n[name=\"？？？\"]我会借由你们的鲜血记录你们临死前的思绪……所有的恐惧，不甘，愤怒……让它们尽情地涌向我！\n[dialog]\n[Blocker(a=0, r=255, g=0, b=0, fadetime=0, block=true)]\n[playsound(key=\"$d_avg_blood\")]\n[Blocker(a=0.5, r=255, g=0, b=0, fadetime=0.15, block=true)]\n[Blocker(a=0, r=255, g=0, b=0, fadetime=0.1, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[delay(time=1)]\n[character(name=\"avg_155_tiger_1#7$1\")]\n[name=\"因陀罗\"]维娜，快过来——\n[character(name=\"avg_npc_407_1#2$2\")]\n[name=\"推进之王\"]不。\n[character(name=\"avg_npc_405_1#5$1\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"摩根\"]维娜！\n[character(name=\"avg_npc_407_1#1$2\")]\n[name=\"推进之王\"]摩根，你也退下。"
+        }
+      ],
+      "description": "血魔大君当面猎杀撤退队伍，因陀罗、摩根和推进之王连续回应；此前黑影现形为同一追击者。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E74"
+          ],
+          "from": "char_112_siege",
+          "reason": "血魔大君当面猎杀撤退队伍，因陀罗、摩根和推进之王连续回应；此前黑影现形为同一追击者。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [
+            "E74"
+          ],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "血魔大君当面猎杀撤退队伍，因陀罗、摩根和推进之王连续回应；此前黑影现形为同一追击者。",
+          "status": "supported",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_ab09fe89e4fa93a2.json",
+      "sources": [
+        {
+          "endLine": 508,
+          "kind": "story",
+          "line": 465,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_10-15_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "破碎日冕所述时段",
+      "title": "破碎日冕"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1505,
+          "line": 1291,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-02_beg.txt",
+          "quote": "[name=\"戴菲恩\"]哈啊……哈啊……\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#5$2\",focus=\"m\")]\n[name=\"推进之王\"]你没事吧？！\n[charslot(slot=\"m\",name=\"avg_npc_866_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]不，只是心理上的……我没事。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$2\",focus=\"m\")]\n[name=\"推进之王\"]下面的敌人攻势已经被你们的部队限制，我们上来支援。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$2\",focus=\"m\")]\n[name=\"推进之王\"]坏消息，我们在下面发现了变形者的踪迹。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]我们已经知道了，血魔大君正在和变形者交替进攻。\n[charslot(slot=\"m\",name=\"avg_npc_866_1#8$1\",focus=\"m\")]\n[name=\"戴菲恩\"]不，等等……\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"刚才那一击，不是变形者的佯攻，那是真真切切，来自于血魔的巫术。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n如果那位王庭之主打算杀了我，我一定已经成了一具尸体。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我抵挡住了，这绝不是因为我的强大。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n这只能说明，他本身就另有所图。\",block = true)]\n[Sticker(id=\"st1\")]\n[charslot]\n[Sticker(id=\"st1\", multi = true, text=\"我再次看向不远处。剑卫们的剑光仍在。我隐约看见他们的身影凝成一团——\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"不对。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们……正在一个接一个地……倒下。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们在后退？\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"不对！\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n妈妈呢？\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[musicvolume(volume=0.6, fadetime=1)]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#8$2\",focus=\"m\")]\n[name=\"推进之王\"]戴菲恩，你要去哪儿？！\n[dialog]\n[dialog]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$2\",focus=\"m\")]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\",volume=1)]\n[PlaySound(key=\"$swordtsing1\",volume=0.6)]\n[Effect(name=\"$e_spark_01_large\",layer=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[CameraShake(duration=2, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[delay(time=1)]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$2\",focus=\"m\")]\n[name=\"推进之王\"]嘁，真难缠！\n[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]\n[name=\"赦罪师直属卫兵\"]……\n[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]\n[name=\"赦罪师直属卫兵\"]（萨卡兹语）血的味道变了。赦罪师阁下已经得手，大君也取得了胜利。\n[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]\n[name=\"赦罪师直属卫兵\"]（萨卡兹语）撤退。\n[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]\n[name=\"赦罪师直属卫兵\"]（萨卡兹语）无法自如行动的人，听我号令，将匕首插入胸膛。\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#10$2\",focus=\"m\")]\n[name=\"推进之王\"]你们——\n[dialog]\n[Charslot]\n[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]\n[PlaySound(key=\"$d_sp_ballista\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]\n[delay(time=1)]\n[dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[PlaySound(key=\"$rungeneral\", volume=1)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[dialog]\n[charslot]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"不可能。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n就算被假血魔消耗了体力，剑卫们和妈妈绝不可能这么轻易被打倒。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我听过那些传说，毁灭高塔的光之利刃，刺穿岩壁的温德米尔，维多利亚最锋锐的两把剑刃之一。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n我从小听到大。\",block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"为什么？怎么会？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Sticker(id=\"st1\", multi = true, text=\"我一头扎进了那片血雾，只能听见自己的心跳在加速。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n终于，我看见了人影。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=1)]\n[dialog]\n[PlaySound(key=\"$d_avg_spiritwhoosh\", volume=0.6)]\n[CameraShake(duration=2, xstrength=10, ystrength=8, vibrato=20, randomness=90, fadeout=true, block=false)]\n[PlaySound(key=\"$d_avg_explosion\", volume=1)]\n[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]\n[Blocker(a=0.6, r=1, g=0, b=0, fadetime=0.2, block=true)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=false)]\n[delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_npc_868_1#6$1\",focus=\"m\")]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=false)]\n[name=\"温德米尔公爵\"]……呃。\n[charslot(slot=\"m\",name=\"avg_npc_426_1#6$1\",focus=\"m\")]\n[name=\"变形者集群\"]……你的双臂已经失去知觉，你的护卫们也溃不成军。\n[charslot(slot=\"m\",name=\"avg_npc_426_1#6$1\",focus=\"m\")]\n[name=\"变形者集群\"]你现在，正怀抱着什么形状的情感？\n[charslot(slot=\"m\",name=\"avg_npc_426_1#6$1\",focus=\"m\")]\n[name=\"变形者集群\"]……\n[charslot(slot=\"m\",name=\"avg_npc_868_1#3$1\",focus=\"m\")]\n[name=\"温德米尔公爵\"]……哈啊……哈啊……\n[charslot(slot=\"m\",name=\"avg_npc_868_1#6$1\",focus=\"m\")]\n[name=\"温德米尔公爵\"]萨卡兹……\n[charslot(slot=\"m\",name=\"avg_npc_426_1#2$1\",focus=\"m\")]\n[name=\"变形者集群\"]他抓住了你。\n[charslot(slot=\"m\",name=\"avg_npc_426_1#2$1\",focus=\"m\")]\n[name=\"变形者集群\"]一瞬间的破绽，一瞬间的自乱阵脚……为什么？我们不理解。\n[charslot(slot=\"m\",name=\"avg_npc_426_1#2$1\",focus=\"m\")]\n[name=\"变形者集群\"]我们……感到惋惜。\n[charslot(slot=\"m\",name=\"avg_npc_868_1#6$1\",focus=\"m\")]\n[name=\"温德米尔公爵\"]……\n[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]\n[name=\"血魔大君\"]……\n[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]\n[name=\"血魔大君\"]她已经没救了。就让这位强大的战士独自品味生命的凋零吧。\n[charslot(slot=\"m\",name=\"avg_npc_426_1#6$1\",focus=\"m\")]\n[name=\"变形者集群\"]你要离开？\n[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]\n[name=\"血魔大君\"]余下的不过是卑小的死亡。罢了，我实在是提不起兴趣了。\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"这个恶鬼只是轻轻扫了我一眼，我全身的血液就已经凝固冻结。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n但他没有动手。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_410_1#2$1\",focus=\"m\")]\n[name=\"血魔大君\"]这些血，千篇一律。\n[charslot(slot=\"m\",name=\"avg_npc_426_1#10$1\",focus=\"m\")]\n[name=\"变形者集群\"]你在追求什么？我们……还不确定。\n[charslot(slot=\"m\",name=\"avg_npc_410_1#2$1\",focus=\"m\")]\n[name=\"血魔大君\"]……\n[charslot(slot=\"m\",name=\"avg_npc_410_1#2$1\",focus=\"m\")]\n[name=\"血魔大君\"]屈辱的时代就要结束了。\n[charslot(slot=\"m\",name=\"avg_npc_426_1#10$1\",focus=\"m\")]\n[name=\"变形者集群\"]你受伤了？\n[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]\n[name=\"血魔大君\"]……无关紧要。\n[dialog]\n[Charslot(duration=1)]\n[delay(time=1)]\n[dialog]\n[charslot]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"他没入鲜血之中，就这么销声匿迹。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#7$1\",focus=\"m\")]\n[name=\"戴菲恩\"]你……你们……\n[charslot(slot=\"m\",name=\"avg_npc_426_1#8$1\",focus=\"m\")]\n[name=\"变形者集群\"]……嗯，你在这里。\n[dialog]\n[PlaySound(key=\"$d_avg_humanchange\")]\n[charslot(slot=\"m\",name=\"avg_npc_248\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_humanchange\")]\n[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_humanchange\")]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_humanchange\")]\n[charslot(slot=\"m\",name=\"avgnew_112_siege_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[PlaySound(key=\"$d_avg_humanchange\")]\n[charslot(slot=\"m\",name=\"avg_npc_868_1#8$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[name=\"变形者集群\"]你是那个识破了我们的人。\n[name=\"变形者集群\"]他说我们退步了……上一个我们，有多像？\n[name=\"变形者集群\"]这样，足够吗？\n[charslot(slot=\"m\",name=\"avg_npc_866_1#3$1\",focus=\"m\")]\n[name=\"戴菲恩\"]你——别顶着她的脸——\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_868_1#8$1\",focus=\"m\")]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"他用妈妈的脸对我笑了。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_868_1#8$1\",focus=\"m\")]\n[name=\"变形者集群\"]……我们需要尝试。\n[dialog]\n[stopmusic(fadetime=2)]\n[PlaySound(key=\"$d_avg_attack_heavy\", volume=1)]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=false)]\n[delay(time=1)]\n[dialog]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"然后用一把——一样的军剑——那无疑就是妈妈的剑——\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[PlaySound(key=\"$knifegore\", volume=1)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n插入了自己的胸口。\",block = true)]\n[Sticker(id=\"st1\")]\n[charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[dialog]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#3$1\",focus=\"m\")]\n[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=false)]\n[name=\"戴菲恩\"]萨卡兹！！\n[dialog]\n[charslot]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我疯了一样想要扑上去，身体却难以移动寸分。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_868_1#8$1\",focus=\"m\")]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_humanchange\")]\n[charslot(slot=\"m\",name=\"avg_npc_866_1#1$1\",focus=\"m\",duration=1)]\n[delay(time=2)]\n[name=\"变形者集群\"]（萨卡兹语）下次，我们会做得更好。"
+        }
+      ],
+      "description": "在战场上具体知晓该敌人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_112_siege",
+          "reason": "明确讨论并应对该敌人。",
+          "status": "supported",
+          "to": "npc_aa980d6791c26c93"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_aa980d6791c26c93",
+          "reason": "未见敌方识别此人。",
+          "status": "not_established",
+          "to": "char_112_siege"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 1505,
+          "kind": "story",
+          "line": 1291,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "温德米尔战场",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_112_siege|npc_aa980d6791c26c93"
+}

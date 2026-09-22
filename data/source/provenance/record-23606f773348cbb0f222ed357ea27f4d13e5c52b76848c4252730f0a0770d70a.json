@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 895,
+          "line": 883,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act6d5/level_act6d5_st03.txt",
+          "quote": "[name=\"炎熔\"]   那为什么最后还要出现那个巨大怪物？特效经费怎么办？\n[Character(name=\"char_121_lava_1\",name2=\"char_2014_nian_1#2\",focus=2)]\n[name=\"年\"]   因为那样比较酷。\n[Character(name=\"char_121_lava_1#3\",name2=\"char_2014_nian_1#2\",focus=1)]\n[name=\"炎熔\"]   根·本·不·酷！\n[Character(name=\"char_121_lava_1#3\",name2=\"char_2014_nian_1#4\",focus=2)]\n[name=\"年\"]   啧，啧，啧，小炎熔，你仔细想想，我们到底在讨论一个什么样的电影？\n[name=\"年\"]   巨大的怪物，剥离社会和理性的纯粹的野蛮——依我看当代都市人最缺乏的就是本性的呼唤啊，这才是都市派的浪漫！\n[name=\"年\"]   还有啊，你挑的这些演员实在是太不上道啦，一个个那么死板。\n[name=\"年\"]   我感觉这几个就不错……你看，这个档案上写着的，叫什么？煌？还有这个，大帝？\n[name=\"年\"]   哎！这个叫食铁兽的本来就是个电影明星嘛！干嘛非得挑一些龙门本地人当演员？什么？新现实主义？\n[Character(name=\"char_121_lava_1#2\",name2=\"char_2014_nian_1#4\",focus=1)]\n[name=\"炎熔\"]   等等，虽然一开始就跟着你的感觉走了，现在仔细一看，这其中是不是还有些权限记录……？"
+        }
+      ],
+      "description": "片外年与炎熔讨论选角，年从档案读到大帝，炎熔在场听取；没有大帝反向知晓证据。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E10"
+          ],
+          "from": "char_121_lava",
+          "reason": "片外年与炎熔讨论选角，年从档案读到大帝，炎熔在场听取；没有大帝反向知晓证据。",
+          "status": "supported",
+          "to": "npc_2b6410ed62fdecf2"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_2b6410ed62fdecf2",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_121_lava"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_f0cd623c8eb0c2e9.json",
+      "sources": [
+        {
+          "endLine": 895,
+          "kind": "story",
+          "line": 883,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act6d5/level_act6d5_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "洪炉示岁所述时段",
+      "title": "洪炉示岁"
+    }
+  ],
+  "relationship_id": "char_121_lava|npc_2b6410ed62fdecf2"
+}

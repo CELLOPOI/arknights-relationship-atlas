@@ -1,0 +1,22 @@
+{
+  "id": "import:char_198_blackd|npc_5b6d9a80bb2c7211",
+  "published": true,
+  "quote": "【风雪过境】\n莫希：……\n莫希：果然是这样吗……\n莫希：在山崖下被等在那里的希瓦艾什家的魏斯救下之后，我就一直在想。\n莫希：如果一切都是设计好的一场局，那我在其中，到底是站在什么样的位置上呢。\n莫希：看到您出现在这里，我终于能够确定了……\n\n【银心湖列车】\n魏斯：你的手！\n角峰：没什么，只是一点小伤。\n角峰：原本你就是打算这样做吧？\n角峰：确实，你说得有道理。老爷还在等着，总不能让老爷等太久。\n角峰：我很快就能割断绳子！\n魏斯：角峰大哥……\n莫希：那个……\n魏斯：——！\n魏斯：什么人！\n莫希：我不是敌人。\n莫希：……抱歉，是不是打扰你们了？\n魏斯：莫希？\n魏斯：你不是已经离开谢拉格了吗？\n莫希：关于这件事，之后我会和你们详细说明。\n莫希：休露丝夫人让我来探查，结果就发现你们都被绑在维多利亚的军营里。\n角峰：其他人呢？\n莫希：其他人我已经都放出来了。\n莫希：总之，两位先出来吧，维多利亚的士兵已经在银心湖挑起了冲突。\n莫希：我们需要尽快赶到现场。",
+  "relationship_id": "char_198_blackd|npc_5b6d9a80bb2c7211",
+  "sources": [
+    {
+      "endLine": 954,
+      "kind": "story",
+      "line": 949,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_06_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 449,
+      "kind": "story",
+      "line": 416,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 198,
+          "line": 149,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_st03.txt",
+          "quote": "[name=\"娜斯提\"]不，这是件无法用好或坏来概括的事。\n[dialog]\n[delay(time=1)]\n[charslot(slot = \"r\", name = \"avg_npc_891_1#1$1\", focus=\"r\")]\n[name=\"娜斯提\"]还是先关心发布会吧。赫默来吗？\n[charslot(slot = \"l\", name = \"avg_249_mlyss_1#8$1\", focus=\"l\")]\n[name=\"缪尔赛思\"]我倒想让她来，不过她不可能有空。\n[charslot(slot = \"l\", name = \"avg_249_mlyss_1#7$1\", focus=\"l\")]\n[name=\"缪尔赛思\"]我从谢拉格回来的时候把驮兽盲盒放到她桌上，过了一周去看，盲盒她倒是拆了，驮兽却被堆成山的审查文件埋得严严实实！\n[charslot(slot = \"r\", name = \"avg_npc_891_1#1$1\", focus=\"r\")]\n[name=\"娜斯提\"]可真正要替我们在发布会上发言的那个人，也还没有到场。\n[charslot(slot = \"l\", name = \"avg_249_mlyss_1#1$1\", focus=\"l\")]\n[name=\"缪尔赛思\"]再晚两分钟他可就迟到了——\n[dialog]\n[PlaySound(key=\"$d_avg_spotlightc\", volume=1)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[PlaySound(key=\"$d_avg_crwddiscuss_inside\", volume=0, loop=true, channel=\"r\")]\n[SoundVolume(volume=1, channel=\"u\",fadetime=1)]\n[delay(time=2)]\n[StopSound(channel=\"r\", fadetime=4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n[PlaySound(key=\"$d_avg_walk_stage\", volume=1, loop=true, channel=\"w\")]\n[StopSound(channel=\"w\", fadetime=1.5)]\n[charslot(slot = \"m\", name = \"avg_npc_522_1#1$1\", posfrom=\"200,0\", posto=\"0,0\", duration=1.5, isblock=true)]\n[delay(time=0.5)]\n[name=\"斐尔迪南\"]（清嗓子）\n[name=\"斐尔迪南\"]女士们，先生们，发布会马上就要开始，请各位暂时保持安静。\n[name=\"斐尔迪南\"]等到提问环节，我会很乐意解答你们关于本次计划的每一个问题。\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot]\n[charslot(slot = \"l\", name = \"avg_249_mlyss_1#9$1\")]\n[charslot(slot = \"r\", name = \"avg_npc_891_1#1$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot(slot = \"l\", name = \"avg_249_mlyss_1#9$1\", focus=\"l\")]\n[charslot(slot = \"r\", name = \"avg_npc_891_1#1$1\", focus=\"n\")]\n[name=\"缪尔赛思\"]真是兴致勃勃啊。\n[charslot(slot = \"l\", focus=\"n\")]\n[name=\"斐尔迪南\"]那么首先——\n[dialog]\n[stopmusic(fadetime=2)]\n[PlaySound(key=\"$d_avg_machinedeath\", volume=1)]\n[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2, block=true)]\n[delay(time=1)]\n[charslot(slot = \"r\", name = \"avg_npc_891_1#2$1\", focus=\"r\")]\n[name=\"娜斯提\"]同样的把戏玩两次可就无聊了。\n[charslot(slot = \"l\", name = \"avg_249_mlyss_1#11$1\", focus=\"l\")]\n[name=\"缪尔赛思\"]不对，斐尔迪南……他也慌了，这不是他的安排！这究竟是……"
+        }
+      ],
+      "description": "娜斯提单向明确认识斐尔迪南。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E18"
+          ],
+          "from": "char_4212_nasti",
+          "reason": "娜斯提等待斐尔迪南主持发布会，并明确评论其惯用把戏与现场反应。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_89d26c84069133ae",
+          "reason": "斐尔迪南只面向发布会全体讲话，当前局部没有识别娜斯提个人的依据。",
+          "status": "not_established",
+          "to": "char_4212_nasti"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 198,
+          "kind": "story",
+          "line": 149,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "哥伦比亚发布会",
+      "title": "生路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 102,
+          "line": 49,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_01_beg.txt",
+          "quote": "[name=\"塞雷娅\"]呼——就到这里吧，谢谢你当我的陪练，娜斯提。\n[playMusic(intro=\"$m_dia_street_intro\",key=\"$m_dia_street_loop\", volume=0)]\n[MusicVolume(volume=0.6, fadetime=2)]\n[stopsound(channel=\"lab\",fadetime=2)]\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]这才到你平日运动量的一半。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#1$1\")]\n[name=\"塞雷娅\"]是你该出发了。和其他人道过别了？\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]我没通知他们。马里亚姆就不用说了，缪尔赛思人在谢拉格，人事科和结构科的两位新主任我还不太熟。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#8$1\")]\n[name=\"娜斯提\"]至于小贾斯汀和斐尔迪南，还是让他俩单独见面吧……\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]这样不管是对自己刚从哪位高官的宴会上离开夸夸其谈，还是宣讲那些能让一个人成为科学界国王的新理论，两个人都有听众。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]再说，我只是出一趟差而已。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#6$1\")]\n[name=\"塞雷娅\"]需要工程科主任出的差可不多。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#5$1\")]\n[name=\"塞雷娅\"]特区政府批准了我们的申请，整合“地平弧光计划”的资源，以万星园的技术遗留为基础，继续推进浮空科技领域的革新。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]但他们同时对哥伦比亚全境的科技公司大开方便之门，甚至为此特批了一整个地块。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]进驻人员名单中不仅有烟酒施术单元以及源石制品管理局的官员，连梅兰德也下场了。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]我们的计划书，变成了万千计划书中的一份。让莱茵为整个地块提供基础工程支持，已经是他们对莱茵生命这个发起方最大的尊重了。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#9$1\")]\n[name=\"塞雷娅\"]政府官员、科技公司代表……毫无疑问，那个地块会很热闹。娜斯提，你并不擅长处理这类事情。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#1$1\")]\n[name=\"娜斯提\"]这段时间，我也没有听你抱怨过什么……总辖。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#1$1\")]\n[name=\"塞雷娅\"]……\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#8$1\")]\n[name=\"娜斯提\"]星荚已经慢慢恢复如初，但人们望向天空的目光不会收回来。常识被颠覆之后，原本被忽视的地方便自然而然成了热土。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]自然而然？特殊贷款政策出台后，三分之一的企业增加了天空事业部门，中小型企业也纷纷转型，为了搭上“天空热”的便车不计代价。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#1$1\")]\n[name=\"娜斯提\"]你意有所指，但我对政治游戏不感兴趣。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#2$1\")]\n[name=\"娜斯提\"]哪怕一切的发展不是我们所能控制的，莱茵生命也必须做这个发起方。尽可能地掌握主动权，才能尽可能地守住克丽斯腾留下的东西。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#2$1\")]\n[name=\"娜斯提\"]这并不难理解。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#6$1\")]\n[name=\"塞雷娅\"]嗯。那么，辛苦了。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#11$1\")]\n[name=\"娜斯提\"]顺便问一句，你为什么不搬去克丽斯腾的办公室，而是在这间旧办公室外面加挂了一块“总辖构件科”的标牌？\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#6$1\")]\n[name=\"塞雷娅\"]我习惯了这里。\n[charslot(slot=\"l\",focus=\"l\",name = \"avg_npc_896_1#6$1\")]\n[name=\"塞雷娅\"]缪尔赛思也这样问过。她红着眼睛，掐着我的胳膊问我是不是因为怀念克丽斯腾，以及莱茵是不是总会为克丽斯腾留一个位置。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]看来，你只是觉得老地方比较舒适。毕竟这里的每一个细节都是你亲自确认过的。\n[charslot(slot = \"r\",focus=\"r\",name = \"avg_4212_nasti_1#4$1\")]\n[name=\"娜斯提\"]当初替你装修办公室的时候，你在我身后从头盯到尾，我一度怀疑你的强迫症比帕尔维斯还要严重。"
+        },
+        {
+          "endLine": 439,
+          "line": 378,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_st03.txt",
+          "quote": "[name=\"缪尔赛思\"]我不。\n[name=\"缪尔赛思\"]对了，你真不打算给我讲讲你母亲的事吗？\n[name=\"娜斯提\"]不打算。\n[name=\"缪尔赛思\"]你身上有了一些变化……很好的那种变化，我说不上来。\n[name=\"缪尔赛思\"]娜斯提……\n[name=\"娜斯提\"]好吧。我哭过一场，想通了一些事情，坚定了一些事情，就这样。\n[name=\"斐尔迪南\"]咳咳——我专门离开实验室一趟，不是为了看两位闺蜜情深的。\n[name=\"缪尔赛思\"]这两年你对科学狂热得有点太过忘我了，斐尔迪南，忘我到我有点想念你之前的钻营，和一门心思让莱茵归于自己掌握的样子。\n[name=\"斐尔迪南\"]难道现在不是吗？\n[name=\"斐尔迪南\"]这两年，是我在高能物理学上的新突破支撑着各个科室的新研究，同僚们。\n[name=\"娜斯提\"]嗯，也多亏了你帮忙。\n[name=\"缪尔赛思\"]我看，多萝西是因为不想听你自夸，才不来参会的吧？\n[name=\"斐尔迪南\"]呵，接受完相关的问询之后，她直接回了359实验基地。她说这段时间自己又做了几个梦……不会向前看的人。\n[name=\"斐尔迪南\"]塞雷娅，娜斯提已经将“树”的实验结果同步到了我的邮箱，仅仅是“螺旋桨天堂”的事情，不值得我们这些人都聚在这里开会吧？\n[name=\"塞雷娅\"]当然。\n[name=\"斐尔迪南\"]那我们在等谁？\n[Dialog]\n[PlaySound(key=\"$d_avg_glassdooropen\")]\n[delay(time=2)]\n[name=\"？？？\"]或许你会有兴趣看看因非冰原的资料？\n[name=\"斐尔迪南\"]……\n[name=\"塞雷娅\"]你终于回来了，马里亚姆。\n[Dialog]\n[delay(time=1)]\n[Image(image=\"68_i14_2\", xScale=1.1, yScale=1.1,screenadapt=\"coverall\",fadetime=2,block=true)]\n[name=\"马里亚姆\"]装蹄花了点时间，从特区徒步到特里蒙，正好用来磨合。抱歉，我太久没回哥伦比亚了。\n[name=\"娜斯提\"]幸好在“螺旋桨天堂”没等你太久。我安排好了车辆，本可以一起返回莱茵。\n[name=\"马里亚姆\"]……这个我倒是没有想过。\n[name=\"娜斯提\"]一个热衷于在大地的各个角落找死的家伙，必然习惯了一个人行动，理解。\n[name=\"斐尔迪南\"]启动“树”的核心元件，需要起码两位主任级别的莱茵员工权限。我原本还在想，塞雷娅到底安排了谁去帮娜斯提……\n[name=\"斐尔迪南\"]传说早就暴尸荒野，记者们甚至怀疑莱茵是否存在这号人物的科考科主任，倒是没有比你更为合适的人选了。只是——\n[name=\"马里亚姆\"]你想问谁安排的？小贾斯汀。\n[name=\"马里亚姆\"]他在察帕特有一些商业投资，我从因非冰原离开的第一时间，他便联系上了我。\n[name=\"马里亚姆\"]他让我入境哥伦比亚后直奔特区，之后不久，我便接到了古斯塔夫的邀约电话……显然小贾斯汀做了一番，嗯，运作。\n[name=\"斐尔迪南\"]那你本来——\n[name=\"马里亚姆\"]返回莱茵的目的？我在因非冰原的最深处，无根之花盛开得最灿烂的地方，发现了……那个圆形巨构的碎片。\n[name=\"马里亚姆\"]你猜到了？是的。克丽斯腾留下的资料里，提到过那个巨构。她说上个时代的人称之为，“星门”。\n[name=\"马里亚姆\"]塞雷娅待会儿应该会向你们同步这些情报。斐尔迪南，还有问题吗？没了吧。\n[name=\"斐尔迪南\"]……\n[name=\"缪尔赛思\"]哈哈哈，马里亚姆，你还是习惯自问自答，让斐尔迪南无话可说啊。\n[name=\"塞雷娅\"]好了，各位，人差不多到齐了。\n[name=\"塞雷娅\"]这场会议来得有些迟了。这两年来，几乎哥伦比亚所有的主流媒体和科技小报都下过类似的论断……\n[name=\"塞雷娅\"]“万星园消失的那道缝隙，既是星荚的伤痕，也是莱茵的伤痕。”他们甚至围绕着莱茵取消了年终酒会而编排了一些故事。\n[name=\"娜斯提\"]我们都很忙，仅此而已。\n[name=\"塞雷娅\"]嗯。现在，我们也忙得差不多了。\n[name=\"塞雷娅\"]工程科与生态科的联合项目虽然出了一些意外，但就最后的结果而言，很成功。娜斯提，你现在握着开启一个全新领域的钥匙。\n[name=\"娜斯提\"]……前提是我们真的能握紧它。\n[name=\"塞雷娅\"]毫无疑问，马里亚姆在因非冰原的发现，证实了克丽斯腾得到的那些远超常理的“怪谈”，确实是基于真实图景的“知识”。\n[name=\"马里亚姆\"]或许，我们能借此重建与上个时代的对话。\n[name=\"塞雷娅\"]至于我们在谢拉格的观测站，缪尔赛思带回来了一些资料……\n[name=\"缪尔赛思\"]非常有意思的资料哦……或者说，非常危险。\n[name=\"塞雷娅\"]玻利瓦尔的事情你们应该已经有所耳闻，哥伦比亚的二十多支科考队消失在了黑流树海。\n[name=\"斐尔迪南\"]如果是那片神秘沼泽有了什么异变，探险家和阴谋家们又该兴奋起来了。塞雷娅，莱茵应该有所行动。\n[name=\"塞雷娅\"]麦哲伦已经动身了。\n[Dialog]\n[delay(time=1.5)]\n[name=\"塞雷娅\"]自克丽斯腾的事件后，有越来越多的事件和现象在告诉我们，这片大地上埋藏最深的那些谜题，都拥有同一种答案。\n[name=\"塞雷娅\"]那答案将会告诉我们，泰拉因何而存在，未来等待着我们的，究竟是灾难还是新的“世界”。\n[name=\"塞雷娅\"]莱茵生命已经完成新一轮的科研布局，但这还不够，我们需要回应科学对未知的一切恐慌，到达所有的未知之境……\n[name=\"塞雷娅\"]娜斯提，你刚才的话没错……\n[name=\"塞雷娅\"]但莱茵生命，需要成为转动那把钥匙的人。\n[name=\"斐尔迪南\"]（低声）哇哦……"
+        }
+      ],
+      "description": "二人是直接共事的同僚。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03",
+            "E11"
+          ],
+          "from": "char_4212_nasti",
+          "reason": "娜斯提此前提及斐尔迪南，并在会议中直接回应他。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_89d26c84069133ae",
+          "reason": "斐尔迪南直接称呼娜斯提并讨论她的实验结果。",
+          "status": "supported",
+          "to": "char_4212_nasti"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 102,
+          "kind": "story",
+          "line": 49,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_01_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 439,
+          "kind": "story",
+          "line": 378,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "莱茵同事关系",
+      "title": "未许之地"
+    }
+  ],
+  "relationship_id": "char_4212_nasti|npc_89d26c84069133ae"
+}

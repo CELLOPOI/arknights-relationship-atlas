@@ -1,0 +1,257 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 255,
+          "line": 249,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ebnhlz_1_1.txt",
+          "quote": "[name=\"芙蓉\"]一回罗德岛，我就去找博士。他一定有办法。\n[Character(name=\"avg_4046_ebnhlz_1#1$1\",name2=\"avg_1024_hbisc2_1#6$1\",focus=1)]\n[name=\"黑键\"]那个人很厉害吗？\n[Character(name=\"avg_4046_ebnhlz_1#1$1\",name2=\"avg_1024_hbisc2_1#8$1\",focus=2)]\n[name=\"芙蓉\"]很厉害。\n[Character(name=\"avg_4046_ebnhlz_1#6$1\",name2=\"avg_1024_hbisc2_1#8$1\",focus=1)]\n[name=\"黑键\"]这么厉害的人，为什么要为了我想办法？"
+        }
+      ],
+      "description": "芙蓉明确提出返岛找博士并评价其能力；计划求助不代表本次已会面。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E2"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "芙蓉明确提出返岛找博士并评价其能力；计划求助不代表本次已会面。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_da779f1204d8d0ff.json",
+      "sources": [
+        {
+          "endLine": 255,
+          "kind": "story",
+          "line": 249,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_ebnhlz_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "黑键所述时段",
+      "title": "黑键"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 483,
+          "line": 428,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "quote": "[name=\"白金\"]  ……\n[Character(name=\"avg_237_gravel_1#4\")]\n[name=\"砾\"]  ……你似乎遇到了什么事情，白金大位。\n[Character(name=\"char_204_platnm_1#6\")]\n[name=\"白金\"]  ……没你们的事……唔。\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[dialog]\n[Dialog]\n[PlaySound(key=\"$bodyfalldown2\", volume=0.6)]\n[Character(fadetime=1,block=true)]\n[Delay(time=2)]\n[Character(name=\"char_120_hibisc_1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"芙蓉\"]  路、路都走不稳了，但是没有明显的伤口……是单纯的疲劳吗？还是……\n[Character(name=\"avg_237_gravel_1#4\", name2=\"char_120_hibisc_1\", focus=1)]\n[name=\"砾\"]  ……是无胄盟。他们已经追上来了。\n[Character(name=\"avg_237_gravel_1#7\",name2=\"char_204_platnm_1\", focus=1)]\n[name=\"砾\"]  叛乱吗，还是说，你才是那个叛徒？\n[Character(name=\"char_120_hibisc_1\")]\n[name=\"芙蓉\"]  博、博士！\n[dialog]\n[character]\n你看着那个倒在地上的无胄盟，她和你印象里那一身潇洒的刺客截然不同。\n[Decision(options=\"……;……;……\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"char_204_platnm_1#4\")]\n[name=\"白金\"]  ……罗德岛的博士……\n[name=\"白金\"]  外面的大地上，都是……你们这样的人吗？\n[dialog]\n[Decision(options=\"砾。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  我在。\n[dialog]\n[Decision(options=\"我想无胄盟不会轻易地放过我们。;离开监正会的直接庇护后，我们可能会遭遇危险。;商业联合会只是一块挡箭牌，有时效的挡箭牌。\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_237_gravel_1#6\")]\n[name=\"砾\"]  不瞒您说，我正打算与您商议这些事情。\n[Character(name=\"avg_237_gravel_1#2\")]\n[name=\"砾\"]  毕竟敌暗我明，在卡西米尔，无胄盟有太多办法对一家企业下黑手。\n[dialog]\n[Decision(options=\"好。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"芙蓉，先救走她！;砾，拖住无胄盟！\",values=\"1;2;3\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"char_204_platnm_1#5\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"白金\"]  ……！\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  嘻，如您所愿。\n[Character(name=\"char_120_hibisc_1\",name2=\"char_204_platnm_1#5\", focus=1)]\n[name=\"芙蓉\"]  抓紧了啊，呃，无胄盟小姐——！\n[Character(name=\"char_204_platnm_1#2\")]\n[name=\"白金\"]  ……为什么……\n[dialog]\n[Decision(options=\"回头再解释吧，到时候再谈报酬。;……;我心善，帮人就是帮己。\",values=\"1;2;3\")]"
+        }
+      ],
+      "description": "芙蓉与博士在救援现场直接交流或接受其安排。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "芙蓉与博士在救援现场直接交流或接受其安排。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "芙蓉与博士在救援现场直接交流或接受其安排。",
+          "status": "supported",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_2db98b901e9e88b6.json",
+      "sources": [
+        {
+          "endLine": 483,
+          "kind": "story",
+          "line": 428,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "零号地块救援现场",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 259,
+          "line": 245,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_st03.txt",
+          "quote": "[name=\"黑键\"]……\n[charslot(slot = \"m\", name = \"avg_1024_hbisc2_1#5$1\")]\n[name=\"芙蓉\"]干员离舰必须经过严格的审批手续，你怎么能留下这样一封不知所云的信，说走就走呢？\n[name=\"芙蓉\"]我还没来得及转交。\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#5$1\")]\n[name=\"黑键\"]……芙蓉，还给我吧。\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#1$1\")]\n[name=\"黑键\"]接下来很长一段时间，我都会留在莱塔尼亚。我会重新回到乌提卡领。\n[name=\"黑键\"]我想重新提交一份正式的离舰申请，劳烦你替我……\n[charslot(slot = \"m\", name = \"avg_1024_hbisc2_1#11$1\")]\n[name=\"芙蓉\"]呃，你最好亲自去跟博士或者凯尔希医生说。\n[charslot(slot = \"m\", name = \"avg_4046_ebnhlz_1#3$1\")]\n[name=\"黑键\"]罗德岛的本舰，就在附近？\n[charslot(slot = \"m\", name = \"avg_1024_hbisc2_1#1$1\")]\n[name=\"芙蓉\"]不然我为什么会出现在这儿？倒也没那么近，但接下来，我们确实在莱塔尼亚周边有些事务需要处理。"
+        }
+      ],
+      "description": "char_120_hibisc知晓博士；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "芙蓉明确提议找博士办理手续。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在本组出场，缺少反向识别证据。",
+          "status": "not_established",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_3a60825ada2e8d44.json",
+      "sources": [
+        {
+          "endLine": 259,
+          "kind": "story",
+          "line": 245,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act29side/level_act29side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "事件结束后的罗德岛离舰谈话",
+      "title": "崔林特尔梅之金"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 589,
+          "line": 434,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_08_end.txt",
+          "quote": "[Character(name=\"char_204_platnm_1#6\")]\n[name=\"白金\"]  ……你……你算计好的？\n[name=\"白金\"]  你是怎么做到……\n[dialog]\n[Decision(options=\"拉拢一些人，对付另一些人。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"这并不是什么难事。;只是大部分人，甚至主动找到自己的老板提出想法都很困难。\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"真正的难点在，判断拉拢哪些人，对付哪些人。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"在这件事上，所幸我还有一位能说得通的友人。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[stopmusic(fadetime=2)]\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Background(image=\"bg_23_G03\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2.5, block=true)]\n[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.4)]\n[Character(name=\"avg_npc_211_1#4\", name2=\"avg_npc_212_1\", focus=2)]\n[name=\"发言人麦基\"]  ……那零号地块怎么办？\n[Character(name=\"avg_npc_211_1#4\", name2=\"avg_npc_212_1#4\", focus=2)]\n[name=\"发言人麦基\"]  在感染者引发了这么多暴动之后，任由两个感染者骑士大放异彩，不确定因素太多了。\n[name=\"发言人麦基\"]  要是这个时间点，零号地块处理感染者的事情被曝光……\n[Character(name=\"avg_npc_211_1#5\", name2=\"avg_npc_212_1#4\", focus=1)]\n[name=\"发言人马克维茨\"]  也许有好有坏……\n[Character(name=\"avg_npc_211_1#5\", name2=\"avg_npc_212_1#5\", focus=2)]\n[name=\"发言人麦基\"]  我们不允许“有好有坏”。无论是好还是坏，我们要求的是“尽在掌握”。\n[Character(name=\"avg_npc_211_1#2\", name2=\"avg_npc_212_1#5\", focus=1)]\n[name=\"发言人马克维茨\"]  ……我有别的办法。\n[Character(name=\"avg_npc_211_1#5\", name2=\"avg_npc_212_1#5\", focus=1)]\n[name=\"发言人马克维茨\"]  以防万一，我已经让无胄盟去做了。\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G09\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_204_platnm_1\")]\n[name=\"白金\"]  ……我该就这么放过你吗？\n[name=\"白金\"]  身为外人，你已经得知了无胄盟的存在……\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  ……别这么纠缠不清，很难看喔？白金大位。\n[Character(name=\"char_204_platnm_1#6\")]\n[name=\"白金\"]  ……\n[dialog]\n[PlaySound(key=\"$dooropenquite\", volume=0.6)]\n[Character(name=\"char_002_amiya_1\",fadetime=1,block=true)]\n[PlaySound(key=\"$rungeneral\", volume=0.6)]\n[delay(time=1)]\n[name=\"阿米娅\"]  ……博士！关于今天的物资输送——\n[delay(time=0.5)]\n[Character(name=\"char_002_amiya_1#6\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"阿米娅\"]  唔？博士有新的客人？抱、抱歉……\n[Character(name=\"char_204_platnm_1#2\")]\n[name=\"白金\"]  ……没关系的，请进吧。\n[Character(name=\"avg_237_gravel_1\")]\n[name=\"砾\"]  竟然让无胄盟和征战骑士坐在一起喝茶，博士，你还真是让人意想不到。\n[Character(name=\"char_002_amiya_1#5\")]\n[name=\"阿米娅\"]  ……那，博士，过来一下，这份文件要你也签字。\n[Character(name=\"char_204_platnm_1#7\")]\n[name=\"白金\"]  （那就是罗德岛的领导人……如果是现在动手的话……）\n[dialog]\n只是想象而已。\n连近在咫尺的砾都没有察觉到任何杀气，当然，毕竟只是想象而已。\n可就算如此，白金还是突然犹豫了，随后，她感到庆幸。\n庆幸自己没有一根筋地把任务进行到底。\n她转瞬之间从那只娇小的卡特斯身上预感到了一种可能性。\n动手的话，自己真的能安然无恙地拔出箭矢吗？\n还是在那之前——\n[dialog]\n[Character(name=\"char_002_amiya_1#6\", name2=\"char_204_platnm_1#7\", focus=1)]\n[name=\"阿米娅\"]  ……？小姐？怎么了吗？\n[Character(name=\"char_002_amiya_1#6\", name2=\"char_204_platnm_1\", focus=2)]\n[name=\"白金\"]  不，失礼了。\n[Character(name=\"char_204_platnm_1\")]\n[name=\"白金\"]  刚才打碎的玻璃，我会让人补上，今天，我就先回了。\n[Character(name=\"char_204_platnm_1#8\")]\n[name=\"白金\"]  罗德岛的……{@nickname}博士，是吧？\n[Character(name=\"char_204_platnm_1#6\")]\n[name=\"白金\"]  我记住你了。\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\", volume=0.9)]\n[Character(fadetime=1,block=true)]\n[Delay(time=2)]\n[Character(name=\"char_002_amiya_1#6\")]\n[name=\"阿米娅\"]  ……博士，砾小姐，刚才发生了什么？\n[Character(name=\"avg_237_gravel_1\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"砾\"]  ……不。\n[Character(name=\"avg_237_gravel_1#6\", name2=\"char_002_amiya_1\", focus=1)]\n[name=\"砾\"]  只是一起喝了杯茶而已。\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G07\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]\n[Character(name=\"avg_npc_216\")]\n[name=\"无胄盟成员\"]  ……白金大位，这是您要的东西。\n[Character(name=\"avg_npc_216\", name2=\"char_204_platnm_1#7\", focus=2)]\n[name=\"白金\"]  真亏你们能找到啊……\n[Character(name=\"avg_npc_216\", name2=\"char_204_platnm_1#7\", focus=1)]\n[name=\"无胄盟成员\"]  是。我们检索了罗德岛与监正会的通讯频段，以此为线索定位到了这些信息。\n[name=\"无胄盟成员\"]  这就是干员临光，也就是耀骑士真实的体检报告。\n[Character(name=\"avg_npc_216\", name2=\"char_204_platnm_1\", focus=2)]\n[PlaySound(key=\"$g_card_10cardsrelease\", volume=0.6)]\n[name=\"白金\"]  ……\n[PlaySound(key=\"$g_card_10cardsrelease\", volume=0.6)]\n[delay(time=1)]\n[PlaySound(key=\"$g_card_10cardsrelease\", volume=0.6)]\n[delay(time=1)]\n[Character(name=\"avg_npc_216\", name2=\"char_204_platnm_1#4\", focus=2)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"白金\"]  什么……？\n[Character(name=\"avg_npc_216\", name2=\"char_204_platnm_1#2\", focus=2)]\n[name=\"白金\"]  ……耀骑士……不是感染者？\n[stopmusic(fadetime=2)]\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2.5, block=true)]\n[Background(image=\"bg_23_G08\",screenadapt=\"coverall\")]\n[playMusic(intro=\"$warchaos_intro\", key=\"$warchaos_loop\", volume=0.4)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]\n[Character(name=\"avg_npc_121\")]\n[name=\"大嘴莫布\"]  欢迎来到卡西米尔特锦赛现场！我是你们的老朋友大嘴莫布！\n[name=\"大嘴莫布\"]  多亏了逐魇骑士的失误，我们才有幸观赏到今天的比赛！血骑士对阵逐魇骑士！\n[name=\"大嘴莫布\"]  无与伦比的恐怖与实力！强大的血骑士与传说中的梦魇究竟会碰擦出怎样的火花！？\n[name=\"大嘴莫布\"]  在先前的比赛中，血骑士就与逐魇骑士有了一次充满火药味的会面！现如今！双方正式站在了赛场上！\n[Character(name=\"avg_npc_121#3\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"大嘴莫布\"]  厮杀！战斗！唯有胜利者方能光荣！让我们欢迎——两位骑士——入场——！\n[PlaySound(key=\"$livecrowd\", volume=0.4, loop=false, channel=\"people\")]\n[dialog]\n[character]\n[Character(name=\"avg_1014_nearl2_1#2$1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"玛嘉烈\"]  ……\n[Dialog]\n[character]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Background(image=\"bg_23_G01\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"avg_npc_225\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"逐魇骑士\"]  ……\n[dialog]\n[Character(name=\"avg_npc_225\",focus=-1)]\n[name=\"大嘴莫布\"]  没有骑士团所属，没有赞助商赞助，天呐，你们为什么要放过这么大一块馅饼！？\n[name=\"大嘴莫布\"]  谁来为他创造一个骑士团！一定能赚大钱！\n[name=\"大嘴莫布\"]  另一面是，鲜血之王，卡西米尔的血色高脚杯，无情的制胜机器，当之无愧的巅峰！\n[PlaySound(key=\"$livecrowd\", volume=0.4, loop=false, channel=\"people\")]\n[name=\"大嘴莫布\"]  血——骑士！狄开俄波利斯！！\n[dialog]\n[Character(name=\"avg_npc_214_1#2$1\",fadetime=1,block=true)]\n[delay(time=1)]\n[name=\"血骑士\"]  ……又见面了，梦魇。\n[name=\"血骑士\"]  你还在追寻过去的影子吗？"
+        }
+      ],
+      "description": "具体交互或局部共处支持双向相识。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "两端有直接交谈、实际交战、小组共处或已发生的具体交互。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "反向同样由对话、交战感知或已发生的具体互动支持。",
+          "status": "supported",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_4f2eebe1f45a573f.json",
+      "sources": [
+        {
+          "endLine": 589,
+          "kind": "story",
+          "line": 434,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "长夜临光事件及冠军赛前后",
+      "title": "长夜临光"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 219,
+          "line": 203,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_st03.txt",
+          "quote": "[name=\"炎熔\"]你要是……不在了，我、我、我……\n[character(name=\"avg_1024_hbisc2_1#4$1\")]\n[name=\"芙蓉\"]……\n[character(name=\"avg_1024_hbisc2_1#1$1\")]\n[name=\"芙蓉\"]小炎熔，姐姐保证，一定会更加留心保护自己的，好不好？\n[character(name=\"char_1011_purgatory_1#4\")]\n[name=\"炎熔\"]真的？\n[character(name=\"avg_1024_hbisc2_1#8$1\")]\n[name=\"芙蓉\"]真的。\n[character(name=\"char_1011_purgatory_1#1\")]\n[name=\"炎熔\"]你可不许骗我！\n[character(name=\"avg_1024_hbisc2_1#10$1\")]\n[name=\"芙蓉\"]怎么会呢。博士给我批的假期还挺长的，我会好好利用这段时间休养一下的。\n[character(name=\"avg_1024_hbisc2_1#8$1\")]\n[name=\"芙蓉\"]好啦，你不是去问那位约翰老师的情况了吗？他怎么样？\n[character(name=\"char_1011_purgatory_1#1\")]\n[name=\"炎熔\"]车尔尼先生说，他一年前在一个交流会上见过约翰老师一次，约翰老师一切都好。"
+        }
+      ],
+      "description": "芙蓉与博士之间有已发生的休假审批。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "芙蓉明确知道博士批准自己的假期。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E06"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士对芙蓉作出具体休假批准，表明博士知晓她。",
+          "status": "supported",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9c4c498e9c50a10e.json",
+      "sources": [
+        {
+          "endLine": 219,
+          "kind": "story",
+          "line": 203,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18side/level_act18side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛休养期",
+      "title": "尘影余音"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 799,
+          "line": 745,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "quote": "[name=\"暴行\"]那请等着我回来，博士。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot]\n[Background(image=\"bg_desert_1\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[PlaySound(key=\"$d_avg_sandftsingle\",delay=0.5)]\n[charslot(slot = \"right\", name = \"char_1011_purgatory_1#1\",duration = 1)]\n[delay(time=2)]\n[name=\"炎熔\"]喂，怎么不走了？\n[dialog]\n[charslot(slot = \"left\", name = \"avg_1024_hbisc2_1#9$1\",duration = 1)]\n[delay(time=2)]\n[charslot(slot = \"left\", name = \"avg_1024_hbisc2_1#4$1\",focus=\"l\")]\n[name=\"芙蓉\"]我突然想起来，之前准备的医疗药品和养护手册都还没有分发到大家手里， 没有专门提醒的话，肯定有人会忘记的。\n[name=\"芙蓉\"]这次外出的时间这么长，大家会不会记得按时吃饭按时吃药呢……\n[charslot(slot = \"right\", name = \"char_1011_purgatory_1#1\",focus=\"r\")]\n[name=\"炎熔\"]其他医疗干员会负责的，你惦记这个干嘛。\n[charslot(slot = \"left\", name = \"avg_1024_hbisc2_1#1$1\",focus=\"l\")]\n[name=\"芙蓉\"]可是很多时候，大家就是顾不上照顾好自己，小炎熔你自己不也总是忘记带我给你准备的食物吗……\n[charslot(slot = \"right\", name = \"char_1011_purgatory_1#4\",focus=\"r\")]\n[name=\"炎熔\"]我那是……算了。\n[charslot(slot = \"left\", name = \"avg_1024_hbisc2_1#7$1\",focus=\"l\")]\n[name=\"芙蓉\"]还有A1小队里其他的人……队长要去执行的任务很危险，克洛丝也要自己一个人去很远的地方，她们都能行吗……\n[charslot(slot = \"right\", name = \"char_1011_purgatory_1#5\",focus=\"r\")]\n[name=\"炎熔\"]啊……我受够了！！能不能不要总把别人当小孩啊！\n[name=\"炎熔\"]都过去这么久了，谁还会是长不大的小屁孩啊！\n[charslot(slot = \"left\", name = \"avg_1024_hbisc2_1#8$1\",focus=\"l\")]\n[name=\"芙蓉\"]我知道……我明白的……\n[charslot(slot = \"left\", name = \"avg_1024_hbisc2_1#4$1\",focus=\"l\")]\n[name=\"芙蓉\"]我就是觉得，突然要离开这么多年和大家朝夕相处的地方，还不知道什么时候才能回来……\n[charslot(slot = \"left\", name = \"avg_1024_hbisc2_1#2$1\",focus=\"l\")]\n[name=\"芙蓉\"]心里有点，空落落的……\n[charslot(slot = \"right\", name = \"char_1011_purgatory_1#1\",focus=\"r\")]\n[name=\"炎熔\"]……\n[charslot(slot = \"right\", name = \"char_1011_purgatory_1#4\",focus=\"r\")]\n[name=\"炎熔\"]……放心吧，我们会回来的。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[Background(image=\"bg_0_rhodes3\",screenadapt=\"coverall\", x=50, xScale=1.2, yScale=1.2)]\n[backgroundTween( xFrom=50,  xTo=-50, duration=30, block=false)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[name=\"炎熔\"]罗德岛现在需要解决一些麻烦，我愿意相信博士和凯尔希医生，还有阿米娅，问题一定会处理好的。\n[name=\"炎熔\"]我们只要执行好自己的任务，耐心等待就好了。\n[name=\"炎熔\"]罗德岛就是我们的家，我们才不会失去她。无论什么情况，我们都会回来的。\n[name=\"炎熔\"]……总有一天。\n[name=\"芙蓉\"]嗯……\n[name=\"芙蓉\"]大家还会在一起的。\n[stopmusic(fadetime=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]"
+        }
+      ],
+      "description": "芙蓉在场听到炎熔具体谈及博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D08"
+          ],
+          "from": "char_120_hibisc",
+          "reason": "芙蓉在场听到炎熔具体谈及博士。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "已读窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_120_hibisc"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 799,
+          "kind": "story",
+          "line": 745,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_120_hibisc|npc_b99957887950ebfd"
+}

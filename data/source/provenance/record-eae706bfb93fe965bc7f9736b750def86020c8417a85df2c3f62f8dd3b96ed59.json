@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 307,
+          "line": 287,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-18_end.txt",
+          "quote": "[name=\"？？？\"]呼……哈……终于赶上了。\n[charslot(slot=\"m\",name=\"avg_4131_odda_1#2$1\",focus=\"m\")]\n[name=\"奥达\"]呃，你是……\n[Dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",duration=1)]\n[Delay(time=1.5)]\n[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]\n[name=\"埃芒加德\"]唔……你的同行？\n[charslot(slot=\"m\",name=\"avg_4131_odda_1#8$1\",focus=\"m\")]\n[name=\"奥达\"]……\n[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]\n[name=\"埃芒加德\"]我是说信使啦！\n[charslot(slot = \"m\", name = \"avg_npc_869_1#6$1\",focus=\"m\")]\n[name=\"埃芒加德\"]唉，一晃这么多年过去，我对卡兹戴尔都不太熟了。我听说啊，我能在这个坐标找到我要找的人。\n[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]\n[name=\"埃芒加德\"]你能告诉我——去“巴别塔”旧址的路该怎么走吗？\n[Dialog]\n[stopmusic(fadetime=2)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]"
+        }
+      ],
+      "description": "埃芒加德以信使身份到访并当面向奥达问路。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E142"
+          ],
+          "from": "char_4131_odda",
+          "reason": "埃芒加德以信使身份到访并当面向奥达问路。",
+          "status": "supported",
+          "to": "npc_4cf393656bead901"
+        },
+        {
+          "evidenceIds": [
+            "E142"
+          ],
+          "from": "npc_4cf393656bead901",
+          "reason": "埃芒加德以信使身份到访并当面向奥达问路。",
+          "status": "supported",
+          "to": "char_4131_odda"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 307,
+          "kind": "story",
+          "line": 287,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-18_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    }
+  ],
+  "relationship_id": "char_4131_odda|npc_4cf393656bead901"
+}

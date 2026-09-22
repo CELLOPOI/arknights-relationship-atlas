@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 376,
+          "line": 318,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mantic_1_1.txt",
+          "quote": "[name=\"安赛尔\"]我们真的很想帮助你……不过你不愿意接受的话，我们也不会强求。\n[name=\"安赛尔\"]啊，但是罗德岛眼下并不在萨尔贡境内。\n[Character(name=\"avg_215_mantic_1#6$1\")]\n[name=\"惊慌的曼提柯女孩\"]（不在……萨尔贡？）\n[Character]\n[name=\"安赛尔\"]如果你想回去，我们也只能在下一次停靠移动城市的时候让你离舰，请你自己找到回家的路。\n[name=\"安赛尔\"]当然如果你愿意留在这里的话更好。呃，我们的体检也不会涉及什么个人隐私的。\n[name=\"安赛尔\"]而且，应该已经有人向你介绍过博士了吧。\n[Character(name=\"avg_215_mantic_1#11$1\")]\n[name=\"惊慌的曼提柯女孩\"]（博士……确实是一个总被提到的称号……）\n[Character]\n[name=\"安赛尔\"]博士说，你的能力会在他的战术里有一席之地。\n[name=\"安赛尔\"]因为感染者的处境并不好，我们尝试救助感染者的时候，也难免会跟其他人产生一些冲突。\n[name=\"安赛尔\"]所以，也需要一些有战斗能力和战斗意愿的伙伴，去保护其他人。\n[Character(name=\"avg_215_mantic_1#1$1\")]\n[name=\"惊慌的曼提柯女孩\"]（需要的意思是……我，我还有用吗？）\n[Character]\n[name=\"安赛尔\"]呃，不要害怕，我想你会和我一样先当个预备干员吧。\n[name=\"安赛尔\"]而且前辈们都说博士的指挥值得信任。\n[name=\"安赛尔\"]许多从绝境中生还的前辈说，博士把他们带了回来。\n[Character(name=\"avg_215_mantic_1#6$1\")]\n[name=\"惊慌的曼提柯女孩\"]（……真的？）\n[name=\"惊慌的曼提柯女孩\"]（他们不会让我去送死？）\n[name=\"惊慌的曼提柯女孩\"]\n[Character(name=\"avg_215_mantic_1#4$1\")]\n[name=\"惊慌的曼提柯女孩\"]（清嗓子）……你、你们好。\n[Character]\n[name=\"安赛尔\"]……博士，她好像还是没有回应。您要先回去吗？\n[Character(name=\"avg_215_mantic_1#4$1\")]\n[name=\"惊慌的曼提柯女孩\"]不，请等一等……\n[Character]\n[name=\"安赛尔\"]现在房间里听不到任何动静，也有可能对方正在睡觉。\n[Character(name=\"avg_215_mantic_1#4$1\")]\n[name=\"惊慌的曼提柯女孩\"]不要走……我可以证明自己……\n[name=\"惊慌的曼提柯女孩\"]指挥者，请不要丢下我……\n[Character]\n[name=\"安赛尔\"]我虽然很担心她，但目前还是不要过度打扰她比较好。\n[Character(name=\"avg_215_mantic_1#5$1\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"惊慌的曼提柯女孩\"]我在这里……请注意到我呀……\n[name=\"惊慌的曼提柯女孩\"]我想活下去……\n[Dialog]\n[Character]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[delay(time=0.5)]\n[Background(image=\"bg_black\",screenadapt=\"showall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]\n[Delay(time=0.7)]\n[Dialog]\n[Decision(options=\"门似乎微微晃动了一下。;我觉得她在听。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Delay(time=1)]\n……\n[Dialog]\n[Decision(options=\"如果你不知道怎么回答，可以先给我一个代号。;我该如何称呼你？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Delay(time=1)]\n[Decision(options=\"（将自己随身记事的纸笺和笔递进房门）\", values=\"1\")]"
+        }
+      ],
+      "description": "安赛尔陪同博士尝试与狮蝎沟通。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_212_ansel",
+          "reason": "安赛尔直接称呼博士并询问其行动。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士与安赛尔共同在门外，并接续其情况说明采取行动。",
+          "status": "supported",
+          "to": "char_212_ansel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_11a0942eb7cdbfca.json",
+      "sources": [
+        {
+          "endLine": 376,
+          "kind": "story",
+          "line": 318,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_mantic_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "狮蝎宿舍门外劝说场景",
+      "title": "狮蝎"
+    }
+  ],
+  "relationship_id": "char_212_ansel|npc_b99957887950ebfd"
+}

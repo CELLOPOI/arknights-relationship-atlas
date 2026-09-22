@@ -1,0 +1,22 @@
+{
+  "id": "import:npc_83e2c28380c1c6fb|npc_e565b7639574735d",
+  "published": true,
+  "quote": "【未尽篇章】\n卡彭：打住！\n卡彭：自打踏上龙门的第一天起我就一直在告诉你，龙门有龙门的规矩。\n卡彭：别忘了我们是怎么成了鼠王的手下败将，他又是怎么放我们一条生路的。\n甘比诺：不用你说！\n卡彭：但愿如此。\n卡彭：所以，我们去那群叛徒的窝点，不是去打架的，更不是去给他们教训的，我们只是去打听消息，明白吗？\n\n【喧闹法则】\n甘比诺：……呼，呼。\n甘比诺：出口……在那……！就快！\n甘比诺：——谁！？出来！\n卡彭：原来你没死，真是意外，看来鼠王办事也并非那么彻底。\n甘比诺：……被你刺伤的伤口还隐隐作痛，卡彭，我非常高兴你会主动出现在我的面前。\n甘比诺：好让我亲手杀了你。\n卡彭：整个龙门都在追捕我们。我不想浪费时间在你身上。\n卡彭：所以，速战速决吧。",
+  "relationship_id": "npc_83e2c28380c1c6fb|npc_e565b7639574735d",
+  "sources": [
+    {
+      "endLine": 127,
+      "kind": "story",
+      "line": 119,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11mini/level_act11mini_st03.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 59,
+      "kind": "story",
+      "line": 44,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act5d0/level_act5d0_ex02_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}

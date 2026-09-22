@@ -1,0 +1,106 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 286,
+          "line": 252,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_st01.txt",
+          "quote": "[name=\"圣徒卡门\"]艾丽妮，距离我们收到阿戈尔的联络已经有几天了？\n[charslot(slot = \"right\", name = \"avg_4009_irene_1#7$1\",focus=\"r\")]\n[name=\"艾丽妮\"]八天了，圣徒阁下。\n[name=\"艾丽妮\"]这八天里，除了必要的布置、会议和休息时间，您一直站在这里观察着海洋。\n[name=\"艾丽妮\"]阿戈尔一方并未给出明确的接洽时间，我理解您担心错过他们的动向，但……\n[charslot(slot = \"left\", name = \"avg_npc_447_1#7$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]艾丽妮，看看眼前的海。\n[charslot]\n难以辨明颜色的深沉海洋涌动着。或许是海面太过辽阔，天空便显得低沉。\n海水撞击礁石，激起几米高的浪涛，在这狭小的天地间激荡出轰然声响。\n[StopSound(channel=\"sea\", fadetime=3)]\n[charslot(slot = \"left\", name = \"avg_npc_447_1#1$1\",focus=\"l\")]\n[charslot(slot = \"right\", name = \"avg_4009_irene_1#7$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]对伊比利亚来说，没有翻涌着恐鱼血肉的海洋，哪怕再喧嚣，也是仁慈的。\n[name=\"圣徒卡门\"]我的一位故友，曾是港都最富才情的诗人。\n[charslot(slot = \"left\", name = \"avg_npc_447_1#2$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]宏伟的港都沉入静谧之后，他挣扎着一路向北逃亡，踏着遍地饿殍来到了内陆深处，那座日后将会成为首都的小城。\n[charslot(slot = \"left\", name = \"avg_npc_447_1#5$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]我看到他在破落的城门前跪下，不住地哀哭。那座城市就从哭声中得到了新的名字，佩尔多尼朵拉，“宽恕已去”。\n[charslot(slot = \"left\", name = \"avg_npc_447_1#1$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]不过，当时的人们需要的不是哀悼，而是抚慰。许多人更习惯将那个名字简称为佩尔多尼——“宽恕”。\n[name=\"圣徒卡门\"]如今，黄金时代的遗产，最后的伊比利亚之眼重新亮起，艾丽妮，这意味着什么？\n[charslot(slot = \"right\", name = \"avg_4009_irene_1#7$1\",focus=\"r\")]\n[name=\"艾丽妮\"]希望和决心。\n[charslot(slot = \"left\", name = \"avg_npc_447_1#1$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]“希望和决心”，当然。\n[charslot(slot = \"left\", name = \"avg_npc_447_1#8$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]年轻人，你回答我时的眼神要比达里奥年轻时更加坚毅，这很好。\n[charslot(slot = \"left\", name = \"avg_npc_447_1#1$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]但这种鼓舞人心的发言往往并不是最准确的答案。\n[name=\"圣徒卡门\"]半个世纪后，我们一再后撤的防线终于重新向前推进至此。很快，这里将会成为审判庭新的中枢。\n[name=\"圣徒卡门\"]可与此同时，我们也将一切袒露在了海洋——海嗣，还有阿戈尔——面前。\n[name=\"圣徒卡门\"]伊比利亚已捉襟见肘。这个国家无法再掩藏它长久以来的疲弱和困病，这是不争的事实。\n[charslot(slot = \"left\", name = \"avg_npc_447_1#6$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]而另一个事实是，我们已不可能再次退却。"
+        },
+        {
+          "endLine": 416,
+          "line": 389,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_st01.txt",
+          "quote": "[name=\"乔迪\"]老师，刚才与阿戈尔通讯的全部内容，我都做了记录，请您过目。\n[charslot(slot = \"right\", name = \"avg_npc_1380_1#8$1\",focus=\"r\")]\n[name=\"乔迪\"]您、您是否批准我前往……\n[charslot(slot = \"left\", name = \"avg_npc_447_1#1$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]书记，一周前你就已经提交了申请。\n[charslot(slot = \"right\", name = \"avg_npc_1380_1#8$1\",focus=\"r\")]\n[name=\"乔迪\"]是的，既然现在阿戈尔的舰队马上就要来了，我想，是不是……\n[charslot(slot = \"left\", name = \"avg_npc_447_1#1$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]如果已经做了决定，犹豫反而会让你的表态没有说服力。\n[charslot(slot = \"right\", name = \"avg_npc_1380_1#10$1\",focus=\"r\")]\n[name=\"乔迪\"]我很小的时候，蒂亚戈叔叔就总是忧心忡忡的。他跟我说：“乔迪，你应该离开格兰法洛，离开伊比利亚。”\n[charslot(slot = \"right\", name = \"avg_npc_1380_1#3$1\",focus=\"r\")]\n[name=\"乔迪\"]可他没法告诉我，我该去哪里。\n[charslot(slot = \"right\", name = \"avg_npc_1380_1#1$1\",focus=\"r\")]\n[name=\"乔迪\"]阿戈尔，那是我的家乡，我的家乡在大海里，而大海无法靠近。我从没听过阿戈尔的声音，也从没看过阿戈尔的模样。\n[charslot(slot = \"right\", name = \"avg_npc_1380_1#6$1\",focus=\"r\")]\n[name=\"乔迪\"]但现在，它很近。\n[charslot(slot = \"left\", name = \"avg_npc_447_1#1$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]审判庭同意你的申请，乔迪·方塔纳罗萨。你将作为伊比利亚的使节，与艾丽妮和凯尔希一同前往阿戈尔的城市。\n[charslot(slot = \"right\", name = \"avg_npc_1380_1#8$1\",focus=\"r\")]\n[name=\"乔迪\"]谢谢您。\n[charslot(slot = \"left\", name = \"avg_npc_447_1#1$1\",focus=\"l\")]\n[name=\"圣徒卡门\"]不。这并不是一次奖励，你在审判庭的工作做得算不上好。\n[name=\"圣徒卡门\"]选择艾丽妮，是因为她已经做好了准备，甚至为此抛弃了自己坚持许久的信念。\n[name=\"圣徒卡门\"]而选择你，恰恰是因为你仍然困惑和怅然，软弱终究会腐蚀你。\n[name=\"圣徒卡门\"]加入审判庭是一次考验，回到自己的家乡，同样也是一次考验。\n[charslot(slot = \"right\", name = \"avg_npc_1380_1#6$1\",focus=\"r\")]\n[name=\"乔迪\"]我、我明白的，老师。"
+        }
+      ],
+      "description": "乔迪是卡门的学生和书记。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01",
+            "E03"
+          ],
+          "from": "char_4042_lumen",
+          "reason": "乔迪称卡门为老师并向其提交记录与申请。",
+          "status": "supported",
+          "to": "npc_8bb239b319aad399"
+        },
+        {
+          "evidenceIds": [
+            "E01",
+            "E03"
+          ],
+          "from": "npc_8bb239b319aad399",
+          "reason": "卡门直接与乔迪交谈并批准其出访。",
+          "status": "supported",
+          "to": "char_4042_lumen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_4cdf63a7e1e1c3e1.json",
+      "sources": [
+        {
+          "endLine": 286,
+          "kind": "story",
+          "line": 252,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 416,
+          "kind": "story",
+          "line": 389,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act34side/level_act34side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "灯塔会谈",
+      "title": "生路"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 701,
+          "line": 615,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st04.txt",
+          "quote": "[name=\"歌蕾蒂娅\"]凯尔希，如果……\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#5\",focus=2)]\n[name=\"歌蕾蒂娅\"]如果机不可失，我会优先选择与阿戈尔重建联络。\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#5\",focus=1)]\n[name=\"凯尔希\"]深入海洋对任何人来说都是一件危险的事情，但于你们而言，这只是一次返乡。\n[name=\"凯尔希\"]你会找到那艘船，你也会找到回到阿戈尔的方法，这交由你自己判断。\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]也许，我们下次再见，会是很久以后。\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#1\",focus=1)]\n[name=\"凯尔希\"]只要别忘记我们所说的。希望你回到阿戈尔以后，能重新审视一遍阿戈尔遭遇的一切。\n[Character(name=\"char_003_kalts_1#1\",name2=\"avg_474_gladiia_1#1\",focus=2)]\n[name=\"歌蕾蒂娅\"]……\n[StopMusic(fadetime=1)]\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]那么事不宜迟，我们——\n[Dialog]\n[Character]\n[Delay(time=1)]\n[CameraShake(duration=0.3,xstrength=20,ystrength=30,vibrato=30,randomness=90,fadeout=true,block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0.3, block=true)]\n[playMusic(intro=\"$kjerag_n_intro\", key=\"$kjerag_n_loop\", volume=0.6,fadetime=3)]\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_450_1#11$1\",fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_450_1#11$1\",focus=1)]\n[name=\"乔迪\"]啊……\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_450_1#9$1\",focus=2)]\n[name=\"极境\"]……凯尔希医生，抱歉，从听到灯塔的那部分开始，乔迪他就……\n[Dialog]\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"char_empty\")]\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_183#2\",fadetime=1)]\n[PlaySound(key=\"$d_gen_walk_n\",volume=1)]\n[Delay(time=2)]\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_183#2\",focus=2)]\n[name=\"大审判官达里奥\"]……阿戈尔人，正好。我有许多事情要问你。\n[Character(name=\"char_003_kalts_1#3\")]\n[name=\"凯尔希\"]等等。\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]你是谁？\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"乔迪\"]……我……我是这个镇子的镇民，我叫乔迪……\n[Character(name=\"avg_4009_irene_1#4$1\")]\n[name=\"审判官艾丽妮\"]格兰法洛不该还有本地的阿戈尔人！卷宗显示，这里本就有阿戈尔人与深海教会勾结的劣迹！\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]你的父母是什么人？\n[Character(name=\"avg_4042_lumen_1#10$1\",name2=\"avg_npc_183#1\",focus=1)]\n[name=\"乔迪\"]我……我的父母是灯塔维修师。他们为伊比利亚之眼而牺牲了。\n[name=\"乔迪\"]我的家里摆满了尘封的图纸，我……虽然我没有真的见过那座灯塔……\n[name=\"乔迪\"]我想去见一见……我故乡的意义，我父母为之奋斗一生的意义……我，呃……\n[Character(name=\"avg_4042_lumen_1#10$1\",name2=\"avg_npc_183#1\",focus=2)]\n[name=\"大审判官达里奥\"]不可能。你应当先接受审判庭的询问。\n[Character(name=\"avg_474_gladiia_1#5\")]\n[name=\"歌蕾蒂娅\"]我并不认为在厮杀中保护一个弱小的工人是什么高效的提议。\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]如果他是布雷奥甘的后人呢？\n[Character(name=\"avg_474_gladiia_1#2\")]\n[name=\"歌蕾蒂娅\"]什么？可他和影像记录里的布雷奥甘完全不像……\n[Character(name=\"avg_4009_irene_1#7$1\")]\n[name=\"审判官艾丽妮\"]即便是真的，我们也应当要求他上缴家族留下的遗产，由审判庭接手研究。\n[name=\"审判官艾丽妮\"]长官！\n[Character(name=\"avg_npc_183#1\")]\n[name=\"大审判官达里奥\"]……\n[Character(name=\"avg_4042_lumen_1#10$1\",name2=\"avg_npc_447_1#1$1\",focus=2)]\n[name=\"圣徒卡门\"]阿戈尔人，你叫什么？\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_447_1#1$1\",focus=1)]\n[name=\"乔迪\"]……乔迪，乔迪·方塔纳罗萨，这是叔叔告诉我的……\n[Character(name=\"avg_4042_lumen_1#1$1\",name2=\"avg_npc_447_1#7$1\",focus=2)]\n[name=\"圣徒卡门\"]那你应该知道，主动出现在审判庭的面前会遭遇什么。\n[Character(name=\"avg_4042_lumen_1#11$1\",name2=\"avg_npc_447_1#7$1\",focus=1)]\n[name=\"乔迪\"]我……我知道。\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]艾丽妮。\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_4009_irene_1#2$1\",focus=2)]\n[name=\"审判官艾丽妮\"]在！\n[Character(name=\"avg_npc_447_1#1$1\",name2=\"avg_4009_irene_1#2$1\",focus=1)]\n[name=\"圣徒卡门\"]扣押他。\n[Character(name=\"avg_npc_447_1#2$1\",name2=\"avg_4009_irene_1#2$1\",focus=1)]\n[name=\"圣徒卡门\"]……让他与你们同行。\n[Character(name=\"avg_npc_447_1#2$1\",name2=\"avg_4009_irene_1#2$1\",focus=2)]\n[name=\"审判官艾丽妮\"]是……呃，什么？\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]这样才如你所愿，对吧？\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]感谢阁下。不过我更愿见到的，是阿戈尔与伊比利亚长久的、真正的合作。\n[Character(name=\"avg_npc_447_1#1$1\")]\n[name=\"圣徒卡门\"]千里之行始于足下。\n[Character(name=\"char_003_kalts_1#1\")]\n[name=\"凯尔希\"]那么，事不宜迟，让伊比利亚之眼重新看看这片满目疮痍的海洋吧。"
+        }
+      ],
+      "description": "卡门直接询问乔迪姓名并安排其随队，乔迪逐句回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "S17"
+          ],
+          "from": "char_4042_lumen",
+          "reason": "卡门直接询问乔迪姓名并安排其随队，乔迪逐句回应。",
+          "status": "supported",
+          "to": "npc_8bb239b319aad399"
+        },
+        {
+          "evidenceIds": [
+            "S17"
+          ],
+          "from": "npc_8bb239b319aad399",
+          "reason": "卡门直接询问乔迪姓名并安排其随队，乔迪逐句回应。",
+          "status": "supported",
+          "to": "char_4042_lumen"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_29507ad51ded2fc3.json",
+      "sources": [
+        {
+          "endLine": 701,
+          "kind": "story",
+          "line": 615,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act17side/level_act17side_st04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "愚人号事件前期",
+      "title": "愚人号"
+    }
+  ],
+  "relationship_id": "char_4042_lumen|npc_8bb239b319aad399"
+}

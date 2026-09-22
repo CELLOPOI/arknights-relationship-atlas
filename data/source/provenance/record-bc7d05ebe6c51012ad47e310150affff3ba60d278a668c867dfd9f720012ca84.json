@@ -1,0 +1,216 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 522,
+          "line": 495,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-02.txt",
+          "quote": "[name=\"明椒\"]曼弗雷德……将军。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……明椒。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]我应该在这里看到你吗？\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#10$1\",focus=\"m\")]\n[name=\"明椒\"]我……之前在运输货物的时候，被这里的佣兵们抓住了。\n[name=\"明椒\"]我需要尽可能保护我的小队成员活下去……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]不能解释，在军事委员会进攻这具骸骨时，你没有响应我们的行动。\n[name=\"曼弗雷德\"]而且……你还潜藏在这里，是打算做什么？\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#9$1\",focus=\"m\")]\n[name=\"明椒\"]不……我只是……有点害怕。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#3$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]害怕……哼。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]明椒，你的上一份任务结束了。\n[name=\"曼弗雷德\"]现在新的任务是，处死这些背叛了军事委员会的佣兵。\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#9$1\",focus=\"m\")]\n[name=\"明椒\"]为什么……他们都已经被俘虏了——\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]作为战士，他们背叛了组织；作为佣兵，他们单方面撕毁了合约。无论从哪方面讲，他们都需要付出代价。\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#9$1\",focus=\"m\")]\n[name=\"明椒\"]可是，他们已经没有能力反抗了，也不会对您造成威胁。\n[name=\"明椒\"]这样的杀戮，还有意义吗？您不是自己也说过，想让更多的萨卡兹能从这片战场上回到家吗——\n[charslot(slot=\"m\",name=\"avg_npc_404_1#9$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]明椒，我已经给了你选择的机会，还有足够的耐心。\n[name=\"曼弗雷德\"]你不是今天第一个令我失望的人。"
+        }
+      ],
+      "description": "曼弗雷德与明椒当面相认并下达处决任务。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E127"
+          ],
+          "from": "char_4071_peper",
+          "reason": "曼弗雷德与明椒当面相认并下达处决任务。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E127"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德与明椒当面相认并下达处决任务。",
+          "status": "supported",
+          "to": "char_4071_peper"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 522,
+          "kind": "story",
+          "line": 495,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_14-02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 368,
+          "line": 303,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-07_end.txt",
+          "quote": "[name=\"萨卡兹士兵\"]今天里面是不是比以前还要吵一点？又有哪里起火了？\n[charslot(slot=\"l\",name=\"avg_4071_peper_1#12$1\",focus=\"l\")]\n[name=\"明椒\"]需要我去看看吗，长官？\n[name=\"明椒\"]如果火势蔓延起来……\n[charslot(slot=\"r\",name=\"avg_npc_053\",focus=\"r\")]\n[name=\"萨卡兹士兵\"]那也不关你的事，丫头。\n[name=\"萨卡兹士兵\"]干好自己的活，别让我抓住把柄。\n[name=\"萨卡兹士兵\"]在这里可没人护着你。\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",duration=1)]\n[delay(time=2.5)]\n[charslot]\n[charslot(slot=\"l\",name=\"avg_4071_peper_1#8$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_053\",focus=\"l\")]\n[name=\"明椒\"]将……将军！\n[charslot(slot=\"r\",name=\"avg_npc_053\",focus=\"r\")]\n[name=\"萨卡兹士兵\"]将军！您怎么亲自来了这里？\n[name=\"萨卡兹士兵\"]没有什么需要您担心的事情，一切都在掌握中！\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_npc_053\",focus=\"none\")]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[delay(time=1)]\n曼弗雷德并没有理会萨卡兹士兵的报告，他只是走到封锁区的高墙下，远远望着封锁区里的建筑。\n[Dialog]\n[charslot(slot=\"r\",name=\"avg_npc_053\",focus=\"r\")]\n[name=\"萨卡兹士兵\"]有……有什么异常吗，将军？\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]……\n[name=\"曼弗雷德\"]战争仍在顺利进行。\n[name=\"曼弗雷德\"]明椒，这些天，你看到了什么？\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#11$1\",focus=\"m\")]\n[name=\"明椒\"]我……\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#9$1\",focus=\"m\")]\n[name=\"明椒\"]这些人，一直在自相残杀。\n[name=\"明椒\"]不，说不上真正的自相残杀……他们只是……很害怕。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]恐惧和怀疑会分化人们，契约、习俗与道德在极端的环境下很快就会瓦解。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#6$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]曾经的卡兹戴尔，就如同这样。\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#9$1\",focus=\"m\")]\n[name=\"明椒\"]卡兹戴尔……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#6$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]所以那两位站了出来。\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#12$1\",focus=\"m\")]\n[name=\"明椒\"]您是指……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]那你觉得，用什么能够团结人们？\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#4$1\",focus=\"m\")]\n[name=\"明椒\"]也许是……耐心？我们可以试着劝说，或者用自己的善意来打动他人……\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#12$1\",focus=\"m\")]\n[name=\"明椒\"]我觉得，只要有足够的时间……\n[charslot(slot=\"m\",name=\"avg_npc_404_1#7$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]她失败了。\n[name=\"曼弗雷德\"]这些东西能构筑的纽带都太脆弱了。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]而他告诉我，最有效率的……是仇恨。\n[Dialog]\n[charslot]\n曼弗雷德淡淡瞥了一眼年轻的雇佣兵女孩，她紧张得大气都不敢喘，只敢紧紧盯着自己的脚尖。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#1$1\",focus=\"m\")]\n[name=\"曼弗雷德\"]你一直在把自己的物资分给封锁区里的人。"
+        }
+      ],
+      "description": "明椒与曼弗雷德直接讨论封锁区和团结方式。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_4071_peper",
+          "reason": "二人在同一连续场景中直接交流或明确共同感知。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "二人在同一连续场景中直接交流或明确共同感知。",
+          "status": "supported",
+          "to": "char_4071_peper"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5b3c5992b3f48e7b.json",
+      "sources": [
+        {
+          "endLine": 368,
+          "kind": "story",
+          "line": 303,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_12-07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战事期间",
+      "title": "惊霆无声"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 382,
+          "line": 351,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "quote": "[name=\"维什戴尔\"]我知道军事委员会出了乱子，可整座指挥中心就这么几个人守着？\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]应该如凯尔希勋爵和博士所言，玫瑰河畔的人提前帮我们解决了一些棘手的麻烦。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]曼弗雷德和他的人呢？是怕被炸死还是怎么的？\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#9$1\",focus=\"m\")]\n[name=\"明椒\"]如果将军还……活着，他只会在一个地方——摄政王殿下的身边。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#6$1\",focus=\"m\")]\n[name=\"赫德雷\"]摄政王那边，我们都只能相信博士他们能够应对。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]维什戴尔，接下来就交给你了。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#1$1\",focus=\"m\")]\n[name=\"维什戴尔\"]哈哈，我还以为你会跟我抢话筒。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]你的第一次广播效果很好。维什戴尔……\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#12$1\",focus=\"m\")]\n[name=\"维什戴尔\"]……干嘛突然这么严肃，不会又想叨叨些我听不懂的话吧？\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]（摇头）殿下留给你的新名字意味着很多事。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[Delay(time=2)]\n[name=\"维什戴尔\"]我知道。\n[name=\"维什戴尔\"]如果他们需要听到一个新的声音，那我不会客气。不过——先等我布置完场地。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]要组织撤军的话，这座指挥中心对我们还有用，你别想着把它炸了泄愤。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#1$1\",focus=\"m\")]\n[name=\"维什戴尔\"]把它炸了？我当然想把它炸了。可惜它只有一幢，不能让我把所有炸法都试个遍。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#14$1\",focus=\"m\")]\n[name=\"伊内丝\"]……W。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#1$1\",focus=\"m\")]\n[name=\"维什戴尔\"]哈。别急，伊内丝。这次我要先往天上炸，让所有人都看见。"
+        }
+      ],
+      "description": "该人物在同场讨论曼弗雷德的去向；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "char_4071_peper",
+          "reason": "该人物在同场讨论曼弗雷德的去向",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "对方未在本组该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_4071_peper"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 382,
+          "kind": "story",
+          "line": 351,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战役期间",
+      "title": "我们明日见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 285,
+          "line": 84,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-13_end.txt",
+          "quote": "[name=\"Logos\"]停车，前方有异常情况。\n[name=\"Logos\"]所有人，做好战斗准备。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#13$1\",focus=\"m\")]\n[name=\"阿米娅\"]那是——\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"远处，已经能看到那个名为布伦特伍德的小镇。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n殷红的光芒从小镇的中心腾起，浸染向周围的土地。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n血色的纱幔正轻柔地包覆一切生灵。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot = \"m\", name = \"avg_npc_935_1#1$1\",focus=\"m\")]\n[name=\"“司机”\"]唔——\n[name=\"“司机”\"]——这种感觉，我们之前检修那些法阵的时候也偶尔遇到过。\n[name=\"“司机”\"]女妖阁下，这到底是……\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]开战之后，谁也没有想到，这片土地被如此迅速地浇灌了这么多的鲜血。\n[name=\"Logos\"]……“现代战争”，呵。\n[name=\"Logos\"]血魔恐怕已经等到了仪式需要的所有条件。\n[name=\"Logos\"]之前那些战地中的晶石仅是与仪式共振的节点，这一路上，我都在寻找仪式的中心。\n[name=\"Logos\"]布伦特伍德，这座小镇，在血魔晦暗的计划中，必然有特殊的地位。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]\n[name=\"阿米娅\"]Logos先生，你能处理吗？\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]这是鲜血的王庭的古老手段，他们也确实为此做了充足准备。\n[name=\"Logos\"]我需要更多时间。\n[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]\n[name=\"阿米娅\"]我们还没暴露行踪，也许能争取些时间，但——等等——\n[charslot(slot=\"m\",name=\"avg_npc_394_1#14$1\",focus=\"m\")]\n[name=\"阿米娅\"]那是？\n[name=\"阿米娅\"]……火光？\n[name=\"阿米娅\"]小镇里有交战的火光……会是谁？\n[charslot(slot=\"m\",name=\"avg_doc_1#1\",focus=\"m\")]\n看来他们比我们先一步抵达了这里。\n一场有些波折的会师。\n[subtitle]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"博士看上去很安心。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n是啊，在经历如此之多的艰难之后，我们终于又将和自己的同伴们并肩。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]\n[name=\"“矿工”\"]女妖阁下，您……要去做什么？您是要处理我们的敌人，对吧？\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]……\n[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]\n[name=\"“矿工”\"]这里，这种力量——难道不是那位血魔阁下，对于全体萨卡兹的赐福吗？\n[name=\"“矿工”\"]他……祝福了我们的血脉。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"来自乌萨斯的矿工挥起了他的武器，尖锐的破风声响起。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他好像有点被自己的这一击吓到了，差点没拿稳自己的武器。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n那位司机小姐和老财先生也凑在了他的身边，研究起了自己力量的增长。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n明椒向我的身边挪动了几步。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[PlaySound(key=\"$d_avg_runstop\")]\n[charslot(slot = \"m\", name = \"avg_4071_peper_1#4$1\",duration=0.5)]\n[Delay(time=0.7)]\n[charslot(slot = \"m\", name = \"avg_4071_peper_1#4$1\",focus=\"m\")]\n[name=\"明椒\"]那个……女妖阁下，我也感觉到自己……似乎变强了一点点。\n[name=\"明椒\"]腕力？还是头脑？我自己都不知道，但是总感觉有种……\n[charslot(slot=\"m\",name=\"avg_npc_394_1#14$1\",focus=\"m\")]\n[name=\"阿米娅\"]……增强力量的巫术祭坛。我们曾经见过。但无论是规模还是给人的感觉，都远不相同。\n[name=\"阿米娅\"]Logos先生，这会不会有什么负面的……\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#2$1\",focus=\"m\")]\n[Delay(time=1)]\n[name=\"Logos\"]……\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]\n[name=\"Logos\"]很意外。\n[name=\"Logos\"]并不需要支付代价，起码这份代价，并不是由我们自己的躯体支付。\n[charslot(slot = \"m\", name = \"avg_4071_peper_1#4$1\",focus=\"m\")]\n[name=\"明椒\"]那您为什么——\n[name=\"明椒\"]……\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"Logos先生看了这个叫明椒的萨卡兹女孩一眼。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]明椒，对吧。\n[name=\"Logos\"]你希望这份力量被用在什么地方？\n[charslot(slot = \"m\", name = \"avg_4071_peper_1#14$1\",focus=\"m\")]\n[name=\"明椒\"]我……\n[charslot(slot=\"m\",name=\"avg_doc_1#1\",focus=\"m\")]\n萨卡兹战士们越善战，战场上浇灌鲜血的效率就越高。无论是他们敌人的，还是自己的。\n仪式就能够得以延续。\n血魔大君已经在为决战做准备了，可是他们……特雷西斯的布置，真的仅仅是这么一个仪式？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]法阵似乎已经受到了攻击，伴生的血魔造物正在失控。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"是的，大群猩红的蠕虫正在钻出地表，向四周无差别地涌去。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n有不少，似乎嗅到了我们的味道。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#19$1\",focus=\"m\")]\n[name=\"阿米娅\"]这里交给我们吧，Logos先生。\n[name=\"阿米娅\"]请您先去确认仪式的情况。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]阿米娅，你与博士可以和我一起行动。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我看了看远处属于明椒的队伍，那几个对危险一无所知的萨卡兹。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]\n[name=\"阿米娅\"]我们会尽快。\n[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]\n[name=\"Logos\"]……明白了。\n[Dialog]\n[PlaySound(key=\"$d_avg_walkfast\", volume=0.7)]\n[charslot(duration=0.7)]\n[Delay(time=1)]\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#4$1\",focus=\"l\")]\n[charslot(slot=\"r\",name=\"avg_npc_394_1#17$1\",focus=\"l\")]\n[name=\"明椒\"]那个——\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#15$1\",focus=\"l\")]\n[name=\"明椒\"]你们打算把我们怎么样？\n[charslot(slot=\"r\",name=\"avg_npc_394_1#18$1\",focus=\"r\")]\n[name=\"阿米娅\"]明椒小姐？\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#15$1\",focus=\"l\")]\n[name=\"明椒\"]我其实之前就发现了，真正被俘的，是我们，对吗？\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#11$1\",focus=\"l\")]\n[name=\"明椒\"]我太熟悉王庭军的那群家伙了，你们给人的感觉完全不同。\n[name=\"明椒\"]你是叫阿米娅，对吧？你和这位博士，才是你们这支队伍的领袖。\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#14$1\",focus=\"l\")]\n[name=\"明椒\"]你明明……看起来和我差不多大。\n[name=\"明椒\"]我能感觉到，那位女妖的地位并不普通，这做不得假。但他为你们效力？\n[name=\"明椒\"]前些日子，我还遇到过一位自称是萨卡兹的卡普里尼女士……她也是你们的成员吗？\n[name=\"明椒\"]你们到底是谁？\n[charslot(slot=\"r\",name=\"avg_npc_394_1#18$1\",focus=\"r\")]\n[name=\"阿米娅\"]你打算和我们战斗吗，明椒小姐？\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我能感觉到，眼前的女孩没有敌意。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#15$1\",focus=\"l\")]\n[name=\"明椒\"]我……\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#3$1\",focus=\"l\")]\n[name=\"明椒\"]……唉，其实我不清楚。\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"远处的那几位萨卡兹终于暂时放下了突如其来的力量，向明椒小姐喊了起来。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[name=\"“老财”\"]队长，那位女妖阁下怎么走了？现在我们怎么办？地上的裂缝向我们蔓延过来了！\n[name=\"“司机”\"]这两个俘虏怎么被留下了？来自王庭的大人物这么信任我们？\n[charslot(slot=\"r\",name=\"avg_npc_394_1#19$1\",focus=\"l\")]\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#11$1\",focus=\"l\")]\n[name=\"明椒\"]啊……是啊！你们在那个方向做好警戒！\n[name=\"明椒\"]我看着这两个人！\n[charslot(slot=\"r\",name=\"avg_npc_394_1#19$1\",focus=\"r\")]\n[name=\"阿米娅\"]你们的力量也许变强了，但你们并不熟悉战斗。\n[name=\"阿米娅\"]或者说，你们谁都没准备好参与这场战争。\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#9$1\",focus=\"l\")]\n[name=\"明椒\"]……是啊。这么长时间了，我们难道不知道吗？\n[Dialog]\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#11$1\",focus=\"all\")]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_walk_stage\", volume=1,loop=\"false\", channel=\"slide1\")]\n[stopsound(fadetime=1.5, channel=\"slide1\")]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[charslot(slot=\"r\",posfrom=\"-20,0\",posto=\"-50,0\",duration=1)]\n[charslot(slot=\"l\",posfrom=\"0,0\",posto=\"-60,0\",duration=0.5)]\n[Delay(time=1)]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"我向她靠近了一些。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n不过她似乎误会了我的意思，警惕地后退了半步，随后像是做出了什么艰难的决定似的，又拦在了我的面前。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n这时候我才发现，她其实和我差不多高。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot = \"l\", name = \"avg_4071_peper_1#10$1\",focus=\"l\")]\n[name=\"明椒\"]我是运输小队的队长！如果你们要做什么，就先拿我开刀好了。\n[name=\"明椒\"]他们只是从泰拉各地响应殿下号召，卷进这场战争的普通人。\n[name=\"明椒\"]他们甚至只是在执行曼弗雷德将军委派的运输任务，完全不清楚自己在做什么——\n[charslot(slot=\"r\",name=\"avg_npc_394_1#11$1\",focus=\"r\")]\n[name=\"阿米娅\"]从他们响应号召起……维多利亚人就不会再认为他们是普通人，明椒小姐。\n[name=\"阿米娅\"]这和他们做了什么并没有关系。"
+        }
+      ],
+      "description": "明椒与曼弗雷德有明确任务关系。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_4071_peper",
+          "reason": "明椒明确说明曼弗雷德交给她队员和运输任务，并称有过承诺。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "曼弗雷德不在场。",
+          "status": "not_established",
+          "to": "char_4071_peper"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 285,
+          "kind": "story",
+          "line": 84,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-13_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "布伦特伍德行动",
+      "title": "恶兆湍流"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 161,
+          "line": 125,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-03.txt",
+          "quote": "[name=\"明椒\"]咳咳……咳咳咳，放、放开我！\n[character(name=\"avg_npc_404_1#9$1\")]\n[name=\"曼弗雷德\"]……\n[name=\"曼弗雷德\"]一个……孩子。\n[character(name=\"avg_npc_419_1#1$1\")]\n[name=\"萨卡兹战士\"]将军，她和其他几个雇佣兵都是在海布里区的街边找到的。他们都被不知道什么人绑了起来。\n[name=\"萨卡兹战士\"]我检查过她的武器，她甚至没怎么跟人动手。她根本就不是个合格的雇佣兵。\n[character(name=\"avg_npc_404_1#3$1\")]\n[name=\"曼弗雷德\"]……是这样吗？\n[character(name=\"avg_4071_peper_1#12$1\")]\n[name=\"明椒\"]……\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"]说实话，雇佣兵。\n[name=\"曼弗雷德\"]你是不是没有杀死任何一个维多利亚人？\n[character(name=\"avg_4071_peper_1#9$1\")]\n[name=\"明椒\"]呜……\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"]你很怕我？\n[character(name=\"avg_4071_peper_1#8$1\")]\n[name=\"明椒\"]没、没有！\n[character(name=\"avg_4071_peper_1#10$1\")]\n[name=\"明椒\"]我是没有完成任务，受罚也是应该的……你放过其他人！\n[character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"]……\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]带回去。\n[character(name=\"avg_4071_peper_1#4$1\")]\n[name=\"明椒\"]什……？\n[character(name=\"avg_npc_419_1#1$1\")]\n[name=\"萨卡兹战士\"]将军……\n[character(name=\"avg_npc_404_1#7$1\")]\n[name=\"曼弗雷德\"]……你也说了，她不是个合格的雇佣兵。\n[character(name=\"avg_npc_404_1#6$1\")]\n[name=\"曼弗雷德\"]像她这样的年轻萨卡兹……还不理解我们是在为何而战，也不了解我们的敌人的真实面目。因为从来没有人教过她。\n[name=\"曼弗雷德\"]而真正的战争……马上就要开始了。\n[character(name=\"avg_npc_404_1#1$1\")]\n[name=\"曼弗雷德\"]我会让她看清楚这场战争对萨卡兹的意义。她会在我身边看清楚的。"
+        }
+      ],
+      "description": "双方直接审问与对答，曼弗雷德决定将明椒留在身边。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_4071_peper",
+          "reason": "双方直接审问与对答，曼弗雷德决定将明椒留在身边。",
+          "status": "supported",
+          "to": "npc_03f95afb5dd17c3f"
+        },
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "npc_03f95afb5dd17c3f",
+          "reason": "双方直接审问与对答，曼弗雷德决定将明椒留在身边。",
+          "status": "supported",
+          "to": "char_4071_peper"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 161,
+          "kind": "story",
+          "line": 125,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前或明确旧事",
+      "title": "淬火尘霾"
+    }
+  ],
+  "relationship_id": "char_4071_peper|npc_03f95afb5dd17c3f"
+}

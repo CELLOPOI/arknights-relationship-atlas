@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 399,
+          "line": 294,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_01_end.txt",
+          "quote": "[name=\"高多汀公爵\"]哈，说得不错，阁下！如今这柄剑在我们的手里的确没有任何意义。\n[name=\"高多汀公爵\"]还是你自己拔出来吧，不要坏了这把好剑。\n[charslot(slot=\"m\",name=\"avg_npc_1068_1#1$1\",focus=\"m\")]\n[name=\"高多汀公爵\"]你的老师的确教会了你一些实用的东西。看来是我们多虑了，开斯特公爵阁下。\n[charslot(slot=\"m\",name=\"avg_npc_726_1#1$1\",focus=\"m\")]\n[name=\"开斯特公爵\"]嗯，稚嫩的手段，但足够笼络人心。议会可以让她更快地成长。\n[charslot(slot=\"m\",name=\"avg_1019_siege2_1#3$1\",focus=\"m\")]\n[name=\"维娜\"]*维多利亚粗口*等等——\n[charslot(slot=\"m\",name=\"avg_npc_726_1#7$1\",focus=\"m\")]\n[name=\"开斯特公爵\"]我们都没得选，推进之王。撕裂的维多利亚需要一个不一样的声音，而你自己站了出来。\n[name=\"开斯特公爵\"]但我见过很多人死在自己的剑下，所以我自己向来对是否真要拿起那柄剑很谨慎。\n[name=\"开斯特公爵\"]别被它割伤，议长阁下，这也是我的忠告。\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[Delay(time=1.5)]\n[Decision(options=\"诸位阁下，她比你们想的要更清醒些。;维娜，看来你自己已经处理得很好了。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[playMusic(intro=\"$loading_intro\",key=\"$loading_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"avg_1019_siege2_1#4$1\",focus=\"m\")]\n[name=\"维娜\"]博士？！\n[Dialog]\n[charslot]\n[PlaySound(key=\"$d_avg_runstop\", volume=1)]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",duration=0.5)]\n[Delay(time=0.7)]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[name=\"“灰礼帽”\"]抱歉，阁下，我们……没拦住。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"npc_10002\",duration=0.7)]\n[Delay(time=1)]\n[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]\n[PlaySound(key=\"$Mon3tr_n\")]\n[name=\"Mon3tr\"]（无聊的低吼）\n[charslot(slot=\"m\",name=\"avg_npc_726_1#7$1\",focus=\"m\")]\n[name=\"开斯特公爵\"]先退下。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_867_1#1$1\",focus=\"m\")]\n[Delay(time=0.2)]\n[PlaySound(key=\"$d_avg_walk_stage\", volume=1,loop=\"false\", channel=\"slide1\")]\n[stopsound(fadetime=2, channel=\"slide1\")]\n[charslot(duration=1)]\n[Delay(time=2)]\n[Decision(options=\"伦蒂尼姆现在需要一个能够保护大家的领袖。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"其他人并不可靠。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_1019_siege2_1#10$1\",focus=\"m\")]\n[name=\"维娜\"]博士……\n[Dialog]\n[charslot]\n[Decision(options=\"当然，最终的决定权在你。;罗德岛始终会全力协助你处理城内的感染者事务。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_726_1#7$1\",focus=\"m\")]\n[name=\"开斯特公爵\"]有意思，一个专注于矿石病的医疗公司却频繁把手伸到不属于你们的地方。\n[name=\"开斯特公爵\"]你们绕过了公爵联军，就和那些萨卡兹达成了停战的协议。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_726_1#7$1\",focus=\"n\")]\n[Decision(options=\"诸位公爵的舰队并未对此有反应。;你们默许了，不是吗？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"avg_npc_726_1#5$1\",focus=\"m\")]\n[name=\"开斯特公爵\"]一份礼物罢了，用来感谢你们在战场上的付出。\n[name=\"开斯特公爵\"]有些事，也该适可而止了。\n[Dialog]\n[PlaySound(key=\"$d_avg_highheelfts\", volume=0.6)]\n[charslot(duration=1)]\n[delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_npc_1068_1#6$1\",focus=\"m\")]\n[name=\"高多汀公爵\"]推进之王，我们会等着你的回复。\n[name=\"高多汀公爵\"]而罗德岛，你们已经低调了许久，现在何必这么着急呢？\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1068_1#6$1\",focus=\"n\")]\n[Decision(options=\"时间有时会催促着我们做不理性的决定，公爵阁下。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1068_1#7$1\",focus=\"m\")]\n[name=\"高多汀公爵\"]……哦？时间吗……\n[Dialog]\n[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]\n[charslot(duration=1)]\n[delay(time=2.5)]\n[charslot(slot=\"m\",name=\"avg_npc_1518_1#2$1\",focus=\"m\")]\n[name=\"“小公爵”\"]维娜，想想那些仍然被你护着的人，真正需要的是什么。\n[name=\"“小公爵”\"]……还有记住，一旦你做出了那个决定，就别和罗德岛这些人走得太近。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_npc_1518_1#2$1\",focus=\"n\")]\n[Decision(options=\"阁下，我想我们与诺曼底公爵阁下的关系并不差。\",values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_npc_1518_1#6$1\",focus=\"m\")]\n[name=\"“小公爵”\"]这就是我提醒维娜的原因，罗德岛的“博士”。\n[Dialog]\n[PlaySound(key=\"$d_avg_walk_stage\", volume=1,loop=\"false\", channel=\"wk\")]\n[stopsound(fadetime=2.5, channel=\"wk\")]\n[charslot(duration=1)]\n[Delay(time=1.5)]\n[Decision(options=\"……\",values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_1019_siege2_1#7$1\",focus=\"m\")]\n[name=\"维娜\"]……她和那些公爵，不太一样。\n[charslot(slot=\"m\",name=\"avg_1019_siege2_1#1$1\",focus=\"m\")]\n[name=\"维娜\"]博士，接下来我们该怎么做？\n[Dialog]\n[charslot]\n[Decision(options=\"你心里已经有答案了不是吗，维娜？;罗德岛不太方便继续插手伦蒂尼姆的事务。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"阿米娅已经动身去卡兹戴尔了。;罗德岛的大部分人……会尽快撤离伦蒂尼姆。\", values=\"1;2\")]"
+        }
+      ],
+      "description": "Mon3tr与开斯特公爵同处议会交锋现场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_4179_monstr",
+          "reason": "双方直接对话或共同参与连续局部场景。",
+          "status": "supported",
+          "to": "npc_8c87697c59975883"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_8c87697c59975883",
+          "reason": "双方直接对话或共同参与连续局部场景。",
+          "status": "supported",
+          "to": "char_4179_monstr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_890fc46ac36ade52.json",
+      "sources": [
+        {
+          "endLine": 399,
+          "kind": "story",
+          "line": 294,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act37side/level_act37side_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "追迹日落以西现实场景",
+      "title": "追迹日落以西"
+    }
+  ],
+  "relationship_id": "char_4179_monstr|npc_8c87697c59975883"
+}

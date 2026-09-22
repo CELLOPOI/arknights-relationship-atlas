@@ -1,0 +1,130 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 103,
+          "line": 95,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "quote": "[name=\"W\"]你们那位老相好，不是跟这骨头架子最熟了吗？起码她的肋骨还连着肉，嘴里也还能吐出像样的话。她最好能再说点什么出来。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#2$1\",focus=\"m\")]\n[name=\"赫德雷\"]……厄尔苏拉。她掌握了许多巨兽相关的秘密，也显然没有对我们和盘托出。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]但目前的情形恐怕并不是她能解决的。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]\n[name=\"伊内丝\"]嗯。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#8$1\",focus=\"m\")]\n[name=\"伊内丝\"]问题的源头……藏在我们头顶那片红色的阴云里。"
+        }
+      ],
+      "description": "W赫德雷与伊内丝在同场具体谈厄尔苏拉掌握巨兽秘密，伊内丝回应。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_4087_ines",
+          "reason": "W赫德雷与伊内丝在同场具体谈厄尔苏拉掌握巨兽秘密，伊内丝回应。",
+          "status": "supported",
+          "to": "npc_046e9e29c222ea5d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_046e9e29c222ea5d",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_4087_ines"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_1f22239311f37c08.json",
+      "sources": [
+        {
+          "endLine": 103,
+          "kind": "story",
+          "line": 95,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "慈悲灯塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 26,
+          "line": 18,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "quote": "[name=\"伊内丝\"]赫德雷，接受使用骸骨撤退的我都带上来了。\n[charslot(slot=\"r\",name=\"avg_4087_ines_1#2$1\",focus=\"r\")]\n[name=\"伊内丝\"]大多都是没法坚持住长途行军的家伙。年长的，年纪小的，还有很多伤员，几乎都在了。\n[charslot(slot=\"r\",name=\"avg_4087_ines_1#8$1\",focus=\"r\")]\n[name=\"伊内丝\"]W放话“随便他们要不要送死”的伤员也被她小队里其他人抬上来了。\n[name=\"伊内丝\"]她活着的手下竟然还不少，够在“生命脊椎”内部维护秩序，也够盯着被关押的厄尔苏拉。\n[name=\"伊内丝\"]所以不必担心你在路上突然死了，没人能接手驾驶员的位置。\n[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#1$1\",focus=\"l\")]\n[name=\"赫德雷\"]……好。"
+        }
+      ],
+      "description": "伊内丝主动说明厄尔苏拉被关押看守；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E22"
+          ],
+          "from": "char_4087_ines",
+          "reason": "伊内丝主动说明厄尔苏拉被关押看守",
+          "status": "supported",
+          "to": "npc_046e9e29c222ea5d"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_046e9e29c222ea5d",
+          "reason": "对方未在该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_4087_ines"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 26,
+          "kind": "story",
+          "line": 18,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st06.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "萨卡兹撤军途中",
+      "title": "我们明日见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 604,
+          "line": 392,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-19_beg.txt",
+          "quote": "[name=\"厄尔苏拉\"]两位王庭之主在这里全力搏杀，还有，“魔王”。\n[charslot(slot=\"m\",name=\"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]……\n[name=\"厄尔苏拉\"]这里绝不再是总能逃出战争的你们，能够活下来的地方了。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]那么，你呢？\n[name=\"赫德雷\"]特雷西斯在伦蒂尼姆的最终手段，你是不是早就有所耳闻？\n[name=\"赫德雷\"]即使……那些东西带来的后果可能远超常识？你仍旧觉得，在这样的代价之上重建卡兹戴尔，对萨卡兹是有益的？\n[charslot(slot=\"m\",name=\"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]……\n[name=\"厄尔苏拉\"]……不用废话了。\n[charslot(slot=\"m\",name=\"avg_npc_1067_1#6$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]士兵们，趁还有时间，把他们了结在这里。\n[Dialog]\n[Charslot]\n[PlaySound(key=\"$d_avg_underwateramb\", channel=\"bld\", loop=true,volume=0.5)]\n[Delay(time=2)]\n[charslot(slot=\"l\",name=\"avg_npc_419_1#1$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_419_1#1$1\",focus=\"all\")]\n[name=\"脊椎守卫\"]少校，你看。\n[name=\"脊椎守卫\"]这里的骨头上……\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"鲜血正沿着所有的骨头，匍匐爬行而来。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n鲜血正填充这里，溢满这些破损的空隙，连接这具冰冷已久的身体。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]是血魔大君阁下。\n[name=\"厄尔苏拉\"]看来他已经准备好了。\n[Dialog]\n[Charslot]\n[PlaySound(key=\"$d_avg_erthshkng\",loop=true,channel=\"sk\",volume=1)]\n[PlaySound(key=\"$d_avg_bone_rub\", volume=0.9)]\n[CameraShake(duration=3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"bld\", fadetime=5)]\n[StopSound(channel=\"sk\", fadetime=5)]\n[Delay(time=3)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"它……正在温暖起来。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n骨骼中再次积蓄起力量，脊椎左右摇动，吱呀作响。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n这只巨兽重新开始了游动。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#4$1\",focus=\"m\")]\n[name=\"赫德雷\"]……这么多的血。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]厄尔苏拉，这些血，是从哪里来的？\n[charslot(slot=\"m\",name=\"avg_npc_412_1#13$1\",focus=\"m\")]\n[name=\"W\"]这还用说，是他们那位杀人成瘾的血魔大君，把这里屠了个干净。\n[charslot(slot = \"m\", name = \"avg_4087_ines_1#6$1\",focus=\"m\")]\n[name=\"伊内丝\"]不，他们的手腕……\n[stopmusic(fadetime=1.5)]\n[Dialog]\n[Charslot]\n[PlaySound(key=\"$blooddrop\")]\n[playsound(key=\"$d_avg_blood\",delay=2)]\n[Delay(time=1)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"厄尔苏拉和她的部下们，手腕上都有一道还在滴着血的伤口。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n滴答，滴答，一开始只是血珠，后来则是血的丝带，血的河流。\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n一个人的身体里到底有多少血？\",block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n守卫们身体中淌出的血，与白骨上正蔓延的血痕连接在了一起。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[PlaySound(key=\"$d_avg_erthshkng\",loop=true,channel=\"sk\",volume=1)]\n[CameraShake(duration=3, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=false, block=false)]\n[StopSound(channel=\"sk\", fadetime=5)]\n[Delay(time=4.5)]\n[playMusic(intro=\"$katzdale_intro\", key=\"$katzdale_loop\", volume=0.6)]\n[charslot(slot=\"l\",name=\"avg_npc_419_1#1$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_npc_419_1#1$1\",focus=\"all\")]\n[name=\"脊椎守卫\"]“我将我的血奉献给您，鲜血王庭的主人。”\n[name=\"脊椎守卫\"]“愿您的猎杀无往不利。”\n[Dialog]\n[Charslot]\n[charslot(slot=\"m\",name=\"avg_npc_1067_1#1$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]“而我们的血，将为您架起，奔腾的车舆。”\n[charslot(slot = \"m\", name = \"avg_4087_ines_1#6$1\",focus=\"m\")]\n[name=\"伊内丝\"]厄尔苏拉！停下！你疯了吗？\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#3$1\",focus=\"m\")]\n[name=\"赫德雷\"]这只巨兽……它正准备游动！\n[name=\"赫德雷\"]我们现在的位置，会被那些历史的乱流卷走！\n[charslot(slot=\"m\",name=\"avg_npc_412_1#11$1\",focus=\"m\")]\n[name=\"W\"]这女人想和我们同归于尽——\n[charslot(slot=\"m\",name=\"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]我没有在操纵它。\n[charslot(slot = \"m\", name = \"avg_4087_ines_1#7$1\",focus=\"m\")]\n[name=\"伊内丝\"]——\n[charslot(slot=\"m\",name=\"avg_npc_1067_1#5$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]鲜血取代了肌肉，取代了韧带，取代了骨髓。\n[name=\"厄尔苏拉\"]它们还不够操纵它的吗？\n[Dialog]\n[Charslot]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"守卫们裸露在外的皮肤肉眼可见地苍白下去。厄尔苏拉的脸色也越来越差。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n终于，流淌停止了。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Dialog]\n[PlaySound(key=\"$d_avg_bodyfallvalley\", volume=1)]\n[Delay(time=1.5)]\n[charslot]\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[Sticker(id=\"st1\", multi = true, text=\"萨卡兹的军人们会为主君奉献一切，何止于血。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]\n[Sticker(id=\"st1\", multi = true, text=\"\\n他们的皮肤干瘪下去，他们终于倒下。\",block = true)]\n[Sticker(id=\"st1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]\n[charslot(slot=\"m\",name=\"avg_npc_1067_1#9$1\",focus=\"m\")]\n[name=\"厄尔苏拉\"]好伙计们，你们是陪我到最后的人了，我们会在众魂间相会。\n[name=\"厄尔苏拉\"]我说了，这具骸骨，不再是想要逃开的人，能够活下来的地方了。\n[charslot]\n[Dialog]\n[PlaySound(key=\"$d_avg_erthshkng\",loop=true,channel=\"sk\",volume=1)]\n[CameraShake(duration=3, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=false, block=false)]\n[StopSound(channel=\"sk\", fadetime=5)]\n[Delay(time=4.5)]\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#3$1\",focus=\"m\")]\n[name=\"赫德雷\"]快点！我们得先躲到舱室里！\n[name=\"赫德雷\"]幻境已经开始浮现，我们不知道它会前往哪里！\n[Dialog]\n[charslot]\n[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=1.2)]\n[playsound(key=\"$d_avg_watersubcreate\",volume=0.8)]\n[CameraShake(duration=3, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Delay(time=3)]\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#3$1\",focus=\"m\")]\n[name=\"赫德雷\"]——它掀起了浪！注意！\n[Dialog]\n[PlaySound(key=\"$d_avg_watermagic_2\", volume=0.6)]\n[stopmusic(fadetime=2.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]\n[charslot]\n[Background(image=\"43_g1_giantmonstercockpit\", screenadapt=\"coverall\", block=true)]\n[delay(time=2)]\n[playMusic(key=\"$formal_loop\", volume=0.6)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=0.5)]\n[PlaySound(key=\"$d_avg_runstop\")]\n[CameraShake(duration=0.7, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"l\",name=\"avg_npc_412_1#2$1\",duration=0.5)]\n[charslot(slot=\"r\",name=\"avg_4087_ines_1#13$1\",duration=0.5)]\n[Delay(time=1)]\n[charslot(slot = \"r\", name = \"avg_4087_ines_1#13$1\",focus=\"r\")]\n[name=\"伊内丝\"]啧，那血魔要把我们带去哪里？\n[charslot(slot=\"l\",name=\"avg_npc_412_1#2$1\",focus=\"l\")]\n[name=\"W\"]赫德雷呢？\n[Dialog]\n[charslot]\n[name=\"赫德雷\"]我在这儿。还有她。\n[Dialog]\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",duration=1)]\n[Delay(time=1.5)]\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]失血过多，能不能活下来看她本事了。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"n\")]\n[name=\"厄尔苏拉\"]你们大可把我留在舱室外，赫德雷，我宁愿和我的部下们死在一起。\n[name=\"厄尔苏拉\"]你们干掉的“老相识”这么多，不会今天突然就发了善心。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]你还有用。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"n\")]\n[name=\"厄尔苏拉\"]我说了，这具骸骨已经脱离了我的掌控。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]\n[name=\"赫德雷\"]你也说了，你忠于军事委员会。\n[name=\"赫德雷\"]如果你认为军事委员会，会是卡兹戴尔作为一个“国家”的依仗……那为什么，那个人还以摄政王自称？\n[name=\"赫德雷\"]为什么他还需要特蕾西娅？为什么他会觉得，打赢这场仗，卡兹戴尔就能有未来？\n[name=\"赫德雷\"]特雷西斯到底在想什么？\n[charslot(slot=\"n\",name=\"avg_4088_hodrer_1#7$1\",focus=\"n\")]\n[name=\"厄尔苏拉\"]……\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]算了，这些，等我们拿下这只巨兽后再谈吧。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"n\")]\n[name=\"厄尔苏拉\"]你们……要去做什么？\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#2$1\",focus=\"m\")]\n[name=\"赫德雷\"]我们的目的从未改变。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]回家。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"n\")]\n[name=\"厄尔苏拉\"]……呵。“回家”。\n[name=\"厄尔苏拉\"]这本来就是这具骸骨最后的任务。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#4$1\",focus=\"m\")]\n[name=\"赫德雷\"]……什么？\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#4$1\",focus=\"n\")]\n[name=\"厄尔苏拉\"]它有一个名字，它的代号是“生命脊椎”。\n[name=\"厄尔苏拉\"]虽然很少被使用，但是曼弗雷德将军定下这个名字的时候……也和我说过和你一样的话。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#4$1\",focus=\"m\")]\n[name=\"赫德雷\"]一样的话？曼弗雷德他……\n[Dialog]\n[charslot]\n[name=\"厄尔苏拉\"]我们是敌人，我不会回答更多问题，我只等待我的死亡。\n[name=\"厄尔苏拉\"]再说，呵，你活到今天本身就是一种答案。\n[name=\"厄尔苏拉\"]真当曼弗雷德将军是个睁眼瞎？一点看不出你们的小伎俩？\n[charslot(slot = \"m\", name = \"avg_4087_ines_1#7$1\",focus=\"m\")]\n[name=\"伊内丝\"]……\n[Dialog]\n[Charslot]\n[name=\"厄尔苏拉\"]不过，那也得等你们从血魔大君的手下活着离开后，才有资格继续谈论“回家”。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]说的没错。"
+        }
+      ],
+      "description": "双方在巨兽内部直接交战并发生俘虏对话。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "char_4087_ines",
+          "reason": "双方在巨兽内部直接交战并发生俘虏对话。",
+          "status": "supported",
+          "to": "npc_046e9e29c222ea5d"
+        },
+        {
+          "evidenceIds": [
+            "E27"
+          ],
+          "from": "npc_046e9e29c222ea5d",
+          "reason": "双方在巨兽内部直接交战并发生俘虏对话。",
+          "status": "supported",
+          "to": "char_4087_ines"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_6027d88930f6893c.json",
+      "sources": [
+        {
+          "endLine": 604,
+          "kind": "story",
+          "line": 392,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_13-19_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "布伦特伍德联合行动",
+      "title": "恶兆湍流"
+    }
+  ],
+  "relationship_id": "char_4087_ines|npc_046e9e29c222ea5d"
+}

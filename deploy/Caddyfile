@@ -1,0 +1,67 @@
+# 当前入口直接接收访客连接；接 CDN/LB 前须重新核查真实来源地址链。
+(atlas_api) {
+    reverse_proxy api:8000 {
+        header_up X-Forwarded-For {remote_host}
+        header_up X-Forwarded-Proto {scheme}
+        header_up -Forwarded
+    }
+}
+
+{$SITE_ADDRESS} {
+    encode zstd gzip
+    header X-Content-Type-Options nosniff
+    header Referrer-Policy same-origin
+    # Webfont 仅供本站页面使用，配合默认不开放 CORS 限制跨站加载。
+    @fonts path /assets/fonts/*
+    header @fonts Cross-Origin-Resource-Policy same-origin
+
+    @feedback path /api/feedback /api/feedback/
+    @admin path /admin /admin/*
+    @bundles path_regexp bundles ^/assets/.*-[A-Za-z0-9_-]{8,}\.(js|css)$
+    @assets path /assets/* /avatars/* /illustrations/* /favicon*
+    # 保持明确的匹配顺序，避免普通素材路由先接走哈希构建文件。
+    route {
+        handle @feedback {
+            request_body {
+                max_size 32KiB
+            }
+            header Cache-Control "no-store"
+            import atlas_api
+        }
+        handle /api/* {
+            request_body {
+                max_size 64KiB
+            }
+            # 保留 Django 的公开资料 ETag 与重新验证策略。
+            import atlas_api
+        }
+        handle @admin {
+            request_body {
+                max_size 16MiB
+            }
+            header Cache-Control "no-store"
+            import atlas_api
+        }
+        handle_path /static/* {
+            root * /srv/admin
+            header Cache-Control "public, max-age=0, must-revalidate"
+            file_server
+        }
+        handle @bundles {
+            root * /srv/web
+            header Cache-Control "public, max-age=31536000, immutable"
+            file_server
+        }
+        handle @assets {
+            root * /srv/web
+            header Cache-Control "public, max-age=0, must-revalidate"
+            file_server
+        }
+        handle {
+            root * /srv/web
+            header Cache-Control "no-cache"
+            try_files {path} /index.html
+            file_server
+        }
+    }
+}

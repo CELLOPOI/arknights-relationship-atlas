@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 192,
+          "line": 180,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d0/level_act11d0_07_end.txt",
+          "quote": "[name=\"亚叶\"]  铃兰，把塞弗林长官抬进楼上的客房里……不要让其他人发现。\n[name=\"亚叶\"]  虽然很残酷，但等塞弗林长官稳定下来后，他必须再次出现在众人的视野中。\n[Character(name=\"char_358_lisa_1#2\", name2=\"char_345_folnic_1#3\",focus=1)]\n[name=\"铃兰\"]  啊，好的！交给我吧！\n[Character(name=\"avg_npc_069#2\", name2=\"char_345_folnic_1#3\",focus=2)]\n[name=\"亚叶\"]  塔佳娜……你……\n[Character(name=\"avg_npc_069#2\", name2=\"char_345_folnic_1#3\",focus=1)]\n[name=\"塔佳娜\"]  ……镇上的每个角落都在发生暴乱，哪怕此时此刻，也在出现伤亡……我，我不能坐在这里。\n[name=\"塔佳娜\"]  我会去组织没有参与暴乱的民兵，至少……至少缩小暴乱的规模。\n[Character(name=\"avg_npc_069#3\", name2=\"char_345_folnic_1#3\",focus=2)]\n[name=\"亚叶\"]  嗯，加油。\n[Character(name=\"avg_npc_069#3\", name2=\"char_345_folnic_1#3\",focus=1)]\n[name=\"塔佳娜\"]  ——谢谢！"
+        }
+      ],
+      "description": "塔佳娜称塞弗林为长官并知道其受伤休息，支持塔佳娜具体知晓塞弗林。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_fcfbebfa3bad3ba4",
+          "reason": "塔佳娜称塞弗林为长官并知道其受伤休息，支持塔佳娜具体知晓塞弗林。",
+          "status": "supported",
+          "to": "npc_419ac8a28a132917"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_419ac8a28a132917",
+          "reason": "已读候选窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "npc_fcfbebfa3bad3ba4"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_0ae5b402eb9240bc.json",
+      "sources": [
+        {
+          "endLine": 192,
+          "kind": "story",
+          "line": 180,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d0/level_act11d0_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "暴乱期间",
+      "title": "沃伦姆德的薄暮"
+    }
+  ],
+  "relationship_id": "npc_419ac8a28a132917|npc_fcfbebfa3bad3ba4"
+}

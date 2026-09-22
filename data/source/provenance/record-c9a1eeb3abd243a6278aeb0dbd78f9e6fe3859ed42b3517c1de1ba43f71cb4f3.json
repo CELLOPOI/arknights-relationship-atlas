@@ -1,0 +1,171 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 294,
+          "line": 266,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_02_beg.txt",
+          "quote": "[name=\"伊芙利特\"]塞雷娅和凯尔希到底在聊什么？\n[dialog]\n[charslot(slot = \"m\", focus=\"none\")]\n[Decision(options=\"别偷听了，这扇门隔音效果很好。;别偷听了，小心被她们发现。\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot = \"m\", name = \"avg_npc_895_1#9$1\")]\n[name=\"伊芙利特\"]大概是那个工厂爆炸的事情吧，我看塞雷娅很严肃的样子，和莱茵有关系吗？\n[name=\"伊芙利特\"]博士，赫默是不是也在特里蒙？可不可以把她也找过来？\n[dialog]\n[charslot(slot = \"m\", focus=\"none\")]\n[Decision(options=\"……\",values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_npc_895_1#1$1\")]\n[name=\"伊芙利特\"]博士，你眉头干嘛皱那么紧？\n[charslot(slot = \"m\", name = \"avg_npc_895_1#2$1\")]\n[name=\"伊芙利特\"]哦，我知道了，你还在怪凯尔希带我和迷迭香来特里蒙。\n[name=\"伊芙利特\"]是我们自己的决定。我以前来过这里，还能给你当导游呢！\n[dialog]\n[charslot(slot = \"m\", focus=\"none\")]\n[Decision(options=\"……\",values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_391_rosmon_1#1$1\",duration=0.5)]\n[delay(time=1.5)]\n[charslot(slot = \"m\", name = \"avg_391_rosmon_1#1$1\", focus=\"none\")]\n[Decision(options=\"迷迭香，你又在看那封信了。你还好吗？\",values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot = \"m\", name = \"avg_391_rosmon_1#1$1\")]\n[name=\"迷迭香\"]他邀请我回到这里……"
+        }
+      ],
+      "description": "伊芙利特与博士直接交谈并受其照顾。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "char_134_ifrit",
+          "reason": "伊芙利特与博士直接交谈并受其照顾。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "C05"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "伊芙利特与博士直接交谈并受其照顾。",
+          "status": "supported",
+          "to": "char_134_ifrit"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 294,
+          "kind": "story",
+          "line": 266,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 166,
+          "line": 146,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_sqrrel_1_1.txt",
+          "quote": "[name=\"阿消\"]  是的。每一条都要。\n[Character(name=\"avg_277_shaw_1\",name2=\"char_134_ifrit_5#4\",focus=2)]\n[name=\"伊芙利特\"]  呜哇听起来就好烦！这么多表单，难道这些你全都检查过了？\n[Character(name=\"avg_277_shaw_1\",name2=\"char_134_ifrit_5\",focus=1)]\n[name=\"阿消\"]  当然！这是我的工作！\n[Character(name=\"avg_277_shaw_1\",name2=\"char_166_skfire_3#2\",focus=2)]\n[name=\"天火\"]  这个量可不小，你也挺辛苦的嘛。\n[Character(name=\"avg_277_shaw_1\",name2=\"char_134_ifrit_5#7\",focus=2)]\n[name=\"伊芙利特\"]  ……哦。\n[name=\"伊芙利特\"]  那这个呢？这一叠又是什么东西啊？\n[Character(name=\"avg_277_shaw_1#5\",name2=\"char_134_ifrit_5\",focus=1)]\n[name=\"阿消\"]  哇！等一下，不要弄乱啦，这个是要交给可露希尔小姐和博士的报告书，我还没有全部写完……\n[Character(name=\"avg_277_shaw_1\",name2=\"char_134_ifrit_5\",focus=2)]\n[name=\"伊芙利特\"]  ……\n[Character(name=\"avg_277_shaw_1\",name2=\"char_134_ifrit_5#9\",focus=2)]\n[name=\"伊芙利特\"]  我说你啊，每天都要做这么多工作的吗？不会腻吗？\n[name=\"伊芙利特\"]  换我我肯定受不了，又是要检查又是要写报告，也太无聊了，就没有什么更……更帅气点的活干吗？\n[Character(name=\"avg_277_shaw_1\",name2=\"char_134_ifrit_5#3\",focus=2)]\n[name=\"伊芙利特\"]  比如说……呃，其实你喷那个灭火器的时候就还挺帅的，虽然害我全身都湿透了……\n[Character(name=\"char_166_skfire_3#2\")]\n[name=\"天火\"]  （这种拐弯抹角的夸人方法……难道她觉得就是在变相道歉了？）"
+        }
+      ],
+      "description": "现场听阿消说报告要交博士，支持获知具体人物。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E3"
+          ],
+          "from": "char_134_ifrit",
+          "reason": "现场听阿消说报告要交博士，支持获知具体人物。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_134_ifrit"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_6a0a57ae215bdafd.json",
+      "sources": [
+        {
+          "endLine": 166,
+          "kind": "story",
+          "line": 146,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_sqrrel_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "阿消"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 355,
+          "line": 353,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "quote": "[name=\"伊芙利特\"]  哈啊？等等你谁啊，别乱动我的东西！\n[name=\"伊芙利特\"]  等下，你的武器，我好像有印象……让我想想……哎你不准说，不准提醒我！我肯定能想起来！\n[name=\"伊芙利特\"]  嗯嗯嗯……你是不是之前那个跟在博士身后的？啊不对，不对，那家伙不长你这样，只是披了个黑斗篷，也不拿这么长的刀剑。"
+        }
+      ],
+      "description": "伊芙利特具体记得跟在博士身后的另一人。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E21"
+          ],
+          "from": "char_134_ifrit",
+          "reason": "伊芙利特具体记得跟在博士身后的另一人。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "本窗口没有该人物对前者的独立知晓依据",
+          "status": "not_established",
+          "to": "char_134_ifrit"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_46c3ef4c25aac8f4.json",
+      "sources": [
+        {
+          "endLine": 355,
+          "kind": "story",
+          "line": 353,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d7/level_act11d7_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "火蓝之心"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 186,
+          "line": 150,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st05.txt",
+          "quote": "[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=1)]\n[name=\"医疗干员\"]  伊芙利特……我也有自己的工作的。\n[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=2)]\n[name=\"伊芙利特\"]  那就别管我的事！说过好多次了，那些穿着白大褂的，我看见就难受！\n[name=\"伊芙利特\"]  快让开，别挡着我出门。\n[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=1)]\n[name=\"医疗干员\"]  可是，检查……\n[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=2)]\n[name=\"伊芙利特\"]  我让你别挡路！\n[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"char_134_ifrit_5#4\")]\n[name=\"伊芙利特\"]  啊！！\n[name=\"伊芙利特\"]  我，我的作业！烧，烧起来了！\n[Character(name=\"char_134_ifrit_5#2\")]\n[name=\"伊芙利特\"]  你搞什么，搞什么啊？！\n[Character(name=\"char_016_medic\",name2=\"char_134_ifrit_5#2\",focus=1)]\n[name=\"医疗干员\"]  伊芙利特！快，快灭火！\n[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, fadeout=true, block=true)]\n[Character(name=\"char_134_ifrit_5#2\")]\n[name=\"伊芙利特\"]  都说了，让我一个人待着！！\n[name=\"伊芙利特\"]  你怎么赔我！\n[Character(name=\"char_016_medic\")]\n[name=\"医疗干员\"]  不行，不行！我去叫夜莺小姐，请等一下！\n[Dialog]\n[Character(fadetime=1)]\n[Delay(time=1)]\n[Character(name=\"char_134_ifrit_5#8\")]\n[name=\"伊芙利特\"]   ……不，不行。\n[name=\"伊芙利特\"]   我又做了什么啊，可恶……\n[name=\"伊芙利特\"]   哎，作业！\n[Character(name=\"char_134_ifrit_5#3\")]\n[name=\"伊芙利特\"]   嗯……破破烂烂的。\n[name=\"伊芙利特\"]   （赫默也不肯带上我。可恶，明明我那么强！）\n[name=\"伊芙利特\"]   （现在博士也出去了，就只剩下那些讨人厌的白大褂……）\n[name=\"伊芙利特\"]   （真烦，这么怕我的话干脆就离我远点啊。）\n[name=\"伊芙利特\"]   （本子……稍稍烧焦了一点，不过还行吧？）\n[name=\"伊芙利特\"]   （算了，总之先把练习题放到博士的办公桌上，应该就OK了？）"
+        }
+      ],
+      "description": "伊芙利特单向具体知晓博士。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E09"
+          ],
+          "from": "char_134_ifrit",
+          "reason": "伊芙利特知道博士外出并要把作业放到博士办公桌。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士不在场，未见博士指向伊芙利特。",
+          "status": "not_established",
+          "to": "char_134_ifrit"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_9ddd552d80e2fa4d.json",
+      "sources": [
+        {
+          "endLine": 186,
+          "kind": "story",
+          "line": 150,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4d0/level_act4d0_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "罗德岛课后作业时段",
+      "title": "战地秘闻"
+    }
+  ],
+  "relationship_id": "char_134_ifrit|npc_b99957887950ebfd"
+}

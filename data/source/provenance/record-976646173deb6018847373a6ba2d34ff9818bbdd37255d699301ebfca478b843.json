@@ -1,0 +1,89 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 455,
+          "line": 390,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_17-04.txt",
+          "quote": "[name=\"赫拉格\"]朋友归还的书。你感兴趣吗？\n[charslot(slot=\"m\",name=\"avg_1051_headb2_1#10$1\",focus=\"m\")]\n[name=\"凛冬\"]也没有很感兴趣……我还记得你有本谁都不许动的线装书呢，这本看起来比那本还破。\n[charslot(slot=\"m\",name=\"avg_188_helage_1#2$1\",focus=\"m\")]\n[name=\"赫拉格\"]它们记载了相似的内容。\n[name=\"赫拉格\"]想看的话，可以把这本拿去。\n[Dialog]\n[charslot]\n话语间，赫拉格动作轻巧地抬起书本，向女孩展示封面的同时，悄无声息地把刚才阅读的页面从书上撕了下来，在掌中揉作一团。\n已经脆弱不堪的线装书，在他迅捷的动作中也只是颤抖了一下，并未直接散开。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]\n[Background(image=\"72_g1_sjbstreet_d\", screenadapt=\"coverall\", block=true)]\n[charslot(slot=\"l\",name=\"avg_npc_1966_1#3$1\",focus=\"all\")]\n[charslot(slot=\"r\",name=\"avg_188_helage_1#1$1\",focus=\"all\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot(slot=\"l\",name=\"avg_npc_1966_1#3$1\",focus=\"l\")]\n[name=\"阿洛伊泽\"]……就当我是还没死心吧，将军。\n[name=\"阿洛伊泽\"]事情暂时告一段落，但后面还有更大的浪潮，正在滚滚而来。\n[charslot(slot=\"l\",name=\"avg_npc_1966_1#20$1\",focus=\"l\")]\n[name=\"阿洛伊泽\"]我必须再问一次。即使这些日子里您看到了更多，却也仍然不愿回到我们当中吗？\n[charslot(slot=\"r\",name=\"avg_188_helage_1#9$1\",focus=\"r\")]\n[name=\"赫拉格\"]不。\n[charslot(slot=\"l\",name=\"avg_npc_1966_1#20$1\",focus=\"l\")]\n[name=\"阿洛伊泽\"]那如果——如果是在一个崭新的乌萨斯呢？\n[charslot(slot=\"r\",name=\"avg_188_helage_1#3$1\",focus=\"r\")]\n[name=\"赫拉格\"]这都不是症结所在，阿洛伊泽。\n[name=\"赫拉格\"]我拒绝，只是因为知道无论如何，这里都已经不再是我的归处了。\n[charslot(slot=\"l\",name=\"avg_npc_1966_1#9$1\",focus=\"l\")]\n[name=\"阿洛伊泽\"]……\n[charslot(slot=\"l\",name=\"avg_npc_1966_1#9$1\",focus=\"l\")]\n[name=\"阿洛伊泽\"]那么，请您至少收下这本书吧。\n[name=\"阿洛伊泽\"]这是我父亲……这是副议长书房中的收藏之一。他一直想要“物归原主”。\n[charslot(slot=\"l\",name=\"avg_npc_1966_1#1$1\",focus=\"l\")]\n[name=\"阿洛伊泽\"]当然，也为了感谢您对我的帮助。\n[name=\"阿洛伊泽\"]感谢您那时挺身而出，赫拉格先生。\n[Dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[CameraEffect(effect=\"Grayscale\", amount=0, keep=true)]\n[Background(image=\"31_g2_luo_reception\", screenadapt=\"coverall\", block=true)]\n[charslot(slot=\"m\",name=\"avg_1051_headb2_1#4$1\",focus=\"m\")]\n[Delay(time=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[name=\"凛冬\"]《不息的行军》……？看上去是小说？还是军事史？\n[charslot(slot=\"m\",name=\"avg_188_helage_1#2$1\",focus=\"m\")]\n[name=\"赫拉格\"]你可以有自己的解读。\n[charslot(slot=\"m\",name=\"avg_1051_headb2_1#5$1\",focus=\"m\")]\n[name=\"凛冬\"]但它都快散架了。我真能借走吗？\n[charslot(slot=\"m\",name=\"avg_188_helage_1#2$1\",focus=\"m\")]\n[name=\"赫拉格\"]当然。\n[charslot(slot=\"m\",name=\"avg_1051_headb2_1#2$1\",focus=\"m\")]\n[name=\"凛冬\"]那行……谢啦。\n[charslot(slot=\"m\",name=\"avg_1051_headb2_1#2$1\",focus=\"m\")]\n[name=\"凛冬\"]对了，差点忘了正事。博士他们从泽尔格勒回来了，离开乌萨斯之前想在办事处简单聚一下，你来吗？\n[charslot(slot=\"m\",name=\"avg_188_helage_1#2$1\",focus=\"m\")]\n[name=\"赫拉格\"]什么时候？\n[charslot(slot=\"m\",name=\"avg_1051_headb2_1#2$1\",focus=\"m\")]\n[name=\"凛冬\"]今天晚上。\n[charslot(slot=\"m\",name=\"avg_188_helage_1#2$1\",focus=\"m\")]\n[name=\"赫拉格\"]好，我会到的。"
+        }
+      ],
+      "description": "凛冬知晓博士已返回；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E26"
+          ],
+          "from": "char_115_headbr",
+          "reason": "凛冬具体说明博士一行已经返回并邀请赫拉格参加聚会。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士未在该场景出场或回应。",
+          "status": "not_established",
+          "to": "char_115_headbr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_20549e35c11eee79.json",
+      "sources": [
+        {
+          "endLine": 455,
+          "kind": "story",
+          "line": 390,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_17-04.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "泽尔格勒事件结束后",
+      "title": "相变临界"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 490,
+          "line": 422,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "quote": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[playMusic(key=\"$wasteland_loop\", volume=0.6)]\n[charslot(slot=\"m\",name=\"char_115_headbr_9#1\")]\n[name=\"凛冬\"]当初在切尔诺伯格时，我做到过，这次也会一样。\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"这不仅关乎你们的安危。;本次与乌萨斯方面的接触不同于过往。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"char_115_headbr_9#1\")]\n[name=\"凛冬\"]我和娜塔莉娅盘算过，借助她家罗斯托夫实业的名义，我们有更方便的身份行动——\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"我并不担心你们的身份问题。;罗德岛同样有途径解决你们的身份问题。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Decision(options=\"（递出医疗部报告）\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Decision(options=\"评估结果显示你们没有完全准备好。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"char_115_headbr_9#3\")]\n[name=\"凛冬\"]……\n[dialog]\n[charslot(slot = \"m\", focus = \"n\")]\n[Decision(options=\"你们有其他外勤任务的可选项。;要帮罗德岛，从来不止一个选择。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[charslot(slot=\"m\",name=\"char_115_headbr_9#1\")]\n[name=\"凛冬\"]我们每个人或多或少都还是会害怕回去，但我们逃不开那个地方。\n[name=\"凛冬\"]这不是所谓的“自我疗愈的归乡之旅”，这是我们自认足够适合执行乌萨斯相关行动后，深思熟虑的志愿申请。\n[name=\"凛冬\"]我们认可的家早就是罗德岛了。\n[name=\"凛冬\"]所以我保证，我会带她们无恙地回来……回家。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[charslot]\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#1$2\")]\n[charslot(slot = \"right\", name = \"char_197_poca_1#3\")]\n[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]\n[Background(image=\"bg_bridge_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=0.5)]\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]索尼娅一直都比我更勇敢。\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]阿米娅，关于和罗斯托夫实业合作的具体事宜，麻烦请凯尔希医生和博士再多加考虑。\n[name=\"早露\"]我相信这对我们的行动有益无害。\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#8$2\",focus=\"l\")]\n[name=\"阿米娅\"]没问题的，早露小姐。\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#1$2\",focus=\"l\")]\n[name=\"阿米娅\"]不过，我依旧建议你们的行动区域暂时避开切尔诺伯格直辖区的活动范围。\n[name=\"阿米娅\"]乌萨斯对其依旧维持了严格的管理，你们的身份依旧很敏感。\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]我们会保持和本舰的联系，乌萨斯行动的许多事宜依旧需要交给你们判断。\n[charslot(slot = \"left\", name = \"avg_1037_amiya3_1#8$2\",focus=\"l\")]\n[name=\"阿米娅\"]一路顺风，早露小姐。\n[name=\"阿米娅\"]本舰会增派一批后勤干员和医疗干员与你们同行，保障你们行动的同时也会探索在乌萨斯地区正式建立办事处的可能性。\n[name=\"阿米娅\"]对了，知道你们要出发的消息之后，还有一个人找到了我，希望申请加入你们的队伍。\n[charslot(slot = \"right\", name = \"char_197_poca_1#1\",focus=\"r\")]\n[name=\"早露\"]哦？\n[stopmusic(fadetime=2)]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[charslot]\n[Background(image=\"bg_canteen\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[Delay(time=1)]\n[playMusic(intro=\"$warm_intro\",key=\"$warm_loop\", volume=0.6)]\n[playsound(key=\"$d_avg_hungry\")]\n[charslot(slot=\"m\",name=\"char_196_sunbr_1#6\")]\n[name=\"古米\"]（咕咕~）"
+        }
+      ],
+      "description": "凛冬曾到博士办公室直接交涉外勤申请。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D05"
+          ],
+          "from": "char_115_headbr",
+          "reason": "凛冬曾到博士办公室直接交涉外勤申请。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        },
+        {
+          "evidenceIds": [
+            "D05"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "凛冬曾到博士办公室直接交涉外勤申请。",
+          "status": "supported",
+          "to": "char_115_headbr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 490,
+          "kind": "story",
+          "line": 422,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-02_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前时段或明确既往互动",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "char_115_headbr|npc_b99957887950ebfd"
+}

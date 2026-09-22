@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 615,
+          "line": 593,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "quote": "[name=\"锏\"]这位博士，让我向你问好。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#2$1\",focus=2)]\n[name=\"恩希欧迪斯\"]……\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=2)]\n[name=\"恩希欧迪斯\"]你觉得他预想到了？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=1)]\n[name=\"锏\"]他完全不惊讶。不仅仅是认识到了情况，而且，我要强调这点，他没有表现过一丝惊讶。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=1)]\n[name=\"锏\"]此外他知道我是谁。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=2)]\n[name=\"恩希欧迪斯\"]看来他有备而来。 \n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]相信我的直觉，恩希欧迪斯，我看人很准。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#1$1\",focus=1)]\n[name=\"锏\"]你这一步闲棋，恐怕要让自己多一个对手。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#4$1\",focus=2)]\n[name=\"恩希欧迪斯\"]对手？\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#12$1\",focus=2)]\n[name=\"恩希欧迪斯\"]不，如果我搜集的情报和你的描述属实，博士就得成为我的盟友……或者，换个主语，我得成为他的盟友。\n[character(name=\"avg_npc_267_1#1$1\")]\n[name=\"切斯特\"]恩希欧迪斯老爷，开会的时间快要到了。\n[character(name=\"avg_npc_257_1#1$1\",name2=\"avg_172_svrash_1#11$1\",focus=2)]\n[name=\"恩希欧迪斯\"]走吧。"
+        }
+      ],
+      "description": "锏刚向银灰汇报，切斯特进入同场提醒开会，没有中间离场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_4116_blkkgt",
+          "reason": "锏刚向银灰汇报，切斯特进入同场提醒开会，没有中间离场。",
+          "status": "supported",
+          "to": "npc_c56ef99fbe131371"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_c56ef99fbe131371",
+          "reason": "锏刚向银灰汇报，切斯特进入同场提醒开会，没有中间离场。",
+          "status": "supported",
+          "to": "char_4116_blkkgt"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 615,
+          "kind": "story",
+          "line": 593,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_st01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    }
+  ],
+  "relationship_id": "char_4116_blkkgt|npc_c56ef99fbe131371"
+}

@@ -1,0 +1,132 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 254,
+          "line": 239,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "quote": "[name=\"Sharp\"]……\n[name=\"Sharp\"]切开箭矢确实有点难度。\n[Character(name=\"avg_npc_255_1#4$1\")]\n[name=\"莫希\"]你是——！\n[Character(name=\"avg_npc_252\")]\n[name=\"Sharp\"]不过这只是工作的一部分，恩希欧迪斯先生。\n[name=\"Sharp\"]所以你们还继续打吗？\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]这不取决于我。\n[Character(name=\"avg_npc_255_1#1$1\")]\n[name=\"莫希\"]……\n[Character(name=\"avg_172_svrash_1#1$1\")]\n[name=\"恩希欧迪斯\"]现在收手是最好的选择，至少不会伤及性命。\n[Character(name=\"avg_npc_255_1#6$1\")]\n[name=\"莫希\"]……别假装好心，真让人不舒服。\n[name=\"莫希\"]你不就是想从我这里拿到情报，想知道是谁要对你下手？"
+        }
+      ],
+      "description": "刺杀后银灰直接劝莫希收手，莫希反驳；用明确问答替代后段报告结束后是否仍在场的推断。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E114"
+          ],
+          "from": "char_172_svrash",
+          "reason": "刺杀后银灰直接劝莫希收手，莫希反驳；用明确问答替代后段报告结束后是否仍在场的推断。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [
+            "E114"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "刺杀后银灰直接劝莫希收手，莫希反驳；用明确问答替代后段报告结束后是否仍在场的推断。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_bacccc6ade184602.json",
+      "sources": [
+        {
+          "endLine": 254,
+          "kind": "story",
+          "line": 239,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act14side/level_act14side_05_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "风雪过境"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 72,
+          "line": 12,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_06_end.txt",
+          "quote": "[name=\"休露丝\"]这些天，想和你见一面，可真是不容易。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]……恩希欧迪斯。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#2$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]未能出席大夫人的葬礼，实在抱歉。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]休露丝夫人，我为布朗陶家的遭遇深感遗憾，如果有任何希瓦艾什家能帮上忙的地方，请务必相告。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#2$1\",focus=\"m\")]\n[name=\"休露丝\"]谢谢你，恩希欧迪斯。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#2$1\",focus=\"m\")]\n[name=\"休露丝\"]不过今天我来找你，也不是为了说这些的。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]休露丝夫人此次来访，想必是要给我一个赢得信任的机会。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]哼……姐姐说过，你放低姿态的时候，就是最难以令人信任的时候。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]那不知休露丝夫人又是如何看待我的呢？\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]不用这样拐弯抹角的，我不喜欢。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]……以前姐姐一直责骂我冲动，说话办事不过脑子……\n[name=\"休露丝\"]我想向她证明，证明我不需要躲藏在她的羽翼下，证明我能够为布朗陶家做点什么。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#6$1\",focus=\"m\")]\n[name=\"休露丝\"]但如今，我是布朗陶的家主，已经没有人能来评判我的“证明”了。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#9$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]……\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#2$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]我可以理解，我也有……两个妹妹。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#6$1\",focus=\"m\")]\n[name=\"休露丝\"]在你看来，圣女大人，与恩希亚……她们都比我要聪明得多吧？\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]休露丝夫人自谦了。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#10$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]不过，我倒是认为，她们也有与你相似的执着与决心。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#6$1\",focus=\"m\")]\n[name=\"休露丝\"]……\n[name=\"休露丝\"]恩希亚她还好吗？我听说，她也遇上了意外。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]谢谢休露丝夫人记挂，她并无大碍，已经回家了。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]恩希欧迪斯先生永远是这样一副处变不惊的样子……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]我想问，对这些发生在谢拉格的袭击，包括我姐姐的事……你早有预料吗？\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]原来这才是休露丝夫人今天来访的目的……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]恩希欧迪斯，姐姐她一直在帮你做事，是不是？\n[name=\"休露丝\"]我对此并非一无所知，但是直到姐姐发生意外后我才发现……\n[name=\"休露丝\"]你们的计划，关于维多利亚，莱茵生命，还有莫希在追查的事……还有太多我不知道的事。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#9$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]……\n[charslot(slot=\"m\",name=\"avg_npc_262_1#7$1\",focus=\"m\")]\n[name=\"休露丝\"]不要否认，不要骗我，恩希欧迪斯，你一定知道关于她遇害的真相。\n[charslot(slot=\"m\",name=\"avg_172_svrash_1#1$1\",focus=\"m\")]\n[name=\"恩希欧迪斯\"]休露丝夫人，如果你认为大夫人的死与我——\n[charslot(slot=\"m\",name=\"avg_npc_262_1#9$1\",focus=\"m\")]\n[name=\"休露丝\"]不……你误会我的意思了。\n[name=\"休露丝\"]虽然我不知道菈塔托丝究竟在和你谋划什么，但我相信，她一定是在做保护谢拉格的事。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#6$1\",focus=\"m\")]\n[name=\"休露丝\"]那么……我也会做与她一样的事……布朗陶家的事，不论什么，我都会承担。\n[name=\"休露丝\"]所以，我需要你告诉我，姐姐她到底——"
+        }
+      ],
+      "description": "银灰明确获知莫希。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "N18"
+          ],
+          "from": "char_172_svrash",
+          "reason": "恩希欧迪斯当面听休露丝具名谈到莫希的追查。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "莫希未在场。",
+          "status": "not_established",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_5f32aa5d6a8af2fe.json",
+      "sources": [
+        {
+          "endLine": 72,
+          "kind": "story",
+          "line": 12,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act46side/level_act46side_06_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "希瓦艾什府邸会谈",
+      "title": "雪山降临1101"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 1045,
+          "line": 1020,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "quote": "[name=\"恩希欧迪斯\"]确实，休露丝夫人手段高明，令人敬佩。\n[name=\"恩希欧迪斯\"]菈塔托丝，你太小看休露丝夫人了。\n[charslot(slot=\"m\",name=\"avg_npc_253_1#5$1\")]\n[name=\"菈塔托丝\"]……你这是什么意思？\n[Dialog]\n[charslot]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_255_1#1$1\",duration=1)]\n[Delay(time=2)]\n[name=\"莫希\"]夫人，客人平安到达。\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]好！快带人过来！\n[charslot(slot=\"m\",name=\"avg_206_gnosis_1#1$1\")]\n[name=\"诺希斯\"]……\n[charslot(slot=\"m\",name=\"avg_npc_255_1#8$1\")]\n[name=\"莫希\"]……\n[name=\"莫希\"]我这就去。\n[Dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(duration=1.5)]\n[Delay(time=2)]\n[charslot(slot=\"m\",name=\"avg_198_blackd_1#1$1\")]\n[name=\"魏斯\"]老爷！\n[name=\"魏斯\"]客人已经带到了！\n[charslot(slot=\"m\",name=\"avg_npc_262_1#1$1\")]\n[name=\"休露丝\"]乱说什么？那是我请来的客人！"
+        }
+      ],
+      "description": "恩希欧迪斯与莫希明确局部同场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "char_172_svrash",
+          "reason": "双方在客人抵达的同一局部现场直接参与汇报与回应。",
+          "status": "supported",
+          "to": "npc_5b6d9a80bb2c7211"
+        },
+        {
+          "evidenceIds": [
+            "E28"
+          ],
+          "from": "npc_5b6d9a80bb2c7211",
+          "reason": "双方在客人抵达的同一局部现场直接参与汇报与回应。",
+          "status": "supported",
+          "to": "char_172_svrash"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_0bf2041d198e2486.json",
+      "sources": [
+        {
+          "endLine": 1045,
+          "kind": "story",
+          "line": 1020,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act30side/level_act30side_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "银心湖冲突尾声",
+      "title": "银心湖列车"
+    }
+  ],
+  "relationship_id": "char_172_svrash|npc_5b6d9a80bb2c7211"
+}

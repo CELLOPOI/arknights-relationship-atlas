@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 245,
+          "line": 213,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_sqrrel_1_1.txt",
+          "quote": "[name=\"魏彦吾\"]  你就是这次的负责人吗。\n[Dialog]\n[Character]\n[character(name=\"avg_277_shaw_1#6\",fadetime=1)]\n[delay(time=1.1)]]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"阿消\"]  是，是的……是的长官！\n[character(name=\"avg_277_shaw_1#3\")]\n[name=\"阿消\"]  啊，啊，我是说……很荣幸见到您，长官！\n[character(name=\"char_2005_weiyw_1\")]\n[name=\"魏彦吾\"]  不必紧张，也不用这么拘束。\n[name=\"魏彦吾\"]  这次救灾行动能够做到零伤亡，你和消防队的各位都功不可没，我代表全体龙门市民感谢你们。\n[name=\"魏彦吾\"]  有什么想要的奖励吗。奖金，或者长假，这些都是你应得的。\n[character(name=\"avg_277_shaw_1#3\")]\n[name=\"阿消\"]  您、您过奖了，长官！\n[name=\"阿消\"]  关于奖励，可以提一个请求吗？\n[character(name=\"char_2005_weiyw_1\")]\n[name=\"魏彦吾\"]  说说看。\n[character(name=\"avg_277_shaw_1\")]\n[name=\"阿消\"]  我希望能够请近卫局和消防署联合，开展一场全城范围的大型防灾宣传活动！\n[name=\"阿消\"]  如果可以的话，还希望能够在各所学校内新增防灾安全课程的宣讲……\n[name=\"阿消\"]  我认为学习消防知识对降低火灾发生率以及减少灾害中人员伤亡和财产损失非常有益！请、请您务必考虑！\n[character(name=\"char_2005_weiyw_1#2\")]\n[name=\"魏彦吾\"]  唔……\n[name=\"魏彦吾\"]  可以。这件事我可以答应。\n[character(name=\"avg_277_shaw_1#7\")]\n[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]\n[name=\"阿消\"]  真的？！太好了！\n[character(name=\"char_2005_weiyw_1#2\")]\n[name=\"魏彦吾\"]  不过，如果要策划这种规模的活动，就要拿出相应可行的企划书来。\n[name=\"魏彦吾\"]  既然是由你提出，那自然是你要负责，要想尽快推行的话，这次奖励的假期就不能作数了。\n[character(name=\"avg_277_shaw_1#7\")]\n[name=\"阿消\"]  好的长官！没问题，请您放心交给我！"
+        }
+      ],
+      "description": "回忆中魏彦吾当面表彰阿消，阿消提防灾活动请求并获批准。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "char_277_sqrrel",
+          "reason": "回忆中魏彦吾当面表彰阿消，阿消提防灾活动请求并获批准。",
+          "status": "supported",
+          "to": "npc_08bc2cc38b820ef0"
+        },
+        {
+          "evidenceIds": [
+            "E4"
+          ],
+          "from": "npc_08bc2cc38b820ef0",
+          "reason": "回忆中魏彦吾当面表彰阿消，阿消提防灾活动请求并获批准。",
+          "status": "supported",
+          "to": "char_277_sqrrel"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_6a0a57ae215bdafd.json",
+      "sources": [
+        {
+          "endLine": 245,
+          "kind": "story",
+          "line": 213,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_sqrrel_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "阿消"
+    }
+  ],
+  "relationship_id": "char_277_sqrrel|npc_08bc2cc38b820ef0"
+}

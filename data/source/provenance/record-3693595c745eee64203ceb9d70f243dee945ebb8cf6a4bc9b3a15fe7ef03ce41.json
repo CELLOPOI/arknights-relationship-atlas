@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 95,
+          "line": 49,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_01_end.txt",
+          "quote": "[name=\"Lancet-2\"]  太好了，你们再来晚一点，我就要被它们抢走了。\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1#2\", focus=2)]\n[name=\"嘉维尔\"]  驾驶的家伙呢，叫什么来着，哦对，迪伦，迪伦呢？\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1#2\", focus=1)]\n[name=\"Lancet-2\"]  迪伦刚才想要反抗这群阿达克利斯人被他们打昏了。\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_2013_cerber_1\",focus=2)]\n[name=\"刻俄柏\"]  啊，嘉维尔，迪伦在这里！\n[Character(name=\"char_187_ccheal_1\", name2=\"char_2013_cerber_1\",focus=1)]\n[name=\"嘉维尔\"]  好，把他拖过来吧，我来看看伤势。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_2013_cerber_1\",focus=2)]\n[name=\"刻俄柏\"]  喔。\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  对了，Lancet-2，你应该会修这个飞行器吧？\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"Lancet-2\"]  是的，在出发前，可露希尔为我录入了大量飞行器相关的知识。\n[name=\"Lancet-2\"]  原本在成功迫降后，依靠维修工具应该是能完成维修的。\n[name=\"Lancet-2\"]  但是……\n[Character(name=\"char_187_ccheal_1#2\")]\n[name=\"嘉维尔\"]  小刻，我让你把他拖过来，不是让你真的用拖的。\n[Character(name=\"char_187_ccheal_1#2\", name2=\"char_2013_cerber_1\",focus=2)]\n[name=\"刻俄柏\"]  喔，对不起。\n[Character(name=\"char_187_ccheal_1\", name2=\"char_2013_cerber_1\",focus=1)]\n[name=\"嘉维尔\"]  ……看起来对面也没下死手，嗯？看不出来，这家伙内裤挺花哨……咳，估计躺半天就自己醒了。\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  然后，Lancet-2，你说什么但是？\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"Lancet-2\"]  但是刚才那群阿达克利斯人，把引擎抢走了。\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=2)]\n[name=\"嘉维尔\"]  哈？引擎？\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1\", focus=1)]\n[name=\"Lancet-2\"]  是的，在他们发现我之前，我在舱内看到他们首先找到了飞行器的引擎并直接把它拆了下来并带走了。\n[name=\"Lancet-2\"]  你们来看这边。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character]\n[Background(image=\"bg_aircraft_2\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1#2\", focus=2)]\n[name=\"嘉维尔\"]  喔，真的有个洞欸。虽然我不太懂这东西，不过应该是飞不起来了？\n[Character(name=\"char_285_medic2_1\", name2=\"char_187_ccheal_1#2\", focus=1)]\n[name=\"Lancet-2\"]  嗯，飞不起来了呢。\n[Character(name=\"char_187_ccheal_1#2\")]\n[name=\"嘉维尔\"]  嗯？博士，你的脸色不太好。\n[Decision(options=\"这下麻烦了。;……;要被凯尔希杀了！\",values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]"
+        }
+      ],
+      "description": "刻俄柏知道并参与照看昏迷的迪伦。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C01"
+          ],
+          "from": "char_2013_cerber",
+          "reason": "刻俄柏知道并参与照看昏迷的迪伦。",
+          "status": "supported",
+          "to": "npc_090185751b884944"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_090185751b884944",
+          "reason": "已读候选窗口未建立反向知晓。",
+          "status": "not_established",
+          "to": "char_2013_cerber"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_11c77547cd91e247.json",
+      "sources": [
+        {
+          "endLine": 95,
+          "kind": "story",
+          "line": 49,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act12d0/level_act12d0_01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段",
+      "title": "密林悍将归来"
+    }
+  ],
+  "relationship_id": "char_2013_cerber|npc_090185751b884944"
+}

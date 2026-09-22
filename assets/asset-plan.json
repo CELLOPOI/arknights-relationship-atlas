@@ -1,0 +1,3174 @@
+{
+  "repository": "yuanyan3060/ArknightsGameResource",
+  "commit": "57ef5385c1ab1315fe4f2094f399b5c803bd71fc",
+  "assets": [
+    {
+      "id": "char_002_amiya",
+      "name": "阿米娅",
+      "sourcePath": "avatar/char_002_amiya.png",
+      "gitBlobSha": "c7a5ca2bc2f4d5c6186129705cd2671686aaec7a",
+      "expectedBytes": 56957,
+      "priority": true
+    },
+    {
+      "id": "char_003_kalts",
+      "name": "凯尔希",
+      "sourcePath": "avatar/char_003_kalts.png",
+      "gitBlobSha": "e8b3b7556085b58b9672b9488edccf5263e37e24",
+      "expectedBytes": 56617,
+      "priority": true
+    },
+    {
+      "id": "char_102_texas",
+      "name": "德克萨斯",
+      "sourcePath": "avatar/char_102_texas.png",
+      "gitBlobSha": "7ba747c9c15d74f26747610da38df60f4085b12d",
+      "expectedBytes": 46349,
+      "priority": true
+    },
+    {
+      "id": "char_4123_ela",
+      "name": "艾拉",
+      "sourcePath": "avatar/char_4123_ela.png",
+      "gitBlobSha": "01c05158640412f020b560dc59aea8b787e6913f",
+      "expectedBytes": 56057,
+      "priority": true
+    },
+    {
+      "id": "char_4124_iana",
+      "name": "双月",
+      "sourcePath": "avatar/char_4124_iana.png",
+      "gitBlobSha": "b737e9a9077b01929f85ae25294cf7bb805c8662",
+      "expectedBytes": 42922,
+      "priority": true
+    },
+    {
+      "id": "char_4125_rdoc",
+      "name": "医生",
+      "sourcePath": "avatar/char_4125_rdoc.png",
+      "gitBlobSha": "06bed4609be192401e1850b3b19504210091a070",
+      "expectedBytes": 46784,
+      "priority": true
+    },
+    {
+      "id": "char_4126_fuze",
+      "name": "导火索",
+      "sourcePath": "avatar/char_4126_fuze.png",
+      "gitBlobSha": "9c38ea31635f4e916e0a49c254b6411e2e834e97",
+      "expectedBytes": 52636,
+      "priority": true
+    },
+    {
+      "id": "char_4228_closur",
+      "name": "可露希尔",
+      "sourcePath": "avatar/char_4228_closur.png",
+      "gitBlobSha": "cade56c7e315d5d3f503bebaa2eacafde6163b89",
+      "expectedBytes": 62082,
+      "priority": true
+    },
+    {
+      "id": "char_456_ash",
+      "name": "灰烬",
+      "sourcePath": "avatar/char_456_ash.png",
+      "gitBlobSha": "3cc5800790da99a1cfc1439048274c2c47a7d639",
+      "expectedBytes": 51412,
+      "priority": true
+    },
+    {
+      "id": "char_457_blitz",
+      "name": "闪击",
+      "sourcePath": "avatar/char_457_blitz.png",
+      "gitBlobSha": "02711b047d9e3436ef7b744b76976009cfbeed22",
+      "expectedBytes": 51360,
+      "priority": true
+    },
+    {
+      "id": "char_458_rfrost",
+      "name": "霜华",
+      "sourcePath": "avatar/char_458_rfrost.png",
+      "gitBlobSha": "3b1feecdb46c7d755859919f30b470ec17c023e7",
+      "expectedBytes": 50027,
+      "priority": true
+    },
+    {
+      "id": "char_459_tachak",
+      "name": "战车",
+      "sourcePath": "avatar/char_459_tachak.png",
+      "gitBlobSha": "507ab417ee5dff60f6f6b1ede5315e959eed219b",
+      "expectedBytes": 47767,
+      "priority": true
+    },
+    {
+      "id": "char_009_12fce",
+      "name": "12F",
+      "sourcePath": "avatar/char_009_12fce.png",
+      "gitBlobSha": "d6d9f67888ced593b77c2b2e2beaa14a1e637bb2",
+      "expectedBytes": 49308,
+      "priority": false
+    },
+    {
+      "id": "char_010_chen",
+      "name": "陈",
+      "sourcePath": "avatar/char_010_chen.png",
+      "gitBlobSha": "2c3d64154f5a239dc8a4b41aa1ad77982819de3a",
+      "expectedBytes": 55550,
+      "priority": false
+    },
+    {
+      "id": "char_017_huang",
+      "name": "煌",
+      "sourcePath": "avatar/char_017_huang.png",
+      "gitBlobSha": "01e1bae318afa5fd9f5b1792ea49d614eb637376",
+      "expectedBytes": 65100,
+      "priority": false
+    },
+    {
+      "id": "char_101_sora",
+      "name": "空",
+      "sourcePath": "avatar/char_101_sora.png",
+      "gitBlobSha": "8972ac89b5ea80a99a7958d0c79680bf8cb3b749",
+      "expectedBytes": 61661,
+      "priority": false
+    },
+    {
+      "id": "char_103_angel",
+      "name": "能天使",
+      "sourcePath": "avatar/char_103_angel.png",
+      "gitBlobSha": "85169c73d56bbfdb7c23652de73f5be7669df47c",
+      "expectedBytes": 55424,
+      "priority": false
+    },
+    {
+      "id": "char_106_franka",
+      "name": "芙兰卡",
+      "sourcePath": "avatar/char_106_franka.png",
+      "gitBlobSha": "8c4989c11c249251cd8bcfe838fd01f79869d28f",
+      "expectedBytes": 48647,
+      "priority": false
+    },
+    {
+      "id": "char_107_liskam",
+      "name": "雷蛇",
+      "sourcePath": "avatar/char_107_liskam.png",
+      "gitBlobSha": "25aa0501eecc4f920ed64dbfb01d9bb73f41a86e",
+      "expectedBytes": 53731,
+      "priority": false
+    },
+    {
+      "id": "char_108_silent",
+      "name": "赫默",
+      "sourcePath": "avatar/char_108_silent.png",
+      "gitBlobSha": "1be155955953ba28138a4e39c86ad09569d4d699",
+      "expectedBytes": 65361,
+      "priority": false
+    },
+    {
+      "id": "char_109_fmout",
+      "name": "远山",
+      "sourcePath": "avatar/char_109_fmout.png",
+      "gitBlobSha": "af1f67f7e0f7068207e4e928866e7ec661cbc296",
+      "expectedBytes": 50383,
+      "priority": false
+    },
+    {
+      "id": "char_110_deepcl",
+      "name": "深海色",
+      "sourcePath": "avatar/char_110_deepcl.png",
+      "gitBlobSha": "920e78b5b524310277befdad94b3738385876f62",
+      "expectedBytes": 46182,
+      "priority": false
+    },
+    {
+      "id": "char_112_siege",
+      "name": "推进之王",
+      "sourcePath": "avatar/char_112_siege.png",
+      "gitBlobSha": "d15d4e3f093e21c5c90c2446cf7c000a75e4469c",
+      "expectedBytes": 69272,
+      "priority": false
+    },
+    {
+      "id": "char_113_cqbw",
+      "name": "W",
+      "sourcePath": "avatar/char_113_cqbw.png",
+      "gitBlobSha": "c19b698b81c83999ff3955a548ca308c96650cd2",
+      "expectedBytes": 58616,
+      "priority": false
+    },
+    {
+      "id": "char_115_headbr",
+      "name": "凛冬",
+      "sourcePath": "avatar/char_115_headbr.png",
+      "gitBlobSha": "ee7ed3603feab29495aa2d12135210c5a24ca830",
+      "expectedBytes": 44810,
+      "priority": false
+    },
+    {
+      "id": "char_117_myrrh",
+      "name": "末药",
+      "sourcePath": "avatar/char_117_myrrh.png",
+      "gitBlobSha": "180aae5139cc004ab863ec1e5d1e584e88c59b79",
+      "expectedBytes": 50218,
+      "priority": false
+    },
+    {
+      "id": "char_118_yuki",
+      "name": "白雪",
+      "sourcePath": "avatar/char_118_yuki.png",
+      "gitBlobSha": "f1b248c1b47b6f848e57241148ade2c2e2992c5a",
+      "expectedBytes": 35312,
+      "priority": false
+    },
+    {
+      "id": "char_120_hibisc",
+      "name": "芙蓉",
+      "sourcePath": "avatar/char_120_hibisc.png",
+      "gitBlobSha": "94de97bf9db61ef26cf5001dee87ee2bc67fdeaa",
+      "expectedBytes": 53866,
+      "priority": false
+    },
+    {
+      "id": "char_121_lava",
+      "name": "炎熔",
+      "sourcePath": "avatar/char_121_lava.png",
+      "gitBlobSha": "6cc9f89cec3a1e726bcbc9fe0f119d4b08efa3c0",
+      "expectedBytes": 56004,
+      "priority": false
+    },
+    {
+      "id": "char_122_beagle",
+      "name": "米格鲁",
+      "sourcePath": "avatar/char_122_beagle.png",
+      "gitBlobSha": "f4ae3a9f2f0c56f541f0dbd43a812e25f69cf5b0",
+      "expectedBytes": 54000,
+      "priority": false
+    },
+    {
+      "id": "char_123_fang",
+      "name": "芬",
+      "sourcePath": "avatar/char_123_fang.png",
+      "gitBlobSha": "4140a8222d7a6da6b3ac9a0ebc66f42b9577151e",
+      "expectedBytes": 53003,
+      "priority": false
+    },
+    {
+      "id": "char_124_kroos",
+      "name": "克洛丝",
+      "sourcePath": "avatar/char_124_kroos.png",
+      "gitBlobSha": "2cfbc9b84f8be7fd2f54664518c7d5bb88f6898f",
+      "expectedBytes": 56863,
+      "priority": false
+    },
+    {
+      "id": "char_126_shotst",
+      "name": "流星",
+      "sourcePath": "avatar/char_126_shotst.png",
+      "gitBlobSha": "64430a1bc049ef19b47c95a60f9c5f2a27bb1c06",
+      "expectedBytes": 45310,
+      "priority": false
+    },
+    {
+      "id": "char_127_estell",
+      "name": "艾丝黛尔",
+      "sourcePath": "avatar/char_127_estell.png",
+      "gitBlobSha": "ec41f3ff4a61a154d6ed804347e9d009fe8b196d",
+      "expectedBytes": 72652,
+      "priority": false
+    },
+    {
+      "id": "char_128_plosis",
+      "name": "白面鸮",
+      "sourcePath": "avatar/char_128_plosis.png",
+      "gitBlobSha": "cfbef3d437a5eb8bb396e942569c3f26d79f342f",
+      "expectedBytes": 50246,
+      "priority": false
+    },
+    {
+      "id": "char_129_bluep",
+      "name": "蓝毒",
+      "sourcePath": "avatar/char_129_bluep.png",
+      "gitBlobSha": "8259d845e4114d55255d9cb586f37d4e4430fa7f",
+      "expectedBytes": 47356,
+      "priority": false
+    },
+    {
+      "id": "char_130_doberm",
+      "name": "杜宾",
+      "sourcePath": "avatar/char_130_doberm.png",
+      "gitBlobSha": "ea06bb8bad0729819dd9a22337c35fd8accf794b",
+      "expectedBytes": 35954,
+      "priority": false
+    },
+    {
+      "id": "char_131_flameb",
+      "name": "炎客",
+      "sourcePath": "avatar/char_131_flameb.png",
+      "gitBlobSha": "36a64e52be7f819797f2a9a4883c5ed808c5ec62",
+      "expectedBytes": 48430,
+      "priority": false
+    },
+    {
+      "id": "char_133_mm",
+      "name": "梅",
+      "sourcePath": "avatar/char_133_mm.png",
+      "gitBlobSha": "da02788133bbf03e525a2ace212b8aec5ae0870a",
+      "expectedBytes": 59505,
+      "priority": false
+    },
+    {
+      "id": "char_134_ifrit",
+      "name": "伊芙利特",
+      "sourcePath": "avatar/char_134_ifrit.png",
+      "gitBlobSha": "a39116723373493dbc27b9b2558c4f4f14ba5a74",
+      "expectedBytes": 60180,
+      "priority": false
+    },
+    {
+      "id": "char_135_halo",
+      "name": "星源",
+      "sourcePath": "avatar/char_135_halo.png",
+      "gitBlobSha": "06464d1b3b67a82ab0c3f2217333d0409d6f645b",
+      "expectedBytes": 64558,
+      "priority": false
+    },
+    {
+      "id": "char_136_hsguma",
+      "name": "星熊",
+      "sourcePath": "avatar/char_136_hsguma.png",
+      "gitBlobSha": "72667371304d837087fc6a05ce7978871163939b",
+      "expectedBytes": 44631,
+      "priority": false
+    },
+    {
+      "id": "char_137_brownb",
+      "name": "猎蜂",
+      "sourcePath": "avatar/char_137_brownb.png",
+      "gitBlobSha": "427ea75b41bd139f4ed5aa905bc4647eb9b65f50",
+      "expectedBytes": 55600,
+      "priority": false
+    },
+    {
+      "id": "char_140_whitew",
+      "name": "拉普兰德",
+      "sourcePath": "avatar/char_140_whitew.png",
+      "gitBlobSha": "7801e104dce65cb3aa4070444f953a6f2a93d253",
+      "expectedBytes": 59306,
+      "priority": false
+    },
+    {
+      "id": "char_141_nights",
+      "name": "夜烟",
+      "sourcePath": "avatar/char_141_nights.png",
+      "gitBlobSha": "af7209b3e414e3317c96d2989dcfea7f4de3f8b7",
+      "expectedBytes": 49941,
+      "priority": false
+    },
+    {
+      "id": "char_143_ghost",
+      "name": "幽灵鲨",
+      "sourcePath": "avatar/char_143_ghost.png",
+      "gitBlobSha": "aefefb31e4a18a9c2fc6635217a9cbecfbda4c7c",
+      "expectedBytes": 57168,
+      "priority": false
+    },
+    {
+      "id": "char_144_red",
+      "name": "红",
+      "sourcePath": "avatar/char_144_red.png",
+      "gitBlobSha": "b3b4016bec0de0152d3994d7629d8246a018e9e0",
+      "expectedBytes": 62075,
+      "priority": false
+    },
+    {
+      "id": "char_145_prove",
+      "name": "普罗旺斯",
+      "sourcePath": "avatar/char_145_prove.png",
+      "gitBlobSha": "8d71b6cf1bb719fb82d9a55d6b74dde1f60e4473",
+      "expectedBytes": 50291,
+      "priority": false
+    },
+    {
+      "id": "char_147_shining",
+      "name": "闪灵",
+      "sourcePath": "avatar/char_147_shining.png",
+      "gitBlobSha": "2b9da1186fb80d18d3b6badc38dfdb8eeda78e1c",
+      "expectedBytes": 59882,
+      "priority": false
+    },
+    {
+      "id": "char_148_nearl",
+      "name": "临光",
+      "sourcePath": "avatar/char_148_nearl.png",
+      "gitBlobSha": "7844b0f143a6ff75c0422814395a403f5f7042f7",
+      "expectedBytes": 62650,
+      "priority": false
+    },
+    {
+      "id": "char_149_scave",
+      "name": "清道夫",
+      "sourcePath": "avatar/char_149_scave.png",
+      "gitBlobSha": "6ced455c51a038cde33abef8248d5e295390e5a0",
+      "expectedBytes": 46073,
+      "priority": false
+    },
+    {
+      "id": "char_150_snakek",
+      "name": "蛇屠箱",
+      "sourcePath": "avatar/char_150_snakek.png",
+      "gitBlobSha": "4d97860defe5393425b90d5500d1b492974bac88",
+      "expectedBytes": 55102,
+      "priority": false
+    },
+    {
+      "id": "char_1502_crosly",
+      "name": "弑君者",
+      "sourcePath": "avatar/char_1502_crosly.png",
+      "gitBlobSha": "436d0e8d687d3876f7933d1a1dc71f0e86a69770",
+      "expectedBytes": 55802,
+      "priority": false
+    },
+    {
+      "id": "char_151_myrtle",
+      "name": "桃金娘",
+      "sourcePath": "avatar/char_151_myrtle.png",
+      "gitBlobSha": "e2ec81bca678305bac7c30a2c464e9e8fba88bf2",
+      "expectedBytes": 52747,
+      "priority": false
+    },
+    {
+      "id": "char_154_morgan",
+      "name": "摩根",
+      "sourcePath": "avatar/char_154_morgan.png",
+      "gitBlobSha": "f785a2e50d32e19a74247ab682046db63bcce3b4",
+      "expectedBytes": 61788,
+      "priority": false
+    },
+    {
+      "id": "char_155_tiger",
+      "name": "因陀罗",
+      "sourcePath": "avatar/char_155_tiger.png",
+      "gitBlobSha": "56fb6c4efe05fb5978559b4bf595559c59918fea",
+      "expectedBytes": 60523,
+      "priority": false
+    },
+    {
+      "id": "char_157_dagda",
+      "name": "达格达",
+      "sourcePath": "avatar/char_157_dagda.png",
+      "gitBlobSha": "f33a10ccf6ad66009d92f920757657e289f84e88",
+      "expectedBytes": 53839,
+      "priority": false
+    },
+    {
+      "id": "char_158_milu",
+      "name": "守林人",
+      "sourcePath": "avatar/char_158_milu.png",
+      "gitBlobSha": "baa52df39b7253d5440de25c19fc736099c76844",
+      "expectedBytes": 57230,
+      "priority": false
+    },
+    {
+      "id": "char_159_peacok",
+      "name": "断罪者",
+      "sourcePath": "avatar/char_159_peacok.png",
+      "gitBlobSha": "d85086783bd860f658b0d24dfde2407ffc6dfc21",
+      "expectedBytes": 51004,
+      "priority": false
+    },
+    {
+      "id": "char_163_hpsts",
+      "name": "火神",
+      "sourcePath": "avatar/char_163_hpsts.png",
+      "gitBlobSha": "f4692189f286a8cc4ec7e698aba5ea0e7abcd663",
+      "expectedBytes": 42726,
+      "priority": false
+    },
+    {
+      "id": "char_164_nightm",
+      "name": "夜魔",
+      "sourcePath": "avatar/char_164_nightm.png",
+      "gitBlobSha": "f76878478bfb89feb8f525b5ca074d7023c1c6f4",
+      "expectedBytes": 48250,
+      "priority": false
+    },
+    {
+      "id": "char_166_skfire",
+      "name": "天火",
+      "sourcePath": "avatar/char_166_skfire.png",
+      "gitBlobSha": "a8df7cb8cb5347c93e7f53206226f3ead997cbcc",
+      "expectedBytes": 50595,
+      "priority": false
+    },
+    {
+      "id": "char_171_bldsk",
+      "name": "华法琳",
+      "sourcePath": "avatar/char_171_bldsk.png",
+      "gitBlobSha": "9f09a734ba94b69ba756548d7b42576d7985f196",
+      "expectedBytes": 41083,
+      "priority": false
+    },
+    {
+      "id": "char_172_svrash",
+      "name": "银灰",
+      "sourcePath": "avatar/char_172_svrash.png",
+      "gitBlobSha": "59632dc4bb3073a31ade775f6589aaa8e5af670f",
+      "expectedBytes": 60606,
+      "priority": false
+    },
+    {
+      "id": "char_173_slchan",
+      "name": "崖心",
+      "sourcePath": "avatar/char_173_slchan.png",
+      "gitBlobSha": "d25c002d7d23ca8d35ac09922e4301bd0c4f56c6",
+      "expectedBytes": 57030,
+      "priority": false
+    },
+    {
+      "id": "char_174_slbell",
+      "name": "初雪",
+      "sourcePath": "avatar/char_174_slbell.png",
+      "gitBlobSha": "f848c32231c2d99f2abe641191f3f730c4e5c00c",
+      "expectedBytes": 66491,
+      "priority": false
+    },
+    {
+      "id": "char_179_cgbird",
+      "name": "夜莺",
+      "sourcePath": "avatar/char_179_cgbird.png",
+      "gitBlobSha": "cc6b8a323a02491699a042351e8bdd976822deff",
+      "expectedBytes": 60251,
+      "priority": false
+    },
+    {
+      "id": "char_180_amgoat",
+      "name": "艾雅法拉",
+      "sourcePath": "avatar/char_180_amgoat.png",
+      "gitBlobSha": "6f76630b60940c578b1416df8114873f63b82326",
+      "expectedBytes": 63324,
+      "priority": false
+    },
+    {
+      "id": "char_181_flower",
+      "name": "调香师",
+      "sourcePath": "avatar/char_181_flower.png",
+      "gitBlobSha": "aab81dc289bf47338617b5168828d5f75a406722",
+      "expectedBytes": 51296,
+      "priority": false
+    },
+    {
+      "id": "char_183_skgoat",
+      "name": "地灵",
+      "sourcePath": "avatar/char_183_skgoat.png",
+      "gitBlobSha": "291c198c251ecc34e708a27b6e39468e82133940",
+      "expectedBytes": 61536,
+      "priority": false
+    },
+    {
+      "id": "char_185_frncat",
+      "name": "慕斯",
+      "sourcePath": "avatar/char_185_frncat.png",
+      "gitBlobSha": "212c4f4725151620b82b8b3bb1b39418b417e46b",
+      "expectedBytes": 49411,
+      "priority": false
+    },
+    {
+      "id": "char_187_ccheal",
+      "name": "嘉维尔",
+      "sourcePath": "avatar/char_187_ccheal.png",
+      "gitBlobSha": "f67edd18c2cdd9791dd8766f8dc326c622087832",
+      "expectedBytes": 61581,
+      "priority": false
+    },
+    {
+      "id": "char_188_helage",
+      "name": "赫拉格",
+      "sourcePath": "avatar/char_188_helage.png",
+      "gitBlobSha": "ed2d2f3cf379e45c97651a1f8f4236f512d13da6",
+      "expectedBytes": 57885,
+      "priority": false
+    },
+    {
+      "id": "char_190_clour",
+      "name": "红云",
+      "sourcePath": "avatar/char_190_clour.png",
+      "gitBlobSha": "d075b51d186c0bb094fbecc1beef23b976fcdfea",
+      "expectedBytes": 55130,
+      "priority": false
+    },
+    {
+      "id": "char_192_falco",
+      "name": "翎羽",
+      "sourcePath": "avatar/char_192_falco.png",
+      "gitBlobSha": "1329f862413bdf633abade52fd0c0c0ef71ee131",
+      "expectedBytes": 51361,
+      "priority": false
+    },
+    {
+      "id": "char_193_frostl",
+      "name": "霜叶",
+      "sourcePath": "avatar/char_193_frostl.png",
+      "gitBlobSha": "e33743ed51b34ab91c729beadbf43e94af0cb8a7",
+      "expectedBytes": 46470,
+      "priority": false
+    },
+    {
+      "id": "char_194_leto",
+      "name": "烈夏",
+      "sourcePath": "avatar/char_194_leto.png",
+      "gitBlobSha": "e4c70a3d7ed4616f756a555e1099b2f38191213f",
+      "expectedBytes": 49063,
+      "priority": false
+    },
+    {
+      "id": "char_195_glassb",
+      "name": "真理",
+      "sourcePath": "avatar/char_195_glassb.png",
+      "gitBlobSha": "18da8cfc684f038acd2eecd71e72bbc3819d10d7",
+      "expectedBytes": 44597,
+      "priority": false
+    },
+    {
+      "id": "char_196_sunbr",
+      "name": "古米",
+      "sourcePath": "avatar/char_196_sunbr.png",
+      "gitBlobSha": "13621c2fec30fe8ad832f8c8716658ace56cdc96",
+      "expectedBytes": 52314,
+      "priority": false
+    },
+    {
+      "id": "char_197_poca",
+      "name": "早露",
+      "sourcePath": "avatar/char_197_poca.png",
+      "gitBlobSha": "2540ca772a122d4cf0860bed7ba8ef021ced6387",
+      "expectedBytes": 58819,
+      "priority": false
+    },
+    {
+      "id": "char_198_blackd",
+      "name": "讯使",
+      "sourcePath": "avatar/char_198_blackd.png",
+      "gitBlobSha": "2acaf29c2e604167af0dd8c0e638d683f27e2f9e",
+      "expectedBytes": 55055,
+      "priority": false
+    },
+    {
+      "id": "char_199_yak",
+      "name": "角峰",
+      "sourcePath": "avatar/char_199_yak.png",
+      "gitBlobSha": "430adcda8ee7399dc339a28fa84b463f36ccd0ab",
+      "expectedBytes": 53524,
+      "priority": false
+    },
+    {
+      "id": "char_201_moeshd",
+      "name": "可颂",
+      "sourcePath": "avatar/char_201_moeshd.png",
+      "gitBlobSha": "53c1f874e058d12ce47da3ca0983735ed9bd7da3",
+      "expectedBytes": 60417,
+      "priority": false
+    },
+    {
+      "id": "char_2012_typhon",
+      "name": "提丰",
+      "sourcePath": "avatar/char_2012_typhon.png",
+      "gitBlobSha": "66cf4661f3e8cefb987954065e038bb864eb9f52",
+      "expectedBytes": 73475,
+      "priority": false
+    },
+    {
+      "id": "char_2013_cerber",
+      "name": "刻俄柏",
+      "sourcePath": "avatar/char_2013_cerber.png",
+      "gitBlobSha": "5c5eec199f9cad90efe0fd88e552cf4fe2a78f28",
+      "expectedBytes": 66106,
+      "priority": false
+    },
+    {
+      "id": "char_2014_nian",
+      "name": "年",
+      "sourcePath": "avatar/char_2014_nian.png",
+      "gitBlobSha": "cb841638303e0142fbee79d963fa2a1da14caff3",
+      "expectedBytes": 58587,
+      "priority": false
+    },
+    {
+      "id": "char_2015_dusk",
+      "name": "夕",
+      "sourcePath": "avatar/char_2015_dusk.png",
+      "gitBlobSha": "8f21ac8cf65e1e82dad040f06dcd8e67ecba067e",
+      "expectedBytes": 58749,
+      "priority": false
+    },
+    {
+      "id": "char_202_demkni",
+      "name": "塞雷娅",
+      "sourcePath": "avatar/char_202_demkni.png",
+      "gitBlobSha": "6be0dcb966d73c20e58a6120f98181203f6e0f9a",
+      "expectedBytes": 58992,
+      "priority": false
+    },
+    {
+      "id": "char_2023_ling",
+      "name": "令",
+      "sourcePath": "avatar/char_2023_ling.png",
+      "gitBlobSha": "351a9ca41c2ff7e028c84ac1a51197fc942fc594",
+      "expectedBytes": 65299,
+      "priority": false
+    },
+    {
+      "id": "char_2024_chyue",
+      "name": "重岳",
+      "sourcePath": "avatar/char_2024_chyue.png",
+      "gitBlobSha": "2e68b365dea445218764f4fe6856a3c2c5f8b228",
+      "expectedBytes": 50572,
+      "priority": false
+    },
+    {
+      "id": "char_2025_shu",
+      "name": "黍",
+      "sourcePath": "avatar/char_2025_shu.png",
+      "gitBlobSha": "068526bef08409250c282ce445c974ce9bec29ed",
+      "expectedBytes": 57255,
+      "priority": false
+    },
+    {
+      "id": "char_2026_yu",
+      "name": "余",
+      "sourcePath": "avatar/char_2026_yu.png",
+      "gitBlobSha": "aaff64e84f40bb917efac13c84d5d9e0d5884db9",
+      "expectedBytes": 62641,
+      "priority": false
+    },
+    {
+      "id": "char_2027_wang",
+      "name": "望",
+      "sourcePath": "avatar/char_2027_wang.png",
+      "gitBlobSha": "ce714ab554b6988c1043f91bf196ebb86316c73a",
+      "expectedBytes": 61077,
+      "priority": false
+    },
+    {
+      "id": "char_204_platnm",
+      "name": "白金",
+      "sourcePath": "avatar/char_204_platnm.png",
+      "gitBlobSha": "0083c7b095798ef7cb03a143eddc505861af49c0",
+      "expectedBytes": 51009,
+      "priority": false
+    },
+    {
+      "id": "char_206_gnosis",
+      "name": "灵知",
+      "sourcePath": "avatar/char_206_gnosis.png",
+      "gitBlobSha": "2aa972825701e46e5f508b8ee83ec8527137ec28",
+      "expectedBytes": 57200,
+      "priority": false
+    },
+    {
+      "id": "char_208_melan",
+      "name": "玫兰莎",
+      "sourcePath": "avatar/char_208_melan.png",
+      "gitBlobSha": "73e9803bb86a4c8173d3d1691a579adb74482047",
+      "expectedBytes": 50471,
+      "priority": false
+    },
+    {
+      "id": "char_209_ardign",
+      "name": "卡缇",
+      "sourcePath": "avatar/char_209_ardign.png",
+      "gitBlobSha": "f85138abec332d13f18c15751b2d74525a113e20",
+      "expectedBytes": 64017,
+      "priority": false
+    },
+    {
+      "id": "char_210_stward",
+      "name": "史都华德",
+      "sourcePath": "avatar/char_210_stward.png",
+      "gitBlobSha": "2b72ae479948fc0a912b66cc56f7bf9afe241fa0",
+      "expectedBytes": 54393,
+      "priority": false
+    },
+    {
+      "id": "char_211_adnach",
+      "name": "安德切尔",
+      "sourcePath": "avatar/char_211_adnach.png",
+      "gitBlobSha": "eea7fe74a29998ecdceb9048676a9c64560db04e",
+      "expectedBytes": 52301,
+      "priority": false
+    },
+    {
+      "id": "char_212_ansel",
+      "name": "安赛尔",
+      "sourcePath": "avatar/char_212_ansel.png",
+      "gitBlobSha": "39b186d02ccf4b604d675d30fb0fa9ec5d268caa",
+      "expectedBytes": 60200,
+      "priority": false
+    },
+    {
+      "id": "char_213_mostma",
+      "name": "莫斯提马",
+      "sourcePath": "avatar/char_213_mostma.png",
+      "gitBlobSha": "a09c415f4c1f41f1c52b9d9090fabb9cdedc06b3",
+      "expectedBytes": 57008,
+      "priority": false
+    },
+    {
+      "id": "char_214_kafka",
+      "name": "卡夫卡",
+      "sourcePath": "avatar/char_214_kafka.png",
+      "gitBlobSha": "30c4891217aea478e618393c20164a7055640e87",
+      "expectedBytes": 61473,
+      "priority": false
+    },
+    {
+      "id": "char_215_mantic",
+      "name": "狮蝎",
+      "sourcePath": "avatar/char_215_mantic.png",
+      "gitBlobSha": "c478dfbf193e7de9c89475020068a33910195fc7",
+      "expectedBytes": 67527,
+      "priority": false
+    },
+    {
+      "id": "char_218_cuttle",
+      "name": "安哲拉",
+      "sourcePath": "avatar/char_218_cuttle.png",
+      "gitBlobSha": "37506148977c642926d188f9ce5c95ba1c4b4ed5",
+      "expectedBytes": 47116,
+      "priority": false
+    },
+    {
+      "id": "char_219_meteo",
+      "name": "陨星",
+      "sourcePath": "avatar/char_219_meteo.png",
+      "gitBlobSha": "52325a1c44d90f75aa621a8c0e37f9fd0e2d53b8",
+      "expectedBytes": 55585,
+      "priority": false
+    },
+    {
+      "id": "char_220_grani",
+      "name": "格拉尼",
+      "sourcePath": "avatar/char_220_grani.png",
+      "gitBlobSha": "273e2c1c3cb8e8577ff129b7416ba0b95dafcd50",
+      "expectedBytes": 62751,
+      "priority": false
+    },
+    {
+      "id": "char_222_bpipe",
+      "name": "风笛",
+      "sourcePath": "avatar/char_222_bpipe.png",
+      "gitBlobSha": "a0268e980e5091e5e952f50b13243ec9173e6635",
+      "expectedBytes": 53296,
+      "priority": false
+    },
+    {
+      "id": "char_225_haak",
+      "name": "阿",
+      "sourcePath": "avatar/char_225_haak.png",
+      "gitBlobSha": "b8612c026dc0ea9a564ef4e0caefed6e7c7030e7",
+      "expectedBytes": 42779,
+      "priority": false
+    },
+    {
+      "id": "char_226_hmau",
+      "name": "吽",
+      "sourcePath": "avatar/char_226_hmau.png",
+      "gitBlobSha": "73f6f525171a54c50c45155854d1496c5cdb4d43",
+      "expectedBytes": 50578,
+      "priority": false
+    },
+    {
+      "id": "char_230_savage",
+      "name": "暴行",
+      "sourcePath": "avatar/char_230_savage.png",
+      "gitBlobSha": "876f8193cd8e43eed37ef62a3bddf180cb38dd8c",
+      "expectedBytes": 53755,
+      "priority": false
+    },
+    {
+      "id": "char_235_jesica",
+      "name": "杰西卡",
+      "sourcePath": "avatar/char_235_jesica.png",
+      "gitBlobSha": "597e38ed7baf5ad10c7e379b61318102aa2dad04",
+      "expectedBytes": 56702,
+      "priority": false
+    },
+    {
+      "id": "char_236_rope",
+      "name": "暗索",
+      "sourcePath": "avatar/char_236_rope.png",
+      "gitBlobSha": "0b7871eabde52a689de569ea190627a7cae92bcf",
+      "expectedBytes": 56114,
+      "priority": false
+    },
+    {
+      "id": "char_237_gravel",
+      "name": "砾",
+      "sourcePath": "avatar/char_237_gravel.png",
+      "gitBlobSha": "66e91204edcaee20f805da3852d7f1b908dae613",
+      "expectedBytes": 63822,
+      "priority": false
+    },
+    {
+      "id": "char_240_wyvern",
+      "name": "香草",
+      "sourcePath": "avatar/char_240_wyvern.png",
+      "gitBlobSha": "682a507ea668d5123d816f2220c67093e1c00a33",
+      "expectedBytes": 52224,
+      "priority": false
+    },
+    {
+      "id": "char_241_panda",
+      "name": "食铁兽",
+      "sourcePath": "avatar/char_241_panda.png",
+      "gitBlobSha": "ca280204a74d49d5707724e8a68b0ee25d06cc30",
+      "expectedBytes": 57940,
+      "priority": false
+    },
+    {
+      "id": "char_242_otter",
+      "name": "梅尔",
+      "sourcePath": "avatar/char_242_otter.png",
+      "gitBlobSha": "a0f052d214a1ea42fa73d8ba3fb489ab6a4d7ca9",
+      "expectedBytes": 53007,
+      "priority": false
+    },
+    {
+      "id": "char_243_waaifu",
+      "name": "槐琥",
+      "sourcePath": "avatar/char_243_waaifu.png",
+      "gitBlobSha": "a8e71c5eb5e9cb67094778deb28e3d984da264a0",
+      "expectedBytes": 50461,
+      "priority": false
+    },
+    {
+      "id": "char_245_cello",
+      "name": "塑心",
+      "sourcePath": "avatar/char_245_cello.png",
+      "gitBlobSha": "fadd8a2966eb940e7c9ab7b82d57fc8ca75e7017",
+      "expectedBytes": 49626,
+      "priority": false
+    },
+    {
+      "id": "char_248_mgllan",
+      "name": "麦哲伦",
+      "sourcePath": "avatar/char_248_mgllan.png",
+      "gitBlobSha": "9a25f2b2bf410bf2b566fba490ab236a1b7460f6",
+      "expectedBytes": 56432,
+      "priority": false
+    },
+    {
+      "id": "char_249_mlyss",
+      "name": "缪尔赛思",
+      "sourcePath": "avatar/char_249_mlyss.png",
+      "gitBlobSha": "6ddf25a0286ad85808f82db4ab681aa5b079c18e",
+      "expectedBytes": 54395,
+      "priority": false
+    },
+    {
+      "id": "char_250_phatom",
+      "name": "傀影",
+      "sourcePath": "avatar/char_250_phatom.png",
+      "gitBlobSha": "24fcf72e670c73fcc828f704c8a32557618ef5c0",
+      "expectedBytes": 56589,
+      "priority": false
+    },
+    {
+      "id": "char_252_bibeak",
+      "name": "柏喙",
+      "sourcePath": "avatar/char_252_bibeak.png",
+      "gitBlobSha": "28dfe63ca46998b268a17dc999a675c84307f3cd",
+      "expectedBytes": 53377,
+      "priority": false
+    },
+    {
+      "id": "char_253_greyy",
+      "name": "格雷伊",
+      "sourcePath": "avatar/char_253_greyy.png",
+      "gitBlobSha": "46ad1c968bf5f4fc41f241417bb2d2593724f8c1",
+      "expectedBytes": 56338,
+      "priority": false
+    },
+    {
+      "id": "char_254_vodfox",
+      "name": "巫恋",
+      "sourcePath": "avatar/char_254_vodfox.png",
+      "gitBlobSha": "3176d3d84527063194d5dfdf10a31633af3484c1",
+      "expectedBytes": 61200,
+      "priority": false
+    },
+    {
+      "id": "char_258_podego",
+      "name": "波登可",
+      "sourcePath": "avatar/char_258_podego.png",
+      "gitBlobSha": "44abefdd9b44f84f08828c5bc8600d85641726d3",
+      "expectedBytes": 53241,
+      "priority": false
+    },
+    {
+      "id": "char_260_durnar",
+      "name": "坚雷",
+      "sourcePath": "avatar/char_260_durnar.png",
+      "gitBlobSha": "ae2e34f49aa8c7849f08f882157bc05adb09bba7",
+      "expectedBytes": 64683,
+      "priority": false
+    },
+    {
+      "id": "char_261_sddrag",
+      "name": "苇草",
+      "sourcePath": "avatar/char_261_sddrag.png",
+      "gitBlobSha": "ba51e4e93dc32b3bde2f127d8338e5b94cbfafce",
+      "expectedBytes": 55912,
+      "priority": false
+    },
+    {
+      "id": "char_263_skadi",
+      "name": "斯卡蒂",
+      "sourcePath": "avatar/char_263_skadi.png",
+      "gitBlobSha": "a86730f21e6834edbabbf8bcd2f7b0dd93b38ee2",
+      "expectedBytes": 57482,
+      "priority": false
+    },
+    {
+      "id": "char_264_f12yin",
+      "name": "山",
+      "sourcePath": "avatar/char_264_f12yin.png",
+      "gitBlobSha": "afd87918a24bd1a23d568f0255a619b6797decd3",
+      "expectedBytes": 55451,
+      "priority": false
+    },
+    {
+      "id": "char_265_sophia",
+      "name": "鞭刃",
+      "sourcePath": "avatar/char_265_sophia.png",
+      "gitBlobSha": "90a10c0c0ed5239cfce8f8a1abe3b4bcb7246642",
+      "expectedBytes": 65445,
+      "priority": false
+    },
+    {
+      "id": "char_271_spikes",
+      "name": "芳汀",
+      "sourcePath": "avatar/char_271_spikes.png",
+      "gitBlobSha": "6a8ee8b3a2e21e80cca413f15af1a77079b086bc",
+      "expectedBytes": 41584,
+      "priority": false
+    },
+    {
+      "id": "char_272_strong",
+      "name": "孑",
+      "sourcePath": "avatar/char_272_strong.png",
+      "gitBlobSha": "463c2a5e586ca23b4973fd07d40f1d4e9a0f11ea",
+      "expectedBytes": 52752,
+      "priority": false
+    },
+    {
+      "id": "char_274_astesi",
+      "name": "星极",
+      "sourcePath": "avatar/char_274_astesi.png",
+      "gitBlobSha": "24a84a0c157e62820cdf936930338adf84809384",
+      "expectedBytes": 53182,
+      "priority": false
+    },
+    {
+      "id": "char_275_breeze",
+      "name": "微风",
+      "sourcePath": "avatar/char_275_breeze.png",
+      "gitBlobSha": "3914a7fb36868bd280b7f2f2e7ddf02a0a586391",
+      "expectedBytes": 49704,
+      "priority": false
+    },
+    {
+      "id": "char_277_sqrrel",
+      "name": "阿消",
+      "sourcePath": "avatar/char_277_sqrrel.png",
+      "gitBlobSha": "4b8980c58248e3b32360f3b8f409f0a4d550a142",
+      "expectedBytes": 56602,
+      "priority": false
+    },
+    {
+      "id": "char_278_orchid",
+      "name": "梓兰",
+      "sourcePath": "avatar/char_278_orchid.png",
+      "gitBlobSha": "0496bb34c2384beb192cef0c593d822555b4d825",
+      "expectedBytes": 55387,
+      "priority": false
+    },
+    {
+      "id": "char_279_excu",
+      "name": "送葬人",
+      "sourcePath": "avatar/char_279_excu.png",
+      "gitBlobSha": "29a2ac0c6be9f8dbfd880537c03f8a95a497d8a7",
+      "expectedBytes": 47960,
+      "priority": false
+    },
+    {
+      "id": "char_281_popka",
+      "name": "泡普卡",
+      "sourcePath": "avatar/char_281_popka.png",
+      "gitBlobSha": "1c288056b43a359d614f15efe178bb14b60dcb2a",
+      "expectedBytes": 60104,
+      "priority": false
+    },
+    {
+      "id": "char_282_catap",
+      "name": "空爆",
+      "sourcePath": "avatar/char_282_catap.png",
+      "gitBlobSha": "9ee856ab6c04a461bd3e0801582724ad9a229d2c",
+      "expectedBytes": 48829,
+      "priority": false
+    },
+    {
+      "id": "char_283_midn",
+      "name": "月见夜",
+      "sourcePath": "avatar/char_283_midn.png",
+      "gitBlobSha": "d4dd718085d4414828f8bbae31199e5c1fe9a400",
+      "expectedBytes": 62555,
+      "priority": false
+    },
+    {
+      "id": "char_284_spot",
+      "name": "斑点",
+      "sourcePath": "avatar/char_284_spot.png",
+      "gitBlobSha": "1714a2a43bcf8e31b7f1e5fec0061926df8bea9a",
+      "expectedBytes": 50725,
+      "priority": false
+    },
+    {
+      "id": "char_285_medic2",
+      "name": "Lancet-2",
+      "sourcePath": "avatar/char_285_medic2.png",
+      "gitBlobSha": "af591c8245ef4b7cafb4397231a10ee0f2c68278",
+      "expectedBytes": 46065,
+      "priority": false
+    },
+    {
+      "id": "char_286_cast3",
+      "name": "Castle-3",
+      "sourcePath": "avatar/char_286_cast3.png",
+      "gitBlobSha": "e26936c7c3c5013541122a32a52ff33196666bce",
+      "expectedBytes": 39351,
+      "priority": false
+    },
+    {
+      "id": "char_289_gyuki",
+      "name": "缠丸",
+      "sourcePath": "avatar/char_289_gyuki.png",
+      "gitBlobSha": "cdb4f3fb4ba2188358effe27273cd2b043e9003c",
+      "expectedBytes": 67719,
+      "priority": false
+    },
+    {
+      "id": "char_290_vigna",
+      "name": "红豆",
+      "sourcePath": "avatar/char_290_vigna.png",
+      "gitBlobSha": "44ad5d6d1a0f108b23792418911179aa910bff83",
+      "expectedBytes": 54847,
+      "priority": false
+    },
+    {
+      "id": "char_291_aglina",
+      "name": "安洁莉娜",
+      "sourcePath": "avatar/char_291_aglina.png",
+      "gitBlobSha": "67d03a9e404290f08739a48a2445eddf932ed555",
+      "expectedBytes": 66740,
+      "priority": false
+    },
+    {
+      "id": "char_293_thorns",
+      "name": "棘刺",
+      "sourcePath": "avatar/char_293_thorns.png",
+      "gitBlobSha": "9e705687632956817f0ebdee2ab4e6d75cda4e9a",
+      "expectedBytes": 46443,
+      "priority": false
+    },
+    {
+      "id": "char_294_ayer",
+      "name": "断崖",
+      "sourcePath": "avatar/char_294_ayer.png",
+      "gitBlobSha": "c3af6932676423dae1f9f1b9a65713094e59c98e",
+      "expectedBytes": 66119,
+      "priority": false
+    },
+    {
+      "id": "char_297_hamoni",
+      "name": "和弦",
+      "sourcePath": "avatar/char_297_hamoni.png",
+      "gitBlobSha": "e9c58b1651edd4e7521829b1b733811a181e8adf",
+      "expectedBytes": 51774,
+      "priority": false
+    },
+    {
+      "id": "char_298_susuro",
+      "name": "苏苏洛",
+      "sourcePath": "avatar/char_298_susuro.png",
+      "gitBlobSha": "70a86d0647617b1c2c93fd33029f8cc8778d6a49",
+      "expectedBytes": 61356,
+      "priority": false
+    },
+    {
+      "id": "char_300_phenxi",
+      "name": "菲亚梅塔",
+      "sourcePath": "avatar/char_300_phenxi.png",
+      "gitBlobSha": "f94c4961b98b77f58dc5ac0fd3d6787aacbf5eaf",
+      "expectedBytes": 59517,
+      "priority": false
+    },
+    {
+      "id": "char_301_cutter",
+      "name": "刻刀",
+      "sourcePath": "avatar/char_301_cutter.png",
+      "gitBlobSha": "d5fec5d0ba6381cb709d7a46699192032c6add2e",
+      "expectedBytes": 53057,
+      "priority": false
+    },
+    {
+      "id": "char_302_glaze",
+      "name": "安比尔",
+      "sourcePath": "avatar/char_302_glaze.png",
+      "gitBlobSha": "ef60771d327faeb742de6aaf95287744b0af5b2f",
+      "expectedBytes": 62034,
+      "priority": false
+    },
+    {
+      "id": "char_304_zebra",
+      "name": "暴雨",
+      "sourcePath": "avatar/char_304_zebra.png",
+      "gitBlobSha": "5f1dfabc1b2d0329b59689115c997151cfa7036d",
+      "expectedBytes": 48882,
+      "priority": false
+    },
+    {
+      "id": "char_306_leizi",
+      "name": "惊蛰",
+      "sourcePath": "avatar/char_306_leizi.png",
+      "gitBlobSha": "7482244357039d178316c355a2053eb38ecb3302",
+      "expectedBytes": 71237,
+      "priority": false
+    },
+    {
+      "id": "char_308_swire",
+      "name": "诗怀雅",
+      "sourcePath": "avatar/char_308_swire.png",
+      "gitBlobSha": "fce1b7f793a439064d6b868461c75864018c1c85",
+      "expectedBytes": 56068,
+      "priority": false
+    },
+    {
+      "id": "char_311_mudrok",
+      "name": "泥岩",
+      "sourcePath": "avatar/char_311_mudrok.png",
+      "gitBlobSha": "cfa354e6536c8096cb61a7676c8160a587509f05",
+      "expectedBytes": 52461,
+      "priority": false
+    },
+    {
+      "id": "char_322_lmlee",
+      "name": "老鲤",
+      "sourcePath": "avatar/char_322_lmlee.png",
+      "gitBlobSha": "30938116e8856136b7f6c9d12fd71ab546c9c116",
+      "expectedBytes": 61234,
+      "priority": false
+    },
+    {
+      "id": "char_325_bison",
+      "name": "拜松",
+      "sourcePath": "avatar/char_325_bison.png",
+      "gitBlobSha": "5a396c384b398500208798923f0805bd36bf2559",
+      "expectedBytes": 59272,
+      "priority": false
+    },
+    {
+      "id": "char_326_glacus",
+      "name": "格劳克斯",
+      "sourcePath": "avatar/char_326_glacus.png",
+      "gitBlobSha": "b64960745100701ac969f0cfefcac5dc13e00405",
+      "expectedBytes": 54090,
+      "priority": false
+    },
+    {
+      "id": "char_328_cammou",
+      "name": "卡达",
+      "sourcePath": "avatar/char_328_cammou.png",
+      "gitBlobSha": "41de1f2c275cd68ec1bbdc64ef223d7333e2ab56",
+      "expectedBytes": 45352,
+      "priority": false
+    },
+    {
+      "id": "char_332_archet",
+      "name": "空弦",
+      "sourcePath": "avatar/char_332_archet.png",
+      "gitBlobSha": "a20e5c1e5095fac2f4d4b7b05fc280020f51e1f7",
+      "expectedBytes": 57102,
+      "priority": false
+    },
+    {
+      "id": "char_333_sidero",
+      "name": "铸铁",
+      "sourcePath": "avatar/char_333_sidero.png",
+      "gitBlobSha": "d314b88c268e0d6c635dee39ea9fd27579286b40",
+      "expectedBytes": 64422,
+      "priority": false
+    },
+    {
+      "id": "char_336_folivo",
+      "name": "稀音",
+      "sourcePath": "avatar/char_336_folivo.png",
+      "gitBlobSha": "b2a5f52ab7fd96af644ab40c043228dd8de010c9",
+      "expectedBytes": 53055,
+      "priority": false
+    },
+    {
+      "id": "char_337_utage",
+      "name": "宴",
+      "sourcePath": "avatar/char_337_utage.png",
+      "gitBlobSha": "6f8232ac14a13998d64b68245a4bb9bda3a7ebf6",
+      "expectedBytes": 52767,
+      "priority": false
+    },
+    {
+      "id": "char_338_iris",
+      "name": "爱丽丝",
+      "sourcePath": "avatar/char_338_iris.png",
+      "gitBlobSha": "ebf3ea3db95b0de2cf3b6c429df10c5fefb434d8",
+      "expectedBytes": 64895,
+      "priority": false
+    },
+    {
+      "id": "char_340_shwaz",
+      "name": "黑",
+      "sourcePath": "avatar/char_340_shwaz.png",
+      "gitBlobSha": "31a1c3a192ca0da3f0770c20d980679d68839401",
+      "expectedBytes": 62876,
+      "priority": false
+    },
+    {
+      "id": "char_341_sntlla",
+      "name": "寒檀",
+      "sourcePath": "avatar/char_341_sntlla.png",
+      "gitBlobSha": "d1ab023bf0a1b3a4103c4c776b3e58c81cf500e2",
+      "expectedBytes": 54065,
+      "priority": false
+    },
+    {
+      "id": "char_343_tknogi",
+      "name": "月禾",
+      "sourcePath": "avatar/char_343_tknogi.png",
+      "gitBlobSha": "fa5f9c0a25ae0dbf47eef8556789bec09cc4c281",
+      "expectedBytes": 52723,
+      "priority": false
+    },
+    {
+      "id": "char_344_beewax",
+      "name": "蜜蜡",
+      "sourcePath": "avatar/char_344_beewax.png",
+      "gitBlobSha": "1f0164fa4760780ba5f649ffb3c99af56bce18f7",
+      "expectedBytes": 59120,
+      "priority": false
+    },
+    {
+      "id": "char_345_folnic",
+      "name": "亚叶",
+      "sourcePath": "avatar/char_345_folnic.png",
+      "gitBlobSha": "129afb046b4e0116aa76d6bce66b6345e914313e",
+      "expectedBytes": 52317,
+      "priority": false
+    },
+    {
+      "id": "char_346_aosta",
+      "name": "奥斯塔",
+      "sourcePath": "avatar/char_346_aosta.png",
+      "gitBlobSha": "ebb7359077e8a9879b36d6335dafbac39834765b",
+      "expectedBytes": 55488,
+      "priority": false
+    },
+    {
+      "id": "char_347_jaksel",
+      "name": "杰克",
+      "sourcePath": "avatar/char_347_jaksel.png",
+      "gitBlobSha": "7c17d14d821e3dad52a6e88fc3b45827569be4f4",
+      "expectedBytes": 57505,
+      "priority": false
+    },
+    {
+      "id": "char_348_ceylon",
+      "name": "锡兰",
+      "sourcePath": "avatar/char_348_ceylon.png",
+      "gitBlobSha": "0abb46088c4565afd0c37f12905e95e990c60b75",
+      "expectedBytes": 58295,
+      "priority": false
+    },
+    {
+      "id": "char_349_chiave",
+      "name": "贾维",
+      "sourcePath": "avatar/char_349_chiave.png",
+      "gitBlobSha": "396fc874062bc903c5fb42e639e028bc3f90e724",
+      "expectedBytes": 60824,
+      "priority": false
+    },
+    {
+      "id": "char_350_surtr",
+      "name": "史尔特尔",
+      "sourcePath": "avatar/char_350_surtr.png",
+      "gitBlobSha": "5693dae16490d8a7aaf62550ffe0361fa50b8cd4",
+      "expectedBytes": 49865,
+      "priority": false
+    },
+    {
+      "id": "char_355_ethan",
+      "name": "伊桑",
+      "sourcePath": "avatar/char_355_ethan.png",
+      "gitBlobSha": "cb6144769299c3b1666af438637e6310ae92f895",
+      "expectedBytes": 44802,
+      "priority": false
+    },
+    {
+      "id": "char_356_broca",
+      "name": "布洛卡",
+      "sourcePath": "avatar/char_356_broca.png",
+      "gitBlobSha": "0d5a7d7474688eebde98e8ad604546bdf0f658b9",
+      "expectedBytes": 49046,
+      "priority": false
+    },
+    {
+      "id": "char_358_lisa",
+      "name": "铃兰",
+      "sourcePath": "avatar/char_358_lisa.png",
+      "gitBlobSha": "a2e7e720dd73fbade37ebec633690e657bb833c6",
+      "expectedBytes": 56378,
+      "priority": false
+    },
+    {
+      "id": "char_362_saga",
+      "name": "嵯峨",
+      "sourcePath": "avatar/char_362_saga.png",
+      "gitBlobSha": "b4ae1dcf77f3b8e0a432a69dc387d36fc97372fd",
+      "expectedBytes": 50073,
+      "priority": false
+    },
+    {
+      "id": "char_363_toddi",
+      "name": "熔泉",
+      "sourcePath": "avatar/char_363_toddi.png",
+      "gitBlobSha": "e4febf37ed0a2e08fd27bd8dbc17fe640fafd8e7",
+      "expectedBytes": 59287,
+      "priority": false
+    },
+    {
+      "id": "char_365_aprl",
+      "name": "四月",
+      "sourcePath": "avatar/char_365_aprl.png",
+      "gitBlobSha": "5d43248427fce3e21c68393db317e05deae2b927",
+      "expectedBytes": 55735,
+      "priority": false
+    },
+    {
+      "id": "char_366_acdrop",
+      "name": "酸糖",
+      "sourcePath": "avatar/char_366_acdrop.png",
+      "gitBlobSha": "4acec411da3863c8c5227cd4284799393cc51f5c",
+      "expectedBytes": 53187,
+      "priority": false
+    },
+    {
+      "id": "char_367_swllow",
+      "name": "灰喉",
+      "sourcePath": "avatar/char_367_swllow.png",
+      "gitBlobSha": "fcd3bca4e434ae8b7e7991e09c4800e6175b1a81",
+      "expectedBytes": 50183,
+      "priority": false
+    },
+    {
+      "id": "char_369_bena",
+      "name": "贝娜",
+      "sourcePath": "avatar/char_369_bena.png",
+      "gitBlobSha": "0ad26ea7bf8e42d1caf9a249c8f5723f3260f0c5",
+      "expectedBytes": 63712,
+      "priority": false
+    },
+    {
+      "id": "char_373_lionhd",
+      "name": "莱恩哈特",
+      "sourcePath": "avatar/char_373_lionhd.png",
+      "gitBlobSha": "f06783decc3a38e61b405ef211ccd8264551fc3a",
+      "expectedBytes": 64390,
+      "priority": false
+    },
+    {
+      "id": "char_376_therex",
+      "name": "THRM-EX",
+      "sourcePath": "avatar/char_376_therex.png",
+      "gitBlobSha": "3d05b7624b649f288802a5e8677c7755e30282f7",
+      "expectedBytes": 45580,
+      "priority": false
+    },
+    {
+      "id": "char_377_gdglow",
+      "name": "澄闪",
+      "sourcePath": "avatar/char_377_gdglow.png",
+      "gitBlobSha": "ee2446feb3344d9d6932fae8a3afa8ab3679a067",
+      "expectedBytes": 58987,
+      "priority": false
+    },
+    {
+      "id": "char_378_asbest",
+      "name": "石棉",
+      "sourcePath": "avatar/char_378_asbest.png",
+      "gitBlobSha": "27d94365eb06efa2f6ef401ec3f50f6d92987305",
+      "expectedBytes": 57743,
+      "priority": false
+    },
+    {
+      "id": "char_379_sesa",
+      "name": "慑砂",
+      "sourcePath": "avatar/char_379_sesa.png",
+      "gitBlobSha": "4e2ea0953872390788f0fafee860e9d9cad8207a",
+      "expectedBytes": 63980,
+      "priority": false
+    },
+    {
+      "id": "char_381_bubble",
+      "name": "泡泡",
+      "sourcePath": "avatar/char_381_bubble.png",
+      "gitBlobSha": "1cd78cdf6c9400e3e0efb8c2b014e8d2e8028beb",
+      "expectedBytes": 61135,
+      "priority": false
+    },
+    {
+      "id": "char_383_snsant",
+      "name": "雪雉",
+      "sourcePath": "avatar/char_383_snsant.png",
+      "gitBlobSha": "8edacebf56deec37ae8dd1fe8e0f91831b448170",
+      "expectedBytes": 57607,
+      "priority": false
+    },
+    {
+      "id": "char_385_finlpp",
+      "name": "清流",
+      "sourcePath": "avatar/char_385_finlpp.png",
+      "gitBlobSha": "bf1d2259265a2622d4ca0c39e25a43203e2ef805",
+      "expectedBytes": 60396,
+      "priority": false
+    },
+    {
+      "id": "char_388_mint",
+      "name": "薄绿",
+      "sourcePath": "avatar/char_388_mint.png",
+      "gitBlobSha": "3345133faac1d07222d89cf0e74af2fc8ebc35a7",
+      "expectedBytes": 57204,
+      "priority": false
+    },
+    {
+      "id": "char_391_rosmon",
+      "name": "迷迭香",
+      "sourcePath": "avatar/char_391_rosmon.png",
+      "gitBlobSha": "37367dd56f330b4c059e56778e8e6ead17ea8fe5",
+      "expectedBytes": 69904,
+      "priority": false
+    },
+    {
+      "id": "char_394_hadiya",
+      "name": "哈蒂娅",
+      "sourcePath": "avatar/char_394_hadiya.png",
+      "gitBlobSha": "72130854cb8d3796580e6a0b78161979d7cc2e40",
+      "expectedBytes": 60120,
+      "priority": false
+    },
+    {
+      "id": "char_400_weedy",
+      "name": "温蒂",
+      "sourcePath": "avatar/char_400_weedy.png",
+      "gitBlobSha": "7a55f8edbb733d374d00b7fff6e8c5c429619c57",
+      "expectedBytes": 57362,
+      "priority": false
+    },
+    {
+      "id": "char_4000_jnight",
+      "name": "正义骑士号",
+      "sourcePath": "avatar/char_4000_jnight.png",
+      "gitBlobSha": "e23068c9962dace0a58961bfa1d35f3112f6177a",
+      "expectedBytes": 67996,
+      "priority": false
+    },
+    {
+      "id": "char_4004_pudd",
+      "name": "布丁",
+      "sourcePath": "avatar/char_4004_pudd.png",
+      "gitBlobSha": "573ddf6d5cd90769d31e42e9b881982f8d4ad10a",
+      "expectedBytes": 51064,
+      "priority": false
+    },
+    {
+      "id": "char_4006_melnte",
+      "name": "玫拉",
+      "sourcePath": "avatar/char_4006_melnte.png",
+      "gitBlobSha": "f6b2e731aeee504bd34efe83fd727f4e3a84a060",
+      "expectedBytes": 53223,
+      "priority": false
+    },
+    {
+      "id": "char_4009_irene",
+      "name": "艾丽妮",
+      "sourcePath": "avatar/char_4009_irene.png",
+      "gitBlobSha": "37cbca7126e6b38440d9f8bcd013097ce5ceacda",
+      "expectedBytes": 48002,
+      "priority": false
+    },
+    {
+      "id": "char_401_elysm",
+      "name": "极境",
+      "sourcePath": "avatar/char_401_elysm.png",
+      "gitBlobSha": "95024b116cb82cde092d938e837e6513312737c1",
+      "expectedBytes": 54942,
+      "priority": false
+    },
+    {
+      "id": "char_4010_etlchi",
+      "name": "隐德来希",
+      "sourcePath": "avatar/char_4010_etlchi.png",
+      "gitBlobSha": "f4047f8e770cf066904fad23abf179d8ac2e0387",
+      "expectedBytes": 51301,
+      "priority": false
+    },
+    {
+      "id": "char_4011_lessng",
+      "name": "止颂",
+      "sourcePath": "avatar/char_4011_lessng.png",
+      "gitBlobSha": "b089bb79b9ae48722890d74653882193b1daae32",
+      "expectedBytes": 57707,
+      "priority": false
+    },
+    {
+      "id": "char_4013_kjera",
+      "name": "耶拉",
+      "sourcePath": "avatar/char_4013_kjera.png",
+      "gitBlobSha": "d540da061bde82dde340cf9b9f726a8afac6b406",
+      "expectedBytes": 52606,
+      "priority": false
+    },
+    {
+      "id": "char_4014_lunacu",
+      "name": "子月",
+      "sourcePath": "avatar/char_4014_lunacu.png",
+      "gitBlobSha": "f430fa1a0407911154dd5c0cd739e6bed35376a8",
+      "expectedBytes": 56052,
+      "priority": false
+    },
+    {
+      "id": "char_4015_spuria",
+      "name": "空构",
+      "sourcePath": "avatar/char_4015_spuria.png",
+      "gitBlobSha": "3d76dd74064460263d13bfa5797547e27c15d475",
+      "expectedBytes": 44047,
+      "priority": false
+    },
+    {
+      "id": "char_4016_kazema",
+      "name": "风丸",
+      "sourcePath": "avatar/char_4016_kazema.png",
+      "gitBlobSha": "0cd903b9f95ff8b5e024ceaac54a17211109a63a",
+      "expectedBytes": 63778,
+      "priority": false
+    },
+    {
+      "id": "char_4017_puzzle",
+      "name": "谜图",
+      "sourcePath": "avatar/char_4017_puzzle.png",
+      "gitBlobSha": "79dddabff1095126b2f25e3e9c7736e1a4d2ef26",
+      "expectedBytes": 57101,
+      "priority": false
+    },
+    {
+      "id": "char_4019_ncdeer",
+      "name": "九色鹿",
+      "sourcePath": "avatar/char_4019_ncdeer.png",
+      "gitBlobSha": "ccab9e55fec9c970092995bb7b534f145c5287d0",
+      "expectedBytes": 60726,
+      "priority": false
+    },
+    {
+      "id": "char_402_tuye",
+      "name": "图耶",
+      "sourcePath": "avatar/char_402_tuye.png",
+      "gitBlobSha": "64b6dd775367ffe80c1a77d6e113a1ebc8e43b9b",
+      "expectedBytes": 55999,
+      "priority": false
+    },
+    {
+      "id": "char_4023_rfalcn",
+      "name": "红隼",
+      "sourcePath": "avatar/char_4023_rfalcn.png",
+      "gitBlobSha": "b5f89e6e31f29e44ba408d936e340efa2437be6f",
+      "expectedBytes": 52506,
+      "priority": false
+    },
+    {
+      "id": "char_4025_aprot2",
+      "name": "暮落",
+      "sourcePath": "avatar/char_4025_aprot2.png",
+      "gitBlobSha": "da86b8a93458775f3b8f5b043d1b03abfd9424ed",
+      "expectedBytes": 46645,
+      "priority": false
+    },
+    {
+      "id": "char_4026_vulpis",
+      "name": "忍冬",
+      "sourcePath": "avatar/char_4026_vulpis.png",
+      "gitBlobSha": "2cf45f25da3185aff4ebada93ace0934006cd92f",
+      "expectedBytes": 62771,
+      "priority": false
+    },
+    {
+      "id": "char_4027_heyak",
+      "name": "霍尔海雅",
+      "sourcePath": "avatar/char_4027_heyak.png",
+      "gitBlobSha": "5b199b59023c431d0fe13aa6b8d58886ddfc95ed",
+      "expectedBytes": 59988,
+      "priority": false
+    },
+    {
+      "id": "char_4031_liesel",
+      "name": "复奏",
+      "sourcePath": "avatar/char_4031_liesel.png",
+      "gitBlobSha": "74d50d00266ee626d8d7cacd8da315d4481e65a6",
+      "expectedBytes": 56036,
+      "priority": false
+    },
+    {
+      "id": "char_4032_provs",
+      "name": "但书",
+      "sourcePath": "avatar/char_4032_provs.png",
+      "gitBlobSha": "6daef1293c62f9f8bc4f1189c0a194c6ea92436a",
+      "expectedBytes": 56581,
+      "priority": false
+    },
+    {
+      "id": "char_4036_forcer",
+      "name": "见行者",
+      "sourcePath": "avatar/char_4036_forcer.png",
+      "gitBlobSha": "ffb7f1a4f0a7145f4711c0eb7d06d1c4318bee1b",
+      "expectedBytes": 50762,
+      "priority": false
+    },
+    {
+      "id": "char_4037_demetr",
+      "name": "贝洛内",
+      "sourcePath": "avatar/char_4037_demetr.png",
+      "gitBlobSha": "35c07256941a2154096977f0d8d0adf1187f514c",
+      "expectedBytes": 68134,
+      "priority": false
+    },
+    {
+      "id": "char_4039_horn",
+      "name": "号角",
+      "sourcePath": "avatar/char_4039_horn.png",
+      "gitBlobSha": "a4a3a7bc61dd44517fec55db95313496629a53f1",
+      "expectedBytes": 58189,
+      "priority": false
+    },
+    {
+      "id": "char_4040_rockr",
+      "name": "洛洛",
+      "sourcePath": "avatar/char_4040_rockr.png",
+      "gitBlobSha": "a04124538cebc0eafcc62c784607da53a50a2055",
+      "expectedBytes": 59678,
+      "priority": false
+    },
+    {
+      "id": "char_4041_chnut",
+      "name": "褐果",
+      "sourcePath": "avatar/char_4041_chnut.png",
+      "gitBlobSha": "9d660f56c6a8d1ae904956b682a59d3303a27391",
+      "expectedBytes": 44641,
+      "priority": false
+    },
+    {
+      "id": "char_4042_lumen",
+      "name": "流明",
+      "sourcePath": "avatar/char_4042_lumen.png",
+      "gitBlobSha": "1a8a5786bb725897cc42fb3985cc775c0f4f57f3",
+      "expectedBytes": 54524,
+      "priority": false
+    },
+    {
+      "id": "char_4043_erato",
+      "name": "埃拉托",
+      "sourcePath": "avatar/char_4043_erato.png",
+      "gitBlobSha": "39dc0a27398bfc5089ffce7c4fac5a0e955e6877",
+      "expectedBytes": 59855,
+      "priority": false
+    },
+    {
+      "id": "char_4045_heidi",
+      "name": "海蒂",
+      "sourcePath": "avatar/char_4045_heidi.png",
+      "gitBlobSha": "4b72bebf4d5f08240071c054039baf71e94f990b",
+      "expectedBytes": 63065,
+      "priority": false
+    },
+    {
+      "id": "char_4046_ebnhlz",
+      "name": "黑键",
+      "sourcePath": "avatar/char_4046_ebnhlz.png",
+      "gitBlobSha": "2b135d2dd077d7a2ceb45263f7d0311f358320b2",
+      "expectedBytes": 62810,
+      "priority": false
+    },
+    {
+      "id": "char_4047_pianst",
+      "name": "车尔尼",
+      "sourcePath": "avatar/char_4047_pianst.png",
+      "gitBlobSha": "70012ccfb1ed6be1d620801323b223e00faa6f15",
+      "expectedBytes": 64011,
+      "priority": false
+    },
+    {
+      "id": "char_4048_doroth",
+      "name": "多萝西",
+      "sourcePath": "avatar/char_4048_doroth.png",
+      "gitBlobSha": "ca561cec0a7c8264329de7bfbbb627304270116a",
+      "expectedBytes": 65979,
+      "priority": false
+    },
+    {
+      "id": "char_405_absin",
+      "name": "苦艾",
+      "sourcePath": "avatar/char_405_absin.png",
+      "gitBlobSha": "333d96e9ab4312b3600e14990a08eb85c3caade4",
+      "expectedBytes": 47441,
+      "priority": false
+    },
+    {
+      "id": "char_4051_akkord",
+      "name": "协律",
+      "sourcePath": "avatar/char_4051_akkord.png",
+      "gitBlobSha": "0fa8c3cf74d079667215370d53112a10be61a4d4",
+      "expectedBytes": 53276,
+      "priority": false
+    },
+    {
+      "id": "char_4052_surfer",
+      "name": "寻澜",
+      "sourcePath": "avatar/char_4052_surfer.png",
+      "gitBlobSha": "f4b82dade16ff510935074a176dfe829216f8e7f",
+      "expectedBytes": 47266,
+      "priority": false
+    },
+    {
+      "id": "char_4054_malist",
+      "name": "至简",
+      "sourcePath": "avatar/char_4054_malist.png",
+      "gitBlobSha": "f9f702293cef72ffaeb6ba6d0c7341f593feaa9e",
+      "expectedBytes": 44330,
+      "priority": false
+    },
+    {
+      "id": "char_4055_bgsnow",
+      "name": "鸿雪",
+      "sourcePath": "avatar/char_4055_bgsnow.png",
+      "gitBlobSha": "b4c4bfe51b02e3e857014e77a73df7a76fb22c4f",
+      "expectedBytes": 57963,
+      "priority": false
+    },
+    {
+      "id": "char_4056_titi",
+      "name": "缇缇",
+      "sourcePath": "avatar/char_4056_titi.png",
+      "gitBlobSha": "bcf219fa4b3400856e633cafcdc660df0467545d",
+      "expectedBytes": 47533,
+      "priority": false
+    },
+    {
+      "id": "char_4058_pepe",
+      "name": "佩佩",
+      "sourcePath": "avatar/char_4058_pepe.png",
+      "gitBlobSha": "e31873e7d6cf4ee5536e14114c9185354b88f56b",
+      "expectedBytes": 66599,
+      "priority": false
+    },
+    {
+      "id": "char_4062_totter",
+      "name": "铅踝",
+      "sourcePath": "avatar/char_4062_totter.png",
+      "gitBlobSha": "ea0e939110748bf9dfa3615b912d61b66b803050",
+      "expectedBytes": 55398,
+      "priority": false
+    },
+    {
+      "id": "char_4063_quartz",
+      "name": "石英",
+      "sourcePath": "avatar/char_4063_quartz.png",
+      "gitBlobSha": "5da22bfe810a6ec4c209b5402e3d18ab4124cf80",
+      "expectedBytes": 57126,
+      "priority": false
+    },
+    {
+      "id": "char_4064_mlynar",
+      "name": "玛恩纳",
+      "sourcePath": "avatar/char_4064_mlynar.png",
+      "gitBlobSha": "54ca704bb55d6864c8d60e809e177d9bb7adc6ac",
+      "expectedBytes": 55071,
+      "priority": false
+    },
+    {
+      "id": "char_4065_judge",
+      "name": "斥罪",
+      "sourcePath": "avatar/char_4065_judge.png",
+      "gitBlobSha": "0d1487f0f1ba10eae5d00852536add24c1faad4f",
+      "expectedBytes": 53009,
+      "priority": false
+    },
+    {
+      "id": "char_4066_highmo",
+      "name": "海沫",
+      "sourcePath": "avatar/char_4066_highmo.png",
+      "gitBlobSha": "c70820e61e0ad1abaf6520efd9265c11a23eff12",
+      "expectedBytes": 59503,
+      "priority": false
+    },
+    {
+      "id": "char_4067_lolxh",
+      "name": "罗小黑",
+      "sourcePath": "avatar/char_4067_lolxh.png",
+      "gitBlobSha": "7fd39edda4f2c751b3e3490872432d23a77d6329",
+      "expectedBytes": 50136,
+      "priority": false
+    },
+    {
+      "id": "char_4071_peper",
+      "name": "明椒",
+      "sourcePath": "avatar/char_4071_peper.png",
+      "gitBlobSha": "d5a6e988dc89f0a76163157320e469b2ad5c5dc6",
+      "expectedBytes": 60308,
+      "priority": false
+    },
+    {
+      "id": "char_4072_ironmn",
+      "name": "白铁",
+      "sourcePath": "avatar/char_4072_ironmn.png",
+      "gitBlobSha": "90a14d7b5df572181e5a10ae2cbba8d526963061",
+      "expectedBytes": 58036,
+      "priority": false
+    },
+    {
+      "id": "char_4077_palico",
+      "name": "泰拉大陆调查团",
+      "sourcePath": "avatar/char_4077_palico.png",
+      "gitBlobSha": "a3aff6caaa8bc409158f32e3181aaeac041f68fb",
+      "expectedBytes": 50119,
+      "priority": false
+    },
+    {
+      "id": "char_4078_bdhkgt",
+      "name": "截云",
+      "sourcePath": "avatar/char_4078_bdhkgt.png",
+      "gitBlobSha": "e25019b922f532f943eaebf12e455b4e88398abf",
+      "expectedBytes": 57150,
+      "priority": false
+    },
+    {
+      "id": "char_4079_haini",
+      "name": "海霓",
+      "sourcePath": "avatar/char_4079_haini.png",
+      "gitBlobSha": "d506ea7f9c7b67d0b83fe304a0da0c8435f006bd",
+      "expectedBytes": 53694,
+      "priority": false
+    },
+    {
+      "id": "char_4080_lin",
+      "name": "林",
+      "sourcePath": "avatar/char_4080_lin.png",
+      "gitBlobSha": "a439ee1bb8a383885d9dbd916aacdad577a17253",
+      "expectedBytes": 56325,
+      "priority": false
+    },
+    {
+      "id": "char_4081_warmy",
+      "name": "温米",
+      "sourcePath": "avatar/char_4081_warmy.png",
+      "gitBlobSha": "e4b79c968d1cbc74ae49a73e51e573fabcbdccb2",
+      "expectedBytes": 55161,
+      "priority": false
+    },
+    {
+      "id": "char_4082_qiubai",
+      "name": "仇白",
+      "sourcePath": "avatar/char_4082_qiubai.png",
+      "gitBlobSha": "37a0f063d2d9b361563105672c79f9ed1f4f0e0c",
+      "expectedBytes": 66563,
+      "priority": false
+    },
+    {
+      "id": "char_4083_chimes",
+      "name": "铎铃",
+      "sourcePath": "avatar/char_4083_chimes.png",
+      "gitBlobSha": "48a20ae2212cd7d1b1e8a2586ddf11974bd4832b",
+      "expectedBytes": 58213,
+      "priority": false
+    },
+    {
+      "id": "char_4087_ines",
+      "name": "伊内丝",
+      "sourcePath": "avatar/char_4087_ines.png",
+      "gitBlobSha": "3c96843c3eae4b6a180a4d21302dcbb4a7c7c171",
+      "expectedBytes": 50876,
+      "priority": false
+    },
+    {
+      "id": "char_4088_hodrer",
+      "name": "赫德雷",
+      "sourcePath": "avatar/char_4088_hodrer.png",
+      "gitBlobSha": "3833ac4322795c1ed641f0939d01322efa1b575c",
+      "expectedBytes": 59482,
+      "priority": false
+    },
+    {
+      "id": "char_4091_ulika",
+      "name": "U-Official",
+      "sourcePath": "avatar/char_4091_ulika.png",
+      "gitBlobSha": "7d3cb169c0838ecb340335ccd813f025627b582d",
+      "expectedBytes": 67081,
+      "priority": false
+    },
+    {
+      "id": "char_4093_frston",
+      "name": "Friston-3",
+      "sourcePath": "avatar/char_4093_frston.png",
+      "gitBlobSha": "1605d0297b7d865d3a9b0383904b630587f833a7",
+      "expectedBytes": 45841,
+      "priority": false
+    },
+    {
+      "id": "char_4098_vvana",
+      "name": "薇薇安娜",
+      "sourcePath": "avatar/char_4098_vvana.png",
+      "gitBlobSha": "e1202c4f69cd1d82e29a489b0b37c3117103e9ef",
+      "expectedBytes": 71366,
+      "priority": false
+    },
+    {
+      "id": "char_4100_caper",
+      "name": "跃跃",
+      "sourcePath": "avatar/char_4100_caper.png",
+      "gitBlobSha": "3069313dc4f8a828f8d1a7ba58301dea9aeb7ed5",
+      "expectedBytes": 60425,
+      "priority": false
+    },
+    {
+      "id": "char_4102_threye",
+      "name": "凛视",
+      "sourcePath": "avatar/char_4102_threye.png",
+      "gitBlobSha": "085e9e3546af1b2617fd2a2ae70e3987fa2c9d5c",
+      "expectedBytes": 55173,
+      "priority": false
+    },
+    {
+      "id": "char_4104_coldst",
+      "name": "冰酿",
+      "sourcePath": "avatar/char_4104_coldst.png",
+      "gitBlobSha": "69bd9fa6acba87b67b6d1fd19fb3c6c202bb1602",
+      "expectedBytes": 73731,
+      "priority": false
+    },
+    {
+      "id": "char_4105_almond",
+      "name": "杏仁",
+      "sourcePath": "avatar/char_4105_almond.png",
+      "gitBlobSha": "25e15243db29415fa5456923389fe17220be49c3",
+      "expectedBytes": 60670,
+      "priority": false
+    },
+    {
+      "id": "char_4106_bryota",
+      "name": "苍苔",
+      "sourcePath": "avatar/char_4106_bryota.png",
+      "gitBlobSha": "3cdce70f33a828002d170edd7ab7322bd32aca95",
+      "expectedBytes": 50633,
+      "priority": false
+    },
+    {
+      "id": "char_4107_vrdant",
+      "name": "维荻",
+      "sourcePath": "avatar/char_4107_vrdant.png",
+      "gitBlobSha": "18f4abc6a76b1666857726dd6dccaefa3311c60e",
+      "expectedBytes": 53101,
+      "priority": false
+    },
+    {
+      "id": "char_4109_baslin",
+      "name": "深律",
+      "sourcePath": "avatar/char_4109_baslin.png",
+      "gitBlobSha": "8204d000e7e683d8aceb4f1384f8fd7eaa8ee80a",
+      "expectedBytes": 52740,
+      "priority": false
+    },
+    {
+      "id": "char_411_tomimi",
+      "name": "特米米",
+      "sourcePath": "avatar/char_411_tomimi.png",
+      "gitBlobSha": "a75601d90307608f4b12e87096869f4494fb8632",
+      "expectedBytes": 63546,
+      "priority": false
+    },
+    {
+      "id": "char_4110_delphn",
+      "name": "戴菲恩",
+      "sourcePath": "avatar/char_4110_delphn.png",
+      "gitBlobSha": "3535bbd8c67bf433d01bc8f25431c147b65eecf0",
+      "expectedBytes": 59362,
+      "priority": false
+    },
+    {
+      "id": "char_4114_harold",
+      "name": "哈洛德",
+      "sourcePath": "avatar/char_4114_harold.png",
+      "gitBlobSha": "ea679de3e075486639cfdaab15f83843c6f54ae6",
+      "expectedBytes": 68513,
+      "priority": false
+    },
+    {
+      "id": "char_4116_blkkgt",
+      "name": "锏",
+      "sourcePath": "avatar/char_4116_blkkgt.png",
+      "gitBlobSha": "1eb7b68640bcc99195c857452dab398eef4ff3de",
+      "expectedBytes": 59723,
+      "priority": false
+    },
+    {
+      "id": "char_4117_ray",
+      "name": "莱伊",
+      "sourcePath": "avatar/char_4117_ray.png",
+      "gitBlobSha": "116117fea7f36d8653819a752e87d7d216a6b68b",
+      "expectedBytes": 55912,
+      "priority": false
+    },
+    {
+      "id": "char_4119_wanqin",
+      "name": "万顷",
+      "sourcePath": "avatar/char_4119_wanqin.png",
+      "gitBlobSha": "ff371ebe701793a65a00b8ec667dad00bc7730c8",
+      "expectedBytes": 60341,
+      "priority": false
+    },
+    {
+      "id": "char_4121_zuole",
+      "name": "左乐",
+      "sourcePath": "avatar/char_4121_zuole.png",
+      "gitBlobSha": "e404813a7e081e3aa8c2aa3b8353e55fb1168ce3",
+      "expectedBytes": 53118,
+      "priority": false
+    },
+    {
+      "id": "char_4122_grabds",
+      "name": "小满",
+      "sourcePath": "avatar/char_4122_grabds.png",
+      "gitBlobSha": "1f9b68d1f8ae98ac79adfce580c84d6a59794c49",
+      "expectedBytes": 66999,
+      "priority": false
+    },
+    {
+      "id": "char_4130_luton",
+      "name": "露托",
+      "sourcePath": "avatar/char_4130_luton.png",
+      "gitBlobSha": "cad77355965a5ffc5d9cbd6cec425b376b649e5d",
+      "expectedBytes": 56510,
+      "priority": false
+    },
+    {
+      "id": "char_4131_odda",
+      "name": "奥达",
+      "sourcePath": "avatar/char_4131_odda.png",
+      "gitBlobSha": "8934b4f9dbd3d08fe8e5dd7f49cd1f52a7378f6f",
+      "expectedBytes": 50265,
+      "priority": false
+    },
+    {
+      "id": "char_4132_ascln",
+      "name": "阿斯卡纶",
+      "sourcePath": "avatar/char_4132_ascln.png",
+      "gitBlobSha": "5b00c3fd7336c6662dfbe9730f5edba7081e42c8",
+      "expectedBytes": 73584,
+      "priority": false
+    },
+    {
+      "id": "char_4133_logos",
+      "name": "逻各斯",
+      "sourcePath": "avatar/char_4133_logos.png",
+      "gitBlobSha": "f5f565f0ffeaa834becee0d5909c91874213b2e8",
+      "expectedBytes": 57146,
+      "priority": false
+    },
+    {
+      "id": "char_4134_cetsyr",
+      "name": "魔王",
+      "sourcePath": "avatar/char_4134_cetsyr.png",
+      "gitBlobSha": "21db8069f033c3ba5bf9d9b1ba30e2c5a1b60505",
+      "expectedBytes": 66457,
+      "priority": false
+    },
+    {
+      "id": "char_4136_phonor",
+      "name": "PhonoR-0",
+      "sourcePath": "avatar/char_4136_phonor.png",
+      "gitBlobSha": "001cb367cfd6701cfb3fbd72f139efaea7aeaf29",
+      "expectedBytes": 52938,
+      "priority": false
+    },
+    {
+      "id": "char_4137_udflow",
+      "name": "深巡",
+      "sourcePath": "avatar/char_4137_udflow.png",
+      "gitBlobSha": "d8a83aabb5b8ddf5df5a6f58ab3a9f87a87ee231",
+      "expectedBytes": 56325,
+      "priority": false
+    },
+    {
+      "id": "char_4138_narant",
+      "name": "娜仁图亚",
+      "sourcePath": "avatar/char_4138_narant.png",
+      "gitBlobSha": "7a20f1ab1b33f7d7fbfc8959bb802725fa87d536",
+      "expectedBytes": 76128,
+      "priority": false
+    },
+    {
+      "id": "char_4139_papyrs",
+      "name": "莎草",
+      "sourcePath": "avatar/char_4139_papyrs.png",
+      "gitBlobSha": "41352ca895f711c14e6f314812f42d5c3d5f8a57",
+      "expectedBytes": 62640,
+      "priority": false
+    },
+    {
+      "id": "char_4140_lasher",
+      "name": "衡沙",
+      "sourcePath": "avatar/char_4140_lasher.png",
+      "gitBlobSha": "c07bd09b73dad692cdedbc2d88da1b4ce23e1890",
+      "expectedBytes": 58561,
+      "priority": false
+    },
+    {
+      "id": "char_4141_marcil",
+      "name": "玛露西尔",
+      "sourcePath": "avatar/char_4141_marcil.png",
+      "gitBlobSha": "c91806fce087f255243fcaa17f94d970a42aab86",
+      "expectedBytes": 55998,
+      "priority": false
+    },
+    {
+      "id": "char_4142_laios",
+      "name": "莱欧斯",
+      "sourcePath": "avatar/char_4142_laios.png",
+      "gitBlobSha": "8adeb2f72bc71e661f0e838e3cf84242ed3669e4",
+      "expectedBytes": 45001,
+      "priority": false
+    },
+    {
+      "id": "char_4143_sensi",
+      "name": "森西",
+      "sourcePath": "avatar/char_4143_sensi.png",
+      "gitBlobSha": "20a6dc7bfdfa3bace1ce4f70ba8597d89f2de902",
+      "expectedBytes": 59606,
+      "priority": false
+    },
+    {
+      "id": "char_4144_chilc",
+      "name": "齐尔查克",
+      "sourcePath": "avatar/char_4144_chilc.png",
+      "gitBlobSha": "ae4fa81f8c48c10a298b7fbbc26452ef16a8c2ca",
+      "expectedBytes": 45478,
+      "priority": false
+    },
+    {
+      "id": "char_4145_ulpia",
+      "name": "乌尔比安",
+      "sourcePath": "avatar/char_4145_ulpia.png",
+      "gitBlobSha": "2bf940f2078cb4286f1a119ceabd8328e6b075dd",
+      "expectedBytes": 55291,
+      "priority": false
+    },
+    {
+      "id": "char_4146_nymph",
+      "name": "妮芙",
+      "sourcePath": "avatar/char_4146_nymph.png",
+      "gitBlobSha": "5524976784058346f35cded94cafc7ac1c2b1e30",
+      "expectedBytes": 64101,
+      "priority": false
+    },
+    {
+      "id": "char_4147_mitm",
+      "name": "渡桥",
+      "sourcePath": "avatar/char_4147_mitm.png",
+      "gitBlobSha": "d0fbdd479f0d40e33d45688c56ab4753f00de372",
+      "expectedBytes": 67270,
+      "priority": false
+    },
+    {
+      "id": "char_4148_philae",
+      "name": "菲莱",
+      "sourcePath": "avatar/char_4148_philae.png",
+      "gitBlobSha": "3ecac359ef6ac5f80a34c7dbc6bda49a8d8c8c19",
+      "expectedBytes": 52704,
+      "priority": false
+    },
+    {
+      "id": "char_415_flint",
+      "name": "燧石",
+      "sourcePath": "avatar/char_415_flint.png",
+      "gitBlobSha": "747384ab8eeec9d8c98e9f767e6d0f0babbfcb38",
+      "expectedBytes": 52285,
+      "priority": false
+    },
+    {
+      "id": "char_4151_tinman",
+      "name": "锡人",
+      "sourcePath": "avatar/char_4151_tinman.png",
+      "gitBlobSha": "8a1962a1f737ba1b2e4160d5dd8811141aaaffe9",
+      "expectedBytes": 53874,
+      "priority": false
+    },
+    {
+      "id": "char_4155_talr",
+      "name": "裁度",
+      "sourcePath": "avatar/char_4155_talr.png",
+      "gitBlobSha": "9521257b48feb8a1c53564b986ab597d92d5d095",
+      "expectedBytes": 57741,
+      "priority": false
+    },
+    {
+      "id": "char_416_zumama",
+      "name": "森蚺",
+      "sourcePath": "avatar/char_416_zumama.png",
+      "gitBlobSha": "8c062a7d38782c9ed81e7b273a697555bcc0d53c",
+      "expectedBytes": 60134,
+      "priority": false
+    },
+    {
+      "id": "char_4162_cathy",
+      "name": "凯瑟琳",
+      "sourcePath": "avatar/char_4162_cathy.png",
+      "gitBlobSha": "a2f28ceba084ddeb9f885369c1d01a68c3ebfe31",
+      "expectedBytes": 67867,
+      "priority": false
+    },
+    {
+      "id": "char_4163_rosesa",
+      "name": "瑰盐",
+      "sourcePath": "avatar/char_4163_rosesa.png",
+      "gitBlobSha": "3f0b472ffc0d3e783ebebb59ecfdca0054d6a543",
+      "expectedBytes": 64019,
+      "priority": false
+    },
+    {
+      "id": "char_4164_tecno",
+      "name": "特克诺",
+      "sourcePath": "avatar/char_4164_tecno.png",
+      "gitBlobSha": "154d7e57242a5f7ae38efde102ab2299dfae3e8b",
+      "expectedBytes": 63899,
+      "priority": false
+    },
+    {
+      "id": "char_4165_ctrail",
+      "name": "云迹",
+      "sourcePath": "avatar/char_4165_ctrail.png",
+      "gitBlobSha": "69d8f94d81904bb4800fe3414863636792b65567",
+      "expectedBytes": 50884,
+      "priority": false
+    },
+    {
+      "id": "char_4166_varkis",
+      "name": "摆渡人",
+      "sourcePath": "avatar/char_4166_varkis.png",
+      "gitBlobSha": "25b06d5c8816a961b1fe0ac4bd3034596786e0e5",
+      "expectedBytes": 63977,
+      "priority": false
+    },
+    {
+      "id": "char_4171_wulfen",
+      "name": "钼铅",
+      "sourcePath": "avatar/char_4171_wulfen.png",
+      "gitBlobSha": "b98267811ff722adaac761c2afa9a6f97744b101",
+      "expectedBytes": 68042,
+      "priority": false
+    },
+    {
+      "id": "char_4172_xingzh",
+      "name": "行箸",
+      "sourcePath": "avatar/char_4172_xingzh.png",
+      "gitBlobSha": "0c0798193c831dd30ced6f36998822e28f1c3913",
+      "expectedBytes": 64770,
+      "priority": false
+    },
+    {
+      "id": "char_4173_nowell",
+      "name": "诺威尔",
+      "sourcePath": "avatar/char_4173_nowell.png",
+      "gitBlobSha": "e5d4c6d87c611799ff832f1387cd9dabc5e71d11",
+      "expectedBytes": 60338,
+      "priority": false
+    },
+    {
+      "id": "char_4177_brigid",
+      "name": "水灯心",
+      "sourcePath": "avatar/char_4177_brigid.png",
+      "gitBlobSha": "14eeb2ae213cfe0eb7f0e06e1e16b4c5676f470d",
+      "expectedBytes": 57815,
+      "priority": false
+    },
+    {
+      "id": "char_4178_alanna",
+      "name": "阿兰娜",
+      "sourcePath": "avatar/char_4178_alanna.png",
+      "gitBlobSha": "b029798ddd1122965d57aa1c49596b3e8d83506a",
+      "expectedBytes": 60223,
+      "priority": false
+    },
+    {
+      "id": "char_4179_monstr",
+      "name": "Mon3tr",
+      "sourcePath": "avatar/char_4179_monstr.png",
+      "gitBlobSha": "647560376d1bd248167861d7b17f28ee45498d9c",
+      "expectedBytes": 60812,
+      "priority": false
+    },
+    {
+      "id": "char_4182_oblvns",
+      "name": "丰川祥子",
+      "sourcePath": "avatar/char_4182_oblvns.png",
+      "gitBlobSha": "4c10c78bb15cd071525646d3bd66413c2e482541",
+      "expectedBytes": 63083,
+      "priority": false
+    },
+    {
+      "id": "char_4183_mortis",
+      "name": "若叶睦",
+      "sourcePath": "avatar/char_4183_mortis.png",
+      "gitBlobSha": "aa96df68ab00339b4fffe723fa5e438970e3fb21",
+      "expectedBytes": 48143,
+      "priority": false
+    },
+    {
+      "id": "char_4184_dolris",
+      "name": "三角初华",
+      "sourcePath": "avatar/char_4184_dolris.png",
+      "gitBlobSha": "030244ebce90d62cc44009836bdb79b9fcc0e0e3",
+      "expectedBytes": 52402,
+      "priority": false
+    },
+    {
+      "id": "char_4185_amoris",
+      "name": "祐天寺若麦",
+      "sourcePath": "avatar/char_4185_amoris.png",
+      "gitBlobSha": "9120efa1aecb1886fe3d08926d6e1a298886d0d6",
+      "expectedBytes": 58822,
+      "priority": false
+    },
+    {
+      "id": "char_4186_tmoris",
+      "name": "八幡海铃",
+      "sourcePath": "avatar/char_4186_tmoris.png",
+      "gitBlobSha": "f926561b5b13c09aebe21685d2c5a4758a2071b1",
+      "expectedBytes": 54317,
+      "priority": false
+    },
+    {
+      "id": "char_4187_graceb",
+      "name": "聆音",
+      "sourcePath": "avatar/char_4187_graceb.png",
+      "gitBlobSha": "2bb28867cc3d76254b2c6a0cf6f5f4a06a0f4742",
+      "expectedBytes": 66741,
+      "priority": false
+    },
+    {
+      "id": "char_4188_confes",
+      "name": "CONFESS-47",
+      "sourcePath": "avatar/char_4188_confes.png",
+      "gitBlobSha": "1747fa833ae458f3c6a61f5050a07a6c64884551",
+      "expectedBytes": 55565,
+      "priority": false
+    },
+    {
+      "id": "char_4191_tippi",
+      "name": "蒂比",
+      "sourcePath": "avatar/char_4191_tippi.png",
+      "gitBlobSha": "785398175ab28609f09ac087b39883c5ec8d27f8",
+      "expectedBytes": 68314,
+      "priority": false
+    },
+    {
+      "id": "char_4193_lemuen",
+      "name": "蕾缪安",
+      "sourcePath": "avatar/char_4193_lemuen.png",
+      "gitBlobSha": "e6a337039201c996f2712703b537d3ac6ff0178a",
+      "expectedBytes": 47328,
+      "priority": false
+    },
+    {
+      "id": "char_4194_rmixer",
+      "name": "信仰搅拌机",
+      "sourcePath": "avatar/char_4194_rmixer.png",
+      "gitBlobSha": "1e8473a5f6ec4ee1c341f76757294958cd7c29d5",
+      "expectedBytes": 55458,
+      "priority": false
+    },
+    {
+      "id": "char_4195_radian",
+      "name": "电弧",
+      "sourcePath": "avatar/char_4195_radian.png",
+      "gitBlobSha": "122fab13d1b0c9762b975113b9e2f4d1e9869288",
+      "expectedBytes": 48119,
+      "priority": false
+    },
+    {
+      "id": "char_4196_reckpr",
+      "name": "录武官",
+      "sourcePath": "avatar/char_4196_reckpr.png",
+      "gitBlobSha": "9c91716e21406cdcb8569e91d7de08580660eaa4",
+      "expectedBytes": 56350,
+      "priority": false
+    },
+    {
+      "id": "char_4198_christ",
+      "name": "Miss.Christine",
+      "sourcePath": "avatar/char_4198_christ.png",
+      "gitBlobSha": "1879cbd17c53a60ba1b382e63fe6bee7ad71a430",
+      "expectedBytes": 49716,
+      "priority": false
+    },
+    {
+      "id": "char_4199_makiri",
+      "name": "松桐",
+      "sourcePath": "avatar/char_4199_makiri.png",
+      "gitBlobSha": "7a7c7817dc557d6fbdda1ecb6622842248be7bb5",
+      "expectedBytes": 70237,
+      "priority": false
+    },
+    {
+      "id": "char_420_flamtl",
+      "name": "焰尾",
+      "sourcePath": "avatar/char_420_flamtl.png",
+      "gitBlobSha": "f4ac01c34c4f969364059e9e0edf79f3c7c8e404",
+      "expectedBytes": 68885,
+      "priority": false
+    },
+    {
+      "id": "char_4202_haruka",
+      "name": "遥",
+      "sourcePath": "avatar/char_4202_haruka.png",
+      "gitBlobSha": "d5eb0a96aac6ccb503a89854c2d98a817a8501f2",
+      "expectedBytes": 70363,
+      "priority": false
+    },
+    {
+      "id": "char_4203_kichi",
+      "name": "吉星",
+      "sourcePath": "avatar/char_4203_kichi.png",
+      "gitBlobSha": "fcb7cd0b5d79191a73c98b54caea9dc6664948a9",
+      "expectedBytes": 56930,
+      "priority": false
+    },
+    {
+      "id": "char_4204_mantra",
+      "name": "真言",
+      "sourcePath": "avatar/char_4204_mantra.png",
+      "gitBlobSha": "2e57b3e9b86cd9858bb8c0cb419230c2f5ae03b5",
+      "expectedBytes": 59215,
+      "priority": false
+    },
+    {
+      "id": "char_4207_branch",
+      "name": "折桠",
+      "sourcePath": "avatar/char_4207_branch.png",
+      "gitBlobSha": "5a23af284a832a6626c4139c377cbd752c8c2e2e",
+      "expectedBytes": 57948,
+      "priority": false
+    },
+    {
+      "id": "char_4208_wintim",
+      "name": "冬时",
+      "sourcePath": "avatar/char_4208_wintim.png",
+      "gitBlobSha": "70bd6c4b6e0e4dea6a18b8cba933a56dfec0b0f4",
+      "expectedBytes": 65446,
+      "priority": false
+    },
+    {
+      "id": "char_421_crow",
+      "name": "羽毛笔",
+      "sourcePath": "avatar/char_421_crow.png",
+      "gitBlobSha": "e516e8f8dbeec00fd65acdbd1edac5ff77985da0",
+      "expectedBytes": 51724,
+      "priority": false
+    },
+    {
+      "id": "char_4211_snhunt",
+      "name": "雪猎",
+      "sourcePath": "avatar/char_4211_snhunt.png",
+      "gitBlobSha": "cac257037eceb0caf4eb4e93a55f51631818df02",
+      "expectedBytes": 72601,
+      "priority": false
+    },
+    {
+      "id": "char_4212_nasti",
+      "name": "娜斯提",
+      "sourcePath": "avatar/char_4212_nasti.png",
+      "gitBlobSha": "a364908d416dcbaebd623e696b380a98aed020f1",
+      "expectedBytes": 55742,
+      "priority": false
+    },
+    {
+      "id": "char_4213_skybx",
+      "name": "天空盒",
+      "sourcePath": "avatar/char_4213_skybx.png",
+      "gitBlobSha": "c13bb631a00c411888f6b9fd9c33a8b2760e2b1b",
+      "expectedBytes": 64784,
+      "priority": false
+    },
+    {
+      "id": "char_4214_cairn",
+      "name": "响石",
+      "sourcePath": "avatar/char_4214_cairn.png",
+      "gitBlobSha": "7c0bfcba231081d9ba78b3622d17a953d617fdb5",
+      "expectedBytes": 68147,
+      "priority": false
+    },
+    {
+      "id": "char_4215_buddy",
+      "name": "罗德岛隐秘队",
+      "sourcePath": "avatar/char_4215_buddy.png",
+      "gitBlobSha": "9bb7f8a2d28e3a930c9c2957044549d4334bce9f",
+      "expectedBytes": 58135,
+      "priority": false
+    },
+    {
+      "id": "char_4217_makoto",
+      "name": "结城理",
+      "sourcePath": "avatar/char_4217_makoto.png",
+      "gitBlobSha": "ace6f4055e6b86a23d7a7b52e9e9e376c6aa0851",
+      "expectedBytes": 51518,
+      "priority": false
+    },
+    {
+      "id": "char_4218_aigis",
+      "name": "埃癸斯",
+      "sourcePath": "avatar/char_4218_aigis.png",
+      "gitBlobSha": "2ebf3f59c4b1a7584c752864e753a911f46db84f",
+      "expectedBytes": 53421,
+      "priority": false
+    },
+    {
+      "id": "char_4219_yukari",
+      "name": "岳羽由加莉",
+      "sourcePath": "avatar/char_4219_yukari.png",
+      "gitBlobSha": "cd8a461cbfcb67202a063b1f445546aa5ee01324",
+      "expectedBytes": 46608,
+      "priority": false
+    },
+    {
+      "id": "char_422_aurora",
+      "name": "极光",
+      "sourcePath": "avatar/char_422_aurora.png",
+      "gitBlobSha": "2b4040df4cab33a126ad86ea259c3721eb45b34c",
+      "expectedBytes": 54051,
+      "priority": false
+    },
+    {
+      "id": "char_4220_kormr",
+      "name": "虎狼丸",
+      "sourcePath": "avatar/char_4220_kormr.png",
+      "gitBlobSha": "e9cef7250c51342cfa149065c16766a323f5513b",
+      "expectedBytes": 47875,
+      "priority": false
+    },
+    {
+      "id": "char_4221_ju",
+      "name": "矩",
+      "sourcePath": "avatar/char_4221_ju.png",
+      "gitBlobSha": "1409c4495874a0ae40779d61fd1ac05ce4dba4eb",
+      "expectedBytes": 56193,
+      "priority": false
+    },
+    {
+      "id": "char_4222_taraxa",
+      "name": "风絮",
+      "sourcePath": "avatar/char_4222_taraxa.png",
+      "gitBlobSha": "ddd19c2a821d28e67658e50721dafb0dd08c7024",
+      "expectedBytes": 69038,
+      "priority": false
+    },
+    {
+      "id": "char_4223_botany",
+      "name": "伯塔尼",
+      "sourcePath": "avatar/char_4223_botany.png",
+      "gitBlobSha": "3ebeefaedcbad5f34023119c8acd3ca6acfd8d73",
+      "expectedBytes": 61897,
+      "priority": false
+    },
+    {
+      "id": "char_4224_turdus",
+      "name": "乌啾",
+      "sourcePath": "avatar/char_4224_turdus.png",
+      "gitBlobSha": "709a9439bc200ce37b244dd472e3d7ac9521f97e",
+      "expectedBytes": 62419,
+      "priority": false
+    },
+    {
+      "id": "char_4225_tanya",
+      "name": "裂响",
+      "sourcePath": "avatar/char_4225_tanya.png",
+      "gitBlobSha": "4d311ec6204fb21dc43ad33466845b29b27e590f",
+      "expectedBytes": 66139,
+      "priority": false
+    },
+    {
+      "id": "char_4226_veen",
+      "name": "维伊",
+      "sourcePath": "avatar/char_4226_veen.png",
+      "gitBlobSha": "490e4be35de457ea539a8708fbf68e85926e062e",
+      "expectedBytes": 62308,
+      "priority": false
+    },
+    {
+      "id": "char_4227_gallus",
+      "name": "GALLUS²",
+      "sourcePath": "avatar/char_4227_gallus.png",
+      "gitBlobSha": "75950d79828883c07ac5f8bcbd5000cef47cf60e",
+      "expectedBytes": 60920,
+      "priority": false
+    },
+    {
+      "id": "char_4229_aphris",
+      "name": "谬因",
+      "sourcePath": "avatar/char_4229_aphris.png",
+      "gitBlobSha": "c31dd6395006767fd5365a50678f56df0ac93409",
+      "expectedBytes": 60099,
+      "priority": false
+    },
+    {
+      "id": "char_423_blemsh",
+      "name": "瑕光",
+      "sourcePath": "avatar/char_423_blemsh.png",
+      "gitBlobSha": "c68453cb7b9aadd094749644e5ba601370638c29",
+      "expectedBytes": 69294,
+      "priority": false
+    },
+    {
+      "id": "char_4230_mcnist",
+      "name": "机械师",
+      "sourcePath": "avatar/char_4230_mcnist.png",
+      "gitBlobSha": "a81faeba3c046496d8d6e666c1fdea7c5be9792b",
+      "expectedBytes": 52843,
+      "priority": false
+    },
+    {
+      "id": "char_4234_pedro",
+      "name": "佩德洛",
+      "sourcePath": "avatar/char_4234_pedro.png",
+      "gitBlobSha": "e4181390f0d28a3a9be3ec1d2af93d9087d70fb0",
+      "expectedBytes": 69340,
+      "priority": false
+    },
+    {
+      "id": "char_4235_thumpy",
+      "name": "珊比",
+      "sourcePath": "avatar/char_4235_thumpy.png",
+      "gitBlobSha": "b09d951b73551d51b451c4b938e675e04dde7d5d",
+      "expectedBytes": 59501,
+      "priority": false
+    },
+    {
+      "id": "char_4236_tmslot",
+      "name": "时隙",
+      "sourcePath": "avatar/char_4236_tmslot.png",
+      "gitBlobSha": "79515895905d0269ac8a3b6d21a7caf0da27a2f4",
+      "expectedBytes": 69584,
+      "priority": false
+    },
+    {
+      "id": "char_4237_jcinta",
+      "name": "嘉辛塔",
+      "sourcePath": "avatar/char_4237_jcinta.png",
+      "gitBlobSha": "bb204b6b88f878e13e9cbdf058d7eeb406d6a957",
+      "expectedBytes": 59152,
+      "priority": false
+    },
+    {
+      "id": "char_426_billro",
+      "name": "卡涅利安",
+      "sourcePath": "avatar/char_426_billro.png",
+      "gitBlobSha": "82418b9d57ee0564cee5d6a085a9ae10f3b9f420",
+      "expectedBytes": 61608,
+      "priority": false
+    },
+    {
+      "id": "char_427_vigil",
+      "name": "伺夜",
+      "sourcePath": "avatar/char_427_vigil.png",
+      "gitBlobSha": "a032eb011bea8ae9c047a4298b57cd3095b6de9d",
+      "expectedBytes": 70441,
+      "priority": false
+    },
+    {
+      "id": "char_430_fartth",
+      "name": "远牙",
+      "sourcePath": "avatar/char_430_fartth.png",
+      "gitBlobSha": "89b9e3a7d1a1ca50ae09ec7761ad6416983ea4df",
+      "expectedBytes": 66563,
+      "priority": false
+    },
+    {
+      "id": "char_431_ashlok",
+      "name": "灰毫",
+      "sourcePath": "avatar/char_431_ashlok.png",
+      "gitBlobSha": "5247ae3612d7cec1f75401e41df3aeed529905b6",
+      "expectedBytes": 66713,
+      "priority": false
+    },
+    {
+      "id": "char_433_windft",
+      "name": "掠风",
+      "sourcePath": "avatar/char_433_windft.png",
+      "gitBlobSha": "acf26d179a317cbeba45d64320c475a0c867a447",
+      "expectedBytes": 38521,
+      "priority": false
+    },
+    {
+      "id": "char_436_whispr",
+      "name": "絮雨",
+      "sourcePath": "avatar/char_436_whispr.png",
+      "gitBlobSha": "2601eaaec33693719bf3cfb67b8d72a68902a263",
+      "expectedBytes": 53186,
+      "priority": false
+    },
+    {
+      "id": "char_437_mizuki",
+      "name": "水月",
+      "sourcePath": "avatar/char_437_mizuki.png",
+      "gitBlobSha": "b069717428cfd931fa375e01e6cc23041aaddfe3",
+      "expectedBytes": 61718,
+      "priority": false
+    },
+    {
+      "id": "char_440_pinecn",
+      "name": "松果",
+      "sourcePath": "avatar/char_440_pinecn.png",
+      "gitBlobSha": "ee6eb31963f49e052679e909c6e48fe4d85bbf4e",
+      "expectedBytes": 60781,
+      "priority": false
+    },
+    {
+      "id": "char_446_aroma",
+      "name": "阿罗玛",
+      "sourcePath": "avatar/char_446_aroma.png",
+      "gitBlobSha": "bfd89515333dd308a1ece2552398bbd9684c0bd0",
+      "expectedBytes": 52274,
+      "priority": false
+    },
+    {
+      "id": "char_449_glider",
+      "name": "蜜莓",
+      "sourcePath": "avatar/char_449_glider.png",
+      "gitBlobSha": "aeb446e316389ba21ccc62162d385ee891448148",
+      "expectedBytes": 59231,
+      "priority": false
+    },
+    {
+      "id": "char_450_necras",
+      "name": "死芒",
+      "sourcePath": "avatar/char_450_necras.png",
+      "gitBlobSha": "9666144567454ee0ffe0416330bd2b3ebc92b83f",
+      "expectedBytes": 62740,
+      "priority": false
+    },
+    {
+      "id": "char_451_robin",
+      "name": "罗宾",
+      "sourcePath": "avatar/char_451_robin.png",
+      "gitBlobSha": "e4cb5cb4f3668fdb7afac6d6e5bb1ec0635a10fb",
+      "expectedBytes": 55474,
+      "priority": false
+    },
+    {
+      "id": "char_452_bstalk",
+      "name": "豆苗",
+      "sourcePath": "avatar/char_452_bstalk.png",
+      "gitBlobSha": "3cd3f4d9155a44044042a7ad3c9191f42dca8f9f",
+      "expectedBytes": 58888,
+      "priority": false
+    },
+    {
+      "id": "char_455_nothin",
+      "name": "乌有",
+      "sourcePath": "avatar/char_455_nothin.png",
+      "gitBlobSha": "2e3aa397fa6471f8456386f151dd785281c4e911",
+      "expectedBytes": 62871,
+      "priority": false
+    },
+    {
+      "id": "char_464_cement",
+      "name": "洋灰",
+      "sourcePath": "avatar/char_464_cement.png",
+      "gitBlobSha": "855b1bbc1a3f232b46c5d214eca1895af5a993e9",
+      "expectedBytes": 59505,
+      "priority": false
+    },
+    {
+      "id": "char_466_qanik",
+      "name": "雪绒",
+      "sourcePath": "avatar/char_466_qanik.png",
+      "gitBlobSha": "b9f6f5039ecb6ac71416e026d8587f5ee66b30dc",
+      "expectedBytes": 53846,
+      "priority": false
+    },
+    {
+      "id": "char_469_indigo",
+      "name": "深靛",
+      "sourcePath": "avatar/char_469_indigo.png",
+      "gitBlobSha": "a50f14e14f2e1d6bc945ba483abbdd6706b3c3f3",
+      "expectedBytes": 59145,
+      "priority": false
+    },
+    {
+      "id": "char_472_pasngr",
+      "name": "异客",
+      "sourcePath": "avatar/char_472_pasngr.png",
+      "gitBlobSha": "5e163c1d77b0b1ceb8f2fad3b223b6bac03d343c",
+      "expectedBytes": 52614,
+      "priority": false
+    },
+    {
+      "id": "char_473_mberry",
+      "name": "桑葚",
+      "sourcePath": "avatar/char_473_mberry.png",
+      "gitBlobSha": "f22fc39be2cc0e51151360798871b673ba888e37",
+      "expectedBytes": 55186,
+      "priority": false
+    },
+    {
+      "id": "char_474_glady",
+      "name": "歌蕾蒂娅",
+      "sourcePath": "avatar/char_474_glady.png",
+      "gitBlobSha": "7dbed7727a8f7fc94c5f88c33a5563dd98cfdb73",
+      "expectedBytes": 57729,
+      "priority": false
+    },
+    {
+      "id": "char_475_akafyu",
+      "name": "赤冬",
+      "sourcePath": "avatar/char_475_akafyu.png",
+      "gitBlobSha": "8b0680f67b024741d342bf0cf46adeb83159eab3",
+      "expectedBytes": 67939,
+      "priority": false
+    },
+    {
+      "id": "char_476_blkngt",
+      "name": "夜半",
+      "sourcePath": "avatar/char_476_blkngt.png",
+      "gitBlobSha": "27038a7c0cf62671f049a4ae6b6371db818bd3f9",
+      "expectedBytes": 62756,
+      "priority": false
+    },
+    {
+      "id": "char_478_kirara",
+      "name": "绮良",
+      "sourcePath": "avatar/char_478_kirara.png",
+      "gitBlobSha": "6862a3d474763a69357bf27db01ffeaa6e1afb2b",
+      "expectedBytes": 55780,
+      "priority": false
+    },
+    {
+      "id": "char_479_sleach",
+      "name": "琴柳",
+      "sourcePath": "avatar/char_479_sleach.png",
+      "gitBlobSha": "de1ec6a9799af23ecb35ed3766c25e99d911e841",
+      "expectedBytes": 51863,
+      "priority": false
+    },
+    {
+      "id": "char_484_robrta",
+      "name": "罗比菈塔",
+      "sourcePath": "avatar/char_484_robrta.png",
+      "gitBlobSha": "e222e0e72e432a5cbe9d9098073ac25694b2d067",
+      "expectedBytes": 48446,
+      "priority": false
+    },
+    {
+      "id": "char_485_pallas",
+      "name": "帕拉斯",
+      "sourcePath": "avatar/char_485_pallas.png",
+      "gitBlobSha": "239321f896eac56e568f4bb3e7e5a7e2fe5b3bf7",
+      "expectedBytes": 64237,
+      "priority": false
+    },
+    {
+      "id": "char_486_takila",
+      "name": "龙舌兰",
+      "sourcePath": "avatar/char_486_takila.png",
+      "gitBlobSha": "985b19f823887dc44f05b4fc2efffc4203a29bae",
+      "expectedBytes": 56981,
+      "priority": false
+    },
+    {
+      "id": "char_487_bobb",
+      "name": "波卜",
+      "sourcePath": "avatar/char_487_bobb.png",
+      "gitBlobSha": "830c6b58a1452700e108cf38e0c5dd19cab7379f",
+      "expectedBytes": 51084,
+      "priority": false
+    },
+    {
+      "id": "char_488_buildr",
+      "name": "青枳",
+      "sourcePath": "avatar/char_488_buildr.png",
+      "gitBlobSha": "62d4735dba166aadfaef0674eeee153b2c3f1e6e",
+      "expectedBytes": 61591,
+      "priority": false
+    },
+    {
+      "id": "char_489_serum",
+      "name": "蚀清",
+      "sourcePath": "avatar/char_489_serum.png",
+      "gitBlobSha": "3ce040a37f2975c4ad825b9147e05ed178b380c9",
+      "expectedBytes": 44260,
+      "priority": false
+    },
+    {
+      "id": "char_491_humus",
+      "name": "休谟斯",
+      "sourcePath": "avatar/char_491_humus.png",
+      "gitBlobSha": "c4958d969e316f4e214cde0b8ec507f5b2b8b3f8",
+      "expectedBytes": 69286,
+      "priority": false
+    },
+    {
+      "id": "char_492_quercu",
+      "name": "夏栎",
+      "sourcePath": "avatar/char_492_quercu.png",
+      "gitBlobSha": "724b488c2c038625622c4d67ae357bfd00d2141e",
+      "expectedBytes": 67593,
+      "priority": false
+    },
+    {
+      "id": "char_493_firwhl",
+      "name": "火哨",
+      "sourcePath": "avatar/char_493_firwhl.png",
+      "gitBlobSha": "1c3c7c86017fbf5980101942ae16783760f49ec2",
+      "expectedBytes": 47619,
+      "priority": false
+    },
+    {
+      "id": "char_494_vendla",
+      "name": "刺玫",
+      "sourcePath": "avatar/char_494_vendla.png",
+      "gitBlobSha": "9cda1ce4cdebce3b2ecac201483384d23f44f56d",
+      "expectedBytes": 63399,
+      "priority": false
+    },
+    {
+      "id": "char_496_wildmn",
+      "name": "野鬃",
+      "sourcePath": "avatar/char_496_wildmn.png",
+      "gitBlobSha": "a3df159dda5365d96070ef908180e3d4a134a2df",
+      "expectedBytes": 71557,
+      "priority": false
+    },
+    {
+      "id": "char_497_ctable",
+      "name": "晓歌",
+      "sourcePath": "avatar/char_497_ctable.png",
+      "gitBlobSha": "4df6440290d572e5267aba028d65dba00d8bef1d",
+      "expectedBytes": 51895,
+      "priority": false
+    },
+    {
+      "id": "char_498_inside",
+      "name": "隐现",
+      "sourcePath": "avatar/char_498_inside.png",
+      "gitBlobSha": "c74c15ccf855943bb290d3938c0067d1799258d6",
+      "expectedBytes": 41230,
+      "priority": false
+    },
+    {
+      "id": "char_499_kaitou",
+      "name": "折光",
+      "sourcePath": "avatar/char_499_kaitou.png",
+      "gitBlobSha": "0db9d0cd9100725491515176d329e147ecf35ee4",
+      "expectedBytes": 57605,
+      "priority": false
+    },
+    {
+      "id": "char_500_noirc",
+      "name": "黑角",
+      "sourcePath": "avatar/char_500_noirc.png",
+      "gitBlobSha": "de2f9da0d6affb006d23460a76ae18385c5d5f5a",
+      "expectedBytes": 60316,
+      "priority": false
+    },
+    {
+      "id": "char_501_durin",
+      "name": "杜林",
+      "sourcePath": "avatar/char_501_durin.png",
+      "gitBlobSha": "be4868ff70d4c3370aaaa04e916f894fb2c07e47",
+      "expectedBytes": 43401,
+      "priority": false
+    },
+    {
+      "id": "char_502_nblade",
+      "name": "夜刀",
+      "sourcePath": "avatar/char_502_nblade.png",
+      "gitBlobSha": "c29e59e65c86fe54f72e61fd9173b773a40cd334",
+      "expectedBytes": 50978,
+      "priority": false
+    },
+    {
+      "id": "char_503_rang",
+      "name": "巡林者",
+      "sourcePath": "avatar/char_503_rang.png",
+      "gitBlobSha": "2ef52a9c079bb4e1cefee3484ebdae33a671d32a",
+      "expectedBytes": 58651,
+      "priority": false
+    },
+    {
+      "id": "char_508_aguard",
+      "name": "Sharp",
+      "sourcePath": "avatar/char_508_aguard.png",
+      "gitBlobSha": "d40842990837869d7e075adadc662238247c2afc",
+      "expectedBytes": 43154,
+      "priority": false
+    },
+    {
+      "id": "char_509_acast",
+      "name": "Pith",
+      "sourcePath": "avatar/char_509_acast.png",
+      "gitBlobSha": "73bac20bfeaea2f3545339323cf84e8cda84d6c7",
+      "expectedBytes": 53323,
+      "priority": false
+    },
+    {
+      "id": "char_510_amedic",
+      "name": "Touch",
+      "sourcePath": "avatar/char_510_amedic.png",
+      "gitBlobSha": "588ac25ff148d0b542fc2236d9fce4144cd99e87",
+      "expectedBytes": 52891,
+      "priority": false
+    },
+    {
+      "id": "char_511_asnipe",
+      "name": "Stormeye",
+      "sourcePath": "avatar/char_511_asnipe.png",
+      "gitBlobSha": "9549cff3858f35589b3deb4103d5870f6c1aa789",
+      "expectedBytes": 46309,
+      "priority": false
+    },
+    {
+      "id": "char_513_apionr",
+      "name": "郁金香",
+      "sourcePath": "avatar/char_513_apionr.png",
+      "gitBlobSha": "7329c5afceb3197b84c648f088b99a879ee615b2",
+      "expectedBytes": 66382,
+      "priority": false
+    },
+    {
+      "id": "char_615_acspec",
+      "name": "Misery",
+      "sourcePath": "avatar/char_615_acspec.png",
+      "gitBlobSha": "47e911f36afb4aadcd3750fd2fe4240b7bbd1866",
+      "expectedBytes": 47646,
+      "priority": false
+    }
+  ]
+}

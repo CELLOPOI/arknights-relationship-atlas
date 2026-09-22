@@ -1,0 +1,91 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 28,
+          "line": 11,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lasher_1_1.txt",
+          "quote": "[charslot(slot = \"m\", name = \"avg_4140_lasher_1#5$1\", duration=1)]\n[Delay(time=1.5)]\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#5$1\",focus=\"m\")]\n[name=\"拉恕尔\"]米奥，米奥？\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#8$1\",focus=\"m\")]\n[name=\"米奥\"]（不耐烦地甩尾巴）\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#15$1\",focus=\"m\")]\n[name=\"拉恕尔\"]怎么回事啊，米奥……？从昨天开始就一直昏昏欲睡的……\n[name=\"拉恕尔\"]奇怪，该不会真的病了吧……让我看看。\n[Dialog]\n[charslot(duration=0.5)]\n[Delay(time=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#8$1\",focus=\"m\")]\n[PlaySound(key=\"$d_avg_meowlong\", volume=1)]\n[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=60,duration=0.5)]\n[name=\"米奥\"]*古萨尔贡俚语*！\n[name=\"米奥\"]别扒我的眼皮，没规矩的仆从！\n[name=\"米奥\"]你再这样，我就……"
+        }
+      ],
+      "description": "拉恕尔检查米奥眼皮，米奥当面抗议；avg_4140_lasher 立绘确认拉恕尔为衡沙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "char_4140_lasher",
+          "reason": "拉恕尔检查米奥眼皮，米奥当面抗议；avg_4140_lasher 立绘确认拉恕尔为衡沙。",
+          "status": "supported",
+          "to": "npc_08a5376de9194cbe"
+        },
+        {
+          "evidenceIds": [
+            "E1"
+          ],
+          "from": "npc_08a5376de9194cbe",
+          "reason": "拉恕尔检查米奥眼皮，米奥当面抗议；avg_4140_lasher 立绘确认拉恕尔为衡沙。",
+          "status": "supported",
+          "to": "char_4140_lasher"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-03/结果/group_f9ab8d1b1add6c85.json",
+      "sources": [
+        {
+          "endLine": 28,
+          "kind": "story",
+          "line": 11,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_lasher_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "仅本篇所述时段",
+      "title": "衡沙"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 319,
+          "line": 271,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_st03.txt",
+          "quote": "[name=\"米奥\"]我保证会把你的发条小玩具一口吞掉，再完整地吐出来，不留任何牙印。\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#2$1\")]\n[name=\"拉恕尔\"]……如果你真的想，我又能拿你有什么办法呢？\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#1$1\")]\n[name=\"拉恕尔\"]吞吧。\n[name=\"拉恕尔\"]我也想知道，它还能不能脱胎换骨，长出真正的羽毛。\n[charslot(slot = \"m\", name = \"avg_npc_1483_1#1$1\")]\n[name=\"沃奥\"]它只是舍不得你，拉恕尔。你不用被它拖延脚步。\n[name=\"沃奥\"]宝石交易所立下的规则已经深入人心，没有你，大巴扎也会推选出新的监管人，或者制定另一种秩序。你尽可以放心地离开。\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#3$1\")]\n[name=\"拉恕尔\"]……你们的存在近乎永恒，真的还会感到不舍吗？\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#2$1\")]\n[name=\"米奥\"]是啊，这可是辉煌之城的宝石交易所，我从来都是挑最好的住处！\n[charslot(slot = \"m\", name = \"avg_npc_1483_1#1$1\")]\n[name=\"沃奥\"]你可以试试去养一只真正的宠物。不是我与米奥这样的兽主，也不是发条羽兽。\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#5$1\")]\n[name=\"拉恕尔\"]好。\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#1$1\")]\n[name=\"米奥\"]据我观察，成功的商人都会饲养很特别的宠物，所以你至少要以白化羽兽或者三米长的彩色鳞为标准，明白吗？\n[charslot(slot = \"m\", name = \"avg_4140_lasher_1#5$1\")]\n[name=\"拉恕尔\"]……\n[name=\"拉恕尔\"]来吧，摸摸头。\n[dialog]\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#1$1\")]\n[delay(time=1)]\n[PlaySound(key=\"$d_avg_cakebgflgrnd\", volume=1)]\n[charslot(slot = \"m\", name = \"avg_npc_1482_1#7$1\", duration=0.2)]\n[delay(time=0.2)]\n[charslot(slot = \"m\", action=\"jump\", posto=\"200,150\", afrom=1, ato=0, power=20, times=1, duration=0.5)]\n[delay(time=0.3)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]\n[charslot(slot = \"r\", name = \"avg_4140_lasher_1#5$1\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]\n[PlaySound(key=\"$d_avg_pawfootstep_2\", volume=1)]\n[charslot(slot = \"l\", name = \"avg_npc_1482_1#6$1\", posfrom=\"-200,0\", posto=\"0,0\", duration=2)]\n[Delay(time=2)]\n[PlaySound(key=\"$d_avg_meowlong\", volume=1)]\n[charslot(slot = \"l\", name = \"avg_npc_1482_1#1$1\", duration=0.5)]\n[Delay(time=1)]\n[charslot(slot = \"m\", focus=\"n\")]\n米奥看似并不情愿地跳到人类面前的方桌上，低下头，盘起尾巴。\n[dialog]\n[charslot(slot = \"l\", name = \"avg_npc_1482_1#8$1\", duration=0.5)]\n[Delay(time=1.5)]\n[PlaySound(key=\"$d_avg_catgrunting\", volume=1)]\n[charslot(slot = \"l\", focus=\"l\")]\n[name=\"米奥\"]（呼噜声）"
+        }
+      ],
+      "description": "拉恕尔与米奥直接交谈告别。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "char_4140_lasher",
+          "reason": "拉恕尔与米奥直接交谈告别。",
+          "status": "supported",
+          "to": "npc_08a5376de9194cbe"
+        },
+        {
+          "evidenceIds": [
+            "E04"
+          ],
+          "from": "npc_08a5376de9194cbe",
+          "reason": "拉恕尔与米奥直接交谈告别。",
+          "status": "supported",
+          "to": "char_4140_lasher"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_204b53066b797ab8.json",
+      "sources": [
+        {
+          "endLine": 319,
+          "kind": "story",
+          "line": 271,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act35side/level_act35side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "太阳甩在身后事件期间",
+      "title": "太阳甩在身后"
+    }
+  ],
+  "relationship_id": "char_4140_lasher|npc_08a5376de9194cbe"
+}

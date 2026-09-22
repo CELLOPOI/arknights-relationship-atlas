@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 574,
+          "line": 559,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d0/level_act11d0_08_end.txt",
+          "quote": "[name=\"塞弗林\"]  ……！\n[Character(name=\"avg_npc_053\", name2=\"avg_npc_066\",focus=2)]\n[name=\"塞弗林\"]  嗯……萨卡兹的战士也会抽烟？\n[Character(name=\"avg_npc_053\", name2=\"avg_npc_066\",focus=1)]\n[name=\"萨卡兹战士\"]  不过我已经戒烟了。\n[Character(name=\"avg_npc_053\", name2=\"avg_npc_066#4\",focus=2)]\n[name=\"塞弗林\"]  唔嗯，看来每个戒烟的人都会带着火柴。\n[Character(name=\"avg_npc_011#2\")]\n[name=\"泥岩\"]  ……捡来的命，好好珍惜。\n[name=\"泥岩\"]  至于你们，罗德岛……\n[name=\"泥岩\"]  ……\n[Character(name=\"char_345_folnic_1#3\")]\n[name=\"亚叶\"]  ……\n[Character(name=\"avg_npc_011#2\")]\n[name=\"泥岩\"]  ……那么，就此别过。\n[name=\"泥岩\"]  也许……也许你们能想办法帮助剩下的这些人……"
+        }
+      ],
+      "description": "亚叶与塞弗林同处战后街道，泥岩向在场罗德岛一方告别。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "char_345_folnic",
+          "reason": "亚叶与塞弗林同处战后街道，泥岩向在场罗德岛一方告别。",
+          "status": "supported",
+          "to": "npc_419ac8a28a132917"
+        },
+        {
+          "evidenceIds": [
+            "E02"
+          ],
+          "from": "npc_419ac8a28a132917",
+          "reason": "亚叶与塞弗林同处战后街道，泥岩向在场罗德岛一方告别。",
+          "status": "supported",
+          "to": "char_345_folnic"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_0ae5b402eb9240bc.json",
+      "sources": [
+        {
+          "endLine": 574,
+          "kind": "story",
+          "line": 559,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act11d0/level_act11d0_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "暴乱结束时",
+      "title": "沃伦姆德的薄暮"
+    }
+  ],
+  "relationship_id": "char_345_folnic|npc_419ac8a28a132917"
+}

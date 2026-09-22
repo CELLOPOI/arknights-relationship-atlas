@@ -1,0 +1,173 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 313,
+          "line": 285,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "quote": "[name=\"？？？\"]回答我的问题，或者死在这里。\n[name=\"博士\"]请问吧。\n[name=\"？？？\"]你背叛了巴别塔吗？\n[name=\"博士\"]我从未属于过巴别塔，但我也从未放弃过为他们而奋斗。\n[name=\"？？？\"]为什么要来见我？\n[name=\"博士\"]有所求。\n[name=\"？？？\"]我不会和无名之辈交流……恶灵。\n[name=\"？？？\"]你是谁？\n[name=\"博士\"]……{@nickname}。Dr.{@nickname}。\n[dialog]\n[PlayMusic(intro=\"$loneliness_intro\", key=\"$loneliness_loop\", volume=0.6)]\n[Image(image=\"49_i10_1\", screenadapt=\"coverall\", fadetime=0)]\n[bgeffect(name=\"$eb_raingrey\", layer=1)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]\n[Delay(time=1)]\n[name=\"特雷西斯\"]……{@nickname}。\n特雷西斯放下了武器，雨水滑过眼角的沟壑坠向大地。\n他并未看向那个邀请自己秘密赴约的人，而是高抬目光，停留在名为“英雄”的巨大雕像上。\n那是纪念建立卡兹戴尔移动城市的双子的雕像。\n他的石像百余年之后依然执剑立于她的身侧，无论天灾或风雨都未曾使其倒塌。\n[name=\"特雷西斯\"]当年她镇压了意图破坏那座新生城市的叛乱后不久，卡兹戴尔欢庆的人们就邀请我们见证了这两尊雕像的揭幕。\n[name=\"特雷西斯\"]（古老的萨卡兹语）“英雄”。\n[name=\"特雷西斯\"]它们会世世代代守望我们亲手划下的边境，警告我们的敌人，欢迎我们的朋友。\n[name=\"特雷西斯\"]我曾在她的雕像下向她立誓，我的剑会斩去她的所有敌人。\n博士望着特蕾西娅的雕像，目光没有一刻移开。\n[name=\"博士\"]军事委员会就是她的敌人。\n[name=\"特雷西斯\"]不，卡兹戴尔的任何一个部分都不曾真正与她为敌，我才是她的敌人。\n[name=\"特雷西斯\"]那么，你呢？\n[name=\"博士\"]……"
+        }
+      ],
+      "description": "边境秘密会面，博士自报姓名，特雷西斯与其直接对谈。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E48"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "边境秘密会面，博士自报姓名，特雷西斯与其直接对谈。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "E48"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "边境秘密会面，博士自报姓名，特雷西斯与其直接对谈。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_12e96741dbfbc036.json",
+      "sources": [
+        {
+          "endLine": 313,
+          "kind": "story",
+          "line": 285,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act33side/level_act33side_07_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "巴别塔所述时段",
+      "title": "巴别塔"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 437,
+          "line": 371,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st05.txt",
+          "quote": "[name=\"特蕾西娅\"]凯尔希，你还是这么会关心人……啊，博士，请进来吧，我们没有在讨论机密事项。\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_048\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"博士\"]我都听到了。殿下，你是该保证足够的睡眠时间。\n[name=\"博士\"]昨晚的作战会议气氛很微妙，想必消耗了你大量的精力。\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]不必担心。倒是博士，我要为一些与会者的言辞道歉，他们无意冒犯，只是情绪稍有激动。\n[name=\"特蕾西娅\"]他们担心我的安全，但我心里明白，博士一定考虑了所有可能的情况。这是最优解。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]特雷西斯想夺回战争的主动权。他深知你的优势同时也是你的软肋。\n[name=\"博士\"]但他想不到的是，你会为萨卡兹人作出多大的牺牲。\n[name=\"博士\"]当阿斯卡纶率领的部队出现在小镇上时，他将会意识到自己败局已定。\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]你总是这么令人安心。博士，听你说话可比睡一觉让人精神多了。\n特蕾西娅疲惫的脸上展露出一丝欣慰的笑，这份笑容在她看向门外时变得更加温柔了。\n[dialog]\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]快进来。来这边，坐我边上。\n[Character]\n[name=\"娇小的卡特斯\"]可……可是……\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]别探头张望了，这里没有外人，阿米娅。\n[dialog]\n[character]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(name=\"avg_npc_051\",fadetime=1.5)]\n[delay(time=2)]\n[name=\"阿米娅\"]博士，凯尔希医生，晚……晚上好。\n[name=\"阿米娅\"]我不是故意这么晚还没休息的。\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]没人会责怪你。让我猜猜，做噩梦了？\n[Character(name=\"avg_npc_051\")]\n[name=\"阿米娅\"]不……不是的。我是听到军队的集合声醒过来的。\n[name=\"阿米娅\"]我趴在窗户上看，阿斯卡纶姐姐似乎带着其他战士在为远行做准备……\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]他们是有任务在身。\n[Character(name=\"avg_npc_051\")]\n[name=\"阿米娅\"]可是……可是阿斯卡纶姐姐说过，她绝对不会离开殿下和我哪怕一步。\n[name=\"阿米娅\"]我担心发生了什么事，就想着偷偷来指挥室看一眼……\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]阿米娅呀阿米娅，是博士交给了阿斯卡纶一个小任务，他们不用多久就会回来的。\n[name=\"特蕾西娅\"]你想想，博士指挥的战斗，哪一次不是速战速决？\n[Character(name=\"avg_npc_051\")]\n[name=\"阿米娅\"]确……确实，如果是博士的意见，我就放心了。\n[name=\"阿米娅\"]博士是最能给人安全感的。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]阿米娅，你该休息了。\n[Character(name=\"avg_npc_051\")]\n[name=\"阿米娅\"]我这就回去！大家晚安。\n[dialog]\n[playsound(key=\"$d_gen_walk_n\")]\n[character(fadetime=1.5)]\n[delay(time=1.5)]\n[dialog]\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]真是令人怜爱的孩子……\n[name=\"特蕾西娅\"]博士，你来之前我确实在担心……阿斯卡纶离开期间罗德岛舰船的安全问题。\n[Character(name=\"avg_npc_048\")]\n[name=\"博士\"]担心是正常的。\n[name=\"博士\"]拉长战线的同时，包围一个毫无战略意义的小镇。特雷西斯的真正目的无从得知。\n[Character(name=\"avg_npc_056\")]\n[name=\"特蕾西娅\"]我的安危倒是其次，更多的是担心连累到舰上的研究人员和孩子们。\n[name=\"特蕾西娅\"]但正如阿米娅所说，你确实能给人带来安全感。在你指挥下所取得的战果也令人无从置疑。\n[name=\"特蕾西娅\"]博士，凯尔希，战争胜利的那天，应该不远了吧？"
+        }
+      ],
+      "description": "博士当面分析特雷西斯的战略和判断，特雷西斯不在场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C17"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士当面分析特雷西斯的战略和判断，特雷西斯不在场。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "本篇候选窗口未见反向知晓或往来证据。",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-07/结果/group_b8266d23e40d799c.json",
+      "sources": [
+        {
+          "endLine": 437,
+          "kind": "story",
+          "line": 371,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act8mini/level_act8mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇现实及明确旧日回忆所示时段",
+      "title": "如我所见"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 241,
+          "line": 191,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "quote": "[name=\"克洛维希娅\"]阿米娅，博士，城外的信使刚刚发回了一份关键情报。萨卡兹的主力部队正在回城，这极有可能意味着他们即将与公爵部队开战。\n[name=\"克洛维希娅\"]按之前的情报来看，即便主力部队回到伦蒂尼姆，萨卡兹的军事力量也不足以正面与全部公爵抗衡。\n[name=\"克洛维希娅\"]萨卡兹选择在这个时间动手，显然是因为他们认为自己掌握了能左右战局的关键力量。\n[Dialog]\n[Character(name=\"avg_npc_394_1#1$1\",name2=\"avg_npc_401_1#1$1\",focus=3)]\n[Decision(options=\"碎片大厦。\", values=\"1\")]\n[Predicate(references=\"1\")]\n[Character(name=\"avg_npc_394_1#1$1\",name2=\"avg_npc_401_1#9$1\",focus=2)]\n[name=\"克洛维希娅\"]那栋被萨卡兹占领的建筑？我们确实得知那座大厦藏着武器，可是，左右战局？\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]是的，克洛维希娅。你们有注意过……碎片大厦顶部的风暴吗？\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#5$1\",focus=2)]\n[name=\"克洛维希娅\"]唔……那些阴云看起来很异样。\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#5$1\",focus=1)]\n[name=\"阿米娅\"]从我们得到的情报来看，那确实并不是普通的风暴。那是碎片大厦诱发的天灾。虽然和真正的天灾还有差别……\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#6$1\",focus=2)]\n[name=\"克洛维希娅\"]萨卡兹想引起一场天灾？他们自己还在伦蒂尼姆，毁掉这座城市对他们而言有什么好处？\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#6$1\",focus=3)]\n[Dialog]\n[Decision(options=\"他们打算把风暴当作武器。;如果他们能控制天灾的落点呢？\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[Character(name=\"avg_npc_394_1#2$1\",name2=\"avg_npc_401_1#9$1\",focus=2)]\n[name=\"克洛维希娅\"]……唔。\n[Character(name=\"avg_npc_394_1#7$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]碎片大厦的作用并非只是我们的猜想。这件武器……或者说这项技术正是罗德岛进入伦蒂尼姆的首要目标。\n[Character(name=\"avg_npc_394_1#7$1\",name2=\"avg_npc_401_1#9$1\",focus=2)]\n[name=\"克洛维希娅\"]……罗德岛是为了笼罩着伦蒂尼姆的阴云而来。\n[Character(name=\"avg_npc_394_1#7$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]嗯，这不仅是一个比喻。\n[name=\"阿米娅\"]万一特雷西斯真的启用了碎片大厦，他会将战火与风暴一起引向他眼中萨卡兹的敌人。\n[name=\"阿米娅\"]没有天灾信使能够预测人为天灾的走向。没有一座移动城市能逃脱这样的天灾的打击。\n[name=\"阿米娅\"]无数萨卡兹和维多利亚人都将死在这场战争中，而活下来的那些可能更悲惨。他们大多数会变成感染者。\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#9$1\",focus=1)]\n[name=\"阿米娅\"]以及……碎片大厦，没有被安设在边境，而是在作为一国首都的伦蒂尼姆……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#8$1\",focus=2)]\n[name=\"克洛维希娅\"]这意味着……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#8$1\",focus=3)]\n[Dialog]\n[Decision(options=\"当这项技术完成的时候，它能够碰触泰拉的任何角落。;……;我们只能祈祷这项技术遭遇更多的瓶颈。\", values=\"1;2;3\")]\n[Predicate(references=\"1;2;3\")]\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#6$1\",focus=2)]\n[name=\"克洛维希娅\"]萨卡兹……会用维多利亚的力量，摧毁维多利亚。\n[name=\"克洛维希娅\"]真到了那个地步的话，自救军之前所做的一切都是徒劳。\n[name=\"克洛维希娅\"]即便我们能和罗德岛一样，在天灾下救人，伦蒂尼姆和我们的生活也都回不到过去了……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#6$1\",focus=1)]\n[name=\"阿米娅\"]克洛维希娅，罗德岛很感激自救军。缺少你们的帮助的话，我们没法顺利进入中央城区。\n[name=\"阿米娅\"]但我和博士也不会欺骗你们。无论罗德岛接下来计划如何接近碎片大厦，等待着我们的战斗只会一场比一场凶险。\n[name=\"阿米娅\"]假如罗德岛没能在这几天之内阻止特雷西斯，全面战争开始，大公爵们必然会向伦蒂尼姆城内进军。\n[name=\"阿米娅\"]要是自救军选择等待公爵军队的话……\n[Character(name=\"avg_npc_394_1#11$1\",name2=\"avg_npc_401_1#1$1\",focus=2)]\n[name=\"克洛维希娅\"]……阿米娅，我们做不到。"
+        }
+      ],
+      "description": "明确知晓特雷西斯的碎片大厦计划。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "在会议中明确分析特雷西斯可能启用碎片大厦。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "特雷西斯不在会场。",
+          "status": "not_established",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_bd034b5cdc5bef91.json",
+      "sources": [
+        {
+          "endLine": 241,
+          "kind": "story",
+          "line": 191,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_11-01.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "自救军会议",
+      "title": "淬火尘霾"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 270,
+          "line": 161,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "quote": "[charslot(slot=\"m\",focus=\"n\")]\n[dialog]\n[Decision(options=\"凯尔希，他们成功的概率有多大？;凯尔希，我们现在是否具备应对后续意外的条件？\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]从我们在内化宇宙中的遭遇来判断，特蕾西娅已经极大程度地掌控了其中的规则。\n[name=\"凯尔希\"]解析规则，重建秩序，和特雷西斯配合夺下最初的源石……我相信，以她的能力而言，这并非天方夜谭。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]有关最初的源石的更详细信息我也无从了解，自然也无法确切地提出有效的应对手段。\n[name=\"凯尔希\"]换而言之，事态发展到当下，我们已经很难依据过往的经验与知识来判断局势。\n[Predicate(references=\"1;2\")]\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]凯尔希医生，难道我们对此束手无策吗？\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]\n[name=\"凯尔希\"]并非如此。如果他们的计划成功，特雷西斯与特蕾西娅所求依旧在我们的认知范围之内，事态不一定会走向最坏的结果。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#4$1\")]\n[name=\"凯尔希\"]但如果他们失败……\n[charslot(slot=\"m\",focus=\"n\")]\n凯尔希看向了你，眼神中充满了担忧。\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\")]\n[name=\"凯尔希\"]Dr.{@nickname}，我们必须以最快的速度赶回罗德岛本舰。\n[name=\"凯尔希\"]我们也许还能做最后的尝试来为泰拉争取片刻的喘息时间。\n[charslot]\n[dialog]\n[Decision(options=\"好，先控制住曼弗雷德。;与其担忧未发生的意外，不如排除已有的变数。\", values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[playsound(key=\"$Mon3tr_n\")]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（兴奋的高鸣）\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]我会护住博士，同时尽可能限制曼弗雷德的活动范围。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]速战速决。小心他手上的“提卡兹之根”。\n[charslot]\n当曼弗雷德手中的“提卡兹之根”刚刚亮起红光时，魔王的法术与阿斯卡纶的锋刃已经逼近到了他的面前。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#4$1\")]\n[name=\"阿斯卡纶\"]该结束了。\n[dialog]\n[charslot]\n[stopmusic(fadetime=1)]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#2$1\")]\n[delay(time=0.5)]\n[PlaySound(key=\"$d_avg_clothmovementsp\")]\n[charslot(slot = \"right\", name = \"avg_4132_ascln_1#4$1\",posfrom = \"200,0\", posto = \"0,0\",duration = 0.5,afrom=0.5,ato=0.5,focus=\"m\")]\n[delay(time=0.6)]\n[CameraShake(duration=0.2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[Blocker(a=1, r=1,g=1, b=1, fadetime=0.5, block=true)]\n[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]\n[image(image=\"32_i08_2\",screenadapt=\"coverall\",block=true)]\n[Blocker(a=0, r=0,g=0, b=0, fadetime=0.5, block=true)]\n[charslot]\n[delay(time=0.5)]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"凯尔希\"]——躲开！\n[dialog]\n[Blocker(a=1, r=1, g=1, b=1,  fadetime=1, block=true)]\n[image]\n[Background(image=\"60_g7_westlobbyundergroundthrone\",screenadapt=\"coverall\")]\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[Blocker(a=0, r=0, g=0, b=0,  fadetime=1, block=true)]\n[name=\"曼弗雷德\"]——！\n[charslot]\n[dialog]\n[Blocker(a=0.2, r=0.2, g=0, b=0.5, fadetime=1, block=false)]\n[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\",afrom=0.5,ato=0,duration=1)]\n[delay(time=1.5)]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]\n阿斯卡纶瞬间化作紫色的烟雾，在剑光中散开又重聚。\n阿米娅所编织的屏障护住了你和凯尔希，却也在剑光中变得脆弱。\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=false)]\n[playsound(key=\"$Mon3tr_n\")]\n[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]\n[charslot(slot=\"m\",name=\"npc_10002\")]\n[name=\"Mon3tr\"]（愤怒的嘶鸣）\n[name=\"Mon3tr\"]（全力保护）\n[dialog]\n[charslot]\n[playMusic(intro=\"$sacrifice_intro\",key=\"$sacrifice_loop\", volume=0.6)]\n[playsound(key=\"$d_gen_walk_n\")]\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\",duration=1.5)]\n[delay(time=2.5)]\n[charslot(slot = \"m\", focus = \"n\")]\n剑光的主人缓缓从黑暗中走了出来，在微弱的光线下显得格外恐怖。\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]你让自己陷入了愚蠢的境地。\n[charslot(slot=\"m\",name=\"avg_npc_404_1#8$1\")]\n[name=\"曼弗雷德\"]……殿下……你……\n[charslot(slot=\"m\",name=\"avg_npc_1724_1#1$1\")]\n[name=\"特雷西斯\"]看来孽茨雷履行了与我的约定……\n[name=\"特雷西斯\"]你们来到我面前。很好。\n[charslot(slot=\"m\",name=\"avg_4132_ascln_1#6$1\")]\n[name=\"阿斯卡纶\"]……\n[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$3\")]\n[name=\"阿米娅\"]……\n[charslot(slot=\"m\",name=\"avg_003_kalts_1#2$1\")]\n[name=\"凯尔希\"]……\n[charslot]\n[dialog]\n[Decision(options=\"……\", values=\"1\")]\n[Predicate(references=\"1\")]\n你看到了王座前那个面目平静的人——特雷西斯。\n他绝非你所熟悉的模样。而他的手中，紧紧地握着一枚鲜艳的晶石。\n[charslot]\n[dialog]\n[Decision(options=\"“阿喃那”……;你们成功了。\", values=\"1;2\")]"
+        }
+      ],
+      "description": "博士与特雷西斯在地下王座厅直接对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "npc_b99957887950ebfd",
+          "reason": "博士与特雷西斯在地下王座厅直接对峙。",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [
+            "D01"
+          ],
+          "from": "npc_c573b8884914fc60",
+          "reason": "博士与特雷西斯在地下王座厅直接对峙。",
+          "status": "supported",
+          "to": "npc_b99957887950ebfd"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_3130daf44b34ad45.json",
+      "sources": [
+        {
+          "endLine": 270,
+          "kind": "story",
+          "line": 161,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-01_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇当前战斗或明确既往关系",
+      "title": "离解复合"
+    }
+  ],
+  "relationship_id": "npc_b99957887950ebfd|npc_c573b8884914fc60"
+}

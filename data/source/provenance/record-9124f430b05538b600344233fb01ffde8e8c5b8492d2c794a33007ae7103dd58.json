@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 510,
+          "line": 488,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_03_beg.txt",
+          "quote": "[name=\"伯德\"]没有在黑曜石音乐节上听到您的演奏，应该是音乐节的遗憾。\n[charslot(slot=\"m\",name=\"avg_npc_994_1#1$1\",focus=\"m\")]\n[name=\"哈莉\"]没有什么好遗憾的，汐斯塔已经听过无数次我的演奏了。现在嘛，我没有什么和年轻人在音乐节上抢风头的必要。\n[charslot(slot=\"m\",name=\"avg_npc_993_1#8$1\",focus=\"m\")]\n[name=\"伯德\"]您应该也是一个有摇滚精神的汐斯塔人。\n[charslot(slot=\"m\",name=\"avg_npc_994_1#1$1\",focus=\"m\")]\n[name=\"哈莉\"]曾经只能算是个玩摇滚的。不过现在应该可以算是个汐斯塔人了。\n[charslot(slot=\"m\",name=\"avg_npc_994_1#5$1\",focus=\"m\")]\n[name=\"哈莉\"]我和查克，是在汐斯塔旅行的时候认识的。\n[name=\"哈莉\"]我们听说，有人在汐斯塔见过“纯白火山”的奇观。说是在特殊的天气下，整座火山都会变成棉花糖一样的白色。\n[name=\"哈莉\"]我们在汐斯塔待了整整一年，还是没有见到传说中的景象。但我们也深深爱上了这座城市，还在这里开了一家小店，安了家。\n[charslot(slot=\"m\",name=\"avg_npc_994_1#1$1\",focus=\"m\")]\n[name=\"哈莉\"]我们想，既然找不到“纯白火山”，那不如就给这家店起名叫“纯白火山”。\n[Dialog]\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4106_bryota_1#20$1\",focus=\"m\")]\n[name=\"埃尼斯\"]这就是店名的来历吗……我一直以为是你俩随便起的。\n[charslot(slot=\"m\",name=\"avg_180_amgoat_1#1$1\",focus=\"m\")]\n[name=\"阿黛尔\"]纯白色的火山，凯勒老师之前也提到了类似的传说……可是真的存在这种地理奇观吗？\n[name=\"阿黛尔\"]如果说山腰以上是白色，还可以解释为积雪。但整个山体都是棉花糖一样白色的话……这个传说里的景象，我从来没有看到过类似的记载。\n[charslot(slot=\"m\",name=\"avg_npc_993_1#1$1\",focus=\"m\")]\n[name=\"伯德\"]存不存在，也不是那么重要了。毕竟曾经传说里的风景，已经在新的地点生了根，发了芽，甚至可以被称为是一段新的传说——\n[name=\"伯德\"]真的是一段很美好的往事。"
+        }
+      ],
+      "description": "哈莉当面听阿黛尔提凯勒老师讲过火山传说，凯勒未在场。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E14"
+          ],
+          "from": "npc_9371ba187ed1cfd7",
+          "reason": "哈莉当面听阿黛尔提凯勒老师讲过火山传说，凯勒未在场。",
+          "status": "supported",
+          "to": "npc_427702546526b6c4"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_427702546526b6c4",
+          "reason": "本窗口无反向知晓依据",
+          "status": "not_established",
+          "to": "npc_9371ba187ed1cfd7"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-04/结果/group_e2821d113ff452e6.json",
+      "sources": [
+        {
+          "endLine": 510,
+          "kind": "story",
+          "line": 488,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act27side/level_act27side_03_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "火山旅梦所述时段",
+      "title": "火山旅梦"
+    }
+  ],
+  "relationship_id": "npc_427702546526b6c4|npc_9371ba187ed1cfd7"
+}

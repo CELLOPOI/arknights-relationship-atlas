@@ -1,0 +1,61 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 447,
+          "line": 442,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+          "quote": "[name=\"卡夫卡\"]而我正是来帮你的。\n[name=\"卡夫卡\"]当然啦，你要是不愿意出去，想在这里待一辈子，我当然也不会硬要拉你出去。\n[Character(name=\"char_441_lotus_1#3\",name2=\"char_214_Kafka_1#4\",focus=1)]\n[name=\"杜玛\"]越狱……但是从没有人能够顺利逃出这座监狱。\n[Character(name=\"char_441_lotus_1#3\",name2=\"char_214_Kafka_1#4\",focus=2)]\n[name=\"卡夫卡\"]诶，说是这么说，但是总是要试一试的嘛。"
+        },
+        {
+          "endLine": 429,
+          "line": 424,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_beg.txt",
+          "quote": "[name=\"安东尼\"]呃……啊……\n[PlaySound(key=\"$enemy_dead_n\")]\n[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]\n[name=\"卡夫卡\"]呜哇！\n[delay(time=0.6)]\n[name=\"杜玛\"]安东尼，卡夫卡，你们没事吧！"
+        }
+      ],
+      "description": "越狱合作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "npc_b6173633e2da4a81",
+          "reason": "参与对话并直接呼叫卡夫卡。",
+          "status": "supported",
+          "to": "char_214_kafka"
+        },
+        {
+          "evidenceIds": [
+            "E03"
+          ],
+          "from": "char_214_kafka",
+          "reason": "接续回应杜玛，早在医务室已有实际同场交流。",
+          "status": "supported",
+          "to": "npc_b6173633e2da4a81"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 447,
+          "kind": "story",
+          "line": 442,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_03_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        },
+        {
+          "endLine": 429,
+          "kind": "story",
+          "line": 424,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "首次刺杀后开始明确；最终战继续同场。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_214_kafka|npc_b6173633e2da4a81"
+}

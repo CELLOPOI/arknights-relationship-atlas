@@ -1,0 +1,14 @@
+{
+  "id": "import:char_003_kalts|char_4230_mcnist",
+  "published": true,
+  "quote": "Mechanist：能让塞雷娅向罗德岛求助，莱茵生命目前很大几率已经陷入危机。\nMechanist：幸亏本舰就在附近，否则我们也很难迅速作出反应。\nMechanist：虽然绑架事件发生在距离特里蒙城一百多公里的新基地，但凯尔希担心此事与先前被叫停的那些实验有关。\n那个基地是做什么的？\n源石变异实验……\n再介绍下特里蒙吧。\nMechanist：对外资料显示，那是一个正在建设中的普通实验场所。\nMechanist：在进入特里蒙之前，凯尔希向我们开放了所有相关档案的权限。\nMechanist：这座城市是哥伦比亚的科学与技术中心。数百家科技公司将总部设在特里蒙。\nMechanist：“炎魔事件”“洛肯水箱”“伐木场”。\nMechanist：上述每一个名词都对应了一位我们罗德岛的干员，背后更是牵涉了数百个类似的实验。",
+  "relationship_id": "char_003_kalts|char_4230_mcnist",
+  "sources": [
+    {
+      "endLine": 79,
+      "kind": "story",
+      "line": 58,
+      "source": "activities/act19side/level_act19side_01_beg.txt"
+    }
+  ]
+}

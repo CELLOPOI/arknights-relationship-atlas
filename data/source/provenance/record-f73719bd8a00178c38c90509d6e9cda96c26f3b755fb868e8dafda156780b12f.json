@@ -1,0 +1,46 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 120,
+          "line": 87,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "quote": "[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#6$1\",focus=\"m\")]\n[name=\"维什戴尔\"]城墙上那场大火之后，那些维多利亚人的军队推进得很迅猛，食腐者的阵线溃散得也很快……\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#6$1\",focus=\"m\")]\n[name=\"赫德雷\"]食腐者之王呢？\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]没死，但退守到城内了——\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#9$1\",focus=\"m\")]\n[name=\"明椒\"]……维什戴尔小姐，还、还有将军他的消息吗？\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#11$1\",focus=\"m\")]\n[name=\"维什戴尔\"]没有，说不定死了哦。\n[charslot(slot=\"m\",name=\"avg_4071_peper_1#9$1\",focus=\"m\")]\n[name=\"明椒\"]……\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#2$1\",focus=\"m\")]\n[name=\"赫德雷\"]曼弗雷德没那么容易死。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#10$1\",focus=\"m\")]\n[name=\"维什戴尔\"]但外面的混乱也明显有问题。\n[name=\"维什戴尔\"]从我手底下的人收集的情报来看，孽茨雷那老家伙自己的阵地丝毫不乱，即使这场仗军事委员会显然已经输定了。\n[name=\"维什戴尔\"]哪怕我恨不得把特雷西斯炸成渣，我也没法否认……\n[name=\"维什戴尔\"]以他的能耐和算计，军事委员会没道理会这么快就到了要完全败亡的程度。\n[name=\"维什戴尔\"]你的计划必须要提前了，赫德雷。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]\n[name=\"赫德雷\"]“生命脊椎”已经准备好了。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#8$1\",focus=\"m\")]\n[name=\"赫德雷\"]不管摄政王的计划是什么，我们都得准备带着那些被卷进来的人离开……在对萨卡兹的清洗开始之前。\n[charslot(slot=\"m\",name=\"avg_4087_ines_1#8$1\",focus=\"m\")]\n[name=\"伊内丝\"]维多利亚人恐怕不会这么轻易放他们离开。\n[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#2$1\",focus=\"m\")]\n[name=\"赫德雷\"]我知道，但……\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#13$1\",focus=\"m\")]\n[name=\"维什戴尔\"]嘁，什么时候我们办事还要听维多利亚人的想法了？\n[name=\"维什戴尔\"]我有个好点子。\n[charslot(slot=\"m\",name=\"avg_1035_wisdel_1#1$1\",focus=\"m\")]\n[name=\"维什戴尔\"]但那得先拿下军事委员会的指挥中心，嗯，以“巴别塔”的名义。\n[name=\"维什戴尔\"]你们就乖乖在这等着我的命令——"
+        }
+      ],
+      "description": "该人物在同场听到维什戴尔具体评价特雷西斯并继续参与商议，明确知晓特雷西斯；仅支持单向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E12"
+          ],
+          "from": "char_4071_peper",
+          "reason": "该人物在同场听到维什戴尔具体评价特雷西斯并继续参与商议，明确知晓特雷西斯",
+          "status": "supported",
+          "to": "npc_c573b8884914fc60"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_c573b8884914fc60",
+          "reason": "对方未在本组该场景回应或被识别，缺少反向证据。",
+          "status": "not_established",
+          "to": "char_4071_peper"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-06/结果/group_471c3cf453331631.json",
+      "sources": [
+        {
+          "endLine": 120,
+          "kind": "story",
+          "line": 87,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act18mini/level_act18mini_st05.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "伦蒂尼姆战役期间",
+      "title": "我们明日见"
+    }
+  ],
+  "relationship_id": "char_4071_peper|npc_c573b8884914fc60"
+}

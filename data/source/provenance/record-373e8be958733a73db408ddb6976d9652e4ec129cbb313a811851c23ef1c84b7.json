@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 78,
+          "line": 70,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act4fun/level_act4fun_07_end.txt",
+          "quote": "[name=\"Medic\"]体检结果已经出来了，尤里卡小姐，您没有感染，身体状况也基本良好。\n[charslot(slot=\"m\",name=\"avg_4091_ulika2_1#2$1\",focus=\"m\")]\n[name=\"尤里卡\"]卡达老师现在在吗？她的宿舍在哪里？\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]卡达干员本来是一直等着您的，不过昨天突然来了紧急任务，她出外勤去了。\n[charslot(slot=\"m\",name=\"avg_4091_ulika2_1#1$1\",focus=\"m\")]\n[name=\"尤里卡\"]好吧……\n[charslot(slot=\"m\",name=\"char_016_medic\",focus=\"m\")]\n[name=\"Medic\"]听卡达干员说，您在来罗德岛之前是城际网络里的主播。做主播一定很开心吧！"
+        }
+      ],
+      "description": "Medic与尤里卡在体检后直接交流。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "npc_30c8dcf1e7b8383d",
+          "reason": "直接称呼尤里卡并提供体检说明",
+          "status": "supported",
+          "to": "char_4091_ulika"
+        },
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_4091_ulika",
+          "reason": "直接向Medic询问",
+          "status": "supported",
+          "to": "npc_30c8dcf1e7b8383d"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_bac67d6579046cad.json",
+      "sources": [
+        {
+          "endLine": 78,
+          "kind": "story",
+          "line": 70,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act4fun/level_act4fun_07_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇罗德岛病房场景",
+      "title": "主播U：全能系美少女"
+    }
+  ],
+  "relationship_id": "char_4091_ulika|npc_30c8dcf1e7b8383d"
+}

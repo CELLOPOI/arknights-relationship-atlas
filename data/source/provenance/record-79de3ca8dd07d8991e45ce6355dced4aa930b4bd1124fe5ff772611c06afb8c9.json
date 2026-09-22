@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 185,
+          "line": 101,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_st02.txt",
+          "quote": "[name=\"裘里奥\"]好了好了，作为临别赠礼，最后让我好好请一次客吧！\n[charslot(slot=\"m\",name=\"avg_4218_aigis_1#9$1\",focus=\"m\")]\n[name=\"埃癸斯\"]点什么都可以吗？\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#3$1\",focus=\"m\")]\n[name=\"裘里奥\"]什么都可以！\n[charslot(slot=\"m\",name=\"avg_4218_aigis_1#8$1\",focus=\"m\")]\n[name=\"埃癸斯\"]好。我记得可以使用终端点单，那么，按首字母排列……\n[charslot(slot=\"m\",name=\"avg_npc_2388_1#1$1\",focus=\"m\")]\n[name=\"天田乾\"]埃癸斯，上次我们陪结城哥他们实习，你点了那么多甜品，这次也要吗……？\n[charslot(slot=\"m\",name=\"avg_4218_aigis_1#9$1\",focus=\"m\")]\n[name=\"埃癸斯\"]拉特兰的甜点实在让人好奇，难得来到这里，我想要留下尽可能多的记录。\n[charslot(slot=\"m\",name=\"avg_4219_yukari_1#7$1\",focus=\"m\")]\n[name=\"岳羽由加莉\"]虽然能理解埃癸斯的心情……但是，裘里奥先生的钱包……\n[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]\n[name=\"裘里奥\"]没问题没问题，尽管点就是了，吃不完的话，我也可以帮忙解决！\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#10$1\",focus=\"l\")]\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#2$1\",focus=\"l\")]\n[name=\"吉阿达\"]裘里奥，你在这里充大方，是忘记自己已经破产了吗？\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]\n[name=\"裘里奥\"]既然回拉特兰了，就没有破产这个说法了嘛……\n[name=\"裘里奥\"]这么说，我是不是应该也请一下那位把我带回拉特兰的执行者，他能算是我的救命恩人了吧？\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#3$1\",focus=\"l\")]\n[name=\"吉阿达\"]拜托，这一桌都是你的救命恩人吧？\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4220_kormr_1#3$1\",focus=\"m\")]\n[playsound(key=\"$d_avg_dogbarknormal\")]\n[name=\"虎狼丸\"]汪！\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#11$1\",focus=\"l\")]\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#10$1\",focus=\"l\")]\n[name=\"吉阿达\"]嗯，包括虎狼丸。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#2$1\",focus=\"m\")]\n[name=\"山岸风花\"]呵呵……看来你们两位已经没问题了，太好了。\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#11$1\",focus=\"l\")]\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#9$1\",focus=\"l\")]\n[name=\"吉阿达\"]都因为你，裘里奥，连我也被小孩子担心了。\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#10$1\",focus=\"r\")]\n[name=\"裘里奥\"]好嘛好嘛，我就是比较没用嘛……\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#9$1\",focus=\"l\")]\n[name=\"吉阿达\"]禁止自暴自弃。\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]\n[name=\"裘里奥\"]吉阿达，你不觉得你现在扮演我的监护人会有那么一点点奇怪吗，比如其实我比你年长哦……？\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#2$1\",focus=\"l\")]\n[name=\"吉阿达\"]我没有扮演你的监护人，少自作多情了。\n[name=\"吉阿达\"]而且年长又怎么样，我们两个在这些孩子面前丢人丢得还不够吗，别说些只会让自己脸红的话了。\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]\n[name=\"裘里奥\"]理，你有没有觉得吉阿达对我越来越冷酷了……\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#10$1\",focus=\"m\")]\n[name=\"结城理\"]没有觉得。感觉很温柔。\n[charslot]\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#6$1\",focus=\"m\")]\n[name=\"吉阿达\"]……你这小孩子，在说什么啊。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]不过，结城……你们真的打算，现在就离开拉特兰吗？不考虑再多待一阵子吗……？\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$1\",focus=\"m\")]\n[name=\"结城理\"]回到家乡还有重要的事要做……\n[charslot]\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"l\")]\n[charslot(slot=\"l\",name=\"avg_npc_2378_1#11$1\",focus=\"l\")]\n[name=\"吉阿达\"]唉……总觉得以你们的年纪来说，你们这些孩子责任心重得有点过头了。是什么事非得要你们去完成不可呢……\n[charslot(slot=\"r\",name=\"avg_npc_2379_1#1$1\",focus=\"r\")]\n[name=\"裘里奥\"]我倒是能理解啦。无论走到哪里，家乡都是无可替代的嘛……\n[charslot]\n[charslot(slot=\"m\",name=\"avg_4219_yukari_1#1$1\",focus=\"m\")]\n[name=\"岳羽由加莉\"]……不用气氛这么沉重啦！能在拉特兰认识大家，已经是很珍贵的经历了……最后还是笑着告别吧。\n[name=\"岳羽由加莉\"]话说回来，吉阿达和裘里奥呢，之后有什么打算吗？\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#11$1\",focus=\"m\")]\n[name=\"吉阿达\"]……上班。\n[charslot(slot=\"m\",name=\"avg_npc_2388_1#3$1\",focus=\"m\")]\n[name=\"天田乾\"]……大人真的好可怜啊……\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[multiline(name=\"吉阿达\")]殡仪堂已经正式开放了，之后应该会很忙……\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#11$1\",focus=\"m\")]\n[multiline(name=\"吉阿达\")]工作上还有很多需要探索的内容，我还是想做一些和以前不同的事。\n[charslot(slot=\"m\",name=\"avg_npc_2378_1#1$1\",focus=\"m\")]\n[name=\"吉阿达\"]对了，之前向公证所申请调阅的报告下发了……不过，你们想了解的信息，应该已经知道了。\n[charslot(slot=\"m\",name=\"avg_4219_yukari_1#2$1\",focus=\"m\")]\n[name=\"岳羽由加莉\"]嗯……\n[charslot(slot=\"m\",name=\"avg_npc_2387_1#5$1\",focus=\"m\")]\n[name=\"山岸风花\"]我们离开之后，怪物……还会出现吗？"
+        }
+      ],
+      "description": "临别聚餐中裘里奥把同桌众人视为救命恩人，虎狼丸当面回应并被明确纳入。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "char_4220_kormr",
+          "reason": "临别聚餐中裘里奥把同桌众人视为救命恩人，虎狼丸当面回应并被明确纳入。",
+          "status": "supported",
+          "to": "npc_9c740ff67eedab47"
+        },
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "npc_9c740ff67eedab47",
+          "reason": "临别聚餐中裘里奥把同桌众人视为救命恩人，虎狼丸当面回应并被明确纳入。",
+          "status": "supported",
+          "to": "char_4220_kormr"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-02/结果/group_2be69585e5326764.json",
+      "sources": [
+        {
+          "endLine": 185,
+          "kind": "story",
+          "line": 101,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act54side/level_act54side_st02.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇联动叙事所示时段",
+      "title": "月行水上"
+    }
+  ],
+  "relationship_id": "char_4220_kormr|npc_9c740ff67eedab47"
+}

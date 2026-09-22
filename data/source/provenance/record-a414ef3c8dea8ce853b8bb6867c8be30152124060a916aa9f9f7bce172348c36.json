@@ -1,0 +1,48 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 317,
+          "line": 253,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_09_end.txt",
+          "quote": "[charslot(slot = \"m\", name = \"avg_npc_1542_1#2$1\")]\n[name=\"伊雷妮\"]我知道人数再多也不一定就能挡住你们。\n[name=\"伊雷妮\"]一群臭开车的，别说杀人了，甚至连打架都不怎么会。毕竟生活已经够累了，需要我们去躲去让的东西已经够多了。\n[charslot(slot = \"m\", name = \"avg_npc_1542_1#8$1\")]\n[name=\"伊雷妮\"]你们的态度让我更加确定了一件事。家族不会把我们放在眼里，以前不会，现在不会，以后更不会。\n[name=\"伊雷妮\"]继续躲继续让，只会让我们看到更多的血，自己的、朋友的、亲人的……\n[charslot(slot = \"m\", name = \"avg_npc_1556_1#1$1\")]\n[name=\"家族成员\"]……\n[dialog]\n[charslot]\n[charslot(slot = \"r\", name = \"avg_npc_541_1#1$1\")]\n[Delay(time=1)]\n[playsound(key=\"$d_gen_transmissionget\", volume=1)]\n[charslot(slot = \"r\", name = \"avg_npc_541_1#1$1\", focus=\"l\")]\n[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"-250,0\", channel = 3)]\n[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-225,0\", pto=\"-225,0\", name = \"avg_npc_1544_1#8$1\", duration = 0)]\n[interlude(channel = 3, type = 2, switch = true, sfrom=\"1.3,1.3\", sto=\"1.3,1.3\", pfrom = \"-200,0\", pto=\"-200,0\", name = \"33_g11_mansionhall\", duration = 0)]\n[delay(time=0.5)]\n[name=\"安东尼奥\"]你们已经耽误了足足十分钟。\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_npc_541_1#1$1\", focus=\"r\")]\n[name=\"卡彭\"]……\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, pfrom = \"-225,0\", pto=\"-225,0\", name = \"avg_npc_1544_1#8$1\", duration = 0)]\n[name=\"安东尼奥\"]卡彭，你能联系上甘比诺吗？\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_npc_541_1#1$1\", focus=\"r\")]\n[name=\"卡彭\"]通讯从刚才起就没有接通过……\n[dialog]\n[delay(time=1)]\n[charslot(slot = \"r\", name = \"avg_npc_541_1#2$1\", focus=\"r\")]\n[name=\"卡彭\"]有些不对劲……\n[name=\"卡彭\"]这个时间点，陆行舰应该已经到达指定位置并完成接驳，运货的车队也已经出发，但到现在，港口那边一点动静都没有……\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, pfrom = \"-225,0\", pto=\"-225,0\", name = \"avg_npc_1544_1#8$1\", duration = 0)]\n[name=\"安东尼奥\"]所以，你还要听那个司机说漂亮话到什么时候？\n[interlude(channel = 3, switch = false)]\n[charslot(slot = \"r\", name = \"avg_npc_541_1#2$1\", focus=\"r\")]\n[name=\"卡彭\"]安东尼奥，他们只是一群臭开车的。真的要——\n[charslot(slot = \"r\", focus=\"n\")]\n[interlude(channel = 3, switch = true, type = 3, pfrom = \"-225,0\", pto=\"-225,0\", name = \"avg_npc_1544_1#9$1\", duration = 0)]\n[name=\"安东尼奥\"]他们挡在了你的路上，卡彭。\n[dialog]\n[stopmusic(fadetime=2)]\n[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]\n[CameraShake(duration=4, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]\n[StopSound(channel=\"e\", fadetime=6)]\n[PlaySound(key=\"$d_avg_rockfall\", volume=0.3)]\n[delay(time=1)]\n[playsound(key=\"$transmission\", volume=1)]\n[interlude(channel = 3, clear = true, tsfrom=\"1,1\", tsto =\"0,1\", tsduration = 0.5)]\n[delay(time=1)]\n[charslot(slot = \"r\", name = \"avg_npc_541_1#3$1\", focus=\"r\")]\n[name=\"卡彭\"]————\n[charslot]\n[charslot(slot = \"m\", name = \"avg_npc_1542_1#5$1\")]\n[name=\"伊雷妮\"]————\n[name=\"伊雷妮\"]发生了什么？怎么感觉整个移动地块都在震动……\n[name=\"伊雷妮\"]震动是从港口的方向传来的——\n[charslot(slot = \"m\", name = \"avg_1502_crosly_1#4$1\")]\n[name=\"柳德米拉\"]喂，你们快看那边——\n[charslot(slot = \"m\", name = \"avg_npc_1556_1#1$1\")]\n[name=\"家族成员\"]那是咱们的陆行舰……吗？\n[dialog]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]"
+        }
+      ],
+      "description": "柳德米拉与卡彭在围堵现场直接对峙。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "char_1502_crosly",
+          "reason": "柳德米拉与卡彭在围堵现场直接对峙。",
+          "status": "supported",
+          "to": "npc_e565b7639574735d"
+        },
+        {
+          "evidenceIds": [
+            "C11"
+          ],
+          "from": "npc_e565b7639574735d",
+          "reason": "柳德米拉与卡彭在围堵现场直接对峙。",
+          "status": "supported",
+          "to": "char_1502_crosly"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_5ce62e2617268edc.json",
+      "sources": [
+        {
+          "endLine": 317,
+          "kind": "story",
+          "line": 253,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act38side/level_act38side_09_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇所述时段或明确既往互动",
+      "title": "揭幕者们"
+    }
+  ],
+  "relationship_id": "char_1502_crosly|npc_e565b7639574735d"
+}

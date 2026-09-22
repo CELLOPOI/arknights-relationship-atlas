@@ -1,0 +1,214 @@
+{
+  "contributions": [
+    {
+      "citations": [
+        {
+          "endLine": 362,
+          "line": 223,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_06_beg.txt",
+          "quote": "[name=\"埃琳娜\"]奥利维亚……我从来没见过你这样……\n[character]\n这样愤怒。\n赫默感觉到了自己的怒火，她的大脑嗡嗡作响，过往的一幕幕接二连三地浮现出来，将理性与修养撞得七零八落。\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]你确实会改变他们的命运，可代价呢？他们会永远失去自由，也失去自己的人生！\n[character(name=\"avg_4048_doroth_1#3$1\")]\n[name=\"多萝西\"]……我会保护他们。\n[character(name=\"avg_4048_doroth_1#3$1\")]\n[name=\"多萝西\"]我愿意付出我的生命……\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]也许在这里杀了你，对所有人而言才是最安全的。\n[character(name=\"avg_4048_doroth_1#2$1\")]\n[name=\"多萝西\"]如果这是你们的最终决定……\n[character(name=\"avg_4048_doroth_1#2$1\")]\n[name=\"多萝西\"]我不会反抗。\n[character(name=\"avg_135_halo_1#6$1\")]\n[name=\"埃琳娜\"]桑尼，千万别冲动！\n[character(name=\"avg_npc_535_1#2$1\")]\n[name=\"桑尼\"]哈哈……乌比卡博士，我没有冲动。\n[character(name=\"avg_npc_535_1#2$1\")]\n[name=\"桑尼\"]我比任何时候都要清醒。\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]多萝西·弗兰克斯……我必须承认，你描绘的未来很有吸引力。\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]就像我差一点点就走进了你的实验室……也许连你都不知道，我有多少次想拉住你的手。\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]……为什么不？\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]因为我的未来……应该是自己的。\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]你的言语，你的姿态……越让我想要亲近，我就越清醒地意识到……\n[character(name=\"avg_npc_535_1#1$1\")]\n[name=\"桑尼\"]你正在控制我们。\n[character(name=\"avg_4048_doroth_1#1$1\")]\n[name=\"多萝西\"]我……\n[character(name=\"avg_npc_535_1#5$1\")]\n[name=\"桑尼\"]要挣脱一个美梦……比挣脱噩梦更难。\n[character(name=\"avg_npc_535_1#5$1\")]\n[name=\"桑尼\"]弗兰克斯主任，也许你也正在这个梦中，可我们要面对的却是真正的现实。\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]赫默医生是对的，这样的实验，从头到尾都不该存在。\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]这片土地已经孕育出了足够的疯狂，像这样疯狂的主意，还是尽早埋葬更好。\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]即便我们全都要死在这里……即便我要承担最惨痛的后果。\n[character(name=\"avg_npc_535_1#11$1\")]\n[name=\"桑尼\"]我也希望类似的事情到此为止。\n[character(name=\"avg_135_halo_1#6$1\")]\n[name=\"埃琳娜\"]奥利维亚，快劝劝桑尼呀！\n[character(name=\"avg_135_halo_1#3$1\")]\n[name=\"埃琳娜\"]无论如何……多萝西是想帮助这些受试者。\n[character(name=\"avg_135_halo_1#3$1\")]\n[name=\"埃琳娜\"]就算……就算她应该被阻止，应该受到惩罚，也不该这样……不该由这些她真心爱着的人……\n[character(name=\"avg_108_silent_1#7$1\")]\n[name=\"赫默\"]……\n[character(name=\"avg_128_plosis_1#1$1\")]\n[name=\"白面鸮\"]桑尼……\n[character(name=\"avg_108_silent_1#5$1\")]\n[name=\"赫默\"]乔伊丝？\n[character(name=\"avg_108_silent_1#5$1\")]\n[name=\"赫默\"]你……清醒了。\n[character(name=\"avg_128_plosis_1#1$1\")]\n[name=\"白面鸮\"]请不要伤害弗兰克斯主任。\n[Dialog]\n[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(fadetime=0)]\n[Background(image=\"29_g7_mainstreet_n\",screenadapt=\"coverall\")]\n[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]博士，同步失败。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]……359号基地里实验的情况说不定比我们预想的还要严峻。\n[character]\n[dialog]\n[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]\n[character(name=\"char_249_muesys_1#7\",fadetime=1)]\n[delay(time=1)]\n[name=\"缪尔赛思\"]嗯……\n[dialog]\n[character(name=\"char_249_muesys_1#7\",focus=-1)]\n[Decision(options=\"你还好吗？\",values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"char_249_muesys_1#5\")]\n[name=\"缪尔赛思\"]谢谢你扶着我，Dr.{@nickname}。\n[character(name=\"char_249_muesys_1#5\")]\n[name=\"缪尔赛思\"]我终于能感觉到自己的腿了。\n[dialog]\n[character(name=\"char_249_muesys_1#5\",focus=-1)]\n[Decision(options=\"359号基地背后不止有莱茵生命。;斐尔迪南与其他更大的势力有合作。\",values=\"1;2\")]\n[Predicate(references=\"1;2\")]\n[character(name=\"char_249_muesys_1#5\")]\n[name=\"缪尔赛思\"]斐尔迪南的合作对象，塞雷娅也很清楚吧？\n[name=\"缪尔赛思\"]你追踪了那么久的动力甲，最后只可能穿在最需要尖端武器的那些人身上。\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]你见过那些人了，证据呢？\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]……这就给你。\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]刚才的温柔果然是错觉吧？为了搞到你想要的证据，我可是差点连命都搭上啊。\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]——\n[character(name=\"avg_npc_532_1#8$1\")]\n[name=\"塞雷娅\"]我们一直以来的猜测都是真的。\n[character(name=\"avg_npc_532_1#8$1\")]\n[name=\"塞雷娅\"]斐尔迪南已经不再隐藏自己的野心。\n[dialog]\n[character]\n[Decision(options=\"斐尔迪南想要用这个实验来换取支持……\",values=\"1\")]\n[Predicate(references=\"1\")]\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]……然后夺取莱茵生命。\n[name=\"缪尔赛思\"]我们必须去找克丽斯腾，她才是斐尔迪南的第一目标。\n[name=\"缪尔赛思\"]塞雷娅，你收到我发的最后一条消息了吧？\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]……我联系了莱茵的线人，他们说内部一切如常。\n[character(name=\"char_249_muesys_1#4\")]\n[name=\"缪尔赛思\"]那是因为他们早就习惯了总辖不露面。\n[name=\"缪尔赛思\"]斐尔迪南筹谋了好几年，一点点架空了总辖……这个实验换来的筹码将是最后一步。\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]唔，搞不好不是最后一步。\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]在被抓住之前，我已经有一个多星期联系不上克丽斯腾了。\n[character(name=\"avg_npc_521_1#1$1\")]\n[name=\"Mechanist\"]那基地那边怎么办？\n[character(name=\"char_249_muesys_1#5\")]\n[name=\"缪尔赛思\"]我相信赫默医生的能力，她可是让我吃过亏的人呢。\n[character(name=\"avg_npc_532_1#9$1\")]\n[name=\"塞雷娅\"]……\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]来不及犹豫了哦，塞雷娅。\n[character(name=\"char_249_muesys_1#7\")]\n[name=\"缪尔赛思\"]你必须做出选择。\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]……博士，这并不是一个选择题。\n[character(name=\"avg_npc_532_1#1$1\")]\n[name=\"塞雷娅\"]解决基地问题的前提是解决斐尔迪南，而解决斐尔迪南的方式正摆在我们面前。\n[dialog]\n[character]\n[Decision(options=\"走吧，去见一见莱茵总辖。\",values=\"1\")]"
+        }
+      ],
+      "description": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C04"
+          ],
+          "from": "char_202_demkni",
+          "reason": "原文的直接对话、实时通信或明确关系陈述支持该方向。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_89d26c84069133ae",
+          "reason": "已读窗口未建立该方向。",
+          "status": "not_established",
+          "to": "char_202_demkni"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_c5cc9ad9c0085185.json",
+      "sources": [
+        {
+          "endLine": 362,
+          "kind": "story",
+          "line": 223,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act19side/level_act19side_06_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇候选窗口所示时段",
+      "title": "绿野幻梦"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 620,
+          "line": 594,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_05_beg.txt",
+          "quote": "水滴绕过你的身边，生态园的光线没能穿透它们，被塞进往事切片的水滴，柔和、清晰却又不可碰触。\n新装修完毕的实验室，空了大半的酒瓶……塞雷娅，还有一个人是克丽斯腾？以及一脸扫兴的缪尔赛思……\n三个人在房间中央大眼瞪小眼，像是三个呆呆的木偶。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]这是莱茵生命成立不久的新年夜……所有人都很高兴。最高兴的应该是我。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#9$1\")]\n[name=\"缪尔赛思\"]我是在大学毕业前不久才认识克丽斯腾，还有塞雷娅。\n[name=\"缪尔赛思\"]克丽斯腾绝不是普通投资人喜欢的合作对象，你一眼就能确定她会带来惊喜，还有惊吓，而塞雷娅，我对她最大的印象便是“可靠”。\n[name=\"缪尔赛思\"]我的导师意外和她们主持的项目有了接触，但本身兴趣不大，所以打发了我过去……\n[name=\"缪尔赛思\"]那阵子我除了一点用力生活的执拗外，什么都没有，处处尝试，没有方向。她们俩帮我度过了“毕业生”和“精灵”的迷茫期。\n[name=\"缪尔赛思\"]那个时候，还只有克丽斯腾，塞雷娅，我，帕尔维斯，斐尔迪南五个人。\n[name=\"缪尔赛思\"]帕尔维斯那家伙借口熬不了夜，早早地躲到了楼上去，斐尔迪南有事情要处理，走得也很早。\n[name=\"缪尔赛思\"]你敢相信吗，找了半天，我发现居然没有人可以跟我跳舞。\n[name=\"缪尔赛思\"]最后我还是只能拉住了塞雷娅……还有克丽斯腾。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#10$1\")]\n[name=\"缪尔赛思\"]哈哈，三个人的舞根本没人会跳，我到现在还记得当时她们俩脸上的表情！\n[dialog]\n[charslot(slot=\"m\",focus=\"n\")]\n[Decision(options=\"为什么你会这么执着于克丽斯腾？;莱茵生命对你来说很重要。\", values=\"1;2\")]\n[Predicate(references=\"1\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]嗯……因为梦想。\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#9$1\")]\n[name=\"缪尔赛思\"]我们约好了，她帮娜斯提踏上旅途，而她会带着我的梦一起上路。\n[Predicate(references=\"2\")]\n[charslot(slot=\"m\",name=\"avg_249_mlyss_1#8$1\")]\n[name=\"缪尔赛思\"]……确切地说，是塞雷娅和克丽斯腾这两个人对我来说很重要。"
+        }
+      ],
+      "description": "缪尔赛思具体回忆塞雷娅与斐尔迪南共同参与莱茵生命创立初期工作。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "C18"
+          ],
+          "from": "char_202_demkni",
+          "reason": "缪尔赛思具体回忆塞雷娅与斐尔迪南共同参与莱茵生命创立初期工作。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        },
+        {
+          "evidenceIds": [
+            "C18"
+          ],
+          "from": "npc_89d26c84069133ae",
+          "reason": "缪尔赛思具体回忆塞雷娅与斐尔迪南共同参与莱茵生命创立初期工作。",
+          "status": "supported",
+          "to": "char_202_demkni"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-01/结果/group_254887c845b6da6b.json",
+      "sources": [
+        {
+          "endLine": 620,
+          "kind": "story",
+          "line": 594,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act25side/level_act25side_05_beg.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "孤星事件及篇内明确既往",
+      "title": "孤星"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 318,
+          "line": 278,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_demkni_1_1.txt",
+          "quote": "[name=\"小贾斯汀\"]让我猜猜……能量科？\n[charslot(slot=\"m\",name=\"avg_npc_896_1#5$1\")]\n[name=\"塞雷娅\"]工程科。\n[charslot] \n[name=\"小贾斯汀\"]娜斯提可不会喜欢他。不对，他俩估计互相看不对眼。\n[charslot(slot=\"m\",name=\"avg_npc_896_1#1$1\")]\n[name=\"塞雷娅\"]娜斯提或许能教会他一些东西。\n[charslot(slot=\"m\",name=\"avg_npc_896_1#1$1\")]\n[name=\"塞雷娅\"]满意吗？\n[charslot] \n[name=\"小贾斯汀\"]总辖大人指什么？\n[charslot(slot=\"m\",name=\"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]你专门把这样一个其实硬性条件并不合格的人塞给我，我只能认为你在提醒我。\n[charslot] \n[name=\"小贾斯汀\"]哈哈，那我其实还没告诉你，斯凯可是克丽斯腾的超级粉丝。\n[name=\"小贾斯汀\"]他想要投身科学，加入莱茵生命，正是因为在那个晚上看到了……\n[charslot(slot=\"m\",name=\"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]那我很高兴他没指望说出这个故事，来为自己的面试加同情分。\n[charslot]\n[name=\"小贾斯汀\"]我当然也不是被这个打动。你不觉得，他恰恰是新时代的莱茵需要的人吗？\n[charslot(slot=\"m\",name=\"avg_npc_896_1#9$1\")]\n[name=\"塞雷娅\"]莱茵已经经历过剧变，未来还会面临更多挑战，我们确实需要大量的人才。\n[charslot(slot=\"m\",name=\"avg_npc_896_1#10$1\")]\n[name=\"塞雷娅\"]但我要提醒你，小贾斯汀。\n[charslot]\n[name=\"小贾斯汀\"]什么？\n[charslot(slot=\"m\",name=\"avg_npc_896_1#1$1\")]\n[name=\"塞雷娅\"]没有什么新时代。\n[charslot(slot=\"m\",name=\"avg_npc_896_1#1$1\")]\n[name=\"塞雷娅\"]在任何时代，一个没有学历，却拥有知识的人都不少见，也都是科学需要的人。\n[charslot]\n[name=\"小贾斯汀\"]但只有在现在，他们才能够脱颖而出。\n[name=\"小贾斯汀\"]多嘴问一句，你打算怎么处理斐尔迪南？\n[charslot(slot=\"m\",name=\"avg_npc_896_1#9$1\")]\n[name=\"塞雷娅\"]我没有什么打算，他也不需要我来操心。\n[charslot(slot=\"m\",name=\"avg_npc_896_1#9$1\")]\n[name=\"塞雷娅\"]如果他把自己捞出来了，并且还打算回到莱茵，告诉他，他在坐回自己的办公桌前，需要站上我的拳击台。\n[charslot(slot=\"m\",name=\"avg_npc_896_1#2$1\")]\n[name=\"塞雷娅\"]当然，他可以穿上他的动力甲。\n[charslot]\n[name=\"小贾斯汀\"]哈，我会转告他的。"
+        }
+      ],
+      "description": "塞雷娅单向知晓斐尔迪南。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E01"
+          ],
+          "from": "char_202_demkni",
+          "reason": "塞雷娅对斐尔迪南能否回来及其动力甲作出具体安排。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        },
+        {
+          "evidenceIds": [],
+          "from": "npc_89d26c84069133ae",
+          "reason": "斐尔迪南未出场，未见本篇反向证据。",
+          "status": "not_established",
+          "to": "char_202_demkni"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-05/结果/group_9a24fcede00dc356.json",
+      "sources": [
+        {
+          "endLine": 318,
+          "kind": "story",
+          "line": 278,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/obt/memory/story_demkni_1_1.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "本篇莱茵生命重组后",
+      "title": "塞雷娅"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 439,
+          "line": 378,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_st03.txt",
+          "quote": "[name=\"缪尔赛思\"]我不。\n[name=\"缪尔赛思\"]对了，你真不打算给我讲讲你母亲的事吗？\n[name=\"娜斯提\"]不打算。\n[name=\"缪尔赛思\"]你身上有了一些变化……很好的那种变化，我说不上来。\n[name=\"缪尔赛思\"]娜斯提……\n[name=\"娜斯提\"]好吧。我哭过一场，想通了一些事情，坚定了一些事情，就这样。\n[name=\"斐尔迪南\"]咳咳——我专门离开实验室一趟，不是为了看两位闺蜜情深的。\n[name=\"缪尔赛思\"]这两年你对科学狂热得有点太过忘我了，斐尔迪南，忘我到我有点想念你之前的钻营，和一门心思让莱茵归于自己掌握的样子。\n[name=\"斐尔迪南\"]难道现在不是吗？\n[name=\"斐尔迪南\"]这两年，是我在高能物理学上的新突破支撑着各个科室的新研究，同僚们。\n[name=\"娜斯提\"]嗯，也多亏了你帮忙。\n[name=\"缪尔赛思\"]我看，多萝西是因为不想听你自夸，才不来参会的吧？\n[name=\"斐尔迪南\"]呵，接受完相关的问询之后，她直接回了359实验基地。她说这段时间自己又做了几个梦……不会向前看的人。\n[name=\"斐尔迪南\"]塞雷娅，娜斯提已经将“树”的实验结果同步到了我的邮箱，仅仅是“螺旋桨天堂”的事情，不值得我们这些人都聚在这里开会吧？\n[name=\"塞雷娅\"]当然。\n[name=\"斐尔迪南\"]那我们在等谁？\n[Dialog]\n[PlaySound(key=\"$d_avg_glassdooropen\")]\n[delay(time=2)]\n[name=\"？？？\"]或许你会有兴趣看看因非冰原的资料？\n[name=\"斐尔迪南\"]……\n[name=\"塞雷娅\"]你终于回来了，马里亚姆。\n[Dialog]\n[delay(time=1)]\n[Image(image=\"68_i14_2\", xScale=1.1, yScale=1.1,screenadapt=\"coverall\",fadetime=2,block=true)]\n[name=\"马里亚姆\"]装蹄花了点时间，从特区徒步到特里蒙，正好用来磨合。抱歉，我太久没回哥伦比亚了。\n[name=\"娜斯提\"]幸好在“螺旋桨天堂”没等你太久。我安排好了车辆，本可以一起返回莱茵。\n[name=\"马里亚姆\"]……这个我倒是没有想过。\n[name=\"娜斯提\"]一个热衷于在大地的各个角落找死的家伙，必然习惯了一个人行动，理解。\n[name=\"斐尔迪南\"]启动“树”的核心元件，需要起码两位主任级别的莱茵员工权限。我原本还在想，塞雷娅到底安排了谁去帮娜斯提……\n[name=\"斐尔迪南\"]传说早就暴尸荒野，记者们甚至怀疑莱茵是否存在这号人物的科考科主任，倒是没有比你更为合适的人选了。只是——\n[name=\"马里亚姆\"]你想问谁安排的？小贾斯汀。\n[name=\"马里亚姆\"]他在察帕特有一些商业投资，我从因非冰原离开的第一时间，他便联系上了我。\n[name=\"马里亚姆\"]他让我入境哥伦比亚后直奔特区，之后不久，我便接到了古斯塔夫的邀约电话……显然小贾斯汀做了一番，嗯，运作。\n[name=\"斐尔迪南\"]那你本来——\n[name=\"马里亚姆\"]返回莱茵的目的？我在因非冰原的最深处，无根之花盛开得最灿烂的地方，发现了……那个圆形巨构的碎片。\n[name=\"马里亚姆\"]你猜到了？是的。克丽斯腾留下的资料里，提到过那个巨构。她说上个时代的人称之为，“星门”。\n[name=\"马里亚姆\"]塞雷娅待会儿应该会向你们同步这些情报。斐尔迪南，还有问题吗？没了吧。\n[name=\"斐尔迪南\"]……\n[name=\"缪尔赛思\"]哈哈哈，马里亚姆，你还是习惯自问自答，让斐尔迪南无话可说啊。\n[name=\"塞雷娅\"]好了，各位，人差不多到齐了。\n[name=\"塞雷娅\"]这场会议来得有些迟了。这两年来，几乎哥伦比亚所有的主流媒体和科技小报都下过类似的论断……\n[name=\"塞雷娅\"]“万星园消失的那道缝隙，既是星荚的伤痕，也是莱茵的伤痕。”他们甚至围绕着莱茵取消了年终酒会而编排了一些故事。\n[name=\"娜斯提\"]我们都很忙，仅此而已。\n[name=\"塞雷娅\"]嗯。现在，我们也忙得差不多了。\n[name=\"塞雷娅\"]工程科与生态科的联合项目虽然出了一些意外，但就最后的结果而言，很成功。娜斯提，你现在握着开启一个全新领域的钥匙。\n[name=\"娜斯提\"]……前提是我们真的能握紧它。\n[name=\"塞雷娅\"]毫无疑问，马里亚姆在因非冰原的发现，证实了克丽斯腾得到的那些远超常理的“怪谈”，确实是基于真实图景的“知识”。\n[name=\"马里亚姆\"]或许，我们能借此重建与上个时代的对话。\n[name=\"塞雷娅\"]至于我们在谢拉格的观测站，缪尔赛思带回来了一些资料……\n[name=\"缪尔赛思\"]非常有意思的资料哦……或者说，非常危险。\n[name=\"塞雷娅\"]玻利瓦尔的事情你们应该已经有所耳闻，哥伦比亚的二十多支科考队消失在了黑流树海。\n[name=\"斐尔迪南\"]如果是那片神秘沼泽有了什么异变，探险家和阴谋家们又该兴奋起来了。塞雷娅，莱茵应该有所行动。\n[name=\"塞雷娅\"]麦哲伦已经动身了。\n[Dialog]\n[delay(time=1.5)]\n[name=\"塞雷娅\"]自克丽斯腾的事件后，有越来越多的事件和现象在告诉我们，这片大地上埋藏最深的那些谜题，都拥有同一种答案。\n[name=\"塞雷娅\"]那答案将会告诉我们，泰拉因何而存在，未来等待着我们的，究竟是灾难还是新的“世界”。\n[name=\"塞雷娅\"]莱茵生命已经完成新一轮的科研布局，但这还不够，我们需要回应科学对未知的一切恐慌，到达所有的未知之境……\n[name=\"塞雷娅\"]娜斯提，你刚才的话没错……\n[name=\"塞雷娅\"]但莱茵生命，需要成为转动那把钥匙的人。\n[name=\"斐尔迪南\"]（低声）哇哦……"
+        }
+      ],
+      "description": "总辖塞雷娅与斐尔迪南直接讨论科研事务。",
+      "directions": [
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "char_202_demkni",
+          "reason": "塞雷娅主持会议并直接回应斐尔迪南。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        },
+        {
+          "evidenceIds": [
+            "E11"
+          ],
+          "from": "npc_89d26c84069133ae",
+          "reason": "斐尔迪南直接称呼塞雷娅并向她提问。",
+          "status": "supported",
+          "to": "char_202_demkni"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/八组复核/review-08/结果/group_d02002facde0d17c.json",
+      "sources": [
+        {
+          "endLine": 439,
+          "kind": "story",
+          "line": 378,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act47side/level_act47side_st03.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "莱茵生命会议",
+      "title": "未许之地"
+    },
+    {
+      "citations": [
+        {
+          "endLine": 397,
+          "line": 389,
+          "path": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "quote": "[name=\"塞雷娅\"]不过在那之前，我有一个问题要问你，安东尼•西蒙。\n[Character(name=\"char_264_Mountain_1#5\")]\n[name=\"安东尼\"]请问。\n[Character(name=\"avg_npc_136#1\")]\n[name=\"塞雷娅\"]你有没有听说过，斐尔迪南这个名字？\n[Character(name=\"char_264_Mountain_1#5\")]\n[name=\"安东尼\"]斐尔迪南……我从父亲那里听说过这个名字。\n[Character(name=\"avg_npc_136#4\")]\n[name=\"塞雷娅\"]斐尔迪南，果然是你。"
+        }
+      ],
+      "description": "",
+      "directions": [
+        {
+          "evidenceIds": [],
+          "from": "npc_89d26c84069133ae",
+          "reason": "本活动未找到该方向的具体人物知晓、信息接收或实际局部同场依据；不表示此人从来不认识对方。",
+          "status": "not_established_in_batch",
+          "to": "char_202_demkni"
+        },
+        {
+          "evidenceIds": [
+            "E17"
+          ],
+          "from": "char_202_demkni",
+          "reason": "塞雷娅主动问及斐尔迪南，并说“果然是你”。",
+          "status": "supported",
+          "to": "npc_89d26c84069133ae"
+        }
+      ],
+      "resultPath": "ArknightsNpcCatalog/关系审读/批次/act15d0/审读记录.json",
+      "sources": [
+        {
+          "endLine": 397,
+          "kind": "story",
+          "line": 389,
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act15d0/level_act15d0_08_end.txt",
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ],
+      "temporalScope": "越狱当天最终战后。",
+      "title": "孤岛风云"
+    }
+  ],
+  "relationship_id": "char_202_demkni|npc_89d26c84069133ae"
+}

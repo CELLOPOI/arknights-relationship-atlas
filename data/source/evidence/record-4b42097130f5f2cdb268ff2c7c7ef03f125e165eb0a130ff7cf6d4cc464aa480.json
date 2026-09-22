@@ -1,0 +1,50 @@
+{
+  "id": "import:char_510_amedic|npc_b99957887950ebfd",
+  "published": true,
+  "quote": "【慈悲灯塔】\nOutcast：稀客，博士。\nOutcast：有时间坐下喝一杯吗？今晚所有的酒都算在我的账上。\n选项：\n1：好热闹。\n2：这么多人？\n分支条件（原选项编号）：1 / 2\nTouch：你忘了吗博士，今天举办的是Outcast的退休仪式。\nSharp：敬我们尊敬的老前辈。\nOutcast：够了Sharp，你也没比我小多少。\n选项：\n1：感谢你对罗德岛的付出，Outcast。\n2：退休快乐。\n分支条件（原选项编号）：1 / 2\nPith：我们会记得你的事迹和精湛的射术的，敬你。\n煌：Outcast也要走了……\n\n凯尔希：你还记得他们每个人，你真切地为他们的遭遇感到遗憾。\n凯尔希：否则你不会看到这些画面。\n分支条件（原选项编号）：2\n凯尔希：你现在心情如何，博士？\n凯尔希：欣慰，困惑还是愤怒？\n分支条件（原选项编号）：3\n凯尔希：这些都是你的潜意识中你所期待的画面。\n\n凯尔希：这并非幻境，或是梦境。某种意义上讲，这一切同样是真实存在的。\n凯尔希：存在于你的想象中，是你过去遇到过的人与事，按你最期待的样子发展出的幻景。\n选项：\n1：这是对我们经历过的一切的玷污。\n2：你为什么还能这么冷静？\n分支条件（原选项编号）：1 / 2\n凯尔希：这些画面于我的触动并不弱于你，博士。\n凯尔希：但是归根结底，这些还是由你自己创造的画面。\n凯尔希：是源石，按你潜意识深处的期待和想要弥补某些遗憾的想法，“复制”出的景象。\n\n【长夜临光】\n分支条件（原选项编号）：1 / 2 / 3\n白金：……遭到青金的追击，不代表我就失去了无胄盟的立场……也许我还会受命于董事会……\n白金：你不会不明白，为什么……\n选项：\n1：我相信这会是双赢的结果。\n2：……\n3：只是巧合罢了。\n分支条件（原选项编号）：1 / 2 / 3\n白金：……\n芙蓉：哎呀！大家都帮你到这一步了，坦率地道个谢不就好了吗！\n白金：……\n白金：谢、谢谢，博士……\n砾：呼……\n砾：您可真是给我出了个难题呀，博士。\nTouch：放轻松，札拉克，这样治疗会更有效。\n砾：谢谢……\n芙蓉：砾小姐！你怎么会和Touch老师在一起呀！？\n砾：……凑巧吧。\n砾：不好意思，能让我坐下聊吗？\n芙蓉：请便！啊，Touch老师也……\nTouch：……不必，只是找阿米娅汇报一下工作。\n选项：\n1：辛苦了，二位。\n分支条件（原选项编号）：1\n砾：对付青金本人，真的很辛苦呢。\n砾：不过，还算是有些成果，对吧。\n白金：……\n砾：您可欠了我一个大大的人情哦，呵呵。\n选项：\n1：该回罗德岛了。\n分支条件（原选项编号）：1\n砾：看来您和白金已经达成共识了呢。\n砾：明明前一刻还是敌人，后一秒就能握手言谈。\n砾：真是神奇。\n砾：嗯，我也该休息一会了……\n\n【相变临界】\n华法琳：啊……\nTouch：少见你这样毛手毛脚的，走神了？\n华法琳：嗯……我在担心，去了乌萨斯的大家。\n华法琳：一直等一个悬而未决的结果，一点也不好受。\nTouch：你可从来没有当着博士的面表现出这种情绪。\n华法琳：不想影响士气，不代表不在意。\n华法琳：等你年纪和我一样大的时候，就知道这种分别是什么滋味了。\nTouch：这可不是个好的祝福……\n\n【离解复合】\nPith：你们的确准备了许多，但可惜应对源石技艺的手段还是捉襟见肘。\nMantra：……\n袭击者：不、不对，不该是你们——\n“嘘，连你的心脏都已经沉默了。”\nTouch：伤员我来处理，不过月见夜又变得过于亢奋了。\nTouch：梓兰，又得辛苦你了。\n梓兰：我会处理好他的。\nPith：博士猜得对，有人泄露了我们行动的消息。\nMantra：快速解决吧，尽快将这艘备用开采舰拖动到最近的移动城市修补能源舱室。\nMantra：然后迅速赶回本舰，避免所有意外。\n泡普卡：Pith女、女士，为什么来增援的是你们？\n泡普卡：之前PRTS通知的是Misery先生呀……\nPith：直觉？\nPith：临出发前突然更改计划，我担心……\n选项：\n1：我信任你们。\n分支条件（原选项编号）：1\n选项：\n1：Misery，Stormeye，Sharp他们另有安排。\n分支条件（原选项编号）：1\nPith：需要同步到PRTS上告知同事吗？",
+  "relationship_id": "char_510_amedic|npc_b99957887950ebfd",
+  "sources": [
+    {
+      "endLine": 310,
+      "kind": "story",
+      "line": 283,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 395,
+      "kind": "story",
+      "line": 387,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 515,
+      "kind": "story",
+      "line": 506,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_14-17_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 854,
+      "kind": "story",
+      "line": 796,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13side/level_act13side_hidden_st01.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 678,
+      "kind": "story",
+      "line": 665,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_17-16_end.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    },
+    {
+      "endLine": 431,
+      "kind": "story",
+      "line": 378,
+      "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_main_15-04_beg.txt",
+      "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+    }
+  ]
+}
