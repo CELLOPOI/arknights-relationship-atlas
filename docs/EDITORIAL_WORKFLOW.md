@@ -52,3 +52,5 @@
 条件叙事与上游贡献始终与实际关系分开保存、快照导出和回退；当前字段编辑界面覆盖人物、阵营、身份、关系、证据，未提供条件叙事或上游批次的可视化编辑器。
 
 验收命令与本轮结果见 [后台更新验收](EDITORIAL_VALIDATION.md)，架构取舍见 [后台发布决定](../.agents/notes/implemented/architecture/2026-09-21-editorial-publication.md)。
+
+喜好V2补录支持固定清单内的 `/assets/preferences/...` 人物头像。资料审核摘要、发布预览与正式发布记录同时绑定被引用文件哈希及喜好素材版本；内容或素材版本变化使旧审核失效。`stage_preference_people` 只将缺失人物和身份放入普通修订草稿，不绕过本流程，不自动新增关系边。

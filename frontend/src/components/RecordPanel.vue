@@ -2,6 +2,7 @@
 import { computed, nextTick, ref, watch } from 'vue';
 import { api } from '../api';
 import SourceList from './SourceList.vue';
+import PersonPreferenceLinks from '../preferences/PersonPreferenceLinks.vue';
 import { user, communityEnabled } from '../session';
 import type { Comment, Page, Person, Relation, Target, FeedbackTarget } from '../types';
 
@@ -104,7 +105,7 @@ const date = (value: string) => new Intl.DateTimeFormat('zh-CN', { dateStyle: 'm
             <div v-if="comments.count > 30" class="archive-pagination"><button :disabled="comments.page <= 1" @click="changePage(comments.page - 1)">上一页</button><span>{{ comments.page }}</span><button :disabled="!comments.hasNext" @click="changePage(comments.page + 1)">下一页</button></div>
           </section>
           <section v-else-if="!communityEnabled || tab === 'details'" class="record-evidence">
-            <template v-if="person"><h3>称呼与别名</h3><p>{{ person.aliases.join('、') || person.name }}</p><h3>{{ person.isOperator ? '当前阵营' : '资料归类' }}</h3><p>{{ person.factionName }}</p><p v-if="!person.isOperator" class="archive-muted">按资料中的国家或组织归类，包含历史归属。</p><template v-if="person.avatarSource"><h3>头像来源</h3><p v-if="person.avatarIsGeneric" class="archive-muted">此为通用立绘，仅代表角色的大致形象。</p><p><a class="archive-text-button" :href="person.avatarSource" target="_blank" rel="noopener noreferrer">查看 PRTS 原图</a></p></template><button class="archive-button secondary" @click="emit('navigate', person.id, person.isOperator)">探索相关人物</button></template>
+            <template v-if="person"><PersonPreferenceLinks :person-id="person.id" /><h3>称呼与别名</h3><p>{{ person.aliases.join('、') || person.name }}</p><h3>{{ person.isOperator ? '当前阵营' : '资料归类' }}</h3><p>{{ person.factionName }}</p><p v-if="!person.isOperator" class="archive-muted">按资料中的国家或组织归类，包含历史归属。</p><template v-if="person.avatarSource"><h3>头像来源</h3><p v-if="person.avatarIsGeneric" class="archive-muted">此为通用立绘，仅代表角色的大致形象。</p><p><a class="archive-text-button" :href="person.avatarSource" target="_blank" rel="noopener noreferrer">查看 PRTS 原图</a></p></template><button class="archive-button secondary" @click="emit('navigate', person.id, person.isOperator)">探索相关人物</button></template>
             <template v-if="relation"><p class="record-note">{{ relation.note || '关系判定依据见下方原文。' }}</p><article v-for="item in relation.evidence" :key="item.id"><h3>关键原文</h3><blockquote>{{ item.quote }}</blockquote><SourceList :sources="item.sources" /></article></template>
           </section>
           <section v-else aria-label="补充资料"><p class="archive-intro">发现遗漏或需要修正的地方，请附上说明与出处。补充经审核后进入正式资料。</p><form v-if="user" class="archive-form" @submit.prevent="supplement"><label>需要补充或修正什么<textarea v-model="explanation" name="explanation" rows="4" maxlength="6000" required /></label><label>相关原文与出处<textarea v-model="evidence" name="evidence" rows="5" maxlength="12000" placeholder="例如活动名称、章节、原文片段或档案条目" /></label><button class="archive-button" :disabled="busy || !explanation.trim()">{{ busy ? '正在提交…' : '提交补充' }}</button><p class="archive-muted">审核状态和意见可在“我的档案 → 我的补充”查看。</p></form><button v-else class="archive-button" @click="emit('login')">登录后提交补充</button></section>

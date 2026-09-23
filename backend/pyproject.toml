@@ -10,6 +10,9 @@ dependencies = [
 ]
 
 [dependency-groups]
+assets = [
+    "opencv-python-headless<5",
+]
 dev = ["ruff>=0.12"]
 
 [tool.ruff]

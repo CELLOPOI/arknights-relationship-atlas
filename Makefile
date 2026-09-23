@@ -33,11 +33,13 @@ check-frontend:
 	cd frontend && npm run build
 	cd frontend && npm run test:game
 	cd frontend && npm run test:atlas
+	cd frontend && npm run test:preferences
 
 check-frontend-source:
 	cd frontend && npm run typecheck
 	cd frontend && npm run test:game
 	cd frontend && npm run test:atlas
+	cd frontend && npm run test:preferences
 
 check-postgres:
 	$(RUFF) check backend scripts/check_backend.py
@@ -53,3 +55,4 @@ assets-install:
 
 assets-verify:
 	node --input-type=module -e 'import {readFile} from "node:fs/promises"; import {verifyResources} from "./assets/verify-resources.mjs"; const m=JSON.parse(await readFile("assets/resource-manifest.json","utf8")); await verifyResources(`assets/local/$${m.version}`,m); console.log(m.version);'
+	node scripts/verify-preferences-assets.mjs

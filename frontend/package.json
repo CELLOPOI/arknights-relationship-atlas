@@ -15,6 +15,7 @@
     "typecheck": "vue-tsc --noEmit",
     "test:atlas": "node --test --test-isolation=none src/atlas/data.test.mjs src/source-display.test.mjs",
     "test:game": "node --experimental-strip-types --test --test-isolation=none src/game/*.test.mjs",
+    "test:preferences": "node --experimental-strip-types --test --test-isolation=none src/preferences/*.test.mjs",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {

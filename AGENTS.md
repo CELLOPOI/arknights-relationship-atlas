@@ -4,7 +4,7 @@
 
 先阅读 [开发指南](docs/DEVELOPMENT.md)、[贡献指南](CONTRIBUTING.md)、[后台资料流程](docs/EDITORIAL_WORKFLOW.md)和[仓库文件约定](docs/REPOSITORY_POLICY.md)。本仓库维护应用开发、测试、通用容器契约及数据规范；个人服务器操作、凭据、运行状态和运维计划不进入公开项目。
 
-业务开发位于 `frontend/` 与 `backend/`。前端构建使用随库的固定素材 `assets/local/atlas-assets-24d6e8427efd2e90f29f1b7e/`，只纳入 `assets/resource-manifest.json` 列出的文件；其他本地素材版本、归档和构建输出继续忽略。日常开发不依赖历史 `dist/` 或相邻资料工程。
+业务开发位于 `frontend/` 与 `backend/`。前端构建使用随库的固定素材 `assets/local/atlas-assets-24d6e8427efd2e90f29f1b7e/`，只纳入 `assets/resource-manifest.json` 列出的文件；喜好扩展素材位于 `assets/preferences/`，只纳入 `assets/preferences-manifest.json` 列出的文件；其他本地素材版本、归档和构建输出继续忽略。日常开发不依赖历史 `dist/` 或相邻资料工程。
 
 正式资料只经受控发布服务写入，日常入口为后台修订、审核、预览和事务发布。首次初始化可使用已核对的 Git 基线；后台维护启用后拒绝旧包写入。正式资料表保持只读，旧社区接口默认关闭，不得用兼容开关绕过发布。保留稳定人物 ID、关系方向、证据和条件叙事边界。`data/source/` 用于初始化与单向快照，`data/npc/` 保留来源与基线；反馈、联系方式、账号和内部记录不得进入公开资料。
 

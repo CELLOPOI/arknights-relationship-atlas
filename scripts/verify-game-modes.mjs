@@ -8,6 +8,7 @@ import { buildNetwork, dataFingerprint, newRound, shortestPath } from '../fronte
 import { newCompletionRound, canFillGap } from '../frontend/src/game/completion.ts';
 import { modeRules, STORAGE_KEY } from '../frontend/src/game/modes.ts';
 import { appearancesFor } from '../frontend/src/game/appearances.ts';
+import { siteNotice } from '../frontend/src/content/site-notice.ts';
 
 const base = process.env.BASE_URL || 'http://127.0.0.1:5175';
 const output = await verificationDirectory('game-modes');
@@ -24,6 +25,8 @@ async function page(viewport = { width: 1440, height: 1000 }) {
   const p = await browser.newPage({ viewport, reducedMotion: 'reduce', hasTouch: viewport.width < 760, isMobile: viewport.width < 760 });
   p.setDefaultTimeout(10000);
   p.on('pageerror', error => errors.push(error.message));
+  // 游戏回归从已阅读站点说明的会话开始；弹窗自身由站点说明验收覆盖。
+  await p.addInitScript(version => localStorage.setItem('atlas:site-notice:acknowledged', version), siteNotice.version);
   await installGameFixture(p);
   return p;
 }

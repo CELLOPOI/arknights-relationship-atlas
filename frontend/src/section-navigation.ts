@@ -1,4 +1,13 @@
 export type SectionDirection = -1 | 1;
+export type SectionName = 'home' | 'relations' | 'game' | 'preferences' | 'sources';
+export const sectionOrder: SectionName[] = ['home', 'relations', 'game', 'preferences', 'sources'];
+export function sectionFor(url: URL): SectionName {
+  if (/^\/sources\/?$/.test(url.pathname)) return 'sources';
+  if (/^\/preferences\/?$/.test(url.pathname)) return 'preferences';
+  if (/^\/game\/?$/.test(url.pathname)) return 'game';
+  return url.hash === '#home' || (!url.hash && !url.searchParams.has('person') && !url.searchParams.has('faction')) ? 'home' : 'relations';
+}
+export const directionBetween = (from: SectionName, to: SectionName): SectionDirection => sectionOrder.indexOf(to) < sectionOrder.indexOf(from) ? -1 : 1;
 export const sectionDuration = () => matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 600;
 let transition: ViewTransition | undefined;
 let fallback: Animation | undefined;

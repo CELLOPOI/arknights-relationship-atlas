@@ -10,11 +10,12 @@
 | 干员头像 | [素材清单](assets/manifest.json) | 固定来源提交与校验值，美术权利归各权利人 |
 | NPC 头像 | [NPC 清单](assets/npc-manifest.json) | 保留来源页、裁切与哈希 |
 | 游戏立绘与异格 | [立绘清单](assets/illustration-manifest.json)、[异格清单](assets/appearance-manifest.json) | 固定输入版本与派生记录 |
+| 喜好外观、半身图、NPC与八职业图标 | [喜好素材清单](assets/preferences-manifest.json)、[准备与覆盖](docs/PREFERENCES_ASSETS.md) | 外观来自fexli/ArknightsResource，NPC图源为PRTS，职业图标来自Aceship/Arknight-Images；固定提交、源 blob、派生摘要与未核实权利状态均保留 |
 | 徽记与字体 | 素材目录内 `assets/emblems.json`、`assets/fonts.json` | 保留官方来源、版权及许可链接；字体细节见下文 |
 | 参考站点适配 | [参考学习](docs/SOURCE_LEARNING.md) | 区分独立实现与参考适配 |
 | 剧情原文与关系资料 | [NPC 接入](docs/NPC_IMPORT.md)、`data/npc/` | 保留出处、方向与原文对应 |
 
-随库资源目录和校验方式见 [素材说明](docs/RESOURCE_PACK.md)，完整文件清单见 [资源清单](assets/resource-manifest.json)。来源记录用于追溯，不代替使用许可。
+随库资源目录和校验方式见 [素材说明](docs/RESOURCE_PACK.md)，文件分别由[基础资源清单](assets/resource-manifest.json)和[喜好素材清单](assets/preferences-manifest.json)固定。来源记录用于追溯，不代替使用许可。
 
 ## 依赖声明
 
@@ -33,3 +34,5 @@ Novecento Sans Wide Bold 使用官方 Webfont kit 的原样 WOFF2，保留原始
 ## 开放字体子集
 
 三款既有子集包含 OFL 1.1 许可标记，当前按其对应版本的保留字体名要求制作改名派生文件。原始版权记录保留；`name` 表及字体校验和以外的全部表逐字节相同，原字符覆盖 896、902、101 个码点不变。CSS 别名分别为 `AtlasCJK`、`AtlasNarrow`。完整许可见 [Source Han Sans OFL](assets/licenses/SourceHanSans-OFL.txt) 和 [Oswald OFL](assets/licenses/Oswald-OFL.txt)；原始/输出文件哈希、名称与许可来源见 [派生记录](assets/ofl-fonts.json)。这些派生字体继续采用 OFL，不纳入项目 MIT。制作步骤和保留现有字形的原因见 [字体维护](docs/ASSET_LICENSING.md#开放字体的维护)。
+
+半身准备工具另使用OpenCV、NumPy与[nagadomi/lbpcascade_animeface固定模型](https://github.com/nagadomi/lbpcascade_animeface/tree/4433ab1ae1166ea75acfe99eb0f18709dac329a0)提供离线建议；模型不随浏览器或普通构建分发，来源和摘要见 `data/preferences/portrait-focus.json`。它不改变游戏图像权利归属。

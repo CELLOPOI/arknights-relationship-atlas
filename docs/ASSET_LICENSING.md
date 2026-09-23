@@ -2,6 +2,12 @@
 
 本项目原创代码采用 [MIT](../LICENSE)，第三方图片、字体、商标和剧情引用保留各自权利。当前固定素材已随源码提交，来源与文件摘要见 [素材说明](RESOURCE_PACK.md)及 [第三方记录](../THIRD_PARTY.md)。素材清单的 `rights_status` 仍为 `unreviewed`，本次收录没有改变第三方许可范围。
 
+## 喜好外观与职业图标
+
+`assets/preferences/` 的外观完整图及缩略图来自 [fexli/ArknightsResource 固定提交](https://github.com/fexli/ArknightsResource/tree/230ae8586b4140645af68fe121e44d2676b56197/charpack)；八职业图标来自 [Aceship/Arknight-Images 固定提交](https://github.com/Aceship/Arknight-Images/tree/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes)。来源仓库是取得渠道，不代表美术权利转授。
+
+[喜好素材清单](../assets/preferences-manifest.json)记录固定来源、原始 blob 与内容摘要、透明裁边、转换参数和输出摘要。外观转为WebP并生成完整缩略图与可追溯半身裁切；V2 NPC另保留PRTS来源页、图像原始摘要和身份依据，图标保留原始PNG；所有记录保持 `rights_status=unreviewed`。游戏与联动美术权利仍属于相应权利人，不能改标为原创代码 MIT。候选范围与复现命令见[喜好素材说明](PREFERENCES_ASSETS.md)。
+
 ## 已取得的 Novecento Webfont
 
 当前使用官方 Webfont kit 的原样 WOFF2：`assets/fonts/NovecentoSansWideBold-d9c32120/font.woff2`，39,708 字节，SHA-256 为 `d9c32120abe0a5ea33dca70cb16083efc06671c86a9a1f781641c47a436bebe2`。来源与 [Web Content EULA](https://www.myfonts.com/pages/license-agreement?eula_lang=eula_en&id=eula_2267) 链接保留在包内 `assets/fonts.json`。

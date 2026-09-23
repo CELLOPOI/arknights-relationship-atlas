@@ -68,11 +68,12 @@ onBeforeUnmount(() => { unmounted = true; atlas?.dispose(); });
   </svg>
 
   <header class="site-header">
-    <a class="site-brand" href="#home" data-page="home"><span>干员关系档案</span><small>ARKNIGHTS</small></a>
+    <a class="site-brand" href="#home" data-page="home"><span>泰拉群像</span><small>ARKNIGHTS</small></a>
     <nav class="site-nav" aria-label="主导航">
       <a href="#home" data-page="home"><span>INDEX</span><small>首页</small></a>
-      <a href="#factions" data-page="factions"><span>OPERATOR</span><small>干员</small></a>
+      <a href="#factions" data-page="factions"><span>RELATIONS</span><small>人物关系</small></a>
       <a href="/game/"><span>GAME</span><small>游戏</small></a>
+      <a href="/preferences/"><span>PREFERENCES</span><small>喜好</small></a>
       <SiteNoticeButton><span>NOTICE</span><small>站点说明</small></SiteNoticeButton>
     </nav>
     <button id="site-menu-open" class="site-menu-toggle" aria-label="打开导航" aria-haspopup="dialog"><span></span><span></span><span></span></button>
@@ -88,8 +89,8 @@ onBeforeUnmount(() => { unmounted = true; atlas?.dispose(); });
     <main id="home-page" class="portal-route home-page" aria-label="首页">
       <div class="home-wordmark" aria-hidden="true">ARKNIGHTS</div>
       <div class="home-copy">
-        <h1 tabindex="-1">干员关系档案</h1>
-        <a class="portal-enter" href="#factions" data-page="factions"><span>进入干员档案<small>EXPLORE OPERATORS</small></span><svg><use href="#i-arrow-up-right"/></svg></a>
+        <h1 tabindex="-1">泰拉群像</h1>
+        <a class="portal-enter" href="#factions" data-page="factions"><span>查看人物关系<small>EXPLORE RELATIONS</small></span><svg><use href="#i-arrow-up-right"/></svg></a>
       </div>
       <div class="home-caption"><span>RHODES ISLAND ://</span><span>人物 · 阵营 · 关系</span></div>
       <button class="scroll-cue" data-page="factions" aria-label="下一分区：干员"><span>SCROLL</span><svg><use href="#i-back"/></svg></button>
@@ -300,7 +301,7 @@ onBeforeUnmount(() => { unmounted = true; atlas?.dispose(); });
     <div id="panel-content" class="panel-body"></div>
   </dialog>
 
-  <dialog id="site-menu" class="site-menu" aria-label="网站导航"><button id="site-menu-close" aria-label="关闭导航"><svg><use href="#i-close"/></svg></button><a href="#home" data-page="home">INDEX <span>首页</span></a><a href="#factions" data-page="factions">OPERATOR <span>干员</span></a><a href="/game/">GAME <span>游戏</span></a><SiteNoticeButton>NOTICE <span>站点说明</span></SiteNoticeButton><a href="/sources/">SOURCES <span>来源与版权</span></a></dialog>
+  <dialog id="site-menu" class="site-menu" aria-label="网站导航"><button id="site-menu-close" aria-label="关闭导航"><svg><use href="#i-close"/></svg></button><a href="#home" data-page="home">INDEX <span>首页</span></a><a href="#factions" data-page="factions">RELATIONS <span>人物关系</span></a><a href="/game/">GAME <span>游戏</span></a><a href="/preferences/">PREFERENCES <span>喜好</span></a><SiteNoticeButton>NOTICE <span>站点说明</span></SiteNoticeButton><a href="/sources/">SOURCES <span>来源与版权</span></a></dialog>
 
   <!-- Global Toast Notification -->
   <div id="toast" class="toast-alert" role="status" hidden></div>

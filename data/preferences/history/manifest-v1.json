@@ -1,0 +1,3421 @@
+{
+  "version": "preferences-assets-8a5c8f3d84c5fbc7470403f3",
+  "rights_status": "unreviewed",
+  "source": {
+    "repository": "fexli/ArknightsResource",
+    "commit": "3596def3267fe2b172ba20895b47e11c0523642f",
+    "tree": "39b1481ba3dfcfa115f93d5ee63e541ddd519a36"
+  },
+  "icon_source": {
+    "repository": "Aceship/Arknight-Images",
+    "commit": "0b28f9562fcadbd644c6225f8f8aefbb500b4d22"
+  },
+  "metadata_inputs": {
+    "character_table": {
+      "sha256": "42708ca01b1938df4e2c3ed9e9efeadbf0e35533411907dadb37b80315e69ae8"
+    },
+    "skin_table": {
+      "sha256": "ec6d8a30af8b5ed8efdb410cf5d834868ebe09513614fb2d1cc1e3d5f2fd18ac"
+    },
+    "char_patch_table": {
+      "sha256": "d1850d5aeec1a9246a0531e88c167e66745644957662c8272fc764f54904c57e"
+    }
+  },
+  "files": [
+    {
+      "path": "full/char_002_amiya_1plus.webp",
+      "bytes": 208942,
+      "sha256": "ca523ddb15a85312c10cf730e16c407e9b46bc98ae406e7b698764ce3447a584",
+      "width": 1157,
+      "height": 1393
+    },
+    {
+      "path": "full/char_002_amiya_2.webp",
+      "bytes": 450182,
+      "sha256": "f20b201d20d39573fd5d9073cf98229a0d43e5429e4d85168f08f184b15a7ad1",
+      "width": 1485,
+      "height": 1600
+    },
+    {
+      "path": "full/char_002_amiya_epoque_4.webp",
+      "bytes": 281372,
+      "sha256": "d99396ff5b016e9f130e681fe79bc5dc77c3368db1404e17bf13852517cbc4e8",
+      "width": 1231,
+      "height": 1600
+    },
+    {
+      "path": "full/char_002_amiya_test_1.webp",
+      "bytes": 392044,
+      "sha256": "b7402142e079033e5e5b203a534bb714f58b6b9bf0bed8338d1157c3b2539f9e",
+      "width": 1231,
+      "height": 1600
+    },
+    {
+      "path": "full/char_002_amiya_winter_1.webp",
+      "bytes": 172238,
+      "sha256": "fe677fe0143e52366c8842390ee022c86c06e652cbfdfbb6a255422821eb5b00",
+      "width": 813,
+      "height": 1600
+    },
+    {
+      "path": "full/char_010_chen_1.webp",
+      "bytes": 99706,
+      "sha256": "b758e75c7f1a2b5eafcb7385974b6a567cf78ca598d98cd2d1aaca488b9efce4",
+      "width": 635,
+      "height": 1176
+    },
+    {
+      "path": "full/char_010_chen_2.webp",
+      "bytes": 399556,
+      "sha256": "df212748a50dd5ad5c8b3a11e5016e5ae1fbae06bbb4473ae9eee76c223a2768",
+      "width": 1385,
+      "height": 1600
+    },
+    {
+      "path": "full/char_010_chen_nian_2.webp",
+      "bytes": 450450,
+      "sha256": "4e3305ed7952f375e7d0c1c88e025ecf057785637ca41fbad2a71109af1d5e23",
+      "width": 1507,
+      "height": 1600
+    },
+    {
+      "path": "full/char_010_chen_sale_10.webp",
+      "bytes": 367598,
+      "sha256": "c8d40c1056d4a0877d98a0c476a0ce2d7e672996f0a7ed61950be57768776d53",
+      "width": 1564,
+      "height": 1600
+    },
+    {
+      "path": "full/char_1001_amiya2_2.webp",
+      "bytes": 682620,
+      "sha256": "3ff6277861821267ba60559dfa22dba124590a2f26fdf13063e5a0f424860981",
+      "width": 1460,
+      "height": 1600
+    },
+    {
+      "path": "full/char_1001_amiya2_casc_1.webp",
+      "bytes": 296106,
+      "sha256": "860812e8dd92629e21aa11825d78b2084ea8edebc5a49902f0426ac8dc804fcd",
+      "width": 1600,
+      "height": 1168
+    },
+    {
+      "path": "full/char_1001_amiya2_sale_16.webp",
+      "bytes": 451154,
+      "sha256": "2f3ea14f0406c7d3b451fc7442cd0644b979f97445ce08dd0fbb3e67f220dd95",
+      "width": 1600,
+      "height": 1374
+    },
+    {
+      "path": "full/char_1012_skadi2_1.webp",
+      "bytes": 422030,
+      "sha256": "1644f24065b254ebf82d4faa5fd719562d78ec0a32d3d171204caf0dd776a6f5",
+      "width": 1517,
+      "height": 1600
+    },
+    {
+      "path": "full/char_1012_skadi2_2.webp",
+      "bytes": 499270,
+      "sha256": "9443ba4d826e1c02aa175fe7031877f53b1235a4d39867f2a06a08b6fc8ec3d3",
+      "width": 1600,
+      "height": 1323
+    },
+    {
+      "path": "full/char_1012_skadi2_boc_4.webp",
+      "bytes": 389930,
+      "sha256": "63289791e6c52d7ced75461f36ac56f46d0d93778fd5c6d633ea8e302cea3b72",
+      "width": 1600,
+      "height": 1148
+    },
+    {
+      "path": "full/char_1012_skadi2_iteration_2.webp",
+      "bytes": 435660,
+      "sha256": "122a0f1742350a5c542ddca27da69287fbe06d1a27d91165bf213258312e8547",
+      "width": 1600,
+      "height": 1377
+    },
+    {
+      "path": "full/char_1013_chen2_1.webp",
+      "bytes": 248290,
+      "sha256": "e91709cbe09ec97d53b90976192d3bdab6b2f5a7714f889fefc1b1fcc385e1ec",
+      "width": 1064,
+      "height": 1600
+    },
+    {
+      "path": "full/char_1013_chen2_2.webp",
+      "bytes": 422480,
+      "sha256": "8d272387fad357eaa29a504ea4a5618f49b4bc820ddd289f18ca01ae4d186d07",
+      "width": 1600,
+      "height": 1281
+    },
+    {
+      "path": "full/char_1013_chen2_boc_6.webp",
+      "bytes": 444668,
+      "sha256": "620ed8e48b2f482499023073b1ebb39742fff2b6838b18f3d459f8ca0122b87a",
+      "width": 1600,
+      "height": 1396
+    },
+    {
+      "path": "full/char_1013_chen2_summer_20.webp",
+      "bytes": 600152,
+      "sha256": "17329f7d3877b7e267590258ef4e525188a91b99f82e85f90f95c54e177c5233",
+      "width": 1600,
+      "height": 1246
+    },
+    {
+      "path": "full/char_102_texas_1.webp",
+      "bytes": 100430,
+      "sha256": "6e895848bbb46d4a4181de04d5b67c364d2433ef14c7322382e1847f15b71fad",
+      "width": 511,
+      "height": 1321
+    },
+    {
+      "path": "full/char_102_texas_2.webp",
+      "bytes": 398536,
+      "sha256": "32c879f1b90f01d1f603c5c00b7a6992ad559e74eb093f1e429041ad95db0163",
+      "width": 1053,
+      "height": 1321
+    },
+    {
+      "path": "full/char_102_texas_epoque_7.webp",
+      "bytes": 327652,
+      "sha256": "1aac1a6029b6e3f9a60fa67228809dc0ffa46a0ea17dbe5992ee6da9f3521641",
+      "width": 1600,
+      "height": 1413
+    },
+    {
+      "path": "full/char_102_texas_winter_1.webp",
+      "bytes": 259752,
+      "sha256": "ccbbb6d99197d03e79f9054a8880642e6a68dd7d796bfef1aa1764e6fff90c86",
+      "width": 1107,
+      "height": 1600
+    },
+    {
+      "path": "full/char_1028_texas2_1.webp",
+      "bytes": 253982,
+      "sha256": "34332484ccae9edd83f55e11b9a14b3c063aa3cd5a831716855617b74bec0710",
+      "width": 1191,
+      "height": 1600
+    },
+    {
+      "path": "full/char_1028_texas2_2.webp",
+      "bytes": 351476,
+      "sha256": "5c63eb5183501a4556bf9305047938ac31722e28baf3b196ae20477c979b3d16",
+      "width": 1600,
+      "height": 1588
+    },
+    {
+      "path": "full/char_1028_texas2_epoque_36.webp",
+      "bytes": 331400,
+      "sha256": "4c71ec585a692c5bb61287e197b28b2b0afd55d8a303a9731ec7da5fdb392f06",
+      "width": 1600,
+      "height": 1386
+    },
+    {
+      "path": "full/char_1028_texas2_iteration_1.webp",
+      "bytes": 283502,
+      "sha256": "622410457cca4b9804e3928d3df8d6f2cba3c47a0f078397035e818faa77dc3e",
+      "width": 1600,
+      "height": 1363
+    },
+    {
+      "path": "full/char_1037_amiya3_2.webp",
+      "bytes": 633010,
+      "sha256": "213bc6d82fd3f8b89009751677825c946f24339b48d459be87c36bef5b6f80f9",
+      "width": 1600,
+      "height": 1508
+    },
+    {
+      "path": "full/char_1037_amiya3_sale_13.webp",
+      "bytes": 562438,
+      "sha256": "2cf1b1637f4429669eadb22e9e75a53dc7f03dfa201d043b6fbde8f7c13a6f85",
+      "width": 1600,
+      "height": 1487
+    },
+    {
+      "path": "full/char_107_liskam_1.webp",
+      "bytes": 99844,
+      "sha256": "9bd58be0fc35c844905434b968fb399d92055e5d43bfc1536bf621d1dd3f3f94",
+      "width": 691,
+      "height": 1358
+    },
+    {
+      "path": "full/char_107_liskam_2.webp",
+      "bytes": 482070,
+      "sha256": "b3d3751f742a8626cc2fc5ac5dedc6eafe154bbbaa2fce17536f7aaa1e0ce525",
+      "width": 1600,
+      "height": 1487
+    },
+    {
+      "path": "full/char_107_liskam_nian_2.webp",
+      "bytes": 514904,
+      "sha256": "0c4332a59e12405b91639f9230865c15b5019cb628b16b1fc78466a94ab39a50",
+      "width": 1310,
+      "height": 1600
+    },
+    {
+      "path": "full/char_107_liskam_striker_1.webp",
+      "bytes": 304264,
+      "sha256": "ddfc61e462bc07a24f33203568784fe02a33bc0b0ea7cbf1a9fdf2d5dba6959e",
+      "width": 1600,
+      "height": 1575
+    },
+    {
+      "path": "full/char_109_fmout_1.webp",
+      "bytes": 127924,
+      "sha256": "c9a9e43510402c6cfc61ada4f5c4f2a4fb5306afd7339d3890a501cef44b641c",
+      "width": 664,
+      "height": 1290
+    },
+    {
+      "path": "full/char_109_fmout_2.webp",
+      "bytes": 337386,
+      "sha256": "dda4ec4ca64ac268580250026fc32f05342326e1c64b53d1ccc7967c13928994",
+      "width": 1394,
+      "height": 1354
+    },
+    {
+      "path": "full/char_109_fmout_epoque_2.webp",
+      "bytes": 611692,
+      "sha256": "4a833821532e2fc43529c6e00209731d8d596580bf25315a5ff3f6061594256e",
+      "width": 1281,
+      "height": 1600
+    },
+    {
+      "path": "full/char_110_deepcl_1.webp",
+      "bytes": 107376,
+      "sha256": "736e9700b2976c6384fad0c34e7129d3dafff0520c56a2f2b3ab1f3961a88b8d",
+      "width": 670,
+      "height": 1230
+    },
+    {
+      "path": "full/char_110_deepcl_2.webp",
+      "bytes": 188484,
+      "sha256": "26642be5486a3e308ca96d38f3864df80481903f3bfb2c4560b4f58228c2884d",
+      "width": 805,
+      "height": 1273
+    },
+    {
+      "path": "full/char_110_deepcl_winter_3.webp",
+      "bytes": 425924,
+      "sha256": "cdbd64eff12597c937ba028ec27055dbcee1a63f0461572d220400365b62c17e",
+      "width": 1281,
+      "height": 1600
+    },
+    {
+      "path": "full/char_117_myrrh_1.webp",
+      "bytes": 137984,
+      "sha256": "87d685c3af84da6a40d10ae43b684b02e94b7e6e39624a1bca088e30c9648f7d",
+      "width": 544,
+      "height": 1201
+    },
+    {
+      "path": "full/char_117_myrrh_2.webp",
+      "bytes": 432134,
+      "sha256": "482b9989b4f3e6d30ef1be67061034030dd48a917e59657eb06de0e74d8fd64b",
+      "width": 1171,
+      "height": 1479
+    },
+    {
+      "path": "full/char_117_myrrh_wild_1.webp",
+      "bytes": 318822,
+      "sha256": "7505eff00011a97f3eec4226fe652407e794478e9db882286caf6e8e4825414f",
+      "width": 1600,
+      "height": 1479
+    },
+    {
+      "path": "full/char_118_yuki_1.webp",
+      "bytes": 96524,
+      "sha256": "5c1a8a0ae4c183b79c7d5dcdedc0ae9339ff3f0600a78c0db981b0d2242c46f1",
+      "width": 678,
+      "height": 1194
+    },
+    {
+      "path": "full/char_118_yuki_2.webp",
+      "bytes": 230488,
+      "sha256": "7cf2c5b74721b15041a8e761f42640fa19bcfa8cd0fd08fe7a135631bcaccc4c",
+      "width": 1354,
+      "height": 1187
+    },
+    {
+      "path": "full/char_118_yuki_boc_2.webp",
+      "bytes": 313452,
+      "sha256": "001dcc7745f97dbaba2501f35cea676c8f2155fa56f362e4a41200b955821e59",
+      "width": 1600,
+      "height": 1489
+    },
+    {
+      "path": "full/char_120_hibisc_1.webp",
+      "bytes": 93122,
+      "sha256": "f35bcbb4ec126f2646c777f8bc8fd8a5ade346c89723b445c71d047438495323",
+      "width": 436,
+      "height": 1243
+    },
+    {
+      "path": "full/char_120_hibisc_nian_1.webp",
+      "bytes": 427238,
+      "sha256": "5ec950e6cbb82d3e38a288c0c0dddac23a317c526d06fc746bdcdd3c3e7559a1",
+      "width": 1211,
+      "height": 1600
+    },
+    {
+      "path": "full/char_123_fang_1.webp",
+      "bytes": 108882,
+      "sha256": "4db0290ec7cb6dde4ed8eed3cfdd0f18671816cede4d2411dedc7c508dba9ba9",
+      "width": 912,
+      "height": 1231
+    },
+    {
+      "path": "full/char_123_fang_winter_1.webp",
+      "bytes": 249776,
+      "sha256": "dd79ad3acd02b05cc25178126f8a95359202c915b6be5d47f6bd2e37f03641bd",
+      "width": 964,
+      "height": 1600
+    },
+    {
+      "path": "full/char_124_kroos_1.webp",
+      "bytes": 110940,
+      "sha256": "ba665f6a0c55d86e2dcb5f5d3ab4f712ce651a996ac9d9dd9c91dddd237c3fa2",
+      "width": 733,
+      "height": 1263
+    },
+    {
+      "path": "full/char_124_kroos_sale_14.webp",
+      "bytes": 469760,
+      "sha256": "785907858cb6c07bb5f090f3f92dea5e6451e4922b2b31c47e109e629bae2d90",
+      "width": 1600,
+      "height": 1540
+    },
+    {
+      "path": "full/char_124_kroos_witch_1.webp",
+      "bytes": 265916,
+      "sha256": "f569c18ba460c864c085090e07598476c2046be81560f61e6313bcd4d09a93db",
+      "width": 1119,
+      "height": 1600
+    },
+    {
+      "path": "full/char_141_nights_1.webp",
+      "bytes": 109926,
+      "sha256": "31d987acf13c62419c8d7cee50c88332de13e8a7d913d3ce85a379b8cfd42683",
+      "width": 698,
+      "height": 1212
+    },
+    {
+      "path": "full/char_141_nights_2.webp",
+      "bytes": 266694,
+      "sha256": "a2625c791aa9a9db1e45aab809a41306077c5d44611b335ad89b55aa7cfd8a42",
+      "width": 1163,
+      "height": 1225
+    },
+    {
+      "path": "full/char_141_nights_breaker_1.webp",
+      "bytes": 348634,
+      "sha256": "ef53d5cd6bc5318c06c924e535990fdd45c28a008b1f64c4e61497ebd884d4ed",
+      "width": 1449,
+      "height": 1326
+    },
+    {
+      "path": "full/char_150_snakek_1.webp",
+      "bytes": 110910,
+      "sha256": "ee57e0d84d599ffc9d3ae5c0baab8e8fff81445f5fdfc36b7960463eac947666",
+      "width": 915,
+      "height": 1201
+    },
+    {
+      "path": "full/char_150_snakek_2.webp",
+      "bytes": 371422,
+      "sha256": "5fb51e8381d3124a60ce7ec56ad5d76727b4fce717a2f6976d9edb95b1fd631d",
+      "width": 1208,
+      "height": 1253
+    },
+    {
+      "path": "full/char_150_snakek_wild_1.webp",
+      "bytes": 374872,
+      "sha256": "493cd80a6a31d01ba6840fbbb1ae5b74331ca9494dadf69f1ab29cd4208c0c4b",
+      "width": 1600,
+      "height": 1599
+    },
+    {
+      "path": "full/char_150_snakek_yun_7.webp",
+      "bytes": 438526,
+      "sha256": "bcaa68027f64e59e3cdb91ded65550198d8d36485b6d6fdbd1d88d46cf57ab5b",
+      "width": 1600,
+      "height": 1565
+    },
+    {
+      "path": "full/char_151_myrtle_1.webp",
+      "bytes": 129384,
+      "sha256": "5e431bfa8e9343d523d7e887ecc6753f0f4929d6d8c660c23adeaffb61e63745",
+      "width": 869,
+      "height": 1427
+    },
+    {
+      "path": "full/char_151_myrtle_2.webp",
+      "bytes": 565954,
+      "sha256": "f261ff55e521e6fd97ee61c4f7e002a69b0e9600cfea508e4769c302e0851d7d",
+      "width": 1600,
+      "height": 1378
+    },
+    {
+      "path": "full/char_151_myrtle_epoque_12.webp",
+      "bytes": 396576,
+      "sha256": "1f1ca38714ea2c2f952e335c101781a1bd7c8770badad50b7abfb8068df9e1d2",
+      "width": 1600,
+      "height": 1530
+    },
+    {
+      "path": "full/char_151_myrtle_summer_12.webp",
+      "bytes": 375326,
+      "sha256": "fbae0ee7a79f9aff9c2881b8b070e8172f3076385c1702e876fb20702d8a9c88",
+      "width": 1600,
+      "height": 1578
+    },
+    {
+      "path": "full/char_151_myrtle_taiko_1.webp",
+      "bytes": 560472,
+      "sha256": "86ecb52fc508e32fc83886dc1d53c16fee2ae49dd2147c95b8df1f38d74657fe",
+      "width": 1600,
+      "height": 1586
+    },
+    {
+      "path": "full/char_235_jesica_1.webp",
+      "bytes": 72314,
+      "sha256": "8bd6264f539f2229cfa7f96cf7c60dc35109e7156270d5bf137a45e0da7cb5f6",
+      "width": 409,
+      "height": 1250
+    },
+    {
+      "path": "full/char_235_jesica_2.webp",
+      "bytes": 345310,
+      "sha256": "ab223a9d7257e50248c2ab0cba18b9814083e655d78efe388746ddafa131a3ff",
+      "width": 1600,
+      "height": 1502
+    },
+    {
+      "path": "full/char_235_jesica_nian_2.webp",
+      "bytes": 329590,
+      "sha256": "c9a1926ae7cd870b45ee77f74d448744165c27fd4482b9345a2ebfd51050ad5c",
+      "width": 1343,
+      "height": 1600
+    },
+    {
+      "path": "full/char_235_jesica_sweep_1.webp",
+      "bytes": 189074,
+      "sha256": "9d4d99ddd7cd933725cd85d83e75c1795c29c1a5fd7b3409d08f340a5eba758f",
+      "width": 1445,
+      "height": 1600
+    },
+    {
+      "path": "full/char_235_jesica_wild_2.webp",
+      "bytes": 198660,
+      "sha256": "147fd1934648bd246a7aea7ee8e8abd338e9262e9490fbd618dd6384d942f4a2",
+      "width": 1005,
+      "height": 1600
+    },
+    {
+      "path": "full/char_236_rope_1.webp",
+      "bytes": 96178,
+      "sha256": "beffcfeaafcdfd7dcdf9248b894341626aadc9c8ec4ef5ddcff69e7614838a55",
+      "width": 674,
+      "height": 1263
+    },
+    {
+      "path": "full/char_236_rope_2.webp",
+      "bytes": 212262,
+      "sha256": "2a8bd07c7457bb57e449398fff8d93511425e8ec95187545831830f51a61f09b",
+      "width": 1367,
+      "height": 1093
+    },
+    {
+      "path": "full/char_236_rope_summer_2.webp",
+      "bytes": 354064,
+      "sha256": "9d72dcdc0d09a50df2d0383b23757e838ea697949012461af01146efbcb85c15",
+      "width": 1049,
+      "height": 1600
+    },
+    {
+      "path": "full/char_236_rope_witch_1.webp",
+      "bytes": 292686,
+      "sha256": "6fdac04a25404a03d405447e40b6eb10f5e83010194df71812100edcfa2e1c38",
+      "width": 1392,
+      "height": 1600
+    },
+    {
+      "path": "full/char_263_skadi_1.webp",
+      "bytes": 133480,
+      "sha256": "81cddf4e9afacdfb97492934851e098752c938ad9ba0cdd38e45911312ef6c9c",
+      "width": 890,
+      "height": 1229
+    },
+    {
+      "path": "full/char_263_skadi_2.webp",
+      "bytes": 478952,
+      "sha256": "5902f861c5a158383061c826841715a02b0bc14af6f2d29427e84505e8becc34",
+      "width": 1600,
+      "height": 1473
+    },
+    {
+      "path": "full/char_263_skadi_marthe_5.webp",
+      "bytes": 289518,
+      "sha256": "395e361d409f2006679148fee223ff5ac9407850b1748b2cf8e84e2b1c2d4127",
+      "width": 1600,
+      "height": 1193
+    },
+    {
+      "path": "full/char_263_skadi_summer_3.webp",
+      "bytes": 318376,
+      "sha256": "1dfae4fa7d00387e1950ba0354f036f371398f5514d6b5c85c2c8d9f4fb40687",
+      "width": 1600,
+      "height": 1396
+    },
+    {
+      "path": "full/char_278_orchid_1.webp",
+      "bytes": 90172,
+      "sha256": "56055f74f8b4f9de72e55de245bdc80c30453dea70a988093fee5f13aef9f574",
+      "width": 515,
+      "height": 1212
+    },
+    {
+      "path": "full/char_278_orchid_boc_6.webp",
+      "bytes": 416116,
+      "sha256": "aa1c5da7a314766949837b9afd19ce8deea6d1974f7f1507a114071965166b26",
+      "width": 1600,
+      "height": 1493
+    },
+    {
+      "path": "full/char_285_medic2_1.webp",
+      "bytes": 71868,
+      "sha256": "de00db4987c08a262334032c16cbe70fa44fc631787b816b1c34646454754b34",
+      "width": 955,
+      "height": 1001
+    },
+    {
+      "path": "full/char_285_medic2_boc_4.webp",
+      "bytes": 217252,
+      "sha256": "99fa5d0887b789ea86a83c40328de984b6b9d25d051aa1831c66666933d74184",
+      "width": 1600,
+      "height": 1284
+    },
+    {
+      "path": "full/char_301_cutter_1.webp",
+      "bytes": 103268,
+      "sha256": "9c123fe87acc9cfa773e15df06fd504035fb6f3e8735df620207866b1bf78929",
+      "width": 1046,
+      "height": 1095
+    },
+    {
+      "path": "full/char_301_cutter_2.webp",
+      "bytes": 288800,
+      "sha256": "6f603cfa3209003b16e2e128aa1a7f55fc23eafa22e10475be11557b5c3ac89c",
+      "width": 1600,
+      "height": 1558
+    },
+    {
+      "path": "full/char_301_cutter_marthe_8.webp",
+      "bytes": 345944,
+      "sha256": "56cbbb910e7d8848a5125100141a8f87a2027339a7014a12258289631cfbe89b",
+      "width": 1550,
+      "height": 1600
+    },
+    {
+      "path": "full/char_4067_lolxh_1.webp",
+      "bytes": 82938,
+      "sha256": "ca0002383238afe00652d6b4d6b3bab6a5acf72139a8d801053352649e744898",
+      "width": 662,
+      "height": 999
+    },
+    {
+      "path": "full/char_4067_lolxh_2.webp",
+      "bytes": 274034,
+      "sha256": "bf4935adecf45e9bdb26059db90eb9f43395f63778a3b656cc9a0635319aba10",
+      "width": 1600,
+      "height": 1274
+    },
+    {
+      "path": "full/char_4093_frston_1.webp",
+      "bytes": 202420,
+      "sha256": "2741b2eba1d082b37df7a4f5fbba65064dd3e30221bc190b02fcf1799222b0f2",
+      "width": 1562,
+      "height": 1511
+    },
+    {
+      "path": "full/char_4208_wintim_1.webp",
+      "bytes": 150622,
+      "sha256": "f4650e68bdd21b30413610cd081ebf1006ddecdeb571ed1512867827d7b3286e",
+      "width": 627,
+      "height": 1297
+    },
+    {
+      "path": "full/char_4208_wintim_2.webp",
+      "bytes": 471974,
+      "sha256": "9d3eda99502e5929587aab12cd90d5d12dddd4e5d7fe505cee270dc9753e8214",
+      "width": 1600,
+      "height": 1573
+    },
+    {
+      "path": "full/char_501_durin_1.webp",
+      "bytes": 66660,
+      "sha256": "a3ed4dadbac0774fce7463cebf2b35d351daba9507051c1ad7a9c5683e0c44bf",
+      "width": 507,
+      "height": 1060
+    },
+    {
+      "path": "full/char_502_nblade_1.webp",
+      "bytes": 64714,
+      "sha256": "9f03dd5f61c6890352d85de71e529fda746d9f2c159a97cfe1d555987e594fa1",
+      "width": 607,
+      "height": 1262
+    },
+    {
+      "path": "professions/CASTER.png",
+      "bytes": 4072,
+      "sha256": "92ff36996ea3a5301620eb38d48bc4a8ba4c5f3c9b1be21ed3e298ef47d8b8e0",
+      "width": 255,
+      "height": 255,
+      "source_url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_caster.png",
+      "source_blob_sha1": "26086dd62071f504714e57b403fddee134e6a5c7",
+      "rights_status": "unreviewed"
+    },
+    {
+      "path": "professions/MEDIC.png",
+      "bytes": 5843,
+      "sha256": "0c16aeda390ee669d9940afd7dd5346cf1534ba0dd08fbfc7e17fe6a3fd1a940",
+      "width": 255,
+      "height": 255,
+      "source_url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_medic.png",
+      "source_blob_sha1": "23b3ca883febb6d6cb9c946276eab2161d6b0fd7",
+      "rights_status": "unreviewed"
+    },
+    {
+      "path": "professions/PIONEER.png",
+      "bytes": 5238,
+      "sha256": "ad0a39bfb026449a1e7d2566c214335358ab5e129b27481a141b9a0100f86a9f",
+      "width": 255,
+      "height": 255,
+      "source_url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_vanguard.png",
+      "source_blob_sha1": "b492f359c8bcca4e65e52054f217853bd160a7da",
+      "rights_status": "unreviewed"
+    },
+    {
+      "path": "professions/SNIPER.png",
+      "bytes": 6206,
+      "sha256": "4533e560c9ca1566388fc2528c46582d7c3d0c3a39720381459bfa5c9e4d28da",
+      "width": 255,
+      "height": 255,
+      "source_url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_sniper.png",
+      "source_blob_sha1": "f271e26c0eae5b98da11825498ea4987d816d40e",
+      "rights_status": "unreviewed"
+    },
+    {
+      "path": "professions/SPECIAL.png",
+      "bytes": 3868,
+      "sha256": "ce067913fa238927613dd36f758b2442bf8e7483ecca70594c4cb288a7a8c89f",
+      "width": 255,
+      "height": 255,
+      "source_url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_specialist.png",
+      "source_blob_sha1": "85237dba7ded68fe3ec2bd277118802d300ec8eb",
+      "rights_status": "unreviewed"
+    },
+    {
+      "path": "professions/SUPPORT.png",
+      "bytes": 2665,
+      "sha256": "f351496bfe2043fdf7ba0183320749be3aa77a9aa180c3e43565604ce3c5d3b5",
+      "width": 255,
+      "height": 255,
+      "source_url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_supporter.png",
+      "source_blob_sha1": "c5736afab4a7f5c00180dc8eb9a2d34900df3cca",
+      "rights_status": "unreviewed"
+    },
+    {
+      "path": "professions/TANK.png",
+      "bytes": 7706,
+      "sha256": "e9ba3b23ebebbf85b8bfa0ce310b5a0ad6e2c8e68735dacaf67774497551883e",
+      "width": 255,
+      "height": 255,
+      "source_url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_defender.png",
+      "source_blob_sha1": "467aad0b90bde1a1d6d1700059a1dc228bcb2ebb",
+      "rights_status": "unreviewed"
+    },
+    {
+      "path": "professions/WARRIOR.png",
+      "bytes": 4340,
+      "sha256": "bba79be4c4f997903a6ebb44f50759199c98b762036283cb1e60f70de24fe590",
+      "width": 255,
+      "height": 255,
+      "source_url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_guard.png",
+      "source_blob_sha1": "8f21d089582eca04174c5a28c7a1d2ba6f7ea53f",
+      "rights_status": "unreviewed"
+    },
+    {
+      "path": "thumb/char_002_amiya_1plus.webp",
+      "bytes": 57122,
+      "sha256": "30a5bd83080a33a2922767839188f69d1734c043a116d1ef972a8cfe3bcdd665",
+      "width": 480,
+      "height": 578
+    },
+    {
+      "path": "thumb/char_002_amiya_2.webp",
+      "bytes": 69434,
+      "sha256": "8d8ae7d1cd256e87c04c1a3e141bf96fca9d7dd380b000fb6a427a8ae51c167c",
+      "width": 480,
+      "height": 517
+    },
+    {
+      "path": "thumb/char_002_amiya_epoque_4.webp",
+      "bytes": 55590,
+      "sha256": "7f33099617f15f1e70a8679e07539244254210873586c9fd6670ce2c6545d7ee",
+      "width": 462,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_002_amiya_test_1.webp",
+      "bytes": 77468,
+      "sha256": "1bc17712e4bdcad276e7c173f199fb60f6090be85b47214d94ca5be5d1967461",
+      "width": 462,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_002_amiya_winter_1.webp",
+      "bytes": 33268,
+      "sha256": "1e9fd18cd5e55bddd3e952201cffa2d20de8c682c020d5d113e7f6479bc861ac",
+      "width": 305,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_010_chen_1.webp",
+      "bytes": 36184,
+      "sha256": "cd3ee478b619681834ebc56ec2644dd3ae6d04e4a85c996e0dc8be0ec9b590b0",
+      "width": 324,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_010_chen_2.webp",
+      "bytes": 64162,
+      "sha256": "94c8b9dbe8cd03c02fe03993f9330cae69401f7393d114464404ddd69c6684cc",
+      "width": 480,
+      "height": 555
+    },
+    {
+      "path": "thumb/char_010_chen_nian_2.webp",
+      "bytes": 72404,
+      "sha256": "35eba802b3c3ba2674bb4f801382d3c5cae309bfc3ae6df92d4980f43fe771db",
+      "width": 480,
+      "height": 510
+    },
+    {
+      "path": "thumb/char_010_chen_sale_10.webp",
+      "bytes": 47262,
+      "sha256": "51da993436d142547683c50a37b088b52270fab79903f65905f8bcb7693d67b1",
+      "width": 480,
+      "height": 491
+    },
+    {
+      "path": "thumb/char_1001_amiya2_2.webp",
+      "bytes": 106034,
+      "sha256": "b7fd13cdf5e226c93d15e47794496d6e5f70a1f93057988dcfda0df033b3f8a8",
+      "width": 480,
+      "height": 526
+    },
+    {
+      "path": "thumb/char_1001_amiya2_casc_1.webp",
+      "bytes": 35382,
+      "sha256": "a2a8ba7b2f9c715317b23984bb3d01a4b937498acc8ff7d2593034d91b9e39c1",
+      "width": 480,
+      "height": 350
+    },
+    {
+      "path": "thumb/char_1001_amiya2_sale_16.webp",
+      "bytes": 53556,
+      "sha256": "f8f7471b83e1709e254971958280af0b7c4dda0a63755f5434621c177fa51558",
+      "width": 480,
+      "height": 412
+    },
+    {
+      "path": "thumb/char_1012_skadi2_1.webp",
+      "bytes": 61854,
+      "sha256": "f2870468211dc519b45d687fa4d2b6e24e98b66febe865ca93ed70e6c7328cc3",
+      "width": 480,
+      "height": 506
+    },
+    {
+      "path": "thumb/char_1012_skadi2_2.webp",
+      "bytes": 63854,
+      "sha256": "4a2156f11d04ad5ce87034a7ab07aba4429bb577be60ed6a66e357b93b47cefd",
+      "width": 480,
+      "height": 397
+    },
+    {
+      "path": "thumb/char_1012_skadi2_boc_4.webp",
+      "bytes": 44844,
+      "sha256": "7613a6360976eb98adf59f7aa869c68200dc546e257ca3befc6ea77909a9a23f",
+      "width": 480,
+      "height": 344
+    },
+    {
+      "path": "thumb/char_1012_skadi2_iteration_2.webp",
+      "bytes": 52240,
+      "sha256": "e64caafb79ecce7f67e8ef2f1229e4a75741f34ce5f03da496a4dc40ed5911cf",
+      "width": 480,
+      "height": 413
+    },
+    {
+      "path": "thumb/char_1013_chen2_1.webp",
+      "bytes": 48492,
+      "sha256": "58d23716ec444473a727aad5d072888ff8d1f71462245f244cba740048554e1f",
+      "width": 399,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_1013_chen2_2.webp",
+      "bytes": 52920,
+      "sha256": "fa8d3c8a87e35a17442ad81d9238aa58510ea194a8424dadecfffc09522b96b9",
+      "width": 480,
+      "height": 384
+    },
+    {
+      "path": "thumb/char_1013_chen2_boc_6.webp",
+      "bytes": 55932,
+      "sha256": "0554ec91f7046e6f3d99f598b9c481c55872a9d4196a5301f700548bcd5beff0",
+      "width": 480,
+      "height": 419
+    },
+    {
+      "path": "thumb/char_1013_chen2_summer_20.webp",
+      "bytes": 62494,
+      "sha256": "6b3e686a192515a81e1ad2b73f8eb01efff38a3f56055a3fb5ae45b11243e9e3",
+      "width": 480,
+      "height": 374
+    },
+    {
+      "path": "thumb/char_102_texas_1.webp",
+      "bytes": 30122,
+      "sha256": "9d016a61a5b4d827a1b7caf16ea429e8921ab53175fbe8ecc05afe4b7fe374fc",
+      "width": 232,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_102_texas_2.webp",
+      "bytes": 122584,
+      "sha256": "6af5324908f290076b8eed611b2619a6298f486865e39f80173fa6e11208bcd7",
+      "width": 478,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_102_texas_epoque_7.webp",
+      "bytes": 46464,
+      "sha256": "848074f9bfa1a805a0f81c391874979bb11af93af611edb52438eee19949a163",
+      "width": 480,
+      "height": 424
+    },
+    {
+      "path": "thumb/char_102_texas_winter_1.webp",
+      "bytes": 47350,
+      "sha256": "b13c8fb67635b8905472562a51bfb55a4c5369abe607ed51c3698a6581a5cc6f",
+      "width": 415,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_1028_texas2_1.webp",
+      "bytes": 45182,
+      "sha256": "87d3c9ba158b7352f011e28433eda3543d7c34645595546486b033d1cf2b29b9",
+      "width": 447,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_1028_texas2_2.webp",
+      "bytes": 50186,
+      "sha256": "329f46b5374244c32aa68c5dabfda10fe5de12b07197c4d12664989b9be7253f",
+      "width": 480,
+      "height": 476
+    },
+    {
+      "path": "thumb/char_1028_texas2_epoque_36.webp",
+      "bytes": 39672,
+      "sha256": "c51cf8eda5b7f492530c293679c590721ad0750855ac5522910be71700923b81",
+      "width": 480,
+      "height": 416
+    },
+    {
+      "path": "thumb/char_1028_texas2_iteration_1.webp",
+      "bytes": 36248,
+      "sha256": "e49100788795eda857d454619eeffe7d78cafd64679fc8ea8626326c5964c2d0",
+      "width": 480,
+      "height": 409
+    },
+    {
+      "path": "thumb/char_1037_amiya3_2.webp",
+      "bytes": 78026,
+      "sha256": "887d9badbf0315115a87e4043469a0d8f2d47ee4046f2db15403f1c035d612ba",
+      "width": 480,
+      "height": 452
+    },
+    {
+      "path": "thumb/char_1037_amiya3_sale_13.webp",
+      "bytes": 63260,
+      "sha256": "28e8316fe678b63706cc475cbd80b037d91a2ad92a1a2982870daff9199ec95a",
+      "width": 480,
+      "height": 446
+    },
+    {
+      "path": "thumb/char_107_liskam_1.webp",
+      "bytes": 28742,
+      "sha256": "8c54d18bb0c925727474bcf90788cfe8a27fde5750f40286ae3530811c53c168",
+      "width": 305,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_107_liskam_2.webp",
+      "bytes": 65246,
+      "sha256": "b34c3958999ecff33f06b3a1b5ecbae70def26fed98e9a0763734113208ff0d3",
+      "width": 480,
+      "height": 446
+    },
+    {
+      "path": "thumb/char_107_liskam_nian_2.webp",
+      "bytes": 68596,
+      "sha256": "641b2fe913f29a1c2c6980e8f60e1665f9779d9800a58186bb9c827c54f865aa",
+      "width": 480,
+      "height": 586
+    },
+    {
+      "path": "thumb/char_107_liskam_striker_1.webp",
+      "bytes": 41898,
+      "sha256": "55fea7dfce21ecb81b15b257a4fe412d696d785ec7dbc30beaeb6998d7fad940",
+      "width": 480,
+      "height": 472
+    },
+    {
+      "path": "thumb/char_109_fmout_1.webp",
+      "bytes": 40852,
+      "sha256": "0ee4eb51cde85e6d96614861f132f8f152bd7dda48ecc5bf22f1bf3c80428f1e",
+      "width": 309,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_109_fmout_2.webp",
+      "bytes": 71258,
+      "sha256": "6148375d0fa9ebfe9bd57831207a843371f1998a01e3f368747f61ad8ed3ed6b",
+      "width": 480,
+      "height": 466
+    },
+    {
+      "path": "thumb/char_109_fmout_epoque_2.webp",
+      "bytes": 108388,
+      "sha256": "14cf0c86ceb79588974303ce20aa4c431c1c7b37df466825e543190000152c26",
+      "width": 480,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_110_deepcl_1.webp",
+      "bytes": 35898,
+      "sha256": "309ea7ff5d9808b437f0ef7062a0acc22e8c8f1040fbcc9cf2ac5cc869962bac",
+      "width": 327,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_110_deepcl_2.webp",
+      "bytes": 62090,
+      "sha256": "b2199ba4b94a69643ea54815613dd29c104f6129a2a427e93a269b23a55b952a",
+      "width": 379,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_110_deepcl_winter_3.webp",
+      "bytes": 80982,
+      "sha256": "ed2b7131e9e25a737977dedbba82b77639b89a7a3feebd38cfa30e663b1c0453",
+      "width": 480,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_117_myrrh_1.webp",
+      "bytes": 45634,
+      "sha256": "d1554beae061a7d872a1b0d603b0a2ec76e45777bb0885cd1bd796d90cc02e3e",
+      "width": 272,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_117_myrrh_2.webp",
+      "bytes": 101852,
+      "sha256": "20614c2ba2cd4f98453832a562ff010d2e71244f5be3d557b96897440a23e903",
+      "width": 475,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_117_myrrh_wild_1.webp",
+      "bytes": 42694,
+      "sha256": "1cb5a4a6b57429207aa759010e512ff67c8da3e291d522d23bec50f593753c87",
+      "width": 480,
+      "height": 444
+    },
+    {
+      "path": "thumb/char_118_yuki_1.webp",
+      "bytes": 31046,
+      "sha256": "e921ed1cfe9ed24713da476972c6774f439c9d01c95c8d82a9052aa3f5fae365",
+      "width": 341,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_118_yuki_2.webp",
+      "bytes": 54198,
+      "sha256": "4246f24c8c3cd72918cf47f676f97af8f3f992b66b3c4fcec3a736b575f40b7e",
+      "width": 480,
+      "height": 421
+    },
+    {
+      "path": "thumb/char_118_yuki_boc_2.webp",
+      "bytes": 47338,
+      "sha256": "8abf0af8aef2d319650c11ba1f8340977ec1cb6cb0a261cb5f8ee68fd0219709",
+      "width": 480,
+      "height": 447
+    },
+    {
+      "path": "thumb/char_120_hibisc_1.webp",
+      "bytes": 31188,
+      "sha256": "40d1caccfe333a93def0fd80b6f8c047be8bed4778e8ca877f3c0c5420b79d8c",
+      "width": 210,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_120_hibisc_nian_1.webp",
+      "bytes": 85472,
+      "sha256": "cefa2da594cde03a1cf618a7637bb54657a9d58d017acb4b96e654302838f5ae",
+      "width": 454,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_123_fang_1.webp",
+      "bytes": 38410,
+      "sha256": "9b312e9bce5d1b37b74e216d84a25aa9bd92209025d697f372a969446c04290a",
+      "width": 445,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_123_fang_winter_1.webp",
+      "bytes": 51390,
+      "sha256": "9cdc3ac52ce80c95f04d962b54f58c3096ad94fd5bd2f247838b82f2d889e07a",
+      "width": 362,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_124_kroos_1.webp",
+      "bytes": 37786,
+      "sha256": "878a7af46dc3454b07089d6fa2ead3d90d459a0c2daff2a07b7a1e13b201dfe9",
+      "width": 348,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_124_kroos_sale_14.webp",
+      "bytes": 57376,
+      "sha256": "d9b7ea50675f6d6fe954ada78c400ef0bc049f057abfe17d56fa6400ff49bb6a",
+      "width": 480,
+      "height": 462
+    },
+    {
+      "path": "thumb/char_124_kroos_witch_1.webp",
+      "bytes": 54084,
+      "sha256": "19f9a5e1b8aa156aec18a75cb09d5fad3523936f535d225b9090b58d9eae6b51",
+      "width": 420,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_141_nights_1.webp",
+      "bytes": 36322,
+      "sha256": "4297bb759a8c03dfb96ed4af475bd4d2c4e4df04df9a5058a99b7eebd831720d",
+      "width": 346,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_141_nights_2.webp",
+      "bytes": 69638,
+      "sha256": "2e8b1ea17f00c25583f61d969187ae082398c167d5d67dbc95ef4eb0dad44845",
+      "width": 480,
+      "height": 506
+    },
+    {
+      "path": "thumb/char_141_nights_breaker_1.webp",
+      "bytes": 63090,
+      "sha256": "147d3f76afc0be5308611d0d1022ef99eea42ebfbf162cf30b28a1c8f1dcaa28",
+      "width": 480,
+      "height": 439
+    },
+    {
+      "path": "thumb/char_150_snakek_1.webp",
+      "bytes": 36704,
+      "sha256": "642fc082ad1f646f424afa670eb05df916d1f98837729fa7b465dd0223b4f28a",
+      "width": 457,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_150_snakek_2.webp",
+      "bytes": 81420,
+      "sha256": "77c342cf7723cfe46cf2d318a8c807aa886e4a1946bba462d466e6f6fa4f45d0",
+      "width": 480,
+      "height": 498
+    },
+    {
+      "path": "thumb/char_150_snakek_wild_1.webp",
+      "bytes": 51872,
+      "sha256": "ee060503c5a0ddaa2674be3ee65863a26e692da35ec8069f849c416f373bbafc",
+      "width": 480,
+      "height": 480
+    },
+    {
+      "path": "thumb/char_150_snakek_yun_7.webp",
+      "bytes": 56330,
+      "sha256": "b1013571f0962c613d7d6973242d713f7f49fb2c13af7620e55c4985d0922287",
+      "width": 480,
+      "height": 470
+    },
+    {
+      "path": "thumb/char_151_myrtle_1.webp",
+      "bytes": 36594,
+      "sha256": "e1836c5e26ebd3efd329ff9bfe2591d68b996adf8d7915599dae5ea19193acac",
+      "width": 365,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_151_myrtle_2.webp",
+      "bytes": 79248,
+      "sha256": "6f42332d03c556b8041181ebdd48643e3f02f1272d6cdac28e2dc769792be36e",
+      "width": 480,
+      "height": 413
+    },
+    {
+      "path": "thumb/char_151_myrtle_epoque_12.webp",
+      "bytes": 49310,
+      "sha256": "565378e51eb2959453b0759b81a9bf762722cb60601e0c49a7e5bd1d4b094981",
+      "width": 480,
+      "height": 459
+    },
+    {
+      "path": "thumb/char_151_myrtle_summer_12.webp",
+      "bytes": 50436,
+      "sha256": "a214cfed803bcca78520945239a90948f64fc67fcd990c70995b59520e6fc99f",
+      "width": 480,
+      "height": 473
+    },
+    {
+      "path": "thumb/char_151_myrtle_taiko_1.webp",
+      "bytes": 70736,
+      "sha256": "2a3d524f2694bf79df06402d75e1053e764a09227c906adcf2938cb1a80785c0",
+      "width": 480,
+      "height": 476
+    },
+    {
+      "path": "thumb/char_235_jesica_1.webp",
+      "bytes": 24426,
+      "sha256": "7f89768a8b38bd6e06e357b361bcc6c94cfe2fd1f1c84da4dbb0845d09bc52d6",
+      "width": 196,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_235_jesica_2.webp",
+      "bytes": 54472,
+      "sha256": "48595a3ae8f9dce33f3df67e334914834e59bc6b89af64a90ca7d86d4d03823b",
+      "width": 480,
+      "height": 451
+    },
+    {
+      "path": "thumb/char_235_jesica_nian_2.webp",
+      "bytes": 61198,
+      "sha256": "82846070b81a12b8de74b8368007479ea59d7ae3c8cf74c65161321f7112bf9d",
+      "width": 480,
+      "height": 572
+    },
+    {
+      "path": "thumb/char_235_jesica_sweep_1.webp",
+      "bytes": 31302,
+      "sha256": "effcdf374cfb937d28cc19240e4fd507462e88db9798d066b9eabd29b78a0e18",
+      "width": 480,
+      "height": 531
+    },
+    {
+      "path": "thumb/char_235_jesica_wild_2.webp",
+      "bytes": 40042,
+      "sha256": "25a0c4c5724e481751fb1d1dbe1b0179c19650e15df0a65d7d087bb4cfe78fad",
+      "width": 377,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_236_rope_1.webp",
+      "bytes": 32874,
+      "sha256": "18bd1d6935b2d898ed031c5bb8f716026c7ce826463e35e832d5253c83189bf3",
+      "width": 320,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_236_rope_2.webp",
+      "bytes": 47754,
+      "sha256": "e7c3e06aca1e6f90e7104d502da1c676865ed209828b3e5c63c0a3715717813c",
+      "width": 480,
+      "height": 384
+    },
+    {
+      "path": "thumb/char_236_rope_summer_2.webp",
+      "bytes": 66420,
+      "sha256": "9ca7028118ab5f365a6fb42ff1a9adfbe181dcdc2b121757eebf20154fd22308",
+      "width": 393,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_236_rope_witch_1.webp",
+      "bytes": 51868,
+      "sha256": "9f49a25c0c0bceb23f635959ed23c2f0730aa2141ae774d24dbe6a7463d005f4",
+      "width": 480,
+      "height": 552
+    },
+    {
+      "path": "thumb/char_263_skadi_1.webp",
+      "bytes": 44416,
+      "sha256": "853ec48fe5999aac2496a909d6373570fbb6ec245f6ffcdb7755c5575a33083d",
+      "width": 434,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_263_skadi_2.webp",
+      "bytes": 67122,
+      "sha256": "14dc8d9dc21dc54eee76d68da4d92cc314c424ed68e70c658a79b2b2a88e91a9",
+      "width": 480,
+      "height": 442
+    },
+    {
+      "path": "thumb/char_263_skadi_marthe_5.webp",
+      "bytes": 37920,
+      "sha256": "43b0856db68bc39e742c1aa969b0d9ae9bee9183d41a34a953822f4675c319ba",
+      "width": 480,
+      "height": 358
+    },
+    {
+      "path": "thumb/char_263_skadi_summer_3.webp",
+      "bytes": 43406,
+      "sha256": "8369a79647b19e93fdfd383d5f1d4b702711ad8f1c85d5765baac83b57da6f52",
+      "width": 480,
+      "height": 419
+    },
+    {
+      "path": "thumb/char_278_orchid_1.webp",
+      "bytes": 30338,
+      "sha256": "f66108837c95df8fc6da9987f9a200ea71fe352bbe44d1df21d4c5244bdbd635",
+      "width": 255,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_278_orchid_boc_6.webp",
+      "bytes": 42462,
+      "sha256": "a9d0fbdf9ea6c890e2e27fee469c685da0ee13aa8d221346391d696418bb516c",
+      "width": 480,
+      "height": 448
+    },
+    {
+      "path": "thumb/char_285_medic2_1.webp",
+      "bytes": 27934,
+      "sha256": "b8a4066caceb7661113c65a727c02b9e7e74d37febed3621e2db1a155de51697",
+      "width": 480,
+      "height": 503
+    },
+    {
+      "path": "thumb/char_285_medic2_boc_4.webp",
+      "bytes": 33472,
+      "sha256": "26cd95c951dbe195358bee1a24d981ee05873172f2b9a6ec51a960f059044b2b",
+      "width": 480,
+      "height": 385
+    },
+    {
+      "path": "thumb/char_301_cutter_1.webp",
+      "bytes": 31448,
+      "sha256": "567788a94ab1b0225865826c12f7392e9c3d29e2777780ba6282afb599602adc",
+      "width": 480,
+      "height": 502
+    },
+    {
+      "path": "thumb/char_301_cutter_2.webp",
+      "bytes": 36616,
+      "sha256": "9967ed4cabf2334909a3ff1e2ddaa7272378bbf23c1058a0ba94d949c36d932c",
+      "width": 480,
+      "height": 467
+    },
+    {
+      "path": "thumb/char_301_cutter_marthe_8.webp",
+      "bytes": 47502,
+      "sha256": "1e19e16d998968abed61401356b9c813b5b0f6ac7506d8e73388e9f69438244c",
+      "width": 480,
+      "height": 495
+    },
+    {
+      "path": "thumb/char_4067_lolxh_1.webp",
+      "bytes": 45542,
+      "sha256": "aca351c2553a63306f7d11414a526836f8cea953efbf1bcf7176c63217ed48a4",
+      "width": 398,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_4067_lolxh_2.webp",
+      "bytes": 38482,
+      "sha256": "ee21047c3a40a7840d5dad4b4c35dabe712a532f5ff1b1c39c734c501ea11c9c",
+      "width": 480,
+      "height": 382
+    },
+    {
+      "path": "thumb/char_4093_frston_1.webp",
+      "bytes": 35506,
+      "sha256": "21c2b3ebc98dcc446951fb9522a3c3b248be9928a006224ea19fc9fce1aa91fa",
+      "width": 480,
+      "height": 464
+    },
+    {
+      "path": "thumb/char_4208_wintim_1.webp",
+      "bytes": 43670,
+      "sha256": "74beaa2653ad96679bf90e0abf9799daf471fe2fe7c28d88526a3637aa86988b",
+      "width": 290,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_4208_wintim_2.webp",
+      "bytes": 62448,
+      "sha256": "9bac696acad3cde9b5f65aedb2589daed37e2ecb744106dbb0ed796669796c61",
+      "width": 480,
+      "height": 472
+    },
+    {
+      "path": "thumb/char_501_durin_1.webp",
+      "bytes": 27132,
+      "sha256": "6d2a07c55b3efc6d1787c856f7b9c1561e01a5304bd7f5ba97269ab38a0bc53f",
+      "width": 287,
+      "height": 600
+    },
+    {
+      "path": "thumb/char_502_nblade_1.webp",
+      "bytes": 21768,
+      "sha256": "b25c5fbacf7498b65f1a231622f9a10e85e19c0f8bd40a5b91ea05baf0360b3d",
+      "width": 289,
+      "height": 600
+    }
+  ],
+  "sources": [
+    {
+      "appearance_id": "char_002_amiya#1+",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_002_amiya_1%2B.png",
+      "source_blob_sha1": "f76d6d73fbce9dd49d581a122162f27a1b4d2059",
+      "source_sha256": "870ad0ba4d457c2b3e40f767207ed88d49e69544255b2df3f3788d4f428e5dea",
+      "rights_status": "unreviewed",
+      "original_width": 1412,
+      "original_height": 1412,
+      "trim": {
+        "left": 133,
+        "top": 19,
+        "width": 1157,
+        "height": 1393
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_002_amiya#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_002_amiya_2.png",
+      "source_blob_sha1": "2637ef436904e6b841e659d6e553179c1e914a0a",
+      "source_sha256": "f43cd8a06642cf4f6b66b2e38e7474afb4b5b89dcc9604b21bdf6976d3a998b2",
+      "rights_status": "unreviewed",
+      "original_width": 2248,
+      "original_height": 2248,
+      "trim": {
+        "left": 64,
+        "top": 3,
+        "width": 2072,
+        "height": 2232
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_002_amiya@winter#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_002_amiya_winter_1.png",
+      "source_blob_sha1": "7bd07e0573a285d075b4017fa6a653bff5ecf2de",
+      "source_sha256": "7bb6386d13ad552db81ab6132c936c665622d72df0413ac358e78fc3653f7a77",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 547,
+        "top": 7,
+        "width": 1036,
+        "height": 2040
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_002_amiya@epoque#4",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_002_amiya_epoque_4.png",
+      "source_blob_sha1": "708113245e7ed458811fe6b68cf59d8870f61c65",
+      "source_sha256": "30eee2cfa09fbd236360746b511c7edc1eba3820034f5d7f0a9c67e1be1dad7d",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 291,
+        "top": 67,
+        "width": 1426,
+        "height": 1854
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_002_amiya@test#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_002_amiya_test_1.png",
+      "source_blob_sha1": "ebd3adcc8538f207ad6049f037d66f03ae2b4836",
+      "source_sha256": "177f425bf86ecfd91c0666960a90b3033a7fa7c6783047a7ba434a34c06d3075",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 131,
+        "top": 27,
+        "width": 1519,
+        "height": 1974
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1001_amiya2#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1001_amiya2_2.png",
+      "source_blob_sha1": "2e4f9eba17900b790d3182545b2e135c5ced6f5d",
+      "source_sha256": "9972344ff8039a9c0a557802ceff64ff6d9df9d4015ec1f413582bec6e8b933e",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 107,
+        "top": 4,
+        "width": 1862,
+        "height": 2041
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1001_amiya2@sale#16",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1001_amiya2_sale_16.png",
+      "source_blob_sha1": "815de03b65a8bde5ef059496b518d47bc06b9d0c",
+      "source_sha256": "b66d793e19af27a5ac5133661b399cf5de6a58df10e3699a1e1778195c969f0b",
+      "rights_status": "unreviewed",
+      "original_width": 2560,
+      "original_height": 2560,
+      "trim": {
+        "left": 43,
+        "top": 223,
+        "width": 2482,
+        "height": 2131
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1001_amiya2@casc#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1001_amiya2_casc_1.png",
+      "source_blob_sha1": "be053c8a6fd1eda7972163b578726a0304bfe6c6",
+      "source_sha256": "2bf74765693ba618103b10168e78b079c7615ca3794ce10058a8088559a14a3c",
+      "rights_status": "unreviewed",
+      "original_width": 2560,
+      "original_height": 2560,
+      "trim": {
+        "left": 22,
+        "top": 407,
+        "width": 2528,
+        "height": 1845
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1037_amiya3#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1037_amiya3_2.png",
+      "source_blob_sha1": "ed1e483d40840e583f663ac5ce31e4d0d878b8eb",
+      "source_sha256": "a39961239dc45f80a22411e2e1e00aaf080ebc92cd992b76522336ac0efd9f91",
+      "rights_status": "unreviewed",
+      "original_width": 2560,
+      "original_height": 2560,
+      "trim": {
+        "left": 24,
+        "top": 148,
+        "width": 2516,
+        "height": 2371
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1037_amiya3@sale#13",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1037_amiya3_sale_13.png",
+      "source_blob_sha1": "f8ad60cb19a03ffc08cb1dcbe224e2b9e8b95a46",
+      "source_sha256": "18f36f140b6e7b3f97940c784d10abf7b540018f2a9d37443080a9ad3cfd1e1d",
+      "rights_status": "unreviewed",
+      "original_width": 2344,
+      "original_height": 2344,
+      "trim": {
+        "left": 28,
+        "top": 119,
+        "width": 2285,
+        "height": 2123
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_263_skadi#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_263_skadi_1.png",
+      "source_blob_sha1": "f09e890272878f9b3547aaac8c5743d45d22874a",
+      "source_sha256": "7a6ab0325582d2cd63d40a53ee7aaf0523ef4945dc345d42d49ee12d8b6d236a",
+      "rights_status": "unreviewed",
+      "original_width": 1256,
+      "original_height": 1256,
+      "trim": {
+        "left": 198,
+        "top": 17,
+        "width": 890,
+        "height": 1229
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_263_skadi#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_263_skadi_2.png",
+      "source_blob_sha1": "aff897e49e5d452d3ab18dc0caae5e47648ec0c6",
+      "source_sha256": "f2866901c0542ecee7a8204fda64e6f092c05afdf575a3d53c99d272a9c79963",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 8,
+        "top": 61,
+        "width": 2025,
+        "height": 1864
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_263_skadi@summer#3",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_263_skadi_summer_3.png",
+      "source_blob_sha1": "7913710ca1618dec2d976f16613ff85ec3b8e469",
+      "source_sha256": "4dff1c414fe2fd82edc200fc187f5793deefdeb4dcfa76050da411922e3b846c",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 67,
+        "top": 177,
+        "width": 1929,
+        "height": 1683
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_263_skadi@marthe#5",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_263_skadi_marthe_5.png",
+      "source_blob_sha1": "7208582a80885ae0734b9b4e724a8f2eaf5173a9",
+      "source_sha256": "be3d17884076953a635b37f81c3ad231ab548ecc336c8d94977b5a1dc24796a6",
+      "rights_status": "unreviewed",
+      "original_width": 2124,
+      "original_height": 2124,
+      "trim": {
+        "left": 27,
+        "top": 266,
+        "width": 2084,
+        "height": 1554
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1012_skadi2#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1012_skadi2_1.png",
+      "source_blob_sha1": "d47d1f98aa1db1a99901e1a398df54420707bffa",
+      "source_sha256": "c58c5b1555fd1f534065cec0248df02e8810c59ea5777e710fbaa9947dc545b9",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 145,
+        "top": 47,
+        "width": 1839,
+        "height": 1940
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1012_skadi2#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1012_skadi2_2.png",
+      "source_blob_sha1": "b2c8d7a986b9c075e9d4954ca28b2b2939efd97c",
+      "source_sha256": "eede8e6343880d6f2a80b63f713fce8b6a285c9dc686baf70afec68f7f244de4",
+      "rights_status": "unreviewed",
+      "original_width": 2560,
+      "original_height": 2560,
+      "trim": {
+        "left": 58,
+        "top": 254,
+        "width": 2431,
+        "height": 2010
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1012_skadi2@boc#4",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1012_skadi2_boc_4.png",
+      "source_blob_sha1": "99f49f9e46725ef5f9d298856b38d36148a08827",
+      "source_sha256": "660ae51acf40032ef1957985ff2520caca0f0d1ce9c353dd97f59ae767173c26",
+      "rights_status": "unreviewed",
+      "original_width": 2200,
+      "original_height": 2200,
+      "trim": {
+        "left": 47,
+        "top": 340,
+        "width": 2116,
+        "height": 1518
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1012_skadi2@iteration#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1012_skadi2_iteration_2.png",
+      "source_blob_sha1": "40997c920e7c075b54c5a2c12ede62cf5f81e3ec",
+      "source_sha256": "31e2058a90bb11cc03de6f137b2ac65c73327d4e030d3ec99bac7801e8df4af9",
+      "rights_status": "unreviewed",
+      "original_width": 2508,
+      "original_height": 2508,
+      "trim": {
+        "left": 22,
+        "top": 228,
+        "width": 2477,
+        "height": 2132
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_102_texas#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_102_texas_1.png",
+      "source_blob_sha1": "4be6bd317f3605ca2793f9be2e9e10209a8115a1",
+      "source_sha256": "b97b6b2ed9f51e7f9c73bf9f5e50f415cfd13008ded7335ed3c6289743796229",
+      "rights_status": "unreviewed",
+      "original_width": 1344,
+      "original_height": 1344,
+      "trim": {
+        "left": 397,
+        "top": 15,
+        "width": 511,
+        "height": 1321
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_102_texas#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_102_texas_2.png",
+      "source_blob_sha1": "5d17eeafd35d71c0c2929f9e09a2f48d9958df00",
+      "source_sha256": "1388b6f82ea6aa8979b085b9e981d11022792a0a3d14ca760ae0a342ad1af022",
+      "rights_status": "unreviewed",
+      "original_width": 1392,
+      "original_height": 1392,
+      "trim": {
+        "left": 228,
+        "top": 56,
+        "width": 1053,
+        "height": 1321
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_102_texas@epoque#7",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_102_texas_epoque_7.png",
+      "source_blob_sha1": "af4c0b4470f339962d787e92ae1246c72def7670",
+      "source_sha256": "27d1d30ab7aef53e795989599cb014a0da3e0fbbbddde03c9ed430dfd724426a",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 101,
+        "top": 204,
+        "width": 1868,
+        "height": 1650
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_102_texas@winter#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_102_texas_winter_1.png",
+      "source_blob_sha1": "7eb31caf7945ae613650cb57f035de3161efe2e8",
+      "source_sha256": "a8f43774a502e183126d5e32127ea7e30d3206737f65137883024a819e7c5abc",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 373,
+        "top": 4,
+        "width": 1413,
+        "height": 2043
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1028_texas2#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1028_texas2_1.png",
+      "source_blob_sha1": "41312f73fa000294c72b26a73705680934d806dd",
+      "source_sha256": "516d7cf6d428d81fff292c692c6d767c5801855da11d627787364a12eace16cb",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 350,
+        "top": 14,
+        "width": 1490,
+        "height": 2002
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1028_texas2#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1028_texas2_2.png",
+      "source_blob_sha1": "4ddbfd3cfc8bcbdee524d68987c1bc039884fb7c",
+      "source_sha256": "56e15fbdb70948a9a6887c7d306a43ce8ba138c627615fd6023eaeceecca1f10",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 0,
+        "top": 13,
+        "width": 2048,
+        "height": 2033
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1028_texas2@epoque#36",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1028_texas2_epoque_36.png",
+      "source_blob_sha1": "3724a400b6d8b2b629c53e2449c6a711002e4129",
+      "source_sha256": "b314053efead0f71c3116e2d1014bb5e91bdf0a1cf2b30f631fedaba309eff62",
+      "rights_status": "unreviewed",
+      "original_width": 2304,
+      "original_height": 2304,
+      "trim": {
+        "left": 38,
+        "top": 227,
+        "width": 2230,
+        "height": 1932
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1028_texas2@iteration#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1028_texas2_iteration_1.png",
+      "source_blob_sha1": "e1de0f6958889f0eb9ebf12648c159932d9f30f2",
+      "source_sha256": "54070921974713628c5a2862bc0decac929920bc8f547f20847536f678ef6d39",
+      "rights_status": "unreviewed",
+      "original_width": 2432,
+      "original_height": 2432,
+      "trim": {
+        "left": 28,
+        "top": 281,
+        "width": 2371,
+        "height": 2020
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_010_chen#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_010_chen_1.png",
+      "source_blob_sha1": "af98a984084652cea4896fd5475eff2d8ee963a4",
+      "source_sha256": "497c2728dc1611fca3d0d8d7e8be0891e1d426312dbc93e84a72e60a44ea314b",
+      "rights_status": "unreviewed",
+      "original_width": 1200,
+      "original_height": 1200,
+      "trim": {
+        "left": 185,
+        "top": 18,
+        "width": 635,
+        "height": 1176
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_010_chen#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_010_chen_2.png",
+      "source_blob_sha1": "e31094303ffe615531dd9dbcd84184418b9815dd",
+      "source_sha256": "e89a21ae0c72725516ebb6f9da9870ec8e3f3537ae89678200ac01af268128e7",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 147,
+        "top": 12,
+        "width": 1756,
+        "height": 2029
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_010_chen@sale#10",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_010_chen_sale_10.png",
+      "source_blob_sha1": "d2782200234d696a39a3272f6141b4bdc07309a6",
+      "source_sha256": "63f2b447bfabbe2729f5281e51238960b120ce31df71441b7e716fa2c7095b84",
+      "rights_status": "unreviewed",
+      "original_width": 2444,
+      "original_height": 2444,
+      "trim": {
+        "left": 24,
+        "top": 16,
+        "width": 2364,
+        "height": 2418
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_010_chen@nian#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_010_chen_nian_2.png",
+      "source_blob_sha1": "1fda848816cf7b670d94327eb84e327f4c68e8cf",
+      "source_sha256": "f7a08c207b1b89877662fac953672e929d53e87852f273a413e2cf8b139db68c",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 156,
+        "top": 116,
+        "width": 1671,
+        "height": 1774
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1013_chen2#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1013_chen2_1.png",
+      "source_blob_sha1": "a7a3e0021e21ddfca9ad723fd9d3f04acb187d68",
+      "source_sha256": "d7f279666806fc1ed5f844b53696ade848eb553538f6ddbe206c611e8d9667a5",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 393,
+        "top": 135,
+        "width": 1171,
+        "height": 1761
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1013_chen2#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1013_chen2_2.png",
+      "source_blob_sha1": "4aa6ce5679d93fa80459841bd77ca4d93020f5f3",
+      "source_sha256": "a1083a3ed5faa09bce4755512ec2a7e5019c38814edd3e8177c8e59df359f08e",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 50,
+        "top": 207,
+        "width": 1944,
+        "height": 1557
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1013_chen2@summer#20",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1013_chen2_summer_20.png",
+      "source_blob_sha1": "415b131bbf7ce4d94c65a3a06e2c11ca6b795db0",
+      "source_sha256": "b8b6a1dd970609023feb2feca676cf8f3ffba941ce8bb795ef490a0a7d11beaa",
+      "rights_status": "unreviewed",
+      "original_width": 2304,
+      "original_height": 2304,
+      "trim": {
+        "left": 0,
+        "top": 287,
+        "width": 2284,
+        "height": 1779
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_1013_chen2@boc#6",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_1013_chen2_boc_6.png",
+      "source_blob_sha1": "9f33db07fffdf65e8115b53bb94a775a93312d68",
+      "source_sha256": "fe9859698277795b44ee56dd87e23ec92e9a442521dfbb0e27b3fcefac792266",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 47,
+        "top": 137,
+        "width": 1968,
+        "height": 1717
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_285_medic2#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_285_medic2_1.png",
+      "source_blob_sha1": "cb56ab974cb469909e9895e8657f3a9863f29d9b",
+      "source_sha256": "2e3cec627f77099a3ded8a887dd5b57df233143806616d34cdd3b2b71b4cd058",
+      "rights_status": "unreviewed",
+      "original_width": 1024,
+      "original_height": 1024,
+      "trim": {
+        "left": 43,
+        "top": 17,
+        "width": 955,
+        "height": 1001
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_285_medic2@boc#4",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_285_medic2_boc_4.png",
+      "source_blob_sha1": "c7a3c0922057bda87e3fed141d5c5a00a4b331ba",
+      "source_sha256": "3b7655e6386d552625cfc2bcb1bcd2b1cae50388b4012bc0044d790707cfd4b2",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 222,
+        "top": 395,
+        "width": 1695,
+        "height": 1360
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_4093_frston#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_4093_frston_1.png",
+      "source_blob_sha1": "1ab090cb0c2db2de2322106d1abcc1956254a33b",
+      "source_sha256": "66b6cb4281945bb6a1eaddb65022f934d0c20a44f7e26e78a8ebf7fad2d904f8",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 293,
+        "top": 300,
+        "width": 1562,
+        "height": 1511
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_502_nblade#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_502_nblade_1.png",
+      "source_blob_sha1": "ea4408a158998291062ec5f799ef18369e778a5f",
+      "source_sha256": "8b3ba9f3d6b974734794ad31a8524d660e40dd3dbc56b3847d15dcc43b1d6d2d",
+      "rights_status": "unreviewed",
+      "original_width": 1280,
+      "original_height": 1280,
+      "trim": {
+        "left": 311,
+        "top": 18,
+        "width": 607,
+        "height": 1262
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_501_durin#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_501_durin_1.png",
+      "source_blob_sha1": "1d31fca4995930a29df33467941923553fb5f059",
+      "source_sha256": "b23d9e70505244567f2d66e2af6c645fe177ef67586e157280708f92dc5df490",
+      "rights_status": "unreviewed",
+      "original_width": 1156,
+      "original_height": 1156,
+      "trim": {
+        "left": 273,
+        "top": 83,
+        "width": 507,
+        "height": 1060
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_123_fang#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_123_fang_1.png",
+      "source_blob_sha1": "0cb7c3478b4b9bfbc878775734f68e42d568a382",
+      "source_sha256": "065485bf6fd59aecabc9b6f2553da5f119432e45c3b19122fc3208994206a679",
+      "rights_status": "unreviewed",
+      "original_width": 1328,
+      "original_height": 1328,
+      "trim": {
+        "left": 106,
+        "top": 76,
+        "width": 912,
+        "height": 1231
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_123_fang@winter#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_123_fang_winter_1.png",
+      "source_blob_sha1": "b79b270d9125a29f51117b8179957c211429672a",
+      "source_sha256": "63697a19078f4143e4e8af784b3e63f66e725b3c934ade221d3031e3988efa9f",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 401,
+        "top": 3,
+        "width": 1232,
+        "height": 2044
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_124_kroos#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_124_kroos_1.png",
+      "source_blob_sha1": "2d5f87965760c014ce9a1baf2d4c6f60fd0789fd",
+      "source_sha256": "1483a03eaa9ea6d34ebc3397d510b5a0dd3c62bb1f01c2862e535c69a345d4f8",
+      "rights_status": "unreviewed",
+      "original_width": 1280,
+      "original_height": 1280,
+      "trim": {
+        "left": 348,
+        "top": 15,
+        "width": 733,
+        "height": 1263
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_124_kroos@sale#14",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_124_kroos_sale_14.png",
+      "source_blob_sha1": "6a8e2f7284b16459291ce28ffd142368591ccc11",
+      "source_sha256": "26fdbca1e69829d503363455cb87df4ff0bb1e1f2d34f188e59cb49aab0123c1",
+      "rights_status": "unreviewed",
+      "original_width": 2216,
+      "original_height": 2216,
+      "trim": {
+        "left": 8,
+        "top": 29,
+        "width": 2208,
+        "height": 2125
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_124_kroos@witch#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_124_kroos_witch_1.png",
+      "source_blob_sha1": "ba6b70457cc5e8b6088b684bf5d7e7fb9a494a6d",
+      "source_sha256": "43f14a04343b683ef3a3dac32cb5f6f265c98d425271cf06935a824c9ad5d196",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 346,
+        "top": 39,
+        "width": 1399,
+        "height": 2000
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_120_hibisc#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_120_hibisc_1.png",
+      "source_blob_sha1": "5ff7b6fddd87f44c815b55ad0edf42878091673d",
+      "source_sha256": "4d46e7522b17383013ef942613e76d6ca6cb49511b0b5c141b13e3f094049841",
+      "rights_status": "unreviewed",
+      "original_width": 1280,
+      "original_height": 1280,
+      "trim": {
+        "left": 437,
+        "top": 24,
+        "width": 436,
+        "height": 1243
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_120_hibisc@nian#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_120_hibisc_nian_1.png",
+      "source_blob_sha1": "924e209b252c9e68b2ba9c6dc772b4196ad9496a",
+      "source_sha256": "c82672d508e2aecdc96b97c4e7b3e46aa673d5205a8c7e9dff16ed2d54af21b2",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 244,
+        "top": 5,
+        "width": 1541,
+        "height": 2036
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_278_orchid#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_278_orchid_1.png",
+      "source_blob_sha1": "8a8dd4ab3ce3eb782ea1479850fbc9b6a10bc16d",
+      "source_sha256": "e9a5a9c31d169c4be14c4063551ebf610f63ecad43db306b99a84ce4fec186a3",
+      "rights_status": "unreviewed",
+      "original_width": 1260,
+      "original_height": 1260,
+      "trim": {
+        "left": 330,
+        "top": 44,
+        "width": 515,
+        "height": 1212
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_278_orchid@boc#6",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_278_orchid_boc_6.png",
+      "source_blob_sha1": "8d5270480775a4bf0f169cc2a929ce8eec2ef70f",
+      "source_sha256": "7320422d0d9d23d61296a3f0e70f42a4a14b1e6bb07cb3c2a1e7b95f7606bac3",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 20,
+        "top": 68,
+        "width": 1992,
+        "height": 1859
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_151_myrtle#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_151_myrtle_1.png",
+      "source_blob_sha1": "8e1b97306096d71303e73ad9fc21f8419bb83b63",
+      "source_sha256": "cc1a9f1a9f799e6c1f32d0d109151b2c7bd7486e2d0b5b8d1a4f76068cb5119d",
+      "rights_status": "unreviewed",
+      "original_width": 1460,
+      "original_height": 1460,
+      "trim": {
+        "left": 293,
+        "top": 13,
+        "width": 869,
+        "height": 1427
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_151_myrtle#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_151_myrtle_2.png",
+      "source_blob_sha1": "22754074002f38d41703ca18590c15284f8b857a",
+      "source_sha256": "374aed9d011791376aedcadc45a0de7c95f8b0b19f71f088787266fd068e9a16",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 25,
+        "top": 169,
+        "width": 2012,
+        "height": 1733
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_151_myrtle@epoque#12",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_151_myrtle_epoque_12.png",
+      "source_blob_sha1": "dcfb5c9907bde42c9e5893e844f78cb700c08017",
+      "source_sha256": "5ed15929b4fa89e1c3f2335802cdc38759f8e8f895235e42bffb991ccbcf6067",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 180,
+        "top": 195,
+        "width": 1664,
+        "height": 1591
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_151_myrtle@summer#12",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_151_myrtle_summer_12.png",
+      "source_blob_sha1": "07169cb62118c105b484b6e8a0b6a5c443331e25",
+      "source_sha256": "bcbd5f5b66f37df2d4a0d97b8d1392422c0f41f76caa93c4a856e2add3155324",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 36,
+        "top": 73,
+        "width": 1924,
+        "height": 1897
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_151_myrtle@taiko#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_151_myrtle_taiko_1.png",
+      "source_blob_sha1": "84632d7b899a17ce1047d678eb90ab5ab31597e3",
+      "source_sha256": "295305ea000252b77c2cb527c6a2d5bd506eafb909ca4e3fb55aa8248f1d10d8",
+      "rights_status": "unreviewed",
+      "original_width": 1636,
+      "original_height": 1636,
+      "trim": {
+        "left": 21,
+        "top": 39,
+        "width": 1605,
+        "height": 1591
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_117_myrrh#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_117_myrrh_1.png",
+      "source_blob_sha1": "a5df346f8e268a557dcaed9f6c1e53e1dcdaeba1",
+      "source_sha256": "d37574610a5f2695c737d4b6b0c16af4a719cd60cabc902fb25658b04ef01c7f",
+      "rights_status": "unreviewed",
+      "original_width": 1280,
+      "original_height": 1280,
+      "trim": {
+        "left": 353,
+        "top": 58,
+        "width": 544,
+        "height": 1201
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_117_myrrh#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_117_myrrh_2.png",
+      "source_blob_sha1": "eb75a3df4432ae14e14dc4986bdd3167bfc4f49e",
+      "source_sha256": "67080f1bd4d4f26607ff6ef2ff8d89a42212f38c348bdabbc1d9057454dd9727",
+      "rights_status": "unreviewed",
+      "original_width": 1500,
+      "original_height": 1500,
+      "trim": {
+        "left": 107,
+        "top": 10,
+        "width": 1171,
+        "height": 1479
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_117_myrrh@wild#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_117_myrrh_wild_1.png",
+      "source_blob_sha1": "07ca1a0e79666bb22762cf05cc30993304968c85",
+      "source_sha256": "56c9007db8127947fe1ba458efc45e9c0e745be8be65cb9e6dc14400a9bc6ad2",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 6,
+        "top": 142,
+        "width": 2031,
+        "height": 1878
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_109_fmout#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_109_fmout_1.png",
+      "source_blob_sha1": "df3eecff60ea344aab9eaf95185494d44142d3a2",
+      "source_sha256": "44b983b526e8a58bc67dcb85d67136d9749889a4c10fef1eec09a36d6e508761",
+      "rights_status": "unreviewed",
+      "original_width": 1320,
+      "original_height": 1320,
+      "trim": {
+        "left": 338,
+        "top": 18,
+        "width": 664,
+        "height": 1290
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_109_fmout#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_109_fmout_2.png",
+      "source_blob_sha1": "fb5d2402387640a7835e34bdfa3a4d08cfa22cb1",
+      "source_sha256": "55ac298df5f86401b8ac5186bd49378db0ea13594af2fdfe84d25cefaa68d08c",
+      "rights_status": "unreviewed",
+      "original_width": 1416,
+      "original_height": 1416,
+      "trim": {
+        "left": 10,
+        "top": 29,
+        "width": 1394,
+        "height": 1354
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_109_fmout@epoque#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_109_fmout_epoque_2.png",
+      "source_blob_sha1": "1c9d3bcbfcb1a78f11b1237807463cfa148248ea",
+      "source_sha256": "6a251ef4116ebd17620a6672266f2d897949023409feab594683eff4a35a4ab3",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 266,
+        "top": 13,
+        "width": 1601,
+        "height": 2000
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_235_jesica#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_235_jesica_1.png",
+      "source_blob_sha1": "e3399096419cce47a97619cdb99279167bc649a4",
+      "source_sha256": "3ed2dd28062875938b0c5d9cc1ef95835f5b15317dce5a0c78337d6d7818d682",
+      "rights_status": "unreviewed",
+      "original_width": 1268,
+      "original_height": 1268,
+      "trim": {
+        "left": 432,
+        "top": 11,
+        "width": 409,
+        "height": 1250
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_235_jesica#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_235_jesica_2.png",
+      "source_blob_sha1": "ff1144a5cc5482d15fce0283b0f3b30641bc318f",
+      "source_sha256": "3fb004f1ccd5f188aaae47c99729c16c137050b47bf3ee83160194ff0aedcaea",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 38,
+        "top": 65,
+        "width": 2001,
+        "height": 1878
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_235_jesica@nian#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_235_jesica_nian_2.png",
+      "source_blob_sha1": "9309add284e1e570697d458cc95e71818a131857",
+      "source_sha256": "fc9587af5083eee81558fcc21391a4a157182c38ece2a8596782cc5398325084",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 217,
+        "top": 71,
+        "width": 1643,
+        "height": 1958
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_235_jesica@wild#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_235_jesica_wild_2.png",
+      "source_blob_sha1": "5610a705fb392f4104f23f9634c5334311c8f412",
+      "source_sha256": "498a1f86feb4dd8539d6d3d4f91499e083c449a8e8fdb7e55bf23c5cde7bc2df",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 455,
+        "top": 51,
+        "width": 1245,
+        "height": 1983
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_235_jesica@sweep#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_235_jesica_sweep_1.png",
+      "source_blob_sha1": "288fa4cf1aadd9f508c702d5f6efd0ea5f22cd7d",
+      "source_sha256": "17229ef61c6844d318d64380581a448bd1c3934d15fcfad9d98ae67183429f62",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 126,
+        "top": 32,
+        "width": 1794,
+        "height": 1987
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_110_deepcl#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_110_deepcl_1.png",
+      "source_blob_sha1": "a9725659add4b922db599c69e26d44aff9c7645f",
+      "source_sha256": "f232149db0f3f0ad0affab71ff31512bc863f6d02c62d93c6a913dfd98bfa33f",
+      "rights_status": "unreviewed",
+      "original_width": 1280,
+      "original_height": 1280,
+      "trim": {
+        "left": 306,
+        "top": 44,
+        "width": 670,
+        "height": 1230
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_110_deepcl#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_110_deepcl_2.png",
+      "source_blob_sha1": "40e25b75cfe44005c42aceeb6065bb1d17feab58",
+      "source_sha256": "0560cd869957db2e4a2ebe03c75ef8a801d05fb95badb853e6533e011f94911f",
+      "rights_status": "unreviewed",
+      "original_width": 1304,
+      "original_height": 1304,
+      "trim": {
+        "left": 293,
+        "top": 10,
+        "width": 805,
+        "height": 1273
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_110_deepcl@winter#3",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_110_deepcl_winter_3.png",
+      "source_blob_sha1": "0d73aeea80075e133c6db6336b1936b2842199d1",
+      "source_sha256": "5a37f259435f195b3cc7658e874d78b56f965c00512135b58c793b27324d31ff",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 218,
+        "top": 32,
+        "width": 1594,
+        "height": 1991
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_107_liskam#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_107_liskam_1.png",
+      "source_blob_sha1": "f1dc931ea50c4d6ca03111acb7fdda6f26133ec6",
+      "source_sha256": "05d04873f15d20e6079f50e50763e9b69d4848efece816fe5bc554dcca4f29dc",
+      "rights_status": "unreviewed",
+      "original_width": 1384,
+      "original_height": 1384,
+      "trim": {
+        "left": 394,
+        "top": 13,
+        "width": 691,
+        "height": 1358
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_107_liskam#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_107_liskam_2.png",
+      "source_blob_sha1": "a3c047aa6af42d6931b5c62ad46ad6cb71337f06",
+      "source_sha256": "ed3f8c78af9c4d3ec95ae98277cd53a8aac9b7617327f0d7a94303791f4e4d04",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 10,
+        "top": 53,
+        "width": 2012,
+        "height": 1870
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_107_liskam@nian#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_107_liskam_nian_2.png",
+      "source_blob_sha1": "ff7373a2f89a8499dcdbf7655da54735b017d39b",
+      "source_sha256": "e92ecfc98626ecc740dd772319f0007b668c414a261d7700374668ba25d71fd1",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 203,
+        "top": 49,
+        "width": 1637,
+        "height": 1999
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_107_liskam@striker#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_107_liskam_striker_1.png",
+      "source_blob_sha1": "9280e1133a2e89925a7eb523dc3905770fe0e9a9",
+      "source_sha256": "7210f22a5935d8b9ac0881d923bd31bd1f092632ebd2d2c4721bcfcbe45b7900",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 59,
+        "top": 167,
+        "width": 1884,
+        "height": 1854
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_150_snakek#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_150_snakek_1.png",
+      "source_blob_sha1": "08e72c528dfbc8389b298914669f63aec405df24",
+      "source_sha256": "80cc9e119fb5840d4ad2a747a3a6794e4bd8a42521de469900e55a4c40767a1c",
+      "rights_status": "unreviewed",
+      "original_width": 1248,
+      "original_height": 1248,
+      "trim": {
+        "left": 168,
+        "top": 33,
+        "width": 915,
+        "height": 1201
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_150_snakek#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_150_snakek_2.png",
+      "source_blob_sha1": "7062ff3d2e772b130b8117edf4b10c0d991cc28a",
+      "source_sha256": "0b91a9ba52baba46eef26482029e8b79fbcdf93809c4b39012c7735031139756",
+      "rights_status": "unreviewed",
+      "original_width": 1368,
+      "original_height": 1368,
+      "trim": {
+        "left": 82,
+        "top": 63,
+        "width": 1208,
+        "height": 1253
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_150_snakek@wild#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_150_snakek_wild_1.png",
+      "source_blob_sha1": "fc2a66fb660bdbe57c4676e22a40cb6d86967d49",
+      "source_sha256": "f032151fa8cd4687826b52faccc180d50d23cadf2a9e610217c2d70c877c4f68",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 47,
+        "top": 31,
+        "width": 1993,
+        "height": 1992
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_150_snakek@yun#7",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_150_snakek_yun_7.png",
+      "source_blob_sha1": "c56c1918707cd3bc765545783fca4cd097fe0e59",
+      "source_sha256": "86f68b7e97cee99008ee503bcb1d5f621b5af864fcb2683fb8567c13a0b11b35",
+      "rights_status": "unreviewed",
+      "original_width": 1760,
+      "original_height": 1760,
+      "trim": {
+        "left": 51,
+        "top": 27,
+        "width": 1691,
+        "height": 1654
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_4067_lolxh#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_4067_lolxh_1.png",
+      "source_blob_sha1": "c98a89506686ed99fee80c6b80c8519d5eb6e354",
+      "source_sha256": "015f922568dfb852e4890084e155b469db0b6e0918358b53c4e5f04c3e990188",
+      "rights_status": "unreviewed",
+      "original_width": 1024,
+      "original_height": 1024,
+      "trim": {
+        "left": 196,
+        "top": 22,
+        "width": 662,
+        "height": 999
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_4067_lolxh#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_4067_lolxh_2.png",
+      "source_blob_sha1": "89953fd7f79487335f704e20d7b6e2acafe6c264",
+      "source_sha256": "51f876d8e3ada139acea644c80c2c9246ce8abf2252521685c275212e219ebd1",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 27,
+        "top": 229,
+        "width": 2010,
+        "height": 1600
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_4208_wintim#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_4208_wintim_1.png",
+      "source_blob_sha1": "c952cbabfef8ec45d90d36e458eb07b7b4b9a5a5",
+      "source_sha256": "52a0e862aabfdde5b67f485831bbc1a6a79038b6eb14386e608d6d3c47b86a3a",
+      "rights_status": "unreviewed",
+      "original_width": 1304,
+      "original_height": 1304,
+      "trim": {
+        "left": 341,
+        "top": 7,
+        "width": 627,
+        "height": 1297
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_4208_wintim#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_4208_wintim_2.png",
+      "source_blob_sha1": "4533687a0eb5b97f52819835ca6d42f111abf4ed",
+      "source_sha256": "b0283a4ddb402ad3855f9efd5dbd8d70ee14c6e243e8e26c55514eae7090814f",
+      "rights_status": "unreviewed",
+      "original_width": 1924,
+      "original_height": 1924,
+      "trim": {
+        "left": 12,
+        "top": 31,
+        "width": 1907,
+        "height": 1875
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_118_yuki#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_118_yuki_1.png",
+      "source_blob_sha1": "15b2d19389eacdfda2bec441e04a39f7b5b92217",
+      "source_sha256": "f051443fa488751df6324a57b2c786c731748a93d87a370145d08b94d491e242",
+      "rights_status": "unreviewed",
+      "original_width": 1280,
+      "original_height": 1280,
+      "trim": {
+        "left": 396,
+        "top": 73,
+        "width": 678,
+        "height": 1194
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_118_yuki#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_118_yuki_2.png",
+      "source_blob_sha1": "805023b88d400964bdd8a1de4e5c2c510c013d84",
+      "source_sha256": "d63d2bf35e7399168c1fdb8e5cf587c970baa9f020a49049b42594fe435150ac",
+      "rights_status": "unreviewed",
+      "original_width": 1372,
+      "original_height": 1372,
+      "trim": {
+        "left": 8,
+        "top": 95,
+        "width": 1354,
+        "height": 1187
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_118_yuki@boc#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_118_yuki_boc_2.png",
+      "source_blob_sha1": "a5051b81676bdc888ab231291e04d4d6784d9846",
+      "source_sha256": "cec6555825524045f8b0156abfe9315feeae084ed33e6eb45648d8ad77bb59bf",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 101,
+        "top": 168,
+        "width": 1825,
+        "height": 1698
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_301_cutter#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_301_cutter_1.png",
+      "source_blob_sha1": "b74234e04459b0dec51a54cdbc9eeb2966f4d799",
+      "source_sha256": "7bb74b4f3742ba9c2fe67fd4291cfa4733ec17860734ec9b2032fe26f5e2e713",
+      "rights_status": "unreviewed",
+      "original_width": 1164,
+      "original_height": 1164,
+      "trim": {
+        "left": 73,
+        "top": 47,
+        "width": 1046,
+        "height": 1095
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_301_cutter#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_301_cutter_2.png",
+      "source_blob_sha1": "be0fc20f13140312f0475b4e89ab0041505918d3",
+      "source_sha256": "ca7a41d9ca3943746a230579245a0c733489c08991633e94066d4e70db7b0493",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 85,
+        "top": 107,
+        "width": 1894,
+        "height": 1844
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_301_cutter@marthe#8",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_301_cutter_marthe_8.png",
+      "source_blob_sha1": "cbed716168e56599a2120d3c9132f048a36d6e30",
+      "source_sha256": "b72c09d5eeef2b2d693878b9e01dc1ef64ae76a481dd9d400cc62d055862e5b9",
+      "rights_status": "unreviewed",
+      "original_width": 2020,
+      "original_height": 2020,
+      "trim": {
+        "left": 23,
+        "top": 9,
+        "width": 1940,
+        "height": 2002
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_236_rope#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_236_rope_1.png",
+      "source_blob_sha1": "66d0a595e4e3641003ba2eb4c74ae73097bd0acd",
+      "source_sha256": "23c793573c7773941134e0e8da62e39ccfabc9dbd51eba7415e3e20673b95cda",
+      "rights_status": "unreviewed",
+      "original_width": 1300,
+      "original_height": 1300,
+      "trim": {
+        "left": 333,
+        "top": 22,
+        "width": 674,
+        "height": 1263
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_236_rope#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_236_rope_2.png",
+      "source_blob_sha1": "70acb48a3b737c62bd176b645d7fed4e398b9b21",
+      "source_sha256": "5663fb1ebaf34d8581de7d806c3743c9afe0b0fcdf7700ae766538b8e76b018c",
+      "rights_status": "unreviewed",
+      "original_width": 1380,
+      "original_height": 1380,
+      "trim": {
+        "left": 9,
+        "top": 194,
+        "width": 1367,
+        "height": 1093
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_236_rope@summer#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_236_rope_summer_2.png",
+      "source_blob_sha1": "2e9c112593b2d77b05bc564964c33079410dc748",
+      "source_sha256": "7ddac4c600f9a6c54da9fb1b06f1e19824c4984c63eeb72505d6c3af0dfcd978",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 447,
+        "top": 55,
+        "width": 1261,
+        "height": 1923
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_236_rope@witch#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_236_rope_witch_1.png",
+      "source_blob_sha1": "40ad93606a6ba9a642b2f99f6ead388aaf1ad99d",
+      "source_sha256": "b643fe9d6a8cf76ed5c02f143dcf6f518f307b4167ce8100533250d925e4cc67",
+      "rights_status": "unreviewed",
+      "original_width": 2048,
+      "original_height": 2048,
+      "trim": {
+        "left": 182,
+        "top": 27,
+        "width": 1745,
+        "height": 2006
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_141_nights#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_141_nights_1.png",
+      "source_blob_sha1": "a8e33e44841fb317c00027ab968b049450d3e3e9",
+      "source_sha256": "d34fbd32f7e887a5dd26ec1e89d6bd4801459b2198db7a57fac34748bf947656",
+      "rights_status": "unreviewed",
+      "original_width": 1244,
+      "original_height": 1244,
+      "trim": {
+        "left": 283,
+        "top": 21,
+        "width": 698,
+        "height": 1212
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_141_nights#2",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_141_nights_2.png",
+      "source_blob_sha1": "bde9049d51533f511c97dbe3de6dcbe50e189e79",
+      "source_sha256": "9d8a1515d2cc40efd5c9d75ca1a7e23ff66ded9197c36d271e771b98cc016553",
+      "rights_status": "unreviewed",
+      "original_width": 1240,
+      "original_height": 1240,
+      "trim": {
+        "left": 38,
+        "top": 12,
+        "width": 1163,
+        "height": 1225
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    },
+    {
+      "appearance_id": "char_141_nights@breaker#1",
+      "source_url": "https://raw.githubusercontent.com/fexli/ArknightsResource/3596def3267fe2b172ba20895b47e11c0523642f/charpack/char_141_nights_breaker_1.png",
+      "source_blob_sha1": "41875382b0fa7c512802ba5bc2bd97db257cd419",
+      "source_sha256": "922e2670561f24ca0477766a76e0e57b0fbd1f02a56e308de39ecd9c39684e39",
+      "rights_status": "unreviewed",
+      "original_width": 1460,
+      "original_height": 1460,
+      "trim": {
+        "left": 8,
+        "top": 72,
+        "width": 1449,
+        "height": 1326
+      },
+      "focus": {
+        "x": 0.5,
+        "y": 0.35,
+        "method": "composition-center-default",
+        "reviewed": false
+      },
+      "transform": "alpha-bounds-1600-webp86-thumb480x600-contain-v1"
+    }
+  ],
+  "catalog_sha256": "20fc1e47dda0eb58556fc1be555eb24611ffdc890142105ff8d58ea25870cd5d"
+}
