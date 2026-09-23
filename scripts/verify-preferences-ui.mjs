@@ -26,10 +26,12 @@ async function until(check, message) { const deadline = Date.now() + 10000; whil
 
 async function installMock(context) {
   await context.addInitScript(version => localStorage.setItem('atlas:site-notice:acknowledged', version), siteNotice.version);
-  const model = { catalog: clone(catalog), config: clone(config), state: initial(), calls: [], forbidden: [], choices: [], records: [], choiceStatus: 200, choiceGate: null, answerGate: null, blockedImage: '', imageFailures: 0, emptySnapshot: false, identityStatus: 200, loseAnswerOnce: false, answerResponses: new Map() };
+  const model = { catalog: clone(catalog), config: clone(config), state: initial(), calls: [], forbidden: [], choices: [], records: [], choiceStatus: 200, choiceGate: null, answerGate: null, taskGate: null, taskStatus: 200, taskPair: persons.slice(0, 2), imageGate: null, delayedImage: '', imageRequests: [], blockedImage: '', imageFailures: 0, emptySnapshot: false, identityStatus: 200, loseAnswerOnce: false, answerResponses: new Map() };
   await context.addCookies([{ name: 'csrftoken', value: 'synthetic-preferences-csrf', url: base }]);
   await context.route('**/__preferences_fixture__/**', async route => {
     const pathname = new URL(route.request().url()).pathname;
+    model.imageRequests.push(pathname);
+    if (model.imageGate && pathname === model.delayedImage) await model.imageGate.promise;
     if (model.blockedImage && pathname === model.blockedImage) { model.imageFailures++; return route.fulfill({ status: 503, body: 'Synthetic image failure' }); }
     return route.fulfill({ contentType: 'image/svg+xml', body: '<svg xmlns="http://www.w3.org/2000/svg" width="480" height="720" viewBox="0 0 480 720"><rect width="480" height="720" fill="#24313b"/><circle cx="240" cy="175" r="90" fill="#86ddd6"/><path d="M90 650V370Q240 245 390 370V650" fill="#507d89"/><text x="240" y="690" fill="white" text-anchor="middle" font-size="24">SYNTHETIC UI FIXTURE</text></svg>' });
   });
@@ -44,9 +46,12 @@ async function installMock(context) {
     if (pathname === '/api/preferences/identity/') return model.identityStatus === 200 ? json(model.state) : json({ code: 'writes_paused', detail: '合成测试：参与登记暂时暂停。' }, model.identityStatus);
     if (pathname === '/api/preferences/state/') return model.identityStatus === 200 ? json(model.state) : json({ code: 'identity_required', detail: '合成测试：尚无参与身份。' }, 401);
     if (pathname === '/api/preferences/tasks/' && req.method() === 'POST') {
+      if (model.taskGate) await model.taskGate.promise;
+      if (model.taskStatus !== 200) return json({ code: 'synthetic_task_failure', detail: '合成测试：下一题暂时不可用。' }, model.taskStatus);
       if (!model.state.pending_task) {
         model.state.quota.weekly_used++; model.state.quota.rolling_used++; model.state.quota.remaining--;
-        model.state.pending_task = { id: `synthetic-task-${model.state.quota.weekly_used}`, left_id: persons[0].id, right_id: persons[1].id, left: persons[0], right: persons[1], catalog_version: catalog.version, issued_at: now, expires_at: '2026-09-24T12:00:00+00:00', status: 'pending', outcome: null, winner_id: null, risk_status: 'accepted' };
+        const [left, right] = model.taskPair;
+        model.state.pending_task = { id: `synthetic-task-${model.state.quota.weekly_used}`, left_id: left.id, right_id: right.id, left, right, catalog_version: catalog.version, issued_at: now, expires_at: '2026-09-24T12:00:00+00:00', status: 'pending', outcome: null, winner_id: null, risk_status: 'accepted' };
       }
       return json({ task: model.state.pending_task, quota: model.state.quota });
     }
@@ -115,7 +120,7 @@ async function regression(name, run, options = {}) {
     report.regressions.push({ name, passed: false, error: error.message });
     await page.screenshot({ path: path.join(output, `${name}-failure.png`), fullPage: true }).catch(() => {});
     throw error;
-  } finally { model.choiceGate?.resolve(); model.answerGate?.resolve(); await context.close(); }
+  } finally { model.choiceGate?.resolve(); model.answerGate?.resolve(); model.taskGate?.resolve(); model.imageGate?.resolve(); await context.close(); }
 }
 try {
   for (const viewport of [{ width: 390, height: 844 }, { width: 320, height: 640 }]) {
@@ -348,6 +353,68 @@ try {
       throw error;
     } finally { model.choiceGate?.resolve(); model.answerGate?.resolve(); await context.close(); }
   }
+  for (const width of [1440, 390]) {
+    await regression(`random-next-pair-keeps-illustrations-${width}`, async (page, model) => {
+      await page.goto(`${base}/preferences/?tab=characters`);
+      await page.getByRole('button', { name: '开始随机选择', exact: true }).click();
+      const choices = page.getByRole('button', { name: '更喜欢这位', exact: true });
+      await until(async () => await choices.first().isEnabled(), 'Initial pair ready');
+      const names = await page.locator('.random-person h3').allTextContents();
+      const pairLayout = () => page.locator('.random-pair').evaluate(element => ({ top: element.offsetTop, width: element.offsetWidth, height: element.offsetHeight }));
+      const before = await pairLayout();
+      model.taskPair = persons.slice(2, 4); model.taskGate = deferred();
+      model.delayedImage = model.taskPair[1].representative_url; model.imageGate = deferred();
+      await choices.first().click();
+      await until(() => model.records.length === 1 && taskCalls(model) === 2, 'Answer accepted, next dispatch waiting');
+      await page.getByText('正在准备下一题…', { exact: true }).waitFor();
+      assert.deepEqual(await page.locator('.random-person h3').allTextContents(), names);
+      assert.equal(await page.locator('.random-pair .preference-image[data-image-state="ready"]').count(), 2);
+      assert.equal(await page.locator('.random-view .preference-empty').count(), 0, 'Next dispatch never restores the start screen');
+      assert.equal(await choices.first().isDisabled(), true);
+      assert.equal(await page.getByRole('button', { name: '暂不判断，跳过', exact: true }).isDisabled(), true);
+      assert.deepEqual(await pairLayout(), before, 'Loading status does not move the illustrations');
+      model.taskGate.resolve(); model.taskGate = null;
+      await until(() => model.imageRequests.includes(model.delayedImage), 'Next pair image is being preloaded');
+      assert.deepEqual(await page.locator('.random-person h3').allTextContents(), names, 'Both old illustrations stay while one new image is delayed');
+      await page.locator('.random-view').screenshot({ path: path.join(output, `random-next-loading-${width}.png`) });
+      model.imageGate.resolve(); model.imageGate = null;
+      await until(async () => (await page.locator('.random-person h3').allTextContents())[0] === persons[2].name && await choices.first().isEnabled(), 'Decoded next pair replaces both previous illustrations');
+      assert.deepEqual(await page.locator('.random-person h3').allTextContents(), persons.slice(2, 4).map(x => x.name));
+      assert.equal(model.records.length, 1); assert.equal(model.state.quota.weekly_used, 2);
+      model.taskStatus = 503;
+      await choices.first().click();
+      const retry = page.getByRole('button', { name: '重试下一题', exact: true });
+      await retry.waitFor();
+      assert.deepEqual(await page.locator('.random-person h3').allTextContents(), persons.slice(2, 4).map(x => x.name));
+      assert.equal(await choices.first().isDisabled(), true, 'Answered pair cannot be answered again after dispatch failure');
+      assert.equal(await page.locator('.random-view .preference-empty').count(), 0);
+      const failedDispatch = clone(model.calls.filter(x => x.path === '/api/preferences/tasks/').at(-1));
+      model.taskStatus = 200; model.taskPair = persons.slice(4, 6);
+      await retry.click();
+      await until(async () => (await page.locator('.random-person h3').allTextContents())[0] === persons[4].name && await choices.first().isEnabled(), 'Retry recovers the next pair');
+      assert.deepEqual(model.calls.filter(x => x.path === '/api/preferences/tasks/').at(-1), failedDispatch, 'Uncertain dispatch retries reuse the same operation');
+      assert.equal(model.records.length, 2); assert.equal(model.state.quota.weekly_used, 3);
+      await noOverflow(page, 'random-next-pair');
+    }, { viewport: { width, height: 900 } });
+  }
+  await regression('random-next-image-failure-and-quota-end', async (page, model) => {
+    model.state.quota.remaining = 2;
+    await page.goto(`${base}/preferences/?tab=characters`);
+    await page.getByRole('button', { name: '开始随机选择', exact: true }).click();
+    const choices = page.getByRole('button', { name: '更喜欢这位', exact: true });
+    await until(async () => await choices.first().isEnabled(), 'Initial image pair ready');
+    model.taskPair = persons.slice(2, 4); model.blockedImage = persons[2].representative_url;
+    await choices.first().click();
+    await page.locator('.random-pair').getByRole('button', { name: '重试图片', exact: true }).waitFor();
+    assert.equal(await choices.first().isDisabled(), true, 'Failed preload does not lock the page or permit a blind vote');
+    model.blockedImage = '';
+    await page.locator('.random-pair').getByRole('button', { name: '重试图片', exact: true }).click();
+    await until(async () => await choices.first().isEnabled(), 'Image retry enables the new pair');
+    await choices.first().click();
+    await page.getByRole('heading', { name: '本期正式比较已用完', exact: true }).waitFor();
+    assert.equal(taskCalls(model), 2, 'Exhausted quota does not dispatch or preload another task');
+    assert.equal(model.records.length, 2);
+  });
   await regression('fifty-answer-rest-and-resume', async (page, model) => {
     await page.goto(`${base}/preferences/?tab=characters`);
     await page.getByRole('button', {name:'开始随机选择',exact:true}).click();

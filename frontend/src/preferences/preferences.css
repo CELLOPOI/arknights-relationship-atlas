@@ -1,6 +1,5 @@
 .preferences-app { height: 100dvh; color: var(--text-primary); background: #0b0e10; font-family: var(--font-main); }
 .preferences-header { flex-shrink: 0; }
-.preferences-header .site-nav { gap: clamp(24px, 3vw, 48px); }
 .preferences-layout { display: grid; grid-template-columns: 124px minmax(0, 1fr); height: calc(100dvh - 80px); }
 .preferences-switch { border-right: 1px solid #293236; display: flex; flex-direction: column; align-items: stretch; padding: 38px 14px 20px; gap: 10px; background: #080a0b; }
 .preferences-switch button { min-height: 68px; padding: 16px 8px; color: #a4b0b3; font-size: 20px; border: 1px solid transparent; text-align: center; }
@@ -56,6 +55,7 @@
 .preference-image-error { height: 100%; min-height: 100px; display: flex; justify-content: center; align-items: center; flex-direction: column; font-size: 13px; color: #c6cecf; gap: 12px; }
 .preference-image-error button { min-height: 44px; color: #9aebff; }
 .random-toolbar h2 { font-size: 21px; }
+.random-status { min-height: 44px; display: flex; align-items: center; justify-content: center; gap: 12px; color: var(--accent-cyan-hover); font-size: 13px; }
 .random-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); margin: 20px auto 0; max-width: 1040px; }
 .random-person { min-width: 0; text-align: center; padding: 0 24px; }
 .random-person + .random-person { border-left: 1px solid #293236; }
@@ -154,7 +154,7 @@
 .preference-records li { display: flex; flex-wrap: wrap; gap: 10px 24px; border-bottom: 1px solid #293236; padding: 16px 0; font-size: 14px; }
 .preference-records time { margin-left: auto; color: #a4b0b3; font-size: 12px; }
 .preference-records small { color: #9aebff; }
-@media (max-width: 1100px) { .preferences-layout { grid-template-columns: 100px minmax(0, 1fr); } .site-nav { gap: 24px; } .preference-title { display: block; } .preference-title p { margin-top: 10px; } }
+@media (max-width: 1100px) { .preferences-layout { grid-template-columns: 100px minmax(0, 1fr); } .preference-title { display: block; } .preference-title p { margin-top: 10px; } }
 @media (max-width: 760px) {
   .preferences-layout { height: calc(100dvh - 68px); grid-template-columns: 54px minmax(0, 1fr); }
   .preferences-switch { padding: 20px 5px 10px; gap: 8px; }

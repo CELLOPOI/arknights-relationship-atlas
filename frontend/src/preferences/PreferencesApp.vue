@@ -3,6 +3,7 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef } from 
 import SiteNotice from '../components/SiteNotice.vue';
 import SiteNoticeButton from '../components/SiteNoticeButton.vue';
 import FeedbackPanel from '../components/FeedbackPanel.vue';
+import GameIcon from '../game/GameIcon.vue';
 import CharactersView from './CharactersView.vue';
 import SkinsView from './SkinsView.vue';
 import ResultsView from './ResultsView.vue';
@@ -105,6 +106,7 @@ onBeforeUnmount(() => { if (viewport.value) scrolls[tab.value] = viewport.value.
         <a href="/preferences/" aria-current="page"><span>PREFERENCES</span><small>喜好</small></a>
         <SiteNoticeButton><span>NOTICE</span><small>站点说明</small></SiteNoticeButton>
       </nav>
+      <div class="visitor-links"><a href="https://github.com/CELLOPOI/arknights-relationship-atlas/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a><button class="account-entry" @click="feedback = true">反馈问题</button></div>
       <button class="site-menu-toggle" aria-label="打开导航" aria-haspopup="dialog" @click="menu?.showModal()"><span></span><span></span><span></span></button>
     </header>
     <div class="preferences-layout">
@@ -129,7 +131,7 @@ onBeforeUnmount(() => { if (viewport.value) scrolls[tab.value] = viewport.value.
         <footer class="preferences-footer"><span>本站参与者的喜好记录</span><button @click="feedback = true">反馈问题</button><a href="/sources/">来源与版权</a></footer>
       </main>
     </div>
-    <dialog ref="menu" class="site-menu" aria-label="网站导航"><button aria-label="关闭导航" @click="menu?.close()">关闭</button><a href="/#home">首页</a><a href="/?scope=all#factions">人物关系</a><a href="/game/">游戏</a><a href="/preferences/" aria-current="page">喜好</a><SiteNoticeButton>站点说明</SiteNoticeButton><a href="/sources/">来源与版权</a></dialog>
+    <dialog ref="menu" class="site-menu" aria-label="网站导航"><button aria-label="关闭导航" @click="menu?.close()"><GameIcon name="close" /></button><a href="/#home">INDEX <span>首页</span></a><a href="/?scope=all#factions">RELATIONS <span>人物关系</span></a><a href="/game/">GAME <span>游戏</span></a><a href="/preferences/" aria-current="page">PREFERENCES <span>喜好</span></a><SiteNoticeButton>NOTICE <span>站点说明</span></SiteNoticeButton><a href="/sources/">SOURCES <span>来源与版权</span></a></dialog>
     <SiteNotice /><FeedbackPanel :open="feedback" :target="null" @close="feedback = false" />
   </div>
 </template>

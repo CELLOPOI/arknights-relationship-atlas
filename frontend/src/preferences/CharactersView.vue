@@ -5,7 +5,7 @@ import { preferenceDraft } from './session';
 import ChoiceEditor from './ChoiceEditor.vue';
 import PreferenceImage from './PreferenceImage.vue';
 import ResultsView from './ResultsView.vue';
-import type { Catalog, RecordItem, State, Supports, Task, Subject } from './types';
+import type { Catalog, Quota, RecordItem, State, Supports, Task, Subject } from './types';
 const props = defineProps<{ active: boolean; catalog: Catalog; state: State; personId?: string }>();
 const emit = defineEmits<{ refresh: []; skin: [id: string] }>();
 const draft = preferenceDraft(`characters-v3:${props.state.choice_order_seed}`, {
@@ -15,6 +15,8 @@ const draft = preferenceDraft(`characters-v3:${props.state.choice_order_seed}`, 
 });
 const { section, busy, query, scope, supportDraft, favoriteDraft, supportVersion, dirty, practice, practiceTask, pause, awaitingAnswer } = toRefs(draft);
 const error = ref(''), message = ref(''), task = ref<Task | null>(props.state.pending_task);
+const previousTask = ref<Task | null>(null), taskLoading = ref(false);
+const imagePreloads = new Set<() => void>();
 const supportPending = ref(!!pendingMutation('supports'));
 const restInterval = computed(() => Math.max(1, Number(props.state.config?.rest_interval || 50)));
 const imagesReady = ref(new Set<string>());
@@ -32,7 +34,11 @@ const entities = computed(() => new Map<string, Subject>([
 const ownerId = (id: string) => entities.value.get(id)?.person_id || id;
 const supportCount = computed(() => new Set(supportDraft.value.map(ownerId)).size);
 const favoriteCount = computed(() => new Set(favoriteDraft.value.map(ownerId)).size);
-const pair = computed(() => practice.value ? practiceTask.value : awaitingAnswer.value?.task || task.value);
+const pair = computed(() => practice.value ? practiceTask.value : awaitingAnswer.value?.task || task.value || previousTask.value);
+const waitingForNext = computed(() => !practice.value && !!previousTask.value);
+const randomStatus = computed(() => taskLoading.value ? previousTask.value ? '正在准备下一题…' : '正在读取题目…'
+  : busy.value && awaitingAnswer.value ? '正在记录你的选择…'
+  : waitingForNext.value ? '上一题已记录，下一题未能载入。' : message.value);
 const shown = computed(() => pair.value ? [
   { person: pair.value.left || people.value.get(pair.value.left_id), id: pair.value.left_id },
   { person: pair.value.right || people.value.get(pair.value.right_id), id: pair.value.right_id },
@@ -47,7 +53,11 @@ const currentProfile = computed(() => people.value.get(profileId.value));
 const supportConflict = computed(() => dirty.value && supportVersion.value !== props.state.supports.version);
 const readyToAnswer = computed(() => shown.value.length === 2 && shown.value.every(x => imagesReady.value.has(x.id)));
 function restoreDraft(value = props.state.supports) { supportDraft.value = props.catalog.subjects ? [...(value.subject_support_ids || []), ...(value.legacy_support_ids || [])] : [...value.support_ids]; favoriteDraft.value = props.catalog.subjects ? [...(value.subject_favorite_ids || []), ...(value.legacy_favorite_ids || [])] : [...value.favorite_ids]; supportVersion.value = value.version; dirty.value = false; }
-watch(() => props.state, state => { task.value = state.pending_task; if (!dirty.value) restoreDraft(state.supports); }, { immediate: true });
+watch(() => props.state, state => {
+  // 提交后的状态查询可能先返回空待答题，不能覆盖正在切换的画面。
+  if (!busy.value && !previousTask.value) task.value = state.pending_task;
+  if (!dirty.value) restoreDraft(state.supports);
+}, { immediate: true });
 watch(() => pair.value?.id, () => { imagesReady.value = new Set(); });
 watch(() => props.active, active => { if (!active) { profile.value?.close(); zoom.value?.close(); } });
 watch(() => props.personId, id => { if (id) void openPerson(id); }, { immediate: true });
@@ -62,16 +72,40 @@ function newPractice() {
   practiceTask.value = { id: crypto.randomUUID(), left: pickForm(first.id), right: pickForm(second.id), left_id: first.id, right_id: second.id, catalog_version: props.catalog.version, expires_at: '', status: 'practice' };
 }
 function setPractice(value: boolean) { practice.value = value; error.value = ''; message.value = ''; if (value && !practiceTask.value) newPractice(); }
+function preloadImage(src: string) {
+  return new Promise<void>(resolve => {
+    const image = new Image();
+    const finish = () => {
+      clearTimeout(timeout); image.onload = image.onerror = null;
+      imagePreloads.delete(finish); resolve();
+    };
+    // 预加载失败或过慢时交给卡片现有的占位和重试处理，避免一直锁住选择。
+    const timeout = setTimeout(finish, 8000);
+    imagePreloads.add(finish);
+    image.onload = () => { void image.decode().catch(() => {}).then(finish); };
+    image.onerror = finish;
+    image.src = src;
+  });
+}
 async function nextTask() {
-  if (busy.value || awaitingAnswer.value || !props.active || section.value !== 'random') return;
-  pause.value = false; error.value = ''; busy.value = true;
-  try { const result = await mutate<{ task: Task }>('task', 'tasks/', 'POST', {}); task.value = result.task; emit('refresh'); }
+  if (busy.value || awaitingAnswer.value || practice.value || !props.active || section.value !== 'random') return;
+  pause.value = false; error.value = ''; busy.value = true; taskLoading.value = true;
+  try {
+    const result = await mutate<{ task: Task }>('task', 'tasks/', 'POST', {});
+    if (disposed) return;
+    const next = result.task;
+    const sources = [next.left || people.value.get(next.left_id), next.right || people.value.get(next.right_id)]
+      .flatMap(person => person?.representative_url ? [person.representative_url] : []);
+    await Promise.all([...new Set(sources)].map(preloadImage));
+    if (disposed) return;
+    task.value = next; previousTask.value = null; emit('refresh');
+  }
   catch (reason) { error.value = (reason as Error).message; }
-  finally { busy.value = false; }
+  finally { busy.value = false; taskLoading.value = false; }
 }
 async function answer(outcome: string, winnerId?: string) {
   const current = pair.value;
-  if (!current || busy.value) return;
+  if (!current || busy.value || waitingForNext.value) return;
   if (practice.value) {
     localRecords.value.unshift({ id: current.id, left: current.left, right: current.right, left_id: current.left_id, right_id: current.right_id, winner_id: winnerId || null, outcome, accepted_at: new Date().toISOString() });
     localRecords.value = localRecords.value.slice(0, 500);
@@ -82,12 +116,15 @@ async function answer(outcome: string, winnerId?: string) {
   awaitingAnswer.value = { task: current, outcome, winnerId };
   busy.value = true; error.value = '';
   try {
-    const result = await mutate<{ task: Task & { risk_status?: string } }>(`answer:${current.id}`, `tasks/${current.id}/answer/`, 'POST', { outcome, ...(winnerId ? { winner_id: winnerId } : {}) });
-    awaitingAnswer.value = null; task.value = null; draft.answered++; pause.value = draft.answered % restInterval.value === 0;
+    const result = await mutate<{ task: Task & { risk_status?: string }; quota: Quota }>(`answer:${current.id}`, `tasks/${current.id}/answer/`, 'POST', { outcome, ...(winnerId ? { winner_id: winnerId } : {}) });
+    draft.answered++; pause.value = draft.answered % restInterval.value === 0;
+    const continueRandom = props.active && section.value === 'random' && !pause.value && result.quota.remaining > 0 && !disposed;
+    previousTask.value = continueRandom ? current : null;
+    awaitingAnswer.value = null; task.value = null;
     message.value = result.task.risk_status === 'pending' ? '已收到，待确认后计入公共结果。' : '已记录你的选择。';
     emit('refresh');
     // 请求可以在隐藏后完成，但下一道题只能在当前人物比较视图派发。
-    if (props.active && section.value === 'random' && !pause.value && !disposed) { busy.value = false; await nextTask(); }
+    if (continueRandom) { busy.value = false; await nextTask(); }
   } catch (reason) {
     error.value = (reason as Error).message;
     if (reason instanceof PreferenceError && reason.status !== 0 && reason.status < 500) awaitingAnswer.value = null;
@@ -137,20 +174,21 @@ async function openPerson(id: string) { profileId.value = ownerId(id); await nex
 async function showArt(id: string) { zoomId.value = id; await nextTick(); zoom.value?.showModal(); }
 function clearPractice() { localRecords.value = []; try { localStorage.removeItem('terra-preference-practice'); } catch { /* 当前页面仍可清除。 */ } }
 if (section.value === 'records') void loadRecords();
-onBeforeUnmount(() => { disposed = true; profile.value?.close(); zoom.value?.close(); });
+onBeforeUnmount(() => { disposed = true; imagePreloads.forEach(finish => finish()); profile.value?.close(); zoom.value?.close(); });
 </script>
 <template>
   <section class="characters-view">
     <header class="preference-title"><h1>人物喜好</h1><p>随机选择与长期支持分别统计，免登录即可参与。</p></header>
     <nav class="pref-tabs character-tabs" aria-label="人物喜好功能"><button v-for="item in [['random','随机选择'],['support','厨力支持'],['results','榜单与趋势'],['records','我的记录']]" :key="item[0]" :aria-current="section === item[0] ? 'page' : undefined" @click="useSection(item[0]!)">{{ item[1] }}</button></nav>
     <p v-if="!state.writes_enabled" class="pref-message">喜好登记暂时暂停，可以继续浏览已保存的结果。</p><p v-if="state.risk_status === 'pending'" class="pref-message">你的登记已收到，待确认后计入公共结果。</p>
-    <p v-if="error" class="pref-error" role="alert">{{ error }}</p><p v-if="message" class="pref-message" role="status">{{ message }}</p>
+    <p v-if="error" class="pref-error" role="alert">{{ error }}</p><p v-if="message && section !== 'random'" class="pref-message" role="status">{{ message }}</p>
     <div v-show="section === 'random'" class="random-view">
       <div class="pref-row random-toolbar"><h2>这两位人物，你更喜欢谁？</h2><div class="pref-tabs" aria-label="参与模式"><button :aria-pressed="!practice" :disabled="busy || !!awaitingAnswer" @click="setPractice(false)">正式随机</button><button :aria-pressed="practice" :disabled="busy || !!awaitingAnswer" @click="setPractice(true)">个人练习</button></div></div>
       <p v-if="practice" class="pref-message">个人练习仅保存在本机，不进入公共榜。</p>
       <p v-else class="pref-muted">本周已派发 {{ state.quota.weekly_used }} / {{ state.quota.weekly_limit }} 道 · 近 28 天 {{ state.quota.rolling_used }} / {{ state.quota.rolling_limit }} 道 · 可以跳过，跳过占用已派发机会。</p>
-      <div v-if="pair" class="random-pair"><article v-for="person in shown" :key="`${pair.id}:${person.id}`" class="random-person"><div class="random-illustration"><PreferenceImage :src="person.representative_url" :alt="`${person.name}固定代表立绘`" @ready="imagesReady.add(person.id)" @failed="imagesReady.delete(person.id)" /><button class="random-enlarge" :aria-label="`放大${person.name}立绘`" @click="showArt(person.id)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M10 21H3v-7M21 3l-7 7M3 21l7-7" fill="none" stroke="currentColor" stroke-width="1.5" /></svg></button></div><h3>{{ person.name }}</h3><button class="pref-primary" :disabled="busy || !readyToAnswer || !!awaitingAnswer || (!practice && !state.writes_enabled)" @click="answer('choose', person.person_id)">更喜欢这位</button></article></div>
-      <div v-if="pair" class="random-skip"><button class="pref-secondary" :disabled="busy || !!awaitingAnswer || (!practice && !state.writes_enabled)" @click="answer('skip')">暂不判断，跳过</button><details class="random-skip-reasons"><summary>不熟悉</summary><button class="pref-text" :disabled="busy || !!awaitingAnswer" @click="answer('unfamiliar_left')">不认识左边</button><button class="pref-text" :disabled="busy || !!awaitingAnswer" @click="answer('unfamiliar_right')">不认识右边</button><button class="pref-text" :disabled="busy || !!awaitingAnswer" @click="answer('unfamiliar_both')">两边都不熟悉</button></details><button class="pref-text" :disabled="busy || !!awaitingAnswer" @click="answer('tie')">难分高下</button></div>
+      <div class="random-status" role="status" aria-live="polite"><span>{{ randomStatus }}</span><button v-if="waitingForNext && !busy" class="pref-text" :disabled="!state.writes_enabled" @click="nextTask">重试下一题</button></div>
+      <div v-if="pair" class="random-pair" :aria-busy="busy || waitingForNext"><article v-for="person in shown" :key="`${pair.id}:${person.id}`" class="random-person"><div class="random-illustration"><PreferenceImage :src="person.representative_url" :alt="`${person.name}固定代表立绘`" @ready="imagesReady.add(person.id)" @failed="imagesReady.delete(person.id)" /><button class="random-enlarge" :aria-label="`放大${person.name}立绘`" @click="showArt(person.id)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M10 21H3v-7M21 3l-7 7M3 21l7-7" fill="none" stroke="currentColor" stroke-width="1.5" /></svg></button></div><h3>{{ person.name }}</h3><button class="pref-primary" :disabled="busy || waitingForNext || !readyToAnswer || !!awaitingAnswer || (!practice && !state.writes_enabled)" @click="answer('choose', person.person_id)">更喜欢这位</button></article></div>
+      <div v-if="pair" class="random-skip"><button class="pref-secondary" :disabled="busy || waitingForNext || !!awaitingAnswer || (!practice && !state.writes_enabled)" @click="answer('skip')">暂不判断，跳过</button><details class="random-skip-reasons"><summary>不熟悉</summary><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('unfamiliar_left')">不认识左边</button><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('unfamiliar_right')">不认识右边</button><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('unfamiliar_both')">两边都不熟悉</button></details><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('tie')">难分高下</button></div>
       <p v-if="awaitingAnswer && !busy" class="pref-message">上次提交结果尚未确认，请重试同一操作。<button class="pref-secondary" @click="answer(awaitingAnswer.outcome, awaitingAnswer.winnerId)">重试原选择</button></p>
       <div v-if="!pair" class="preference-empty"><h3>{{ pause ? `已经完成 ${restInterval} 道，可以歇一会儿` : state.quota.remaining === 0 ? '本期正式比较已用完' : '从两个人物中选出更喜欢的一位' }}</h3><p>双方使用固定代表图；刷新会恢复同一道待答题。</p><div class="pref-actions"><button v-if="state.quota.remaining > 0" class="pref-primary" :disabled="busy || !state.writes_enabled" @click="nextTask">{{ busy ? '读取题目…' : pause ? '继续选择' : '开始随机选择' }}</button><button class="pref-secondary" @click="setPractice(true)">开始个人练习</button><button class="pref-text" @click="useSection('results')">查看大家的结果</button></div></div>
       <details class="pref-history"><summary>额度与参与规则</summary><p>本周最多 {{ state.quota.weekly_limit }} 道，连续 28 天最多 {{ state.quota.rolling_limit }} 道，人物展示与对位重复同时受限。服务器派发时预留次数；跳过、自然过期也会占用机会。</p><p>周额度恢复：{{ timeText(state.quota.weekly_resets_at) }}（北京时间）。<template v-if="state.quota.rolling_recovers_at">滚动额度最早恢复：{{ timeText(state.quota.rolling_recovers_at) }}。</template></p><p>匿名身份保存在这个浏览器中。清除 Cookie、换浏览器或换设备后，无法保证找回旧记录；匿名参与不能保证严格一人一票。</p></details>

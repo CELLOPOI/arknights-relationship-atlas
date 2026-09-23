@@ -76,8 +76,8 @@ onBeforeUnmount(() => { unmounted = true; atlas?.dispose(); });
       <a href="/preferences/"><span>PREFERENCES</span><small>喜好</small></a>
       <SiteNoticeButton><span>NOTICE</span><small>站点说明</small></SiteNoticeButton>
     </nav>
-    <button id="site-menu-open" class="site-menu-toggle" aria-label="打开导航" aria-haspopup="dialog"><span></span><span></span><span></span></button>
     <div id="account-control"></div>
+    <button id="site-menu-open" class="site-menu-toggle" aria-label="打开导航" aria-haspopup="dialog"><span></span><span></span><span></span></button>
   </header>
 
   <div id="portal" class="portal" data-scene="home">
