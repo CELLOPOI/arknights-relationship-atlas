@@ -6,6 +6,13 @@
 **/.venv
 **/__pycache__
 **/*.pyc
+**/.ruff_cache
+**/.pytest_cache
+**/*.sqlite3
+**/*.sqlite3-*
+**/*.dump
+**/*.bak
+**/*.log
 **/.env
 .env
 **/.env.*

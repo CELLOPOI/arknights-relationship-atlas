@@ -18,7 +18,9 @@
 | `make check-postgres` / CI `backend-postgres` | 专用 PostgreSQL 上的后端、锁、并发和约束验证；CI 另执行工具检查 |
 | 浏览器回归脚本 | 根据交互改动选择，说明模拟 API 或真实隔离数据库的边界 |
 
-CI 保留 `frontend-source` 和 `backend-postgres` 两个检查名称，前者执行完整 `make check-frontend`。CI 使用只读仓库权限和随库固定素材，不需要业务数据库、私有反馈或服务器凭据。新增 Python 工具纳入 `make check-tools` 的静态检查和测试。
+CI 保留 `frontend-source` 和 `backend-postgres` 两个检查名称，前者执行完整 `make check-frontend`。源码检查使用只读仓库权限和随库固定素材，不需要业务数据库、私有反馈或服务器凭据。新增 Python 工具纳入 `make check-tools` 的静态检查和测试。
+
+通过源码检查后，`container-api` 与 `container-web` 验证真实运行镜像。主分支通过这些检查时自动发布 GHCR 镜像和固定摘要的 Release 清单；Packages 与 Releases 写入权限仅赋予对应发布任务。PR 只验证构建，不发布镜像或 Release。文件格式、分层约束及发布与实例更新的边界见[容器构建](CONTAINER_IMAGES.md)。
 
 SQLite 测试不能替代 PostgreSQL 验证，模拟 API 不能证明真实数据写入，源码合并也不证明任何外部实例已更新。具体运行命令与专用测试库限制见[开发指南](DEVELOPMENT.md)。
 
