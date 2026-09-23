@@ -22,4 +22,4 @@ FROM caddy:2-alpine
 # 固定素材独立于应用代码；不要重新合并为一个 COPY，见 docs/CONTAINER_IMAGES.md。
 COPY --link --from=build /out/static/ /srv/web/
 COPY --link --from=build /out/app/ /srv/web/
-COPY deploy/Caddyfile /etc/caddy/Caddyfile
+COPY --link deploy/Caddyfile /etc/caddy/Caddyfile
