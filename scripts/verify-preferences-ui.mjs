@@ -103,8 +103,8 @@ async function noOverflow(page, label) {
 }
 const report = { synthetic: true, database_verified: false, base, viewports: [], regressions: [], started_at: new Date().toISOString() };
 const browser = await chromium.launch({ headless: true });
-async function regression(name, run) {
-  const context = await browser.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' });
+async function regression(name, run, options = {}) {
+  const context = await browser.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce', ...options });
   const model = await installMock(context), page = await context.newPage(), errors = [];
   page.setDefaultTimeout(10000); page.on('pageerror', error => errors.push(error.message));
   try {
@@ -118,6 +118,67 @@ async function regression(name, run) {
   } finally { model.choiceGate?.resolve(); model.answerGate?.resolve(); await context.close(); }
 }
 try {
+  for (const viewport of [{ width: 390, height: 844 }, { width: 320, height: 640 }]) {
+    await regression(`skin-touch-swipe-${viewport.width}`, async (page, model) => {
+      await page.goto(`${base}/preferences/?tab=skins`);
+      const first = card(page), second = page.locator('[data-form-id="synthetic-form-8"]');
+      await first.waitFor();
+      await page.waitForFunction(() => !document.documentElement.dataset.sectionTransitioning);
+      const filter = item => item.locator('img').evaluate(img => getComputedStyle(img).filter);
+      assert.match(await filter(first), /grayscale\(1\)/);
+      const a = await first.boundingBox(), b = await second.boundingBox();
+      const cdp = await page.context().newCDPSession(page);
+      const touch = (type, x = 0, y = 0) => cdp.send('Input.dispatchTouchEvent', { type, touchPoints: type === 'touchEnd' || type === 'touchCancel' ? [] : [{ x, y }] });
+      const x = a.x + a.width / 2, y = a.y + a.height / 2;
+      await touch('touchStart', x, y);
+      for (let step = 1; step <= 10; step++) {
+        await touch('touchMove', x + (b.x + b.width / 2 - x) * step / 10, y);
+        await page.waitForTimeout(16);
+      }
+      await touch('touchEnd');
+      await until(async () => /grayscale\(0\)/.test(await filter(first)) && /grayscale\(0\)/.test(await filter(second)), 'Swiping lights both the initial card and the card under the moving finger');
+      assert.equal(await page.locator('.preference-detail[open]').count(), 0, 'Swiping does not open a detail');
+      await page.screenshot({ path: path.join(output, `skin-touch-swipe-${viewport.width}.png`) });
+      await until(async () => /grayscale\(1\)/.test(await filter(first)) && /grayscale\(1\)/.test(await filter(second)), 'Cards return to gray after the touch trail fades');
+
+      const workspace = page.locator('.preferences-workspace');
+      const beforeScroll = await workspace.evaluate(el => el.scrollTop);
+      await touch('touchStart', x, y);
+      for (let step = 1; step <= 10; step++) {
+        await touch('touchMove', x, y - 180 * step / 10);
+        await page.waitForTimeout(16);
+      }
+      await touch('touchEnd');
+      await until(async () => await workspace.evaluate(el => el.scrollTop) > beforeScroll + 40, 'Swiping over cards preserves native vertical scrolling');
+      assert.equal(await page.locator('.preference-detail[open]').count(), 0);
+      assert.equal(voteCalls(model), 0); assert.equal(taskCalls(model), 0);
+
+      await page.emulateMedia({ reducedMotion: 'reduce' });
+      await first.scrollIntoViewIfNeeded();
+      const reducedBox = await first.boundingBox();
+      await touch('touchStart', reducedBox.x + reducedBox.width / 2, reducedBox.y + reducedBox.height / 2);
+      await until(async () => /grayscale\(0\)/.test(await filter(first)), 'Reduced motion keeps touch color feedback');
+      assert.equal(await first.locator('img').evaluate(img => getComputedStyle(img).transform), 'none');
+      await touch('touchCancel');
+      assert.equal(await page.locator('.skin-card.is-revealing').count(), 0, 'Canceled touches clear transient highlights');
+      await first.tap(); await skinDialog(page).waitFor();
+      assert.equal(voteCalls(model), 0, 'A single tap still opens the detail without voting');
+      assert.equal(await page.locator('.skin-card.is-revealing').count(), 0, 'Opening detail clears touch highlights');
+      await cdp.detach();
+    }, { viewport, hasTouch: true, isMobile: true, reducedMotion: 'no-preference' });
+  }
+  await regression('skin-desktop-color-feedback', async page => {
+    await page.goto(`${base}/preferences/?tab=skins`);
+    const first = card(page);
+    await first.waitFor();
+    await page.mouse.move(1, 1);
+    assert.match(await first.locator('img').evaluate(img => getComputedStyle(img).filter), /grayscale\(1\)/);
+    await first.hover();
+    await until(async () => /grayscale\(0\)/.test(await first.locator('img').evaluate(img => getComputedStyle(img).filter)), 'Desktop hover still lights the card');
+    await page.mouse.move(1, 1); await page.keyboard.press('Tab'); await first.focus();
+    assert.equal(await first.evaluate(el => el.matches(':focus-visible')), true);
+    await page.keyboard.press('Enter'); await skinDialog(page).waitFor();
+  }, { reducedMotion: 'no-preference' });
   for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 320, height: 640 }, { width: 844, height: 390 }]) {
     const context = await browser.newContext({ viewport, reducedMotion: 'reduce' });
     const model = await installMock(context), page = await context.newPage(), errors = [];

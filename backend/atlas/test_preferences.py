@@ -509,8 +509,10 @@ print('RESTORE_OK')
 
     def test_explicit_recompute_produces_reasoned_revision(self):
         cutoff = timezone.now()
-        aggregate(cutoff)
-        aggregate(cutoff, reason="Algorithm input audit", force_revision=True)
+        # 重算验证固定同一时刻，避免系统时钟校正被误判为未来截止点。
+        with patch("atlas.preference_statistics.timezone.now", return_value=cutoff):
+            aggregate(cutoff)
+            aggregate(cutoff, reason="Algorithm input audit", force_revision=True)
         snapshot = PreferenceSnapshot.objects.filter(scope="person", kind="support").first()
         self.assertEqual(snapshot.revision, 1)
         self.assertIsNotNone(snapshot.supersedes_id)
