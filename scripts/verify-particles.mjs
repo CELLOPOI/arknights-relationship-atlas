@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import { chromium } from './playwright.mjs';
+import { siteNotice } from '../frontend/src/content/site-notice.ts';
 
 const base = process.env.FRONTEND_URL || 'http://127.0.0.1:5174';
 const graph = JSON.parse(await readFile(new URL('../data/npc/graph.json', import.meta.url), 'utf8'));
@@ -16,6 +17,7 @@ async function open(options = {}, path = '/#factions', fallback = false) {
   const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, ...options });
   page.setDefaultTimeout(10000);
   page.on('pageerror', error => errors.push(error.message));
+  await page.addInitScript(version => localStorage.setItem('atlas:site-notice:acknowledged', version), siteNotice.version);
   await page.route('**/api/**', route => {
     const path = new URL(route.request().url()).pathname;
     if (path === '/api/graph/') return route.fulfill({ json: graph });
@@ -252,12 +254,12 @@ try {
       const cdp = await page.context().newCDPSession(page);
       const touch = { x: box.x + box.width / 2, y: box.y + box.height / 2 };
       await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [touch] });
-      await cdp.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [{ ...touch, y: touch.y + Math.min(90, box.height * .4) }] });
+      await cdp.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [{ ...touch, x: touch.x + Math.min(90, box.width * .2) }] });
       // 在终点停住后抬手，避免瞬移式合成滑动使浏览器吞掉紧接着的点击。
       await page.waitForTimeout(200);
       await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
       await cdp.detach();
-      assert.equal((await state(page)).page, 'factions', 'Dragging particles must not trigger section navigation');
+      assert.equal((await state(page)).page, 'factions', 'Horizontal particle gestures must not trigger section navigation');
       assert.equal((await state(page)).pointerActive, false);
       await formed(page);
       await page.locator('#emblem-next').tap();

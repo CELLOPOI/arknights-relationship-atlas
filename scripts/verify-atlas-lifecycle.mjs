@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import { chromium } from './playwright.mjs';
+import { siteNotice } from '../frontend/src/content/site-notice.ts';
 const base = process.env.FRONTEND_URL || 'http://127.0.0.1:5174';
 const graph = JSON.parse(await readFile(new URL('../data/npc/graph.json', import.meta.url), 'utf8'));
 const output = new URL('../.runtime/verification/lifecycle/', import.meta.url);
@@ -8,6 +9,7 @@ await mkdir(output, { recursive: true });
 const browser = await chromium.launch({ headless: true, args: ['--enable-unsafe-swiftshader'] });
 const results = [], errors = [];
 async function mock(context) {
+  await context.addInitScript(version => localStorage.setItem('atlas:site-notice:acknowledged', version), siteNotice.version);
   await context.route('**/api/**', route => {
     const path = new URL(route.request().url()).pathname;
     if (path === '/api/graph/') return route.fulfill({ json: graph });
@@ -18,6 +20,17 @@ async function mock(context) {
 }
 async function check(name, fn) { await fn(); results.push(name); console.log(`PASS ${name}`); }
 async function settle(page) { await page.waitForTimeout(180); }
+async function mountShell(page) {
+  await page.evaluate(async () => {
+    // 与被测组件复用 Vite 的带版本 URL，避免加载两份 Vue 导致插槽运行时不一致。
+    const source = await (await fetch('/src/components/AtlasShell.vue')).text();
+    const vueURL = source.match(/from\s+["']([^"']*\/vue\.js[^"']*)["']/)?.[1];
+    if (!vueURL) throw new Error('Cannot resolve the component Vue runtime');
+    const { createApp } = await import(vueURL);
+    const { default: AtlasShell } = await import('/src/components/AtlasShell.vue');
+    createApp(AtlasShell).mount('#app');
+  });
+}
 const state = page => page.evaluate(() => window.relationshipAtlas.getState());
 try {
   const context = await browser.newContext({ viewport: { width: 1440, height: 960 } });
@@ -102,11 +115,7 @@ try {
     assert.equal(baseline.observers, 0); assert.equal(baseline.frames, 0);
     const samples = [];
     for (let i = 0; i < 4; i++) {
-      await page.evaluate(async () => {
-        const { createApp } = await import('/node_modules/.vite/deps/vue.js');
-        const { default: AtlasShell } = await import('/src/components/AtlasShell.vue');
-        createApp(AtlasShell).mount('#app');
-      });
+      await mountShell(page);
       await page.waitForFunction(() => window.relationshipAtlas && window.terraPortal?.getState().renderer);
       await page.locator('#search').fill('阿米娅');
       await page.locator('#search').press('Enter');
@@ -120,12 +129,8 @@ try {
     await writeFile(new URL('resources.json', output), JSON.stringify({ baseline, samples }, null, 2));
   });
   await check('same-root initialization replaces old owner, update validates and disposal ignores late fetches', async () => {
-    await page.evaluate(async data => {
-      const { createApp } = await import('/node_modules/.vite/deps/vue.js');
-      const { default: AtlasShell } = await import('/src/components/AtlasShell.vue');
-      createApp(AtlasShell).mount('#app');
-      window.__data = data;
-    }, graph);
+    await mountShell(page);
+    await page.evaluate(data => { window.__data = data; }, graph);
     await page.waitForFunction(() => window.relationshipAtlas && window.terraPortal?.getState().renderer);
     const answer = await page.evaluate(async () => {
       const { createAtlas } = await import('/src/atlas/portal.js');

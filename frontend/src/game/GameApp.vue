@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { computed, nextTick, onMounted, ref, shallowRef } from 'vue';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef } from 'vue';
+import { bindSectionScroll } from '../section-scroll';
+import { navigateSection, sectionTransitioning } from '../section-navigation';
 import FeedbackPanel from '../components/FeedbackPanel.vue';
 import SiteNotice from '../components/SiteNotice.vue';
 import SiteNoticeButton from '../components/SiteNoticeButton.vue';
@@ -61,6 +63,7 @@ const evidenceError = ref('');
 const evidenceId = ref('');
 let evidenceRequest = 0;
 let fingerprint = '';
+let disposed = false;
 
 const people = computed(() => new Map(data.value?.nodes.map(person => [person.id, presentPerson(person, appearances.value[person.id])]) || []));
 const displayNetwork = computed(() => network.value ? { ...network.value, people: new Map([...network.value.people.keys()].map(id => [id, people.value.get(id)!])) } : null);
@@ -133,6 +136,7 @@ async function load() {
   loading.value = true; loadError.value = '';
   try {
     const result = await api<GameData>('graph/?scope=all');
+    if (disposed) return;
     if (!result || !Array.isArray(result.nodes) || !Array.isArray(result.edges) || !result.nodes.length) {
       throw new Error('当前没有可用的关系资料，请稍后重试。');
     }
@@ -290,7 +294,19 @@ async function showEvidence(id: string) {
 
 function closeEvidence() { evidenceRequest++; evidenceDialog.value?.close(); }
 
-onMounted(() => { document.title = '人物连线 · 干员关系档案'; load(); });
+let releaseScroll: (() => void) | undefined;
+onMounted(() => {
+  document.title = '人物连线 · 干员关系档案'; load();
+  releaseScroll = bindSectionScroll(document.getElementById('game-workspace')!, {
+    blocked: sectionTransitioning,
+    step: direction => {
+      if (direction > 0) return false;
+      navigateSection(history.state?.sectionReturn || '/?scope=all#factions', -1);
+      return true;
+    },
+  });
+});
+onBeforeUnmount(() => { disposed = true; evidenceRequest++; releaseScroll?.(); });
 </script>
 
 <template>

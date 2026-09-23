@@ -1,6 +1,8 @@
 import { createGraph } from './graph.js';
 import { createLifecycle } from './lifecycle.js';
 import { ParticleField, sampleEmblem } from './particles.js';
+import { bindSectionScroll } from '../section-scroll';
+import { navigateSection, sectionDuration, sectionTransitioning } from '../section-navigation';
 
 // 同一 DOM 根只允许一个实例，也覆盖 Vite 热更新后的新模块版本。
 const instanceKey = Symbol.for('arknights.atlas.instance');
@@ -23,7 +25,7 @@ const isCollaboration = id => collaborationIds.includes(id);
 const previewId = id => isCollaboration(id) ? 'collaboration' : id;
 let graph, icons = [], field, page = '', activeIndex = 0, requestId = 0, requestedIndex = 0;
 let directoryGroup = null;
-let pageAnimation, switchUntil = 0, lastURL = '', contextLost = false;
+let pageAnimations = [], finishPageAnimation = () => {}, switchUntil = 0, lastURL = '', contextLost = false;
 const samples = new Map();
 const pageOrder = { home: 0, factions: 1, graph: 2 };
 
@@ -58,8 +60,12 @@ function syncPlayback() {
 
 function showPage(next, { animate = true } = {}) {
   const previous = page;
+  finishPageAnimation();
+  pageAnimations.forEach(animation => animation?.cancel());
+  pageAnimations = [];
+  const stage = $('#particle-stage');
+  const stageBefore = stage.getBoundingClientRect();
   page = next;
-  pageAnimation?.cancel();
   $('#portal').hidden = next === 'graph';
   $('#graph-page').hidden = next !== 'graph';
   $('#home-page').hidden = next !== 'home';
@@ -74,11 +80,34 @@ function showPage(next, { animate = true } = {}) {
   });
   if ($('#site-menu').open) $('#site-menu').close();
   const surface = next === 'graph' ? $('#graph-page') : next === 'home' ? $('#home-page') : $('#factions-page');
-  const duration = matchMedia('(orientation: portrait)').matches ? 600 : 1000;
-  switchUntil = performance.now() + (reduced.matches ? 0 : duration);
-  if (animate && previous && previous !== next && !reduced.matches) {
+  const duration = sectionDuration();
+  switchUntil = 0;
+  if (animate && previous && previous !== next && duration) {
+    switchUntil = performance.now() + duration;
     const forward = pageOrder[next] >= pageOrder[previous];
-    pageAnimation = lifecycle.animate(surface, [{ clipPath: forward ? 'inset(0 0 0 100%)' : 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0 0 0)' }], { duration, easing: 'cubic-bezier(.455, .03, .515, .955)' });
+    const options = { duration, easing: 'cubic-bezier(.22, .61, .36, 1)' };
+    if (previous !== 'graph' && next !== 'graph') {
+      const outgoing = previous === 'home' ? $('#home-page') : $('#factions-page');
+      outgoing.hidden = false;
+      outgoing.inert = true;
+      outgoing.setAttribute('aria-hidden', 'true');
+      finishPageAnimation = () => {
+        outgoing.hidden = true; outgoing.inert = false; outgoing.removeAttribute('aria-hidden');
+        finishPageAnimation = () => {};
+      };
+      pageAnimations.push(lifecycle.animate(outgoing, [{ transform: 'translateY(0)', opacity: 1 }, { transform: `translateY(${forward ? '-' : ''}100%)`, opacity: 0 }], options));
+      const incoming = lifecycle.animate(surface, [{ transform: `translateY(${forward ? '' : '-'}100%)`, opacity: 0 }, { transform: 'translateY(0)', opacity: 1 }], options);
+      incoming.onfinish = () => finishPageAnimation();
+      pageAnimations.push(incoming);
+      // 共享粒子画布只重排一次，用变换衔接前后尺寸，避免逐帧重建 WebGL 缓冲。
+      const after = stage.getBoundingClientRect();
+      if (stageBefore.width && after.width && after.height) pageAnimations.push(lifecycle.animate(stage, [
+        { transformOrigin: '0 0', transform: `translate(${stageBefore.x - after.x}px, ${stageBefore.y - after.y}px) scale(${stageBefore.width / after.width}, ${stageBefore.height / after.height})` },
+        { transformOrigin: '0 0', transform: 'none' },
+      ], options));
+    } else {
+      pageAnimations.push(lifecycle.animate(surface, [{ clipPath: forward ? 'inset(0 0 0 100%)' : 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0 0 0)' }], options));
+    }
   }
   $('.emblem-steppers').hidden = next === 'factions' && directoryGroup === 'collaboration';
   field?.resize();
@@ -261,31 +290,21 @@ lifecycle.listen($('#site-menu'), 'click', event => { if (event.target === $('#s
 for (const [id, delta] of [['emblem-prev', -1], ['emblem-next', 1]]) lifecycle.handler($('#' + id), 'onclick', () => selectEmblem((activeIndex + delta + icons.length) % icons.length));
 lifecycle.handler($('#particle-retry'), 'onclick', () => contextLost || !field ? location.reload() : selectEmblem(requestedIndex));
 
-lifecycle.listen($('#portal'), 'wheel', event => {
-  if (event.target.closest('.faction-directory, button, a') || performance.now() < switchUntil) return;
-  if (Math.abs(event.deltaY) < 12) return;
-  if (page === 'home' && event.deltaY > 0) { event.preventDefault(); go('factions'); }
-  else if (page === 'factions' && event.deltaY < 0) { event.preventDefault(); go('home'); }
-  else if (page === 'factions' && event.deltaY > 0) { event.preventDefault(); location.assign('/game/'); }
-}, { passive: false });
-let touchStart;
-lifecycle.listen($('#portal'), 'touchstart', event => {
-  if (event.target.closest('.particle-stage, .faction-directory, button, a') || event.touches.length !== 1) { touchStart = null; return; }
-  touchStart = { x: event.touches[0].clientX, y: event.touches[0].clientY };
-}, { passive: true });
-lifecycle.listen($('#portal'), 'touchend', event => {
-  if (!touchStart || performance.now() < switchUntil) { touchStart = null; return; }
-  const touch = event.changedTouches[0], dx = touch.clientX - touchStart.x, dy = touch.clientY - touchStart.y;
-  touchStart = null;
-  if (Math.abs(dx) > 50 || Math.abs(dy) < 70) return;
-  if (page === 'home' && dy < 0) go('factions'); else if (page === 'factions' && dy > 0) go('home');
-}, { passive: true });
-lifecycle.listen($('#portal'), 'touchcancel', () => { touchStart = null; });
+lifecycle.own(bindSectionScroll($('#portal'), {
+  blocked: () => performance.now() < switchUntil || sectionTransitioning(),
+  step: direction => {
+    if (page === 'home' && direction > 0) go('factions');
+    else if (page === 'factions' && direction < 0) go('home');
+    else if (page === 'factions' && direction > 0) navigateSection('/game/', 1);
+    else return false;
+    return true;
+  },
+}));
 lifecycle.listen(window, 'popstate', () => applyRoute());
 lifecycle.listen(window, 'hashchange', () => applyRoute());
 lifecycle.listen(document, 'atlas:view', () => { if (page !== 'graph') showPage('graph'); lastURL = location.href; });
 lifecycle.listen(document, 'visibilitychange', syncPlayback);
-lifecycle.listen(reduced, 'change', () => { pageAnimation?.cancel(); switchUntil = 0; syncPlayback(); });
+lifecycle.listen(reduced, 'change', () => { finishPageAnimation(); pageAnimations.forEach(animation => animation?.cancel()); switchUntil = 0; syncPlayback(); });
 
 applyRoute({ initial: true });
 graphReady.then(data => { if (lifecycle.disposed || !data) return; graph = graph || data; keepPopulatedIcons(); buildDirectory(); applyRoute({ initial: true }); });
@@ -324,6 +343,7 @@ const instance = {
   dispose() {
     if (lifecycle.disposed) return;
     requestId++;
+    finishPageAnimation();
     lifecycle.dispose();
     field?.dispose();
     graphInstance.dispose();
