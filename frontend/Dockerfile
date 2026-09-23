@@ -15,8 +15,11 @@ COPY scripts/game-ui-fixture.mjs /app/scripts/game-ui-fixture.mjs
 COPY data/npc/graph.json data/npc/evidence.json /app/data/npc/
 COPY data/source/people/ /app/data/source/people/
 ARG CLOUDFLARE_WEB_ANALYTICS_TOKEN=""
-RUN npm run build && npm run test:game && npm run test:atlas
+RUN npm run build && npm run test:game && npm run test:atlas && npm run test:preferences \
+    && node scripts/container-layers.mjs build public /out
 
 FROM caddy:2-alpine
-COPY --from=build /app/frontend/build /srv/web
+# 固定素材独立于应用代码；不要重新合并为一个 COPY，见 docs/CONTAINER_IMAGES.md。
+COPY --link --from=build /out/static/ /srv/web/
+COPY --link --from=build /out/app/ /srv/web/
 COPY deploy/Caddyfile /etc/caddy/Caddyfile
