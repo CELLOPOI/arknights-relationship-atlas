@@ -1,6 +1,6 @@
 # 容器构建与版本清单
 
-`Checks` 先执行 `frontend-source` 和 `backend-postgres`，再分别构建、检查 API 与 Web 运行镜像。PR 只构建验证；推送到 `main` 或在 `main` 手动运行工作流时，使用该任务的 `GITHUB_TOKEN` 发布到 GHCR。镜像任务只有读取源码和写入 Packages 的权限，最终发布任务只有写入 Releases 的权限。工作流不使用实例连接信息、业务数据库或部署密钥。
+`Checks` 先执行 `frontend-source` 和 `backend-postgres`，再分别构建、检查 API 与 Web 运行镜像。PR 只构建验证；推送到 `main` 或在 `main` 手动运行工作流时，使用该任务的 `GITHUB_TOKEN` 发布到 GHCR。镜像任务授予 `contents: read` 和 `packages: write`；最终发布任务使用 `contents: write` 创建 Releases，该权限在 GitHub 中也允许写入仓库内容，并非仅限 Releases。工作流不使用实例连接信息、业务数据库或部署密钥。
 
 两个镜像的地址为 `ghcr.io/<owner>/<repository>-api:sha-<commit>` 和 `ghcr.io/<owner>/<repository>-web:sha-<commit>`，仓库路径转为小写，当前构建平台为 `linux/amd64`。OCI 标签记录源码仓库、完整程序提交和基础素材版本。通用 Web 镜像不注入访问统计标识；使用代理自动安装统计，或另行构建带运行方标识的镜像。
 
