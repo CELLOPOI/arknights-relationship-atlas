@@ -76,13 +76,17 @@ BASE_URL=http://127.0.0.1:5173 API_MODE=1 EXPECTED_OPERATOR_EDGES=3703 EXPECTED_
 
 ## 可选访问统计
 
-使用 Cloudflare 橙云代理时，优先在 Web Analytics 中启用自动安装，后续应用发布无需携带统计标识。此时保持下述构建变量为空，避免手动脚本与自动安装同时启用。灰云直连或明确选择手动安装时才使用构建注入。
+使用 Cloudflare 橙云代理时，可以在 Web Analytics 中启用自动安装；灰云直连或平台禁用自动注入时选择手动安装。页面已有 Cloudflare beacon 时，应用不再重复安装。访问统计的配置边界见[工程决定](../.agents/notes/implemented/architecture/2026-09-23-cdn-and-web-analytics.md)。
 
-生产构建支持 Cloudflare Web Analytics 的手动脚本接入。将后台代码中的 `token` 配置为 `CLOUDFLARE_WEB_ANALYTICS_TOKEN`：本地 npm 构建可放在已忽略的 `frontend/.env.production.local`；Compose 构建放在根目录 `.env`；独立镜像构建通过同名 `--build-arg` 传入。标识会出现在发布后的 HTML 中，但实际站点配置不提交仓库。
+公共镜像使用运行时接入：把统计代码中的公开站点 `token` 配置为 API 环境变量 `CLOUDFLARE_WEB_ANALYTICS_TOKEN`。现有 Compose 已经通过 `env_file: .env` 传给 API，无需修改 Compose 或重新构建带有站点标识的镜像。新建或重建 API 容器时读取配置；仅 `docker restart` 不会重读 `env_file`。实际配置留在部署环境，不提交源码，也不传入公共镜像构建。
 
-未配置或留空时不输出统计脚本，开发服务与非 production 模式不注入。生产构建在 `</body>` 前添加 Cloudflare 的外部 module 脚本，保留其默认 SPA 统计；不用在页面切换时重复安装。使用带统计的构建做本地浏览器验收时应拦截统计请求，避免测试流量进入报表。
+`GET /api/site-config/` 仅返回 `cloudflareWebAnalyticsToken`，禁用缓存、不访问数据库、不读访客会话。缺失、非 32 位十六进制的标识或 `DJANGO_DEBUG=1` 返回空字符串。该标识会公开给浏览器，不是 Cloudflare 管理 API 密钥；不得通过此接口暴露其他环境变量、密钥或内部配置。
 
-变量只在构建时读取，修改后需要重新构建并发布 Web 镜像；给已运行的容器补环境变量不会改变网页。通过 Git 归档制作交付时，本地 `.env.production.local` 不会进入归档，交付构建器必须显式传入构建参数。后台选择手动 JS 安装，避免与代理自动注入重复。接入后验证发布 HTML 中仅有一个 `data-cf-beacon` 脚本，再检查实际浏览器上报和统计后台；构建通过不代表报表已经收到数据。参见 [Cloudflare 接入说明](https://developers.cloudflare.com/web-analytics/get-started/)。
+生产前端在挂载应用时独立读取该接口，不携带 cookie，不等待统计成功才显示页面；5 秒超时、旧版 API 的 404、错误配置和脚本被拦截均不阻止正常使用。标识有效时添加一个 Cloudflare `type="module"` 脚本，保留官方默认 SPA 统计，不在页面切换时重新安装。开发前端不启动运行时统计。
+
+原有构建注入仍兼容专用构建：本地 npm 构建可通过已忽略的 `frontend/.env.production.local`，独立镜像构建可通过同名 `--build-arg`。这条路径会把标识写入 HTML，必须重新构建才改变；公共 CI 始终将构建参数留空。已有构建脚本优先，运行时接口不覆盖它。
+
+先执行 `CLOUDFLARE_WEB_ANALYTICS_TOKEN= make check`，再执行 `node scripts/verify-web-analytics.mjs`。浏览器脚本自动启动本机生产预览，仅使用合成标识并拦截所有外部请求，覆盖启用/禁用、错误与超时、已有/迟到脚本和页面导航。上线后另查浏览器 DOM 中仅有一个 beacon、实际网络上报以及统计后台；静态 HTML 中没有 token 不代表运行时未安装，构建与本地验收也不代表报表已收到访问。参见 [Cloudflare 接入说明](https://developers.cloudflare.com/web-analytics/get-started/)。
 
 ## CDN 与访客地址
 
