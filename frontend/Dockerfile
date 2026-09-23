@@ -14,6 +14,7 @@ COPY scripts/verify-preferences-assets.mjs /app/scripts/verify-preferences-asset
 COPY scripts/game-ui-fixture.mjs /app/scripts/game-ui-fixture.mjs
 COPY data/npc/graph.json data/npc/evidence.json /app/data/npc/
 COPY data/source/people/ /app/data/source/people/
+ARG CLOUDFLARE_WEB_ANALYTICS_TOKEN=""
 RUN npm run build && npm run test:game && npm run test:atlas
 
 FROM caddy:2-alpine

@@ -80,10 +80,13 @@ services:
     build:
       context: .
       dockerfile: frontend/Dockerfile
+      args:
+        CLOUDFLARE_WEB_ANALYTICS_TOKEN: ${CLOUDFLARE_WEB_ANALYTICS_TOKEN:-}
     restart: unless-stopped
     logging: *local-logging
     environment:
       SITE_ADDRESS: ${SITE_ADDRESS:?Set SITE_ADDRESS in .env}
+      CADDY_TRUSTED_PROXY_CIDRS: ${CADDY_TRUSTED_PROXY_CIDRS:-}
     ports:
       - "80:80"
       - "443:443"
