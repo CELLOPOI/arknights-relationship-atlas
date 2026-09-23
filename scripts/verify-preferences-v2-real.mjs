@@ -91,9 +91,11 @@ try {
       await tab(page,'皮肤');await until(async()=>Math.abs(await page.locator('.preferences-workspace').evaluate(x=>x.scrollTop)-oldScroll)<5,'Scroll restored after unmount');
       assert.equal(writes(),oldWrites);assert.equal(tasks(),0);
       await tab(page,'人物');await page.getByRole('button',{name:'厨力支持',exact:true}).click();
-      await page.getByLabel('搜索人物').fill('阿米娅');await page.locator('.support-directory article').getByRole('button',{name:'加入支持',exact:true}).click();
+      // 双榜按具体形态展示支持入口，阿米娅的三个职业形态会同时命中搜索。
+      await page.getByLabel('搜索人物').fill('阿米娅');await page.locator('.support-directory article').getByRole('button',{name:'加入支持',exact:true}).first().click();
       await page.getByRole('button',{name:'保存整份名单',exact:true}).click();
       await until(async()=>(await state()).supports.support_ids.includes('char_002_amiya'),'Real support saved');
+      assert.equal((await state()).supports.subject_support_ids.length,1,'One selected form produces one person support');
       await page.getByRole('button',{name:'随机选择',exact:true}).click();
       await page.getByRole('button',{name:'开始随机选择',exact:true}).click();
       await until(async()=>await page.getByRole('button',{name:'更喜欢这位',exact:true}).first().isEnabled(),'Real random task ready');
