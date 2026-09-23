@@ -4,6 +4,7 @@ from django.urls import include, path
 from atlas import views
 from atlas.feedback_views import FeedbackView
 from atlas.ops_views import ReadyView
+from atlas.site_config_views import SiteConfigView
 
 urlpatterns = [
     path("api/preferences/", include("atlas.preference_views")),
@@ -11,6 +12,7 @@ urlpatterns = [
     path("api/feedback/", FeedbackView.as_view()),
     path("api/health/", views.HealthView.as_view()),
     path("api/ready/", ReadyView.as_view()),
+    path("api/site-config/", SiteConfigView.as_view()),
     path("api/graph/", views.GraphView.as_view()),
     path("api/people/<str:pk>/", views.PersonView.as_view()),
     path("api/relationships/<str:pk>/", views.RelationshipView.as_view()),

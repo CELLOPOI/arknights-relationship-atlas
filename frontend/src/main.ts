@@ -1,5 +1,6 @@
 import { createApp, nextTick, type App } from 'vue';
 import { directionBetween, sectionFor, transitionSection, type SectionDirection } from './section-navigation';
+import { startWebAnalytics } from './web-analytics';
 import './styles/graph.css';
 import './styles/site.css';
 import './styles/community.css';
@@ -74,4 +75,5 @@ window.addEventListener('popstate', event => {
   void navigate(new URL(location.href), directionBetween(activeSection, sectionFor(new URL(location.href))), true);
 });
 window.addEventListener('hashchange', () => { activeSection = sectionFor(new URL(location.href)); });
+if (import.meta.env.PROD) void startWebAnalytics();
 loadEntry(location.pathname).then(({ default: component }) => { app = createApp(component); app.mount('#app'); });
