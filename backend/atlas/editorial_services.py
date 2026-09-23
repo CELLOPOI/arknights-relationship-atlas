@@ -16,7 +16,7 @@ from .candidate_services import baseline_data, locked_baseline
 from .editorial_models import ChangeSet, ChangeSetEvent
 from .feedback_models import Feedback
 from .feedback_services import review_feedback
-from .release_assets import validate_release_assets
+from .release_assets import preference_avatar_assets, validate_release_assets
 from .release_models import DataRelease, ReleaseState
 from .releasing import _persist_rows, formal_data, narrative_changes, prepare_rollback, release_changes
 from .resource_manifest import validate_manifest
@@ -86,6 +86,11 @@ def current_asset_version():
         return validate_manifest(read_json(settings.ASSET_MANIFEST_PATH))["version"]
     except (ValueError, ValidationError) as exc:
         raise ValidationError("素材清单不可用，请先恢复正确的资源清单。") from exc
+
+
+def reviewed_digest(data):
+    supplementary = preference_avatar_assets(data)
+    return digest({"data": data, "preference_avatar_assets": supplementary}) if supplementary else digest(data)
 
 
 def checked_data(batch):
@@ -318,7 +323,7 @@ def transition(pk, *, actor, expected_version, action, note=""):
         if not note.strip():
             raise ValidationError("请填写审核意见。")
         data, _, asset_version = checked_data(batch)
-        batch.status, batch.review_digest, batch.asset_version = "approved", digest(data), asset_version
+        batch.status, batch.review_digest, batch.asset_version = "approved", reviewed_digest(data), asset_version
         batch.reviewed_by, batch.reviewed_at, batch.review_note = actor, timezone.now(), note.strip()
     elif action in ("return", "withdraw"):
         if batch.status not in ("submitted", "approved"):
@@ -343,7 +348,7 @@ def preview_publication(pk, *, actor, expected_version):
     if batch.status != "approved":
         raise ValidationError("请先完成审核，再预览发布。")
     data, changes, asset_version = checked_data(batch)
-    if batch.review_digest != digest(data):
+    if batch.review_digest != reviewed_digest(data):
         raise ValidationError("内容与已审核版本不一致，请退回重新审核。")
     feedback_state = None
     if batch.feedback_id:
@@ -352,7 +357,7 @@ def preview_publication(pk, *, actor, expected_version):
         feedback = Feedback.objects.select_for_update().get(pk=batch.feedback_id)
         feedback_state = {"id": feedback.pk, "version": feedback.version, "status": feedback.get_status_display()}
     token = signing.dumps({"id": batch.pk, "version": batch.version, "base": release.pk,
-                           "digest": digest(data), "asset": asset_version, "actor": actor.pk,
+                           "digest": reviewed_digest(data), "asset": asset_version, "actor": actor.pk,
                            "feedback": feedback_state}, salt=PREVIEW_SALT)
     return {"token": token, "data": data, "changes": changes, "asset_version": asset_version,
             "feedback": feedback_state}
@@ -381,6 +386,9 @@ def publish_change_set(pk, *, actor, expected_version, preview_token):
                 "counts": {section: len(data[section]) for section in SECTIONS}, "release_id": release_id,
                 "git_commit": None, "expected_previous": release.pk, "asset_version": preview["asset_version"],
                 "working_tree_dirty": False, "source_path": "database"}
+    supplementary = preference_avatar_assets(data)
+    if supplementary:
+        manifest["preference_avatar_assets"] = supplementary
     _persist_rows(data, changes, actor, f"release:{release_id}")
     if compare_data(formal_data(data), export_database()):
         raise ValidationError("发布后资料与审核快照不一致，本次发布已撤销。")

@@ -1,0 +1,5 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<form method="post">{% csrf_token %}<label>审核理由 <textarea name="reason"></textarea></label><button name="action" value="approve">审核通过</button><button name="action" value="reject">退回草稿</button><button name="action" value="preview">预览发布</button></form>
+{% if preview %}<h2>发布差异</h2><pre>{{ preview.changes }}</pre><form method="post">{% csrf_token %}<input type="hidden" name="token" value="{{ preview.token }}"><button name="action" value="publish">确认发布此预览</button></form>{% endif %}
+{% endblock %}

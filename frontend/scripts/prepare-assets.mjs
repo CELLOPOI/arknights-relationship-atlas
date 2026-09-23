@@ -15,4 +15,7 @@ for (const directory of ['assets', 'avatars', 'illustrations']) {
 }
 await copyFile(path.join(source, 'favicon.svg'), path.join(root, 'public/favicon.svg'));
 await copyFile(path.join(root, 'static/unknown.svg'), path.join(root, 'public/avatars/unknown.svg'));
+// 喜好素材拥有独立固定清单；先完整校验，再复制，日常构建不下载上游。
+await import('../../scripts/verify-preferences-assets.mjs');
+await cp(path.join(root, '../assets/preferences'), path.join(root, 'public/assets/preferences'), { recursive: true });
 await prepareNotices();

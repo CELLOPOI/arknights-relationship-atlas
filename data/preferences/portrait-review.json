@@ -1,0 +1,29 @@
+{
+  "count": 1361,
+  "date": "2026-09-23",
+  "focus_sha256": "bc8e414b7f53f83c71da0458ae389051af750db9b60ece700a0b7c03b53c2841",
+  "methods": {
+    "anime-face-proposal": 816,
+    "reviewed-face-shoulder-crop-local-face-refined": 72,
+    "manual-face-shoulder-crop": 364,
+    "reviewed-original-face-shoulder-crop-local-face-refined": 28,
+    "reviewed-face-shoulder-crop": 8,
+    "manual-original-face-shoulder-crop": 58,
+    "reviewed-nonhuman-composition": 13,
+    "manual-source-face-shoulder-crop": 2
+  },
+  "contact_pages": 22,
+  "review_scope": "全量联系表检查；对检测未命中、误命中、构图偏离的条目分批修正，并复查修正联系表；不是把统一居中参数标为人工精修。",
+  "special_compositions": "机器、动物、多主体、倒置和侧身按原画特征保留；完整构图始终可在详情查看。",
+  "corrections": [
+    {
+      "date": "2026-09-23",
+      "appearance_ids": [
+        "char_293_thorns#1",
+        "char_293_thorns#2"
+      ],
+      "reason": "修正顶部留白过大、精二主体偏左；按完整派生图像素重新定位头肩。",
+      "revision": "thorns-alignment-v1"
+    }
+  ]
+}

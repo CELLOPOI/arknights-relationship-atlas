@@ -71,3 +71,9 @@ BASE_URL=http://127.0.0.1:5173 API_MODE=1 EXPECTED_OPERATOR_EDGES=3703 EXPECTED_
 `verify-feedback-ui.mjs` 与 `verify-atlas-lifecycle.mjs` 使用隔离模拟 API，验证错误状态、移动端和卸载资源，不证明真实反馈入库。真实写入验收使用可丢弃的本地数据库和合成测试数据。旧社区脚本只为显式开启社区的兼容测试保留，不在首版访客检查中运行。默认产物位于 `.runtime/verification/`，更多入口见 [工具说明](../scripts/README.md)。
 
 `make test-upstream` 单独运行，要求具备相邻资料工程。上游重建只形成审读材料与候选差异，经后台修订审核发布，不覆盖人工维护结果。代码升级执行迁移，保留当前正式版本，不能再次应用初始资料包。`.runtime/`、数据库、资源压缩归档、生成的 `frontend/public/` 和 `frontend/build/` 均不提交；当前固定清单对应的素材目录随库维护，边界见 [仓库文件约定](REPOSITORY_POLICY.md)。
+
+## 启用喜好目录
+
+迁移后按[喜好开发说明](PREFERENCES.md)将固定候选名录建立草稿、审核、预览并发布，再运行 `aggregate_preferences`。这条流程独立于正式人物资料，不关闭资料保护或旧社区开关。前端同时校验旧素材和 `assets/preferences-manifest.json`；普通构建不下载图片。喜好模拟浏览器验收使用 `FRONTEND_URL=http://127.0.0.1:5173 node scripts/verify-preferences-ui.mjs`；真实写入和备份恢复必须使用可丢弃数据库。
+
+喜好首版升级到V2时，不重导正式资料基线；先迁移已有结构、校验固定素材，再将 `people-supplement.json` 送入资料修订，最后独立发布喜好名录与重算统计。完整命令、数据库隔离要求及本轮本地预览见 [喜好运行说明](PREFERENCES.md)和[V2验收](PREFERENCES_V2_ACCEPTANCE.md)。

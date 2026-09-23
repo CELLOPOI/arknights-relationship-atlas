@@ -1,0 +1,3545 @@
+{
+  "title": "喜好 V2 已实装人物与剧情 NPC 补录",
+  "description": "固定国服 2026-09-23 内容截止；人物依据、逐剧情摘录与图源见 data/preferences/{metadata,npc-selection,npc-coverage}.json。仅补齐缺失记录，既有稳定身份与资料不覆盖；未知阵营不按剧情猜测。",
+  "review_note": "角色身份和独立图像已逐候选核对；复刻和跨剧情人物全局去重。NPC 图像不是资料关系证据，不新增关系边。",
+  "people": [
+    {
+      "id": "char_445_wscoot",
+      "name": "骋风",
+      "aliases": [
+        "Windscoot",
+        "骋风"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": true,
+      "avatar": "/assets/preferences/v2/full/char_445_wscoot_1.webp",
+      "avatar_source": "https://github.com/Kengxxiao/ArknightsGameData/tree/bb8f9ac8db143a661577ed6ef5184d3c6e93d1d0",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_28bcae8af2ac992e",
+      "name": "克洛宁",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_28bcae8af2ac992e.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_023_1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_abfde1045be28ea5",
+      "name": "杰斯顿",
+      "aliases": [
+        "杰斯顿·威廉姆斯"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_abfde1045be28ea5.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_137-5.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_5355441d4800dcc9",
+      "name": "巴顿",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_5355441d4800dcc9.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_135_1-1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_ed423d8598484354",
+      "name": "米亚罗",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_ed423d8598484354.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_160_1-4.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_fe1a57e01bee5b25",
+      "name": "德鲁奇",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_fe1a57e01bee5b25.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_158_1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_9c131d993b73f512",
+      "name": "皮加尔",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_9c131d993b73f512.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_159_1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_de1cb40fa7a85f6f",
+      "name": "莉莉娅",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_de1cb40fa7a85f6f.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_168_1-1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_de0e8a6ca0c5a5c3",
+      "name": "文森特伯爵",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_de0e8a6ca0c5a5c3.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_170_1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_7e5455e0688e334b",
+      "name": "老伊辛",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_7e5455e0688e334b.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_173.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_75b30ca6ca285f77",
+      "name": "老何塞",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_75b30ca6ca285f77.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_181.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_9c5f4a853667faba",
+      "name": "卡奇·叙光",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_9c5f4a853667faba.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_567_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_3c4c1fb23e13ee65",
+      "name": "西西里夫人",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_3c4c1fb23e13ee65.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_691_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_122b7419453649d3",
+      "name": "孟铁衣",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_122b7419453649d3.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_789_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_27bbfc6720c49c07",
+      "name": "泷居应",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_27bbfc6720c49c07.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_753_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_6dec6e7b90744fc8",
+      "name": "泷居未来",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_6dec6e7b90744fc8.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_761_1-6$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_bb225af094960a20",
+      "name": "卡恩",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_bb225af094960a20.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_996_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_16b0ddffd264ddf1",
+      "name": "赫尔昏佐伦，“巫王”",
+      "aliases": [
+        "奥托·迪特马尔·古斯塔夫·冯·乌提卡",
+        "赫尔昏佐伦",
+        "巫王"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_16b0ddffd264ddf1.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1116_1-3$2.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_377ce8d404429678",
+      "name": "荣晚晴",
+      "aliases": [
+        "荣晚晴（老乡长）",
+        "老乡长"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_377ce8d404429678.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1240_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_ccff1b003f15d255",
+      "name": "万勤城",
+      "aliases": [
+        "万勤城（万侍郎）",
+        "万侍郎"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_ccff1b003f15d255.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1241_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_6050c6607adda880",
+      "name": "米沃什",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_6050c6607adda880.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1213_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_19150a7fc90e9b38",
+      "name": "阿维图斯",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_19150a7fc90e9b38.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1386_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_b1d4ef68e9d277b5",
+      "name": "布兰都斯",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_b1d4ef68e9d277b5.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1381_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_4741828807510fa3",
+      "name": "恺撒",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_4741828807510fa3.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1549_1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_c838fa83f56ad57c",
+      "name": "瓦古",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_c838fa83f56ad57c.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1548_1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_503b3aaa1c263026",
+      "name": "宁述",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_503b3aaa1c263026.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1614_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_e78b3d9440bf4a04",
+      "name": "虞澄",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_e78b3d9440bf4a04.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1617_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_1dae56664adee9df",
+      "name": "谌彻",
+      "aliases": [
+        "谌（chén）彻"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_1dae56664adee9df.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1613_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_4fe309b3729d2131",
+      "name": "库林",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_4fe309b3729d2131.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1697_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_9ed93fbb360c3076",
+      "name": "迈克尔",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_9ed93fbb360c3076.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1838_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_96549e6d458b953e",
+      "name": "谢莉",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_96549e6d458b953e.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1836_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_86f3ffbe36ba8766",
+      "name": "铁斋",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_86f3ffbe36ba8766.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1895_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_7560f7af314cc67c",
+      "name": "惟任刑警",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_7560f7af314cc67c.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1898_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_e763a594a3d83dd7",
+      "name": "莫菲丝",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_e763a594a3d83dd7.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1942_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_0010d295232c0e64",
+      "name": "卡罗琳",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_0010d295232c0e64.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1999_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_7f2444012f8e83c9",
+      "name": "拂哀菈",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_7f2444012f8e83c9.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2035_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_5c031fb2affaf338",
+      "name": "椿",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_5c031fb2affaf338.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2127_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_385168209a683219",
+      "name": "月见夜（泡影国）",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_385168209a683219.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2101_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_1ed05ff3663b9e4b",
+      "name": "安托沙",
+      "aliases": [
+        "安东·舍斯托夫"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_1ed05ff3663b9e4b.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2157_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_e83f41bb3eb48e6a",
+      "name": "马特维",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_e83f41bb3eb48e6a.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2160_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_a236324628a79652",
+      "name": "巴普洛维奇",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_a236324628a79652.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2158_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_d331b73acb7d7fb5",
+      "name": "玛蒂娜",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_d331b73acb7d7fb5.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2345_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_16000611be8f22b6",
+      "name": "乌露露",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_16000611be8f22b6.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2347_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_bb9b51dcf55f8e89",
+      "name": "伊娜拉",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_bb9b51dcf55f8e89.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2346_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_15a7ee862d842834",
+      "name": "朵拉",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_15a7ee862d842834.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_045_nn_1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_1ddfc8583aa8fffd",
+      "name": "切斯柏",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_1ddfc8583aa8fffd.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_627_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_05729aecc0e1036f",
+      "name": "阿根",
+      "aliases": [
+        "罗根"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_05729aecc0e1036f.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_598_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_865ce7dd5d6a5b67",
+      "name": "小白",
+      "aliases": [
+        "罗小白"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_865ce7dd5d6a5b67.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_597_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_ef28d3731d0bae10",
+      "name": "比丢",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_ef28d3731d0bae10.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_604_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_4994c352508eab6e",
+      "name": "方小石",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_4994c352508eab6e.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_820_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_46299cf8a2050749",
+      "name": "橡杯",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_46299cf8a2050749.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_964_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_791d346d2d70e4af",
+      "name": "杰里",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_791d346d2d70e4af.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1184_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_08d421d87338946b",
+      "name": "克伦妮",
+      "aliases": [
+        "克伦妮·“雅仕”·曼提尔"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_08d421d87338946b.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1453_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_3426064ca80a3000",
+      "name": "卡莱莎",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_3426064ca80a3000.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1452_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_b6341b9d7964ad34",
+      "name": "蒲先生",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_b6341b9d7964ad34.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1867_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_2a78804ae3463c4d",
+      "name": "托希娅",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_2a78804ae3463c4d.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2202_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_5e5709f518757afc",
+      "name": "露彼娜",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_5e5709f518757afc.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2201_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_de04ea72d38d99c7",
+      "name": "汉科",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_de04ea72d38d99c7.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_2300_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_b957405bf2bc3c5b",
+      "name": "碎骨",
+      "aliases": [
+        "亚历克斯",
+        "Alex"
+      ],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_b957405bf2bc3c5b.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_char_1500_skulsr.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_3ef7759ef692a9f4",
+      "name": "科西切",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_3ef7759ef692a9f4.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_060.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_769cf115346db458",
+      "name": "阿丽娜",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_769cf115346db458.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_079.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_8eae66d69d38a622",
+      "name": "屈光者",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_8eae66d69d38a622.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1725_1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_01ce9e46d49f44e7",
+      "name": "雷尔金",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_01ce9e46d49f44e7.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1963_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    },
+    {
+      "id": "npc_3ea418a70073bb22",
+      "name": "尼克托",
+      "aliases": [],
+      "faction_id": "unknown",
+      "group_id": "",
+      "group_name": "",
+      "is_operator": false,
+      "avatar": "/assets/preferences/v2/npc/npc_3ea418a70073bb22.webp",
+      "avatar_source": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:Avg_avg_npc_1967_1-1$1.png",
+      "avatar_is_generic": false,
+      "published": true
+    }
+  ],
+  "identities": [
+    {
+      "external_id": "char_285_medic2",
+      "person_id": "char_285_medic2",
+      "label": "Lancet-2",
+      "published": true
+    },
+    {
+      "external_id": "char_286_cast3",
+      "person_id": "char_286_cast3",
+      "label": "Castle-3",
+      "published": true
+    },
+    {
+      "external_id": "char_4220_kormr",
+      "person_id": "char_4220_kormr",
+      "label": "虎狼丸",
+      "published": true
+    },
+    {
+      "external_id": "char_376_therex",
+      "person_id": "char_376_therex",
+      "label": "THRM-EX",
+      "published": true
+    },
+    {
+      "external_id": "char_4000_jnight",
+      "person_id": "char_4000_jnight",
+      "label": "正义骑士号",
+      "published": true
+    },
+    {
+      "external_id": "char_4077_palico",
+      "person_id": "char_4077_palico",
+      "label": "泰拉大陆调查团",
+      "published": true
+    },
+    {
+      "external_id": "char_4091_ulika",
+      "person_id": "char_4091_ulika",
+      "label": "U-Official",
+      "published": true
+    },
+    {
+      "external_id": "char_4093_frston",
+      "person_id": "char_4093_frston",
+      "label": "Friston-3",
+      "published": true
+    },
+    {
+      "external_id": "char_4136_phonor",
+      "person_id": "char_4136_phonor",
+      "label": "PhonoR-0",
+      "published": true
+    },
+    {
+      "external_id": "char_4188_confes",
+      "person_id": "char_4188_confes",
+      "label": "CONFESS-47",
+      "published": true
+    },
+    {
+      "external_id": "char_4227_gallus",
+      "person_id": "char_4227_gallus",
+      "label": "GALLUS²",
+      "published": true
+    },
+    {
+      "external_id": "char_4215_buddy",
+      "person_id": "char_4215_buddy",
+      "label": "罗德岛隐秘队",
+      "published": true
+    },
+    {
+      "external_id": "char_502_nblade",
+      "person_id": "char_502_nblade",
+      "label": "夜刀",
+      "published": true
+    },
+    {
+      "external_id": "char_500_noirc",
+      "person_id": "char_500_noirc",
+      "label": "黑角",
+      "published": true
+    },
+    {
+      "external_id": "char_503_rang",
+      "person_id": "char_503_rang",
+      "label": "巡林者",
+      "published": true
+    },
+    {
+      "external_id": "char_501_durin",
+      "person_id": "char_501_durin",
+      "label": "杜林",
+      "published": true
+    },
+    {
+      "external_id": "char_009_12fce",
+      "person_id": "char_009_12fce",
+      "label": "12F",
+      "published": true
+    },
+    {
+      "external_id": "char_123_fang",
+      "person_id": "char_123_fang",
+      "label": "芬",
+      "published": true
+    },
+    {
+      "external_id": "char_240_wyvern",
+      "person_id": "char_240_wyvern",
+      "label": "香草",
+      "published": true
+    },
+    {
+      "external_id": "char_192_falco",
+      "person_id": "char_192_falco",
+      "label": "翎羽",
+      "published": true
+    },
+    {
+      "external_id": "char_208_melan",
+      "person_id": "char_208_melan",
+      "label": "玫兰莎",
+      "published": true
+    },
+    {
+      "external_id": "char_281_popka",
+      "person_id": "char_281_popka",
+      "label": "泡普卡",
+      "published": true
+    },
+    {
+      "external_id": "char_209_ardign",
+      "person_id": "char_209_ardign",
+      "label": "卡缇",
+      "published": true
+    },
+    {
+      "external_id": "char_122_beagle",
+      "person_id": "char_122_beagle",
+      "label": "米格鲁",
+      "published": true
+    },
+    {
+      "external_id": "char_284_spot",
+      "person_id": "char_284_spot",
+      "label": "斑点",
+      "published": true
+    },
+    {
+      "external_id": "char_124_kroos",
+      "person_id": "char_124_kroos",
+      "label": "克洛丝",
+      "published": true
+    },
+    {
+      "external_id": "char_211_adnach",
+      "person_id": "char_211_adnach",
+      "label": "安德切尔",
+      "published": true
+    },
+    {
+      "external_id": "char_121_lava",
+      "person_id": "char_121_lava",
+      "label": "炎熔",
+      "published": true
+    },
+    {
+      "external_id": "char_120_hibisc",
+      "person_id": "char_120_hibisc",
+      "label": "芙蓉",
+      "published": true
+    },
+    {
+      "external_id": "char_212_ansel",
+      "person_id": "char_212_ansel",
+      "label": "安赛尔",
+      "published": true
+    },
+    {
+      "external_id": "char_210_stward",
+      "person_id": "char_210_stward",
+      "label": "史都华德",
+      "published": true
+    },
+    {
+      "external_id": "char_278_orchid",
+      "person_id": "char_278_orchid",
+      "label": "梓兰",
+      "published": true
+    },
+    {
+      "external_id": "char_141_nights",
+      "person_id": "char_141_nights",
+      "label": "夜烟",
+      "published": true
+    },
+    {
+      "external_id": "char_109_fmout",
+      "person_id": "char_109_fmout",
+      "label": "远山",
+      "published": true
+    },
+    {
+      "external_id": "char_253_greyy",
+      "person_id": "char_253_greyy",
+      "label": "格雷伊",
+      "published": true
+    },
+    {
+      "external_id": "char_4051_akkord",
+      "person_id": "char_4051_akkord",
+      "label": "协律",
+      "published": true
+    },
+    {
+      "external_id": "char_328_cammou",
+      "person_id": "char_328_cammou",
+      "label": "卡达",
+      "published": true
+    },
+    {
+      "external_id": "char_469_indigo",
+      "person_id": "char_469_indigo",
+      "label": "深靛",
+      "published": true
+    },
+    {
+      "external_id": "char_4004_pudd",
+      "person_id": "char_4004_pudd",
+      "label": "布丁",
+      "published": true
+    },
+    {
+      "external_id": "char_235_jesica",
+      "person_id": "char_235_jesica",
+      "label": "杰西卡",
+      "published": true
+    },
+    {
+      "external_id": "char_126_shotst",
+      "person_id": "char_126_shotst",
+      "label": "流星",
+      "published": true
+    },
+    {
+      "external_id": "char_190_clour",
+      "person_id": "char_190_clour",
+      "label": "红云",
+      "published": true
+    },
+    {
+      "external_id": "char_133_mm",
+      "person_id": "char_133_mm",
+      "label": "梅",
+      "published": true
+    },
+    {
+      "external_id": "char_118_yuki",
+      "person_id": "char_118_yuki",
+      "label": "白雪",
+      "published": true
+    },
+    {
+      "external_id": "char_440_pinecn",
+      "person_id": "char_440_pinecn",
+      "label": "松果",
+      "published": true
+    },
+    {
+      "external_id": "char_302_glaze",
+      "person_id": "char_302_glaze",
+      "label": "安比尔",
+      "published": true
+    },
+    {
+      "external_id": "char_366_acdrop",
+      "person_id": "char_366_acdrop",
+      "label": "酸糖",
+      "published": true
+    },
+    {
+      "external_id": "char_4062_totter",
+      "person_id": "char_4062_totter",
+      "label": "铅踝",
+      "published": true
+    },
+    {
+      "external_id": "char_4100_caper",
+      "person_id": "char_4100_caper",
+      "label": "跃跃",
+      "published": true
+    },
+    {
+      "external_id": "char_198_blackd",
+      "person_id": "char_198_blackd",
+      "label": "讯使",
+      "published": true
+    },
+    {
+      "external_id": "char_149_scave",
+      "person_id": "char_149_scave",
+      "label": "清道夫",
+      "published": true
+    },
+    {
+      "external_id": "char_290_vigna",
+      "person_id": "char_290_vigna",
+      "label": "红豆",
+      "published": true
+    },
+    {
+      "external_id": "char_151_myrtle",
+      "person_id": "char_151_myrtle",
+      "label": "桃金娘",
+      "published": true
+    },
+    {
+      "external_id": "char_452_bstalk",
+      "person_id": "char_452_bstalk",
+      "label": "豆苗",
+      "published": true
+    },
+    {
+      "external_id": "char_4208_wintim",
+      "person_id": "char_4208_wintim",
+      "label": "冬时",
+      "published": true
+    },
+    {
+      "external_id": "char_130_doberm",
+      "person_id": "char_130_doberm",
+      "label": "杜宾",
+      "published": true
+    },
+    {
+      "external_id": "char_289_gyuki",
+      "person_id": "char_289_gyuki",
+      "label": "缠丸",
+      "published": true
+    },
+    {
+      "external_id": "char_159_peacok",
+      "person_id": "char_159_peacok",
+      "label": "断罪者",
+      "published": true
+    },
+    {
+      "external_id": "char_193_frostl",
+      "person_id": "char_193_frostl",
+      "label": "霜叶",
+      "published": true
+    },
+    {
+      "external_id": "char_127_estell",
+      "person_id": "char_127_estell",
+      "label": "艾丝黛尔",
+      "published": true
+    },
+    {
+      "external_id": "char_185_frncat",
+      "person_id": "char_185_frncat",
+      "label": "慕斯",
+      "published": true
+    },
+    {
+      "external_id": "char_301_cutter",
+      "person_id": "char_301_cutter",
+      "label": "刻刀",
+      "published": true
+    },
+    {
+      "external_id": "char_337_utage",
+      "person_id": "char_337_utage",
+      "label": "宴",
+      "published": true
+    },
+    {
+      "external_id": "char_271_spikes",
+      "person_id": "char_271_spikes",
+      "label": "芳汀",
+      "published": true
+    },
+    {
+      "external_id": "char_4067_lolxh",
+      "person_id": "char_4067_lolxh",
+      "label": "罗小黑",
+      "published": true
+    },
+    {
+      "external_id": "char_4063_quartz",
+      "person_id": "char_4063_quartz",
+      "label": "石英",
+      "published": true
+    },
+    {
+      "external_id": "char_491_humus",
+      "person_id": "char_491_humus",
+      "label": "休谟斯",
+      "published": true
+    },
+    {
+      "external_id": "char_445_wscoot",
+      "person_id": "char_445_wscoot",
+      "label": "骋风",
+      "published": true
+    },
+    {
+      "external_id": "char_237_gravel",
+      "person_id": "char_237_gravel",
+      "label": "砾",
+      "published": true
+    },
+    {
+      "external_id": "char_272_strong",
+      "person_id": "char_272_strong",
+      "label": "孑",
+      "published": true
+    },
+    {
+      "external_id": "char_236_rope",
+      "person_id": "char_236_rope",
+      "label": "暗索",
+      "published": true
+    },
+    {
+      "external_id": "char_117_myrrh",
+      "person_id": "char_117_myrrh",
+      "label": "末药",
+      "published": true
+    },
+    {
+      "external_id": "char_187_ccheal",
+      "person_id": "char_187_ccheal",
+      "label": "嘉维尔",
+      "published": true
+    },
+    {
+      "external_id": "char_298_susuro",
+      "person_id": "char_298_susuro",
+      "label": "苏苏洛",
+      "published": true
+    },
+    {
+      "external_id": "char_181_flower",
+      "person_id": "char_181_flower",
+      "label": "调香师",
+      "published": true
+    },
+    {
+      "external_id": "char_385_finlpp",
+      "person_id": "char_385_finlpp",
+      "label": "清流",
+      "published": true
+    },
+    {
+      "external_id": "char_4041_chnut",
+      "person_id": "char_4041_chnut",
+      "label": "褐果",
+      "published": true
+    },
+    {
+      "external_id": "char_199_yak",
+      "person_id": "char_199_yak",
+      "label": "角峰",
+      "published": true
+    },
+    {
+      "external_id": "char_150_snakek",
+      "person_id": "char_150_snakek",
+      "label": "蛇屠箱",
+      "published": true
+    },
+    {
+      "external_id": "char_381_bubble",
+      "person_id": "char_381_bubble",
+      "label": "泡泡",
+      "published": true
+    },
+    {
+      "external_id": "char_4130_luton",
+      "person_id": "char_4130_luton",
+      "label": "露托",
+      "published": true
+    },
+    {
+      "external_id": "char_196_sunbr",
+      "person_id": "char_196_sunbr",
+      "label": "古米",
+      "published": true
+    },
+    {
+      "external_id": "char_260_durnar",
+      "person_id": "char_260_durnar",
+      "label": "坚雷",
+      "published": true
+    },
+    {
+      "external_id": "char_110_deepcl",
+      "person_id": "char_110_deepcl",
+      "label": "深海色",
+      "published": true
+    },
+    {
+      "external_id": "char_183_skgoat",
+      "person_id": "char_183_skgoat",
+      "label": "地灵",
+      "published": true
+    },
+    {
+      "external_id": "char_258_podego",
+      "person_id": "char_258_podego",
+      "label": "波登可",
+      "published": true
+    },
+    {
+      "external_id": "char_484_robrta",
+      "person_id": "char_484_robrta",
+      "label": "罗比菈塔",
+      "published": true
+    },
+    {
+      "external_id": "char_355_ethan",
+      "person_id": "char_355_ethan",
+      "label": "伊桑",
+      "published": true
+    },
+    {
+      "external_id": "char_277_sqrrel",
+      "person_id": "char_277_sqrrel",
+      "label": "阿消",
+      "published": true
+    },
+    {
+      "external_id": "char_4107_vrdant",
+      "person_id": "char_4107_vrdant",
+      "label": "维荻",
+      "published": true
+    },
+    {
+      "external_id": "char_4165_ctrail",
+      "person_id": "char_4165_ctrail",
+      "label": "云迹",
+      "published": true
+    },
+    {
+      "external_id": "char_128_plosis",
+      "person_id": "char_128_plosis",
+      "label": "白面鸮",
+      "published": true
+    },
+    {
+      "external_id": "char_275_breeze",
+      "person_id": "char_275_breeze",
+      "label": "微风",
+      "published": true
+    },
+    {
+      "external_id": "char_4163_rosesa",
+      "person_id": "char_4163_rosesa",
+      "label": "瑰盐",
+      "published": true
+    },
+    {
+      "external_id": "char_115_headbr",
+      "person_id": "char_115_headbr",
+      "label": "凛冬",
+      "published": true
+    },
+    {
+      "external_id": "char_102_texas",
+      "person_id": "char_102_texas",
+      "label": "德克萨斯",
+      "published": true
+    },
+    {
+      "external_id": "char_349_chiave",
+      "person_id": "char_349_chiave",
+      "label": "贾维",
+      "published": true
+    },
+    {
+      "external_id": "char_488_buildr",
+      "person_id": "char_488_buildr",
+      "label": "青枳",
+      "published": true
+    },
+    {
+      "external_id": "char_513_apionr",
+      "person_id": "char_513_apionr",
+      "label": "郁金香",
+      "published": true
+    },
+    {
+      "external_id": "char_4023_rfalcn",
+      "person_id": "char_4023_rfalcn",
+      "label": "红隼",
+      "published": true
+    },
+    {
+      "external_id": "char_4199_makiri",
+      "person_id": "char_4199_makiri",
+      "label": "松桐",
+      "published": true
+    },
+    {
+      "external_id": "char_261_sddrag",
+      "person_id": "char_261_sddrag",
+      "label": "苇草",
+      "published": true
+    },
+    {
+      "external_id": "char_496_wildmn",
+      "person_id": "char_496_wildmn",
+      "label": "野鬃",
+      "published": true
+    },
+    {
+      "external_id": "char_1036_fang2",
+      "person_id": "char_123_fang",
+      "label": "历阵锐枪芬",
+      "published": true
+    },
+    {
+      "external_id": "char_401_elysm",
+      "person_id": "char_401_elysm",
+      "label": "极境",
+      "published": true
+    },
+    {
+      "external_id": "char_4119_wanqin",
+      "person_id": "char_4119_wanqin",
+      "label": "万顷",
+      "published": true
+    },
+    {
+      "external_id": "char_4237_jcinta",
+      "person_id": "char_4237_jcinta",
+      "label": "嘉辛塔",
+      "published": true
+    },
+    {
+      "external_id": "char_476_blkngt",
+      "person_id": "char_476_blkngt",
+      "label": "夜半",
+      "published": true
+    },
+    {
+      "external_id": "char_4147_mitm",
+      "person_id": "char_4147_mitm",
+      "label": "渡桥",
+      "published": true
+    },
+    {
+      "external_id": "char_497_ctable",
+      "person_id": "char_497_ctable",
+      "label": "晓歌",
+      "published": true
+    },
+    {
+      "external_id": "char_4017_puzzle",
+      "person_id": "char_4017_puzzle",
+      "label": "谜图",
+      "published": true
+    },
+    {
+      "external_id": "char_4144_chilc",
+      "person_id": "char_4144_chilc",
+      "label": "齐尔查克",
+      "published": true
+    },
+    {
+      "external_id": "char_4052_surfer",
+      "person_id": "char_4052_surfer",
+      "label": "寻澜",
+      "published": true
+    },
+    {
+      "external_id": "char_308_swire",
+      "person_id": "char_308_swire",
+      "label": "诗怀雅",
+      "published": true
+    },
+    {
+      "external_id": "char_265_sophia",
+      "person_id": "char_265_sophia",
+      "label": "鞭刃",
+      "published": true
+    },
+    {
+      "external_id": "char_4106_bryota",
+      "person_id": "char_4106_bryota",
+      "label": "苍苔",
+      "published": true
+    },
+    {
+      "external_id": "char_4125_rdoc",
+      "person_id": "char_4125_rdoc",
+      "label": "医生",
+      "published": true
+    },
+    {
+      "external_id": "char_106_franka",
+      "person_id": "char_106_franka",
+      "label": "芙兰卡",
+      "published": true
+    },
+    {
+      "external_id": "char_131_flameb",
+      "person_id": "char_131_flameb",
+      "label": "炎客",
+      "published": true
+    },
+    {
+      "external_id": "char_154_morgan",
+      "person_id": "char_154_morgan",
+      "label": "摩根",
+      "published": true
+    },
+    {
+      "external_id": "char_508_aguard",
+      "person_id": "char_508_aguard",
+      "label": "Sharp",
+      "published": true
+    },
+    {
+      "external_id": "char_4142_laios",
+      "person_id": "char_4142_laios",
+      "label": "莱欧斯",
+      "published": true
+    },
+    {
+      "external_id": "char_155_tiger",
+      "person_id": "char_155_tiger",
+      "label": "因陀罗",
+      "published": true
+    },
+    {
+      "external_id": "char_415_flint",
+      "person_id": "char_415_flint",
+      "label": "燧石",
+      "published": true
+    },
+    {
+      "external_id": "char_157_dagda",
+      "person_id": "char_157_dagda",
+      "label": "达格达",
+      "published": true
+    },
+    {
+      "external_id": "char_140_whitew",
+      "person_id": "char_140_whitew",
+      "label": "拉普兰德",
+      "published": true
+    },
+    {
+      "external_id": "char_294_ayer",
+      "person_id": "char_294_ayer",
+      "label": "断崖",
+      "published": true
+    },
+    {
+      "external_id": "char_194_leto",
+      "person_id": "char_194_leto",
+      "label": "烈夏",
+      "published": true
+    },
+    {
+      "external_id": "char_4083_chimes",
+      "person_id": "char_4083_chimes",
+      "label": "铎铃",
+      "published": true
+    },
+    {
+      "external_id": "char_252_bibeak",
+      "person_id": "char_252_bibeak",
+      "label": "柏喙",
+      "published": true
+    },
+    {
+      "external_id": "char_459_tachak",
+      "person_id": "char_459_tachak",
+      "label": "战车",
+      "published": true
+    },
+    {
+      "external_id": "char_143_ghost",
+      "person_id": "char_143_ghost",
+      "label": "幽灵鲨",
+      "published": true
+    },
+    {
+      "external_id": "char_356_broca",
+      "person_id": "char_356_broca",
+      "label": "布洛卡",
+      "published": true
+    },
+    {
+      "external_id": "char_4126_fuze",
+      "person_id": "char_4126_fuze",
+      "label": "导火索",
+      "published": true
+    },
+    {
+      "external_id": "char_4166_varkis",
+      "person_id": "char_4166_varkis",
+      "label": "摆渡人",
+      "published": true
+    },
+    {
+      "external_id": "char_274_astesi",
+      "person_id": "char_274_astesi",
+      "label": "星极",
+      "published": true
+    },
+    {
+      "external_id": "char_333_sidero",
+      "person_id": "char_333_sidero",
+      "label": "铸铁",
+      "published": true
+    },
+    {
+      "external_id": "char_475_akafyu",
+      "person_id": "char_475_akafyu",
+      "label": "赤冬",
+      "published": true
+    },
+    {
+      "external_id": "char_1030_noirc2",
+      "person_id": "char_500_noirc",
+      "label": "火龙S黑角",
+      "published": true
+    },
+    {
+      "external_id": "char_421_crow",
+      "person_id": "char_421_crow",
+      "label": "羽毛笔",
+      "published": true
+    },
+    {
+      "external_id": "char_4066_highmo",
+      "person_id": "char_4066_highmo",
+      "label": "海沫",
+      "published": true
+    },
+    {
+      "external_id": "char_486_takila",
+      "person_id": "char_486_takila",
+      "label": "龙舌兰",
+      "published": true
+    },
+    {
+      "external_id": "char_4131_odda",
+      "person_id": "char_4131_odda",
+      "label": "奥达",
+      "published": true
+    },
+    {
+      "external_id": "char_4187_graceb",
+      "person_id": "char_4187_graceb",
+      "label": "聆音",
+      "published": true
+    },
+    {
+      "external_id": "char_4185_amoris",
+      "person_id": "char_4185_amoris",
+      "label": "祐天寺若麦",
+      "published": true
+    },
+    {
+      "external_id": "char_394_hadiya",
+      "person_id": "char_394_hadiya",
+      "label": "哈蒂娅",
+      "published": true
+    },
+    {
+      "external_id": "char_1049_catap2",
+      "person_id": "char_282_catap",
+      "label": "雷狼龙S空爆",
+      "published": true
+    },
+    {
+      "external_id": "char_129_bluep",
+      "person_id": "char_129_bluep",
+      "label": "蓝毒",
+      "published": true
+    },
+    {
+      "external_id": "char_204_platnm",
+      "person_id": "char_204_platnm",
+      "label": "白金",
+      "published": true
+    },
+    {
+      "external_id": "char_367_swllow",
+      "person_id": "char_367_swllow",
+      "label": "灰喉",
+      "published": true
+    },
+    {
+      "external_id": "char_511_asnipe",
+      "person_id": "char_511_asnipe",
+      "label": "Stormeye",
+      "published": true
+    },
+    {
+      "external_id": "char_365_aprl",
+      "person_id": "char_365_aprl",
+      "label": "四月",
+      "published": true
+    },
+    {
+      "external_id": "char_1021_kroos2",
+      "person_id": "char_124_kroos",
+      "label": "寒芒克洛丝",
+      "published": true
+    },
+    {
+      "external_id": "char_498_inside",
+      "person_id": "char_498_inside",
+      "label": "隐现",
+      "published": true
+    },
+    {
+      "external_id": "char_219_meteo",
+      "person_id": "char_219_meteo",
+      "label": "陨星",
+      "published": true
+    },
+    {
+      "external_id": "char_379_sesa",
+      "person_id": "char_379_sesa",
+      "label": "慑砂",
+      "published": true
+    },
+    {
+      "external_id": "char_4078_bdhkgt",
+      "person_id": "char_4078_bdhkgt",
+      "label": "截云",
+      "published": true
+    },
+    {
+      "external_id": "char_279_excu",
+      "person_id": "char_279_excu",
+      "label": "送葬人",
+      "published": true
+    },
+    {
+      "external_id": "char_346_aosta",
+      "person_id": "char_346_aosta",
+      "label": "奥斯塔",
+      "published": true
+    },
+    {
+      "external_id": "char_4203_kichi",
+      "person_id": "char_4203_kichi",
+      "label": "吉星",
+      "published": true
+    },
+    {
+      "external_id": "char_4213_skybx",
+      "person_id": "char_4213_skybx",
+      "label": "天空盒",
+      "published": true
+    },
+    {
+      "external_id": "char_4218_aigis",
+      "person_id": "char_4218_aigis",
+      "label": "埃癸斯",
+      "published": true
+    },
+    {
+      "external_id": "char_002_amiya",
+      "person_id": "char_002_amiya",
+      "label": "阿米娅",
+      "published": true
+    },
+    {
+      "external_id": "char_405_absin",
+      "person_id": "char_405_absin",
+      "label": "苦艾",
+      "published": true
+    },
+    {
+      "external_id": "char_411_tomimi",
+      "person_id": "char_411_tomimi",
+      "label": "特米米",
+      "published": true
+    },
+    {
+      "external_id": "char_466_qanik",
+      "person_id": "char_466_qanik",
+      "label": "雪绒",
+      "published": true
+    },
+    {
+      "external_id": "char_166_skfire",
+      "person_id": "char_166_skfire",
+      "label": "天火",
+      "published": true
+    },
+    {
+      "external_id": "char_509_acast",
+      "person_id": "char_509_acast",
+      "label": "Pith",
+      "published": true
+    },
+    {
+      "external_id": "char_306_leizi",
+      "person_id": "char_306_leizi",
+      "label": "惊蛰",
+      "published": true
+    },
+    {
+      "external_id": "char_135_halo",
+      "person_id": "char_135_halo",
+      "label": "星源",
+      "published": true
+    },
+    {
+      "external_id": "char_344_beewax",
+      "person_id": "char_344_beewax",
+      "label": "蜜蜡",
+      "published": true
+    },
+    {
+      "external_id": "char_373_lionhd",
+      "person_id": "char_373_lionhd",
+      "label": "莱恩哈特",
+      "published": true
+    },
+    {
+      "external_id": "char_341_sntlla",
+      "person_id": "char_341_sntlla",
+      "label": "寒檀",
+      "published": true
+    },
+    {
+      "external_id": "char_4031_liesel",
+      "person_id": "char_4031_liesel",
+      "label": "复奏",
+      "published": true
+    },
+    {
+      "external_id": "char_388_mint",
+      "person_id": "char_388_mint",
+      "label": "薄绿",
+      "published": true
+    },
+    {
+      "external_id": "char_338_iris",
+      "person_id": "char_338_iris",
+      "label": "爱丽丝",
+      "published": true
+    },
+    {
+      "external_id": "char_297_hamoni",
+      "person_id": "char_297_hamoni",
+      "label": "和弦",
+      "published": true
+    },
+    {
+      "external_id": "char_4110_delphn",
+      "person_id": "char_4110_delphn",
+      "label": "戴菲恩",
+      "published": true
+    },
+    {
+      "external_id": "char_1011_lava2",
+      "person_id": "char_121_lava",
+      "label": "炎狱炎熔",
+      "published": true
+    },
+    {
+      "external_id": "char_489_serum",
+      "person_id": "char_489_serum",
+      "label": "蚀清",
+      "published": true
+    },
+    {
+      "external_id": "char_446_aroma",
+      "person_id": "char_446_aroma",
+      "label": "阿罗玛",
+      "published": true
+    },
+    {
+      "external_id": "char_4013_kjera",
+      "person_id": "char_4013_kjera",
+      "label": "耶拉",
+      "published": true
+    },
+    {
+      "external_id": "char_4040_rockr",
+      "person_id": "char_4040_rockr",
+      "label": "洛洛",
+      "published": true
+    },
+    {
+      "external_id": "char_4054_malist",
+      "person_id": "char_4054_malist",
+      "label": "至简",
+      "published": true
+    },
+    {
+      "external_id": "char_4236_tmslot",
+      "person_id": "char_4236_tmslot",
+      "label": "时隙",
+      "published": true
+    },
+    {
+      "external_id": "char_499_kaitou",
+      "person_id": "char_499_kaitou",
+      "label": "折光",
+      "published": true
+    },
+    {
+      "external_id": "char_4081_warmy",
+      "person_id": "char_4081_warmy",
+      "label": "温米",
+      "published": true
+    },
+    {
+      "external_id": "char_4198_christ",
+      "person_id": "char_4198_christ",
+      "label": "Miss.Christine",
+      "published": true
+    },
+    {
+      "external_id": "char_4164_tecno",
+      "person_id": "char_4164_tecno",
+      "label": "特克诺",
+      "published": true
+    },
+    {
+      "external_id": "char_242_otter",
+      "person_id": "char_242_otter",
+      "label": "梅尔",
+      "published": true
+    },
+    {
+      "external_id": "char_336_folivo",
+      "person_id": "char_336_folivo",
+      "label": "稀音",
+      "published": true
+    },
+    {
+      "external_id": "char_4140_lasher",
+      "person_id": "char_4140_lasher",
+      "label": "衡沙",
+      "published": true
+    },
+    {
+      "external_id": "char_108_silent",
+      "person_id": "char_108_silent",
+      "label": "赫默",
+      "published": true
+    },
+    {
+      "external_id": "char_171_bldsk",
+      "person_id": "char_171_bldsk",
+      "label": "华法琳",
+      "published": true
+    },
+    {
+      "external_id": "char_345_folnic",
+      "person_id": "char_345_folnic",
+      "label": "亚叶",
+      "published": true
+    },
+    {
+      "external_id": "char_510_amedic",
+      "person_id": "char_510_amedic",
+      "label": "Touch",
+      "published": true
+    },
+    {
+      "external_id": "char_4196_reckpr",
+      "person_id": "char_4196_reckpr",
+      "label": "录武官",
+      "published": true
+    },
+    {
+      "external_id": "char_348_ceylon",
+      "person_id": "char_348_ceylon",
+      "label": "锡兰",
+      "published": true
+    },
+    {
+      "external_id": "char_436_whispr",
+      "person_id": "char_436_whispr",
+      "label": "絮雨",
+      "published": true
+    },
+    {
+      "external_id": "char_4173_nowell",
+      "person_id": "char_4173_nowell",
+      "label": "诺威尔",
+      "published": true
+    },
+    {
+      "external_id": "char_402_tuye",
+      "person_id": "char_402_tuye",
+      "label": "图耶",
+      "published": true
+    },
+    {
+      "external_id": "char_473_mberry",
+      "person_id": "char_473_mberry",
+      "label": "桑葚",
+      "published": true
+    },
+    {
+      "external_id": "char_449_glider",
+      "person_id": "char_449_glider",
+      "label": "蜜莓",
+      "published": true
+    },
+    {
+      "external_id": "char_4114_harold",
+      "person_id": "char_4114_harold",
+      "label": "哈洛德",
+      "published": true
+    },
+    {
+      "external_id": "char_1024_hbisc2",
+      "person_id": "char_120_hibisc",
+      "label": "濯尘芙蓉",
+      "published": true
+    },
+    {
+      "external_id": "char_494_vendla",
+      "person_id": "char_494_vendla",
+      "label": "刺玫",
+      "published": true
+    },
+    {
+      "external_id": "char_4071_peper",
+      "person_id": "char_4071_peper",
+      "label": "明椒",
+      "published": true
+    },
+    {
+      "external_id": "char_4139_papyrs",
+      "person_id": "char_4139_papyrs",
+      "label": "莎草",
+      "published": true
+    },
+    {
+      "external_id": "char_4224_turdus",
+      "person_id": "char_4224_turdus",
+      "label": "乌啾",
+      "published": true
+    },
+    {
+      "external_id": "char_4222_taraxa",
+      "person_id": "char_4222_taraxa",
+      "label": "风絮",
+      "published": true
+    },
+    {
+      "external_id": "char_148_nearl",
+      "person_id": "char_148_nearl",
+      "label": "临光",
+      "published": true
+    },
+    {
+      "external_id": "char_226_hmau",
+      "person_id": "char_226_hmau",
+      "label": "吽",
+      "published": true
+    },
+    {
+      "external_id": "char_4109_baslin",
+      "person_id": "char_4109_baslin",
+      "label": "深律",
+      "published": true
+    },
+    {
+      "external_id": "char_4143_sensi",
+      "person_id": "char_4143_sensi",
+      "label": "森西",
+      "published": true
+    },
+    {
+      "external_id": "char_144_red",
+      "person_id": "char_144_red",
+      "label": "红",
+      "published": true
+    },
+    {
+      "external_id": "char_243_waaifu",
+      "person_id": "char_243_waaifu",
+      "label": "槐琥",
+      "published": true
+    },
+    {
+      "external_id": "char_214_kafka",
+      "person_id": "char_214_kafka",
+      "label": "卡夫卡",
+      "published": true
+    },
+    {
+      "external_id": "char_455_nothin",
+      "person_id": "char_455_nothin",
+      "label": "乌有",
+      "published": true
+    },
+    {
+      "external_id": "char_4155_talr",
+      "person_id": "char_4155_talr",
+      "label": "裁度",
+      "published": true
+    },
+    {
+      "external_id": "char_107_liskam",
+      "person_id": "char_107_liskam",
+      "label": "雷蛇",
+      "published": true
+    },
+    {
+      "external_id": "char_4137_udflow",
+      "person_id": "char_4137_udflow",
+      "label": "深巡",
+      "published": true
+    },
+    {
+      "external_id": "char_201_moeshd",
+      "person_id": "char_201_moeshd",
+      "label": "可颂",
+      "published": true
+    },
+    {
+      "external_id": "char_325_bison",
+      "person_id": "char_325_bison",
+      "label": "拜松",
+      "published": true
+    },
+    {
+      "external_id": "char_163_hpsts",
+      "person_id": "char_163_hpsts",
+      "label": "火神",
+      "published": true
+    },
+    {
+      "external_id": "char_4207_branch",
+      "person_id": "char_4207_branch",
+      "label": "折桠",
+      "published": true
+    },
+    {
+      "external_id": "char_378_asbest",
+      "person_id": "char_378_asbest",
+      "label": "石棉",
+      "published": true
+    },
+    {
+      "external_id": "char_512_aprot",
+      "person_id": "char_4025_aprot2",
+      "label": "暮落",
+      "published": true
+    },
+    {
+      "external_id": "char_4025_aprot2",
+      "person_id": "char_4025_aprot2",
+      "label": "暮落",
+      "published": true
+    },
+    {
+      "external_id": "char_4047_pianst",
+      "person_id": "char_4047_pianst",
+      "label": "车尔尼",
+      "published": true
+    },
+    {
+      "external_id": "char_457_blitz",
+      "person_id": "char_457_blitz",
+      "label": "闪击",
+      "published": true
+    },
+    {
+      "external_id": "char_304_zebra",
+      "person_id": "char_304_zebra",
+      "label": "暴雨",
+      "published": true
+    },
+    {
+      "external_id": "char_431_ashlok",
+      "person_id": "char_431_ashlok",
+      "label": "灰毫",
+      "published": true
+    },
+    {
+      "external_id": "char_493_firwhl",
+      "person_id": "char_493_firwhl",
+      "label": "火哨",
+      "published": true
+    },
+    {
+      "external_id": "char_422_aurora",
+      "person_id": "char_422_aurora",
+      "label": "极光",
+      "published": true
+    },
+    {
+      "external_id": "char_464_cement",
+      "person_id": "char_464_cement",
+      "label": "洋灰",
+      "published": true
+    },
+    {
+      "external_id": "char_4148_philae",
+      "person_id": "char_4148_philae",
+      "label": "菲莱",
+      "published": true
+    },
+    {
+      "external_id": "char_4225_tanya",
+      "person_id": "char_4225_tanya",
+      "label": "裂响",
+      "published": true
+    },
+    {
+      "external_id": "char_145_prove",
+      "person_id": "char_145_prove",
+      "label": "普罗旺斯",
+      "published": true
+    },
+    {
+      "external_id": "char_4006_melnte",
+      "person_id": "char_4006_melnte",
+      "label": "玫拉",
+      "published": true
+    },
+    {
+      "external_id": "char_158_milu",
+      "person_id": "char_158_milu",
+      "label": "守林人",
+      "published": true
+    },
+    {
+      "external_id": "char_218_cuttle",
+      "person_id": "char_218_cuttle",
+      "label": "安哲拉",
+      "published": true
+    },
+    {
+      "external_id": "char_4014_lunacu",
+      "person_id": "char_4014_lunacu",
+      "label": "子月",
+      "published": true
+    },
+    {
+      "external_id": "char_363_toddi",
+      "person_id": "char_363_toddi",
+      "label": "熔泉",
+      "published": true
+    },
+    {
+      "external_id": "char_4043_erato",
+      "person_id": "char_4043_erato",
+      "label": "埃拉托",
+      "published": true
+    },
+    {
+      "external_id": "char_4221_ju",
+      "person_id": "char_4221_ju",
+      "label": "矩",
+      "published": true
+    },
+    {
+      "external_id": "char_1027_greyy2",
+      "person_id": "char_253_greyy",
+      "label": "承曦格雷伊",
+      "published": true
+    },
+    {
+      "external_id": "char_4104_coldst",
+      "person_id": "char_4104_coldst",
+      "label": "冰酿",
+      "published": true
+    },
+    {
+      "external_id": "char_4211_snhunt",
+      "person_id": "char_4211_snhunt",
+      "label": "雪猎",
+      "published": true
+    },
+    {
+      "external_id": "char_4177_brigid",
+      "person_id": "char_4177_brigid",
+      "label": "水灯心",
+      "published": true
+    },
+    {
+      "external_id": "char_4015_spuria",
+      "person_id": "char_4015_spuria",
+      "label": "空构",
+      "published": true
+    },
+    {
+      "external_id": "char_173_slchan",
+      "person_id": "char_173_slchan",
+      "label": "崖心",
+      "published": true
+    },
+    {
+      "external_id": "char_383_snsant",
+      "person_id": "char_383_snsant",
+      "label": "雪雉",
+      "published": true
+    },
+    {
+      "external_id": "char_4105_almond",
+      "person_id": "char_4105_almond",
+      "label": "杏仁",
+      "published": true
+    },
+    {
+      "external_id": "char_174_slbell",
+      "person_id": "char_174_slbell",
+      "label": "初雪",
+      "published": true
+    },
+    {
+      "external_id": "char_254_vodfox",
+      "person_id": "char_254_vodfox",
+      "label": "巫恋",
+      "published": true
+    },
+    {
+      "external_id": "char_4079_haini",
+      "person_id": "char_4079_haini",
+      "label": "海霓",
+      "published": true
+    },
+    {
+      "external_id": "char_195_glassb",
+      "person_id": "char_195_glassb",
+      "label": "真理",
+      "published": true
+    },
+    {
+      "external_id": "char_326_glacus",
+      "person_id": "char_326_glacus",
+      "label": "格劳克斯",
+      "published": true
+    },
+    {
+      "external_id": "char_4032_provs",
+      "person_id": "char_4032_provs",
+      "label": "但书",
+      "published": true
+    },
+    {
+      "external_id": "char_4122_grabds",
+      "person_id": "char_4122_grabds",
+      "label": "小满",
+      "published": true
+    },
+    {
+      "external_id": "char_433_windft",
+      "person_id": "char_433_windft",
+      "label": "掠风",
+      "published": true
+    },
+    {
+      "external_id": "char_4162_cathy",
+      "person_id": "char_4162_cathy",
+      "label": "凯瑟琳",
+      "published": true
+    },
+    {
+      "external_id": "char_4178_alanna",
+      "person_id": "char_4178_alanna",
+      "label": "阿兰娜",
+      "published": true
+    },
+    {
+      "external_id": "char_101_sora",
+      "person_id": "char_101_sora",
+      "label": "空",
+      "published": true
+    },
+    {
+      "external_id": "char_4045_heidi",
+      "person_id": "char_4045_heidi",
+      "label": "海蒂",
+      "published": true
+    },
+    {
+      "external_id": "char_4184_dolris",
+      "person_id": "char_4184_dolris",
+      "label": "三角初华",
+      "published": true
+    },
+    {
+      "external_id": "char_343_tknogi",
+      "person_id": "char_343_tknogi",
+      "label": "月禾",
+      "published": true
+    },
+    {
+      "external_id": "char_4019_ncdeer",
+      "person_id": "char_4019_ncdeer",
+      "label": "九色鹿",
+      "published": true
+    },
+    {
+      "external_id": "char_492_quercu",
+      "person_id": "char_492_quercu",
+      "label": "夏栎",
+      "published": true
+    },
+    {
+      "external_id": "char_4172_xingzh",
+      "person_id": "char_4172_xingzh",
+      "label": "行箸",
+      "published": true
+    },
+    {
+      "external_id": "char_1022_flwr2",
+      "person_id": "char_181_flower",
+      "label": "撷英调香师",
+      "published": true
+    },
+    {
+      "external_id": "char_4102_threye",
+      "person_id": "char_4102_threye",
+      "label": "凛视",
+      "published": true
+    },
+    {
+      "external_id": "char_487_bobb",
+      "person_id": "char_487_bobb",
+      "label": "波卜",
+      "published": true
+    },
+    {
+      "external_id": "char_4223_botany",
+      "person_id": "char_4223_botany",
+      "label": "伯塔尼",
+      "published": true
+    },
+    {
+      "external_id": "char_4219_yukari",
+      "person_id": "char_4219_yukari",
+      "label": "岳羽由加莉",
+      "published": true
+    },
+    {
+      "external_id": "char_4234_pedro",
+      "person_id": "char_4234_pedro",
+      "label": "佩德洛",
+      "published": true
+    },
+    {
+      "external_id": "char_215_mantic",
+      "person_id": "char_215_mantic",
+      "label": "狮蝎",
+      "published": true
+    },
+    {
+      "external_id": "char_478_kirara",
+      "person_id": "char_478_kirara",
+      "label": "绮良",
+      "published": true
+    },
+    {
+      "external_id": "char_4186_tmoris",
+      "person_id": "char_4186_tmoris",
+      "label": "八幡海铃",
+      "published": true
+    },
+    {
+      "external_id": "char_241_panda",
+      "person_id": "char_241_panda",
+      "label": "食铁兽",
+      "published": true
+    },
+    {
+      "external_id": "char_4036_forcer",
+      "person_id": "char_4036_forcer",
+      "label": "见行者",
+      "published": true
+    },
+    {
+      "external_id": "char_451_robin",
+      "person_id": "char_451_robin",
+      "label": "罗宾",
+      "published": true
+    },
+    {
+      "external_id": "char_458_rfrost",
+      "person_id": "char_458_rfrost",
+      "label": "霜华",
+      "published": true
+    },
+    {
+      "external_id": "char_4171_wulfen",
+      "person_id": "char_4171_wulfen",
+      "label": "钼铅",
+      "published": true
+    },
+    {
+      "external_id": "char_369_bena",
+      "person_id": "char_369_bena",
+      "label": "贝娜",
+      "published": true
+    },
+    {
+      "external_id": "char_4016_kazema",
+      "person_id": "char_4016_kazema",
+      "label": "风丸",
+      "published": true
+    },
+    {
+      "external_id": "char_4124_iana",
+      "person_id": "char_4124_iana",
+      "label": "双月",
+      "published": true
+    },
+    {
+      "external_id": "char_4183_mortis",
+      "person_id": "char_4183_mortis",
+      "label": "若叶睦",
+      "published": true
+    },
+    {
+      "external_id": "char_4151_tinman",
+      "person_id": "char_4151_tinman",
+      "label": "锡人",
+      "published": true
+    },
+    {
+      "external_id": "char_4191_tippi",
+      "person_id": "char_4191_tippi",
+      "label": "蒂比",
+      "published": true
+    },
+    {
+      "external_id": "char_103_angel",
+      "person_id": "char_103_angel",
+      "label": "能天使",
+      "published": true
+    },
+    {
+      "external_id": "char_332_archet",
+      "person_id": "char_332_archet",
+      "label": "空弦",
+      "published": true
+    },
+    {
+      "external_id": "char_456_ash",
+      "person_id": "char_456_ash",
+      "label": "灰烬",
+      "published": true
+    },
+    {
+      "external_id": "char_611_acnipe",
+      "person_id": "char_511_asnipe",
+      "label": "Stormeye",
+      "published": true
+    },
+    {
+      "external_id": "char_340_shwaz",
+      "person_id": "char_340_shwaz",
+      "label": "黑",
+      "published": true
+    },
+    {
+      "external_id": "char_4055_bgsnow",
+      "person_id": "char_4055_bgsnow",
+      "label": "鸿雪",
+      "published": true
+    },
+    {
+      "external_id": "char_1048_orchd2",
+      "person_id": "char_278_orchid",
+      "label": "焰狐龙梓兰",
+      "published": true
+    },
+    {
+      "external_id": "char_430_fartth",
+      "person_id": "char_430_fartth",
+      "label": "远牙",
+      "published": true
+    },
+    {
+      "external_id": "char_4193_lemuen",
+      "person_id": "char_4193_lemuen",
+      "label": "蕾缪安",
+      "published": true
+    },
+    {
+      "external_id": "char_113_cqbw",
+      "person_id": "char_113_cqbw",
+      "label": "W",
+      "published": true
+    },
+    {
+      "external_id": "char_300_phenxi",
+      "person_id": "char_300_phenxi",
+      "label": "菲亚梅塔",
+      "published": true
+    },
+    {
+      "external_id": "char_197_poca",
+      "person_id": "char_197_poca",
+      "label": "早露",
+      "published": true
+    },
+    {
+      "external_id": "char_2012_typhon",
+      "person_id": "char_2012_typhon",
+      "label": "提丰",
+      "published": true
+    },
+    {
+      "external_id": "char_391_rosmon",
+      "person_id": "char_391_rosmon",
+      "label": "迷迭香",
+      "published": true
+    },
+    {
+      "external_id": "char_1035_wisdel",
+      "person_id": "char_113_cqbw",
+      "label": "维什戴尔",
+      "published": true
+    },
+    {
+      "external_id": "char_1013_chen2",
+      "person_id": "char_010_chen",
+      "label": "假日威龙陈",
+      "published": true
+    },
+    {
+      "external_id": "char_4117_ray",
+      "person_id": "char_4117_ray",
+      "label": "莱伊",
+      "published": true
+    },
+    {
+      "external_id": "char_4138_narant",
+      "person_id": "char_4138_narant",
+      "label": "娜仁图亚",
+      "published": true
+    },
+    {
+      "external_id": "char_112_siege",
+      "person_id": "char_112_siege",
+      "label": "推进之王",
+      "published": true
+    },
+    {
+      "external_id": "char_222_bpipe",
+      "person_id": "char_222_bpipe",
+      "label": "风笛",
+      "published": true
+    },
+    {
+      "external_id": "char_362_saga",
+      "person_id": "char_362_saga",
+      "label": "嵯峨",
+      "published": true
+    },
+    {
+      "external_id": "char_4026_vulpis",
+      "person_id": "char_4026_vulpis",
+      "label": "忍冬",
+      "published": true
+    },
+    {
+      "external_id": "char_479_sleach",
+      "person_id": "char_479_sleach",
+      "label": "琴柳",
+      "published": true
+    },
+    {
+      "external_id": "char_420_flamtl",
+      "person_id": "char_420_flamtl",
+      "label": "焰尾",
+      "published": true
+    },
+    {
+      "external_id": "char_608_acpion",
+      "person_id": "char_513_apionr",
+      "label": "郁金香",
+      "published": true
+    },
+    {
+      "external_id": "char_427_vigil",
+      "person_id": "char_427_vigil",
+      "label": "伺夜",
+      "published": true
+    },
+    {
+      "external_id": "char_249_mlyss",
+      "person_id": "char_249_mlyss",
+      "label": "缪尔赛思",
+      "published": true
+    },
+    {
+      "external_id": "char_4228_closur",
+      "person_id": "char_4228_closur",
+      "label": "可露希尔",
+      "published": true
+    },
+    {
+      "external_id": "char_1045_svash2",
+      "person_id": "char_172_svrash",
+      "label": "凛御银灰",
+      "published": true
+    },
+    {
+      "external_id": "char_4087_ines",
+      "person_id": "char_4087_ines",
+      "label": "伊内丝",
+      "published": true
+    },
+    {
+      "external_id": "char_134_ifrit",
+      "person_id": "char_134_ifrit",
+      "label": "伊芙利特",
+      "published": true
+    },
+    {
+      "external_id": "char_4229_aphris",
+      "person_id": "char_4229_aphris",
+      "label": "谬因",
+      "published": true
+    },
+    {
+      "external_id": "char_213_mostma",
+      "person_id": "char_213_mostma",
+      "label": "莫斯提马",
+      "published": true
+    },
+    {
+      "external_id": "char_180_amgoat",
+      "person_id": "char_180_amgoat",
+      "label": "艾雅法拉",
+      "published": true
+    },
+    {
+      "external_id": "char_2013_cerber",
+      "person_id": "char_2013_cerber",
+      "label": "刻俄柏",
+      "published": true
+    },
+    {
+      "external_id": "char_4027_heyak",
+      "person_id": "char_4027_heyak",
+      "label": "霍尔海雅",
+      "published": true
+    },
+    {
+      "external_id": "char_4133_logos",
+      "person_id": "char_4133_logos",
+      "label": "逻各斯",
+      "published": true
+    },
+    {
+      "external_id": "char_2015_dusk",
+      "person_id": "char_2015_dusk",
+      "label": "夕",
+      "published": true
+    },
+    {
+      "external_id": "char_4141_marcil",
+      "person_id": "char_4141_marcil",
+      "label": "玛露西尔",
+      "published": true
+    },
+    {
+      "external_id": "char_612_accast",
+      "person_id": "char_509_acast",
+      "label": "Pith",
+      "published": true
+    },
+    {
+      "external_id": "char_472_pasngr",
+      "person_id": "char_472_pasngr",
+      "label": "异客",
+      "published": true
+    },
+    {
+      "external_id": "char_426_billro",
+      "person_id": "char_426_billro",
+      "label": "卡涅利安",
+      "published": true
+    },
+    {
+      "external_id": "char_4080_lin",
+      "person_id": "char_4080_lin",
+      "label": "林",
+      "published": true
+    },
+    {
+      "external_id": "char_1046_sbell2",
+      "person_id": "char_174_slbell",
+      "label": "圣聆初雪",
+      "published": true
+    },
+    {
+      "external_id": "char_377_gdglow",
+      "person_id": "char_377_gdglow",
+      "label": "澄闪",
+      "published": true
+    },
+    {
+      "external_id": "char_1038_whitw2",
+      "person_id": "char_140_whitew",
+      "label": "荒芜拉普兰德",
+      "published": true
+    },
+    {
+      "external_id": "char_4046_ebnhlz",
+      "person_id": "char_4046_ebnhlz",
+      "label": "黑键",
+      "published": true
+    },
+    {
+      "external_id": "char_4226_veen",
+      "person_id": "char_4226_veen",
+      "label": "维伊",
+      "published": true
+    },
+    {
+      "external_id": "char_4146_nymph",
+      "person_id": "char_4146_nymph",
+      "label": "妮芙",
+      "published": true
+    },
+    {
+      "external_id": "char_1040_blaze2",
+      "person_id": "char_017_huang",
+      "label": "烛煌",
+      "published": true
+    },
+    {
+      "external_id": "char_4204_mantra",
+      "person_id": "char_4204_mantra",
+      "label": "真言",
+      "published": true
+    },
+    {
+      "external_id": "char_450_necras",
+      "person_id": "char_450_necras",
+      "label": "死芒",
+      "published": true
+    },
+    {
+      "external_id": "char_206_gnosis",
+      "person_id": "char_206_gnosis",
+      "label": "灵知",
+      "published": true
+    },
+    {
+      "external_id": "char_291_aglina",
+      "person_id": "char_291_aglina",
+      "label": "安洁莉娜",
+      "published": true
+    },
+    {
+      "external_id": "char_358_lisa",
+      "person_id": "char_358_lisa",
+      "label": "铃兰",
+      "published": true
+    },
+    {
+      "external_id": "char_614_acsupo",
+      "person_id": "char_4195_radian",
+      "label": "Raidian",
+      "published": true
+    },
+    {
+      "external_id": "char_1047_halo2",
+      "person_id": "char_135_halo",
+      "label": "溯光星源",
+      "published": true
+    },
+    {
+      "external_id": "char_248_mgllan",
+      "person_id": "char_248_mgllan",
+      "label": "麦哲伦",
+      "published": true
+    },
+    {
+      "external_id": "char_4195_radian",
+      "person_id": "char_4195_radian",
+      "label": "电弧",
+      "published": true
+    },
+    {
+      "external_id": "char_1012_skadi2",
+      "person_id": "char_263_skadi",
+      "label": "浊心斯卡蒂",
+      "published": true
+    },
+    {
+      "external_id": "char_4134_cetsyr",
+      "person_id": "char_4134_cetsyr",
+      "label": "魔王",
+      "published": true
+    },
+    {
+      "external_id": "char_1031_slent2",
+      "person_id": "char_108_silent",
+      "label": "淬羽赫默",
+      "published": true
+    },
+    {
+      "external_id": "char_4202_haruka",
+      "person_id": "char_4202_haruka",
+      "label": "遥",
+      "published": true
+    },
+    {
+      "external_id": "char_2023_ling",
+      "person_id": "char_2023_ling",
+      "label": "令",
+      "published": true
+    },
+    {
+      "external_id": "char_4072_ironmn",
+      "person_id": "char_4072_ironmn",
+      "label": "白铁",
+      "published": true
+    },
+    {
+      "external_id": "char_4212_nasti",
+      "person_id": "char_4212_nasti",
+      "label": "娜斯提",
+      "published": true
+    },
+    {
+      "external_id": "char_245_cello",
+      "person_id": "char_245_cello",
+      "label": "塑心",
+      "published": true
+    },
+    {
+      "external_id": "char_1042_phatm2",
+      "person_id": "char_250_phatom",
+      "label": "酒神",
+      "published": true
+    },
+    {
+      "external_id": "char_250_phatom",
+      "person_id": "char_250_phatom",
+      "label": "傀影",
+      "published": true
+    },
+    {
+      "external_id": "char_1028_texas2",
+      "person_id": "char_102_texas",
+      "label": "缄默德克萨斯",
+      "published": true
+    },
+    {
+      "external_id": "char_1029_yato2",
+      "person_id": "char_502_nblade",
+      "label": "麒麟R夜刀",
+      "published": true
+    },
+    {
+      "external_id": "char_1502_crosly",
+      "person_id": "char_1502_crosly",
+      "label": "弑君者",
+      "published": true
+    },
+    {
+      "external_id": "char_615_acspec",
+      "person_id": "char_615_acspec",
+      "label": "Misery",
+      "published": true
+    },
+    {
+      "external_id": "char_322_lmlee",
+      "person_id": "char_322_lmlee",
+      "label": "老鲤",
+      "published": true
+    },
+    {
+      "external_id": "char_1033_swire2",
+      "person_id": "char_308_swire",
+      "label": "琳琅诗怀雅",
+      "published": true
+    },
+    {
+      "external_id": "char_400_weedy",
+      "person_id": "char_400_weedy",
+      "label": "温蒂",
+      "published": true
+    },
+    {
+      "external_id": "char_225_haak",
+      "person_id": "char_225_haak",
+      "label": "阿",
+      "published": true
+    },
+    {
+      "external_id": "char_1041_angel2",
+      "person_id": "char_103_angel",
+      "label": "新约能天使",
+      "published": true
+    },
+    {
+      "external_id": "char_474_glady",
+      "person_id": "char_474_glady",
+      "label": "歌蕾蒂娅",
+      "published": true
+    },
+    {
+      "external_id": "char_437_mizuki",
+      "person_id": "char_437_mizuki",
+      "label": "水月",
+      "published": true
+    },
+    {
+      "external_id": "char_4132_ascln",
+      "person_id": "char_4132_ascln",
+      "label": "阿斯卡纶",
+      "published": true
+    },
+    {
+      "external_id": "char_1023_ghost2",
+      "person_id": "char_143_ghost",
+      "label": "归溟幽灵鲨",
+      "published": true
+    },
+    {
+      "external_id": "char_4217_makoto",
+      "person_id": "char_4217_makoto",
+      "label": "结城理",
+      "published": true
+    },
+    {
+      "external_id": "char_4048_doroth",
+      "person_id": "char_4048_doroth",
+      "label": "多萝西",
+      "published": true
+    },
+    {
+      "external_id": "char_4123_ela",
+      "person_id": "char_4123_ela",
+      "label": "艾拉",
+      "published": true
+    },
+    {
+      "external_id": "char_2027_wang",
+      "person_id": "char_2027_wang",
+      "label": "望",
+      "published": true
+    },
+    {
+      "external_id": "char_1039_thorn2",
+      "person_id": "char_293_thorns",
+      "label": "引星棘刺",
+      "published": true
+    },
+    {
+      "external_id": "char_1015_aglna2",
+      "person_id": "char_291_aglina",
+      "label": "予愿安洁莉娜",
+      "published": true
+    },
+    {
+      "external_id": "char_147_shining",
+      "person_id": "char_147_shining",
+      "label": "闪灵",
+      "published": true
+    },
+    {
+      "external_id": "char_613_acmedc",
+      "person_id": "char_510_amedic",
+      "label": "Touch",
+      "published": true
+    },
+    {
+      "external_id": "char_179_cgbird",
+      "person_id": "char_179_cgbird",
+      "label": "夜莺",
+      "published": true
+    },
+    {
+      "external_id": "char_003_kalts",
+      "person_id": "char_003_kalts",
+      "label": "凯尔希",
+      "published": true
+    },
+    {
+      "external_id": "char_4042_lumen",
+      "person_id": "char_4042_lumen",
+      "label": "流明",
+      "published": true
+    },
+    {
+      "external_id": "char_1016_agoat2",
+      "person_id": "char_180_amgoat",
+      "label": "纯烬艾雅法拉",
+      "published": true
+    },
+    {
+      "external_id": "char_1020_reed2",
+      "person_id": "char_261_sddrag",
+      "label": "焰影苇草",
+      "published": true
+    },
+    {
+      "external_id": "char_4056_titi",
+      "person_id": "char_4056_titi",
+      "label": "缇缇",
+      "published": true
+    },
+    {
+      "external_id": "char_4179_monstr",
+      "person_id": "char_4179_monstr",
+      "label": "Mon3tr",
+      "published": true
+    },
+    {
+      "external_id": "char_1052_kalts2",
+      "person_id": "char_003_kalts",
+      "label": "凯尔希·思衡托",
+      "published": true
+    },
+    {
+      "external_id": "char_136_hsguma",
+      "person_id": "char_136_hsguma",
+      "label": "星熊",
+      "published": true
+    },
+    {
+      "external_id": "char_610_acfend",
+      "person_id": "char_4230_mcnist",
+      "label": "Mechanist",
+      "published": true
+    },
+    {
+      "external_id": "char_202_demkni",
+      "person_id": "char_202_demkni",
+      "label": "塞雷娅",
+      "published": true
+    },
+    {
+      "external_id": "char_423_blemsh",
+      "person_id": "char_423_blemsh",
+      "label": "瑕光",
+      "published": true
+    },
+    {
+      "external_id": "char_2025_shu",
+      "person_id": "char_2025_shu",
+      "label": "黍",
+      "published": true
+    },
+    {
+      "external_id": "char_2014_nian",
+      "person_id": "char_2014_nian",
+      "label": "年",
+      "published": true
+    },
+    {
+      "external_id": "char_311_mudrok",
+      "person_id": "char_311_mudrok",
+      "label": "泥岩",
+      "published": true
+    },
+    {
+      "external_id": "char_4065_judge",
+      "person_id": "char_4065_judge",
+      "label": "斥罪",
+      "published": true
+    },
+    {
+      "external_id": "char_416_zumama",
+      "person_id": "char_416_zumama",
+      "label": "森蚺",
+      "published": true
+    },
+    {
+      "external_id": "char_4039_horn",
+      "person_id": "char_4039_horn",
+      "label": "号角",
+      "published": true
+    },
+    {
+      "external_id": "char_1034_jesca2",
+      "person_id": "char_235_jesica",
+      "label": "涤火杰西卡",
+      "published": true
+    },
+    {
+      "external_id": "char_4194_rmixer",
+      "person_id": "char_4194_rmixer",
+      "label": "信仰搅拌机",
+      "published": true
+    },
+    {
+      "external_id": "char_4230_mcnist",
+      "person_id": "char_4230_mcnist",
+      "label": "机械师",
+      "published": true
+    },
+    {
+      "external_id": "char_2026_yu",
+      "person_id": "char_2026_yu",
+      "label": "余",
+      "published": true
+    },
+    {
+      "external_id": "char_4235_thumpy",
+      "person_id": "char_4235_thumpy",
+      "label": "珊比",
+      "published": true
+    },
+    {
+      "external_id": "char_1044_hsgma2",
+      "person_id": "char_136_hsguma",
+      "label": "斩业星熊",
+      "published": true
+    },
+    {
+      "external_id": "char_264_f12yin",
+      "person_id": "char_264_f12yin",
+      "label": "山",
+      "published": true
+    },
+    {
+      "external_id": "char_2024_chyue",
+      "person_id": "char_2024_chyue",
+      "label": "重岳",
+      "published": true
+    },
+    {
+      "external_id": "char_4037_demetr",
+      "person_id": "char_4037_demetr",
+      "label": "贝洛内",
+      "published": true
+    },
+    {
+      "external_id": "char_172_svrash",
+      "person_id": "char_172_svrash",
+      "label": "银灰",
+      "published": true
+    },
+    {
+      "external_id": "char_293_thorns",
+      "person_id": "char_293_thorns",
+      "label": "棘刺",
+      "published": true
+    },
+    {
+      "external_id": "char_4082_qiubai",
+      "person_id": "char_4082_qiubai",
+      "label": "仇白",
+      "published": true
+    },
+    {
+      "external_id": "char_4182_oblvns",
+      "person_id": "char_4182_oblvns",
+      "label": "丰川祥子",
+      "published": true
+    },
+    {
+      "external_id": "char_617_sharp2",
+      "person_id": "char_508_aguard",
+      "label": "领主·Sharp",
+      "published": true
+    },
+    {
+      "external_id": "char_4088_hodrer",
+      "person_id": "char_4088_hodrer",
+      "label": "赫德雷",
+      "published": true
+    },
+    {
+      "external_id": "char_4145_ulpia",
+      "person_id": "char_4145_ulpia",
+      "label": "乌尔比安",
+      "published": true
+    },
+    {
+      "external_id": "char_4058_pepe",
+      "person_id": "char_4058_pepe",
+      "label": "佩佩",
+      "published": true
+    },
+    {
+      "external_id": "char_1051_headb2",
+      "person_id": "char_115_headbr",
+      "label": "怒潮凛冬",
+      "published": true
+    },
+    {
+      "external_id": "char_010_chen",
+      "person_id": "char_010_chen",
+      "label": "陈",
+      "published": true
+    },
+    {
+      "external_id": "char_4009_irene",
+      "person_id": "char_4009_irene",
+      "label": "艾丽妮",
+      "published": true
+    },
+    {
+      "external_id": "char_4116_blkkgt",
+      "person_id": "char_4116_blkkgt",
+      "label": "锏",
+      "published": true
+    },
+    {
+      "external_id": "char_017_huang",
+      "person_id": "char_017_huang",
+      "label": "煌",
+      "published": true
+    },
+    {
+      "external_id": "char_1026_gvial2",
+      "person_id": "char_187_ccheal",
+      "label": "百炼嘉维尔",
+      "published": true
+    },
+    {
+      "external_id": "char_350_surtr",
+      "person_id": "char_350_surtr",
+      "label": "史尔特尔",
+      "published": true
+    },
+    {
+      "external_id": "char_4098_vvana",
+      "person_id": "char_4098_vvana",
+      "label": "薇薇安娜",
+      "published": true
+    },
+    {
+      "external_id": "char_1019_siege2",
+      "person_id": "char_112_siege",
+      "label": "维娜·维多利亚",
+      "published": true
+    },
+    {
+      "external_id": "char_1050_chen3",
+      "person_id": "char_010_chen",
+      "label": "赤刃明霄陈",
+      "published": true
+    },
+    {
+      "external_id": "char_188_helage",
+      "person_id": "char_188_helage",
+      "label": "赫拉格",
+      "published": true
+    },
+    {
+      "external_id": "char_4121_zuole",
+      "person_id": "char_4121_zuole",
+      "label": "左乐",
+      "published": true
+    },
+    {
+      "external_id": "char_485_pallas",
+      "person_id": "char_485_pallas",
+      "label": "帕拉斯",
+      "published": true
+    },
+    {
+      "external_id": "char_1014_nearl2",
+      "person_id": "char_148_nearl",
+      "label": "耀骑士临光",
+      "published": true
+    },
+    {
+      "external_id": "char_4011_lessng",
+      "person_id": "char_4011_lessng",
+      "label": "止颂",
+      "published": true
+    },
+    {
+      "external_id": "char_609_acguad",
+      "person_id": "char_508_aguard",
+      "label": "Sharp",
+      "published": true
+    },
+    {
+      "external_id": "char_1032_excu2",
+      "person_id": "char_279_excu",
+      "label": "圣约送葬人",
+      "published": true
+    },
+    {
+      "external_id": "char_4010_etlchi",
+      "person_id": "char_4010_etlchi",
+      "label": "隐德来希",
+      "published": true
+    },
+    {
+      "external_id": "char_4064_mlynar",
+      "person_id": "char_4064_mlynar",
+      "label": "玛恩纳",
+      "published": true
+    },
+    {
+      "external_id": "char_1043_leizi2",
+      "person_id": "char_306_leizi",
+      "label": "司霆惊蛰",
+      "published": true
+    },
+    {
+      "external_id": "char_4214_cairn",
+      "person_id": "char_4214_cairn",
+      "label": "响石",
+      "published": true
+    },
+    {
+      "external_id": "char_230_savage",
+      "person_id": "char_230_savage",
+      "label": "暴行",
+      "published": true
+    },
+    {
+      "external_id": "char_282_catap",
+      "person_id": "char_282_catap",
+      "label": "空爆",
+      "published": true
+    },
+    {
+      "external_id": "char_283_midn",
+      "person_id": "char_283_midn",
+      "label": "月见夜",
+      "published": true
+    },
+    {
+      "external_id": "char_137_brownb",
+      "person_id": "char_137_brownb",
+      "label": "猎蜂",
+      "published": true
+    },
+    {
+      "external_id": "char_347_jaksel",
+      "person_id": "char_347_jaksel",
+      "label": "杰克",
+      "published": true
+    },
+    {
+      "external_id": "char_164_nightm",
+      "person_id": "char_164_nightm",
+      "label": "夜魔",
+      "published": true
+    },
+    {
+      "external_id": "char_220_grani",
+      "person_id": "char_220_grani",
+      "label": "格拉尼",
+      "published": true
+    },
+    {
+      "external_id": "char_263_skadi",
+      "person_id": "char_263_skadi",
+      "label": "斯卡蒂",
+      "published": true
+    },
+    {
+      "external_id": "char_1001_amiya2",
+      "person_id": "char_002_amiya",
+      "label": "阿米娅",
+      "published": true
+    },
+    {
+      "external_id": "char_1037_amiya3",
+      "person_id": "char_002_amiya",
+      "label": "阿米娅",
+      "published": true
+    }
+  ]
+}

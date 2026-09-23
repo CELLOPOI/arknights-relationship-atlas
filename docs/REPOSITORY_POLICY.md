@@ -13,6 +13,7 @@
 | 资料与验证工具、来源及素材清单 | 提交，支持校验与来源追踪 |
 | `data/source/`、`data/npc/` | 提交初始化基线、来源及单向资料归档，不含反馈、联系方式或账号 |
 | `assets/local/atlas-assets-24d6e8427efd2e90f29f1b7e/` | 仅提交当前清单对应的 2,426 个文件，支持克隆后完整构建 |
+| `assets/preferences/`、`data/preferences/` | 喜好扩展固定素材与待审核名录，按独立清单校验；复制文件不自动发布 |
 | 其他 `assets/local/` 版本、资源压缩归档 | 忽略，避免无关版本和重复输入 |
 | `node_modules/`、`.venv/`、`frontend/public/`、`frontend/build/`、`backend/staticfiles/` | 忽略，由安装或构建生成 |
 | `.runtime/`、数据库、反馈、邮件、备份、日志与缓存 | 忽略，包含运行状态或私有信息 |

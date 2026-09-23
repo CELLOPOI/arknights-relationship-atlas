@@ -1,0 +1,334 @@
+"""可回放的真实汇总；Bradley–Terry 收缩与按参与标识聚类重采样。"""
+import math
+import random
+from collections import Counter, defaultdict
+from datetime import timedelta
+
+from django.conf import settings
+from django.db import transaction
+from django.utils import timezone
+
+from .preference_algorithm import cluster_sample, composite_index, effective_size, weight_comparisons
+from .preference_models import PreferenceEvent, PreferenceParticipant, PreferenceSnapshot, PreferenceTask
+from .preference_services import (
+    PreferenceError,
+    choice_context,
+    control,
+    digest,
+    eligible_people,
+    iso,
+    require_catalog,
+)
+from .preference_subjects import project_comparisons, subjects
+
+ALGORITHM = "bt-dual-scope-v3"
+
+
+def parameters():
+    return {"total_cap": settings.PREFERENCE_WEIGHT_TOTAL_CAP, "person_cap": settings.PREFERENCE_WEIGHT_PERSON_CAP,
+            "prior": settings.PREFERENCE_BT_PRIOR, "min_comparisons": settings.PREFERENCE_MIN_COMPARISONS,
+            "min_evidence": settings.PREFERENCE_MIN_WEIGHTED_EVIDENCE,
+            "min_participants": settings.PREFERENCE_MIN_PARTICIPANTS,
+            "min_effective_participants": settings.PREFERENCE_MIN_EFFECTIVE_PARTICIPANTS,
+            "min_opponents": settings.PREFERENCE_MIN_OPPONENTS,
+            "max_interval_width": settings.PREFERENCE_MAX_INTERVAL_WIDTH,
+            "max_sensitivity_shift": settings.PREFERENCE_MAX_SENSITIVITY_SHIFT,
+            "bootstrap_samples": settings.PREFERENCE_BOOTSTRAP_SAMPLES,
+            "composite_random_weight": settings.PREFERENCE_COMPOSITE_RANDOM_WEIGHT,
+            "composite_min_pool": settings.PREFERENCE_COMPOSITE_MIN_POOL,
+            "composite_min_support_participants": settings.PREFERENCE_COMPOSITE_MIN_SUPPORT_PARTICIPANTS,
+            "registration_min_participants": settings.PREFERENCE_REGISTRATION_MIN_PARTICIPANTS}
+
+
+def algorithm_version():
+    return f"{ALGORITHM}-{digest(parameters())[:12]}"
+
+
+def series_key(snapshot):
+    return (snapshot.scope, snapshot.catalog_version, snapshot.algorithm_version, snapshot.asset_version,
+            snapshot.payload.get("reference_version"), snapshot.revision)
+
+
+def fit_bt(ids, rows, max_iterations=500, tolerance=1e-6, prior=None):
+    """MM 极大化带对称锚点伪比较的惩罚似然，避免全胜/全败发散。"""
+    prior = settings.PREFERENCE_BT_PRIOR if prior is None else prior
+    if prior <= 0:
+        raise ValueError("BT prior must be positive")
+    edges, wins = Counter(), Counter()
+    for row in rows:
+        left, right, winner = row["left_id"], row["right_id"], row["winner_id"]
+        weight = row.get("weight", 1.0)
+        edges[tuple(sorted((left, right)))] += weight
+        wins[winner] += weight
+    abilities = dict.fromkeys(ids, 1.0)
+    converged = False
+    for _ in range(max_iterations):
+        denominator = {pid: 2.0 * prior / (abilities[pid] + 1.0) for pid in ids}
+        for (left, right), count in edges.items():
+            value = count / (abilities[left] + abilities[right])
+            denominator[left] += value
+            denominator[right] += value
+        updated = {pid: (wins[pid] + prior) / denominator[pid] for pid in ids}
+        # 两两似然对整体尺度不敏感；每步单独优化锚点先验的尺度，避免高样本量时缓慢漂移。
+        shift = 0.0
+        logs = [math.log(value) for value in updated.values()]
+        for _scale in range(12):
+            probabilities = [1 / (1 + math.exp(-max(-40, min(40, value + shift)))) for value in logs]
+            gradient = sum(probabilities) - len(ids) / 2
+            curvature = sum(value * (1 - value) for value in probabilities)
+            if not curvature or abs(gradient) < 1e-10:
+                break
+            shift -= max(-2, min(2, gradient / curvature))
+        scale = math.exp(shift)
+        updated = {pid: value * scale for pid, value in updated.items()}
+        delta = max((abs(math.log(updated[p] / abilities[p])) for p in ids), default=0)
+        abilities = updated
+        if delta < tolerance:
+            converged = True
+            break
+    # 固定本次候选参照池平均预测胜率，绝不对最高最低分拉伸。
+    scores = {pid: 100 * sum(abilities[pid] / (abilities[pid] + abilities[other]) for other in ids) / len(ids)
+              for pid in ids} if ids else {}
+    return scores, converged
+
+
+def quantile(values, fraction):
+    values = sorted(values)
+    if not values:
+        return None
+    position = (len(values) - 1) * fraction
+    low = int(position)
+    high = min(len(values) - 1, low + 1)
+    return values[low] + (values[high] - values[low]) * (position - low)
+
+
+def analyze_random(catalog, cutoff, window, all_rows):
+    ids = sorted(eligible_people(catalog))
+    start = cutoff - timedelta(days=window)
+    id_set = set(ids)
+    all_rows = [r for r in all_rows if r["left_id"] in id_set and r["right_id"] in id_set
+                and start < r["accepted_at"] <= cutoff]
+    raw = [r for r in all_rows if r["outcome"] == "choose"]
+    rows = weight_comparisons(raw, settings.PREFERENCE_WEIGHT_TOTAL_CAP, settings.PREFERENCE_WEIGHT_PERSON_CAP)
+    participants, opponents = defaultdict(set), defaultdict(set)
+    compared, raw_compared, evidence, unfamiliar, displays = (Counter() for _ in range(5))
+    clusters, group_weights = defaultdict(list), defaultdict(Counter)
+    for row in all_rows:
+        for pid in (row["left_id"], row["right_id"]):
+            displays[pid] += 1
+            raw_compared[pid] += row["outcome"] == "choose"
+            unfamiliar[pid] += (row["outcome"] in ("unfamiliar", "unfamiliar_both")
+                                or row["outcome"] == "unfamiliar_left" and pid == row["left_id"]
+                                or row["outcome"] == "unfamiliar_right" and pid == row["right_id"])
+    for row in rows:
+        uid = str(row["participant_id"])
+        clusters[uid].append(row)
+        for pid, other in ((row["left_id"], row["right_id"]), (row["right_id"], row["left_id"])):
+            compared[pid] += 1
+            evidence[pid] += row["weight"]
+            group_weights[pid][uid] += row["weight"]
+            participants[pid].add(uid)
+            opponents[pid].add(other)
+    components, unseen = [], {pid for pid in ids if compared[pid]}
+    while unseen:
+        component, frontier = set(), [min(unseen)]
+        while frontier:
+            pid = frontier.pop()
+            if pid in component:
+                continue
+            component.add(pid)
+            frontier.extend(opponents[pid] - component)
+        unseen -= component
+        components.append(component)
+    # 未出现的新人物不拖垮已有比较网络；不同连通分量不可通过先验硬接为全榜。
+    connected = len(components) == 1
+    model_ids = sorted(union) if (union := set().union(*components)) else []
+    score, converged = fit_bt(model_ids, rows)
+    rng = random.Random(f"{catalog['version']}:{cutoff.isoformat()}:{window}:{algorithm_version()}")
+    intervals = defaultdict(list)
+    bootstrap_converged = True
+    if rows:
+        for _ in range(settings.PREFERENCE_BOOTSTRAP_SAMPLES):
+            estimates, ok = fit_bt(model_ids, cluster_sample(rows, rng))
+            bootstrap_converged &= ok
+            for pid, value in estimates.items():
+                intervals[pid].append(value)
+    sensitivity = []
+    for scale in (.5, 2):
+        alternative = weight_comparisons(raw, settings.PREFERENCE_WEIGHT_TOTAL_CAP * scale,
+                                         settings.PREFERENCE_WEIGHT_PERSON_CAP * scale)
+        estimates, _ = fit_bt(model_ids, alternative)
+        sensitivity.append(estimates)
+    unweighted, _ = fit_bt(model_ids, [dict(r, weight=1) for r in rows])
+    # 策略对照沿用原窗口权重，避免筛选后重新分配个人预算。
+    uniform, _ = fit_bt(model_ids, [row for row in rows if row["strategy"] == "uniform-v1"])
+    wins = Counter(row["winner_id"] for row in rows)
+    results = []
+    for pid in ids:
+        interval = [quantile(intervals[pid], .025), quantile(intervals[pid], .975)] if intervals[pid] else [None, None]
+        ess = effective_size(group_weights[pid].values())
+        enough = (compared[pid] >= settings.PREFERENCE_MIN_COMPARISONS
+                  and evidence[pid] >= settings.PREFERENCE_MIN_WEIGHTED_EVIDENCE
+                  and len(participants[pid]) >= settings.PREFERENCE_MIN_PARTICIPANTS
+                  and ess >= settings.PREFERENCE_MIN_EFFECTIVE_PARTICIPANTS
+                  and len(opponents[pid]) >= settings.PREFERENCE_MIN_OPPONENTS)
+        shift = max((abs(alternative[pid] - score[pid]) for alternative in sensitivity), default=0) if pid in score else 0
+        unstable = shift > settings.PREFERENCE_MAX_SENSITIVITY_SHIFT or (interval[0] is not None and interval[1] - interval[0] > settings.PREFERENCE_MAX_INTERVAL_WIDTH)
+        separated = compared[pid] > 0 and wins[pid] in (0, compared[pid])
+        status = "ready" if enough and connected and converged and bootstrap_converged and not unstable and not separated else (
+            "separated" if enough and separated else "disconnected" if enough and not connected else
+            "unstable" if enough and (unstable or not converged or not bootstrap_converged) else "insufficient")
+        # 不连通模型的跨分量分数没有可比较含义，保留样本事实而不公开伪精确数值。
+        results.append({"id": pid, "score": round(score[pid], 6) if pid in score and connected else None,
+                        "interval": [round(x, 3) if x is not None and connected else None for x in interval], "rank": None,
+                        "comparisons": compared[pid], "raw_comparisons": raw_compared[pid],
+                        "weighted_evidence": round(evidence[pid], 6), "effective_participants": round(ess, 3),
+                        "participants": len(participants[pid]), "opponents": len(opponents[pid]), "status": status,
+                        "unfamiliar_count": unfamiliar[pid], "completed_displays": displays[pid],
+                        "unfamiliar_share": unfamiliar[pid] / displays[pid] if displays[pid] else None,
+                        "contribution_sensitivity": round(shift, 3),
+                        "unweighted_sensitivity": round(unweighted.get(pid, 0) - score.get(pid, 0), 3),
+                        "strategy_sensitivity": round(uniform.get(pid, 0) - score.get(pid, 0), 3)})
+    results.sort(key=lambda r: (r["score"] is None, -(r["score"] or 0), r["id"]))
+    rank, previous, tied_rank = 0, None, None
+    for row in results:
+        if row["status"] == "ready":
+            rank += 1
+            if row["score"] != previous:
+                tied_rank = rank
+            row["rank"], previous = tied_rank, row["score"]
+    first = min((r["accepted_at"] for r in all_rows), default=None)
+    total_weights = [sum(row["weight"] for row in values) for values in clusters.values()]
+    return {"rows": results, "sample_size": len(rows), "raw_sample_size": len(raw),
+            "weighted_evidence": round(sum(evidence.values()) / 2, 6),
+            "effective_participants": round(effective_size(total_weights), 3),
+            "participant_count": len(clusters), "window_start": iso(start), "window_end": iso(cutoff), "observed_start": iso(first),
+            "actual_days": min(window, max(1, math.ceil((cutoff - first).total_seconds() / 86400))) if first else 0,
+            "status": "ready" if rank else "accumulating", "converged": converged,
+            "bootstrap_converged": bootstrap_converged, "bootstrap_samples": settings.PREFERENCE_BOOTSTRAP_SAMPLES,
+            "component_count": len(components), "connected": connected,
+            "left_win_share": sum(row["winner_id"] == row["left_id"] for row in rows) / len(rows) if rows else None,
+            "uncertainty_method": "participant_cluster_percentile_95", "reference_pool": model_ids,
+            "reference_version": digest(model_ids), "parameters": parameters(),
+            "interpretation": "本站自愿参与样本。权重限制证据量，不保证真人等权或最终分数影响上限。"}
+
+
+def random_result(catalog, cutoff, window, scope="person"):
+    rows = list(PreferenceTask.objects.filter(status="answered", accepted_at__gt=cutoff - timedelta(days=window),
+        accepted_at__lte=cutoff, risk_status="accepted", participant__risk_status="accepted").values(
+            "id", "left_id", "right_id", "left_subject_id", "right_subject_id", "winner_id",
+            "participant_id", "outcome", "strategy", "accepted_at"))
+    candidates = subjects(catalog)
+    projected = list(project_comparisons(rows, scope, candidates))
+    target = {**catalog, "persons": list(candidates.values())} if scope == "form" else catalog
+    return {**analyze_random(target, cutoff, window, projected), "scope": scope}
+
+
+def current_states(cutoff):
+    valid = set(PreferenceParticipant.objects.filter(risk_status="accepted", created_at__lte=cutoff).values_list("pk", flat=True))
+    supports, choices = {}, {}
+    for event in PreferenceEvent.objects.filter(participant_id__in=valid, created_at__lte=cutoff,
+                                               kind__in=["support", "choice", "choice_correction"]).order_by("created_at", "pk"):
+        if event.kind == "support":
+            supports[event.participant_id] = event.after
+        else:
+            choices[(event.participant_id, event.object_id)] = event.after
+    return supports, choices
+
+
+def registration_results(catalog, cutoff, scope="person"):
+    supports, choices = current_states(cutoff)
+    eligible = subjects(catalog) if scope == "form" else eligible_people(catalog)
+    counts, favorites = Counter(), Counter()
+    denominator = 0
+    for value in supports.values():
+        ids = set(value.get("subject_support_ids" if scope == "form" else "support_ids", [])) & eligible.keys()
+        denominator += bool(ids)
+        counts.update(ids)
+        favorites.update(set(value.get("subject_favorite_ids" if scope == "form" else "favorite_ids", [])) & ids)
+    yield "support", "", {"rows": [{"id": pid, "count": counts[pid], "favorite_count": favorites[pid],
+                                      "share": counts[pid] / denominator if denominator else None} for pid in eligible],
+                           "sample_size": sum(counts.values()), "participant_count": denominator,
+                           "window_start": None, "window_end": iso(cutoff), "status": "current"}
+    if scope == "form":
+        return
+    for kind, objects in (("form", catalog["persons"]), ("skin", catalog["forms"])):
+        for obj in objects:
+            _, options, version = choice_context(catalog, kind, obj["id"])
+            counts, none_count, stale_count = Counter(), 0, 0
+            for (_, target), value in choices.items():
+                if not obj.get("eligible", True) or target != f"{kind}:{obj['id']}" or value["action"] == "withdraw":
+                    continue
+                if value["catalog_version"] != version:
+                    stale_count += 1
+                elif value["action"] == "none":
+                    none_count += 1
+                elif value["choice_id"] in options:
+                    counts[value["choice_id"]] += 1
+            total = sum(counts.values())
+            yield kind, obj["id"], {"rows": [{"id": pid, "count": counts[pid], "share": counts[pid] / total if total else None}
+                                             for pid in sorted(options)], "sample_size": total, "participant_count": total,
+                                     "none_count": none_count, "unconfirmed_count": stale_count,
+                                     "choice_catalog_version": version, "window_start": None, "window_end": iso(cutoff),
+                                     "status": "ready" if total >= settings.PREFERENCE_REGISTRATION_MIN_PARTICIPANTS and len(options) > 1 else "insufficient"}
+
+
+def snapshot_data(snapshot):
+    if not snapshot:
+        return None
+    return {"id": snapshot.pk, "scope": snapshot.scope, "kind": snapshot.kind, "object_id": snapshot.object_id, "window": snapshot.window,
+            "cutoff": iso(snapshot.cutoff), "generated_at": iso(snapshot.generated_at),
+            "catalog_version": snapshot.catalog_version, "algorithm_version": snapshot.algorithm_version,
+            "asset_version": snapshot.asset_version, "revision": snapshot.revision,
+            "reason": snapshot.reason, "supersedes": snapshot.supersedes_id, "payload": snapshot.payload}
+
+
+def aggregate(cutoff=None, reason="", catalog_version=None, force_revision=False):
+    cutoff = cutoff or timezone.now().replace(second=0, microsecond=0)
+    with transaction.atomic():
+        current = control(lock=True)
+        if force_revision:
+            if not reason.strip():
+                raise PreferenceError("reason_required", "显式重算修订需要填写原因。")
+            current.revision += 1
+            current.save(update_fields=["revision"])
+        catalog = require_catalog(current)
+        if catalog_version:
+            from .preference_models import PreferenceCatalog
+            catalog = PreferenceCatalog.objects.get(pk=catalog_version, status="published").payload
+        if cutoff > timezone.now():
+            raise PreferenceError("future_cutoff", "统计截止点不能在未来。")
+        if current.retained_since and cutoff - timedelta(days=84) < current.retained_since:
+            raise PreferenceError("outside_retention", "所需明细已超出保留范围，不能声称完整重算。", 409)
+        values = []
+        for scope in ("person", "form"):
+            scoped = [("random", "", window, random_result(catalog, cutoff, window, scope)) for window in (84, 28)]
+            scoped += [(kind, object_id, 0, payload) for kind, object_id, payload in registration_results(catalog, cutoff, scope)]
+            random_payload = scoped[0][3]
+            support_payload = next(payload for kind, _, _, payload in scoped if kind == "support")
+            composite = composite_index(random_payload["rows"], support_payload["rows"],
+                                        settings.PREFERENCE_COMPOSITE_RANDOM_WEIGHT, settings.PREFERENCE_COMPOSITE_MIN_POOL,
+                                        support_payload["participant_count"], settings.PREFERENCE_COMPOSITE_MIN_SUPPORT_PARTICIPANTS)
+            composite.update({key: random_payload[key] for key in ("window_start", "window_end", "observed_start",
+                              "actual_days", "sample_size", "raw_sample_size", "weighted_evidence", "participant_count")})
+            composite.update(support_participant_count=support_payload["participant_count"],
+                             parameters=parameters(), reference_version=digest(composite["reference_pool"]))
+            scoped.append(("composite", "", 84, composite))
+            values.extend((scope, *row) for row in scoped)
+        version = algorithm_version()
+        snapshots = []
+        for scope, kind, object_id, window, payload in values:
+            payload["scope"] = scope
+            payload.setdefault("parameters", parameters())
+            previous = PreferenceSnapshot.objects.filter(scope=scope, kind=kind, object_id=object_id, window=window, cutoff=cutoff,
+                                                          catalog_version=catalog["version"], algorithm_version=version).first()
+            if previous and previous.revision == current.revision:
+                snapshots.append(previous)
+                continue
+            snapshots.append(PreferenceSnapshot.objects.create(scope=scope, kind=kind, object_id=object_id, window=window,
+                cutoff=cutoff, catalog_version=catalog["version"], algorithm_version=version,
+                asset_version=catalog["asset_version"], revision=current.revision, payload=payload,
+                supersedes=previous, reason=reason))
+        current.last_aggregation_at, current.aggregation_error = timezone.now(), ""
+        current.save(update_fields=["last_aggregation_at", "aggregation_error"])
+        return snapshots

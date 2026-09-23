@@ -1,11 +1,12 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
 
 from atlas import views
 from atlas.feedback_views import FeedbackView
 from atlas.ops_views import ReadyView
 
 urlpatterns = [
+    path("api/preferences/", include("atlas.preference_views")),
     path("admin/", admin.site.urls),
     path("api/feedback/", FeedbackView.as_view()),
     path("api/health/", views.HealthView.as_view()),

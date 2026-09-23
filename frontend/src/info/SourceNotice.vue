@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { onBeforeUnmount, onMounted, ref } from 'vue';
 import FeedbackPanel from '../components/FeedbackPanel.vue';
 import SiteNotice from '../components/SiteNotice.vue';
 import SiteNoticeButton from '../components/SiteNoticeButton.vue';
@@ -7,15 +7,24 @@ import mitLicense from '../../../LICENSE?raw';
 import './sources.css';
 
 const feedbackOpen = ref(false);
-onMounted(() => { document.title = '来源与版权 · 干员关系档案'; });
+let savedScroll = 0;
+onMounted(() => {
+  document.title = '来源与版权 · 泰拉群像';
+  const root = document.getElementById('sources-content')!;
+  try { savedScroll = Number(sessionStorage.getItem('terra-sources-scroll') || 0); } catch { /* 使用初始位置。 */ }
+  root.scrollTop = savedScroll;
+});
+onBeforeUnmount(() => {
+  try { sessionStorage.setItem('terra-sources-scroll', String(document.getElementById('sources-content')?.scrollTop || 0)); } catch { /* 滚动恢复不影响阅读。 */ }
+});
 </script>
 
 <template>
   <div class="sources-page">
     <a class="skip-link" href="#sources-content">跳到来源与版权说明</a>
     <header class="site-header sources-header">
-      <a class="site-brand" href="/#home"><span>干员关系档案</span><small>ARKNIGHTS</small></a>
-      <nav class="sources-navigation" aria-label="主导航"><a href="/?scope=all#factions">人物关系</a><a href="/game/">六步连线</a></nav>
+      <a class="site-brand" href="/#home"><span>泰拉群像</span><small>ARKNIGHTS</small></a>
+      <nav class="sources-navigation" aria-label="主导航"><a href="/?scope=all#factions">人物关系</a><a href="/game/">游戏</a><a href="/preferences/">喜好</a></nav>
     </header>
     <main id="sources-content" tabindex="-1" class="sources-content">
       <h1>来源与版权</h1>
@@ -26,6 +35,7 @@ onMounted(() => { document.title = '来源与版权 · 干员关系档案'; });
         <p>游戏图片、标识、角色设计及引用原文的权利归各自权利人所有；联动内容的权利归相应权利人所有。本站的关系整理与游戏玩法不改变这些内容的权利归属。</p>
         <ul>
           <li>干员头像与立绘：<a href="https://github.com/yuanyan3060/ArknightsGameResource" target="_blank" rel="noopener noreferrer">ArknightsGameResource</a>、<a href="https://github.com/fexli/ArknightsResource" target="_blank" rel="noopener noreferrer">ArknightsResource</a>。</li>
+          <li>喜好页外观：<a href="https://github.com/fexli/ArknightsResource/tree/230ae8586b4140645af68fe121e44d2676b56197/charpack" target="_blank" rel="noopener noreferrer">ArknightsResource 固定版本</a>，经透明裁边、压缩并生成缩略图与半身裁切。八职业图标：<a href="https://github.com/Aceship/Arknight-Images/tree/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes" target="_blank" rel="noopener noreferrer">Arknight-Images 固定版本</a>。</li>
           <li>NPC 图片与阵营徽记：<a href="https://prts.wiki/" target="_blank" rel="noopener noreferrer">PRTS</a>。部分图片经过裁切与压缩；人物档案中提供对应头像来源。</li>
           <li>关系依据：游戏剧情、人物档案及相关资料。引用原文和具体出处随关系详情列出。</li>
         </ul>

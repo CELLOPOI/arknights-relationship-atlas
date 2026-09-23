@@ -4,6 +4,8 @@
 
 清单覆盖 `assets/`、`avatars/`、`illustrations/` 与 `favicon.svg`。来源见 `assets/appearance-manifest.json`、包内 `assets/fonts.json`、[第三方声明](../THIRD_PARTY.md)和[素材与字体记录](ASSET_LICENSING.md)。当前 `rights_status` 为 `unreviewed`；文件纳入仓库和哈希校验通过均不表示第三方权利已核实，原创代码的 MIT 许可不扩大到这些素材。
 
+喜好功能另使用 `assets/preferences/`，由 `assets/preferences-manifest.json` 固定4,339文件、691,400,752字节，版本为 `preferences-assets-8c2e9f01754f902e4d189d8c`。包含1,361套外观的完整图、缩略图与半身图、新NPC图、八职业图标，以及原样保留的192个首版文件；HTTP 路径为 `/assets/preferences/`。人物固定代表图仍复用基础资源包。候选元数据、来源与逐形态覆盖见[喜好素材说明](PREFERENCES_ASSETS.md)。两个清单均随库提供，日常构建不连接相邻资料工程或上游下载源。
+
 ## 校验与构建
 
 ```bash
@@ -13,11 +15,13 @@ make check
 
 `npm run dev` 和 `npm run build` 的前置步骤校验素材并复制到生成的 `frontend/public/`，构建结果位于 `frontend/build/`。缺失、内容变化和符号链接会明确失败。立绘索引同时检查人物条目、图片尺寸、文件引用和可选缓存版本；引用须指向包内文件，缓存版本须对应实际摘要。自有默认头像在 `frontend/static/unknown.svg`。
 
+喜好素材通过 `node scripts/verify-preferences-assets.mjs` 额外校验全部文件摘要、图片解码和透明通道、候选归属及完整形态集合，并拒绝清单外文件。前端准备流程将其复制到 `frontend/public/assets/preferences/`。喜好候选名录须通过独立审核发布，不因素材构建成功自动上线。
+
 CI 的 `frontend-source` 检查执行完整 `make check-frontend`，包含素材校验、类型检查、生产构建及游戏和图谱测试。其他本地素材版本、压缩归档和生成目录不提交。
 
 ## 可选离线归档工具
 
-资源打包与导入工具用于离线复制或恢复，不是普通开发的前置步骤。从当前素材制作确定性归档：
+资源打包与导入工具用于基础资源包的离线复制或恢复，不是普通开发的前置步骤。喜好独立目录及其清单须另外随源码复制并校验，不包含在下列基础归档内。从当前基础素材制作确定性归档：
 
 ```bash
 backend/.venv/bin/python scripts/resource_pack.py pack --source assets/local/atlas-assets-24d6e8427efd2e90f29f1b7e --manifest assets/resource-manifest.json --output .runtime/resources/atlas-assets-24d6e8427efd2e90f29f1b7e.tar.gz

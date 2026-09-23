@@ -26,6 +26,10 @@ ATLAS_TEST_DATABASE_URL='postgresql://atlas_test:password@127.0.0.1:5432/atlas_c
 
 | 工具 | 用途 |
 | --- | --- |
+| `verify-preferences-ui.mjs` | 全 API 隔离的合成喜好验收：四视口、职业、卡面、冷却冲突、故障恢复、历史和异步切换 |
+| `verify-preferences-skin-fixes.mjs` | 真实目录与素材、合成个人状态：桌面/手机重复入口、保留异格、棘刺卡面、旧详情链接及来源页不参与手势翻页；设置 `FRONTEND_URL` 指向本机前端 |
+| `verify-preferences-identity.mjs` | 双榜真实 API：固定形态题、同人支持名额、本命替换、结果切换；必须显式设置 `PREFERENCES_DISPOSABLE_PREVIEW=1`，仅用于预置名录及初始快照的可丢弃本地库 |
+| `verify-preferences-assets.mjs`、`contact-preferences-assets.mjs` | 喜好固定素材/完整目录校验和视觉联系表，不联网 |
 | `verify-ui.mjs` | 图谱交互回归；完整应用需 `API_MODE=1`，数据数量参数应与目标数据匹配 |
 | `verify-hub-ui.mjs`、`verify-motion-ui.mjs` | 高关联人物分组、分页与动效 |
 | `verify-npc-ui.mjs` | NPC 范围、资料与头像 |
@@ -71,3 +75,15 @@ ATLAS_TEST_DATABASE_URL='postgresql://atlas_test:password@127.0.0.1:5432/atlas_c
 ## 后台浏览器验收
 
 `verify-editorial-ui.mjs` 仅对回环地址的可丢弃测试站写入，要求 `ATLAS_EDITORIAL_TEST_WRITES=1`、`BASE_URL` 和 `EDITORIAL_TEST_AUTH`。凭据 JSON 包含测试账号 `username`、`password` 及测试反馈 `feedback` ID，不提交仓库。使用 `atlas.test_releasing` 的测试基线 `test-1`、配套测试资源清单及专用数据库；不要指向业务库。脚本验证关联新增资料、审核、发布、反馈结案、快照导出及回退，截图和报告写入 `.runtime/verification/editorial/`。
+
+## 喜好 V2
+
+- `prepare-preferences-metadata.mjs`：显式固定元数据输入，完整形态、外观与剧情单元分母。
+- `prepare-preferences-npcs.py`：固定剧本文本/树、候选发言上下文；提取不等于入选，须维护审读结果。
+- `prepare-preferences-npc-assets.mjs`、`prepare-preferences-assets.mjs`：NPC与完整外观、原图摘要、V1保留、实际覆盖；更新时指定新 `--catalog-version`。
+- `prepare-preferences-portraits.py`：已校验脸部模型提供建议，保留逐图裁切/复核；需可选 assets 依赖，普通构建不需OpenCV。
+- `contact-preferences-portraits.mjs`：全量半身联系表；`verify-preferences-assets.mjs` 独立核对元数据分母、实际文件和旧版保留。
+- `verify-preferences-ui.mjs`：四视口合成接口、50次休息、原操作重试、卸载与迟到请求。
+- `verify-preferences-v2-real.mjs`：四视口真实API/素材/触控/网络，必须显式设置 `PREFERENCES_DISPOSABLE_PREVIEW=1` 并使用事先新建的可丢弃本地库。产生少量真实登记表中的合成动作，不可指向业务库。
+
+素材流程与复现命令见 [喜好素材](../docs/PREFERENCES_ASSETS.md)，结果见 [V2验收](../docs/PREFERENCES_V2_ACCEPTANCE.md)。

@@ -363,4 +363,5 @@ from . import (
     candidate_admin,  # noqa: F401
     editorial_admin,  # noqa: F401
     feedback_admin,  # noqa: F401
+    preference_admin,  # noqa: F401
 )

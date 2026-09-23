@@ -92,8 +92,8 @@ class Person(models.Model):
         verbose_name_plural = "人物"
 
     def clean(self):
-        if self.avatar and not re.fullmatch(r"/avatars/[A-Za-z0-9_-]+\.(webp|png|svg)", self.avatar):
-            raise ValidationError({"avatar": "头像须为 /avatars/ 下的本地图片路径。"})
+        if self.avatar and not re.fullmatch(r"(?:/avatars/|/assets/preferences/(?:[A-Za-z0-9_-]+/)*)[A-Za-z0-9_-]+\.(webp|png|svg)", self.avatar):
+            raise ValidationError({"avatar": "头像须为固定素材清单内的本地图片路径。"})
 
     def __str__(self):
         return self.name
@@ -335,4 +335,16 @@ from .candidate_models import Candidate, CandidateEdit  # noqa: F401
 from .editorial_models import ChangeSet, ChangeSetEvent  # noqa: F401
 from .feedback_models import Feedback, FeedbackGuard, FeedbackReceipt, FeedbackReview  # noqa: F401
 from .ops_models import AdminLoginGuard  # noqa: F401
+from .preference_models import (  # noqa: F401
+    PreferenceCatalog,
+    PreferenceChoice,
+    PreferenceControl,
+    PreferenceEvent,
+    PreferenceOperation,
+    PreferenceParticipant,
+    PreferenceRate,
+    PreferenceRiskSignal,
+    PreferenceSnapshot,
+    PreferenceTask,
+)
 from .release_models import DataRelease, ReleaseState  # noqa: F401
