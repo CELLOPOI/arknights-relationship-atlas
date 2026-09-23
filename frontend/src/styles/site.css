@@ -43,6 +43,29 @@
 .site-mark { font: 700 17px Bender, sans-serif; color: var(--text-muted); border-left: 1px solid #ffffff24; align-self: stretch; display: flex; align-items: center; padding-left: 32px; }
 .site-menu-toggle { display: none; }
 .portal { position: relative; height: calc(100dvh - 80px); overflow: hidden; background: #060809; }
+.portal-route[inert] { pointer-events: none; }
+.portal-route[inert] * { pointer-events: none; }
+/* 跨入口用旧、新画面衔接；页头保持原位，页面内容沿滚动方向移动。 */
+.site-header { view-transition-name: site-header; }
+html[data-section-direction]::view-transition-group(root) { animation-duration: 600ms; }
+html[data-section-direction]::view-transition-old(root),
+html[data-section-direction]::view-transition-new(root) { animation: 600ms cubic-bezier(.22, .61, .36, 1) both; mix-blend-mode: normal; }
+html[data-section-direction="forward"]::view-transition-old(root) { animation-name: section-exit-up; }
+html[data-section-direction="forward"]::view-transition-new(root) { animation-name: section-enter-up; }
+html[data-section-direction="backward"]::view-transition-old(root) { animation-name: section-exit-down; }
+html[data-section-direction="backward"]::view-transition-new(root) { animation-name: section-enter-down; }
+html[data-section-direction]::view-transition-group(site-header),
+html[data-section-direction]::view-transition-new(site-header) { animation: none; }
+html[data-section-direction]::view-transition-old(site-header) { display: none; }
+@keyframes section-exit-up { to { transform: translateY(-100%); } }
+@keyframes section-enter-up { from { transform: translateY(100%); } }
+@keyframes section-exit-down { to { transform: translateY(100%); } }
+@keyframes section-enter-down { from { transform: translateY(-100%); } }
+@media (prefers-reduced-motion: reduce) {
+  html[data-section-direction]::view-transition-group(*),
+  html[data-section-direction]::view-transition-old(*),
+  html[data-section-direction]::view-transition-new(*) { animation: none; }
+}
 .portal-rules { position: absolute; inset: 6% 80px 10% 4%; border-top: 1px solid #ffffff15; border-bottom: 1px solid #ffffff15; pointer-events: none; }
 .portal-rules::before { content: ""; position: absolute; left: 29%; top: -22%; width: 1px; height: 150%; background: #ffffff0c; transform: rotate(38deg); }
 .portal-rules::after { content: ""; position: absolute; right: 30%; top: -22%; width: 1px; height: 150%; background: #ffffff0c; transform: rotate(-38deg); }

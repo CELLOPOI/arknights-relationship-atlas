@@ -16,12 +16,19 @@ async function page(options = {}, notice) {
   const p = await browser.newPage({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce', ...options });
   p.setDefaultTimeout(10000);
   p.on('pageerror', error => errors.push(error.message));
+  await p.addInitScript(() => {
+    const showModal = HTMLDialogElement.prototype.showModal;
+    HTMLDialogElement.prototype.showModal = function() {
+      showModal.call(this);
+      if (this.id === 'site-notice-dialog') window.__noticeOpenedAt = performance.now();
+    };
+  });
   await installGameFixture(p);
   if (notice) await p.route('**/src/content/site-notice.ts*', route => route.fulfill({ contentType: 'text/javascript', body: `export const siteNotice = ${JSON.stringify(notice)};` }));
   return p;
 }
 const modal = p => p.locator('#site-notice-dialog');
-const confirm = p => p.getByRole('button', { name: '我已知晓', exact: true });
+const confirm = p => p.locator('.site-notice-confirm');
 async function ready(p, path = '/') {
   await p.goto(base + path);
   await modal(p).waitFor({ state: 'visible' });
@@ -48,7 +55,17 @@ try {
   await check('short notice, dismissal guards, acknowledgement, persistence and manual reopening', async () => {
     const p = await page({ reducedMotion: 'no-preference' });
     await ready(p);
+    assert.equal(await confirm(p).isDisabled(), true);
+    assert.match(await confirm(p).innerText(), /^我已知晓（[1-5]s）$/);
+    await p.screenshot({ path: `${output}/desktop-countdown.png` });
+    // 即使人为分派点击，也必须同时满足倒计时和阅读条件。
+    await confirm(p).dispatchEvent('click');
+    assert.equal(await modal(p).isVisible(), true);
+    await p.waitForFunction(() => document.querySelector('.site-notice-confirm').textContent.includes('（1s）'));
+    assert.equal(await confirm(p).isDisabled(), true);
     await p.waitForFunction(() => !document.querySelector('.site-notice-confirm').disabled);
+    assert.ok(await p.evaluate(() => performance.now() - window.__noticeOpenedAt >= 5000), 'Confirmation must wait at least five seconds after opening');
+    assert.equal(await confirm(p).innerText(), '我已知晓');
     assert.equal(await p.locator('#site-notice-heading').innerText(), '站点说明');
     assert.equal(await p.locator('.site-notice-project').getAttribute('href'), siteNotice.project.url);
     assert.equal(await p.locator('.site-notice-project').getAttribute('target'), '_blank');
@@ -57,6 +74,8 @@ try {
     await p.screenshot({ path: `${output}/desktop-short.png` });
     await p.reload();
     await modal(p).waitFor({ state: 'visible' });
+    assert.equal(await confirm(p).isDisabled(), true);
+    assert.match(await confirm(p).innerText(), /^我已知晓（[1-5]s）$/);
     await confirm(p).click();
     await modal(p).waitFor({ state: 'hidden' });
     assert.equal(await p.evaluate(key => localStorage.getItem(key), storageKey), siteNotice.version);
@@ -68,6 +87,8 @@ try {
       assert.equal(await modal(p).isVisible(), false);
       const entry = p.locator('.site-notice-entry:visible').first();
       await entry.click();
+      assert.equal(await confirm(p).isEnabled(), true);
+      assert.equal(await confirm(p).innerText(), '我已知晓');
       await confirm(p).click();
       await modal(p).waitFor({ state: 'hidden' });
       assert.equal(await entry.evaluate(el => el === document.activeElement), true);
@@ -114,6 +135,8 @@ try {
       await contained(p);
       assert.equal(await confirm(p).isDisabled(), true);
     }
+    await p.waitForFunction(() => document.querySelector('.site-notice-confirm').textContent === '我已知晓');
+    assert.equal(await confirm(p).isDisabled(), true, 'Finishing the countdown cannot bypass reading to the end');
     await body.focus(); await p.keyboard.press('End');
     await p.waitForFunction(() => !document.querySelector('.site-notice-confirm').disabled);
     await p.keyboard.press('Home');

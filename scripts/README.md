@@ -32,9 +32,10 @@ ATLAS_TEST_DATABASE_URL='postgresql://atlas_test:password@127.0.0.1:5432/atlas_c
 | `verify-game-ui.mjs`、`verify-game-illustrations.mjs` | 游戏交互及立绘 |
 | `verify-game-modes.mjs`、`verify-recognition-game.mjs` | 连线模式回归、双人判断与中间人候选；使用只读本地夹具 |
 | `capture-ui.mjs` | 桌面、手机及横屏截图 |
-| `verify-site-notice.mjs` | 模拟 API 下的首次站点说明、关闭与再次打开、版本记忆、键盘和手机布局；使用 `FRONTEND_URL` |
+| `verify-site-notice.mjs` | 模拟 API 下的首次站点说明、5 秒倒计时与读完确认、关闭与再次打开、版本记忆、键盘和手机布局；使用 `FRONTEND_URL` |
 | `verify-feedback-ui.mjs` | 模拟 API 下的反馈成功、错误、限流、键盘与移动端回归，不写业务库 |
 | `verify-atlas-lifecycle.mjs` | 模拟 API 下的图谱挂载、更新、卸载及交互回归，检查资源释放 |
+| `verify-section-scroll.mjs` | 只读 API 夹具下验证首页、阵营、游戏双向滚动、列表边界、滚轮惯性、触摸、历史和转场；使用 `FRONTEND_URL`，可选 `BROWSER=webkit`（WebKit 触摸仅为合成事件） |
 | `verify-particles.mjs` | 模拟 API 下全部现用徽记的分形状飞入、短激光尾迹、首页进入立即重播、原生页面右键、反复悬停、快速切换、触摸拖动与布局、减少动态和 Canvas 回退；使用 `FRONTEND_URL` 指定 Vite 地址 |
 | `verify-mobile-preview.mjs` | 模拟 API 下验证生产预览的慢网首屏深色底、无热更新连接、停留／断网恢复／横竖屏切换不重载或重播；使用 `FRONTEND_URL` 指定预览地址，可选 `BROWSER=webkit`（需安装该引擎） |
 | `verify-live-release.mjs` | 真实本地反馈、后台处理与候选导出；必须显式授权并使用指定版本的可丢弃演练库，见 [运行要求](../docs/LIVE_RELEASE_VALIDATION.md) |

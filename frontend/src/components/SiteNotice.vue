@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { siteNotice } from '../content/site-notice';
 import { acknowledgeSiteNotice, hasAcknowledgedSiteNotice, openSiteNotice, siteNoticeOpen } from '../site-notice';
 
@@ -7,9 +7,29 @@ const dialog = ref<HTMLDialogElement>();
 const body = ref<HTMLElement>();
 const content = ref<HTMLElement>();
 const readToEnd = ref(false);
+const remainingSeconds = ref(0);
+const canAcknowledge = computed(() => readToEnd.value && remainingSeconds.value === 0);
 let observer: ResizeObserver | undefined;
+let countdownTimer: number | undefined;
 let layoutReady = false;
 let opening = 0;
+
+function stopCountdown() {
+  window.clearTimeout(countdownTimer);
+  countdownTimer = undefined;
+}
+
+function startCountdown() {
+  const deadline = performance.now() + 5000;
+  const tick = () => {
+    const remaining = Math.max(0, deadline - performance.now());
+    remainingSeconds.value = Math.ceil(remaining / 1000);
+    // 按截止时间计算，避免后台标签页的定时器节流使倒计时逐秒累积误差。
+    if (remaining > 0) countdownTimer = window.setTimeout(tick, Math.min(1000, remaining));
+    else countdownTimer = undefined;
+  };
+  tick();
+}
 
 function checkReadPosition() {
   const element = body.value;
@@ -20,13 +40,17 @@ function checkReadPosition() {
 watch(siteNoticeOpen, async open => {
   const sequence = ++opening;
   observer?.disconnect();
+  stopCountdown();
   layoutReady = false;
   await nextTick();
   if (sequence !== opening || !dialog.value || !body.value || !content.value) return;
   if (!open) { dialog.value.close(); return; }
-  // 已确认后主动重看不再要求滚到底；首次阅读只在正文末尾出现后解锁。
-  readToEnd.value = hasAcknowledgedSiteNotice();
+  // 首次确认需读完并等待五秒；已确认后主动重看可直接关闭。
+  const acknowledged = hasAcknowledgedSiteNotice();
+  readToEnd.value = acknowledged;
+  remainingSeconds.value = acknowledged ? 0 : 5;
   dialog.value.showModal();
+  if (!acknowledged) startCountdown();
   body.value.scrollTop = 0;
   body.value.focus({ preventScroll: true });
   observer = new ResizeObserver(checkReadPosition);
@@ -39,11 +63,11 @@ watch(siteNoticeOpen, async open => {
 }, { immediate: true });
 
 function acknowledge() {
-  if (readToEnd.value) acknowledgeSiteNotice();
+  if (canAcknowledge.value) acknowledgeSiteNotice();
 }
 
 onMounted(() => { if (!hasAcknowledgedSiteNotice()) openSiteNotice(); });
-onBeforeUnmount(() => { opening++; observer?.disconnect(); dialog.value?.close(); });
+onBeforeUnmount(() => { opening++; stopCountdown(); observer?.disconnect(); dialog.value?.close(); });
 </script>
 
 <template>
@@ -57,8 +81,8 @@ onBeforeUnmount(() => { opening++; observer?.disconnect(); dialog.value?.close()
         </div>
       </div>
       <footer class="site-notice-footer">
-        <p id="site-notice-status" role="status">{{ readToEnd ? '确认后不再自动弹出' : '请阅读至末尾' }}</p>
-        <button type="button" class="archive-button site-notice-confirm" :disabled="!readToEnd" aria-describedby="site-notice-status" @click="acknowledge">我已知晓</button>
+        <p id="site-notice-status" role="status">{{ !readToEnd ? '请阅读至末尾' : remainingSeconds > 0 ? '倒计时结束后可确认' : '确认后不再自动弹出' }}</p>
+        <button type="button" class="archive-button site-notice-confirm" :disabled="!canAcknowledge" aria-describedby="site-notice-status" @click="acknowledge">{{ remainingSeconds > 0 ? `我已知晓（${remainingSeconds}s）` : '我已知晓' }}</button>
       </footer>
     </div>
   </dialog>
@@ -75,7 +99,7 @@ onBeforeUnmount(() => { opening++; observer?.disconnect(); dialog.value?.close()
 .site-notice-project:hover { color: var(--accent-cyan-hover); }
 .site-notice-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex: none; border-top: 1px solid var(--archive-rule); padding: 18px 28px; }
 .site-notice-footer p { margin: 0; font-size: 13px; line-height: 1.6; color: var(--text-muted); }
-.site-notice-confirm { flex: none; background: var(--accent-cyan); border-color: var(--accent-cyan); }
+.site-notice-confirm { flex: none; background: var(--accent-cyan); border-color: var(--accent-cyan); font-variant-numeric: tabular-nums; }
 .site-notice-confirm:hover { background: var(--accent-cyan-hover); border-color: var(--accent-cyan-hover); }
 .site-notice-dialog .site-notice-confirm:disabled { background: var(--bg-surface); border-color: var(--archive-rule); color: var(--text-muted); opacity: 1; }
 @media (max-width: 760px) {
