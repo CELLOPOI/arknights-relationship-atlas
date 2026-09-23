@@ -72,6 +72,28 @@ BASE_URL=http://127.0.0.1:5173 API_MODE=1 EXPECTED_OPERATOR_EDGES=3703 EXPECTED_
 
 `make test-upstream` 单独运行，要求具备相邻资料工程。上游重建只形成审读材料与候选差异，经后台修订审核发布，不覆盖人工维护结果。代码升级执行迁移，保留当前正式版本，不能再次应用初始资料包。`.runtime/`、数据库、资源压缩归档、生成的 `frontend/public/` 和 `frontend/build/` 均不提交；当前固定清单对应的素材目录随库维护，边界见 [仓库文件约定](REPOSITORY_POLICY.md)。
 
+## 可选访问统计
+
+使用 Cloudflare 橙云代理时，优先在 Web Analytics 中启用自动安装，后续应用发布无需携带统计标识。此时保持下述构建变量为空，避免手动脚本与自动安装同时启用。灰云直连或明确选择手动安装时才使用构建注入。
+
+生产构建支持 Cloudflare Web Analytics 的手动脚本接入。将后台代码中的 `token` 配置为 `CLOUDFLARE_WEB_ANALYTICS_TOKEN`：本地 npm 构建可放在已忽略的 `frontend/.env.production.local`；Compose 构建放在根目录 `.env`；独立镜像构建通过同名 `--build-arg` 传入。标识会出现在发布后的 HTML 中，但实际站点配置不提交仓库。
+
+未配置或留空时不输出统计脚本，开发服务与非 production 模式不注入。生产构建在 `</body>` 前添加 Cloudflare 的外部 module 脚本，保留其默认 SPA 统计；不用在页面切换时重复安装。使用带统计的构建做本地浏览器验收时应拦截统计请求，避免测试流量进入报表。
+
+变量只在构建时读取，修改后需要重新构建并发布 Web 镜像；给已运行的容器补环境变量不会改变网页。通过 Git 归档制作交付时，本地 `.env.production.local` 不会进入归档，交付构建器必须显式传入构建参数。后台选择手动 JS 安装，避免与代理自动注入重复。接入后验证发布 HTML 中仅有一个 `data-cf-beacon` 脚本，再检查实际浏览器上报和统计后台；构建通过不代表报表已经收到数据。参见 [Cloudflare 接入说明](https://developers.cloudflare.com/web-analytics/get-started/)。
+
+## CDN 与访客地址
+
+默认 `CADDY_TRUSTED_PROXY_CIDRS` 留空，Caddy 使用直连地址，忽略访客自行设置的转发头。启用 CDN 前，在部署 `.env` 中填入入口代理实际使用的来源 CIDR，空格分隔。Cloudflare 使用其[官方 IPv4](https://www.cloudflare.com/ips-v4/)和[IPv6](https://www.cloudflare.com/ips-v6/)列表，不信任全部公网、全部私网或仅凭一个请求头判断代理身份。
+
+Caddy 只对受信任连接从右向左解析 `X-Forwarded-For`，再将已确定的单个 `{client_ip}` 传给 API。Django 仍只信任 Compose 中固定的 Caddy 地址，不需要添加 CDN 网段。这样直连与代理入口都能保持反馈、后台登录和喜好接口的访客限流隔离；不能改回 `{remote_host}`，也不能直接使用未经来源验证的 `CF-Connecting-IP`。
+
+这些网段属于运行配置，正常更新镜像时继续沿用部署 `.env`。代理提供商更改来源网段时单独维护并重建 Web 容器；不需要每次应用发布重新填写。Cloudflare 应使用 Full (strict)，源站继续由 Caddy 管理有效证书；保留证书持久卷及 HTTP 证书验证通路。后台、写入接口和就绪检查不配置强制缓存或浏览器挑战，开启代理后复查 HTTPS、静态资源、登录与状态监控。
+
+本地安装 Caddy 2.8 或更新版本后，运行 `backend/.venv/bin/python scripts/verify_caddy_proxy.py --caddy /path/to/caddy`。脚本使用实际 Caddy 配置与本机临时回显服务，验证直连、不可信代理、可信代理、IPv4/IPv6 和伪造请求头，共 36 个请求断言，不连接真实数据库或网站。
+
+设计理由与验证边界见[代理入口与访问统计](../.agents/notes/implemented/architecture/2026-09-23-cdn-and-web-analytics.md)。
+
 ## 启用喜好目录
 
 迁移后按[喜好开发说明](PREFERENCES.md)将固定候选名录建立草稿、审核、预览并发布，再运行 `aggregate_preferences`。这条流程独立于正式人物资料，不关闭资料保护或旧社区开关。前端同时校验旧素材和 `assets/preferences-manifest.json`；普通构建不下载图片。喜好模拟浏览器验收使用 `FRONTEND_URL=http://127.0.0.1:5173 node scripts/verify-preferences-ui.mjs`；真实写入和备份恢复必须使用可丢弃数据库。

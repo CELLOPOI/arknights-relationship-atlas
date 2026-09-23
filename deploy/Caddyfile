@@ -1,7 +1,16 @@
-# 当前入口直接接收访客连接；接 CDN/LB 前须重新核查真实来源地址链。
+{
+    servers {
+        # 留空时不信任外部代理；仅填写实际入口代理的来源网段。
+        trusted_proxies static {$CADDY_TRUSTED_PROXY_CIDRS:}
+        trusted_proxies_strict
+    }
+}
+
+# 将已验证的单个来源地址传给 API，避免转发链中的伪造地址影响限流。
+# 入口约束见 docs/DEVELOPMENT.md 的「CDN 与访客地址」。
 (atlas_api) {
     reverse_proxy api:8000 {
-        header_up X-Forwarded-For {remote_host}
+        header_up X-Forwarded-For {client_ip}
         header_up X-Forwarded-Proto {scheme}
         header_up -Forwarded
     }
