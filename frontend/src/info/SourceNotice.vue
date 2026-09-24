@@ -9,7 +9,7 @@ import './sources.css';
 const feedbackOpen = ref(false);
 let savedScroll = 0;
 onMounted(() => {
-  document.title = '来源与版权 · 泰拉群像';
+  document.title = '来源与版权 · 方舟关系与喜好';
   const root = document.getElementById('sources-content')!;
   try { savedScroll = Number(sessionStorage.getItem('terra-sources-scroll') || 0); } catch { /* 使用初始位置。 */ }
   root.scrollTop = savedScroll;
@@ -23,7 +23,7 @@ onBeforeUnmount(() => {
   <div class="sources-page">
     <a class="skip-link" href="#sources-content">跳到来源与版权说明</a>
     <header class="site-header sources-header">
-      <a class="site-brand" href="/#home"><span>泰拉群像</span><small>ARKNIGHTS</small></a>
+      <a class="site-brand" href="/#home"><span>方舟关系与喜好</span><small>ARKNIGHTS</small></a>
       <nav class="sources-navigation" aria-label="主导航"><a href="/?scope=all#factions">人物关系</a><a href="/game/">游戏</a><a href="/preferences/">喜好</a></nav>
     </header>
     <main id="sources-content" tabindex="-1" class="sources-content">

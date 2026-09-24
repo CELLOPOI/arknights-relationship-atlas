@@ -22,7 +22,7 @@
 | 匿名反馈与访客界面 | [反馈](FEEDBACK.md)、[访客界面](VISITOR_UI.md) |
 | NPC、阵营和来源名称 | [NPC 接入](NPC_IMPORT.md)、[阵营](FACTION_UPDATE.md)、[来源名称](SOURCE_TITLES.md) |
 | 图谱和游戏 | [关系分组](RELATION_GROUPS.md)、[图谱动效](GRAPH_MOTION.md)、[图谱生命周期](GRAPH_LIFECYCLE.md)、[游戏](GAME.md) |
-| 泰拉群像「喜好」分区：人物与皮肤 | [实现](PREFERENCES.md)、[V2验收](PREFERENCES_V2_ACCEPTANCE.md)、[算法与模拟](PREFERENCES_STATISTICS.md)、[接口](PREFERENCES_API.md)、[固定素材](PREFERENCES_ASSETS.md)、[策划](POPULARITY_PROPOSAL.md)、[需求](POPULARITY_REQUIREMENTS.md)、[计划](POPULARITY_DEVELOPMENT_PLAN.md) |
+| 「喜好」分区：人物与皮肤 | [实现](PREFERENCES.md)、[V2验收](PREFERENCES_V2_ACCEPTANCE.md)、[算法与模拟](PREFERENCES_STATISTICS.md)、[接口](PREFERENCES_API.md)、[固定素材](PREFERENCES_ASSETS.md)、[策划](POPULARITY_PROPOSAL.md)、[需求](POPULARITY_REQUIREMENTS.md)、[计划](POPULARITY_DEVELOPMENT_PLAN.md) |
 | 设计与工程取舍 | [设计记录](../DESIGN.md)、[参考学习](SOURCE_LEARNING.md)、[决策笔记](../.agents/notes/) |
 
 ## 验证契约
