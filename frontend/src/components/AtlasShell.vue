@@ -68,7 +68,7 @@ onBeforeUnmount(() => { unmounted = true; atlas?.dispose(); });
   </svg>
 
   <header class="site-header">
-    <a class="site-brand" href="#home" data-page="home"><span>泰拉群像</span><small>ARKNIGHTS</small></a>
+    <a class="site-brand" href="#home" data-page="home"><span>方舟关系与喜好</span><small>ARKNIGHTS</small></a>
     <nav class="site-nav" aria-label="主导航">
       <a href="#home" data-page="home"><span>INDEX</span><small>首页</small></a>
       <a href="#factions" data-page="factions"><span>RELATIONS</span><small>人物关系</small></a>
@@ -89,7 +89,7 @@ onBeforeUnmount(() => { unmounted = true; atlas?.dispose(); });
     <main id="home-page" class="portal-route home-page" aria-label="首页">
       <div class="home-wordmark" aria-hidden="true">ARKNIGHTS</div>
       <div class="home-copy">
-        <h1 tabindex="-1">泰拉群像</h1>
+        <h1 tabindex="-1">方舟关系与喜好</h1>
         <a class="portal-enter" href="#factions" data-page="factions"><span>查看人物关系<small>EXPLORE RELATIONS</small></span><svg><use href="#i-arrow-up-right"/></svg></a>
       </div>
       <div class="home-caption"><span>RHODES ISLAND ://</span><span>人物 · 阵营 · 关系</span></div>

@@ -1,6 +1,6 @@
 # 喜好功能：开发、发布与验收
 
-「泰拉群像」的 `/preferences/` 共用人物与皮肤入口；`tab=characters`、`tab=skins` 切换视图，`tab=skins&form=形态ID` 打开外观详情。前端位于 `frontend/src/preferences/`，业务、审核与统计位于 `backend/atlas/preference_*.py`。V2 实际覆盖 581 个人物（397 位干员、184 位 NPC）、446 个完整形态目录、1,361 个外观；425 个形态可选择，21 个单外观形态仅浏览。
+「方舟关系与喜好」的 `/preferences/` 共用人物与皮肤入口；`tab=characters`、`tab=skins` 切换视图，`tab=skins&form=形态ID` 打开外观详情。前端位于 `frontend/src/preferences/`，业务、审核与统计位于 `backend/atlas/preference_*.py`。V2 实际覆盖 581 个人物（397 位干员、184 位 NPC）、446 个完整形态目录、1,361 个外观；425 个形态可选择，21 个单外观形态仅浏览。
 
 当前实现和本地验收已完成。实际缺项、测试证据、预览与后续边界见 [V2 验收](PREFERENCES_V2_ACCEPTANCE.md)；完整来源见[素材说明](PREFERENCES_ASSETS.md)，算法见[统计说明](PREFERENCES_STATISTICS.md)，字段见[接口契约](PREFERENCES_API.md)。原首版记录单独保存在 [V1 验收归档](PREFERENCES_V1_ACCEPTANCE.md)。没有自动部署线上，也没有以合成流量代替公众试运行。
 

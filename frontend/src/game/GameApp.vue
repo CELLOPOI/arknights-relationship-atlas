@@ -296,7 +296,7 @@ function closeEvidence() { evidenceRequest++; evidenceDialog.value?.close(); }
 
 let releaseScroll: (() => void) | undefined;
 onMounted(() => {
-  document.title = '人物连线 · 泰拉群像'; load();
+  document.title = '人物连线 · 方舟关系与喜好'; load();
   releaseScroll = bindSectionScroll(document.getElementById('game-workspace')!, {
     blocked: sectionTransitioning,
     step: direction => {
@@ -312,7 +312,7 @@ onBeforeUnmount(() => { disposed = true; evidenceRequest++; releaseScroll?.(); }
   <div class="game-app">
     <a class="skip-link" href="#game-workspace">跳到人物连线</a>
     <header class="site-header game-header">
-      <a class="site-brand" href="/#home"><span>泰拉群像</span><small>ARKNIGHTS</small></a>
+      <a class="site-brand" href="/#home"><span>方舟关系与喜好</span><small>ARKNIGHTS</small></a>
       <nav class="site-nav" aria-label="主导航">
         <a href="/#home"><span>INDEX</span><small>首页</small></a>
         <a href="/?scope=all#factions"><span>RELATIONS</span><small>人物关系</small></a>

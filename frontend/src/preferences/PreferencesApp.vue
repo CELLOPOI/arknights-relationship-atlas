@@ -80,7 +80,7 @@ function route(next: 'characters' | 'skins', form = '') {
   if (state.value) void refresh();
 }
 onMounted(() => {
-  document.title = '喜好 · 泰拉群像';
+  document.title = '喜好 · 方舟关系与喜好';
   void syncRoute(); void load();
   window.addEventListener('popstate', syncRoute);
   document.addEventListener('atlas:preferences-changed', refresh);
@@ -98,7 +98,7 @@ onBeforeUnmount(() => { if (viewport.value) scrolls[tab.value] = viewport.value.
   <div class="preferences-app">
     <a class="skip-link" href="#preferences-workspace">跳到喜好内容</a>
     <header class="site-header preferences-header">
-      <a class="site-brand" href="/#home"><span>泰拉群像</span><small>ARKNIGHTS</small></a>
+      <a class="site-brand" href="/#home"><span>方舟关系与喜好</span><small>ARKNIGHTS</small></a>
       <nav class="site-nav" aria-label="主导航">
         <a href="/#home"><span>INDEX</span><small>首页</small></a>
         <a href="/?scope=all#factions"><span>RELATIONS</span><small>人物关系</small></a>

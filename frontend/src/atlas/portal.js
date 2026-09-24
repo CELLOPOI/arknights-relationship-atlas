@@ -114,7 +114,7 @@ function showPage(next, { animate = true } = {}) {
   // 首页与干员页共用徽记缓存；进入干员页仍要按新画布尺寸立即重播入场。
   if (next !== 'graph' && icons.length) selectEmblem(next === 'home' ? 0 : activeIndex, { replay: next === 'factions' && previous !== next });
   syncPlayback();
-  document.title = next === 'home' ? '泰拉群像 · 明日方舟人物关系与喜好' : next === 'factions' ? (directoryGroup ? '联动 · 泰拉群像' : '人物关系 · 泰拉群像') : '人物关系图 · 泰拉群像';
+  document.title = next === 'home' ? '方舟关系与喜好' : next === 'factions' ? (directoryGroup ? '联动 · 方舟关系与喜好' : '人物关系 · 方舟关系与喜好') : '人物关系图 · 方舟关系与喜好';
   lastURL = location.href;
 }
 
