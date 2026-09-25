@@ -93,9 +93,8 @@ class PreferenceIdentityTests(TestCase):
         self.assertEqual(random_result(self.catalog, timezone.now(), 84, "form")["sample_size"], 1)
 
     def test_family_exposure_limit_applies_across_forms(self):
-        self.answer(left="form:f1")
-        self.answer(left="form:f2")
-        self.answer(left="form:f1")
+        for index in range(6):
+            self.answer(left="form:f1" if index % 2 else "form:f2")
         for _ in range(1):
             result = perform(self.participant, "task", issue_task)
             self.assertNotIn("a", (result["task"]["left_id"], result["task"]["right_id"]))

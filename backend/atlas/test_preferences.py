@@ -156,6 +156,7 @@ class PreferenceTests(TestCase):
         cutoff = now + timedelta(days=28) - timedelta(seconds=1)
         self.assertEqual(quota(self.participant, cutoff)["rolling_used"], 0)
 
+    @override_settings(PREFERENCE_PERSON_LIMIT=3)
     def test_pair_dedup_and_person_three_display_limit(self):
         for _ in range(6):
             try:
