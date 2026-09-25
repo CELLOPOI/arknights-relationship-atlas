@@ -213,11 +213,15 @@ def analyze_random(catalog, cutoff, window, all_rows):
             "interpretation": "本站自愿参与样本。权重限制证据量，不保证真人等权或最终分数影响上限。"}
 
 
-def random_result(catalog, cutoff, window, scope="person"):
-    rows = list(PreferenceTask.objects.filter(status="answered", accepted_at__gt=cutoff - timedelta(days=window),
+def comparison_rows(cutoff, window):
+    return list(PreferenceTask.objects.filter(status="answered", accepted_at__gt=cutoff - timedelta(days=window),
         accepted_at__lte=cutoff, risk_status="accepted", participant__risk_status="accepted").values(
             "id", "left_id", "right_id", "left_subject_id", "right_subject_id", "winner_id",
             "participant_id", "outcome", "strategy", "accepted_at"))
+
+
+def random_result(catalog, cutoff, window, scope="person", *, rows=None):
+    rows = comparison_rows(cutoff, window) if rows is None else rows
     candidates = subjects(catalog)
     projected = list(project_comparisons(rows, scope, candidates))
     target = {**catalog, "persons": list(candidates.values())} if scope == "form" else catalog
@@ -236,8 +240,8 @@ def current_states(cutoff):
     return supports, choices
 
 
-def registration_results(catalog, cutoff, scope="person"):
-    supports, choices = current_states(cutoff)
+def registration_results(catalog, cutoff, scope="person", *, states=None):
+    supports, choices = current_states(cutoff) if states is None else states
     eligible = subjects(catalog) if scope == "form" else eligible_people(catalog)
     counts, favorites = Counter(), Counter()
     denominator = 0
@@ -285,13 +289,13 @@ def snapshot_data(snapshot):
 
 def aggregate(cutoff=None, reason="", catalog_version=None, force_revision=False):
     cutoff = cutoff or timezone.now().replace(second=0, microsecond=0)
-    with transaction.atomic():
+    if force_revision and not reason.strip():
+        raise PreferenceError("reason_required", "显式重算修订需要填写原因。")
+    # 只在取数和发布时持有控制锁；拟合与重采样不能阻塞派题、投票或新身份。
+    # durable 防止调用者的外层事务让取数阶段的锁延续到整个计算结束。
+    with transaction.atomic(durable=True):
         current = control(lock=True)
-        if force_revision:
-            if not reason.strip():
-                raise PreferenceError("reason_required", "显式重算修订需要填写原因。")
-            current.revision += 1
-            current.save(update_fields=["revision"])
+        source_version = (current.catalog_id, current.revision, current.retained_since)
         catalog = require_catalog(current)
         if catalog_version:
             from .preference_models import PreferenceCatalog
@@ -300,22 +304,35 @@ def aggregate(cutoff=None, reason="", catalog_version=None, force_revision=False
             raise PreferenceError("future_cutoff", "统计截止点不能在未来。")
         if current.retained_since and cutoff - timedelta(days=84) < current.retained_since:
             raise PreferenceError("outside_retention", "所需明细已超出保留范围，不能声称完整重算。", 409)
-        values = []
-        for scope in ("person", "form"):
-            scoped = [("random", "", window, random_result(catalog, cutoff, window, scope)) for window in (84, 28)]
-            scoped += [(kind, object_id, 0, payload) for kind, object_id, payload in registration_results(catalog, cutoff, scope)]
-            random_payload = scoped[0][3]
-            support_payload = next(payload for kind, _, _, payload in scoped if kind == "support")
-            composite = composite_index(random_payload["rows"], support_payload["rows"],
-                                        settings.PREFERENCE_COMPOSITE_RANDOM_WEIGHT, settings.PREFERENCE_COMPOSITE_MIN_POOL,
-                                        support_payload["participant_count"], settings.PREFERENCE_COMPOSITE_MIN_SUPPORT_PARTICIPANTS)
-            composite.update({key: random_payload[key] for key in ("window_start", "window_end", "observed_start",
-                              "actual_days", "sample_size", "raw_sample_size", "weighted_evidence", "participant_count")})
-            composite.update(support_participant_count=support_payload["participant_count"],
-                             parameters=parameters(), reference_version=digest(composite["reference_pool"]))
-            scoped.append(("composite", "", 84, composite))
-            values.extend((scope, *row) for row in scoped)
-        version = algorithm_version()
+        # 两种口径、两个窗口复用同一份已提交输入，离开事务后不再查询业务明细。
+        rows = comparison_rows(cutoff, 84)
+        states = current_states(cutoff)
+
+    values = []
+    for scope in ("person", "form"):
+        scoped = [("random", "", window, random_result(catalog, cutoff, window, scope, rows=rows)) for window in (84, 28)]
+        scoped += [(kind, object_id, 0, payload) for kind, object_id, payload in registration_results(catalog, cutoff, scope, states=states)]
+        random_payload = scoped[0][3]
+        support_payload = next(payload for kind, _, _, payload in scoped if kind == "support")
+        composite = composite_index(random_payload["rows"], support_payload["rows"],
+                                    settings.PREFERENCE_COMPOSITE_RANDOM_WEIGHT, settings.PREFERENCE_COMPOSITE_MIN_POOL,
+                                    support_payload["participant_count"], settings.PREFERENCE_COMPOSITE_MIN_SUPPORT_PARTICIPANTS)
+        composite.update({key: random_payload[key] for key in ("window_start", "window_end", "observed_start",
+                          "actual_days", "sample_size", "raw_sample_size", "weighted_evidence", "participant_count")})
+        composite.update(support_participant_count=support_payload["participant_count"],
+                         parameters=parameters(), reference_version=digest(composite["reference_pool"]))
+        scoped.append(("composite", "", 84, composite))
+        values.extend((scope, *row) for row in scoped)
+    version = algorithm_version()
+
+    with transaction.atomic(durable=True):
+        current = control(lock=True)
+        if (current.catalog_id, current.revision, current.retained_since) != source_version:
+            raise PreferenceError("aggregation_conflict", "统计期间名录、复核状态或保留范围发生变化，请重新运行统计。", 409)
+        # 显式修订与整批快照一起提交；计算失败或版本冲突不能消耗修订号。
+        if force_revision:
+            current.revision += 1
+            current.save(update_fields=["revision"])
         snapshots = []
         for scope, kind, object_id, window, payload in values:
             payload["scope"] = scope
