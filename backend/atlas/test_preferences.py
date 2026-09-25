@@ -8,11 +8,11 @@ import uuid
 from concurrent.futures import ThreadPoolExecutor
 from datetime import timedelta
 from pathlib import Path
-from threading import Barrier
+from threading import Barrier, Event
 from unittest import skipUnless
 from unittest.mock import patch
 
-from django.db import close_old_connections, connection
+from django.db import close_old_connections, connection, connections, transaction
 from django.test import Client, TestCase, TransactionTestCase, override_settings
 from django.utils import timezone
 
@@ -46,7 +46,7 @@ from .preference_services import (
     update_choice,
     update_supports,
 )
-from .preference_statistics import aggregate, fit_bt, random_result
+from .preference_statistics import aggregate, analyze_random, fit_bt, random_result
 from .preference_views import credential_hash
 
 
@@ -518,6 +518,76 @@ print('RESTORE_OK')
         self.assertIsNotNone(snapshot.supersedes_id)
         self.assertEqual(snapshot.reason, "Algorithm input audit")
 
+    def assert_aggregation_conflict(self, change):
+        changed = False
+
+        def analyze(*args, **kwargs):
+            nonlocal changed
+            if not changed:
+                changed = True
+                change()
+            return analyze_random(*args, **kwargs)
+
+        with (patch("atlas.preference_statistics.analyze_random", side_effect=analyze),
+              self.assertRaises(PreferenceError) as raised):
+            aggregate(timezone.now(), force_revision=True, reason="Synthetic revision")
+        self.assertEqual(raised.exception.code, "aggregation_conflict")
+        self.assertFalse(PreferenceSnapshot.objects.exists())
+        self.assertIsNone(PreferenceControl.objects.get().last_aggregation_at)
+
+    def test_aggregation_discards_results_after_risk_review(self):
+        self.assert_aggregation_conflict(
+            lambda: review_risk(self.participant.pk, "excluded", self.actor, "Synthetic review during calculation"))
+        self.assertEqual(PreferenceControl.objects.get().revision, 1, "Failed aggregation must not consume a revision")
+
+    def test_aggregation_discards_results_after_catalog_change(self):
+        data = payload()
+        data["version"] = "test-v2"
+        catalog = PreferenceCatalog.objects.create(version=data["version"], payload=data, digest=digest(data),
+                                                   status="published", created_by=self.actor, published_at=timezone.now())
+        self.assert_aggregation_conflict(lambda: PreferenceControl.objects.update(catalog=catalog))
+        self.assertEqual(PreferenceControl.objects.get().revision, 0)
+
+    def test_aggregation_discards_results_after_retention_change(self):
+        self.assert_aggregation_conflict(
+            lambda: PreferenceControl.objects.update(retained_since=timezone.now() - timedelta(days=180)))
+        self.assertEqual(PreferenceControl.objects.get().revision, 0)
+
+    def test_aggregation_failure_keeps_existing_snapshots_and_revision(self):
+        cutoff = timezone.now()
+        aggregate(cutoff)
+        previous = list(PreferenceSnapshot.objects.values_list("pk", "payload"))
+        before = PreferenceControl.objects.get()
+        with (patch("atlas.preference_statistics.analyze_random", side_effect=RuntimeError("Synthetic calculation failure")),
+              self.assertRaisesRegex(RuntimeError, "Synthetic calculation failure")):
+            aggregate(cutoff, force_revision=True, reason="Synthetic revision")
+        self.assertEqual(list(PreferenceSnapshot.objects.values_list("pk", "payload")), previous)
+        after = PreferenceControl.objects.get()
+        self.assertEqual((after.revision, after.last_aggregation_at), (before.revision, before.last_aggregation_at))
+
+    def test_aggregation_publish_failure_rolls_back_entire_batch(self):
+        create = PreferenceSnapshot.objects.create
+        calls = 0
+
+        def fail_after_first(**kwargs):
+            nonlocal calls
+            calls += 1
+            if calls == 2:
+                raise RuntimeError("Synthetic publication failure")
+            return create(**kwargs)
+
+        with (patch("atlas.preference_statistics.PreferenceSnapshot.objects.create", side_effect=fail_after_first),
+              self.assertRaisesRegex(RuntimeError, "Synthetic publication failure")):
+            aggregate(timezone.now(), force_revision=True, reason="Synthetic revision")
+        self.assertFalse(PreferenceSnapshot.objects.exists())
+        self.assertEqual(PreferenceControl.objects.get().revision, 0)
+        self.assertIsNone(PreferenceControl.objects.get().last_aggregation_at)
+
+    def test_aggregation_rejects_outer_transaction(self):
+        with transaction.atomic(), self.assertRaisesRegex(RuntimeError, "durable atomic block"):
+            aggregate(timezone.now())
+        self.assertFalse(PreferenceSnapshot.objects.exists())
+
     def test_management_command_parsers_and_sided_unfamiliar(self):
         from django.core.management import get_commands, load_command_class
         for name in ("preference_catalog", "aggregate_preferences", "purge_preferences", "review_preference_risk", "simulate_preferences"):
@@ -563,6 +633,55 @@ class PreferenceConcurrencyTests(TransactionTestCase):
                 close_old_connections()
         with ThreadPoolExecutor(max_workers=len(callbacks)) as pool:
             return list(pool.map(run, callbacks))
+
+    @override_settings(PREFERENCE_BOOTSTRAP_SAMPLES=2)
+    def test_identity_issue_and_answer_complete_while_aggregation_is_computing(self):
+        computing, resume = Event(), Event()
+
+        def paused_analysis(*args, **kwargs):
+            computing.set()
+            if not resume.wait(10):
+                raise RuntimeError("Aggregation concurrency test timed out")
+            self.assertFalse(connection.in_atomic_block, "Statistical calculation must run outside a transaction")
+            return analyze_random(*args, **kwargs)
+
+        def run_aggregation():
+            close_old_connections()
+            try:
+                return aggregate(timezone.now())
+            finally:
+                connections.close_all()
+
+        with (patch("atlas.preference_statistics.analyze_random", side_effect=paused_analysis),
+              ThreadPoolExecutor(max_workers=1) as pool):
+            job = pool.submit(run_aggregation)
+            try:
+                self.assertTrue(computing.wait(5), "Aggregation did not reach its calculation phase")
+                with connection.cursor() as cursor:
+                    cursor.execute("SET lock_timeout = '1500ms'")
+                fresh_client = Client()
+                identity = fresh_client.post("/api/preferences/identity/", "{}", content_type="application/json")
+                self.assertEqual(identity.status_code, 200)
+                self.client.cookies["atlas_preferences"] = "test-credential"
+                issued = self.client.post("/api/preferences/tasks/", json.dumps({"operation_key": "concurrent-dispatch"}),
+                                          content_type="application/json")
+                self.assertEqual(issued.status_code, 200)
+                task = issued.json()["task"]
+                body = {"operation_key": "concurrent-vote", "outcome": "choose", "winner_id": task["left_id"]}
+                url = f"/api/preferences/tasks/{task['id']}/answer/"
+                answered = self.client.post(url, json.dumps(body), content_type="application/json")
+                retried = self.client.post(url, json.dumps(body), content_type="application/json")
+                self.assertEqual(answered.status_code, 200)
+                self.assertEqual(retried.json(), answered.json())
+                self.assertFalse(job.done(), "Voting must complete before aggregation is allowed to finish")
+            finally:
+                resume.set()
+                with connection.cursor() as cursor:
+                    cursor.execute("RESET lock_timeout")
+            job.result(timeout=10)
+        self.assertEqual(PreferenceTask.objects.filter(status="answered").count(), 1)
+        for snapshot in PreferenceSnapshot.objects.filter(kind="random"):
+            self.assertEqual(snapshot.payload["sample_size"], 0, "Post-cutoff votes belong to the next snapshot")
 
     def test_concurrent_issue_answer_and_support_version(self):
         results = self.concurrent([lambda: perform(self.participant, "task", issue_task) for _ in range(2)])
