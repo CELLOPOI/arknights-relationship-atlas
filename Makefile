@@ -24,7 +24,7 @@ check-tools:
 	$(RUFF) check scripts
 	$(PYTHON) -m unittest discover -s scripts -p 'test_*.py'
 	node --test --test-isolation=none assets/verify-resources.test.mjs
-	node --test --test-isolation=none frontend/scripts/container-layers.test.mjs
+	node --test --test-isolation=none frontend/scripts/container-layers.test.mjs frontend/scripts/asset-delivery.test.mjs
 
 check-backend:
 	$(RUFF) check backend scripts/check_backend.py

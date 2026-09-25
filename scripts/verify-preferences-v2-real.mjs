@@ -46,7 +46,7 @@ try {
       await page.waitForTimeout(800);await noOverflow(page);
       assert.equal(await page.locator('.skin-card').count(),skinDirectoryForms(catalog.forms).length);assert.equal(await page.locator('.skin-profession-group').count(),8);
       assert.equal(writes(),0);assert.equal(tasks(),0);
-      const network=await page.evaluate(()=>{const rows=performance.getEntriesByType('resource');return {requests:rows.length,decoded_bytes:rows.reduce((n,r)=>n+r.decodedBodySize,0),transfer_bytes:rows.reduce((n,r)=>n+r.transferSize,0),portraits:rows.filter(r=>r.name.includes('/v2/portrait/')).length,full_appearances:rows.filter(r=>r.name.includes('/v2/full/')).length,catalog_bytes:rows.filter(r=>r.name.includes('/api/preferences/catalog/')).reduce((n,r)=>n+r.decodedBodySize,0)};});
+      const network=await page.evaluate(()=>{const rows=performance.getEntriesByType('resource');return {requests:rows.length,decoded_bytes:rows.reduce((n,r)=>n+r.decodedBodySize,0),transfer_bytes:rows.reduce((n,r)=>n+r.transferSize,0),portraits:rows.filter(r=>r.name.includes('/v2/portrait/')).length,full_appearances:rows.filter(r=>r.name.includes('/v2/full/')).length,catalog_bytes:rows.filter(r=>r.name.includes('/api/preferences/directory/')).reduce((n,r)=>n+r.decodedBodySize,0)};});
       assert.equal(network.full_appearances,0);assert.ok(network.portraits<catalog.forms.length,'Directory lazily fetches portraits');
       const first=page.locator('.skin-card').first(),firstId=await first.getAttribute('data-form-id');
       assert.equal(await first.getAttribute('data-appearance-id'),catalog.forms.find(x=>x.id===firstId).default_appearance_id);

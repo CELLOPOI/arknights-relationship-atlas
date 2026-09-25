@@ -43,7 +43,10 @@ try {
     await context.route('**/api/**', route => {
       const url = new URL(route.request().url());
       if (url.pathname === '/api/session/') return route.fulfill({ json: { user: null, communityEnabled: false, feedbackEnabled: true } });
+      if (url.pathname === '/api/site-config/') return route.fulfill({ json: { cloudflareWebAnalyticsToken: '' } });
       if (url.pathname === '/api/preferences/catalog/') return route.fulfill({ json: { catalog, config } });
+      if (url.pathname === '/api/preferences/runtime/') return route.fulfill({ json: { catalog_version: catalog.version, config } });
+      if (url.pathname === '/api/preferences/directory/') return route.fulfill({ json: { catalog } });
       if (['/api/preferences/identity/', '/api/preferences/state/'].includes(url.pathname)) return route.fulfill({ json: state() });
       forbidden.push(url.pathname);
       return route.fulfill({ status: 500, json: { detail: 'Unexpected verification request' } });

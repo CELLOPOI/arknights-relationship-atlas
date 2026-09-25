@@ -21,12 +21,12 @@
     header X-Content-Type-Options nosniff
     header Referrer-Policy same-origin
     # Webfont 仅供本站页面使用，配合默认不开放 CORS 限制跨站加载。
-    @fonts path /assets/fonts/*
+    @fonts path /assets/fonts/* /assets/*.woff2 /media/*/assets/fonts/*
     header @fonts Cross-Origin-Resource-Policy same-origin
 
     @feedback path /api/feedback /api/feedback/
     @admin path /admin /admin/*
-    @bundles path_regexp bundles ^/assets/.*-[A-Za-z0-9_-]{8,}\.(js|css)$
+    @bundles path_regexp bundles ^/assets/.*-[A-Za-z0-9_-]{8,}\.(js|css|woff2)$
     @assets path /assets/* /avatars/* /illustrations/* /favicon*
     # 保持明确的匹配顺序，避免普通素材路由先接走哈希构建文件。
     route {
@@ -55,6 +55,12 @@
             root * /srv/admin
             header Cache-Control "public, max-age=0, must-revalidate"
             file_server
+        }
+        # 仅接受构建清单对应的内容版本，旧版本不得返回新内容并被长期缓存。
+        import /etc/caddy/asset-routes.caddy
+        handle /media/* {
+            header Cache-Control "no-store"
+            respond 404
         }
         handle @bundles {
             root * /srv/web

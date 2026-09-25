@@ -1,7 +1,9 @@
 """只读业务记录及具备授权、CSRF、审计的专用管理操作。"""
 from typing import ClassVar
 
+from django import forms
 from django.contrib import admin, messages
+from django.core.exceptions import ValidationError
 from django.http import HttpResponseRedirect
 from django.template.response import TemplateResponse
 from django.urls import path, reverse
@@ -91,8 +93,35 @@ class ParticipantAdmin(ReadOnlyAdmin):
         return HttpResponseRedirect(reverse("admin:atlas_preferenceparticipant_change", args=[object_id]))
 
 
+class ControlForm(forms.ModelForm):
+    revision_token = forms.IntegerField(widget=forms.HiddenInput)
+    paused_objects = forms.JSONField(required=False)
+
+    class Meta:
+        model = PreferenceControl
+        fields = ("reads_enabled", "writes_enabled", "tasks_enabled", "supports_enabled", "choices_enabled",
+                  "paused_objects")
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields["revision_token"].initial = self.instance.revision
+
+    def clean(self):
+        values = super().clean()
+        # Admin 的表单事务保持此锁到保存结束；旧页面必须先核对最新开关。
+        if values.get("revision_token") != control(lock=True).revision:
+            raise ValidationError("运行状态已被其他操作更新，请重新打开核对后再保存。")
+        paused = values.get("paused_objects")
+        if paused is None:
+            paused = values["paused_objects"] = []
+        if not isinstance(paused, list) or any(not isinstance(value, str) for value in paused):
+            self.add_error("paused_objects", "请填写人物或形态 ID 的 JSON 列表。")
+        return values
+
+
 @admin.register(PreferenceControl)
 class ControlAdmin(admin.ModelAdmin):
+    form = ControlForm
     readonly_fields: ClassVar = ["id", "catalog", "revision", "last_aggregation_at", "aggregation_error", "retained_since"]
 
     def has_add_permission(self, request):
@@ -108,12 +137,18 @@ class ControlAdmin(admin.ModelAdmin):
         from .preference_services import invalidate_tasks
         with transaction.atomic():
             current = control(lock=True)
-            before = {name: getattr(current, name) for name in form.changed_data}
-            obj.revision = current.revision + 1
-            super().save_model(request, obj, form, change)
-            if obj.catalog_id:
-                invalidate_tasks(obj, timezone.now())
-            audit(None, "controls", before, {name: getattr(obj, name) for name in form.changed_data}, actor=request.user)
+            changed = [name for name in form.changed_data if name in ControlForm.Meta.fields]
+            if not changed:
+                return
+            before = {name: getattr(current, name) for name in changed}
+            for name in changed:
+                setattr(current, name, getattr(obj, name))
+            current.revision += 1
+            # 不保存旧表单对象的名录、聚合状态和保留边界。
+            current.save(update_fields=[*changed, "revision"])
+            if current.catalog_id and "paused_objects" in changed:
+                invalidate_tasks(current, timezone.now())
+            audit(None, "controls", before, {name: getattr(current, name) for name in changed}, actor=request.user)
 
 
 @admin.register(PreferenceEvent)

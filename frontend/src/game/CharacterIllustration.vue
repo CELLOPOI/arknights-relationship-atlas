@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { assetUrl } from '../asset-url';
 import { computed, onBeforeUnmount, ref, shallowRef, watch } from 'vue';
 import type { GamePerson } from './network';
 import { loadIllustrations, type CharacterArt, type Illustration } from './illustrations';
@@ -46,7 +47,7 @@ function preload(image: Illustration) {
     }
     element.onload = () => { element.decode().then(() => finish(), finish); };
     element.onerror = () => finish(new Error('Illustration unavailable'));
-    element.src = image.src;
+    element.src = assetUrl(image.src);
   });
 }
 
@@ -78,12 +79,12 @@ onBeforeUnmount(() => { request++; });
     <div class="game-portrait-stage" :aria-busy="(!loaded && !failed) || !!swapping">
       <Transition name="game-art-back">
         <div v-if="backdrop && person.isOperator !== false && !backgroundFailed" :key="`${person.id}-back-${phase}-${attempt}`" class="game-portrait-backdrop" aria-hidden="true">
-          <img class="game-portrait-back" :src="backdrop.src" :width="backdrop.width" :height="backdrop.height" alt="" decoding="async" draggable="false" @error="backgroundFailed = true" />
+          <img class="game-portrait-back" :src="assetUrl(backdrop.src)" :width="backdrop.width" :height="backdrop.height" alt="" decoding="async" draggable="false" @error="backgroundFailed = true" />
         </div>
       </Transition>
       <Transition name="game-art-front" @after-enter="swapping === 'moving' && (swapping = null)">
         <div v-if="foreground && !failed" :key="`${person.id}-front-${phase}-${attempt}`" class="game-portrait-foreground" :data-phase="phase">
-          <img class="game-portrait-front" :class="{ loaded }" :src="foreground.src" :width="foreground.width" :height="foreground.height" :alt="`${person.name}${canSwap ? (phase === 'base' ? '精一' : '精二') : ''}立绘`" decoding="async" fetchpriority="high" draggable="false" @load="loaded = true" @error="failed = true" />
+          <img class="game-portrait-front" :class="{ loaded }" :src="assetUrl(foreground.src)" :width="foreground.width" :height="foreground.height" :alt="`${person.name}${canSwap ? (phase === 'base' ? '精一' : '精二') : ''}立绘`" decoding="async" fetchpriority="high" draggable="false" @load="loaded = true" @error="failed = true" />
         </div>
       </Transition>
       <button v-if="canSwap" type="button" class="game-portrait-switch" :aria-label="`${person.name}：${swapError ? '重试' : '切换至'}${nextPhase}立绘`" :aria-disabled="!!swapping" :title="swapError ? '立绘加载失败，点击重试' : `点击背景，切换至${nextPhase}立绘`" @click="swap">

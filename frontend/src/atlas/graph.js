@@ -1,3 +1,4 @@
+import { assetUrl } from '../asset-url';
 import { GraphMotion, curveBetween } from './graph-motion.js';
 import { createLifecycle } from './lifecycle.js';
 import { validateAtlasData } from './data.js';
@@ -11,7 +12,7 @@ lifecycle.own(() => panelEvents.dispose());
 
 const $ = selector => root.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const avatar = id => byId?.get(id)?.avatar || '/avatars/unknown.svg';
+const avatar = id => assetUrl(byId?.get(id)?.avatar || '/avatars/unknown.svg');
 const svg = $('#graph'), world = $('#world'), nodesLayer = $('#nodes'), edgesLayer = $('#edges'), regionsLayer = $('#regions');
 /** @type {import('../types').AtlasData | undefined} */
 let data;

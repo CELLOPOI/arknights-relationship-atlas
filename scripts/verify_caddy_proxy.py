@@ -3,6 +3,7 @@
 import argparse
 import json
 import os
+import re
 import socket
 import subprocess
 import tempfile
@@ -10,7 +11,7 @@ import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.error import URLError
+from urllib.error import HTTPError, URLError
 from urllib.request import ProxyHandler, Request, build_opener
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -48,6 +49,18 @@ def check(caddy, upstream_port, trusted):
     source = source.replace("api:8000", f"127.0.0.1:{upstream_port}")
     with tempfile.TemporaryDirectory(prefix="atlas-caddy-check-") as directory:
         root = Path(directory)
+        routes = root / "asset-routes.caddy"
+        subprocess.run(["node", str(ROOT / "frontend/scripts/asset-delivery.mjs"), str(routes)], check=True)
+        source = source.replace("/etc/caddy/asset-routes.caddy", str(routes))
+        web = root / "web"
+        for name in ("index.html", "avatars/test.webp", "avatars/unknown.svg", "assets/fonts/test.woff2",
+                     "assets/test-abcdefgh.woff2", "assets/preferences/test.webp"):
+            target = web / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(b"synthetic-static-file")
+        source = source.replace("/srv/web", str(web))
+        routes.write_text(routes.read_text().replace("/srv/web", str(web)))
+        atlas, preferences = re.findall(r"uri strip_prefix (/media/[a-f0-9]{24})", routes.read_text())
         config = root / "Caddyfile"
         config.write_text(source)
         env = {**os.environ, "SITE_ADDRESS": f"http://127.0.0.1:{port}",
@@ -88,6 +101,29 @@ def check(caddy, upstream_port, trusted):
                             result = json.load(response)
                             assert result == {"ip": expected, "proto": "http", "forwarded": None}, (trusted, path, result)
                             assert response.headers["Cache-Control"] == "no-store"
+                static_cases = [
+                    ("/", 200, "no-cache"),
+                    ("/avatars/test.webp", 200, "public, max-age=0, must-revalidate"),
+                    (atlas + "/avatars/test.webp", 200, "public, max-age=31536000, immutable"),
+                    (preferences + "/assets/preferences/test.webp", 200, "public, max-age=31536000, immutable"),
+                    ("/assets/test-abcdefgh.woff2", 200, "public, max-age=31536000, immutable"),
+                    (atlas + "/assets/fonts/test.woff2", 200, "public, max-age=31536000, immutable"),
+                    (atlas + "/assets/preferences/test.webp", 404, "no-store"),
+                    (atlas + "/avatars/unknown.svg", 404, "no-store"),
+                    (atlas + "/avatars/missing.webp", 404, "no-store"),
+                    ("/media/" + "0" * 24 + "/avatars/test.webp", 404, "no-store"),
+                    (atlas + "/index.html", 404, "no-store"),
+                ]
+                for path, status, cache in static_cases:
+                    try:
+                        response = opener.open(f"http://127.0.0.1:{port}{path}", timeout=3)
+                    except HTTPError as exc:
+                        response = exc
+                    with response:
+                        assert response.status == status, (path, response.status)
+                        assert response.headers["Cache-Control"] == cache, (path, response.headers)
+                        if path.endswith(".woff2"):
+                            assert response.headers["Cross-Origin-Resource-Policy"] == "same-origin"
             finally:
                 process.terminate()
                 try:
@@ -110,7 +146,7 @@ def main():
         finally:
             upstream.shutdown()
             thread.join()
-    print("Caddy ingress: 36 checks passed (direct, untrusted proxy, trusted proxy; IPv4/IPv6 and spoofed headers)")
+    print("Caddy ingress: 36 proxy checks and 33 static cache checks passed")
 
 
 if __name__ == "__main__":

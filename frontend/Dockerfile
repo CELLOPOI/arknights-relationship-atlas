@@ -16,10 +16,12 @@ COPY data/npc/graph.json data/npc/evidence.json /app/data/npc/
 COPY data/source/people/ /app/data/source/people/
 ARG CLOUDFLARE_WEB_ANALYTICS_TOKEN=""
 RUN npm run build && npm run test:game && npm run test:atlas && npm run test:preferences \
-    && node scripts/container-layers.mjs build public /out
+    && node scripts/container-layers.mjs build public /out \
+    && node scripts/asset-delivery.mjs /out/asset-routes.caddy
 
 FROM caddy:2-alpine
 # 固定素材独立于应用代码；不要重新合并为一个 COPY，见 docs/CONTAINER_IMAGES.md。
 COPY --link --from=build /out/static/ /srv/web/
 COPY --link --from=build /out/app/ /srv/web/
 COPY --link deploy/Caddyfile /etc/caddy/Caddyfile
+COPY --link --from=build /out/asset-routes.caddy /etc/caddy/asset-routes.caddy

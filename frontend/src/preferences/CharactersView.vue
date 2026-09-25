@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, toRefs, watch } from 'vue';
 import { mutate, pendingMutation, PreferenceError, request, timeText } from './api';
+import { comparisonImage, type ComparisonImage } from './comparison-image';
 import { preferenceDraft } from './session';
 import ChoiceEditor from './ChoiceEditor.vue';
 import PreferenceImage from './PreferenceImage.vue';
@@ -16,6 +17,7 @@ const draft = preferenceDraft(`characters-v3:${props.state.choice_order_seed}`, 
 const { section, busy, query, scope, supportDraft, favoriteDraft, supportVersion, dirty, practice, practiceTask, pause, awaitingAnswer } = toRefs(draft);
 const error = ref(''), message = ref(''), task = ref<Task | null>(props.state.pending_task);
 const previousTask = ref<Task | null>(null), taskLoading = ref(false);
+const invalidTaskId = ref('');
 const imagePreloads = new Set<() => void>();
 const supportPending = ref(!!pendingMutation('supports'));
 const restInterval = computed(() => Math.max(1, Number(props.state.config?.rest_interval || 50)));
@@ -55,7 +57,7 @@ const readyToAnswer = computed(() => shown.value.length === 2 && shown.value.eve
 function restoreDraft(value = props.state.supports) { supportDraft.value = props.catalog.subjects ? [...(value.subject_support_ids || []), ...(value.legacy_support_ids || [])] : [...value.support_ids]; favoriteDraft.value = props.catalog.subjects ? [...(value.subject_favorite_ids || []), ...(value.legacy_favorite_ids || [])] : [...value.favorite_ids]; supportVersion.value = value.version; dirty.value = false; }
 watch(() => props.state, state => {
   // 提交后的状态查询可能先返回空待答题，不能覆盖正在切换的画面。
-  if (!busy.value && !previousTask.value) task.value = state.pending_task;
+  if (!busy.value && !previousTask.value) task.value = state.pending_task?.id === invalidTaskId.value ? null : state.pending_task;
   if (!dirty.value) restoreDraft(state.supports);
 }, { immediate: true });
 watch(() => pair.value?.id, () => { imagesReady.value = new Set(); });
@@ -72,7 +74,7 @@ function newPractice() {
   practiceTask.value = { id: crypto.randomUUID(), left: pickForm(first.id), right: pickForm(second.id), left_id: first.id, right_id: second.id, catalog_version: props.catalog.version, expires_at: '', status: 'practice' };
 }
 function setPractice(value: boolean) { practice.value = value; error.value = ''; message.value = ''; if (value && !practiceTask.value) newPractice(); }
-function preloadImage(src: string) {
+function preloadImage(source: ComparisonImage) {
   return new Promise<void>(resolve => {
     const image = new Image();
     const finish = () => {
@@ -84,7 +86,9 @@ function preloadImage(src: string) {
     imagePreloads.add(finish);
     image.onload = () => { void image.decode().catch(() => {}).then(finish); };
     image.onerror = finish;
-    image.src = src;
+    if (source.sizes) image.sizes = source.sizes;
+    if (source.srcset) image.srcset = source.srcset;
+    image.src = source.src;
   });
 }
 async function nextTask() {
@@ -96,9 +100,9 @@ async function nextTask() {
     const next = result.task;
     const sources = [next.left || people.value.get(next.left_id), next.right || people.value.get(next.right_id)]
       .flatMap(person => person?.representative_url ? [person.representative_url] : []);
-    await Promise.all([...new Set(sources)].map(preloadImage));
+    await Promise.all([...new Set(sources)].map(src => preloadImage(comparisonImage(src, props.catalog.appearances))));
     if (disposed) return;
-    task.value = next; previousTask.value = null; emit('refresh');
+    task.value = next; previousTask.value = null; invalidTaskId.value = ''; emit('refresh');
   }
   catch (reason) { error.value = (reason as Error).message; }
   finally { busy.value = false; taskLoading.value = false; }
@@ -128,6 +132,10 @@ async function answer(outcome: string, winnerId?: string) {
   } catch (reason) {
     error.value = (reason as Error).message;
     if (reason instanceof PreferenceError && reason.status !== 0 && reason.status < 500) awaitingAnswer.value = null;
+    if (reason instanceof PreferenceError && ['task_expired', 'task_already_answered', 'candidate_unavailable', 'task_not_found'].includes(reason.code)) {
+      invalidTaskId.value = current.id; task.value = null; previousTask.value = null;
+      emit('refresh');
+    }
   } finally { busy.value = false; }
 }
 function toggleSupport(id: string) {
@@ -187,7 +195,7 @@ onBeforeUnmount(() => { disposed = true; imagePreloads.forEach(finish => finish(
       <p v-if="practice" class="pref-message">个人练习仅保存在本机，不进入公共榜。</p>
       <p v-else class="pref-muted">本周已派发 {{ state.quota.weekly_used }} / {{ state.quota.weekly_limit }} 道 · 近 28 天 {{ state.quota.rolling_used }} / {{ state.quota.rolling_limit }} 道 · 可以跳过，跳过占用已派发机会。</p>
       <div class="random-status" role="status" aria-live="polite"><span>{{ randomStatus }}</span><button v-if="waitingForNext && !busy" class="pref-text" :disabled="!state.writes_enabled" @click="nextTask">重试下一题</button></div>
-      <div v-if="pair" class="random-pair" :aria-busy="busy || waitingForNext"><article v-for="person in shown" :key="`${pair.id}:${person.id}`" class="random-person"><div class="random-illustration"><PreferenceImage :src="person.representative_url" :alt="`${person.name}固定代表立绘`" @ready="imagesReady.add(person.id)" @failed="imagesReady.delete(person.id)" /><button class="random-enlarge" :aria-label="`放大${person.name}立绘`" @click="showArt(person.id)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M10 21H3v-7M21 3l-7 7M3 21l7-7" fill="none" stroke="currentColor" stroke-width="1.5" /></svg></button></div><h3>{{ person.name }}</h3><button class="pref-primary" :disabled="busy || waitingForNext || !readyToAnswer || !!awaitingAnswer || (!practice && !state.writes_enabled)" @click="answer('choose', person.person_id)">更喜欢这位</button></article></div>
+      <div v-if="pair" class="random-pair" :aria-busy="busy || waitingForNext"><article v-for="person in shown" :key="`${pair.id}:${person.id}`" class="random-person"><div class="random-illustration"><PreferenceImage v-bind="comparisonImage(person.representative_url, catalog.appearances)" :alt="`${person.name}固定代表立绘`" @ready="imagesReady.add(person.id)" @failed="imagesReady.delete(person.id)" /><button class="random-enlarge" :aria-label="`放大${person.name}立绘`" @click="showArt(person.id)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M10 21H3v-7M21 3l-7 7M3 21l7-7" fill="none" stroke="currentColor" stroke-width="1.5" /></svg></button></div><h3>{{ person.name }}</h3><button class="pref-primary" :disabled="busy || waitingForNext || !readyToAnswer || !!awaitingAnswer || (!practice && !state.writes_enabled)" @click="answer('choose', person.person_id)">更喜欢这位</button></article></div>
       <div v-if="pair" class="random-skip"><button class="pref-secondary" :disabled="busy || waitingForNext || !!awaitingAnswer || (!practice && !state.writes_enabled)" @click="answer('skip')">暂不判断，跳过</button><details class="random-skip-reasons"><summary>不熟悉</summary><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('unfamiliar_left')">不认识左边</button><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('unfamiliar_right')">不认识右边</button><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('unfamiliar_both')">两边都不熟悉</button></details><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('tie')">难分高下</button></div>
       <p v-if="awaitingAnswer && !busy" class="pref-message">上次提交结果尚未确认，请重试同一操作。<button class="pref-secondary" @click="answer(awaitingAnswer.outcome, awaitingAnswer.winnerId)">重试原选择</button></p>
       <div v-if="!pair" class="preference-empty"><h3>{{ pause ? `已经完成 ${restInterval} 道，可以歇一会儿` : state.quota.remaining === 0 ? '本期正式比较已用完' : '从两个人物中选出更喜欢的一位' }}</h3><p>双方使用固定代表图；刷新会恢复同一道待答题。</p><div class="pref-actions"><button v-if="state.quota.remaining > 0" class="pref-primary" :disabled="busy || !state.writes_enabled" @click="nextTask">{{ busy ? '读取题目…' : pause ? '继续选择' : '开始随机选择' }}</button><button class="pref-secondary" @click="setPractice(true)">开始个人练习</button><button class="pref-text" @click="useSection('results')">查看大家的结果</button></div></div>

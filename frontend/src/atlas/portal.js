@@ -1,3 +1,4 @@
+import { assetUrl } from '../asset-url';
 import { createGraph } from './graph.js';
 import { createLifecycle } from './lifecycle.js';
 import { ParticleField, sampleEmblem } from './particles.js';
@@ -207,7 +208,7 @@ async function selectEmblem(index, { replay = false } = {}) {
   try {
     let sample;
     if (icon.file) {
-      if (!samples.has(icon.id)) samples.set(icon.id, sampleEmblem(icon.file, field.count, lifecycle.signal).catch(error => { samples.delete(icon.id); throw error; }));
+      if (!samples.has(icon.id)) samples.set(icon.id, sampleEmblem(assetUrl('/' + icon.file.replace(/^\//, '')), field.count, lifecycle.signal).catch(error => { samples.delete(icon.id); throw error; }));
       sample = await samples.get(icon.id);
     } else sample = { points: field.cloud.slice() };
     if (lifecycle.disposed || request !== requestId) return;
@@ -310,7 +311,7 @@ applyRoute({ initial: true });
 graphReady.then(data => { if (lifecycle.disposed || !data) return; graph = graph || data; keepPopulatedIcons(); buildDirectory(); applyRoute({ initial: true }); });
 
 async function initializeParticles() {
-  ({ icons } = await lifecycle.json('assets/emblems.json'));
+  ({ icons } = await lifecycle.json(assetUrl('/assets/emblems.json')));
   if (lifecycle.disposed) return;
   // 按用户指定，用彩虹小队的既有粒子效果表示“联动”，不再展示其他小队的占位徽记。
   icons = icons.flatMap(icon => icon.id === 'rainbow' ? [{ ...icon, id: 'collaboration', name: '联动' }] : isCollaboration(icon.id) ? [] : [icon]);

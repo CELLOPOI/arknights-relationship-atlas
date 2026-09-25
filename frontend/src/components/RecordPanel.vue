@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { assetUrl } from '../asset-url';
 import { computed, nextTick, ref, watch } from 'vue';
 import { api } from '../api';
 import SourceList from './SourceList.vue';
@@ -88,8 +89,8 @@ const date = (value: string) => new Intl.DateTimeFormat('zh-CN', { dateStyle: 'm
     <div class="archive-dialog-surface">
       <header class="archive-dialog-header"><h2 id="record-heading">{{ title }}</h2><button class="archive-close" aria-label="关闭档案详情" @click="emit('close')"><svg aria-hidden="true"><use href="#i-close" /></svg></button></header>
       <div class="archive-dialog-body">
-        <div v-if="person" class="record-identity"><img :src="person.avatar" alt=""><div><p>{{ person.factionName }}</p><span>{{ person.isOperator ? '干员' : 'NPC' }} · 人物档案</span></div><button class="archive-text-button" @click="emit('navigate', person.id, person.isOperator)">查看关系图<svg aria-hidden="true"><use href="#i-arrow-up-right" /></svg></button></div>
-        <div v-if="relation" class="record-relation"><div class="record-pair"><button v-for="p in relation.people" :key="p.id" @click="emit('navigate', p.id, p.isOperator)"><img :src="p.avatar" alt=""><span>{{ p.name }}</span></button></div><p :class="{ awareness: relation.kind === 'awareness' }">{{ relation.kind === 'mutual' ? '确认相识' : direction }}</p></div>
+        <div v-if="person" class="record-identity"><img :src="assetUrl(person.avatar)" alt=""><div><p>{{ person.factionName }}</p><span>{{ person.isOperator ? '干员' : 'NPC' }} · 人物档案</span></div><button class="archive-text-button" @click="emit('navigate', person.id, person.isOperator)">查看关系图<svg aria-hidden="true"><use href="#i-arrow-up-right" /></svg></button></div>
+        <div v-if="relation" class="record-relation"><div class="record-pair"><button v-for="p in relation.people" :key="p.id" @click="emit('navigate', p.id, p.isOperator)"><img :src="assetUrl(p.avatar)" alt=""><span>{{ p.name }}</span></button></div><p :class="{ awareness: relation.kind === 'awareness' }">{{ relation.kind === 'mutual' ? '确认相识' : direction }}</p></div>
         <button v-if="communityEnabled && (person || relation)" class="archive-button secondary favorite-action" :class="{ saved }" :aria-pressed="saved" :disabled="busy" @click="favorite"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4Z" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>{{ saved ? '已收藏 · 取消收藏' : '收藏这份档案' }}</button>
         <button v-if="target && (person || relation)" class="archive-button secondary favorite-action" @click="emit('feedback', { ...target, title })">反馈这份资料</button>
         <nav v-if="communityEnabled" class="archive-tabs" aria-label="档案详情栏目"><button :aria-current="tab === 'discussion' ? 'page' : undefined" @click="tab = 'discussion'">讨论 <span>{{ comments.count }}</span></button><button :aria-current="tab === 'details' ? 'page' : undefined" @click="tab = 'details'">{{ relation ? '原文依据' : '人物资料' }}</button><button :aria-current="tab === 'contribute' ? 'page' : undefined" @click="tab = 'contribute'">补充资料</button></nav>

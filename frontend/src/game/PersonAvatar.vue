@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { assetUrl } from '../asset-url';
 import type { GamePerson } from './network';
 defineProps<{ person: GamePerson; eager?: boolean }>();
 function fallback(event: Event) {
@@ -8,5 +9,5 @@ function fallback(event: Event) {
 </script>
 
 <template>
-  <img :src="person.avatar || `/avatars/${person.id}.webp`" alt="" :loading="eager ? 'eager' : 'lazy'" decoding="async" width="80" height="80" @error="fallback" />
+  <img :src="assetUrl(person.avatar || `/avatars/${person.id}.webp`)" alt="" :loading="eager ? 'eager' : 'lazy'" decoding="async" width="80" height="80" @error="fallback" />
 </template>

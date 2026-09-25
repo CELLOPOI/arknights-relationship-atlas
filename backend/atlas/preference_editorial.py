@@ -8,13 +8,12 @@ from urllib.parse import urlsplit
 from django.conf import settings
 from django.core import signing
 from django.db import transaction
-from django.db.models import Q
+from django.db.models import Exists, OuterRef, Q
 from django.utils import timezone
 
 from .models import Person
 from .preference_models import (
     PreferenceCatalog,
-    PreferenceChoice,
     PreferenceEvent,
     PreferenceOperation,
     PreferenceParticipant,
@@ -237,32 +236,44 @@ def review_risk(participant_id, status, actor, reason):
     return current.revision
 
 
+def delete_batches(query, batch_size=500):
+    deleted = 0
+    while ids := list(query.order_by("pk").values_list("pk", flat=True)[:batch_size]):
+        # 删除时重新检查条件，避免删掉选取 ID 后被并发请求续期的限流行。
+        count, _ = query.filter(pk__in=ids).delete()
+        deleted += count
+    return deleted
+
+
 def purge(now=None):
     now = now or timezone.now()
     detail_cutoff = now - timedelta(days=settings.PREFERENCE_DETAIL_RETENTION_DAYS)
-    with transaction.atomic():
+    # 先提交保留边界，使正在计算的旧快照拒绝发布；耗时清理不占用控制锁。
+    # 中断只会保守地缩短可重算范围，下次可继续清理，不会误称明细仍完整。
+    with transaction.atomic(durable=True):
         current = control(lock=True)
-        risk, _ = PreferenceRiskSignal.objects.filter(created_at__lt=now - timedelta(days=settings.PREFERENCE_RISK_RETENTION_DAYS)).delete()
-        rates, _ = PreferenceRate.objects.filter(expires_at__lt=now).delete()
-        operations, _ = PreferenceOperation.objects.filter(created_at__lt=detail_cutoff).delete()
-        PreferenceTask.objects.filter(status="pending", expires_at__lte=now).update(status="expired")
-        tasks, _ = PreferenceTask.objects.filter(issued_at__lt=detail_cutoff).filter(
-            Q(accepted_at__isnull=True) | Q(accepted_at__lt=detail_cutoff)).exclude(status="pending").delete()
-        # 每个仍有效当前登记保留最后一份事件作为历史回放锚点，不删除当前业务记录。
-        keep = set()
-        for participant in PreferenceParticipant.objects.filter(support_version__gt=0):
-            event = PreferenceEvent.objects.filter(participant=participant, kind="support", created_at__lte=detail_cutoff).order_by("-created_at", "-pk").first()
-            if event:
-                keep.add(event.pk)
-        for choice in PreferenceChoice.objects.all():
-            event = PreferenceEvent.objects.filter(participant_id=choice.participant_id,
-                object_id=f"{choice.kind}:{choice.object_id}", kind__in=["choice", "choice_correction"], created_at__lte=detail_cutoff).order_by("-created_at", "-pk").first()
-            if event:
-                keep.add(event.pk)
-        events, _ = PreferenceEvent.objects.filter(created_at__lt=detail_cutoff, kind__in=["support", "choice", "choice_correction", "task_void"]).exclude(pk__in=keep).delete()
         current.retained_since = max(filter(None, [current.retained_since, detail_cutoff]))
         current.save(update_fields=["retained_since"])
-        return {"risk_signals": risk, "rates": rates, "operations": operations, "tasks": tasks, "events": events}
+    risk = delete_batches(PreferenceRiskSignal.objects.filter(
+        created_at__lt=now - timedelta(days=settings.PREFERENCE_RISK_RETENTION_DAYS)))
+    rates = delete_batches(PreferenceRate.objects.filter(expires_at__lt=now))
+    operations = delete_batches(PreferenceOperation.objects.filter(created_at__lt=detail_cutoff))
+    expired = PreferenceTask.objects.filter(status="pending", expires_at__lte=now)
+    while ids := list(expired.order_by("pk").values_list("pk", flat=True)[:500]):
+        expired.filter(pk__in=ids).update(status="expired")
+    tasks = delete_batches(PreferenceTask.objects.filter(issued_at__lt=detail_cutoff).filter(
+        Q(accepted_at__isnull=True) | Q(accepted_at__lt=detail_cutoff)).exclude(status="pending"))
+    state_kinds = ["support", "choice", "choice_correction"]
+    later = PreferenceEvent.objects.filter(
+        participant_id=OuterRef("participant_id"), object_id=OuterRef("object_id"),
+        kind__in=state_kinds, created_at__lte=detail_cutoff,
+    ).filter(Q(created_at__gt=OuterRef("created_at")) |
+             Q(created_at=OuterRef("created_at"), pk__gt=OuterRef("pk")))
+    # 支持与同一对象的选择/纠正均保留截止点前最后一条，含相同时间戳的顺序。
+    events = delete_batches(PreferenceEvent.objects.filter(
+        created_at__lt=detail_cutoff, kind__in=state_kinds).filter(Exists(later)))
+    events += delete_batches(PreferenceEvent.objects.filter(created_at__lt=detail_cutoff, kind="task_void"))
+    return {"risk_signals": risk, "rates": rates, "operations": operations, "tasks": tasks, "events": events}
 
 
 def revise_snapshots(actor, reason):

@@ -1,3 +1,4 @@
+import { assetVersions } from '../frontend/scripts/asset-delivery.mjs';
 import { verificationDirectory } from './verification-output.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -14,6 +15,8 @@ const start = 'char_102_texas', target = 'char_350_surtr';
 const desktop = await makePage();
 const data = await (await desktop.request.get(base + '/api/graph/?scope=all')).json();
 const index = await (await desktop.request.get(base + '/illustrations/index.json')).json();
+const assetPrefix = `/media/${(await assetVersions()).atlas}`;
+const illustrationURL = value => assetPrefix + value;
 const network = buildNetwork(data, defaultRules());
 
 async function makePage(viewport = { width: 1440, height: 1000 }) {
@@ -45,7 +48,7 @@ async function seed(page, from = start, to = target, visited = [from]) {
 async function readyArt(page, side, id) {
   await page.locator(`.game-portrait-${side}[data-person-id="${id}"][data-art-state="ready"]`).waitFor();
   const image = page.locator(`.game-portrait-${side} .game-portrait-front`);
-  assert.equal(await image.getAttribute('src'), index.people[id].base.src);
+  assert.equal(await image.getAttribute('src'), illustrationURL(index.people[id].base.src));
   assert.ok(await image.evaluate(img => img.complete && img.naturalWidth > 100));
 }
 async function readyPhase(page, side, id, phase) {
@@ -54,8 +57,8 @@ async function readyPhase(page, side, id, phase) {
     return portrait?.dataset.artPhase === phase && !portrait.dataset.swapping;
   }, { side, phase });
   const portrait = page.locator(`.game-portrait-${side}`);
-  assert.equal(await portrait.locator('.game-portrait-front').getAttribute('src'), index.people[id][phase].src);
-  assert.equal(await portrait.locator('.game-portrait-back').getAttribute('src'), index.people[id][phase === 'base' ? 'elite2Portrait' : 'basePortrait'].src);
+  assert.equal(await portrait.locator('.game-portrait-front').getAttribute('src'), illustrationURL(index.people[id][phase].src));
+  assert.equal(await portrait.locator('.game-portrait-back').getAttribute('src'), illustrationURL(index.people[id][phase === 'base' ? 'elite2Portrait' : 'basePortrait'].src));
   assert.ok(await portrait.locator('.game-portrait-front').evaluate(img => img.complete && img.naturalWidth > 100));
 }
 async function noOverflow(page) {
@@ -73,7 +76,7 @@ await check('operators render the correct base art over grayscale E2 art on oppo
   await readyArt(desktop, 'current', start); await readyArt(desktop, 'target', target);
   for (const [side, id] of [['current', start], ['target', target]]) {
     const back = desktop.locator(`.game-portrait-${side} .game-portrait-back`);
-    assert.equal(await back.getAttribute('src'), index.people[id].elite2Portrait.src);
+    assert.equal(await back.getAttribute('src'), illustrationURL(index.people[id].elite2Portrait.src));
     assert.match(await back.evaluate(img => getComputedStyle(img).filter), /grayscale\(1\)/);
     assert.ok(await back.evaluate(img => img.complete && img.naturalWidth > 100));
   }
@@ -186,7 +189,7 @@ await check('the page requests only the two displayed characters and shares the 
   await readyArt(page, 'current', start); await readyArt(page, 'target', target);
   assert.equal(requests.filter(url => url.endsWith('/illustrations/index.json')).length, 1);
   assert.equal(requests.filter(url => url.includes('.webp')).length, 4);
-  assert.ok(requests.every(url => url.startsWith(base + '/illustrations/')));
+  assert.ok(requests.every(url => url.startsWith(base + assetPrefix + '/illustrations/')));
   await page.close();
 });
 
@@ -286,7 +289,7 @@ await check('late phase loads cannot change the next character and the target ke
   const box = await toggle.boundingBox();
   await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
   assert.equal(await toggle.getAttribute('aria-disabled'), 'true');
-  assert.equal(await page.locator('.game-portrait-current .game-portrait-front').getAttribute('src'), index.people[start].base.src);
+  assert.equal(await page.locator('.game-portrait-current .game-portrait-front').getAttribute('src'), illustrationURL(index.people[start].base.src));
   const next = shortestPath(network, start, target)[1];
   await page.locator(`[data-next-id="${next}"]`).click();
   release();
