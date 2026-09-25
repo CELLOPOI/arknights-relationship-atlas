@@ -21,6 +21,8 @@ GHCR 的包可见性独立于源码仓库，首次发布的包默认私有。维
 
 Web 构建仍校验全部素材并执行前端测试。`frontend/scripts/container-layers.mjs` 根据完整 `public/` 文件清单，将固定图片、字体、索引和许可文件移入独立层，Vite 生成的 HTML、JavaScript 和 CSS 留在应用层。两层叠加后保留原 URL 和文件内容。若构建文件覆盖了同名公共素材，分层步骤拒绝继续。
 
+构建额外生成 `/etc/caddy/asset-routes.caddy`，为两组清单内容摘要建立图片 URL 别名，不复制第二份完整素材。Vite 生成的哈希字体随应用层交付；旧字体与许可文件继续留在原素材层。缓存契约见[图片与公开资料缓存](../.agents/notes/implemented/architecture/2026-09-25-image-and-public-cache.md)。
+
 API 将运行依赖、喜好素材、素材清单、名录和 Python 源码分层，运行环境只复制依赖虚拟环境，不携带 uv 下载缓存。使用 `COPY --chown` 设置文件归属，不在最终层递归修改全部素材。两个镜像的固定素材层都规范化文件时间，减少干净检出时间造成的摘要变化。
 
 CI 按 API/Web 分别保存 BuildKit 缓存。缓存缺失只影响构建开销，不影响正确性。Docker 拉取复用已存在的相同层，下载的是缺失层的完整内容；不是任意文件的二进制补丁。首次拉取、基础镜像变化或素材变化仍可能产生较大下载。不得把固定素材与应用重新合成一个最终复制层。设计取舍见[工程决定](../.agents/notes/implemented/architecture/2026-09-23-container-registry-releases.md)。

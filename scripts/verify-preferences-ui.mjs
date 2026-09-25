@@ -42,7 +42,18 @@ async function installMock(context) {
     const json = (value, status = 200) => route.fulfill({ status, json: clone(value), headers: { 'Cache-Control': 'private, no-store' } });
     if (req.method() !== 'GET') assert.equal(req.headers()['x-csrftoken'], 'synthetic-preferences-csrf');
     if (pathname === '/api/session/') return json({ user: null, communityEnabled: false, feedbackEnabled: true });
+    if (pathname === '/api/site-config/') return json({ cloudflareWebAnalyticsToken: '' });
     if (pathname === '/api/preferences/catalog/') return json({ catalog: model.catalog, config: model.config, server_time: now });
+    if (pathname === '/api/preferences/runtime/') return json({ catalog_version: model.catalog.version, config: model.config, server_time: now });
+    if (pathname === '/api/preferences/directory/') {
+      if (model.publishDuringDirectory) {
+        model.publishDuringDirectory = false;
+        model.catalog.version = 'synthetic-published-during-load';
+        model.state.catalog_version = model.catalog.version;
+      }
+      if (url.searchParams.get('version') !== model.catalog.version) return json({ code: 'catalog_conflict', detail: 'Synthetic publication during directory read' }, 409);
+      return json({ catalog: model.catalog });
+    }
     if (pathname === '/api/preferences/identity/') return model.identityStatus === 200 ? json(model.state) : json({ code: 'writes_paused', detail: '合成测试：参与登记暂时暂停。' }, model.identityStatus);
     if (pathname === '/api/preferences/state/') return model.identityStatus === 200 ? json(model.state) : json({ code: 'identity_required', detail: '合成测试：尚无参与身份。' }, 401);
     if (pathname === '/api/preferences/tasks/' && req.method() === 'POST') {
@@ -123,6 +134,19 @@ async function regression(name, run, options = {}) {
   } finally { model.choiceGate?.resolve(); model.answerGate?.resolve(); model.taskGate?.resolve(); model.imageGate?.resolve(); await context.close(); }
 }
 try {
+  await regression('directory-publication-during-load', async (page, model) => {
+    model.publishDuringDirectory = true;
+    await page.goto(`${base}/preferences/?tab=characters`);
+    await page.getByRole('button', { name: '开始随机选择', exact: true }).waitFor();
+    assert.equal(model.calls.filter(x => x.path === '/api/preferences/directory/').length, 2);
+    assert.equal(model.calls.filter(x => x.path === '/api/preferences/runtime/').length, 2);
+    assert.equal(await page.locator('.pref-error').count(), 0);
+    assert.equal(model.imageRequests.length, 0, 'Unopened skin directory and unissued task load no images');
+    model.config.rest_interval = 17;
+    await switchTab(page, '皮肤'); await switchTab(page, '人物');
+    await until(() => model.calls.filter(x => x.path === '/api/preferences/runtime/').length > 2, 'Runtime revalidated on refresh');
+    assert.equal(model.calls.filter(x => x.path === '/api/preferences/directory/').length, 2, 'Unchanged directory reused while runtime remains live');
+  });
   for (const viewport of [{ width: 390, height: 844 }, { width: 320, height: 640 }]) {
     await regression(`skin-touch-swipe-${viewport.width}`, async (page, model) => {
       await page.goto(`${base}/preferences/?tab=skins`);
@@ -524,6 +548,67 @@ try {
     await until(() => model.calls.filter(x => x.path === '/api/preferences/state/').length > stateReads, 'Accepted retry refreshes personal state');
     assert.equal(model.records.length, 1, 'Idempotent retry does not count the accepted answer twice');
     assert.equal(taskCalls(model), 1, 'Hidden successful retry does not dispatch another task');
+  });
+  await regression('task-timeout-keeps-original-operation-and-recovers', async (page, model) => {
+    await page.clock.install();
+    model.taskGate = deferred();
+    await page.goto(`${base}/preferences/`);
+    await page.getByRole('button', { name: '开始随机选择', exact: true }).click();
+    await until(() => taskCalls(model) === 1, 'Task request started');
+    await page.clock.fastForward(21000);
+    await page.getByRole('alert').filter({ hasText: '请求超时' }).waitFor();
+    const start = page.getByRole('button', { name: '开始随机选择', exact: true });
+    assert.equal(await start.isEnabled(), true);
+    const original = clone(model.calls.find(call => call.path === '/api/preferences/tasks/').payload);
+    model.taskGate.resolve(); model.taskGate = null;
+    await until(() => !!model.state.pending_task, 'First task was accepted despite lost response');
+    await start.click();
+    await until(async () => await page.locator('.random-pair [data-image-state="ready"]').count() === 2, 'Task retry is usable');
+    const requests = model.calls.filter(call => call.path === '/api/preferences/tasks/');
+    assert.equal(requests.length, 2);
+    assert.deepEqual(requests[1].payload, original);
+    assert.equal(model.state.quota.weekly_used, 1);
+    assert.equal(await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().isEnabled(), true);
+  });
+  for (const code of ['task_expired', 'task_already_answered', 'candidate_unavailable', 'task_not_found']) {
+    await regression(`recover-${code}`, async (page, model) => {
+      await page.goto(`${base}/preferences/`);
+      await page.getByRole('button', { name: '开始随机选择', exact: true }).click();
+      await until(async () => await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().isEnabled(), 'First task ready');
+      const original = model.state.pending_task.id;
+      await page.route('**/api/preferences/tasks/*/answer/', route => route.fulfill({
+        status: code === 'task_not_found' ? 404 : 409, json: { code, detail: 'Synthetic expired task; request a new task.' },
+      }));
+      model.state.pending_task = null;
+      await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().click();
+      const start = page.getByRole('button', { name: '开始随机选择', exact: true });
+      await start.waitFor();
+      assert.equal(await start.isEnabled(), true);
+      await start.click();
+      await until(() => !!model.state.pending_task, 'Replacement task dispatched');
+      assert.notEqual(model.state.pending_task.id, original);
+      assert.equal(taskCalls(model), 2);
+    });
+  }
+  await regression('removed-failed-image-no-longer-blocks-confirmation', async (page, model) => {
+    const removed = appearances.find(art => art.form_id === forms[0].id);
+    model.blockedImage = removed.image_url;
+    await page.goto(`${base}/preferences/?tab=skins&form=${forms[0].id}`);
+    await skinDialog(page).getByRole('button', { name: '重试图片', exact: true }).waitFor();
+    model.catalog.version = 'synthetic-ui-v2';
+    model.catalog.forms[0].catalog_version = 'synthetic-form-v2';
+    model.catalog.appearances.find(art => art.id === removed.id).eligible = false;
+    model.state.catalog_version = model.catalog.version;
+    await page.evaluate(() => document.dispatchEvent(new Event('atlas:preferences-changed')));
+    await until(async () => await skinDialog(page).locator('.choice-option').count() === 2, 'Failed candidate removed');
+    await until(async () => await skinDialog(page).locator('.choice-option [data-image-state="ready"]').count() === 2, 'Remaining candidates ready');
+    await skinDialog(page).getByRole('button', { name: '选为最爱', exact: true }).first().click();
+    const confirm = skinDialog(page).getByRole('button', { name: '确认最爱', exact: true });
+    assert.equal(await confirm.isEnabled(), true);
+    await confirm.click();
+    await skinDialog(page).getByText('已保存你的选择。', { exact: true }).waitFor();
+    assert.equal(model.choices.length, 1);
+    assert.notEqual(model.state.choices[0].choice_id, removed.id);
   });
 } finally {
   report.finished_at = new Date().toISOString();

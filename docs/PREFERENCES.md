@@ -1,5 +1,7 @@
 # 喜好功能：开发、发布与验收
 
+目录与实时状态已拆分，图片和公开响应的缓存边界见[图片交付与公开资料缓存](../.agents/notes/implemented/architecture/2026-09-25-image-and-public-cache.md)。
+
 「方舟关系与喜好」的 `/preferences/` 共用人物与皮肤入口；`tab=characters`、`tab=skins` 切换视图，`tab=skins&form=形态ID` 打开外观详情。前端位于 `frontend/src/preferences/`，业务、审核与统计位于 `backend/atlas/preference_*.py`。V2 实际覆盖 581 个人物（397 位干员、184 位 NPC）、446 个完整形态目录、1,361 个外观；425 个形态可选择，21 个单外观形态仅浏览。
 
 当前实现和本地验收已完成。实际缺项、测试证据、预览与后续边界见 [V2 验收](PREFERENCES_V2_ACCEPTANCE.md)；完整来源见[素材说明](PREFERENCES_ASSETS.md)，算法见[统计说明](PREFERENCES_STATISTICS.md)，字段见[接口契约](PREFERENCES_API.md)。原首版记录单独保存在 [V1 验收归档](PREFERENCES_V1_ACCEPTANCE.md)。没有自动部署线上，也没有以合成流量代替公众试运行。
@@ -58,6 +60,8 @@ backend/.venv/bin/python backend/manage.py aggregate_preferences
 
 ## 聚合、历史重算与维护
 
+升级到本次异常边界修复需执行迁移 `0012_preference_event_anchor`，仅为明细清理增加索引，不改写票据、名录或快照。已有实例先备份并执行迁移，再启动新版应用；通用迁移命令见上文。
+
 算法版本为 `bt-dual-scope-v3-<参数摘要>`。每轮分别生成 `scope=person` / `form` 的 84/28 天随机榜、当前支持与综合榜；同人形态偏好和皮肤登记仍单独统计。正常每 15 分钟聚合，并每日留存节点；调度器与告警由实际部署环境配置。普通聚合同截止点幂等。明细仍完整时可按原名录重算为新算法序列：
 
 ```bash
@@ -70,6 +74,8 @@ backend/.venv/bin/python backend/manage.py aggregate_preferences --cutoff 2026-0
 `aggregate()` 必须在外层业务事务之外调用，避免嵌套事务把控制锁保留到计算结束。计算失败、版本冲突或快照写入失败均保留原有快照；显式 `--revise` 的修订号与整批新快照一起提交，失败时不消耗修订号。此锁边界修复不改变统计算法、参数或数据库结构。取数与发布仍使用控制锁，实际耗时和内存占用需要随业务量监测。
 
 后台运行开关可分别暂停读取、写入、题目、支持、选择及资源故障对象；`PREFERENCES_ENABLED=0` 关闭整个功能。`review_preference_risk` 要求 staff 与具体原因。`purge_preferences` 每日清理 30 天风险信号、180 天任务/幂等回执/被替代事件，同时保留当前状态及必要锚点、名录与公开快照。清 Cookie 或跨设备不能保证恢复同一身份；匿名标识不是独立真人。
+
+清理先在短事务中推进保留边界，再释放控制锁并分批删除；中断后可以重试，保留边界不会回退。后台控制表单拒绝过期修订。浏览器请求超过 20 秒会结束等待，结果未知的写入继续用原幂等键重试；失效题目与撤下图片恢复可操作状态。约束和验证见[清理与异常恢复](../.agents/notes/implemented/architecture/2026-09-23-preferences.md#清理与异常恢复2026-09-25)。
 
 ## 复验
 

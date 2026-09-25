@@ -123,6 +123,10 @@ class PreferenceEvent(models.Model):
     actor = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, on_delete=models.PROTECT)
     created_at = models.DateTimeField(default=timezone.now, db_index=True)
 
+    class Meta:
+        indexes: ClassVar = [models.Index(fields=["participant", "object_id", "-created_at", "-id"],
+                                         name="preference_event_anchor_idx")]
+
 
 class PreferenceRiskSignal(models.Model):
     participant = models.ForeignKey(PreferenceParticipant, on_delete=models.CASCADE, null=True)

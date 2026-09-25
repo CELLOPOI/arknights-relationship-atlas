@@ -1,19 +1,24 @@
+import { fetchJson, RequestTimeoutError } from '../fetch-json';
+
 export class PreferenceError extends Error {
   constructor(public code: string, message: string, public status: number, public details: Record<string, unknown> = {}) { super(message); }
 }
 
-export async function request<T>(path: string, method = 'GET', body?: unknown): Promise<T> {
+export async function request<T>(path: string, method = 'GET', body?: unknown, cache: RequestCache = 'no-store'): Promise<T> {
   const csrf = document.cookie.split('; ').find(value => value.startsWith('csrftoken='))?.slice(10);
-  let response: Response;
+  let response: Response, data;
   try {
-    response = await fetch(`/api/preferences/${path}`, {
-      method, credentials: 'same-origin', cache: 'no-store',
+    ({ response, data } = await fetchJson(`/api/preferences/${path}`, {
+      method, credentials: 'same-origin', cache,
       headers: { Accept: 'application/json', ...(body === undefined ? {} : { 'Content-Type': 'application/json' }), ...(csrf && method !== 'GET' ? { 'X-CSRFToken': decodeURIComponent(csrf) } : {}) },
       ...(body === undefined ? {} : { body: JSON.stringify(body) }),
-    });
-  } catch { throw new PreferenceError('network', '连接中断，请重试。原有题目和选择仍会保留。', 0); }
-  const data = await response.json().catch(() => ({}));
-  if (!response.ok) throw new PreferenceError(data.code || 'unavailable', data.message || data.detail || '服务暂时不可用，请稍后重试。', response.status, data);
+    }));
+  } catch (reason) {
+    const timeout = reason instanceof RequestTimeoutError;
+    throw new PreferenceError(timeout ? 'timeout' : 'network', timeout
+      ? '请求超时，请重试。原操作已保留，不会重复登记。' : '连接中断，请重试。原有题目和选择仍会保留。', 0);
+  }
+  if (!response.ok) throw new PreferenceError(data?.code || 'unavailable', data?.message || data?.detail || '服务暂时不可用，请稍后重试。', response.status, data || {});
   return data as T;
 }
 

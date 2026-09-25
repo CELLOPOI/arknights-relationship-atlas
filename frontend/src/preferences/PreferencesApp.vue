@@ -8,6 +8,7 @@ import CharactersView from './CharactersView.vue';
 import SkinsView from './SkinsView.vue';
 import ResultsView from './ResultsView.vue';
 import { request } from './api';
+import { readCatalog } from './catalog';
 import { preferenceDraft } from './session';
 import { bindSectionScroll } from '../section-scroll';
 import { navigateSection, sectionTransitioning } from '../section-navigation';
@@ -18,6 +19,8 @@ const catalog = shallowRef<Catalog | null>(null), state = shallowRef<State | nul
 const config = ref<Config>({});
 const loading = ref(true), error = ref(''), feedback = ref(false);
 const tab = ref<'characters' | 'skins'>('characters'), formId = ref(''), personId = ref('');
+// 首次进入某个视图后才挂载；仅用 v-show 会让隐藏目录也开始请求图片。
+const visited = ref({ characters: false, skins: false });
 const menu = ref<HTMLDialogElement>(), viewport = ref<HTMLElement>();
 const scrolls = preferenceDraft('scrolls', { characters: 0, skins: 0 });
 let releaseScroll: (() => void) | undefined;
@@ -35,9 +38,8 @@ const publicState = computed<State>(() => ({
 async function refresh() {
   const id = ++stateRequest;
   try {
-    const fresh = await request<State>('state/');
-    const updated = fresh.catalog_version !== catalog.value?.version
-      ? await request<{ catalog: Catalog | null; config: Config }>('catalog/') : null;
+    const [fresh, updated] = await Promise.all([request<State>('state/'), readCatalog(catalog.value)]);
+    if (fresh.catalog_version !== updated.catalog.version) throw new Error('喜好目录已变化，请重试刷新。');
     if (!disposed && id === stateRequest) {
       if (updated?.catalog) { catalog.value = updated.catalog; config.value = updated.config; }
       state.value = { ...fresh, config: config.value }; error.value = '';
@@ -49,12 +51,13 @@ async function refresh() {
 async function load() {
   loading.value = true; error.value = '';
   try {
-    const result = await request<{ catalog: Catalog | null; config: Config }>('catalog/');
+    const result = await readCatalog();
     if (disposed) return;
     if (!result.catalog) throw new Error('喜好目录尚未发布，请稍后重试。');
     catalog.value = result.catalog;
     config.value = result.config;
     const identity = await request<State>('identity/', 'POST', {});
+    if (identity.catalog_version !== result.catalog.version) { await refresh(); return; }
     if (!disposed) { state.value = { ...identity, config: result.config }; await nextTick(); if (viewport.value) viewport.value.scrollTop = scrolls[tab.value]; }
   } catch (reason) { if (!disposed) error.value = (reason as Error).message; }
   finally { if (!disposed) loading.value = false; }
@@ -63,6 +66,7 @@ async function syncRoute() {
   if (viewport.value) scrolls[tab.value] = viewport.value.scrollTop;
   const params = new URLSearchParams(location.search);
   tab.value = params.get('tab') === 'skins' ? 'skins' : 'characters';
+  visited.value[tab.value] = true;
   formId.value = tab.value === 'skins' ? params.get('form') || '' : '';
   personId.value = tab.value === 'characters' ? params.get('person') || '' : '';
   await nextTick();
@@ -120,13 +124,13 @@ onBeforeUnmount(() => { if (viewport.value) scrolls[tab.value] = viewport.value.
         <div v-else-if="error && !catalog" class="preference-empty"><p role="alert">{{ error }}</p><button class="pref-primary" @click="load">重新读取</button></div>
         <template v-if="catalog && state">
           <p v-if="error" class="pref-error" role="alert">{{ error }} <button class="pref-text" @click="refresh">重试刷新</button></p>
-          <CharactersView v-show="tab === 'characters'" :active="tab === 'characters'" :catalog="catalog" :state="state" :person-id="personId" @refresh="refresh" @skin="id => route('skins', id)" />
-          <SkinsView v-show="tab === 'skins'" :active="tab === 'skins'" :catalog="catalog" :state="state" :form-id="formId" @refresh="refresh" @open="id => route('skins', id)" @close="route('skins')" />
+          <CharactersView v-if="visited.characters" v-show="tab === 'characters'" :active="tab === 'characters'" :catalog="catalog" :state="state" :person-id="personId" @refresh="refresh" @skin="id => route('skins', id)" />
+          <SkinsView v-if="visited.skins" v-show="tab === 'skins'" :active="tab === 'skins'" :catalog="catalog" :state="state" :form-id="formId" @refresh="refresh" @open="id => route('skins', id)" @close="route('skins')" />
         </template>
         <template v-else-if="catalog && !loading">
           <p class="pref-message" role="status">个人登记暂时不可用，当前仅浏览公开目录与结果；卡面显示默认外观。{{ error }} <button class="pref-text" @click="load">重新连接</button></p>
           <section v-show="tab === 'characters'"><header class="preference-title"><h1>人物喜好</h1><p>公开结果 · 只读浏览</p></header><ResultsView :catalog="catalog" /></section>
-          <SkinsView v-show="tab === 'skins'" :active="tab === 'skins'" :catalog="catalog" :state="publicState" :form-id="formId" @open="id => route('skins', id)" @close="route('skins')" />
+          <SkinsView v-if="visited.skins" v-show="tab === 'skins'" :active="tab === 'skins'" :catalog="catalog" :state="publicState" :form-id="formId" @open="id => route('skins', id)" @close="route('skins')" />
         </template>
         <footer class="preferences-footer"><span>本站参与者的喜好记录</span><button @click="feedback = true">反馈问题</button><a href="/sources/">来源与版权</a></footer>
       </main>

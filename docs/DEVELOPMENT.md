@@ -100,6 +100,12 @@ Caddy 只对受信任连接从右向左解析 `X-Forwarded-For`，再将已确�
 
 设计理由与验证边界见[代理入口与访问统计](../.agents/notes/implemented/architecture/2026-09-23-cdn-and-web-analytics.md)。
 
+## 图片与公开数据缓存
+
+固定图片通过内容版本 URL 长期缓存，字体由 Vite 生成哈希 URL；公开图谱和喜好名录按正式发布版本重新验证。HTML、实时配置、个人状态、题目和写入不使用长期缓存。接口边界、缓存键与升级取舍见[图片与公开资料缓存](../.agents/notes/implemented/architecture/2026-09-25-image-and-public-cache.md)。
+
+完整构建后执行 `CADDY=/path/to/caddy node scripts/verify-image-delivery.mjs`，脚本自动启动仅监听本机的 Caddy 与合成 API，验证手机两种像素密度、桌面选图、原图放大和重复访问缓存。没有连接业务数据库，产物位于 `.runtime/verification/image-delivery/`。另运行前述 `verify_caddy_proxy.py`，核对代理及静态资源的 69 项断言。真实手机清晰度和大陆运营商延迟需在更新实例后另测。
+
 ## 启用喜好目录
 
 迁移后按[喜好开发说明](PREFERENCES.md)将固定候选名录建立草稿、审核、预览并发布，再运行 `aggregate_preferences`。这条流程独立于正式人物资料，不关闭资料保护或旧社区开关。前端同时校验旧素材和 `assets/preferences-manifest.json`；普通构建不下载图片。喜好模拟浏览器验收使用 `FRONTEND_URL=http://127.0.0.1:5173 node scripts/verify-preferences-ui.mjs`；真实写入和备份恢复必须使用可丢弃数据库。

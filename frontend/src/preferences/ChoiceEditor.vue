@@ -34,6 +34,12 @@ const comparable = computed(() => options.value.filter(x => compare.value.includ
 const complete = computed(() => props.kind === 'form' || props.catalog.forms.find(x => x.id === props.objectId)?.complete);
 const canVote = computed(() => !!owner.value?.eligible && complete.value && options.value.length > 1);
 const allReady = computed(() => options.value.every(x => loaded.value.has(x.id)) && !failed.value.size);
+watch(options, (current, previous) => {
+  // 名录撤下失败图片或替换同 ID 的图片后，只保留仍指向同一文件的加载状态。
+  const retained = new Set(current.filter(option => previous.some(old => old.id === option.id && old.image === option.image)).map(option => option.id));
+  loaded.value = new Set([...loaded.value].filter(id => retained.has(id)));
+  failed.value = new Set([...failed.value].filter(id => retained.has(id)));
+});
 const conflict = computed(() => !!selected.value && draftVersion.value !== (saved.value?.version || 0));
 const currentName = computed(() => saved.value?.action === 'none' ? '没有明显偏好' : options.value.find(x => x.id === saved.value?.choice_id)?.name || '尚未选择');
 onDeactivated(() => preview.value?.close());

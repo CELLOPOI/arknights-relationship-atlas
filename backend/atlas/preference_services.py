@@ -42,8 +42,8 @@ def control(lock=False):
     return query.get_or_create(pk=1)[0]
 
 
-def catalog_payload():
-    current = control()
+def catalog_payload(current=None):
+    current = current if current is not None else control()
     if not current.catalog_id:
         return None
     payload = copy.deepcopy(current.catalog.payload)

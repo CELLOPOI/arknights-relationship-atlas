@@ -83,6 +83,7 @@ ATLAS_TEST_DATABASE_URL='postgresql://atlas_test:password@127.0.0.1:5432/atlas_c
 - `prepare-preferences-npc-assets.mjs`、`prepare-preferences-assets.mjs`：NPC与完整外观、原图摘要、V1保留、实际覆盖；更新时指定新 `--catalog-version`。
 - `prepare-preferences-portraits.py`：已校验脸部模型提供建议，保留逐图裁切/复核；需可选 assets 依赖，普通构建不需OpenCV。
 - `contact-preferences-portraits.mjs`：全量半身联系表；`verify-preferences-assets.mjs` 独立核对元数据分母、实际文件和旧版保留。
+- `verify-image-delivery.mjs`：构建后使用真实 Caddy 与图片、合成 API，核对响应式选图、隐藏目录不下载、放大原图和浏览器缓存；设置 `CADDY=/path/to/caddy`。
 - `verify-preferences-ui.mjs`：四视口合成接口、50次休息、原操作重试、卸载与迟到请求。
 - `verify-preferences-v2-real.mjs`：四视口真实API/素材/触控/网络，必须显式设置 `PREFERENCES_DISPOSABLE_PREVIEW=1` 并使用事先新建的可丢弃本地库。产生少量真实登记表中的合成动作，不可指向业务库。
 

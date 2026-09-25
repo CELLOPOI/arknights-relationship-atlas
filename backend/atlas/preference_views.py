@@ -7,7 +7,7 @@ from io import BytesIO
 from django.conf import settings
 from django.db import transaction
 from django.db.models import Q
-from django.http import JsonResponse
+from django.http import HttpResponseBase, JsonResponse
 from django.urls import path
 from django.utils import timezone
 from django.utils.crypto import salted_hmac
@@ -17,6 +17,7 @@ from django.views.decorators.http import require_http_methods
 
 from .feedback_views import identity_key
 from .preference_models import (
+    PreferenceCatalog,
     PreferenceChoice,
     PreferenceParticipant,
     PreferenceRate,
@@ -43,6 +44,7 @@ from .preference_services import (
 )
 from .preference_statistics import algorithm_version, series_key, snapshot_data
 from .preference_subjects import project_comparisons, subjects
+from .public_cache import encode_json, public_json
 
 
 def credential_hash(value):
@@ -80,16 +82,18 @@ def rate(request, scope, participant=None):
     return source
 
 
-def endpoint(methods, private=False, scope="read"):
+def endpoint(methods, private=False, scope="read", public=False):
     def decorate(func):
         @wraps(func)
         @require_http_methods(methods)
         @csrf_protect
         def wrapped(request, **kwargs):
             try:
-                if not settings.PREFERENCES_ENABLED or not control().reads_enabled:
+                current = control()
+                if not settings.PREFERENCES_ENABLED or not current.reads_enabled:
                     raise PreferenceError("preferences_paused", "喜好功能暂时暂停。", 503)
-                participant = participant_for(request)
+                request.preference_control = current
+                participant = None if public else participant_for(request)
                 if private and participant is None:
                     raise PreferenceError("identity_required", "请先初始化参与状态。", 401)
                 request.preference_participant = participant
@@ -109,13 +113,14 @@ def endpoint(methods, private=False, scope="read"):
                     if not isinstance(request.preference_body, dict):
                         raise PreferenceError("invalid_body", "请求必须为字段对象。")
                 value = func(request, **kwargs)
-                response = value if isinstance(value, JsonResponse) else JsonResponse(value)
+                response = value if isinstance(value, HttpResponseBase) else JsonResponse(value)
             except PreferenceError as exc:
                 response = JsonResponse({"code": exc.code, "detail": exc.detail, **exc.extra}, status=exc.status)
                 if exc.status == 429:
                     response["Retry-After"] = str(exc.extra["retry_after"])
-            response["Cache-Control"] = "private, no-store" if private or request.method != "GET" else "no-cache"
-            response["Vary"] = "Cookie"
+            response.setdefault("Cache-Control", "private, no-store")
+            if not public:
+                response["Vary"] = "Cookie"
             return response
         return wrapped
     return decorate
@@ -129,8 +134,11 @@ def fields(body, allowed):
 @ensure_csrf_cookie
 @endpoint(["GET"])
 def catalog(request):
-    current = control()
-    return {"catalog": catalog_payload(), "server_time": iso(timezone.now()), "config": {
+    return {**runtime_payload(request.preference_control), "catalog": catalog_payload(request.preference_control)}
+
+
+def runtime_payload(current):
+    return {"catalog_version": current.catalog_id, "server_time": iso(timezone.now()), "config": {
         "weekly_limit": settings.PREFERENCE_WEEKLY_LIMIT, "rolling_limit": settings.PREFERENCE_ROLLING_LIMIT,
         "person_limit": settings.PREFERENCE_PERSON_LIMIT, "support_limit": settings.PREFERENCE_SUPPORT_LIMIT, "favorite_limit": settings.PREFERENCE_FAVORITE_LIMIT,
         "rolling_days": settings.PREFERENCE_ROLLING_DAYS, "coverage_fraction": settings.PREFERENCE_COVERAGE_FRACTION,
@@ -138,6 +146,24 @@ def catalog(request):
         "cooldown_hours": settings.PREFERENCE_COOLDOWN_HOURS, "task_hours": settings.PREFERENCE_TASK_HOURS,
         "phase": "trial", "writes_enabled": current.writes_enabled, "tasks_enabled": current.tasks_enabled,
         "supports_enabled": current.supports_enabled, "choices_enabled": current.choices_enabled}}
+
+
+@ensure_csrf_cookie
+@endpoint(["GET"])
+def runtime(request):
+    return runtime_payload(request.preference_control)
+
+
+@endpoint(["GET"], public=True)
+def directory(request):
+    current = request.preference_control
+    if not current.catalog_id:
+        raise PreferenceError("catalog_unavailable", "候选名录尚未发布。", 503)
+    if request.GET.get("version") != current.catalog_id:
+        raise PreferenceError("catalog_conflict", "候选名录已更新，请重新读取。", 409)
+    revision = PreferenceCatalog.objects.values("version", "digest").get(pk=current.catalog_id)
+    key = "preference-directory-v1-" + digest(revision)
+    return public_json(request, key, lambda: encode_json({"catalog": catalog_payload(current)}))
 
 
 def participant_state(participant):
@@ -328,6 +354,7 @@ def records(request):
 
 
 urlpatterns = [
+    path("runtime/", runtime), path("directory/", directory),
     path("catalog/", catalog), path("identity/", identity), path("state/", me), path("tasks/", tasks),
     path("tasks/<uuid:task_id>/answer/", answer), path("supports/", supports),
     path("choices/<str:kind>/<str:object_id>/", choices),

@@ -13,11 +13,11 @@
 
  * © 2026 MyFonts Inc. */
 /* OFL 派生字体的名称与完整许可见 assets/ofl-fonts.json、assets/licenses/。 */
-@font-face { font-family: AtlasCJK; src: url('/assets/fonts/RelationshipAtlasCJK-Regular.96525ef06557.woff2') format('woff2'); font-weight: 400; font-display: swap; }
-@font-face { font-family: AtlasCJK; src: url('/assets/fonts/RelationshipAtlasCJK-Bold.1721bac9833a.woff2') format('woff2'); font-weight: 700; font-display: swap; }
-@font-face { font-family: Bender; src: url('/assets/fonts/Bender-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
-@font-face { font-family: AtlasNarrow; src: url('/assets/fonts/RelationshipAtlasNarrow-Medium.6af080c9eed8.woff2') format('woff2'); font-weight: 500; font-display: swap; }
-@font-face { font-family: Novecento; src: url('/assets/fonts/NovecentoSansWideBold-d9c32120/font.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+@font-face { font-family: AtlasCJK; src: url('../../public/assets/fonts/RelationshipAtlasCJK-Regular.96525ef06557.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: AtlasCJK; src: url('../../public/assets/fonts/RelationshipAtlasCJK-Bold.1721bac9833a.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+@font-face { font-family: Bender; src: url('../../public/assets/fonts/Bender-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+@font-face { font-family: AtlasNarrow; src: url('../../public/assets/fonts/RelationshipAtlasNarrow-Medium.6af080c9eed8.woff2') format('woff2'); font-weight: 500; font-display: swap; }
+@font-face { font-family: Novecento; src: url('../../public/assets/fonts/NovecentoSansWideBold-d9c32120/font.woff2') format('woff2'); font-weight: 700; font-display: swap; }
 :root {
   --accent-cyan: #18d1ff;
   --accent-cyan-hover: #9aebff;

@@ -349,6 +349,8 @@ class ReleaseConcurrencyTests(TransactionTestCase):
 
         data = export_database()
         publish(package_for(data))
+        from .public_cache import responses
+        responses.clear()
         reached_nodes, continue_reading = Event(), Event()
         original = views.person_data
 

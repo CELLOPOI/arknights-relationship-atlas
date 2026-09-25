@@ -18,6 +18,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .models import Comment, Favorite, Identity, Person, Relationship, Report, Submission, User
+from .public_cache import encode_json, public_json
 from .public_data import consistent_read, release_metadata
 from .source_data import digest
 from .source_titles import describe_source
@@ -139,6 +140,20 @@ class GraphView(AtlasAPIView):
         scope = request.query_params.get("scope", "operators")
         if scope not in ("operators", "all"):
             raise ValidationError("资料范围无效。")
+        release = release_metadata()
+        if release and settings.FORMAL_DATA_MANAGED:
+            # 在同一只读快照内先核对版本，304 和热缓存不构造人物、关系及完整 JSON。
+            key = "graph-v1-" + digest({"scope": scope, "release": release})
+            return public_json(request, key, lambda: encode_json(self.payload(scope, release)))
+        response = Response(self.payload(scope, release))
+        etag = '"' + digest(response.data) + '"'
+        if request.headers.get("If-None-Match") == etag:
+            response = Response(status=304)
+        response["ETag"] = etag
+        response["Cache-Control"] = "public, max-age=0, must-revalidate"
+        return response
+
+    def payload(self, scope, release):
         people = public_people()
         edges = public_relationships()
         if scope == "operators":
@@ -149,22 +164,14 @@ class GraphView(AtlasAPIView):
             p.faction_id: {"id": p.faction_id, "name": p.faction.name, "order": p.faction.order}
             for p in people
         }
-        response = Response(
-            {
-                "nodes": [person_data(p) for p in people],
-                "edges": [edge_data(e) for e in edges],
-                "factions": sorted(factions.values(), key=lambda f: (f["order"], f["id"])),
-                "scope": scope,
-                "npcCount": public_people().filter(is_operator=False).count(),
-                "dataRelease": release_metadata(),
-            }
-        )
-        etag = '"' + digest(response.data) + '"'
-        if request.headers.get("If-None-Match") == etag:
-            response = Response(status=304)
-        response["ETag"] = etag
-        response["Cache-Control"] = "public, max-age=0, must-revalidate"
-        return response
+        return {
+            "nodes": [person_data(p) for p in people],
+            "edges": [edge_data(e) for e in edges],
+            "factions": sorted(factions.values(), key=lambda f: (f["order"], f["id"])),
+            "scope": scope,
+            "npcCount": public_people().filter(is_operator=False).count(),
+            "dataRelease": release,
+        }
 
 
 class PersonView(AtlasAPIView):
