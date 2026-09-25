@@ -134,6 +134,70 @@ async function regression(name, run, options = {}) {
   } finally { model.choiceGate?.resolve(); model.answerGate?.resolve(); model.taskGate?.resolve(); model.imageGate?.resolve(); await context.close(); }
 }
 try {
+  for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
+    await regression(`personal-ranking-${viewport.width}`, async (page, model) => {
+      const npc = [0, 1].map(i => ({ ...persons[i], id: `synthetic-npc-${i}`, name: `合成 NPC ${i + 1}`, kind: 'npc', form_ids: [] }));
+      model.catalog.persons.push(...npc);
+      const record = (id, left, right, winner) => ({ id, left_id: left.id, right_id: right.id, winner_id: winner.id, outcome: 'choose', accepted_at: now, left, right });
+      const saved = [record('r1', persons[0], persons[1], persons[0]), record('r2', persons[2], persons[3], persons[2]), record('r3', persons[0], npc[0], persons[0]), record('r4', npc[0], npc[1], npc[0])];
+      await page.goto(`${base}/preferences/`);
+      await page.getByRole('button', { name: '我的喜好榜', exact: true }).waitFor();
+      await page.evaluate(records => localStorage.setItem('terra-preference-practice', JSON.stringify(records)), saved);
+      await page.reload();
+      await page.getByRole('button', { name: '我的喜好榜', exact: true }).click();
+      const panel = page.locator('.personal-ranking');
+      assert.equal(await panel.getByRole('button', { name: '仅干员', exact: true }).getAttribute('aria-pressed'), 'true');
+      assert.equal(await panel.locator('.personal-ranking-list li').count(), 4);
+      assert.equal(await panel.locator('.personal-ranking-group').count(), 2);
+      assert.equal(await panel.getByRole('button', { name: '仅 NPC', exact: true }).count(), 0);
+      await panel.getByRole('button', { name: '干员 + NPC', exact: true }).click();
+      assert.equal(await panel.locator('.personal-ranking-list li').count(), 6);
+      assert.equal(await panel.locator('[data-person-id="synthetic-npc-0"]').count(), 1);
+      await noOverflow(page, `Personal ranking ${viewport.width}`);
+      await page.screenshot({ path: path.join(output, `personal-ranking-${viewport.width}.png`), fullPage: true });
+      await panel.getByRole('button', { name: '继续个人练习', exact: true }).click();
+      await until(async () => await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().isEnabled(), 'Practice images ready');
+      await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().click();
+      await page.getByRole('button', { name: '查看我的喜好榜', exact: true }).click();
+      assert.equal(await panel.locator('.personal-ranking-group').count(), 1, 'Practice connects existing comparison groups');
+      assert.equal((await page.evaluate(() => JSON.parse(localStorage.getItem('terra-preference-practice')))).length, 5);
+      await page.reload();
+      await panel.waitFor();
+      assert.equal(await panel.locator('.personal-ranking-group').count(), 1, 'Ranking survives reload');
+      await panel.getByRole('button', { name: '仅干员', exact: true }).click();
+      await panel.getByRole('button', { name: '继续个人练习', exact: true }).click();
+      await until(async () => await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().isEnabled(), 'Operator practice ready');
+      const titles = await page.locator('.random-person h3').allTextContents();
+      assert.ok(titles.every(name => !name.includes('NPC')), 'Operator practice never shows NPC');
+      await page.getByRole('button', { name: '难分高下', exact: true }).click();
+      await page.getByRole('button', { name: '我的记录', exact: true }).click();
+      await page.getByText(/本机个人练习 ·/).click();
+      await page.getByRole('button', { name: '清除本机练习记录', exact: true }).click();
+      await page.getByRole('button', { name: '我的喜好榜', exact: true }).click();
+      await panel.getByRole('heading', { name: '当前范围还没有可排名的练习' }).waitFor();
+      assert.equal(await page.evaluate(() => localStorage.getItem('terra-preference-practice')), null);
+      await page.getByRole('navigation', { name: '人物喜好功能' }).getByRole('button', { name: '随机选择', exact: true }).click();
+      assert.equal(await page.locator('.random-person').count(), 2, 'Clearing records still permits returning directly to practice');
+      assert.equal(taskCalls(model), 0, 'Personal practice never dispatches a formal task');
+      assert.equal(voteCalls(model), 0, 'Personal practice never submits a public vote');
+    }, { viewport });
+  }
+  await regression('personal-ranking-storage-failure', async (page) => {
+    await page.goto(`${base}/preferences/`);
+    await page.getByRole('button', { name: '个人练习', exact: true }).click();
+    await page.evaluate(() => {
+      const original = Storage.prototype.setItem;
+      Storage.prototype.setItem = function (key, value) {
+        if (key === 'terra-preference-practice') throw new DOMException('Synthetic storage failure', 'QuotaExceededError');
+        return original.call(this, key, value);
+      };
+    });
+    await until(async () => await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().isEnabled(), 'Practice images ready');
+    await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().click();
+    await page.getByRole('button', { name: '查看我的喜好榜', exact: true }).click();
+    await page.getByText('本机储存不可用，练习记录和榜单仅保留在当前页面。', { exact: true }).waitFor();
+    assert.equal(await page.locator('.personal-ranking-list li').count(), 2);
+  });
   await regression('directory-publication-during-load', async (page, model) => {
     model.publishDuringDirectory = true;
     await page.goto(`${base}/preferences/?tab=characters`);

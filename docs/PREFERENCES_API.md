@@ -6,7 +6,7 @@
 
 GET `runtime/` 返回 `{catalog_version:string|null,config,server_time:string}`，使用 `private, no-store`，每次读取实时开关。GET `directory/?version=<catalog_version>` 只返回 `{catalog:Catalog}`，与访客身份无关，不创建 Cookie；使用 `public, max-age=0, must-revalidate` 和 ETag，条件命中时返回 304。没有已发布名录返回 503；请求版本与当前版本不一致返回 409 `catalog_conflict`，客户端重新读取 runtime 后再请求目录。目录缓存不能绕过维护开关与来源限流；个人状态版本必须与所显示目录一致。前端最多重试三次发布冲突，不用旧目录替代读取失败。其余喜好响应禁止存储，具体实现见[缓存决定](../.agents/notes/implemented/architecture/2026-09-25-image-and-public-cache.md)。
 
-兼容原客户端的 GET `catalog/` 返回 `{catalog: Catalog|null, config: {weekly_limit:120,rolling_limit:480,person_limit:3,support_limit:15,favorite_limit:3,rest_interval:50,pair_repeat_days:84,cooldown_hours:24,task_hours:24,phase:"trial",writes_enabled:boolean,tasks_enabled:boolean,supports_enabled:boolean,choices_enabled:boolean},server_time:string}`。
+兼容原客户端的 GET `catalog/` 返回 `{catalog: Catalog|null, config: {weekly_limit:300,rolling_limit:1200,person_limit:6,support_limit:15,favorite_limit:3,rest_interval:50,pair_repeat_days:84,cooldown_hours:24,task_hours:24,phase:"trial",writes_enabled:boolean,tasks_enabled:boolean,supports_enabled:boolean,choices_enabled:boolean},server_time:string}`。
 
 Catalog 为 `{version,asset_version,source_version,persons:Person[],forms:Form[],appearances:Appearance[],professions:Profession[],subjects:Subject[], ...coverage}`。Person 为 `{id,name,aliases:string[],kind:"operator"|"npc",eligible:boolean,representative_url,form_ids:string[],form_catalog_version?:string}`。Form 为 `{id,person_id,name,profession,order,default_appearance_id,catalog_version,eligible:boolean,complete:boolean,appearance_ids:string[]}`。Appearance 为 `{id,form_id,name,kind:"base"|"elite"|"outfit",image_url,thumbnail_url,portrait_url,focus:{crop,method,reviewed},eligible:boolean,...provenance}`。Profession 为 `{id,name,icon_url}`。Subject 继承 Person 的显示字段，增加 `{person_id,form_id:string|null}`；id 为 `form:<形态ID>` 或无形态人物的 `person:<人物ID>`，name 与 representative_url 是具体形态的固定题面。六个确认的临时支援实例不重复加入 subjects，原始 forms 保留。候选显示顺序可以由前端用服务器返回的 `choice_order_seed` 加对象/名录版本进行稳定散列排序；不影响统计。
 
@@ -19,7 +19,7 @@ GET `state/` 与 POST `identity/` 返回：
   "risk_status":"accepted",
   "writes_enabled":true,"task_enabled":true,"cooldown_hours":24,
   "choice_order_seed":"opaque-browser-specific-seed",
-  "quota":{"weekly_limit":120,"weekly_used":0,"rolling_limit":480,"rolling_used":0,"remaining":120,"person_limit":3,"rolling_days":28,"weekly_resets_at":"...","rolling_recovers_at":null},
+  "quota":{"weekly_limit":300,"weekly_used":0,"rolling_limit":1200,"rolling_used":0,"remaining":300,"person_limit":6,"rolling_days":28,"weekly_resets_at":"...","rolling_recovers_at":null},
   "pending_task":null,
   "supports":{"support_ids":[],"favorite_ids":[],"legacy_support_ids":[],"legacy_favorite_ids":[],"subject_support_ids":[],"subject_favorite_ids":[],"version":0,"modified_at":null,"next_change_at":null,"risk_status":"accepted","support_limit":15,"favorite_limit":3},
   "choices":[]
