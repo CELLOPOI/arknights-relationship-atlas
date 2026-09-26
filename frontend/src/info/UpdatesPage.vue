@@ -7,7 +7,7 @@ import SiteNoticeButton from '../components/SiteNoticeButton.vue';
 
 type Category = 'all' | 'story' | 'feature';
 type Update = { id: number; category: Exclude<Category, 'all'>; title: string; summary: string; changes: string[];
-  acknowledgements: string; status: 'draft' | 'published'; publishedAt: string | null };
+  status: 'draft' | 'published'; publishedAt: string | null };
 type UpdatePage = { results: Update[]; count: number; next: number | null };
 const categories: { value: Category; label: string }[] = [{ value: 'all', label: '全部更新' }, { value: 'story', label: '剧情修订' }, { value: 'feature', label: '功能更新' }];
 const category = ref<Category>('all');
@@ -101,14 +101,13 @@ onBeforeUnmount(() => { request++; menu.value?.close(); window.removeEventListen
               <h2>{{ item.title }}</h2>
               <p class="update-summary">{{ item.summary }}</p>
               <ul class="update-changes"><li v-for="(change, index) in item.changes" :key="index">{{ change }}</li></ul>
-              <p v-if="item.acknowledgements" class="update-thanks"><strong>感谢反馈</strong><span>{{ item.acknowledgements }}</span></p>
             </div>
           </article>
           <div v-if="error" class="updates-state" role="alert"><p>{{ error }}</p><button class="archive-button secondary" :disabled="busy" @click="load(failedPage)">重新加载</button></div>
           <div v-else-if="!busy && !items.length" class="updates-state"><h2>暂无{{ category === 'story' ? '剧情修订' : category === 'feature' ? '功能更新' : '更新记录' }}</h2><p>发布后的说明会按时间列在这里。</p><button v-if="category !== 'all'" class="archive-button secondary" @click="filter('all')">查看全部更新</button></div>
           <div v-if="next && !error" class="updates-more"><button class="archive-button secondary" :disabled="busy" @click="load(next)">{{ busy ? '正在加载…' : '查看更早的更新' }}</button></div>
         </section>
-        <footer class="updates-footer"><span>感谢每一位帮助核对剧情、补充资料与改进体验的玩家。</span><a href="/sources/">来源与版权</a></footer>
+        <footer class="updates-footer"><a href="/sources/">来源与版权</a></footer>
       </div>
     </main>
     <dialog ref="menu" class="site-menu" aria-label="网站导航">
@@ -152,9 +151,6 @@ onBeforeUnmount(() => { request++; menu.value?.close(); window.removeEventListen
 .update-changes li { padding-left: 4px; white-space: pre-wrap; }
 .update-changes li + li { margin-top: 12px; }
 .update-changes li::marker { color: var(--text-muted); }
-.update-thanks { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 18px; padding-top: 20px; margin: 24px 0 0; border-top: 1px solid var(--border-subtle); font-size: 13px; line-height: 1.8; color: var(--text-muted); }
-.update-thanks strong { color: var(--text-secondary); font-weight: 500; }
-.update-thanks span { white-space: pre-wrap; }
 .updates-state, .updates-loading { padding: 52px 0; }
 .updates-state h2 { margin: 0 0 12px; font-size: 20px; }
 .updates-state p, .updates-loading p { margin: 0 0 24px; color: var(--text-muted); font-size: 15px; line-height: 1.8; }
@@ -163,7 +159,7 @@ onBeforeUnmount(() => { request++; menu.value?.close(); window.removeEventListen
 .updates-loading span:first-child { width: 40%; height: 22px; margin-bottom: 28px; }
 .updates-loading span:last-child { width: 55%; }
 .updates-more { padding: 28px 0; text-align: center; }
-.updates-footer { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 28px; font-size: 12px; line-height: 1.9; color: var(--text-muted); }
+.updates-footer { display: flex; align-items: center; justify-content: flex-end; padding-top: 28px; font-size: 12px; line-height: 1.9; color: var(--text-muted); }
 .updates-footer a { display: inline-flex; align-items: center; flex: none; min-height: 44px; color: var(--text-secondary); }
 .updates-footer a:hover { color: var(--accent-cyan); }
 .updates-menu-button { display: none; align-items: center; justify-content: center; width: 44px; height: 44px; border: 0; color: var(--text-primary); background: none; cursor: pointer; }
@@ -182,7 +178,6 @@ onBeforeUnmount(() => { request++; menu.value?.close(); window.removeEventListen
   .update-pending { font-size: 18px; }
   .update-copy h2 { font-size: 21px; }
   .update-summary { margin-top: 12px; font-size: 14px; }
-  .update-thanks { grid-template-columns: 1fr; gap: 8px; }
   .updates-footer { flex-direction: column; align-items: flex-start; gap: 8px; }
   .updates-preview { flex-wrap: wrap; }
 }

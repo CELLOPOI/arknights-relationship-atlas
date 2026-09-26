@@ -41,7 +41,8 @@ class SiteUpdateTests(TestCase):
         self.assertEqual(response["count"], 1)
         public = response["results"][0]
         self.assertEqual(public["changes"], ["按时间查看更新。", "筛选剧情修订与功能更新。"])
-        self.assertEqual(set(public), {"id", "category", "title", "summary", "changes", "acknowledgements", "status", "publishedAt"})
+        self.assertEqual(set(public), {"id", "category", "title", "summary", "changes", "status", "publishedAt"})
+        self.assertNotIn("感谢提供复现步骤的玩家。", str(public))
         set_update_publication(draft.pk, actor=self.actor, published=False)
         self.assertEqual(self.client.get("/api/updates/").json()["count"], 0)
         again = set_update_publication(draft.pk, actor=self.actor, published=True)
@@ -66,7 +67,7 @@ class SiteUpdateTests(TestCase):
     def test_editor_can_save_and_preview_but_cannot_publish(self):
         self.client.force_login(self.editor)
         url = "/admin/atlas/siteupdate/add/"
-        self.assertEqual(self.client.get(url).status_code, 200)
+        self.assertNotContains(self.client.get(url), 'name="acknowledgements"')
         response = self.client.post(url, {"key": "from-admin", "category": "feature", "title": "功能变化",
                                          "summary": "后台填写。", "changes": "新增更新说明。", "_save": "保存"})
         self.assertEqual(response.status_code, 302)
@@ -92,6 +93,7 @@ class SiteUpdateTests(TestCase):
         draft.refresh_from_db()
         self.assertEqual(draft.status, "published")
         self.assertNotContains(self.client.get(url), 'name="title"')
+        self.assertNotContains(self.client.get(url), "field-acknowledgements")
 
     def test_pagination_filtering_and_invalid_queries(self):
         for index in range(22):

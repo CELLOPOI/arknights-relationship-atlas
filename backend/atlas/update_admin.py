@@ -1,3 +1,5 @@
+from typing import ClassVar
+
 from django.contrib import admin, messages
 from django.core.exceptions import ValidationError
 from django.db import transaction
@@ -12,6 +14,7 @@ class UpdateForm(VersionedForm):
     class Meta:
         model = SiteUpdate
         fields = "__all__"
+        help_texts: ClassVar[dict[str, str]] = {"changes": "每行一项变化，使用纯文本。需要致谢时直接写在本条正文中。"}
 
     def clean(self):
         cleaned = super().clean()
@@ -32,7 +35,7 @@ class SiteUpdateAdmin(NoDeleteAdmin):
     search_fields = ("title", "summary", "key",)
     actions = ("publish_selected", "withdraw_selected",)
     readonly_fields = ("status", "published_at", "updated_at", "preview_link",)
-    exclude = ("version",)
+    exclude = ("version", "acknowledgements",)
     raw_id_fields = ("data_release",)
 
     @admin.display(description="页面预览")
@@ -46,7 +49,7 @@ class SiteUpdateAdmin(NoDeleteAdmin):
         if obj:
             fields.append("key")
         if obj and obj.status == SiteUpdate.Status.PUBLISHED:
-            fields.extend(["category", "title", "summary", "changes", "acknowledgements", "data_release"])
+            fields.extend(["category", "title", "summary", "changes", "data_release"])
         return fields
 
     def save_model(self, request, obj, form, change):
