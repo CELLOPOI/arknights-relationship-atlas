@@ -272,7 +272,8 @@ def purge(now=None):
     # 支持与同一对象的选择/纠正均保留截止点前最后一条，含相同时间戳的顺序。
     events = delete_batches(PreferenceEvent.objects.filter(
         created_at__lt=detail_cutoff, kind__in=state_kinds).filter(Exists(later)))
-    events += delete_batches(PreferenceEvent.objects.filter(created_at__lt=detail_cutoff, kind="task_void"))
+    events += delete_batches(PreferenceEvent.objects.filter(
+        created_at__lt=detail_cutoff, kind__in=["task_void", "coverage_task_issued"]))
     return {"risk_signals": risk, "rates": rates, "operations": operations, "tasks": tasks, "events": events}
 
 
