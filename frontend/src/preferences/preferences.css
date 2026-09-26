@@ -73,6 +73,12 @@
   .personal-rank { grid-row: span 2; font-size: 21px; }
 }
 .random-status { min-height: 44px; display: flex; align-items: center; justify-content: center; gap: 12px; color: var(--accent-cyan-hover); font-size: 13px; }
+.random-keyboard-hint { text-align: center; line-height: 1.8; }
+.random-keyboard-hint span { display: inline-block; }
+.random-shortcut { display: inline-block; margin-left: 8px; font: inherit; color: inherit; }
+@media (max-width: 760px), (hover: none), (pointer: coarse) {
+  .random-keyboard-hint, .random-shortcut { display: none; }
+}
 .random-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); margin: 20px auto 0; max-width: 1040px; }
 .random-person { min-width: 0; text-align: center; padding: 0 24px; }
 .random-person + .random-person { border-left: 1px solid #293236; }

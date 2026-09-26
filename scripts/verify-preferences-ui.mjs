@@ -62,7 +62,7 @@ async function installMock(context) {
       if (!model.state.pending_task) {
         model.state.quota.weekly_used++; model.state.quota.rolling_used++; model.state.quota.remaining--;
         const [left, right] = model.taskPair;
-        model.state.pending_task = { id: `synthetic-task-${model.state.quota.weekly_used}`, left_id: left.id, right_id: right.id, left, right, catalog_version: catalog.version, issued_at: now, expires_at: '2026-09-24T12:00:00+00:00', status: 'pending', outcome: null, winner_id: null, risk_status: 'accepted' };
+        model.state.pending_task = { id: `synthetic-task-${model.state.quota.weekly_used}`, left_id: left.person_id || left.id, right_id: right.person_id || right.id, left, right, catalog_version: catalog.version, issued_at: now, expires_at: '2026-09-24T12:00:00+00:00', status: 'pending', outcome: null, winner_id: null, risk_status: 'accepted' };
       }
       return json({ task: model.state.pending_task, quota: model.state.quota });
     }
@@ -491,6 +491,145 @@ try {
       throw error;
     } finally { model.choiceGate?.resolve(); model.answerGate?.resolve(); await context.close(); }
   }
+  for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 844, height: 390 }]) await regression(`random-keyboard-shortcuts-${viewport.width}`, async (page, model) => {
+    const desktop = viewport.width === 1440;
+    model.taskPair = persons.slice(0, 2).map((person, index) => ({ ...person, id: forms[index].id, person_id: person.id }));
+    await page.goto(`${base}/preferences/?tab=characters`);
+    await page.keyboard.press('ArrowLeft');
+    assert.equal(taskCalls(model), 0, 'Arrow keys do not start formal participation');
+    await page.getByRole('button', { name: '开始随机选择', exact: true }).click();
+    const choices = page.getByRole('button', { name: '更喜欢这位', exact: true });
+    const actions = [['ArrowLeft', 'choose', persons[0].id], ['ArrowRight', 'choose', persons[1].id], ['ArrowUp', 'tie', null], ['ArrowDown', 'skip', null]];
+    for (const [index, [key, outcome, winner]] of actions.entries()) {
+      await until(async () => model.state.quota.weekly_used === index + 1 && await choices.first().isEnabled(), 'Keyboard pair ready');
+      assert.equal(await page.locator('.random-keyboard-hint').isVisible(), desktop, 'Only desktop shows the keyboard instructions');
+      const button = page.locator(`.random-view [aria-keyshortcuts="${key}"]`);
+      assert.equal(await button.locator('kbd').isVisible(), desktop, 'Phones hide key labels in portrait and landscape');
+      if (desktop) await page.keyboard.press(key);
+      else await button.tap();
+      await until(() => model.records.length === index + 1, 'Keyboard answer accepted');
+      assert.equal(model.records[index].outcome, outcome);
+      assert.equal(model.records[index].winner_id, winner, 'Use person identity even when the displayed form has a different id');
+    }
+    await until(async () => model.state.quota.weekly_used === 5 && await choices.first().isEnabled(), 'Final pair ready');
+    await noOverflow(page, `Keyboard hints ${viewport.width}`);
+    const screenshot = { path: path.join(output, `random-keyboard-${viewport.width}.png`) };
+    if (desktop) await page.locator('.random-view').screenshot(screenshot);
+    else {
+      // 横屏元素长截图会重设 Chromium 触屏媒体条件，手机只截实际视口。
+      await page.locator('[aria-keyshortcuts="ArrowDown"]').scrollIntoViewIfNeeded();
+      await page.screenshot(screenshot);
+    }
+    assert.equal(await page.locator('.random-keyboard-hint').isVisible(), desktop, 'Capture preserves the actual input-device media conditions');
+  }, { viewport, isMobile: viewport.width !== 1440, hasTouch: viewport.width !== 1440 });
+  await regression('random-keyboard-hold-loading-and-lost-response', async (page, model) => {
+    await page.goto(`${base}/preferences/?tab=characters`);
+    await page.getByRole('button', { name: '开始随机选择', exact: true }).click();
+    const choices = page.getByRole('button', { name: '更喜欢这位', exact: true });
+    await until(async () => await choices.first().isEnabled(), 'Initial keyboard pair ready');
+    model.answerGate = deferred(); model.taskGate = deferred();
+    await page.keyboard.down('ArrowLeft');
+    await until(() => voteCalls(model) === 1, 'First key starts one answer');
+    await page.keyboard.down('ArrowLeft');
+    await page.keyboard.press('ArrowRight');
+    await page.keyboard.press('ArrowUp');
+    await page.keyboard.press('ArrowDown');
+    assert.equal(voteCalls(model), 1, 'Submission locks all arrow actions');
+    model.answerGate.resolve(); model.answerGate = null;
+    await until(() => model.records.length === 1 && taskCalls(model) === 2, 'Next task waits');
+    await page.keyboard.press('ArrowDown');
+    assert.equal(voteCalls(model), 1, 'Loading does not submit the previous task again');
+    model.taskGate.resolve(); model.taskGate = null;
+    await until(async () => await choices.first().isEnabled(), 'Second pair ready');
+    await page.keyboard.down('ArrowLeft');
+    await page.waitForTimeout(100);
+    assert.equal(voteCalls(model), 1, 'Held key and keys pressed during loading are not replayed on the new pair');
+    await page.keyboard.up('ArrowLeft');
+    model.loseAnswerOnce = true;
+    await page.keyboard.press('ArrowRight');
+    await page.getByRole('button', { name: '重试原选择', exact: true }).waitFor();
+    for (const key of ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown']) await page.keyboard.press(key);
+    assert.equal(voteCalls(model), 2, 'Uncertain answer requires the explicit original retry');
+    const original = clone(model.calls.filter(call => call.path.includes('/answer/')).at(-1));
+    await page.getByRole('button', { name: '重试原选择', exact: true }).click();
+    await until(async () => taskCalls(model) === 3 && await choices.first().isEnabled(), 'Original retry recovers');
+    assert.deepEqual(model.calls.filter(call => call.path.includes('/answer/')).at(-1), original);
+    assert.equal(model.records.length, 2, 'Retry does not add another vote');
+  });
+  await regression('random-keyboard-focus-dialogs-and-lifecycle', async (page, model) => {
+    await page.goto(`${base}/preferences/?tab=characters`);
+    await page.getByRole('button', { name: '开始随机选择', exact: true }).click();
+    await until(async () => await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().isEnabled(), 'Keyboard scope pair ready');
+    for (const modifier of ['Control', 'Alt', 'Meta', 'Shift']) await page.keyboard.press(`${modifier}+ArrowRight`);
+    const untouched = await page.evaluate(() => {
+      const target = document.querySelector('.random-view');
+      const results = [target.dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowRight', isComposing: true, bubbles: true, cancelable: true }))];
+      for (const tag of ['input', 'textarea', 'select', 'div']) {
+        const field = document.createElement(tag);
+        if (tag === 'div') field.contentEditable = 'true';
+        target.append(field); field.focus();
+        results.push(field.dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowRight', bubbles: true, cancelable: true })));
+        field.remove();
+      }
+      return results;
+    });
+    assert.ok(untouched.every(Boolean), 'Editing and IME arrow events keep their default behavior');
+    await page.getByRole('button', { name: `放大${persons[0].name}立绘`, exact: true }).click();
+    await page.keyboard.press('ArrowLeft'); await page.keyboard.press('ArrowUp');
+    await page.getByRole('button', { name: '关闭大图', exact: true }).click();
+    await page.getByRole('banner').getByRole('button', { name: '反馈问题', exact: true }).click();
+    await page.keyboard.press('ArrowRight'); await page.keyboard.press('ArrowDown');
+    await page.getByRole('button', { name: '关闭反馈', exact: true }).click();
+    await page.getByRole('button', { name: '厨力支持', exact: true }).click();
+    await page.getByRole('searchbox').focus(); await page.keyboard.press('ArrowRight');
+    await page.getByRole('button', { name: '我的记录', exact: true }).click(); await page.keyboard.press('ArrowDown');
+    await switchTab(page, '皮肤'); await page.keyboard.press('ArrowLeft');
+    await page.locator('a[href="/sources/"]').first().click();
+    await page.getByRole('heading', { name: '来源与版权', exact: true }).waitFor();
+    await page.keyboard.press('ArrowUp');
+    assert.equal(voteCalls(model), 0, 'Other views, dialogs and unmounted comparisons never vote');
+    await page.locator('nav a[href="/preferences/"]').click();
+    await switchTab(page, '人物');
+    await page.getByRole('button', { name: '随机选择', exact: true }).click();
+    await until(async () => await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().isEnabled(), 'Remounted pair ready');
+    const scroll = await page.locator('#preferences-workspace').evaluate(element => element.scrollTop);
+    model.answerGate = deferred();
+    await page.keyboard.press('ArrowDown');
+    await until(() => voteCalls(model) === 1, 'Remount installs only one shortcut handler');
+    assert.equal(await page.locator('#preferences-workspace').evaluate(element => element.scrollTop), scroll, 'Voting with ArrowDown does not scroll the comparison');
+    model.answerGate.resolve(); model.answerGate = null;
+  });
+  await regression('random-keyboard-image-failure-write-pause-and-practice', async (page, model) => {
+    model.blockedImage = persons[0].representative_url;
+    await page.goto(`${base}/preferences/?tab=characters`);
+    await page.getByRole('button', { name: '开始随机选择', exact: true }).click();
+    await page.locator('.random-pair').getByRole('button', { name: '重试图片', exact: true }).waitFor();
+    await page.keyboard.press('ArrowLeft'); await page.keyboard.press('ArrowRight');
+    assert.equal(voteCalls(model), 0, 'Missing images cannot be bypassed by choosing with the keyboard');
+    model.blockedImage = '';
+    await page.keyboard.press('ArrowDown');
+    await until(async () => model.records.length === 1 && await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().isEnabled(), 'Explicit skip remains possible after an image failure');
+    model.state.writes_enabled = false;
+    await page.reload();
+    await page.getByText('喜好登记暂时暂停，可以继续浏览已保存的结果。', { exact: true }).waitFor();
+    for (const key of ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown']) await page.keyboard.press(key);
+    assert.equal(voteCalls(model), 1, 'Paused formal writes reject every shortcut');
+    await page.locator('.random-skip-reasons summary').click();
+    assert.equal(await page.getByRole('button', { name: '不认识左边', exact: true }).isDisabled(), true);
+    await page.locator('.random-skip-reasons summary').click();
+    await page.getByRole('button', { name: '个人练习', exact: true }).click();
+    const local = () => page.evaluate(() => JSON.parse(localStorage.getItem('terra-preference-practice') || '[]'));
+    for (const [index, key] of ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].entries()) {
+      await until(async () => await page.getByRole('button', { name: '更喜欢这位', exact: true }).first().isEnabled(), 'Practice images ready');
+      await page.keyboard.press(key);
+      await until(async () => (await local()).length === index + 1, 'Practice keyboard answer saved locally');
+    }
+    assert.deepEqual((await local()).map(record => record.outcome), ['skip', 'tie', 'choose', 'choose']);
+    assert.equal((await local())[2].winner_id, (await local())[2].right_id);
+    assert.equal((await local())[3].winner_id, (await local())[3].left_id);
+    assert.equal(voteCalls(model), 1, 'Practice shortcuts never submit public votes');
+    assert.equal(taskCalls(model), 2, 'Practice shortcuts never dispatch formal tasks');
+  });
   for (const width of [1440, 390]) {
     await regression(`random-next-pair-keeps-illustrations-${width}`, async (page, model) => {
       await page.goto(`${base}/preferences/?tab=characters`);
@@ -519,7 +658,7 @@ try {
       await until(async () => (await page.locator('.random-person h3').allTextContents())[0] === persons[2].name && await choices.first().isEnabled(), 'Decoded next pair replaces both previous illustrations');
       assert.deepEqual(await page.locator('.random-person h3').allTextContents(), persons.slice(2, 4).map(x => x.name));
       assert.equal(model.records.length, 1); assert.equal(model.state.quota.weekly_used, 2);
-      model.taskStatus = 503;
+      model.taskStatus = width === 1440 ? 503 : 429;
       await choices.first().click();
       const retry = page.getByRole('button', { name: '重试下一题', exact: true });
       await retry.waitFor();
@@ -527,10 +666,14 @@ try {
       assert.equal(await choices.first().isDisabled(), true, 'Answered pair cannot be answered again after dispatch failure');
       assert.equal(await page.locator('.random-view .preference-empty').count(), 0);
       const failedDispatch = clone(model.calls.filter(x => x.path === '/api/preferences/tasks/').at(-1));
+      await page.keyboard.press('ArrowLeft'); await page.keyboard.press('ArrowDown');
+      assert.equal(voteCalls(model), 2, 'A failed or rate-limited next task cannot submit another answer');
       model.taskStatus = 200; model.taskPair = persons.slice(4, 6);
       await retry.click();
       await until(async () => (await page.locator('.random-person h3').allTextContents())[0] === persons[4].name && await choices.first().isEnabled(), 'Retry recovers the next pair');
-      assert.deepEqual(model.calls.filter(x => x.path === '/api/preferences/tasks/').at(-1), failedDispatch, 'Uncertain dispatch retries reuse the same operation');
+      const retriedDispatch = model.calls.filter(x => x.path === '/api/preferences/tasks/').at(-1);
+      if (width === 1440) assert.deepEqual(retriedDispatch, failedDispatch, 'Uncertain dispatch retries reuse the same operation');
+      else assert.notEqual(retriedDispatch.payload.operation_key, failedDispatch.payload.operation_key, 'A confirmed rate rejection permits a new dispatch operation');
       assert.equal(model.records.length, 2); assert.equal(model.state.quota.weekly_used, 3);
       await noOverflow(page, 'random-next-pair');
     }, { viewport: { width, height: 900 } });
