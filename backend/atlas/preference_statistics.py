@@ -4,11 +4,12 @@ import random
 from collections import Counter, defaultdict
 from datetime import timedelta
 
+import numpy as np
 from django.conf import settings
 from django.db import transaction
 from django.utils import timezone
 
-from .preference_algorithm import cluster_sample, composite_index, effective_size, weight_comparisons
+from .preference_algorithm import composite_index, effective_size, weight_comparisons
 from .preference_models import PreferenceEvent, PreferenceParticipant, PreferenceSnapshot, PreferenceTask
 from .preference_services import (
     PreferenceError,
@@ -19,9 +20,10 @@ from .preference_services import (
     iso,
     require_catalog,
 )
+from .preference_solver import PreparedBT
 from .preference_subjects import project_comparisons, subjects
 
-ALGORITHM = "bt-dual-scope-v3"
+ALGORITHM = "bt-dual-scope-v4"
 
 
 def parameters():
@@ -34,6 +36,9 @@ def parameters():
             "max_interval_width": settings.PREFERENCE_MAX_INTERVAL_WIDTH,
             "max_sensitivity_shift": settings.PREFERENCE_MAX_SENSITIVITY_SHIFT,
             "bootstrap_samples": settings.PREFERENCE_BOOTSTRAP_SAMPLES,
+            "solver_max_iterations": settings.PREFERENCE_BT_MAX_ITERATIONS,
+            "solver_tolerance": settings.PREFERENCE_BT_TOLERANCE,
+            "solver_gradient_tolerance": settings.PREFERENCE_BT_GRADIENT_TOLERANCE,
             "composite_random_weight": settings.PREFERENCE_COMPOSITE_RANDOM_WEIGHT,
             "composite_min_pool": settings.PREFERENCE_COMPOSITE_MIN_POOL,
             "composite_min_support_participants": settings.PREFERENCE_COMPOSITE_MIN_SUPPORT_PARTICIPANTS,
@@ -49,47 +54,69 @@ def series_key(snapshot):
             snapshot.payload.get("reference_version"), snapshot.revision)
 
 
-def fit_bt(ids, rows, max_iterations=500, tolerance=1e-6, prior=None):
-    """MM 极大化带对称锚点伪比较的惩罚似然，避免全胜/全败发散。"""
-    prior = settings.PREFERENCE_BT_PRIOR if prior is None else prior
-    if prior <= 0:
-        raise ValueError("BT prior must be positive")
-    edges, wins = Counter(), Counter()
-    for row in rows:
-        left, right, winner = row["left_id"], row["right_id"], row["winner_id"]
-        weight = row.get("weight", 1.0)
-        edges[tuple(sorted((left, right)))] += weight
-        wins[winner] += weight
-    abilities = dict.fromkeys(ids, 1.0)
-    converged = False
-    for _ in range(max_iterations):
-        denominator = {pid: 2.0 * prior / (abilities[pid] + 1.0) for pid in ids}
-        for (left, right), count in edges.items():
-            value = count / (abilities[left] + abilities[right])
-            denominator[left] += value
-            denominator[right] += value
-        updated = {pid: (wins[pid] + prior) / denominator[pid] for pid in ids}
-        # 两两似然对整体尺度不敏感；每步单独优化锚点先验的尺度，避免高样本量时缓慢漂移。
-        shift = 0.0
-        logs = [math.log(value) for value in updated.values()]
-        for _scale in range(12):
-            probabilities = [1 / (1 + math.exp(-max(-40, min(40, value + shift)))) for value in logs]
-            gradient = sum(probabilities) - len(ids) / 2
-            curvature = sum(value * (1 - value) for value in probabilities)
-            if not curvature or abs(gradient) < 1e-10:
-                break
-            shift -= max(-2, min(2, gradient / curvature))
-        scale = math.exp(shift)
-        updated = {pid: value * scale for pid, value in updated.items()}
-        delta = max((abs(math.log(updated[p] / abilities[p])) for p in ids), default=0)
-        abilities = updated
-        if delta < tolerance:
-            converged = True
-            break
-    # 固定本次候选参照池平均预测胜率，绝不对最高最低分拉伸。
-    scores = {pid: 100 * sum(abilities[pid] / (abilities[pid] + abilities[other]) for other in ids) / len(ids)
-              for pid in ids} if ids else {}
-    return scores, converged
+def solver_parameters():
+    return {"prior": settings.PREFERENCE_BT_PRIOR,
+            "max_iterations": settings.PREFERENCE_BT_MAX_ITERATIONS,
+            "tolerance": settings.PREFERENCE_BT_TOLERANCE,
+            "gradient_tolerance": settings.PREFERENCE_BT_GRADIENT_TOLERANCE}
+
+
+def fit_bt(ids, rows, max_iterations=None, tolerance=None, prior=None):
+    """保留既有模拟/调用入口；完整汇总另保存求解诊断。"""
+    options = solver_parameters()
+    options.update({key: value for key, value in
+                    (("max_iterations", max_iterations), ("tolerance", tolerance), ("prior", prior))
+                    if value is not None})
+    result = PreparedBT(ids, rows).fit(**options)
+    return result.scores, result.converged
+
+
+def bootstrap_scores(model, model_ids, rows, fitted, *, enabled):
+    """按标识复制已加权证据，不重封顶；失败时整组区间暂不发布。"""
+    requested = settings.PREFERENCE_BOOTSTRAP_SAMPLES
+    diagnostics = {"requested": requested, "successful": 0, "failed": 0, "extended": 0,
+                   "max_iterations": 0, "max_gradient_residual": 0.0}
+    if not enabled or not rows:
+        diagnostics["skipped"] = "no_comparisons" if not rows else "model_unavailable"
+        return [], diagnostics
+    if requested < 1:
+        diagnostics["skipped"] = "no_resamples"
+        return [], diagnostics
+    # 截止点、窗口标签、原票顺序及左右摆放不改变同一有效输入的区间。
+    # 种子包含匿名分组，仅在内存使用，不作为公开诊断输出。
+    evidence = [(str(row["participant_id"]), *sorted((row["left_id"], row["right_id"])),
+                 row["winner_id"], row["weight"]) for row in rows]
+    rng = random.Random(digest({"model": ALGORITHM, "ids": model_ids, "evidence": evidence,
+                               "prior": settings.PREFERENCE_BT_PRIOR}))
+    groups = {uid: index for index, uid in enumerate(sorted({row[0] for row in evidence}))}
+    row_groups = np.array([groups[row[0]] for row in evidence], dtype=np.intp)
+    samples = []
+    for _ in range(requested):
+        counts = np.bincount([rng.randrange(len(groups)) for _ in groups], minlength=len(groups))
+        result = model.fit(**solver_parameters(), initial=fitted.abilities, multipliers=counts[row_groups])
+        diagnostics["successful" if result.converged else "failed"] += 1
+        diagnostics["extended"] += result.iterations > 500
+        diagnostics["max_iterations"] = max(diagnostics["max_iterations"], result.iterations)
+        diagnostics["max_gradient_residual"] = max(diagnostics["max_gradient_residual"], result.gradient_residual)
+        if result.converged:
+            samples.append([result.scores[pid] for pid in model_ids])
+    # 不删除失败重采样后悄悄以剩余样本构造区间，以免引入条件选择偏差。
+    return samples if not diagnostics["failed"] else [], diagnostics
+
+
+def attach_rank_intervals(results, model_ids, samples):
+    """条件于本次固定合格集合；同分使用与点估计一致的竞争名次。"""
+    reference = sorted(row["id"] for row in results if row["status"] == "ready")
+    if not reference or not samples:
+        return reference
+    positions = {pid: index for index, pid in enumerate(model_ids)}
+    values = np.round(np.asarray(samples)[:, [positions[pid] for pid in reference]], 6)
+    ranks = np.array([np.searchsorted(np.sort(-sample), -sample, side="left") + 1 for sample in values])
+    low, high = np.quantile(ranks, [.025, .975], axis=0)
+    bounds = {pid: [math.floor(low[i]), math.ceil(high[i])] for i, pid in enumerate(reference)}
+    for row in results:
+        row["rank_interval"] = bounds.get(row["id"])
+    return reference
 
 
 def quantile(values, fraction):
@@ -143,52 +170,62 @@ def analyze_random(catalog, cutoff, window, all_rows):
     # 未出现的新人物不拖垮已有比较网络；不同连通分量不可通过先验硬接为全榜。
     connected = len(components) == 1
     model_ids = sorted(union) if (union := set().union(*components)) else []
-    score, converged = fit_bt(model_ids, rows)
-    rng = random.Random(f"{catalog['version']}:{cutoff.isoformat()}:{window}:{algorithm_version()}")
-    intervals = defaultdict(list)
-    bootstrap_converged = True
-    if rows:
-        for _ in range(settings.PREFERENCE_BOOTSTRAP_SAMPLES):
-            estimates, ok = fit_bt(model_ids, cluster_sample(rows, rng))
-            bootstrap_converged &= ok
-            for pid, value in estimates.items():
-                intervals[pid].append(value)
+    model = PreparedBT(model_ids, rows)
+    fitted = model.fit(**solver_parameters())
+    score, converged = fitted.scores, fitted.converged
+    samples, bootstrap_diagnostics = bootstrap_scores(model, model_ids, rows, fitted,
+                                                     enabled=connected and converged)
+    bootstrap_converged = not rows or (bootstrap_diagnostics["requested"] > 0
+                                      and bootstrap_diagnostics["successful"] == bootstrap_diagnostics["requested"]
+                                      and bootstrap_diagnostics["failed"] == 0)
     sensitivity = []
-    for scale in (.5, 2):
-        alternative = weight_comparisons(raw, settings.PREFERENCE_WEIGHT_TOTAL_CAP * scale,
-                                         settings.PREFERENCE_WEIGHT_PERSON_CAP * scale)
-        estimates, _ = fit_bt(model_ids, alternative)
-        sensitivity.append(estimates)
-    unweighted, _ = fit_bt(model_ids, [dict(r, weight=1) for r in rows])
-    # 策略对照沿用原窗口权重，避免筛选后重新分配个人预算。
-    uniform, _ = fit_bt(model_ids, [row for row in rows if row["strategy"] == "uniform-v1"])
+    unweighted = uniform = None
+    uniform_ids = set()
+    if connected and converged:
+        for scale in (.5, 2):
+            alternative = weight_comparisons(raw, settings.PREFERENCE_WEIGHT_TOTAL_CAP * scale,
+                                             settings.PREFERENCE_WEIGHT_PERSON_CAP * scale)
+            sensitivity.append(PreparedBT(model_ids, alternative).fit(**solver_parameters(), initial=fitted.abilities))
+        unweighted = PreparedBT(model_ids, [dict(r, weight=1) for r in rows]).fit(
+            **solver_parameters(), initial=fitted.abilities)
+        # 策略对照沿用原窗口权重，避免筛选后重新分配个人预算。
+        uniform_rows = [row for row in rows if row["strategy"] == "uniform-v1"]
+        if uniform_rows:
+            uniform_ids = {pid for row in uniform_rows for pid in (row["left_id"], row["right_id"])}
+            uniform = PreparedBT(model_ids, uniform_rows).fit(**solver_parameters(), initial=fitted.abilities)
+    sensitivity_converged = not rows or (len(sensitivity) == 2 and all(result.converged for result in sensitivity))
+    complete = converged and bootstrap_converged and sensitivity_converged
+    bounds = np.quantile(np.asarray(samples), [.025, .975], axis=0) if samples and complete else None
+    intervals = {pid: [float(bounds[0, i]), float(bounds[1, i])] for i, pid in enumerate(model_ids)} if bounds is not None else {}
     wins = Counter(row["winner_id"] for row in rows)
     results = []
     for pid in ids:
-        interval = [quantile(intervals[pid], .025), quantile(intervals[pid], .975)] if intervals[pid] else [None, None]
+        interval = intervals.get(pid, [None, None])
         ess = effective_size(group_weights[pid].values())
         enough = (compared[pid] >= settings.PREFERENCE_MIN_COMPARISONS
                   and evidence[pid] >= settings.PREFERENCE_MIN_WEIGHTED_EVIDENCE
                   and len(participants[pid]) >= settings.PREFERENCE_MIN_PARTICIPANTS
                   and ess >= settings.PREFERENCE_MIN_EFFECTIVE_PARTICIPANTS
                   and len(opponents[pid]) >= settings.PREFERENCE_MIN_OPPONENTS)
-        shift = max((abs(alternative[pid] - score[pid]) for alternative in sensitivity), default=0) if pid in score else 0
-        unstable = shift > settings.PREFERENCE_MAX_SENSITIVITY_SHIFT or (interval[0] is not None and interval[1] - interval[0] > settings.PREFERENCE_MAX_INTERVAL_WIDTH)
+        shift = max(abs(alternative.scores[pid] - score[pid]) for alternative in sensitivity) if pid in score and sensitivity and sensitivity_converged else None
+        uncertain = interval[0] is not None and interval[1] - interval[0] > settings.PREFERENCE_MAX_INTERVAL_WIDTH
+        sensitive = shift is not None and shift > settings.PREFERENCE_MAX_SENSITIVITY_SHIFT
         separated = compared[pid] > 0 and wins[pid] in (0, compared[pid])
-        status = "ready" if enough and connected and converged and bootstrap_converged and not unstable and not separated else (
-            "separated" if enough and separated else "disconnected" if enough and not connected else
-            "unstable" if enough and (unstable or not converged or not bootstrap_converged) else "insufficient")
+        status = ("insufficient" if not enough else "disconnected" if not connected else
+                  "solver_failed" if not complete else "separated" if separated else
+                  "uncertain" if uncertain else "sensitive" if sensitive else "ready")
         # 不连通模型的跨分量分数没有可比较含义，保留样本事实而不公开伪精确数值。
-        results.append({"id": pid, "score": round(score[pid], 6) if pid in score and connected else None,
-                        "interval": [round(x, 3) if x is not None and connected else None for x in interval], "rank": None,
+        results.append({"id": pid, "score": round(score[pid], 6) if pid in score and connected and converged else None,
+                        "interval": [round(x, 3) if x is not None and connected else None for x in interval],
+                        "rank": None, "rank_interval": None,
                         "comparisons": compared[pid], "raw_comparisons": raw_compared[pid],
                         "weighted_evidence": round(evidence[pid], 6), "effective_participants": round(ess, 3),
                         "participants": len(participants[pid]), "opponents": len(opponents[pid]), "status": status,
                         "unfamiliar_count": unfamiliar[pid], "completed_displays": displays[pid],
                         "unfamiliar_share": unfamiliar[pid] / displays[pid] if displays[pid] else None,
-                        "contribution_sensitivity": round(shift, 3),
-                        "unweighted_sensitivity": round(unweighted.get(pid, 0) - score.get(pid, 0), 3),
-                        "strategy_sensitivity": round(uniform.get(pid, 0) - score.get(pid, 0), 3)})
+                        "contribution_sensitivity": round(shift, 3) if shift is not None else None,
+                        "unweighted_sensitivity": round(unweighted.scores[pid] - score[pid], 3) if pid in score and unweighted and unweighted.converged else None,
+                        "strategy_sensitivity": round(uniform.scores[pid] - score[pid], 3) if pid in uniform_ids and uniform and uniform.converged else None})
     results.sort(key=lambda r: (r["score"] is None, -(r["score"] or 0), r["id"]))
     rank, previous, tied_rank = 0, None, None
     for row in results:
@@ -197,6 +234,7 @@ def analyze_random(catalog, cutoff, window, all_rows):
             if row["score"] != previous:
                 tied_rank = rank
             row["rank"], previous = tied_rank, row["score"]
+    rank_reference = attach_rank_intervals(results, model_ids, samples if complete else [])
     first = min((r["accepted_at"] for r in all_rows), default=None)
     total_weights = [sum(row["weight"] for row in values) for values in clusters.values()]
     return {"rows": results, "sample_size": len(rows), "raw_sample_size": len(raw),
@@ -204,11 +242,19 @@ def analyze_random(catalog, cutoff, window, all_rows):
             "effective_participants": round(effective_size(total_weights), 3),
             "participant_count": len(clusters), "window_start": iso(start), "window_end": iso(cutoff), "observed_start": iso(first),
             "actual_days": min(window, max(1, math.ceil((cutoff - first).total_seconds() / 86400))) if first else 0,
-            "status": "ready" if rank else "accumulating", "converged": converged,
+            "status": "solver_failed" if connected and rows and not complete else "ready" if rank else "accumulating",
+            "converged": converged,
             "bootstrap_converged": bootstrap_converged, "bootstrap_samples": settings.PREFERENCE_BOOTSTRAP_SAMPLES,
             "component_count": len(components), "connected": connected,
             "left_win_share": sum(row["winner_id"] == row["left_id"] for row in rows) / len(rows) if rows else None,
             "uncertainty_method": "participant_cluster_percentile_95", "reference_pool": model_ids,
+            "rank_reference_pool": rank_reference,
+            "rank_uncertainty_method": "participant_cluster_percentile_95_fixed_eligible_pool",
+            "diagnostics": {"fit": fitted.diagnostics(), "bootstrap": bootstrap_diagnostics,
+                            "sensitivity": {"converged": sensitivity_converged,
+                                            "fits": [result.diagnostics() for result in sensitivity]},
+                            "unweighted": unweighted.diagnostics() if unweighted else None,
+                            "uniform": uniform.diagnostics() if uniform else None},
             "reference_version": digest(model_ids), "parameters": parameters(),
             "interpretation": "本站自愿参与样本。权重限制证据量，不保证真人等权或最终分数影响上限。"}
 

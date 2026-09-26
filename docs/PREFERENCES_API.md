@@ -52,7 +52,7 @@ GET `records/` 返回 `{records:Task[],next_cursor:null|string}`，按受理时�
 
 `purge_preferences` 每日清理：风险信号30天、任务/幂等回执/被替代变更180天；当前支持、当前选择与必要的最终事件、名录、公开快照持续保留。运行开关在后台“喜好运行开关”，包括总读写、任务、支持、选择及资源故障对象暂停。`PREFERENCES_ENABLED=0` 可独立关闭此功能。所有管理命令应使用真实授权 staff；正式人物资料保护始终保持开启。
 
-匿名身份只绑定当前浏览器Cookie，不承诺一人一票或跨设备恢复。来源使用短期HMAC风险信号，公开接口不返回来源或参与标识。不接入未经服务端验证的人机供应商；高风险数据暂缓并由后台复核。模型使用对称锚点正则化，200次参与标识聚类bootstrap，比较贡献上限敏感性、补样策略敏感性和左右选择比；V2 门槛为30次去重明确判断、20加权证据、30标识、30聚类ESS、15对手、区间宽度不超过30、上限敏感性位移不超过10，加上网络连接、拟合/重采样收敛、非全胜全败，才展示名次。分数是同版本固定参照池的预计胜率，不等于原始对位比例。
+匿名身份只绑定当前浏览器Cookie，不承诺一人一票或跨设备恢复。来源使用短期HMAC风险信号，公开接口不返回来源或参与标识。不接入未经服务端验证的人机供应商；高风险数据暂缓并由后台复核。模型使用对称锚点正则化，1,000次参与标识聚类bootstrap，比较贡献上限敏感性、补样策略敏感性和左右选择比；沿用 V2 门槛：30次去重明确判断、20加权证据、30标识、30聚类ESS、15对手、区间宽度不超过30、上限敏感性位移不超过10，加上网络连接、基础/重采样/上限对照全部收敛、非全胜全败，才展示名次。分数是同版本固定参照池的预计胜率，不等于原始对位比例。
 
 `unfamiliar_left` / `unfamiliar_right` / `unfamiliar_both` 分别记录左侧、右侧或双方不熟悉；旧值 `unfamiliar` 等同双方。随机快照额外返回 observed_start（窗口内首条实际记录时间）。历史GET rankings 可加 snapshot_id 查询特定修订，需同时提供原统计视图/榜种/窗口/对象，不能用另一个 scope 读取该快照。趋势按日保留最新节点与同日口径变化，7/28天基线单独查询，不受高频汇总挤占。
 
@@ -76,4 +76,8 @@ composite rows 为 `{id,score,rank,random_score,random_percentile,support_count,
 
 浏览器未知结果保存原 scope/path/method/body（含 operation_key），sessionStorage 只辅助恢复，不取得服务器身份权威。跨入口返回仍以 HttpOnly Cookie 查询同一参与者，不因重新调用幂等 identity 接口增加人物身份；不可自动重试另一个对象或另派题。
 
-当前双榜使用 `bt-dual-scope-v3-<参数摘要>`。迁移 `0011_preference_identity_scopes` 保留旧支持与票据，旧快照补 person 口径；新形态字段为空的旧票不会进入形态榜。每次聚合分别计算两种视图的 84/28 天模型、支持及综合榜，同一回答的人物视图先映射双方再去重/封顶。旧算法、旧快照继续保存，跨算法不连趋势。规则与验证见[双口径方案](PREFERENCES_IDENTITY_PROPOSAL.md)。
+当前双榜使用 `bt-dual-scope-v4-<参数摘要>`。历史迁移 `0011_preference_identity_scopes` 保留旧支持与票据，旧快照补 person 口径；新形态字段为空的旧票不会进入形态榜。V3 升级 V4 没有数据库迁移，只按新版本新增统计快照。每次聚合分别计算两种视图的 84/28 天模型、支持及综合榜，同一回答的人物视图先映射双方再去重/封顶。旧算法、旧快照继续保存，跨算法不连趋势。规则与验证见[双口径方案](PREFERENCES_IDENTITY_PROPOSAL.md)。
+
+V4 随机行增加 `rank_interval:null|[low,high]`，只对 `ready` 行提供，比较范围为 payload 的 `rank_reference_pool`。`uncertain` 表示分数区间超过门槛，`sensitive` 表示上限对照位移超过门槛，`solver_failed` 表示必需计算未完成；前端仍兼容旧 `unstable`。数量门槛先判断，因此计算失败时部分行仍为 `insufficient`，payload.status 会独立给出 `solver_failed`。失败时所有区间为 `[null,null]`，名次及名次范围为 null；基础拟合完成时仍可保留分数。
+
+payload.diagnostics 包含 `fit`、`bootstrap`、`sensitivity`、`unweighted`、`uniform`。拟合诊断为 `{converged,iterations,max_log_step,gradient_residual,objective}`；bootstrap 为 `{requested,successful,failed,extended,max_iterations,max_gradient_residual,skipped?}`，extended 统计超过原 500 次上限的拟合数量。sensitivity 为 `{converged,fits:[]}`。无可用对照时 `unweighted` / `uniform` 及对应行敏感性为 null；未完成的上限对照也不提供 `contribution_sensitivity`。参数新增 `solver_max_iterations`、`solver_tolerance`、`solver_gradient_tolerance`，完整参数参与版本摘要。
