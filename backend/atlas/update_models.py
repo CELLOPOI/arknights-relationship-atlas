@@ -17,6 +17,7 @@ class SiteUpdate(models.Model):
     title = models.CharField("标题", max_length=140)
     summary = models.CharField("摘要", max_length=300)
     changes = models.TextField("更新内容", max_length=16000, help_text="每行一项变化，使用纯文本。")
+    # 保留旧列以兼容已部署数据库和历史记录；后台及公开页面不再使用独立致谢字段。
     acknowledgements = models.TextField("感谢反馈", max_length=1000, blank=True,
                                        help_text="仅填写可公开的感谢文案；具名致谢前确认对方同意，不粘贴联系方式。")
     data_release = models.ForeignKey("DataRelease", on_delete=models.PROTECT, null=True, blank=True,

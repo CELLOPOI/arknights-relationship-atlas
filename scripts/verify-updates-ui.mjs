@@ -31,6 +31,9 @@ try{
     await p.locator('.update-entry').first().waitFor();
     await p.evaluate(()=>document.fonts.ready);
     assert.equal(await p.locator('.update-entry').count(),2);
+    // 旧响应可能仍携带致谢字段，页面也不能再生成固定致谢区块。
+    assert.equal(await p.locator('.update-thanks').count(),0);
+    assert.doesNotMatch(await p.locator('.updates-footer').innerText(),/感谢/);
     assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
     await p.screenshot({path:output+'/'+name+'.png'});
     await p.getByRole('button',{name:'功能更新',exact:true}).click();

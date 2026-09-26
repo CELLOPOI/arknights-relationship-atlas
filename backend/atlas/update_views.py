@@ -11,7 +11,7 @@ from .update_models import SiteUpdate
 def public_fields(update):
     return {"id": update.pk, "category": update.category, "title": update.title, "summary": update.summary,
             "changes": [line.strip() for line in update.changes.splitlines() if line.strip()],
-            "acknowledgements": update.acknowledgements, "status": update.status,
+            "status": update.status,
             "publishedAt": update.published_at.isoformat() if update.published_at else None}
 
 
