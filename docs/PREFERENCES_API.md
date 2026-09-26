@@ -48,7 +48,7 @@ GET `records/` 返回 `{records:Task[],next_cursor:null|string}`，按受理时�
 
 后端管理命令：`preference_catalog draft --actor <staff> --file <catalog.json> --reason <依据>`，随后 `approve --catalog-version <版本> --actor <staff> --reason <审核意见>`，再 `preview --catalog-version <版本> --actor <staff> --preview <新文件>`。阅读差异后 `publish --catalog-version <版本> --actor <staff> --preview <文件>`；预览绑定账号、内容摘要、基线、审核人及运行修订号，1小时有效。后台同样提供审核/预览/确认发布入口。没有初始化脚本自动发布名录。
 
-`aggregate_preferences` 使用同一事务输入截止点、数据库锁和幂等快照。调度每60分钟运行（包含84/28天模型与登记汇总），每日固定时点的快照因此也被保存；宿主机调度由部署者另行配置。所有榜种使用两倍汇总间隔（默认两小时）判定时间延迟，版本变化仍立即判过期。命令成功后输出实际耗时和进程 CPU 时间。失败保持最后成功快照，在运行控制中记录错误类型。`review_preference_risk <私有参与标识> --status accepted|pending|excluded --actor <staff> --reason <依据>` 记录复核并重算可回放历史，新修订保留 supersedes；后台提供同样操作。超出完整明细保留范围的历史快照保留旧版，不宣称精确重算。
+`aggregate_preferences` 使用同一事务输入截止点、数据库锁和幂等快照。调度每30分钟运行（包含84/28天模型与登记汇总），每日固定时点的快照因此也被保存；宿主机调度由部署者另行配置。所有榜种使用两倍汇总间隔（默认一小时）判定时间延迟，版本变化仍立即判过期。命令成功后输出实际耗时和进程 CPU 时间。失败保持最后成功快照，在运行控制中记录错误类型。`review_preference_risk <私有参与标识> --status accepted|pending|excluded --actor <staff> --reason <依据>` 记录复核并重算可回放历史，新修订保留 supersedes；后台提供同样操作。超出完整明细保留范围的历史快照保留旧版，不宣称精确重算。
 
 `purge_preferences` 每日清理：风险信号30天、任务/幂等回执/被替代变更180天；当前支持、当前选择与必要的最终事件、名录、公开快照持续保留。运行开关在后台“喜好运行开关”，包括总读写、任务、支持、选择及资源故障对象暂停。`PREFERENCES_ENABLED=0` 可独立关闭此功能。所有管理命令应使用真实授权 staff；正式人物资料保护始终保持开启。
 

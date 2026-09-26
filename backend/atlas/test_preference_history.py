@@ -1,4 +1,4 @@
-"""历史节点筛选只物化选中榜单，小时汇总沿用版本过期条件。"""
+"""历史节点筛选只物化选中榜单，半小时汇总沿用版本过期条件。"""
 from datetime import UTC, datetime, timedelta
 from unittest.mock import patch
 
@@ -11,7 +11,7 @@ from .preference_statistics import algorithm_version, series_key, snapshot_data
 from .test_preferences import setup_data
 
 
-@override_settings(PREFERENCE_AGGREGATION_INTERVAL_MINUTES=60)
+@override_settings(PREFERENCE_AGGREGATION_INTERVAL_MINUTES=30)
 class PreferenceHistoryTests(TestCase):
     def setUp(self):
         setup_data()
@@ -97,15 +97,15 @@ class PreferenceHistoryTests(TestCase):
         ])
         self.assertEqual(self.trends("support")["changes"], {"7": None, "28": None})
 
-    def test_hourly_rankings_are_current_until_two_hours_for_every_kind(self):
+    def test_half_hour_rankings_are_current_until_one_hour_for_every_kind(self):
         for kind in ("random", "support", "composite", "form", "skin"):
             with self.subTest(kind=kind):
                 item = self.snapshot(self.now, kind=kind, object_id="a" if kind in ("form", "skin") else "")
                 item.save()
                 url = f"/api/preferences/rankings/?kind={kind}" + ("&object_id=a" if item.object_id else "")
-                for age, expected in ((timedelta(hours=1), "current"),
-                                      (timedelta(hours=2), "current"),
-                                      (timedelta(hours=2, seconds=1), "delayed")):
+                for age, expected in ((timedelta(minutes=30), "current"),
+                                      (timedelta(hours=1), "current"),
+                                      (timedelta(hours=1, seconds=1), "delayed")):
                     PreferenceSnapshot.objects.filter(pk=item.pk).update(generated_at=self.now - age)
                     with patch("atlas.preference_views.timezone.now", return_value=self.now):
                         self.assertEqual(self.client.get(url).json()["status"], expected)
