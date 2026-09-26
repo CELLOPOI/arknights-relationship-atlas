@@ -11,6 +11,8 @@ from django.conf import settings
 from django.db import transaction
 from django.utils import timezone
 
+from .preference_coverage import STRATEGY as COVERAGE_STRATEGY
+from .preference_coverage import coverage_targets
 from .preference_models import (
     PreferenceChoice,
     PreferenceControl,
@@ -235,17 +237,17 @@ def issue_task(participant, current):
     rng = secrets.SystemRandom()
     rng.shuffle(people)
     strategy = "uniform-v1"
+    targets, coverage_details = [(pid, None) for pid in people], {}
     if rng.random() < settings.PREFERENCE_COVERAGE_FRACTION:
-        strategy = "coverage-v1"
-        exposure = Counter(pid for row in PreferenceTask.objects.filter(issued_at__gt=now - timedelta(days=settings.PREFERENCE_ROLLING_DAYS))
-                           .exclude(status="void").values_list("left_id", "right_id") for pid in row)
-        people.sort(key=lambda pid: exposure[pid])
+        strategy = COVERAGE_STRATEGY
+        targets, coverage_details = coverage_targets(current, participant, candidates, people, now, rng)
     selected = None
-    for left in people:
+    for left, target_subject in targets:
         opponents = [right for right in people if right != left and "|".join(sorted((left, right))) not in pairs]
         rng.shuffle(opponents)
         for right in opponents:
-            available = [(a, b) for a in by_person[left] for b in by_person[right] if "|".join(sorted((a, b))) not in pairs]
+            left_subjects = [target_subject] if target_subject else by_person[left]
+            available = [(a, b) for a in left_subjects for b in by_person[right] if "|".join(sorted((a, b))) not in pairs]
             if available:
                 selected = list(rng.choice(available))
                 break
@@ -258,6 +260,8 @@ def issue_task(participant, current):
         left_id=candidates[selected[0]]["person_id"], right_id=candidates[selected[1]]["person_id"],
         left_subject_id=selected[0], right_subject_id=selected[1], pair_key="|".join(sorted(selected)), strategy=strategy, issued_at=now,
         expires_at=now + timedelta(hours=settings.PREFERENCE_TASK_HOURS), risk_status=participant.risk_status)
+    if strategy == COVERAGE_STRATEGY:
+        audit(participant, "coverage_task_issued", {}, {"strategy": strategy, **coverage_details[target_subject]}, str(task.pk))
     return {"task": task_data(task), "quota": quota(participant, now)}
 
 
