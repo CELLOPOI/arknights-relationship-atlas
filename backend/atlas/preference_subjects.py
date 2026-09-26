@@ -9,6 +9,7 @@ SUPPORT_ALIASES = {
 
 def subjects(catalog):
     people = {p["id"]: p for p in catalog["persons"] if p.get("eligible", True)}
+    form_owners = {f["person_id"] for f in catalog["forms"]}
     forms = {f["id"]: f for f in catalog["forms"] if f.get("eligible", True) and f["person_id"] in people}
     art = {a["id"]: a for a in catalog["appearances"] if a.get("eligible", True)}
     result, represented = {}, set()
@@ -26,7 +27,7 @@ def subjects(catalog):
                        "name": form["name"], "representative_url": image}
         represented.add(person["id"])
     for pid, person in people.items():
-        if pid not in represented and not any(f["person_id"] == pid for f in catalog["forms"]):
+        if pid not in represented and pid not in form_owners:
             sid = f"person:{pid}"
             result[sid] = {**person, "id": sid, "person_id": pid, "form_id": None}
     return result
