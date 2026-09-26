@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, nextTick, onBeforeUnmount, ref, toRefs, watch } from 'vue';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, toRefs, watch } from 'vue';
 import { mutate, pendingMutation, PreferenceError, request, timeText } from './api';
 import { comparisonImage, type ComparisonImage } from './comparison-image';
 import { preferenceDraft } from './session';
@@ -58,13 +58,16 @@ const draftPeople = computed(() => supportDraft.value.map(id => ({
 const currentProfile = computed(() => people.value.get(profileId.value));
 const supportConflict = computed(() => dirty.value && supportVersion.value !== props.state.supports.version);
 const readyToAnswer = computed(() => shown.value.length === 2 && shown.value.every(x => imagesReady.value.has(x.id)));
+const answerBlocked = computed(() => !pair.value || busy.value || waitingForNext.value || (!practice.value && !props.state.writes_enabled));
+const answerDisabled = computed(() => answerBlocked.value || !!awaitingAnswer.value);
+const chooseDisabled = computed(() => answerDisabled.value || !readyToAnswer.value);
 function restoreDraft(value = props.state.supports) { supportDraft.value = props.catalog.subjects ? [...(value.subject_support_ids || []), ...(value.legacy_support_ids || [])] : [...value.support_ids]; favoriteDraft.value = props.catalog.subjects ? [...(value.subject_favorite_ids || []), ...(value.legacy_favorite_ids || [])] : [...value.favorite_ids]; supportVersion.value = value.version; dirty.value = false; }
 watch(() => props.state, state => {
   // 提交后的状态查询可能先返回空待答题，不能覆盖正在切换的画面。
   if (!busy.value && !previousTask.value) task.value = state.pending_task?.id === invalidTaskId.value ? null : state.pending_task;
   if (!dirty.value) restoreDraft(state.supports);
 }, { immediate: true });
-watch(() => pair.value?.id, () => { imagesReady.value = new Set(); });
+watch(() => pair.value?.id, () => { imagesReady.value = new Set(); }, { flush: 'sync' });
 watch(() => props.active, active => { if (!active) { profile.value?.close(); zoom.value?.close(); } });
 watch(() => props.personId, id => { if (id) void openPerson(id); }, { immediate: true });
 try { localRecords.value = readPracticeRecords(localStorage.getItem(PRACTICE_STORAGE_KEY)); }
@@ -120,7 +123,7 @@ async function nextTask() {
 }
 async function answer(outcome: string, winnerId?: string) {
   const current = pair.value;
-  if (!current || busy.value || waitingForNext.value) return;
+  if (!current || answerBlocked.value || (outcome === 'choose' && !awaitingAnswer.value && !readyToAnswer.value)) return;
   if (practice.value) {
     localRecords.value.unshift({ id: current.id, left: current.left, right: current.right, left_id: current.left_id, right_id: current.right_id, winner_id: winnerId || null, outcome, accepted_at: new Date().toISOString() });
     localRecords.value = localRecords.value.slice(0, PRACTICE_RECORD_LIMIT);
@@ -149,6 +152,20 @@ async function answer(outcome: string, winnerId?: string) {
       emit('refresh');
     }
   } finally { busy.value = false; }
+}
+function onComparisonKeydown(event: KeyboardEvent) {
+  if (!['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(event.key)
+    || !props.active || section.value !== 'random' || !pair.value || document.hidden
+    || event.defaultPrevented || event.isComposing || event.ctrlKey || event.altKey || event.metaKey || event.shiftKey) return;
+  const target = event.target;
+  if (document.querySelector('dialog[open], [aria-modal="true"]')
+    || target instanceof HTMLElement && (target.isContentEditable || target.closest('input, textarea, select, summary, [role="textbox"], [role="combobox"], [role="slider"], [role="spinbutton"], [role="listbox"], [role="menu"], [role="tablist"], .random-skip-reasons'))) return;
+  // 比较时方向键不滚动页面；长按和加载期间的按键不留给下一题。
+  event.preventDefault();
+  if (event.repeat || answerDisabled.value) return;
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+    if (!chooseDisabled.value) void answer('choose', event.key === 'ArrowLeft' ? pair.value.left_id : pair.value.right_id);
+  } else void answer(event.key === 'ArrowUp' ? 'tie' : 'skip');
 }
 function toggleSupport(id: string) {
   if (supportPending.value || busy.value) return;
@@ -199,7 +216,8 @@ function clearPractice() {
   if (practice.value) newPractice();
 }
 if (section.value === 'records') void loadRecords();
-onBeforeUnmount(() => { disposed = true; imagePreloads.forEach(finish => finish()); profile.value?.close(); zoom.value?.close(); });
+onMounted(() => { window.addEventListener('keydown', onComparisonKeydown); });
+onBeforeUnmount(() => { disposed = true; window.removeEventListener('keydown', onComparisonKeydown); imagePreloads.forEach(finish => finish()); profile.value?.close(); zoom.value?.close(); });
 </script>
 <template>
   <section class="characters-view">
@@ -217,8 +235,9 @@ onBeforeUnmount(() => { disposed = true; imagePreloads.forEach(finish => finish(
       </template>
       <p v-else class="pref-muted">本周已派发 {{ state.quota.weekly_used }} / {{ state.quota.weekly_limit }} 道 · 近 28 天 {{ state.quota.rolling_used }} / {{ state.quota.rolling_limit }} 道 · 可以跳过，跳过占用已派发机会。</p>
       <div class="random-status" role="status" aria-live="polite"><span>{{ randomStatus }}</span><button v-if="waitingForNext && !busy" class="pref-text" :disabled="!state.writes_enabled" @click="nextTask">重试下一题</button></div>
-      <div v-if="pair" class="random-pair" :aria-busy="busy || waitingForNext"><article v-for="person in shown" :key="`${pair.id}:${person.id}`" class="random-person"><div class="random-illustration"><PreferenceImage v-bind="comparisonImage(person.representative_url, catalog.appearances)" :alt="`${person.name}固定代表立绘`" @ready="imagesReady.add(person.id)" @failed="imagesReady.delete(person.id)" /><button class="random-enlarge" :aria-label="`放大${person.name}立绘`" @click="showArt(person.id)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M10 21H3v-7M21 3l-7 7M3 21l7-7" fill="none" stroke="currentColor" stroke-width="1.5" /></svg></button></div><h3>{{ person.name }}</h3><button class="pref-primary" :disabled="busy || waitingForNext || !readyToAnswer || !!awaitingAnswer || (!practice && !state.writes_enabled)" @click="answer('choose', person.person_id)">更喜欢这位</button></article></div>
-      <div v-if="pair" class="random-skip"><button class="pref-secondary" :disabled="busy || waitingForNext || !!awaitingAnswer || (!practice && !state.writes_enabled)" @click="answer('skip')">暂不判断，跳过</button><details class="random-skip-reasons"><summary>不熟悉</summary><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('unfamiliar_left')">不认识左边</button><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('unfamiliar_right')">不认识右边</button><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('unfamiliar_both')">两边都不熟悉</button></details><button class="pref-text" :disabled="busy || waitingForNext || !!awaitingAnswer" @click="answer('tie')">难分高下</button></div>
+      <p v-if="pair" class="pref-muted random-keyboard-hint">键盘方向键：<span>← 选左边，</span><span>→ 选右边，</span><span>↑ 难分高下，</span><span>↓ 跳过。</span><span v-if="!practice">正式选择提交后不能撤回。</span></p>
+      <div v-if="pair" class="random-pair" :aria-busy="busy || waitingForNext"><article v-for="(person, index) in shown" :key="`${pair.id}:${person.id}`" class="random-person"><div class="random-illustration"><PreferenceImage v-bind="comparisonImage(person.representative_url, catalog.appearances)" :alt="`${person.name}固定代表立绘`" @ready="imagesReady.add(person.id)" @failed="imagesReady.delete(person.id)" /><button class="random-enlarge" :aria-label="`放大${person.name}立绘`" @click="showArt(person.id)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M10 21H3v-7M21 3l-7 7M3 21l7-7" fill="none" stroke="currentColor" stroke-width="1.5" /></svg></button></div><h3>{{ person.name }}</h3><button class="pref-primary" :disabled="chooseDisabled" :aria-keyshortcuts="index === 0 ? 'ArrowLeft' : 'ArrowRight'" @click="answer('choose', person.person_id)">更喜欢这位<kbd class="random-shortcut" aria-hidden="true">{{ index === 0 ? '←' : '→' }}</kbd></button></article></div>
+      <div v-if="pair" class="random-skip"><button class="pref-secondary" :disabled="answerDisabled" aria-keyshortcuts="ArrowDown" @click="answer('skip')">暂不判断，跳过<kbd class="random-shortcut" aria-hidden="true">↓</kbd></button><details class="random-skip-reasons"><summary>不熟悉</summary><button class="pref-text" :disabled="answerDisabled" @click="answer('unfamiliar_left')">不认识左边</button><button class="pref-text" :disabled="answerDisabled" @click="answer('unfamiliar_right')">不认识右边</button><button class="pref-text" :disabled="answerDisabled" @click="answer('unfamiliar_both')">两边都不熟悉</button></details><button class="pref-text" :disabled="answerDisabled" aria-keyshortcuts="ArrowUp" @click="answer('tie')">难分高下<kbd class="random-shortcut" aria-hidden="true">↑</kbd></button></div>
       <p v-if="awaitingAnswer && !busy" class="pref-message">上次提交结果尚未确认，请重试同一操作。<button class="pref-secondary" @click="answer(awaitingAnswer.outcome, awaitingAnswer.winnerId)">重试原选择</button></p>
       <div v-if="!pair && practice" class="preference-empty"><h3>当前范围可比较的人物不足两位</h3><p>请切换人物范围，或等待目录更新。</p></div>
       <div v-else-if="!pair" class="preference-empty"><h3>{{ pause ? `已经完成 ${restInterval} 道，可以歇一会儿` : state.quota.remaining === 0 ? '本期正式比较已用完' : '从两个人物中选出更喜欢的一位' }}</h3><p>双方使用固定代表图；刷新会恢复同一道待答题。</p><div class="pref-actions"><button v-if="state.quota.remaining > 0" class="pref-primary" :disabled="busy || !state.writes_enabled" @click="nextTask">{{ busy ? '读取题目…' : pause ? '继续选择' : '开始随机选择' }}</button><button class="pref-secondary" @click="setPractice(true)">开始个人练习</button><button class="pref-text" @click="useSection('results')">查看大家的结果</button></div></div>
