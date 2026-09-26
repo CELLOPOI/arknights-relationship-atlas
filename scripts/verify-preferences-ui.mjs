@@ -96,6 +96,10 @@ async function installMock(context) {
       return json(model.state.supports);
     }
     if (pathname === '/api/preferences/records/') return json({ records: model.records, next_cursor: null });
+    if (pathname === '/api/preferences/rankings/' && model.resultSnapshots) {
+      const kind = url.searchParams.get('kind'), window = Number(url.searchParams.get('window'));
+      return json({ kind, window, object_id: '', snapshot: model.resultSnapshots[`${kind}:${window}`], status: 'current' });
+    }
     if (pathname === '/api/preferences/rankings/') return json({ kind: url.searchParams.get('kind'), window: Number(url.searchParams.get('window')), object_id: url.searchParams.get('object_id') || '', snapshot: model.emptySnapshot ? { id: 1, cutoff: now, generated_at: now, catalog_version: model.catalog.version, algorithm_version: 'synthetic-empty-bt', asset_version: model.catalog.asset_version, revision: 1, reason: 'Synthetic empty-sample regression', payload: { rows: persons.map(p => ({ id: p.id, score: null, interval: [null, null], rank: null, comparisons: 0, participants: 0, opponents: 0, status: 'insufficient' })), sample_size: 0, participant_count: 0, window_start: '2026-07-01T12:00:00+00:00', window_end: now, actual_days: 0, status: 'accumulating' } } : null, status: model.emptySnapshot ? 'current' : 'no_data' });
     if (pathname === '/api/preferences/trends/') return json({ snapshots: [], changes: { 7: null, 28: null } });
     if (pathname === '/api/preferences/pairs/') return json({ left_wins: 0, right_wins: 0, sample_size: 0, status: 'no_data' });
@@ -134,6 +138,52 @@ async function regression(name, run, options = {}) {
   } finally { model.choiceGate?.resolve(); model.answerGate?.resolve(); model.taskGate?.resolve(); model.imageGate?.resolve(); await context.close(); }
 }
 try {
+  for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
+    await regression(`result-uncertainty-${viewport.width}`, async (page, model) => {
+      const snapshot = (rows, extra = {}) => ({ id: 2, cutoff: now, generated_at: now, catalog_version: catalog.version, algorithm_version: 'synthetic-stability', asset_version: catalog.asset_version, revision: 1, reason: '', payload: { rows, sample_size: 200, raw_sample_size: 210, participant_count: 50, actual_days: 28, window_start: '2026-08-26T12:00:00+00:00', window_end: now, status: 'ready', ...extra } });
+      const row = (index, extra) => ({ id: persons[index].id, score: 60, interval: [55, 65], rank: null, comparisons: 40, raw_comparisons: 42, weighted_evidence: 30, participants: 35, effective_participants: 34, opponents: 20, ...extra });
+      const ready = snapshot([row(0, { rank: 1, rank_interval: [1, 3], status: 'ready' }), row(1, { status: 'uncertain' }), row(2, { status: 'sensitive' }), row(3, { status: 'insufficient' })], { rank_reference_pool: persons.slice(0, 3).map(p => p.id) });
+      const failed = snapshot([row(0, { interval: null, rank_interval: null, status: 'solver_failed' })], { status: 'solver_failed', diagnostics: { fit: { converged: false }, bootstrap: { requested: 200, successful: 199, failed: 1 } } });
+      const legacy = snapshot([row(0, { status: 'unstable' })]);
+      model.resultSnapshots = { 'random:84': ready, 'random:28': failed, 'composite:84': failed, 'support:0': snapshot([{ id: persons[0].id, count: 5, share: .5, favorite_count: 2 }]) };
+      await page.goto(`${base}/preferences/?tab=characters`);
+      await page.getByRole('button', { name: '榜单与趋势', exact: true }).click();
+      const panel = page.locator('.preference-results'), tabs = panel.locator('[aria-label="统计口径"]');
+      await panel.getByText('可能第 1–3 位', { exact: true }).waitFor();
+      assert.deepEqual(await tabs.getByRole('button').allTextContents(), ['随机好感', '厨力支持', '综合榜']);
+      assert.equal(await tabs.getByRole('button', { name: '随机好感', exact: true }).getAttribute('aria-pressed'), 'true');
+      for (const text of ['排名未稳', '计分影响较大', '还需更多投票']) await panel.getByText(text, { exact: true }).waitFor();
+      await panel.locator('.pref-method summary').click();
+      await panel.getByText(/范围仅比较本次可排名的人物。相邻名次可能互换。/).waitFor();
+      await panel.locator('.pref-method summary').click();
+      await panel.locator('.pref-table-scroll').scrollIntoViewIfNeeded();
+      await noOverflow(page, `Result uncertainty ${viewport.width}`);
+      await page.screenshot({ path: path.join(output, `result-uncertainty-${viewport.width}.png`), fullPage: true });
+      await panel.getByRole('button', { name: '近 28 天', exact: true }).click();
+      const failureText = '统计未完成，已有选择已保留。';
+      await panel.getByText(failureText, { exact: true }).waitFor();
+      await panel.getByText('统计未完成', { exact: true }).waitFor();
+      assert.equal(await panel.locator('.pref-rank-interval').count(), 0);
+      assert.equal((await panel.locator('tbody tr td').nth(1).textContent()).trim(), '60.0', 'Failed intervals are hidden while the point score is retained');
+      await noOverflow(page, `Result failure ${viewport.width}`);
+      await page.screenshot({ path: path.join(output, `result-failure-${viewport.width}.png`), fullPage: true });
+      await tabs.getByRole('button', { name: '综合榜', exact: true }).click();
+      await panel.getByText('统计未完成', { exact: true }).waitFor();
+      await page.getByRole('button', { name: '随机选择', exact: true }).click();
+      await page.getByRole('button', { name: '榜单与趋势', exact: true }).click();
+      assert.equal(await tabs.getByRole('button', { name: '综合榜', exact: true }).getAttribute('aria-pressed'), 'true', 'Returning to results retains the current session selection');
+      await page.reload();
+      await panel.getByRole('heading', { name: '近期随机好感 + 当前支持', exact: true }).waitFor();
+      assert.equal(await tabs.getByRole('button', { name: '综合榜', exact: true }).getAttribute('aria-pressed'), 'true', 'Reload retains the current session selection');
+      model.resultSnapshots['random:84'] = legacy;
+      await tabs.getByRole('button', { name: '随机好感', exact: true }).click();
+      await panel.getByRole('button', { name: '近 84 天', exact: true }).click();
+      await panel.getByText('结果未稳', { exact: true }).waitFor();
+      assert.equal(await panel.getByText(failureText, { exact: true }).count(), 0, 'Legacy unstable does not claim solver failure');
+      assert.equal(await panel.locator('.pref-rank-interval').count(), 0, 'Legacy snapshots need no new fields');
+      assert.equal(taskCalls(model), 0, 'Viewing results never dispatches a task');
+    }, { viewport });
+  }
   for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
     await regression(`personal-ranking-${viewport.width}`, async (page, model) => {
       const npc = [0, 1].map(i => ({ ...persons[i], id: `synthetic-npc-${i}`, name: `合成 NPC ${i + 1}`, kind: 'npc', form_ids: [] }));

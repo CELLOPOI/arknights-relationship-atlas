@@ -237,4 +237,5 @@
 .pref-method { border-block: 1px solid var(--border-subtle); padding: 12px 0; margin: 18px 0; font-size: 13px; line-height: 1.8; }
 .pref-method summary { cursor: pointer; min-height: 32px; }
 .pref-method p { max-width: 78ch; color: var(--text-secondary); margin: 12px 0; overflow-wrap: anywhere; }
+.pref-rank-interval { display: block; color: var(--text-secondary); white-space: nowrap; margin-top: 6px; }
 .pref-sensitivity { display: block; color: var(--accent-amber); white-space: nowrap; margin-top: 6px; }

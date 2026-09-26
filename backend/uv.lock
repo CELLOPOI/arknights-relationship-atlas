@@ -10,6 +10,7 @@ dependencies = [
     { name = "django" },
     { name = "djangorestframework" },
     { name = "gunicorn" },
+    { name = "numpy" },
     { name = "psycopg", extra = ["binary"] },
 ]
 
@@ -26,6 +27,7 @@ requires-dist = [
     { name = "django", specifier = ">=5.2.12,<5.3" },
     { name = "djangorestframework", specifier = ">=3.16,<4" },
     { name = "gunicorn", specifier = ">=23,<24" },
+    { name = "numpy", specifier = ">=2.2,<3" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.2,<4" },
 ]
 

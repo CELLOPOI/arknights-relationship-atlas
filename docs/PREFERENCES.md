@@ -64,7 +64,7 @@ backend/.venv/bin/python backend/manage.py aggregate_preferences
 
 升级到本次异常边界修复需执行迁移 `0012_preference_event_anchor`，仅为明细清理增加索引，不改写票据、名录或快照。已有实例先备份并执行迁移，再启动新版应用；通用迁移命令见上文。
 
-算法版本为 `bt-dual-scope-v3-<参数摘要>`。每轮分别生成 `scope=person` / `form` 的 84/28 天随机榜、当前支持与综合榜；同人形态偏好和皮肤登记仍单独统计。正常每 15 分钟聚合，并每日留存节点；调度器与告警由实际部署环境配置。普通聚合同截止点幂等。明细仍完整时可按原名录重算为新算法序列：
+算法版本为 `bt-dual-scope-v4-<参数摘要>`。本次升级无需新增迁移，保留原始选择、额度及历史快照；下一次正常聚合生成新算法结果。每轮分别生成 `scope=person` / `form` 的 84/28 天随机榜、当前支持与综合榜；同人形态偏好和皮肤登记仍单独统计。页面按随机好感、厨力支持、综合榜排列，新会话默认随机好感，已有会话保留选择。正常每 15 分钟聚合，并每日留存节点；调度器与告警由实际部署环境配置。普通聚合同截止点幂等。明细仍完整时可按原名录重算为新算法序列：
 
 ```bash
 backend/.venv/bin/python backend/manage.py aggregate_preferences --cutoff 2026-09-23T00:00:00+08:00 --catalog-version preferences-catalog-v1
