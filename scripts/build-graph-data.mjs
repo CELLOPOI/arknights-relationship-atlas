@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import assert from 'node:assert/strict';
+import { applyIdentityCorrections } from './identity-corrections.mjs';
 export async function build(source, output) {
   const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
   const { missingFactionOverrides } = read(new URL('./faction-overrides.json', import.meta.url));
@@ -64,8 +65,10 @@ export async function build(source, output) {
   }
   const graph={nodes,edges,factions:[...factionMap.values()].sort((a,b)=>a.order-b.order)};
   assert.equal(nodes.length,396);assert.equal(edges.length,3695);assert.equal(edges.filter(e=>e.kind==='awareness').length,901);
-  fs.mkdirSync(output,{recursive:true});fs.writeFileSync(path.join(output,'graph.json'),JSON.stringify(graph));fs.writeFileSync(path.join(output,'evidence.json'),JSON.stringify(evidence));
-  console.log(JSON.stringify({nodes:nodes.length,edges:edges.length,awareness:901,factions:graph.factions.map(f=>({...f,count:nodes.filter(n=>n.factionId===f.id).length})),identityPeople:identity.people.size},null,2));
-  return {graph,evidence};
+  const corrected=applyIdentityCorrections(graph,evidence);
+  fs.mkdirSync(output,{recursive:true});fs.writeFileSync(path.join(output,'graph.json'),JSON.stringify(corrected.graph));fs.writeFileSync(path.join(output,'evidence.json'),JSON.stringify(corrected.evidence));
+  fs.writeFileSync(path.join(output,'identity-corrections.json'),JSON.stringify(corrected.corrections,null,2)+'\n');
+  console.log(JSON.stringify({nodes:nodes.length,edges:corrected.graph.edges.length,awareness:901,identityCorrections:corrected.corrections.length,factions:graph.factions.map(f=>({...f,count:nodes.filter(n=>n.factionId===f.id).length})),identityPeople:identity.people.size},null,2));
+  return {graph:corrected.graph,evidence:corrected.evidence};
 }
 if(process.argv[1] && import.meta.url===pathToFileURL(path.resolve(process.argv[1])).href){const args=process.argv.slice(2);const arg=name=>args[args.indexOf(name)+1];assert.ok(args.includes('--source')&&args.includes('--output'),'Usage: node build-graph-data.mjs --source <pilot-directory> --output <directory>');await build(path.resolve(arg('--source')),path.resolve(arg('--output')));}

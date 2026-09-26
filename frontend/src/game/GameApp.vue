@@ -318,7 +318,7 @@ onBeforeUnmount(() => { disposed = true; evidenceRequest++; releaseScroll?.(); }
         <a href="/?scope=all#factions"><span>RELATIONS</span><small>人物关系</small></a>
         <a href="/game/" aria-current="page"><span>GAME</span><small>游戏</small></a>
         <a href="/preferences/"><span>PREFERENCES</span><small>喜好</small></a>
-        <SiteNoticeButton><span>NOTICE</span><small>站点说明</small></SiteNoticeButton>
+        <a href="/updates/"><span>UPDATES</span><small>更新</small></a><SiteNoticeButton><span>NOTICE</span><small>站点说明</small></SiteNoticeButton>
       </nav>
       <div class="visitor-links"><a href="https://github.com/CELLOPOI/arknights-relationship-atlas/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a><button class="account-entry" @click="openFeedback()">反馈问题</button></div>
       <button class="site-menu-toggle" aria-label="打开导航" aria-haspopup="dialog" @click="menu?.showModal()"><span></span><span></span><span></span></button>
@@ -431,7 +431,7 @@ onBeforeUnmount(() => { disposed = true; evidenceRequest++; releaseScroll?.(); }
       <div class="game-dialog-surface"><header class="game-dialog-header"><h2 id="game-evidence-title">{{ evidence?.title || '关系依据' }}</h2><button class="archive-close" aria-label="关闭关系依据" @click="closeEvidence"><GameIcon name="close" /></button></header><div class="game-dialog-body record-evidence"><p v-if="evidenceLoading" role="status">正在读取原文…</p><template v-else-if="evidenceError"><p class="game-error" role="alert">{{ evidenceError }}</p><button class="game-button" @click="showEvidence(evidenceId)">重新读取</button></template><template v-else-if="evidence"><button class="archive-button secondary" @click="openFeedback({ targetType: 'relationship', targetId: evidence.id, title: evidence.title })">反馈这份资料</button><p>{{ evidence.note || '以下为档案收录的关系依据。' }}</p><article v-for="item in evidence.evidence" :key="item.id"><h3>关键原文</h3><blockquote>{{ item.quote }}</blockquote><SourceList :sources="item.sources" /></article></template></div></div>
     </dialog>
 
-    <dialog ref="menu" class="site-menu" aria-label="网站导航"><button aria-label="关闭导航" @click="menu?.close()"><GameIcon name="close" /></button><a href="/#home">INDEX <span>首页</span></a><a href="/?scope=all#factions">RELATIONS <span>人物关系</span></a><a href="/game/" aria-current="page">GAME <span>游戏</span></a><a href="/preferences/">PREFERENCES <span>喜好</span></a><SiteNoticeButton>NOTICE <span>站点说明</span></SiteNoticeButton></dialog>
+    <dialog ref="menu" class="site-menu" aria-label="网站导航"><button aria-label="关闭导航" @click="menu?.close()"><GameIcon name="close" /></button><a href="/#home">INDEX <span>首页</span></a><a href="/?scope=all#factions">RELATIONS <span>人物关系</span></a><a href="/game/" aria-current="page">GAME <span>游戏</span></a><a href="/preferences/">PREFERENCES <span>喜好</span></a><a href="/updates/">UPDATES <span>更新</span></a><SiteNoticeButton>NOTICE <span>站点说明</span></SiteNoticeButton></dialog>
     <SiteNotice />
   </div>
 </template>

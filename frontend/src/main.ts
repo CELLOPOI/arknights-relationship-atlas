@@ -6,8 +6,9 @@ import './styles/site.css';
 import './styles/community.css';
 import './styles/sources.css';
 
-const entryFor = (path: string) => /^\/preferences\/?$/.test(path) ? 'preferences' : /^\/sources\/?$/.test(path) ? 'sources' : /^\/game\/?$/.test(path) ? 'game' : 'atlas';
-const loadEntry = (path: string) => entryFor(path) === 'sources' ? import('./info/SourceNotice.vue')
+const entryFor = (path: string) => /^\/updates\/?$/.test(path) ? 'updates' : /^\/preferences\/?$/.test(path) ? 'preferences' : /^\/sources\/?$/.test(path) ? 'sources' : /^\/game\/?$/.test(path) ? 'game' : 'atlas';
+const loadEntry = (path: string) => entryFor(path) === 'updates' ? import('./info/UpdatesPage.vue')
+  : entryFor(path) === 'sources' ? import('./info/SourceNotice.vue')
   : entryFor(path) === 'preferences' ? import('./preferences/PreferencesApp.vue')
   : entryFor(path) === 'game' ? import('./game/GameApp.vue') : import('./App.vue');
 let app: App, activeEntry = entryFor(location.pathname), request = 0;
@@ -63,7 +64,7 @@ document.addEventListener('click', event => {
   const link = (event.target as Element).closest<HTMLAnchorElement>('a[href]');
   if (!link || link.hasAttribute('download') || (link.target && link.target !== '_self')) return;
   const url = new URL(link.href);
-  if (url.origin !== location.origin || !['/', '/game', '/game/', '/preferences', '/preferences/', '/sources', '/sources/'].includes(url.pathname)) return;
+  if (url.origin !== location.origin || !['/', '/game', '/game/', '/preferences', '/preferences/', '/sources', '/sources/', '/updates', '/updates/'].includes(url.pathname)) return;
   if (entryFor(url.pathname) === activeEntry) { cancelPendingNavigation(); activeSection = sectionFor(url); return; }
   event.preventDefault();
   void navigate(url, directionBetween(sectionFor(new URL(location.href)), sectionFor(url)));

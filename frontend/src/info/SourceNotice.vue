@@ -24,7 +24,7 @@ onBeforeUnmount(() => {
     <a class="skip-link" href="#sources-content">跳到来源与版权说明</a>
     <header class="site-header sources-header">
       <a class="site-brand" href="/#home"><span>方舟关系与喜好</span><small>ARKNIGHTS</small></a>
-      <nav class="sources-navigation" aria-label="主导航"><a href="/?scope=all#factions">人物关系</a><a href="/game/">游戏</a><a href="/preferences/">喜好</a></nav>
+      <nav class="sources-navigation" aria-label="主导航"><a href="/?scope=all#factions">人物关系</a><a href="/game/">游戏</a><a href="/preferences/">喜好</a><a href="/updates/">更新</a></nav>
     </header>
     <main id="sources-content" tabindex="-1" class="sources-content">
       <h1>来源与版权</h1>

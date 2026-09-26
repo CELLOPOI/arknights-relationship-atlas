@@ -348,3 +348,4 @@ from .preference_models import (  # noqa: F401
     PreferenceTask,
 )
 from .release_models import DataRelease, ReleaseState  # noqa: F401
+from .update_models import SiteUpdate  # noqa: F401

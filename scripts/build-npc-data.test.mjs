@@ -2,8 +2,9 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import assert from 'node:assert/strict';
-import { test } from 'node:test';
+import { test, mock } from 'node:test';
 import { buildNpcData, validateReviews, mergeDirections, readableQuote } from './build-npc-data.mjs';
+import { applyIdentityCorrections } from './identity-corrections.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const read = p => JSON.parse(fs.readFileSync(path.join(root, p)));
@@ -33,12 +34,16 @@ test('real NPC bundle preserves existing records and uses all valid reviews', ()
   const output = fs.mkdtempSync(path.join(os.tmpdir(), 'arknights-npc-test-'));
   try {
     const { graph, evidence, report, avatars } = buildNpcData(output);
-    const base = read('dist/data/graph.json'), baseEvidence = read('dist/data/evidence.json');
+    const {graph:base,evidence:baseEvidence}=applyIdentityCorrections(read('dist/data/graph.json'),read('dist/data/evidence.json'));
     const nodes = new Map(graph.nodes.map(n => [n.id, n]));
     const edges = new Map(graph.edges.map(e => [e.id, e]));
     assert.equal(nodes.size, graph.nodes.length); assert.equal(edges.size, graph.edges.length);
     for (const n of base.nodes) assert.deepEqual(nodes.get(n.id), n);
     for (const e of base.edges) { assert.deepEqual(edges.get(e.id), e); assert.deepEqual(evidence[e.id], baseEvidence[e.id]); }
+    assert.equal(edges.size,5704);
+    assert.equal(edges.get('char_450_necras|npc_69395c50206899b0').kind,'mutual');
+    assert.ok(!edges.has('char_4125_rdoc|npc_2b6410ed62fdecf2'));
+    assert.ok(!edges.has('char_4214_cairn|npc_7452f6b260385f86'));
     assert.equal(report.counts.appliedReviews, 39);
     assert.equal(report.counts.npcs, 169);
     assert.equal(report.counts.reusedSupport, 5);
@@ -56,4 +61,20 @@ test('real NPC bundle preserves existing records and uses all valid reviews', ()
     buildNpcData(output);
     assert.deepEqual(fs.readFileSync(path.join(output, 'graph.json')), before);
   } finally { fs.rmSync(output, { recursive: true, force: true }); }
+});
+test('NPC generation also accepts the already corrected operator bundle', () => {
+  const baseGraph=path.join(root,'dist/data/graph.json'), baseEvidence=path.join(root,'dist/data/evidence.json');
+  const corrected=applyIdentityCorrections(read('dist/data/graph.json'),read('dist/data/evidence.json'));
+  const originalRead=fs.readFileSync;
+  const output=fs.mkdtempSync(path.join(os.tmpdir(),'arknights-corrected-npc-test-'));
+  const reader=mock.method(fs,'readFileSync',function(file,...args){
+    if(file===baseGraph)return Buffer.from(JSON.stringify(corrected.graph));
+    if(file===baseEvidence)return Buffer.from(JSON.stringify(corrected.evidence));
+    return originalRead.call(this,file,...args);
+  });
+  try {
+    const {graph}=buildNpcData(output);
+    assert.equal(graph.edges.length,5704);
+    assert.equal(graph.edges.find(edge=>edge.id==='char_450_necras|npc_69395c50206899b0').kind,'mutual');
+  } finally { reader.mock.restore(); fs.rmSync(output,{recursive:true,force:true}); }
 });
