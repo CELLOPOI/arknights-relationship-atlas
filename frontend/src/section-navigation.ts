@@ -1,7 +1,8 @@
 export type SectionDirection = -1 | 1;
-export type SectionName = 'home' | 'relations' | 'game' | 'preferences' | 'sources';
-export const sectionOrder: SectionName[] = ['home', 'relations', 'game', 'preferences', 'sources'];
+export type SectionName = 'home' | 'relations' | 'game' | 'preferences' | 'updates' | 'sources';
+export const sectionOrder: SectionName[] = ['home', 'relations', 'game', 'preferences', 'updates', 'sources'];
 export function sectionFor(url: URL): SectionName {
+  if (/^\/updates\/?$/.test(url.pathname)) return 'updates';
   if (/^\/sources\/?$/.test(url.pathname)) return 'sources';
   if (/^\/preferences\/?$/.test(url.pathname)) return 'preferences';
   if (/^\/game\/?$/.test(url.pathname)) return 'game';

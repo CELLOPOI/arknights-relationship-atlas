@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
 import { pathToFileURL } from 'node:url';
 import { parseStory } from '../../ArknightsStoryCatalog/scripts/story-parser.mjs';
+import { applyIdentityCorrections, identityCorrections } from './identity-corrections.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const workspace = path.dirname(root);
@@ -207,9 +208,27 @@ export function buildNpcData(output = path.join(root, 'data/npc')) {
   }
   const graph = { nodes: nodes.sort((a, b) => a.id.localeCompare(b.id)), edges: edges.sort((a, b) => a.id.localeCompare(b.id)), factions: [...factions.values()].filter(f => nodes.some(n => n.factionId === f.id)).sort((a, b) => a.order - b.order) };
   const report = { schemaVersion: 1, reviewVersion: dataset.version, baseline: { people: base.nodes.length, relationships: base.edges.length }, counts: { people: nodes.length, npcs: avatars.length, reusedSupport: selected.size - avatars.length, relationships: edges.length, newRelationships: edges.length - base.edges.length, mutual: edges.filter(e => e.kind === 'mutual').length, awareness: edges.filter(e => e.kind === 'awareness').length, appliedReviews: decisions.length, excludedIdentityCandidates: decisions.filter(d => ['unsupported', 'different'].includes(d.choice)).length, conditionalPairsKeptSeparate: conditional.length, existingPairsPreserved: overlaps.length, insufficient: insufficient.length, checkedCitations }, unclassified: nodes.filter(n => n.factionId === 'unknown').map(n => n.name), genericAvatars: avatars.filter(a => a.generic).map(a => a.name), overlaps, decisions, insufficient, inputs: [...inputs].map(([file, sha256]) => ({ path: file, sha256 })) };
+  for (const addition of identityCorrections.additions) for (const source of addition.sourceChecks) {
+    assert.equal(sha(bytes(source.path)), source.sha256, `Added relationship source changed: ${source.path}`);
+  }
+  bytes(`ArknightsRelationshipGraph/data/corrections/${identityCorrections.id}.json`);
+  report.inputs = [...inputs].map(([file, sha256]) => ({ path: file, sha256 }));
+  const corrected = applyIdentityCorrections(graph, evidence);
+  const withdrawnProvenance = {};
+  const publicPairs = new Set(corrected.graph.edges.map(edge => edge.id));
+  for (const key of Object.keys(provenance)) if (!publicPairs.has(key)) {
+    withdrawnProvenance[key] = provenance[key];
+    delete provenance[key];
+  }
+  report.identityCorrections = corrected.corrections;
+  report.counts.relationships = corrected.graph.edges.length;
+  report.counts.newRelationships = corrected.graph.edges.length - base.edges.length;
+  report.counts.mutual = corrected.graph.edges.filter(e => e.kind === 'mutual').length;
+  report.counts.awareness = corrected.graph.edges.filter(e => e.kind === 'awareness').length;
   fs.mkdirSync(output, { recursive: true });
-  for (const [name, value] of Object.entries({ graph, evidence, provenance, report, 'avatar-plan': avatars, conditional })) fs.writeFileSync(path.join(output, `${name}.json`), JSON.stringify(value, null, name === 'evidence' || name === 'provenance' ? 0 : 2) + '\n');
-  return { graph, evidence, report, avatars };
+  // 错误贡献独立归档，不再随有效来源关系编译；原始审读仍保持可追溯。
+  for (const [name, value] of Object.entries({ graph: corrected.graph, evidence: corrected.evidence, provenance, report, 'withdrawn-provenance': withdrawnProvenance, 'avatar-plan': avatars, conditional })) fs.writeFileSync(path.join(output, `${name}.json`), JSON.stringify(value, null, name === 'evidence' || name === 'provenance' ? 0 : 2) + '\n');
+  return { graph: corrected.graph, evidence: corrected.evidence, report, avatars };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {

@@ -74,7 +74,7 @@ onBeforeUnmount(() => { unmounted = true; atlas?.dispose(); });
       <a href="#factions" data-page="factions"><span>RELATIONS</span><small>人物关系</small></a>
       <a href="/game/"><span>GAME</span><small>游戏</small></a>
       <a href="/preferences/"><span>PREFERENCES</span><small>喜好</small></a>
-      <SiteNoticeButton><span>NOTICE</span><small>站点说明</small></SiteNoticeButton>
+      <a href="/updates/"><span>UPDATES</span><small>更新</small></a><SiteNoticeButton><span>NOTICE</span><small>站点说明</small></SiteNoticeButton>
     </nav>
     <div id="account-control"></div>
     <button id="site-menu-open" class="site-menu-toggle" aria-label="打开导航" aria-haspopup="dialog"><span></span><span></span><span></span></button>
@@ -301,7 +301,7 @@ onBeforeUnmount(() => { unmounted = true; atlas?.dispose(); });
     <div id="panel-content" class="panel-body"></div>
   </dialog>
 
-  <dialog id="site-menu" class="site-menu" aria-label="网站导航"><button id="site-menu-close" aria-label="关闭导航"><svg><use href="#i-close"/></svg></button><a href="#home" data-page="home">INDEX <span>首页</span></a><a href="#factions" data-page="factions">RELATIONS <span>人物关系</span></a><a href="/game/">GAME <span>游戏</span></a><a href="/preferences/">PREFERENCES <span>喜好</span></a><SiteNoticeButton>NOTICE <span>站点说明</span></SiteNoticeButton><a href="/sources/">SOURCES <span>来源与版权</span></a></dialog>
+  <dialog id="site-menu" class="site-menu" aria-label="网站导航"><button id="site-menu-close" aria-label="关闭导航"><svg><use href="#i-close"/></svg></button><a href="#home" data-page="home">INDEX <span>首页</span></a><a href="#factions" data-page="factions">RELATIONS <span>人物关系</span></a><a href="/game/">GAME <span>游戏</span></a><a href="/preferences/">PREFERENCES <span>喜好</span></a><a href="/updates/">UPDATES <span>更新</span></a><SiteNoticeButton>NOTICE <span>站点说明</span></SiteNoticeButton><a href="/sources/">SOURCES <span>来源与版权</span></a></dialog>
 
   <!-- Global Toast Notification -->
   <div id="toast" class="toast-alert" role="status" hidden></div>

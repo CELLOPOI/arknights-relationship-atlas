@@ -5,8 +5,11 @@ from atlas import views
 from atlas.feedback_views import FeedbackView
 from atlas.ops_views import ReadyView
 from atlas.site_config_views import SiteConfigView
+from atlas.update_views import SiteUpdatePreviewView, SiteUpdatesView
 
 urlpatterns = [
+    path("api/updates/", SiteUpdatesView.as_view()),
+    path("api/updates/<int:pk>/preview/", SiteUpdatePreviewView.as_view()),
     path("api/preferences/", include("atlas.preference_views")),
     path("admin/", admin.site.urls),
     path("api/feedback/", FeedbackView.as_view()),

@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "id": "story-identities-20260926",
+  "title": "修正同名人物关系并补录塔露拉与死芒",
+  "description": "撤下八条身份误认关系；凯尔希与彩虹医生保留人工裁定，撤除误引剧情；依据主线 13-22 补录塔露拉与死芒双向认识。保留已有稳定 ID 与原始审读记录。",
+  "corrections": [
+    {
+      "relationshipId": "char_113_cqbw|char_4125_rdoc",
+      "names": [
+        "W",
+        "医生"
+      ],
+      "action": "withdraw",
+      "reason": "DM-5 合影中被 W 提及的是博士；彩虹干员医生不在该场景。",
+      "expectedDigest": "2ea03196c3c098bbdd5524dc5570073a7fec31ab0f4a9aaa4a8f9a0179b1c269",
+      "sources": [
+        {
+          "kind": "story",
+          "source": "activities/act9d0/level_act9d0_03_end.txt",
+          "line": 259,
+          "endLine": 263
+        }
+      ]
+    },
+    {
+      "relationshipId": "char_243_waaifu|char_4125_rdoc",
+      "names": [
+        "槐琥",
+        "医生"
+      ],
+      "action": "withdraw",
+      "reason": "WB-9 中的医生是收留槐天裴的医馆医生，原文不支持将其识别为彩虹干员。",
+      "expectedDigest": "23ebbb5552aba88b11bbe55848668c5fe9f0a9926196d72db64696a64c3b038d",
+      "sources": [
+        {
+          "kind": "story",
+          "source": "activities/act23side/level_act23side_09_end.txt",
+          "line": 340,
+          "endLine": 349
+        }
+      ]
+    },
+    {
+      "relationshipId": "char_275_breeze|char_4125_rdoc",
+      "names": [
+        "微风",
+        "医生"
+      ],
+      "action": "withdraw",
+      "reason": "微风密录中的医生使用 avg_npc_033 立绘，属于维多利亚往事中的另一人物。",
+      "expectedDigest": "52d06b7b4d605ea48c8cb7258252e75dd6d0bb2c03865b78a0a0bd9bb2edd080",
+      "sources": [
+        {
+          "kind": "story",
+          "source": "obt/memory/story_breeze_2_1.txt",
+          "line": 239,
+          "endLine": 244
+        }
+      ]
+    },
+    {
+      "relationshipId": "char_4125_rdoc|char_4236_tmslot",
+      "names": [
+        "医生",
+        "时隙"
+      ],
+      "action": "withdraw",
+      "reason": "时隙密录中治疗打嗝的医生使用 avg_npc_070 立绘，没有彩虹干员身份依据。",
+      "expectedDigest": "98d429eec423c38717532e18c5ebff2df29a91e89f9180a903b48233215a1dc0",
+      "sources": [
+        {
+          "kind": "story",
+          "source": "obt/memory/story_tmslot_1_1.txt",
+          "line": 860,
+          "endLine": 894
+        }
+      ]
+    },
+    {
+      "relationshipId": "char_4125_rdoc|char_4237_jcinta",
+      "names": [
+        "医生",
+        "嘉辛塔"
+      ],
+      "action": "withdraw",
+      "reason": "嘉辛塔找到的是时隙密录中的匿名医生，不能按说话者称谓绑定彩虹干员。",
+      "expectedDigest": "48fd1d839622d640d2f3afb079c4b4003b36277684672c4837879a18b2afb6dd",
+      "sources": [
+        {
+          "kind": "story",
+          "source": "obt/memory/story_tmslot_1_1.txt",
+          "line": 857,
+          "endLine": 869
+        }
+      ]
+    },
+    {
+      "relationshipId": "char_4125_rdoc|npc_2b6410ed62fdecf2",
+      "names": [
+        "医生",
+        "大帝"
+      ],
+      "action": "withdraw",
+      "reason": "《好久不见》中与大帝交谈的是使用 avg_npc_331_1 立绘的当地医生。",
+      "expectedDigest": "6f8fa32f5a8f251f36d58215fab403905dddf194a501cbbaeec59ce79bedb8a6",
+      "sources": [
+        {
+          "kind": "story",
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act13mini/level_act13mini_st02.txt",
+          "line": 811,
+          "endLine": 821,
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ]
+    },
+    {
+      "relationshipId": "char_279_excu|char_4214_cairn",
+      "names": [
+        "送葬人",
+        "响石"
+      ],
+      "action": "withdraw",
+      "reason": "HE-5 中与费德里科交谈的费尔南是萨卡兹居民，不是菲林干员响石。",
+      "expectedDigest": "5db2fbd5ff7d08df203537a93c9e9d3aef38710af2f428bfb4a5c0ffdf999a33",
+      "sources": [
+        {
+          "kind": "story",
+          "source": "activities/act26side/level_act26side_05_beg.txt",
+          "line": 66,
+          "endLine": 80
+        }
+      ]
+    },
+    {
+      "relationshipId": "char_4214_cairn|npc_7452f6b260385f86",
+      "names": [
+        "响石",
+        "莱蒙德"
+      ],
+      "action": "withdraw",
+      "reason": "HE-5 中与莱蒙德交谈的费尔南是同名萨卡兹居民，不是响石。",
+      "expectedDigest": "7caf3d219b427c2718aadfb58a7a3e23b3afb2beb3b3ccd373265d1059990e8a",
+      "sources": [
+        {
+          "kind": "story",
+          "source": "ArknightsGameData/zh_CN/gamedata/story/activities/act26side/level_act26side_05_beg.txt",
+          "line": 35,
+          "endLine": 44,
+          "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+        }
+      ]
+    },
+    {
+      "relationshipId": "char_003_kalts|char_4125_rdoc",
+      "names": [
+        "凯尔希",
+        "医生"
+      ],
+      "action": "replace_evidence",
+      "reason": "撤除 DM-5 的博士及凯尔希称谓误认引文；关系沿用既有人工裁定，明确区分人工说明和剧情原文。",
+      "expectedDigest": "176de6fa3dd6e738602d7fce247b136a1af68e815de2f43fcff4c1ee5a69a3b3",
+      "sources": [
+        {
+          "kind": "story",
+          "source": "activities/act9d0/level_act9d0_03_end.txt",
+          "line": 259,
+          "endLine": 263
+        },
+        {
+          "kind": "story",
+          "source": "activities/act9d0/level_act9d0_03_end.txt",
+          "line": 268,
+          "endLine": 270
+        }
+      ],
+      "replacement": {
+        "quote": "【人工裁定，非剧情原文】\n凯尔希与彩虹小队干员医生（古斯塔夫·卡特伯）确认相识。",
+        "note": "关系依据为既有人工裁定，暂无直接剧情引文。《生于黑夜》DM-5 的博士及凯尔希称谓不能作为本关系的证据。",
+        "sources": [
+          {
+            "kind": "manual",
+            "source": "资料维护：凯尔希与彩虹小队医生的人工关系裁定",
+            "version": "2026-09-26"
+          }
+        ]
+      }
+    }
+  ],
+  "additions": [
+    {
+      "relationshipId": "char_450_necras|npc_69395c50206899b0",
+      "evidenceId": "editorial:story-identities-20260926:talulah-necrass",
+      "names": [
+        "死芒",
+        "塔露拉"
+      ],
+      "reason": "死芒即爱布拉娜·都柏林。主线 13-22 中两人直接交手并对话，足以确认双方互相认识。",
+      "edge": {
+        "id": "char_450_necras|npc_69395c50206899b0",
+        "source": "char_450_necras",
+        "target": "npc_69395c50206899b0",
+        "kind": "mutual",
+        "stableKeys": [
+          "char_450_necras|npc_69395c50206899b0"
+        ]
+      },
+      "evidence": {
+        "quote": "但随即，爱布拉娜醒悟过来。\n这个名为塔露拉的德拉克从未挪开过眼神。\n烈火在撕咬死火。\n情感在撕咬情感。\n塔露拉在撕咬爱布拉娜。\n此刻虚无的鲜血淋漓。\n爱布拉娜笑了。\n爱布拉娜：塔露拉·雅特利亚斯，爱德华的女儿，维多利亚王座的合法继承人。\n爱布拉娜：这就是——\n爱布拉娜：货真价实的你。\n塔露拉：我们毫无瓜葛，深池的德拉克。\n爱布拉娜：这是你说了算的吗？\n爱布拉娜：瞧瞧你，红龙，你如此强大，如此澎湃。\n爱布拉娜：你就这么心甘情愿，把红龙的荣耀再度拱手让出，让那些阿斯兰再度践踏西部大堂的红色地毯？\n爱布拉娜：维多利亚是德拉克建立的国家，塔露拉。",
+        "note": "确认相识。死芒的客观履历确认其本名为爱布拉娜·都柏林。主线第十三章 13-22《灾厄积渐》中，两人直接交手；爱布拉娜点明塔露拉的身份，塔露拉回应并识别其为深池的德拉克。这里的双向认识不表示友好关系。",
+        "sources": [
+          {
+            "kind": "story",
+            "source": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+            "line": 701,
+            "endLine": 732,
+            "version": "0ef7f952dfd018392200157a5c79a6511ba69122"
+          },
+          {
+            "kind": "profile",
+            "source": "char_450_necras/archive/客观履历"
+          }
+        ]
+      },
+      "sourceChecks": [
+        {
+          "path": "ArknightsGameData/zh_CN/gamedata/story/obt/main/level_st_13-03.txt",
+          "sha256": "67c57087397bc802390ff3627cf97cdc9ae2687481c2358f5321e214731eefb1"
+        },
+        {
+          "path": "ArknightsOperatorProfiles/operators/char_450_necras/data.json",
+          "sha256": "cd05a798463af7ff906105f62b130b7a2eda458cf4eb3cbeaeb93d2dfcd9f7d8"
+        }
+      ]
+    }
+  ]
+}
