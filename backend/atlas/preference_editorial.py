@@ -273,7 +273,7 @@ def purge(now=None):
     events = delete_batches(PreferenceEvent.objects.filter(
         created_at__lt=detail_cutoff, kind__in=state_kinds).filter(Exists(later)))
     events += delete_batches(PreferenceEvent.objects.filter(
-        created_at__lt=detail_cutoff, kind__in=["task_void", "coverage_task_issued"]))
+        created_at__lt=detail_cutoff, kind__in=["task_void", "coverage_task_issued", "proximity_task_issued"]))
     return {"risk_signals": risk, "rates": rates, "operations": operations, "tasks": tasks, "events": events}
 
 

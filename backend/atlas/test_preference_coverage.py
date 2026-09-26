@@ -22,7 +22,7 @@ from .preference_subjects import subjects
 from .test_preferences import perform, setup_data
 
 
-@override_settings(PREFERENCE_COVERAGE_FRACTION=1)
+@override_settings(PREFERENCE_COVERAGE_FRACTION=1, PREFERENCE_PROXIMITY_FRACTION=0)
 class FormCoverageTests(TestCase):
     def setUp(self):
         self.now = timezone.now()

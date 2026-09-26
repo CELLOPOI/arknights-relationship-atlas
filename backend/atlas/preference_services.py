@@ -22,6 +22,8 @@ from .preference_models import (
     PreferenceRiskSignal,
     PreferenceTask,
 )
+from .preference_proximity import STRATEGY as PROXIMITY_STRATEGY
+from .preference_proximity import proximity_pair
 from .preference_subjects import subjects
 
 
@@ -232,17 +234,29 @@ def issue_task(participant, current):
                 .exclude(status="void").values_list("pair_key", flat=True))
     candidates = {sid: row for sid, row in subjects(cat).items()
                   if sid not in current.paused_objects and row.get("form_id") not in current.paused_objects}
-    by_person = {pid: [sid for sid, row in candidates.items() if row["person_id"] == pid] for pid in eligible_people(cat)}
-    people = [pid for pid in eligible_people(cat) if by_person[pid] and counts[pid] < settings.PREFERENCE_PERSON_LIMIT and pid not in current.paused_objects]
+    by_person = {pid: [] for pid in eligible_people(cat)}
+    for sid, row in candidates.items():
+        by_person[row["person_id"]].append(sid)
+    people = [pid for pid, forms in by_person.items()
+              if forms and counts[pid] < settings.PREFERENCE_PERSON_LIMIT and pid not in current.paused_objects]
     rng = secrets.SystemRandom()
     rng.shuffle(people)
     strategy = "uniform-v1"
     targets, coverage_details = [(pid, None) for pid in people], {}
-    if rng.random() < settings.PREFERENCE_COVERAGE_FRACTION:
+    selected, proximity_details, fallback = None, {}, None
+    draw = rng.random()
+    if settings.PREFERENCE_COVERAGE_FRACTION <= draw < (
+        settings.PREFERENCE_COVERAGE_FRACTION + settings.PREFERENCE_PROXIMITY_FRACTION
+    ):
+        selected, proximity_details = proximity_pair(current, participant, candidates, people, pairs, now, rng)
+        if selected:
+            strategy = PROXIMITY_STRATEGY
+        else:
+            fallback = proximity_details["reason"]
+    if draw < settings.PREFERENCE_COVERAGE_FRACTION or fallback:
         strategy = COVERAGE_STRATEGY
         targets, coverage_details = coverage_targets(current, participant, candidates, people, now, rng)
-    selected = None
-    for left, target_subject in targets:
+    for left, target_subject in targets if selected is None else []:
         opponents = [right for right in people if right != left and "|".join(sorted((left, right))) not in pairs]
         rng.shuffle(opponents)
         for right in opponents:
@@ -261,7 +275,12 @@ def issue_task(participant, current):
         left_subject_id=selected[0], right_subject_id=selected[1], pair_key="|".join(sorted(selected)), strategy=strategy, issued_at=now,
         expires_at=now + timedelta(hours=settings.PREFERENCE_TASK_HOURS), risk_status=participant.risk_status)
     if strategy == COVERAGE_STRATEGY:
-        audit(participant, "coverage_task_issued", {}, {"strategy": strategy, **coverage_details[target_subject]}, str(task.pk))
+        details = {"strategy": strategy, **coverage_details[target_subject]}
+        if fallback:
+            details["proximity_fallback"] = fallback
+        audit(participant, "coverage_task_issued", {}, details, str(task.pk))
+    elif strategy == PROXIMITY_STRATEGY:
+        audit(participant, "proximity_task_issued", {}, {"strategy": strategy, **proximity_details}, str(task.pk))
     return {"task": task_data(task), "quota": quota(participant, now)}
 
 
