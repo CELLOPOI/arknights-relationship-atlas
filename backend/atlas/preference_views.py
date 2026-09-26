@@ -274,7 +274,7 @@ def rankings(request):
     current_catalog = control().catalog_id
     snapshot = query.first() if request.GET.get("snapshot_id") else (query.filter(catalog_version=current_catalog,
                 algorithm_version=algorithm_version()).first() or query.filter(catalog_version=current_catalog).first() or query.first())
-    delay = timedelta(hours=2) if kind == "random" else timedelta(minutes=30)
+    delay = timedelta(minutes=settings.PREFERENCE_AGGREGATION_INTERVAL_MINUTES * 2)
     current = control()
     stale = snapshot and (snapshot.generated_at < timezone.now() - delay or snapshot.revision < current.revision
                           or snapshot.catalog_version != current.catalog_id or snapshot.algorithm_version != algorithm_version())
@@ -286,15 +286,20 @@ def rankings(request):
 def trends(request):
     kind, window, object_id, scope = result_query(request)
     raw = PreferenceSnapshot.objects.filter(scope=scope, kind=kind, window=window, object_id=object_id).order_by("-cutoff", "-revision")
-    # 每日保留最新成功节点，同时保留同日口径变化；不让15分钟更新挤掉长期趋势。
-    seen, snapshots = set(), []
-    for snapshot in raw.filter(cutoff__gte=timezone.now() - timedelta(days=180)):
-        key = (snapshot.cutoff.date(), *series_key(snapshot))
+    # 先只读日期与口径字段，避免为筛选每日节点反序列化整个历史的榜单明细。
+    metadata = raw.filter(cutoff__gte=timezone.now() - timedelta(days=180)).values_list(
+        "pk", "cutoff", "scope", "catalog_version", "algorithm_version", "asset_version",
+        "payload__reference_version", "revision")
+    seen, selected_ids = set(), []
+    for pk, cutoff, *series in metadata.iterator(chunk_size=512):
+        key = (cutoff.date(), *series)
         if key not in seen:
-            snapshots.append(snapshot)
+            selected_ids.append(pk)
             seen.add(key)
-        if len(snapshots) == 180:
+        if len(selected_ids) == 180:
             break
+    selected = raw.in_bulk(selected_ids)
+    snapshots = [selected[pk] for pk in selected_ids if pk in selected]
     changes = {"7": None, "28": None}
     if kind in ("support", "composite") and snapshots:
         latest = next((s for s in snapshots if s.catalog_version == control().catalog_id

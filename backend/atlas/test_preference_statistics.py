@@ -18,7 +18,14 @@ from .preference_models import (
 )
 from .preference_services import quota, update_supports
 from .preference_solver import PreparedBT
-from .preference_statistics import aggregate, algorithm_version, analyze_random, attach_rank_intervals
+from .preference_statistics import (
+    aggregate,
+    algorithm_version,
+    analyze_random,
+    attach_rank_intervals,
+    random_result,
+    random_window_results,
+)
 from .test_preferences import payload, perform, setup_data
 
 
@@ -54,6 +61,57 @@ class RandomStatisticsTests(SimpleTestCase):
         self.assertEqual(long["diagnostics"]["bootstrap"]["successful"], 24)
         self.assertTrue(all(row["rank_interval"] for row in long["rows"] if row["rank"]))
         self.assertIsNone(next(row for row in long["rows"] if row["id"] == "d")["score"])
+
+    def test_identical_windows_reuse_four_analyses_as_two_with_identical_results(self):
+        subject_ids = {"a": "form:f1", "b": "person:b", "c": "person:c"}
+        rows = [dict(row, left_subject_id=subject_ids[row["left_id"]],
+                     right_subject_id=subject_ids[row["right_id"]]) for row in self.rows]
+        with patch("atlas.preference_statistics.random_result", wraps=random_result) as calculation:
+            expected = {scope: {window: calculation(payload(), self.cutoff, window, scope, rows=rows)
+                                for window in (84, 28)} for scope in ("person", "form")}
+            self.assertEqual(calculation.call_count, 4)
+            calculation.reset_mock()
+            actual = {scope: random_window_results(payload(), self.cutoff, scope, rows=rows)
+                      for scope in ("person", "form")}
+        self.assertEqual(calculation.call_count, 2)
+        self.assertEqual(actual, expected)
+        for results in actual.values():
+            self.assertNotEqual(results[84]["window_start"], results[28]["window_start"])
+            self.assertEqual(results[84]["window_end"], results[28]["window_end"])
+            self.assertEqual(results[84]["actual_days"], 2)
+            saved = deepcopy(results[84])
+            results[28]["rows"][0]["score"] = -1
+            results[28]["diagnostics"]["bootstrap"]["successful"] = -1
+            results[28]["parameters"]["prior"] = -1
+            self.assertEqual(results[84], saved)
+
+    def test_old_noncomparison_and_exact_boundary_records_disable_reuse(self):
+        for outcome in ("choose", "skip", "unfamiliar_left", "unfamiliar_both"):
+            for age in (timedelta(days=28), timedelta(days=40)):
+                with self.subTest(outcome=outcome, age=age):
+                    old = dict(self.rows[0], id=999, participant_id="older", outcome=outcome,
+                               accepted_at=self.cutoff - age)
+                    rows = [*self.rows, old]
+                    with patch("atlas.preference_statistics.random_result", wraps=random_result) as calculation:
+                        results = random_window_results(payload(), self.cutoff, "person", rows=rows)
+                    self.assertEqual(calculation.call_count, 2)
+                    self.assertEqual(results[28], random_result(payload(), self.cutoff, 28, "person", rows=rows))
+                    self.assertEqual(results[84], random_result(payload(), self.cutoff, 84, "person", rows=rows))
+                    long_a = next(row for row in results[84]["rows"] if row["id"] == "a")
+                    short_a = next(row for row in results[28]["rows"] if row["id"] == "a")
+                    self.assertEqual(long_a["completed_displays"], short_a["completed_displays"] + 1)
+                    if outcome.startswith("unfamiliar"):
+                        self.assertEqual(long_a["unfamiliar_count"], short_a["unfamiliar_count"] + 1)
+
+    def test_just_inside_boundary_and_empty_inputs_reuse_without_wrong_duration(self):
+        boundary = self.cutoff - timedelta(days=28) + timedelta(microseconds=1)
+        for rows, days in (([dict(self.rows[0], accepted_at=boundary)], 28), ([], 0)):
+            with self.subTest(days=days):
+                with patch("atlas.preference_statistics.random_result", wraps=random_result) as calculation:
+                    results = random_window_results(payload(), self.cutoff, "person", rows=rows)
+                self.assertEqual(calculation.call_count, 1)
+                self.assertEqual(results[28]["actual_days"], days)
+                self.assertEqual(results[28], random_result(payload(), self.cutoff, 28, "person", rows=rows))
 
     @override_settings(PREFERENCE_BT_MAX_ITERATIONS=1)
     def test_failed_main_fit_does_not_publish_scores_intervals_or_ranks(self):
@@ -175,7 +233,9 @@ class AlgorithmSnapshotPreservationTests(TestCase):
                   PreferenceOperation, PreferenceCatalog)
         before = {model: list(model.objects.order_by("pk").values()) for model in models}
         before_quota = quota(participant, cutoff)
-        created = aggregate(cutoff)
+        with patch("atlas.preference_statistics.random_result", wraps=random_result) as calculation:
+            created = aggregate(cutoff)
+        self.assertEqual(calculation.call_count, 2)
         for model in models:
             self.assertEqual(list(model.objects.order_by("pk").values()), before[model])
         self.assertEqual(quota(participant, cutoff), before_quota)
