@@ -127,7 +127,8 @@ class PreparedBT:
         # 除以该人物比较总量+2prior，避免高参与量本身放大停止条件。
         residual = float(np.max(np.abs(wins + prior - expected - 2 * prior * anchor_probability)
                                    / (degree + 2 * prior)))
-        objective = float(np.dot(wins, logs)
-                          - np.dot(counts, np.logaddexp(logs[self._left], logs[self._right]))
+        # 向量归约无需调用 BLAS，避免短点积唤醒多个线程并在迭代期间忙等。
+        objective = float(np.sum(wins * logs)
+                          - np.sum(counts * np.logaddexp(logs[self._left], logs[self._right]))
                           + prior * np.sum(logs - 2 * np.logaddexp(0, logs)))
         return residual, objective

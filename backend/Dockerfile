@@ -16,6 +16,8 @@ RUN find /assets -type f -exec chmod 644 {} + \
 FROM base
 WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 ASSET_MANIFEST_PATH=/app/assets/resource-manifest.json PREFERENCE_ASSET_ROOT=/app/assets/preferences PREFERENCE_MANIFEST_PATH=/app/assets/preferences-manifest.json
+# 小规模数值归约不需要多核 BLAS，默认保留 CPU 给网页请求。
+ENV OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
 RUN groupadd --gid 10001 atlas && useradd --uid 10001 --gid 10001 --create-home atlas \
     && mkdir -p staticfiles && chown atlas:atlas staticfiles
 # 复制时设置归属，避免末尾 chown -R 再生成包含全部素材的大层。

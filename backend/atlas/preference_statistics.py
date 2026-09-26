@@ -2,6 +2,7 @@
 import math
 import random
 from collections import Counter, defaultdict
+from copy import deepcopy
 from datetime import timedelta
 
 import numpy as np
@@ -274,6 +275,21 @@ def random_result(catalog, cutoff, window, scope="person", *, rows=None):
     return {**analyze_random(target, cutoff, window, projected), "scope": scope}
 
 
+def random_window_results(catalog, cutoff, scope, *, rows):
+    """仅本轮同口径复用完整输入一致的窗口，不缓存跨轮状态。"""
+    long = random_result(catalog, cutoff, 84, scope, rows=rows)
+    short_start = cutoff - timedelta(days=28)
+    # 包含跳过和不熟悉记录；恰在28天边界的记录仅属于84天窗口。
+    # 判定使用本轮取出的全部原始行，宁可少复用，也不因投影/去重遗漏展示事实。
+    if all(row["accepted_at"] > short_start for row in rows):
+        short = deepcopy(long)
+        short["window_start"] = iso(short_start)
+        short["actual_days"] = min(28, long["actual_days"])
+    else:
+        short = random_result(catalog, cutoff, 28, scope, rows=rows)
+    return {84: long, 28: short}
+
+
 def current_states(cutoff):
     valid = set(PreferenceParticipant.objects.filter(risk_status="accepted", created_at__lte=cutoff).values_list("pk", flat=True))
     supports, choices = {}, {}
@@ -356,7 +372,8 @@ def aggregate(cutoff=None, reason="", catalog_version=None, force_revision=False
 
     values = []
     for scope in ("person", "form"):
-        scoped = [("random", "", window, random_result(catalog, cutoff, window, scope, rows=rows)) for window in (84, 28)]
+        scoped = [("random", "", window, payload)
+                  for window, payload in random_window_results(catalog, cutoff, scope, rows=rows).items()]
         scoped += [(kind, object_id, 0, payload) for kind, object_id, payload in registration_results(catalog, cutoff, scope, states=states)]
         random_payload = scoped[0][3]
         support_payload = next(payload for kind, _, _, payload in scoped if kind == "support")

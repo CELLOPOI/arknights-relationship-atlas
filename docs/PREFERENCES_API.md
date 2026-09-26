@@ -48,7 +48,7 @@ GET `records/` 返回 `{records:Task[],next_cursor:null|string}`，按受理时�
 
 后端管理命令：`preference_catalog draft --actor <staff> --file <catalog.json> --reason <依据>`，随后 `approve --catalog-version <版本> --actor <staff> --reason <审核意见>`，再 `preview --catalog-version <版本> --actor <staff> --preview <新文件>`。阅读差异后 `publish --catalog-version <版本> --actor <staff> --preview <文件>`；预览绑定账号、内容摘要、基线、审核人及运行修订号，1小时有效。后台同样提供审核/预览/确认发布入口。没有初始化脚本自动发布名录。
 
-`aggregate_preferences` 使用同一事务输入截止点、数据库锁和幂等快照。调度每15分钟运行（包含84/28天模型与登记汇总），每日固定时点的快照因此也被保存；调度由部署者配置。失败保持最后成功快照，在运行控制中记录错误类型。`review_preference_risk <私有参与标识> --status accepted|pending|excluded --actor <staff> --reason <依据>` 记录复核并重算可回放历史，新修订保留 supersedes；后台提供同样操作。超出完整明细保留范围的历史快照保留旧版，不宣称精确重算。
+`aggregate_preferences` 使用同一事务输入截止点、数据库锁和幂等快照。调度每60分钟运行（包含84/28天模型与登记汇总），每日固定时点的快照因此也被保存；宿主机调度由部署者另行配置。所有榜种使用两倍汇总间隔（默认两小时）判定时间延迟，版本变化仍立即判过期。命令成功后输出实际耗时和进程 CPU 时间。失败保持最后成功快照，在运行控制中记录错误类型。`review_preference_risk <私有参与标识> --status accepted|pending|excluded --actor <staff> --reason <依据>` 记录复核并重算可回放历史，新修订保留 supersedes；后台提供同样操作。超出完整明细保留范围的历史快照保留旧版，不宣称精确重算。
 
 `purge_preferences` 每日清理：风险信号30天、任务/幂等回执/被替代变更180天；当前支持、当前选择与必要的最终事件、名录、公开快照持续保留。运行开关在后台“喜好运行开关”，包括总读写、任务、支持、选择及资源故障对象暂停。`PREFERENCES_ENABLED=0` 可独立关闭此功能。所有管理命令应使用真实授权 staff；正式人物资料保护始终保持开启。
 
@@ -62,7 +62,7 @@ GET `records/` 返回 `{records:Task[],next_cursor:null|string}`，按受理时�
 
 每次发布全局名录，旧版本全部待答任务原子作废并返还预留额度；已接受答案保留原名录引用。此规则包括仅文字勘误的全局发布。人物形态确认版本独立于全局版本：源名录未指定 form_catalog_version 时按合格形态ID集合派生，并在公开 catalog 响应补齐；名称/文字修改不要求重新确认。显式确认版本不得在任何历史中用于不同候选集合。
 
-支持7/28天变化使用目标日之前24小时内最近快照，缺少该日可比基线则返回null，不能把更早的任意历史差值标成7/28天变化。
+支持7/28天变化使用目标日之前24小时内最近快照，缺少该日可比基线则返回null，不能把更早的任意历史差值标成7/28天变化。趋势先读取日期和口径元数据选出最多180个节点，再加载选中快照的完整榜单；UTC日分组、同日口径变化和返回格式保持不变。
 
 已验证 PostgreSQL 16 的 `pg_dump --format=custom` → 独立新库 `pg_restore --exit-on-error` 合成演练；在空缓存下核对支持/本命、皮肤确认、版本、冷却、派发额度、正式答案、幂等回执和统计快照。演练库已清理，验证产物留在忽略的 `.runtime/verification/preferences-backup-restore/`，未使用业务或预览数据。该验证不代表生产备份策略或容量验收。
 
