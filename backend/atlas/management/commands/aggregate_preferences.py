@@ -8,7 +8,7 @@ from atlas.preference_statistics import aggregate
 
 
 class Command(BaseCommand):
-    help = "Aggregate actual preference records; schedule hourly, retaining daily snapshots."
+    help = "Aggregate actual preference records; schedule every 30 minutes, retaining daily snapshots."
 
     def add_arguments(self, parser):
         parser.add_argument("--cutoff")
