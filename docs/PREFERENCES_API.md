@@ -8,6 +8,8 @@ GET `runtime/` 返回 `{catalog_version:string|null,config,server_time:string}`�
 
 兼容原客户端的 GET `catalog/` 返回 `{catalog: Catalog|null, config: {weekly_limit:300,rolling_limit:1200,person_limit:6,support_limit:15,favorite_limit:3,rest_interval:50,pair_repeat_days:84,cooldown_hours:24,task_hours:24,phase:"trial",writes_enabled:boolean,tasks_enabled:boolean,supports_enabled:boolean,choices_enabled:boolean},server_time:string}`。
 
+`runtime/` 与 `catalog/` 的 `config` 还返回 `coverage_fraction:0.1`、`proximity_fraction:0.3`、`proximity_max_score_gap:5`，普通随机概率为剩余的 0.6。它们描述服务端新派题策略，客户端不能指定对手、策略或统计权重；近分对位不可用时转为补覆盖，故实际各类题数可能不同于设定比例。
+
 Catalog 为 `{version,asset_version,source_version,persons:Person[],forms:Form[],appearances:Appearance[],professions:Profession[],subjects:Subject[], ...coverage}`。Person 为 `{id,name,aliases:string[],kind:"operator"|"npc",eligible:boolean,representative_url,form_ids:string[],form_catalog_version?:string}`。Form 为 `{id,person_id,name,profession,order,default_appearance_id,catalog_version,eligible:boolean,complete:boolean,appearance_ids:string[]}`。Appearance 为 `{id,form_id,name,kind:"base"|"elite"|"outfit",image_url,thumbnail_url,portrait_url,focus:{crop,method,reviewed},eligible:boolean,...provenance}`。Profession 为 `{id,name,icon_url}`。Subject 继承 Person 的显示字段，增加 `{person_id,form_id:string|null}`；id 为 `form:<形态ID>` 或无形态人物的 `person:<人物ID>`，name 与 representative_url 是具体形态的固定题面。六个确认的临时支援实例不重复加入 subjects，原始 forms 保留。候选显示顺序可以由前端用服务器返回的 `choice_order_seed` 加对象/名录版本进行稳定散列排序；不影响统计。
 
 GET `state/` 与 POST `identity/` 返回：

@@ -142,6 +142,8 @@ def runtime_payload(current):
         "weekly_limit": settings.PREFERENCE_WEEKLY_LIMIT, "rolling_limit": settings.PREFERENCE_ROLLING_LIMIT,
         "person_limit": settings.PREFERENCE_PERSON_LIMIT, "support_limit": settings.PREFERENCE_SUPPORT_LIMIT, "favorite_limit": settings.PREFERENCE_FAVORITE_LIMIT,
         "rolling_days": settings.PREFERENCE_ROLLING_DAYS, "coverage_fraction": settings.PREFERENCE_COVERAGE_FRACTION,
+        "proximity_fraction": settings.PREFERENCE_PROXIMITY_FRACTION,
+        "proximity_max_score_gap": settings.PREFERENCE_PROXIMITY_MAX_SCORE_GAP,
         "rest_interval": settings.PREFERENCE_REST_INTERVAL, "pair_repeat_days": settings.PREFERENCE_PAIR_REPEAT_DAYS,
         "cooldown_hours": settings.PREFERENCE_COOLDOWN_HOURS, "task_hours": settings.PREFERENCE_TASK_HOURS,
         "phase": "trial", "writes_enabled": current.writes_enabled, "tasks_enabled": current.tasks_enabled,

@@ -33,17 +33,21 @@ def sample_need(row):
     return 0., "subject_exposure"
 
 
-def coverage_targets(current, participant, candidates, people, now, rng):
+def recent_form_snapshot(current, now):
     # 统计模块依赖写服务；仅在运行时取版本，避免模块初始化循环。
     from .preference_statistics import algorithm_version
 
     delay = timedelta(minutes=settings.PREFERENCE_AGGREGATION_INTERVAL_MINUTES * 2)
-    snapshot = PreferenceSnapshot.objects.filter(
+    return PreferenceSnapshot.objects.filter(
         scope="form", kind="random", object_id="", window=settings.PREFERENCE_ROLLING_DAYS,
         catalog_version=current.catalog_id, asset_version=current.catalog.payload["asset_version"],
         algorithm_version=algorithm_version(), revision=current.revision,
         cutoff__gt=now - delay, cutoff__lte=now, generated_at__lte=now,
     ).first()
+
+
+def coverage_targets(current, participant, candidates, people, now, rng):
+    snapshot = recent_form_snapshot(current, now)
     rows = {row["id"]: row for row in snapshot.payload.get("rows", [])} if snapshot else {}
     exposure, reserved = Counter(), Counter()
     issued = PreferenceTask.objects.filter(
